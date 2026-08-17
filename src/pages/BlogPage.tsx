@@ -3,6 +3,8 @@ import { Calendar, ArrowRight, TrendingUp, Sparkles } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
+import FAQ from '../components/FAQ';
+import { blogFAQs } from '../content/faq';
 import { getPublishedPosts, getCategoryBySlug, BlogPost } from '../content/blog';
 
 export default function BlogPage() {
@@ -171,6 +173,7 @@ export default function BlogPage() {
         </div>
       </div>
 
+      <FAQ items={blogFAQs} />
       <Footer />
     </div>
   );

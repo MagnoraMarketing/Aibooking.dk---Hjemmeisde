@@ -1,5 +1,7 @@
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import FAQ from '../components/FAQ';
+import { healthcareFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { TrendingUp, Clock, Calendar, Users, CheckCircle, Phone } from 'lucide-react';
@@ -194,6 +196,7 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
         </div>
       </section>
 
+      <FAQ items={healthcareFAQs} />
       <Footer onNavigate={onNavigate} />
     </div>
   );

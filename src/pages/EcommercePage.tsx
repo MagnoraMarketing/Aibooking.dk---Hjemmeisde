@@ -1,5 +1,7 @@
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import FAQ from '../components/FAQ';
+import { ecommerceFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { Clock, Users, MessageSquare, CheckSquare, CheckCircle, ShoppingCart } from 'lucide-react';
@@ -194,6 +196,7 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
         </div>
       </section>
 
+      <FAQ items={ecommerceFAQs} />
       <Footer onNavigate={onNavigate} />
     </div>
   );

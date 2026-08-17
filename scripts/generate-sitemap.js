@@ -35,7 +35,32 @@ const routeMap = {
     '/blog/ai-widget-integration-bedste-praksis',
     '/blog/ai-telefonassistent-fremtidens-kundeservice',
     '/blog/komplet-ai-automatisering-widget-telefon-booking',
-    '/blog/roi-ai-automatisering-virksomheder'
+    '/blog/roi-ai-automatisering-virksomheder',
+    '/blog/ai-widget-webshop-konvertering-dognet-rundt',
+    '/blog/ai-widget-klinik-book-tid-udenfor-aabningstid',
+    '/blog/fordele-ai-widget-mindre-virksomheder',
+    '/blog/ai-widget-spar-tid-spar-penge',
+    '/blog/miste-kunde-langsom-hjemmeside',
+    '/blog/ai-widget-vs-kontaktformular',
+    '/blog/vaelg-den-rigtige-ai-widget',
+    '/blog/ai-widget-gdpr-danske-virksomheder',
+    '/blog/ai-telefonassistent-klinik-udeblivelser',
+    '/blog/aldrig-mere-ubesvaret-opkald',
+    '/blog/outbound-ai-opkald-paamindelser',
+    '/blog/ai-telefonassistent-haandvaerker',
+    '/blog/ai-telefon-vs-telefonsvarer',
+    '/blog/sma-virksomheder-telefon-tid-penge',
+    '/blog/ai-telefonassistent-dansk-sprog',
+    '/blog/inbound-outbound-forskel',
+    '/blog/ai-telefonassistent-kontor-administration',
+    '/blog/aldrig-mist-en-kunde-igen',
+    '/blog/totalloesning-webshop',
+    '/blog/totalloesning-klinik',
+    '/blog/mindre-virksomhed-stor-virkning-ai',
+    '/blog/frigoer-tid-er-penge',
+    '/blog/automatisering-uden-flere-medarbejdere',
+    '/blog/kundeoplevelse-ai-automatisering',
+    '/blog/kom-i-gang-ai-automatisering-trin-for-trin'
   ]
 };
 

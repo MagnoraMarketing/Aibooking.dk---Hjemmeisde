@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import { Zap, Mic, Calendar, Clock, CheckCircle, MessageSquare, PhoneCall, Star, Shield, Globe, ChevronDown, ArrowRight, Phone } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import FAQ from '../components/FAQ';
+import { widgetFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 
 declare global {
@@ -830,6 +832,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
         </section>
 
       </main>
+      <FAQ items={widgetFAQs} />
       <Footer onNavigate={onNavigate} />
     </>
   );

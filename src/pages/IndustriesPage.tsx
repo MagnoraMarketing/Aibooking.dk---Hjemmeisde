@@ -1,5 +1,7 @@
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import FAQ from '../components/FAQ';
+import { industriesFAQs } from '../content/faq';
 import IndustrySection from '../components/industries/IndustrySection';
 import ContactForm from '../components/industries/ContactForm';
 import IndustrySEO from '../components/industries/IndustrySEO';
@@ -190,6 +192,7 @@ Aibooking.dk giver dig AI-drevet kundeservice der aldrig sover. Systemet besvare
         </div>
       </div>
 
+      <FAQ items={industriesFAQs} />
       <Footer onNavigate={onNavigate} />
     </div>
   );

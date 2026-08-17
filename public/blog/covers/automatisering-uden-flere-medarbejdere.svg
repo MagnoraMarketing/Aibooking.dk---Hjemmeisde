@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-automatiseri" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(111 0.5 0.5)">
+      <stop offset="0%" stop-color="#372f52"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+    <radialGradient id="glow1-automatiseri" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-automatiseri" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-automatiseri" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-automatiseri)"/>
+  <rect width="1200" height="675" fill="url(#dots-automatiseri)"/>
+  <circle cx="299.73433976992965" cy="128.54776843450963" r="372.12443474680185" fill="url(#glow1-automatiseri)"/>
+  <circle cx="1023.8849853747524" cy="547.6300748647191" r="379.4491575425491" fill="url(#glow2-automatiseri)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#f59e0b" stroke-width="140" opacity="0.10"
+    transform="rotate(276 600 337.5)"/>
+
+  <circle cx="110.77680703997613" cy="173.02694011386487" r="29.415507161058486" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+  <circle cx="231.1652229689062" cy="568.3313272939995" r="16.27439615363255" fill="#7c3aed" opacity="0.18"/>
+
+  <g transform="translate(707.7142182737589 348.57845876924694) rotate(3)">
+    <circle r="86.2240401932504" fill="white" opacity="0.06"/>
+    <circle r="86.2240401932504" fill="none" stroke="white" stroke-opacity="0.20" stroke-width="1.5"/>
+    <rect x="-62.708392867818475" y="-62.708392867818475" width="125.41678573563695" height="125.41678573563695" rx="31.354196433909237"
+      fill="url(#glow1-automatiseri)" opacity="0.9"/>
+    <rect x="-62.708392867818475" y="-62.708392867818475" width="125.41678573563695" height="125.41678573563695" rx="31.354196433909237"
+      fill="#6d28d9" opacity="0.55"/>
+    <g transform="scale(7.838549108477309) translate(-12 -12)">
+      <rect x="4" y="5" width="16" height="14" rx="2" fill="none" stroke="white" stroke-width="1.6"/><path d="M4 9.5h16M8 3v4M16 3v4" stroke="white" stroke-width="1.6" stroke-linecap="round"/><circle cx="9" cy="14" r="1.1" fill="white"/><circle cx="15" cy="14" r="1.1" fill="white"/>
+    </g>
+  </g>
+</svg>

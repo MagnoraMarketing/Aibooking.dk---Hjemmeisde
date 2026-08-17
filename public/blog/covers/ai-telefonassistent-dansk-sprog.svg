@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-aitelefonass" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(212 0.5 0.5)">
+      <stop offset="0%" stop-color="#0c081a"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <radialGradient id="glow1-aitelefonass" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-aitelefonass" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-aitelefonass" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.09"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-aitelefonass)"/>
+  <rect width="1200" height="675" fill="url(#dots-aitelefonass)"/>
+  <circle cx="329.16041078278795" cy="165.58829667046666" r="311.45308282226324" fill="url(#glow1-aitelefonass)"/>
+  <circle cx="872.5395874935202" cy="437.5786240794696" r="292.1663822932169" fill="url(#glow2-aitelefonass)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#f59e0b" stroke-width="140" opacity="0.16"
+    transform="rotate(84 600 337.5)"/>
+
+  <circle cx="1054.4603017754853" cy="178.6496203634888" r="47.729573651682585" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+  <circle cx="200.2464123442769" cy="599.0013630855829" r="14.464424947742373" fill="#7c3aed" opacity="0.18"/>
+
+  <g transform="translate(590.8780121952295 272.8024252667092) rotate(-1)">
+    <circle r="89.92757664911915" fill="white" opacity="0.06"/>
+    <circle r="89.92757664911915" fill="none" stroke="white" stroke-opacity="0.15" stroke-width="1.5"/>
+    <rect x="-65.4018739266321" y="-65.4018739266321" width="130.8037478532642" height="130.8037478532642" rx="32.70093696331605"
+      fill="url(#glow1-aitelefonass)" opacity="0.9"/>
+    <rect x="-65.4018739266321" y="-65.4018739266321" width="130.8037478532642" height="130.8037478532642" rx="32.70093696331605"
+      fill="#8b5cf6" opacity="0.55"/>
+    <g transform="scale(8.175234240829013) translate(-12 -12)">
+      <path d="M6 3h4l2 5-2.5 1.5a12 12 0 0 0 5 5L16 12l5 2v4a2 2 0 0 1-2 2C10.5 20 4 13.5 4 5a2 2 0 0 1 2-2z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

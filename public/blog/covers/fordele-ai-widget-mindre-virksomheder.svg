@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-fordeleaiwid" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(112 0.5 0.5)">
+      <stop offset="0%" stop-color="#0c081a"/>
+      <stop offset="100%" stop-color="#5b21b6"/>
+    </linearGradient>
+    <radialGradient id="glow1-fordeleaiwid" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-fordeleaiwid" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d97706" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-fordeleaiwid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-fordeleaiwid)"/>
+  <rect width="1200" height="675" fill="url(#dots-fordeleaiwid)"/>
+  <circle cx="252.4698895867914" cy="146.8679626006633" r="246.35996025055647" fill="url(#glow1-fordeleaiwid)"/>
+  <circle cx="1064.891341375187" cy="525.8520401781425" r="364.3562361970544" fill="url(#glow2-fordeleaiwid)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#d97706" stroke-width="140" opacity="0.17"
+    transform="rotate(124 600 337.5)"/>
+
+  <circle cx="275.292492762208" cy="193.9627654273063" r="35.35057309316471" fill="none" stroke="#d97706" stroke-width="2" opacity="0.5"/>
+  <circle cx="88.0919024348259" cy="555.0807748949155" r="21.128074878826737" fill="#7c3aed" opacity="0.18"/>
+
+  <g transform="translate(683.6805811822413 323.83690196089447) rotate(-8)">
+    <circle r="78.27228892047424" fill="white" opacity="0.06"/>
+    <circle r="78.27228892047424" fill="none" stroke="white" stroke-opacity="0.18" stroke-width="1.5"/>
+    <rect x="-56.925301033072174" y="-56.925301033072174" width="113.85060206614435" height="113.85060206614435" rx="28.462650516536087"
+      fill="url(#glow1-fordeleaiwid)" opacity="0.9"/>
+    <rect x="-56.925301033072174" y="-56.925301033072174" width="113.85060206614435" height="113.85060206614435" rx="28.462650516536087"
+      fill="#5b21b6" opacity="0.55"/>
+    <g transform="scale(7.115662629134022) translate(-12 -12)">
+      <path d="M4 4h16v12H8l-4 4V4z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

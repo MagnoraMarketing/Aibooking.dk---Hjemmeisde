@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-vaelgdenrigt" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(37 0.5 0.5)">
+      <stop offset="0%" stop-color="#160f2b"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <radialGradient id="glow1-vaelgdenrigt" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6d28d9" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#6d28d9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-vaelgdenrigt" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-vaelgdenrigt" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-vaelgdenrigt)"/>
+  <rect width="1200" height="675" fill="url(#dots-vaelgdenrigt)"/>
+  <circle cx="371.60174804739654" cy="215.76760481111705" r="227.42739293724298" fill="url(#glow1-vaelgdenrigt)"/>
+  <circle cx="950.5501221050508" cy="377.7776818256825" r="282.00470046140254" fill="url(#glow2-vaelgdenrigt)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#fbbf24" stroke-width="140" opacity="0.17"
+    transform="rotate(11 600 337.5)"/>
+
+  <circle cx="268.76967121660715" cy="98.94892962556334" r="31.757097415160388" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
+  <circle cx="134.03551087528467" cy="604.9242184069008" r="19.37736895866692" fill="#6d28d9" opacity="0.18"/>
+
+  <g transform="translate(612.4380156174302 302.94720646413043) rotate(-2)">
+    <circle r="84.00924494408537" fill="white" opacity="0.06"/>
+    <circle r="84.00924494408537" fill="none" stroke="white" stroke-opacity="0.27" stroke-width="1.5"/>
+    <rect x="-61.09763268660754" y="-61.09763268660754" width="122.19526537321508" height="122.19526537321508" rx="30.54881634330377"
+      fill="url(#glow1-vaelgdenrigt)" opacity="0.9"/>
+    <rect x="-61.09763268660754" y="-61.09763268660754" width="122.19526537321508" height="122.19526537321508" rx="30.54881634330377"
+      fill="#7c3aed" opacity="0.55"/>
+    <g transform="scale(7.6372040858259425) translate(-12 -12)">
+      <path d="M4 4h16v12H8l-4 4V4z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

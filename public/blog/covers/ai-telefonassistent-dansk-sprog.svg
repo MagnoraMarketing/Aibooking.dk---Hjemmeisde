@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
   <defs>
     <linearGradient id="bg-aitelefonass" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(212 0.5 0.5)">
-      <stop offset="0%" stop-color="#0c081a"/>
-      <stop offset="100%" stop-color="#8b5cf6"/>
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
     </linearGradient>
     <radialGradient id="glow1-aitelefonass" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow2-aitelefonass" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35"/>
@@ -27,7 +27,7 @@
     transform="rotate(84 600 337.5)"/>
 
   <circle cx="1054.4603017754853" cy="178.6496203634888" r="47.729573651682585" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
-  <circle cx="200.2464123442769" cy="599.0013630855829" r="14.464424947742373" fill="#7c3aed" opacity="0.18"/>
+  <circle cx="200.2464123442769" cy="599.0013630855829" r="14.464424947742373" fill="#2563eb" opacity="0.18"/>
 
   <g transform="translate(590.8780121952295 272.8024252667092) rotate(-1)">
     <circle r="89.92757664911915" fill="white" opacity="0.06"/>
@@ -35,7 +35,7 @@
     <rect x="-65.4018739266321" y="-65.4018739266321" width="130.8037478532642" height="130.8037478532642" rx="32.70093696331605"
       fill="url(#glow1-aitelefonass)" opacity="0.9"/>
     <rect x="-65.4018739266321" y="-65.4018739266321" width="130.8037478532642" height="130.8037478532642" rx="32.70093696331605"
-      fill="#8b5cf6" opacity="0.55"/>
+      fill="#3b82f6" opacity="0.55"/>
     <g transform="scale(8.175234240829013) translate(-12 -12)">
       <path d="M6 3h4l2 5-2.5 1.5a12 12 0 0 0 5 5L16 12l5 2v4a2 2 0 0 1-2 2C10.5 20 4 13.5 4 5a2 2 0 0 1 2-2z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
     </g>

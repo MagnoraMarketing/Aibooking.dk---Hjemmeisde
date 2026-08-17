@@ -43,14 +43,14 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
 
   if (!post || !category) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-50">
+      <div className="min-h-screen bg-gradient-to-b from-ink-50 via-white to-ink-50">
         <Navigation />
         <div className="flex items-center justify-center min-h-screen">
           <div className="text-center">
-            <h1 className="text-3xl font-bold text-slate-900 mb-4">
+            <h1 className="text-3xl font-bold text-ink-900 mb-4">
               {i18n.language === 'da' ? 'Artikel ikke fundet' : 'Article not found'}
             </h1>
-            <a href="/blog" className="text-blue-600 hover:text-blue-700 font-semibold">
+            <a href="/blog" className="text-brand-600 hover:text-brand-700 font-semibold">
               {i18n.language === 'da' ? 'Tilbage til blog' : 'Back to blog'}
             </a>
           </div>
@@ -88,7 +88,7 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-50">
+    <div className="min-h-screen bg-gradient-to-b from-ink-50 via-white to-ink-50">
       <SEO
         title={getMetaTitle()}
         description={getMetaDescription()}
@@ -106,7 +106,7 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <a
             href="/blog"
-            className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium mb-8 transition-colors group"
+            className="inline-flex items-center text-brand-600 hover:text-brand-700 font-medium mb-8 transition-colors group"
           >
             <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
             {i18n.language === 'da' ? 'Tilbage til blog' : 'Back to blog'}
@@ -115,20 +115,20 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
           <div className="mb-8">
             <a
               href={`/blog/category/${category.slug}`}
-              className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-sm font-semibold rounded-full mb-6 shadow-sm hover:shadow-lg transition-all"
+              className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-gradient-to-r from-brand-600 to-brand-700 text-white text-sm font-semibold rounded-full mb-6 shadow-sm hover:shadow-lg transition-all"
             >
               {getCategoryName()}
             </a>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-ink-900 mb-6 leading-tight">
               {getTitle()}
             </h1>
-            <div className="flex flex-wrap items-center gap-6 text-slate-500">
+            <div className="flex flex-wrap items-center gap-6 text-ink-500">
               <div className="flex items-center gap-2">
-                <Calendar className="w-5 h-5 text-blue-600" />
+                <Calendar className="w-5 h-5 text-brand-600" />
                 <span className="font-medium">{formatDate(post.published_at)}</span>
               </div>
               <div className="flex items-center gap-2">
-                <Clock className="w-5 h-5 text-blue-600" />
+                <Clock className="w-5 h-5 text-brand-600" />
                 <span className="font-medium">
                   {estimatedReadTime(getContent())} {i18n.language === 'da' ? 'min. læsning' : 'min read'}
                 </span>
@@ -144,12 +144,12 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
             />
           </div>
 
-          <div className="flex gap-4 mb-12 pb-8 border-b border-slate-200">
-            <button className="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors font-medium text-slate-700 shadow-sm">
+          <div className="flex gap-4 mb-12 pb-8 border-b border-ink-200">
+            <button className="flex items-center gap-2 px-4 py-2 bg-white border border-ink-200 rounded-lg hover:bg-ink-50 transition-colors font-medium text-ink-700 shadow-sm">
               <Share2 className="w-4 h-4" />
               {i18n.language === 'da' ? 'Del' : 'Share'}
             </button>
-            <button className="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors font-medium text-slate-700 shadow-sm">
+            <button className="flex items-center gap-2 px-4 py-2 bg-white border border-ink-200 rounded-lg hover:bg-ink-50 transition-colors font-medium text-ink-700 shadow-sm">
               <BookmarkPlus className="w-4 h-4" />
               {i18n.language === 'da' ? 'Gem' : 'Save'}
             </button>
@@ -157,38 +157,38 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
 
           <div
             className="blog-content prose prose-lg max-w-none
-              prose-headings:text-slate-900 prose-headings:font-bold prose-headings:tracking-tight
+              prose-headings:text-ink-900 prose-headings:font-bold prose-headings:tracking-tight
               prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6
               prose-h3:text-2xl prose-h3:mt-10 prose-h3:mb-4
               prose-h4:text-xl prose-h4:mt-8 prose-h4:mb-3
-              prose-p:text-slate-700 prose-p:leading-relaxed prose-p:mb-6
-              prose-a:text-blue-600 prose-a:font-semibold prose-a:no-underline hover:prose-a:text-blue-700
-              prose-strong:text-slate-900 prose-strong:font-bold
-              prose-ul:my-6 prose-ul:text-slate-700
-              prose-ol:my-6 prose-ol:text-slate-700
+              prose-p:text-ink-700 prose-p:leading-relaxed prose-p:mb-6
+              prose-a:text-brand-600 prose-a:font-semibold prose-a:no-underline hover:prose-a:text-brand-700
+              prose-strong:text-ink-900 prose-strong:font-bold
+              prose-ul:my-6 prose-ul:text-ink-700
+              prose-ol:my-6 prose-ol:text-ink-700
               prose-li:my-2 prose-li:leading-relaxed
-              prose-code:text-blue-600 prose-code:bg-blue-50 prose-code:px-2 prose-code:py-1 prose-code:rounded
-              prose-pre:bg-slate-900 prose-pre:text-slate-100
-              prose-blockquote:border-l-4 prose-blockquote:border-blue-600 prose-blockquote:pl-6 prose-blockquote:italic
+              prose-code:text-brand-600 prose-code:bg-brand-50 prose-code:px-2 prose-code:py-1 prose-code:rounded
+              prose-pre:bg-ink-900 prose-pre:text-ink-100
+              prose-blockquote:border-l-4 prose-blockquote:border-brand-600 prose-blockquote:pl-6 prose-blockquote:italic
               prose-img:rounded-xl prose-img:shadow-lg"
             dangerouslySetInnerHTML={{ __html: getContent() }}
           />
 
-          <div className="mt-16 p-10 bg-gradient-to-br from-blue-50 via-blue-50 to-indigo-50 rounded-3xl border-2 border-blue-100 shadow-lg">
+          <div className="mt-16 p-10 bg-gradient-to-br from-brand-50 via-brand-50 to-indigo-50 rounded-3xl border-2 border-brand-100 shadow-lg">
             <div className="flex items-center gap-2 mb-4">
-              <Sparkles className="w-6 h-6 text-blue-600" />
-              <h3 className="text-2xl font-bold text-slate-900">
+              <Sparkles className="w-6 h-6 text-brand-600" />
+              <h3 className="text-2xl font-bold text-ink-900">
                 {i18n.language === 'da' ? 'Klar til at komme i gang?' : 'Ready to get started?'}
               </h3>
             </div>
-            <p className="text-lg text-slate-700 mb-6 leading-relaxed">
+            <p className="text-lg text-ink-700 mb-6 leading-relaxed">
               {i18n.language === 'da'
                 ? 'Oplev hvordan AIBooking.dk kan transformere din virksomhed med intelligent automatisering. Book en gratis demo i dag.'
                 : 'Experience how AIBooking.dk can transform your business with intelligent automation. Book a free demo today.'}
             </p>
             <a
               href="https://aibooking.dk/widget"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-bold hover:shadow-xl transition-all transform hover:scale-105"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-700 text-white px-8 py-4 rounded-xl font-bold hover:shadow-xl transition-all transform hover:scale-105"
             >
               {i18n.language === 'da' ? 'Prøv AI Widget Gratis' : 'Try AI Widget Free'}
               <ArrowRight className="w-5 h-5" />
@@ -199,10 +199,10 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
         {relatedPosts.length > 0 && (
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-24">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+              <h2 className="text-3xl md:text-4xl font-bold text-ink-900 mb-4">
                 {i18n.language === 'da' ? 'Relaterede Artikler' : 'Related Articles'}
               </h2>
-              <p className="text-lg text-slate-600">
+              <p className="text-lg text-ink-600">
                 {i18n.language === 'da' ? 'Læs mere om ' + getCategoryName() : 'Read more about ' + getCategoryName()}
               </p>
             </div>
@@ -213,7 +213,7 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
                   href={`/blog/${relatedPost.slug}`}
                   className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
                 >
-                  <div className="aspect-video overflow-hidden bg-slate-100">
+                  <div className="aspect-video overflow-hidden bg-ink-100">
                     <img
                       src={relatedPost.image_url}
                       alt={getRelatedTitle(relatedPost)}
@@ -221,10 +221,10 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
                     />
                   </div>
                   <div className="p-6">
-                    <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors leading-snug">
+                    <h3 className="text-xl font-bold text-ink-900 mb-2 group-hover:text-brand-600 transition-colors leading-snug">
                       {getRelatedTitle(relatedPost)}
                     </h3>
-                    <div className="flex items-center text-blue-600 font-semibold text-sm">
+                    <div className="flex items-center text-brand-600 font-semibold text-sm">
                       {i18n.language === 'da' ? 'Læs artikel' : 'Read article'}
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                     </div>

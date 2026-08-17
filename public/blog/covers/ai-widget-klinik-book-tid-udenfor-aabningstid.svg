@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
   <defs>
     <linearGradient id="bg-aiwidgetklin" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(57 0.5 0.5)">
-      <stop offset="0%" stop-color="#160f2b"/>
-      <stop offset="100%" stop-color="#6d28d9"/>
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
     </linearGradient>
     <radialGradient id="glow1-aiwidgetklin" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#4c1d95" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#4c1d95" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow2-aiwidgetklin" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35"/>
@@ -27,7 +27,7 @@
     transform="rotate(320 600 337.5)"/>
 
   <circle cx="983.1770556494594" cy="126.1690940167755" r="38.63307970389724" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
-  <circle cx="179.41512529179454" cy="584.9111714065075" r="30.223728097509593" fill="#4c1d95" opacity="0.18"/>
+  <circle cx="179.41512529179454" cy="584.9111714065075" r="30.223728097509593" fill="#1e3a8a" opacity="0.18"/>
 
   <g transform="translate(560.6557800918818 378.40165314730257) rotate(-1)">
     <circle r="78.29365420772228" fill="white" opacity="0.06"/>
@@ -35,7 +35,7 @@
     <rect x="-56.940839423798025" y="-56.940839423798025" width="113.88167884759605" height="113.88167884759605" rx="28.470419711899012"
       fill="url(#glow1-aiwidgetklin)" opacity="0.9"/>
     <rect x="-56.940839423798025" y="-56.940839423798025" width="113.88167884759605" height="113.88167884759605" rx="28.470419711899012"
-      fill="#6d28d9" opacity="0.55"/>
+      fill="#1d4ed8" opacity="0.55"/>
     <g transform="scale(7.117604927974753) translate(-12 -12)">
       <path d="M4 5h16v10H9l-3 3v-3H4V5z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/><circle cx="9" cy="10" r="1" fill="white"/><circle cx="12" cy="10" r="1" fill="white"/><circle cx="15" cy="10" r="1" fill="white"/>
     </g>

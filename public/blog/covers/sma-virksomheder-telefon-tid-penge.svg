@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
   <defs>
     <linearGradient id="bg-smavirksomhe" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(343 0.5 0.5)">
-      <stop offset="0%" stop-color="#241c3d"/>
-      <stop offset="100%" stop-color="#4c1d95"/>
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
     </linearGradient>
     <radialGradient id="glow1-smavirksomhe" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#4c1d95" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#4c1d95" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow2-smavirksomhe" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35"/>
@@ -27,7 +27,7 @@
     transform="rotate(4 600 337.5)"/>
 
   <circle cx="236.25123913586143" cy="136.7374340482056" r="44.86945663485676" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
-  <circle cx="121.24157662130892" cy="591.0295273270458" r="29.035849419422448" fill="#4c1d95" opacity="0.18"/>
+  <circle cx="121.24157662130892" cy="591.0295273270458" r="29.035849419422448" fill="#1e3a8a" opacity="0.18"/>
 
   <g transform="translate(731.4316252693534 337.6317582624033) rotate(6)">
     <circle r="80.66122419061139" fill="white" opacity="0.06"/>
@@ -35,7 +35,7 @@
     <rect x="-58.66270850226283" y="-58.66270850226283" width="117.32541700452566" height="117.32541700452566" rx="29.331354251131415"
       fill="url(#glow1-smavirksomhe)" opacity="0.9"/>
     <rect x="-58.66270850226283" y="-58.66270850226283" width="117.32541700452566" height="117.32541700452566" rx="29.331354251131415"
-      fill="#4c1d95" opacity="0.55"/>
+      fill="#1e3a8a" opacity="0.55"/>
     <g transform="scale(7.332838562782854) translate(-12 -12)">
       <path d="M3 12h2l2-6 3 12 3-16 3 14 2-8 3 4h2" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
     </g>

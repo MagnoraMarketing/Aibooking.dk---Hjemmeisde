@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
   <defs>
     <linearGradient id="bg-mistekundela" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(109 0.5 0.5)">
-      <stop offset="0%" stop-color="#241c3d"/>
-      <stop offset="100%" stop-color="#7c3aed"/>
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#2563eb"/>
     </linearGradient>
     <radialGradient id="glow1-mistekundela" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow2-mistekundela" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.35"/>
@@ -27,7 +27,7 @@
     transform="rotate(212 600 337.5)"/>
 
   <circle cx="157.14439657330513" cy="174.9578090161085" r="53.11297835363075" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
-  <circle cx="126.71246169134974" cy="598.7082651229575" r="22.691763259936124" fill="#7c3aed" opacity="0.18"/>
+  <circle cx="126.71246169134974" cy="598.7082651229575" r="22.691763259936124" fill="#2563eb" opacity="0.18"/>
 
   <g transform="translate(722.5539517700672 305.32445843098685) rotate(-4)">
     <circle r="82.99157095293049" fill="white" opacity="0.06"/>
@@ -35,7 +35,7 @@
     <rect x="-60.35750614758581" y="-60.35750614758581" width="120.71501229517162" height="120.71501229517162" rx="30.178753073792905"
       fill="url(#glow1-mistekundela)" opacity="0.9"/>
     <rect x="-60.35750614758581" y="-60.35750614758581" width="120.71501229517162" height="120.71501229517162" rx="30.178753073792905"
-      fill="#7c3aed" opacity="0.55"/>
+      fill="#2563eb" opacity="0.55"/>
     <g transform="scale(7.544688268448226) translate(-12 -12)">
       <path d="M4 5h16v10H9l-3 3v-3H4V5z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/><circle cx="9" cy="10" r="1" fill="white"/><circle cx="12" cy="10" r="1" fill="white"/><circle cx="15" cy="10" r="1" fill="white"/>
     </g>

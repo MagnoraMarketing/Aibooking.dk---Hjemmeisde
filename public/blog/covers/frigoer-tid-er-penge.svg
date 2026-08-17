@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
   <defs>
     <linearGradient id="bg-frigoertider" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(355 0.5 0.5)">
-      <stop offset="0%" stop-color="#160f2b"/>
-      <stop offset="100%" stop-color="#5b21b6"/>
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e40af"/>
     </linearGradient>
     <radialGradient id="glow1-frigoertider" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow2-frigoertider" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.35"/>
@@ -27,7 +27,7 @@
     transform="rotate(237 600 337.5)"/>
 
   <circle cx="130.57806712388992" cy="143.14748761709782" r="47.39448116719723" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
-  <circle cx="125.75556849315763" cy="538.7868793923408" r="23.97152506466955" fill="#7c3aed" opacity="0.18"/>
+  <circle cx="125.75556849315763" cy="538.7868793923408" r="23.97152506466955" fill="#2563eb" opacity="0.18"/>
 
   <g transform="translate(659.9295148774983 387.0552201205864) rotate(5)">
     <circle r="88.53524510667194" fill="white" opacity="0.06"/>
@@ -35,7 +35,7 @@
     <rect x="-64.38926916848868" y="-64.38926916848868" width="128.77853833697736" height="128.77853833697736" rx="32.19463458424434"
       fill="url(#glow1-frigoertider)" opacity="0.9"/>
     <rect x="-64.38926916848868" y="-64.38926916848868" width="128.77853833697736" height="128.77853833697736" rx="32.19463458424434"
-      fill="#5b21b6" opacity="0.55"/>
+      fill="#1e40af" opacity="0.55"/>
     <g transform="scale(8.048658646061085) translate(-12 -12)">
       <rect x="4" y="5" width="16" height="14" rx="2" fill="none" stroke="white" stroke-width="1.6"/><path d="M4 9.5h16M8 3v4M16 3v4" stroke="white" stroke-width="1.6" stroke-linecap="round"/><circle cx="9" cy="14" r="1.1" fill="white"/><circle cx="15" cy="14" r="1.1" fill="white"/>
     </g>

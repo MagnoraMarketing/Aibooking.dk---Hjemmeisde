@@ -22,13 +22,13 @@ function IndustrySection({
   accentColor
 }: IndustrySectionProps) {
   return (
-    <div className={`${bgColor} py-20 border-b border-slate-200`}>
+    <div className={`${bgColor} py-20 border-b border-ink-200`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className={`text-4xl md:text-5xl font-bold text-slate-900 mb-4`}>
+          <h2 className={`text-4xl md:text-5xl font-bold text-ink-900 mb-4`}>
             {title}
           </h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+          <p className="text-xl text-ink-600 max-w-3xl mx-auto">
             {subtitle}
           </p>
         </div>
@@ -36,7 +36,7 @@ function IndustrySection({
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="order-2 md:order-1">
             <div className="prose prose-lg">
-              <p className="text-slate-700 leading-relaxed mb-8">
+              <p className="text-ink-700 leading-relaxed mb-8">
                 {description}
               </p>
 
@@ -48,7 +48,7 @@ function IndustrySection({
                 {benefits.map((benefit, index) => (
                   <li key={index} className="flex items-start space-x-3">
                     <CheckCircle2 className={`w-6 h-6 ${accentColor} flex-shrink-0 mt-0.5`} />
-                    <span className="text-slate-700">{benefit}</span>
+                    <span className="text-ink-700">{benefit}</span>
                   </li>
                 ))}
               </ul>
@@ -74,10 +74,10 @@ function IndustrySection({
             return (
               <div key={index} className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
                 <Icon className={`w-8 h-8 ${accentColor} mb-3`} />
-                <div className="text-3xl font-bold text-slate-900 mb-1">
+                <div className="text-3xl font-bold text-ink-900 mb-1">
                   {stat.value}
                 </div>
-                <div className="text-sm text-slate-600">
+                <div className="text-sm text-ink-600">
                   {stat.label}
                 </div>
               </div>

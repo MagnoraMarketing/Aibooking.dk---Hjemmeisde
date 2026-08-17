@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
   <defs>
     <linearGradient id="bg-aiwidgetinte" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(118 0.5 0.5)">
-      <stop offset="0%" stop-color="#241c3d"/>
-      <stop offset="100%" stop-color="#5b21b6"/>
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#1e40af"/>
     </linearGradient>
     <radialGradient id="glow1-aiwidgetinte" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#6d28d9" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#6d28d9" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow2-aiwidgetinte" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35"/>
@@ -27,7 +27,7 @@
     transform="rotate(40 600 337.5)"/>
 
   <circle cx="287.9430614858866" cy="201.16375629231337" r="30.827542496379465" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
-  <circle cx="134.39695884101093" cy="621.5832390664145" r="16.067863025236875" fill="#6d28d9" opacity="0.18"/>
+  <circle cx="134.39695884101093" cy="621.5832390664145" r="16.067863025236875" fill="#1d4ed8" opacity="0.18"/>
 
   <g transform="translate(633.922326363623 302.1745606851764) rotate(6)">
     <circle r="79.41671904094983" fill="white" opacity="0.06"/>
@@ -35,7 +35,7 @@
     <rect x="-57.75761384796351" y="-57.75761384796351" width="115.51522769592702" height="115.51522769592702" rx="28.878806923981756"
       fill="url(#glow1-aiwidgetinte)" opacity="0.9"/>
     <rect x="-57.75761384796351" y="-57.75761384796351" width="115.51522769592702" height="115.51522769592702" rx="28.878806923981756"
-      fill="#5b21b6" opacity="0.55"/>
+      fill="#1e40af" opacity="0.55"/>
     <g transform="scale(7.219701730995439) translate(-12 -12)">
       <path d="M4 4h16v12H8l-4 4V4z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
     </g>

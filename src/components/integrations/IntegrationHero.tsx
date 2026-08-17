@@ -2,17 +2,17 @@ import { Zap, Clock, CheckCircle } from 'lucide-react';
 
 function IntegrationHero() {
   return (
-    <section className="pt-32 pb-20 bg-gradient-to-br from-blue-50 via-white to-blue-50">
+    <section className="pt-32 pb-20 bg-gradient-to-br from-brand-50 via-white to-brand-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-4xl mx-auto">
-          <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
+          <div className="inline-flex items-center space-x-2 bg-brand-100 text-brand-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
             <Zap className="w-4 h-4" />
             <span>Problemfri Integration</span>
           </div>
 
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
             Forbind med dine
-            <span className="text-blue-600"> eksisterende værktøjer</span>
+            <span className="text-brand-600"> eksisterende værktøjer</span>
           </h1>
 
           <p className="text-xl text-gray-600 mb-12 leading-relaxed">
@@ -23,8 +23,8 @@ function IntegrationHero() {
 
           <div className="grid md:grid-cols-3 gap-8 mt-16">
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 mx-auto">
-                <Clock className="w-6 h-6 text-blue-600" />
+              <div className="w-12 h-12 bg-brand-100 rounded-lg flex items-center justify-center mb-4 mx-auto">
+                <Clock className="w-6 h-6 text-brand-600" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Spar Timer Dagligt</h3>
               <p className="text-gray-600 text-sm">
@@ -33,8 +33,8 @@ function IntegrationHero() {
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 mx-auto">
-                <Zap className="w-6 h-6 text-blue-600" />
+              <div className="w-12 h-12 bg-brand-100 rounded-lg flex items-center justify-center mb-4 mx-auto">
+                <Zap className="w-6 h-6 text-brand-600" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Hurtig Opsætning</h3>
               <p className="text-gray-600 text-sm">
@@ -43,8 +43,8 @@ function IntegrationHero() {
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 mx-auto">
-                <CheckCircle className="w-6 h-6 text-blue-600" />
+              <div className="w-12 h-12 bg-brand-100 rounded-lg flex items-center justify-center mb-4 mx-auto">
+                <CheckCircle className="w-6 h-6 text-brand-600" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Altid Synkroniseret</h3>
               <p className="text-gray-600 text-sm">

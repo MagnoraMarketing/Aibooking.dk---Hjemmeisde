@@ -122,8 +122,8 @@ function IntegrationGrid() {
           </p>
           <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-200 max-w-4xl mx-auto text-left">
             <div className="flex items-start space-x-4">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                <Calendar className="w-6 h-6 text-blue-600" />
+              <div className="w-12 h-12 bg-brand-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <Calendar className="w-6 h-6 text-brand-600" />
               </div>
               <div>
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">
@@ -180,14 +180,14 @@ function IntegrationGrid() {
                 className="bg-white p-6 rounded-xl hover:shadow-lg transition-all duration-300 border border-gray-200 relative group"
               >
                 {integration.popular && (
-                  <div className="absolute -top-3 -right-3 bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                  <div className="absolute -top-3 -right-3 bg-brand-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
                     Populær
                   </div>
                 )}
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-blue-50 transition-colors">
-                    <Icon className="w-6 h-6 text-gray-700 group-hover:text-blue-600 transition-colors" />
+                  <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-brand-50 transition-colors">
+                    <Icon className="w-6 h-6 text-gray-700 group-hover:text-brand-600 transition-colors" />
                   </div>
 
                   <div className="flex-1">
@@ -207,7 +207,7 @@ function IntegrationGrid() {
           })}
         </div>
 
-        <div className="bg-blue-50 border border-blue-200 rounded-2xl p-8 text-center">
+        <div className="bg-brand-50 border border-brand-200 rounded-2xl p-8 text-center">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
             Mangler din integration?
           </h3>
@@ -219,7 +219,7 @@ function IntegrationGrid() {
             href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+            className="inline-block bg-brand-600 text-white px-8 py-3 rounded-lg hover:bg-brand-700 transition-colors font-medium"
           >
             Book Demo
           </a>

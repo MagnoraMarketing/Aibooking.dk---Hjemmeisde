@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
   <defs>
     <linearGradient id="bg-kundeoplevel" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(7 0.5 0.5)">
-      <stop offset="0%" stop-color="#241c3d"/>
-      <stop offset="100%" stop-color="#4c1d95"/>
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
     </linearGradient>
     <radialGradient id="glow1-kundeoplevel" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow2-kundeoplevel" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.35"/>
@@ -27,7 +27,7 @@
     transform="rotate(187 600 337.5)"/>
 
   <circle cx="976.2058022227137" cy="171.50667610578242" r="43.34854731708765" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
-  <circle cx="223.13340130448344" cy="632.4080009618774" r="20.191162208560854" fill="#7c3aed" opacity="0.18"/>
+  <circle cx="223.13340130448344" cy="632.4080009618774" r="20.191162208560854" fill="#2563eb" opacity="0.18"/>
 
   <g transform="translate(501.16337341815233 325.104050451424) rotate(2)">
     <circle r="93.58241042622831" fill="white" opacity="0.06"/>
@@ -35,7 +35,7 @@
     <rect x="-68.05993485543877" y="-68.05993485543877" width="136.11986971087754" height="136.11986971087754" rx="34.029967427719384"
       fill="url(#glow1-kundeoplevel)" opacity="0.9"/>
     <rect x="-68.05993485543877" y="-68.05993485543877" width="136.11986971087754" height="136.11986971087754" rx="34.029967427719384"
-      fill="#4c1d95" opacity="0.55"/>
+      fill="#1e3a8a" opacity="0.55"/>
     <g transform="scale(8.507491856929846) translate(-12 -12)">
       <rect x="4" y="5" width="16" height="14" rx="2" fill="none" stroke="white" stroke-width="1.6"/><path d="M4 9.5h16M8 3v4M16 3v4" stroke="white" stroke-width="1.6" stroke-linecap="round"/><circle cx="9" cy="14" r="1.1" fill="white"/><circle cx="15" cy="14" r="1.1" fill="white"/>
     </g>

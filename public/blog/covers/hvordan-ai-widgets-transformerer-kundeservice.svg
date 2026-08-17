@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
   <defs>
     <linearGradient id="bg-hvordanaiwid" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(137 0.5 0.5)">
-      <stop offset="0%" stop-color="#241c3d"/>
-      <stop offset="100%" stop-color="#5b21b6"/>
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#1e40af"/>
     </linearGradient>
     <radialGradient id="glow1-hvordanaiwid" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow2-hvordanaiwid" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35"/>
@@ -27,7 +27,7 @@
     transform="rotate(48 600 337.5)"/>
 
   <circle cx="1045.4494129624218" cy="178.71685609314594" r="29.35693254414946" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
-  <circle cx="108.99383263662457" cy="543.6802463829517" r="25.116987289395183" fill="#7c3aed" opacity="0.18"/>
+  <circle cx="108.99383263662457" cy="543.6802463829517" r="25.116987289395183" fill="#2563eb" opacity="0.18"/>
 
   <g transform="translate(462.41027817875147 285.81749215722084) rotate(-8)">
     <circle r="93.2570789984893" fill="white" opacity="0.06"/>
@@ -35,7 +35,7 @@
     <rect x="-67.8233301807195" y="-67.8233301807195" width="135.646660361439" height="135.646660361439" rx="33.91166509035975"
       fill="url(#glow1-hvordanaiwid)" opacity="0.9"/>
     <rect x="-67.8233301807195" y="-67.8233301807195" width="135.646660361439" height="135.646660361439" rx="33.91166509035975"
-      fill="#5b21b6" opacity="0.55"/>
+      fill="#1e40af" opacity="0.55"/>
     <g transform="scale(8.477916272589937) translate(-12 -12)">
       <path d="M4 4h16v12H8l-4 4V4z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
     </g>

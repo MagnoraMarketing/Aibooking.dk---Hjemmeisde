@@ -37,12 +37,12 @@ const faqs = [
 
 function FAQItem({ question, answer }: { question: string; answer: string }) {
   return (
-    <details className="group border border-slate-200 rounded-2xl overflow-hidden">
-      <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-slate-50 transition-colors list-none">
-        <span className="text-lg font-semibold text-slate-900">{question}</span>
-        <ChevronDown className="w-5 h-5 text-slate-500 group-open:rotate-180 transition-transform flex-shrink-0 ml-4" />
+    <details className="group border border-ink-200 rounded-2xl overflow-hidden">
+      <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-ink-50 transition-colors list-none">
+        <span className="text-lg font-semibold text-ink-900">{question}</span>
+        <ChevronDown className="w-5 h-5 text-ink-500 group-open:rotate-180 transition-transform flex-shrink-0 ml-4" />
       </summary>
-      <div className="px-6 pb-6 text-slate-600 leading-relaxed">{answer}</div>
+      <div className="px-6 pb-6 text-ink-600 leading-relaxed">{answer}</div>
     </details>
   );
 }
@@ -126,19 +126,19 @@ function PricingSection() {
   const [isAdditionalOpen, setIsAdditionalOpen] = useState(false);
 
   return (
-    <section id="priser" className="py-20 md:py-28 bg-gradient-to-b from-white to-slate-50">
+    <section id="priser" className="py-20 md:py-28 bg-gradient-to-b from-white to-ink-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Section header */}
         <div className="text-center mb-16 space-y-4">
-          <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold border border-blue-100">
+          <div className="inline-flex items-center gap-2 bg-brand-50 text-brand-700 px-4 py-2 rounded-full text-sm font-semibold border border-brand-100">
             <CheckCircle className="w-4 h-4" />
             Transparent prissætning
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900">
+          <h2 className="text-4xl md:text-5xl font-bold text-ink-900">
             Enkle og gennemsigtige priser
           </h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+          <p className="text-xl text-ink-600 max-w-3xl mx-auto">
             Vælg den løsning der passer til din virksomhed – betal kun for hvad du bruger, uden skjulte gebyrer
           </p>
         </div>
@@ -146,37 +146,37 @@ function PricingSection() {
         {/* Widget plan – primary */}
         <div className="max-w-4xl mx-auto mb-6">
           <div className="flex items-center gap-3 mb-5">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+            <div className="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center">
               <Mic className="w-4 h-4 text-white" />
             </div>
-            <h3 className="text-2xl font-bold text-slate-900">AI Voice Widget</h3>
-            <span className="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Anbefalet startpunkt</span>
+            <h3 className="text-2xl font-bold text-ink-900">AI Voice Widget</h3>
+            <span className="bg-brand-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Anbefalet startpunkt</span>
           </div>
-          <p className="text-slate-800 mb-8 leading-relaxed max-w-3xl font-medium">
+          <p className="text-ink-800 mb-8 leading-relaxed max-w-3xl font-medium">
             Den hurtigste og billigste måde at automatisere din booking på. Widgetten sidder på din hjemmeside og lader kunder tale eller skrive direkte med din AI-assistent – 24/7, uden menneskelig indgriben.
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto mb-20">
-          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-2xl border border-slate-100 relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-blue-50 rounded-full -translate-y-1/2 translate-x-1/2"></div>
-            <div className="absolute bottom-0 left-0 w-48 h-48 bg-blue-50 rounded-full translate-y-1/2 -translate-x-1/2"></div>
+          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-2xl border border-ink-100 relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-brand-50 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+            <div className="absolute bottom-0 left-0 w-48 h-48 bg-brand-50 rounded-full translate-y-1/2 -translate-x-1/2"></div>
 
             <div className="relative grid md:grid-cols-2 gap-10 items-center">
               <div>
                 <div className="flex items-baseline gap-3 mb-2">
-                  <span className="text-7xl font-bold text-slate-900">999</span>
-                  <span className="text-2xl text-blue-600 font-semibold">kr/md</span>
+                  <span className="text-7xl font-bold text-ink-900">999</span>
+                  <span className="text-2xl text-brand-600 font-semibold">kr/md</span>
                 </div>
-                <p className="text-slate-700 mb-1 font-medium">Inkluderer 150 minutters taletid (ca. 6,66 kr/minut)</p>
-                <p className="text-slate-500 text-sm">Pakken fornyes automatisk når de 150 minutter er brugt</p>
+                <p className="text-ink-700 mb-1 font-medium">Inkluderer 150 minutters taletid (ca. 6,66 kr/minut)</p>
+                <p className="text-ink-500 text-sm">Pakken fornyes automatisk når de 150 minutter er brugt</p>
 
                 <div className="mt-8 flex flex-col sm:flex-row gap-3">
                   <a
                     href="https://buy.stripe.com/7sY3cu2H14JB00k4IX4AU04"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 bg-blue-600 text-white px-6 py-3.5 rounded-xl hover:bg-blue-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
+                    className="inline-flex items-center justify-center gap-2 bg-brand-600 text-white px-6 py-3.5 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
                   >
                     Bestil nu
                     <ArrowRight className="w-4 h-4" />
@@ -185,7 +185,7 @@ function PricingSection() {
                     href="https://cal.com/ai-booking-mgtx8v/intro-voiceboot-aibooking.dk"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 bg-slate-100 text-slate-800 border border-slate-200 px-6 py-3.5 rounded-xl hover:bg-slate-200 transition-all font-semibold"
+                    className="inline-flex items-center justify-center gap-2 bg-ink-100 text-ink-800 border border-ink-200 px-6 py-3.5 rounded-xl hover:bg-ink-200 transition-all font-semibold"
                   >
                     Book gratis intro
                   </a>
@@ -205,10 +205,10 @@ function PricingSection() {
                     'Håndterer kunder selv når du er optaget',
                   ].map((feature) => (
                     <li key={feature} className="flex items-start gap-3">
-                      <div className="w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-5 h-5 rounded-full bg-brand-600 flex items-center justify-center flex-shrink-0 mt-0.5">
                         <CheckCircle className="w-3 h-3 text-white" />
                       </div>
-                      <span className="text-slate-800 text-sm font-medium">{feature}</span>
+                      <span className="text-ink-800 text-sm font-medium">{feature}</span>
                     </li>
                   ))}
                 </ul>
@@ -216,18 +216,18 @@ function PricingSection() {
             </div>
           </div>
 
-          <div className="mt-4 bg-white border border-blue-100 rounded-2xl p-5 text-sm text-slate-600 flex flex-col sm:flex-row gap-4 sm:gap-8">
-            <span><span className="font-semibold text-slate-900">Taletid:</span> Indkøbt credit gælder i 3 måneder</span>
-            <span><span className="font-semibold text-slate-900">Fornyelse:</span> Automatisk ved 150 min. brugt</span>
-            <span><span className="font-semibold text-slate-900">Binding:</span> Ingen – opsig når som helst</span>
+          <div className="mt-4 bg-white border border-brand-100 rounded-2xl p-5 text-sm text-ink-600 flex flex-col sm:flex-row gap-4 sm:gap-8">
+            <span><span className="font-semibold text-ink-900">Taletid:</span> Indkøbt credit gælder i 3 måneder</span>
+            <span><span className="font-semibold text-ink-900">Fornyelse:</span> Automatisk ved 150 min. brugt</span>
+            <span><span className="font-semibold text-ink-900">Binding:</span> Ingen – opsig når som helst</span>
           </div>
         </div>
 
         {/* AI Telefonassistent section header */}
         <div className="max-w-4xl mx-auto mb-16">
-          <div className="bg-slate-900 rounded-3xl p-8 md:p-10 shadow-xl">
+          <div className="bg-ink-900 rounded-3xl p-8 md:p-10 shadow-xl">
             <div className="flex flex-col md:flex-row md:items-center gap-6">
-              <div className="w-14 h-14 bg-blue-600 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg">
+              <div className="w-14 h-14 bg-brand-600 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg">
                 <Phone className="w-7 h-7 text-white" />
               </div>
               <div className="flex-1">
@@ -235,11 +235,11 @@ function PricingSection() {
                   <h3 className="text-2xl md:text-3xl font-bold text-white">
                     AI Telefonassistent
                   </h3>
-                  <span className="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+                  <span className="bg-brand-600 text-white text-xs font-bold px-3 py-1 rounded-full">
                     Udgående & indgående opkald
                   </span>
                 </div>
-                <p className="text-slate-300 text-base leading-relaxed font-medium">
+                <p className="text-ink-300 text-base leading-relaxed font-medium">
                   Har du brug for en AI-assistent der også ringer ud eller modtager telefonopkald direkte? Vælg en af vores skalerbare pakker nedenfor — fra gratis demo til enterprise.
                 </p>
               </div>
@@ -249,8 +249,8 @@ function PricingSection() {
 
         {/* Phone plans */}
         <div className="mb-6">
-          <h3 className="text-2xl font-bold text-slate-900 text-center mb-2">Vælg din pakke</h3>
-          <p className="text-slate-600 text-center mb-12">Skræddersyede pakker designet til virksomheder af alle størrelser</p>
+          <h3 className="text-2xl font-bold text-ink-900 text-center mb-2">Vælg din pakke</h3>
+          <p className="text-ink-600 text-center mb-12">Skræddersyede pakker designet til virksomheder af alle størrelser</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
@@ -259,23 +259,23 @@ function PricingSection() {
               key={plan.name}
               className={`relative rounded-2xl p-8 transition-all duration-300 flex flex-col ${
                 plan.highlighted
-                  ? 'bg-gradient-to-br from-blue-600 via-blue-600 to-blue-700 text-white shadow-xl scale-105 border border-blue-500/50'
-                  : 'bg-white border border-slate-200/80 hover:border-blue-300/60 hover:shadow-lg'
+                  ? 'bg-gradient-to-br from-brand-600 via-brand-600 to-brand-700 text-white shadow-xl scale-105 border border-brand-500/50'
+                  : 'bg-white border border-ink-200/80 hover:border-brand-300/60 hover:shadow-lg'
               }`}
             >
               {plan.highlighted && (
                 <div className="absolute -top-3.5 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-gradient-to-r from-yellow-400 to-yellow-500 text-slate-900 px-5 py-1.5 rounded-full text-xs font-bold shadow-md uppercase tracking-wide">
+                  <span className="bg-gradient-to-r from-yellow-400 to-yellow-500 text-ink-900 px-5 py-1.5 rounded-full text-xs font-bold shadow-md uppercase tracking-wide">
                     Mest Populær
                   </span>
                 </div>
               )}
 
               <div className="mb-6">
-                <h4 className={`text-2xl font-bold mb-2 ${plan.highlighted ? 'text-white' : 'text-slate-900'}`}>
+                <h4 className={`text-2xl font-bold mb-2 ${plan.highlighted ? 'text-white' : 'text-ink-900'}`}>
                   {plan.name}
                 </h4>
-                <p className={`text-sm ${plan.highlighted ? 'text-blue-100' : 'text-slate-600'}`}>
+                <p className={`text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
                   {plan.description}
                 </p>
               </div>
@@ -283,19 +283,19 @@ function PricingSection() {
               <div className="mb-6">
                 <div className="flex items-baseline">
                   {plan.price === '0' ? (
-                    <span className={`text-5xl font-bold ${plan.highlighted ? 'text-white' : 'text-slate-900'}`}>
+                    <span className={`text-5xl font-bold ${plan.highlighted ? 'text-white' : 'text-ink-900'}`}>
                       Gratis
                     </span>
                   ) : (
                     <>
-                      <span className={`text-5xl font-bold ${plan.highlighted ? 'text-white' : 'text-slate-900'}`}>
+                      <span className={`text-5xl font-bold ${plan.highlighted ? 'text-white' : 'text-ink-900'}`}>
                         {plan.price}
                       </span>
-                      <span className={`ml-2 ${plan.highlighted ? 'text-blue-100' : 'text-slate-600'}`}>kr/md</span>
+                      <span className={`ml-2 ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>kr/md</span>
                     </>
                   )}
                 </div>
-                <div className={`mt-2 text-sm ${plan.highlighted ? 'text-blue-100' : 'text-slate-600'}`}>
+                <div className={`mt-2 text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
                   {plan.minutes}
                 </div>
               </div>
@@ -303,17 +303,17 @@ function PricingSection() {
               <ul className="space-y-3 mb-8">
                 {plan.features.map((feature) => (
                   <li key={feature} className="flex items-start space-x-3">
-                    <div className={`w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 ${plan.highlighted ? 'bg-blue-500' : 'bg-blue-100'}`}>
-                      <CheckCircle className={`w-3 h-3 ${plan.highlighted ? 'text-white' : 'text-blue-600'}`} />
+                    <div className={`w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 ${plan.highlighted ? 'bg-brand-500' : 'bg-brand-100'}`}>
+                      <CheckCircle className={`w-3 h-3 ${plan.highlighted ? 'text-white' : 'text-brand-600'}`} />
                     </div>
-                    <span className={`text-sm ${plan.highlighted ? 'text-blue-50' : 'text-slate-700'}`}>{feature}</span>
+                    <span className={`text-sm ${plan.highlighted ? 'text-brand-50' : 'text-ink-700'}`}>{feature}</span>
                   </li>
                 ))}
               </ul>
 
               {plan.setup !== '0' && (
-                <div className={`mb-6 pt-6 border-t ${plan.highlighted ? 'border-blue-500' : 'border-slate-200'}`}>
-                  <p className={`text-sm ${plan.highlighted ? 'text-blue-100' : 'text-slate-600'}`}>
+                <div className={`mb-6 pt-6 border-t ${plan.highlighted ? 'border-brand-500' : 'border-ink-200'}`}>
+                  <p className={`text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
                     Engangspris på <span className="font-semibold">{plan.setup} kr</span> for opsætning og onboarding
                   </p>
                 </div>
@@ -327,8 +327,8 @@ function PricingSection() {
                 rel="noopener noreferrer"
                 className={`block w-full text-center py-3.5 rounded-xl font-semibold transition-all transform hover:scale-[1.02] text-[15px] ${
                   plan.highlighted
-                    ? 'bg-white text-blue-600 hover:bg-blue-50 shadow-md'
-                    : 'bg-blue-600 text-white hover:bg-blue-700 shadow-sm'
+                    ? 'bg-white text-brand-600 hover:bg-brand-50 shadow-md'
+                    : 'bg-brand-600 text-white hover:bg-brand-700 shadow-sm'
                 }`}
               >
                 {plan.cta}
@@ -338,51 +338,51 @@ function PricingSection() {
         </div>
 
         <div className="mt-12 text-center">
-          <p className="text-slate-600 text-lg max-w-2xl mx-auto">
+          <p className="text-ink-600 text-lg max-w-2xl mx-auto">
             Efter bestilling modtager du et kalenderlink hvor du kan booke tid til opsætning.
           </p>
         </div>
 
         {/* Additional prices */}
         <div className="mt-20 max-w-4xl mx-auto">
-          <h3 className="text-2xl md:text-3xl font-bold text-slate-900 mb-8 text-center">Øvrige priser</h3>
-          <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+          <h3 className="text-2xl md:text-3xl font-bold text-ink-900 mb-8 text-center">Øvrige priser</h3>
+          <div className="bg-white rounded-2xl border border-ink-200 overflow-hidden shadow-sm">
             <button
               onClick={() => setIsAdditionalOpen(!isAdditionalOpen)}
-              className="w-full flex items-center justify-between p-8 md:p-10 hover:bg-slate-50 transition-colors"
+              className="w-full flex items-center justify-between p-8 md:p-10 hover:bg-ink-50 transition-colors"
             >
-              <h4 className="text-xl font-semibold text-slate-900">Se øvrige priser</h4>
-              <ChevronDown className={`w-6 h-6 text-slate-600 transition-transform duration-300 ${isAdditionalOpen ? 'rotate-180' : ''}`} />
+              <h4 className="text-xl font-semibold text-ink-900">Se øvrige priser</h4>
+              <ChevronDown className={`w-6 h-6 text-ink-600 transition-transform duration-300 ${isAdditionalOpen ? 'rotate-180' : ''}`} />
             </button>
 
             {isAdditionalOpen && (
-              <div className="border-t border-slate-200">
+              <div className="border-t border-ink-200">
                 <div className="p-8 md:p-10 space-y-8">
-                  <div className="pb-8 border-b border-slate-200">
-                    <h4 className="text-xl font-semibold text-slate-900 mb-3">Opsætning</h4>
-                    <p className="text-slate-700 text-lg">
-                      2 x abonnementspris <span className="text-slate-600 text-base">(engangsbeløb)</span>
+                  <div className="pb-8 border-b border-ink-200">
+                    <h4 className="text-xl font-semibold text-ink-900 mb-3">Opsætning</h4>
+                    <p className="text-ink-700 text-lg">
+                      2 x abonnementspris <span className="text-ink-600 text-base">(engangsbeløb)</span>
                     </p>
                   </div>
-                  <div className="pb-8 border-b border-slate-200">
-                    <h4 className="text-lg font-semibold text-slate-900 mb-2">
-                      Månedlig vedligeholdelse og prompting <span className="text-blue-600 text-sm font-medium">(tilvalg)</span>
+                  <div className="pb-8 border-b border-ink-200">
+                    <h4 className="text-lg font-semibold text-ink-900 mb-2">
+                      Månedlig vedligeholdelse og prompting <span className="text-brand-600 text-sm font-medium">(tilvalg)</span>
                     </h4>
-                    <p className="text-slate-600 mb-2 text-sm leading-relaxed">
+                    <p className="text-ink-600 mb-2 text-sm leading-relaxed">
                       Vi står for vedligeholdelse og hjælper løbende med at optimere prompts, så der gives præcise og relevante svar. Det sparer jer tid og sikrer en endnu bedre oplevelse for jeres kunder og medarbejdere.
                     </p>
-                    <p className="text-slate-900 font-semibold text-base">2.995 kr./md</p>
+                    <p className="text-ink-900 font-semibold text-base">2.995 kr./md</p>
                   </div>
                   <div>
-                    <h4 className="text-xl font-semibold text-slate-900 mb-4">Timepris ved ad hoc-opgaver</h4>
+                    <h4 className="text-xl font-semibold text-ink-900 mb-4">Timepris ved ad hoc-opgaver</h4>
                     <div className="space-y-3">
                       <div className="flex justify-between items-center">
-                        <span className="text-slate-700">Prompting/træning</span>
-                        <span className="text-slate-900 font-semibold">695 kr. pr. time</span>
+                        <span className="text-ink-700">Prompting/træning</span>
+                        <span className="text-ink-900 font-semibold">695 kr. pr. time</span>
                       </div>
                       <div className="flex justify-between items-center">
-                        <span className="text-slate-700">Udvikling</span>
-                        <span className="text-slate-900 font-semibold">1.100 kr. pr. time</span>
+                        <span className="text-ink-700">Udvikling</span>
+                        <span className="text-ink-900 font-semibold">1.100 kr. pr. time</span>
                       </div>
                     </div>
                   </div>
@@ -410,19 +410,19 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
       <main className="min-h-screen bg-white pt-20">
 
         {/* Hero */}
-        <section className="py-16 md:py-28 bg-gradient-to-b from-slate-50 to-white">
+        <section className="py-16 md:py-28 bg-gradient-to-b from-ink-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="space-y-8">
-                <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold border border-blue-100">
+                <div className="inline-flex items-center gap-2 bg-brand-50 text-brand-700 px-4 py-2 rounded-full text-sm font-semibold border border-brand-100">
                   <Mic className="w-4 h-4" />
                   AI Voice Widget til din hjemmeside
                 </div>
-                <h1 className="text-5xl md:text-6xl font-bold text-slate-900 leading-tight">
+                <h1 className="text-5xl md:text-6xl font-bold text-ink-900 leading-tight">
                   Lad dine kunder booke møder{' '}
-                  <span className="text-blue-600">med stemmen</span>
+                  <span className="text-brand-600">med stemmen</span>
                 </h1>
-                <p className="text-xl text-slate-600 leading-relaxed">
+                <p className="text-xl text-ink-600 leading-relaxed">
                   Aibooking.dk's AI voice widget integreres direkte på din hjemmeside og håndterer bookinger, spørgsmål og kundehenvendelser automatisk – via tale og tekst, 24 timer i døgnet, 365 dage om året.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -430,7 +430,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                     href="https://cal.com/ai-booking-mgtx8v/intro-voiceboot-aibooking.dk"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-xl hover:bg-blue-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
+                    className="inline-flex items-center justify-center gap-2 bg-brand-600 text-white px-8 py-4 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
                   >
                     Prøv gratis demo
                     <ArrowRight className="w-5 h-5" />
@@ -439,12 +439,12 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                     href="https://buy.stripe.com/7sY3cu2H14JB00k4IX4AU04"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 border-2 border-slate-200 text-slate-700 px-8 py-4 rounded-xl hover:border-blue-300 hover:text-blue-600 transition-all font-semibold"
+                    className="inline-flex items-center justify-center gap-2 border-2 border-ink-200 text-ink-700 px-8 py-4 rounded-xl hover:border-brand-300 hover:text-brand-600 transition-all font-semibold"
                   >
                     Bestil nu – 999 kr/md
                   </a>
                 </div>
-                <div className="flex items-center gap-6 text-sm text-slate-500">
+                <div className="flex items-center gap-6 text-sm text-ink-500">
                   <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-green-500" /> Ingen binding</span>
                   <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-green-500" /> Kom i gang på 5 min</span>
                   <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-green-500" /> GDPR-kompatibel</span>
@@ -452,21 +452,21 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
               </div>
 
               <div className="relative">
-                <div className="absolute -inset-4 bg-gradient-to-br from-blue-100 to-slate-100 rounded-3xl blur-2xl opacity-60"></div>
+                <div className="absolute -inset-4 bg-gradient-to-br from-brand-100 to-ink-100 rounded-3xl blur-2xl opacity-60"></div>
                 <img
                   src="/ai-voice-widget.webp"
                   alt="AI voice widget interface – tale og chat booking direkte på din hjemmeside"
                   className="relative w-full rounded-3xl shadow-2xl object-cover"
                   loading="eager"
                 />
-                <div className="absolute -bottom-4 -right-4 bg-white rounded-2xl shadow-xl p-4 border border-slate-100">
+                <div className="absolute -bottom-4 -right-4 bg-white rounded-2xl shadow-xl p-4 border border-ink-100">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
                       <PhoneCall className="w-5 h-5 text-green-600" />
                     </div>
                     <div>
-                      <p className="text-sm font-bold text-slate-900">Ny booking</p>
-                      <p className="text-xs text-slate-500">Via voice widget – nu</p>
+                      <p className="text-sm font-bold text-ink-900">Ny booking</p>
+                      <p className="text-xs text-ink-500">Via voice widget – nu</p>
                     </div>
                   </div>
                 </div>
@@ -476,24 +476,24 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
         </section>
 
         {/* Stats */}
-        <section className="py-16 bg-blue-600">
+        <section className="py-16 bg-brand-600">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
               <div>
                 <div className="text-4xl font-bold mb-2">24/7</div>
-                <div className="text-blue-200 text-sm">Altid tilgængelig</div>
+                <div className="text-brand-200 text-sm">Altid tilgængelig</div>
               </div>
               <div>
                 <div className="text-4xl font-bold mb-2">&lt; 5 min</div>
-                <div className="text-blue-200 text-sm">Til at komme i gang</div>
+                <div className="text-brand-200 text-sm">Til at komme i gang</div>
               </div>
               <div>
                 <div className="text-4xl font-bold mb-2">150 min</div>
-                <div className="text-blue-200 text-sm">Taletid inkluderet</div>
+                <div className="text-brand-200 text-sm">Taletid inkluderet</div>
               </div>
               <div>
                 <div className="text-4xl font-bold mb-2">999 kr</div>
-                <div className="text-blue-200 text-sm">Pr. måned</div>
+                <div className="text-brand-200 text-sm">Pr. måned</div>
               </div>
             </div>
           </div>
@@ -504,7 +504,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="order-2 lg:order-1 relative">
-                <div className="absolute -inset-4 bg-gradient-to-br from-slate-100 to-blue-50 rounded-3xl blur-2xl opacity-70"></div>
+                <div className="absolute -inset-4 bg-gradient-to-br from-ink-100 to-brand-50 rounded-3xl blur-2xl opacity-70"></div>
                 <img
                   src="/ai-widget-website.webp"
                   alt="AI voice widget integreret på hjemmeside – automatisk booking og kundeservice"
@@ -513,16 +513,16 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                 />
               </div>
               <div className="order-1 lg:order-2 space-y-6">
-                <h2 className="text-4xl md:text-5xl font-bold text-slate-900 leading-tight">
+                <h2 className="text-4xl md:text-5xl font-bold text-ink-900 leading-tight">
                   Hvad er en AI voice widget?
                 </h2>
-                <p className="text-lg text-slate-600 leading-relaxed">
+                <p className="text-lg text-ink-600 leading-relaxed">
                   En <strong>AI voice widget</strong> er et intelligent taleinterface, der sidder diskret på din hjemmeside – typisk som en flydende knap i hjørnet. Når en besøgende klikker, kan de tale direkte med din AI-assistent.
                 </p>
-                <p className="text-lg text-slate-600 leading-relaxed">
+                <p className="text-lg text-ink-600 leading-relaxed">
                   AI-assistenten forstår naturligt dansk tale, kan svare på spørgsmål om din virksomhed, og booke møder direkte ind i din kalender – <strong>helt uden menneskelig indgriben</strong>.
                 </p>
-                <p className="text-lg text-slate-600 leading-relaxed">
+                <p className="text-lg text-ink-600 leading-relaxed">
                   Det er som at have en receptionist, der aldrig sover, aldrig er syg og altid er professionel – til en brøkdel af prisen.
                 </p>
                 <div className="grid grid-cols-2 gap-4 pt-4">
@@ -532,11 +532,11 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                     { icon: Calendar, label: 'Auto-booking' },
                     { icon: Globe, label: 'Flersproget' },
                   ].map(({ icon: Icon, label }) => (
-                    <div key={label} className="flex items-center gap-3 bg-slate-50 rounded-xl p-4 border border-slate-100">
-                      <div className="w-9 h-9 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <Icon className="w-5 h-5 text-blue-600" />
+                    <div key={label} className="flex items-center gap-3 bg-ink-50 rounded-xl p-4 border border-ink-100">
+                      <div className="w-9 h-9 bg-brand-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Icon className="w-5 h-5 text-brand-600" />
                       </div>
-                      <span className="font-semibold text-slate-800 text-sm">{label}</span>
+                      <span className="font-semibold text-ink-800 text-sm">{label}</span>
                     </div>
                   ))}
                 </div>
@@ -546,13 +546,13 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
         </section>
 
         {/* How it works */}
-        <section className="py-20 md:py-28 bg-slate-50">
+        <section className="py-20 md:py-28 bg-ink-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16 space-y-4">
-              <h2 className="text-4xl md:text-5xl font-bold text-slate-900">
+              <h2 className="text-4xl md:text-5xl font-bold text-ink-900">
                 Sådan virker AI voice widgetten
               </h2>
-              <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              <p className="text-xl text-ink-600 max-w-3xl mx-auto">
                 Fra installation til automatisk booking – en simpel proces i tre trin
               </p>
             </div>
@@ -578,13 +578,13 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                   description: 'Møder og bookinger registreres direkte i din kalender. Du modtager en bekræftelse, og kunden får automatisk en kvittering – uden du skal gøre noget.',
                 },
               ].map(({ step, icon: Icon, title, description }) => (
-                <div key={step} className="relative bg-white rounded-3xl p-8 shadow-md border border-slate-100 hover:shadow-lg transition-shadow">
-                  <div className="text-6xl font-bold text-slate-100 mb-4 leading-none">{step}</div>
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mb-5">
+                <div key={step} className="relative bg-white rounded-3xl p-8 shadow-md border border-ink-100 hover:shadow-lg transition-shadow">
+                  <div className="text-6xl font-bold text-ink-100 mb-4 leading-none">{step}</div>
+                  <div className="w-12 h-12 bg-gradient-to-br from-brand-600 to-brand-700 rounded-xl flex items-center justify-center mb-5">
                     <Icon className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{title}</h3>
-                  <p className="text-slate-600 leading-relaxed">{description}</p>
+                  <h3 className="text-xl font-bold text-ink-900 mb-3">{title}</h3>
+                  <p className="text-ink-600 leading-relaxed">{description}</p>
                 </div>
               ))}
             </div>
@@ -595,10 +595,10 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
         <section className="py-20 md:py-28">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16 space-y-4">
-              <h2 className="text-4xl md:text-5xl font-bold text-slate-900">
+              <h2 className="text-4xl md:text-5xl font-bold text-ink-900">
                 Funktioner der gør forskel
               </h2>
-              <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              <p className="text-xl text-ink-600 max-w-3xl mx-auto">
                 Alt hvad du har brug for til automatisk booking og kundeservice via AI
               </p>
             </div>
@@ -651,12 +651,12 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                   description: 'Du betaler kun for aktive taletid – ikke for ventetid eller pauser. En langt billigere løsning end en deltidsmedarbejder.',
                 },
               ].map(({ icon: Icon, title, description }) => (
-                <div key={title} className="group bg-white border border-slate-200 rounded-2xl p-6 hover:border-blue-300 hover:shadow-md transition-all">
-                  <div className="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center mb-4 group-hover:bg-blue-100 transition-colors">
-                    <Icon className="w-5 h-5 text-blue-600" />
+                <div key={title} className="group bg-white border border-ink-200 rounded-2xl p-6 hover:border-brand-300 hover:shadow-md transition-all">
+                  <div className="w-11 h-11 bg-brand-50 rounded-xl flex items-center justify-center mb-4 group-hover:bg-brand-100 transition-colors">
+                    <Icon className="w-5 h-5 text-brand-600" />
                   </div>
-                  <h3 className="text-lg font-bold text-slate-900 mb-2">{title}</h3>
-                  <p className="text-slate-600 text-sm leading-relaxed">{description}</p>
+                  <h3 className="text-lg font-bold text-ink-900 mb-2">{title}</h3>
+                  <p className="text-ink-600 text-sm leading-relaxed">{description}</p>
                 </div>
               ))}
             </div>
@@ -664,13 +664,13 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
         </section>
 
         {/* Use cases */}
-        <section className="py-20 md:py-28 bg-slate-50">
+        <section className="py-20 md:py-28 bg-ink-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16 space-y-4">
-              <h2 className="text-4xl md:text-5xl font-bold text-slate-900">
+              <h2 className="text-4xl md:text-5xl font-bold text-ink-900">
                 Hvem bruger AI voice widgetten?
               </h2>
-              <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              <p className="text-xl text-ink-600 max-w-3xl mx-auto">
                 Perfekt til alle virksomheder, der tager imod bookinger og kundehenvendelser online
               </p>
             </div>
@@ -684,32 +684,32 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                 { label: 'Tandlæger', desc: 'Patienthåndtering 24/7' },
                 { label: 'E-handel', desc: 'Kundeservice non-stop' },
               ].map(({ label, desc }) => (
-                <div key={label} className="bg-white rounded-2xl p-5 text-center shadow-sm border border-slate-100 hover:border-blue-200 hover:shadow-md transition-all">
-                  <div className="font-bold text-slate-900 mb-1">{label}</div>
-                  <div className="text-xs text-slate-500">{desc}</div>
+                <div key={label} className="bg-white rounded-2xl p-5 text-center shadow-sm border border-ink-100 hover:border-brand-200 hover:shadow-md transition-all">
+                  <div className="font-bold text-ink-900 mb-1">{label}</div>
+                  <div className="text-xs text-ink-500">{desc}</div>
                 </div>
               ))}
             </div>
 
-            <div className="mt-12 bg-white rounded-3xl p-8 md:p-12 border border-slate-200 shadow-md max-w-4xl mx-auto">
-              <h3 className="text-2xl font-bold text-slate-900 mb-4 text-center">
+            <div className="mt-12 bg-white rounded-3xl p-8 md:p-12 border border-ink-200 shadow-md max-w-4xl mx-auto">
+              <h3 className="text-2xl font-bold text-ink-900 mb-4 text-center">
                 Typisk ROI for en AI voice widget
               </h3>
-              <p className="text-slate-600 text-center mb-8 leading-relaxed">
+              <p className="text-ink-600 text-center mb-8 leading-relaxed">
                 En deltidsreceptionist koster typisk 15.000-20.000 kr/md. Med AI voice widgetten til 999 kr/md får du <strong>samme funktionalitet</strong> – men 24 timer i døgnet, 7 dage om ugen.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-                <div className="bg-slate-50 rounded-2xl p-5">
-                  <div className="text-3xl font-bold text-blue-600 mb-1">95%</div>
-                  <div className="text-sm text-slate-600">Besparelse vs. receptionist</div>
+                <div className="bg-ink-50 rounded-2xl p-5">
+                  <div className="text-3xl font-bold text-brand-600 mb-1">95%</div>
+                  <div className="text-sm text-ink-600">Besparelse vs. receptionist</div>
                 </div>
-                <div className="bg-slate-50 rounded-2xl p-5">
-                  <div className="text-3xl font-bold text-blue-600 mb-1">0 sek</div>
-                  <div className="text-sm text-slate-600">Ventetid for kunder</div>
+                <div className="bg-ink-50 rounded-2xl p-5">
+                  <div className="text-3xl font-bold text-brand-600 mb-1">0 sek</div>
+                  <div className="text-sm text-ink-600">Ventetid for kunder</div>
                 </div>
-                <div className="bg-slate-50 rounded-2xl p-5">
-                  <div className="text-3xl font-bold text-blue-600 mb-1">100%</div>
-                  <div className="text-sm text-slate-600">Automatiserede bookinger</div>
+                <div className="bg-ink-50 rounded-2xl p-5">
+                  <div className="text-3xl font-bold text-brand-600 mb-1">100%</div>
+                  <div className="text-sm text-ink-600">Automatiserede bookinger</div>
                 </div>
               </div>
             </div>
@@ -720,13 +720,13 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
         <PricingSection />
 
         {/* FAQ */}
-        <section className="py-20 md:py-28 bg-slate-50">
+        <section className="py-20 md:py-28 bg-ink-50">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12 space-y-4">
-              <h2 className="text-4xl md:text-5xl font-bold text-slate-900">
+              <h2 className="text-4xl md:text-5xl font-bold text-ink-900">
                 Ofte stillede spørgsmål
               </h2>
-              <p className="text-xl text-slate-600">
+              <p className="text-xl text-ink-600">
                 Alt du vil vide om AI voice widgetten
               </p>
             </div>
@@ -741,7 +741,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
         {/* CTA */}
         <section className="py-20 md:py-28">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-3xl overflow-hidden shadow-2xl">
+            <div className="bg-gradient-to-r from-brand-600 to-brand-700 rounded-3xl overflow-hidden shadow-2xl">
               <div className="px-8 md:px-16 py-16 md:py-20 text-center space-y-8">
                 <h2 className="text-4xl md:text-5xl font-bold text-white">
                   Klar til at automatisere din booking?
@@ -754,7 +754,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                     href="https://cal.com/ai-booking-mgtx8v/intro-voiceboot-aibooking.dk"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-xl hover:bg-blue-50 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
+                    className="inline-flex items-center justify-center gap-2 bg-white text-brand-600 px-8 py-4 rounded-xl hover:bg-brand-50 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
                   >
                     Book gratis intro
                     <ArrowRight className="w-5 h-5" />
@@ -763,7 +763,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                     href="https://buy.stripe.com/7sY3cu2H14JB00k4IX4AU04"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 bg-blue-500/30 text-white border border-white/30 px-8 py-4 rounded-xl hover:bg-blue-500/50 transition-all font-semibold"
+                    className="inline-flex items-center justify-center gap-2 bg-brand-500/30 text-white border border-white/30 px-8 py-4 rounded-xl hover:bg-brand-500/50 transition-all font-semibold"
                   >
                     Bestil direkte – 999 kr/md
                   </a>

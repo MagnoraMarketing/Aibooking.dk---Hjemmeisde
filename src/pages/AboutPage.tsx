@@ -62,7 +62,7 @@ function AboutPage({ onNavigate }: AboutPageProps) {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30">
+    <div className="min-h-screen bg-gradient-to-br from-ink-50 via-white to-brand-50/30">
       <SEO
         title="Om Os - 20+ Års Erfaring i Telemarketing | Aibooking.dk"
         description="Folkene bag Aibooking.dk har 20+ års erfaring i telemarketing. Vores virtuelle receptionist automatiserer indgående og udgående kundekontakt. 500+ tilfredse kunder."
@@ -75,28 +75,28 @@ function AboutPage({ onNavigate }: AboutPageProps) {
       <div className="pt-32 pb-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
-            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-6">
+            <div className="inline-flex items-center space-x-2 bg-brand-100 text-brand-700 px-4 py-2 rounded-full text-sm font-semibold mb-6">
               <Users className="w-4 h-4" />
               <span>Om Aibooking.dk</span>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6">
+            <h1 className="text-5xl md:text-6xl font-bold text-ink-900 mb-6">
               Vi revolutionerer<br />kundeservice med AI
             </h1>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-ink-600 max-w-3xl mx-auto leading-relaxed">
               Vores mission er at hjælpe danske virksomheder med at levere fremragende kundeservice døgnet rundt ved hjælp af avanceret AI-teknologi.
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 mb-20 items-center">
             <div>
-              <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-6">
+              <div className="inline-flex items-center space-x-2 bg-brand-100 text-brand-700 px-4 py-2 rounded-full text-sm font-semibold mb-6">
                 <Target className="w-4 h-4" />
                 <span>Vores historie</span>
               </div>
-              <h2 className="text-4xl font-bold text-slate-900 mb-6">
+              <h2 className="text-4xl font-bold text-ink-900 mb-6">
                 Fra idé til virkelighed
               </h2>
-              <div className="space-y-4 text-slate-600 leading-relaxed">
+              <div className="space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   Aibooking.dk blev grundlagt med en klar vision: At gøre professionel kundeservice tilgængelig for alle virksomheder, uanset størrelse.
                 </p>
@@ -111,13 +111,13 @@ function AboutPage({ onNavigate }: AboutPageProps) {
                 </p>
               </div>
             </div>
-            <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-3xl p-12 text-white shadow-2xl">
+            <div className="bg-gradient-to-br from-brand-600 to-brand-700 rounded-3xl p-12 text-white shadow-2xl">
               <Globe className="w-16 h-16 mb-8 opacity-90" />
               <h3 className="text-3xl font-bold mb-4">Vores vision</h3>
-              <p className="text-blue-100 text-lg leading-relaxed mb-6">
+              <p className="text-brand-100 text-lg leading-relaxed mb-6">
                 At være Danmarks førende leverandør af AI-drevne kundeservice løsninger og hjælpe virksomheder med at vokse gennem bedre kundeoplevelser.
               </p>
-              <div className="flex items-center space-x-3 bg-blue-500/30 rounded-xl p-4">
+              <div className="flex items-center space-x-3 bg-brand-500/30 rounded-xl p-4">
                 <Zap className="w-8 h-8 text-yellow-300" />
                 <span className="font-semibold">Innovation driver os fremad</span>
               </div>
@@ -126,8 +126,8 @@ function AboutPage({ onNavigate }: AboutPageProps) {
 
           <div className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-slate-900 mb-4">Vores værdier</h2>
-              <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+              <h2 className="text-4xl font-bold text-ink-900 mb-4">Vores værdier</h2>
+              <p className="text-xl text-ink-600 max-w-2xl mx-auto">
                 De principper der guider alt hvad vi gør
               </p>
             </div>
@@ -135,12 +135,12 @@ function AboutPage({ onNavigate }: AboutPageProps) {
               {values.map((value, index) => {
                 const Icon = value.icon;
                 return (
-                  <div key={index} className="bg-white rounded-3xl p-8 shadow-lg border border-slate-200/60 hover:shadow-xl transition-all hover:scale-105">
-                    <div className="w-14 h-14 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-blue-500/20">
+                  <div key={index} className="bg-white rounded-3xl p-8 shadow-lg border border-ink-200/60 hover:shadow-xl transition-all hover:scale-105">
+                    <div className="w-14 h-14 bg-gradient-to-br from-brand-600 to-brand-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-brand-500/20">
                       <Icon className="w-7 h-7 text-white" />
                     </div>
-                    <h3 className="text-xl font-bold text-slate-900 mb-3">{value.title}</h3>
-                    <p className="text-slate-600 leading-relaxed">{value.description}</p>
+                    <h3 className="text-xl font-bold text-ink-900 mb-3">{value.title}</h3>
+                    <p className="text-ink-600 leading-relaxed">{value.description}</p>
                   </div>
                 );
               })}
@@ -149,8 +149,8 @@ function AboutPage({ onNavigate }: AboutPageProps) {
 
           <div className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-slate-900 mb-4">Hvorfor vælge Aibooking.dk?</h2>
-              <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+              <h2 className="text-4xl font-bold text-ink-900 mb-4">Hvorfor vælge Aibooking.dk?</h2>
+              <p className="text-xl text-ink-600 max-w-2xl mx-auto">
                 Erfaring, ekspertise og resultater der taler for sig selv
               </p>
             </div>
@@ -158,62 +158,62 @@ function AboutPage({ onNavigate }: AboutPageProps) {
               {benefits.map((benefit, index) => {
                 const Icon = benefit.icon;
                 return (
-                  <div key={index} className="bg-white rounded-3xl p-8 shadow-lg border border-slate-200/60 hover:shadow-xl transition-all hover:scale-105">
-                    <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-blue-500/20">
+                  <div key={index} className="bg-white rounded-3xl p-8 shadow-lg border border-ink-200/60 hover:shadow-xl transition-all hover:scale-105">
+                    <div className="w-16 h-16 bg-gradient-to-br from-brand-600 to-brand-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-brand-500/20">
                       <Icon className="w-8 h-8 text-white" />
                     </div>
-                    <h3 className="text-xl font-bold text-slate-900 mb-4">{benefit.title}</h3>
-                    <p className="text-slate-600 leading-relaxed">{benefit.description}</p>
+                    <h3 className="text-xl font-bold text-ink-900 mb-4">{benefit.title}</h3>
+                    <p className="text-ink-600 leading-relaxed">{benefit.description}</p>
                   </div>
                 );
               })}
             </div>
           </div>
 
-          <div className="bg-white rounded-3xl p-12 shadow-xl border border-slate-200/60 mb-20">
+          <div className="bg-white rounded-3xl p-12 shadow-xl border border-ink-200/60 mb-20">
             <div className="text-center mb-10">
-              <h2 className="text-3xl font-bold text-slate-900 mb-4">Din Virtuelle Receptionist</h2>
-              <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
+              <h2 className="text-3xl font-bold text-ink-900 mb-4">Din Virtuelle Receptionist</h2>
+              <p className="text-lg text-ink-600 max-w-3xl mx-auto leading-relaxed">
                 Vores AI-løsning er ikke bare endnu en chatbot. Det er resultatet af årtiers erfaring med telemarketing og kundekontakt. Vi forstår, hvad det kræver at levere professionel kundeservice, og har bygget en løsning der virkelig fungerer i praksis.
               </p>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-slate-50 rounded-2xl p-8">
-                <h3 className="text-xl font-bold text-slate-900 mb-4">Indgående opkald</h3>
-                <p className="text-slate-600 leading-relaxed mb-4">
+              <div className="bg-ink-50 rounded-2xl p-8">
+                <h3 className="text-xl font-bold text-ink-900 mb-4">Indgående opkald</h3>
+                <p className="text-ink-600 leading-relaxed mb-4">
                   Vores virtuelle receptionist tager imod alle indgående opkald, besvarer spørgsmål, bookinger og viderestiller kun når det er nødvendigt. Det betyder færre afbrudte arbejdsgange og mere tid til kerneopgaver.
                 </p>
-                <ul className="space-y-2 text-slate-600">
+                <ul className="space-y-2 text-ink-600">
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-brand-600 mr-2">✓</span>
                     <span>24/7 tilgængelighed</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-brand-600 mr-2">✓</span>
                     <span>Professionel dansk kommunikation</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-brand-600 mr-2">✓</span>
                     <span>Automatisk booking og bekræftelse</span>
                   </li>
                 </ul>
               </div>
-              <div className="bg-slate-50 rounded-2xl p-8">
-                <h3 className="text-xl font-bold text-slate-900 mb-4">Udgående opkald</h3>
-                <p className="text-slate-600 leading-relaxed mb-4">
+              <div className="bg-ink-50 rounded-2xl p-8">
+                <h3 className="text-xl font-bold text-ink-900 mb-4">Udgående opkald</h3>
+                <p className="text-ink-600 leading-relaxed mb-4">
                   Med erfaring fra udgående telemarketing ved vi, hvad der virker. Vores AI kan foretage opfølgende opkald, bekræftelser og påmindelser - altid med det rigtige tone og timing.
                 </p>
-                <ul className="space-y-2 text-slate-600">
+                <ul className="space-y-2 text-ink-600">
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-brand-600 mr-2">✓</span>
                     <span>Automatiske påmindelser</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-brand-600 mr-2">✓</span>
                     <span>Booking bekræftelser</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-brand-600 mr-2">✓</span>
                     <span>Kundeservice opfølgning</span>
                   </li>
                 </ul>
@@ -221,38 +221,38 @@ function AboutPage({ onNavigate }: AboutPageProps) {
             </div>
           </div>
 
-          <div className="bg-white rounded-3xl p-12 shadow-xl border border-slate-200/60 mb-20">
+          <div className="bg-white rounded-3xl p-12 shadow-xl border border-ink-200/60 mb-20">
             <div className="text-center mb-10">
-              <h2 className="text-3xl font-bold text-slate-900 mb-4">Aibooking.dk Widget</h2>
-              <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
+              <h2 className="text-3xl font-bold text-ink-900 mb-4">Aibooking.dk Widget</h2>
+              <p className="text-lg text-ink-600 max-w-3xl mx-auto leading-relaxed">
                 Aibooking.dk Widget gør det nemt at planlægge og booke møder uden manuel indsats. Integrer vores intelligente widget direkte på din hjemmeside og lad AI'en tage styringen. Både via Voice og tekst mulighed hvor du får booket nye møder automatisk ind i din kalender.
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
-              <div className="bg-slate-50 rounded-2xl p-8">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mb-4">
+              <div className="bg-ink-50 rounded-2xl p-8">
+                <div className="w-12 h-12 bg-gradient-to-br from-brand-600 to-brand-700 rounded-xl flex items-center justify-center mb-4">
                   <Zap className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">AI-baseret planlægning</h3>
-                <p className="text-slate-600 leading-relaxed">
+                <h3 className="text-xl font-bold text-ink-900 mb-3">AI-baseret planlægning</h3>
+                <p className="text-ink-600 leading-relaxed">
                   Widgeten foreslår de bedste tidspunkter for dig og dine kunder – helt automatisk.
                 </p>
               </div>
-              <div className="bg-slate-50 rounded-2xl p-8">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mb-4">
+              <div className="bg-ink-50 rounded-2xl p-8">
+                <div className="w-12 h-12 bg-gradient-to-br from-brand-600 to-brand-700 rounded-xl flex items-center justify-center mb-4">
                   <Shield className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Voice og tekst booking</h3>
-                <p className="text-slate-600 leading-relaxed">
+                <h3 className="text-xl font-bold text-ink-900 mb-3">Voice og tekst booking</h3>
+                <p className="text-ink-600 leading-relaxed">
                   Dine kunder kan vælge mellem at tale direkte med AI'en eller bruge tekstbaseret booking.
                 </p>
               </div>
-              <div className="bg-slate-50 rounded-2xl p-8">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mb-4">
+              <div className="bg-ink-50 rounded-2xl p-8">
+                <div className="w-12 h-12 bg-gradient-to-br from-brand-600 to-brand-700 rounded-xl flex items-center justify-center mb-4">
                   <TrendingUp className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Automatisk kalenderintegration</h3>
-                <p className="text-slate-600 leading-relaxed">
+                <h3 className="text-xl font-bold text-ink-900 mb-3">Automatisk kalenderintegration</h3>
+                <p className="text-ink-600 leading-relaxed">
                   Nye møder bliver automatisk booket ind i din kalender uden manuel håndtering.
                 </p>
               </div>
@@ -260,16 +260,16 @@ function AboutPage({ onNavigate }: AboutPageProps) {
             <div className="text-center">
               <a
                 href="https://www.aibooking.dk/widget"
-                className="inline-block bg-blue-600 text-white px-8 py-4 rounded-xl hover:bg-blue-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
+                className="inline-block bg-brand-600 text-white px-8 py-4 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
               >
                 Læs mere om Widget
               </a>
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-3xl p-12 md:p-16 text-center text-white shadow-2xl">
+          <div className="bg-gradient-to-br from-brand-600 to-brand-700 rounded-3xl p-12 md:p-16 text-center text-white shadow-2xl">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Klar til at komme i gang?</h2>
-            <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xl text-brand-100 mb-8 max-w-2xl mx-auto leading-relaxed">
               Lad os vise dig hvordan Aibooking.dk kan transformere din kundeservice og hjælpe din virksomhed med at vokse.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -277,13 +277,13 @@ function AboutPage({ onNavigate }: AboutPageProps) {
                 href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-blue-600 px-8 py-4 rounded-xl font-bold hover:bg-blue-50 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 inline-block"
+                className="bg-white text-brand-600 px-8 py-4 rounded-xl font-bold hover:bg-brand-50 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 inline-block"
               >
                 Book en demo
               </a>
               <button
                 onClick={() => onNavigate('contact')}
-                className="bg-blue-500 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-400 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-white/20"
+                className="bg-brand-500 text-white px-8 py-4 rounded-xl font-bold hover:bg-brand-400 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-white/20"
               >
                 Kontakt os
               </button>

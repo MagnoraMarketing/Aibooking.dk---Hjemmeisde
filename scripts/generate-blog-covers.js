@@ -18,9 +18,9 @@ const BLOG_CONTENT_PATH = path.join(__dirname, '../src/content/blog.ts');
 const OUTPUT_DIR = path.join(__dirname, '../public/blog/covers');
 
 const PALETTE = {
-  brand: ['#4c1d95', '#5b21b6', '#6d28d9', '#7c3aed', '#8b5cf6'],
+  brand: ['#1e3a8a', '#1e40af', '#1d4ed8', '#2563eb', '#3b82f6'],
   accent: ['#d97706', '#f59e0b', '#fbbf24'],
-  ink: ['#0c081a', '#160f2b', '#241c3d', '#372f52'],
+  ink: ['#020617', '#0f172a', '#1e293b', '#334155'],
 };
 
 // Simple deterministic string hash -> 32-bit seed

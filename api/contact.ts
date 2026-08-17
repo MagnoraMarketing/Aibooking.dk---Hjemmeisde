@@ -5,22 +5,27 @@ const VALID_INDUSTRIES = ['klinikker', 'haandvaerker', 'kontor', 'webshop'];
 interface ContactPayload {
   name: string;
   email: string;
-  phone: string;
-  industry: string;
-  callDate: string;
+  phone?: string;
+  industry?: string;
+  callDate?: string;
   message?: string;
 }
 
 function isValidPayload(body: unknown): body is ContactPayload {
   if (!body || typeof body !== 'object') return false;
   const b = body as Record<string, unknown>;
-  return (
+
+  const hasRequiredFields =
     typeof b.name === 'string' && b.name.trim().length > 0 &&
-    typeof b.email === 'string' && b.email.includes('@') &&
-    typeof b.phone === 'string' && b.phone.trim().length > 0 &&
-    typeof b.industry === 'string' && VALID_INDUSTRIES.includes(b.industry) &&
-    typeof b.callDate === 'string' && b.callDate.trim().length > 0
-  );
+    typeof b.email === 'string' && b.email.includes('@');
+  if (!hasRequiredFields) return false;
+
+  if (b.industry !== undefined && !VALID_INDUSTRIES.includes(b.industry as string)) return false;
+  if (b.phone !== undefined && typeof b.phone !== 'string') return false;
+  if (b.callDate !== undefined && typeof b.callDate !== 'string') return false;
+  if (b.message !== undefined && typeof b.message !== 'string') return false;
+
+  return true;
 }
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
@@ -36,13 +41,26 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const { name, email, phone, industry, callDate, message } = req.body as ContactPayload;
 
   const apiKey = process.env.RESEND_API_KEY;
-  const to = process.env.CONTACT_EMAIL_TO;
+  const to = (process.env.CONTACT_EMAIL_TO || 'mail@aibooking.dk,kontakt@aibooking.dk')
+    .split(',')
+    .map((address) => address.trim())
+    .filter(Boolean);
   const from = process.env.CONTACT_EMAIL_FROM;
 
-  if (!apiKey || !to || !from) {
+  if (!apiKey || to.length === 0 || !from) {
     console.error('Contact form is not configured: missing RESEND_API_KEY, CONTACT_EMAIL_TO or CONTACT_EMAIL_FROM');
     return res.status(500).json({ error: 'Contact form is not configured' });
   }
+
+  const subject = industry
+    ? `Ny henvendelse fra ${name} (${industry})`
+    : `Ny henvendelse fra ${name} via kontaktformular`;
+
+  const lines = [`Navn: ${name}`, `Email: ${email}`];
+  if (phone) lines.push(`Telefon: ${phone}`);
+  if (industry) lines.push(`Branche: ${industry}`);
+  if (callDate) lines.push(`Ønsket opkaldsdato: ${callDate}`);
+  lines.push(`Besked: ${message || '-'}`);
 
   try {
     const emailResponse = await fetch('https://api.resend.com/emails', {
@@ -55,15 +73,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         from,
         to,
         reply_to: email,
-        subject: `Ny henvendelse fra ${name} (${industry})`,
-        text: [
-          `Navn: ${name}`,
-          `Email: ${email}`,
-          `Telefon: ${phone}`,
-          `Branche: ${industry}`,
-          `Ønsket opkaldsdato: ${callDate}`,
-          `Besked: ${message || '-'}`,
-        ].join('\n'),
+        subject,
+        text: lines.join('\n'),
       }),
     });
 

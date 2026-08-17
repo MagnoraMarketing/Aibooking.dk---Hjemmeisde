@@ -35,18 +35,18 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
               <span className="w-2 h-2 bg-green-600 rounded-full animate-pulse"></span>
               <span className="text-sm font-semibold">Klinikker og Sundhed</span>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6">
+            <h1 className="text-5xl md:text-6xl font-bold text-ink-900 mb-6">
               Frihed til at fokusere på patientpleje
             </h1>
-            <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-ink-600 max-w-4xl mx-auto leading-relaxed">
               Som klinik ved du, hvor vigtigt det er at give dine patienter den bedste behandling. Men administrative opgaver som telefonopkald, bookinger og aflysninger stjæler værdifuld tid fra patientplejen.
             </p>
           </div>
 
 
-          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-lg border border-slate-200 mb-16">
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">Den komplette løsning til sundhedssektoren</h2>
-            <p className="text-lg text-slate-600 leading-relaxed mb-8">
+          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-lg border border-ink-200 mb-16">
+            <h2 className="text-3xl font-bold text-ink-900 mb-6">Den komplette løsning til sundhedssektoren</h2>
+            <p className="text-lg text-ink-600 leading-relaxed mb-8">
               Vores AI-receptionist håndterer alle kundehenvendelser professionelt – fra nye bookinger til ombookinger og bekræftelser. Med automatisk SMS-påmindelse reducerer du no-shows betydeligt. Dit personaliserede dashboard giver dig komplet overblik: Lyt til alle opkald, se korte opsummeringer af hver samtale, hvad der er aftalt, booking-statistik og kalenderintegration. Du kan fortsætte med at bruge din nuværende kalendersoftware – vores system synkroniserer automatisk.
             </p>
 
@@ -56,8 +56,8 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
                   <CheckCircle className="w-5 h-5 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 mb-2">Reducer telefontid med 85%</h3>
-                  <p className="text-slate-600">Fokuser på dine patienter i stedet for administrative opgaver</p>
+                  <h3 className="font-bold text-ink-900 mb-2">Reducer telefontid med 85%</h3>
+                  <p className="text-ink-600">Fokuser på dine patienter i stedet for administrative opgaver</p>
                 </div>
               </div>
 
@@ -66,8 +66,8 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
                   <CheckCircle className="w-5 h-5 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 mb-2">Automatiske SMS-påmindelser</h3>
-                  <p className="text-slate-600">Reducer no-shows med op til 60% og optimer din kapacitet</p>
+                  <h3 className="font-bold text-ink-900 mb-2">Automatiske SMS-påmindelser</h3>
+                  <p className="text-ink-600">Reducer no-shows med op til 60% og optimer din kapacitet</p>
                 </div>
               </div>
 
@@ -76,8 +76,8 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
                   <CheckCircle className="w-5 h-5 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 mb-2">24/7 booking service</h3>
-                  <p className="text-slate-600">Håndter bookinger, ombookinger og aflysninger hele døgnet</p>
+                  <h3 className="font-bold text-ink-900 mb-2">24/7 booking service</h3>
+                  <p className="text-ink-600">Håndter bookinger, ombookinger og aflysninger hele døgnet</p>
                 </div>
               </div>
 
@@ -86,8 +86,8 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
                   <CheckCircle className="w-5 h-5 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 mb-2">Komplet dashboard</h3>
-                  <p className="text-slate-600">Opkaldshistorik, samtaleopsummeringer og booking-statistik</p>
+                  <h3 className="font-bold text-ink-900 mb-2">Komplet dashboard</h3>
+                  <p className="text-ink-600">Opkaldshistorik, samtaleopsummeringer og booking-statistik</p>
                 </div>
               </div>
 
@@ -96,8 +96,8 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
                   <CheckCircle className="w-5 h-5 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 mb-2">Kalenderintegration</h3>
-                  <p className="text-slate-600">Synkroniserer med dit eksisterende booking-system automatisk</p>
+                  <h3 className="font-bold text-ink-900 mb-2">Kalenderintegration</h3>
+                  <p className="text-ink-600">Synkroniserer med dit eksisterende booking-system automatisk</p>
                 </div>
               </div>
 
@@ -106,8 +106,8 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
                   <CheckCircle className="w-5 h-5 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 mb-2">GDPR-overholdelse</h3>
-                  <p className="text-slate-600">Fuld sikkerhed for følsomme patientdata</p>
+                  <h3 className="font-bold text-ink-900 mb-2">GDPR-overholdelse</h3>
+                  <p className="text-ink-600">Fuld sikkerhed for følsomme patientdata</p>
                 </div>
               </div>
             </div>
@@ -116,30 +116,30 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
           <div className="grid md:grid-cols-4 gap-6 mb-16">
             <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-3xl text-center border border-green-100">
               <TrendingUp className="w-10 h-10 text-green-600 mx-auto mb-4" />
-              <div className="text-4xl font-bold text-slate-900 mb-2">60%</div>
-              <div className="text-slate-600 font-semibold">Færre no-shows</div>
+              <div className="text-4xl font-bold text-ink-900 mb-2">60%</div>
+              <div className="text-ink-600 font-semibold">Færre no-shows</div>
             </div>
 
             <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-3xl text-center border border-green-100">
               <Clock className="w-10 h-10 text-green-600 mx-auto mb-4" />
-              <div className="text-4xl font-bold text-slate-900 mb-2">12t/uge</div>
-              <div className="text-slate-600 font-semibold">Sparet tid</div>
+              <div className="text-4xl font-bold text-ink-900 mb-2">12t/uge</div>
+              <div className="text-ink-600 font-semibold">Sparet tid</div>
             </div>
 
             <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-3xl text-center border border-green-100">
               <Calendar className="w-10 h-10 text-green-600 mx-auto mb-4" />
-              <div className="text-4xl font-bold text-slate-900 mb-2">95%</div>
-              <div className="text-slate-600 font-semibold">Booking rate</div>
+              <div className="text-4xl font-bold text-ink-900 mb-2">95%</div>
+              <div className="text-ink-600 font-semibold">Booking rate</div>
             </div>
 
             <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-3xl text-center border border-green-100">
               <Users className="w-10 h-10 text-green-600 mx-auto mb-4" />
-              <div className="text-4xl font-bold text-slate-900 mb-2">4.8/5</div>
-              <div className="text-slate-600 font-semibold">Kundetilfredshed</div>
+              <div className="text-4xl font-bold text-ink-900 mb-2">4.8/5</div>
+              <div className="text-ink-600 font-semibold">Kundetilfredshed</div>
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-slate-900 to-green-900 rounded-3xl p-12 text-white text-center">
+          <div className="bg-gradient-to-br from-ink-900 to-green-900 rounded-3xl p-12 text-white text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Perfekt til alle sundhedsfaglige klinikker
             </h2>
@@ -177,7 +177,7 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-green-900 to-slate-900">
+      <section className="py-20 bg-gradient-to-br from-green-900 to-ink-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Klar til at komme i gang?

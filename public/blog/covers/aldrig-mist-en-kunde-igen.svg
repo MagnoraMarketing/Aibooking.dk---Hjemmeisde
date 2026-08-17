@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
   <defs>
     <linearGradient id="bg-aldrigmisten" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(334 0.5 0.5)">
-      <stop offset="0%" stop-color="#0c081a"/>
-      <stop offset="100%" stop-color="#5b21b6"/>
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#1e40af"/>
     </linearGradient>
     <radialGradient id="glow1-aldrigmisten" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#4c1d95" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#4c1d95" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow2-aldrigmisten" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#d97706" stop-opacity="0.35"/>
@@ -27,7 +27,7 @@
     transform="rotate(281 600 337.5)"/>
 
   <circle cx="112.31516218185425" cy="178.98674421384933" r="32.96102710068226" fill="none" stroke="#d97706" stroke-width="2" opacity="0.5"/>
-  <circle cx="105.83214994892478" cy="610.0408680578694" r="19.99035133002326" fill="#4c1d95" opacity="0.18"/>
+  <circle cx="105.83214994892478" cy="610.0408680578694" r="19.99035133002326" fill="#1e3a8a" opacity="0.18"/>
 
   <g transform="translate(608.7570154666901 363.24286836571997) rotate(2)">
     <circle r="79.03183480526786" fill="white" opacity="0.06"/>
@@ -35,7 +35,7 @@
     <rect x="-57.47769804019481" y="-57.47769804019481" width="114.95539608038962" height="114.95539608038962" rx="28.738849020097405"
       fill="url(#glow1-aldrigmisten)" opacity="0.9"/>
     <rect x="-57.47769804019481" y="-57.47769804019481" width="114.95539608038962" height="114.95539608038962" rx="28.738849020097405"
-      fill="#5b21b6" opacity="0.55"/>
+      fill="#1e40af" opacity="0.55"/>
     <g transform="scale(7.184712255024351) translate(-12 -12)">
       <circle cx="6" cy="6" r="2.2" fill="white"/><circle cx="18" cy="6" r="2.2" fill="white"/><circle cx="12" cy="18" r="2.2" fill="white"/><path d="M8 6h8M7.3 7.8 10.7 16.4M16.7 7.8 13.3 16.4" stroke="white" stroke-width="1.4"/>
     </g>

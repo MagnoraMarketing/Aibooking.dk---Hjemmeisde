@@ -41,9 +41,9 @@ function IntegrationCategories() {
   ];
 
   const colorClasses = {
-    blue: 'bg-blue-100 text-blue-600',
+    blue: 'bg-brand-100 text-brand-600',
     green: 'bg-green-100 text-green-600',
-    purple: 'bg-purple-100 text-purple-600',
+    purple: 'bg-brand-100 text-brand-600',
     orange: 'bg-orange-100 text-orange-600',
     pink: 'bg-pink-100 text-pink-600',
     indigo: 'bg-indigo-100 text-indigo-600'

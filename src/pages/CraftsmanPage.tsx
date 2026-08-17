@@ -35,18 +35,18 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
               <span className="w-2 h-2 bg-orange-600 rounded-full animate-pulse"></span>
               <span className="text-sm font-semibold">Håndværkere</span>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6">
+            <h1 className="text-5xl md:text-6xl font-bold text-ink-900 mb-6">
               Stop med at miste ordrer fordi telefonen ikke bliver taget
             </h1>
-            <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-ink-600 max-w-4xl mx-auto leading-relaxed">
               Du kender det: Du er midt i et job, og telefonen ringer. Hvis du tager den, mister du fokus. Hvis du ikke gør, mister du potentielt en god ordre. Det er en umulig situation.
             </p>
           </div>
 
 
-          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-lg border border-slate-200 mb-16">
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">Aldrig gå glip af en ordre igen</h2>
-            <p className="text-lg text-slate-600 leading-relaxed mb-8">
+          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-lg border border-ink-200 mb-16">
+            <h2 className="text-3xl font-bold text-ink-900 mb-6">Aldrig gå glip af en ordre igen</h2>
+            <p className="text-lg text-ink-600 leading-relaxed mb-8">
               Vores AI-receptionist løser dette problem én gang for alle. Systemet tager imod alle opkald, registrerer kundeoplysninger, booker besigtigelser og sender automatiske bekræftelser via SMS. I dit dashboard kan du se alle henvendelser, lytte til optagede samtaler, få korte opsummeringer af hvad kunden ønsker, og se hvad der er blevet aftalt. Din kalender opdateres automatisk, uanset hvilket system du bruger. Slip for bekymringen om mistede ordrer – fokuser på dit håndværk.
             </p>
 
@@ -56,8 +56,8 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
                   <CheckCircle className="w-5 h-5 text-orange-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 mb-2">Tag imod alle henvendelser</h3>
-                  <p className="text-slate-600">Selv når du er på job og ikke kan svare på telefonen</p>
+                  <h3 className="font-bold text-ink-900 mb-2">Tag imod alle henvendelser</h3>
+                  <p className="text-ink-600">Selv når du er på job og ikke kan svare på telefonen</p>
                 </div>
               </div>
 
@@ -66,8 +66,8 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
                   <CheckCircle className="w-5 h-5 text-orange-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 mb-2">Automatisk registrering</h3>
-                  <p className="text-slate-600">Kundeoplysninger og opgavebeskrivelser gemmes automatisk</p>
+                  <h3 className="font-bold text-ink-900 mb-2">Automatisk registrering</h3>
+                  <p className="text-ink-600">Kundeoplysninger og opgavebeskrivelser gemmes automatisk</p>
                 </div>
               </div>
 
@@ -76,8 +76,8 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
                   <CheckCircle className="w-5 h-5 text-orange-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 mb-2">Book besigtigelser direkte</h3>
-                  <p className="text-slate-600">I din kalender – synkroniserer automatisk med dit system</p>
+                  <h3 className="font-bold text-ink-900 mb-2">Book besigtigelser direkte</h3>
+                  <p className="text-ink-600">I din kalender – synkroniserer automatisk med dit system</p>
                 </div>
               </div>
 
@@ -86,8 +86,8 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
                   <CheckCircle className="w-5 h-5 text-orange-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 mb-2">SMS-bekræftelser</h3>
-                  <p className="text-slate-600">Til både dig og kunden med alle relevante detaljer</p>
+                  <h3 className="font-bold text-ink-900 mb-2">SMS-bekræftelser</h3>
+                  <p className="text-ink-600">Til både dig og kunden med alle relevante detaljer</p>
                 </div>
               </div>
 
@@ -96,8 +96,8 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
                   <CheckCircle className="w-5 h-5 text-orange-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 mb-2">Komplet dashboard</h3>
-                  <p className="text-slate-600">Se alle kundehenvendelser og hvad der er aftalt</p>
+                  <h3 className="font-bold text-ink-900 mb-2">Komplet dashboard</h3>
+                  <p className="text-ink-600">Se alle kundehenvendelser og hvad der er aftalt</p>
                 </div>
               </div>
 
@@ -106,8 +106,8 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
                   <CheckCircle className="w-5 h-5 text-orange-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 mb-2">24/7 tilgængelighed</h3>
-                  <p className="text-slate-600">Systemet arbejder hele døgnet, også i weekenden</p>
+                  <h3 className="font-bold text-ink-900 mb-2">24/7 tilgængelighed</h3>
+                  <p className="text-ink-600">Systemet arbejder hele døgnet, også i weekenden</p>
                 </div>
               </div>
             </div>
@@ -116,30 +116,30 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
           <div className="grid md:grid-cols-4 gap-6 mb-16">
             <div className="bg-gradient-to-br from-orange-50 to-white p-8 rounded-3xl text-center border border-orange-100">
               <TrendingUp className="w-10 h-10 text-orange-600 mx-auto mb-4" />
-              <div className="text-4xl font-bold text-slate-900 mb-2">+45%</div>
-              <div className="text-slate-600 font-semibold">Flere ordrer</div>
+              <div className="text-4xl font-bold text-ink-900 mb-2">+45%</div>
+              <div className="text-ink-600 font-semibold">Flere ordrer</div>
             </div>
 
             <div className="bg-gradient-to-br from-orange-50 to-white p-8 rounded-3xl text-center border border-orange-100">
               <Clock className="w-10 h-10 text-orange-600 mx-auto mb-4" />
-              <div className="text-4xl font-bold text-slate-900 mb-2">10t/uge</div>
-              <div className="text-slate-600 font-semibold">Sparet tid</div>
+              <div className="text-4xl font-bold text-ink-900 mb-2">10t/uge</div>
+              <div className="text-ink-600 font-semibold">Sparet tid</div>
             </div>
 
             <div className="bg-gradient-to-br from-orange-50 to-white p-8 rounded-3xl text-center border border-orange-100">
               <Phone className="w-10 h-10 text-orange-600 mx-auto mb-4" />
-              <div className="text-4xl font-bold text-slate-900 mb-2">100%</div>
-              <div className="text-slate-600 font-semibold">Svar-rate</div>
+              <div className="text-4xl font-bold text-ink-900 mb-2">100%</div>
+              <div className="text-ink-600 font-semibold">Svar-rate</div>
             </div>
 
             <div className="bg-gradient-to-br from-orange-50 to-white p-8 rounded-3xl text-center border border-orange-100">
               <Users className="w-10 h-10 text-orange-600 mx-auto mb-4" />
-              <div className="text-4xl font-bold text-slate-900 mb-2">4.9/5</div>
-              <div className="text-slate-600 font-semibold">Kundetilfredshed</div>
+              <div className="text-4xl font-bold text-ink-900 mb-2">4.9/5</div>
+              <div className="text-ink-600 font-semibold">Kundetilfredshed</div>
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-slate-900 to-orange-900 rounded-3xl p-12 text-white text-center">
+          <div className="bg-gradient-to-br from-ink-900 to-orange-900 rounded-3xl p-12 text-white text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Perfekt til alle håndværksfag
             </h2>
@@ -181,7 +181,7 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-orange-900 to-slate-900">
+      <section className="py-20 bg-gradient-to-br from-orange-900 to-ink-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Klar til at komme i gang?

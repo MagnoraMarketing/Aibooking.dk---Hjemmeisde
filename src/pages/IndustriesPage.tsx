@@ -91,8 +91,8 @@ Med Aibooking.dk får du det bedste fra begge verdener. Vores AI-receptionist sc
         { label: 'Håndterede opkald', value: '98%', icon: Phone },
         { label: 'ROI', value: '320%', icon: BarChart3 }
       ],
-      bgColor: 'bg-blue-50',
-      accentColor: 'text-blue-600'
+      bgColor: 'bg-brand-50',
+      accentColor: 'text-brand-600'
     },
     {
       title: 'Webshops og E-handel',
@@ -116,8 +116,8 @@ Aibooking.dk giver dig AI-drevet kundeservice der aldrig sover. Systemet besvare
         { label: 'Håndterede henvendelser', value: '1200+/md', icon: MessageSquare },
         { label: 'Konvertering', value: '+28%', icon: CheckSquare }
       ],
-      bgColor: 'bg-purple-50',
-      accentColor: 'text-purple-600'
+      bgColor: 'bg-brand-50',
+      accentColor: 'text-brand-600'
     }
   ];
 
@@ -132,21 +132,21 @@ Aibooking.dk giver dig AI-drevet kundeservice der aldrig sover. Systemet besvare
       />
       <Navigation onNavigate={onNavigate} />
 
-      <div className="pt-32 pb-20 bg-gradient-to-br from-slate-50 to-blue-50">
+      <div className="pt-32 pb-20 bg-gradient-to-br from-ink-50 to-brand-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full mb-8">
-            <span className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></span>
+          <div className="inline-flex items-center space-x-2 bg-brand-100 text-brand-700 px-4 py-2 rounded-full mb-8">
+            <span className="w-2 h-2 bg-brand-600 rounded-full animate-pulse"></span>
             <span className="text-sm font-semibold tracking-wide">Løsninger til alle brancher</span>
           </div>
 
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 mb-8 leading-tight">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-ink-900 mb-8 leading-tight">
             Find den perfekte løsning<br />
-            <span className="bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-brand-600 to-brand-500 bg-clip-text text-transparent">
               til din branche
             </span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-slate-600 mb-12 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-ink-600 mb-12 max-w-4xl mx-auto leading-relaxed">
             Aibooking.dk tilpasser sig dine behov – uanset om du driver en klinik, er håndværker,
             har et kontor eller driver en webshop. Få en skræddersyet løsning der passer perfekt til din virksomhed.
           </p>
@@ -161,7 +161,7 @@ Aibooking.dk giver dig AI-drevet kundeservice der aldrig sover. Systemet besvare
           <div className="text-center -mt-8 pb-12 relative z-10">
             <button
               onClick={() => onNavigate(industry.page)}
-              className="bg-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
+              className="bg-brand-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-brand-700 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               Læs mere om {industry.title}
             </button>
@@ -173,20 +173,20 @@ Aibooking.dk giver dig AI-drevet kundeservice der aldrig sover. Systemet besvare
 
       <ContactForm />
 
-      <div className="bg-slate-900 py-16">
+      <div className="bg-ink-900 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="text-white">
               <div className="text-4xl font-bold mb-2">7 dage</div>
-              <div className="text-slate-400">Gratis demo adgang</div>
+              <div className="text-ink-400">Gratis demo adgang</div>
             </div>
             <div className="text-white">
               <div className="text-4xl font-bold mb-2">100%</div>
-              <div className="text-slate-400">Uforpligtende</div>
+              <div className="text-ink-400">Uforpligtende</div>
             </div>
             <div className="text-white">
               <div className="text-4xl font-bold mb-2">24/7</div>
-              <div className="text-slate-400">Support og drift</div>
+              <div className="text-ink-400">Support og drift</div>
             </div>
           </div>
         </div>

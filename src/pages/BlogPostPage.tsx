@@ -3,6 +3,8 @@ import { Calendar, ArrowLeft, ArrowRight, Clock, Share2, BookmarkPlus, Sparkles 
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
+import FAQ from '../components/FAQ';
+import { blogFAQs } from '../content/faq';
 import { getPostBySlug, getCategoryBySlug, getRelatedPosts, BlogPost } from '../content/blog';
 
 interface BlogPostPageProps {
@@ -234,6 +236,7 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
         )}
       </article>
 
+      <FAQ items={blogFAQs} />
       <Footer />
     </div>
   );

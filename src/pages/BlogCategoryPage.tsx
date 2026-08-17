@@ -3,6 +3,8 @@ import { Calendar, ArrowRight, Sparkles, Tag } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
+import FAQ from '../components/FAQ';
+import { blogFAQs } from '../content/faq';
 import { getCategoryBySlug, getPostsByCategory, BlogPost } from '../content/blog';
 
 interface BlogCategoryPageProps {
@@ -190,6 +192,7 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
         </div>
       </div>
 
+      <FAQ items={blogFAQs} />
       <Footer />
     </div>
   );

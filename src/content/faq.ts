@@ -1,5 +1,32 @@
 import { FAQItem } from '../components/FAQ';
 
+export const blogFAQs: FAQItem[] = [
+  {
+    question_da: 'Hvad handler AIBooking.dk\'s blog om?',
+    question_en: "What is the AIBooking.dk blog about?",
+    answer_da: 'Bloggen dækker AI-widgets, AI-telefonassistenter (inbound og outbound) og komplet AI-automatisering af reception og booking – med praktiske vinkler for klinikker, håndværkere, kontorer og webshops.',
+    answer_en: 'The blog covers AI widgets, AI phone assistants (inbound and outbound), and complete AI automation of reception and booking — with practical angles for clinics, craftsmen, offices and webshops.',
+  },
+  {
+    question_da: 'Er artiklerne relevante for mindre virksomheder?',
+    question_en: 'Are the articles relevant for small businesses?',
+    answer_da: 'Ja, en stor del af indholdet handler specifikt om, hvordan mindre firmaer og enkeltmandsvirksomheder får mest ud af automatisering, uden at skulle ansætte flere.',
+    answer_en: 'Yes, a large part of the content is specifically about how smaller companies and one-person businesses get the most out of automation without needing to hire more people.',
+  },
+  {
+    question_da: 'Hvordan hænger widget, telefon og booking sammen?',
+    question_en: 'How do the widget, phone and booking fit together?',
+    answer_da: 'Forbundet til samme kalender og kundejournal dækker de hinandens huller, så en henvendelse aldrig går tabt mellem kanalerne – det er temaet i vores "AI Totalløsning"-kategori.',
+    answer_en: 'Connected to the same calendar and customer record, they cover each other\'s gaps so an enquiry is never lost between channels — that\'s the theme of our "AI Total Solution" category.',
+  },
+  {
+    question_da: 'Kan jeg få hjælp til at vælge den rigtige løsning efter at have læst bloggen?',
+    question_en: 'Can I get help choosing the right solution after reading the blog?',
+    answer_da: 'Ja, book en gratis demo, så gennemgår vi, hvad der giver mest værdi for netop din virksomhed og branche.',
+    answer_en: 'Yes, book a free demo and we\'ll walk through what gives the most value for your specific business and industry.',
+  },
+];
+
 export const homeFAQs: FAQItem[] = [
   {
     question_da: 'Hvad er Aibooking.dk?',

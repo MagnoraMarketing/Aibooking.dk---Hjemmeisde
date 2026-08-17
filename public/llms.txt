@@ -1,0 +1,39 @@
+# Aibooking.dk
+
+> Aibooking.dk is a Danish AI reception and booking platform. It combines an AI chat/voice widget for websites, an AI phone assistant that handles inbound and outbound calls, and automatic calendar booking, so businesses never miss a call, chat, or booking request — in Danish or English, 24/7.
+
+Aibooking.dk is aimed at small and medium-sized Danish businesses — clinics, craftsmen, offices/admin teams, and webshops — that want to automate reception and booking without hiring additional staff. The product connects the website widget, phone assistant, and booking calendar into one system so customer contact is never lost between channels.
+
+## Product
+
+- [Home](https://www.aibooking.dk/): Overview of the AI receptionist product, pricing and core value proposition.
+- [Features](https://www.aibooking.dk/funktioner): Full feature list — call handling, calendar integration, reminders, dashboard.
+- [AI Widget](https://www.aibooking.dk/widget): The website chat/voice widget product page, including pricing.
+- [Demo](https://www.aibooking.dk/demo): Book a free, no-commitment demo.
+- [Integrations](https://www.aibooking.dk/integrationer): Supported calendar and communication integrations.
+
+## Industries
+
+- [Industries overview](https://www.aibooking.dk/brancher): Which industries the product serves.
+- [Clinics](https://www.aibooking.dk/klinik): AI reception for healthcare clinics — booking, reminders, fewer no-shows.
+- [Craftsmen](https://www.aibooking.dk/haandvaerker): AI phone assistant for tradespeople who can't answer calls mid-job.
+- [Office & Admin](https://www.aibooking.dk/kontor): AI reception for offices and administrative teams.
+- [Webshops](https://www.aibooking.dk/webshop): AI widget and support automation for e-commerce.
+
+## Company
+
+- [About](https://www.aibooking.dk/om-aibooking): About Aibooking.dk.
+- [Contact](https://www.aibooking.dk/kontakt): Contact details and contact form.
+- [Terms](https://www.aibooking.dk/vilkaar): Terms of service.
+- [Privacy Policy](https://www.aibooking.dk/privatlivspolitik): Privacy policy and data handling.
+
+## Blog
+
+- [Blog](https://www.aibooking.dk/blog): All articles, spanning three categories below.
+- [AI Widget articles](https://www.aibooking.dk/blog/category/ai-widget): Website chat/voice widget guides, webshop and clinic use cases, GDPR.
+- [AI Inbound & Outbound articles](https://www.aibooking.dk/blog/category/ai-inbound-outbound): AI phone assistant guides for inbound calls, outbound reminders, and industry-specific use cases.
+- [AI Total Solution articles](https://www.aibooking.dk/blog/category/ai-total-solution): Connecting widget, phone and booking into one system; ROI and getting-started guides.
+
+## Optional
+
+- [Sitemap](https://www.aibooking.dk/sitemap.xml): Full list of indexed pages.

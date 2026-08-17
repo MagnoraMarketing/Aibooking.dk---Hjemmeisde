@@ -29,6 +29,7 @@ function HomePage({ onNavigate }: HomePageProps) {
         keywords="AI receptionist, automatisk booking, telefon automatisering, SMS påmindelser, kundeservice automation, dansk AI løsning"
         canonical="https://www.aibooking.dk/"
         structuredData={structuredData}
+        path="/"
       />
       <Navigation onNavigate={onNavigate} />
       <Hero onNavigate={onNavigate} />

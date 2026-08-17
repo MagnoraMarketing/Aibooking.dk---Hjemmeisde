@@ -9,6 +9,16 @@ const DOMAIN = 'https://www.aibooking.dk';
 const PAGES_DIR = path.join(__dirname, '../src/pages');
 const OUTPUT_PATH = path.join(__dirname, '../public/sitemap.xml');
 
+// Keep in sync with src/i18n/config.ts LANGUAGE_PATH_PREFIX.
+const LANGUAGE_PREFIXES = { da: '', en: '/en', pt: '/pt', fr: '/fr' };
+const LANGUAGES = Object.keys(LANGUAGE_PREFIXES);
+
+function localizedPath(lang, route) {
+  const prefix = LANGUAGE_PREFIXES[lang];
+  if (!prefix) return route;
+  return route === '/' ? prefix : `${prefix}${route}`;
+}
+
 const routeMap = {
   'HomePage.tsx': '/',
   'IntegrationsPage.tsx': '/integrationer',
@@ -151,15 +161,21 @@ function getExistingPages() {
 }
 
 function generateSitemap(pages) {
-  const urls = pages.map(page => `  <url>
-    <loc>${DOMAIN}${page.route}</loc>
+  const alternates = (route) => LANGUAGES
+    .map(lang => `    <xhtml:link rel="alternate" hreflang="${lang}" href="${DOMAIN}${localizedPath(lang, route)}" />`)
+    .concat(`    <xhtml:link rel="alternate" hreflang="x-default" href="${DOMAIN}${route}" />`)
+    .join('\n');
+
+  const urls = pages.flatMap(page => LANGUAGES.map(lang => `  <url>
+    <loc>${DOMAIN}${localizedPath(lang, page.route)}</loc>
     <lastmod>${page.lastmod}</lastmod>
     <changefreq>${page.changefreq}</changefreq>
     <priority>${page.priority}</priority>
-  </url>`).join('\n');
+${alternates(page.route)}
+  </url>`)).join('\n');
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${urls}
 </urlset>`;
 }

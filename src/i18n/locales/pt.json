@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "features": "Funcionalidades",
+    "industries": "Setores",
+    "integrations": "Integrações",
+    "demo": "Demonstração",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "badge": "A Sua Recepcionista Virtual",
+    "title_line1": "Perde horas com chamadas,",
+    "title_line2": "SMS e acompanhamento?",
+    "subtitle": "Livre-se da administração. A nossa recepcionista de IA trata de tudo – desde chamadas e mensagens até marcações e redes sociais. Poupe 10+ horas por semana e concentre-se no que faz de melhor.",
+    "cta": "Marcar Demonstração Grátis",
+    "secondary": "Ver Como Funciona",
+    "feature1": {
+      "title": "Disponível 24/7",
+      "description": "Responde a chamadas e mensagens a qualquer hora, mesmo fora do horário de expediente"
+    },
+    "feature2": {
+      "title": "Marcação Automática",
+      "description": "Gere marcações, alterações e cancelamentos sem intervenção humana"
+    },
+    "feature3": {
+      "title": "Poupe 10+ Horas/Semana",
+      "description": "Concentre-se no essencial enquanto a IA trata da administração"
+    }
+  },
+  "features": {
+    "title": "Funcionalidades Poderosas Para o Seu Negócio",
+    "subtitle": "Tudo o que precisa para automatizar a comunicação com os clientes",
+    "ai_receptionist": {
+      "title": "Recepcionista Telefónica com IA",
+      "description": "Atende chamadas 24/7 com voz natural"
+    },
+    "smart_booking": {
+      "title": "Marcações Inteligentes",
+      "description": "Gestão automática de calendário e confirmação de marcações"
+    },
+    "crm_integration": {
+      "title": "Integração com CRM",
+      "description": "Sincroniza sem esforço com os seus sistemas existentes"
+    },
+    "analytics": {
+      "title": "Análises e Relatórios",
+      "description": "Informações detalhadas sobre todos os contactos com clientes"
+    }
+  },
+  "pricing": {
+    "title": "Preços Transparentes",
+    "subtitle": "Escolha o plano ideal para o seu negócio",
+    "starter": {
+      "name": "Starter",
+      "price": "499",
+      "period": "/mês",
+      "description": "Perfeito para pequenas empresas",
+      "features": {
+        "calls": "Até 100 chamadas/mês",
+        "booking": "Integração de marcações",
+        "support": "Suporte por email",
+        "analytics": "Análises básicas"
+      }
+    },
+    "professional": {
+      "name": "Professional",
+      "price": "999",
+      "period": "/mês",
+      "description": "Para empresas em crescimento",
+      "features": {
+        "calls": "Até 500 chamadas/mês",
+        "booking": "Marcações avançadas",
+        "support": "Suporte prioritário",
+        "analytics": "Análises avançadas",
+        "crm": "Integração com CRM"
+      },
+      "popular": "Mais Popular"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Contacte-nos",
+      "period": "",
+      "description": "Para grandes organizações",
+      "features": {
+        "calls": "Chamadas ilimitadas",
+        "booking": "Personalização total",
+        "support": "Gestor de conta dedicado",
+        "analytics": "Relatórios personalizados",
+        "crm": "Integração empresarial",
+        "sla": "Garantia de SLA"
+      }
+    },
+    "cta": "Começar Agora",
+    "contact": "Contactar Vendas"
+  },
+  "cta_section": {
+    "title": "Pronto Para Começar?",
+    "subtitle": "Experimente o Aibooking.dk grátis durante 14 dias. Sem cartão de crédito.",
+    "button": "Iniciar Período Gratuito"
+  },
+  "footer": {
+    "description": "Automatize a comunicação com os seus clientes com IA",
+    "product": "Produto",
+    "company": "Empresa",
+    "legal": "Legal",
+    "contact_us": "Contacte-nos",
+    "rights": "Todos os direitos reservados"
+  },
+  "contact": {
+    "title": "Contacte-nos",
+    "subtitle": "Estamos aqui para o ajudar a automatizar o seu negócio",
+    "form": {
+      "name": "O seu nome",
+      "email": "O seu email",
+      "phone": "Número de telefone",
+      "company": "Empresa",
+      "message": "Mensagem",
+      "submit": "Enviar Mensagem",
+      "sending": "A enviar...",
+      "success": "Obrigado pela sua mensagem! Entraremos em contacto o mais breve possível.",
+      "error": "Ocorreu um erro. Por favor, tente novamente."
+    }
+  },
+  "about": {
+    "title": "Sobre a Aibooking.dk",
+    "subtitle": "Ajudamos empresas a automatizar a comunicação com os seus clientes",
+    "mission": {
+      "title": "A Nossa Missão",
+      "description": "Tornar a comunicação profissional com clientes acessível a todas as empresas através da tecnologia de IA."
+    }
+  },
+  "widget": {
+    "title": "Widget de IA - Automatize Reuniões",
+    "description": "Implemente o nosso widget de IA no seu website e deixe a inteligência artificial gerir as marcações automaticamente",
+    "demo_title": "Experimente o Assistente de Voz com IA",
+    "demo_subtitle": "Clique no ícone abaixo para iniciar uma conversa com o nosso assistente de IA"
+  },
+  "demo_page": {
+    "title": "Marque Uma Demonstração Grátis",
+    "subtitle": "Veja como o Aibooking.dk pode transformar a comunicação com os seus clientes"
+  }
+}

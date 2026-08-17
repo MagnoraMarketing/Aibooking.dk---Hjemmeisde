@@ -1,72 +1,18 @@
-import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Calendar, ArrowRight, Sparkles, Tag } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
-import { supabase } from '../lib/supabase';
-
-interface BlogPost {
-  id: string;
-  slug: string;
-  title_en: string;
-  title_da: string;
-  excerpt_en: string;
-  excerpt_da: string;
-  image_url: string;
-  published_at: string;
-}
-
-interface Category {
-  slug: string;
-  name_en: string;
-  name_da: string;
-  description_en: string;
-  description_da: string;
-}
+import { getCategoryBySlug, getPostsByCategory, BlogPost } from '../content/blog';
 
 interface BlogCategoryPageProps {
   categorySlug: string;
 }
 
 export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps) {
-  const { t, i18n } = useTranslation();
-  const [posts, setPosts] = useState<BlogPost[]>([]);
-  const [category, setCategory] = useState<Category | null>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetchCategoryAndPosts();
-  }, [categorySlug]);
-
-  const fetchCategoryAndPosts = async () => {
-    try {
-      const { data: categoryData, error: categoryError } = await supabase
-        .from('blog_categories')
-        .select('*')
-        .eq('slug', categorySlug)
-        .maybeSingle();
-
-      if (categoryError) throw categoryError;
-      setCategory(categoryData);
-
-      if (categoryData) {
-        const { data: postsData, error: postsError } = await supabase
-          .from('blog_posts')
-          .select('*')
-          .eq('category_id', categoryData.id)
-          .eq('published', true)
-          .order('published_at', { ascending: false });
-
-        if (postsError) throw postsError;
-        setPosts(postsData || []);
-      }
-    } catch (error) {
-      console.error('Error fetching category and posts:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
+  const { i18n } = useTranslation();
+  const category = getCategoryBySlug(categorySlug);
+  const posts = category ? getPostsByCategory(categorySlug) : [];
 
   const getTitle = (post: BlogPost) =>
     i18n.language === 'da' ? post.title_da : post.title_en;
@@ -87,18 +33,6 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
       day: 'numeric'
     });
   };
-
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-50">
-        <Navigation />
-        <div className="flex items-center justify-center min-h-screen">
-          <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
-        </div>
-        <Footer />
-      </div>
-    );
-  }
 
   if (!category) {
     return (

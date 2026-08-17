@@ -1,101 +1,28 @@
-import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Calendar, ArrowLeft, ArrowRight, Clock, Share2, BookmarkPlus, Sparkles } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
-import { supabase } from '../lib/supabase';
-
-interface BlogPost {
-  id: string;
-  slug: string;
-  title_en: string;
-  title_da: string;
-  content_en: string;
-  content_da: string;
-  excerpt_en: string;
-  excerpt_da: string;
-  meta_title_en: string;
-  meta_title_da: string;
-  meta_description_en: string;
-  meta_description_da: string;
-  keywords: string[];
-  image_url: string;
-  published_at: string;
-  category_id: string;
-  category: {
-    slug: string;
-    name_en: string;
-    name_da: string;
-  };
-}
+import { getPostBySlug, getCategoryBySlug, getRelatedPosts, BlogPost } from '../content/blog';
 
 interface BlogPostPageProps {
   postSlug: string;
 }
 
 export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
-  const { t, i18n } = useTranslation();
-  const [post, setPost] = useState<BlogPost | null>(null);
-  const [relatedPosts, setRelatedPosts] = useState<BlogPost[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetchPost();
-  }, [postSlug]);
-
-  const fetchPost = async () => {
-    try {
-      const { data: postData, error: postError } = await supabase
-        .from('blog_posts')
-        .select(`
-          *,
-          category:blog_categories(slug, name_en, name_da)
-        `)
-        .eq('slug', postSlug)
-        .eq('published', true)
-        .maybeSingle();
-
-      if (postError) throw postError;
-      setPost(postData);
-
-      if (postData) {
-        const { data: relatedData, error: relatedError } = await supabase
-          .from('blog_posts')
-          .select(`
-            id,
-            slug,
-            title_en,
-            title_da,
-            excerpt_en,
-            excerpt_da,
-            image_url,
-            published_at,
-            category:blog_categories(slug, name_en, name_da)
-          `)
-          .eq('category_id', postData.category_id)
-          .neq('id', postData.id)
-          .eq('published', true)
-          .limit(3);
-
-        if (relatedError) throw relatedError;
-        setRelatedPosts(relatedData || []);
-      }
-    } catch (error) {
-      console.error('Error fetching post:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
+  const { i18n } = useTranslation();
+  const post = getPostBySlug(postSlug);
+  const category = post ? getCategoryBySlug(post.categorySlug) : undefined;
+  const relatedPosts = post ? getRelatedPosts(post) : [];
 
   const getTitle = () => (post ? (i18n.language === 'da' ? post.title_da : post.title_en) : '');
   const getContent = () => (post ? (i18n.language === 'da' ? post.content_da : post.content_en) : '');
   const getExcerpt = () => (post ? (i18n.language === 'da' ? post.excerpt_da : post.excerpt_en) : '');
   const getMetaTitle = () => (post ? (i18n.language === 'da' ? post.meta_title_da : post.meta_title_en) : '');
   const getMetaDescription = () => (post ? (i18n.language === 'da' ? post.meta_description_da : post.meta_description_en) : '');
-  const getCategoryName = () => (post ? (i18n.language === 'da' ? post.category.name_da : post.category.name_en) : '');
+  const getCategoryName = () => (category ? (i18n.language === 'da' ? category.name_da : category.name_en) : '');
 
-  const getRelatedTitle = (relatedPost: any) =>
+  const getRelatedTitle = (relatedPost: BlogPost) =>
     i18n.language === 'da' ? relatedPost.title_da : relatedPost.title_en;
 
   const formatDate = (date: string) => {
@@ -112,19 +39,7 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
     return Math.ceil(words / wordsPerMinute);
   };
 
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-50">
-        <Navigation />
-        <div className="flex items-center justify-center min-h-screen">
-          <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
-        </div>
-        <Footer />
-      </div>
-    );
-  }
-
-  if (!post) {
+  if (!post || !category) {
     return (
       <div className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-50">
         <Navigation />
@@ -197,7 +112,7 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
 
           <div className="mb-8">
             <a
-              href={`/blog/category/${post.category.slug}`}
+              href={`/blog/category/${category.slug}`}
               className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-sm font-semibold rounded-full mb-6 shadow-sm hover:shadow-lg transition-all"
             >
               {getCategoryName()}
@@ -290,7 +205,7 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-8">
-              {relatedPosts.map((relatedPost: any) => (
+              {relatedPosts.map((relatedPost) => (
                 <a
                   key={relatedPost.id}
                   href={`/blog/${relatedPost.slug}`}

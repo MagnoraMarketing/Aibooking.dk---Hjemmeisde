@@ -1,62 +1,13 @@
-import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Calendar, ArrowRight, TrendingUp, Sparkles } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
-import { supabase } from '../lib/supabase';
-
-interface BlogPost {
-  id: string;
-  slug: string;
-  title_en: string;
-  title_da: string;
-  excerpt_en: string;
-  excerpt_da: string;
-  image_url: string;
-  published_at: string;
-  category: {
-    slug: string;
-    name_en: string;
-    name_da: string;
-  };
-}
+import { getPublishedPosts, getCategoryBySlug, BlogPost } from '../content/blog';
 
 export default function BlogPage() {
-  const { t, i18n } = useTranslation();
-  const [posts, setPosts] = useState<BlogPost[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetchPosts();
-  }, []);
-
-  const fetchPosts = async () => {
-    try {
-      const { data, error } = await supabase
-        .from('blog_posts')
-        .select(`
-          id,
-          slug,
-          title_en,
-          title_da,
-          excerpt_en,
-          excerpt_da,
-          image_url,
-          published_at,
-          category:blog_categories(slug, name_en, name_da)
-        `)
-        .eq('published', true)
-        .order('published_at', { ascending: false });
-
-      if (error) throw error;
-      setPosts(data || []);
-    } catch (error) {
-      console.error('Error fetching posts:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
+  const { i18n } = useTranslation();
+  const posts = getPublishedPosts();
 
   const getTitle = (post: BlogPost) =>
     i18n.language === 'da' ? post.title_da : post.title_en;
@@ -64,8 +15,11 @@ export default function BlogPage() {
   const getExcerpt = (post: BlogPost) =>
     i18n.language === 'da' ? post.excerpt_da : post.excerpt_en;
 
-  const getCategoryName = (post: BlogPost) =>
-    i18n.language === 'da' ? post.category.name_da : post.category.name_en;
+  const getCategoryName = (post: BlogPost) => {
+    const category = getCategoryBySlug(post.categorySlug);
+    if (!category) return '';
+    return i18n.language === 'da' ? category.name_da : category.name_en;
+  };
 
   const formatDate = (date: string) => {
     return new Date(date).toLocaleDateString(i18n.language === 'da' ? 'da-DK' : 'en-US', {
@@ -129,98 +83,90 @@ export default function BlogPage() {
               </p>
             </div>
 
-            {loading ? (
-              <div className="text-center py-20">
-                <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
-              </div>
-            ) : (
-              <>
-                {posts.length > 0 && (
-                  <div className="mb-12">
-                    <a href={`/blog/${posts[0].slug}`} className="block group">
-                      <article className="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
-                        <div className="grid lg:grid-cols-2 gap-8">
-                          <div className="aspect-[16/10] lg:aspect-auto overflow-hidden">
-                            <img
-                              src={posts[0].image_url}
-                              alt={getTitle(posts[0])}
-                              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                            />
-                          </div>
-                          <div className="p-8 lg:p-12 flex flex-col justify-center">
-                            <div className="flex items-center gap-4 mb-4">
-                              <span className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-sm font-semibold rounded-full shadow-sm">
-                                <TrendingUp className="w-3.5 h-3.5" />
-                                {i18n.language === 'da' ? 'Fremhævet' : 'Featured'}
-                              </span>
-                              <span className="inline-block px-4 py-1.5 bg-blue-50 text-blue-700 text-sm font-medium rounded-full border border-blue-100">
-                                {getCategoryName(posts[0])}
-                              </span>
-                            </div>
-                            <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4 group-hover:text-blue-600 transition-colors leading-tight">
-                              {getTitle(posts[0])}
-                            </h2>
-                            <p className="text-lg text-slate-600 mb-6 leading-relaxed line-clamp-3">
-                              {getExcerpt(posts[0])}
-                            </p>
-                            <div className="flex items-center gap-4 text-slate-500">
-                              <div className="flex items-center gap-1.5">
-                                <Calendar className="w-4 h-4" />
-                                <span className="text-sm">{formatDate(posts[0].published_at)}</span>
-                              </div>
-                              <div className="flex items-center text-blue-600 font-semibold">
-                                {i18n.language === 'da' ? 'Læs artikel' : 'Read article'}
-                                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                              </div>
-                            </div>
-                          </div>
+            {posts.length > 0 && (
+              <div className="mb-12">
+                <a href={`/blog/${posts[0].slug}`} className="block group">
+                  <article className="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div className="grid lg:grid-cols-2 gap-8">
+                      <div className="aspect-[16/10] lg:aspect-auto overflow-hidden">
+                        <img
+                          src={posts[0].image_url}
+                          alt={getTitle(posts[0])}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        />
+                      </div>
+                      <div className="p-8 lg:p-12 flex flex-col justify-center">
+                        <div className="flex items-center gap-4 mb-4">
+                          <span className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-sm font-semibold rounded-full shadow-sm">
+                            <TrendingUp className="w-3.5 h-3.5" />
+                            {i18n.language === 'da' ? 'Fremhævet' : 'Featured'}
+                          </span>
+                          <span className="inline-block px-4 py-1.5 bg-blue-50 text-blue-700 text-sm font-medium rounded-full border border-blue-100">
+                            {getCategoryName(posts[0])}
+                          </span>
                         </div>
-                      </article>
-                    </a>
-                  </div>
-                )}
-
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                  {posts.slice(1).map((post) => (
-                    <article
-                      key={post.id}
-                      className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
-                    >
-                      <a href={`/blog/${post.slug}`} className="block">
-                        <div className="aspect-video overflow-hidden bg-slate-100">
-                          <img
-                            src={post.image_url}
-                            alt={getTitle(post)}
-                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                          />
-                        </div>
-                        <div className="p-6">
-                          <div className="flex items-center gap-3 mb-3">
-                            <span className="inline-block px-3 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded-full border border-blue-100">
-                              {getCategoryName(post)}
-                            </span>
-                            <div className="flex items-center text-slate-400 text-xs">
-                              <Calendar className="w-3.5 h-3.5 mr-1" />
-                              {formatDate(post.published_at)}
-                            </div>
+                        <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4 group-hover:text-blue-600 transition-colors leading-tight">
+                          {getTitle(posts[0])}
+                        </h2>
+                        <p className="text-lg text-slate-600 mb-6 leading-relaxed line-clamp-3">
+                          {getExcerpt(posts[0])}
+                        </p>
+                        <div className="flex items-center gap-4 text-slate-500">
+                          <div className="flex items-center gap-1.5">
+                            <Calendar className="w-4 h-4" />
+                            <span className="text-sm">{formatDate(posts[0].published_at)}</span>
                           </div>
-                          <h2 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors leading-snug">
-                            {getTitle(post)}
-                          </h2>
-                          <p className="text-slate-600 mb-4 line-clamp-3 leading-relaxed">
-                            {getExcerpt(post)}
-                          </p>
-                          <div className="flex items-center text-blue-600 font-semibold text-sm">
-                            {i18n.language === 'da' ? 'Læs mere' : 'Read more'}
+                          <div className="flex items-center text-blue-600 font-semibold">
+                            {i18n.language === 'da' ? 'Læs artikel' : 'Read article'}
                             <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                           </div>
                         </div>
-                      </a>
-                    </article>
-                  ))}
-                </div>
-              </>
+                      </div>
+                    </div>
+                  </article>
+                </a>
+              </div>
             )}
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {posts.slice(1).map((post) => (
+                <article
+                  key={post.id}
+                  className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
+                >
+                  <a href={`/blog/${post.slug}`} className="block">
+                    <div className="aspect-video overflow-hidden bg-slate-100">
+                      <img
+                        src={post.image_url}
+                        alt={getTitle(post)}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                    </div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="inline-block px-3 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded-full border border-blue-100">
+                          {getCategoryName(post)}
+                        </span>
+                        <div className="flex items-center text-slate-400 text-xs">
+                          <Calendar className="w-3.5 h-3.5 mr-1" />
+                          {formatDate(post.published_at)}
+                        </div>
+                      </div>
+                      <h2 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors leading-snug">
+                        {getTitle(post)}
+                      </h2>
+                      <p className="text-slate-600 mb-4 line-clamp-3 leading-relaxed">
+                        {getExcerpt(post)}
+                      </p>
+                      <div className="flex items-center text-blue-600 font-semibold text-sm">
+                        {i18n.language === 'da' ? 'Læs mere' : 'Read more'}
+                        <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                      </div>
+                    </div>
+                  </a>
+                </article>
+              ))}
+            </div>
           </div>
         </div>
       </div>

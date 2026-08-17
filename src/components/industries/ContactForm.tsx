@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Calendar, Phone, Building2, Mail, User, CheckCircle2, AlertCircle } from 'lucide-react';
-import { supabase } from '../../lib/supabase';
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -21,20 +20,13 @@ function ContactForm() {
     setError('');
 
     try {
-      const { error: submitError } = await supabase
-        .from('industry_contacts')
-        .insert([
-          {
-            name: formData.name,
-            email: formData.email,
-            phone: formData.phone,
-            industry: formData.industry,
-            call_date: formData.callDate,
-            message: formData.message || ''
-          }
-        ]);
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      });
 
-      if (submitError) throw submitError;
+      if (!response.ok) throw new Error('Request failed');
 
       setSubmitted(true);
       setFormData({

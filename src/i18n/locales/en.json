@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "features": "Features",
+    "industries": "Industries",
+    "integrations": "Integrations",
+    "demo": "Demo",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Your Virtual Receptionist",
+    "title_line1": "Spending hours on calls,",
+    "title_line2": "SMS and follow-ups?",
+    "subtitle": "Skip the administration. Our AI receptionist handles everything – from calls and messages to bookings and social media. Save 10+ hours per week and focus on what you do best.",
+    "cta": "Book Free Demo",
+    "secondary": "See How It Works",
+    "feature1": {
+      "title": "24/7 Availability",
+      "description": "Answer calls and messages anytime, even outside business hours"
+    },
+    "feature2": {
+      "title": "Automatic Booking",
+      "description": "Handles bookings, changes and cancellations without human intervention"
+    },
+    "feature3": {
+      "title": "Save 10+ Hours/Week",
+      "description": "Focus on your core tasks while AI handles the administration"
+    }
+  },
+  "features": {
+    "title": "Powerful Features For Your Business",
+    "subtitle": "Everything you need to automate your customer communication",
+    "ai_receptionist": {
+      "title": "AI Phone Receptionist",
+      "description": "Answers calls 24/7 with natural voice"
+    },
+    "smart_booking": {
+      "title": "Smart Booking",
+      "description": "Automatic calendar management and appointment confirmation"
+    },
+    "crm_integration": {
+      "title": "CRM Integration",
+      "description": "Seamlessly syncs with your existing systems"
+    },
+    "analytics": {
+      "title": "Analytics & Reports",
+      "description": "Detailed insights into all customer contacts"
+    }
+  },
+  "pricing": {
+    "title": "Transparent Pricing",
+    "subtitle": "Choose the plan that fits your business",
+    "starter": {
+      "name": "Starter",
+      "price": "499",
+      "period": "/month",
+      "description": "Perfect for small businesses",
+      "features": {
+        "calls": "Up to 100 calls/month",
+        "booking": "Booking integration",
+        "support": "Email support",
+        "analytics": "Basic analytics"
+      }
+    },
+    "professional": {
+      "name": "Professional",
+      "price": "999",
+      "period": "/month",
+      "description": "For growing businesses",
+      "features": {
+        "calls": "Up to 500 calls/month",
+        "booking": "Advanced booking",
+        "support": "Priority support",
+        "analytics": "Advanced analytics",
+        "crm": "CRM integration"
+      },
+      "popular": "Most Popular"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Contact us",
+      "period": "",
+      "description": "For large organizations",
+      "features": {
+        "calls": "Unlimited calls",
+        "booking": "Full customization",
+        "support": "Dedicated account manager",
+        "analytics": "Custom reports",
+        "crm": "Enterprise integration",
+        "sla": "SLA guarantee"
+      }
+    },
+    "cta": "Get Started",
+    "contact": "Contact Sales"
+  },
+  "cta_section": {
+    "title": "Ready To Get Started?",
+    "subtitle": "Try Aibooking.dk free for 14 days. No credit card required.",
+    "button": "Start Free Trial"
+  },
+  "footer": {
+    "description": "Automate your customer communication with AI",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "contact_us": "Contact Us",
+    "rights": "All rights reserved"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help you automate your business",
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "phone": "Phone number",
+      "company": "Company",
+      "message": "Message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you for your message! We'll get back to you as soon as possible.",
+      "error": "An error occurred. Please try again."
+    }
+  },
+  "about": {
+    "title": "About Aibooking.dk",
+    "subtitle": "We help businesses automate their customer communication",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To make professional customer communication accessible to all businesses through AI technology."
+    }
+  },
+  "widget": {
+    "title": "AI Widget - Automate Meetings",
+    "description": "Implement our AI widget on your website and let artificial intelligence handle booking automatically",
+    "demo_title": "Try the Voice AI Assistant",
+    "demo_subtitle": "Click the icon below to start a conversation with our AI assistant"
+  },
+  "demo_page": {
+    "title": "Book A Free Demo",
+    "subtitle": "See how Aibooking.dk can transform your customer communication"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "features": "Funktioner",
+    "industries": "Industrier",
+    "integrations": "Integrationer",
+    "demo": "Demo",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "badge": "Din Virtuelle Receptionist",
+    "title_line1": "Bruger du timer på opkald,",
+    "title_line2": "SMS og opfølgning?",
+    "subtitle": "Slip for administrationen. Vores AI-receptionist håndterer alt – fra opkald og beskeder til bookinger og SOME. Spar 10+ timer om ugen og fokuser på det du er god til.",
+    "cta": "Book Gratis Demo",
+    "secondary": "Se Hvordan Det Virker",
+    "feature1": {
+      "title": "24/7 Tilgængelighed",
+      "description": "Svar på opkald og beskeder når som helst, også uden for åbningstid"
+    },
+    "feature2": {
+      "title": "Automatisk Booking",
+      "description": "Håndterer bookinger, ændringer og aflysninger uden menneskelig indgriben"
+    },
+    "feature3": {
+      "title": "Spar 10+ Timer/Uge",
+      "description": "Fokusér på din kerneopgave mens AI'en tager sig af administrationen"
+    }
+  },
+  "features": {
+    "title": "Kraftfulde Funktioner Til Din Virksomhed",
+    "subtitle": "Alt hvad du behøver for at automatisere din kundekommunikation",
+    "ai_receptionist": {
+      "title": "AI Telefonreceptionist",
+      "description": "Besvarer opkald 24/7 med naturlig dansk stemme"
+    },
+    "smart_booking": {
+      "title": "Smart Booking",
+      "description": "Automatisk kalenderstyring og aftalebekræftelse"
+    },
+    "crm_integration": {
+      "title": "CRM Integration",
+      "description": "Synkroniserer seamless med dine eksisterende systemer"
+    },
+    "analytics": {
+      "title": "Analyser & Rapporter",
+      "description": "Detaljeret indsigt i alle kundekontakter"
+    }
+  },
+  "pricing": {
+    "title": "Gennemsigtige Priser",
+    "subtitle": "Vælg den plan der passer til din virksomhed",
+    "starter": {
+      "name": "Starter",
+      "price": "499",
+      "period": "/måned",
+      "description": "Perfekt til små virksomheder",
+      "features": {
+        "calls": "Op til 100 opkald/måned",
+        "booking": "Booking integration",
+        "support": "Email support",
+        "analytics": "Basis analyser"
+      }
+    },
+    "professional": {
+      "name": "Professional",
+      "price": "999",
+      "period": "/måned",
+      "description": "Til voksende virksomheder",
+      "features": {
+        "calls": "Op til 500 opkald/måned",
+        "booking": "Avanceret booking",
+        "support": "Prioriteret support",
+        "analytics": "Avancerede analyser",
+        "crm": "CRM integration"
+      },
+      "popular": "Mest Populær"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Kontakt os",
+      "period": "",
+      "description": "Til store organisationer",
+      "features": {
+        "calls": "Ubegrænsede opkald",
+        "booking": "Fuld tilpasning",
+        "support": "Dedikeret account manager",
+        "analytics": "Custom rapporter",
+        "crm": "Enterprise integration",
+        "sla": "SLA garanti"
+      }
+    },
+    "cta": "Kom I Gang",
+    "contact": "Kontakt Salg"
+  },
+  "cta_section": {
+    "title": "Klar Til At Komme I Gang?",
+    "subtitle": "Prøv Aibooking.dk gratis i 14 dage. Ingen kreditkort påkrævet.",
+    "button": "Start Gratis Prøveperiode"
+  },
+  "footer": {
+    "description": "Automatiser din kundekommunikation med AI",
+    "product": "Produkt",
+    "company": "Virksomhed",
+    "legal": "Juridisk",
+    "contact_us": "Kontakt Os",
+    "rights": "Alle rettigheder forbeholdes"
+  },
+  "contact": {
+    "title": "Kontakt Os",
+    "subtitle": "Vi er her for at hjælpe dig med at automatisere din virksomhed",
+    "form": {
+      "name": "Dit navn",
+      "email": "Din email",
+      "phone": "Telefonnummer",
+      "company": "Virksomhed",
+      "message": "Besked",
+      "submit": "Send Besked",
+      "sending": "Sender...",
+      "success": "Tak for din besked! Vi vender tilbage hurtigst muligt.",
+      "error": "Der opstod en fejl. Prøv venligst igen."
+    }
+  },
+  "about": {
+    "title": "Om Aibooking.dk",
+    "subtitle": "Vi hjælper virksomheder med at automatisere deres kundekommunikation",
+    "mission": {
+      "title": "Vores Mission",
+      "description": "At gøre professionel kundekommunikation tilgængelig for alle virksomheder gennem AI-teknologi."
+    }
+  },
+  "widget": {
+    "title": "AI-Widget - Automatiser Møder",
+    "description": "Implementer vores AI-widget på din hjemmeside og lad kunstig intelligens håndtere booking automatisk",
+    "demo_title": "Prøv Voice AI-assistenten",
+    "demo_subtitle": "Klik på ikonet nedenfor for at starte en samtale med vores AI-assistent"
+  },
+  "demo_page": {
+    "title": "Book En Gratis Demo",
+    "subtitle": "Se hvordan Aibooking.dk kan transformere din kundekommunikation"
+  }
+}

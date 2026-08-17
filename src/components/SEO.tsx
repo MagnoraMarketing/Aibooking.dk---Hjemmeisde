@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import { SUPPORTED_LANGUAGES } from '../i18n/config';
+import { localizedUrl } from '../utils/localePaths';
 
 interface SEOProps {
   title: string;
@@ -8,6 +10,10 @@ interface SEOProps {
   ogType?: string;
   canonical?: string;
   structuredData?: object;
+  /** Danish-worded canonical path (e.g. "/funktioner", "/") used to emit
+   * hreflang alternate links for every supported language. Omit on pages
+   * that don't yet have a stable path (e.g. dynamic blog posts). */
+  path?: string;
 }
 
 export default function SEO({
@@ -18,6 +24,7 @@ export default function SEO({
   ogType = 'website',
   canonical,
   structuredData,
+  path,
 }: SEOProps) {
   useEffect(() => {
     document.title = title;
@@ -67,7 +74,23 @@ export default function SEO({
       }
       scriptElement.textContent = JSON.stringify(structuredData);
     }
-  }, [title, description, keywords, ogImage, ogType, canonical, structuredData]);
+
+    document.querySelectorAll('link[rel="alternate"][hreflang]').forEach((el) => el.remove());
+    if (path) {
+      SUPPORTED_LANGUAGES.forEach((lang) => {
+        const link = document.createElement('link');
+        link.setAttribute('rel', 'alternate');
+        link.setAttribute('hreflang', lang === 'da' ? 'da' : lang);
+        link.setAttribute('href', localizedUrl(lang, path));
+        document.head.appendChild(link);
+      });
+      const xDefault = document.createElement('link');
+      xDefault.setAttribute('rel', 'alternate');
+      xDefault.setAttribute('hreflang', 'x-default');
+      xDefault.setAttribute('href', localizedUrl('da', path));
+      document.head.appendChild(xDefault);
+    }
+  }, [title, description, keywords, ogImage, ogType, canonical, structuredData, path]);
 
   return null;
 }

@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "industries": "Secteurs",
+    "integrations": "Intégrations",
+    "demo": "Démo",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Votre Réceptionniste Virtuelle",
+    "title_line1": "Vous perdez des heures en appels,",
+    "title_line2": "SMS et suivis ?",
+    "subtitle": "Oubliez l'administratif. Notre réceptionniste IA s'occupe de tout – des appels et messages aux réservations et réseaux sociaux. Gagnez 10+ heures par semaine et concentrez-vous sur l'essentiel.",
+    "cta": "Réserver Une Démo Gratuite",
+    "secondary": "Voir Comment Ça Marche",
+    "feature1": {
+      "title": "Disponible 24h/24 et 7j/7",
+      "description": "Répond aux appels et messages à tout moment, même en dehors des heures d'ouverture"
+    },
+    "feature2": {
+      "title": "Réservation Automatique",
+      "description": "Gère les réservations, modifications et annulations sans intervention humaine"
+    },
+    "feature3": {
+      "title": "Gagnez 10+ Heures/Semaine",
+      "description": "Concentrez-vous sur votre cœur de métier pendant que l'IA gère l'administratif"
+    }
+  },
+  "features": {
+    "title": "Des Fonctionnalités Puissantes Pour Votre Entreprise",
+    "subtitle": "Tout ce dont vous avez besoin pour automatiser votre communication client",
+    "ai_receptionist": {
+      "title": "Réceptionniste Téléphonique IA",
+      "description": "Répond aux appels 24h/24 avec une voix naturelle"
+    },
+    "smart_booking": {
+      "title": "Réservation Intelligente",
+      "description": "Gestion automatique du calendrier et confirmation des rendez-vous"
+    },
+    "crm_integration": {
+      "title": "Intégration CRM",
+      "description": "Se synchronise facilement avec vos systèmes existants"
+    },
+    "analytics": {
+      "title": "Analyses et Rapports",
+      "description": "Informations détaillées sur tous les contacts clients"
+    }
+  },
+  "pricing": {
+    "title": "Tarifs Transparents",
+    "subtitle": "Choisissez le forfait adapté à votre entreprise",
+    "starter": {
+      "name": "Starter",
+      "price": "499",
+      "period": "/mois",
+      "description": "Idéal pour les petites entreprises",
+      "features": {
+        "calls": "Jusqu'à 100 appels/mois",
+        "booking": "Intégration de réservation",
+        "support": "Support par email",
+        "analytics": "Analyses de base"
+      }
+    },
+    "professional": {
+      "name": "Professional",
+      "price": "999",
+      "period": "/mois",
+      "description": "Pour les entreprises en croissance",
+      "features": {
+        "calls": "Jusqu'à 500 appels/mois",
+        "booking": "Réservation avancée",
+        "support": "Support prioritaire",
+        "analytics": "Analyses avancées",
+        "crm": "Intégration CRM"
+      },
+      "popular": "Le Plus Populaire"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Contactez-nous",
+      "period": "",
+      "description": "Pour les grandes organisations",
+      "features": {
+        "calls": "Appels illimités",
+        "booking": "Personnalisation complète",
+        "support": "Gestionnaire de compte dédié",
+        "analytics": "Rapports personnalisés",
+        "crm": "Intégration entreprise",
+        "sla": "Garantie SLA"
+      }
+    },
+    "cta": "Commencer",
+    "contact": "Contacter Les Ventes"
+  },
+  "cta_section": {
+    "title": "Prêt À Commencer ?",
+    "subtitle": "Essayez Aibooking.dk gratuitement pendant 14 jours. Aucune carte de crédit requise.",
+    "button": "Démarrer L'Essai Gratuit"
+  },
+  "footer": {
+    "description": "Automatisez votre communication client avec l'IA",
+    "product": "Produit",
+    "company": "Entreprise",
+    "legal": "Mentions légales",
+    "contact_us": "Nous Contacter",
+    "rights": "Tous droits réservés"
+  },
+  "contact": {
+    "title": "Nous Contacter",
+    "subtitle": "Nous sommes là pour vous aider à automatiser votre entreprise",
+    "form": {
+      "name": "Votre nom",
+      "email": "Votre email",
+      "phone": "Numéro de téléphone",
+      "company": "Entreprise",
+      "message": "Message",
+      "submit": "Envoyer Le Message",
+      "sending": "Envoi en cours...",
+      "success": "Merci pour votre message ! Nous vous répondrons dans les plus brefs délais.",
+      "error": "Une erreur est survenue. Veuillez réessayer."
+    }
+  },
+  "about": {
+    "title": "À Propos d'Aibooking.dk",
+    "subtitle": "Nous aidons les entreprises à automatiser leur communication client",
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Rendre la communication client professionnelle accessible à toutes les entreprises grâce à la technologie de l'IA."
+    }
+  },
+  "widget": {
+    "title": "Widget IA - Automatisez Vos Rendez-vous",
+    "description": "Intégrez notre widget IA sur votre site web et laissez l'intelligence artificielle gérer automatiquement les réservations",
+    "demo_title": "Essayez L'Assistant Vocal IA",
+    "demo_subtitle": "Cliquez sur l'icône ci-dessous pour démarrer une conversation avec notre assistant IA"
+  },
+  "demo_page": {
+    "title": "Réservez Une Démo Gratuite",
+    "subtitle": "Découvrez comment Aibooking.dk peut transformer votre communication client"
+  }
+}

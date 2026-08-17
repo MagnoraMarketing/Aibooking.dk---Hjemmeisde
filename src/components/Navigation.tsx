@@ -1,6 +1,8 @@
 import { useState, useRef, useEffect } from 'react';
 import { Phone, Plug, Building2, ChevronDown, Stethoscope, Wrench, Briefcase, ShoppingCart, MessageSquare, Users, Globe, Menu, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { splitLocalizedPath, buildLocalizedPath } from '../utils/localePaths';
+import { SupportedLanguage } from '../i18n/config';
 
 interface NavigationProps {
   onNavigate: (page: 'home' | 'widget' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy') => void;
@@ -44,10 +46,14 @@ function Navigation({ onNavigate }: NavigationProps) {
     return () => { document.body.style.overflow = ''; };
   }, [isMobileOpen]);
 
-  const changeLanguage = (lng: string) => {
+  const changeLanguage = (lng: SupportedLanguage) => {
     i18n.changeLanguage(lng);
+    const { path } = splitLocalizedPath(window.location.pathname);
+    window.history.pushState({}, '', buildLocalizedPath(lng, path));
     setIsLanguageOpen(false);
   };
+
+  const languageLabel: Record<SupportedLanguage, string> = { da: 'DA', en: 'EN', pt: 'PT', fr: 'FR' };
 
   const handleMobileNavigate = (page: Parameters<NavigationProps['onNavigate']>[0]) => {
     onNavigate(page);
@@ -183,7 +189,7 @@ function Navigation({ onNavigate }: NavigationProps) {
                   className="flex items-center space-x-2 text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]"
                 >
                   <Globe className="w-4 h-4" />
-                  <span>{i18n.language === 'da' ? 'DA' : 'EN'}</span>
+                  <span>{languageLabel[i18n.language as SupportedLanguage] || 'DA'}</span>
                   <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isLanguageOpen ? 'rotate-180' : ''}`} />
                 </button>
 
@@ -200,6 +206,18 @@ function Navigation({ onNavigate }: NavigationProps) {
                       className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
                     >
                       <span className="text-ink-900 font-medium text-[15px]">🇬🇧 English</span>
+                    </button>
+                    <button
+                      onClick={() => changeLanguage('pt')}
+                      className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
+                    >
+                      <span className="text-ink-900 font-medium text-[15px]">🇵🇹 Português</span>
+                    </button>
+                    <button
+                      onClick={() => changeLanguage('fr')}
+                      className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
+                    >
+                      <span className="text-ink-900 font-medium text-[15px]">🇫🇷 Français</span>
                     </button>
                   </div>
                 )}
@@ -362,18 +380,30 @@ function Navigation({ onNavigate }: NavigationProps) {
           {/* Language */}
           <div className="mt-2 px-4 py-3 border-t border-ink-100">
             <p className="text-xs font-semibold text-ink-400 uppercase tracking-wider mb-2">Sprog</p>
-            <div className="flex gap-2">
+            <div className="grid grid-cols-2 gap-2">
               <button
                 onClick={() => { changeLanguage('da'); setIsMobileOpen(false); }}
-                className={`flex-1 py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'da' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
+                className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'da' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
               >
                 🇩🇰 Dansk
               </button>
               <button
                 onClick={() => { changeLanguage('en'); setIsMobileOpen(false); }}
-                className={`flex-1 py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'en' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
+                className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'en' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
               >
                 🇬🇧 English
+              </button>
+              <button
+                onClick={() => { changeLanguage('pt'); setIsMobileOpen(false); }}
+                className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'pt' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
+              >
+                🇵🇹 Português
+              </button>
+              <button
+                onClick={() => { changeLanguage('fr'); setIsMobileOpen(false); }}
+                className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'fr' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
+              >
+                🇫🇷 Français
               </button>
             </div>
           </div>

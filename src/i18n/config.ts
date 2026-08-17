@@ -3,6 +3,20 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import da from './locales/da.json';
 import en from './locales/en.json';
+import pt from './locales/pt.json';
+import fr from './locales/fr.json';
+
+export const SUPPORTED_LANGUAGES = ['da', 'en', 'pt', 'fr'] as const;
+export type SupportedLanguage = (typeof SUPPORTED_LANGUAGES)[number];
+
+// URL path prefix per language. Danish has none (it's the default/canonical
+// language and keeps the existing un-prefixed SEO URLs).
+export const LANGUAGE_PATH_PREFIX: Record<SupportedLanguage, string> = {
+  da: '',
+  en: '/en',
+  pt: '/pt',
+  fr: '/fr',
+};
 
 i18n
   .use(LanguageDetector)
@@ -11,13 +25,17 @@ i18n
     resources: {
       da: { translation: da },
       en: { translation: en },
+      pt: { translation: pt },
+      fr: { translation: fr },
     },
+    supportedLngs: SUPPORTED_LANGUAGES as unknown as string[],
+    load: 'languageOnly',
     fallbackLng: 'da',
     interpolation: {
       escapeValue: false,
     },
     detection: {
-      order: ['navigator', 'htmlTag', 'path', 'subdomain'],
+      order: ['localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage'],
     },
   });

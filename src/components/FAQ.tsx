@@ -38,7 +38,7 @@ export default function FAQ({ items }: FAQProps) {
       <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-bold text-ink-900 mb-4 tracking-tight">
             {i18n.language === 'da' ? 'Ofte stillede spørgsmål' : 'Frequently Asked Questions'}
           </h2>
         </div>
@@ -48,7 +48,7 @@ export default function FAQ({ items }: FAQProps) {
             return (
               <div
                 key={index}
-                className="border border-slate-200 rounded-2xl overflow-hidden bg-slate-50/60"
+                className="border border-ink-200 rounded-2xl overflow-hidden bg-ink-50/60"
               >
                 <button
                   type="button"
@@ -56,15 +56,15 @@ export default function FAQ({ items }: FAQProps) {
                   className="w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
                   aria-expanded={isOpen}
                 >
-                  <span className="font-semibold text-slate-900">{getQuestion(item)}</span>
+                  <span className="font-semibold text-ink-900">{getQuestion(item)}</span>
                   <ChevronDown
-                    className={`w-5 h-5 text-blue-600 flex-shrink-0 transition-transform duration-200 ${
+                    className={`w-5 h-5 text-brand-600 flex-shrink-0 transition-transform duration-200 ${
                       isOpen ? 'rotate-180' : ''
                     }`}
                   />
                 </button>
                 {isOpen && (
-                  <div className="px-6 pb-5 text-slate-600 leading-relaxed">{getAnswer(item)}</div>
+                  <div className="px-6 pb-5 text-ink-600 leading-relaxed">{getAnswer(item)}</div>
                 )}
               </div>
             );

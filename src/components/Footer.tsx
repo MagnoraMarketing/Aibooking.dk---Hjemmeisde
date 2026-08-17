@@ -209,7 +209,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
         </div>
 
         <div className="border-t border-ink-800 pt-8 text-center text-sm text-ink-400">
-          <p>&copy; 2026 Aibooking.dk. Alle rettigheder forbeholdes. - <a href="https://www.nexusmarketing.dk" target="_blank" rel="noopener noreferrer" className="hover:text-brand-400 transition-colors">www.nexusmarketing.dk</a></p>
+          <p>&copy; 2026 Aibooking.dk. Alle rettigheder forbeholdes. Lavet og drevet af <a href="https://www.magnoramarketing.dk" target="_blank" rel="noopener noreferrer" className="hover:text-brand-400 transition-colors">MagnoraMarketing.dk</a></p>
         </div>
       </div>
     </footer>

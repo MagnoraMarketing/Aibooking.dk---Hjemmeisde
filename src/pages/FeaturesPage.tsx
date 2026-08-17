@@ -1,5 +1,7 @@
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import FAQ from '../components/FAQ';
+import { featuresFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import {
@@ -630,6 +632,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
         </div>
       </section>
 
+      <FAQ items={featuresFAQs} />
       <Footer onNavigate={onNavigate} />
     </div>
   );

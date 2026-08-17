@@ -1,5 +1,7 @@
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import FAQ from '../components/FAQ';
+import { aboutFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { Users, Target, Lightbulb, Heart, TrendingUp, Shield, Zap, Globe } from 'lucide-react';
@@ -290,6 +292,7 @@ function AboutPage({ onNavigate }: AboutPageProps) {
         </div>
       </div>
 
+      <FAQ items={aboutFAQs} />
       <Footer onNavigate={onNavigate} />
     </div>
   );

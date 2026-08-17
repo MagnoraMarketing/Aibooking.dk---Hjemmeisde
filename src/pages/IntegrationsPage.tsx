@@ -1,5 +1,7 @@
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import FAQ from '../components/FAQ';
+import { integrationsFAQs } from '../content/faq';
 import IntegrationHero from '../components/integrations/IntegrationHero';
 import IntegrationCategories from '../components/integrations/IntegrationCategories';
 import IntegrationGrid from '../components/integrations/IntegrationGrid';
@@ -31,6 +33,7 @@ function IntegrationsPage({ onNavigate }: IntegrationsPageProps) {
       <IntegrationCategories />
       <IntegrationGrid />
       <IntegrationCTA />
+      <FAQ items={integrationsFAQs} />
       <Footer onNavigate={onNavigate} />
     </div>
   );

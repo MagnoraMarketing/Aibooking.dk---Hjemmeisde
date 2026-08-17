@@ -1,5 +1,7 @@
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import FAQ from '../components/FAQ';
+import { craftsmanFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { TrendingUp, Clock, Phone, Users, CheckCircle, Wrench } from 'lucide-react';
@@ -198,6 +200,7 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
         </div>
       </section>
 
+      <FAQ items={craftsmanFAQs} />
       <Footer onNavigate={onNavigate} />
     </div>
   );

@@ -7,6 +7,8 @@ import CTA from '../components/CTA';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
+import FAQ from '../components/FAQ';
+import { homeFAQs } from '../content/faq';
 import { organizationSchema, websiteSchema, softwareApplicationSchema } from '../utils/structuredData';
 
 interface HomePageProps {
@@ -35,6 +37,7 @@ function HomePage({ onNavigate }: HomePageProps) {
       <Pricing />
       <WidgetPricing />
       <CTA />
+      <FAQ items={homeFAQs} />
       <Footer onNavigate={onNavigate} />
     </div>
   );

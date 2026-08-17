@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import FAQ from '../components/FAQ';
+import { contactFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { Phone, Mail, MapPin, Clock, MessageSquare } from 'lucide-react';
@@ -135,6 +137,7 @@ function ContactPage({ onNavigate }: ContactPageProps) {
         </div>
       </div>
 
+      <FAQ items={contactFAQs} />
       <Footer onNavigate={onNavigate} />
     </div>
   );

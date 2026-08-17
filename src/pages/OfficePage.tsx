@@ -1,5 +1,7 @@
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import FAQ from '../components/FAQ';
+import { officeFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { TrendingUp, Clock, Phone, BarChart3, CheckCircle, Briefcase } from 'lucide-react';
@@ -194,6 +196,7 @@ function OfficePage({ onNavigate }: OfficePageProps) {
         </div>
       </section>
 
+      <FAQ items={officeFAQs} />
       <Footer onNavigate={onNavigate} />
     </div>
   );

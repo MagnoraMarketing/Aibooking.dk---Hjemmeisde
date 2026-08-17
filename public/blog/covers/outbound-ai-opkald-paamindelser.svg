@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-outboundaiop" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(127 0.5 0.5)">
+      <stop offset="0%" stop-color="#160f2b"/>
+      <stop offset="100%" stop-color="#5b21b6"/>
+    </linearGradient>
+    <radialGradient id="glow1-outboundaiop" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-outboundaiop" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-outboundaiop" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-outboundaiop)"/>
+  <rect width="1200" height="675" fill="url(#dots-outboundaiop)"/>
+  <circle cx="465.27742120670155" cy="264.02190858498216" r="323.37230399250984" fill="url(#glow1-outboundaiop)"/>
+  <circle cx="970.7657913328148" cy="524.0407068282366" r="299.234802974388" fill="url(#glow2-outboundaiop)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#fbbf24" stroke-width="140" opacity="0.15"
+    transform="rotate(256 600 337.5)"/>
+
+  <circle cx="896.8269892148674" cy="178.45734442491084" r="48.72572294995189" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
+  <circle cx="90.23009563051164" cy="600.6207187157124" r="31.101547981612384" fill="#8b5cf6" opacity="0.18"/>
+
+  <g transform="translate(505.8363974913955 386.93700444465503) rotate(-2)">
+    <circle r="75.51949328312185" fill="white" opacity="0.06"/>
+    <circle r="75.51949328312185" fill="none" stroke="white" stroke-opacity="0.19" stroke-width="1.5"/>
+    <rect x="-54.923267842270434" y="-54.923267842270434" width="109.84653568454087" height="109.84653568454087" rx="27.461633921135217"
+      fill="url(#glow1-outboundaiop)" opacity="0.9"/>
+    <rect x="-54.923267842270434" y="-54.923267842270434" width="109.84653568454087" height="109.84653568454087" rx="27.461633921135217"
+      fill="#5b21b6" opacity="0.55"/>
+    <g transform="scale(6.865408480283804) translate(-12 -12)">
+      <path d="M6 3h4l2 5-2.5 1.5a12 12 0 0 0 5 5L16 12l5 2v4a2 2 0 0 1-2 2C10.5 20 4 13.5 4 5a2 2 0 0 1 2-2z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

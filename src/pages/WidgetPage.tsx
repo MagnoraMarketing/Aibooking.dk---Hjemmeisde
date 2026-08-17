@@ -1,22 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Zap, Mic, Calendar, Clock, CheckCircle, MessageSquare, PhoneCall, Star, Shield, Globe, ChevronDown, ArrowRight, Phone } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
-import FAQ from '../components/FAQ';
-import { widgetFAQs } from '../content/faq';
 import SEO from '../components/SEO';
-
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      'react-widget-uv': {
-        agent_id: string;
-        schema: string;
-        type: string;
-      };
-    }
-  }
-}
 
 interface WidgetPageProps {
   onNavigate: (page: 'home' | 'widget' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy') => void;
@@ -412,27 +398,6 @@ function PricingSection() {
 }
 
 function WidgetPage({ onNavigate }: WidgetPageProps) {
-  useEffect(() => {
-    const widgetStylesheet = document.createElement('link');
-    widgetStylesheet.rel = 'stylesheet';
-    widgetStylesheet.href = 'https://sidewidget.vercel.app/react-widget-uv.css';
-    document.head.appendChild(widgetStylesheet);
-
-    const processScript = document.createElement('script');
-    processScript.textContent = 'window.process = { env: {} };';
-    document.head.appendChild(processScript);
-
-    const widgetScript = document.createElement('script');
-    widgetScript.src = 'https://sidewidget.vercel.app/react-widget-uv.iife.js';
-    document.head.appendChild(widgetScript);
-
-    return () => {
-      document.head.removeChild(widgetStylesheet);
-      document.head.removeChild(processScript);
-      document.head.removeChild(widgetScript);
-    };
-  }, []);
-
   return (
     <>
       <SEO
@@ -530,29 +495,6 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                 <div className="text-4xl font-bold mb-2">999 kr</div>
                 <div className="text-blue-200 text-sm">Pr. måned</div>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Live Widget Demo */}
-        <section className="py-20 md:py-28 bg-gradient-to-b from-slate-50 to-white">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="inline-flex items-center gap-2 bg-green-50 text-green-700 px-4 py-2 rounded-full text-sm font-semibold border border-green-100 mb-6">
-              <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-              Prøv live – ingen login krævet
-            </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-              Se widgetten i aktion
-            </h2>
-            <p className="text-xl text-slate-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-              Tal eller skriv til AI-assistenten herunder og oplev, hvordan widgetten håndterer bookinger og spørgsmål.
-            </p>
-            <div className="flex justify-center">
-              <react-widget-uv
-                agent_id="f588b027-d896-4b6d-92f7-df0c9a491d64"
-                schema="e6766f3a-5b29-4cc3-9d65-e181442063b9"
-                type="thunderemotionlite"
-              />
             </div>
           </div>
         </section>
@@ -832,7 +774,6 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
         </section>
 
       </main>
-      <FAQ items={widgetFAQs} />
       <Footer onNavigate={onNavigate} />
     </>
   );

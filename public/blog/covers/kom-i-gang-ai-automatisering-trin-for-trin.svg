@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-komigangaiau" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(123 0.5 0.5)">
+      <stop offset="0%" stop-color="#160f2b"/>
+      <stop offset="100%" stop-color="#5b21b6"/>
+    </linearGradient>
+    <radialGradient id="glow1-komigangaiau" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5b21b6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5b21b6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-komigangaiau" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d97706" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-komigangaiau" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-komigangaiau)"/>
+  <rect width="1200" height="675" fill="url(#dots-komigangaiau)"/>
+  <circle cx="371.5973863378167" cy="264.40674369223416" r="250.35500641912222" fill="url(#glow1-komigangaiau)"/>
+  <circle cx="927.8635690105148" cy="583.1090422230773" r="367.79384126886725" fill="url(#glow2-komigangaiau)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#d97706" stroke-width="140" opacity="0.12"
+    transform="rotate(87 600 337.5)"/>
+
+  <circle cx="165.25709822773933" cy="139.4697634242475" r="42.8480055751279" fill="none" stroke="#d97706" stroke-width="2" opacity="0.5"/>
+  <circle cx="121.60389760695398" cy="555.5012984387577" r="24.919170099776238" fill="#5b21b6" opacity="0.18"/>
+
+  <g transform="translate(651.7817106842995 303.74765504943207) rotate(2)">
+    <circle r="96.70171084324829" fill="white" opacity="0.06"/>
+    <circle r="96.70171084324829" fill="none" stroke="white" stroke-opacity="0.20" stroke-width="1.5"/>
+    <rect x="-70.32851697690785" y="-70.32851697690785" width="140.6570339538157" height="140.6570339538157" rx="35.164258488453925"
+      fill="url(#glow1-komigangaiau)" opacity="0.9"/>
+    <rect x="-70.32851697690785" y="-70.32851697690785" width="140.6570339538157" height="140.6570339538157" rx="35.164258488453925"
+      fill="#5b21b6" opacity="0.55"/>
+    <g transform="scale(8.791064622113481) translate(-12 -12)">
+      <circle cx="6" cy="6" r="2.2" fill="white"/><circle cx="18" cy="6" r="2.2" fill="white"/><circle cx="12" cy="18" r="2.2" fill="white"/><path d="M8 6h8M7.3 7.8 10.7 16.4M16.7 7.8 13.3 16.4" stroke="white" stroke-width="1.4"/>
+    </g>
+  </g>
+</svg>

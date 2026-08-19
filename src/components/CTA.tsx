@@ -18,7 +18,7 @@ function CTA() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://cal.com/magnora-marketing-30zqdm/onboarding-7-dage-prøve-periode"
+              href="https://cal.com/aibooking-booking/info-om-ai-reception-og-widget-copy"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-brand-600 bg-white rounded-xl hover:bg-brand-50 transition-all shadow-xl hover:shadow-2xl hover:scale-105"

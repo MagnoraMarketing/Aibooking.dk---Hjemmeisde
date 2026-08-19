@@ -15,7 +15,7 @@ function Pricing() {
 
   const plansText = t('pricing.plans', { returnObjects: true }) as PricingPlanText[];
   const planMeta = [
-    { price: '0', setup: '0', highlighted: false, isDemo: true, href: 'https://cal.com/magnora-marketing-30zqdm/onboarding-7-dage-prøve-periode' },
+    { price: '0', setup: '0', highlighted: false, isDemo: true, href: 'https://cal.com/aibooking-booking/info-om-ai-reception-og-widget-copy' },
     { price: '999', setup: '1.998', highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
     { price: '2.499', setup: '4.998', highlighted: true, isDemo: false, href: 'https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01' },
     { price: '5.999', setup: '11.998', highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02' },

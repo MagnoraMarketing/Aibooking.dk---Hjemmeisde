@@ -1,1 +1,45 @@
-{}
+{
+  "seo": {
+    "title": "Réceptionniste IA pour Bureaux - Avocats, Comptables, Consultants | Aibooking.dk",
+    "description": "Réceptionniste IA professionnelle pour les entreprises de bureau. 35 % de productivité en plus, 320 % de ROI. Idéal pour les avocats, comptables et consultants. Essayez gratuitement.",
+    "keywords": "réceptionniste de bureau, réceptionniste pour avocats, prise de rendez-vous comptable, prise de rendez-vous consultant, automatisation de bureau, réservation de réunions"
+  },
+  "breadcrumb": {
+    "home": "Accueil",
+    "industries": "Secteurs",
+    "office": "Bureau"
+  },
+  "hero": {
+    "badge": "Bureau et Administration",
+    "title": "Un service client professionnel, sans interruptions",
+    "subtitle": "Dans les entreprises de bureau, la concentration et la productivité sont essentielles. Mais les appels téléphoniques constants interrompent le flux de travail et réduisent considérablement l'efficacité. En même temps, il est important d'offrir aux clients un service rapide et professionnel."
+  },
+  "bestOfBoth": {
+    "title": "Le meilleur des deux mondes",
+    "description": "Avec Aibooking.dk, vous obtenez le meilleur des deux mondes. Notre réceptionniste IA filtre tous les appels entrants, gère les réservations de réunions, répond aux questions courantes et ne transfère que les demandes les plus importantes. Votre équipe gagne la tranquillité nécessaire pour travailler avec concentration, tandis que les clients bénéficient d'un service professionnel 24 heures sur 24. Le tableau de bord vous donne un contrôle total : écoutez toutes les conversations, consultez des résumés détaillés, les statistiques de réservation et l'intégration de calendrier. Idéal pour les avocats, comptables, consultants et autres entreprises du savoir.",
+    "benefits": [
+      { "title": "Réduisez les interruptions", "description": "Améliorez nettement la productivité des employés" },
+      { "title": "Accueil téléphonique professionnel", "description": "Sans coût salarial supplémentaire pour une réceptionniste" },
+      { "title": "Filtrage automatique", "description": "Seules les affaires importantes sont transférées à votre équipe" },
+      { "title": "Réservation de réunions", "description": "Réservez des réunions directement dans le calendrier partagé de l'équipe" },
+      { "title": "Tableau de bord complet", "description": "Historique des conversations, résumés et statistiques" },
+      { "title": "Intégration CRM", "description": "Intégration avec vos systèmes et calendriers existants" }
+    ]
+  },
+  "stats": [
+    { "value": "+35%", "label": "Productivité" },
+    { "value": "15h/semaine", "label": "Temps gagné" },
+    { "value": "98%", "label": "Appels traités" },
+    { "value": "320%", "label": "ROI" }
+  ],
+  "perfectFor": {
+    "title": "Idéal pour toutes les entreprises de bureau",
+    "businessTypes": ["Avocats", "Comptables", "Consultants", "Formateurs", "Coaches"],
+    "ctaButton": "Réservez un rendez-vous sans engagement et obtenez un accès test gratuit"
+  },
+  "finalCta": {
+    "title": "Prêt à commencer ?",
+    "subtitle": "Réservez un rendez-vous gratuit et sans engagement, et obtenez un accès test pour essayer le système vous-même",
+    "button": "Réservez un rendez-vous sans engagement et obtenez un accès test gratuit"
+  }
+}

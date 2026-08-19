@@ -1,1 +1,180 @@
-{}
+{
+  "seo": {
+    "title": "AI Receptionist Solutions for Every Industry | Aibooking.dk",
+    "description": "AI receptionist for healthcare, craftsmen, offices and e-commerce. Tailored solutions for your industry. 7-day free demo. Perfect for Danish businesses.",
+    "keywords": "industry solutions, AI receptionist industries, healthcare AI, craftsman AI, office AI, webshop AI"
+  },
+  "breadcrumb": { "home": "Home", "industries": "Industries" },
+  "hero": {
+    "badge": "Solutions for every industry",
+    "title_line1": "Find the perfect solution",
+    "title_line2": "for your industry",
+    "subtitle": "Aibooking.dk adapts to your needs — whether you run a clinic, are a craftsman, run an office or run a webshop. Get a tailored solution that fits your business perfectly."
+  },
+  "readMoreButton": "Read more about {{title}}",
+  "industrySection": {
+    "benefitsTitle": "Benefits for your business:"
+  },
+  "industries": {
+    "healthcare": {
+      "title": "Clinics and Healthcare",
+      "subtitle": "Freedom to focus on patient care",
+      "description": "As a clinic, you know how important it is to give your patients the best treatment. But administrative tasks like phone calls, bookings and cancellations steal valuable time from patient care.\n\nOur AI receptionist handles all customer enquiries professionally — from new bookings to rebookings and confirmations. With automatic SMS reminders, you significantly reduce no-shows. Your personalized dashboard gives you a complete overview: listen to all calls, see short summaries of each conversation, what was agreed, booking statistics and calendar integration. You can keep using your current calendar software — our system syncs automatically.",
+      "benefits": [
+        "Reduce phone time by 85% — focus on your patients instead",
+        "Automatic SMS reminders reduce no-shows by up to 60%",
+        "Handle bookings, rebookings and cancellations 24/7",
+        "Complete dashboard with call history and conversation summaries",
+        "Integration with your existing booking system and calendar",
+        "Full GDPR compliance for sensitive patient data"
+      ],
+      "stats": [
+        { "label": "Fewer no-shows", "value": "60%" },
+        { "label": "Time saved", "value": "12h/week" },
+        { "label": "Booking rate", "value": "95%" },
+        { "label": "Customer satisfaction", "value": "4.8/5" }
+      ]
+    },
+    "craftsman": {
+      "title": "Craftsmen",
+      "subtitle": "Stop losing orders because the phone doesn't get answered",
+      "description": "You know the feeling: you're in the middle of a job and the phone rings. If you answer it, you lose focus. If you don't, you potentially lose a good order. It's an impossible situation.\n\nOur AI receptionist solves this problem once and for all. The system answers every call, registers customer details, books site visits and sends automatic SMS confirmations. In your dashboard, you can see all enquiries, listen to recorded conversations, get short summaries of what the customer wants, and see what has been agreed. Your calendar updates automatically, no matter which system you use. Stop worrying about lost orders — focus on your craft.",
+      "benefits": [
+        "Answer every enquiry even while you're on a job",
+        "Automatic registration of customer details and job descriptions",
+        "Book site visits directly in your calendar — syncs automatically",
+        "SMS confirmations for both you and the customer",
+        "Dashboard with all customer enquiries and what was agreed",
+        "Never miss an order again — the system works 24/7"
+      ],
+      "stats": [
+        { "label": "More orders", "value": "+45%" },
+        { "label": "Time saved", "value": "10h/week" },
+        { "label": "Answer rate", "value": "100%" },
+        { "label": "Customer satisfaction", "value": "4.9/5" }
+      ]
+    },
+    "office": {
+      "title": "Office and Administration",
+      "subtitle": "Professional customer service without interruptions",
+      "description": "In office businesses, concentration and productivity are crucial. But constant phone calls interrupt the workflow and significantly reduce efficiency. At the same time, it's important to give customers fast and professional service.\n\nWith Aibooking.dk, you get the best of both worlds. Our AI receptionist screens all incoming calls, handles meeting bookings, answers common questions and only forwards the most important enquiries. Your team gets the peace to work with focus, while customers experience professional service around the clock. The dashboard gives you complete control: listen to all conversations, see detailed summaries, booking statistics and calendar integration. Perfect for lawyers, accountants, consultants and other knowledge-based businesses.",
+      "benefits": [
+        "Reduce interruptions and improve employee productivity",
+        "Professional phone service without extra payroll costs",
+        "Automatic call screening — only important matters get forwarded",
+        "Book meetings directly into the team's shared calendar",
+        "Dashboard with conversation history, summaries and statistics",
+        "Integration with existing CRM and calendar systems"
+      ],
+      "stats": [
+        { "label": "Productivity", "value": "+35%" },
+        { "label": "Time saved", "value": "15h/week" },
+        { "label": "Calls handled", "value": "98%" },
+        { "label": "ROI", "value": "320%" }
+      ]
+    },
+    "ecommerce": {
+      "title": "Webshops and E-commerce",
+      "subtitle": "Customer service that scales with your business",
+      "description": "In e-commerce, fast customer service is crucial to success. Delayed responses to customer enquiries mean lost sales and poor reviews. But staffing customer service 24/7 is expensive and complex.\n\nAibooking.dk gives you AI-powered customer service that never sleeps. The system instantly answers common questions about products, delivery times, returns and order status. Complex enquiries are automatically escalated to your team. With SMS notifications, you keep customers updated throughout the entire purchase journey. Your dashboard shows all customer interactions, conversation summaries, frequent questions and trends, so you can constantly optimize your service. Reduce response times from hours to seconds and significantly improve customer satisfaction.",
+      "benefits": [
+        "Answer customer enquiries instantly 24/7 without extra staff",
+        "Handle questions about products, order status and returns automatically",
+        "Automatic SMS updates about shipments and deliveries",
+        "Reduce response times from hours to seconds",
+        "Dashboard with customer interactions, trends and frequent questions",
+        "Integration with your webshop system and order management"
+      ],
+      "stats": [
+        { "label": "Faster responses", "value": "95%" },
+        { "label": "Customer satisfaction", "value": "+40%" },
+        { "label": "Enquiries handled", "value": "1,200+/mo" },
+        { "label": "Conversion", "value": "+28%" }
+      ]
+    }
+  },
+  "bottomStats": {
+    "days": { "value": "7 days", "label": "Free demo access" },
+    "free": { "value": "100%", "label": "No obligation" },
+    "support": { "value": "24/7", "label": "Support and operations" }
+  },
+  "seoContent": {
+    "title": "AI Receptionist for Danish Businesses",
+    "intro": "Aibooking.dk is Denmark's leading AI receptionist solution, automating customer service, booking and administration for businesses in every industry.",
+    "whatIs": {
+      "title": "What is an AI receptionist?",
+      "paragraph1": "An AI receptionist is an intelligent virtual assistant that handles all your customer enquiries automatically around the clock. Our advanced AI technology can answer calls, take bookings, send SMS confirmations, handle rebookings and much more — all without human intervention.",
+      "paragraph2": "Unlike a traditional receptionist, Aibooking.dk works 24/7 without breaks, holidays or sick days. This means your customers can always reach your business, regardless of the time of day. At the same time, you save significant payroll costs and can focus your employees on more value-adding tasks."
+    },
+    "solutions": {
+      "title": "Solutions for every industry",
+      "healthcare": {
+        "title": "Clinics and Healthcare",
+        "text": "Perfect for doctors, dentists, physiotherapists, psychologists and other healthcare clinics. The AI receptionist handles bookings, reminders and cancellations automatically, while you focus on your patients. Integration with your existing booking system ensures real-time synchronization."
+      },
+      "craftsman": {
+        "title": "Craftsmen",
+        "text": "Ideal for plumbers, electricians, carpenters, painters and other trades. Stop losing jobs because you can't answer the phone while you're working. The AI receptionist logs every enquiry, books site visits and sends confirmations automatically."
+      },
+      "office": {
+        "title": "Office and Administration",
+        "text": "Optimize administration in your office, law firm, accounting firm or consultancy. The AI receptionist screens calls, books meetings, handles customer enquiries and ensures your employees are only interrupted when it matters."
+      },
+      "ecommerce": {
+        "title": "Webshops and E-commerce",
+        "text": "Give your customers the support they deserve with AI-powered customer service. Answer common questions about products, order status and returns instantly. Reduce response times and significantly improve customer satisfaction."
+      }
+    },
+    "features": {
+      "title": "Advanced features that make the difference",
+      "paragraph1": "Aibooking.dk is more than just an answering machine. Our platform includes a comprehensive dashboard where you can follow all customer interactions in real time. Listen to all recorded conversations, get short summaries of each conversation, see what has been agreed, and get detailed statistics on bookings and customer enquiries.",
+      "paragraph2": "The system integrates seamlessly with your existing calendar, whether you use Google Calendar, Outlook or an industry-specific solution. You get automatic SMS messages to both you and your customers, so everyone stays updated. And with our intuitive dashboard, you can easily oversee your business and make data-driven decisions."
+    },
+    "whyChoose": {
+      "title": "Why choose Aibooking.dk?",
+      "points": [
+        "Save 10+ hours a week on phone calls and administration",
+        "Never miss a customer again — take enquiries 24/7",
+        "Reduce no-shows with automatic SMS reminders",
+        "Complete overview with an intelligent dashboard and conversation summaries",
+        "Seamless integration with your existing systems",
+        "Danish support and solutions tailored to your business"
+      ]
+    },
+    "closing": {
+      "paragraph1": "Let us find the perfect solution for your business. Book a free, no-obligation presentation today, and get access to our demo for 7 days.",
+      "paragraph2": "We'll discuss your specific needs and show you how Aibooking.dk can transform your customer service."
+    }
+  },
+  "contactForm": {
+    "title": "Book a free presentation",
+    "subtitle": "Let's have a no-obligation chat about how our AI receptionist can help your business. Get free demo access for 7 days.",
+    "bookDemoButton": "Book Demo Now",
+    "orFillForm": "Or fill out the form below and we'll contact you",
+    "success": {
+      "title": "Thank you for your enquiry!",
+      "message": "We'll contact you as soon as possible on your preferred date."
+    },
+    "errorMessage": "An error occurred. Please try again.",
+    "fields": {
+      "name": { "label": "Name", "placeholder": "Your full name" },
+      "email": { "label": "Email", "placeholder": "your@email.com" },
+      "phone": { "label": "Phone", "placeholder": "+45 91952794" },
+      "industry": {
+        "label": "Industry",
+        "placeholder": "Select your industry",
+        "options": {
+          "healthcare": "Clinics",
+          "craftsman": "Craftsman",
+          "office": "Office and Administration",
+          "webshop": "Webshop"
+        }
+      },
+      "callDate": { "label": "Preferred date for a call" },
+      "message": { "label": "Message (optional)", "placeholder": "Tell us a bit about your needs..." }
+    },
+    "submitButton": "Book free presentation",
+    "submitButtonLoading": "Sending...",
+    "disclaimer": "100% free and no obligation • 7-day demo access included"
+  }
+}

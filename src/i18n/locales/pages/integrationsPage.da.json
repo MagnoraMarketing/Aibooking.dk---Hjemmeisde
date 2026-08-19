@@ -1,1 +1,89 @@
-{}
+{
+  "seo": {
+    "title": "Integrationer - Tilslut AI Receptionist til Dine Systemer | Aibooking.dk",
+    "description": "Integrer vores AI-receptionist med Google Calendar, Outlook, Microsoft Teams, Zoom, Slack og mange flere. Seamless kalender- og booking-integrationer.",
+    "keywords": "kalender integration, Google Calendar, Outlook integration, booking system integration, CRM integration, email integration"
+  },
+  "breadcrumb": { "home": "Hjem", "integrations": "Integrationer" },
+  "hero": {
+    "badge": "Problemfri Integration",
+    "title_line1": "Forbind med dine",
+    "title_line2": "eksisterende værktøjer",
+    "subtitle": "Vores AI-løsning automatiserer administration, opkald, SMS og email ved at arbejde sammen med de systemer du allerede bruger. Spar tid, bliv mere professionel og lad AI'en håndtere ombookinger, opfølgning og mødebekræftigelser automatisk.",
+    "features": [
+      { "title": "Spar Timer Dagligt", "description": "Automatiser ind- og udgående opkald, SMS og emails mens AI'en synkroniserer med dine systemer" },
+      { "title": "Hurtig Opsætning", "description": "Ingen kompliceret installation. Forbind dine eksisterende værktøjer på minutter" },
+      { "title": "Altid Synkroniseret", "description": "Real-time opdateringer på tværs af alle dine platforme. Ingen dobbeltarbejde" }
+    ]
+  },
+  "categoriesSection": {
+    "title": "Integration Kategorier",
+    "subtitle": "Vores AI-løsning forbinder med de værktøjer du allerede bruger hver dag",
+    "categories": [
+      { "title": "Kalender & Planlægning", "description": "Google Calendar, Outlook, CalDAV" },
+      { "title": "CRM & Kunder", "description": "HubSpot, Salesforce, Pipedrive" },
+      { "title": "Kommunikation", "description": "WhatsApp, Slack, Discord, Messenger" },
+      { "title": "Dokumenter", "description": "Notion, WordPress, Google Docs" },
+      { "title": "E-handel", "description": "Shopify, WooCommerce, Stripe" },
+      { "title": "Automatisering", "description": "Zapier, Make, Webhooks, API" }
+    ]
+  },
+  "gridSection": {
+    "title": "Populære Integrationer",
+    "subtitle": "Arbejd problemfrit med dine eksisterende værktøjer. Vores AI håndterer automatisk kommunikation på tværs af alle platforme.",
+    "clinicHighlight": {
+      "title": "Skabt specielt til klinikker og behandlingssteder",
+      "description": "Over 500 danske klinikker har allerede valgt vores løsning. Fra tandlægeklinikker og fysioterapeuter til skønhedssaloner og wellness-centre – vores AI-assistent integrerer perfekt med dit eksisterende booking-system og håndterer alt fra telefonopkald til SMS-påmindelser.",
+      "points": [
+        { "strong": "GDPR-sikker datahåndtering", "text": "– alle patientdata behandles fortroligt og i overensstemmelse med sundhedsloven" },
+        { "strong": "Reducér \"no-shows\" med op til 67%", "text": "– automatiske påmindelser via SMS og email holder dine kunder informeret" },
+        { "strong": "Opsætning på under 15 minutter", "text": "– ingen IT-viden kræves, vores team guider dig hele vejen" },
+        { "strong": "Dansk support 7 dage om ugen", "text": "– hjælp når du har brug for det, på dit eget sprog" }
+      ]
+    },
+    "popularBadge": "Populær",
+    "integrations": [
+      { "name": "Google Calendar", "description": "Automatisk booking og synkronisering af møder", "category": "Kalender" },
+      { "name": "Outlook", "description": "Microsoft 365 integration til email og kalender", "category": "Kalender" },
+      { "name": "WhatsApp", "description": "Send SMS bekræftelser og påmindelser", "category": "Kommunikation" },
+      { "name": "Slack", "description": "Real-time notifikationer til dit team", "category": "Kommunikation" },
+      { "name": "Shopify", "description": "E-handel booking integration", "category": "E-handel" },
+      { "name": "Notion", "description": "Dokumenter og noter synkronisering", "category": "Produktivitet" },
+      { "name": "WordPress", "description": "Tilføj booking til din hjemmeside", "category": "Hjemmeside" },
+      { "name": "Zapier", "description": "Forbind med 5000+ apps automatisk", "category": "Automatisering" },
+      { "name": "Zoom", "description": "Automatisk oprettelse af mødelinks", "category": "Video" },
+      { "name": "Microsoft Teams", "description": "Teams møde integration", "category": "Video" },
+      { "name": "Messenger", "description": "Facebook Messenger integration", "category": "Kommunikation" },
+      { "name": "Discord", "description": "Community og server integration", "category": "Kommunikation" },
+      { "name": "OpenAI", "description": "Avanceret AI-understøttelse", "category": "AI" },
+      { "name": "Webhooks", "description": "Custom integration med dine systemer", "category": "Udvikler" },
+      { "name": "REST API", "description": "Fuld API adgang til alle funktioner", "category": "Udvikler" }
+    ],
+    "missing": {
+      "title": "Mangler din integration?",
+      "description": "Vi tilføjer løbende nye integrationer. Med vores Webhook og API support kan du forbinde næsten hvilket som helst system til vores AI-løsning.",
+      "button": "Book Demo"
+    }
+  },
+  "ctaSection": {
+    "title": "Lad AI'en overtage administrationen",
+    "subtitle": "Vores AI-løsning integrerer problemfrit med dine eksisterende systemer og automatiserer alt fra telefonopkald til email kommunikation. Spar timer hver dag og fokuser på det der virkelig betyder noget: dine kunder.",
+    "button": "Book Demo",
+    "benefitsTitle": "Hvad får du med AI-integration?",
+    "benefits": [
+      "Automatisk håndtering af ind- og udgående opkald",
+      "SMS påmindelser og bekræftelser sendes automatisk",
+      "Email kommunikation styret af AI",
+      "Ombookinger håndteres uden manuel indgriben",
+      "Mødebekræftigelser sendes til tiden hver gang",
+      "Opfølgning på mistede opkald og henvendelser",
+      "Real-time synkronisering med alle dine systemer",
+      "Professionel håndtering 24/7"
+    ],
+    "stats": [
+      { "value": "5 min", "label": "Gennemsnitlig opsætningstid" },
+      { "value": "24/7", "label": "AI-drevet kundeservice" },
+      { "value": "100%", "label": "Automatisk synkronisering" }
+    ]
+  }
+}

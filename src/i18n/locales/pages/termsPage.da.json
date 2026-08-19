@@ -1,1 +1,62 @@
-{}
+{
+  "title": "Vilkår og betingelser",
+  "subtitle": "Vilkår og betingelser for Aibooking.dk",
+  "intro": "Disse vilkår og betingelser gælder for brugen af Aibooking.dk og de ydelser, der tilbydes via platformen. Ved at oprette en konto, booke en DEMO eller købe et abonnement accepterer du nedenstående vilkår.",
+  "sections": [
+    {
+      "heading": "1. Generelt",
+      "body": "Aibooking.dk er en online booking- og administrationsplatform. Platformen udbydes som en digital tjeneste og leveres som den er og forefindes."
+    },
+    {
+      "heading": "2. DEMO-periode",
+      "items": [
+        "Når du booker en DEMO hos Aibooking.dk, får du 7 dages gratis prøveperiode.",
+        "Prøveperioden starter fra den dag, adgangen gives.",
+        "I DEMO-perioden har du mulighed for at afprøve funktionerne på platformen."
+      ]
+    },
+    {
+      "heading": "3. Køb og bestilling",
+      "items": [
+        "Du kan vælge at købe direkte uden DEMO-periode.",
+        "Ved køb kan du samtidig bestille onboarding, hvor du bliver hjulpet i gang med opsætning og brug af Aibooking.dk.",
+        "Alle priser er angivet i danske kroner (DKK) og er ekskl. moms, medmindre andet er angivet."
+      ]
+    },
+    {
+      "heading": "4. Betaling",
+      "items": [
+        "Betaling sker forud for den valgte abonnementsperiode.",
+        "Abonnementet faktureres løbende, typisk månedligt, medmindre andet er aftalt.",
+        "Manglende betaling kan medføre suspension eller lukning af adgangen til platformen."
+      ]
+    },
+    {
+      "heading": "5. Fortrydelsesret",
+      "items": [
+        "Efter gennemført køb er der ingen fortrydelsesret.",
+        "Dette gælder både for abonnementer og eventuel onboarding, da der er tale om digitale ydelser, som leveres straks."
+      ]
+    },
+    {
+      "heading": "6. Opsigelse",
+      "items": [
+        "Abonnementet er løbende måned plus én måned.",
+        "Opsigelse skal ske skriftligt via e-mail eller via din konto på Aibooking.dk.",
+        "Opsigelsen træder i kraft ved udgangen af den efterfølgende måned."
+      ]
+    },
+    {
+      "heading": "7. Ændringer",
+      "body": "Aibooking.dk forbeholder sig retten til løbende at ændre disse vilkår og betingelser. Opdaterede vilkår vil altid være tilgængelige på hjemmesiden."
+    },
+    {
+      "heading": "8. Ansvarsbegrænsning",
+      "body": "Aibooking.dk kan ikke holdes ansvarlig for indirekte tab, driftstab, datatab eller andre følgeskader, som måtte opstå ved brug af platformen."
+    },
+    {
+      "heading": "9. Kontakt",
+      "body": "Har du spørgsmål til vilkår og betingelser, er du velkommen til at kontakte os via Aibooking.dk."
+    }
+  ]
+}

@@ -12,7 +12,7 @@ interface BlogPostPageProps {
 }
 
 export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation('blogPostPage');
   const post = getPostBySlug(postSlug);
   const category = post ? getCategoryBySlug(post.categorySlug) : undefined;
   const relatedPosts = post ? getRelatedPosts(post) : [];
@@ -48,10 +48,10 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
         <div className="flex items-center justify-center min-h-screen">
           <div className="text-center">
             <h1 className="text-3xl font-bold text-ink-900 mb-4">
-              {i18n.language === 'da' ? 'Artikel ikke fundet' : 'Article not found'}
+              {t('notFound.title')}
             </h1>
             <a href="/blog" className="text-brand-600 hover:text-brand-700 font-semibold">
-              {i18n.language === 'da' ? 'Tilbage til blog' : 'Back to blog'}
+              {t('backToBlog')}
             </a>
           </div>
         </div>
@@ -109,7 +109,7 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
             className="inline-flex items-center text-brand-600 hover:text-brand-700 font-medium mb-8 transition-colors group"
           >
             <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
-            {i18n.language === 'da' ? 'Tilbage til blog' : 'Back to blog'}
+            {t('backToBlog')}
           </a>
 
           <div className="mb-8">
@@ -130,7 +130,7 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
               <div className="flex items-center gap-2">
                 <Clock className="w-5 h-5 text-brand-600" />
                 <span className="font-medium">
-                  {estimatedReadTime(getContent())} {i18n.language === 'da' ? 'min. læsning' : 'min read'}
+                  {t('readTime', { count: estimatedReadTime(getContent()) })}
                 </span>
               </div>
             </div>
@@ -147,11 +147,11 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
           <div className="flex gap-4 mb-12 pb-8 border-b border-ink-200">
             <button className="flex items-center gap-2 px-4 py-2 bg-white border border-ink-200 rounded-lg hover:bg-ink-50 transition-colors font-medium text-ink-700 shadow-sm">
               <Share2 className="w-4 h-4" />
-              {i18n.language === 'da' ? 'Del' : 'Share'}
+              {t('actions.share')}
             </button>
             <button className="flex items-center gap-2 px-4 py-2 bg-white border border-ink-200 rounded-lg hover:bg-ink-50 transition-colors font-medium text-ink-700 shadow-sm">
               <BookmarkPlus className="w-4 h-4" />
-              {i18n.language === 'da' ? 'Gem' : 'Save'}
+              {t('actions.save')}
             </button>
           </div>
 
@@ -178,19 +178,17 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
             <div className="flex items-center gap-2 mb-4">
               <Sparkles className="w-6 h-6 text-brand-600" />
               <h3 className="text-2xl font-bold text-ink-900">
-                {i18n.language === 'da' ? 'Klar til at komme i gang?' : 'Ready to get started?'}
+                {t('ctaBox.title')}
               </h3>
             </div>
             <p className="text-lg text-ink-700 mb-6 leading-relaxed">
-              {i18n.language === 'da'
-                ? 'Oplev hvordan AIBooking.dk kan transformere din virksomhed med intelligent automatisering. Book en gratis demo i dag.'
-                : 'Experience how AIBooking.dk can transform your business with intelligent automation. Book a free demo today.'}
+              {t('ctaBox.description')}
             </p>
             <a
               href="https://aibooking.dk/widget"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-700 text-white px-8 py-4 rounded-xl font-bold hover:shadow-xl transition-all transform hover:scale-105"
             >
-              {i18n.language === 'da' ? 'Prøv AI Widget Gratis' : 'Try AI Widget Free'}
+              {t('ctaBox.button')}
               <ArrowRight className="w-5 h-5" />
             </a>
           </div>
@@ -200,10 +198,10 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-24">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-ink-900 mb-4">
-                {i18n.language === 'da' ? 'Relaterede Artikler' : 'Related Articles'}
+                {t('related.title')}
               </h2>
               <p className="text-lg text-ink-600">
-                {i18n.language === 'da' ? 'Læs mere om ' + getCategoryName() : 'Read more about ' + getCategoryName()}
+                {t('related.subtitle', { category: getCategoryName() })}
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-8">
@@ -225,7 +223,7 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
                       {getRelatedTitle(relatedPost)}
                     </h3>
                     <div className="flex items-center text-brand-600 font-semibold text-sm">
-                      {i18n.language === 'da' ? 'Læs artikel' : 'Read article'}
+                      {t('readArticle')}
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                     </div>
                   </div>

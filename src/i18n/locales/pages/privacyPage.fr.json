@@ -1,1 +1,74 @@
-{}
+{
+  "title": "Politique de confidentialité",
+  "subtitle": "Comment nous protégeons vos données personnelles",
+  "sections": [
+    {
+      "heading": "1. Introduction",
+      "body": "Aibooking.dk s'engage à protéger vos données personnelles et à respecter votre vie privée. Cette politique de confidentialité explique comment nous collectons, utilisons, stockons et protégeons vos informations personnelles lorsque vous utilisez notre plateforme et nos services."
+    },
+    {
+      "heading": "2. Responsable du traitement",
+      "body": "Aibooking.dk (ci-après \"nous\") est responsable du traitement de vos données personnelles conformément au Règlement Général sur la Protection des Données (RGPD)."
+    },
+    {
+      "heading": "3. Quelles données collectons-nous",
+      "intro": "Nous collectons les catégories suivantes de données personnelles :",
+      "labelItems": [
+        { "label": "Données de compte", "desc": "Nom, adresse e-mail, numéro de téléphone et autres informations que vous nous fournissez lors de la création d'un compte" },
+        { "label": "Données de paiement", "desc": "Adresse de facturation et informations de paiement (traitées en toute sécurité via des prestataires de paiement)" },
+        { "label": "Données d'utilisation", "desc": "Informations sur vos activités sur la plateforme, telles que les réservations, demandes et interactions" },
+        { "label": "Données techniques", "desc": "Adresse IP, type de navigateur, type d'appareil et autres informations techniques" },
+        { "label": "Données de communication", "desc": "E-mails, messages et autres communications entre vous et nous" }
+      ]
+    },
+    {
+      "heading": "4. Comment nous utilisons vos données",
+      "intro": "Nous utilisons vos données personnelles aux fins suivantes :",
+      "items": [
+        "Fournir et administrer nos services",
+        "Traiter vos réservations et transactions",
+        "Communiquer avec vous à propos de votre compte et de nos services",
+        "Améliorer et optimiser notre plateforme",
+        "Répondre à des exigences légales et réglementaires",
+        "Prévenir la fraude et assurer la sécurité de notre plateforme"
+      ]
+    },
+    {
+      "heading": "5. Partage des données",
+      "body": "Nous ne partageons vos données personnelles qu'avec des prestataires tiers nécessaires à la fourniture de nos services, tels que les processeurs de paiement, les hébergeurs et les plateformes de support client. Tous les prestataires tiers sont tenus de traiter vos données de manière sécurisée et conformément à la législation applicable."
+    },
+    {
+      "heading": "6. Conservation des données",
+      "body": "Vos données personnelles sont stockées sur des serveurs sécurisés et ne sont pas conservées plus longtemps que nécessaire pour atteindre les finalités pour lesquelles elles ont été collectées, sauf si la loi exige une conservation plus longue. Vous pouvez demander la suppression de vos données à tout moment en nous contactant."
+    },
+    {
+      "heading": "7. Vos droits",
+      "intro": "Conformément au RGPD, vous disposez des droits suivants concernant vos données personnelles :",
+      "labelItems": [
+        { "label": "Droit d'accès", "desc": "Vous pouvez demander à voir quelles données personnelles nous détenons à votre sujet" },
+        { "label": "Droit de rectification", "desc": "Vous pouvez demander que nous corrigions des données inexactes" },
+        { "label": "Droit à l'effacement", "desc": "Vous pouvez demander que nous supprimions vos données" },
+        { "label": "Droit à la limitation", "desc": "Vous pouvez demander que nous limitions l'utilisation de vos données" },
+        { "label": "Droit à la portabilité des données", "desc": "Vous pouvez demander à recevoir vos données dans un format structuré" },
+        { "label": "Droit d'opposition", "desc": "Vous pouvez vous opposer à certains traitements de vos données" }
+      ]
+    },
+    {
+      "heading": "8. Sécurité",
+      "body": "Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles pour protéger vos données personnelles contre tout accès non autorisé, altération, divulgation ou destruction. Cela comprend le chiffrement, les connexions sécurisées et le contrôle d'accès."
+    },
+    {
+      "heading": "9. Cookies",
+      "body": "Notre plateforme peut utiliser des cookies pour améliorer votre expérience utilisateur. Vous pouvez contrôler les paramètres de cookies dans votre navigateur. Certains cookies sont nécessaires au bon fonctionnement de la plateforme, tandis que d'autres sont utilisés pour analyser le comportement des utilisateurs."
+    },
+    {
+      "heading": "10. Modifications de cette politique",
+      "body": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Les changements importants vous seront communiqués par e-mail ou via un avis sur la plateforme. Votre utilisation continue de la plateforme après des modifications signifie que vous acceptez les nouvelles conditions."
+    },
+    {
+      "heading": "11. Nous contacter",
+      "before": "Si vous avez des questions concernant cette politique de confidentialité ou souhaitez exercer vos droits, n'hésitez pas à nous contacter à ",
+      "after": "."
+    }
+  ]
+}

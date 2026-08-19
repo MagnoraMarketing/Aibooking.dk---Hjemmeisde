@@ -1,1 +1,88 @@
-{}
+{
+  "seo": {
+    "title": "Book Gratis Demo - Se AI Receptionist i Aktion | Aibooking.dk",
+    "description": "Book en gratis og uforpligtende demo af vores AI-receptionist. Få 7 dages gratis adgang og se hvordan vi kan transformere din forretning. Book nu.",
+    "keywords": "book demo, gratis demo, AI receptionist demo, prøv gratis, uforpligtende demo"
+  },
+  "breadcrumb": { "home": "Hjem", "demo": "Book Demo" },
+  "hero": {
+    "badge": "Eksklusivt Tilbud",
+    "title": "Book Din Gratis Demo",
+    "subtitle_line1": "Få en personlig gennemgang af systemet og oplev hvordan vores AI-receptionist kan transformere din forretning. Book en gratis og uforpligtende demo i dag og få ",
+    "subtitle_bold": "7 dages gratis prøveperiode",
+    "subtitle_line2": " med fuld adgang."
+  },
+  "heroCards": [
+    { "title": "Gratis Gennemgang", "description": "Få en personlig og uforpligtende gennemgang tilpasset netop din forretning og dine behov." },
+    { "title": "7 Dages Gratis Demo", "description": "Test alle funktioner uden binding i 7 dage. Helt uforpligtende og ingen kreditkort påkrævet." },
+    { "title": "Vi Hjælper Dig I Gang", "description": "Vores team guider dig gennem hele opsætningen og sikrer, at du kommer godt i gang fra dag ét." }
+  ],
+  "booking": {
+    "title": "Vælg Din Tid",
+    "subtitle": "Book et møde der passer til din kalender",
+    "button": "Book Din Gratis Demo"
+  },
+  "afterBooking": {
+    "title": "Hvad Sker Der Efter Booking?",
+    "steps": [
+      { "title": "Book Møde", "desc": "Vælg en tid der passer dig" },
+      { "title": "Personlig Demo", "desc": "Se AI-receptionisten i aktion" },
+      { "title": "Gratis Aktivering", "desc": "Få 7 dages fuld adgang" },
+      { "title": "Nyd Fordelene", "desc": "Fokuser på at vokse din klinik" }
+    ]
+  },
+  "whyChoose": {
+    "title": "Hvorfor Vælge Vores AI-Receptionist?",
+    "subtitle": "Oplev forskellen med markedets mest avancerede AI-drevne bookingsystem designet specifikt til danske virksomheder"
+  },
+  "features": [
+    {
+      "title": "24/7 Tilgængelighed",
+      "description": "Vores AI-receptionist arbejder døgnet rundt uden pauser, ferier eller fridage. Dine kunder kan altid booke en tid, uanset om det er midt om natten, i weekenden eller på helligdage. Det betyder flere bookinger og højere kundetilfredshed."
+    },
+    {
+      "title": "Øget Effektivitet",
+      "description": "Automatiser op til 80% af dine telefoniske henvendelser og frigør værdifuld tid til dit personale. Reducer administrative opgaver drastisk og lad dit team fokusere på at levere førsteklasses service til dine kunder."
+    },
+    {
+      "title": "Øjeblikkelig Respons",
+      "description": "Ingen ventetid for dine kunder. AI'en besvarer alle opkald med det samme og kan håndtere ubegrænsede samtaler samtidigt. Det betyder nul tabte opkald og maksimal kundetilfredshed hele tiden."
+    },
+    {
+      "title": "Smart Kalenderintegration",
+      "description": "Seamless integration med dit eksisterende bookingsystem. AI'en ser din reelle kalender i realtid og booker kun ledige tider. Alle aftaler synkroniseres automatisk med detaljerede noter om samtalen og kundens ønsker."
+    },
+    {
+      "title": "Reducér No-Shows",
+      "description": "Automatiske påmindelser via SMS og email reducerer udeblevne aftaler med op til 65%. Systemet sender intelligente påmindelser på det rigtige tidspunkt og kan endda ombooke automatisk ved aflysninger."
+    },
+    {
+      "title": "Perfekt Dansk",
+      "description": "Vores AI er trænet specifikt til dansk sprog og danske kulturnormer. Den forstår dialekter, slang og taler naturligt dansk. Dine kunder oplever en behagelig og professionel samtale hver eneste gang."
+    }
+  ],
+  "benefitsSection": {
+    "title": "Konkrete Fordele For Din Forretning",
+    "benefits": [
+      { "title": "Spar 10+ Timer Om Ugen", "description": "Frigør tid der før gik til at besvare telefonen, administrere bookinger og sende påmindelser. Brug tiden på at vokse din forretning i stedet." },
+      { "title": "Øg Indtægten Med 30%", "description": "Fang alle leads 24/7 og reducer tabte bookinger. Flere bookinger og færre no-shows betyder direkte øget omsætning." },
+      { "title": "Nul Tabte Opkald", "description": "Hvert ubesvaret opkald er tabt omsætning. Med AI-receptionisten går intet opkald glip - selv når du er optaget, til møde eller uden for åbningstid." },
+      { "title": "Bedre Kundeoplevelse", "description": "Konsistent høj servicekvalitet hver gang. Ingen dårlige dage, ingen stress-fejl. Dine kunder oplever altid en professionel og venlig receptionist." },
+      { "title": "Komplet Dokumentation", "description": "Alle samtaler optages og transskriberes automatisk. Få værdifuld indsigt i kundeønsker, typiske spørgsmål og muligheder for at forbedre din service." },
+      { "title": "Skalerbar Løsning", "description": "Håndter 1 eller 1000 opkald om dagen uden at ansætte mere personale. Systemet vokser med din forretning uden ekstra omkostninger." }
+    ],
+    "ctaTitle": "Klar Til At Komme I Gang?",
+    "ctaText": "Book din gratis demo nu og få 7 dages fuld adgang til systemet. Vi guider dig gennem hele opsætningen og sikrer, at du kommer godt i gang. Ingen binding, ingen kreditkort påkrævet.",
+    "ctaButton": "Book Din Gratis Demo Nu"
+  },
+  "industries": {
+    "title": "Perfekt Til Alle Typer Servicevirksomheder",
+    "subtitle": "Vores AI-receptionist er designet til at håndtere bookinger og kundeservice for alle brancher",
+    "items": [
+      { "title": "Sundhedssektoren", "desc": "Tandlæger, fysioterapeuter, kiropraktorer, massageklinikker, psykologer" },
+      { "title": "Skønhed & Wellness", "desc": "Frisører, kosmetologer, neglestudioer, spa-centre, tatovører" },
+      { "title": "Håndværk & Service", "desc": "VVS, elektrikere, malere, tømrere, rengøring, flyttefirmaer" },
+      { "title": "Rådgivning & Coaching", "desc": "Advokater, revisorer, konsulenter, personlige trænere, karrierecoaches" }
+    ]
+  }
+}

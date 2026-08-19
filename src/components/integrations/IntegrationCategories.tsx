@@ -1,44 +1,15 @@
+import { useTranslation } from 'react-i18next';
 import { Calendar, Users, MessageSquare, FileText, BarChart, Wrench } from 'lucide-react';
 
+interface CategoryItem { title: string; description: string }
+
 function IntegrationCategories() {
-  const categories = [
-    {
-      icon: Calendar,
-      title: 'Kalender & Planlægning',
-      description: 'Google Calendar, Outlook, CalDAV',
-      color: 'blue'
-    },
-    {
-      icon: Users,
-      title: 'CRM & Kunder',
-      description: 'HubSpot, Salesforce, Pipedrive',
-      color: 'green'
-    },
-    {
-      icon: MessageSquare,
-      title: 'Kommunikation',
-      description: 'WhatsApp, Slack, Discord, Messenger',
-      color: 'purple'
-    },
-    {
-      icon: FileText,
-      title: 'Dokumenter',
-      description: 'Notion, WordPress, Google Docs',
-      color: 'orange'
-    },
-    {
-      icon: BarChart,
-      title: 'E-handel',
-      description: 'Shopify, WooCommerce, Stripe',
-      color: 'pink'
-    },
-    {
-      icon: Wrench,
-      title: 'Automatisering',
-      description: 'Zapier, Make, Webhooks, API',
-      color: 'indigo'
-    }
-  ];
+  const { t } = useTranslation('integrationsPage');
+
+  const categoriesText = t('categoriesSection.categories', { returnObjects: true }) as CategoryItem[];
+  const categoryIcons = [Calendar, Users, MessageSquare, FileText, BarChart, Wrench];
+  const categoryColors = ['blue', 'green', 'purple', 'orange', 'pink', 'indigo'] as const;
+  const categories = categoriesText.map((item, i) => ({ ...item, icon: categoryIcons[i], color: categoryColors[i] }));
 
   const colorClasses = {
     blue: 'bg-brand-100 text-brand-600',
@@ -54,10 +25,10 @@ function IntegrationCategories() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Integration Kategorier
+            {t('categoriesSection.title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Vores AI-løsning forbinder med de værktøjer du allerede bruger hver dag
+            {t('categoriesSection.subtitle')}
           </p>
         </div>
 
@@ -69,7 +40,7 @@ function IntegrationCategories() {
                 key={index}
                 className="bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-gray-200"
               >
-                <div className={`w-14 h-14 ${colorClasses[category.color as keyof typeof colorClasses]} rounded-xl flex items-center justify-center mb-4`}>
+                <div className={`w-14 h-14 ${colorClasses[category.color]} rounded-xl flex items-center justify-center mb-4`}>
                   <Icon className="w-7 h-7" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">

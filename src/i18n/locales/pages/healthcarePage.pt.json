@@ -1,1 +1,41 @@
-{}
+{
+  "seo": {
+    "title": "Rececionista de IA para Clínicas - Dentistas, Fisioterapeutas | Aibooking.dk",
+    "description": "Marcações automáticas para clínicas, dentistas e fisioterapeutas. Reduza faltas em 60%, poupe 12 horas por semana. Dados de pacientes seguros e conformes com o RGPD. Experimente gratuitamente.",
+    "keywords": "marcação de dentista, marcação de clínica, marcação de fisioterapia, rececionista de IA para saúde, marcação de pacientes, automação de clínicas"
+  },
+  "breadcrumb": { "home": "Início", "industries": "Setores", "healthcare": "Clínicas" },
+  "hero": {
+    "badge": "Clínicas e Saúde",
+    "title": "Liberdade para se focar nos cuidados aos pacientes",
+    "subtitle": "Como clínica, sabe como é importante dar aos seus pacientes o melhor tratamento possível. Mas tarefas administrativas como chamadas telefónicas, marcações e cancelamentos roubam tempo valioso aos cuidados com os pacientes."
+  },
+  "solution": {
+    "title": "A solução completa para o setor da saúde",
+    "description": "A nossa rececionista de IA trata todos os contactos dos clientes de forma profissional – desde novas marcações a remarcações e confirmações. Com lembretes automáticos por SMS, reduz significativamente as faltas. O seu dashboard personalizado dá-lhe uma visão completa: ouça todas as chamadas, veja resumos curtos de cada conversa, o que ficou combinado, estatísticas de marcações e integração com o calendário. Pode continuar a usar o seu software de calendário atual – o nosso sistema sincroniza automaticamente.",
+    "benefits": [
+      { "title": "Reduza o tempo ao telefone em 85%", "description": "Foque-se nos seus pacientes em vez de tarefas administrativas" },
+      { "title": "Lembretes automáticos por SMS", "description": "Reduza as faltas em até 60% e otimize a sua capacidade" },
+      { "title": "Serviço de marcações 24/7", "description": "Trate marcações, remarcações e cancelamentos a qualquer hora" },
+      { "title": "Dashboard completo", "description": "Histórico de chamadas, resumos de conversas e estatísticas de marcações" },
+      { "title": "Integração com calendário", "description": "Sincroniza automaticamente com o seu sistema de marcações atual" },
+      { "title": "Conformidade com o RGPD", "description": "Segurança total para dados sensíveis de pacientes" }
+    ]
+  },
+  "stats": [
+    { "value": "60%", "label": "Menos faltas" },
+    { "value": "12h/semana", "label": "Tempo poupado" },
+    { "value": "95%", "label": "Taxa de marcação" },
+    { "value": "4,8/5", "label": "Satisfação dos clientes" }
+  ],
+  "perfectFor": {
+    "title": "Perfeito para todas as clínicas de saúde",
+    "practices": ["Dentistas", "Fisioterapeutas", "Quiropráticos", "Clínicas de massagem", "Psicólogos"],
+    "cta": "Marque uma reunião sem compromisso e obtenha um login de teste gratuito"
+  },
+  "ctaSection": {
+    "title": "Pronto para começar?",
+    "subtitle": "Marque uma reunião gratuita e sem compromisso, e tenha acesso a um login de teste para experimentar o sistema por si mesmo",
+    "button": "Marque uma reunião sem compromisso e obtenha um login de teste gratuito"
+  }
+}

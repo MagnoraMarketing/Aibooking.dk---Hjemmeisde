@@ -1,1 +1,53 @@
-{}
+{
+  "seo": {
+    "title": "Contactez-nous - Obtenez de l'Aide et du Support | Aibooking.dk",
+    "description": "Vous avez des questions sur notre réceptionniste IA ? Contactez notre équipe de support danoise. Nous répondons sous 24 heures. Appelez le +45 91952794 ou envoyez un email.",
+    "keywords": "contacter aibooking, support danois, aide réceptionniste IA, service client, obtenir une démo"
+  },
+  "breadcrumb": { "home": "Accueil", "contact": "Contact" },
+  "hero": {
+    "badge": "Nous sommes prêts à vous aider",
+    "title": "Contactez-nous dès aujourd'hui",
+    "subtitle": "Vous avez des questions ou souhaitez en savoir plus sur la façon dont Aibooking.dk peut aider votre entreprise ? Nous sommes là pour vous aider."
+  },
+  "infoCards": {
+    "call": { "title": "Appelez-nous", "desc": "Nous répondons volontiers à vos questions" },
+    "email": { "title": "Envoyez un email", "desc": "Nous répondons sous 24 heures" },
+    "hours": { "title": "Horaires d'ouverture", "line1": "Lun-Ven : 9h00 - 17h00", "line2": "Week-end : Fermé" }
+  },
+  "form": {
+    "title": "Envoyez-nous un message",
+    "subtitle": "Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais",
+    "successTitle": "Merci pour votre message !",
+    "successMessage": "Nous vous répondrons dans les plus brefs délais.",
+    "error": "Une erreur s'est produite. Veuillez réessayer.",
+    "labels": {
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone (facultatif)",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Votre nom complet",
+      "email": "votre@email.com",
+      "phone": "+45 91952794",
+      "message": "Comment pouvons-nous vous aider ?"
+    },
+    "submit": "Envoyer le message",
+    "sending": "Envoi en cours..."
+  },
+  "location": {
+    "title": "Retrouvez-nous ici",
+    "companyName": "Aibooking.dk ApS",
+    "addressLine1": "Trindsøvej 6, 1. sal",
+    "addressLine2": "8000 Aarhus C, Danmark"
+  },
+  "whyUs": {
+    "title": "Pourquoi nous choisir ?",
+    "items": [
+      "Support danois en danois",
+      "Mise en œuvre rapide",
+      "Solution conforme au RGPD"
+    ]
+  }
+}

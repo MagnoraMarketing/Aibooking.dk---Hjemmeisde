@@ -1,1 +1,45 @@
-{}
+{
+  "seo": {
+    "title": "Rececionista IA para Escritórios - Advogados, Contabilistas, Consultores | Aibooking.dk",
+    "description": "Rececionista IA profissional para empresas de escritório. 35% mais produtividade, 320% de ROI. Perfeito para advogados, contabilistas e consultores. Experimente gratuitamente.",
+    "keywords": "rececionista de escritório, rececionista para advogados, marcações para contabilistas, marcações para consultores, automatização de escritório, marcação de reuniões"
+  },
+  "breadcrumb": {
+    "home": "Início",
+    "industries": "Setores",
+    "office": "Escritório"
+  },
+  "hero": {
+    "badge": "Escritório e Administração",
+    "title": "Atendimento profissional sem interrupções",
+    "subtitle": "Em empresas de escritório, a concentração e a produtividade são fundamentais. Mas as chamadas telefónicas constantes interrompem o fluxo de trabalho e reduzem significativamente a eficiência. Ao mesmo tempo, é importante dar aos clientes um atendimento rápido e profissional."
+  },
+  "bestOfBoth": {
+    "title": "O melhor dos dois mundos",
+    "description": "Com a Aibooking.dk tem o melhor dos dois mundos. A nossa rececionista de IA filtra todas as chamadas recebidas, trata das marcações de reuniões, responde a perguntas comuns e encaminha apenas os pedidos mais importantes. A sua equipa ganha a tranquilidade para trabalhar com concentração, enquanto os clientes têm um atendimento profissional 24 horas por dia. O painel de controlo dá-lhe controlo total: ouça todas as conversas, veja resumos detalhados, estatísticas de marcações e integração de calendário. Perfeito para advogados, contabilistas, consultores e outras empresas baseadas em conhecimento.",
+    "benefits": [
+      { "title": "Reduza as interrupções", "description": "Melhore significativamente a produtividade dos colaboradores" },
+      { "title": "Atendimento telefónico profissional", "description": "Sem custos salariais adicionais com uma rececionista" },
+      { "title": "Filtragem automática", "description": "Apenas os assuntos importantes são encaminhados para a sua equipa" },
+      { "title": "Marcação de reuniões", "description": "Marque reuniões diretamente no calendário partilhado da equipa" },
+      { "title": "Painel de controlo completo", "description": "Histórico de conversas, resumos e estatísticas" },
+      { "title": "Integração com CRM", "description": "Integração com os sistemas e calendários existentes" }
+    ]
+  },
+  "stats": [
+    { "value": "+35%", "label": "Produtividade" },
+    { "value": "15h/semana", "label": "Tempo poupado" },
+    { "value": "98%", "label": "Chamadas atendidas" },
+    { "value": "320%", "label": "ROI" }
+  ],
+  "perfectFor": {
+    "title": "Perfeito para todas as empresas de escritório",
+    "businessTypes": ["Advogados", "Contabilistas", "Consultores", "Formadores", "Coaches"],
+    "ctaButton": "Marque uma reunião sem compromisso e obtenha um login de teste gratuito"
+  },
+  "finalCta": {
+    "title": "Pronto para começar?",
+    "subtitle": "Marque uma reunião gratuita e sem compromisso, e obtenha acesso a um login de teste para experimentar o sistema você mesmo",
+    "button": "Marque uma reunião sem compromisso e obtenha um login de teste gratuito"
+  }
+}

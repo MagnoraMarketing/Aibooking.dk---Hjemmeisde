@@ -1,4 +1,5 @@
-import { CheckCircle2, BarChart3, Calendar, MessageSquare, Clock, TrendingUp } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import { CheckCircle2, BarChart3 } from 'lucide-react';
 
 interface IndustrySectionProps {
   title: string;
@@ -21,6 +22,8 @@ function IndustrySection({
   bgColor,
   accentColor
 }: IndustrySectionProps) {
+  const { t } = useTranslation('industriesPage');
+
   return (
     <div className={`${bgColor} py-20 border-b border-ink-200`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -41,7 +44,7 @@ function IndustrySection({
               </p>
 
               <h3 className={`text-2xl font-bold ${accentColor} mb-6`}>
-                Fordele for din virksomhed:
+                {t('industrySection.benefitsTitle')}
               </h3>
 
               <ul className="space-y-4">

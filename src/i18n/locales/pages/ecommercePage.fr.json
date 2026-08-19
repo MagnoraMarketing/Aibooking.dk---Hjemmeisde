@@ -1,1 +1,41 @@
-{}
+{
+  "seo": {
+    "title": "Service Client IA pour E-commerce et Boutiques en Ligne | Aibooking.dk",
+    "description": "Service client IA 24h/24 pour boutiques en ligne. 40 % de satisfaction client en plus, 28 % de conversion en plus. Réponses automatiques, mises à jour par SMS. Essayez gratuitement.",
+    "keywords": "service client boutique en ligne, IA e-commerce, automatisation boutique en ligne, chatbot boutique en ligne, automatisation service client"
+  },
+  "breadcrumb": { "home": "Accueil", "industries": "Secteurs", "ecommerce": "E-commerce et Boutique en Ligne" },
+  "hero": {
+    "badge": "E-commerce et Boutique en Ligne",
+    "title": "Un service client qui évolue avec votre entreprise",
+    "subtitle": "Dans le monde du e-commerce, un service client rapide est essentiel à la réussite. Des réponses tardives aux demandes des clients entraînent des ventes perdues et de mauvais avis. Mais assurer un service client 24h/24 est coûteux et complexe."
+  },
+  "mainCard": {
+    "title": "Un service client propulsé par l'IA qui ne dort jamais",
+    "description": "Aibooking.dk vous offre un service client propulsé par l'IA qui ne dort jamais. Le système répond instantanément aux questions courantes sur les produits, les délais de livraison, les retours et le statut des commandes. Les demandes complexes sont automatiquement transmises à votre équipe. Grâce aux notifications SMS, vous tenez vos clients informés tout au long de leur parcours d'achat. Votre tableau de bord affiche toutes les interactions clients, des résumés de conversations, les questions fréquentes et les tendances, afin que vous puissiez optimiser en continu votre service. Réduisez les temps de réponse de plusieurs heures à quelques secondes et améliorez considérablement la satisfaction client."
+  },
+  "benefits": [
+    { "title": "Service client 24h/24", "description": "Répondez instantanément aux demandes sans personnel supplémentaire" },
+    { "title": "Réponses automatiques", "description": "Traitez les questions sur les produits, le statut des commandes et les retours" },
+    { "title": "Mises à jour par SMS", "description": "Notifications automatiques sur les expéditions et les livraisons" },
+    { "title": "Temps de réponse ultra-rapides", "description": "Réduisez les temps de réponse de plusieurs heures à quelques secondes" },
+    { "title": "Analyse des tendances", "description": "Tableau de bord avec les interactions clients et les questions fréquentes" },
+    { "title": "Intégration boutique en ligne", "description": "Intégration avec votre système de boutique en ligne et la gestion des commandes" }
+  ],
+  "stats": [
+    { "value": "95%", "label": "Réponses plus rapides" },
+    { "value": "+40%", "label": "Satisfaction client" },
+    { "value": "1200+", "label": "Demandes/mois" },
+    { "value": "+28%", "label": "Conversion" }
+  ],
+  "perfectFor": {
+    "title": "Idéal pour toutes les entreprises en ligne",
+    "items": ["Boutiques en ligne", "E-commerce", "Dropshipping", "Places de marché", "Vente en ligne"],
+    "cta": "Réservez un rendez-vous sans engagement et obtenez un accès test gratuit"
+  },
+  "ctaSection": {
+    "title": "Prêt à commencer ?",
+    "subtitle": "Réservez un rendez-vous gratuit et sans engagement, et obtenez un accès test pour essayer le système vous-même",
+    "button": "Réservez un rendez-vous sans engagement et obtenez un accès test gratuit"
+  }
+}

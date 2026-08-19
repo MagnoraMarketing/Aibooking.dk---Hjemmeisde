@@ -1,1 +1,246 @@
-{}
+{
+  "seo": {
+    "title": "AI Voice Widget – Book Møder Med Stemmen | Aibooking.dk",
+    "description": "Integrer Aibooking.dk's AI voice widget på din hjemmeside. Lad kunder booke møder og stille spørgsmål via tale – 24/7 automatisk. Kom i gang på under 5 minutter. Fra 999 kr/md.",
+    "keywords": "AI voice widget, voicebot hjemmeside, AI booking widget, stemmebaseret booking, chatbot dansk, automatisk møbebooking, AI receptionist widget, booking automation"
+  },
+  "hero": {
+    "badge": "AI Voice Widget til din hjemmeside",
+    "title_line1": "Lad dine kunder booke møder",
+    "title_line2": "med stemmen",
+    "subtitle": "Aibooking.dk's AI voice widget integreres direkte på din hjemmeside og håndterer bookinger, spørgsmål og kundehenvendelser automatisk – via tale og tekst, 24 timer i døgnet, 365 dage om året.",
+    "cta_demo": "Prøv gratis demo",
+    "cta_buy": "Bestil nu – 999 kr/md",
+    "trust_no_binding": "Ingen binding",
+    "trust_5min": "Kom i gang på 5 min",
+    "trust_gdpr": "GDPR-kompatibel",
+    "image_alt": "AI voice widget interface – tale og chat booking direkte på din hjemmeside",
+    "booking_badge_title": "Ny booking",
+    "booking_badge_sub": "Via voice widget – nu"
+  },
+  "stats": [
+    { "value": "24/7", "label": "Altid tilgængelig" },
+    { "value": "< 5 min", "label": "Til at komme i gang" },
+    { "value": "150 min", "label": "Taletid inkluderet" },
+    { "value": "999 kr", "label": "Pr. måned" }
+  ],
+  "whatIs": {
+    "title": "Hvad er en AI voice widget?",
+    "image_alt": "AI voice widget integreret på hjemmeside – automatisk booking og kundeservice",
+    "para1_pre": "En ",
+    "para1_strong": "AI voice widget",
+    "para1_post": " er et intelligent taleinterface, der sidder diskret på din hjemmeside – typisk som en flydende knap i hjørnet. Når en besøgende klikker, kan de tale direkte med din AI-assistent.",
+    "para2_pre": "AI-assistenten forstår naturligt dansk tale, kan svare på spørgsmål om din virksomhed, og booke møder direkte ind i din kalender – ",
+    "para2_strong": "helt uden menneskelig indgriben",
+    "para2_post": ".",
+    "para3": "Det er som at have en receptionist, der aldrig sover, aldrig er syg og altid er professionel – til en brøkdel af prisen.",
+    "chips": ["Talebaseret", "Tekst-chat", "Auto-booking", "Flersproget"]
+  },
+  "howItWorks": {
+    "title": "Sådan virker AI voice widgetten",
+    "subtitle": "Fra installation til automatisk booking – en simpel proces i tre trin",
+    "steps": [
+      { "title": "Installer widgetten", "description": "Du får en enkel JavaScript-kodestump. Indsæt den på din hjemmeside – kompatibel med WordPress, Shopify, Wix og alle andre platforme. Ingen teknisk viden kræves." },
+      { "title": "Kunder taler med AI", "description": "Besøgende på din hjemmeside klikker på widgetten og taler direkte med din personlige AI-assistent. AI'en forstår dansk og svarer på spørgsmål om din virksomhed." },
+      { "title": "Bookinger lander automatisk", "description": "Møder og bookinger registreres direkte i din kalender. Du modtager en bekræftelse, og kunden får automatisk en kvittering – uden du skal gøre noget." }
+    ]
+  },
+  "features": {
+    "title": "Funktioner der gør forskel",
+    "subtitle": "Alt hvad du har brug for til automatisk booking og kundeservice via AI",
+    "items": [
+      { "title": "Naturlig talegenkendelse", "description": "Forstår naturligt dansk tale – kunder behøver ikke tale i kommandoer. AI'en følger samtalen og stiller opfølgende spørgsmål." },
+      { "title": "Direkte kalenderintegration", "description": "Synkroniserer med Google Calendar, Outlook og andre kalendersystemer. Ingen dobbeltbookinger, ingen manuel registrering." },
+      { "title": "24/7 tilgængelighed", "description": "Din AI-assistent arbejder rundt uret – også uden for åbningstid, i weekenden og på helligdage." },
+      { "title": "Tale og tekst", "description": "Kunder kan vælge at tale eller skrive. Widgetten understøtter begge inputformer og svarer på samme måde." },
+      { "title": "GDPR-kompatibel", "description": "Al data behandles sikkert og i overensstemmelse med GDPR. Du har fuld kontrol over dine kunders data." },
+      { "title": "Flersproget AI", "description": "Widgetten understøtter dansk og mange andre sprog. AI'en tilpasser sig automatisk til det sprog kunden taler." },
+      { "title": "Lynhurtig opsætning", "description": "Fra bestilling til aktiv widget på din hjemmeside tager det under 5 minutter. Ingen udviklere nødvendige." },
+      { "title": "Tilpasset din virksomhed", "description": "AI-assistenten kender din virksomhed, dine services og dine åbningstider – svar der passer præcist til din forretning." },
+      { "title": "Betal kun for aktivitet", "description": "Du betaler kun for aktive taletid – ikke for ventetid eller pauser. En langt billigere løsning end en deltidsmedarbejder." }
+    ]
+  },
+  "useCases": {
+    "title": "Hvem bruger AI voice widgetten?",
+    "subtitle": "Perfekt til alle virksomheder, der tager imod bookinger og kundehenvendelser online",
+    "items": [
+      { "label": "Klinikker", "desc": "Patientbooking automatiseret" },
+      { "label": "Håndværkere", "desc": "Opgaver og møder bookes" },
+      { "label": "Konsulenter", "desc": "Møder direkte i kalender" },
+      { "label": "Saloner", "desc": "Tider bookes automatisk" },
+      { "label": "Tandlæger", "desc": "Patienthåndtering 24/7" },
+      { "label": "E-handel", "desc": "Kundeservice non-stop" }
+    ],
+    "roi": {
+      "title": "Typisk ROI for en AI voice widget",
+      "desc_pre": "En deltidsreceptionist koster typisk 15.000-20.000 kr/md. Med AI voice widgetten til 999 kr/md får du ",
+      "desc_strong": "samme funktionalitet",
+      "desc_post": " – men 24 timer i døgnet, 7 dage om ugen.",
+      "stats": [
+        { "value": "95%", "label": "Besparelse vs. receptionist" },
+        { "value": "0 sek", "label": "Ventetid for kunder" },
+        { "value": "100%", "label": "Automatiserede bookinger" }
+      ]
+    }
+  },
+  "pricing": {
+    "badge": "Transparent prissætning",
+    "title": "Enkle og gennemsigtige priser",
+    "subtitle": "Vælg den løsning der passer til din virksomhed – betal kun for hvad du bruger, uden skjulte gebyrer",
+    "widgetPlan": {
+      "heading": "AI Voice Widget",
+      "badge": "Anbefalet startpunkt",
+      "description": "Den hurtigste og billigste måde at automatisere din booking på. Widgetten sidder på din hjemmeside og lader kunder tale eller skrive direkte med din AI-assistent – 24/7, uden menneskelig indgriben.",
+      "price": "999",
+      "price_suffix": "kr/md",
+      "includes": "Inkluderer 150 minutters taletid (ca. 6,66 kr/minut)",
+      "renewal_note": "Pakken fornyes automatisk når de 150 minutter er brugt",
+      "cta_order": "Bestil nu",
+      "cta_intro": "Book gratis intro",
+      "features": [
+        "Voice AI-bot – kunder taler direkte med AI'en",
+        "Besvarer spørgsmål og håndterer bookinger",
+        "Bookinger går direkte i din kalender",
+        "24/7 tilgængelig på din hjemmeside",
+        "150 minutters taletid inkluderet",
+        "Betal kun for aktiv tale – ingen timeløn",
+        "Åben 24/7, 365 dage om året – altid klar",
+        "Håndterer kunder selv når du er optaget"
+      ],
+      "footnote_talketime_label": "Taletid:",
+      "footnote_talketime_value": "Indkøbt credit gælder i 3 måneder",
+      "footnote_renewal_label": "Fornyelse:",
+      "footnote_renewal_value": "Automatisk ved 150 min. brugt",
+      "footnote_binding_label": "Binding:",
+      "footnote_binding_value": "Ingen – opsig når som helst"
+    },
+    "phoneAssistant": {
+      "heading": "AI Telefonassistent",
+      "badge": "Udgående & indgående opkald",
+      "description": "Har du brug for en AI-assistent der også ringer ud eller modtager telefonopkald direkte? Vælg en af vores skalerbare pakker nedenfor — fra gratis demo til enterprise."
+    },
+    "choosePackage": {
+      "title": "Vælg din pakke",
+      "subtitle": "Skræddersyede pakker designet til virksomheder af alle størrelser"
+    },
+    "free_label": "Gratis",
+    "most_popular_badge": "Mest Populær",
+    "setup_note": "Engangspris på {{setup}} kr for opsætning og onboarding",
+    "plans": [
+      {
+        "name": "Demo",
+        "description": "Til dig der vil se vores platform og lege selv med opsætning",
+        "minutes": "Aktiv i 7 dage",
+        "features": [
+          "Basis stemme-tilpasning",
+          "Analyse dashboard",
+          "Mulighed for at opgradere til Starterpakken"
+        ],
+        "cta": "Prøv gratis"
+      },
+      {
+        "name": "Starter",
+        "description": "Perfekt til mindre virksomheder der vil i gang med AI",
+        "minutes": "200 minutter",
+        "features": [
+          "200 AI opkalds-minutter",
+          "Basis stemme-tilpasning",
+          "Standard support",
+          "Analyse dashboard",
+          "Email notifikationer"
+        ],
+        "cta": "Bestil pakke og book Onboarding"
+      },
+      {
+        "name": "Professional",
+        "description": "Ideel til voksende virksomheder med regelmæssige opkald",
+        "minutes": "600 minutter",
+        "features": [
+          "600 AI opkalds-minutter",
+          "Avanceret stemme-tilpasning",
+          "Prioriteret support",
+          "Avanceret analyse",
+          "Tilpassede integrationer",
+          "SMS påmindelser",
+          "Kundehistorik"
+        ],
+        "cta": "Bestil pakke og book Onboarding"
+      },
+      {
+        "name": "Enterprise",
+        "description": "For organisationer der kræver maksimal fleksibilitet",
+        "minutes": "2000 minutter",
+        "features": [
+          "2000 AI opkalds-minutter",
+          "Fuld stemme-tilpasning",
+          "24/7 dedikeret support",
+          "Tilpasset AI træning",
+          "API adgang",
+          "Dedikeret success manager",
+          "Ubegrænset integrationer",
+          "GDPR compliance support"
+        ],
+        "cta": "Bestil pakke og book Onboarding"
+      }
+    ],
+    "after_order_note": "Efter bestilling modtager du et kalenderlink hvor du kan booke tid til opsætning.",
+    "additionalPrices": {
+      "title": "Øvrige priser",
+      "toggle_label": "Se øvrige priser",
+      "setup": {
+        "title": "Opsætning",
+        "value": "2 x abonnementspris",
+        "note": "(engangsbeløb)"
+      },
+      "maintenance": {
+        "title": "Månedlig vedligeholdelse og prompting",
+        "optional_label": "(tilvalg)",
+        "description": "Vi står for vedligeholdelse og hjælper løbende med at optimere prompts, så der gives præcise og relevante svar. Det sparer jer tid og sikrer en endnu bedre oplevelse for jeres kunder og medarbejdere.",
+        "price": "2.995 kr./md"
+      },
+      "hourly": {
+        "title": "Timepris ved ad hoc-opgaver",
+        "prompting_label": "Prompting/træning",
+        "prompting_price": "695 kr. pr. time",
+        "development_label": "Udvikling",
+        "development_price": "1.100 kr. pr. time"
+      }
+    }
+  },
+  "faqSection": {
+    "title": "Ofte stillede spørgsmål",
+    "subtitle": "Alt du vil vide om AI voice widgetten"
+  },
+  "faqs": [
+    {
+      "question": "Hvad er en AI voice widget?",
+      "answer": "En AI voice widget er et intelligent chat- og taleinterface, der kan integreres direkte på din hjemmeside. Den giver dine besøgende mulighed for at tale med en AI-assistent, som kan besvare spørgsmål, booke møder og håndtere forespørgsler – automatisk, 24 timer i døgnet."
+    },
+    {
+      "question": "Hvordan integrerer jeg widgetten på min hjemmeside?",
+      "answer": "Det tager under 5 minutter. Du får en enkel JavaScript-kodestump, som du indsætter på din hjemmeside. Widgetten er kompatibel med alle platforme, herunder WordPress, Shopify, Squarespace og egne løsninger."
+    },
+    {
+      "question": "Kan AI-widgetten booke møder automatisk?",
+      "answer": "Ja. Widgetten integrerer direkte med din kalender (Google Calendar, Outlook m.fl.) og sørger for, at nye bookinger lander automatisk, uden at du skal løfte en finger."
+    },
+    {
+      "question": "Hvad koster AI-widgetten?",
+      "answer": "Startpakken koster 999 kr/md og inkluderer 150 minutters taletid. Du betaler kun for aktiv tale – ingen timeløn, ingen binding."
+    },
+    {
+      "question": "Hvilke sprog understøtter widgetten?",
+      "answer": "Widgetten understøtter dansk og en lang række andre sprog. AI-assistenten tilpasser sig automatisk til det sprog, kunden taler."
+    },
+    {
+      "question": "Er widgetten GDPR-kompatibel?",
+      "answer": "Ja. Al data behandles i overensstemmelse med GDPR-reglerne, og du har fuld kontrol over hvilke informationer der opbevares."
+    }
+  ],
+  "ctaFinal": {
+    "title": "Klar til at automatisere din booking?",
+    "subtitle": "Kom i gang på under 5 minutter. Book en gratis introduktionssamtale og se, hvordan AI voice widgetten kan transformere din kundehåndtering.",
+    "cta_intro": "Book gratis intro",
+    "cta_order": "Bestil direkte – 999 kr/md"
+  }
+}

@@ -8,7 +8,7 @@ import { blogFAQs } from '../content/faq';
 import { getPublishedPosts, getCategoryBySlug, BlogPost } from '../content/blog';
 
 export default function BlogPage() {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation('blogPage');
   const posts = getPublishedPosts();
 
   const getTitle = (post: BlogPost) =>
@@ -35,9 +35,7 @@ export default function BlogPage() {
     "@context": "https://schema.org",
     "@type": "Blog",
     "name": "AIBooking.dk Blog",
-    "description": i18n.language === 'da'
-      ? 'Få indsigt i AI automatisering, booking systemer og digitale løsninger der transformer moderne virksomheder.'
-      : 'Insights on AI automation, booking systems and digital solutions transforming modern businesses.',
+    "description": t('hero.subtitle'),
     "url": "https://www.aibooking.dk/blog",
     "publisher": {
       "@type": "Organization",
@@ -52,9 +50,9 @@ export default function BlogPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-ink-50 via-white to-ink-50">
       <SEO
-        title={i18n.language === 'da' ? 'Blog - AI Automatisering & Booking Insights | AIBooking.dk' : 'Blog - AI Automation & Booking Insights | AIBooking.dk'}
-        description={i18n.language === 'da' ? 'Læs de seneste artikler om AI automatisering, booking systemer og digitale løsninger til moderne virksomheder. Ekspertindsigt om AI widgets, telefonassistenter og komplet automatisering.' : 'Read the latest articles about AI automation, booking systems and digital solutions for modern businesses. Expert insights on AI widgets, phone assistants and complete automation.'}
-        keywords="ai blog, booking automation, ai insights, digital transformation, ai widget, telefonassistent"
+        title={t('seo.title')}
+        description={t('seo.description')}
+        keywords={t('seo.keywords')}
       />
 
       <script type="application/ld+json">
@@ -73,15 +71,13 @@ export default function BlogPage() {
             <div className="text-center mb-16">
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-50 border border-brand-100 rounded-full text-brand-700 font-medium text-sm mb-6">
                 <Sparkles className="w-4 h-4" />
-                {i18n.language === 'da' ? 'Nyeste Indsigter' : 'Latest Insights'}
+                {t('hero.badge')}
               </div>
               <h1 className="text-5xl md:text-6xl font-bold text-ink-900 mb-6 tracking-tight">
-                {i18n.language === 'da' ? 'AI Booking Blog' : 'AI Booking Blog'}
+                {t('hero.title')}
               </h1>
               <p className="text-xl text-ink-600 max-w-3xl mx-auto leading-relaxed">
-                {i18n.language === 'da'
-                  ? 'Få indsigt i AI automatisering, booking systemer og digitale løsninger der transformer moderne virksomheder.'
-                  : 'Insights on AI automation, booking systems and digital solutions transforming modern businesses.'}
+                {t('hero.subtitle')}
               </p>
             </div>
 
@@ -101,7 +97,7 @@ export default function BlogPage() {
                         <div className="flex items-center gap-4 mb-4">
                           <span className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-gradient-to-r from-brand-600 to-brand-700 text-white text-sm font-semibold rounded-full shadow-sm">
                             <TrendingUp className="w-3.5 h-3.5" />
-                            {i18n.language === 'da' ? 'Fremhævet' : 'Featured'}
+                            {t('featured.label')}
                           </span>
                           <span className="inline-block px-4 py-1.5 bg-brand-50 text-brand-700 text-sm font-medium rounded-full border border-brand-100">
                             {getCategoryName(posts[0])}
@@ -119,7 +115,7 @@ export default function BlogPage() {
                             <span className="text-sm">{formatDate(posts[0].published_at)}</span>
                           </div>
                           <div className="flex items-center text-brand-600 font-semibold">
-                            {i18n.language === 'da' ? 'Læs artikel' : 'Read article'}
+                            {t('featured.readArticle')}
                             <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                           </div>
                         </div>
@@ -161,7 +157,7 @@ export default function BlogPage() {
                         {getExcerpt(post)}
                       </p>
                       <div className="flex items-center text-brand-600 font-semibold text-sm">
-                        {i18n.language === 'da' ? 'Læs mere' : 'Read more'}
+                        {t('readMore')}
                         <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                       </div>
                     </div>

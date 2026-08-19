@@ -1,1 +1,87 @@
-{}
+{
+  "seo": {
+    "title": "About Us - 20+ Years of Telemarketing Experience | Aibooking.dk",
+    "description": "The people behind Aibooking.dk have 20+ years of telemarketing experience. Our virtual receptionist automates inbound and outbound customer contact. 500+ satisfied customers.",
+    "keywords": "about aibooking, telemarketing experience, virtual receptionist, AI customer service Denmark, inbound calls, outbound calls, customer contact automation"
+  },
+  "breadcrumb": { "home": "Home", "about": "About Us" },
+  "hero": {
+    "badge": "About Aibooking.dk",
+    "title_line1": "We're revolutionizing",
+    "title_line2": "customer service with AI",
+    "subtitle": "Our mission is to help Danish companies deliver outstanding customer service around the clock using advanced AI technology."
+  },
+  "story": {
+    "badge": "Our story",
+    "title": "From idea to reality",
+    "paragraphs": [
+      "Aibooking.dk was founded with a clear vision: to make professional customer service accessible to every business, regardless of size.",
+      "The people behind Aibooking.dk have more than 20 years of experience in telemarketing tasks, both inbound and outbound. We know exactly how many resources Danish businesses spend on customer contact. This deep knowledge has driven us to develop an AI solution that acts as Your Virtual Receptionist, effectively automating many of the repetitive tasks that would otherwise require significant staff resources.",
+      "Through our years of experience, we discovered that many small and medium-sized businesses were losing valuable customers because they didn't have the resources to answer every inquiry around the clock. Our solution combines advanced AI technology with Danish language and culture.",
+      "Today we serve hundreds of businesses across Denmark, helping them improve their customer service, increase their booking rate, and free up time for what they do best."
+    ]
+  },
+  "vision": {
+    "title": "Our vision",
+    "description": "To be Denmark's leading provider of AI-driven customer service solutions, helping businesses grow through better customer experiences.",
+    "badge": "Innovation drives us forward"
+  },
+  "values": {
+    "title": "Our values",
+    "subtitle": "The principles that guide everything we do",
+    "items": [
+      { "title": "Customer focus", "description": "We always put our customers' needs at the center and strive to deliver the best possible service." },
+      { "title": "Innovation", "description": "We constantly develop new solutions and improve our AI technology to stay ahead." },
+      { "title": "Reliability", "description": "We deliver stable and secure solutions you can rely on day after day." },
+      { "title": "Growth", "description": "We help businesses grow by automating and optimizing their customer service." }
+    ]
+  },
+  "benefits": {
+    "title": "Why choose Aibooking.dk?",
+    "subtitle": "Experience, expertise, and results that speak for themselves",
+    "items": [
+      { "title": "Experience that makes a difference", "description": "With over 20 years of telemarketing experience, we know every challenge in customer contact. Our AI solution is built on real industry understanding." },
+      { "title": "Automation that works", "description": "We know exactly which parts of customer contact can be automated effectively. Our virtual receptionist handles both inbound and outbound calls professionally." },
+      { "title": "Support in Danish, English, and Spanish", "description": "Our AI speaks perfect Danish, English, and Spanish. We give you local support and guidance based on in-depth market knowledge." },
+      { "title": "Experience across many industries", "description": "We have many years of experience across numerous industries, giving us a solid understanding of how to set up the best possible solution for your business." }
+    ]
+  },
+  "receptionist": {
+    "title": "Your Virtual Receptionist",
+    "description": "Our AI solution isn't just another chatbot. It's the result of decades of experience in telemarketing and customer contact. We understand what it takes to deliver professional customer service, and we've built a solution that truly works in practice.",
+    "incoming": {
+      "title": "Inbound calls",
+      "description": "Our virtual receptionist handles all inbound calls, answers questions, takes bookings, and only transfers calls when necessary. That means fewer interrupted workflows and more time for core tasks.",
+      "features": [
+        "24/7 availability",
+        "Professional Danish communication",
+        "Automatic booking and confirmation"
+      ]
+    },
+    "outgoing": {
+      "title": "Outbound calls",
+      "description": "With experience from outbound telemarketing, we know what works. Our AI can make follow-up calls, confirmations, and reminders - always with the right tone and timing.",
+      "features": [
+        "Automatic reminders",
+        "Booking confirmations",
+        "Customer service follow-up"
+      ]
+    }
+  },
+  "widget": {
+    "title": "Aibooking.dk Widget",
+    "description": "The Aibooking.dk Widget makes it easy to schedule and book meetings without manual effort. Integrate our intelligent widget directly on your website and let the AI take control. Available via both voice and text, so new meetings are booked automatically straight into your calendar.",
+    "items": [
+      { "title": "AI-based scheduling", "description": "The widget suggests the best times for you and your customers - fully automatically." },
+      { "title": "Voice and text booking", "description": "Your customers can choose between speaking directly with the AI or using text-based booking." },
+      { "title": "Automatic calendar integration", "description": "New meetings are automatically booked into your calendar without manual handling." }
+    ],
+    "cta": "Learn more about the Widget"
+  },
+  "ctaSection": {
+    "title": "Ready to get started?",
+    "subtitle": "Let us show you how Aibooking.dk can transform your customer service and help your business grow.",
+    "button_demo": "Book a demo",
+    "button_contact": "Contact us"
+  }
+}

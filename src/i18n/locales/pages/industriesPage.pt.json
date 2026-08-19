@@ -1,1 +1,180 @@
-{}
+{
+  "seo": {
+    "title": "Soluções de Recepcionista IA para Todos os Setores | Aibooking.dk",
+    "description": "Recepcionista IA para saúde, artesãos, escritórios e e-commerce. Soluções à medida do seu setor. Demonstração grátis de 7 dias. Perfeito para empresas dinamarquesas.",
+    "keywords": "soluções por setor, recepcionista IA setores, IA saúde, IA artesãos, IA escritório, IA loja online"
+  },
+  "breadcrumb": { "home": "Início", "industries": "Setores" },
+  "hero": {
+    "badge": "Soluções para todos os setores",
+    "title_line1": "Encontre a solução perfeita",
+    "title_line2": "para o seu setor",
+    "subtitle": "A Aibooking.dk adapta-se às suas necessidades — quer dirija uma clínica, seja artesão, tenha um escritório ou uma loja online. Obtenha uma solução à medida que se adapta perfeitamente ao seu negócio."
+  },
+  "readMoreButton": "Saiba mais sobre {{title}}",
+  "industrySection": {
+    "benefitsTitle": "Vantagens para o seu negócio:"
+  },
+  "industries": {
+    "healthcare": {
+      "title": "Clínicas e Saúde",
+      "subtitle": "Liberdade para se concentrar nos cuidados aos pacientes",
+      "description": "Como clínica, sabe como é importante dar aos seus pacientes o melhor tratamento. Mas tarefas administrativas como chamadas telefónicas, marcações e cancelamentos roubam tempo valioso aos cuidados aos pacientes.\n\nA nossa recepcionista de IA trata de todos os pedidos dos clientes de forma profissional — desde novas marcações a remarcações e confirmações. Com lembretes automáticos por SMS, reduz significativamente as faltas. O seu dashboard personalizado dá-lhe uma visão completa: ouça todas as chamadas, veja resumos curtos de cada conversa, o que foi combinado, estatísticas de marcações e integração de calendário. Pode continuar a usar o seu software de calendário atual — o nosso sistema sincroniza automaticamente.",
+      "benefits": [
+        "Reduza o tempo ao telefone em 85% — concentre-se nos seus pacientes",
+        "Lembretes automáticos por SMS reduzem as faltas em até 60%",
+        "Trate marcações, remarcações e cancelamentos 24 horas por dia",
+        "Dashboard completo com histórico de chamadas e resumos de conversas",
+        "Integração com o seu sistema de marcações e calendário existente",
+        "Total conformidade com o RGPD para dados sensíveis de pacientes"
+      ],
+      "stats": [
+        { "label": "Menos faltas", "value": "60%" },
+        { "label": "Tempo poupado", "value": "12h/semana" },
+        { "label": "Taxa de marcação", "value": "95%" },
+        { "label": "Satisfação do cliente", "value": "4.8/5" }
+      ]
+    },
+    "craftsman": {
+      "title": "Artesãos",
+      "subtitle": "Pare de perder encomendas porque o telefone não é atendido",
+      "description": "Já conhece a situação: está a meio de um trabalho e o telefone toca. Se atender, perde a concentração. Se não atender, pode perder uma boa encomenda. É uma situação impossível.\n\nA nossa recepcionista de IA resolve este problema de uma vez por todas. O sistema atende todas as chamadas, regista os dados do cliente, marca visitas ao local e envia confirmações automáticas por SMS. No seu dashboard, pode ver todos os pedidos, ouvir as conversas gravadas, obter resumos curtos do que o cliente pretende e ver o que foi combinado. O seu calendário atualiza-se automaticamente, seja qual for o sistema que utiliza. Deixe de se preocupar com encomendas perdidas — concentre-se no seu ofício.",
+      "benefits": [
+        "Atenda todos os pedidos mesmo quando está a trabalhar",
+        "Registo automático dos dados do cliente e descrição do trabalho",
+        "Marque visitas ao local diretamente no seu calendário — sincroniza automaticamente",
+        "Confirmações por SMS tanto para si como para o cliente",
+        "Dashboard com todos os pedidos de clientes e o que foi combinado",
+        "Nunca mais perca uma encomenda — o sistema trabalha 24 horas por dia"
+      ],
+      "stats": [
+        { "label": "Mais encomendas", "value": "+45%" },
+        { "label": "Tempo poupado", "value": "10h/semana" },
+        { "label": "Taxa de resposta", "value": "100%" },
+        { "label": "Satisfação do cliente", "value": "4.9/5" }
+      ]
+    },
+    "office": {
+      "title": "Escritório e Administração",
+      "subtitle": "Atendimento profissional sem interrupções",
+      "description": "Nas empresas de escritório, a concentração e a produtividade são fundamentais. Mas as chamadas telefónicas constantes interrompem o fluxo de trabalho e reduzem significativamente a eficiência. Ao mesmo tempo, é importante oferecer aos clientes um serviço rápido e profissional.\n\nCom a Aibooking.dk, tem o melhor dos dois mundos. A nossa recepcionista de IA filtra todas as chamadas recebidas, trata das marcações de reuniões, responde a perguntas comuns e apenas encaminha os pedidos mais importantes. A sua equipa ganha tranquilidade para trabalhar concentrada, enquanto os clientes têm um atendimento profissional 24 horas por dia. O dashboard dá-lhe controlo total: ouça todas as conversas, veja resumos detalhados, estatísticas de marcações e integração de calendário. Perfeito para advogados, contabilistas, consultores e outras empresas de conhecimento.",
+      "benefits": [
+        "Reduza interrupções e melhore a produtividade dos colaboradores",
+        "Atendimento telefónico profissional sem custos salariais adicionais",
+        "Filtragem automática de chamadas — só os assuntos importantes são encaminhados",
+        "Marque reuniões diretamente no calendário partilhado da equipa",
+        "Dashboard com histórico de conversas, resumos e estatísticas",
+        "Integração com CRM e sistemas de calendário existentes"
+      ],
+      "stats": [
+        { "label": "Produtividade", "value": "+35%" },
+        { "label": "Tempo poupado", "value": "15h/semana" },
+        { "label": "Chamadas atendidas", "value": "98%" },
+        { "label": "ROI", "value": "320%" }
+      ]
+    },
+    "ecommerce": {
+      "title": "Lojas Online e E-commerce",
+      "subtitle": "Atendimento ao cliente que cresce com o seu negócio",
+      "description": "No mundo do e-commerce, um atendimento ao cliente rápido é essencial para o sucesso. Respostas atrasadas aos pedidos dos clientes significam vendas perdidas e más avaliações. Mas ter uma equipa de atendimento 24 horas por dia é caro e complexo.\n\nA Aibooking.dk oferece-lhe um atendimento ao cliente com IA que nunca dorme. O sistema responde instantaneamente a perguntas comuns sobre produtos, prazos de entrega, devoluções e estado das encomendas. Os pedidos complexos são automaticamente encaminhados para a sua equipa. Com notificações por SMS, mantém os clientes atualizados ao longo de toda a jornada de compra. O seu dashboard mostra todas as interações com clientes, resumos de conversas, perguntas frequentes e tendências, para que possa otimizar constantemente o seu serviço. Reduza os tempos de resposta de horas para segundos e melhore significativamente a satisfação do cliente.",
+      "benefits": [
+        "Responda a pedidos de clientes instantaneamente 24 horas por dia sem pessoal adicional",
+        "Trate automaticamente de perguntas sobre produtos, estado de encomendas e devoluções",
+        "Atualizações automáticas por SMS sobre envios e entregas",
+        "Reduza os tempos de resposta de horas para segundos",
+        "Dashboard com interações de clientes, tendências e perguntas frequentes",
+        "Integração com o seu sistema de loja online e gestão de encomendas"
+      ],
+      "stats": [
+        { "label": "Respostas mais rápidas", "value": "95%" },
+        { "label": "Satisfação do cliente", "value": "+40%" },
+        { "label": "Pedidos atendidos", "value": "1200+/mês" },
+        { "label": "Conversão", "value": "+28%" }
+      ]
+    }
+  },
+  "bottomStats": {
+    "days": { "value": "7 dias", "label": "Acesso a demonstração grátis" },
+    "free": { "value": "100%", "label": "Sem compromisso" },
+    "support": { "value": "24/7", "label": "Suporte e operação" }
+  },
+  "seoContent": {
+    "title": "Recepcionista IA para Empresas Dinamarquesas",
+    "intro": "A Aibooking.dk é a solução líder de recepcionista IA na Dinamarca, automatizando o atendimento ao cliente, marcações e administração para empresas de todos os setores.",
+    "whatIs": {
+      "title": "O que é uma recepcionista de IA?",
+      "paragraph1": "Uma recepcionista de IA é uma assistente virtual inteligente que trata de todos os pedidos dos seus clientes automaticamente, 24 horas por dia. A nossa tecnologia de IA avançada consegue atender chamadas, aceitar marcações, enviar confirmações por SMS, tratar remarcações e muito mais — tudo sem intervenção humana.",
+      "paragraph2": "Ao contrário de uma recepcionista tradicional, a Aibooking.dk trabalha 24 horas por dia, 7 dias por semana, sem pausas, férias ou baixas médicas. Isto significa que os seus clientes podem sempre contactar o seu negócio, independentemente da hora do dia. Ao mesmo tempo, poupa custos salariais significativos e pode concentrar os seus colaboradores em tarefas que criam mais valor."
+    },
+    "solutions": {
+      "title": "Soluções para todos os setores",
+      "healthcare": {
+        "title": "Clínicas e Saúde",
+        "text": "Perfeito para médicos, dentistas, fisioterapeutas, psicólogos e outras clínicas de saúde. A recepcionista de IA trata das marcações, lembretes e cancelamentos automaticamente, enquanto se concentra nos seus pacientes. A integração com o seu sistema de marcações existente garante sincronização em tempo real."
+      },
+      "craftsman": {
+        "title": "Artesãos",
+        "text": "Ideal para canalizadores, eletricistas, carpinteiros, pintores e outros ofícios. Deixe de perder trabalhos por não conseguir atender o telefone enquanto trabalha. A recepcionista de IA regista todos os pedidos, marca visitas ao local e envia confirmações automaticamente."
+      },
+      "office": {
+        "title": "Escritório e Administração",
+        "text": "Otimize a administração do seu escritório, escritório de advogados, empresa de contabilidade ou consultoria. A recepcionista de IA filtra chamadas, marca reuniões, trata dos pedidos dos clientes e garante que os seus colaboradores só são interrompidos quando é importante."
+      },
+      "ecommerce": {
+        "title": "Lojas Online e E-commerce",
+        "text": "Dê aos seus clientes o apoio que merecem com um atendimento ao cliente com IA. Responda instantaneamente a perguntas comuns sobre produtos, estado de encomendas e devoluções. Reduza os tempos de resposta e melhore significativamente a satisfação do cliente."
+      }
+    },
+    "features": {
+      "title": "Funcionalidades avançadas que fazem a diferença",
+      "paragraph1": "A Aibooking.dk é muito mais do que um simples atendedor de chamadas. A nossa plataforma inclui um dashboard completo onde pode acompanhar todas as interações com clientes em tempo real. Ouça todas as conversas gravadas, obtenha resumos curtos de cada conversa, veja o que foi combinado e obtenha estatísticas detalhadas sobre marcações e pedidos de clientes.",
+      "paragraph2": "O sistema integra-se sem esforço com o seu calendário existente, quer utilize o Google Calendar, o Outlook ou uma solução específica do seu setor. Recebe mensagens SMS automáticas, tanto para si como para os seus clientes, para que todos estejam atualizados. E com o nosso dashboard intuitivo, pode ter uma visão fácil do seu negócio e tomar decisões baseadas em dados."
+    },
+    "whyChoose": {
+      "title": "Porquê escolher a Aibooking.dk?",
+      "points": [
+        "Poupe mais de 10 horas por semana em telefone e administração",
+        "Nunca mais perca um cliente — atenda pedidos 24 horas por dia",
+        "Reduza as faltas com lembretes automáticos por SMS",
+        "Visão completa com um dashboard inteligente e resumos de conversas",
+        "Integração perfeita com os seus sistemas existentes",
+        "Suporte em português e soluções adaptadas ao seu negócio"
+      ]
+    },
+    "closing": {
+      "paragraph1": "Deixe-nos encontrar a solução perfeita para o seu negócio. Marque hoje uma apresentação grátis e sem compromisso, e tenha acesso à nossa demonstração durante 7 dias.",
+      "paragraph2": "Vamos conversar sobre as suas necessidades específicas e mostrar-lhe como a Aibooking.dk pode transformar o seu atendimento ao cliente."
+    }
+  },
+  "contactForm": {
+    "title": "Marque uma apresentação grátis",
+    "subtitle": "Vamos ter uma conversa sem compromisso sobre como a nossa recepcionista de IA pode ajudar o seu negócio. Obtenha acesso grátis à demonstração durante 7 dias.",
+    "bookDemoButton": "Marcar Demonstração Agora",
+    "orFillForm": "Ou preencha o formulário abaixo e entraremos em contacto consigo",
+    "success": {
+      "title": "Obrigado pelo seu contacto!",
+      "message": "Entraremos em contacto consigo o mais brevemente possível na data pretendida."
+    },
+    "errorMessage": "Ocorreu um erro. Por favor, tente novamente.",
+    "fields": {
+      "name": { "label": "Nome", "placeholder": "O seu nome completo" },
+      "email": { "label": "Email", "placeholder": "seu@email.pt" },
+      "phone": { "label": "Telefone", "placeholder": "+45 91952794" },
+      "industry": {
+        "label": "Setor",
+        "placeholder": "Selecione o seu setor",
+        "options": {
+          "healthcare": "Clínicas",
+          "craftsman": "Artesão",
+          "office": "Escritório e Administração",
+          "webshop": "Loja Online"
+        }
+      },
+      "callDate": { "label": "Data preferida para a chamada" },
+      "message": { "label": "Mensagem (opcional)", "placeholder": "Conte-nos um pouco sobre as suas necessidades..." }
+    },
+    "submitButton": "Marcar apresentação grátis",
+    "submitButtonLoading": "A enviar...",
+    "disclaimer": "100% grátis e sem compromisso • Acesso a demonstração de 7 dias incluído"
+  }
+}

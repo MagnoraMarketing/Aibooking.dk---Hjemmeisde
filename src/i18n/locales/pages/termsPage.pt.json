@@ -1,1 +1,62 @@
-{}
+{
+  "title": "Termos e Condições",
+  "subtitle": "Termos e condições da Aibooking.dk",
+  "intro": "Estes termos e condições aplicam-se à utilização da Aibooking.dk e aos serviços disponibilizados através da plataforma. Ao criar uma conta, marcar uma DEMO ou adquirir uma subscrição, aceita os termos abaixo.",
+  "sections": [
+    {
+      "heading": "1. Geral",
+      "body": "A Aibooking.dk é uma plataforma online de marcação e administração. A plataforma é oferecida como um serviço digital e é disponibilizada tal como se encontra."
+    },
+    {
+      "heading": "2. Período de DEMO",
+      "items": [
+        "Ao marcar uma DEMO com a Aibooking.dk, recebe um período de teste gratuito de 7 dias.",
+        "O período de teste começa a partir do dia em que o acesso é concedido.",
+        "Durante o período de DEMO, tem a oportunidade de experimentar as funcionalidades da plataforma."
+      ]
+    },
+    {
+      "heading": "3. Compra e encomenda",
+      "items": [
+        "Pode optar por comprar diretamente sem período de DEMO.",
+        "Ao comprar, pode também encomendar onboarding, no qual é ajudado a começar com a configuração e utilização da Aibooking.dk.",
+        "Todos os preços são indicados em coroas dinamarquesas (DKK) e não incluem IVA, salvo indicação em contrário."
+      ]
+    },
+    {
+      "heading": "4. Pagamento",
+      "items": [
+        "O pagamento é efetuado antecipadamente relativamente ao período de subscrição escolhido.",
+        "A subscrição é faturada de forma contínua, normalmente mensal, salvo acordo em contrário.",
+        "A falta de pagamento pode resultar na suspensão ou encerramento do acesso à plataforma."
+      ]
+    },
+    {
+      "heading": "5. Direito de arrependimento",
+      "items": [
+        "Não existe direito de arrependimento após a conclusão de uma compra.",
+        "Isto aplica-se tanto a subscrições como a eventual onboarding, uma vez que se trata de serviços digitais entregues de imediato."
+      ]
+    },
+    {
+      "heading": "6. Rescisão",
+      "items": [
+        "A subscrição funciona em regime contínuo do mês corrente mais um mês.",
+        "A rescisão deve ser efetuada por escrito, por e-mail ou através da sua conta na Aibooking.dk.",
+        "A rescisão produz efeitos no final do mês seguinte."
+      ]
+    },
+    {
+      "heading": "7. Alterações",
+      "body": "A Aibooking.dk reserva-se o direito de alterar estes termos e condições de forma contínua. Os termos atualizados estarão sempre disponíveis no website."
+    },
+    {
+      "heading": "8. Limitação de responsabilidade",
+      "body": "A Aibooking.dk não pode ser responsabilizada por perdas indiretas, perdas operacionais, perda de dados ou outros danos consequenciais que possam surgir da utilização da plataforma."
+    },
+    {
+      "heading": "9. Contacto",
+      "body": "Se tiver questões sobre os termos e condições, sinta-se à vontade para nos contactar através da Aibooking.dk."
+    }
+  ]
+}

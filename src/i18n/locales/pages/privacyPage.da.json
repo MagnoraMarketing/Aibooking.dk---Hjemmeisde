@@ -1,1 +1,74 @@
-{}
+{
+  "title": "Privatlivspolitik",
+  "subtitle": "Sådan beskytter vi dine personlige data",
+  "sections": [
+    {
+      "heading": "1. Introduktion",
+      "body": "Aibooking.dk er forpligtet til at beskytte dine personlige data og respektere dit privatliv. Denne privatlivspolitik forklarer, hvordan vi indsamler, bruger, gemmer og beskytter dine personlige oplysninger, når du bruger vores platform og services."
+    },
+    {
+      "heading": "2. Dataansvarlig",
+      "body": "Aibooking.dk (herefter \"vi\" eller \"os\") er dataansvarlig for behandlingen af dine personlige data i henhold til Databeskyttelsesforordningen (GDPR)."
+    },
+    {
+      "heading": "3. Hvilke data indsamler vi",
+      "intro": "Vi indsamler følgende kategorier af personlige data:",
+      "labelItems": [
+        { "label": "Kontodata", "desc": "Navn, e-mailadresse, telefonnummer og andre oplysninger, du giver os, når du opretter en konto" },
+        { "label": "Betalingsdata", "desc": "Faktureringsadresse og betalingsoplysninger (behandlet sikkert via betalingsudbydere)" },
+        { "label": "Brugsdata", "desc": "Oplysninger om dine aktiviteter på platformen, såsom bookinger, forespørgsler og interaktioner" },
+        { "label": "Tekniske data", "desc": "IP-adresse, browsertype, enhedstype og andre tekniske oplysninger" },
+        { "label": "Kommunikationsdata", "desc": "E-mails, beskeder og anden kommunikation mellem dig og os" }
+      ]
+    },
+    {
+      "heading": "4. Hvordan bruger vi dine data",
+      "intro": "Vi bruger dine personlige data til følgende formål:",
+      "items": [
+        "At levere og administrere vores services",
+        "At behandle dine bookinger og transaktioner",
+        "At kommunikere med dig om din konto og vores services",
+        "At forbedre og optimere vores platform",
+        "At opfylde juridiske og regulatoriske krav",
+        "At forhindre svindel og sikre sikkerheden på vores platform"
+      ]
+    },
+    {
+      "heading": "5. Deling af data",
+      "body": "Vi deler kun dine personlige data med tredjeparts-udbydere, der er nødvendige for at levere vores services, såsom betalingsprocessorer, hostingudbydere og kundestøtte-platforme. Alle tredjeparts-udbydere er forpligtet til at behandle dine data sikkert og i overensstemmelse med gældende lovgivning."
+    },
+    {
+      "heading": "6. Lagring af data",
+      "body": "Dine personlige data lagres på sikre servere og slettes ikke længere end nødvendigt for at opfylde formålene, de blev indsamlet til, medmindre lovgivningen kræver længere opbevaring. Du kan anmode om sletning af dine data på ethvert tidspunkt ved at kontakte os."
+    },
+    {
+      "heading": "7. Dine rettigheder",
+      "intro": "I henhold til GDPR har du følgende rettigheder vedrørende dine personlige data:",
+      "labelItems": [
+        { "label": "Ret til adgang", "desc": "Du kan anmode om at se, hvilke personlige data vi har om dig" },
+        { "label": "Ret til berigtigelse", "desc": "Du kan anmode om, at vi retter urigtige data" },
+        { "label": "Ret til sletning", "desc": "Du kan anmode om, at vi sletter dine data" },
+        { "label": "Ret til begrænsning", "desc": "Du kan anmode om, at vi begrænser brugen af dine data" },
+        { "label": "Ret til dataportabilitet", "desc": "Du kan anmode om at modtage dine data i et struktureret format" },
+        { "label": "Ret til indsigelse", "desc": "Du kan protestere mod visse behandlinger af dine data" }
+      ]
+    },
+    {
+      "heading": "8. Sikkerhed",
+      "body": "Vi implementerer tekniske og organisatoriske sikkerhedsforanstaltninger for at beskytte dine personlige data mod uautoriseret adgang, ændring, offentliggørelse eller ødelæggelse. Dette omfatter kryptering, sikre forbindelser og adgangskontrol."
+    },
+    {
+      "heading": "9. Cookies",
+      "body": "Vores platform kan bruge cookies for at forbedre din brugeroplevelse. Du kan kontrollere cookie-indstillingerne i din browser. Nogle cookies er nødvendige for, at platformen kan fungere korrekt, mens andre bruges til at analysere brugeradfærd."
+    },
+    {
+      "heading": "10. Ændringer til denne politik",
+      "body": "Vi kan opdatere denne privatlivspolitik fra tid til anden. Vigtige ændringer vil blive kommunikeret til dig via e-mail eller gennem en meddelelse på platformen. Din fortsatte brug af platformen efter ændringer betyder, at du accepterer de nye vilkår."
+    },
+    {
+      "heading": "11. Kontakt os",
+      "before": "Hvis du har spørgsmål om denne privatlivspolitik eller ønsker at udøve dine rettigheder, er du velkommen til at kontakte os på ",
+      "after": "."
+    }
+  ]
+}

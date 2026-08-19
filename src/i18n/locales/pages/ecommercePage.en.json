@@ -1,1 +1,41 @@
-{}
+{
+  "seo": {
+    "title": "AI Customer Service for E-commerce & Webshops | Aibooking.dk",
+    "description": "24/7 AI customer service for online stores. 40% more customer satisfaction, 28% higher conversion. Automatic replies, SMS updates. Try it free.",
+    "keywords": "webshop customer service, e-commerce AI, online store automation, webshop chatbot, customer service automation"
+  },
+  "breadcrumb": { "home": "Home", "industries": "Industries", "ecommerce": "E-commerce & Webshop" },
+  "hero": {
+    "badge": "E-commerce & Webshop",
+    "title": "Customer service that scales with your business",
+    "subtitle": "In e-commerce, fast customer service is critical to success. Delayed replies to customer inquiries mean lost sales and bad reviews. But staffing customer service 24/7 is expensive and complex."
+  },
+  "mainCard": {
+    "title": "AI-powered customer service that never sleeps",
+    "description": "Aibooking.dk gives you AI-powered customer service that never sleeps. The system instantly answers common questions about products, delivery times, returns, and order status. Complex inquiries are automatically escalated to your team. With SMS notifications, you keep customers updated throughout their entire purchase journey. Your dashboard shows all customer interactions, conversation summaries, frequently asked questions, and trends, so you can continuously optimize your service. Reduce response times from hours to seconds and significantly improve customer satisfaction."
+  },
+  "benefits": [
+    { "title": "24/7 customer service", "description": "Answer inquiries instantly without extra staff" },
+    { "title": "Automatic replies", "description": "Handle questions about products, order status, and returns" },
+    { "title": "SMS updates", "description": "Automatic notifications about shipments and deliveries" },
+    { "title": "Lightning-fast response times", "description": "Reduce response times from hours to seconds" },
+    { "title": "Trend insights", "description": "Dashboard with customer interactions and frequently asked questions" },
+    { "title": "Webshop integration", "description": "Integration with your webshop system and order management" }
+  ],
+  "stats": [
+    { "value": "95%", "label": "Faster responses" },
+    { "value": "+40%", "label": "Customer satisfaction" },
+    { "value": "1200+", "label": "Inquiries/month" },
+    { "value": "+28%", "label": "Conversion" }
+  ],
+  "perfectFor": {
+    "title": "Perfect for all online businesses",
+    "items": ["Webshops", "E-commerce", "Dropshipping", "Marketplaces", "Online sales"],
+    "cta": "Book a no-obligation meeting and get a free test login"
+  },
+  "ctaSection": {
+    "title": "Ready to get started?",
+    "subtitle": "Book a free, no-obligation meeting and get access to a test login so you can try the system yourself",
+    "button": "Book a no-obligation meeting and get a free test login"
+  }
+}

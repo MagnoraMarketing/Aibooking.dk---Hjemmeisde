@@ -1,1 +1,74 @@
-{}
+{
+  "title": "Privacy Policy",
+  "subtitle": "How we protect your personal data",
+  "sections": [
+    {
+      "heading": "1. Introduction",
+      "body": "Aibooking.dk is committed to protecting your personal data and respecting your privacy. This privacy policy explains how we collect, use, store, and protect your personal information when you use our platform and services."
+    },
+    {
+      "heading": "2. Data controller",
+      "body": "Aibooking.dk (hereinafter \"we\" or \"us\") is the data controller for the processing of your personal data under the General Data Protection Regulation (GDPR)."
+    },
+    {
+      "heading": "3. What data we collect",
+      "intro": "We collect the following categories of personal data:",
+      "labelItems": [
+        { "label": "Account data", "desc": "Name, email address, phone number, and other information you provide when creating an account" },
+        { "label": "Payment data", "desc": "Billing address and payment information (processed securely via payment providers)" },
+        { "label": "Usage data", "desc": "Information about your activities on the platform, such as bookings, enquiries, and interactions" },
+        { "label": "Technical data", "desc": "IP address, browser type, device type, and other technical information" },
+        { "label": "Communication data", "desc": "Emails, messages, and other communication between you and us" }
+      ]
+    },
+    {
+      "heading": "4. How we use your data",
+      "intro": "We use your personal data for the following purposes:",
+      "items": [
+        "To provide and administer our services",
+        "To process your bookings and transactions",
+        "To communicate with you about your account and our services",
+        "To improve and optimize our platform",
+        "To meet legal and regulatory requirements",
+        "To prevent fraud and ensure security on our platform"
+      ]
+    },
+    {
+      "heading": "5. Sharing of data",
+      "body": "We only share your personal data with third-party providers that are necessary to deliver our services, such as payment processors, hosting providers, and customer support platforms. All third-party providers are required to process your data securely and in accordance with applicable law."
+    },
+    {
+      "heading": "6. Data storage",
+      "body": "Your personal data is stored on secure servers and is not kept longer than necessary to fulfill the purposes for which it was collected, unless the law requires longer retention. You can request deletion of your data at any time by contacting us."
+    },
+    {
+      "heading": "7. Your rights",
+      "intro": "Under the GDPR, you have the following rights regarding your personal data:",
+      "labelItems": [
+        { "label": "Right of access", "desc": "You can request to see what personal data we hold about you" },
+        { "label": "Right to rectification", "desc": "You can request that we correct inaccurate data" },
+        { "label": "Right to erasure", "desc": "You can request that we delete your data" },
+        { "label": "Right to restriction", "desc": "You can request that we restrict the use of your data" },
+        { "label": "Right to data portability", "desc": "You can request to receive your data in a structured format" },
+        { "label": "Right to object", "desc": "You can object to certain processing of your data" }
+      ]
+    },
+    {
+      "heading": "8. Security",
+      "body": "We implement technical and organizational security measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction. This includes encryption, secure connections, and access control."
+    },
+    {
+      "heading": "9. Cookies",
+      "body": "Our platform may use cookies to improve your user experience. You can control cookie settings in your browser. Some cookies are necessary for the platform to function properly, while others are used to analyze user behavior."
+    },
+    {
+      "heading": "10. Changes to this policy",
+      "body": "We may update this privacy policy from time to time. Significant changes will be communicated to you via email or through a notice on the platform. Your continued use of the platform after changes means that you accept the new terms."
+    },
+    {
+      "heading": "11. Contact us",
+      "before": "If you have questions about this privacy policy or wish to exercise your rights, please feel free to contact us at ",
+      "after": "."
+    }
+  ]
+}

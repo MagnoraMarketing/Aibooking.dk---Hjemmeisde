@@ -1,1 +1,17 @@
-{}
+{
+  "seo": {
+    "title": "Blog - AI Automation & Booking Insights | AIBooking.dk",
+    "description": "Read the latest articles about AI automation, booking systems and digital solutions for modern businesses. Expert insights on AI widgets, phone assistants and complete automation.",
+    "keywords": "ai blog, booking automation, ai insights, digital transformation, ai widget, phone assistant"
+  },
+  "hero": {
+    "badge": "Latest Insights",
+    "title": "AI Booking Blog",
+    "subtitle": "Insights on AI automation, booking systems and digital solutions transforming modern businesses."
+  },
+  "featured": {
+    "label": "Featured",
+    "readArticle": "Read article"
+  },
+  "readMore": "Read more"
+}

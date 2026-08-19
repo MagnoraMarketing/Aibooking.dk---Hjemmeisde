@@ -5,8 +5,12 @@ import { useTranslation } from 'react-i18next';
 export interface FAQItem {
   question_da: string;
   question_en: string;
+  question_pt: string;
+  question_fr: string;
   answer_da: string;
   answer_en: string;
+  answer_pt: string;
+  answer_fr: string;
 }
 
 interface FAQProps {
@@ -14,11 +18,12 @@ interface FAQProps {
 }
 
 export default function FAQ({ items }: FAQProps) {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
-  const getQuestion = (item: FAQItem) => (i18n.language === 'da' ? item.question_da : item.question_en);
-  const getAnswer = (item: FAQItem) => (i18n.language === 'da' ? item.answer_da : item.answer_en);
+  const lang = (i18n.language in { da: 1, en: 1, pt: 1, fr: 1 } ? i18n.language : 'da') as 'da' | 'en' | 'pt' | 'fr';
+  const getQuestion = (item: FAQItem) => item[`question_${lang}`];
+  const getAnswer = (item: FAQItem) => item[`answer_${lang}`];
 
   const structuredData = {
     '@context': 'https://schema.org',
@@ -39,7 +44,7 @@ export default function FAQ({ items }: FAQProps) {
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-ink-900 mb-4 tracking-tight">
-            {i18n.language === 'da' ? 'Ofte stillede spørgsmål' : 'Frequently Asked Questions'}
+            {t('faq.heading')}
           </h2>
         </div>
         <div className="space-y-4">

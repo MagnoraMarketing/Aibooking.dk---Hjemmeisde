@@ -1,1 +1,21 @@
-{}
+{
+  "notFound": {
+    "title": "Artikel ikke fundet"
+  },
+  "backToBlog": "Tilbage til blog",
+  "readTime": "{{count}} min. læsning",
+  "actions": {
+    "share": "Del",
+    "save": "Gem"
+  },
+  "ctaBox": {
+    "title": "Klar til at komme i gang?",
+    "description": "Oplev hvordan AIBooking.dk kan transformere din virksomhed med intelligent automatisering. Book en gratis demo i dag.",
+    "button": "Prøv AI Widget Gratis"
+  },
+  "related": {
+    "title": "Relaterede Artikler",
+    "subtitle": "Læs mere om {{category}}"
+  },
+  "readArticle": "Læs artikel"
+}

@@ -12,7 +12,7 @@ interface BlogCategoryPageProps {
 }
 
 export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps) {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation('blogCategoryPage');
   const category = getCategoryBySlug(categorySlug);
   const posts = category ? getPostsByCategory(categorySlug) : [];
 
@@ -43,10 +43,10 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
         <div className="flex items-center justify-center min-h-screen">
           <div className="text-center">
             <h1 className="text-3xl font-bold text-ink-900 mb-4">
-              {i18n.language === 'da' ? 'Kategori ikke fundet' : 'Category not found'}
+              {t('notFound.title')}
             </h1>
             <a href="/blog" className="text-brand-600 hover:text-brand-700 font-semibold">
-              {i18n.language === 'da' ? 'Tilbage til blog' : 'Back to blog'}
+              {t('notFound.backToBlog')}
             </a>
           </div>
         </div>
@@ -71,9 +71,9 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
   return (
     <div className="min-h-screen bg-gradient-to-b from-ink-50 via-white to-ink-50">
       <SEO
-        title={`${getCategoryName()} - AI Booking Blog | AIBooking.dk`}
+        title={t('seo.title', { category: getCategoryName() })}
         description={getCategoryDescription()}
-        keywords={`${categorySlug}, ai automation, booking, ${getCategoryName()}`}
+        keywords={t('seo.keywords', { slug: categorySlug, category: getCategoryName() })}
       />
 
       <script type="application/ld+json">
@@ -94,7 +94,7 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
                 className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-700 font-medium mb-6 transition-colors"
               >
                 <ArrowRight className="w-4 h-4 rotate-180" />
-                {i18n.language === 'da' ? 'Tilbage til alle artikler' : 'Back to all articles'}
+                {t('backToAll')}
               </a>
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-brand-600 to-brand-700 text-white font-semibold rounded-full mb-6 shadow-lg">
                 <Tag className="w-4 h-4" />
@@ -114,7 +114,7 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-700 text-white px-8 py-4 rounded-xl font-semibold hover:shadow-xl transition-all transform hover:scale-105"
               >
                 <Sparkles className="w-5 h-5" />
-                {i18n.language === 'da' ? 'Prøv AI Widget Gratis' : 'Try AI Widget Free'}
+                {t('tryWidgetCta')}
                 <ArrowRight className="w-5 h-5" />
               </a>
             </div>
@@ -122,13 +122,13 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
             {posts.length === 0 ? (
               <div className="text-center py-20 bg-white rounded-3xl shadow-lg">
                 <p className="text-ink-600 text-lg">
-                  {i18n.language === 'da' ? 'Ingen artikler i denne kategori endnu.' : 'No articles in this category yet.'}
+                  {t('emptyState.message')}
                 </p>
                 <a
                   href="/blog"
                   className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-700 font-semibold mt-4"
                 >
-                  {i18n.language === 'da' ? 'Se alle artikler' : 'View all articles'}
+                  {t('emptyState.viewAll')}
                   <ArrowRight className="w-4 h-4" />
                 </a>
               </div>
@@ -159,7 +159,7 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
                           {getExcerpt(post)}
                         </p>
                         <div className="flex items-center text-brand-600 font-semibold text-sm">
-                          {i18n.language === 'da' ? 'Læs artikel' : 'Read article'}
+                          {t('readArticle')}
                           <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                         </div>
                       </div>
@@ -172,18 +172,16 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
             <div className="mt-16 text-center">
               <div className="inline-block bg-white rounded-2xl shadow-lg p-8 max-w-2xl">
                 <h3 className="text-2xl font-bold text-ink-900 mb-4">
-                  {i18n.language === 'da' ? 'Vil du vide mere?' : 'Want to know more?'}
+                  {t('wantMore.title')}
                 </h3>
                 <p className="text-ink-600 mb-6">
-                  {i18n.language === 'da'
-                    ? 'Kontakt os for at høre hvordan AI automatisering kan transformere din virksomhed.'
-                    : 'Contact us to learn how AI automation can transform your business.'}
+                  {t('wantMore.description')}
                 </p>
                 <a
                   href="https://aibooking.dk/widget"
                   className="inline-flex items-center gap-2 bg-brand-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-brand-700 transition-colors"
                 >
-                  {i18n.language === 'da' ? 'Book en demo' : 'Book a demo'}
+                  {t('wantMore.cta')}
                   <ArrowRight className="w-4 h-4" />
                 </a>
               </div>

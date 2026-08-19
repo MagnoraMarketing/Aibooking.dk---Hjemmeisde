@@ -1,1 +1,53 @@
-{}
+{
+  "seo": {
+    "title": "Contact Us - Get Help and Support | Aibooking.dk",
+    "description": "Have questions about our AI receptionist? Contact our Danish support team. We reply within 24 hours. Call +45 91952794 or send an email.",
+    "keywords": "contact aibooking, danish support, AI receptionist help, customer service, get a demo"
+  },
+  "breadcrumb": { "home": "Home", "contact": "Contact" },
+  "hero": {
+    "badge": "We're ready to help",
+    "title": "Contact us today",
+    "subtitle": "Have questions or want to know more about how Aibooking.dk can help your business? We're here to help you."
+  },
+  "infoCards": {
+    "call": { "title": "Call us", "desc": "We're happy to answer your questions" },
+    "email": { "title": "Send an email", "desc": "We reply within 24 hours" },
+    "hours": { "title": "Opening hours", "line1": "Mon-Fri: 9:00 - 17:00", "line2": "Weekend: Closed" }
+  },
+  "form": {
+    "title": "Send us a message",
+    "subtitle": "Fill out the form below and we'll get back to you as soon as possible",
+    "successTitle": "Thank you for your message!",
+    "successMessage": "We'll get back to you as soon as possible.",
+    "error": "Something went wrong. Please try again.",
+    "labels": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Your full name",
+      "email": "your@email.com",
+      "phone": "+45 91952794",
+      "message": "How can we help?"
+    },
+    "submit": "Send message",
+    "sending": "Sending..."
+  },
+  "location": {
+    "title": "Find us here",
+    "companyName": "Aibooking.dk ApS",
+    "addressLine1": "Trindsøvej 6, 1. sal",
+    "addressLine2": "8000 Aarhus C, Danmark"
+  },
+  "whyUs": {
+    "title": "Why choose us?",
+    "items": [
+      "Danish support in Danish",
+      "Fast implementation",
+      "GDPR-compliant solution"
+    ]
+  }
+}

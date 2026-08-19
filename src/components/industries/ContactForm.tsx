@@ -1,7 +1,9 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Calendar, Phone, Building2, Mail, User, CheckCircle2, AlertCircle } from 'lucide-react';
 
 function ContactForm() {
+  const { t } = useTranslation('industriesPage');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -39,7 +41,7 @@ function ContactForm() {
       });
       setTimeout(() => setSubmitted(false), 8000);
     } catch (err) {
-      setError('Der skete en fejl. Prøv venligst igen.');
+      setError(t('contactForm.errorMessage'));
       console.error('Error submitting form:', err);
     } finally {
       setLoading(false);
@@ -58,11 +60,10 @@ function ContactForm() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-ink-900 mb-4">
-            Book en gratis præsentation
+            {t('contactForm.title')}
           </h2>
           <p className="text-xl text-ink-600 max-w-2xl mx-auto mb-6">
-            Lad os tage en uforpligtende snak om, hvordan vores AI-receptionist kan hjælpe netop din virksomhed.
-            Få adgang til demo i 7 dage helt gratis.
+            {t('contactForm.subtitle')}
           </p>
           <a
             href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
@@ -70,9 +71,9 @@ function ContactForm() {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-8 py-4 bg-brand-600 text-white font-semibold rounded-xl hover:bg-brand-700 transition-all shadow-lg hover:shadow-xl"
           >
-            Book Demo Nu
+            {t('contactForm.bookDemoButton')}
           </a>
-          <p className="text-sm text-ink-500 mt-4">Eller udfyld formularen nedenfor, så kontakter vi dig</p>
+          <p className="text-sm text-ink-500 mt-4">{t('contactForm.orFillForm')}</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12">
@@ -80,10 +81,10 @@ function ContactForm() {
             <div className="text-center py-12">
               <CheckCircle2 className="w-20 h-20 text-green-500 mx-auto mb-6" />
               <h3 className="text-3xl font-bold text-ink-900 mb-4">
-                Tak for din henvendelse!
+                {t('contactForm.success.title')}
               </h3>
               <p className="text-lg text-ink-600">
-                Vi kontakter dig hurtigst muligt på den ønskede dato.
+                {t('contactForm.success.message')}
               </p>
             </div>
           ) : (
@@ -99,7 +100,7 @@ function ContactForm() {
                 <div>
                   <label className="flex items-center space-x-2 text-sm font-semibold text-ink-700 mb-2">
                     <User className="w-4 h-4" />
-                    <span>Navn</span>
+                    <span>{t('contactForm.fields.name.label')}</span>
                   </label>
                   <input
                     type="text"
@@ -108,14 +109,14 @@ function ContactForm() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-ink-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all"
-                    placeholder="Dit fulde navn"
+                    placeholder={t('contactForm.fields.name.placeholder')}
                   />
                 </div>
 
                 <div>
                   <label className="flex items-center space-x-2 text-sm font-semibold text-ink-700 mb-2">
                     <Mail className="w-4 h-4" />
-                    <span>Email</span>
+                    <span>{t('contactForm.fields.email.label')}</span>
                   </label>
                   <input
                     type="email"
@@ -124,14 +125,14 @@ function ContactForm() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-ink-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all"
-                    placeholder="din@email.dk"
+                    placeholder={t('contactForm.fields.email.placeholder')}
                   />
                 </div>
 
                 <div>
                   <label className="flex items-center space-x-2 text-sm font-semibold text-ink-700 mb-2">
                     <Phone className="w-4 h-4" />
-                    <span>Telefon</span>
+                    <span>{t('contactForm.fields.phone.label')}</span>
                   </label>
                   <input
                     type="tel"
@@ -140,14 +141,14 @@ function ContactForm() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-ink-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all"
-                    placeholder="+45 91952794"
+                    placeholder={t('contactForm.fields.phone.placeholder')}
                   />
                 </div>
 
                 <div>
                   <label className="flex items-center space-x-2 text-sm font-semibold text-ink-700 mb-2">
                     <Building2 className="w-4 h-4" />
-                    <span>Branche</span>
+                    <span>{t('contactForm.fields.industry.label')}</span>
                   </label>
                   <select
                     name="industry"
@@ -156,18 +157,18 @@ function ContactForm() {
                     required
                     className="w-full px-4 py-3 border border-ink-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all bg-white"
                   >
-                    <option value="">Vælg din branche</option>
-                    <option value="klinikker">Klinikker</option>
-                    <option value="haandvaerker">Håndværker</option>
-                    <option value="kontor">Kontor og Administration</option>
-                    <option value="webshop">Webshop</option>
+                    <option value="">{t('contactForm.fields.industry.placeholder')}</option>
+                    <option value="klinikker">{t('contactForm.fields.industry.options.healthcare')}</option>
+                    <option value="haandvaerker">{t('contactForm.fields.industry.options.craftsman')}</option>
+                    <option value="kontor">{t('contactForm.fields.industry.options.office')}</option>
+                    <option value="webshop">{t('contactForm.fields.industry.options.webshop')}</option>
                   </select>
                 </div>
 
                 <div className="md:col-span-2">
                   <label className="flex items-center space-x-2 text-sm font-semibold text-ink-700 mb-2">
                     <Calendar className="w-4 h-4" />
-                    <span>Foretrukken dato for opringning</span>
+                    <span>{t('contactForm.fields.callDate.label')}</span>
                   </label>
                   <input
                     type="date"
@@ -182,7 +183,7 @@ function ContactForm() {
 
                 <div className="md:col-span-2">
                   <label className="flex items-center space-x-2 text-sm font-semibold text-ink-700 mb-2">
-                    <span>Besked (valgfri)</span>
+                    <span>{t('contactForm.fields.message.label')}</span>
                   </label>
                   <textarea
                     name="message"
@@ -190,7 +191,7 @@ function ContactForm() {
                     onChange={handleChange}
                     rows={4}
                     className="w-full px-4 py-3 border border-ink-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all resize-none"
-                    placeholder="Fortæl os lidt om dine behov..."
+                    placeholder={t('contactForm.fields.message.placeholder')}
                   />
                 </div>
               </div>
@@ -200,11 +201,11 @@ function ContactForm() {
                 disabled={loading}
                 className="w-full bg-gradient-to-r from-brand-600 to-brand-500 text-white py-4 rounded-xl hover:from-brand-700 hover:to-brand-600 transition-all font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
               >
-                {loading ? 'Sender...' : 'Book gratis præsentation'}
+                {loading ? t('contactForm.submitButtonLoading') : t('contactForm.submitButton')}
               </button>
 
               <p className="text-center text-sm text-ink-500">
-                100% gratis og uforpligtende • 7 dages demo adgang inkluderet
+                {t('contactForm.disclaimer')}
               </p>
             </form>
             </>

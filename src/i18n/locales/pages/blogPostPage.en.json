@@ -1,0 +1,21 @@
+{
+  "notFound": {
+    "title": "Article not found"
+  },
+  "backToBlog": "Back to blog",
+  "readTime": "{{count}} min read",
+  "actions": {
+    "share": "Share",
+    "save": "Save"
+  },
+  "ctaBox": {
+    "title": "Ready to get started?",
+    "description": "Experience how AIBooking.dk can transform your business with intelligent automation. Book a free demo today.",
+    "button": "Try AI Widget Free"
+  },
+  "related": {
+    "title": "Related Articles",
+    "subtitle": "Read more about {{category}}"
+  },
+  "readArticle": "Read article"
+}

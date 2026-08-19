@@ -1,10 +1,27 @@
 {
   "nav": {
+    "home": "Accueil",
+    "benefits": "Avantages",
+    "widget": "Widget IA",
+    "pricing": "Tarifs",
     "features": "Fonctionnalités",
     "industries": "Secteurs",
+    "industries_menu": {
+      "healthcare": { "name": "Cliniques", "description": "Médecins, dentistes, kinésithérapeutes" },
+      "craftsman": { "name": "Artisans", "description": "Plombiers, électriciens, menuisiers, peintres" },
+      "office": { "name": "Bureau & Entreprises", "description": "Avocats, comptables, consultants" },
+      "ecommerce": { "name": "E-commerce & Boutique en ligne", "description": "Boutiques en ligne et commerces digitaux" }
+    },
+    "see_all_industries": "Voir tous les secteurs →",
     "integrations": "Intégrations",
     "demo": "Démo",
-    "contact": "Contact"
+    "contact": "Contact",
+    "contact_us": "Nous contacter",
+    "about_us": "À propos",
+    "book_demo": "Réserver une démo",
+    "language": "Langue",
+    "open_menu": "Ouvrir le menu",
+    "close_menu": "Fermer le menu"
   },
   "hero": {
     "badge": "Votre Réceptionniste Virtuelle",
@@ -98,12 +115,31 @@
     "button": "Démarrer L'Essai Gratuit"
   },
   "footer": {
-    "description": "Automatisez votre communication client avec l'IA",
-    "product": "Produit",
+    "description": "Automatisez vos réservations et votre service client grâce à une IA intelligente.",
+    "solutions": "Solutions",
+    "ai_booking": "AI Booking",
+    "ai_widget": "Widget IA",
+    "book_demo": "Réserver une démo",
+    "features": "Fonctionnalités",
+    "industries_title": "Secteurs",
+    "healthcare": "Clinique & Santé",
+    "craftsman": "Artisans",
+    "office": "Bureau & Entreprises",
+    "ecommerce": "Boutique en ligne & E-commerce",
+    "blog_title": "Blog",
+    "all_articles": "Tous les Articles",
+    "blog_ai_widget": "Widget IA",
+    "blog_inbound_outbound": "Appels IA Entrants/Sortants",
+    "blog_total_solution": "Solution IA Totale",
     "company": "Entreprise",
-    "legal": "Mentions légales",
-    "contact_us": "Nous Contacter",
-    "rights": "Tous droits réservés"
+    "about": "À propos",
+    "contact": "Contact",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions Générales",
+    "contact_title": "Contact",
+    "address": "Aarhus, Danemark",
+    "rights": "Tous droits réservés",
+    "made_by": "Conçu et propulsé par"
   },
   "contact": {
     "title": "Nous Contacter",
@@ -137,5 +173,61 @@
   "demo_page": {
     "title": "Réservez Une Démo Gratuite",
     "subtitle": "Découvrez comment Aibooking.dk peut transformer votre communication client"
+  },
+  "faq": {
+    "heading": "Questions Fréquentes"
+  },
+  "receptionistShowcase": {
+    "badge": "Réceptionniste IA Pour Entreprises en Croissance",
+    "title_line1": "Ne manquez plus jamais un appel.",
+    "title_line2": "Gagnez plus de contrats.",
+    "title_line3": "Réduisez l'administratif.",
+    "subtitle": "Votre réceptionniste IA gère les appels, capture les prospects et s'occupe des reports de rendez-vous, pour que vous puissiez vous concentrer sur la croissance de votre entreprise.",
+    "cta_primary": "Réserver Une Démo Gratuite",
+    "cta_secondary": "Essayez notre widget vocal IA",
+    "demo_badge": "Réceptionniste IA Active",
+    "chat_label": "Réceptionniste IA",
+    "chat_message": "Bonjour, vous avez joint la Clinique Pentworth. Comment puis-je vous aider aujourd'hui ?",
+    "card_call_answered_label": "Appel Répondu",
+    "card_call_answered_value": "Nouveau Patient Enregistré",
+    "card_rebooked_label": "Reporté",
+    "card_rebooked_value": "Lien Envoyé Automatiquement",
+    "card_notification_label": "Notification",
+    "card_notification_value": "Dr. Schmidt Informé",
+    "card_conversation_label": "Appel",
+    "card_conversation_value": "L'IA A Tout Géré",
+    "summary_label": "Résumé",
+    "summary_text": "Fenley a demandé des informations sur le stationnement à la clinique. Nous avons fourni tous les détails nécessaires pour garantir une visite sans encombre."
+  },
+  "widgetPricing": {
+    "badge": "Intégration Facile Sur Votre Site Web",
+    "title": "AIBooking Voice AI Widget",
+    "subtitle": "Un voicebot avec lequel vos clients peuvent parler directement sur votre site web - répond aux questions et gère les réservations automatiquement",
+    "plan_badge": "Solution La Plus Flexible",
+    "price": "999",
+    "price_period": "DKK/mois",
+    "price_note1": "Inclut 150 minutes de temps de parole (environ 6,66 DKK/minute)",
+    "price_note2": "Le forfait se renouvelle automatiquement une fois les 150 minutes utilisées",
+    "features": [
+      { "bold": "Bot vocal IA", "rest": " - les clients parlent directement avec l'IA" },
+      { "bold": "", "rest": "Répond aux questions et gère les réservations" },
+      { "bold": "", "rest": "Les réservations vont directement dans votre calendrier" },
+      { "bold": "", "rest": "Disponible 24h/24 et 7j/7 sur votre site web" },
+      { "bold": "", "rest": "150 minutes de temps de parole incluses" },
+      { "bold": "Payez uniquement le temps de parole actif", "rest": " - pas de tarif horaire" },
+      { "bold": "Ouvert 24h/24, 365 jours par an", "rest": " - toujours prêt" },
+      { "bold": "", "rest": "Prend en charge les clients même lorsque vous êtes occupé" }
+    ],
+    "cta": "Voir le Widget IA en action",
+    "demo_widget_label": "AI Booking Assistant",
+    "demo_widget_status": "En ligne",
+    "demo_ai_label": "🎤 IA Vocale :",
+    "demo_msg1": "Bonjour ! Vous pouvez me parler directement. Comment puis-je vous aider ?",
+    "demo_customer_label": "🗣️ Client :",
+    "demo_msg2": "\"Je voudrais prendre rendez-vous vendredi\"",
+    "demo_msg3": "Parfait ! Voici les créneaux disponibles vendredi...",
+    "demo_footer": "Widget vocal IA - les clients parlent directement sur votre site",
+    "perfect_for_label": "Idéal pour :",
+    "perfect_for_text": "Cliniques, artisans, consultants, salons, bureaux et toute autre entreprise qui prend des réservations directement sur son site web."
   }
 }

@@ -1,0 +1,87 @@
+{
+  "seo": {
+    "title": "Om Os - 20+ Års Erfaring i Telemarketing | Aibooking.dk",
+    "description": "Folkene bag Aibooking.dk har 20+ års erfaring i telemarketing. Vores virtuelle receptionist automatiserer indgående og udgående kundekontakt. 500+ tilfredse kunder.",
+    "keywords": "om aibooking, telemarketing erfaring, virtuel receptionist, AI kundeservice Danmark, indgående opkald, udgående opkald, automatisering kundekontakt"
+  },
+  "breadcrumb": { "home": "Hjem", "about": "Om Os" },
+  "hero": {
+    "badge": "Om Aibooking.dk",
+    "title_line1": "Vi revolutionerer",
+    "title_line2": "kundeservice med AI",
+    "subtitle": "Vores mission er at hjælpe danske virksomheder med at levere fremragende kundeservice døgnet rundt ved hjælp af avanceret AI-teknologi."
+  },
+  "story": {
+    "badge": "Vores historie",
+    "title": "Fra idé til virkelighed",
+    "paragraphs": [
+      "Aibooking.dk blev grundlagt med en klar vision: At gøre professionel kundeservice tilgængelig for alle virksomheder, uanset størrelse.",
+      "Folkene bag Aibooking.dk har mere end 20 års erfaring i telemarketing opgaver, både indgående og udgående. Vi ved præcis, hvor mange ressourcer der bruges på kundekontakt i danske virksomheder. Denne dybdegående viden har ført os til at udvikle en AI-løsning, der fungerer som Din Virtuelle Receptionist og effektivt kan automatisere mange af de gentagne opgaver, der ellers kræver betydelige personalemæssige ressourcer.",
+      "Vi opdagede gennem vores årelange erfaring, at mange små og mellemstore virksomheder mistede værdifulde kunder, fordi de ikke havde ressourcer til at besvare alle henvendelser døgnet rundt. Vores løsning kombinerer avanceret AI-teknologi med dansk sprog og kultur.",
+      "I dag betjener vi hundredvis af virksomheder på tværs af Danmark og hjælper dem med at forbedre deres kundeservice, øge deres booking-rate og frigøre tid til det, de er bedst til."
+    ]
+  },
+  "vision": {
+    "title": "Vores vision",
+    "description": "At være Danmarks førende leverandør af AI-drevne kundeservice løsninger og hjælpe virksomheder med at vokse gennem bedre kundeoplevelser.",
+    "badge": "Innovation driver os fremad"
+  },
+  "values": {
+    "title": "Vores værdier",
+    "subtitle": "De principper der guider alt hvad vi gør",
+    "items": [
+      { "title": "Kundefokus", "description": "Vi sætter altid vores kunders behov i centrum og stræber efter at levere den bedste service." },
+      { "title": "Innovation", "description": "Vi udvikler konstant nye løsninger og forbedrer vores AI-teknologi for at være på forkant." },
+      { "title": "Pålidelighed", "description": "Vi leverer stabile og sikre løsninger, som du kan stole på dag efter dag." },
+      { "title": "Vækst", "description": "Vi hjælper virksomheder med at vokse ved at automatisere og optimere deres kundeservice." }
+    ]
+  },
+  "benefits": {
+    "title": "Hvorfor vælge Aibooking.dk?",
+    "subtitle": "Erfaring, ekspertise og resultater der taler for sig selv",
+    "items": [
+      { "title": "Erfaring der gør en forskel", "description": "Med over 20 års erfaring i telemarketing kender vi alle udfordringer ved kundekontakt. Vores AI-løsning er bygget på reel brancheforståelse." },
+      { "title": "Automatisering der fungerer", "description": "Vi ved præcis hvilke dele af kundekontakten der kan automatiseres effektivt. Vores virtuelle receptionist håndterer både indgående og udgående opkald professionelt." },
+      { "title": "Support på dansk, engelsk og spansk", "description": "Vores AI taler perfekt dansk, engelsk og spansk. Vi giver dig lokal support og rådgivning baseret på dybdegående markedskendskab." },
+      { "title": "Erfaring på tværs af mange brancher", "description": "Vi har mange års erfaring i adskillige brancher og har derfor sikker forståelse for, hvordan vi sætter den bedst mulige løsning op for netop din virksomhed." }
+    ]
+  },
+  "receptionist": {
+    "title": "Din Virtuelle Receptionist",
+    "description": "Vores AI-løsning er ikke bare endnu en chatbot. Det er resultatet af årtiers erfaring med telemarketing og kundekontakt. Vi forstår, hvad det kræver at levere professionel kundeservice, og har bygget en løsning der virkelig fungerer i praksis.",
+    "incoming": {
+      "title": "Indgående opkald",
+      "description": "Vores virtuelle receptionist tager imod alle indgående opkald, besvarer spørgsmål, bookinger og viderestiller kun når det er nødvendigt. Det betyder færre afbrudte arbejdsgange og mere tid til kerneopgaver.",
+      "features": [
+        "24/7 tilgængelighed",
+        "Professionel dansk kommunikation",
+        "Automatisk booking og bekræftelse"
+      ]
+    },
+    "outgoing": {
+      "title": "Udgående opkald",
+      "description": "Med erfaring fra udgående telemarketing ved vi, hvad der virker. Vores AI kan foretage opfølgende opkald, bekræftelser og påmindelser - altid med det rigtige tone og timing.",
+      "features": [
+        "Automatiske påmindelser",
+        "Booking bekræftelser",
+        "Kundeservice opfølgning"
+      ]
+    }
+  },
+  "widget": {
+    "title": "Aibooking.dk Widget",
+    "description": "Aibooking.dk Widget gør det nemt at planlægge og booke møder uden manuel indsats. Integrer vores intelligente widget direkte på din hjemmeside og lad AI'en tage styringen. Både via Voice og tekst mulighed hvor du får booket nye møder automatisk ind i din kalender.",
+    "items": [
+      { "title": "AI-baseret planlægning", "description": "Widgeten foreslår de bedste tidspunkter for dig og dine kunder – helt automatisk." },
+      { "title": "Voice og tekst booking", "description": "Dine kunder kan vælge mellem at tale direkte med AI'en eller bruge tekstbaseret booking." },
+      { "title": "Automatisk kalenderintegration", "description": "Nye møder bliver automatisk booket ind i din kalender uden manuel håndtering." }
+    ],
+    "cta": "Læs mere om Widget"
+  },
+  "ctaSection": {
+    "title": "Klar til at komme i gang?",
+    "subtitle": "Lad os vise dig hvordan Aibooking.dk kan transformere din kundeservice og hjælpe din virksomhed med at vokse.",
+    "button_demo": "Book en demo",
+    "button_contact": "Kontakt os"
+  }
+}

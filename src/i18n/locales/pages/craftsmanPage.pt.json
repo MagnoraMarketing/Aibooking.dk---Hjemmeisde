@@ -1,0 +1,45 @@
+{
+  "seo": {
+    "title": "Rececionista de IA para Artesãos - Canalizadores, Eletricistas, Carpinteiros | Aibooking.dk",
+    "description": "Marcação automática para artesãos. Nunca mais perca uma encomenda. 45% mais encomendas, 100% de taxa de resposta. Perfeito para canalizadores, eletricistas e pintores. Experimente grátis.",
+    "keywords": "marcação para artesãos, marcação para canalizadores, marcação para eletricistas, marcação para carpinteiros, rececionista de IA para artesãos, automatização de encomendas"
+  },
+  "breadcrumb": {
+    "home": "Início",
+    "industries": "Setores",
+    "craftsman": "Artesãos"
+  },
+  "hero": {
+    "badge": "Artesãos",
+    "title": "Pare de perder encomendas por não atender o telefone",
+    "subtitle": "Já conhece a situação: está a meio de um trabalho e o telefone toca. Se atender, perde a concentração. Se não atender, arrisca perder uma boa encomenda. É uma situação impossível."
+  },
+  "solution": {
+    "title": "Nunca mais perca uma encomenda",
+    "description": "O nosso rececionista de IA resolve este problema de uma vez por todas. O sistema atende todas as chamadas, regista os dados do cliente, marca visitas ao local e envia confirmações automáticas por SMS. No seu painel de controlo pode ver todos os pedidos, ouvir as conversas gravadas, obter resumos curtos do que o cliente pretende e ver o que foi combinado. O seu calendário é atualizado automaticamente, seja qual for o sistema que utilize. Deixe de se preocupar com encomendas perdidas – concentre-se no seu ofício."
+  },
+  "benefits": [
+    { "title": "Atenda todos os pedidos", "description": "Mesmo quando está a trabalhar e não pode atender o telefone" },
+    { "title": "Registo automático", "description": "Os dados do cliente e as descrições dos trabalhos são guardados automaticamente" },
+    { "title": "Marque visitas diretamente", "description": "No seu calendário – sincroniza automaticamente com o seu sistema" },
+    { "title": "Confirmações por SMS", "description": "Para si e para o cliente, com todos os detalhes relevantes" },
+    { "title": "Painel de controlo completo", "description": "Veja todos os pedidos de clientes e o que foi combinado" },
+    { "title": "Disponibilidade 24 horas", "description": "O sistema funciona a qualquer hora do dia, incluindo fins de semana" }
+  ],
+  "stats": [
+    { "value": "+45%", "label": "Mais encomendas" },
+    { "value": "10h/semana", "label": "Tempo poupado" },
+    { "value": "100%", "label": "Taxa de resposta" },
+    { "value": "4.9/5", "label": "Satisfação do cliente" }
+  ],
+  "trades": {
+    "title": "Perfeito para todos os ofícios",
+    "items": ["Canalização", "Eletricistas", "Pintores", "Carpinteiros", "Limpeza", "Empresas de mudanças"],
+    "cta": "Marque uma reunião sem compromisso e obtenha um login de teste gratuito"
+  },
+  "finalCta": {
+    "title": "Pronto para começar?",
+    "subtitle": "Marque uma reunião gratuita e sem compromisso, e tenha acesso a um login de teste para experimentar o sistema você mesmo",
+    "button": "Marque uma reunião sem compromisso e obtenha um login de teste gratuito"
+  }
+}

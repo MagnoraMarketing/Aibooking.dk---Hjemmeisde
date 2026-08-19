@@ -1,16 +1,11 @@
+import { useTranslation } from 'react-i18next';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 function IntegrationCTA() {
-  const benefits = [
-    'Automatisk håndtering af ind- og udgående opkald',
-    'SMS påmindelser og bekræftelser sendes automatisk',
-    'Email kommunikation styret af AI',
-    'Ombookinger håndteres uden manuel indgriben',
-    'Mødebekræftigelser sendes til tiden hver gang',
-    'Opfølgning på mistede opkald og henvendelser',
-    'Real-time synkronisering med alle dine systemer',
-    'Professionel håndtering 24/7'
-  ];
+  const { t } = useTranslation('integrationsPage');
+
+  const benefits = t('ctaSection.benefits', { returnObjects: true }) as string[];
+  const stats = t('ctaSection.stats', { returnObjects: true }) as { value: string; label: string }[];
 
   return (
     <section className="py-20 bg-gradient-to-br from-brand-600 to-brand-800">
@@ -18,12 +13,10 @@ function IntegrationCTA() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Lad AI'en overtage administrationen
+              {t('ctaSection.title')}
             </h2>
             <p className="text-xl text-brand-100 mb-8 leading-relaxed">
-              Vores AI-løsning integrerer problemfrit med dine eksisterende systemer og
-              automatiserer alt fra telefonopkald til email kommunikation. Spar timer hver
-              dag og fokuser på det der virkelig betyder noget: dine kunder.
+              {t('ctaSection.subtitle')}
             </p>
             <a
               href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
@@ -31,14 +24,14 @@ function IntegrationCTA() {
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 bg-white text-brand-600 px-8 py-4 rounded-lg hover:bg-brand-50 transition-all duration-300 font-semibold text-lg group"
             >
-              <span>Book Demo</span>
+              <span>{t('ctaSection.button')}</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
           </div>
 
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
             <h3 className="text-2xl font-bold text-white mb-6">
-              Hvad får du med AI-integration?
+              {t('ctaSection.benefitsTitle')}
             </h3>
             <div className="space-y-4">
               {benefits.map((benefit, index) => (
@@ -54,18 +47,12 @@ function IntegrationCTA() {
         </div>
 
         <div className="mt-16 grid md:grid-cols-3 gap-8 text-center">
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-            <div className="text-4xl font-bold text-white mb-2">5 min</div>
-            <p className="text-brand-100">Gennemsnitlig opsætningstid</p>
-          </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-            <div className="text-4xl font-bold text-white mb-2">24/7</div>
-            <p className="text-brand-100">AI-drevet kundeservice</p>
-          </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-            <div className="text-4xl font-bold text-white mb-2">100%</div>
-            <p className="text-brand-100">Automatisk synkronisering</p>
-          </div>
+          {stats.map((stat, index) => (
+            <div key={index} className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+              <div className="text-4xl font-bold text-white mb-2">{stat.value}</div>
+              <p className="text-brand-100">{stat.label}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

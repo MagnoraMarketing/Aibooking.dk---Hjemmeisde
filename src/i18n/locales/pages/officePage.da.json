@@ -1,0 +1,45 @@
+{
+  "seo": {
+    "title": "AI Receptionist til Kontorer - Advokater, Revisorer, Konsulenter | Aibooking.dk",
+    "description": "Professionel AI receptionist til kontorvirksomheder. 35% mere produktivitet, 320% ROI. Perfekt til advokater, revisorer og konsulenter. Prøv gratis.",
+    "keywords": "kontor receptionist, advokat receptionist, revisor booking, konsulent booking, kontorautomatisering, møde booking"
+  },
+  "breadcrumb": {
+    "home": "Hjem",
+    "industries": "Brancher",
+    "office": "Kontor"
+  },
+  "hero": {
+    "badge": "Kontor og Administration",
+    "title": "Professionel kundeservice uden afbrydelser",
+    "subtitle": "I kontorvirksomheder er koncentration og produktivitet afgørende. Men konstante telefonopkald afbryder arbejdsflowet og reducerer effektiviteten betydeligt. Samtidig er det vigtigt at give kunderne hurtig og professionel service."
+  },
+  "bestOfBoth": {
+    "title": "Det bedste fra begge verdener",
+    "description": "Med Aibooking.dk får du det bedste fra begge verdener. Vores AI-receptionist screener alle indkommende opkald, håndterer bookinger af møder, besvarer almindelige spørgsmål og videresender kun de vigtigste henvendelser. Dit team får fred til at arbejde koncentreret, mens kunderne oplever professionel service døgnet rundt. Dashboard'et giver dig komplet kontrol: Lyt til alle samtaler, se detaljerede opsummeringer, booking-statistik og kalenderintegration. Perfekt til advokater, revisorer, konsulenter og andre videnvirksomheder.",
+    "benefits": [
+      { "title": "Reducer afbrydelser", "description": "Forbedr medarbejdernes produktivitet markant" },
+      { "title": "Professionel telefonbetjening", "description": "Uden ekstra lønomkostninger til receptionist" },
+      { "title": "Automatisk screening", "description": "Kun vigtige sager viderestilles til dit team" },
+      { "title": "Møde-booking", "description": "Book møder direkte i teamets fælles kalender" },
+      { "title": "Komplet dashboard", "description": "Samtalehistorik, opsummeringer og statistik" },
+      { "title": "CRM-integration", "description": "Integration med eksisterende systemer og kalendere" }
+    ]
+  },
+  "stats": [
+    { "value": "+35%", "label": "Produktivitet" },
+    { "value": "15t/uge", "label": "Sparet tid" },
+    { "value": "98%", "label": "Håndterede opkald" },
+    { "value": "320%", "label": "ROI" }
+  ],
+  "perfectFor": {
+    "title": "Perfekt til alle kontorvirksomheder",
+    "businessTypes": ["Advokater", "Revisorer", "Konsulenter", "Trænere", "Coaches"],
+    "ctaButton": "Book et uforpligtende møde og få et gratis test login"
+  },
+  "finalCta": {
+    "title": "Klar til at komme i gang?",
+    "subtitle": "Book et gratis og uforpligtende møde, og få adgang til et test login så du kan prøve systemet selv",
+    "button": "Book et uforpligtende møde og få et gratis test login"
+  }
+}

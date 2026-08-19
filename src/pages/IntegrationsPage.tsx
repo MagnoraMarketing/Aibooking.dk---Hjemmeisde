@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
@@ -14,17 +15,19 @@ interface IntegrationsPageProps {
 }
 
 function IntegrationsPage({ onNavigate }: IntegrationsPageProps) {
+  const { t } = useTranslation('integrationsPage');
+
   const breadcrumbData = createBreadcrumbSchema([
-    { name: 'Hjem', url: 'https://www.aibooking.dk/' },
-    { name: 'Integrationer', url: 'https://www.aibooking.dk/integrations' },
+    { name: t('breadcrumb.home'), url: 'https://www.aibooking.dk/' },
+    { name: t('breadcrumb.integrations'), url: 'https://www.aibooking.dk/integrations' },
   ]);
 
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Integrationer - Tilslut AI Receptionist til Dine Systemer | Aibooking.dk"
-        description="Integrer vores AI-receptionist med Google Calendar, Outlook, Microsoft Teams, Zoom, Slack og mange flere. Seamless kalender- og booking-integrationer."
-        keywords="kalender integration, Google Calendar, Outlook integration, booking system integration, CRM integration, email integration"
+        title={t('seo.title')}
+        description={t('seo.description')}
+        keywords={t('seo.keywords')}
         canonical="https://www.aibooking.dk/integrations"
         structuredData={breadcrumbData}
       />

@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Book a Free Demo - See the AI Receptionist in Action | Aibooking.dk",
+    "description": "Book a free, no-obligation demo of our AI receptionist. Get 7 days of free access and see how we can transform your business. Book now.",
+    "keywords": "book demo, free demo, AI receptionist demo, try free, no-obligation demo"
+  },
+  "breadcrumb": { "home": "Home", "demo": "Book Demo" },
+  "hero": {
+    "badge": "Exclusive Offer",
+    "title": "Book Your Free Demo",
+    "subtitle_line1": "Get a personal walkthrough of the system and see how our AI receptionist can transform your business. Book a free, no-obligation demo today and get a ",
+    "subtitle_bold": "7-day free trial",
+    "subtitle_line2": " with full access."
+  },
+  "heroCards": [
+    { "title": "Free Walkthrough", "description": "Get a personal, no-obligation walkthrough tailored to your business and your needs." },
+    { "title": "7-Day Free Demo", "description": "Test all features with no commitment for 7 days. Completely no-obligation and no credit card required." },
+    { "title": "We Help You Get Started", "description": "Our team guides you through the entire setup and makes sure you get off to a great start from day one." }
+  ],
+  "booking": {
+    "title": "Choose Your Time",
+    "subtitle": "Book a meeting that fits your calendar",
+    "button": "Book Your Free Demo"
+  },
+  "afterBooking": {
+    "title": "What Happens After Booking?",
+    "steps": [
+      { "title": "Book a Meeting", "desc": "Choose a time that suits you" },
+      { "title": "Personal Demo", "desc": "See the AI receptionist in action" },
+      { "title": "Free Activation", "desc": "Get 7 days of full access" },
+      { "title": "Enjoy the Benefits", "desc": "Focus on growing your clinic" }
+    ]
+  },
+  "whyChoose": {
+    "title": "Why Choose Our AI Receptionist?",
+    "subtitle": "Experience the difference with the market's most advanced AI-powered booking system, designed specifically for Danish businesses"
+  },
+  "features": [
+    {
+      "title": "24/7 Availability",
+      "description": "Our AI receptionist works around the clock with no breaks, holidays, or days off. Your customers can always book an appointment, whether it's the middle of the night, the weekend, or a public holiday. That means more bookings and higher customer satisfaction."
+    },
+    {
+      "title": "Increased Efficiency",
+      "description": "Automate up to 80% of your phone inquiries and free up valuable time for your staff. Drastically reduce administrative tasks and let your team focus on delivering top-class service to your customers."
+    },
+    {
+      "title": "Instant Response",
+      "description": "No waiting time for your customers. The AI answers every call instantly and can handle unlimited conversations simultaneously. That means zero missed calls and maximum customer satisfaction at all times."
+    },
+    {
+      "title": "Smart Calendar Integration",
+      "description": "Seamless integration with your existing booking system. The AI sees your real calendar in real time and only books available slots. Every appointment is synced automatically with detailed notes on the conversation and the customer's requests."
+    },
+    {
+      "title": "Reduce No-Shows",
+      "description": "Automatic reminders via SMS and email reduce missed appointments by up to 65%. The system sends intelligent reminders at the right time and can even rebook automatically in case of cancellations."
+    },
+    {
+      "title": "Flawless Danish",
+      "description": "Our AI is trained specifically for the Danish language and Danish cultural norms. It understands dialects and slang and speaks natural Danish. Your customers experience a pleasant, professional conversation every single time."
+    }
+  ],
+  "benefitsSection": {
+    "title": "Concrete Benefits For Your Business",
+    "benefits": [
+      { "title": "Save 10+ Hours a Week", "description": "Free up time that used to go on answering the phone, managing bookings, and sending reminders. Spend that time growing your business instead." },
+      { "title": "Increase Revenue by 30%", "description": "Capture every lead 24/7 and reduce lost bookings. More bookings and fewer no-shows mean a direct increase in revenue." },
+      { "title": "Zero Missed Calls", "description": "Every unanswered call is lost revenue. With the AI receptionist, no call slips through - even when you're busy, in a meeting, or outside opening hours." },
+      { "title": "Better Customer Experience", "description": "Consistently high quality of service every time. No bad days, no stress-induced mistakes. Your customers always experience a professional, friendly receptionist." },
+      { "title": "Complete Documentation", "description": "Every conversation is recorded and transcribed automatically. Gain valuable insight into customer requests, common questions, and opportunities to improve your service." },
+      { "title": "Scalable Solution", "description": "Handle 1 or 1,000 calls a day without hiring more staff. The system grows with your business at no extra cost." }
+    ],
+    "ctaTitle": "Ready to Get Started?",
+    "ctaText": "Book your free demo now and get 7 days of full access to the system. We guide you through the entire setup and make sure you get off to a great start. No commitment, no credit card required.",
+    "ctaButton": "Book Your Free Demo Now"
+  },
+  "industries": {
+    "title": "Perfect For All Types of Service Businesses",
+    "subtitle": "Our AI receptionist is designed to handle bookings and customer service for every industry",
+    "items": [
+      { "title": "Healthcare", "desc": "Dentists, physiotherapists, chiropractors, massage clinics, psychologists" },
+      { "title": "Beauty & Wellness", "desc": "Hairdressers, cosmetologists, nail salons, spas, tattoo artists" },
+      { "title": "Trades & Services", "desc": "Plumbers, electricians, painters, carpenters, cleaning, moving companies" },
+      { "title": "Consulting & Coaching", "desc": "Lawyers, accountants, consultants, personal trainers, career coaches" }
+    ]
+  }
+}

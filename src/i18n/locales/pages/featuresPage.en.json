@@ -1,0 +1,170 @@
+{
+  "seo": {
+    "title": "Features - AI Receptionist, Dashboard, Voice Calls and Widget | Aibooking.dk",
+    "description": "Explore all Aibooking.dk features: a complete AI dashboard, inbound and outbound AI voice calls, an AI chat widget for your website, and automatic booking. Try it free.",
+    "keywords": "AI features, AI receptionist, AI dashboard, inbound calls, outbound calls, AI widget, automatic booking, AI chat, Danish AI"
+  },
+  "breadcrumb": { "home": "Home", "features": "Features" },
+  "hero": {
+    "badge": "All Features",
+    "title_line1": "A complete AI platform for",
+    "title_line2": "modern businesses",
+    "subtitle": "From intelligent call handling and outbound AI voice calls to a complete dashboard and an AI widget for your website — all in one platform. Save time, increase conversions, and give your customers a professional experience 24/7."
+  },
+  "mainBenefits": [
+    { "title": "Save 85% of your phone time", "description": "Free up valuable time for core tasks" },
+    { "title": "320% ROI", "description": "Proven value from day one" },
+    { "title": "98% customer satisfaction", "description": "Professional service around the clock" },
+    { "title": "+45% more conversions", "description": "Never miss an opportunity again" }
+  ],
+  "dashboard": {
+    "badge": "Your Control Center",
+    "title_line1": "A complete dashboard —",
+    "title_line2": "full control over every interaction",
+    "description": "With Aibooking.dk's dashboard, you always have a precise overview of your business's AI activity. See which calls have been handled, listen to conversations, read AI-generated notes, and track your bookings in real time — all in one place.",
+    "cta": "See the dashboard in action"
+  },
+  "dashboardFeatures": [
+    { "label": "Real-time call statistics", "desc": "See all calls live and historically" },
+    { "label": "AI-generated call notes", "desc": "Automatic summary of every call" },
+    { "label": "Booking and conversion rate", "desc": "Track exactly how many calls turn into bookings" },
+    { "label": "Listen to recorded calls", "desc": "Full audio log always available" },
+    { "label": "Live synchronization", "desc": "Dashboard updates in real time" },
+    { "label": "Custom overview", "desc": "Configure your own dashboard layout" }
+  ],
+  "dashboardMock": {
+    "url_label": "dashboard.aibooking.dk",
+    "calls_today_label": "Calls today",
+    "calls_today_change": "+12% vs yesterday",
+    "bookings_label": "Bookings",
+    "bookings_conv": "66% conv.",
+    "response_time_label": "Response time",
+    "response_time_avg": "Average",
+    "recent_calls_label": "Recent calls",
+    "unknown_caller": "Unknown number",
+    "outcome_booked": "Booked",
+    "outcome_info": "Info given",
+    "outcome_forwarded": "Forwarded",
+    "weekly_activity_label": "Weekly activity",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "live_data": "Live Data"
+  },
+  "voiceSection": {
+    "badge": "AI Voice Calls",
+    "title_line1": "Inbound and outbound AI voice calls",
+    "title_line2": "at a professional level",
+    "subtitle": "Our AI receptionist speaks fluent Danish and sounds like a real person. It handles all types of calls — from bookings and questions to outbound reminders and follow-ups."
+  },
+  "incoming": {
+    "title": "Inbound AI Calls",
+    "subtitle": "Answers every call — 24 hours a day",
+    "live_label": "Inbound call — active",
+    "msg1": "\"Hi, I'd like to book a consultation...\"",
+    "msg2": "\"Of course! When works best for you?\""
+  },
+  "voiceInFeatures": [
+    "AI receptionist answers instantly",
+    "Understands all Danish dialects",
+    "Handles multiple simultaneous calls",
+    "Automatic booking right in the conversation",
+    "Transfers to human support when needed",
+    "Full call summary sent to you after the call"
+  ],
+  "outgoing": {
+    "title": "Outbound AI Calls",
+    "subtitle": "Automated customer communication",
+    "live_label": "Outbound call — sending reminder",
+    "msg": "\"Hi Lars, this is a reminder about your appointment tomorrow at 10:00...\"",
+    "confirmed_label": "Appointment confirmed by the customer"
+  },
+  "voiceOutFeatures": [
+    "Automatic confirmation calls to customers",
+    "Reminders about appointments the day before",
+    "Follow-up on missed enquiries",
+    "Re-engaging inactive customers",
+    "Personalized AI voice in your brand",
+    "Full log and recording of every outbound call"
+  ],
+  "voiceCta": {
+    "text": "Hear what the AI receptionist sounds like — book a free demonstration",
+    "button": "Book a free demonstration"
+  },
+  "widgetSection": {
+    "badge": "AI Chat Widget — New",
+    "title_line1": "An AI widget for your website —",
+    "title_line2": "convert visitors into customers",
+    "subtitle": "Add an intelligent AI chat assistant to your website with a single line of code. The widget answers questions, handles bookings, and guides your visitors — automatically, in Danish, around the clock."
+  },
+  "widgetIntro": {
+    "badge_plug_play": "Plug & Play",
+    "badge_active_5min": "Active in 5 minutes",
+    "title": "Your 24/7 AI sales assistant",
+    "description": "The Aibooking.dk AI widget is more than a chatbot. It's an intelligent sales assistant that understands your visitors' needs, gives precise answers based on your content, and converts enquiries into bookings — fully automatically."
+  },
+  "widgetBenefits": [
+    { "title": "Works on any website", "desc": "WordPress, Shopify, Webflow, custom — one line of code" },
+    { "title": "AI-powered live chat", "desc": "Answers questions, books appointments and converts visitors" },
+    { "title": "Natural Danish language understanding", "desc": "Understands context and nuance in customer questions" },
+    { "title": "Active in under 5 minutes", "desc": "No technical knowledge required — plug and play" },
+    { "title": "Direct booking in the chat", "desc": "Customers can book a time without leaving the page" },
+    { "title": "+45% conversion increase", "desc": "Proven effect on sales and leads" }
+  ],
+  "widgetButtons": {
+    "see_plans": "See AI Widget plans",
+    "book_demo": "Book a demo"
+  },
+  "voiceWidget": {
+    "badge": "AI Voice Widget",
+    "badge_active": "Voice-activated",
+    "badge_active_desc": "Talk directly with AI",
+    "title": "Voice-controlled AI right on your website",
+    "description": "With our AI Voice Widget, your visitors can talk directly to an AI assistant on your website. It creates an outstanding customer experience and makes it easier to book, ask and engage — without typing a word."
+  },
+  "voiceWidgetFeatures": [
+    "Natural Danish voice and understanding",
+    "Activated with one click — no app download",
+    "Integrates with your calendar and booking system",
+    "Works on mobile, tablet and desktop",
+    "Combine voice and chat in the same widget",
+    "Full log of every conversation in the dashboard"
+  ],
+  "voiceWidgetButton": "Get started with the Widget",
+  "statsBand": [
+    { "value": "85%", "label": "Less phone time" },
+    { "value": "60%", "label": "Fewer no-shows" },
+    { "value": "98%", "label": "Customer satisfaction" },
+    { "value": "320%", "label": "ROI in year one" }
+  ],
+  "additionalTitle": {
+    "title": "All features — one unified system",
+    "subtitle": "Aibooking.dk is designed to work as your complete communication center. No separate systems, no messy integrations — just one system that works."
+  },
+  "additionalFeatures": [
+    {
+      "title": "Automatic Calendar Integration",
+      "description": "Syncs seamlessly with Google Calendar, Outlook, and all popular calendar systems. No double bookings, no conflicts — everything updates automatically.",
+      "benefits": ["Integration with Google Calendar and Outlook", "Real-time synchronization", "Automatic availability checks", "Handles rebookings and cancellations"]
+    },
+    {
+      "title": "SMS Reminders and Confirmations",
+      "description": "Reduce no-shows by up to 60% with automatic SMS reminders. Customers receive confirmations and reminders tailored to your business's tone and brand.",
+      "benefits": ["Automatic booking confirmations", "Reminders 24 hours before appointments", "Option to rebook via SMS", "Custom message templates"]
+    },
+    {
+      "title": "GDPR-Secure and Danish Hosting",
+      "description": "All data is handled in compliance with GDPR and stored securely in Denmark. End-to-end encryption, full transparency, and regular security audits.",
+      "benefits": ["Full GDPR compliance", "Data hosted in Denmark", "End-to-end encryption", "Regular security audits"]
+    },
+    {
+      "title": "Fast Setup — Under 24 Hours",
+      "description": "Get started in under 24 hours with help from our dedicated onboarding specialist. The AI is trained for your industry and starts taking calls almost immediately.",
+      "benefits": ["Setup in under 24 hours", "Dedicated onboarding specialist", "Tailored to your industry", "Continuous optimization"]
+    }
+  ],
+  "ctaSection": {
+    "title": "Ready to automate your business?",
+    "subtitle": "Try Aibooking.dk free for 7 days and see the difference for yourself — no commitment, no card details.",
+    "button_demo": "Book a free demo",
+    "button_widget": "See the AI Widget"
+  }
+}

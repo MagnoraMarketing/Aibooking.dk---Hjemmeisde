@@ -1,0 +1,22 @@
+{
+  "seo": {
+    "title": "{{category}} - AI Booking Blog | AIBooking.dk",
+    "keywords": "{{slug}}, ai automation, booking, {{category}}"
+  },
+  "notFound": {
+    "title": "Kategori ikke fundet",
+    "backToBlog": "Tilbage til blog"
+  },
+  "backToAll": "Tilbage til alle artikler",
+  "tryWidgetCta": "Prøv AI Widget Gratis",
+  "emptyState": {
+    "message": "Ingen artikler i denne kategori endnu.",
+    "viewAll": "Se alle artikler"
+  },
+  "readArticle": "Læs artikel",
+  "wantMore": {
+    "title": "Vil du vide mere?",
+    "description": "Kontakt os for at høre hvordan AI automatisering kan transformere din virksomhed.",
+    "cta": "Book en demo"
+  }
+}

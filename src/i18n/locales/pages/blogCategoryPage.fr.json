@@ -1,0 +1,22 @@
+{
+  "seo": {
+    "title": "{{category}} - Blog AI Booking | AIBooking.dk",
+    "keywords": "{{slug}}, automatisation IA, réservations, {{category}}"
+  },
+  "notFound": {
+    "title": "Catégorie introuvable",
+    "backToBlog": "Retour au blog"
+  },
+  "backToAll": "Retour à tous les articles",
+  "tryWidgetCta": "Essayez le AI Widget Gratuitement",
+  "emptyState": {
+    "message": "Aucun article dans cette catégorie pour le moment.",
+    "viewAll": "Voir tous les articles"
+  },
+  "readArticle": "Lire l'article",
+  "wantMore": {
+    "title": "Vous voulez en savoir plus ?",
+    "description": "Contactez-nous pour découvrir comment l'automatisation IA peut transformer votre entreprise.",
+    "cta": "Réserver une démo"
+  }
+}

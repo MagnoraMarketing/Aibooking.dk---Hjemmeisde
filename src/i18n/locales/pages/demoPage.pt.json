@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Marque uma Demonstração Gratuita - Veja a Rececionista IA em Ação | Aibooking.dk",
+    "description": "Marque uma demonstração gratuita e sem compromisso da nossa rececionista IA. Obtenha 7 dias de acesso gratuito e veja como podemos transformar o seu negócio. Marque já.",
+    "keywords": "marcar demonstração, demonstração gratuita, demonstração rececionista IA, experimentar grátis, demonstração sem compromisso"
+  },
+  "breadcrumb": { "home": "Início", "demo": "Marcar Demonstração" },
+  "hero": {
+    "badge": "Oferta Exclusiva",
+    "title": "Marque a Sua Demonstração Gratuita",
+    "subtitle_line1": "Obtenha uma apresentação pessoal do sistema e veja como a nossa rececionista IA pode transformar o seu negócio. Marque hoje uma demonstração gratuita e sem compromisso e obtenha um ",
+    "subtitle_bold": "período experimental gratuito de 7 dias",
+    "subtitle_line2": " com acesso total."
+  },
+  "heroCards": [
+    { "title": "Apresentação Gratuita", "description": "Obtenha uma apresentação pessoal e sem compromisso, adaptada ao seu negócio e às suas necessidades." },
+    { "title": "Demonstração Gratuita de 7 Dias", "description": "Teste todas as funcionalidades sem qualquer compromisso durante 7 dias. Totalmente sem compromisso e sem necessidade de cartão de crédito." },
+    { "title": "Ajudamo-lo a Começar", "description": "A nossa equipa acompanha-o durante toda a configuração e garante que começa com o pé direito desde o primeiro dia." }
+  ],
+  "booking": {
+    "title": "Escolha o Seu Horário",
+    "subtitle": "Marque uma reunião que se adapte à sua agenda",
+    "button": "Marque a Sua Demonstração Gratuita"
+  },
+  "afterBooking": {
+    "title": "O Que Acontece Depois de Marcar?",
+    "steps": [
+      { "title": "Marcar Reunião", "desc": "Escolha um horário que lhe convenha" },
+      { "title": "Demonstração Pessoal", "desc": "Veja a rececionista IA em ação" },
+      { "title": "Ativação Gratuita", "desc": "Obtenha 7 dias de acesso total" },
+      { "title": "Aproveite as Vantagens", "desc": "Concentre-se em fazer crescer a sua clínica" }
+    ]
+  },
+  "whyChoose": {
+    "title": "Porquê Escolher a Nossa Rececionista IA?",
+    "subtitle": "Sinta a diferença com o sistema de marcações com IA mais avançado do mercado, concebido especificamente para empresas dinamarquesas"
+  },
+  "features": [
+    {
+      "title": "Disponibilidade 24/7",
+      "description": "A nossa rececionista IA trabalha 24 horas por dia, sem pausas, férias ou folgas. Os seus clientes podem sempre marcar uma consulta, seja a meio da noite, ao fim de semana ou num feriado. Isto significa mais marcações e maior satisfação do cliente."
+    },
+    {
+      "title": "Maior Eficiência",
+      "description": "Automatize até 80% dos seus contactos telefónicos e liberte tempo valioso para a sua equipa. Reduza drasticamente as tarefas administrativas e deixe a sua equipa concentrar-se em prestar um serviço de excelência aos seus clientes."
+    },
+    {
+      "title": "Resposta Imediata",
+      "description": "Sem tempo de espera para os seus clientes. A IA atende todas as chamadas de imediato e consegue gerir conversas ilimitadas em simultâneo. Isto significa zero chamadas perdidas e máxima satisfação do cliente a qualquer momento."
+    },
+    {
+      "title": "Integração Inteligente de Calendário",
+      "description": "Integração perfeita com o seu sistema de marcações existente. A IA vê o seu calendário real em tempo real e marca apenas horários disponíveis. Todas as consultas são sincronizadas automaticamente com notas detalhadas sobre a conversa e os pedidos do cliente."
+    },
+    {
+      "title": "Reduza as Faltas",
+      "description": "Lembretes automáticos por SMS e email reduzem as faltas a consultas em até 65%. O sistema envia lembretes inteligentes na altura certa e pode até remarcar automaticamente em caso de cancelamentos."
+    },
+    {
+      "title": "Português Perfeito",
+      "description": "A nossa IA é treinada especificamente para a língua e as normas culturais locais. Compreende sotaques e expressões coloquiais e fala de forma natural. Os seus clientes desfrutam de uma conversa agradável e profissional em todas as ocasiões."
+    }
+  ],
+  "benefitsSection": {
+    "title": "Vantagens Concretas Para o Seu Negócio",
+    "benefits": [
+      { "title": "Poupe 10+ Horas por Semana", "description": "Liberte tempo que antes era gasto a atender o telefone, gerir marcações e enviar lembretes. Use esse tempo para fazer crescer o seu negócio." },
+      { "title": "Aumente a Receita em 30%", "description": "Capte todos os leads 24/7 e reduza as marcações perdidas. Mais marcações e menos faltas significam um aumento direto da receita." },
+      { "title": "Zero Chamadas Perdidas", "description": "Cada chamada não atendida é receita perdida. Com a rececionista IA, nenhuma chamada fica sem resposta - mesmo quando está ocupado, em reunião ou fora do horário de funcionamento." },
+      { "title": "Melhor Experiência do Cliente", "description": "Qualidade de serviço consistentemente elevada, sempre. Sem dias maus, sem erros por stress. Os seus clientes desfrutam sempre de uma rececionista profissional e simpática." },
+      { "title": "Documentação Completa", "description": "Todas as conversas são gravadas e transcritas automaticamente. Obtenha informações valiosas sobre os pedidos dos clientes, perguntas frequentes e oportunidades para melhorar o seu serviço." },
+      { "title": "Solução Escalável", "description": "Gira 1 ou 1000 chamadas por dia sem contratar mais pessoal. O sistema cresce com o seu negócio sem custos adicionais." }
+    ],
+    "ctaTitle": "Pronto Para Começar?",
+    "ctaText": "Marque já a sua demonstração gratuita e obtenha 7 dias de acesso total ao sistema. Acompanhamo-lo durante toda a configuração e garantimos que começa com o pé direito. Sem compromisso, sem necessidade de cartão de crédito.",
+    "ctaButton": "Marque Já a Sua Demonstração Gratuita"
+  },
+  "industries": {
+    "title": "Perfeito Para Todo o Tipo de Empresas de Serviços",
+    "subtitle": "A nossa rececionista IA foi concebida para gerir marcações e apoio ao cliente em todos os setores",
+    "items": [
+      { "title": "Setor da Saúde", "desc": "Dentistas, fisioterapeutas, quiropráticos, clínicas de massagem, psicólogos" },
+      { "title": "Beleza & Bem-Estar", "desc": "Cabeleireiros, esteticistas, estúdios de unhas, spas, tatuadores" },
+      { "title": "Artesãos & Serviços", "desc": "Canalizadores, eletricistas, pintores, carpinteiros, limpezas, empresas de mudanças" },
+      { "title": "Consultoria & Coaching", "desc": "Advogados, contabilistas, consultores, personal trainers, coaches de carreira" }
+    ]
+  }
+}

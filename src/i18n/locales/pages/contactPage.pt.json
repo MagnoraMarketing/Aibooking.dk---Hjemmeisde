@@ -1,0 +1,53 @@
+{
+  "seo": {
+    "title": "Contacte-nos - Obtenha Ajuda e Suporte | Aibooking.dk",
+    "description": "Tem dúvidas sobre a nossa recepcionista de IA? Contacte a nossa equipa de suporte dinamarquesa. Respondemos no prazo de 24 horas. Ligue para +45 91952794 ou envie um email.",
+    "keywords": "contactar aibooking, suporte dinamarquês, ajuda recepcionista IA, apoio ao cliente, marcar demonstração"
+  },
+  "breadcrumb": { "home": "Início", "contact": "Contacto" },
+  "hero": {
+    "badge": "Estamos prontos para ajudar",
+    "title": "Contacte-nos hoje",
+    "subtitle": "Tem dúvidas ou quer saber mais sobre como a Aibooking.dk pode ajudar a sua empresa? Estamos aqui para o ajudar."
+  },
+  "infoCards": {
+    "call": { "title": "Ligue-nos", "desc": "Teremos todo o gosto em responder às suas perguntas" },
+    "email": { "title": "Envie um email", "desc": "Respondemos no prazo de 24 horas" },
+    "hours": { "title": "Horário de funcionamento", "line1": "Seg-Sex: 9:00 - 17:00", "line2": "Fim de semana: Encerrado" }
+  },
+  "form": {
+    "title": "Envie-nos uma mensagem",
+    "subtitle": "Preencha o formulário abaixo e entraremos em contacto o mais rapidamente possível",
+    "successTitle": "Obrigado pela sua mensagem!",
+    "successMessage": "Entraremos em contacto o mais rapidamente possível.",
+    "error": "Ocorreu um erro. Por favor, tente novamente.",
+    "labels": {
+      "name": "Nome",
+      "email": "Email",
+      "phone": "Telefone (opcional)",
+      "message": "Mensagem"
+    },
+    "placeholders": {
+      "name": "O seu nome completo",
+      "email": "oseu@email.com",
+      "phone": "+45 91952794",
+      "message": "Como podemos ajudar?"
+    },
+    "submit": "Enviar mensagem",
+    "sending": "A enviar..."
+  },
+  "location": {
+    "title": "Encontre-nos aqui",
+    "companyName": "Aibooking.dk ApS",
+    "addressLine1": "Trindsøvej 6, 1. sal",
+    "addressLine2": "8000 Aarhus C, Danmark"
+  },
+  "whyUs": {
+    "title": "Porquê escolher-nos?",
+    "items": [
+      "Suporte dinamarquês em dinamarquês",
+      "Implementação rápida",
+      "Solução em conformidade com o RGPD"
+    ]
+  }
+}

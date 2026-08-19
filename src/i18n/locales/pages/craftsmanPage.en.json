@@ -1,0 +1,45 @@
+{
+  "seo": {
+    "title": "AI Receptionist for Tradespeople - Plumbers, Electricians, Carpenters | Aibooking.dk",
+    "description": "Automatic booking for tradespeople. Never miss a job again. 45% more jobs, 100% answer rate. Perfect for plumbers, electricians and painters. Try it free.",
+    "keywords": "tradesperson booking, plumber booking, electrician booking, carpenter booking, trade AI receptionist, job automation"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "industries": "Industries",
+    "craftsman": "Tradespeople"
+  },
+  "hero": {
+    "badge": "Tradespeople",
+    "title": "Stop losing jobs because the phone doesn't get answered",
+    "subtitle": "You know the feeling: you're in the middle of a job and the phone rings. If you answer it, you lose focus. If you don't, you risk losing a good job. It's an impossible situation."
+  },
+  "solution": {
+    "title": "Never miss a job again",
+    "description": "Our AI receptionist solves this problem once and for all. The system answers every call, records customer details, books site visits and sends automatic confirmations via SMS. In your dashboard you can see every enquiry, listen to recorded conversations, get short summaries of what the customer wants, and see what's been agreed. Your calendar updates automatically, no matter which system you use. Stop worrying about missed jobs – focus on your craft."
+  },
+  "benefits": [
+    { "title": "Answer every enquiry", "description": "Even when you're on a job and can't pick up the phone" },
+    { "title": "Automatic logging", "description": "Customer details and job descriptions are saved automatically" },
+    { "title": "Book site visits directly", "description": "Straight into your calendar – syncs automatically with your system" },
+    { "title": "SMS confirmations", "description": "For both you and the customer, with all the relevant details" },
+    { "title": "Complete dashboard", "description": "See every customer enquiry and what's been agreed" },
+    { "title": "24/7 availability", "description": "The system works around the clock, weekends included" }
+  ],
+  "stats": [
+    { "value": "+45%", "label": "More jobs" },
+    { "value": "10h/week", "label": "Time saved" },
+    { "value": "100%", "label": "Answer rate" },
+    { "value": "4.9/5", "label": "Customer satisfaction" }
+  ],
+  "trades": {
+    "title": "Perfect for every trade",
+    "items": ["Plumbing", "Electricians", "Painters", "Carpenters", "Cleaning", "Moving companies"],
+    "cta": "Book a no-obligation meeting and get a free test login"
+  },
+  "finalCta": {
+    "title": "Ready to get started?",
+    "subtitle": "Book a free, no-obligation meeting and get access to a test login so you can try the system yourself",
+    "button": "Book a no-obligation meeting and get a free test login"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "seo": {
+    "title": "AI Receptionist for Clinics - Dentists, Physiotherapists | Aibooking.dk",
+    "description": "Automatic booking for clinics, dentists, and physiotherapists. Reduce no-shows by 60%, save 12 hours a week. GDPR-secure patient data. Try it free.",
+    "keywords": "dentist booking, clinic booking, physiotherapy booking, healthcare AI receptionist, patient booking, clinic automation"
+  },
+  "breadcrumb": { "home": "Home", "industries": "Industries", "healthcare": "Clinics" },
+  "hero": {
+    "badge": "Clinics and Healthcare",
+    "title": "Freedom to focus on patient care",
+    "subtitle": "As a clinic, you know how important it is to give your patients the best possible treatment. But administrative tasks like phone calls, bookings, and cancellations steal valuable time away from patient care."
+  },
+  "solution": {
+    "title": "The complete solution for healthcare",
+    "description": "Our AI receptionist handles every customer enquiry professionally – from new bookings to rebookings and confirmations. With automatic SMS reminders, you significantly reduce no-shows. Your personalized dashboard gives you a complete overview: listen to every call, see short summaries of each conversation, what was agreed, booking statistics, and calendar integration. You can keep using your current calendar software – our system syncs automatically.",
+    "benefits": [
+      { "title": "Reduce phone time by 85%", "description": "Focus on your patients instead of administrative tasks" },
+      { "title": "Automatic SMS reminders", "description": "Reduce no-shows by up to 60% and optimize your capacity" },
+      { "title": "24/7 booking service", "description": "Handle bookings, rebookings, and cancellations around the clock" },
+      { "title": "Complete dashboard", "description": "Call history, conversation summaries, and booking statistics" },
+      { "title": "Calendar integration", "description": "Syncs automatically with your existing booking system" },
+      { "title": "GDPR compliance", "description": "Full security for sensitive patient data" }
+    ]
+  },
+  "stats": [
+    { "value": "60%", "label": "Fewer no-shows" },
+    { "value": "12h/week", "label": "Time saved" },
+    { "value": "95%", "label": "Booking rate" },
+    { "value": "4.8/5", "label": "Customer satisfaction" }
+  ],
+  "perfectFor": {
+    "title": "Perfect for every healthcare clinic",
+    "practices": ["Dentists", "Physiotherapists", "Chiropractors", "Massage clinics", "Psychologists"],
+    "cta": "Book a no-obligation meeting and get a free test login"
+  },
+  "ctaSection": {
+    "title": "Ready to get started?",
+    "subtitle": "Book a free, no-obligation meeting and get access to a test login so you can try the system yourself",
+    "button": "Book a no-obligation meeting and get a free test login"
+  }
+}

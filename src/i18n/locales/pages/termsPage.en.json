@@ -1,0 +1,62 @@
+{
+  "title": "Terms and Conditions",
+  "subtitle": "Terms and conditions for Aibooking.dk",
+  "intro": "These terms and conditions apply to the use of Aibooking.dk and the services offered through the platform. By creating an account, booking a DEMO, or purchasing a subscription, you accept the terms below.",
+  "sections": [
+    {
+      "heading": "1. General",
+      "body": "Aibooking.dk is an online booking and administration platform. The platform is offered as a digital service and is provided on an as-is, as-available basis."
+    },
+    {
+      "heading": "2. DEMO period",
+      "items": [
+        "When you book a DEMO with Aibooking.dk, you receive a 7-day free trial period.",
+        "The trial period starts from the day access is granted.",
+        "During the DEMO period, you have the opportunity to try out the platform's features."
+      ]
+    },
+    {
+      "heading": "3. Purchase and ordering",
+      "items": [
+        "You can choose to purchase directly without a DEMO period.",
+        "When purchasing, you can also order onboarding, where you are helped getting started with setting up and using Aibooking.dk.",
+        "All prices are stated in Danish kroner (DKK) and are exclusive of VAT unless otherwise stated."
+      ]
+    },
+    {
+      "heading": "4. Payment",
+      "items": [
+        "Payment is made in advance for the chosen subscription period.",
+        "The subscription is invoiced on an ongoing basis, typically monthly, unless otherwise agreed.",
+        "Failure to pay may result in suspension or closure of access to the platform."
+      ]
+    },
+    {
+      "heading": "5. Right of withdrawal",
+      "items": [
+        "There is no right of withdrawal after a purchase has been completed.",
+        "This applies both to subscriptions and any onboarding, as these are digital services that are delivered immediately."
+      ]
+    },
+    {
+      "heading": "6. Termination",
+      "items": [
+        "The subscription runs on a rolling basis of the current month plus one month.",
+        "Termination must be made in writing via email or through your account on Aibooking.dk.",
+        "The termination takes effect at the end of the following month."
+      ]
+    },
+    {
+      "heading": "7. Changes",
+      "body": "Aibooking.dk reserves the right to change these terms and conditions on an ongoing basis. Updated terms will always be available on the website."
+    },
+    {
+      "heading": "8. Limitation of liability",
+      "body": "Aibooking.dk cannot be held liable for indirect losses, loss of operation, loss of data, or other consequential damages that may arise from the use of the platform."
+    },
+    {
+      "heading": "9. Contact",
+      "body": "If you have questions about these terms and conditions, please feel free to contact us via Aibooking.dk."
+    }
+  ]
+}

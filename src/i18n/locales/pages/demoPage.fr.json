@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Réservez une Démo Gratuite - Découvrez le Réceptionniste IA en Action | Aibooking.dk",
+    "description": "Réservez une démonstration gratuite et sans engagement de notre réceptionniste IA. Bénéficiez de 7 jours d'accès gratuit et découvrez comment nous pouvons transformer votre entreprise. Réservez maintenant.",
+    "keywords": "réserver démo, démo gratuite, démonstration réceptionniste IA, essai gratuit, démo sans engagement"
+  },
+  "breadcrumb": { "home": "Accueil", "demo": "Réserver une Démo" },
+  "hero": {
+    "badge": "Offre Exclusive",
+    "title": "Réservez Votre Démo Gratuite",
+    "subtitle_line1": "Bénéficiez d'une présentation personnalisée du système et découvrez comment notre réceptionniste IA peut transformer votre entreprise. Réservez dès aujourd'hui une démo gratuite et sans engagement et profitez d'une ",
+    "subtitle_bold": "période d'essai gratuite de 7 jours",
+    "subtitle_line2": " avec accès complet."
+  },
+  "heroCards": [
+    { "title": "Présentation Gratuite", "description": "Bénéficiez d'une présentation personnalisée et sans engagement, adaptée à votre entreprise et à vos besoins." },
+    { "title": "Démo Gratuite de 7 Jours", "description": "Testez toutes les fonctionnalités sans engagement pendant 7 jours. Totalement sans obligation et sans carte de crédit requise." },
+    { "title": "Nous Vous Accompagnons", "description": "Notre équipe vous guide tout au long de la configuration et veille à ce que vous démarriez efficacement dès le premier jour." }
+  ],
+  "booking": {
+    "title": "Choisissez Votre Créneau",
+    "subtitle": "Réservez un rendez-vous adapté à votre agenda",
+    "button": "Réservez Votre Démo Gratuite"
+  },
+  "afterBooking": {
+    "title": "Que Se Passe-t-il Après la Réservation ?",
+    "steps": [
+      { "title": "Réserver un Rendez-vous", "desc": "Choisissez un créneau qui vous convient" },
+      { "title": "Démo Personnalisée", "desc": "Découvrez le réceptionniste IA en action" },
+      { "title": "Activation Gratuite", "desc": "Obtenez 7 jours d'accès complet" },
+      { "title": "Profitez des Avantages", "desc": "Concentrez-vous sur la croissance de votre cabinet" }
+    ]
+  },
+  "whyChoose": {
+    "title": "Pourquoi Choisir Notre Réceptionniste IA ?",
+    "subtitle": "Découvrez la différence avec le système de réservation propulsé par IA le plus avancé du marché, conçu spécifiquement pour les entreprises danoises"
+  },
+  "features": [
+    {
+      "title": "Disponibilité 24h/24 et 7j/7",
+      "description": "Notre réceptionniste IA travaille sans interruption, sans pauses, vacances ni jours de congé. Vos clients peuvent toujours réserver un rendez-vous, que ce soit en pleine nuit, le week-end ou un jour férié. Cela signifie plus de réservations et une plus grande satisfaction client."
+    },
+    {
+      "title": "Efficacité Accrue",
+      "description": "Automatisez jusqu'à 80 % de vos appels téléphoniques et libérez un temps précieux pour votre personnel. Réduisez considérablement les tâches administratives et laissez votre équipe se concentrer sur un service de premier ordre pour vos clients."
+    },
+    {
+      "title": "Réponse Instantanée",
+      "description": "Aucun temps d'attente pour vos clients. L'IA répond instantanément à tous les appels et peut gérer un nombre illimité de conversations simultanément. Cela signifie zéro appel manqué et une satisfaction client maximale en permanence."
+    },
+    {
+      "title": "Intégration Intelligente au Calendrier",
+      "description": "Intégration fluide avec votre système de réservation existant. L'IA consulte votre calendrier réel en temps réel et ne réserve que les créneaux disponibles. Tous les rendez-vous sont synchronisés automatiquement avec des notes détaillées sur la conversation et les souhaits du client."
+    },
+    {
+      "title": "Réduisez les Absences",
+      "description": "Des rappels automatiques par SMS et email réduisent les rendez-vous manqués jusqu'à 65 %. Le système envoie des rappels intelligents au bon moment et peut même reprogrammer automatiquement en cas d'annulation."
+    },
+    {
+      "title": "Un Français Parfait",
+      "description": "Notre IA est entraînée spécifiquement pour la langue et les normes culturelles locales. Elle comprend les accents et les tournures familières et parle naturellement. Vos clients bénéficient d'une conversation agréable et professionnelle à chaque fois."
+    }
+  ],
+  "benefitsSection": {
+    "title": "Des Avantages Concrets Pour Votre Entreprise",
+    "benefits": [
+      { "title": "Économisez 10+ Heures par Semaine", "description": "Libérez le temps auparavant consacré à répondre au téléphone, gérer les réservations et envoyer des rappels. Consacrez ce temps à faire croître votre entreprise." },
+      { "title": "Augmentez vos Revenus de 30 %", "description": "Captez chaque prospect 24h/24 et 7j/7 et réduisez les réservations perdues. Plus de réservations et moins d'absences signifient une augmentation directe du chiffre d'affaires." },
+      { "title": "Zéro Appel Manqué", "description": "Chaque appel manqué est un revenu perdu. Avec le réceptionniste IA, aucun appel n'est manqué - même lorsque vous êtes occupé, en réunion ou en dehors des heures d'ouverture." },
+      { "title": "Meilleure Expérience Client", "description": "Une qualité de service constamment élevée à chaque fois. Pas de mauvais jours, pas d'erreurs dues au stress. Vos clients bénéficient toujours d'un accueil professionnel et chaleureux." },
+      { "title": "Documentation Complète", "description": "Toutes les conversations sont enregistrées et transcrites automatiquement. Obtenez des informations précieuses sur les demandes des clients, les questions fréquentes et les possibilités d'améliorer votre service." },
+      { "title": "Solution Évolutive", "description": "Gérez 1 ou 1000 appels par jour sans embaucher davantage de personnel. Le système évolue avec votre entreprise sans coûts supplémentaires." }
+    ],
+    "ctaTitle": "Prêt à Vous Lancer ?",
+    "ctaText": "Réservez votre démo gratuite dès maintenant et bénéficiez de 7 jours d'accès complet au système. Nous vous guidons tout au long de la configuration et veillons à ce que vous démarriez dans les meilleures conditions. Sans engagement, sans carte de crédit requise.",
+    "ctaButton": "Réservez Votre Démo Gratuite Maintenant"
+  },
+  "industries": {
+    "title": "Idéal Pour Tous les Types d'Entreprises de Services",
+    "subtitle": "Notre réceptionniste IA est conçu pour gérer les réservations et le service client dans tous les secteurs",
+    "items": [
+      { "title": "Secteur de la Santé", "desc": "Dentistes, kinésithérapeutes, chiropracteurs, cliniques de massage, psychologues" },
+      { "title": "Beauté & Bien-être", "desc": "Coiffeurs, esthéticiennes, instituts de manucure, spas, tatoueurs" },
+      { "title": "Artisanat & Services", "desc": "Plombiers, électriciens, peintres, menuisiers, entreprises de nettoyage, déménageurs" },
+      { "title": "Conseil & Coaching", "desc": "Avocats, comptables, consultants, coachs sportifs, coachs de carrière" }
+    ]
+  }
+}

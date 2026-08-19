@@ -1,0 +1,45 @@
+{
+  "seo": {
+    "title": "AI Receptionist til Håndværkere - VVS, Elektrikere, Tømrere | Aibooking.dk",
+    "description": "Automatisk booking til håndværkere. Aldrig gå glip af en ordre igen. 45% flere ordrer, 100% svar-rate. Perfekt til VVS, elektrikere og malere. Prøv gratis.",
+    "keywords": "håndværker booking, VVS booking, elektriker booking, tømrer booking, håndværk AI receptionist, ordre automatisering"
+  },
+  "breadcrumb": {
+    "home": "Hjem",
+    "industries": "Brancher",
+    "craftsman": "Håndværkere"
+  },
+  "hero": {
+    "badge": "Håndværkere",
+    "title": "Stop med at miste ordrer fordi telefonen ikke bliver taget",
+    "subtitle": "Du kender det: Du er midt i et job, og telefonen ringer. Hvis du tager den, mister du fokus. Hvis du ikke gør, mister du potentielt en god ordre. Det er en umulig situation."
+  },
+  "solution": {
+    "title": "Aldrig gå glip af en ordre igen",
+    "description": "Vores AI-receptionist løser dette problem én gang for alle. Systemet tager imod alle opkald, registrerer kundeoplysninger, booker besigtigelser og sender automatiske bekræftelser via SMS. I dit dashboard kan du se alle henvendelser, lytte til optagede samtaler, få korte opsummeringer af hvad kunden ønsker, og se hvad der er blevet aftalt. Din kalender opdateres automatisk, uanset hvilket system du bruger. Slip for bekymringen om mistede ordrer – fokuser på dit håndværk."
+  },
+  "benefits": [
+    { "title": "Tag imod alle henvendelser", "description": "Selv når du er på job og ikke kan svare på telefonen" },
+    { "title": "Automatisk registrering", "description": "Kundeoplysninger og opgavebeskrivelser gemmes automatisk" },
+    { "title": "Book besigtigelser direkte", "description": "I din kalender – synkroniserer automatisk med dit system" },
+    { "title": "SMS-bekræftelser", "description": "Til både dig og kunden med alle relevante detaljer" },
+    { "title": "Komplet dashboard", "description": "Se alle kundehenvendelser og hvad der er aftalt" },
+    { "title": "24/7 tilgængelighed", "description": "Systemet arbejder hele døgnet, også i weekenden" }
+  ],
+  "stats": [
+    { "value": "+45%", "label": "Flere ordrer" },
+    { "value": "10t/uge", "label": "Sparet tid" },
+    { "value": "100%", "label": "Svar-rate" },
+    { "value": "4.9/5", "label": "Kundetilfredshed" }
+  ],
+  "trades": {
+    "title": "Perfekt til alle håndværksfag",
+    "items": ["VVS", "Elektrikere", "Malere", "Tømrere", "Rengøring", "Flyttefirmaer"],
+    "cta": "Book et uforpligtende møde og få et gratis test login"
+  },
+  "finalCta": {
+    "title": "Klar til at komme i gang?",
+    "subtitle": "Book et gratis og uforpligtende møde, og få adgang til et test login så du kan prøve systemet selv",
+    "button": "Book et uforpligtende møde og få et gratis test login"
+  }
+}

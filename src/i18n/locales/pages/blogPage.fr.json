@@ -1,0 +1,17 @@
+{
+  "seo": {
+    "title": "Blog - Automatisation IA et Insights sur les Réservations | AIBooking.dk",
+    "description": "Lisez les derniers articles sur l'automatisation IA, les systèmes de réservation et les solutions numériques pour les entreprises modernes. Analyses d'experts sur les widgets IA, les assistants téléphoniques et l'automatisation complète.",
+    "keywords": "blog ia, automatisation de réservation, insights ia, transformation numérique, widget ia, assistant téléphonique"
+  },
+  "hero": {
+    "badge": "Derniers Articles",
+    "title": "AI Booking Blog",
+    "subtitle": "Découvrez des analyses sur l'automatisation IA, les systèmes de réservation et les solutions numériques qui transforment les entreprises modernes."
+  },
+  "featured": {
+    "label": "À la une",
+    "readArticle": "Lire l'article"
+  },
+  "readMore": "Lire la suite"
+}

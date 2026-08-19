@@ -1,0 +1,170 @@
+{
+  "seo": {
+    "title": "Funcionalidades - Recepcionista IA, Dashboard, Chamadas de Voz e Widget | Aibooking.dk",
+    "description": "Explore todas as funcionalidades da Aibooking.dk: um dashboard de IA completo, chamadas de voz IA recebidas e efetuadas, um widget de chat IA para o seu website e marcações automáticas. Experimente grátis.",
+    "keywords": "funcionalidades IA, recepcionista IA, dashboard IA, chamadas recebidas, chamadas efetuadas, widget IA, marcação automática, chat IA, IA em português"
+  },
+  "breadcrumb": { "home": "Início", "features": "Funcionalidades" },
+  "hero": {
+    "badge": "Todas as Funcionalidades",
+    "title_line1": "Uma plataforma de IA completa para",
+    "title_line2": "empresas modernas",
+    "subtitle": "Da gestão inteligente de chamadas e chamadas de voz IA efetuadas a um dashboard completo e um widget de IA para o seu website — tudo numa só plataforma. Poupe tempo, aumente as conversões e ofereça aos seus clientes uma experiência profissional 24 horas por dia."
+  },
+  "mainBenefits": [
+    { "title": "Poupe 85% do seu tempo ao telefone", "description": "Liberte tempo valioso para as tarefas essenciais" },
+    { "title": "ROI de 320%", "description": "Valor comprovado desde o primeiro dia" },
+    { "title": "98% de satisfação do cliente", "description": "Serviço profissional 24 horas por dia" },
+    { "title": "+45% mais conversões", "description": "Nunca mais perca uma oportunidade" }
+  ],
+  "dashboard": {
+    "badge": "O Seu Centro de Controlo",
+    "title_line1": "Um dashboard completo —",
+    "title_line2": "controlo total sobre todas as interações",
+    "description": "Com o dashboard da Aibooking.dk, tem sempre uma visão precisa da atividade de IA do seu negócio. Veja quais chamadas foram atendidas, ouça as conversas, leia notas geradas por IA e acompanhe as suas marcações em tempo real — tudo num só lugar.",
+    "cta": "Ver o dashboard em ação"
+  },
+  "dashboardFeatures": [
+    { "label": "Estatísticas de chamadas em tempo real", "desc": "Veja todas as chamadas ao vivo e no histórico" },
+    { "label": "Notas de chamadas geradas por IA", "desc": "Resumo automático de cada chamada" },
+    { "label": "Taxa de marcações e conversão", "desc": "Acompanhe exatamente quantas chamadas resultam em marcações" },
+    { "label": "Ouça as chamadas gravadas", "desc": "Registo áudio completo sempre disponível" },
+    { "label": "Sincronização em direto", "desc": "O dashboard atualiza-se em tempo real" },
+    { "label": "Visão personalizada", "desc": "Configure o seu próprio layout de dashboard" }
+  ],
+  "dashboardMock": {
+    "url_label": "dashboard.aibooking.dk",
+    "calls_today_label": "Chamadas hoje",
+    "calls_today_change": "+12% vs ontem",
+    "bookings_label": "Marcações",
+    "bookings_conv": "66% conv.",
+    "response_time_label": "Tempo de resposta",
+    "response_time_avg": "Média",
+    "recent_calls_label": "Chamadas recentes",
+    "unknown_caller": "Número desconhecido",
+    "outcome_booked": "Marcado",
+    "outcome_info": "Info fornecida",
+    "outcome_forwarded": "Reencaminhado",
+    "weekly_activity_label": "Atividade semanal",
+    "days": ["S", "T", "Q", "Q", "S", "S", "D"],
+    "live_data": "Dados em Direto"
+  },
+  "voiceSection": {
+    "badge": "Chamadas de Voz IA",
+    "title_line1": "Chamadas de voz IA recebidas e efetuadas",
+    "title_line2": "a um nível profissional",
+    "subtitle": "A nossa recepcionista de IA fala dinamarquês fluentemente e soa como uma pessoa real. Trata de todos os tipos de chamadas — desde marcações e perguntas a lembretes e acompanhamento."
+  },
+  "incoming": {
+    "title": "Chamadas IA Recebidas",
+    "subtitle": "Atende todas as chamadas — 24 horas por dia",
+    "live_label": "Chamada recebida — ativa",
+    "msg1": "\"Olá, gostaria de marcar uma consulta...\"",
+    "msg2": "\"Com certeza! Quando é melhor para si?\""
+  },
+  "voiceInFeatures": [
+    "A recepcionista de IA atende instantaneamente",
+    "Compreende todos os dialetos dinamarqueses",
+    "Trata de várias chamadas em simultâneo",
+    "Marcação automática diretamente na conversa",
+    "Transferência para apoio humano quando necessário",
+    "Resumo completo da chamada enviado após a conversa"
+  ],
+  "outgoing": {
+    "title": "Chamadas IA Efetuadas",
+    "subtitle": "Comunicação automatizada com clientes",
+    "live_label": "Chamada efetuada — a enviar lembrete",
+    "msg": "\"Olá Lars, este é um lembrete da sua marcação amanhã às 10h00...\"",
+    "confirmed_label": "Marcação confirmada pelo cliente"
+  },
+  "voiceOutFeatures": [
+    "Chamadas de confirmação automáticas para clientes",
+    "Lembretes de marcações no dia anterior",
+    "Acompanhamento de pedidos sem resposta",
+    "Reativação de clientes inativos",
+    "Voz de IA personalizada com a sua marca",
+    "Registo e gravação completos de todas as chamadas efetuadas"
+  ],
+  "voiceCta": {
+    "text": "Ouça como soa a recepcionista de IA — marque uma demonstração grátis",
+    "button": "Marcar demonstração grátis"
+  },
+  "widgetSection": {
+    "badge": "Widget de Chat IA — Novidade",
+    "title_line1": "Um widget de IA para o seu website —",
+    "title_line2": "converta visitantes em clientes",
+    "subtitle": "Adicione um assistente de chat de IA inteligente ao seu website com uma única linha de código. O widget responde a perguntas, gere marcações e orienta os seus visitantes — automaticamente, em dinamarquês, 24 horas por dia."
+  },
+  "widgetIntro": {
+    "badge_plug_play": "Plug & Play",
+    "badge_active_5min": "Ativo em 5 minutos",
+    "title": "O seu assistente de vendas com IA 24/7",
+    "description": "O widget de IA da Aibooking.dk é mais do que um chatbot. É um assistente de vendas inteligente que compreende as necessidades dos seus visitantes, dá respostas precisas com base no seu conteúdo e converte pedidos em marcações — totalmente automático."
+  },
+  "widgetBenefits": [
+    { "title": "Funciona em qualquer website", "desc": "WordPress, Shopify, Webflow, personalizado — uma linha de código" },
+    { "title": "Chat ao vivo com IA", "desc": "Responde a perguntas, marca consultas e converte visitantes" },
+    { "title": "Compreensão natural da língua", "desc": "Compreende o contexto e as nuances das perguntas dos clientes" },
+    { "title": "Ativo em menos de 5 minutos", "desc": "Não é necessário conhecimento técnico — plug and play" },
+    { "title": "Marcação direta no chat", "desc": "O cliente pode marcar hora sem sair da página" },
+    { "title": "+45% de aumento de conversão", "desc": "Efeito comprovado em vendas e leads" }
+  ],
+  "widgetButtons": {
+    "see_plans": "Ver planos do AI Widget",
+    "book_demo": "Marcar uma demonstração"
+  },
+  "voiceWidget": {
+    "badge": "AI Voice Widget",
+    "badge_active": "Ativado por voz",
+    "badge_active_desc": "Fale diretamente com a IA",
+    "title": "IA controlada por voz diretamente no seu website",
+    "description": "Com o nosso AI Voice Widget, os seus visitantes podem falar diretamente com um assistente de IA no seu website. Isto cria uma experiência de cliente excecional e torna mais fácil marcar, perguntar e interagir — sem escrever uma palavra."
+  },
+  "voiceWidgetFeatures": [
+    "Voz e compreensão naturais em dinamarquês",
+    "Ativado com um clique — sem download de app",
+    "Integra-se com o seu calendário e sistema de marcações",
+    "Funciona em telemóvel, tablet e computador",
+    "Combine voz e chat no mesmo widget",
+    "Registo completo de todas as conversas no dashboard"
+  ],
+  "voiceWidgetButton": "Comece com o Widget",
+  "statsBand": [
+    { "value": "85%", "label": "Menos tempo ao telefone" },
+    { "value": "60%", "label": "Menos faltas" },
+    { "value": "98%", "label": "Satisfação do cliente" },
+    { "value": "320%", "label": "ROI no primeiro ano" }
+  ],
+  "additionalTitle": {
+    "title": "Todas as funcionalidades — um único sistema",
+    "subtitle": "A Aibooking.dk foi concebida para funcionar como o seu centro de comunicação completo. Sem sistemas separados, sem integrações confusas — apenas um sistema que funciona."
+  },
+  "additionalFeatures": [
+    {
+      "title": "Integração Automática de Calendário",
+      "description": "Sincroniza sem esforço com o Google Calendar, Outlook e todos os sistemas de calendário populares. Sem marcações duplicadas, sem conflitos — tudo atualizado automaticamente.",
+      "benefits": ["Integração com Google Calendar e Outlook", "Sincronização em tempo real", "Verificação automática de disponibilidade", "Gestão de remarcações e cancelamentos"]
+    },
+    {
+      "title": "Lembretes e Confirmações por SMS",
+      "description": "Reduza as faltas em até 60% com lembretes automáticos por SMS. Os clientes recebem confirmações e lembretes adaptados ao tom e à marca do seu negócio.",
+      "benefits": ["Confirmações automáticas de marcação", "Lembretes 24 horas antes das marcações", "Opção de remarcar por SMS", "Modelos de mensagem personalizados"]
+    },
+    {
+      "title": "Seguro RGPD e Alojamento na Dinamarca",
+      "description": "Todos os dados são tratados em conformidade com o RGPD e armazenados de forma segura na Dinamarca. Encriptação de ponta a ponta, total transparência e auditorias de segurança regulares.",
+      "benefits": ["Total conformidade com o RGPD", "Dados alojados na Dinamarca", "Encriptação de ponta a ponta", "Auditorias de segurança regulares"]
+    },
+    {
+      "title": "Configuração Rápida — Menos de 24 Horas",
+      "description": "Comece em menos de 24 horas com a ajuda do nosso especialista de onboarding dedicado. A IA é treinada para o seu setor e começa a atender chamadas quase de imediato.",
+      "benefits": ["Configuração em menos de 24 horas", "Especialista de onboarding dedicado", "Adaptado ao seu setor", "Otimização contínua"]
+    }
+  ],
+  "ctaSection": {
+    "title": "Pronto para automatizar o seu negócio?",
+    "subtitle": "Experimente a Aibooking.dk grátis durante 7 dias e veja a diferença — sem compromisso, sem dados de cartão.",
+    "button_demo": "Marcar demonstração grátis",
+    "button_widget": "Ver o AI Widget"
+  }
+}

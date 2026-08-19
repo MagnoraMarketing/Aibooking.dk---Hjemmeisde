@@ -1,0 +1,41 @@
+{
+  "seo": {
+    "title": "Réceptionniste IA pour Cliniques - Dentistes, Kinésithérapeutes | Aibooking.dk",
+    "description": "Prise de rendez-vous automatique pour cliniques, dentistes et kinésithérapeutes. Réduisez les rendez-vous manqués de 60 %, économisez 12 heures par semaine. Données patients sécurisées et conformes au RGPD. Essayez gratuitement.",
+    "keywords": "prise de rendez-vous dentiste, réservation clinique, réservation kinésithérapie, réceptionniste IA santé, réservation patient, automatisation clinique"
+  },
+  "breadcrumb": { "home": "Accueil", "industries": "Secteurs", "healthcare": "Cliniques" },
+  "hero": {
+    "badge": "Cliniques et Santé",
+    "title": "La liberté de vous concentrer sur les soins aux patients",
+    "subtitle": "En tant que clinique, vous savez à quel point il est important d'offrir à vos patients le meilleur traitement possible. Mais les tâches administratives comme les appels téléphoniques, les réservations et les annulations volent un temps précieux aux soins des patients."
+  },
+  "solution": {
+    "title": "La solution complète pour le secteur de la santé",
+    "description": "Notre réceptionniste IA traite toutes les demandes des clients de façon professionnelle – des nouvelles réservations aux reports et confirmations. Grâce aux rappels SMS automatiques, vous réduisez considérablement les rendez-vous manqués. Votre tableau de bord personnalisé vous donne une vue d'ensemble complète : écoutez tous les appels, consultez de courts résumés de chaque conversation, ce qui a été convenu, les statistiques de réservation et l'intégration au calendrier. Vous pouvez continuer à utiliser votre logiciel de calendrier actuel – notre système se synchronise automatiquement.",
+    "benefits": [
+      { "title": "Réduisez le temps au téléphone de 85 %", "description": "Concentrez-vous sur vos patients plutôt que sur les tâches administratives" },
+      { "title": "Rappels SMS automatiques", "description": "Réduisez les rendez-vous manqués jusqu'à 60 % et optimisez votre capacité" },
+      { "title": "Service de réservation 24 h/24, 7 j/7", "description": "Gérez les réservations, reports et annulations à toute heure" },
+      { "title": "Tableau de bord complet", "description": "Historique des appels, résumés de conversations et statistiques de réservation" },
+      { "title": "Intégration au calendrier", "description": "Se synchronise automatiquement avec votre système de réservation existant" },
+      { "title": "Conformité RGPD", "description": "Sécurité totale pour les données sensibles des patients" }
+    ]
+  },
+  "stats": [
+    { "value": "60%", "label": "Moins de rendez-vous manqués" },
+    { "value": "12h/semaine", "label": "Temps économisé" },
+    { "value": "95%", "label": "Taux de réservation" },
+    { "value": "4,8/5", "label": "Satisfaction client" }
+  ],
+  "perfectFor": {
+    "title": "Parfait pour toutes les cliniques de santé",
+    "practices": ["Dentistes", "Kinésithérapeutes", "Chiropracteurs", "Cliniques de massage", "Psychologues"],
+    "cta": "Réservez un rendez-vous sans engagement et obtenez un accès test gratuit"
+  },
+  "ctaSection": {
+    "title": "Prêt à vous lancer ?",
+    "subtitle": "Réservez un rendez-vous gratuit et sans engagement, et obtenez un accès test pour essayer le système par vous-même",
+    "button": "Réservez un rendez-vous sans engagement et obtenez un accès test gratuit"
+  }
+}

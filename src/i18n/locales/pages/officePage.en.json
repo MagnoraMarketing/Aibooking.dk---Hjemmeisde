@@ -1,0 +1,45 @@
+{
+  "seo": {
+    "title": "AI Receptionist for Offices - Lawyers, Accountants, Consultants | Aibooking.dk",
+    "description": "Professional AI receptionist for office businesses. 35% more productivity, 320% ROI. Perfect for lawyers, accountants and consultants. Try it for free.",
+    "keywords": "office receptionist, lawyer receptionist, accountant booking, consultant booking, office automation, meeting booking"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "industries": "Industries",
+    "office": "Office"
+  },
+  "hero": {
+    "badge": "Office and Administration",
+    "title": "Professional customer service without interruptions",
+    "subtitle": "In office businesses, concentration and productivity are crucial. But constant phone calls interrupt your workflow and significantly reduce efficiency. At the same time, it's important to give customers fast and professional service."
+  },
+  "bestOfBoth": {
+    "title": "The best of both worlds",
+    "description": "With Aibooking.dk you get the best of both worlds. Our AI receptionist screens all incoming calls, handles meeting bookings, answers common questions and only forwards the most important inquiries. Your team gets the peace to work with focus, while customers experience professional service around the clock. The dashboard gives you complete control: listen to every conversation, view detailed summaries, booking statistics and calendar integration. Perfect for lawyers, accountants, consultants and other knowledge-based businesses.",
+    "benefits": [
+      { "title": "Fewer interruptions", "description": "Significantly improve employee productivity" },
+      { "title": "Professional phone handling", "description": "Without extra salary costs for a receptionist" },
+      { "title": "Automatic screening", "description": "Only important matters are forwarded to your team" },
+      { "title": "Meeting booking", "description": "Book meetings directly into your team's shared calendar" },
+      { "title": "Complete dashboard", "description": "Conversation history, summaries and statistics" },
+      { "title": "CRM integration", "description": "Integration with your existing systems and calendars" }
+    ]
+  },
+  "stats": [
+    { "value": "+35%", "label": "Productivity" },
+    { "value": "15h/week", "label": "Time saved" },
+    { "value": "98%", "label": "Calls handled" },
+    { "value": "320%", "label": "ROI" }
+  ],
+  "perfectFor": {
+    "title": "Perfect for all office businesses",
+    "businessTypes": ["Lawyers", "Accountants", "Consultants", "Trainers", "Coaches"],
+    "ctaButton": "Book a no-obligation meeting and get a free test login"
+  },
+  "finalCta": {
+    "title": "Ready to get started?",
+    "subtitle": "Book a free, no-obligation meeting and get access to a test login so you can try the system yourself",
+    "button": "Book a no-obligation meeting and get a free test login"
+  }
+}

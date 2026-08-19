@@ -1,0 +1,74 @@
+{
+  "title": "Política de Privacidade",
+  "subtitle": "Como protegemos os seus dados pessoais",
+  "sections": [
+    {
+      "heading": "1. Introdução",
+      "body": "A Aibooking.dk compromete-se a proteger os seus dados pessoais e a respeitar a sua privacidade. Esta política de privacidade explica como recolhemos, utilizamos, armazenamos e protegemos as suas informações pessoais quando utiliza a nossa plataforma e serviços."
+    },
+    {
+      "heading": "2. Responsável pelo tratamento",
+      "body": "A Aibooking.dk (doravante \"nós\") é a responsável pelo tratamento dos seus dados pessoais nos termos do Regulamento Geral sobre a Proteção de Dados (RGPD)."
+    },
+    {
+      "heading": "3. Que dados recolhemos",
+      "intro": "Recolhemos as seguintes categorias de dados pessoais:",
+      "labelItems": [
+        { "label": "Dados da conta", "desc": "Nome, endereço de e-mail, número de telefone e outras informações que nos fornece ao criar uma conta" },
+        { "label": "Dados de pagamento", "desc": "Morada de faturação e informações de pagamento (tratadas de forma segura através de prestadores de serviços de pagamento)" },
+        { "label": "Dados de utilização", "desc": "Informações sobre as suas atividades na plataforma, como marcações, pedidos e interações" },
+        { "label": "Dados técnicos", "desc": "Endereço IP, tipo de navegador, tipo de dispositivo e outras informações técnicas" },
+        { "label": "Dados de comunicação", "desc": "E-mails, mensagens e outras comunicações entre si e nós" }
+      ]
+    },
+    {
+      "heading": "4. Como utilizamos os seus dados",
+      "intro": "Utilizamos os seus dados pessoais para os seguintes fins:",
+      "items": [
+        "Fornecer e administrar os nossos serviços",
+        "Processar as suas marcações e transações",
+        "Comunicar consigo sobre a sua conta e os nossos serviços",
+        "Melhorar e otimizar a nossa plataforma",
+        "Cumprir requisitos legais e regulamentares",
+        "Prevenir fraudes e garantir a segurança da nossa plataforma"
+      ]
+    },
+    {
+      "heading": "5. Partilha de dados",
+      "body": "Apenas partilhamos os seus dados pessoais com prestadores de serviços terceiros necessários para a prestação dos nossos serviços, tais como processadores de pagamento, prestadores de alojamento e plataformas de apoio ao cliente. Todos os prestadores terceiros são obrigados a tratar os seus dados de forma segura e em conformidade com a legislação aplicável."
+    },
+    {
+      "heading": "6. Armazenamento de dados",
+      "body": "Os seus dados pessoais são armazenados em servidores seguros e não são conservados por mais tempo do que o necessário para cumprir as finalidades para as quais foram recolhidos, salvo se a lei exigir uma conservação mais prolongada. Pode solicitar a eliminação dos seus dados a qualquer momento, contactando-nos."
+    },
+    {
+      "heading": "7. Os seus direitos",
+      "intro": "Nos termos do RGPD, tem os seguintes direitos relativamente aos seus dados pessoais:",
+      "labelItems": [
+        { "label": "Direito de acesso", "desc": "Pode solicitar informação sobre que dados pessoais temos sobre si" },
+        { "label": "Direito de retificação", "desc": "Pode solicitar que corrijamos dados incorretos" },
+        { "label": "Direito ao apagamento", "desc": "Pode solicitar que eliminemos os seus dados" },
+        { "label": "Direito à limitação", "desc": "Pode solicitar que limitemos a utilização dos seus dados" },
+        { "label": "Direito à portabilidade dos dados", "desc": "Pode solicitar receber os seus dados num formato estruturado" },
+        { "label": "Direito de oposição", "desc": "Pode opor-se a determinados tratamentos dos seus dados" }
+      ]
+    },
+    {
+      "heading": "8. Segurança",
+      "body": "Implementamos medidas de segurança técnicas e organizativas para proteger os seus dados pessoais contra acesso não autorizado, alteração, divulgação ou destruição. Isto inclui encriptação, ligações seguras e controlo de acessos."
+    },
+    {
+      "heading": "9. Cookies",
+      "body": "A nossa plataforma pode utilizar cookies para melhorar a sua experiência de utilizador. Pode controlar as definições de cookies no seu navegador. Alguns cookies são necessários para que a plataforma funcione corretamente, enquanto outros são utilizados para analisar o comportamento dos utilizadores."
+    },
+    {
+      "heading": "10. Alterações a esta política",
+      "body": "Podemos atualizar esta política de privacidade periodicamente. Alterações significativas ser-lhe-ão comunicadas por e-mail ou através de um aviso na plataforma. A sua utilização contínua da plataforma após as alterações significa que aceita os novos termos."
+    },
+    {
+      "heading": "11. Contacte-nos",
+      "before": "Se tiver questões sobre esta política de privacidade ou desejar exercer os seus direitos, sinta-se à vontade para nos contactar através de ",
+      "after": "."
+    }
+  ]
+}

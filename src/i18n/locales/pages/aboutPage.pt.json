@@ -1,0 +1,87 @@
+{
+  "seo": {
+    "title": "Sobre Nós - Mais de 20 Anos de Experiência em Telemarketing | Aibooking.dk",
+    "description": "A equipa por trás da Aibooking.dk tem mais de 20 anos de experiência em telemarketing. A nossa rececionista virtual automatiza o contacto com clientes, tanto recebido como efetuado. Mais de 500 clientes satisfeitos.",
+    "keywords": "sobre a aibooking, experiência em telemarketing, rececionista virtual, serviço ao cliente com IA na Dinamarca, chamadas recebidas, chamadas efetuadas, automatização do contacto com clientes"
+  },
+  "breadcrumb": { "home": "Início", "about": "Sobre Nós" },
+  "hero": {
+    "badge": "Sobre a Aibooking.dk",
+    "title_line1": "Estamos a revolucionar",
+    "title_line2": "o serviço ao cliente com IA",
+    "subtitle": "A nossa missão é ajudar as empresas dinamarquesas a prestar um excelente serviço ao cliente 24 horas por dia, através de tecnologia de IA avançada."
+  },
+  "story": {
+    "badge": "A nossa história",
+    "title": "De ideia a realidade",
+    "paragraphs": [
+      "A Aibooking.dk foi fundada com uma visão clara: tornar o serviço ao cliente profissional acessível a todas as empresas, independentemente da sua dimensão.",
+      "A equipa por trás da Aibooking.dk tem mais de 20 anos de experiência em tarefas de telemarketing, tanto recebido como efetuado. Sabemos exatamente quantos recursos as empresas dinamarquesas gastam no contacto com clientes. Este conhecimento profundo levou-nos a desenvolver uma solução de IA que funciona como a Sua Rececionista Virtual e que consegue automatizar de forma eficaz muitas das tarefas repetitivas que, de outra forma, exigiriam recursos humanos significativos.",
+      "Ao longo dos nossos anos de experiência, percebemos que muitas pequenas e médias empresas perdiam clientes valiosos por não terem recursos para responder a todos os pedidos a qualquer hora do dia. A nossa solução combina tecnologia de IA avançada com a língua e a cultura dinamarquesas.",
+      "Hoje, servimos centenas de empresas em toda a Dinamarca, ajudando-as a melhorar o seu serviço ao cliente, a aumentar a sua taxa de marcações e a libertar tempo para aquilo que fazem melhor."
+    ]
+  },
+  "vision": {
+    "title": "A nossa visão",
+    "description": "Ser o fornecedor líder na Dinamarca de soluções de serviço ao cliente baseadas em IA, ajudando as empresas a crescer através de melhores experiências para os seus clientes.",
+    "badge": "A inovação impulsiona-nos"
+  },
+  "values": {
+    "title": "Os nossos valores",
+    "subtitle": "Os princípios que orientam tudo o que fazemos",
+    "items": [
+      { "title": "Foco no cliente", "description": "Colocamos sempre as necessidades dos nossos clientes no centro e esforçamo-nos por prestar o melhor serviço possível." },
+      { "title": "Inovação", "description": "Desenvolvemos constantemente novas soluções e melhoramos a nossa tecnologia de IA para nos mantermos na vanguarda." },
+      { "title": "Fiabilidade", "description": "Fornecemos soluções estáveis e seguras em que pode confiar dia após dia." },
+      { "title": "Crescimento", "description": "Ajudamos as empresas a crescer, automatizando e otimizando o seu serviço ao cliente." }
+    ]
+  },
+  "benefits": {
+    "title": "Porquê escolher a Aibooking.dk?",
+    "subtitle": "Experiência, especialização e resultados que falam por si",
+    "items": [
+      { "title": "Experiência que faz a diferença", "description": "Com mais de 20 anos de experiência em telemarketing, conhecemos todos os desafios do contacto com clientes. A nossa solução de IA assenta numa verdadeira compreensão do setor." },
+      { "title": "Automatização que funciona", "description": "Sabemos exatamente que partes do contacto com o cliente podem ser automatizadas de forma eficaz. A nossa rececionista virtual gere de forma profissional tanto as chamadas recebidas como as efetuadas." },
+      { "title": "Suporte em dinamarquês, inglês e espanhol", "description": "A nossa IA fala perfeitamente dinamarquês, inglês e espanhol. Damos-lhe suporte e aconselhamento locais, baseados num conhecimento aprofundado do mercado." },
+      { "title": "Experiência em diversos setores", "description": "Temos muitos anos de experiência em vários setores, o que nos dá uma compreensão sólida de como configurar a melhor solução possível para a sua empresa." }
+    ]
+  },
+  "receptionist": {
+    "title": "A Sua Rececionista Virtual",
+    "description": "A nossa solução de IA não é apenas mais um chatbot. É o resultado de décadas de experiência em telemarketing e contacto com clientes. Compreendemos o que é necessário para prestar um serviço ao cliente profissional e construímos uma solução que realmente funciona na prática.",
+    "incoming": {
+      "title": "Chamadas recebidas",
+      "description": "A nossa rececionista virtual atende todas as chamadas recebidas, responde a perguntas, faz marcações e só transfere a chamada quando necessário. Isto significa menos interrupções no trabalho e mais tempo para as tarefas essenciais.",
+      "features": [
+        "Disponibilidade 24 horas por dia, 7 dias por semana",
+        "Comunicação profissional em dinamarquês",
+        "Marcação e confirmação automáticas"
+      ]
+    },
+    "outgoing": {
+      "title": "Chamadas efetuadas",
+      "description": "Com experiência em telemarketing de chamadas efetuadas, sabemos o que funciona. A nossa IA pode fazer chamadas de acompanhamento, confirmações e lembretes - sempre com o tom e o momento certos.",
+      "features": [
+        "Lembretes automáticos",
+        "Confirmações de marcações",
+        "Acompanhamento do serviço ao cliente"
+      ]
+    }
+  },
+  "widget": {
+    "title": "Widget Aibooking.dk",
+    "description": "O Widget Aibooking.dk facilita o agendamento e a marcação de reuniões sem esforço manual. Integre o nosso widget inteligente diretamente no seu site e deixe a IA assumir o controlo. Disponível por voz e por texto, com novas reuniões marcadas automaticamente diretamente no seu calendário.",
+    "items": [
+      { "title": "Agendamento baseado em IA", "description": "O widget sugere os melhores horários para si e para os seus clientes - de forma totalmente automática." },
+      { "title": "Marcação por voz e por texto", "description": "Os seus clientes podem escolher entre falar diretamente com a IA ou usar a marcação baseada em texto." },
+      { "title": "Integração automática com o calendário", "description": "As novas reuniões são marcadas automaticamente no seu calendário, sem qualquer gestão manual." }
+    ],
+    "cta": "Saiba mais sobre o Widget"
+  },
+  "ctaSection": {
+    "title": "Pronto para começar?",
+    "subtitle": "Deixe-nos mostrar-lhe como a Aibooking.dk pode transformar o seu serviço ao cliente e ajudar a sua empresa a crescer.",
+    "button_demo": "Marcar uma demonstração",
+    "button_contact": "Contacte-nos"
+  }
+}

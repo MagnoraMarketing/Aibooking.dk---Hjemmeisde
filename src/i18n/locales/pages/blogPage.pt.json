@@ -1,0 +1,17 @@
+{
+  "seo": {
+    "title": "Blog - Automação IA e Insights de Marcações | AIBooking.dk",
+    "description": "Leia os artigos mais recentes sobre automação IA, sistemas de marcações e soluções digitais para empresas modernas. Insights de especialistas sobre widgets de IA, assistentes telefónicos e automação completa.",
+    "keywords": "blog IA, automação de marcações, insights IA, transformação digital, widget IA, assistente telefónico"
+  },
+  "hero": {
+    "badge": "Últimos Insights",
+    "title": "AI Booking Blog",
+    "subtitle": "Descubra insights sobre automação IA, sistemas de marcações e soluções digitais que transformam empresas modernas."
+  },
+  "featured": {
+    "label": "Destaque",
+    "readArticle": "Ler artigo"
+  },
+  "readMore": "Ler mais"
+}

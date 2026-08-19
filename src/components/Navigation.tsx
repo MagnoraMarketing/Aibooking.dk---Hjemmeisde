@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { Phone, Plug, Building2, ChevronDown, Stethoscope, Wrench, Briefcase, ShoppingCart, MessageSquare, Users, Globe, Menu, X } from 'lucide-react';
+import { Phone, Plug, Building2, ChevronDown, Stethoscope, Wrench, Briefcase, ShoppingCart, MessageSquare, Users, Globe, Menu, X, LogIn, UserPlus } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { splitLocalizedPath, buildLocalizedPath } from '../utils/localePaths';
 import { SupportedLanguage } from '../i18n/config';
@@ -13,12 +13,14 @@ function Navigation({ onNavigate }: NavigationProps) {
   const [isIndustriesOpen, setIsIndustriesOpen] = useState(false);
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
+  const [isLoginOpen, setIsLoginOpen] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
   const [mobileIndustriesOpen, setMobileIndustriesOpen] = useState(false);
   const [mobileContactOpen, setMobileContactOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const contactDropdownRef = useRef<HTMLDivElement>(null);
   const languageDropdownRef = useRef<HTMLDivElement>(null);
+  const loginDropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -30,6 +32,9 @@ function Navigation({ onNavigate }: NavigationProps) {
       }
       if (languageDropdownRef.current && !languageDropdownRef.current.contains(event.target as Node)) {
         setIsLanguageOpen(false);
+      }
+      if (loginDropdownRef.current && !loginDropdownRef.current.contains(event.target as Node)) {
+        setIsLoginOpen(false);
       }
     }
 
@@ -53,7 +58,7 @@ function Navigation({ onNavigate }: NavigationProps) {
     setIsLanguageOpen(false);
   };
 
-  const languageLabel: Record<SupportedLanguage, string> = { da: 'DA', en: 'EN', pt: 'PT', fr: 'FR' };
+  const languageLabel: Record<SupportedLanguage, string> = { da: 'DA', en: 'EN', es: 'ES', pt: 'PT' };
 
   const handleMobileNavigate = (page: Parameters<NavigationProps['onNavigate']>[0]) => {
     onNavigate(page);
@@ -208,17 +213,62 @@ function Navigation({ onNavigate }: NavigationProps) {
                       <span className="text-ink-900 font-medium text-[15px]">🇬🇧 English</span>
                     </button>
                     <button
+                      onClick={() => changeLanguage('es')}
+                      className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
+                    >
+                      <span className="text-ink-900 font-medium text-[15px]">🇪🇸 Español</span>
+                    </button>
+                    <button
                       onClick={() => changeLanguage('pt')}
                       className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
                     >
                       <span className="text-ink-900 font-medium text-[15px]">🇵🇹 Português</span>
                     </button>
-                    <button
-                      onClick={() => changeLanguage('fr')}
-                      className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
+                  </div>
+                )}
+              </div>
+              <div className="relative" ref={loginDropdownRef}>
+                <button
+                  onClick={() => setIsLoginOpen(!isLoginOpen)}
+                  className="flex items-center space-x-2 text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]"
+                >
+                  <LogIn className="w-4 h-4" />
+                  <span>{i18n.language === 'da' ? 'Log ind' : 'Login'}</span>
+                  <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isLoginOpen ? 'rotate-180' : ''}`} />
+                </button>
+
+                {isLoginOpen && (
+                  <div className="absolute top-full right-0 mt-3 w-72 bg-white rounded-2xl shadow-xl border border-ink-200/60 py-2 z-50">
+                    <a
+                      href="https://aibooking-backendnew.vercel.app/login"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={() => setIsLoginOpen(false)}
+                      className="w-full flex items-start space-x-4 px-5 py-3.5 hover:bg-ink-50/80 transition-all text-left"
                     >
-                      <span className="text-ink-900 font-medium text-[15px]">🇫🇷 Français</span>
-                    </button>
+                      <div className="w-10 h-10 bg-gradient-to-br from-brand-600 to-brand-700 rounded-xl flex items-center justify-center flex-shrink-0 shadow-sm">
+                        <LogIn className="w-5 h-5 text-white" />
+                      </div>
+                      <div>
+                        <div className="text-ink-900 font-semibold mb-0.5 text-[15px]">{i18n.language === 'da' ? 'Log ind' : 'Log in'}</div>
+                        <div className="text-sm text-ink-500">{i18n.language === 'da' ? 'Allerede kunde – gå til dit dashboard' : 'Existing customer – go to your dashboard'}</div>
+                      </div>
+                    </a>
+                    <a
+                      href="https://aibooking-backendnew.vercel.app/signup"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={() => setIsLoginOpen(false)}
+                      className="w-full flex items-start space-x-4 px-5 py-3.5 hover:bg-ink-50/80 transition-all text-left"
+                    >
+                      <div className="w-10 h-10 bg-gradient-to-br from-brand-600 to-brand-700 rounded-xl flex items-center justify-center flex-shrink-0 shadow-sm">
+                        <UserPlus className="w-5 h-5 text-white" />
+                      </div>
+                      <div>
+                        <div className="text-ink-900 font-semibold mb-0.5 text-[15px]">{i18n.language === 'da' ? 'Opret konto' : 'Sign up'}</div>
+                        <div className="text-sm text-ink-500">{i18n.language === 'da' ? 'Ny kunde – kom i gang gratis' : 'New customer – get started free'}</div>
+                      </div>
+                    </a>
                   </div>
                 )}
               </div>
@@ -377,6 +427,35 @@ function Navigation({ onNavigate }: NavigationProps) {
             </div>
           )}
 
+          {/* Login / Signup */}
+          <div className="mt-2 px-4 py-3 border-t border-ink-100">
+            <p className="text-xs font-semibold text-ink-400 uppercase tracking-wider mb-2">
+              {i18n.language === 'da' ? 'Kundelogin' : 'Customer login'}
+            </p>
+            <div className="grid grid-cols-2 gap-2">
+              <a
+                href="https://aibooking-backendnew.vercel.app/login"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsMobileOpen(false)}
+                className="flex items-center justify-center gap-1.5 py-2.5 rounded-lg text-sm font-medium bg-ink-100 text-ink-700 hover:bg-ink-200 transition-all"
+              >
+                <LogIn className="w-4 h-4" />
+                {i18n.language === 'da' ? 'Log ind' : 'Log in'}
+              </a>
+              <a
+                href="https://aibooking-backendnew.vercel.app/signup"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsMobileOpen(false)}
+                className="flex items-center justify-center gap-1.5 py-2.5 rounded-lg text-sm font-medium bg-brand-600 text-white hover:bg-brand-700 transition-all"
+              >
+                <UserPlus className="w-4 h-4" />
+                {i18n.language === 'da' ? 'Opret konto' : 'Sign up'}
+              </a>
+            </div>
+          </div>
+
           {/* Language */}
           <div className="mt-2 px-4 py-3 border-t border-ink-100">
             <p className="text-xs font-semibold text-ink-400 uppercase tracking-wider mb-2">Sprog</p>
@@ -394,16 +473,16 @@ function Navigation({ onNavigate }: NavigationProps) {
                 🇬🇧 English
               </button>
               <button
+                onClick={() => { changeLanguage('es'); setIsMobileOpen(false); }}
+                className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'es' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
+              >
+                🇪🇸 Español
+              </button>
+              <button
                 onClick={() => { changeLanguage('pt'); setIsMobileOpen(false); }}
                 className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'pt' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
               >
                 🇵🇹 Português
-              </button>
-              <button
-                onClick={() => { changeLanguage('fr'); setIsMobileOpen(false); }}
-                className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'fr' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
-              >
-                🇫🇷 Français
               </button>
             </div>
           </div>

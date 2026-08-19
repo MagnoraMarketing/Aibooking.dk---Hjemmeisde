@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin, LogIn, UserPlus } from 'lucide-react';
 
 type NavigatePage = 'home' | 'widget' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog';
 
@@ -205,6 +205,33 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                 <span>Aarhus C, Danmark</span>
               </li>
             </ul>
+          </div>
+        </div>
+
+        <div className="mb-10 bg-ink-800/60 border border-ink-700 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-5">
+          <div className="text-center md:text-left">
+            <p className="text-white font-semibold text-lg">Allerede kunde hos Aibooking.dk?</p>
+            <p className="text-sm text-ink-400">Log ind på dit dashboard, eller opret en gratis konto som ny kunde.</p>
+          </div>
+          <div className="flex gap-3 flex-shrink-0">
+            <a
+              href="https://aibooking-backendnew.vercel.app/login"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-5 py-2.5 rounded-xl border border-ink-600 text-white hover:border-brand-400 hover:text-brand-400 transition-colors font-medium text-sm"
+            >
+              <LogIn className="w-4 h-4" />
+              Log ind
+            </a>
+            <a
+              href="https://aibooking-backendnew.vercel.app/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-brand-600 text-white hover:bg-brand-700 transition-colors font-semibold text-sm"
+            >
+              <UserPlus className="w-4 h-4" />
+              Opret konto
+            </a>
           </div>
         </div>
 

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Zap, Mic, Calendar, Clock, CheckCircle, MessageSquare, PhoneCall, Star, Shield, Globe, ChevronDown, ArrowRight, Phone } from 'lucide-react';
+import { Zap, Mic, Calendar, Clock, CheckCircle, MessageSquare, PhoneCall, Star, Shield, Globe, ChevronDown, ArrowRight, Phone, ShoppingCart, Package, RefreshCw, Store, Users, Sparkles } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
@@ -401,9 +401,9 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
   return (
     <>
       <SEO
-        title="AI Voice Widget – Book Møder Med Stemmen | Aibooking.dk"
-        description="Integrer Aibooking.dk's AI voice widget på din hjemmeside. Lad kunder booke møder og stille spørgsmål via tale – 24/7 automatisk. Kom i gang på under 5 minutter. Fra 999 kr/md."
-        keywords="AI voice widget, voicebot hjemmeside, AI booking widget, stemmebaseret booking, chatbot dansk, automatisk møbebooking, AI receptionist widget, booking automation"
+        title="AI Voice Widget til Hjemmeside & Webshop – Book Møder og Sælg Med Stemmen | Aibooking.dk"
+        description="Integrer Aibooking.dk's AI voice widget på din hjemmeside eller webshop (Shopify, WooCommerce, WordPress). Lad kunder booke møder, bestille varer og tracke ordrer via tale – 24/7 automatisk. Kom i gang på under 5 minutter. Fra 999 kr/md."
+        keywords="AI voice widget, voicebot hjemmeside, AI booking widget, webshop AI widget, Shopify voice assistant, AI ordre tracking, AI widget webshop, stemmebaseret booking, chatbot dansk, automatisk møbebooking, AI receptionist widget, booking automation"
         canonical="https://www.aibooking.dk/widget"
       />
       <Navigation onNavigate={onNavigate} />
@@ -540,6 +540,201 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                     </div>
                   ))}
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Widget as an extra employee, everywhere online */}
+        <section className="py-20 md:py-28">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16 space-y-4">
+              <div className="inline-flex items-center gap-2 bg-brand-50 text-brand-700 px-4 py-2 rounded-full text-sm font-semibold border border-brand-100 mx-auto">
+                <Users className="w-4 h-4" />
+                Din digitale ekstra medarbejder
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold text-ink-900">
+                Kan integreres overalt online – vælg selv platform
+              </h2>
+              <p className="text-xl text-ink-600 max-w-3xl mx-auto">
+                Widgetten fungerer som en ekstra medarbejder, der aldrig holder fri. Du vælger den platform, du allerede bruger, og AI'en tager sig af resten – fra første besøg til booket tid eller indhentet tilbud i din kalender.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 mb-16">
+              {['WordPress', 'Shopify', 'WooCommerce', 'Wix', 'Squarespace', 'Magento', 'Egen platform'].map((platform) => (
+                <div key={platform} className="bg-white border border-ink-200 rounded-2xl p-4 text-center hover:border-brand-300 hover:shadow-md transition-all">
+                  <div className="w-10 h-10 bg-brand-50 rounded-xl flex items-center justify-center mx-auto mb-2">
+                    <Store className="w-5 h-5 text-brand-600" />
+                  </div>
+                  <div className="text-sm font-semibold text-ink-800">{platform}</div>
+                </div>
+              ))}
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="bg-white border border-ink-200 rounded-2xl p-6">
+                <div className="w-11 h-11 bg-brand-50 rounded-xl flex items-center justify-center mb-4">
+                  <Calendar className="w-5 h-5 text-brand-600" />
+                </div>
+                <h3 className="text-lg font-bold text-ink-900 mb-2">Booker og ombooker tid</h3>
+                <p className="text-ink-600 text-sm leading-relaxed">
+                  På almindelige hjemmesider fanger widgetten den besøgende med det samme og får booket – eller ombooket – en tid direkte i din kalender. Ingen frem-og-tilbage mails.
+                </p>
+              </div>
+              <div className="bg-white border border-ink-200 rounded-2xl p-6">
+                <div className="w-11 h-11 bg-brand-50 rounded-xl flex items-center justify-center mb-4">
+                  <MessageSquare className="w-5 h-5 text-brand-600" />
+                </div>
+                <h3 className="text-lg font-bold text-ink-900 mb-2">Indhenter tilbud og leads</h3>
+                <p className="text-ink-600 text-sm leading-relaxed">
+                  For interesserede kunder, der ønsker et tilbud, indsamler widgetten oplysningerne og sætter automatisk et opfølgende møde i kalenderen – klar til dig at tage over.
+                </p>
+              </div>
+              <div className="bg-white border border-ink-200 rounded-2xl p-6">
+                <div className="w-11 h-11 bg-brand-50 rounded-xl flex items-center justify-center mb-4">
+                  <ShoppingCart className="w-5 h-5 text-brand-600" />
+                </div>
+                <h3 className="text-lg font-bold text-ink-900 mb-2">Tager imod bestillinger</h3>
+                <p className="text-ink-600 text-sm leading-relaxed">
+                  På webshops kan kunderne bestille varer, spørge til lager og få hjælp gennem hele købet – uden at skulle vente på en medarbejder.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Webshop / Shopify-style widget */}
+        <section className="py-20 md:py-28 bg-ink-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              <div className="space-y-6">
+                <div className="inline-flex items-center gap-2 bg-brand-50 text-brand-700 px-4 py-2 rounded-full text-sm font-semibold border border-brand-100">
+                  <ShoppingCart className="w-4 h-4" />
+                  AI Widget til webshop
+                </div>
+                <h2 className="text-4xl md:text-5xl font-bold text-ink-900 leading-tight">
+                  Ligesom Shopifys chat – bare med en AI der booker og sælger
+                </h2>
+                <p className="text-lg text-ink-600 leading-relaxed">
+                  Driver du en webshop på <strong>Shopify, WooCommerce eller Magento</strong>, kan AI voice widgetten integreres direkte på siden – ligesom du kender det fra indbyggede chat-løsninger, blot med en AI-assistent der taler og forstår dansk.
+                </p>
+                <p className="text-lg text-ink-600 leading-relaxed">
+                  Kunderne kan bede widgetten om at <strong>tracke en ordre</strong>, <strong>bestille en vare igen</strong>, spørge om lagerstatus eller få hjælp til returnering – helt automatisk, uden at skulle skrive en mail til kundeservice.
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                  {[
+                    { icon: Package, label: 'Tracker ordrestatus', desc: '"Hvor er min pakke?" besvares automatisk' },
+                    { icon: RefreshCw, label: 'Genbestiller varer', desc: 'Kunden bestiller samme vare igen med stemmen' },
+                    { icon: ShoppingCart, label: 'Hjælper med købet', desc: 'Svarer på spørgsmål om produkter og lager' },
+                    { icon: Sparkles, label: 'Foreslår produkter', desc: 'Anbefaler relevante varer ud fra behov' },
+                  ].map(({ icon: Icon, label, desc }) => (
+                    <div key={label} className="flex items-start gap-3 bg-white rounded-xl p-4 border border-ink-100">
+                      <div className="w-9 h-9 bg-brand-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Icon className="w-5 h-5 text-brand-600" />
+                      </div>
+                      <div>
+                        <div className="font-semibold text-ink-800 text-sm">{label}</div>
+                        <div className="text-xs text-ink-500">{desc}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="relative">
+                <div className="absolute -inset-4 bg-gradient-to-br from-brand-100 to-ink-100 rounded-3xl blur-2xl opacity-60"></div>
+                <div className="relative bg-white rounded-3xl shadow-2xl border border-ink-100 p-6 space-y-3">
+                  <div className="flex items-center gap-3 mb-2">
+                    <div className="w-10 h-10 rounded-full bg-brand-600 flex items-center justify-center">
+                      <Mic className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <div className="text-sm font-semibold text-ink-900">AI Widget – Webshop</div>
+                      <div className="text-xs text-ink-500">Online nu</div>
+                    </div>
+                  </div>
+                  <div className="bg-ink-100 rounded-lg p-3 ml-8 border border-ink-200">
+                    <p className="text-sm text-ink-700"><span className="font-semibold">🗣️ Kunde:</span> "Hvor langt er min ordre #4021?"</p>
+                  </div>
+                  <div className="bg-brand-50 rounded-lg p-3 border border-brand-100">
+                    <p className="text-sm text-ink-700"><span className="font-semibold">🎤 AI Widget:</span> Din ordre blev afsendt i går og forventes leveret i morgen med GLS.</p>
+                  </div>
+                  <div className="bg-ink-100 rounded-lg p-3 ml-8 border border-ink-200">
+                    <p className="text-sm text-ink-700"><span className="font-semibold">🗣️ Kunde:</span> "Kan jeg få den samme jakke igen i str. M?"</p>
+                  </div>
+                  <div className="bg-brand-50 rounded-lg p-3 border border-brand-100">
+                    <p className="text-sm text-ink-700"><span className="font-semibold">🎤 AI Widget:</span> Ja, str. M er på lager. Skal jeg oprette bestillingen nu?</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Concrete examples: websites vs webshops */}
+        <section className="py-20 md:py-28">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16 space-y-4">
+              <h2 className="text-4xl md:text-5xl font-bold text-ink-900">
+                Eksempler fra det virkelige liv
+              </h2>
+              <p className="text-xl text-ink-600 max-w-3xl mx-auto">
+                Sådan bruger virksomheder AI voice widgetten i praksis – på almindelige hjemmesider og webshops
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <div className="bg-white rounded-3xl border border-ink-200 p-8 shadow-sm">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-11 h-11 bg-brand-50 rounded-xl flex items-center justify-center">
+                    <Globe className="w-5 h-5 text-brand-600" />
+                  </div>
+                  <h3 className="text-xl font-bold text-ink-900">På en almindelig hjemmeside</h3>
+                </div>
+                <ul className="space-y-4">
+                  {[
+                    { title: 'Klinikken', desc: 'En patient booker en tid hos tandlægen kl. 22 om aftenen – widgetten finder ledig tid og bekræfter med det samme.' },
+                    { title: 'Håndværkeren', desc: 'En kunde beder om et tilbud på et badeværelse. Widgetten indsamler adresse og opgave og booker et besigtigelsesmøde i kalenderen.' },
+                    { title: 'Konsulenten', desc: 'En eksisterende kunde vil ombooke et møde til næste uge – widgetten flytter aftalen automatisk uden mailkorrespondance.' },
+                  ].map((ex) => (
+                    <li key={ex.title} className="flex items-start gap-3">
+                      <div className="w-6 h-6 rounded-full bg-brand-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <CheckCircle className="w-3.5 h-3.5 text-white" />
+                      </div>
+                      <div>
+                        <span className="font-semibold text-ink-900">{ex.title}: </span>
+                        <span className="text-ink-600 text-sm leading-relaxed">{ex.desc}</span>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-3xl border border-ink-200 p-8 shadow-sm">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-11 h-11 bg-brand-50 rounded-xl flex items-center justify-center">
+                    <ShoppingCart className="w-5 h-5 text-brand-600" />
+                  </div>
+                  <h3 className="text-xl font-bold text-ink-900">På en webshop</h3>
+                </div>
+                <ul className="space-y-4">
+                  {[
+                    { title: 'Tøjbutikken', desc: 'En kunde spørger widgetten, om en vare findes i en anden størrelse – AI\'en tjekker lager og hjælper med at bestille.' },
+                    { title: 'Elektronikbutikken', desc: 'En kunde vil vide, hvor deres pakke er. Widgetten henter ordrestatus og svarer med det samme – ingen ventetid.' },
+                    { title: 'Abonnementsshoppen', desc: 'En kunde ønsker at genbestille sin faste vare hver måned – widgetten opretter bestillingen direkte i samtalen.' },
+                  ].map((ex) => (
+                    <li key={ex.title} className="flex items-start gap-3">
+                      <div className="w-6 h-6 rounded-full bg-brand-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <CheckCircle className="w-3.5 h-3.5 text-white" />
+                      </div>
+                      <div>
+                        <span className="font-semibold text-ink-900">{ex.title}: </span>
+                        <span className="text-ink-600 text-sm leading-relaxed">{ex.desc}</span>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
           </div>

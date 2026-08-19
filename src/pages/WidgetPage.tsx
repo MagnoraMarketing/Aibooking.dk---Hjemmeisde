@@ -365,19 +365,23 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
       <main className="min-h-screen bg-white pt-20">
 
         {/* Hero */}
-        <section className="py-16 md:py-28 bg-gradient-to-b from-ink-50 to-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="relative py-16 md:py-28 bg-ink-950 overflow-hidden">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.06)_1px,transparent_0)] bg-[length:32px_32px]"></div>
+          <div className="absolute -top-20 right-0 w-[600px] h-[600px] bg-brand-600/25 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-accent-500/10 rounded-full blur-3xl"></div>
+
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="space-y-8">
-                <div className="inline-flex items-center gap-2 bg-brand-50 text-brand-700 px-4 py-2 rounded-full text-sm font-semibold border border-brand-100">
-                  <Mic className="w-4 h-4" />
+                <div className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm text-accent-300 px-4 py-2 rounded-full text-sm font-semibold border border-white/10">
+                  <span className="w-2 h-2 bg-accent-400 rounded-full animate-pulse"></span>
                   {t('hero.badge')}
                 </div>
-                <h1 className="text-5xl md:text-6xl font-bold text-ink-900 leading-tight">
+                <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
                   {t('hero.title_line1')}{' '}
-                  <span className="text-brand-600">{t('hero.title_line2')}</span>
+                  <span className="bg-gradient-to-r from-brand-300 via-brand-200 to-accent-300 bg-clip-text text-transparent">{t('hero.title_line2')}</span>
                 </h1>
-                <p className="text-xl text-ink-600 leading-relaxed">
+                <p className="text-xl text-ink-200 leading-relaxed">
                   {t('hero.subtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -385,7 +389,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                     href="https://cal.com/aibooking-booking/30min"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 bg-brand-600 text-white px-8 py-4 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
+                    className="inline-flex items-center justify-center gap-2 bg-accent-400 text-ink-950 px-8 py-4 rounded-xl hover:bg-accent-300 transition-all font-bold shadow-lg shadow-accent-500/20 transform hover:scale-[1.02]"
                   >
                     {t('hero.cta_demo')}
                     <ArrowRight className="w-5 h-5" />
@@ -394,27 +398,37 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                     href="https://buy.stripe.com/7sY3cu2H14JB00k4IX4AU04"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 border-2 border-ink-200 text-ink-700 px-8 py-4 rounded-xl hover:border-brand-300 hover:text-brand-600 transition-all font-semibold"
+                    className="inline-flex items-center justify-center gap-2 bg-white/5 backdrop-blur-sm border border-white/15 text-white px-8 py-4 rounded-xl hover:bg-white/10 transition-all font-semibold"
                   >
                     {t('hero.cta_buy')}
                   </a>
                 </div>
-                <div className="flex items-center gap-6 text-sm text-ink-500">
-                  <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-green-500" /> {t('hero.trust_no_binding')}</span>
-                  <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-green-500" /> {t('hero.trust_5min')}</span>
-                  <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-green-500" /> {t('hero.trust_gdpr')}</span>
+                <div className="flex flex-wrap items-center gap-6 text-sm text-ink-300">
+                  <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-accent-400" /> {t('hero.trust_no_binding')}</span>
+                  <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-accent-400" /> {t('hero.trust_5min')}</span>
+                  <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-accent-400" /> {t('hero.trust_gdpr')}</span>
                 </div>
               </div>
 
-              <div className="relative">
-                <div className="absolute -inset-4 bg-gradient-to-br from-brand-100 to-ink-100 rounded-3xl blur-2xl opacity-60"></div>
-                <img
-                  src="/ai-voice-widget.webp"
-                  alt={t('hero.image_alt')}
-                  className="relative w-full rounded-3xl shadow-2xl object-cover"
-                  loading="eager"
-                />
-                <div className="absolute -bottom-4 -right-4 bg-white rounded-2xl shadow-xl p-4 border border-ink-100">
+              <div className="relative flex items-center justify-center py-8 lg:py-0">
+                <div className="relative w-full max-w-sm aspect-square flex items-center justify-center">
+                  <div className="absolute inset-0 rounded-full border border-brand-400/20"></div>
+                  <div className="absolute inset-10 rounded-full border border-brand-400/25 animate-pulse"></div>
+                  <div className="absolute inset-20 rounded-full border border-accent-400/25"></div>
+                  <div className="w-28 h-28 bg-gradient-to-br from-brand-500 to-brand-700 rounded-full flex items-center justify-center shadow-2xl shadow-brand-500/40">
+                    <Mic className="w-12 h-12 text-white" />
+                  </div>
+                </div>
+
+                <div className="absolute -bottom-2 -right-2 sm:right-6 w-52 sm:w-60 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
+                  <img
+                    src="/ai-voice-widget.webp"
+                    alt={t('hero.image_alt')}
+                    className="w-full h-auto object-cover"
+                    loading="eager"
+                  />
+                </div>
+                <div className="absolute -top-2 left-0 sm:-left-4 bg-white rounded-2xl shadow-xl p-4 border border-ink-100">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
                       <PhoneCall className="w-5 h-5 text-green-600" />

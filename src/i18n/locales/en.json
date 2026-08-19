@@ -160,8 +160,8 @@
     "subtitle": "Tailored packages designed for businesses of all sizes",
     "most_popular_badge": "Most Popular",
     "free_label": "Free",
-    "currency_suffix": "/mo",
-    "setup_note": "One-time fee of {{setup}} kr for setup and onboarding",
+    "currency_suffix": "€/mo",
+    "setup_note": "One-time fee of €{{setup}} for setup and onboarding",
     "after_order_note": "After ordering, you'll receive a calendar link to book a time for setup.",
     "cta_demo": "Try for free",
     "cta_order": "Order package and book onboarding",
@@ -232,14 +232,14 @@
         "title": "Monthly maintenance and prompting",
         "optional_label": "(optional)",
         "description": "We handle maintenance and continuously help optimize prompts so accurate, relevant answers are given. It saves you time and ensures an even better experience for your customers and staff.",
-        "price": "2,995 kr/mo"
+        "price": "€401/mo"
       },
       "hourly": {
         "title": "Hourly rate for ad hoc tasks",
         "prompting_label": "Prompting/training",
-        "prompting_price": "695 kr/hour",
+        "prompting_price": "€93/hour",
         "development_label": "Development",
-        "development_price": "1,100 kr/hour"
+        "development_price": "€147/hour"
       }
     }
   },
@@ -339,9 +339,8 @@
     "title": "AIBooking Voice AI Widget",
     "subtitle": "A voicebot your customers can talk to directly on your website - handles questions and bookings automatically",
     "plan_badge": "Most Flexible Solution",
-    "price": "999",
-    "price_period": "DKK/mo",
-    "price_note1": "Includes 150 minutes of talk time (approx. 6.66 DKK/minute)",
+    "price_period": "€/mo",
+    "price_note1": "Includes 150 minutes of talk time (approx. €0.89/minute)",
     "price_note2": "The package renews automatically once the 150 minutes are used",
     "features": [
       {
@@ -388,5 +387,13 @@
     "demo_footer": "Voice AI widget - customers talk directly on your site",
     "perfect_for_label": "Perfect for:",
     "perfect_for_text": "Clinics, craftsmen, consultants, salons, offices and any other business that takes bookings directly on its website."
+  },
+  "trialOfferWidget": {
+    "dialog_aria": "Try the AI receptionist for free",
+    "close_aria": "Close",
+    "badge": "7 DAYS FREE",
+    "title": "Try your AI receptionist free for 7 days",
+    "description": "Just forward calls from your existing phone number — no technical setup required. See for yourself how much time it frees up for other tasks!",
+    "cta": "Start my free trial"
   }
 }

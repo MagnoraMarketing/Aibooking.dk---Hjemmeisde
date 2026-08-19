@@ -1,6 +1,8 @@
 import { Check, ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { localizedPrice } from '../utils/currency';
+import type { SupportedLanguage } from '../i18n/config';
 
 interface PricingPlanText {
   name: string;
@@ -10,15 +12,16 @@ interface PricingPlanText {
 }
 
 function Pricing() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [isAdditionalPricesOpen, setIsAdditionalPricesOpen] = useState(false);
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
 
   const plansText = t('pricing.plans', { returnObjects: true }) as PricingPlanText[];
   const planMeta = [
-    { price: '0', setup: '0', highlighted: false, isDemo: true, href: 'https://cal.com/aibooking-booking/info-om-ai-reception-og-widget-copy' },
-    { price: '999', setup: '1.998', highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
-    { price: '2.499', setup: '4.998', highlighted: true, isDemo: false, href: 'https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01' },
-    { price: '5.999', setup: '11.998', highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02' },
+    { price: 0, setup: 0, highlighted: false, isDemo: true, href: 'https://cal.com/aibooking-booking/info-om-ai-reception-og-widget-copy' },
+    { price: 999, setup: 1998, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
+    { price: 2499, setup: 4998, highlighted: true, isDemo: false, href: 'https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01' },
+    { price: 5999, setup: 11998, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02' },
   ];
   const plans = plansText.map((plan, i) => ({ ...plan, ...planMeta[i] }));
 
@@ -67,14 +70,14 @@ function Pricing() {
 
               <div className="mb-6">
                 <div className="flex items-baseline">
-                  {plan.price === "0" ? (
+                  {plan.price === 0 ? (
                     <span className={`text-5xl font-bold ${plan.highlighted ? 'text-white' : 'text-ink-900'}`}>
                       {t('pricing.free_label')}
                     </span>
                   ) : (
                     <>
                       <span className={`text-5xl font-bold ${plan.highlighted ? 'text-white' : 'text-ink-900'}`}>
-                        {plan.price}
+                        {localizedPrice(plan.price, lang)}
                       </span>
                       <span className={`ml-2 ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
                         {t('pricing.currency_suffix')}
@@ -102,10 +105,10 @@ function Pricing() {
                 ))}
               </ul>
 
-              {plan.setup !== "0" && (
+              {plan.setup !== 0 && (
                 <div className={`mb-6 pt-6 border-t ${plan.highlighted ? 'border-brand-500' : 'border-ink-200'}`}>
                   <p className={`text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
-                    {t('pricing.setup_note', { setup: plan.setup })}
+                    {t('pricing.setup_note', { setup: localizedPrice(plan.setup, lang) })}
                   </p>
                 </div>
               )}

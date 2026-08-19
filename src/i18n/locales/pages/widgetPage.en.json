@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "AI Voice Widget – Book Meetings With Your Voice | Aibooking.dk",
-    "description": "Add Aibooking.dk's AI voice widget to your website. Let customers book meetings and ask questions by voice – automatic, 24/7. Get started in under 5 minutes. From 999 kr/month.",
+    "description": "Add Aibooking.dk's AI voice widget to your website. Let customers book meetings and ask questions by voice – automatic, 24/7. Get started in under 5 minutes. From €134/month.",
     "keywords": "AI voice widget, voicebot website, AI booking widget, voice-based booking, Danish chatbot, automatic meeting booking, AI receptionist widget, booking automation"
   },
   "hero": {
@@ -10,7 +10,7 @@
     "title_line2": "with their voice",
     "subtitle": "Aibooking.dk's AI voice widget is added directly to your website and handles bookings, questions, and customer enquiries automatically – by voice and text, 24 hours a day, 365 days a year.",
     "cta_demo": "Try a free demo",
-    "cta_buy": "Order now – 999 kr/month",
+    "cta_buy": "Order now – €134/month",
     "trust_no_binding": "No commitment",
     "trust_5min": "Get started in 5 min",
     "trust_gdpr": "GDPR-compliant",
@@ -32,7 +32,7 @@
       "label": "Talk time included"
     },
     {
-      "value": "999 kr",
+      "value": "€134",
       "label": "Per month"
     }
   ],
@@ -144,7 +144,7 @@
     ],
     "roi": {
       "title": "Typical ROI for an AI voice widget",
-      "desc_pre": "A part-time receptionist typically costs 15,000-20,000 kr/month. With the AI voice widget at 999 kr/month, you get ",
+      "desc_pre": "A part-time receptionist typically costs €2,000-2,700/month. With the AI voice widget at €134/month, you get ",
       "desc_strong": "the same functionality",
       "desc_post": " – but 24 hours a day, 7 days a week.",
       "stats": [
@@ -171,9 +171,8 @@
       "heading": "AI Voice Widget",
       "badge": "Recommended starting point",
       "description": "The fastest and cheapest way to automate your booking. The widget sits on your website and lets customers talk or type directly with your AI assistant – 24/7, with no human involvement.",
-      "price": "999",
-      "price_suffix": "kr/month",
-      "includes": "Includes 150 minutes of talk time (approx. 6.66 kr/minute)",
+      "price_suffix": "€/month",
+      "includes": "Includes 150 minutes of talk time (approx. €0.89/minute)",
       "renewal_note": "The package renews automatically once the 150 minutes are used",
       "cta_order": "Order now",
       "cta_intro": "Book a free intro",
@@ -205,7 +204,7 @@
     },
     "free_label": "Free",
     "most_popular_badge": "Most Popular",
-    "setup_note": "One-time fee of {{setup}} kr for setup and onboarding",
+    "setup_note": "One-time fee of €{{setup}} for setup and onboarding",
     "plans": [
       {
         "name": "Demo",
@@ -278,16 +277,17 @@
         "title": "Monthly maintenance and prompting",
         "optional_label": "(optional)",
         "description": "We handle maintenance and continuously help optimize prompts, so precise and relevant answers are given. It saves you time and ensures an even better experience for your customers and staff.",
-        "price": "2,995 kr/month"
+        "price": "€401/month"
       },
       "hourly": {
         "title": "Hourly rate for ad hoc tasks",
         "prompting_label": "Prompting/training",
-        "prompting_price": "695 kr per hour",
+        "prompting_price": "€93 per hour",
         "development_label": "Development",
-        "development_price": "1,100 kr per hour"
+        "development_price": "€147 per hour"
       }
-    }
+    },
+    "currency_suffix": "€/mo"
   },
   "faqSection": {
     "title": "Frequently asked questions",
@@ -308,7 +308,7 @@
     },
     {
       "question": "What does the AI widget cost?",
-      "answer": "The starter package costs 999 kr/month and includes 150 minutes of talk time. You only pay for active talk time – no hourly wages, no commitment."
+      "answer": "The starter package costs €134/month and includes 150 minutes of talk time. You only pay for active talk time – no hourly wages, no commitment."
     },
     {
       "question": "Which languages does the widget support?",
@@ -323,6 +323,6 @@
     "title": "Ready to automate your booking?",
     "subtitle": "Get started in under 5 minutes. Book a free introductory call and see how the AI voice widget can transform your customer handling.",
     "cta_intro": "Book a free intro",
-    "cta_order": "Order directly – 999 kr/month"
+    "cta_order": "Order directly – €134/month"
   }
 }

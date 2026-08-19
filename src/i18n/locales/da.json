@@ -339,7 +339,6 @@
     "title": "AIBooking Voice AI-Widget",
     "subtitle": "Voicebot dine kunder kan snakke med direkte på din hjemmeside - håndterer spørgsmål og bookinger automatisk",
     "plan_badge": "Mest Fleksible Løsning",
-    "price": "999",
     "price_period": "kr/md",
     "price_note1": "Inkluderer 150 minutters taletid (ca. 6,66 kr/minut)",
     "price_note2": "Pakken fornyes automatisk når de 150 minutter er brugt",
@@ -388,5 +387,13 @@
     "demo_footer": "Voice AI-widget - kunder taler direkte på din side",
     "perfect_for_label": "Perfekt til:",
     "perfect_for_text": "Klinikker, håndværkere, konsulenter, saloner, kontorer og alle andre virksomheder der tager imod bookinger direkte på deres hjemmeside."
+  },
+  "trialOfferWidget": {
+    "dialog_aria": "Prøv AI-receptionen gratis",
+    "close_aria": "Luk",
+    "badge": "7 DAGE GRATIS",
+    "title": "Prøv din AI-receptionist gratis i 7 dage",
+    "description": "Blot med viderestilling fra dit nuværende telefonnummer — ingen teknisk opsætning. Se selv hvor meget tid du frigør til andre opgaver!",
+    "cta": "Start min gratis prøveperiode"
   }
 }

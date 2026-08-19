@@ -171,7 +171,6 @@
       "heading": "AI Voice Widget",
       "badge": "Anbefalet startpunkt",
       "description": "Den hurtigste og billigste måde at automatisere din booking på. Widgetten sidder på din hjemmeside og lader kunder tale eller skrive direkte med din AI-assistent – 24/7, uden menneskelig indgriben.",
-      "price": "999",
       "price_suffix": "kr/md",
       "includes": "Inkluderer 150 minutters taletid (ca. 6,66 kr/minut)",
       "renewal_note": "Pakken fornyes automatisk når de 150 minutter er brugt",
@@ -287,7 +286,8 @@
         "development_label": "Udvikling",
         "development_price": "1.100 kr. pr. time"
       }
-    }
+    },
+    "currency_suffix": "kr/md"
   },
   "faqSection": {
     "title": "Ofte stillede spørgsmål",

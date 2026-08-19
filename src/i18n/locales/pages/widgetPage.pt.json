@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "AI Voice Widget – Marque Reuniões Com a Voz | Aibooking.dk",
-    "description": "Integre o AI voice widget da Aibooking.dk no seu website. Deixe os clientes marcarem reuniões e colocarem questões por voz – automático, 24/7. Comece em menos de 5 minutos. A partir de 999 kr/mês.",
+    "description": "Integre o AI voice widget da Aibooking.dk no seu website. Deixe os clientes marcarem reuniões e colocarem questões por voz – automático, 24/7. Comece em menos de 5 minutos. A partir de 134 €/mês.",
     "keywords": "AI voice widget, voicebot website, widget de marcações IA, marcação por voz, chatbot em português, marcação automática de reuniões, widget de recepcionista IA, automação de marcações"
   },
   "hero": {
@@ -10,7 +10,7 @@
     "title_line2": "com a voz",
     "subtitle": "O AI voice widget da Aibooking.dk é integrado diretamente no seu website e trata de marcações, perguntas e pedidos dos clientes automaticamente – por voz e texto, 24 horas por dia, 365 dias por ano.",
     "cta_demo": "Experimente uma demo grátis",
-    "cta_buy": "Comprar agora – 999 kr/mês",
+    "cta_buy": "Comprar agora – 134 €/mês",
     "trust_no_binding": "Sem fidelização",
     "trust_5min": "Comece em 5 min",
     "trust_gdpr": "Compatível com o RGPD",
@@ -32,7 +32,7 @@
       "label": "Tempo de voz incluído"
     },
     {
-      "value": "999 kr",
+      "value": "134 €",
       "label": "Por mês"
     }
   ],
@@ -144,7 +144,7 @@
     ],
     "roi": {
       "title": "ROI típico de um AI voice widget",
-      "desc_pre": "Uma recepcionista a tempo parcial custa tipicamente 15.000-20.000 kr/mês. Com o AI voice widget a 999 kr/mês, obtém ",
+      "desc_pre": "Uma recepcionista a tempo parcial custa tipicamente 2.000-2.700 €/mês. Com o AI voice widget a 134 €/mês, obtém ",
       "desc_strong": "a mesma funcionalidade",
       "desc_post": " – mas 24 horas por dia, 7 dias por semana.",
       "stats": [
@@ -171,9 +171,8 @@
       "heading": "AI Voice Widget",
       "badge": "Ponto de partida recomendado",
       "description": "A forma mais rápida e económica de automatizar as suas marcações. O widget fica no seu website e permite que os clientes falem ou escrevam diretamente com o seu assistente de IA – 24/7, sem intervenção humana.",
-      "price": "999",
-      "price_suffix": "kr/mês",
-      "includes": "Inclui 150 minutos de tempo de voz (aprox. 6,66 kr/minuto)",
+      "price_suffix": "€/mês",
+      "includes": "Inclui 150 minutos de tempo de voz (aprox. 0,89 €/minuto)",
       "renewal_note": "O pacote renova-se automaticamente quando os 150 minutos forem usados",
       "cta_order": "Comprar agora",
       "cta_intro": "Marcar intro grátis",
@@ -205,7 +204,7 @@
     },
     "free_label": "Grátis",
     "most_popular_badge": "Mais Popular",
-    "setup_note": "Preço único de {{setup}} kr para configuração e onboarding",
+    "setup_note": "Taxa única de €{{setup}} para configuração e onboarding",
     "plans": [
       {
         "name": "Demo",
@@ -278,16 +277,17 @@
         "title": "Manutenção mensal e prompting",
         "optional_label": "(opcional)",
         "description": "Tratamos da manutenção e ajudamos continuamente a otimizar os prompts, para que sejam dadas respostas precisas e relevantes. Isto poupa-lhe tempo e garante uma experiência ainda melhor para os seus clientes e colaboradores.",
-        "price": "2.995 kr/mês"
+        "price": "401 €/mês"
       },
       "hourly": {
         "title": "Preço por hora para tarefas pontuais",
         "prompting_label": "Prompting/treino",
-        "prompting_price": "695 kr por hora",
+        "prompting_price": "93 € por hora",
         "development_label": "Desenvolvimento",
-        "development_price": "1.100 kr por hora"
+        "development_price": "147 € por hora"
       }
-    }
+    },
+    "currency_suffix": "€/mês"
   },
   "faqSection": {
     "title": "Perguntas frequentes",
@@ -308,7 +308,7 @@
     },
     {
       "question": "Quanto custa o AI widget?",
-      "answer": "O pacote inicial custa 999 kr/mês e inclui 150 minutos de tempo de voz. Só paga pelo tempo de voz ativo – sem salário à hora, sem fidelização."
+      "answer": "O pacote inicial custa 134 €/mês e inclui 150 minutos de tempo de voz. Só paga pelo tempo de voz ativo – sem salário à hora, sem fidelização."
     },
     {
       "question": "Que línguas suporta o widget?",
@@ -323,6 +323,6 @@
     "title": "Pronto para automatizar as suas marcações?",
     "subtitle": "Comece em menos de 5 minutos. Marque uma chamada de apresentação grátis e veja como o AI voice widget pode transformar a gestão dos seus clientes.",
     "cta_intro": "Marcar intro grátis",
-    "cta_order": "Comprar diretamente – 999 kr/mês"
+    "cta_order": "Comprar diretamente – 134 €/mês"
   }
 }

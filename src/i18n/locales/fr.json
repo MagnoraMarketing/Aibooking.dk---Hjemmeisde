@@ -160,8 +160,8 @@
     "subtitle": "Des forfaits sur mesure conçus pour des entreprises de toutes tailles",
     "most_popular_badge": "Le Plus Populaire",
     "free_label": "Gratuit",
-    "currency_suffix": "kr/mois",
-    "setup_note": "Frais unique de {{setup}} kr pour la configuration et l'onboarding",
+    "currency_suffix": "€/mois",
+    "setup_note": "Frais unique de {{setup}} € pour la configuration et l'onboarding",
     "after_order_note": "Après la commande, vous recevrez un lien de calendrier pour réserver un créneau de configuration.",
     "cta_demo": "Essayer gratuitement",
     "cta_order": "Commander le forfait et réserver l'onboarding",
@@ -232,14 +232,14 @@
         "title": "Maintenance mensuelle et prompting",
         "optional_label": "(en option)",
         "description": "Nous nous occupons de la maintenance et aidons en continu à optimiser les prompts afin de fournir des réponses précises et pertinentes. Cela vous fait gagner du temps et garantit une meilleure expérience pour vos clients et votre équipe.",
-        "price": "2 995 kr/mois"
+        "price": "401 €/mois"
       },
       "hourly": {
         "title": "Tarif horaire pour les tâches ponctuelles",
         "prompting_label": "Prompting/entraînement",
-        "prompting_price": "695 kr/heure",
+        "prompting_price": "93 €/heure",
         "development_label": "Développement",
-        "development_price": "1 100 kr/heure"
+        "development_price": "147 €/heure"
       }
     }
   },
@@ -339,9 +339,8 @@
     "title": "AIBooking Voice AI Widget",
     "subtitle": "Un voicebot avec lequel vos clients peuvent parler directement sur votre site web - répond aux questions et gère les réservations automatiquement",
     "plan_badge": "Solution La Plus Flexible",
-    "price": "999",
-    "price_period": "DKK/mois",
-    "price_note1": "Inclut 150 minutes de temps de parole (environ 6,66 DKK/minute)",
+    "price_period": "€/mois",
+    "price_note1": "Inclut 150 minutes de temps de parole (environ 0,89 €/minute)",
     "price_note2": "Le forfait se renouvelle automatiquement une fois les 150 minutes utilisées",
     "features": [
       {
@@ -388,5 +387,13 @@
     "demo_footer": "Widget vocal IA - les clients parlent directement sur votre site",
     "perfect_for_label": "Idéal pour :",
     "perfect_for_text": "Cliniques, artisans, consultants, salons, bureaux et toute autre entreprise qui prend des réservations directement sur son site web."
+  },
+  "trialOfferWidget": {
+    "dialog_aria": "Essayez gratuitement le réceptionniste IA",
+    "close_aria": "Fermer",
+    "badge": "7 JOURS GRATUITS",
+    "title": "Essayez votre réceptionniste IA gratuitement pendant 7 jours",
+    "description": "Il vous suffit de transférer les appels depuis votre numéro de téléphone actuel — aucune configuration technique requise. Découvrez par vous-même combien de temps cela vous libère pour d'autres tâches !",
+    "cta": "Démarrer mon essai gratuit"
   }
 }

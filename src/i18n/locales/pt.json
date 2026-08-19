@@ -160,8 +160,8 @@
     "subtitle": "Pacotes personalizados criados para empresas de todas as dimensões",
     "most_popular_badge": "Mais Popular",
     "free_label": "Grátis",
-    "currency_suffix": "kr/mês",
-    "setup_note": "Taxa única de {{setup}} kr para configuração e onboarding",
+    "currency_suffix": "€/mês",
+    "setup_note": "Taxa única de €{{setup}} para configuração e onboarding",
     "after_order_note": "Após a encomenda, recebe um link de calendário para marcar a configuração.",
     "cta_demo": "Experimentar grátis",
     "cta_order": "Encomendar pacote e marcar Onboarding",
@@ -232,14 +232,14 @@
         "title": "Manutenção mensal e prompting",
         "optional_label": "(opcional)",
         "description": "Tratamos da manutenção e ajudamos continuamente a otimizar os prompts para dar respostas precisas e relevantes. Isto poupa-lhe tempo e garante uma experiência ainda melhor para os seus clientes e equipa.",
-        "price": "2.995 kr/mês"
+        "price": "401 €/mês"
       },
       "hourly": {
         "title": "Preço por hora para tarefas pontuais",
         "prompting_label": "Prompting/treino",
-        "prompting_price": "695 kr/hora",
+        "prompting_price": "93 €/hora",
         "development_label": "Desenvolvimento",
-        "development_price": "1.100 kr/hora"
+        "development_price": "147 €/hora"
       }
     }
   },
@@ -339,9 +339,8 @@
     "title": "AIBooking Voice AI Widget",
     "subtitle": "Um voicebot com quem os seus clientes podem falar diretamente no seu website - responde a perguntas e gere marcações automaticamente",
     "plan_badge": "Solução Mais Flexível",
-    "price": "999",
-    "price_period": "DKK/mês",
-    "price_note1": "Inclui 150 minutos de conversa (aprox. 6,66 DKK/minuto)",
+    "price_period": "€/mês",
+    "price_note1": "Inclui 150 minutos de conversa (aprox. 0,89 €/minuto)",
     "price_note2": "O pacote renova-se automaticamente quando os 150 minutos são utilizados",
     "features": [
       {
@@ -388,5 +387,13 @@
     "demo_footer": "Voice AI widget - os clientes falam diretamente no seu site",
     "perfect_for_label": "Perfeito para:",
     "perfect_for_text": "Clínicas, artesãos, consultores, salões, escritórios e qualquer outra empresa que receba marcações diretamente no seu website."
+  },
+  "trialOfferWidget": {
+    "dialog_aria": "Experimente a rececionista de IA gratuitamente",
+    "close_aria": "Fechar",
+    "badge": "7 DIAS GRÁTIS",
+    "title": "Experimente a sua rececionista de IA gratuitamente durante 7 dias",
+    "description": "Basta reencaminhar as chamadas do seu número de telefone atual — sem qualquer configuração técnica. Veja por si mesmo quanto tempo liberta para outras tarefas!",
+    "cta": "Iniciar o meu período de teste gratuito"
   }
 }

@@ -1,5 +1,9 @@
 import { Check, ArrowRight, Sparkles } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { localizedPrice } from '../utils/currency';
+import type { SupportedLanguage } from '../i18n/config';
+
+const WIDGET_PLAN_PRICE_DKK = 999;
 
 interface WidgetFeature {
   bold: string;
@@ -7,7 +11,8 @@ interface WidgetFeature {
 }
 
 function WidgetPricing() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
   const features = t('widgetPricing.features', { returnObjects: true }) as WidgetFeature[];
   return (
     <section className="py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-ink-50 via-white to-brand-50/30 relative overflow-hidden">
@@ -40,7 +45,7 @@ function WidgetPricing() {
                       {t('widgetPricing.plan_badge')}
                     </div>
                     <div className="flex items-baseline mb-2">
-                      <span className="text-6xl md:text-7xl font-bold text-ink-900">{t('widgetPricing.price')}</span>
+                      <span className="text-6xl md:text-7xl font-bold text-ink-900">{localizedPrice(WIDGET_PLAN_PRICE_DKK, lang)}</span>
                       <span className="text-2xl text-ink-600 ml-3">{t('widgetPricing.price_period')}</span>
                     </div>
                     <p className="text-ink-600 text-lg">

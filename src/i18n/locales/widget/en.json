@@ -1,0 +1,317 @@
+{
+  "widgetPage": {
+    "seo": {
+      "title": "AI Voice Widget for Websites & Webshops – Book Meetings and Sell With Voice | Aibooking.dk",
+      "description": "Add Aibooking.dk's AI voice widget to your website or webshop (Shopify, WooCommerce, WordPress). Let customers book meetings, order products and track shipments by voice – fully automated, 24/7. Get started in under 5 minutes. From 999 kr/month.",
+      "keywords": "AI voice widget, website voicebot, AI booking widget, webshop AI widget, Shopify voice assistant, AI order tracking, AI widget webshop, voice-based booking, AI chatbot, automated meeting booking, AI receptionist widget, booking automation"
+    },
+    "hero": {
+      "badge": "AI voice widget for your website",
+      "titlePre": "Let your customers book meetings",
+      "titleHighlight": "with their voice",
+      "subtitle": "Aibooking.dk's AI voice widget plugs straight into your website and handles bookings, questions and customer enquiries automatically – by voice and text, 24 hours a day, 365 days a year.",
+      "ctaPrimary": "Try free demo",
+      "ctaSecondary": "Order now – 999 kr/month",
+      "trustNoBinding": "No commitment",
+      "trustFiveMin": "Live in 5 minutes",
+      "trustGdpr": "GDPR compliant",
+      "imageAlt": "AI voice widget interface – voice and chat booking right on your website",
+      "floatingTitle": "New booking",
+      "floatingSubtitle": "Via voice widget – just now"
+    },
+    "stats": {
+      "uptimeValue": "24/7",
+      "uptimeLabel": "Always available",
+      "setupValue": "< 5 min",
+      "setupLabel": "To get started",
+      "minutesValue": "150 min",
+      "minutesLabel": "Talk time included",
+      "priceValue": "999 kr",
+      "priceLabel": "Per month"
+    },
+    "whatIs": {
+      "title": "What is an AI voice widget?",
+      "p1Pre": "An",
+      "p1Strong": "AI voice widget",
+      "p1Post": "is an intelligent voice interface that sits discreetly on your website – typically as a floating button in the corner. When a visitor clicks it, they can talk directly to your AI assistant.",
+      "p2Pre": "The AI assistant understands natural speech, can answer questions about your business, and book meetings straight into your calendar –",
+      "p2Strong": "with zero human involvement",
+      "p2Post": ".",
+      "p3": "It's like having a receptionist who never sleeps, never calls in sick and is always professional – for a fraction of the cost."
+    },
+    "badges": {
+      "voice": "Voice-based",
+      "textChat": "Text chat",
+      "autoBooking": "Auto-booking",
+      "multilingual": "Multilingual"
+    },
+    "extraEmployee": {
+      "badge": "Your extra digital employee",
+      "title": "Works everywhere online – you choose the platform",
+      "subtitle": "The widget acts as an extra employee who never takes a day off. Choose the platform you already use, and the AI handles the rest – from first visit to a booked appointment or a captured quote request in your calendar.",
+      "platformsList": ["WordPress", "Shopify", "WooCommerce", "Wix", "Squarespace", "Magento", "Your own platform"],
+      "cards": [
+        {
+          "title": "Books and reschedules appointments",
+          "desc": "On regular websites, the widget engages visitors instantly and books – or reschedules – an appointment straight into your calendar. No back-and-forth emails."
+        },
+        {
+          "title": "Captures quotes and leads",
+          "desc": "For interested prospects who want a quote, the widget gathers the details and automatically schedules a follow-up call – ready for you to take over."
+        },
+        {
+          "title": "Takes orders",
+          "desc": "On webshops, customers can order products, check stock and get help throughout checkout – without waiting for a staff member."
+        }
+      ]
+    },
+    "webshop": {
+      "badge": "AI widget for webshops",
+      "title": "Just like Shopify's chat – except this AI books and sells",
+      "p1Pre": "If you run a webshop on",
+      "p1Strong": "Shopify, WooCommerce or Magento",
+      "p1Post": ", the AI voice widget can be added directly to your site – just like the built-in chat tools you already know, only with an AI assistant that speaks and understands naturally.",
+      "p2Pre": "Customers can ask the widget to",
+      "p2Strong1": "track an order",
+      "p2Mid": ",",
+      "p2Strong2": "reorder a product",
+      "p2Post": ", ask about stock levels or get help with a return – fully automatically, without ever emailing customer service.",
+      "featureCards": {
+        "trackOrder": { "label": "Tracks order status", "desc": "\"Where's my package?\" answered automatically" },
+        "reorder": { "label": "Reorders products", "desc": "Customers reorder the same item by voice" },
+        "helpPurchase": { "label": "Helps with the purchase", "desc": "Answers questions about products and stock" },
+        "suggestProducts": { "label": "Suggests products", "desc": "Recommends relevant items based on needs" }
+      },
+      "chatDemo": {
+        "title": "AI Widget – Webshop",
+        "status": "Online now",
+        "customerLabel": "🗣️ Customer:",
+        "aiLabel": "🎤 AI Widget:",
+        "msg1": "\"Where's my order #4021?\"",
+        "reply1": "Your order shipped yesterday and is expected to arrive tomorrow via GLS.",
+        "msg2": "\"Can I get the same jacket again in size M?\"",
+        "reply2": "Yes, size M is in stock. Shall I place the order now?"
+      }
+    },
+    "examples": {
+      "title": "Real-world examples",
+      "subtitle": "How businesses use the AI voice widget in practice – on regular websites and webshops",
+      "websiteHeading": "On a regular website",
+      "websiteExamples": [
+        { "title": "The clinic", "desc": "A patient books a dentist appointment at 10pm – the widget finds an open slot and confirms it instantly." },
+        { "title": "The tradesperson", "desc": "A customer asks for a quote on a bathroom renovation. The widget collects the address and job details and books a site visit in the calendar." },
+        { "title": "The consultant", "desc": "An existing client wants to reschedule a meeting to next week – the widget moves the appointment automatically, no email exchange needed." }
+      ],
+      "webshopHeading": "On a webshop",
+      "webshopExamples": [
+        { "title": "The clothing store", "desc": "A customer asks the widget if an item comes in another size – the AI checks stock and helps place the order." },
+        { "title": "The electronics store", "desc": "A customer wants to know where their package is. The widget pulls the order status and answers instantly – no waiting." },
+        { "title": "The subscription shop", "desc": "A customer wants to reorder their regular monthly item – the widget places the order right there in the conversation." }
+      ]
+    },
+    "howItWorks": {
+      "title": "How the AI voice widget works",
+      "subtitle": "From installation to automatic booking – a simple three-step process",
+      "steps": [
+        { "title": "Install the widget", "description": "You get a simple JavaScript snippet. Add it to your website – compatible with WordPress, Shopify, Wix and every other platform. No technical knowledge required." },
+        { "title": "Customers talk to the AI", "description": "Visitors to your website click the widget and speak directly with your personal AI assistant. The AI understands natural language and answers questions about your business." },
+        { "title": "Bookings land automatically", "description": "Meetings and bookings are registered directly in your calendar. You receive a confirmation, and the customer automatically gets a receipt – with no effort on your part." }
+      ]
+    },
+    "features": {
+      "title": "Features that make a difference",
+      "subtitle": "Everything you need for automated booking and customer service powered by AI",
+      "items": [
+        { "title": "Natural voice recognition", "description": "Understands natural conversational speech – customers don't need to speak in commands. The AI follows the conversation and asks follow-up questions." },
+        { "title": "Direct calendar integration", "description": "Syncs with Google Calendar, Outlook and other calendar systems. No double bookings, no manual entry." },
+        { "title": "24/7 availability", "description": "Your AI assistant works around the clock – including outside business hours, on weekends and public holidays." },
+        { "title": "Voice and text", "description": "Customers can choose to talk or type. The widget supports both input methods and responds the same way either way." },
+        { "title": "GDPR compliant", "description": "All data is handled securely and in line with GDPR. You retain full control over your customers' data." },
+        { "title": "Multilingual AI", "description": "The widget supports many languages. The AI automatically adapts to whichever language the customer speaks." },
+        { "title": "Lightning-fast setup", "description": "From order to a live widget on your website takes under 5 minutes. No developers required." },
+        { "title": "Tailored to your business", "description": "The AI assistant knows your business, your services and your opening hours – answers that fit your business precisely." },
+        { "title": "Pay only for activity", "description": "You only pay for active talk time – not for idle time or breaks. A far cheaper solution than a part-time employee." }
+      ]
+    },
+    "useCases": {
+      "title": "Who uses the AI voice widget?",
+      "subtitle": "Perfect for any business that takes bookings and customer enquiries online",
+      "items": [
+        { "label": "Clinics", "desc": "Automated patient booking" },
+        { "label": "Tradespeople", "desc": "Jobs and meetings booked" },
+        { "label": "Consultants", "desc": "Meetings straight into the calendar" },
+        { "label": "Salons", "desc": "Appointments booked automatically" },
+        { "label": "Dentists", "desc": "24/7 patient handling" },
+        { "label": "E-commerce", "desc": "Non-stop customer service" }
+      ],
+      "roi": {
+        "title": "Typical ROI for an AI voice widget",
+        "descriptionPre": "A part-time receptionist typically costs 15,000-20,000 kr/month. With the AI voice widget at 999 kr/month you get",
+        "descriptionStrong": "the same functionality",
+        "descriptionPost": "– but 24 hours a day, 7 days a week.",
+        "stat1Value": "95%",
+        "stat1Label": "Savings vs. a receptionist",
+        "stat2Value": "0 sec",
+        "stat2Label": "Wait time for customers",
+        "stat3Value": "100%",
+        "stat3Label": "Automated bookings"
+      }
+    },
+    "pricing": {
+      "badge": "Transparent pricing",
+      "title": "Simple, transparent pricing",
+      "subtitle": "Choose the plan that fits your business – pay only for what you use, no hidden fees",
+      "widget": {
+        "name": "AI Voice Widget",
+        "recommendedBadge": "Recommended starting point",
+        "description": "The fastest and cheapest way to automate your bookings. The widget sits on your website and lets customers talk or type directly with your AI assistant – 24/7, with zero human involvement.",
+        "price": "999",
+        "priceSuffix": "kr/month",
+        "includesLine": "Includes 150 minutes of talk time (approx. 6.66 kr/minute)",
+        "renewLine": "The plan renews automatically once the 150 minutes are used",
+        "ctaOrder": "Order now",
+        "ctaBookIntro": "Book a free intro call",
+        "features": [
+          "Voice AI bot – customers talk directly to the AI",
+          "Answers questions and handles bookings",
+          "Bookings go straight into your calendar",
+          "Available 24/7 on your website",
+          "150 minutes of talk time included",
+          "Pay only for active talk time – no hourly wage",
+          "Open 24/7, 365 days a year – always ready",
+          "Handles customers even when you're busy"
+        ],
+        "noteTaletidLabel": "Talk time:",
+        "noteTaletidText": "Purchased credit is valid for 3 months",
+        "noteFornyelseLabel": "Renewal:",
+        "noteFornyelseText": "Automatic once 150 min. are used",
+        "noteBindingLabel": "Commitment:",
+        "noteBindingText": "None – cancel any time"
+      },
+      "phoneAssistant": {
+        "title": "AI Phone Assistant",
+        "badge": "Outbound & inbound calls",
+        "description": "Need an AI assistant that also makes outbound calls or answers incoming phone calls directly? Choose one of our scalable plans below — from a free demo to enterprise."
+      },
+      "choosePlan": {
+        "title": "Choose your plan",
+        "subtitle": "Tailored plans designed for businesses of every size"
+      },
+      "mostPopularBadge": "Most Popular",
+      "freeLabel": "Free",
+      "priceSuffix": "kr/month",
+      "setupPricePre": "One-time fee of",
+      "setupPricePost": "for setup and onboarding",
+      "plans": {
+        "demo": {
+          "name": "Demo",
+          "description": "For anyone who wants to explore our platform and try the setup themselves",
+          "minutes": "Active for 7 days",
+          "features": [
+            "Basic voice customization",
+            "Analytics dashboard",
+            "Option to upgrade to the Starter plan"
+          ],
+          "cta": "Try for free"
+        },
+        "starter": {
+          "name": "Starter",
+          "description": "Perfect for smaller businesses getting started with AI",
+          "minutes": "200 minutes",
+          "features": [
+            "200 AI call minutes",
+            "Basic voice customization",
+            "Standard support",
+            "Analytics dashboard",
+            "Email notifications"
+          ],
+          "cta": "Order plan and book onboarding"
+        },
+        "professional": {
+          "name": "Professional",
+          "description": "Ideal for growing businesses with regular call volume",
+          "minutes": "600 minutes",
+          "features": [
+            "600 AI call minutes",
+            "Advanced voice customization",
+            "Priority support",
+            "Advanced analytics",
+            "Custom integrations",
+            "SMS reminders",
+            "Customer history"
+          ],
+          "cta": "Order plan and book onboarding"
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "description": "For organizations that need maximum flexibility",
+          "minutes": "2000 minutes",
+          "features": [
+            "2000 AI call minutes",
+            "Full voice customization",
+            "24/7 dedicated support",
+            "Custom AI training",
+            "API access",
+            "Dedicated success manager",
+            "Unlimited integrations",
+            "GDPR compliance support"
+          ],
+          "cta": "Order plan and book onboarding"
+        }
+      },
+      "afterOrderNote": "After ordering you'll receive a calendar link to book your setup session.",
+      "additionalPrices": {
+        "title": "Additional pricing",
+        "toggleLabel": "See additional pricing",
+        "setupTitle": "Setup",
+        "setupText": "2x subscription price",
+        "setupNote": "(one-time fee)",
+        "maintenanceTitle": "Monthly maintenance and prompting",
+        "maintenanceOptional": "(optional)",
+        "maintenanceDesc": "We handle maintenance and continuously help optimize prompts, so answers stay precise and relevant. It saves you time and ensures an even better experience for your customers and staff.",
+        "maintenancePrice": "2,995 kr/month",
+        "hourlyTitle": "Hourly rate for ad hoc tasks",
+        "promptingLabel": "Prompting/training",
+        "promptingPrice": "695 kr/hour",
+        "devLabel": "Development",
+        "devPrice": "1,100 kr/hour"
+      }
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Everything you want to know about the AI voice widget",
+      "items": [
+        {
+          "question": "What is an AI voice widget?",
+          "answer": "An AI voice widget is an intelligent chat and voice interface that can be added directly to your website. It lets your visitors talk to an AI assistant that can answer questions, book meetings and handle enquiries – automatically, 24 hours a day."
+        },
+        {
+          "question": "How do I add the widget to my website?",
+          "answer": "It takes under 5 minutes. You get a simple JavaScript snippet that you paste into your website. The widget is compatible with every platform, including WordPress, Shopify, Squarespace and custom-built sites."
+        },
+        {
+          "question": "Can the AI widget book meetings automatically?",
+          "answer": "Yes. The widget integrates directly with your calendar (Google Calendar, Outlook and others) and makes sure new bookings land automatically, without you having to lift a finger."
+        },
+        {
+          "question": "What does the AI widget cost?",
+          "answer": "The starter plan costs 999 kr/month and includes 150 minutes of talk time. You only pay for active talk time – no hourly wage, no commitment."
+        },
+        {
+          "question": "Which languages does the widget support?",
+          "answer": "The widget supports Danish and a wide range of other languages. The AI assistant automatically adapts to whichever language the customer speaks."
+        },
+        {
+          "question": "Is the widget GDPR compliant?",
+          "answer": "Yes. All data is handled in accordance with GDPR rules, and you have full control over which information is stored."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to automate your bookings?",
+      "description": "Get started in under 5 minutes. Book a free intro call and see how the AI voice widget can transform your customer handling.",
+      "primaryCta": "Book a free intro call",
+      "secondaryCta": "Order now – 999 kr/month"
+    }
+  }
+}

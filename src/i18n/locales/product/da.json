@@ -1,0 +1,372 @@
+{
+  "featuresPage": {
+    "seo": {
+      "title": "Funktioner - AI Receptionist, Dashboard, Voice Opkald og Widget | Aibooking.dk",
+      "description": "Udforsk alle funktioner i Aibooking.dk: Komplet AI-dashboard, indgående og udgående AI-stemme opkald, AI chat widget til din hjemmeside og automatisk booking. Prøv gratis.",
+      "keywords": "AI funktioner, AI receptionist, AI dashboard, indgående opkald, udgående opkald, AI widget, automatisk booking, AI chat, dansk AI"
+    },
+    "hero": {
+      "badge": "Alle Funktioner",
+      "title_line1": "Komplet AI-platform for",
+      "title_line2": "moderne virksomheder",
+      "subtitle": "Fra intelligent opkaldstyring og udgående AI-voice opkald til et komplet dashboard og en AI-widget til din hjemmeside — alt i én platform. Spar tid, øg konverteringer og giv dine kunder en professionel oplevelse 24/7."
+    },
+    "mainBenefits": {
+      "time": { "title": "Spar 85% af din telefontid", "description": "Frigør værdifuld tid til kerneopgaver" },
+      "roi": { "title": "ROI på 320%", "description": "Dokumenteret værdi fra dag ét" },
+      "satisfaction": { "title": "98% kundetilfredshed", "description": "Professionel service døgnet rundt" },
+      "conversions": { "title": "+45% flere konverteringer", "description": "Gå aldrig glip af en mulighed igen" }
+    },
+    "dashboard": {
+      "badge": "Dit Kontrolcenter",
+      "title_line1": "Komplet dashboard —",
+      "title_line2": "fuld kontrol over alle interaktioner",
+      "description": "Med Aibooking.dk's dashboard har du altid et præcist overblik over din virksomheds AI-aktivitet. Se hvilke opkald der er håndteret, lyt til samtaler, læs AI-genererede notater og spor dine bookinger i realtid — alt samlet ét sted.",
+      "features": {
+        "realtime": { "label": "Realtids opkaldsstatistik", "desc": "Se alle opkald live og historisk" },
+        "notes": { "label": "AI-genererede samtalenotater", "desc": "Automatisk opsummering af hvert opkald" },
+        "conversion": { "label": "Booking- og konverteringsrate", "desc": "Spor præcis hvor mange opkald ender i booking" },
+        "recordings": { "label": "Lyt til optagede samtaler", "desc": "Fuld lydlog tilgængelig altid" },
+        "sync": { "label": "Live synkronisering", "desc": "Dashboard opdateres i realtid" },
+        "overview": { "label": "Tilpasset overblik", "desc": "Konfigurer dit eget dashboard-layout" }
+      },
+      "cta": "Se dashboard i aktion",
+      "mock": {
+        "callsToday": "Opkald i dag",
+        "callsTodayChange": "+12% vs i går",
+        "bookingsLabel": "Bookinger",
+        "bookingsRate": "66% konv.",
+        "responseTimeLabel": "Svartid",
+        "responseTimeAvg": "Gennemsnit",
+        "recentCallsLabel": "Seneste opkald",
+        "unknownNumber": "Ukendt nr.",
+        "outcomeBooked": "Booket",
+        "outcomeInfoGiven": "Info givet",
+        "outcomeForwarded": "Videresendt",
+        "weeklyActivityLabel": "Ugentlig aktivitet",
+        "liveData": "Live Data",
+        "days": ["M", "T", "O", "T", "F", "L", "S"]
+      }
+    },
+    "voice": {
+      "badge": "AI Voice Opkald",
+      "title_line1": "Ind- og udgående AI-stemme opkald",
+      "title_line2": "på professionelt niveau",
+      "subtitle": "Vores AI-receptionist taler flydende dansk og lyder som en rigtig person. Den håndterer alle typer opkald — fra bookinger og spørgsmål til udgående påmindelser og opfølgning.",
+      "incoming": {
+        "title": "Indgående AI-opkald",
+        "subtitle": "Besvarer alle opkald — 24 timer i døgnet",
+        "statusLabel": "Indgående opkald — aktiv",
+        "customerMessage": "Hej, jeg vil gerne booke en tid til en konsultation...",
+        "aiResponse": "Selvfølgelig! Hvornår passer det bedst for dig?",
+        "features": [
+          "AI-receptionist besvarer øjeblikkeligt",
+          "Forstår alle danske dialekter",
+          "Håndterer flere samtidige opkald",
+          "Automatisk booking direkte i samtalen",
+          "Viderestilling til menneskelig støtte ved behov",
+          "Fuldt opkaldsreferat sendt til dig efter samtale"
+        ]
+      },
+      "outgoing": {
+        "title": "Udgående AI-opkald",
+        "subtitle": "Automatiseret kundekommunikation",
+        "statusLabel": "Udgående opkald — sender påmindelse",
+        "message": "Hej Lars, dette er en påmindelse om din aftale i morgen kl. 10.00...",
+        "confirmed": "Aftale bekræftet af kunden",
+        "features": [
+          "Automatiske bekræftelsesopkald til kunder",
+          "Påmindelser om aftaler dagen før",
+          "Opfølgning på ubesvarede henvendelser",
+          "Re-aktivering af inaktive kunder",
+          "Personaliseret AI-stemme i dit brand",
+          "Fuld log og optagelse af alle udgående opkald"
+        ]
+      },
+      "ctaText": "Hør hvordan AI-receptionist lyder — book en gratis demonstration",
+      "ctaButton": "Book gratis demonstration"
+    },
+    "widget": {
+      "badge": "AI Chat Widget — Nyhed",
+      "title_line1": "AI-Widget til din hjemmeside —",
+      "title_line2": "konverter besøgende til kunder",
+      "subtitle": "Tilføj en intelligent AI-chatassistent til din hjemmeside med én linje kode. Widgetten besvarer spørgsmål, håndterer bookinger og guider dine besøgende — automatisk, på dansk, døgnet rundt.",
+      "imageAlt": "AI Chat Widget integreret på hjemmeside - Aibooking.dk",
+      "plugPlay": "Plug & Play",
+      "activeIn5Min": "Aktiv på 5 minutter",
+      "assistantTitle": "Din 24/7 AI-salgsassistent",
+      "assistantDescription": "AI-Widgetten fra Aibooking.dk er mere end en chatbot. Det er en intelligent salgsassistent der forstår dine besøgendes behov, giver præcise svar baseret på dit indhold og konverterer henvendelser til bookinger — helt automatisk.",
+      "benefits": {
+        "anywhere": { "title": "Virker på alle hjemmesider", "desc": "WordPress, Shopify, Webflow, custom — én linje kode" },
+        "aiChat": { "title": "AI-drevet live chat", "desc": "Besvarer spørgsmål, booker aftaler og konverterer besøgende" },
+        "danish": { "title": "Dansk naturlig sprogforståelse", "desc": "Forstår kontekst og nuancer i kundens spørgsmål" },
+        "fast": { "title": "Aktiv på under 5 minutter", "desc": "Intet teknisk kendskab kræves — plug and play" },
+        "booking": { "title": "Direkte booking i chatten", "desc": "Kunden kan booke tid uden at forlade siden" },
+        "conversion": { "title": "+45% konverteringsstigning", "desc": "Dokumenteret effekt på salg og leads" }
+      },
+      "ctaPlans": "Se AI-Widget planer",
+      "ctaDemo": "Book en demo",
+      "voice": {
+        "imageAlt": "AI Voice Widget til hjemmeside - Aibooking.dk",
+        "voiceActivated": "Voice-aktiveret",
+        "talkDirect": "Tal direkte med AI",
+        "badge": "AI Voice Widget",
+        "title": "Stemmestyret AI direkte på din hjemmeside",
+        "description": "Med vores AI Voice Widget kan dine besøgende tale direkte med en AI-assistent på din hjemmeside. Det giver en ekstraordinær kundeoplevelse og gør det nemmere at booke, spørge og engagere — helt uden at taste.",
+        "features": [
+          "Naturlig dansk stemme og forståelse",
+          "Aktiveres med et klik — ingen app-download",
+          "Integrerer med din kalender og booking-system",
+          "Fungerer på mobil, tablet og desktop",
+          "Kombinér voice og chat i samme widget",
+          "Fuld log af alle samtaler i dashboard"
+        ],
+        "cta": "Kom i gang med Widget"
+      }
+    },
+    "stats": {
+      "lessPhoneTime": { "value": "85%", "label": "Mindre telefontid" },
+      "fewerNoShows": { "value": "60%", "label": "Færre no-shows" },
+      "satisfaction": { "value": "98%", "label": "Kundetilfredshed" },
+      "roi": { "value": "320%", "label": "ROI første år" }
+    },
+    "additionalFeatures": {
+      "title": "Alle funktioner — ét samlet system",
+      "subtitle": "Aibooking.dk er designet til at fungere som dit komplette kommunikationscenter. Ingen separate systemer, ingen rodede integrationer — bare ét system der virker.",
+      "items": {
+        "calendar": {
+          "title": "Automatisk Kalenderintegration",
+          "description": "Synkroniserer problemfrit med Google Calendar, Outlook og alle populære kalendersystemer. Ingen dobbeltbookinger, ingen konflikter — alt opdateres automatisk.",
+          "benefits": ["Integration med Google Calendar og Outlook", "Realtidssynkronisering", "Automatisk check af ledige tider", "Håndtering af ombookinger og aflysninger"]
+        },
+        "sms": {
+          "title": "SMS-påmindelser og Bekræftelser",
+          "description": "Reducer no-shows med op til 60% gennem automatiske SMS-påmindelser. Kunder modtager bekræftelser og påmindelser tilpasset din virksomheds tone og brand.",
+          "benefits": ["Automatiske bookingbekræftelser", "Påmindelser 24 timer før aftaler", "Mulighed for at ombooke via SMS", "Brugerdefinerede beskedskabeloner"]
+        },
+        "gdpr": {
+          "title": "GDPR-sikker og Dansk Hosting",
+          "description": "Alle data håndteres i overensstemmelse med GDPR og opbevares sikkert i Danmark. End-to-end kryptering, fuld transparens og regelmæssige sikkerhedsaudits.",
+          "benefits": ["Fuld GDPR-overholdelse", "Data hostes i Danmark", "End-to-end kryptering", "Regelmæssige sikkerhedsaudits"]
+        },
+        "setup": {
+          "title": "Hurtig Opsætning — Under 24 Timer",
+          "description": "Kom i gang på under 24 timer med hjælp fra vores dedikerede onboarding-specialist. AI-en trænes til din branche og begynder at tage opkald næsten med det samme.",
+          "benefits": ["Opsætning på under 24 timer", "Dedikeret onboarding-specialist", "Tilpasning til din branche", "Kontinuerlig optimering"]
+        }
+      }
+    },
+    "cta": {
+      "title": "Klar til at automatisere din forretning?",
+      "subtitle": "Prøv Aibooking.dk gratis i 7 dage og oplev selv forskellen — ingen binding, ingen kortoplysninger.",
+      "bookDemo": "Book gratis demo",
+      "seeWidget": "Se AI-Widget"
+    }
+  },
+  "integrationsPage": {
+    "seo": {
+      "title": "Integrationer - Tilslut AI Receptionist til Dine Systemer | Aibooking.dk",
+      "description": "Integrer vores AI-receptionist med Google Calendar, Outlook, Microsoft Teams, Zoom, Slack og mange flere. Seamless kalender- og booking-integrationer.",
+      "keywords": "kalender integration, Google Calendar, Outlook integration, booking system integration, CRM integration, email integration"
+    },
+    "hero": {
+      "badge": "Problemfri Integration",
+      "title_line1": "Forbind med dine",
+      "title_line2": "eksisterende værktøjer",
+      "subtitle": "Vores AI-løsning automatiserer administration, opkald, SMS og email ved at arbejde sammen med de systemer du allerede bruger. Spar tid, bliv mere professionel og lad AI'en håndtere ombookinger, opfølgning og mødebekræftigelser automatisk.",
+      "features": {
+        "saveTime": { "title": "Spar Timer Dagligt", "desc": "Automatiser ind- og udgående opkald, SMS og emails mens AI'en synkroniserer med dine systemer" },
+        "fastSetup": { "title": "Hurtig Opsætning", "desc": "Ingen kompliceret installation. Forbind dine eksisterende værktøjer på minutter" },
+        "sync": { "title": "Altid Synkroniseret", "desc": "Real-time opdateringer på tværs af alle dine platforme. Ingen dobbeltarbejde" }
+      }
+    },
+    "categories": {
+      "title": "Integration Kategorier",
+      "subtitle": "Vores AI-løsning forbinder med de værktøjer du allerede bruger hver dag",
+      "items": {
+        "calendar": { "title": "Kalender & Planlægning", "description": "Google Calendar, Outlook, CalDAV" },
+        "crm": { "title": "CRM & Kunder", "description": "HubSpot, Salesforce, Pipedrive" },
+        "communication": { "title": "Kommunikation", "description": "WhatsApp, Slack, Discord, Messenger" },
+        "documents": { "title": "Dokumenter", "description": "Notion, WordPress, Google Docs" },
+        "ecommerce": { "title": "E-handel", "description": "Shopify, WooCommerce, Stripe" },
+        "automation": { "title": "Automatisering", "description": "Zapier, Make, Webhooks, API" }
+      }
+    },
+    "grid": {
+      "title": "Populære Integrationer",
+      "subtitle": "Arbejd problemfrit med dine eksisterende værktøjer. Vores AI håndterer automatisk kommunikation på tværs af alle platforme.",
+      "clinic": {
+        "title": "Skabt specielt til klinikker og behandlingssteder",
+        "description": "Over 500 danske klinikker har allerede valgt vores løsning. Fra tandlægeklinikker og fysioterapeuter til skønhedssaloner og wellness-centre – vores AI-assistent integrerer perfekt med dit eksisterende booking-system og håndterer alt fra telefonopkald til SMS-påmindelser.",
+        "points": {
+          "gdpr": { "strong": "GDPR-sikker datahåndtering", "text": " – alle patientdata behandles fortroligt og i overensstemmelse med sundhedsloven" },
+          "noShows": { "strong": "Reducér \"no-shows\" med op til 67%", "text": " – automatiske påmindelser via SMS og email holder dine kunder informeret" },
+          "setup": { "strong": "Opsætning på under 15 minutter", "text": " – ingen IT-viden kræves, vores team guider dig hele vejen" },
+          "support": { "strong": "Dansk support 7 dage om ugen", "text": " – hjælp når du har brug for det, på dit eget sprog" }
+        }
+      },
+      "popularBadge": "Populær",
+      "categoryLabels": {
+        "calendar": "Kalender",
+        "communication": "Kommunikation",
+        "ecommerce": "E-handel",
+        "productivity": "Produktivitet",
+        "website": "Hjemmeside",
+        "automation": "Automatisering",
+        "video": "Video",
+        "ai": "AI",
+        "developer": "Udvikler"
+      },
+      "items": {
+        "googleCalendar": { "name": "Google Calendar", "description": "Automatisk booking og synkronisering af møder" },
+        "outlook": { "name": "Outlook", "description": "Microsoft 365 integration til email og kalender" },
+        "whatsapp": { "name": "WhatsApp", "description": "Send SMS bekræftelser og påmindelser" },
+        "slack": { "name": "Slack", "description": "Real-time notifikationer til dit team" },
+        "shopify": { "name": "Shopify", "description": "E-handel booking integration" },
+        "notion": { "name": "Notion", "description": "Dokumenter og noter synkronisering" },
+        "wordpress": { "name": "WordPress", "description": "Tilføj booking til din hjemmeside" },
+        "zapier": { "name": "Zapier", "description": "Forbind med 5000+ apps automatisk" },
+        "zoom": { "name": "Zoom", "description": "Automatisk oprettelse af mødelinks" },
+        "teams": { "name": "Microsoft Teams", "description": "Teams møde integration" },
+        "messenger": { "name": "Messenger", "description": "Facebook Messenger integration" },
+        "discord": { "name": "Discord", "description": "Community og server integration" },
+        "openai": { "name": "OpenAI", "description": "Avanceret AI-understøttelse" },
+        "webhooks": { "name": "Webhooks", "description": "Custom integration med dine systemer" },
+        "restApi": { "name": "REST API", "description": "Fuld API adgang til alle funktioner" }
+      },
+      "missing": {
+        "title": "Mangler din integration?",
+        "description": "Vi tilføjer løbende nye integrationer. Med vores Webhook og API support kan du forbinde næsten hvilket som helst system til vores AI-løsning.",
+        "cta": "Book Demo"
+      }
+    },
+    "cta": {
+      "title": "Lad AI'en overtage administrationen",
+      "description": "Vores AI-løsning integrerer problemfrit med dine eksisterende systemer og automatiserer alt fra telefonopkald til email kommunikation. Spar timer hver dag og fokuser på det der virkelig betyder noget: dine kunder.",
+      "button": "Book Demo",
+      "benefitsTitle": "Hvad får du med AI-integration?",
+      "benefits": [
+        "Automatisk håndtering af ind- og udgående opkald",
+        "SMS påmindelser og bekræftelser sendes automatisk",
+        "Email kommunikation styret af AI",
+        "Ombookinger håndteres uden manuel indgriben",
+        "Mødebekræftigelser sendes til tiden hver gang",
+        "Opfølgning på mistede opkald og henvendelser",
+        "Real-time synkronisering med alle dine systemer",
+        "Professionel håndtering 24/7"
+      ],
+      "stats": {
+        "setupTime": { "value": "5 min", "label": "Gennemsnitlig opsætningstid" },
+        "service": { "value": "24/7", "label": "AI-drevet kundeservice" },
+        "sync": { "value": "100%", "label": "Automatisk synkronisering" }
+      }
+    }
+  },
+  "demoPage": {
+    "seo": {
+      "title": "Book Gratis Demo - Se AI Receptionist i Aktion | Aibooking.dk",
+      "description": "Book en gratis og uforpligtende demo af vores AI-receptionist. Få 7 dages gratis adgang og se hvordan vi kan transformere din forretning. Book nu.",
+      "keywords": "book demo, gratis demo, AI receptionist demo, prøv gratis, uforpligtende demo"
+    },
+    "hero": {
+      "badge": "Eksklusivt Tilbud",
+      "title": "Book Din Gratis Demo",
+      "subtitle_before": "Få en personlig gennemgang af systemet og oplev hvordan vores AI-receptionist kan transformere din forretning. Book en gratis og uforpligtende demo i dag og få ",
+      "subtitle_highlight": "7 dages gratis prøveperiode",
+      "subtitle_after": " med fuld adgang.",
+      "cards": {
+        "review": { "title": "Gratis Gennemgang", "description": "Få en personlig og uforpligtende gennemgang tilpasset netop din forretning og dine behov." },
+        "trial": { "title": "7 Dages Gratis Demo", "description": "Test alle funktioner uden binding i 7 dage. Helt uforpligtende og ingen kreditkort påkrævet." },
+        "help": { "title": "Vi Hjælper Dig I Gang", "description": "Vores team guider dig gennem hele opsætningen og sikrer, at du kommer godt i gang fra dag ét." }
+      }
+    },
+    "booking": {
+      "title": "Vælg Din Tid",
+      "subtitle": "Book et møde der passer til din kalender",
+      "cta": "Book Din Gratis Demo"
+    },
+    "afterBooking": {
+      "title": "Hvad Sker Der Efter Booking?",
+      "steps": {
+        "step1": { "title": "Book Møde", "description": "Vælg en tid der passer dig" },
+        "step2": { "title": "Personlig Demo", "description": "Se AI-receptionisten i aktion" },
+        "step3": { "title": "Gratis Aktivering", "description": "Få 7 dages fuld adgang" },
+        "step4": { "title": "Nyd Fordelene", "description": "Fokuser på at vokse din klinik" }
+      }
+    },
+    "whyChoose": {
+      "title": "Hvorfor Vælge Vores AI-Receptionist?",
+      "subtitle": "Oplev forskellen med markedets mest avancerede AI-drevne bookingsystem designet specifikt til danske virksomheder",
+      "cards": {
+        "availability": {
+          "title": "24/7 Tilgængelighed",
+          "description": "Vores AI-receptionist arbejder døgnet rundt uden pauser, ferier eller fridage. Dine kunder kan altid booke en tid, uanset om det er midt om natten, i weekenden eller på helligdage. Det betyder flere bookinger og højere kundetilfredshed."
+        },
+        "efficiency": {
+          "title": "Øget Effektivitet",
+          "description": "Automatiser op til 80% af dine telefoniske henvendelser og frigør værdifuld tid til dit personale. Reducer administrative opgaver drastisk og lad dit team fokusere på at levere førsteklasses service til dine kunder."
+        },
+        "response": {
+          "title": "Øjeblikkelig Respons",
+          "description": "Ingen ventetid for dine kunder. AI'en besvarer alle opkald med det samme og kan håndtere ubegrænsede samtaler samtidigt. Det betyder nul tabte opkald og maksimal kundetilfredshed hele tiden."
+        },
+        "calendar": {
+          "title": "Smart Kalenderintegration",
+          "description": "Seamless integration med dit eksisterende bookingsystem. AI'en ser din reelle kalender i realtid og booker kun ledige tider. Alle aftaler synkroniseres automatisk med detaljerede noter om samtalen og kundens ønsker."
+        },
+        "noShows": {
+          "title": "Reducér No-Shows",
+          "description": "Automatiske påmindelser via SMS og email reducerer udeblevne aftaler med op til 65%. Systemet sender intelligente påmindelser på det rigtige tidspunkt og kan endda ombooke automatisk ved aflysninger."
+        },
+        "danish": {
+          "title": "Perfekt Dansk",
+          "description": "Vores AI er trænet specifikt til dansk sprog og danske kulturnormer. Den forstår dialekter, slang og taler naturligt dansk. Dine kunder oplever en behagelig og professionel samtale hver eneste gang."
+        }
+      }
+    },
+    "concreteBenefits": {
+      "title": "Konkrete Fordele For Din Forretning",
+      "items": {
+        "saveTime": {
+          "title": "Spar 10+ Timer Om Ugen",
+          "description": "Frigør tid der før gik til at besvare telefonen, administrere bookinger og sende påmindelser. Brug tiden på at vokse din forretning i stedet."
+        },
+        "increaseRevenue": {
+          "title": "Øg Indtægten Med 30%",
+          "description": "Fang alle leads 24/7 og reducer tabte bookinger. Flere bookinger og færre no-shows betyder direkte øget omsætning."
+        },
+        "noMissedCalls": {
+          "title": "Nul Tabte Opkald",
+          "description": "Hvert ubesvaret opkald er tabt omsætning. Med AI-receptionisten går intet opkald glip - selv når du er optaget, til møde eller uden for åbningstid."
+        },
+        "betterExperience": {
+          "title": "Bedre Kundeoplevelse",
+          "description": "Konsistent høj servicekvalitet hver gang. Ingen dårlige dage, ingen stress-fejl. Dine kunder oplever altid en professionel og venlig receptionist."
+        },
+        "fullDocumentation": {
+          "title": "Komplet Dokumentation",
+          "description": "Alle samtaler optages og transskriberes automatisk. Få værdifuld indsigt i kundeønsker, typiske spørgsmål og muligheder for at forbedre din service."
+        },
+        "scalable": {
+          "title": "Skalerbar Løsning",
+          "description": "Håndter 1 eller 1000 opkald om dagen uden at ansætte mere personale. Systemet vokser med din forretning uden ekstra omkostninger."
+        }
+      },
+      "closing": {
+        "title": "Klar Til At Komme I Gang?",
+        "text": "Book din gratis demo nu og få 7 dages fuld adgang til systemet. Vi guider dig gennem hele opsætningen og sikrer, at du kommer godt i gang. Ingen binding, ingen kreditkort påkrævet.",
+        "cta": "Book Din Gratis Demo Nu"
+      }
+    },
+    "industries": {
+      "title": "Perfekt Til Alle Typer Servicevirksomheder",
+      "subtitle": "Vores AI-receptionist er designet til at håndtere bookinger og kundeservice for alle brancher",
+      "items": {
+        "healthcare": { "title": "Sundhedssektoren", "description": "Tandlæger, fysioterapeuter, kiropraktorer, massageklinikker, psykologer" },
+        "beauty": { "title": "Skønhed & Wellness", "description": "Frisører, kosmetologer, neglestudioer, spa-centre, tatovører" },
+        "craft": { "title": "Håndværk & Service", "description": "VVS, elektrikere, malere, tømrere, rengøring, flyttefirmaer" },
+        "consulting": { "title": "Rådgivning & Coaching", "description": "Advokater, revisorer, konsulenter, personlige trænere, karrierecoaches" }
+      }
+    }
+  }
+}

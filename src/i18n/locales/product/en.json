@@ -1,0 +1,372 @@
+{
+  "featuresPage": {
+    "seo": {
+      "title": "Features - AI Receptionist, Dashboard, Voice Calls and Widget | Aibooking.dk",
+      "description": "Explore every feature in Aibooking.dk: a complete AI dashboard, inbound and outbound AI voice calls, an AI chat widget for your website, and automatic booking. Try it for free.",
+      "keywords": "AI features, AI receptionist, AI dashboard, inbound calls, outbound calls, AI widget, automatic booking, AI chat, AI receptionist"
+    },
+    "hero": {
+      "badge": "All Features",
+      "title_line1": "The complete AI platform for",
+      "title_line2": "modern businesses",
+      "subtitle": "From intelligent call handling and outbound AI voice calls to a complete dashboard and an AI widget for your website — all in one platform. Save time, boost conversions, and give your customers a professional experience 24/7."
+    },
+    "mainBenefits": {
+      "time": { "title": "Save 85% of your phone time", "description": "Free up valuable time for core tasks" },
+      "roi": { "title": "320% ROI", "description": "Proven value from day one" },
+      "satisfaction": { "title": "98% customer satisfaction", "description": "Professional service around the clock" },
+      "conversions": { "title": "+45% more conversions", "description": "Never miss an opportunity again" }
+    },
+    "dashboard": {
+      "badge": "Your Control Center",
+      "title_line1": "A complete dashboard —",
+      "title_line2": "full control over every interaction",
+      "description": "With the Aibooking.dk dashboard, you always have a precise overview of your business's AI activity. See which calls have been handled, listen to conversations, read AI-generated notes, and track your bookings in real time — all in one place.",
+      "features": {
+        "realtime": { "label": "Real-time call statistics", "desc": "See every call live and historically" },
+        "notes": { "label": "AI-generated call notes", "desc": "Automatic summary of every call" },
+        "conversion": { "label": "Booking and conversion rate", "desc": "Track exactly how many calls turn into bookings" },
+        "recordings": { "label": "Listen to recorded conversations", "desc": "Full audio log always available" },
+        "sync": { "label": "Live synchronization", "desc": "Dashboard updates in real time" },
+        "overview": { "label": "Customized overview", "desc": "Configure your own dashboard layout" }
+      },
+      "cta": "See the dashboard in action",
+      "mock": {
+        "callsToday": "Calls today",
+        "callsTodayChange": "+12% vs yesterday",
+        "bookingsLabel": "Bookings",
+        "bookingsRate": "66% conv.",
+        "responseTimeLabel": "Response time",
+        "responseTimeAvg": "Average",
+        "recentCallsLabel": "Recent calls",
+        "unknownNumber": "Unknown no.",
+        "outcomeBooked": "Booked",
+        "outcomeInfoGiven": "Info given",
+        "outcomeForwarded": "Forwarded",
+        "weeklyActivityLabel": "Weekly activity",
+        "liveData": "Live Data",
+        "days": ["M", "T", "W", "T", "F", "S", "S"]
+      }
+    },
+    "voice": {
+      "badge": "AI Voice Calls",
+      "title_line1": "Inbound and outbound AI voice calls",
+      "title_line2": "at a professional level",
+      "subtitle": "Our AI receptionist speaks fluent, natural language and sounds like a real person. It handles every type of call — from bookings and questions to outbound reminders and follow-ups.",
+      "incoming": {
+        "title": "Inbound AI calls",
+        "subtitle": "Answers every call — 24 hours a day",
+        "statusLabel": "Inbound call — active",
+        "customerMessage": "Hi, I'd like to book an appointment for a consultation...",
+        "aiResponse": "Of course! What time works best for you?",
+        "features": [
+          "AI receptionist answers instantly",
+          "Understands every regional accent",
+          "Handles multiple simultaneous calls",
+          "Books appointments directly during the call",
+          "Transfers to a human when needed",
+          "Full call summary sent to you afterward"
+        ]
+      },
+      "outgoing": {
+        "title": "Outbound AI calls",
+        "subtitle": "Automated customer communication",
+        "statusLabel": "Outbound call — sending reminder",
+        "message": "Hi Lars, this is a reminder about your appointment tomorrow at 10:00 AM...",
+        "confirmed": "Appointment confirmed by the customer",
+        "features": [
+          "Automatic confirmation calls to customers",
+          "Appointment reminders the day before",
+          "Follow-up on missed inquiries",
+          "Re-engagement of inactive customers",
+          "Personalized AI voice in your brand",
+          "Full log and recording of every outbound call"
+        ]
+      },
+      "ctaText": "Hear how the AI receptionist sounds — book a free demonstration",
+      "ctaButton": "Book a free demonstration"
+    },
+    "widget": {
+      "badge": "AI Chat Widget — New",
+      "title_line1": "An AI widget for your website —",
+      "title_line2": "turn visitors into customers",
+      "subtitle": "Add an intelligent AI chat assistant to your website with a single line of code. The widget answers questions, handles bookings, and guides your visitors — automatically, in their own language, around the clock.",
+      "imageAlt": "AI chat widget embedded on a website - Aibooking.dk",
+      "plugPlay": "Plug & Play",
+      "activeIn5Min": "Active in 5 minutes",
+      "assistantTitle": "Your 24/7 AI sales assistant",
+      "assistantDescription": "The Aibooking.dk AI widget is more than a chatbot. It's an intelligent sales assistant that understands your visitors' needs, gives precise answers based on your content, and converts inquiries into bookings — fully automatically.",
+      "benefits": {
+        "anywhere": { "title": "Works on every website", "desc": "WordPress, Shopify, Webflow, custom — one line of code" },
+        "aiChat": { "title": "AI-powered live chat", "desc": "Answers questions, books appointments, and converts visitors" },
+        "danish": { "title": "Natural language understanding", "desc": "Understands context and nuance in customer questions" },
+        "fast": { "title": "Active in under 5 minutes", "desc": "No technical knowledge required — plug and play" },
+        "booking": { "title": "Direct booking in chat", "desc": "Customers can book an appointment without leaving the page" },
+        "conversion": { "title": "+45% conversion uplift", "desc": "Proven impact on sales and leads" }
+      },
+      "ctaPlans": "See AI widget plans",
+      "ctaDemo": "Book a demo",
+      "voice": {
+        "imageAlt": "AI voice widget for your website - Aibooking.dk",
+        "voiceActivated": "Voice-activated",
+        "talkDirect": "Talk directly to AI",
+        "badge": "AI Voice Widget",
+        "title": "Voice-powered AI right on your website",
+        "description": "With our AI Voice Widget, your visitors can talk directly to an AI assistant on your website. It delivers an outstanding customer experience and makes it easier to book, ask, and engage — without typing a word.",
+        "features": [
+          "Natural voice and understanding",
+          "Activated with one click — no app download",
+          "Integrates with your calendar and booking system",
+          "Works on mobile, tablet, and desktop",
+          "Combine voice and chat in the same widget",
+          "Full log of every conversation in the dashboard"
+        ],
+        "cta": "Get started with the widget"
+      }
+    },
+    "stats": {
+      "lessPhoneTime": { "value": "85%", "label": "Less phone time" },
+      "fewerNoShows": { "value": "60%", "label": "Fewer no-shows" },
+      "satisfaction": { "value": "98%", "label": "Customer satisfaction" },
+      "roi": { "value": "320%", "label": "First-year ROI" }
+    },
+    "additionalFeatures": {
+      "title": "Every feature — one unified system",
+      "subtitle": "Aibooking.dk is designed to work as your complete communication center. No separate systems, no messy integrations — just one system that works.",
+      "items": {
+        "calendar": {
+          "title": "Automatic Calendar Integration",
+          "description": "Syncs seamlessly with Google Calendar, Outlook, and all popular calendar systems. No double bookings, no conflicts — everything updates automatically.",
+          "benefits": ["Integration with Google Calendar and Outlook", "Real-time synchronization", "Automatic availability checks", "Handling of rebookings and cancellations"]
+        },
+        "sms": {
+          "title": "SMS Reminders and Confirmations",
+          "description": "Reduce no-shows by up to 60% with automatic SMS reminders. Customers receive confirmations and reminders tailored to your business's tone and brand.",
+          "benefits": ["Automatic booking confirmations", "Reminders 24 hours before appointments", "Rebooking option via SMS", "Custom message templates"]
+        },
+        "gdpr": {
+          "title": "GDPR-compliant and Securely Hosted",
+          "description": "All data is handled in compliance with GDPR and stored securely. End-to-end encryption, full transparency, and regular security audits.",
+          "benefits": ["Full GDPR compliance", "Secure, compliant hosting", "End-to-end encryption", "Regular security audits"]
+        },
+        "setup": {
+          "title": "Fast Setup — Under 24 Hours",
+          "description": "Get up and running in under 24 hours with help from your dedicated onboarding specialist. The AI is trained for your industry and starts taking calls almost immediately.",
+          "benefits": ["Setup in under 24 hours", "Dedicated onboarding specialist", "Tailored to your industry", "Continuous optimization"]
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to automate your business?",
+      "subtitle": "Try Aibooking.dk free for 7 days and see the difference for yourself — no commitment, no card details.",
+      "bookDemo": "Book a free demo",
+      "seeWidget": "See the AI Widget"
+    }
+  },
+  "integrationsPage": {
+    "seo": {
+      "title": "Integrations - Connect Your AI Receptionist to Your Systems | Aibooking.dk",
+      "description": "Integrate our AI receptionist with Google Calendar, Outlook, Microsoft Teams, Zoom, Slack, and many more. Seamless calendar and booking integrations.",
+      "keywords": "calendar integration, Google Calendar, Outlook integration, booking system integration, CRM integration, email integration"
+    },
+    "hero": {
+      "badge": "Seamless Integration",
+      "title_line1": "Connect with the tools",
+      "title_line2": "you already use",
+      "subtitle": "Our AI solution automates administration, calls, SMS, and email by working together with the systems you already use. Save time, look more professional, and let the AI handle rebookings, follow-ups, and appointment confirmations automatically.",
+      "features": {
+        "saveTime": { "title": "Save Hours Every Day", "desc": "Automate inbound and outbound calls, SMS, and emails while the AI syncs with your systems" },
+        "fastSetup": { "title": "Fast Setup", "desc": "No complicated installation. Connect your existing tools in minutes" },
+        "sync": { "title": "Always in Sync", "desc": "Real-time updates across all your platforms. No duplicate work" }
+      }
+    },
+    "categories": {
+      "title": "Integration Categories",
+      "subtitle": "Our AI solution connects with the tools you already use every day",
+      "items": {
+        "calendar": { "title": "Calendar & Scheduling", "description": "Google Calendar, Outlook, CalDAV" },
+        "crm": { "title": "CRM & Customers", "description": "HubSpot, Salesforce, Pipedrive" },
+        "communication": { "title": "Communication", "description": "WhatsApp, Slack, Discord, Messenger" },
+        "documents": { "title": "Documents", "description": "Notion, WordPress, Google Docs" },
+        "ecommerce": { "title": "E-commerce", "description": "Shopify, WooCommerce, Stripe" },
+        "automation": { "title": "Automation", "description": "Zapier, Make, Webhooks, API" }
+      }
+    },
+    "grid": {
+      "title": "Popular Integrations",
+      "subtitle": "Work seamlessly with the tools you already use. Our AI automatically handles communication across every platform.",
+      "clinic": {
+        "title": "Built specifically for clinics and treatment providers",
+        "description": "Over 500 clinics have already chosen our solution. From dental clinics and physiotherapists to beauty salons and wellness centers — our AI assistant integrates perfectly with your existing booking system and handles everything from phone calls to SMS reminders.",
+        "points": {
+          "gdpr": { "strong": "GDPR-compliant data handling", "text": " – all patient data is treated confidentially and in accordance with healthcare regulations" },
+          "noShows": { "strong": "Cut no-shows by up to 67%", "text": " – automatic reminders via SMS and email keep your customers informed" },
+          "setup": { "strong": "Set up in under 15 minutes", "text": " – no IT knowledge required, our team guides you every step of the way" },
+          "support": { "strong": "Support 7 days a week", "text": " – help whenever you need it, in your own language" }
+        }
+      },
+      "popularBadge": "Popular",
+      "categoryLabels": {
+        "calendar": "Calendar",
+        "communication": "Communication",
+        "ecommerce": "E-commerce",
+        "productivity": "Productivity",
+        "website": "Website",
+        "automation": "Automation",
+        "video": "Video",
+        "ai": "AI",
+        "developer": "Developer"
+      },
+      "items": {
+        "googleCalendar": { "name": "Google Calendar", "description": "Automatic booking and meeting synchronization" },
+        "outlook": { "name": "Outlook", "description": "Microsoft 365 integration for email and calendar" },
+        "whatsapp": { "name": "WhatsApp", "description": "Send SMS confirmations and reminders" },
+        "slack": { "name": "Slack", "description": "Real-time notifications for your team" },
+        "shopify": { "name": "Shopify", "description": "E-commerce booking integration" },
+        "notion": { "name": "Notion", "description": "Document and note synchronization" },
+        "wordpress": { "name": "WordPress", "description": "Add booking to your website" },
+        "zapier": { "name": "Zapier", "description": "Connect with 5000+ apps automatically" },
+        "zoom": { "name": "Zoom", "description": "Automatic meeting link creation" },
+        "teams": { "name": "Microsoft Teams", "description": "Teams meeting integration" },
+        "messenger": { "name": "Messenger", "description": "Facebook Messenger integration" },
+        "discord": { "name": "Discord", "description": "Community and server integration" },
+        "openai": { "name": "OpenAI", "description": "Advanced AI capabilities" },
+        "webhooks": { "name": "Webhooks", "description": "Custom integration with your systems" },
+        "restApi": { "name": "REST API", "description": "Full API access to every feature" }
+      },
+      "missing": {
+        "title": "Missing your integration?",
+        "description": "We're continuously adding new integrations. With our webhook and API support, you can connect almost any system to our AI solution.",
+        "cta": "Book a Demo"
+      }
+    },
+    "cta": {
+      "title": "Let the AI take over your admin",
+      "description": "Our AI solution integrates seamlessly with your existing systems and automates everything from phone calls to email communication. Save hours every day and focus on what really matters: your customers.",
+      "button": "Book a Demo",
+      "benefitsTitle": "What do you get with AI integration?",
+      "benefits": [
+        "Automatic handling of inbound and outbound calls",
+        "SMS reminders and confirmations sent automatically",
+        "Email communication managed by AI",
+        "Rebookings handled without manual intervention",
+        "Appointment confirmations sent on time, every time",
+        "Follow-up on missed calls and inquiries",
+        "Real-time synchronization with all your systems",
+        "Professional handling 24/7"
+      ],
+      "stats": {
+        "setupTime": { "value": "5 min", "label": "Average setup time" },
+        "service": { "value": "24/7", "label": "AI-powered customer service" },
+        "sync": { "value": "100%", "label": "Automatic synchronization" }
+      }
+    }
+  },
+  "demoPage": {
+    "seo": {
+      "title": "Book a Free Demo - See the AI Receptionist in Action | Aibooking.dk",
+      "description": "Book a free, no-obligation demo of our AI receptionist. Get 7 days of free access and see how we can transform your business. Book now.",
+      "keywords": "book demo, free demo, AI receptionist demo, try for free, no-obligation demo"
+    },
+    "hero": {
+      "badge": "Exclusive Offer",
+      "title": "Book Your Free Demo",
+      "subtitle_before": "Get a personal walkthrough of the system and see how our AI receptionist can transform your business. Book a free, no-obligation demo today and get a ",
+      "subtitle_highlight": "7-day free trial",
+      "subtitle_after": " with full access.",
+      "cards": {
+        "review": { "title": "Free Walkthrough", "description": "Get a personal, no-obligation walkthrough tailored to your business and your needs." },
+        "trial": { "title": "7-Day Free Trial", "description": "Test every feature with no commitment for 7 days. Completely no-obligation, no credit card required." },
+        "help": { "title": "We Help You Get Started", "description": "Our team guides you through the entire setup and makes sure you get off to a great start from day one." }
+      }
+    },
+    "booking": {
+      "title": "Choose Your Time",
+      "subtitle": "Book a meeting that fits your calendar",
+      "cta": "Book Your Free Demo"
+    },
+    "afterBooking": {
+      "title": "What Happens After Booking?",
+      "steps": {
+        "step1": { "title": "Book a Meeting", "description": "Choose a time that works for you" },
+        "step2": { "title": "Personal Demo", "description": "See the AI receptionist in action" },
+        "step3": { "title": "Free Activation", "description": "Get 7 days of full access" },
+        "step4": { "title": "Enjoy the Benefits", "description": "Focus on growing your business" }
+      }
+    },
+    "whyChoose": {
+      "title": "Why Choose Our AI Receptionist?",
+      "subtitle": "Experience the difference with the market's most advanced AI-powered booking system, built for modern businesses",
+      "cards": {
+        "availability": {
+          "title": "24/7 Availability",
+          "description": "Our AI receptionist works around the clock with no breaks, holidays, or days off. Your customers can always book an appointment, whether it's the middle of the night, a weekend, or a public holiday. That means more bookings and higher customer satisfaction."
+        },
+        "efficiency": {
+          "title": "Increased Efficiency",
+          "description": "Automate up to 80% of your phone inquiries and free up valuable time for your staff. Drastically reduce administrative work and let your team focus on delivering first-class service to your customers."
+        },
+        "response": {
+          "title": "Instant Response",
+          "description": "No waiting for your customers. The AI answers every call instantly and can handle unlimited simultaneous conversations. That means zero missed calls and maximum customer satisfaction at all times."
+        },
+        "calendar": {
+          "title": "Smart Calendar Integration",
+          "description": "Seamless integration with your existing booking system. The AI sees your real calendar in real time and only books available slots. Every appointment syncs automatically with detailed notes about the conversation and the customer's needs."
+        },
+        "noShows": {
+          "title": "Reduce No-Shows",
+          "description": "Automatic reminders via SMS and email cut missed appointments by up to 65%. The system sends smart reminders at just the right time and can even rebook automatically in the event of cancellations."
+        },
+        "danish": {
+          "title": "Fluent and Natural",
+          "description": "Our AI is trained specifically on natural language and local cultural norms. It understands accents and slang and speaks naturally. Your customers enjoy a pleasant, professional conversation every single time."
+        }
+      }
+    },
+    "concreteBenefits": {
+      "title": "Concrete Benefits For Your Business",
+      "items": {
+        "saveTime": {
+          "title": "Save 10+ Hours a Week",
+          "description": "Free up time that used to go to answering the phone, managing bookings, and sending reminders. Spend it growing your business instead."
+        },
+        "increaseRevenue": {
+          "title": "Increase Revenue by 30%",
+          "description": "Capture every lead 24/7 and reduce lost bookings. More bookings and fewer no-shows mean directly increased revenue."
+        },
+        "noMissedCalls": {
+          "title": "Zero Missed Calls",
+          "description": "Every unanswered call is lost revenue. With the AI receptionist, no call is ever missed - even when you're busy, in a meeting, or outside business hours."
+        },
+        "betterExperience": {
+          "title": "A Better Customer Experience",
+          "description": "Consistently high service quality every time. No bad days, no stress-induced mistakes. Your customers always experience a professional, friendly receptionist."
+        },
+        "fullDocumentation": {
+          "title": "Complete Documentation",
+          "description": "Every conversation is automatically recorded and transcribed. Get valuable insight into customer needs, common questions, and opportunities to improve your service."
+        },
+        "scalable": {
+          "title": "A Scalable Solution",
+          "description": "Handle 1 or 1,000 calls a day without hiring more staff. The system grows with your business at no extra cost."
+        }
+      },
+      "closing": {
+        "title": "Ready to Get Started?",
+        "text": "Book your free demo now and get 7 days of full access to the system. We'll guide you through the entire setup and make sure you get off to a great start. No commitment, no credit card required.",
+        "cta": "Book Your Free Demo Now"
+      }
+    },
+    "industries": {
+      "title": "Perfect For Every Type of Service Business",
+      "subtitle": "Our AI receptionist is designed to handle bookings and customer service for every industry",
+      "items": {
+        "healthcare": { "title": "Healthcare", "description": "Dentists, physiotherapists, chiropractors, massage clinics, psychologists" },
+        "beauty": { "title": "Beauty & Wellness", "description": "Hairdressers, cosmetologists, nail studios, spas, tattoo artists" },
+        "craft": { "title": "Trades & Services", "description": "Plumbers, electricians, painters, carpenters, cleaning, moving companies" },
+        "consulting": { "title": "Consulting & Coaching", "description": "Lawyers, accountants, consultants, personal trainers, career coaches" }
+      }
+    }
+  }
+}

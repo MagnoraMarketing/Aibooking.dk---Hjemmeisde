@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
@@ -6,7 +7,7 @@ import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import {
   Phone, Calendar, MessageSquare, Clock, Shield, CheckCircle, Zap,
-  Users, Bell, Settings, TrendingUp, DollarSign, PhoneIncoming,
+  Users, Settings, TrendingUp, DollarSign, PhoneIncoming,
   PhoneOutgoing, Bot, Globe, ArrowRight, Mic, Radio, Volume2,
   MousePointer, LayoutDashboard, LineChart, FileText, RefreshCw, Activity
 } from 'lucide-react';
@@ -17,88 +18,57 @@ interface FeaturesPageProps {
   onNavigate: (page: PageType) => void;
 }
 
+interface TitleDescription { title: string; description: string }
+interface LabelDesc { label: string; desc: string }
+interface TitleDesc { title: string; desc: string }
+interface AdditionalFeature { title: string; description: string; benefits: string[] }
+interface StatItem { value: string; label: string }
+
 function FeaturesPage({ onNavigate }: FeaturesPageProps) {
+  const { t } = useTranslation('featuresPage');
+
   const breadcrumbData = createBreadcrumbSchema([
-    { name: 'Hjem', url: 'https://www.aibooking.dk/' },
-    { name: 'Funktioner', url: 'https://www.aibooking.dk/funktioner' },
+    { name: t('breadcrumb.home'), url: 'https://www.aibooking.dk/' },
+    { name: t('breadcrumb.features'), url: 'https://www.aibooking.dk/funktioner' },
   ]);
 
-  const mainBenefits = [
-    { icon: Clock, title: 'Spar 85% af din telefontid', description: 'Frigør værdifuld tid til kerneopgaver', color: 'from-brand-600 to-brand-500' },
-    { icon: DollarSign, title: 'ROI på 320%', description: 'Dokumenteret værdi fra dag ét', color: 'from-green-600 to-green-500' },
-    { icon: Users, title: '98% kundetilfredshed', description: 'Professionel service døgnet rundt', color: 'from-cyan-600 to-cyan-500' },
-    { icon: TrendingUp, title: '+45% flere konverteringer', description: 'Gå aldrig glip af en mulighed igen', color: 'from-ink-700 to-ink-600' }
-  ];
+  const mainBenefitsText = t('mainBenefits', { returnObjects: true }) as TitleDescription[];
+  const mainBenefitIcons = [Clock, DollarSign, Users, TrendingUp];
+  const mainBenefitColors = ['from-brand-600 to-brand-500', 'from-green-600 to-green-500', 'from-cyan-600 to-cyan-500', 'from-ink-700 to-ink-600'];
+  const mainBenefits = mainBenefitsText.map((item, i) => ({ ...item, icon: mainBenefitIcons[i], color: mainBenefitColors[i] }));
 
-  const dashboardFeatures = [
-    { icon: Activity, label: 'Realtids opkaldsstatistik', desc: 'Se alle opkald live og historisk' },
-    { icon: FileText, label: 'AI-genererede samtalenotater', desc: 'Automatisk opsummering af hvert opkald' },
-    { icon: LineChart, label: 'Booking- og konverteringsrate', desc: 'Spor præcis hvor mange opkald ender i booking' },
-    { icon: Volume2, label: 'Lyt til optagede samtaler', desc: 'Fuld lydlog tilgængelig altid' },
-    { icon: RefreshCw, label: 'Live synkronisering', desc: 'Dashboard opdateres i realtid' },
-    { icon: LayoutDashboard, label: 'Tilpasset overblik', desc: 'Konfigurer dit eget dashboard-layout' }
-  ];
+  const dashboardFeaturesText = t('dashboardFeatures', { returnObjects: true }) as LabelDesc[];
+  const dashboardFeatureIcons = [Activity, FileText, LineChart, Volume2, RefreshCw, LayoutDashboard];
+  const dashboardFeatures = dashboardFeaturesText.map((item, i) => ({ ...item, icon: dashboardFeatureIcons[i] }));
 
-  const voiceInFeatures = [
-    'AI-receptionist besvarer øjeblikkeligt',
-    'Forstår alle danske dialekter',
-    'Håndterer flere samtidige opkald',
-    'Automatisk booking direkte i samtalen',
-    'Viderestilling til menneskelig støtte ved behov',
-    'Fuldt opkaldsreferat sendt til dig efter samtale'
-  ];
+  const voiceInFeatures = t('voiceInFeatures', { returnObjects: true }) as string[];
+  const voiceOutFeatures = t('voiceOutFeatures', { returnObjects: true }) as string[];
 
-  const voiceOutFeatures = [
-    'Automatiske bekræftelsesopkald til kunder',
-    'Påmindelser om aftaler dagen før',
-    'Opfølgning på ubesvarede henvendelser',
-    'Re-aktivering af inaktive kunder',
-    'Personaliseret AI-stemme i dit brand',
-    'Fuld log og optagelse af alle udgående opkald'
-  ];
+  const widgetBenefitsText = t('widgetBenefits', { returnObjects: true }) as TitleDesc[];
+  const widgetBenefitIcons = [Globe, Bot, MessageSquare, Zap, Calendar, TrendingUp];
+  const widgetBenefits = widgetBenefitsText.map((item, i) => ({ ...item, icon: widgetBenefitIcons[i] }));
 
-  const widgetBenefits = [
-    { icon: Globe, title: 'Virker på alle hjemmesider', desc: 'WordPress, Shopify, Webflow, custom — én linje kode' },
-    { icon: Bot, title: 'AI-drevet live chat', desc: 'Besvarer spørgsmål, booker aftaler og konverterer besøgende' },
-    { icon: MessageSquare, title: 'Dansk naturlig sprogforståelse', desc: 'Forstår kontekst og nuancer i kundens spørgsmål' },
-    { icon: Zap, title: 'Aktiv på under 5 minutter', desc: 'Intet teknisk kendskab kræves — plug and play' },
-    { icon: Calendar, title: 'Direkte booking i chatten', desc: 'Kunden kan booke tid uden at forlade siden' },
-    { icon: TrendingUp, title: '+45% konverteringsstigning', desc: 'Dokumenteret effekt på salg og leads' }
-  ];
+  const voiceWidgetFeatures = t('voiceWidgetFeatures', { returnObjects: true }) as string[];
+  const statsBand = t('statsBand', { returnObjects: true }) as StatItem[];
 
-  const additionalFeatures = [
-    {
-      icon: Calendar,
-      title: 'Automatisk Kalenderintegration',
-      description: 'Synkroniserer problemfrit med Google Calendar, Outlook og alle populære kalendersystemer. Ingen dobbeltbookinger, ingen konflikter — alt opdateres automatisk.',
-      benefits: ['Integration med Google Calendar og Outlook', 'Realtidssynkronisering', 'Automatisk check af ledige tider', 'Håndtering af ombookinger og aflysninger']
-    },
-    {
-      icon: MessageSquare,
-      title: 'SMS-påmindelser og Bekræftelser',
-      description: 'Reducer no-shows med op til 60% gennem automatiske SMS-påmindelser. Kunder modtager bekræftelser og påmindelser tilpasset din virksomheds tone og brand.',
-      benefits: ['Automatiske bookingbekræftelser', 'Påmindelser 24 timer før aftaler', 'Mulighed for at ombooke via SMS', 'Brugerdefinerede beskedskabeloner']
-    },
-    {
-      icon: Shield,
-      title: 'GDPR-sikker og Dansk Hosting',
-      description: 'Alle data håndteres i overensstemmelse med GDPR og opbevares sikkert i Danmark. End-to-end kryptering, fuld transparens og regelmæssige sikkerhedsaudits.',
-      benefits: ['Fuld GDPR-overholdelse', 'Data hostes i Danmark', 'End-to-end kryptering', 'Regelmæssige sikkerhedsaudits']
-    },
-    {
-      icon: Settings,
-      title: 'Hurtig Opsætning — Under 24 Timer',
-      description: 'Kom i gang på under 24 timer med hjælp fra vores dedikerede onboarding-specialist. AI-en trænes til din branche og begynder at tage opkald næsten med det samme.',
-      benefits: ['Opsætning på under 24 timer', 'Dedikeret onboarding-specialist', 'Tilpasning til din branche', 'Kontinuerlig optimering']
-    }
+  const additionalFeaturesText = t('additionalFeatures', { returnObjects: true }) as AdditionalFeature[];
+  const additionalFeatureIcons = [Calendar, MessageSquare, Shield, Settings];
+  const additionalFeatures = additionalFeaturesText.map((item, i) => ({ ...item, icon: additionalFeatureIcons[i] }));
+
+  const mockDays = t('dashboardMock.days', { returnObjects: true }) as string[];
+  const mockCalls = [
+    { time: '14:32', caller: t('dashboardMock.unknown_caller'), outcome: t('dashboardMock.outcome_booked'), color: 'bg-green-500', badge: 'bg-green-900 text-green-300' },
+    { time: '14:18', caller: '+45 22 xx xx xx', outcome: t('dashboardMock.outcome_info'), color: 'bg-brand-500', badge: 'bg-brand-900 text-brand-300' },
+    { time: '13:55', caller: '+45 50 xx xx xx', outcome: t('dashboardMock.outcome_booked'), color: 'bg-green-500', badge: 'bg-green-900 text-green-300' },
+    { time: '13:40', caller: '+45 31 xx xx xx', outcome: t('dashboardMock.outcome_forwarded'), color: 'bg-yellow-500', badge: 'bg-yellow-900 text-yellow-300' },
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Funktioner - AI Receptionist, Dashboard, Voice Opkald og Widget | Aibooking.dk"
-        description="Udforsk alle funktioner i Aibooking.dk: Komplet AI-dashboard, indgående og udgående AI-stemme opkald, AI chat widget til din hjemmeside og automatisk booking. Prøv gratis."
-        keywords="AI funktioner, AI receptionist, AI dashboard, indgående opkald, udgående opkald, AI widget, automatisk booking, AI chat, dansk AI"
+        title={t('seo.title')}
+        description={t('seo.description')}
+        keywords={t('seo.keywords')}
         canonical="https://www.aibooking.dk/funktioner"
         structuredData={breadcrumbData}
       />
@@ -110,16 +80,14 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
           <div className="text-center mb-16">
             <div className="inline-flex items-center space-x-2 bg-brand-100 text-brand-700 px-4 py-2 rounded-full mb-6">
               <span className="w-2 h-2 bg-brand-600 rounded-full animate-pulse"></span>
-              <span className="text-sm font-semibold">Alle Funktioner</span>
+              <span className="text-sm font-semibold">{t('hero.badge')}</span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-ink-900 mb-6 leading-tight">
-              Komplet AI-platform for<br />
-              <span className="text-brand-600">moderne virksomheder</span>
+              {t('hero.title_line1')}<br />
+              <span className="text-brand-600">{t('hero.title_line2')}</span>
             </h1>
             <p className="text-xl text-ink-600 max-w-4xl mx-auto leading-relaxed">
-              Fra intelligent opkaldstyring og udgående AI-voice opkald til et komplet dashboard og en AI-widget
-              til din hjemmeside — alt i én platform. Spar tid, øg konverteringer og giv dine kunder
-              en professionel oplevelse 24/7.
+              {t('hero.subtitle')}
             </p>
           </div>
 
@@ -147,16 +115,14 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
             <div>
               <div className="inline-flex items-center space-x-2 bg-ink-100 text-ink-700 px-4 py-2 rounded-full mb-6">
                 <LayoutDashboard className="w-4 h-4" />
-                <span className="text-sm font-semibold">Dit Kontrolcenter</span>
+                <span className="text-sm font-semibold">{t('dashboard.badge')}</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-ink-900 mb-6 leading-tight">
-                Komplet dashboard —<br />
-                <span className="text-brand-600">fuld kontrol over alle interaktioner</span>
+                {t('dashboard.title_line1')}<br />
+                <span className="text-brand-600">{t('dashboard.title_line2')}</span>
               </h2>
               <p className="text-lg text-ink-600 mb-8 leading-relaxed">
-                Med Aibooking.dk's dashboard har du altid et præcist overblik over din virksomheds AI-aktivitet.
-                Se hvilke opkald der er håndteret, lyt til samtaler, læs AI-genererede notater og spor
-                dine bookinger i realtid — alt samlet ét sted.
+                {t('dashboard.description')}
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 {dashboardFeatures.map((feat, i) => {
@@ -180,7 +146,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 bg-brand-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-brand-700 transition-all shadow-lg hover:shadow-xl"
               >
-                <span>Se dashboard i aktion</span>
+                <span>{t('dashboard.cta')}</span>
                 <ArrowRight className="w-5 h-5" />
               </a>
             </div>
@@ -195,36 +161,31 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                     <div className="w-3 h-3 rounded-full bg-green-500"></div>
                   </div>
                   <div className="flex-1 bg-ink-700 rounded-lg px-4 py-1.5 text-xs text-ink-400 ml-4">
-                    dashboard.aibooking.dk
+                    {t('dashboardMock.url_label')}
                   </div>
                 </div>
                 <div className="p-6">
                   <div className="grid grid-cols-3 gap-3 mb-4">
                     <div className="bg-ink-800 rounded-2xl p-4 border border-ink-700">
-                      <div className="text-xs text-ink-400 mb-1">Opkald i dag</div>
+                      <div className="text-xs text-ink-400 mb-1">{t('dashboardMock.calls_today_label')}</div>
                       <div className="text-2xl font-bold text-white">47</div>
-                      <div className="text-xs text-green-400 mt-1">+12% vs i går</div>
+                      <div className="text-xs text-green-400 mt-1">{t('dashboardMock.calls_today_change')}</div>
                     </div>
                     <div className="bg-ink-800 rounded-2xl p-4 border border-ink-700">
-                      <div className="text-xs text-ink-400 mb-1">Bookinger</div>
+                      <div className="text-xs text-ink-400 mb-1">{t('dashboardMock.bookings_label')}</div>
                       <div className="text-2xl font-bold text-white">31</div>
-                      <div className="text-xs text-green-400 mt-1">66% konv.</div>
+                      <div className="text-xs text-green-400 mt-1">{t('dashboardMock.bookings_conv')}</div>
                     </div>
                     <div className="bg-ink-800 rounded-2xl p-4 border border-ink-700">
-                      <div className="text-xs text-ink-400 mb-1">Svartid</div>
+                      <div className="text-xs text-ink-400 mb-1">{t('dashboardMock.response_time_label')}</div>
                       <div className="text-2xl font-bold text-white">1.2s</div>
-                      <div className="text-xs text-brand-400 mt-1">Gennemsnit</div>
+                      <div className="text-xs text-brand-400 mt-1">{t('dashboardMock.response_time_avg')}</div>
                     </div>
                   </div>
                   <div className="bg-ink-800 rounded-2xl p-4 border border-ink-700 mb-4">
-                    <div className="text-xs text-ink-400 mb-3 font-semibold uppercase tracking-wider">Seneste opkald</div>
+                    <div className="text-xs text-ink-400 mb-3 font-semibold uppercase tracking-wider">{t('dashboardMock.recent_calls_label')}</div>
                     <div className="space-y-3">
-                      {[
-                        { time: '14:32', caller: 'Ukendt nr.', outcome: 'Booket', color: 'bg-green-500', badge: 'bg-green-900 text-green-300' },
-                        { time: '14:18', caller: '+45 22 xx xx xx', outcome: 'Info givet', color: 'bg-brand-500', badge: 'bg-brand-900 text-brand-300' },
-                        { time: '13:55', caller: '+45 50 xx xx xx', outcome: 'Booket', color: 'bg-green-500', badge: 'bg-green-900 text-green-300' },
-                        { time: '13:40', caller: '+45 31 xx xx xx', outcome: 'Videresendt', color: 'bg-yellow-500', badge: 'bg-yellow-900 text-yellow-300' },
-                      ].map((call, i) => (
+                      {mockCalls.map((call, i) => (
                         <div key={i} className="flex items-center justify-between">
                           <div className="flex items-center space-x-3">
                             <div className={`w-2 h-2 rounded-full ${call.color}`}></div>
@@ -239,7 +200,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                     </div>
                   </div>
                   <div className="bg-ink-800 rounded-2xl p-4 border border-ink-700">
-                    <div className="text-xs text-ink-400 mb-3 font-semibold uppercase tracking-wider">Ugentlig aktivitet</div>
+                    <div className="text-xs text-ink-400 mb-3 font-semibold uppercase tracking-wider">{t('dashboardMock.weekly_activity_label')}</div>
                     <div className="flex items-end space-x-2 h-16">
                       {[40, 65, 55, 80, 70, 90, 75].map((h, i) => (
                         <div key={i} className="flex-1 flex flex-col items-center space-y-1">
@@ -247,7 +208,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                             className="w-full bg-brand-600 rounded-t-sm opacity-80 hover:opacity-100 transition-opacity"
                             style={{ height: `${h}%` }}
                           ></div>
-                          <div className="text-ink-500 text-xs">{['M','T','O','T','F','L','S'][i]}</div>
+                          <div className="text-ink-500 text-xs">{mockDays[i]}</div>
                         </div>
                       ))}
                     </div>
@@ -255,7 +216,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                 </div>
               </div>
               <div className="absolute -top-4 -right-4 bg-green-500 text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg">
-                Live Data
+                {t('dashboardMock.live_data')}
               </div>
             </div>
           </div>
@@ -268,15 +229,14 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
           <div className="text-center mb-16">
             <div className="inline-flex items-center space-x-2 bg-brand-100 text-brand-700 px-4 py-2 rounded-full mb-6">
               <Mic className="w-4 h-4" />
-              <span className="text-sm font-semibold">AI Voice Opkald</span>
+              <span className="text-sm font-semibold">{t('voiceSection.badge')}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-ink-900 mb-6">
-              Ind- og udgående AI-stemme opkald<br />
-              <span className="text-brand-600">på professionelt niveau</span>
+              {t('voiceSection.title_line1')}<br />
+              <span className="text-brand-600">{t('voiceSection.title_line2')}</span>
             </h2>
             <p className="text-xl text-ink-600 max-w-3xl mx-auto">
-              Vores AI-receptionist taler flydende dansk og lyder som en rigtig person. Den håndterer
-              alle typer opkald — fra bookinger og spørgsmål til udgående påmindelser og opfølgning.
+              {t('voiceSection.subtitle')}
             </p>
           </div>
 
@@ -290,8 +250,8 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                     <PhoneIncoming className="w-8 h-8 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-ink-900">Indgående AI-opkald</h3>
-                    <p className="text-ink-500 text-sm">Besvarer alle opkald — 24 timer i døgnet</p>
+                    <h3 className="text-2xl font-bold text-ink-900">{t('incoming.title')}</h3>
+                    <p className="text-ink-500 text-sm">{t('incoming.subtitle')}</p>
                   </div>
                 </div>
                 <div className="bg-gradient-to-br from-brand-600 to-brand-800 rounded-3xl p-6 mb-8 text-white relative overflow-hidden">
@@ -304,12 +264,12 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                       <Radio className="w-5 h-5 animate-pulse" />
                     </div>
                     <div>
-                      <div className="text-xs text-brand-200 mb-1">Indgående opkald — aktiv</div>
+                      <div className="text-xs text-brand-200 mb-1">{t('incoming.live_label')}</div>
                       <div className="bg-white/10 rounded-2xl px-4 py-3 text-sm mb-2">
-                        "Hej, jeg vil gerne booke en tid til en konsultation..."
+                        {t('incoming.msg1')}
                       </div>
                       <div className="bg-white/20 rounded-2xl px-4 py-3 text-sm w-fit">
-                        "Selvfølgelig! Hvornår passer det bedst for dig?"
+                        {t('incoming.msg2')}
                       </div>
                     </div>
                   </div>
@@ -334,8 +294,8 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                     <PhoneOutgoing className="w-8 h-8 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-ink-900">Udgående AI-opkald</h3>
-                    <p className="text-ink-500 text-sm">Automatiseret kundekommunikation</p>
+                    <h3 className="text-2xl font-bold text-ink-900">{t('outgoing.title')}</h3>
+                    <p className="text-ink-500 text-sm">{t('outgoing.subtitle')}</p>
                   </div>
                 </div>
                 <div className="bg-gradient-to-br from-green-600 to-green-800 rounded-3xl p-6 mb-8 text-white relative overflow-hidden">
@@ -348,13 +308,13 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                       <Phone className="w-5 h-5 animate-pulse" />
                     </div>
                     <div>
-                      <div className="text-xs text-green-200 mb-1">Udgående opkald — sender påmindelse</div>
+                      <div className="text-xs text-green-200 mb-1">{t('outgoing.live_label')}</div>
                       <div className="bg-white/20 rounded-2xl px-4 py-3 text-sm mb-2 w-fit">
-                        "Hej Lars, dette er en påmindelse om din aftale i morgen kl. 10.00..."
+                        {t('outgoing.msg')}
                       </div>
                       <div className="flex items-center space-x-2 mt-2">
                         <div className="w-2 h-2 bg-green-300 rounded-full animate-pulse"></div>
-                        <span className="text-xs text-green-200">Aftale bekræftet af kunden</span>
+                        <span className="text-xs text-green-200">{t('outgoing.confirmed_label')}</span>
                       </div>
                     </div>
                   </div>
@@ -372,7 +332,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
           </div>
 
           <div className="mt-12 text-center">
-            <p className="text-ink-600 mb-6 text-lg">Hør hvordan AI-receptionist lyder — book en gratis demonstration</p>
+            <p className="text-ink-600 mb-6 text-lg">{t('voiceCta.text')}</p>
             <a
               href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
               target="_blank"
@@ -380,7 +340,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
               className="inline-flex items-center space-x-3 bg-ink-900 text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-ink-800 transition-all shadow-xl hover:shadow-2xl"
             >
               <Phone className="w-5 h-5" />
-              <span>Book gratis demonstration</span>
+              <span>{t('voiceCta.button')}</span>
             </a>
           </div>
         </div>
@@ -392,16 +352,14 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
           <div className="text-center mb-16">
             <div className="inline-flex items-center space-x-2 bg-cyan-100 text-cyan-700 px-4 py-2 rounded-full mb-6">
               <Bot className="w-4 h-4" />
-              <span className="text-sm font-semibold">AI Chat Widget — Nyhed</span>
+              <span className="text-sm font-semibold">{t('widgetSection.badge')}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-ink-900 mb-6">
-              AI-Widget til din hjemmeside —<br />
-              <span className="text-cyan-600">konverter besøgende til kunder</span>
+              {t('widgetSection.title_line1')}<br />
+              <span className="text-cyan-600">{t('widgetSection.title_line2')}</span>
             </h2>
             <p className="text-xl text-ink-600 max-w-3xl mx-auto leading-relaxed">
-              Tilføj en intelligent AI-chatassistent til din hjemmeside med én linje kode.
-              Widgetten besvarer spørgsmål, håndterer bookinger og guider dine besøgende
-              — automatisk, på dansk, døgnet rundt.
+              {t('widgetSection.subtitle')}
             </p>
           </div>
 
@@ -420,20 +378,18 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                   <MousePointer className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <div className="font-bold text-ink-900 text-sm">Plug &amp; Play</div>
-                  <div className="text-ink-500 text-xs">Aktiv på 5 minutter</div>
+                  <div className="font-bold text-ink-900 text-sm">{t('widgetIntro.badge_plug_play')}</div>
+                  <div className="text-ink-500 text-xs">{t('widgetIntro.badge_active_5min')}</div>
                 </div>
               </div>
             </div>
 
             <div>
               <h3 className="text-3xl font-bold text-ink-900 mb-4">
-                Din 24/7 AI-salgsassistent
+                {t('widgetIntro.title')}
               </h3>
               <p className="text-ink-600 mb-8 leading-relaxed">
-                AI-Widgetten fra Aibooking.dk er mere end en chatbot. Det er en intelligent salgsassistent
-                der forstår dine besøgendes behov, giver præcise svar baseret på dit indhold og
-                konverterer henvendelser til bookinger — helt automatisk.
+                {t('widgetIntro.description')}
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 {widgetBenefits.map((benefit, i) => {
@@ -456,7 +412,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                   onClick={() => onNavigate('widget')}
                   className="inline-flex items-center justify-center space-x-2 bg-cyan-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-cyan-700 transition-all shadow-lg hover:shadow-xl"
                 >
-                  <span>Se AI-Widget planer</span>
+                  <span>{t('widgetButtons.see_plans')}</span>
                   <ArrowRight className="w-5 h-5" />
                 </button>
                 <a
@@ -465,7 +421,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center space-x-2 border-2 border-ink-300 text-ink-700 px-8 py-4 rounded-2xl font-bold text-lg hover:border-cyan-600 hover:text-cyan-600 transition-all"
                 >
-                  <span>Book en demo</span>
+                  <span>{t('widgetButtons.book_demo')}</span>
                 </a>
               </div>
             </div>
@@ -486,33 +442,24 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                   <Mic className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <div className="font-bold text-ink-900 text-sm">Voice-aktiveret</div>
-                  <div className="text-ink-500 text-xs">Tal direkte med AI</div>
+                  <div className="font-bold text-ink-900 text-sm">{t('voiceWidget.badge_active')}</div>
+                  <div className="text-ink-500 text-xs">{t('voiceWidget.badge_active_desc')}</div>
                 </div>
               </div>
             </div>
             <div className="lg:order-1">
               <div className="inline-flex items-center space-x-2 bg-brand-100 text-brand-700 px-4 py-2 rounded-full mb-6">
                 <Volume2 className="w-4 h-4" />
-                <span className="text-sm font-semibold">AI Voice Widget</span>
+                <span className="text-sm font-semibold">{t('voiceWidget.badge')}</span>
               </div>
               <h3 className="text-3xl font-bold text-ink-900 mb-4">
-                Stemmestyret AI direkte på din hjemmeside
+                {t('voiceWidget.title')}
               </h3>
               <p className="text-ink-600 mb-6 leading-relaxed">
-                Med vores AI Voice Widget kan dine besøgende tale direkte med en AI-assistent
-                på din hjemmeside. Det giver en ekstraordinær kundeoplevelse og gør det nemmere
-                at booke, spørge og engagere — helt uden at taste.
+                {t('voiceWidget.description')}
               </p>
               <ul className="space-y-3 mb-8">
-                {[
-                  'Naturlig dansk stemme og forståelse',
-                  'Aktiveres med et klik — ingen app-download',
-                  'Integrerer med din kalender og booking-system',
-                  'Fungerer på mobil, tablet og desktop',
-                  'Kombinér voice og chat i samme widget',
-                  'Fuld log af alle samtaler i dashboard'
-                ].map((item, i) => (
+                {voiceWidgetFeatures.map((item, i) => (
                   <li key={i} className="flex items-center space-x-3">
                     <CheckCircle className="w-5 h-5 text-brand-600 flex-shrink-0" />
                     <span className="text-ink-700">{item}</span>
@@ -523,7 +470,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                 onClick={() => onNavigate('widget')}
                 className="inline-flex items-center space-x-2 bg-brand-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-brand-700 transition-all shadow-lg hover:shadow-xl"
               >
-                <span>Kom i gang med Widget</span>
+                <span>{t('voiceWidgetButton')}</span>
                 <ArrowRight className="w-5 h-5" />
               </button>
             </div>
@@ -535,22 +482,12 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
       <section className="py-16 bg-gradient-to-r from-ink-900 to-ink-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-5xl font-bold text-white mb-2">85%</div>
-              <div className="text-ink-400">Mindre telefontid</div>
-            </div>
-            <div>
-              <div className="text-5xl font-bold text-white mb-2">60%</div>
-              <div className="text-ink-400">Færre no-shows</div>
-            </div>
-            <div>
-              <div className="text-5xl font-bold text-white mb-2">98%</div>
-              <div className="text-ink-400">Kundetilfredshed</div>
-            </div>
-            <div>
-              <div className="text-5xl font-bold text-white mb-2">320%</div>
-              <div className="text-ink-400">ROI første år</div>
-            </div>
+            {statsBand.map((stat, i) => (
+              <div key={i}>
+                <div className="text-5xl font-bold text-white mb-2">{stat.value}</div>
+                <div className="text-ink-400">{stat.label}</div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -560,11 +497,10 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-ink-900 mb-6">
-              Alle funktioner — ét samlet system
+              {t('additionalTitle.title')}
             </h2>
             <p className="text-xl text-ink-600 max-w-3xl mx-auto">
-              Aibooking.dk er designet til at fungere som dit komplette kommunikationscenter.
-              Ingen separate systemer, ingen rodede integrationer — bare ét system der virker.
+              {t('additionalTitle.subtitle')}
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
@@ -606,10 +542,10 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
             </div>
             <div className="relative">
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Klar til at automatisere din forretning?
+                {t('ctaSection.title')}
               </h2>
               <p className="text-xl text-brand-100 max-w-2xl mx-auto mb-10 leading-relaxed">
-                Prøv Aibooking.dk gratis i 7 dage og oplev selv forskellen — ingen binding, ingen kortoplysninger.
+                {t('ctaSection.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
@@ -618,13 +554,13 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                   rel="noopener noreferrer"
                   className="bg-white text-brand-700 px-10 py-5 rounded-2xl font-bold text-lg hover:bg-brand-50 transition-all shadow-lg hover:shadow-xl inline-block"
                 >
-                  Book gratis demo
+                  {t('ctaSection.button_demo')}
                 </a>
                 <button
                   onClick={() => onNavigate('widget')}
                   className="border-2 border-white text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-white/10 transition-all"
                 >
-                  Se AI-Widget
+                  {t('ctaSection.button_widget')}
                 </button>
               </div>
             </div>

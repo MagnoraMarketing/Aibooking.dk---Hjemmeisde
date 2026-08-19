@@ -102,7 +102,7 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
               ))}
             </div>
             <a
-              href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
+              href="https://cal.com/aibooking-booking/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-green-900 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-green-50 transition-all shadow-2xl inline-block"
@@ -122,7 +122,7 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
             {t('ctaSection.subtitle')}
           </p>
           <a
-            href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
+            href="https://cal.com/aibooking-booking/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-green-900 px-12 py-6 rounded-2xl font-bold text-xl hover:bg-green-50 transition-all shadow-2xl inline-block"

@@ -218,7 +218,7 @@ function AboutPage({ onNavigate }: AboutPageProps) {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
+                href="https://cal.com/aibooking-booking/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-brand-600 px-8 py-4 rounded-xl font-bold hover:bg-brand-50 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 inline-block"

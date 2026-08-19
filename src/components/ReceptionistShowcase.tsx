@@ -35,7 +35,7 @@ function ReceptionistShowcase({ onNavigate }: ReceptionistShowcaseProps) {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
+                href="https://cal.com/aibooking-booking/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group bg-white text-ink-900 px-8 py-4 rounded-xl hover:bg-brand-50 transition-all duration-300 font-semibold shadow-md hover:shadow-lg flex items-center justify-center space-x-2 transform hover:scale-[1.02]"

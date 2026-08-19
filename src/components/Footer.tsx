@@ -55,7 +55,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
               </li>
               <li>
                 <a
-                  href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
+                  href="https://cal.com/aibooking-booking/30min"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-brand-400 transition-colors"

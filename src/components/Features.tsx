@@ -96,7 +96,7 @@ function Features() {
                   </p>
                 </div>
                 <a
-                  href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
+                  href="https://cal.com/aibooking-booking/30min"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white text-brand-900 px-8 py-4 rounded-xl font-bold text-lg hover:bg-brand-50 transition-all shadow-lg hover:shadow-xl transform hover:scale-[1.02] whitespace-nowrap inline-block"

@@ -66,7 +66,7 @@ function ContactForm() {
             {t('contactForm.subtitle')}
           </p>
           <a
-            href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
+            href="https://cal.com/aibooking-booking/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-8 py-4 bg-brand-600 text-white font-semibold rounded-xl hover:bg-brand-700 transition-all shadow-lg hover:shadow-xl"

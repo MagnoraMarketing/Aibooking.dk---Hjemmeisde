@@ -107,7 +107,7 @@ function PricingSection() {
                     <ArrowRight className="w-4 h-4" />
                   </a>
                   <a
-                    href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
+                    href="https://cal.com/aibooking-booking/30min"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-ink-100 text-ink-800 border border-ink-200 px-6 py-3.5 rounded-xl hover:bg-ink-200 transition-all font-semibold"
@@ -366,7 +366,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
+                    href="https://cal.com/aibooking-booking/30min"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-brand-600 text-white px-8 py-4 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
@@ -597,7 +597,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
+                    href="https://cal.com/aibooking-booking/30min"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-white text-brand-600 px-8 py-4 rounded-xl hover:bg-brand-50 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"

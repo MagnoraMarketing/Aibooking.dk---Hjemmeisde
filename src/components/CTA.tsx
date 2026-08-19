@@ -26,7 +26,7 @@ function CTA() {
               {t('cta_section.trial_button')}
             </a>
             <a
-              href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
+              href="https://cal.com/aibooking-booking/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white border border-white/40 rounded-xl hover:bg-white/10 transition-all"

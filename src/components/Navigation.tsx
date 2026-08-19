@@ -9,7 +9,7 @@ interface NavigationProps {
 }
 
 function Navigation({ onNavigate }: NavigationProps) {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [isIndustriesOpen, setIsIndustriesOpen] = useState(false);
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
@@ -61,10 +61,10 @@ function Navigation({ onNavigate }: NavigationProps) {
   };
 
   const industries = [
-    { name: 'Klinikker', page: 'healthcare' as const, icon: Stethoscope, description: 'Læger, tandlæger, fysioterapeuter' },
-    { name: 'Håndværk', page: 'craftsman' as const, icon: Wrench, description: 'VVS, el, tømrer, maler' },
-    { name: 'Kontor & Erhverv', page: 'office' as const, icon: Briefcase, description: 'Advokater, revisorer, konsulenter' },
-    { name: 'E-commerce & Webshop', page: 'ecommerce' as const, icon: ShoppingCart, description: 'Webshops og online forretninger' },
+    { name: t('nav.industries_menu.healthcare.name'), page: 'healthcare' as const, icon: Stethoscope, description: t('nav.industries_menu.healthcare.description') },
+    { name: t('nav.industries_menu.craftsman.name'), page: 'craftsman' as const, icon: Wrench, description: t('nav.industries_menu.craftsman.description') },
+    { name: t('nav.industries_menu.office.name'), page: 'office' as const, icon: Briefcase, description: t('nav.industries_menu.office.description') },
+    { name: t('nav.industries_menu.ecommerce.name'), page: 'ecommerce' as const, icon: ShoppingCart, description: t('nav.industries_menu.ecommerce.description') },
   ];
 
   return (
@@ -85,22 +85,22 @@ function Navigation({ onNavigate }: NavigationProps) {
                 onClick={() => onNavigate('home')}
                 className="text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]"
               >
-                {i18n.language === 'da' ? 'Hjem' : 'Home'}
+                {t('nav.home')}
               </button>
               <button
                 onClick={() => onNavigate('features')}
                 className="text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]"
               >
-                {i18n.language === 'da' ? 'Fordele' : 'Benefits'}
+                {t('nav.benefits')}
               </button>
               <button
                 onClick={() => onNavigate('widget')}
                 className="text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]"
               >
-                AI-Widget
+                {t('nav.widget')}
               </button>
               <a href="#priser" className="text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]">
-                {i18n.language === 'da' ? 'Priser' : 'Pricing'}
+                {t('nav.pricing')}
               </a>
               <div className="relative" ref={dropdownRef}>
                 <button
@@ -108,7 +108,7 @@ function Navigation({ onNavigate }: NavigationProps) {
                   className="flex items-center space-x-2 text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]"
                 >
                   <Building2 className="w-4 h-4" />
-                  <span>{i18n.language === 'da' ? 'Brancher' : 'Industries'}</span>
+                  <span>{t('nav.industries')}</span>
                   <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isIndustriesOpen ? 'rotate-180' : ''}`} />
                 </button>
 
@@ -137,7 +137,7 @@ function Navigation({ onNavigate }: NavigationProps) {
                         onClick={() => { onNavigate('industries'); setIsIndustriesOpen(false); }}
                         className="text-sm text-brand-600 hover:text-brand-700 font-semibold transition-colors"
                       >
-                        {i18n.language === 'da' ? 'Se alle brancher →' : 'See all industries →'}
+                        {t('nav.see_all_industries')}
                       </button>
                     </div>
                   </div>
@@ -148,7 +148,7 @@ function Navigation({ onNavigate }: NavigationProps) {
                 className="flex items-center space-x-2 text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]"
               >
                 <Plug className="w-4 h-4" />
-                <span>{i18n.language === 'da' ? 'Integrationer' : 'Integrations'}</span>
+                <span>{t('nav.integrations')}</span>
               </button>
               <div className="relative" ref={contactDropdownRef}>
                 <button
@@ -156,7 +156,7 @@ function Navigation({ onNavigate }: NavigationProps) {
                   className="flex items-center space-x-2 text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]"
                 >
                   <MessageSquare className="w-4 h-4" />
-                  <span>{i18n.language === 'da' ? 'Kontakt' : 'Contact'}</span>
+                  <span>{t('nav.contact')}</span>
                   <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isContactOpen ? 'rotate-180' : ''}`} />
                 </button>
 
@@ -168,7 +168,7 @@ function Navigation({ onNavigate }: NavigationProps) {
                     >
                       <MessageSquare className="w-5 h-5 text-brand-600" />
                       <span className="text-ink-900 font-medium text-[15px]">
-                        {i18n.language === 'da' ? 'Kontakt os' : 'Contact us'}
+                        {t('nav.contact_us')}
                       </span>
                     </button>
                     <button
@@ -177,7 +177,7 @@ function Navigation({ onNavigate }: NavigationProps) {
                     >
                       <Users className="w-5 h-5 text-brand-600" />
                       <span className="text-ink-900 font-medium text-[15px]">
-                        {i18n.language === 'da' ? 'Om os' : 'About us'}
+                        {t('nav.about_us')}
                       </span>
                     </button>
                   </div>
@@ -228,7 +228,7 @@ function Navigation({ onNavigate }: NavigationProps) {
                 rel="noopener noreferrer"
                 className="bg-brand-600 text-white px-7 py-2.5 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-sm hover:shadow-md transform hover:scale-[1.02] text-[15px] inline-block"
               >
-                {i18n.language === 'da' ? 'Book Demo' : 'Book Demo'}
+                {t('nav.book_demo')}
               </a>
             </div>
 
@@ -236,7 +236,7 @@ function Navigation({ onNavigate }: NavigationProps) {
             <button
               onClick={() => setIsMobileOpen(true)}
               className="md:hidden p-2 rounded-xl text-ink-700 hover:bg-ink-100 transition-colors"
-              aria-label="Åbn menu"
+              aria-label={t('nav.open_menu')}
             >
               <Menu className="w-6 h-6" />
             </button>
@@ -265,7 +265,7 @@ function Navigation({ onNavigate }: NavigationProps) {
           <button
             onClick={() => setIsMobileOpen(false)}
             className="p-2 rounded-xl text-ink-500 hover:bg-ink-100 transition-colors"
-            aria-label="Luk menu"
+            aria-label={t('nav.close_menu')}
           >
             <X className="w-5 h-5" />
           </button>
@@ -277,26 +277,26 @@ function Navigation({ onNavigate }: NavigationProps) {
             onClick={() => handleMobileNavigate('home')}
             className="w-full flex items-center px-4 py-3.5 rounded-xl text-ink-700 hover:bg-ink-50 hover:text-brand-600 transition-all font-medium text-[15px] text-left"
           >
-            {i18n.language === 'da' ? 'Hjem' : 'Home'}
+            {t('nav.home')}
           </button>
           <button
             onClick={() => handleMobileNavigate('features')}
             className="w-full flex items-center px-4 py-3.5 rounded-xl text-ink-700 hover:bg-ink-50 hover:text-brand-600 transition-all font-medium text-[15px] text-left"
           >
-            {i18n.language === 'da' ? 'Fordele' : 'Benefits'}
+            {t('nav.benefits')}
           </button>
           <button
             onClick={() => handleMobileNavigate('widget')}
             className="w-full flex items-center px-4 py-3.5 rounded-xl text-ink-700 hover:bg-ink-50 hover:text-brand-600 transition-all font-medium text-[15px] text-left"
           >
-            AI-Widget
+            {t('nav.widget')}
           </button>
           <a
             href="#priser"
             onClick={() => setIsMobileOpen(false)}
             className="w-full flex items-center px-4 py-3.5 rounded-xl text-ink-700 hover:bg-ink-50 hover:text-brand-600 transition-all font-medium text-[15px]"
           >
-            {i18n.language === 'da' ? 'Priser' : 'Pricing'}
+            {t('nav.pricing')}
           </a>
 
           {/* Industries accordion */}
@@ -306,7 +306,7 @@ function Navigation({ onNavigate }: NavigationProps) {
           >
             <span className="flex items-center gap-2">
               <Building2 className="w-4 h-4" />
-              {i18n.language === 'da' ? 'Brancher' : 'Industries'}
+              {t('nav.industries')}
             </span>
             <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${mobileIndustriesOpen ? 'rotate-180' : ''}`} />
           </button>
@@ -334,7 +334,7 @@ function Navigation({ onNavigate }: NavigationProps) {
                 onClick={() => handleMobileNavigate('industries')}
                 className="w-full px-3 py-2 text-sm text-brand-600 font-semibold hover:text-brand-700 transition-colors text-left"
               >
-                {i18n.language === 'da' ? 'Se alle brancher →' : 'See all industries →'}
+                {t('nav.see_all_industries')}
               </button>
             </div>
           )}
@@ -344,7 +344,7 @@ function Navigation({ onNavigate }: NavigationProps) {
             className="w-full flex items-center gap-2 px-4 py-3.5 rounded-xl text-ink-700 hover:bg-ink-50 hover:text-brand-600 transition-all font-medium text-[15px] text-left"
           >
             <Plug className="w-4 h-4" />
-            {i18n.language === 'da' ? 'Integrationer' : 'Integrations'}
+            {t('nav.integrations')}
           </button>
 
           {/* Contact accordion */}
@@ -354,7 +354,7 @@ function Navigation({ onNavigate }: NavigationProps) {
           >
             <span className="flex items-center gap-2">
               <MessageSquare className="w-4 h-4" />
-              {i18n.language === 'da' ? 'Kontakt' : 'Contact'}
+              {t('nav.contact')}
             </span>
             <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${mobileContactOpen ? 'rotate-180' : ''}`} />
           </button>
@@ -365,21 +365,21 @@ function Navigation({ onNavigate }: NavigationProps) {
                 className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-ink-600 hover:bg-brand-50 hover:text-brand-600 transition-all text-left"
               >
                 <MessageSquare className="w-4 h-4 text-brand-600" />
-                <span className="font-medium text-sm">{i18n.language === 'da' ? 'Kontakt os' : 'Contact us'}</span>
+                <span className="font-medium text-sm">{t('nav.contact_us')}</span>
               </button>
               <button
                 onClick={() => handleMobileNavigate('about')}
                 className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-ink-600 hover:bg-brand-50 hover:text-brand-600 transition-all text-left"
               >
                 <Users className="w-4 h-4 text-brand-600" />
-                <span className="font-medium text-sm">{i18n.language === 'da' ? 'Om os' : 'About us'}</span>
+                <span className="font-medium text-sm">{t('nav.about_us')}</span>
               </button>
             </div>
           )}
 
           {/* Language */}
           <div className="mt-2 px-4 py-3 border-t border-ink-100">
-            <p className="text-xs font-semibold text-ink-400 uppercase tracking-wider mb-2">Sprog</p>
+            <p className="text-xs font-semibold text-ink-400 uppercase tracking-wider mb-2">{t('nav.language')}</p>
             <div className="grid grid-cols-2 gap-2">
               <button
                 onClick={() => { changeLanguage('da'); setIsMobileOpen(false); }}
@@ -418,7 +418,7 @@ function Navigation({ onNavigate }: NavigationProps) {
             onClick={() => setIsMobileOpen(false)}
             className="w-full flex items-center justify-center bg-brand-600 text-white py-3.5 rounded-xl hover:bg-brand-700 transition-all font-semibold text-[15px] shadow-md"
           >
-            {i18n.language === 'da' ? 'Book Demo' : 'Book Demo'}
+            {t('nav.book_demo')}
           </a>
         </div>
       </div>

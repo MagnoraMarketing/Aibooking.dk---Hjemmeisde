@@ -1,10 +1,27 @@
 {
   "nav": {
+    "home": "Home",
+    "benefits": "Benefits",
+    "widget": "AI Widget",
+    "pricing": "Pricing",
     "features": "Features",
     "industries": "Industries",
+    "industries_menu": {
+      "healthcare": { "name": "Clinics", "description": "Doctors, dentists, physiotherapists" },
+      "craftsman": { "name": "Craftsmen", "description": "Plumbers, electricians, carpenters, painters" },
+      "office": { "name": "Office & Business", "description": "Lawyers, accountants, consultants" },
+      "ecommerce": { "name": "E-commerce & Webshop", "description": "Webshops and online businesses" }
+    },
+    "see_all_industries": "See all industries →",
     "integrations": "Integrations",
     "demo": "Demo",
-    "contact": "Contact"
+    "contact": "Contact",
+    "contact_us": "Contact us",
+    "about_us": "About us",
+    "book_demo": "Book Demo",
+    "language": "Language",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu"
   },
   "hero": {
     "badge": "Your Virtual Receptionist",
@@ -98,12 +115,31 @@
     "button": "Start Free Trial"
   },
   "footer": {
-    "description": "Automate your customer communication with AI",
-    "product": "Product",
+    "description": "Automate your bookings and customer service with intelligent AI technology.",
+    "solutions": "Solutions",
+    "ai_booking": "AI Booking",
+    "ai_widget": "AI Widget",
+    "book_demo": "Book Demo",
+    "features": "Features",
+    "industries_title": "Industries",
+    "healthcare": "Clinics & Healthcare",
+    "craftsman": "Craftsmen",
+    "office": "Office & Business",
+    "ecommerce": "Webshop & E-commerce",
+    "blog_title": "Blog",
+    "all_articles": "All Articles",
+    "blog_ai_widget": "AI Widget",
+    "blog_inbound_outbound": "AI Inbound/Outbound",
+    "blog_total_solution": "AI Total Solution",
     "company": "Company",
-    "legal": "Legal",
-    "contact_us": "Contact Us",
-    "rights": "All rights reserved"
+    "about": "About us",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions",
+    "contact_title": "Contact",
+    "address": "Aarhus, Denmark",
+    "rights": "All rights reserved",
+    "made_by": "Made and run by"
   },
   "contact": {
     "title": "Contact Us",
@@ -137,5 +173,58 @@
   "demo_page": {
     "title": "Book A Free Demo",
     "subtitle": "See how Aibooking.dk can transform your customer communication"
+  },
+  "receptionistShowcase": {
+    "badge": "AI Receptionist For Growing Businesses",
+    "title_line1": "Never miss a call again.",
+    "title_line2": "Win more work.",
+    "title_line3": "Cut the admin.",
+    "subtitle": "Your AI receptionist handles calls, captures leads and takes care of rebookings, so you can focus on growing your business.",
+    "cta_primary": "Book Free Demo",
+    "cta_secondary": "Try our AI voice widget",
+    "demo_badge": "AI Receptionist Active",
+    "chat_label": "AI Receptionist",
+    "chat_message": "Hi, you've reached Pentworth Clinic. How can I help you today?",
+    "card_call_answered_label": "Call Answered",
+    "card_call_answered_value": "New Patient Registered",
+    "card_rebooked_label": "Rebooked",
+    "card_rebooked_value": "Link Sent Automatically",
+    "card_notification_label": "Notification",
+    "card_notification_value": "Dr. Schmidt Informed",
+    "card_conversation_label": "Call",
+    "card_conversation_value": "AI Handled It All",
+    "summary_label": "Summary",
+    "summary_text": "Fenley asked for information about parking at the clinic. We provided all the relevant details to ensure a smooth visit."
+  },
+  "widgetPricing": {
+    "badge": "Easy Integration On Your Website",
+    "title": "AIBooking Voice AI Widget",
+    "subtitle": "A voicebot your customers can talk to directly on your website - handles questions and bookings automatically",
+    "plan_badge": "Most Flexible Solution",
+    "price": "999",
+    "price_period": "DKK/mo",
+    "price_note1": "Includes 150 minutes of talk time (approx. 6.66 DKK/minute)",
+    "price_note2": "The package renews automatically once the 150 minutes are used",
+    "features": [
+      { "bold": "Voice AI bot", "rest": " - customers talk directly with the AI" },
+      { "bold": "", "rest": "Answers questions and handles bookings" },
+      { "bold": "", "rest": "Bookings go straight into your calendar" },
+      { "bold": "", "rest": "Available 24/7 on your website" },
+      { "bold": "", "rest": "150 minutes of talk time included" },
+      { "bold": "Pay only for active talk time", "rest": " - no hourly fee" },
+      { "bold": "Open 24/7, 365 days a year", "rest": " - always ready" },
+      { "bold": "", "rest": "Handles customers even when you're busy" }
+    ],
+    "cta": "See the AI Widget in action",
+    "demo_widget_label": "AI Booking Assistant",
+    "demo_widget_status": "Online now",
+    "demo_ai_label": "🎤 AI Voice:",
+    "demo_msg1": "Hi! You can talk to me directly. What can I help you with?",
+    "demo_customer_label": "🗣️ Customer:",
+    "demo_msg2": "\"I'd like to book an appointment on Friday\"",
+    "demo_msg3": "Perfect! Here are the available times on Friday...",
+    "demo_footer": "Voice AI widget - customers talk directly on your site",
+    "perfect_for_label": "Perfect for:",
+    "perfect_for_text": "Clinics, craftsmen, consultants, salons, offices and any other business that takes bookings directly on its website."
   }
 }

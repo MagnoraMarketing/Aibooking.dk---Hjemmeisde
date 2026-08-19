@@ -1,6 +1,14 @@
 import { Check, ArrowRight, Sparkles } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+
+interface WidgetFeature {
+  bold: string;
+  rest: string;
+}
 
 function WidgetPricing() {
+  const { t } = useTranslation();
+  const features = t('widgetPricing.features', { returnObjects: true }) as WidgetFeature[];
   return (
     <section className="py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-ink-50 via-white to-brand-50/30 relative overflow-hidden">
       <div className="absolute top-20 right-10 w-72 h-72 bg-brand-100/40 rounded-full blur-3xl"></div>
@@ -10,13 +18,13 @@ function WidgetPricing() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-brand-50 to-brand-100/80 text-brand-700 px-5 py-2.5 rounded-full mb-8 border border-brand-200/50 shadow-sm">
             <Sparkles className="w-4 h-4" />
-            <span className="text-sm font-semibold">Nem Integration På Din Hjemmeside</span>
+            <span className="text-sm font-semibold">{t('widgetPricing.badge')}</span>
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-ink-900 mb-6 tracking-tight">
-            AIBooking Voice AI-Widget
+            {t('widgetPricing.title')}
           </h2>
           <p className="text-xl text-ink-600 max-w-3xl mx-auto leading-relaxed">
-            Voicebot dine kunder kan snakke med direkte på din hjemmeside - håndterer spørgsmål og bookinger automatisk
+            {t('widgetPricing.subtitle')}
           </p>
         </div>
 
@@ -29,92 +37,39 @@ function WidgetPricing() {
                 <div>
                   <div className="mb-8">
                     <div className="inline-block bg-gradient-to-r from-brand-600 to-brand-700 text-white px-4 py-1.5 rounded-full text-sm font-semibold mb-6 shadow-md">
-                      Mest Fleksible Løsning
+                      {t('widgetPricing.plan_badge')}
                     </div>
                     <div className="flex items-baseline mb-2">
-                      <span className="text-6xl md:text-7xl font-bold text-ink-900">999</span>
-                      <span className="text-2xl text-ink-600 ml-3">kr/md</span>
+                      <span className="text-6xl md:text-7xl font-bold text-ink-900">{t('widgetPricing.price')}</span>
+                      <span className="text-2xl text-ink-600 ml-3">{t('widgetPricing.price_period')}</span>
                     </div>
                     <p className="text-ink-600 text-lg">
-                      Inkluderer 150 minutters taletid (ca. 6,66 kr/minut)
+                      {t('widgetPricing.price_note1')}
                     </p>
                     <p className="text-sm text-ink-500 mt-1">
-                      Pakken fornyes automatisk når de 150 minutter er brugt
+                      {t('widgetPricing.price_note2')}
                     </p>
                   </div>
 
                   <div className="space-y-4 mb-10">
-                    <div className="flex items-start space-x-3">
-                      <div className="w-6 h-6 rounded-full bg-brand-100 flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <Check className="w-4 h-4 text-brand-600" />
+                    {features.map((feature, i) => (
+                      <div key={i} className="flex items-start space-x-3">
+                        <div className="w-6 h-6 rounded-full bg-brand-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <Check className="w-4 h-4 text-brand-600" />
+                        </div>
+                        <span className="text-ink-700 leading-relaxed">
+                          {feature.bold && <span className="font-semibold text-ink-900">{feature.bold}</span>}
+                          {feature.rest}
+                        </span>
                       </div>
-                      <span className="text-ink-700 leading-relaxed">
-                        <span className="font-semibold text-ink-900">Voice AI-bot</span> - kunder taler direkte med AI'en
-                      </span>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-6 h-6 rounded-full bg-brand-100 flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <Check className="w-4 h-4 text-brand-600" />
-                      </div>
-                      <span className="text-ink-700 leading-relaxed">
-                        Besvarer spørgsmål og håndterer bookinger
-                      </span>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-6 h-6 rounded-full bg-brand-100 flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <Check className="w-4 h-4 text-brand-600" />
-                      </div>
-                      <span className="text-ink-700 leading-relaxed">
-                        Bookinger går direkte i din kalender
-                      </span>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-6 h-6 rounded-full bg-brand-100 flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <Check className="w-4 h-4 text-brand-600" />
-                      </div>
-                      <span className="text-ink-700 leading-relaxed">
-                        24/7 tilgængelig på din hjemmeside
-                      </span>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-6 h-6 rounded-full bg-brand-100 flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <Check className="w-4 h-4 text-brand-600" />
-                      </div>
-                      <span className="text-ink-700 leading-relaxed">
-                        150 minutters taletid inkluderet
-                      </span>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-6 h-6 rounded-full bg-brand-100 flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <Check className="w-4 h-4 text-brand-600" />
-                      </div>
-                      <span className="text-ink-700 leading-relaxed">
-                        <span className="font-semibold text-ink-900">Betal kun for aktiv tale</span> - ingen timeløn
-                      </span>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-6 h-6 rounded-full bg-brand-100 flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <Check className="w-4 h-4 text-brand-600" />
-                      </div>
-                      <span className="text-ink-700 leading-relaxed">
-                        <span className="font-semibold text-ink-900">Åben 24/7, 365 dage om året</span> - altid klar
-                      </span>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-6 h-6 rounded-full bg-brand-100 flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <Check className="w-4 h-4 text-brand-600" />
-                      </div>
-                      <span className="text-ink-700 leading-relaxed">
-                        Håndterer kunder selv når du er optaget
-                      </span>
-                    </div>
+                    ))}
                   </div>
 
                   <a
                     href="https://aibooking.dk/widget"
                     className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-brand-600 to-brand-700 rounded-xl hover:from-brand-700 hover:to-brand-800 transition-all shadow-lg hover:shadow-xl hover:scale-105 group"
                   >
-                    Se AI-Widget i aktion
+                    {t('widgetPricing.cta')}
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </a>
                 </div>
@@ -127,31 +82,31 @@ function WidgetPricing() {
                           <Sparkles className="w-5 h-5 text-white" />
                         </div>
                         <div>
-                          <div className="text-sm font-semibold text-ink-900">AI Booking Assistant</div>
-                          <div className="text-xs text-ink-500">Online nu</div>
+                          <div className="text-sm font-semibold text-ink-900">{t('widgetPricing.demo_widget_label')}</div>
+                          <div className="text-xs text-ink-500">{t('widgetPricing.demo_widget_status')}</div>
                         </div>
                       </div>
                       <div className="space-y-3">
                         <div className="bg-brand-50 rounded-lg p-3 border border-brand-100">
                           <p className="text-sm text-ink-700">
-                            <span className="font-semibold">🎤 AI Voice:</span> Hej! Du kan tale direkte med mig. Hvad kan jeg hjælpe dig med?
+                            <span className="font-semibold">{t('widgetPricing.demo_ai_label')}</span> {t('widgetPricing.demo_msg1')}
                           </p>
                         </div>
                         <div className="bg-ink-100 rounded-lg p-3 ml-8 border border-ink-200">
                           <p className="text-sm text-ink-700">
-                            <span className="font-semibold">🗣️ Kunde:</span> "Jeg vil gerne booke en tid på fredag"
+                            <span className="font-semibold">{t('widgetPricing.demo_customer_label')}</span> {t('widgetPricing.demo_msg2')}
                           </p>
                         </div>
                         <div className="bg-brand-50 rounded-lg p-3 border border-brand-100">
                           <p className="text-sm text-ink-700">
-                            <span className="font-semibold">🎤 AI Voice:</span> Perfekt! Jeg har følgende tider ledige på fredag...
+                            <span className="font-semibold">{t('widgetPricing.demo_ai_label')}</span> {t('widgetPricing.demo_msg3')}
                           </p>
                         </div>
                       </div>
                     </div>
                     <div className="text-center">
                       <p className="text-sm text-ink-600 font-medium">
-                        Voice AI-widget - kunder taler direkte på din side
+                        {t('widgetPricing.demo_footer')}
                       </p>
                     </div>
                   </div>
@@ -164,8 +119,7 @@ function WidgetPricing() {
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-brand-50 to-ink-50 rounded-2xl p-8 max-w-3xl mx-auto border border-brand-100/50 shadow-sm">
             <p className="text-lg text-ink-700 leading-relaxed">
-              <span className="font-semibold text-ink-900">Perfekt til:</span> Klinikker, håndværkere, konsulenter, saloner,
-              kontorer og alle andre virksomheder der tager imod bookinger direkte på deres hjemmeside.
+              <span className="font-semibold text-ink-900">{t('widgetPricing.perfect_for_label')}</span> {t('widgetPricing.perfect_for_text')}
             </p>
           </div>
         </div>

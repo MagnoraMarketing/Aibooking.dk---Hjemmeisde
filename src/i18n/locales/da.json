@@ -1,10 +1,27 @@
 {
   "nav": {
+    "home": "Hjem",
+    "benefits": "Fordele",
+    "widget": "AI-Widget",
+    "pricing": "Priser",
     "features": "Funktioner",
-    "industries": "Industrier",
+    "industries": "Brancher",
+    "industries_menu": {
+      "healthcare": { "name": "Klinikker", "description": "Læger, tandlæger, fysioterapeuter" },
+      "craftsman": { "name": "Håndværk", "description": "VVS, el, tømrer, maler" },
+      "office": { "name": "Kontor & Erhverv", "description": "Advokater, revisorer, konsulenter" },
+      "ecommerce": { "name": "E-commerce & Webshop", "description": "Webshops og online forretninger" }
+    },
+    "see_all_industries": "Se alle brancher →",
     "integrations": "Integrationer",
     "demo": "Demo",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "contact_us": "Kontakt os",
+    "about_us": "Om os",
+    "book_demo": "Book Demo",
+    "language": "Sprog",
+    "open_menu": "Åbn menu",
+    "close_menu": "Luk menu"
   },
   "hero": {
     "badge": "Din Virtuelle Receptionist",
@@ -98,12 +115,31 @@
     "button": "Start Gratis Prøveperiode"
   },
   "footer": {
-    "description": "Automatiser din kundekommunikation med AI",
-    "product": "Produkt",
+    "description": "Automatisér dine bookinger og kundeservice med intelligent AI-teknologi.",
+    "solutions": "Løsninger",
+    "ai_booking": "AI Booking",
+    "ai_widget": "AI Widget",
+    "book_demo": "Book Demo",
+    "features": "Funktioner",
+    "industries_title": "Brancher",
+    "healthcare": "Klinik & Sundhed",
+    "craftsman": "Håndværker",
+    "office": "Kontor & Erhverv",
+    "ecommerce": "Webshop & E-handel",
+    "blog_title": "Blog",
+    "all_articles": "Alle Artikler",
+    "blog_ai_widget": "AI Widget",
+    "blog_inbound_outbound": "AI Ind- og Udgående Opkald",
+    "blog_total_solution": "AI Totalløsning",
     "company": "Virksomhed",
-    "legal": "Juridisk",
-    "contact_us": "Kontakt Os",
-    "rights": "Alle rettigheder forbeholdes"
+    "about": "Om os",
+    "contact": "Kontakt",
+    "privacy": "Privatlivspolitik",
+    "terms": "Vilkår og betingelser",
+    "contact_title": "Kontakt",
+    "address": "Aarhus C, Danmark",
+    "rights": "Alle rettigheder forbeholdes",
+    "made_by": "Lavet og drevet af"
   },
   "contact": {
     "title": "Kontakt Os",
@@ -137,5 +173,58 @@
   "demo_page": {
     "title": "Book En Gratis Demo",
     "subtitle": "Se hvordan Aibooking.dk kan transformere din kundekommunikation"
+  },
+  "receptionistShowcase": {
+    "badge": "AI Receptionist til Voksende Virksomheder",
+    "title_line1": "Gå aldrig glip af et opkald.",
+    "title_line2": "Vind mere arbejde.",
+    "title_line3": "Reducer administration.",
+    "subtitle": "Din AI-receptionist håndterer opkald, registrerer kundeemner og tager sig af ombookinger, så du kan fokusere på at vokse dit firma.",
+    "cta_primary": "Book Gratis Demo",
+    "cta_secondary": "Prøv vores AI voice widget",
+    "demo_badge": "AI Receptionist Aktiv",
+    "chat_label": "AI Receptionist",
+    "chat_message": "Hej, du har ringet til Pentworth Klinik. Hvordan kan jeg hjælpe dig i dag?",
+    "card_call_answered_label": "Opkald Besvaret",
+    "card_call_answered_value": "Ny Patient Registreret",
+    "card_rebooked_label": "Omboget",
+    "card_rebooked_value": "Link Sendt Automatisk",
+    "card_notification_label": "Notifikation",
+    "card_notification_value": "Dr. Schmidt Informeret",
+    "card_conversation_label": "Samtale",
+    "card_conversation_value": "AI Håndterede Alle",
+    "summary_label": "Sammendrag",
+    "summary_text": "Fenley bad om information om parkering ved klinikken. Vi gav alle relevante detaljer for at sikre et problemfrit besøg."
+  },
+  "widgetPricing": {
+    "badge": "Nem Integration På Din Hjemmeside",
+    "title": "AIBooking Voice AI-Widget",
+    "subtitle": "Voicebot dine kunder kan snakke med direkte på din hjemmeside - håndterer spørgsmål og bookinger automatisk",
+    "plan_badge": "Mest Fleksible Løsning",
+    "price": "999",
+    "price_period": "kr/md",
+    "price_note1": "Inkluderer 150 minutters taletid (ca. 6,66 kr/minut)",
+    "price_note2": "Pakken fornyes automatisk når de 150 minutter er brugt",
+    "features": [
+      { "bold": "Voice AI-bot", "rest": " - kunder taler direkte med AI'en" },
+      { "bold": "", "rest": "Besvarer spørgsmål og håndterer bookinger" },
+      { "bold": "", "rest": "Bookinger går direkte i din kalender" },
+      { "bold": "", "rest": "24/7 tilgængelig på din hjemmeside" },
+      { "bold": "", "rest": "150 minutters taletid inkluderet" },
+      { "bold": "Betal kun for aktiv tale", "rest": " - ingen timeløn" },
+      { "bold": "Åben 24/7, 365 dage om året", "rest": " - altid klar" },
+      { "bold": "", "rest": "Håndterer kunder selv når du er optaget" }
+    ],
+    "cta": "Se AI-Widget i aktion",
+    "demo_widget_label": "AI Booking Assistant",
+    "demo_widget_status": "Online nu",
+    "demo_ai_label": "🎤 AI Voice:",
+    "demo_msg1": "Hej! Du kan tale direkte med mig. Hvad kan jeg hjælpe dig med?",
+    "demo_customer_label": "🗣️ Kunde:",
+    "demo_msg2": "\"Jeg vil gerne booke en tid på fredag\"",
+    "demo_msg3": "Perfekt! Jeg har følgende tider ledige på fredag...",
+    "demo_footer": "Voice AI-widget - kunder taler direkte på din side",
+    "perfect_for_label": "Perfekt til:",
+    "perfect_for_text": "Klinikker, håndværkere, konsulenter, saloner, kontorer og alle andre virksomheder der tager imod bookinger direkte på deres hjemmeside."
   }
 }

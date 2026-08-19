@@ -72,7 +72,7 @@ function PrivacyPage({ onNavigate }: PrivacyPageProps) {
                 ) : section.before !== undefined ? (
                   <p className="text-ink-700 leading-relaxed">
                     {section.before}
-                    <a href="mailto:kontakt@aibooking.dk" className="text-brand-600 hover:text-brand-800">kontakt@aibooking.dk</a>
+                    <a href="mailto:mail@aibooking.dk" className="text-brand-600 hover:text-brand-800">mail@aibooking.dk</a>
                     {section.after}
                   </p>
                 ) : (

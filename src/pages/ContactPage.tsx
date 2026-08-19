@@ -100,8 +100,8 @@ function ContactPage({ onNavigate }: ContactPageProps) {
               </div>
               <h3 className="text-xl font-bold text-ink-900 mb-3">{t('infoCards.email.title')}</h3>
               <p className="text-ink-600 mb-4">{t('infoCards.email.desc')}</p>
-              <a href="mailto:kontakt@aibooking.dk" className="text-brand-600 font-semibold hover:text-brand-700 transition-colors">
-                kontakt@aibooking.dk
+              <a href="mailto:mail@aibooking.dk" className="text-brand-600 font-semibold hover:text-brand-700 transition-colors">
+                mail@aibooking.dk
               </a>
             </div>
 

@@ -41,7 +41,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const { name, email, phone, industry, callDate, message } = req.body as ContactPayload;
 
   const apiKey = process.env.RESEND_API_KEY;
-  const to = (process.env.CONTACT_EMAIL_TO || 'mail@aibooking.dk,kontakt@aibooking.dk')
+  const to = (process.env.CONTACT_EMAIL_TO || 'mail@aibooking.dk')
     .split(',')
     .map((address) => address.trim())
     .filter(Boolean);

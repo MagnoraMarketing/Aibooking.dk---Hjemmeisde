@@ -193,8 +193,8 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start space-x-2">
                 <Mail className="w-4 h-4 mt-0.5 text-brand-400" />
-                <a href="mailto:kontakt@aibooking.dk" className="hover:text-brand-400 transition-all">
-                  kontakt@aibooking.dk
+                <a href="mailto:mail@aibooking.dk" className="hover:text-brand-400 transition-all">
+                  mail@aibooking.dk
                 </a>
               </li>
               <li className="flex items-start space-x-2">

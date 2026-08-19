@@ -204,7 +204,6 @@
     },
     "free_label": "Free",
     "most_popular_badge": "Most Popular",
-    "setup_note": "One-time fee of €{{setup}} for setup and onboarding",
     "plans": [
       {
         "name": "Demo",
@@ -270,7 +269,7 @@
       "toggle_label": "See other prices",
       "setup": {
         "title": "Setup",
-        "value": "2 x subscription price",
+        "value": "Optional add-on – price shown under each package",
         "note": "(one-time fee)"
       },
       "maintenance": {
@@ -287,7 +286,8 @@
         "development_price": "€147 per hour"
       }
     },
-    "currency_suffix": "€/mo"
+    "currency_suffix": "€/mo",
+    "setup_note_optional": "Add setup and onboarding (one-time fee of €{{setup}})"
   },
   "faqSection": {
     "title": "Frequently asked questions",

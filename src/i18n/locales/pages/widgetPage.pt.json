@@ -204,7 +204,6 @@
     },
     "free_label": "Grátis",
     "most_popular_badge": "Mais Popular",
-    "setup_note": "Taxa única de €{{setup}} para configuração e onboarding",
     "plans": [
       {
         "name": "Demo",
@@ -270,8 +269,8 @@
       "toggle_label": "Ver outros preços",
       "setup": {
         "title": "Configuração",
-        "value": "2 x preço da subscrição",
-        "note": "(pagamento único)"
+        "value": "Opcional – o preço é apresentado em cada pacote",
+        "note": "(taxa única)"
       },
       "maintenance": {
         "title": "Manutenção mensal e prompting",
@@ -287,7 +286,8 @@
         "development_price": "147 € por hora"
       }
     },
-    "currency_suffix": "€/mês"
+    "currency_suffix": "€/mês",
+    "setup_note_optional": "Adicionar configuração e onboarding (taxa única de €{{setup}})"
   },
   "faqSection": {
     "title": "Perguntas frequentes",

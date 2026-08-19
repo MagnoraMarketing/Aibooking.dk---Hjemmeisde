@@ -161,7 +161,6 @@
     "most_popular_badge": "Most Popular",
     "free_label": "Free",
     "currency_suffix": "€/mo",
-    "setup_note": "One-time fee of €{{setup}} for setup and onboarding",
     "after_order_note": "After ordering, you'll receive a calendar link to book a time for setup.",
     "cta_demo": "Try for free",
     "cta_order": "Order package and book onboarding",
@@ -225,7 +224,7 @@
       "toggle_label": "See other prices",
       "setup": {
         "title": "Setup",
-        "value": "2x subscription price",
+        "value": "Optional add-on – price shown under each package",
         "note": "(one-time fee)"
       },
       "maintenance": {
@@ -241,7 +240,8 @@
         "development_label": "Development",
         "development_price": "€147/hour"
       }
-    }
+    },
+    "setup_note_optional": "Add setup and onboarding (one-time fee of €{{setup}})"
   },
   "cta_section": {
     "title": "Ready to get started?",

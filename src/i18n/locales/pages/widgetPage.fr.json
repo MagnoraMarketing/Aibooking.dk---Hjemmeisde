@@ -204,7 +204,6 @@
     },
     "free_label": "Gratuit",
     "most_popular_badge": "Le Plus Populaire",
-    "setup_note": "Frais unique de {{setup}} € pour la configuration et l'onboarding",
     "plans": [
       {
         "name": "Demo",
@@ -270,7 +269,7 @@
       "toggle_label": "Voir les autres tarifs",
       "setup": {
         "title": "Mise en place",
-        "value": "2 x le prix de l'abonnement",
+        "value": "Optionnel – le prix est indiqué sous chaque forfait",
         "note": "(frais unique)"
       },
       "maintenance": {
@@ -287,7 +286,8 @@
         "development_price": "147 € de l'heure"
       }
     },
-    "currency_suffix": "€/mois"
+    "currency_suffix": "€/mois",
+    "setup_note_optional": "Ajouter la configuration et l'onboarding (frais unique de {{setup}} €)"
   },
   "faqSection": {
     "title": "Questions fréquentes",

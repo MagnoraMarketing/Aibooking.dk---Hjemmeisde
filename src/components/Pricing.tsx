@@ -14,13 +14,14 @@ interface PricingPlanText {
 function Pricing() {
   const { t, i18n } = useTranslation();
   const [isAdditionalPricesOpen, setIsAdditionalPricesOpen] = useState(false);
+  const [setupSelected, setSetupSelected] = useState<Record<number, boolean>>({});
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
 
   const plansText = t('pricing.plans', { returnObjects: true }) as PricingPlanText[];
   const planMeta = [
     { price: 0, setup: 0, highlighted: false, isDemo: true, href: 'https://cal.com/aibooking-booking/info-om-ai-reception-og-widget-copy' },
-    { price: 1500, setup: 3000, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
-    { price: 2499, setup: 4998, highlighted: true, isDemo: false, href: 'https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01' },
+    { price: 1500, setup: 999, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
+    { price: 2499, setup: 1999, highlighted: true, isDemo: false, href: 'https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01' },
     { price: 5999, setup: 11998, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02' },
   ];
   const plans = plansText.map((plan, i) => ({ ...plan, ...planMeta[i] }));
@@ -107,9 +108,17 @@ function Pricing() {
 
               {plan.setup !== 0 && (
                 <div className={`mb-6 pt-6 border-t ${plan.highlighted ? 'border-brand-500' : 'border-ink-200'}`}>
-                  <p className={`text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
-                    {t('pricing.setup_note', { setup: localizedPrice(plan.setup, lang) })}
-                  </p>
+                  <label className="flex items-start gap-2.5 cursor-pointer">
+                    <input
+                      type="checkbox"
+                      checked={!!setupSelected[index]}
+                      onChange={() => setSetupSelected((s) => ({ ...s, [index]: !s[index] }))}
+                      className="mt-0.5 w-4 h-4 rounded accent-white flex-shrink-0"
+                    />
+                    <span className={`text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
+                      {t('pricing.setup_note_optional', { setup: localizedPrice(plan.setup, lang) })}
+                    </span>
+                  </label>
                 </div>
               )}
 

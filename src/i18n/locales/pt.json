@@ -161,7 +161,6 @@
     "most_popular_badge": "Mais Popular",
     "free_label": "Grátis",
     "currency_suffix": "€/mês",
-    "setup_note": "Taxa única de €{{setup}} para configuração e onboarding",
     "after_order_note": "Após a encomenda, recebe um link de calendário para marcar a configuração.",
     "cta_demo": "Experimentar grátis",
     "cta_order": "Encomendar pacote e marcar Onboarding",
@@ -225,8 +224,8 @@
       "toggle_label": "Ver outros preços",
       "setup": {
         "title": "Configuração",
-        "value": "2x o preço da subscrição",
-        "note": "(pagamento único)"
+        "value": "Opcional – o preço é apresentado em cada pacote",
+        "note": "(taxa única)"
       },
       "maintenance": {
         "title": "Manutenção mensal e prompting",
@@ -241,7 +240,8 @@
         "development_label": "Desenvolvimento",
         "development_price": "147 €/hora"
       }
-    }
+    },
+    "setup_note_optional": "Adicionar configuração e onboarding (taxa única de €{{setup}})"
   },
   "cta_section": {
     "title": "Pronto para começar?",

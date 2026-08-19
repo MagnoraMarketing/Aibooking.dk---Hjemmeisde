@@ -161,7 +161,6 @@
     "most_popular_badge": "Le Plus Populaire",
     "free_label": "Gratuit",
     "currency_suffix": "€/mois",
-    "setup_note": "Frais unique de {{setup}} € pour la configuration et l'onboarding",
     "after_order_note": "Après la commande, vous recevrez un lien de calendrier pour réserver un créneau de configuration.",
     "cta_demo": "Essayer gratuitement",
     "cta_order": "Commander le forfait et réserver l'onboarding",
@@ -225,8 +224,8 @@
       "toggle_label": "Voir les autres tarifs",
       "setup": {
         "title": "Configuration",
-        "value": "2x le prix de l'abonnement",
-        "note": "(paiement unique)"
+        "value": "Optionnel – le prix est indiqué sous chaque forfait",
+        "note": "(frais unique)"
       },
       "maintenance": {
         "title": "Maintenance mensuelle et prompting",
@@ -241,7 +240,8 @@
         "development_label": "Développement",
         "development_price": "147 €/heure"
       }
-    }
+    },
+    "setup_note_optional": "Ajouter la configuration et l'onboarding (frais unique de {{setup}} €)"
   },
   "cta_section": {
     "title": "Prêt à démarrer ?",

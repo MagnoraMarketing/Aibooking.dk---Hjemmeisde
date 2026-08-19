@@ -204,7 +204,6 @@
     },
     "free_label": "Gratis",
     "most_popular_badge": "Mest Populær",
-    "setup_note": "Engangspris på {{setup}} kr for opsætning og onboarding",
     "plans": [
       {
         "name": "Demo",
@@ -270,7 +269,7 @@
       "toggle_label": "Se øvrige priser",
       "setup": {
         "title": "Opsætning",
-        "value": "2 x abonnementspris",
+        "value": "Valgfrit tilvalg – prisen fremgår under hver pakke",
         "note": "(engangsbeløb)"
       },
       "maintenance": {
@@ -287,7 +286,8 @@
         "development_price": "1.100 kr. pr. time"
       }
     },
-    "currency_suffix": "kr/md"
+    "currency_suffix": "kr/md",
+    "setup_note_optional": "Tilføj opsætning og onboarding (engangspris {{setup}} kr)"
   },
   "faqSection": {
     "title": "Ofte stillede spørgsmål",

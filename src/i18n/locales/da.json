@@ -161,7 +161,6 @@
     "most_popular_badge": "Mest Populær",
     "free_label": "Gratis",
     "currency_suffix": "kr/md",
-    "setup_note": "Engangspris på {{setup}} kr for opsætning og onboarding",
     "after_order_note": "Efter bestilling modtager du et kalenderlink hvor du kan booke tid til opsætning.",
     "cta_demo": "Prøv gratis",
     "cta_order": "Bestil pakke og book Onboarding",
@@ -225,7 +224,7 @@
       "toggle_label": "Se øvrige priser",
       "setup": {
         "title": "Opsætning",
-        "value": "2 x abonnementspris",
+        "value": "Valgfrit tilvalg – prisen fremgår under hver pakke",
         "note": "(engangsbeløb)"
       },
       "maintenance": {
@@ -241,7 +240,8 @@
         "development_label": "Udvikling",
         "development_price": "1.100 kr. pr. time"
       }
-    }
+    },
+    "setup_note_optional": "Tilføj opsætning og onboarding (engangspris {{setup}} kr)"
   },
   "cta_section": {
     "title": "Klar til at komme i gang?",

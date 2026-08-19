@@ -361,11 +361,11 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
         keywords={t('seo.keywords')}
         canonical="https://www.aibooking.dk/widget"
       />
-      <Navigation onNavigate={onNavigate} />
-      <main className="min-h-screen bg-white pt-20">
+      <Navigation onNavigate={onNavigate} transparent />
+      <main className="min-h-screen bg-white">
 
         {/* Hero */}
-        <section className="relative py-16 md:py-28 bg-ink-950 overflow-hidden">
+        <section className="relative pt-32 pb-16 md:pb-28 bg-ink-950 overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.06)_1px,transparent_0)] bg-[length:32px_32px]"></div>
           <div className="absolute -top-20 right-0 w-[600px] h-[600px] bg-brand-600/25 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-accent-500/10 rounded-full blur-3xl"></div>

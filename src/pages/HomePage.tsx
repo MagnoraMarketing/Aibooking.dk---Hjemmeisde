@@ -31,7 +31,7 @@ function HomePage({ onNavigate }: HomePageProps) {
         structuredData={structuredData}
         path="/"
       />
-      <Navigation onNavigate={onNavigate} />
+      <Navigation onNavigate={onNavigate} transparent />
       <Hero onNavigate={onNavigate} />
       <ReceptionistShowcase onNavigate={onNavigate} />
       <Features />

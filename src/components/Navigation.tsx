@@ -6,9 +6,14 @@ import { SupportedLanguage } from '../i18n/config';
 
 interface NavigationProps {
   onNavigate: (page: 'home' | 'widget' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy') => void;
+  // Set on pages whose hero is a full-bleed dark section (Home, Widget) so
+  // the nav starts see-through with light text over it, then turns into
+  // the normal solid white bar once the user scrolls past the hero. Pages
+  // without a dark hero never pass this and keep the always-solid nav.
+  transparent?: boolean;
 }
 
-function Navigation({ onNavigate }: NavigationProps) {
+function Navigation({ onNavigate, transparent = false }: NavigationProps) {
   const { t, i18n } = useTranslation();
   const [isIndustriesOpen, setIsIndustriesOpen] = useState(false);
   const [isContactOpen, setIsContactOpen] = useState(false);
@@ -16,9 +21,22 @@ function Navigation({ onNavigate }: NavigationProps) {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
   const [mobileIndustriesOpen, setMobileIndustriesOpen] = useState(false);
   const [mobileContactOpen, setMobileContactOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const contactDropdownRef = useRef<HTMLDivElement>(null);
   const languageDropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!transparent) return;
+    const handleScroll = () => setIsScrolled(window.scrollY > 40);
+    handleScroll();
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [transparent]);
+
+  const solid = !transparent || isScrolled;
+  const navLinkClass = `${solid ? 'text-ink-600 hover:text-brand-600' : 'text-white/90 hover:text-white'} transition-all font-medium text-[15px]`;
+  const navLinkClassFlex = `flex items-center space-x-2 ${navLinkClass}`;
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -69,43 +87,43 @@ function Navigation({ onNavigate }: NavigationProps) {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-xl z-50 border-b border-ink-200/50 shadow-sm">
+      <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${solid ? 'bg-white/90 backdrop-blur-xl border-b border-ink-200/50 shadow-sm' : 'bg-transparent'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center space-x-3">
               <div className="w-11 h-11 bg-gradient-to-br from-brand-600 via-brand-600 to-brand-700 rounded-2xl flex items-center justify-center shadow-lg shadow-brand-500/20">
                 <Phone className="w-6 h-6 text-white" />
               </div>
-              <span className="text-2xl font-bold text-ink-900 tracking-tight">Aibooking.dk</span>
+              <span className={`text-2xl font-bold tracking-tight transition-colors ${solid ? 'text-ink-900' : 'text-white'}`}>Aibooking.dk</span>
             </div>
 
             {/* Desktop menu */}
             <div className="hidden md:flex items-center space-x-8">
               <button
                 onClick={() => onNavigate('home')}
-                className="text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]"
+                className={navLinkClass}
               >
                 {t('nav.home')}
               </button>
               <button
                 onClick={() => onNavigate('features')}
-                className="text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]"
+                className={navLinkClass}
               >
                 {t('nav.benefits')}
               </button>
               <button
                 onClick={() => onNavigate('widget')}
-                className="text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]"
+                className={navLinkClass}
               >
                 {t('nav.widget')}
               </button>
-              <a href="#priser" className="text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]">
+              <a href="#priser" className={navLinkClass}>
                 {t('nav.pricing')}
               </a>
               <div className="relative" ref={dropdownRef}>
                 <button
                   onClick={() => setIsIndustriesOpen(!isIndustriesOpen)}
-                  className="flex items-center space-x-2 text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]"
+                  className={navLinkClassFlex}
                 >
                   <Building2 className="w-4 h-4" />
                   <span>{t('nav.industries')}</span>
@@ -145,7 +163,7 @@ function Navigation({ onNavigate }: NavigationProps) {
               </div>
               <button
                 onClick={() => onNavigate('integrations')}
-                className="flex items-center space-x-2 text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]"
+                className={navLinkClassFlex}
               >
                 <Plug className="w-4 h-4" />
                 <span>{t('nav.integrations')}</span>
@@ -153,7 +171,7 @@ function Navigation({ onNavigate }: NavigationProps) {
               <div className="relative" ref={contactDropdownRef}>
                 <button
                   onClick={() => setIsContactOpen(!isContactOpen)}
-                  className="flex items-center space-x-2 text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]"
+                  className={navLinkClassFlex}
                 >
                   <MessageSquare className="w-4 h-4" />
                   <span>{t('nav.contact')}</span>
@@ -186,7 +204,7 @@ function Navigation({ onNavigate }: NavigationProps) {
               <div className="relative" ref={languageDropdownRef}>
                 <button
                   onClick={() => setIsLanguageOpen(!isLanguageOpen)}
-                  className="flex items-center space-x-2 text-ink-600 hover:text-brand-600 transition-all font-medium text-[15px]"
+                  className={navLinkClassFlex}
                 >
                   <Globe className="w-4 h-4" />
                   <span>{languageLabel[i18n.language as SupportedLanguage] || 'DA'}</span>
@@ -235,7 +253,7 @@ function Navigation({ onNavigate }: NavigationProps) {
             {/* Mobile hamburger */}
             <button
               onClick={() => setIsMobileOpen(true)}
-              className="md:hidden p-2 rounded-xl text-ink-700 hover:bg-ink-100 transition-colors"
+              className={`md:hidden p-2 rounded-xl transition-colors ${solid ? 'text-ink-700 hover:bg-ink-100' : 'text-white hover:bg-white/10'}`}
               aria-label={t('nav.open_menu')}
             >
               <Menu className="w-6 h-6" />

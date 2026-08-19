@@ -1,4 +1,4 @@
-import { Check, ArrowRight, Sparkles } from 'lucide-react';
+import { Check, ArrowRight, Sparkles, Mic } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { localizedPrice } from '../utils/currency';
 import type { SupportedLanguage } from '../i18n/config';
@@ -34,24 +34,27 @@ function WidgetPricing() {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="bg-white rounded-3xl border-2 border-brand-200/60 shadow-xl overflow-hidden relative">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-brand-100/50 to-transparent rounded-full blur-2xl"></div>
+          <div className="bg-gradient-to-br from-ink-900 via-brand-900 to-ink-900 rounded-3xl border border-brand-500/20 shadow-2xl overflow-hidden relative">
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.05)_1px,transparent_0)] bg-[length:28px_28px]"></div>
+            <div className="absolute top-0 right-0 w-80 h-80 bg-brand-500/20 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-0 left-0 w-64 h-64 bg-accent-500/10 rounded-full blur-3xl"></div>
 
-            <div className="p-8 md:p-12 lg:p-16 relative">
+            <div className="p-8 md:p-12 lg:p-16 relative z-10">
               <div className="grid md:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="mb-8">
-                    <div className="inline-block bg-gradient-to-r from-brand-600 to-brand-700 text-white px-4 py-1.5 rounded-full text-sm font-semibold mb-6 shadow-md">
+                    <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-accent-300 border border-white/10 px-4 py-1.5 rounded-full text-sm font-semibold mb-6">
+                      <Mic className="w-3.5 h-3.5" />
                       {t('widgetPricing.plan_badge')}
                     </div>
                     <div className="flex items-baseline mb-2">
-                      <span className="text-6xl md:text-7xl font-bold text-ink-900">{localizedPrice(WIDGET_PLAN_PRICE_DKK, lang)}</span>
-                      <span className="text-2xl text-ink-600 ml-3">{t('widgetPricing.price_period')}</span>
+                      <span className="text-6xl md:text-7xl font-bold text-white">{localizedPrice(WIDGET_PLAN_PRICE_DKK, lang)}</span>
+                      <span className="text-2xl text-ink-300 ml-3">{t('widgetPricing.price_period')}</span>
                     </div>
-                    <p className="text-ink-600 text-lg">
+                    <p className="text-ink-200 text-lg">
                       {t('widgetPricing.price_note1')}
                     </p>
-                    <p className="text-sm text-ink-500 mt-1">
+                    <p className="text-sm text-ink-400 mt-1">
                       {t('widgetPricing.price_note2')}
                     </p>
                   </div>
@@ -59,11 +62,11 @@ function WidgetPricing() {
                   <div className="space-y-4 mb-10">
                     {features.map((feature, i) => (
                       <div key={i} className="flex items-start space-x-3">
-                        <div className="w-6 h-6 rounded-full bg-brand-100 flex items-center justify-center flex-shrink-0 mt-0.5">
-                          <Check className="w-4 h-4 text-brand-600" />
+                        <div className="w-6 h-6 rounded-full bg-brand-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <Check className="w-4 h-4 text-brand-300" />
                         </div>
-                        <span className="text-ink-700 leading-relaxed">
-                          {feature.bold && <span className="font-semibold text-ink-900">{feature.bold}</span>}
+                        <span className="text-ink-200 leading-relaxed">
+                          {feature.bold && <span className="font-semibold text-white">{feature.bold}</span>}
                           {feature.rest}
                         </span>
                       </div>
@@ -72,7 +75,7 @@ function WidgetPricing() {
 
                   <a
                     href="https://aibooking.dk/widget"
-                    className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-brand-600 to-brand-700 rounded-xl hover:from-brand-700 hover:to-brand-800 transition-all shadow-lg hover:shadow-xl hover:scale-105 group"
+                    className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-ink-950 bg-accent-400 rounded-xl hover:bg-accent-300 transition-all shadow-lg shadow-accent-500/20 hover:scale-105 group"
                   >
                     {t('widgetPricing.cta')}
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -80,7 +83,7 @@ function WidgetPricing() {
                 </div>
 
                 <div className="relative">
-                  <div className="bg-gradient-to-br from-ink-100 to-ink-200/80 rounded-2xl p-8 border border-ink-300/50 shadow-lg">
+                  <div className="bg-gradient-to-br from-ink-950 to-ink-900 rounded-2xl p-8 border border-white/10 shadow-lg">
                     <div className="bg-white rounded-xl p-6 shadow-md mb-4">
                       <div className="flex items-center space-x-3 mb-4">
                         <div className="w-10 h-10 rounded-full bg-brand-600 flex items-center justify-center">
@@ -110,7 +113,7 @@ function WidgetPricing() {
                       </div>
                     </div>
                     <div className="text-center">
-                      <p className="text-sm text-ink-600 font-medium">
+                      <p className="text-sm text-ink-300 font-medium">
                         {t('widgetPricing.demo_footer')}
                       </p>
                     </div>

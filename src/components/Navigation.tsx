@@ -223,7 +223,7 @@ function Navigation({ onNavigate }: NavigationProps) {
                 )}
               </div>
               <a
-                href="https://cal.com/aibooking-booking/30min"
+                href="https://aibooking-backendnew.vercel.app/signup"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-brand-600 text-white px-7 py-2.5 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-sm hover:shadow-md transform hover:scale-[1.02] text-[15px] inline-block"
@@ -412,7 +412,7 @@ function Navigation({ onNavigate }: NavigationProps) {
         {/* Drawer footer CTA */}
         <div className="px-4 py-5 border-t border-ink-100 flex-shrink-0">
           <a
-            href="https://cal.com/aibooking-booking/30min"
+            href="https://aibooking-backendnew.vercel.app/signup"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsMobileOpen(false)}

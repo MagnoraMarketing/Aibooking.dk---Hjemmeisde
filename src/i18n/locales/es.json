@@ -1,0 +1,191 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "benefits": "Ventajas",
+    "widget": "Widget IA",
+    "pricing": "Precios",
+    "features": "Funciones",
+    "industries": "Sectores",
+    "industries_seeAll": "Ver todos los sectores →",
+    "industry_healthcare_name": "Clínicas",
+    "industry_healthcare_desc": "Médicos, dentistas, fisioterapeutas",
+    "industry_craftsman_name": "Oficios",
+    "industry_craftsman_desc": "Fontanería, electricidad, carpintería, pintura",
+    "industry_office_name": "Oficina y Empresas",
+    "industry_office_desc": "Abogados, contables, consultores",
+    "industry_ecommerce_name": "E-commerce y Tienda Online",
+    "industry_ecommerce_desc": "Tiendas online y negocios digitales",
+    "integrations": "Integraciones",
+    "demo": "Demo",
+    "contact": "Contacto",
+    "contact_us": "Contáctanos",
+    "about_us": "Sobre nosotros",
+    "login": "Iniciar sesión",
+    "login_desc": "Cliente existente – accede a tu panel",
+    "signup": "Crear cuenta",
+    "signup_desc": "Cliente nuevo – empieza gratis",
+    "bookDemo": "Reservar Demo",
+    "language": "Idioma",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "customerLogin": "Acceso de clientes"
+  },
+  "hero": {
+    "badge": "Tu Recepcionista Virtual",
+    "title_line1": "¿Pierdes horas en llamadas,",
+    "title_line2": "SMS y seguimientos?",
+    "subtitle": "Olvídate de la administración. Nuestra recepcionista de IA se encarga de todo — desde llamadas y mensajes hasta reservas y redes sociales. Ahorra más de 10 horas semanales y concéntrate en lo que mejor sabes hacer.",
+    "cta": "Reservar Demo Gratis",
+    "secondary": "Ver Cómo Funciona",
+    "feature1": {
+      "title": "Disponible 24/7",
+      "description": "Responde llamadas y mensajes en cualquier momento, incluso fuera del horario laboral"
+    },
+    "feature2": {
+      "title": "Reservas Automáticas",
+      "description": "Gestiona reservas, cambios y cancelaciones sin intervención humana"
+    },
+    "feature3": {
+      "title": "Ahorra 10+ Horas/Semana",
+      "description": "Concéntrate en tu negocio mientras la IA se encarga de la administración"
+    }
+  },
+  "features": {
+    "title": "Funciones Potentes Para Tu Negocio",
+    "subtitle": "Todo lo que necesitas para automatizar la comunicación con tus clientes",
+    "ai_receptionist": {
+      "title": "Recepcionista Telefónica IA",
+      "description": "Responde llamadas 24/7 con una voz natural"
+    },
+    "smart_booking": {
+      "title": "Reservas Inteligentes",
+      "description": "Gestión automática del calendario y confirmación de citas"
+    },
+    "crm_integration": {
+      "title": "Integración CRM",
+      "description": "Se sincroniza fácilmente con tus sistemas existentes"
+    },
+    "analytics": {
+      "title": "Análisis e Informes",
+      "description": "Información detallada sobre todos los contactos con clientes"
+    }
+  },
+  "pricing": {
+    "title": "Precios Transparentes",
+    "subtitle": "Elige el plan adecuado para tu negocio",
+    "starter": {
+      "name": "Starter",
+      "price": "499",
+      "period": "/mes",
+      "description": "Ideal para pequeñas empresas",
+      "features": {
+        "calls": "Hasta 100 llamadas/mes",
+        "booking": "Integración de reservas",
+        "support": "Soporte por email",
+        "analytics": "Análisis básico"
+      }
+    },
+    "professional": {
+      "name": "Professional",
+      "price": "999",
+      "period": "/mes",
+      "description": "Para negocios en crecimiento",
+      "features": {
+        "calls": "Hasta 500 llamadas/mes",
+        "booking": "Reservas avanzadas",
+        "support": "Soporte prioritario",
+        "analytics": "Análisis avanzado",
+        "crm": "Integración CRM"
+      },
+      "popular": "Más Popular"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Contáctanos",
+      "period": "",
+      "description": "Para grandes organizaciones",
+      "features": {
+        "calls": "Llamadas ilimitadas",
+        "booking": "Personalización completa",
+        "support": "Gestor de cuenta dedicado",
+        "analytics": "Informes personalizados",
+        "crm": "Integración empresarial",
+        "sla": "Garantía SLA"
+      }
+    },
+    "cta": "Empezar",
+    "contact": "Contactar Con Ventas"
+  },
+  "cta_section": {
+    "title": "¿Listo Para Empezar?",
+    "subtitle": "Prueba Aibooking.dk gratis durante 14 días. No se requiere tarjeta de crédito.",
+    "button": "Iniciar Prueba Gratuita"
+  },
+  "footer": {
+    "description": "Automatiza tus reservas y atención al cliente con tecnología de IA inteligente.",
+    "product": "Producto",
+    "company": "Empresa",
+    "legal": "Aviso legal",
+    "contact_us": "Contáctanos",
+    "rights": "Todos los derechos reservados",
+    "solutions": "Soluciones",
+    "aiBooking": "AI Booking",
+    "aiWidget": "AI Widget",
+    "integrations": "Integraciones",
+    "bookDemo": "Reservar Demo",
+    "features": "Funciones",
+    "industries": "Sectores",
+    "healthcare": "Clínicas y Salud",
+    "craftsman": "Oficios",
+    "office": "Oficina y Empresas",
+    "ecommerce": "Tienda Online y E-commerce",
+    "blog": "Blog",
+    "allArticles": "Todos los Artículos",
+    "blogWidget": "AI Widget",
+    "blogInboundOutbound": "AI Inbound/Outbound",
+    "blogTotalSolution": "Solución Total IA",
+    "aboutUs": "Sobre nosotros",
+    "contact": "Contacto",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos y Condiciones",
+    "contactHeader": "Contacto",
+    "address": "Aarhus C, Dinamarca",
+    "rightsReserved": "Todos los derechos reservados.",
+    "madeBy": "Creado y operado por",
+    "customerCtaTitle": "¿Ya eres cliente de Aibooking.dk?",
+    "customerCtaSubtitle": "Inicia sesión en tu panel, o crea una cuenta gratuita como nuevo cliente."
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Estamos aquí para ayudarte a automatizar tu negocio",
+    "form": {
+      "name": "Tu nombre",
+      "email": "Tu email",
+      "phone": "Número de teléfono",
+      "company": "Empresa",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias por tu mensaje! Te responderemos lo antes posible.",
+      "error": "Ocurrió un error. Por favor, inténtalo de nuevo."
+    }
+  },
+  "about": {
+    "title": "Sobre Aibooking.dk",
+    "subtitle": "Ayudamos a las empresas a automatizar la comunicación con sus clientes",
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Hacer que la comunicación profesional con los clientes sea accesible para todas las empresas mediante la tecnología de IA."
+    }
+  },
+  "widget": {
+    "title": "Widget IA - Automatiza Tus Citas",
+    "description": "Integra nuestro widget de IA en tu sitio web y deja que la inteligencia artificial gestione las reservas automáticamente",
+    "demo_title": "Prueba El Asistente de Voz IA",
+    "demo_subtitle": "Haz clic en el icono de abajo para iniciar una conversación con nuestro asistente de IA"
+  },
+  "demo_page": {
+    "title": "Reserva Una Demo Gratis",
+    "subtitle": "Descubre cómo Aibooking.dk puede transformar la comunicación con tus clientes"
+  }
+}

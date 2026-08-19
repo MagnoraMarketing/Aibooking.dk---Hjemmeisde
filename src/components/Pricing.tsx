@@ -162,7 +162,7 @@ function Pricing() {
               <div className="flex-grow"></div>
 
               <a
-                href={index === 0 ? "https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk" : index === 1 ? "https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00" : index === 2 ? "https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01" : index === 3 ? "https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02" : "https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"}
+                href={index === 0 ? "https://aibooking-backendnew.vercel.app/signup" : index === 1 ? "https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00" : index === 2 ? "https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01" : index === 3 ? "https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02" : "https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`block w-full text-center py-3.5 rounded-xl font-semibold transition-all transform hover:scale-[1.02] text-[15px] ${

@@ -1,0 +1,317 @@
+{
+  "widgetPage": {
+    "seo": {
+      "title": "Widget de Voz IA para Site e Loja Online – Marque Reuniões e Venda com a Voz | Aibooking.dk",
+      "description": "Integre o widget de voz IA da Aibooking.dk no seu site ou loja online (Shopify, WooCommerce, WordPress). Deixe os clientes marcarem reuniões, encomendarem produtos e acompanharem pedidos por voz – 24/7 de forma automática. Comece em menos de 5 minutos. A partir de 999 kr/mês.",
+      "keywords": "widget de voz IA, voicebot para site, widget de marcações IA, widget IA para loja online, assistente de voz Shopify, rastreamento de pedidos IA, widget IA loja online, marcações por voz, chatbot em português, marcação automática de reuniões, widget de recepcionista IA, automação de marcações"
+    },
+    "hero": {
+      "badge": "Widget de voz IA para o seu site",
+      "titlePre": "Deixe os seus clientes marcarem reuniões",
+      "titleHighlight": "com a voz",
+      "subtitle": "O widget de voz IA da Aibooking.dk integra-se diretamente no seu site e trata de marcações, perguntas e pedidos de clientes de forma automática – por voz e texto, 24 horas por dia, 365 dias por ano.",
+      "ctaPrimary": "Experimentar demo grátis",
+      "ctaSecondary": "Encomendar agora – 999 kr/mês",
+      "trustNoBinding": "Sem fidelização",
+      "trustFiveMin": "Pronto em 5 minutos",
+      "trustGdpr": "Em conformidade com o RGPD",
+      "imageAlt": "Interface do widget de voz IA – marcações por voz e chat diretamente no seu site",
+      "floatingTitle": "Nova marcação",
+      "floatingSubtitle": "Via widget de voz – agora mesmo"
+    },
+    "stats": {
+      "uptimeValue": "24/7",
+      "uptimeLabel": "Sempre disponível",
+      "setupValue": "< 5 min",
+      "setupLabel": "Para começar",
+      "minutesValue": "150 min",
+      "minutesLabel": "Minutos de conversa incluídos",
+      "priceValue": "999 kr",
+      "priceLabel": "Por mês"
+    },
+    "whatIs": {
+      "title": "O que é um widget de voz IA?",
+      "p1Pre": "Um",
+      "p1Strong": "widget de voz IA",
+      "p1Post": "é uma interface de voz inteligente que fica discretamente no seu site – normalmente como um botão flutuante no canto. Quando um visitante clica, pode falar diretamente com o seu assistente de IA.",
+      "p2Pre": "O assistente de IA compreende a fala natural, consegue responder a perguntas sobre o seu negócio e marcar reuniões diretamente no seu calendário –",
+      "p2Strong": "sem qualquer intervenção humana",
+      "p2Post": ".",
+      "p3": "É como ter um/a rececionista que nunca dorme, nunca fica doente e é sempre profissional – por uma fração do custo."
+    },
+    "badges": {
+      "voice": "Baseado em voz",
+      "textChat": "Chat de texto",
+      "autoBooking": "Marcação automática",
+      "multilingual": "Multilíngue"
+    },
+    "extraEmployee": {
+      "badge": "O seu colaborador digital extra",
+      "title": "Integra-se em qualquer plataforma online – escolha a sua",
+      "subtitle": "O widget funciona como um colaborador extra que nunca tira folga. Escolhe a plataforma que já usa e a IA trata do resto – desde a primeira visita até uma reunião marcada ou um pedido de orçamento captado no seu calendário.",
+      "platformsList": ["WordPress", "Shopify", "WooCommerce", "Wix", "Squarespace", "Magento", "Plataforma própria"],
+      "cards": [
+        {
+          "title": "Marca e remarca reuniões",
+          "desc": "Em sites normais, o widget cativa o visitante de imediato e consegue marcar – ou remarcar – uma reunião diretamente no seu calendário. Sem trocas intermináveis de e-mails."
+        },
+        {
+          "title": "Capta orçamentos e leads",
+          "desc": "Para clientes interessados que querem um orçamento, o widget recolhe as informações e agenda automaticamente uma reunião de seguimento – pronta para o utilizador continuar."
+        },
+        {
+          "title": "Recebe encomendas",
+          "desc": "Em lojas online, os clientes podem encomendar produtos, consultar o stock e obter ajuda durante toda a compra – sem esperar por um colaborador."
+        }
+      ]
+    },
+    "webshop": {
+      "badge": "Widget IA para loja online",
+      "title": "Como o chat da Shopify, mas com uma IA que marca e vende",
+      "p1Pre": "Se tem uma loja online na",
+      "p1Strong": "Shopify, WooCommerce ou Magento",
+      "p1Post": ", o widget de voz IA pode ser integrado diretamente no seu site – tal como já conhece das soluções de chat integradas, mas com um assistente de IA que fala e compreende de forma natural.",
+      "p2Pre": "Os clientes podem pedir ao widget para",
+      "p2Strong1": "acompanhar uma encomenda",
+      "p2Mid": ",",
+      "p2Strong2": "voltar a encomendar um produto",
+      "p2Post": ", perguntar sobre o stock ou pedir ajuda com uma devolução – tudo de forma automática, sem precisar de escrever um e-mail ao apoio ao cliente.",
+      "featureCards": {
+        "trackOrder": { "label": "Acompanha o estado da encomenda", "desc": "\"Onde está a minha encomenda?\" é respondido automaticamente" },
+        "reorder": { "label": "Volta a encomendar produtos", "desc": "O cliente encomenda o mesmo artigo novamente com a voz" },
+        "helpPurchase": { "label": "Ajuda na compra", "desc": "Responde a perguntas sobre produtos e stock" },
+        "suggestProducts": { "label": "Sugere produtos", "desc": "Recomenda artigos relevantes com base nas necessidades" }
+      },
+      "chatDemo": {
+        "title": "Widget IA – Loja online",
+        "status": "Online agora",
+        "customerLabel": "🗣️ Cliente:",
+        "aiLabel": "🎤 Widget IA:",
+        "msg1": "\"Como está a minha encomenda #4021?\"",
+        "reply1": "A sua encomenda foi enviada ontem e deverá chegar amanhã com a GLS.",
+        "msg2": "\"Posso encomendar o mesmo casaco outra vez em tamanho M?\"",
+        "reply2": "Sim, o tamanho M está em stock. Quer que eu crie a encomenda agora?"
+      }
+    },
+    "examples": {
+      "title": "Exemplos reais",
+      "subtitle": "Veja como as empresas usam o widget de voz IA na prática – em sites normais e em lojas online",
+      "websiteHeading": "Num site normal",
+      "websiteExamples": [
+        { "title": "A clínica", "desc": "Um paciente marca uma consulta no dentista às 22h – o widget encontra um horário livre e confirma de imediato." },
+        { "title": "O profissional de construção", "desc": "Um cliente pede um orçamento para uma casa de banho. O widget recolhe a morada e a descrição do trabalho e marca uma visita de avaliação no calendário." },
+        { "title": "O consultor", "desc": "Um cliente existente quer remarcar uma reunião para a semana seguinte – o widget move o compromisso automaticamente, sem troca de e-mails." }
+      ],
+      "webshopHeading": "Numa loja online",
+      "webshopExamples": [
+        { "title": "A loja de roupa", "desc": "Um cliente pergunta ao widget se um artigo existe noutro tamanho – a IA verifica o stock e ajuda a fazer a encomenda." },
+        { "title": "A loja de eletrónica", "desc": "Um cliente quer saber onde está a sua encomenda. O widget consulta o estado da encomenda e responde de imediato – sem espera." },
+        { "title": "A loja de subscrição", "desc": "Um cliente quer voltar a encomendar o seu produto habitual todos os meses – o widget cria a encomenda diretamente na conversa." }
+      ]
+    },
+    "howItWorks": {
+      "title": "Como funciona o widget de voz IA",
+      "subtitle": "Da instalação à marcação automática – um processo simples em três passos",
+      "steps": [
+        { "title": "Instale o widget", "description": "Recebe um simples trecho de código JavaScript. Insira-o no seu site – compatível com WordPress, Shopify, Wix e todas as outras plataformas. Não é necessário conhecimento técnico." },
+        { "title": "Os clientes falam com a IA", "description": "Os visitantes do seu site clicam no widget e falam diretamente com o seu assistente de IA pessoal. A IA compreende linguagem natural e responde a perguntas sobre o seu negócio." },
+        { "title": "As marcações chegam automaticamente", "description": "Reuniões e marcações são registadas diretamente no seu calendário. Recebe uma confirmação e o cliente recebe automaticamente um comprovativo – sem que tenha de fazer nada." }
+      ]
+    },
+    "features": {
+      "title": "Funcionalidades que fazem a diferença",
+      "subtitle": "Tudo o que precisa para automatizar marcações e apoio ao cliente com IA",
+      "items": [
+        { "title": "Reconhecimento de voz natural", "description": "Compreende a fala natural – os clientes não precisam de falar por comandos. A IA acompanha a conversa e faz perguntas de seguimento." },
+        { "title": "Integração direta com o calendário", "description": "Sincroniza com o Google Calendar, Outlook e outros sistemas de calendário. Sem marcações duplicadas nem registo manual." },
+        { "title": "Disponibilidade 24/7", "description": "O seu assistente de IA trabalha 24 horas por dia – também fora do horário comercial, aos fins de semana e em feriados." },
+        { "title": "Voz e texto", "description": "Os clientes podem escolher falar ou escrever. O widget suporta ambos os formatos e responde da mesma forma." },
+        { "title": "Em conformidade com o RGPD", "description": "Todos os dados são tratados de forma segura e em conformidade com o RGPD. Mantém controlo total sobre os dados dos seus clientes." },
+        { "title": "IA multilíngue", "description": "O widget suporta muitos idiomas. A IA adapta-se automaticamente ao idioma que o cliente fala." },
+        { "title": "Configuração ultrarrápida", "description": "Da encomenda a um widget ativo no seu site demora menos de 5 minutos. Não são necessários programadores." },
+        { "title": "Adaptado ao seu negócio", "description": "O assistente de IA conhece o seu negócio, os seus serviços e o seu horário – respostas ajustadas exatamente à sua empresa." },
+        { "title": "Pague apenas pela atividade", "description": "Só paga pelo tempo de conversa ativo – não por tempo de espera ou pausas. Uma solução muito mais barata do que um colaborador a tempo parcial." }
+      ]
+    },
+    "useCases": {
+      "title": "Quem usa o widget de voz IA?",
+      "subtitle": "Perfeito para qualquer negócio que receba marcações e pedidos de clientes online",
+      "items": [
+        { "label": "Clínicas", "desc": "Marcação de pacientes automatizada" },
+        { "label": "Profissionais de construção", "desc": "Trabalhos e reuniões marcados" },
+        { "label": "Consultores", "desc": "Reuniões diretamente no calendário" },
+        { "label": "Salões", "desc": "Marcações feitas automaticamente" },
+        { "label": "Dentistas", "desc": "Gestão de pacientes 24/7" },
+        { "label": "E-commerce", "desc": "Apoio ao cliente sem paragens" }
+      ],
+      "roi": {
+        "title": "ROI típico de um widget de voz IA",
+        "descriptionPre": "Um/a rececionista a tempo parcial custa normalmente 15.000-20.000 kr/mês. Com o widget de voz IA a 999 kr/mês obtém",
+        "descriptionStrong": "a mesma funcionalidade",
+        "descriptionPost": "– mas 24 horas por dia, 7 dias por semana.",
+        "stat1Value": "95%",
+        "stat1Label": "Poupança face a um/a rececionista",
+        "stat2Value": "0 seg",
+        "stat2Label": "Tempo de espera dos clientes",
+        "stat3Value": "100%",
+        "stat3Label": "Marcações automatizadas"
+      }
+    },
+    "pricing": {
+      "badge": "Preços transparentes",
+      "title": "Preços simples e transparentes",
+      "subtitle": "Escolha a solução que se adapta ao seu negócio – pague apenas pelo que utilizar, sem taxas escondidas",
+      "widget": {
+        "name": "Widget de Voz IA",
+        "recommendedBadge": "Ponto de partida recomendado",
+        "description": "A forma mais rápida e económica de automatizar as suas marcações. O widget fica no seu site e permite que os clientes falem ou escrevam diretamente com o seu assistente de IA – 24/7, sem intervenção humana.",
+        "price": "999",
+        "priceSuffix": "kr/mês",
+        "includesLine": "Inclui 150 minutos de conversa (aprox. 6,66 kr/minuto)",
+        "renewLine": "O plano renova automaticamente quando os 150 minutos forem usados",
+        "ctaOrder": "Encomendar agora",
+        "ctaBookIntro": "Marcar apresentação grátis",
+        "features": [
+          "Bot de voz IA – os clientes falam diretamente com a IA",
+          "Responde a perguntas e trata das marcações",
+          "As marcações vão diretamente para o seu calendário",
+          "Disponível 24/7 no seu site",
+          "150 minutos de conversa incluídos",
+          "Pague apenas pela conversa ativa – sem salário à hora",
+          "Aberto 24/7, 365 dias por ano – sempre pronto",
+          "Atende clientes mesmo quando está ocupado"
+        ],
+        "noteTaletidLabel": "Tempo de conversa:",
+        "noteTaletidText": "O crédito comprado é válido durante 3 meses",
+        "noteFornyelseLabel": "Renovação:",
+        "noteFornyelseText": "Automática ao esgotar os 150 min.",
+        "noteBindingLabel": "Fidelização:",
+        "noteBindingText": "Nenhuma – cancele quando quiser"
+      },
+      "phoneAssistant": {
+        "title": "Assistente Telefónico IA",
+        "badge": "Chamadas recebidas e efetuadas",
+        "description": "Precisa de um assistente de IA que também faça chamadas ou receba chamadas telefónicas diretamente? Escolha um dos nossos planos escaláveis abaixo — desde uma demo gratuita até ao plano empresarial."
+      },
+      "choosePlan": {
+        "title": "Escolha o seu plano",
+        "subtitle": "Planos à medida, pensados para empresas de todas as dimensões"
+      },
+      "mostPopularBadge": "Mais Popular",
+      "freeLabel": "Grátis",
+      "priceSuffix": "kr/mês",
+      "setupPricePre": "Custo único de",
+      "setupPricePost": "para configuração e integração",
+      "plans": {
+        "demo": {
+          "name": "Demo",
+          "description": "Para quem quer conhecer a nossa plataforma e testar a configuração por conta própria",
+          "minutes": "Ativo durante 7 dias",
+          "features": [
+            "Personalização de voz básica",
+            "Painel de análise",
+            "Possibilidade de upgrade para o plano Starter"
+          ],
+          "cta": "Experimentar grátis"
+        },
+        "starter": {
+          "name": "Starter",
+          "description": "Perfeito para pequenas empresas que querem começar com IA",
+          "minutes": "200 minutos",
+          "features": [
+            "200 minutos de chamadas IA",
+            "Personalização de voz básica",
+            "Suporte padrão",
+            "Painel de análise",
+            "Notificações por e-mail"
+          ],
+          "cta": "Encomendar plano e marcar integração"
+        },
+        "professional": {
+          "name": "Professional",
+          "description": "Ideal para empresas em crescimento com volume regular de chamadas",
+          "minutes": "600 minutos",
+          "features": [
+            "600 minutos de chamadas IA",
+            "Personalização de voz avançada",
+            "Suporte prioritário",
+            "Análise avançada",
+            "Integrações personalizadas",
+            "Lembretes por SMS",
+            "Histórico de clientes"
+          ],
+          "cta": "Encomendar plano e marcar integração"
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "description": "Para organizações que exigem máxima flexibilidade",
+          "minutes": "2000 minutos",
+          "features": [
+            "2000 minutos de chamadas IA",
+            "Personalização de voz completa",
+            "Suporte dedicado 24/7",
+            "Treino de IA personalizado",
+            "Acesso à API",
+            "Gestor de sucesso dedicado",
+            "Integrações ilimitadas",
+            "Suporte de conformidade RGPD"
+          ],
+          "cta": "Encomendar plano e marcar integração"
+        }
+      },
+      "afterOrderNote": "Após a encomenda, recebe um link de calendário para marcar a sua sessão de configuração.",
+      "additionalPrices": {
+        "title": "Outros preços",
+        "toggleLabel": "Ver outros preços",
+        "setupTitle": "Configuração",
+        "setupText": "2x o preço da subscrição",
+        "setupNote": "(pagamento único)",
+        "maintenanceTitle": "Manutenção mensal e prompting",
+        "maintenanceOptional": "(opcional)",
+        "maintenanceDesc": "Tratamos da manutenção e ajudamos continuamente a otimizar os prompts, para que as respostas sejam precisas e relevantes. Isto poupa-lhe tempo e garante uma experiência ainda melhor para os seus clientes e colaboradores.",
+        "maintenancePrice": "2.995 kr/mês",
+        "hourlyTitle": "Preço por hora para tarefas pontuais",
+        "promptingLabel": "Prompting/treino",
+        "promptingPrice": "695 kr/hora",
+        "devLabel": "Desenvolvimento",
+        "devPrice": "1.100 kr/hora"
+      }
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "subtitle": "Tudo o que quer saber sobre o widget de voz IA",
+      "items": [
+        {
+          "question": "O que é um widget de voz IA?",
+          "answer": "Um widget de voz IA é uma interface inteligente de chat e voz que pode ser integrada diretamente no seu site. Permite que os visitantes falem com um assistente de IA que pode responder a perguntas, marcar reuniões e tratar pedidos – automaticamente, 24 horas por dia."
+        },
+        {
+          "question": "Como integro o widget no meu site?",
+          "answer": "Demora menos de 5 minutos. Recebe um simples trecho de código JavaScript que insere no seu site. O widget é compatível com todas as plataformas, incluindo WordPress, Shopify, Squarespace e soluções próprias."
+        },
+        {
+          "question": "O widget de IA consegue marcar reuniões automaticamente?",
+          "answer": "Sim. O widget integra-se diretamente com o seu calendário (Google Calendar, Outlook e outros) e garante que as novas marcações são registadas automaticamente, sem que precise de fazer nada."
+        },
+        {
+          "question": "Quanto custa o widget de IA?",
+          "answer": "O plano inicial custa 999 kr/mês e inclui 150 minutos de conversa. Só paga pela conversa ativa – sem salário à hora, sem fidelização."
+        },
+        {
+          "question": "Que idiomas o widget suporta?",
+          "answer": "O widget suporta dinamarquês e muitos outros idiomas. O assistente de IA adapta-se automaticamente ao idioma que o cliente fala."
+        },
+        {
+          "question": "O widget está em conformidade com o RGPD?",
+          "answer": "Sim. Todos os dados são tratados de acordo com as regras do RGPD, e tem controlo total sobre que informações são armazenadas."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Pronto para automatizar as suas marcações?",
+      "description": "Comece em menos de 5 minutos. Marque uma conversa introdutória gratuita e veja como o widget de voz IA pode transformar o atendimento aos seus clientes.",
+      "primaryCta": "Marcar apresentação grátis",
+      "secondaryCta": "Encomendar agora – 999 kr/mês"
+    }
+  }
+}

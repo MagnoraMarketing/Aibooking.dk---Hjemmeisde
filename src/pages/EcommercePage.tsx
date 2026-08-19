@@ -4,7 +4,7 @@ import FAQ from '../components/FAQ';
 import { ecommerceFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
-import { Clock, Users, MessageSquare, CheckSquare, CheckCircle, ShoppingCart } from 'lucide-react';
+import { Clock, Users, MessageSquare, CheckSquare, CheckCircle, ShoppingCart, Mic, Package, RefreshCw, ArrowRight } from 'lucide-react';
 
 interface EcommercePageProps {
   onNavigate: (page: 'home' | 'email' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features') => void;
@@ -20,9 +20,9 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="AI Kundeservice til E-commerce & Webshops | Aibooking.dk"
-        description="24/7 AI kundeservice til webshops. 40% mere kundetilfredshed, 28% højere konvertering. Automatiske svar, SMS-opdateringer. Prøv gratis."
-        keywords="webshop kundeservice, e-handel AI, online shop automatisering, webshop chatbot, kundeservice automation"
+        title="AI Kundeservice & Voice Widget til E-commerce & Webshops (Shopify, WooCommerce) | Aibooking.dk"
+        description="24/7 AI kundeservice og voice widget til webshops på Shopify, WooCommerce og Magento. Lad kunder tracke ordrer, bestille varer og få svar med stemmen. 40% mere kundetilfredshed, 28% højere konvertering. Prøv gratis."
+        keywords="webshop kundeservice, e-handel AI, online shop automatisering, webshop chatbot, kundeservice automation, Shopify AI widget, webshop voice assistant, AI ordre tracking, WooCommerce chatbot"
         canonical="https://www.aibooking.dk/Hjemmeside/webshop"
         structuredData={breadcrumbData}
       />
@@ -137,6 +137,53 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
               <div className="text-4xl font-bold text-ink-900 mb-2">+28%</div>
               <div className="text-ink-600 font-semibold">Konvertering</div>
             </div>
+          </div>
+
+          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-lg border border-ink-200 mb-16">
+            <div className="inline-flex items-center space-x-2 bg-brand-100 text-brand-700 px-4 py-2 rounded-full mb-6">
+              <Mic className="w-4 h-4" />
+              <span className="text-sm font-semibold">AI Voice Widget til din webshop</span>
+            </div>
+            <h2 className="text-3xl font-bold text-ink-900 mb-6">Som at have en ekstra sælger på din webshop – som Shopifys chat, bare klogere</h2>
+            <p className="text-lg text-ink-600 leading-relaxed mb-8">
+              Aibooking.dk's AI voice widget kan integreres direkte på din webshop, uanset om du bruger Shopify, WooCommerce eller Magento. Kunderne kan tale eller skrive med widgetten for at spørge om ordrestatus, bestille en vare igen eller få hjælp til at finde det rette produkt – helt automatisk, 24/7.
+            </p>
+            <div className="grid md:grid-cols-3 gap-6 mb-10">
+              <div className="flex items-start space-x-4">
+                <div className="w-8 h-8 bg-brand-100 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                  <Package className="w-5 h-5 text-brand-600" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-ink-900 mb-2">Tracker ordrer</h3>
+                  <p className="text-ink-600 text-sm">"Hvor er min pakke?" besvares øjeblikkeligt med live ordrestatus</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="w-8 h-8 bg-brand-100 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                  <RefreshCw className="w-5 h-5 text-brand-600" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-ink-900 mb-2">Bestiller varer igen</h3>
+                  <p className="text-ink-600 text-sm">Kunden genbestiller en tidligere vare direkte i samtalen med widgetten</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-4">
+                <div className="w-8 h-8 bg-brand-100 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                  <ShoppingCart className="w-5 h-5 text-brand-600" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-ink-900 mb-2">Hjælper med købet</h3>
+                  <p className="text-ink-600 text-sm">Svarer på spørgsmål om lager, størrelser og levering, mens kunden handler</p>
+                </div>
+              </div>
+            </div>
+            <a
+              href="/widget"
+              className="inline-flex items-center justify-center gap-2 bg-brand-600 text-white px-8 py-4 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
+            >
+              Se AI Voice Widget til webshops
+              <ArrowRight className="w-5 h-5" />
+            </a>
           </div>
 
           <div className="bg-gradient-to-br from-ink-900 to-brand-900 rounded-3xl p-12 text-white text-center">

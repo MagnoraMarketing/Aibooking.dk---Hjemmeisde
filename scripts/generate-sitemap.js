@@ -10,7 +10,7 @@ const PAGES_DIR = path.join(__dirname, '../src/pages');
 const OUTPUT_PATH = path.join(__dirname, '../public/sitemap.xml');
 
 // Keep in sync with src/i18n/config.ts LANGUAGE_PATH_PREFIX.
-const LANGUAGE_PREFIXES = { da: '', en: '/en', pt: '/pt', fr: '/fr' };
+const LANGUAGE_PREFIXES = { da: '', en: '/en', es: '/es', pt: '/pt' };
 const LANGUAGES = Object.keys(LANGUAGE_PREFIXES);
 
 function localizedPath(lang, route) {

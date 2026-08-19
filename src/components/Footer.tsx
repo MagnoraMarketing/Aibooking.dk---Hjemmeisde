@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, LogIn, UserPlus } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 type NavigatePage = 'home' | 'widget' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog';
 
@@ -7,6 +8,8 @@ interface FooterProps {
 }
 
 function Footer({ onNavigate = () => {} }: FooterProps) {
+  const { t } = useTranslation();
+
   return (
     <footer className="bg-ink-900 text-ink-300 py-16 px-4 sm:px-6 lg:px-8 border-t border-ink-800">
       <div className="max-w-7xl mx-auto">
@@ -19,19 +22,19 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
               <span className="text-xl font-bold text-white tracking-tight">Aibooking.dk</span>
             </div>
             <p className="text-sm text-ink-400 leading-relaxed">
-              Automatisér dine bookinger og kundeservice med intelligent AI-teknologi.
+              {t('footer.description')}
             </p>
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-4 text-[15px]">Løsninger</h3>
+            <h3 className="text-white font-semibold mb-4 text-[15px]">{t('footer.solutions')}</h3>
             <ul className="space-y-2.5 text-sm">
               <li>
                 <button
                   onClick={() => onNavigate('home')}
                   className="hover:text-brand-400 transition-colors"
                 >
-                  AI Booking
+                  {t('footer.aiBooking')}
                 </button>
               </li>
               <li>
@@ -39,7 +42,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   onClick={() => onNavigate('widget')}
                   className="hover:text-brand-400 transition-colors"
                 >
-                  AI Widget
+                  {t('footer.aiWidget')}
                 </button>
               </li>
               <li>
@@ -47,7 +50,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   onClick={() => onNavigate('integrations')}
                   className="hover:text-brand-400 transition-colors"
                 >
-                  Integrationer
+                  {t('footer.integrations')}
                 </button>
               </li>
               <li>
@@ -57,7 +60,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   rel="noopener noreferrer"
                   className="hover:text-brand-400 transition-colors"
                 >
-                  Book Demo
+                  {t('footer.bookDemo')}
                 </a>
               </li>
               <li>
@@ -65,21 +68,21 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   onClick={() => onNavigate('features')}
                   className="hover:text-brand-400 transition-colors"
                 >
-                  Funktioner
+                  {t('footer.features')}
                 </button>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-4 text-[15px]">Brancher</h3>
+            <h3 className="text-white font-semibold mb-4 text-[15px]">{t('footer.industries')}</h3>
             <ul className="space-y-2.5 text-sm">
               <li>
                 <button
                   onClick={() => onNavigate('healthcare')}
                   className="hover:text-brand-400 transition-colors"
                 >
-                  Klinik & Sundhed
+                  {t('footer.healthcare')}
                 </button>
               </li>
               <li>
@@ -87,7 +90,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   onClick={() => onNavigate('craftsman')}
                   className="hover:text-brand-400 transition-colors"
                 >
-                  Håndværker
+                  {t('footer.craftsman')}
                 </button>
               </li>
               <li>
@@ -95,7 +98,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   onClick={() => onNavigate('office')}
                   className="hover:text-brand-400 transition-colors"
                 >
-                  Kontor & Erhverv
+                  {t('footer.office')}
                 </button>
               </li>
               <li>
@@ -103,21 +106,21 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   onClick={() => onNavigate('ecommerce')}
                   className="hover:text-brand-400 transition-colors"
                 >
-                  Webshop & E-handel
+                  {t('footer.ecommerce')}
                 </button>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-4 text-[15px]">Blog</h3>
+            <h3 className="text-white font-semibold mb-4 text-[15px]">{t('footer.blog')}</h3>
             <ul className="space-y-2.5 text-sm">
               <li>
                 <button
                   onClick={() => onNavigate('blog')}
                   className="hover:text-brand-400 transition-colors"
                 >
-                  Alle Artikler
+                  {t('footer.allArticles')}
                 </button>
               </li>
               <li>
@@ -125,7 +128,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   href="/blog/category/ai-widget"
                   className="hover:text-brand-400 transition-colors"
                 >
-                  AI Widget
+                  {t('footer.blogWidget')}
                 </a>
               </li>
               <li>
@@ -133,7 +136,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   href="/blog/category/ai-inbound-outbound"
                   className="hover:text-brand-400 transition-colors"
                 >
-                  AI Inbound/Outbound
+                  {t('footer.blogInboundOutbound')}
                 </a>
               </li>
               <li>
@@ -141,21 +144,21 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   href="/blog/category/ai-total-solution"
                   className="hover:text-brand-400 transition-colors"
                 >
-                  AI Total Løsning
+                  {t('footer.blogTotalSolution')}
                 </a>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-4 text-[15px]">Virksomhed</h3>
+            <h3 className="text-white font-semibold mb-4 text-[15px]">{t('footer.company')}</h3>
             <ul className="space-y-2.5 text-sm">
               <li>
                 <button
                   onClick={() => onNavigate('about')}
                   className="hover:text-brand-400 transition-colors"
                 >
-                  Om os
+                  {t('footer.aboutUs')}
                 </button>
               </li>
               <li>
@@ -163,7 +166,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   onClick={() => onNavigate('contact')}
                   className="hover:text-brand-400 transition-colors"
                 >
-                  Kontakt
+                  {t('footer.contact')}
                 </button>
               </li>
               <li>
@@ -171,7 +174,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   onClick={() => onNavigate('privacy')}
                   className="hover:text-brand-400 transition-colors"
                 >
-                  Privatlivspolitik
+                  {t('footer.privacy')}
                 </button>
               </li>
               <li>
@@ -179,14 +182,14 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   onClick={() => onNavigate('terms')}
                   className="hover:text-brand-400 transition-colors"
                 >
-                  Vilkår og betingelser
+                  {t('footer.terms')}
                 </button>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-4 text-[15px]">Kontakt</h3>
+            <h3 className="text-white font-semibold mb-4 text-[15px]">{t('footer.contactHeader')}</h3>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start space-x-2">
                 <Mail className="w-4 h-4 mt-0.5 text-brand-400" />
@@ -202,7 +205,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 mt-0.5 text-brand-400" />
-                <span>Aarhus C, Danmark</span>
+                <span>{t('footer.address')}</span>
               </li>
             </ul>
           </div>
@@ -210,8 +213,8 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
 
         <div className="mb-10 bg-ink-800/60 border border-ink-700 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-5">
           <div className="text-center md:text-left">
-            <p className="text-white font-semibold text-lg">Allerede kunde hos Aibooking.dk?</p>
-            <p className="text-sm text-ink-400">Log ind på dit dashboard, eller opret en gratis konto som ny kunde.</p>
+            <p className="text-white font-semibold text-lg">{t('footer.customerCtaTitle')}</p>
+            <p className="text-sm text-ink-400">{t('footer.customerCtaSubtitle')}</p>
           </div>
           <div className="flex gap-3 flex-shrink-0">
             <a
@@ -221,7 +224,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
               className="flex items-center gap-2 px-5 py-2.5 rounded-xl border border-ink-600 text-white hover:border-brand-400 hover:text-brand-400 transition-colors font-medium text-sm"
             >
               <LogIn className="w-4 h-4" />
-              Log ind
+              {t('nav.login')}
             </a>
             <a
               href="https://aibooking-backendnew.vercel.app/signup"
@@ -230,13 +233,13 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
               className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-brand-600 text-white hover:bg-brand-700 transition-colors font-semibold text-sm"
             >
               <UserPlus className="w-4 h-4" />
-              Opret konto
+              {t('nav.signup')}
             </a>
           </div>
         </div>
 
         <div className="border-t border-ink-800 pt-8 text-center text-sm text-ink-400">
-          <p>&copy; 2026 Aibooking.dk. Alle rettigheder forbeholdes. Lavet og drevet af <a href="https://www.magnoramarketing.dk" target="_blank" rel="noopener noreferrer" className="hover:text-brand-400 transition-colors">MagnoraMarketing.dk</a></p>
+          <p>&copy; 2026 Aibooking.dk. {t('footer.rightsReserved')} {t('footer.madeBy')} <a href="https://www.magnoramarketing.dk" target="_blank" rel="noopener noreferrer" className="hover:text-brand-400 transition-colors">MagnoraMarketing.dk</a></p>
         </div>
       </div>
     </footer>

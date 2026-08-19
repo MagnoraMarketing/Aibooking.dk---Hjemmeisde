@@ -5,8 +5,12 @@ import { useTranslation } from 'react-i18next';
 export interface FAQItem {
   question_da: string;
   question_en: string;
+  question_es?: string;
+  question_pt?: string;
   answer_da: string;
   answer_en: string;
+  answer_es?: string;
+  answer_pt?: string;
 }
 
 interface FAQProps {
@@ -17,8 +21,11 @@ export default function FAQ({ items }: FAQProps) {
   const { i18n } = useTranslation();
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
-  const getQuestion = (item: FAQItem) => (i18n.language === 'da' ? item.question_da : item.question_en);
-  const getAnswer = (item: FAQItem) => (i18n.language === 'da' ? item.answer_da : item.answer_en);
+  const lang = i18n.language;
+  const getQuestion = (item: FAQItem) =>
+    (lang === 'da' ? item.question_da : lang === 'es' ? item.question_es : lang === 'pt' ? item.question_pt : item.question_en) || item.question_en;
+  const getAnswer = (item: FAQItem) =>
+    (lang === 'da' ? item.answer_da : lang === 'es' ? item.answer_es : lang === 'pt' ? item.answer_pt : item.answer_en) || item.answer_en;
 
   const structuredData = {
     '@context': 'https://schema.org',
@@ -39,7 +46,7 @@ export default function FAQ({ items }: FAQProps) {
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-ink-900 mb-4 tracking-tight">
-            {i18n.language === 'da' ? 'Ofte stillede spørgsmål' : 'Frequently Asked Questions'}
+            {lang === 'da' ? 'Ofte stillede spørgsmål' : lang === 'es' ? 'Preguntas Frecuentes' : lang === 'pt' ? 'Perguntas Frequentes' : 'Frequently Asked Questions'}
           </h2>
         </div>
         <div className="space-y-4">

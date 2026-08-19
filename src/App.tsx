@@ -17,6 +17,7 @@ import WidgetPage from './pages/WidgetPage';
 import BlogPage from './pages/BlogPage';
 import BlogCategoryPage from './pages/BlogCategoryPage';
 import BlogPostPage from './pages/BlogPostPage';
+import TrialOfferWidget from './components/TrialOfferWidget';
 import { SUPPORTED_LANGUAGES, SupportedLanguage } from './i18n/config';
 import { splitLocalizedPath, buildLocalizedPath } from './utils/localePaths';
 
@@ -120,6 +121,7 @@ function App() {
        : currentPage === 'blog-category' ? <BlogCategoryPage categorySlug={blogParam} />
        : currentPage === 'blog-post' ? <BlogPostPage postSlug={blogParam} />
        : <DemoPage onNavigate={handleNavigate} />}
+      <TrialOfferWidget />
     </>
   );
 }

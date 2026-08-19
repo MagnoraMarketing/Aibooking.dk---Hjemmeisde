@@ -241,7 +241,7 @@
         "development_price": "147 €/heure"
       }
     },
-    "setup_note_optional": "Ajouter la configuration et l'onboarding (frais unique de {{setup}} €)"
+    "setup_note_optional": "Ajouter la configuration et l'onboarding – paiement unique de {{setup}} €, incl. 1 heure de support de suivi"
   },
   "cta_section": {
     "title": "Prêt à démarrer ?",

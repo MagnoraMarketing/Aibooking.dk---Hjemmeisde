@@ -287,7 +287,7 @@
       }
     },
     "currency_suffix": "€/mo",
-    "setup_note_optional": "Add setup and onboarding (one-time fee of €{{setup}})"
+    "setup_note_optional": "Add setup and onboarding – one-time payment of €{{setup}}, incl. 1 hour of follow-up support"
   },
   "faqSection": {
     "title": "Frequently asked questions",

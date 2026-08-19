@@ -241,7 +241,7 @@
         "development_price": "147 €/hora"
       }
     },
-    "setup_note_optional": "Adicionar configuração e onboarding (taxa única de €{{setup}})"
+    "setup_note_optional": "Adicionar configuração e onboarding – pagamento único de €{{setup}}, incl. 1 hora de apoio de acompanhamento"
   },
   "cta_section": {
     "title": "Pronto para começar?",

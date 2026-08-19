@@ -241,7 +241,7 @@
         "development_price": "1.100 kr. pr. time"
       }
     },
-    "setup_note_optional": "Tilføj opsætning og onboarding (engangspris {{setup}} kr)"
+    "setup_note_optional": "Tilføj opsætning og onboarding – engangsbetaling {{setup}} kr, inkl. 1 times opfølgende support"
   },
   "cta_section": {
     "title": "Klar til at komme i gang?",

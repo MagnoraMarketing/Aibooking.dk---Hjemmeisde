@@ -241,7 +241,7 @@
         "development_price": "€147/hour"
       }
     },
-    "setup_note_optional": "Add setup and onboarding (one-time fee of €{{setup}})"
+    "setup_note_optional": "Add setup and onboarding – one-time payment of €{{setup}}, incl. 1 hour of follow-up support"
   },
   "cta_section": {
     "title": "Ready to get started?",

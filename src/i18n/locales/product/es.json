@@ -1,0 +1,372 @@
+{
+  "featuresPage": {
+    "seo": {
+      "title": "Funciones - Recepcionista IA, Panel, Llamadas de Voz y Widget | Aibooking.dk",
+      "description": "Descubre todas las funciones de Aibooking.dk: panel de control IA completo, llamadas de voz IA entrantes y salientes, un widget de chat IA para tu web y reservas automáticas. Pruébalo gratis.",
+      "keywords": "funciones IA, recepcionista IA, panel de control IA, llamadas entrantes, llamadas salientes, widget IA, reservas automáticas, chat IA, IA en español"
+    },
+    "hero": {
+      "badge": "Todas las Funciones",
+      "title_line1": "La plataforma de IA completa para",
+      "title_line2": "empresas modernas",
+      "subtitle": "Desde la gestión inteligente de llamadas y llamadas de voz IA salientes hasta un panel de control completo y un widget de IA para tu web — todo en una sola plataforma. Ahorra tiempo, aumenta las conversiones y ofrece a tus clientes una experiencia profesional 24/7."
+    },
+    "mainBenefits": {
+      "time": { "title": "Ahorra el 85% de tu tiempo al teléfono", "description": "Libera tiempo valioso para tus tareas principales" },
+      "roi": { "title": "ROI del 320%", "description": "Valor demostrado desde el primer día" },
+      "satisfaction": { "title": "98% de satisfacción del cliente", "description": "Servicio profesional las 24 horas" },
+      "conversions": { "title": "+45% más conversiones", "description": "No dejes escapar ni una oportunidad más" }
+    },
+    "dashboard": {
+      "badge": "Tu Centro de Control",
+      "title_line1": "Un panel de control completo —",
+      "title_line2": "control total sobre cada interacción",
+      "description": "Con el panel de control de Aibooking.dk siempre tienes una visión precisa de la actividad de IA de tu negocio. Ve qué llamadas se han gestionado, escucha las conversaciones, lee las notas generadas por IA y sigue tus reservas en tiempo real — todo en un mismo sitio.",
+      "features": {
+        "realtime": { "label": "Estadísticas de llamadas en tiempo real", "desc": "Consulta todas las llamadas en vivo y en el histórico" },
+        "notes": { "label": "Notas de conversación generadas por IA", "desc": "Resumen automático de cada llamada" },
+        "conversion": { "label": "Tasa de reservas y conversión", "desc": "Sigue con precisión cuántas llamadas terminan en reserva" },
+        "recordings": { "label": "Escucha las conversaciones grabadas", "desc": "Registro de audio completo siempre disponible" },
+        "sync": { "label": "Sincronización en vivo", "desc": "El panel se actualiza en tiempo real" },
+        "overview": { "label": "Vista personalizada", "desc": "Configura tu propio diseño de panel" }
+      },
+      "cta": "Ver el panel en acción",
+      "mock": {
+        "callsToday": "Llamadas hoy",
+        "callsTodayChange": "+12% frente a ayer",
+        "bookingsLabel": "Reservas",
+        "bookingsRate": "66% conv.",
+        "responseTimeLabel": "Tiempo de respuesta",
+        "responseTimeAvg": "Promedio",
+        "recentCallsLabel": "Llamadas recientes",
+        "unknownNumber": "Núm. desconocido",
+        "outcomeBooked": "Reservado",
+        "outcomeInfoGiven": "Info dada",
+        "outcomeForwarded": "Transferida",
+        "weeklyActivityLabel": "Actividad semanal",
+        "liveData": "Datos en Vivo",
+        "days": ["L", "M", "X", "J", "V", "S", "D"]
+      }
+    },
+    "voice": {
+      "badge": "Llamadas de Voz IA",
+      "title_line1": "Llamadas de voz IA entrantes y salientes",
+      "title_line2": "a nivel profesional",
+      "subtitle": "Nuestra recepcionista de IA habla con fluidez y suena como una persona real. Gestiona todo tipo de llamadas — desde reservas y preguntas hasta recordatorios y seguimientos salientes.",
+      "incoming": {
+        "title": "Llamadas IA entrantes",
+        "subtitle": "Responde todas las llamadas — las 24 horas del día",
+        "statusLabel": "Llamada entrante — activa",
+        "customerMessage": "Hola, me gustaría reservar una hora para una consulta...",
+        "aiResponse": "¡Por supuesto! ¿Qué hora te viene mejor?",
+        "features": [
+          "La recepcionista IA responde al instante",
+          "Entiende todos los acentos y dialectos",
+          "Gestiona varias llamadas simultáneas",
+          "Reserva citas directamente durante la llamada",
+          "Transfiere a una persona cuando es necesario",
+          "Resumen completo de la llamada enviado después"
+        ]
+      },
+      "outgoing": {
+        "title": "Llamadas IA salientes",
+        "subtitle": "Comunicación automatizada con clientes",
+        "statusLabel": "Llamada saliente — enviando recordatorio",
+        "message": "Hola Lars, este es un recordatorio de tu cita de mañana a las 10:00...",
+        "confirmed": "Cita confirmada por el cliente",
+        "features": [
+          "Llamadas de confirmación automáticas a los clientes",
+          "Recordatorios de citas el día anterior",
+          "Seguimiento de consultas sin respuesta",
+          "Reactivación de clientes inactivos",
+          "Voz IA personalizada con tu marca",
+          "Registro y grabación completa de cada llamada saliente"
+        ]
+      },
+      "ctaText": "Escucha cómo suena la recepcionista IA — reserva una demostración gratuita",
+      "ctaButton": "Reservar demostración gratuita"
+    },
+    "widget": {
+      "badge": "Widget de Chat IA — Novedad",
+      "title_line1": "Un widget de IA para tu web —",
+      "title_line2": "convierte visitantes en clientes",
+      "subtitle": "Añade un asistente de chat con IA inteligente a tu web con una sola línea de código. El widget responde preguntas, gestiona reservas y guía a tus visitantes — automáticamente, en su idioma, las 24 horas.",
+      "imageAlt": "Widget de chat IA integrado en una web - Aibooking.dk",
+      "plugPlay": "Plug & Play",
+      "activeIn5Min": "Activo en 5 minutos",
+      "assistantTitle": "Tu asistente de ventas IA 24/7",
+      "assistantDescription": "El widget de IA de Aibooking.dk es más que un chatbot. Es un asistente de ventas inteligente que entiende las necesidades de tus visitantes, da respuestas precisas basadas en tu contenido y convierte consultas en reservas — de forma totalmente automática.",
+      "benefits": {
+        "anywhere": { "title": "Funciona en cualquier web", "desc": "WordPress, Shopify, Webflow, a medida — una línea de código" },
+        "aiChat": { "title": "Chat en vivo impulsado por IA", "desc": "Responde preguntas, reserva citas y convierte visitantes" },
+        "danish": { "title": "Comprensión natural del lenguaje", "desc": "Entiende el contexto y los matices de las preguntas del cliente" },
+        "fast": { "title": "Activo en menos de 5 minutos", "desc": "No requiere conocimientos técnicos — plug and play" },
+        "booking": { "title": "Reserva directa en el chat", "desc": "El cliente puede reservar hora sin salir de la página" },
+        "conversion": { "title": "+45% de aumento en conversión", "desc": "Impacto demostrado en ventas y leads" }
+      },
+      "ctaPlans": "Ver planes del Widget IA",
+      "ctaDemo": "Reservar una demo",
+      "voice": {
+        "imageAlt": "Widget de voz IA para tu web - Aibooking.dk",
+        "voiceActivated": "Activado por voz",
+        "talkDirect": "Habla directamente con la IA",
+        "badge": "Widget de Voz IA",
+        "title": "IA por voz directamente en tu web",
+        "description": "Con nuestro Widget de Voz IA, tus visitantes pueden hablar directamente con un asistente de IA en tu web. Ofrece una experiencia de cliente extraordinaria y facilita reservar, preguntar e interactuar — sin escribir una sola palabra.",
+        "features": [
+          "Voz natural y comprensión precisa",
+          "Se activa con un clic — sin descargar ninguna app",
+          "Se integra con tu calendario y sistema de reservas",
+          "Funciona en móvil, tablet y ordenador",
+          "Combina voz y chat en el mismo widget",
+          "Registro completo de todas las conversaciones en el panel"
+        ],
+        "cta": "Empezar con el Widget"
+      }
+    },
+    "stats": {
+      "lessPhoneTime": { "value": "85%", "label": "Menos tiempo al teléfono" },
+      "fewerNoShows": { "value": "60%", "label": "Menos ausencias" },
+      "satisfaction": { "value": "98%", "label": "Satisfacción del cliente" },
+      "roi": { "value": "320%", "label": "ROI el primer año" }
+    },
+    "additionalFeatures": {
+      "title": "Todas las funciones — un solo sistema",
+      "subtitle": "Aibooking.dk está diseñado para funcionar como tu centro de comunicación completo. Sin sistemas separados, sin integraciones desordenadas — solo un sistema que funciona.",
+      "items": {
+        "calendar": {
+          "title": "Integración Automática de Calendario",
+          "description": "Se sincroniza sin problemas con Google Calendar, Outlook y todos los sistemas de calendario populares. Sin dobles reservas, sin conflictos — todo se actualiza automáticamente.",
+          "benefits": ["Integración con Google Calendar y Outlook", "Sincronización en tiempo real", "Comprobación automática de disponibilidad", "Gestión de cambios de reserva y cancelaciones"]
+        },
+        "sms": {
+          "title": "Recordatorios y Confirmaciones por SMS",
+          "description": "Reduce las ausencias hasta un 60% con recordatorios automáticos por SMS. Los clientes reciben confirmaciones y recordatorios adaptados al tono y la marca de tu negocio.",
+          "benefits": ["Confirmaciones de reserva automáticas", "Recordatorios 24 horas antes de la cita", "Posibilidad de cambiar la reserva por SMS", "Plantillas de mensajes personalizadas"]
+        },
+        "gdpr": {
+          "title": "Seguro y Conforme al RGPD",
+          "description": "Todos los datos se gestionan de conformidad con el RGPD y se almacenan de forma segura. Cifrado de extremo a extremo, total transparencia y auditorías de seguridad periódicas.",
+          "benefits": ["Cumplimiento total del RGPD", "Alojamiento seguro y conforme", "Cifrado de extremo a extremo", "Auditorías de seguridad periódicas"]
+        },
+        "setup": {
+          "title": "Configuración Rápida — En Menos de 24 Horas",
+          "description": "Empieza en menos de 24 horas con la ayuda de tu especialista de incorporación dedicado. La IA se entrena para tu sector y empieza a atender llamadas casi de inmediato.",
+          "benefits": ["Configuración en menos de 24 horas", "Especialista de incorporación dedicado", "Adaptación a tu sector", "Optimización continua"]
+        }
+      }
+    },
+    "cta": {
+      "title": "¿Listo para automatizar tu negocio?",
+      "subtitle": "Prueba Aibooking.dk gratis durante 7 días y comprueba tú mismo la diferencia — sin permanencia, sin datos de tarjeta.",
+      "bookDemo": "Reservar demo gratis",
+      "seeWidget": "Ver el Widget IA"
+    }
+  },
+  "integrationsPage": {
+    "seo": {
+      "title": "Integraciones - Conecta tu Recepcionista IA con tus Sistemas | Aibooking.dk",
+      "description": "Integra nuestra recepcionista IA con Google Calendar, Outlook, Microsoft Teams, Zoom, Slack y muchos más. Integraciones de calendario y reservas sin fricciones.",
+      "keywords": "integración de calendario, Google Calendar, integración con Outlook, integración de sistema de reservas, integración CRM, integración de email"
+    },
+    "hero": {
+      "badge": "Integración sin Fricciones",
+      "title_line1": "Conecta con las herramientas",
+      "title_line2": "que ya usas",
+      "subtitle": "Nuestra solución de IA automatiza la administración, las llamadas, los SMS y el correo trabajando junto con los sistemas que ya usas. Ahorra tiempo, gana profesionalidad y deja que la IA gestione cambios de reserva, seguimientos y confirmaciones de cita automáticamente.",
+      "features": {
+        "saveTime": { "title": "Ahorra Horas Cada Día", "desc": "Automatiza llamadas entrantes y salientes, SMS y correos mientras la IA se sincroniza con tus sistemas" },
+        "fastSetup": { "title": "Configuración Rápida", "desc": "Sin instalaciones complicadas. Conecta tus herramientas actuales en minutos" },
+        "sync": { "title": "Siempre Sincronizado", "desc": "Actualizaciones en tiempo real en todas tus plataformas. Sin trabajo duplicado" }
+      }
+    },
+    "categories": {
+      "title": "Categorías de Integración",
+      "subtitle": "Nuestra solución de IA se conecta con las herramientas que ya usas cada día",
+      "items": {
+        "calendar": { "title": "Calendario y Planificación", "description": "Google Calendar, Outlook, CalDAV" },
+        "crm": { "title": "CRM y Clientes", "description": "HubSpot, Salesforce, Pipedrive" },
+        "communication": { "title": "Comunicación", "description": "WhatsApp, Slack, Discord, Messenger" },
+        "documents": { "title": "Documentos", "description": "Notion, WordPress, Google Docs" },
+        "ecommerce": { "title": "Comercio Electrónico", "description": "Shopify, WooCommerce, Stripe" },
+        "automation": { "title": "Automatización", "description": "Zapier, Make, Webhooks, API" }
+      }
+    },
+    "grid": {
+      "title": "Integraciones Populares",
+      "subtitle": "Trabaja sin fricciones con las herramientas que ya usas. Nuestra IA gestiona automáticamente la comunicación en todas las plataformas.",
+      "clinic": {
+        "title": "Creado especialmente para clínicas y centros de tratamiento",
+        "description": "Más de 500 clínicas ya han elegido nuestra solución. Desde clínicas dentales y fisioterapeutas hasta salones de belleza y centros de bienestar — nuestra asistente de IA se integra a la perfección con tu sistema de reservas actual y gestiona todo, desde llamadas telefónicas hasta recordatorios por SMS.",
+        "points": {
+          "gdpr": { "strong": "Gestión de datos conforme al RGPD", "text": " – todos los datos de pacientes se tratan de forma confidencial y conforme a la normativa sanitaria" },
+          "noShows": { "strong": "Reduce las ausencias hasta un 67%", "text": " – los recordatorios automáticos por SMS y correo mantienen informados a tus clientes" },
+          "setup": { "strong": "Configuración en menos de 15 minutos", "text": " – no se requieren conocimientos de informática, nuestro equipo te guía en todo momento" },
+          "support": { "strong": "Soporte los 7 días de la semana", "text": " – ayuda cuando la necesites, en tu propio idioma" }
+        }
+      },
+      "popularBadge": "Popular",
+      "categoryLabels": {
+        "calendar": "Calendario",
+        "communication": "Comunicación",
+        "ecommerce": "Comercio Electrónico",
+        "productivity": "Productividad",
+        "website": "Sitio Web",
+        "automation": "Automatización",
+        "video": "Vídeo",
+        "ai": "IA",
+        "developer": "Desarrollador"
+      },
+      "items": {
+        "googleCalendar": { "name": "Google Calendar", "description": "Reserva y sincronización automática de reuniones" },
+        "outlook": { "name": "Outlook", "description": "Integración de Microsoft 365 para correo y calendario" },
+        "whatsapp": { "name": "WhatsApp", "description": "Envía confirmaciones y recordatorios por SMS" },
+        "slack": { "name": "Slack", "description": "Notificaciones en tiempo real para tu equipo" },
+        "shopify": { "name": "Shopify", "description": "Integración de reservas para comercio electrónico" },
+        "notion": { "name": "Notion", "description": "Sincronización de documentos y notas" },
+        "wordpress": { "name": "WordPress", "description": "Añade reservas a tu sitio web" },
+        "zapier": { "name": "Zapier", "description": "Conecta automáticamente con más de 5000 apps" },
+        "zoom": { "name": "Zoom", "description": "Creación automática de enlaces de reunión" },
+        "teams": { "name": "Microsoft Teams", "description": "Integración de reuniones de Teams" },
+        "messenger": { "name": "Messenger", "description": "Integración con Facebook Messenger" },
+        "discord": { "name": "Discord", "description": "Integración con comunidades y servidores" },
+        "openai": { "name": "OpenAI", "description": "Funciones avanzadas de IA" },
+        "webhooks": { "name": "Webhooks", "description": "Integración personalizada con tus sistemas" },
+        "restApi": { "name": "REST API", "description": "Acceso completo por API a todas las funciones" }
+      },
+      "missing": {
+        "title": "¿Te falta tu integración?",
+        "description": "Añadimos nuevas integraciones continuamente. Con nuestro soporte de Webhook y API puedes conectar casi cualquier sistema a nuestra solución de IA.",
+        "cta": "Reservar Demo"
+      }
+    },
+    "cta": {
+      "title": "Deja que la IA se encargue de la administración",
+      "description": "Nuestra solución de IA se integra sin fricciones con tus sistemas actuales y automatiza todo, desde llamadas telefónicas hasta comunicación por correo. Ahorra horas cada día y céntrate en lo que realmente importa: tus clientes.",
+      "button": "Reservar Demo",
+      "benefitsTitle": "¿Qué obtienes con la integración de IA?",
+      "benefits": [
+        "Gestión automática de llamadas entrantes y salientes",
+        "Recordatorios y confirmaciones por SMS enviados automáticamente",
+        "Comunicación por correo gestionada por IA",
+        "Cambios de reserva gestionados sin intervención manual",
+        "Confirmaciones de cita enviadas a tiempo, siempre",
+        "Seguimiento de llamadas perdidas y consultas",
+        "Sincronización en tiempo real con todos tus sistemas",
+        "Gestión profesional las 24 horas"
+      ],
+      "stats": {
+        "setupTime": { "value": "5 min", "label": "Tiempo medio de configuración" },
+        "service": { "value": "24/7", "label": "Servicio al cliente con IA" },
+        "sync": { "value": "100%", "label": "Sincronización automática" }
+      }
+    }
+  },
+  "demoPage": {
+    "seo": {
+      "title": "Reserva una Demo Gratis - Ve la Recepcionista IA en Acción | Aibooking.dk",
+      "description": "Reserva una demo gratuita y sin compromiso de nuestra recepcionista IA. Obtén 7 días de acceso gratis y descubre cómo podemos transformar tu negocio. Reserva ya.",
+      "keywords": "reservar demo, demo gratis, demo de recepcionista IA, probar gratis, demo sin compromiso"
+    },
+    "hero": {
+      "badge": "Oferta Exclusiva",
+      "title": "Reserva Tu Demo Gratis",
+      "subtitle_before": "Obtén una presentación personal del sistema y descubre cómo nuestra recepcionista IA puede transformar tu negocio. Reserva hoy una demo gratuita y sin compromiso y consigue ",
+      "subtitle_highlight": "7 días de prueba gratuita",
+      "subtitle_after": " con acceso completo.",
+      "cards": {
+        "review": { "title": "Presentación Gratuita", "description": "Obtén una presentación personal y sin compromiso adaptada a tu negocio y tus necesidades." },
+        "trial": { "title": "7 Días de Prueba Gratis", "description": "Prueba todas las funciones sin compromiso durante 7 días. Totalmente gratuito, sin tarjeta de crédito." },
+        "help": { "title": "Te Ayudamos a Empezar", "description": "Nuestro equipo te guía durante toda la configuración y se asegura de que arranques bien desde el primer día." }
+      }
+    },
+    "booking": {
+      "title": "Elige Tu Hora",
+      "subtitle": "Reserva una reunión que se ajuste a tu calendario",
+      "cta": "Reserva Tu Demo Gratis"
+    },
+    "afterBooking": {
+      "title": "¿Qué Pasa Después de Reservar?",
+      "steps": {
+        "step1": { "title": "Reserva una Reunión", "description": "Elige la hora que mejor te convenga" },
+        "step2": { "title": "Demo Personal", "description": "Ve a la recepcionista IA en acción" },
+        "step3": { "title": "Activación Gratuita", "description": "Obtén 7 días de acceso completo" },
+        "step4": { "title": "Disfruta las Ventajas", "description": "Céntrate en hacer crecer tu negocio" }
+      }
+    },
+    "whyChoose": {
+      "title": "¿Por Qué Elegir Nuestra Recepcionista IA?",
+      "subtitle": "Descubre la diferencia con el sistema de reservas impulsado por IA más avanzado del mercado, diseñado para empresas modernas",
+      "cards": {
+        "availability": {
+          "title": "Disponibilidad 24/7",
+          "description": "Nuestra recepcionista IA trabaja las 24 horas sin descansos, vacaciones ni días libres. Tus clientes siempre pueden reservar una cita, ya sea a medianoche, un fin de semana o un día festivo. Eso significa más reservas y mayor satisfacción del cliente."
+        },
+        "efficiency": {
+          "title": "Mayor Eficiencia",
+          "description": "Automatiza hasta el 80% de tus consultas telefónicas y libera tiempo valioso para tu personal. Reduce drásticamente las tareas administrativas y deja que tu equipo se centre en ofrecer un servicio de primera a tus clientes."
+        },
+        "response": {
+          "title": "Respuesta Instantánea",
+          "description": "Sin tiempos de espera para tus clientes. La IA responde todas las llamadas al instante y puede gestionar conversaciones simultáneas ilimitadas. Eso significa cero llamadas perdidas y máxima satisfacción del cliente en todo momento."
+        },
+        "calendar": {
+          "title": "Integración de Calendario Inteligente",
+          "description": "Integración perfecta con tu sistema de reservas actual. La IA consulta tu calendario real en tiempo real y solo reserva las horas disponibles. Todas las citas se sincronizan automáticamente con notas detalladas sobre la conversación y las peticiones del cliente."
+        },
+        "noShows": {
+          "title": "Reduce las Ausencias",
+          "description": "Los recordatorios automáticos por SMS y correo reducen las citas perdidas hasta un 65%. El sistema envía recordatorios inteligentes en el momento adecuado e incluso puede reprogramar automáticamente en caso de cancelación."
+        },
+        "danish": {
+          "title": "Fluidez y Naturalidad",
+          "description": "Nuestra IA está entrenada específicamente en el idioma y las particularidades culturales locales. Entiende acentos y expresiones coloquiales y habla con naturalidad. Tus clientes disfrutan de una conversación agradable y profesional cada vez."
+        }
+      }
+    },
+    "concreteBenefits": {
+      "title": "Beneficios Concretos Para Tu Negocio",
+      "items": {
+        "saveTime": {
+          "title": "Ahorra Más de 10 Horas a la Semana",
+          "description": "Libera el tiempo que antes dedicabas a contestar el teléfono, gestionar reservas y enviar recordatorios. Úsalo para hacer crecer tu negocio."
+        },
+        "increaseRevenue": {
+          "title": "Aumenta tus Ingresos un 30%",
+          "description": "Capta todas las oportunidades 24/7 y reduce las reservas perdidas. Más reservas y menos ausencias significan un aumento directo de tus ingresos."
+        },
+        "noMissedCalls": {
+          "title": "Cero Llamadas Perdidas",
+          "description": "Cada llamada sin responder es un ingreso perdido. Con la recepcionista IA no se pierde ninguna llamada - ni siquiera cuando estás ocupado, en una reunión o fuera del horario laboral."
+        },
+        "betterExperience": {
+          "title": "Una Mejor Experiencia de Cliente",
+          "description": "Calidad de servicio uniformemente alta, siempre. Sin días malos, sin errores por estrés. Tus clientes siempre disfrutan de una recepcionista profesional y amable."
+        },
+        "fullDocumentation": {
+          "title": "Documentación Completa",
+          "description": "Todas las conversaciones se graban y transcriben automáticamente. Obtén información valiosa sobre las necesidades de tus clientes, las preguntas más frecuentes y las oportunidades para mejorar tu servicio."
+        },
+        "scalable": {
+          "title": "Una Solución Escalable",
+          "description": "Gestiona 1 o 1.000 llamadas al día sin contratar más personal. El sistema crece con tu negocio sin costes adicionales."
+        }
+      },
+      "closing": {
+        "title": "¿Listo para Empezar?",
+        "text": "Reserva tu demo gratis ahora y obtén 7 días de acceso completo al sistema. Te guiamos durante toda la configuración y nos aseguramos de que arranques bien. Sin permanencia, sin tarjeta de crédito.",
+        "cta": "Reserva Tu Demo Gratis Ahora"
+      }
+    },
+    "industries": {
+      "title": "Perfecto Para Todo Tipo de Empresas de Servicios",
+      "subtitle": "Nuestra recepcionista IA está diseñada para gestionar reservas y atención al cliente en cualquier sector",
+      "items": {
+        "healthcare": { "title": "Sector Salud", "description": "Dentistas, fisioterapeutas, quiroprácticos, clínicas de masaje, psicólogos" },
+        "beauty": { "title": "Belleza y Bienestar", "description": "Peluquerías, esteticistas, estudios de uñas, spas, estudios de tatuajes" },
+        "craft": { "title": "Oficios y Servicios", "description": "Fontaneros, electricistas, pintores, carpinteros, limpieza, empresas de mudanzas" },
+        "consulting": { "title": "Consultoría y Coaching", "description": "Abogados, contables, consultores, entrenadores personales, coaches de carrera" }
+      }
+    }
+  }
+}

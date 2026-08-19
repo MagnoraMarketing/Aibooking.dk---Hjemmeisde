@@ -1,75 +1,26 @@
 import { Check, ChevronDown } from 'lucide-react';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+
+interface PricingPlanText {
+  name: string;
+  description: string;
+  minutes: string;
+  features: string[];
+}
 
 function Pricing() {
+  const { t } = useTranslation();
   const [isAdditionalPricesOpen, setIsAdditionalPricesOpen] = useState(false);
 
-  const plans = [
-    {
-      name: "Demo",
-      description: "Til dig der vil se vores platform og lege selv med opsætning",
-      price: "0",
-      setup: "0",
-      minutes: "Aktiv i 7 dage",
-      features: [
-        "Basis stemme-tilpasning",
-        "Analyse dashboard",
-        "Mulighed for at opgradere til Starterpakken"
-      ],
-      highlighted: false,
-      isDemo: true
-    },
-    {
-      name: "Starter",
-      description: "Perfekt til mindre virksomheder der vil i gang med AI",
-      price: "999",
-      setup: "1.998",
-      minutes: "200 minutter",
-      features: [
-        "200 AI opkalds-minutter",
-        "Basis stemme-tilpasning",
-        "Standard support",
-        "Analyse dashboard",
-        "Email notifikationer"
-      ],
-      highlighted: false
-    },
-    {
-      name: "Professional",
-      description: "Ideel til voksende virksomheder med regelmæssige opkald",
-      price: "2.499",
-      setup: "4.998",
-      minutes: "600 minutter",
-      features: [
-        "600 AI opkalds-minutter",
-        "Avanceret stemme-tilpasning",
-        "Prioriteret support",
-        "Avanceret analyse",
-        "Tilpassede integrationer",
-        "SMS påmindelser",
-        "Kundehistorik"
-      ],
-      highlighted: true
-    },
-    {
-      name: "Enterprise",
-      description: "For organisationer der kræver maksimal fleksibilitet",
-      price: "5.999",
-      setup: "11.998",
-      minutes: "2000 minutter",
-      features: [
-        "2000 AI opkalds-minutter",
-        "Fuld stemme-tilpasning",
-        "24/7 dedikeret support",
-        "Tilpasset AI træning",
-        "API adgang",
-        "Dedikeret success manager",
-        "Ubegrænset integrationer",
-        "GDPR compliance support"
-      ],
-      highlighted: false
-    }
+  const plansText = t('pricing.plans', { returnObjects: true }) as PricingPlanText[];
+  const planMeta = [
+    { price: '0', setup: '0', highlighted: false, isDemo: true, href: 'https://cal.com/magnora-marketing-30zqdm/onboarding-7-dage-prøve-periode' },
+    { price: '999', setup: '1.998', highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
+    { price: '2.499', setup: '4.998', highlighted: true, isDemo: false, href: 'https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01' },
+    { price: '5.999', setup: '11.998', highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02' },
   ];
+  const plans = plansText.map((plan, i) => ({ ...plan, ...planMeta[i] }));
 
   return (
     <section id="priser" className="py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-white via-ink-50/40 to-white">
@@ -77,13 +28,13 @@ function Pricing() {
         <div className="text-center mb-20">
           <div className="inline-flex items-center space-x-2 bg-brand-50 text-brand-700 px-5 py-2.5 rounded-full mb-8 border border-brand-100">
             <Check className="w-4 h-4" />
-            <span className="text-sm font-semibold">Transparent Prissætning</span>
+            <span className="text-sm font-semibold">{t('pricing.badge')}</span>
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-ink-900 mb-6 tracking-tight">
-            Vælg din pakke
+            {t('pricing.title')}
           </h2>
           <p className="text-xl text-ink-600 max-w-3xl mx-auto leading-relaxed">
-            Skræddersyede pakker designet til virksomheder af alle størrelser
+            {t('pricing.subtitle')}
           </p>
         </div>
 
@@ -100,7 +51,7 @@ function Pricing() {
               {plan.highlighted && (
                 <div className="absolute -top-3.5 left-1/2 transform -translate-x-1/2">
                   <span className="bg-gradient-to-r from-yellow-400 to-yellow-500 text-ink-900 px-5 py-1.5 rounded-full text-xs font-bold shadow-md uppercase tracking-wide">
-                    Mest Populær
+                    {t('pricing.most_popular_badge')}
                   </span>
                 </div>
               )}
@@ -118,7 +69,7 @@ function Pricing() {
                 <div className="flex items-baseline">
                   {plan.price === "0" ? (
                     <span className={`text-5xl font-bold ${plan.highlighted ? 'text-white' : 'text-ink-900'}`}>
-                      Gratis
+                      {t('pricing.free_label')}
                     </span>
                   ) : (
                     <>
@@ -126,7 +77,7 @@ function Pricing() {
                         {plan.price}
                       </span>
                       <span className={`ml-2 ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
-                        kr/md
+                        {t('pricing.currency_suffix')}
                       </span>
                     </>
                   )}
@@ -154,7 +105,7 @@ function Pricing() {
               {plan.setup !== "0" && (
                 <div className={`mb-6 pt-6 border-t ${plan.highlighted ? 'border-brand-500' : 'border-ink-200'}`}>
                   <p className={`text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
-                    Engangspris på <span className="font-semibold">{plan.setup} kr</span> for opsætning og onboarding
+                    {t('pricing.setup_note', { setup: plan.setup })}
                   </p>
                 </div>
               )}
@@ -162,7 +113,7 @@ function Pricing() {
               <div className="flex-grow"></div>
 
               <a
-                href={index === 0 ? "https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk" : index === 1 ? "https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00" : index === 2 ? "https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01" : index === 3 ? "https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02" : "https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"}
+                href={plan.href}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`block w-full text-center py-3.5 rounded-xl font-semibold transition-all transform hover:scale-[1.02] text-[15px] ${
@@ -171,7 +122,7 @@ function Pricing() {
                     : 'bg-brand-600 text-white hover:bg-brand-700 shadow-sm'
                 }`}
               >
-                {index === 0 ? "Prøv gratis" : "Bestil pakke og book Onboarding"}
+                {index === 0 ? t('pricing.cta_demo') : t('pricing.cta_order')}
               </a>
             </div>
           ))}
@@ -179,13 +130,13 @@ function Pricing() {
 
         <div className="mt-20 text-center">
           <p className="text-ink-600 text-lg max-w-2xl mx-auto">
-            Efter bestilling modtager du et kalenderlink hvor du kan booke tid til opsætning.
+            {t('pricing.after_order_note')}
           </p>
         </div>
 
         <div className="mt-24 max-w-4xl mx-auto">
           <h3 className="text-2xl md:text-3xl font-bold text-ink-900 mb-12 text-center">
-            Øvrige priser
+            {t('pricing.additionalPrices.title')}
           </h3>
 
           <div className="bg-white rounded-2xl border border-ink-200 overflow-hidden shadow-sm">
@@ -194,7 +145,7 @@ function Pricing() {
               className="w-full flex items-center justify-between p-8 md:p-10 hover:bg-ink-50 transition-colors"
             >
               <h4 className="text-xl font-semibold text-ink-900">
-                Se øvrige priser
+                {t('pricing.additionalPrices.toggle_label')}
               </h4>
               <ChevronDown
                 className={`w-6 h-6 text-ink-600 transition-transform duration-300 ${isAdditionalPricesOpen ? 'rotate-180' : ''}`}
@@ -206,37 +157,37 @@ function Pricing() {
                 <div className="p-8 md:p-10 space-y-8">
                   <div className="pb-8 border-b border-ink-200">
                     <h4 className="text-xl font-semibold text-ink-900 mb-3">
-                      Opsætning
+                      {t('pricing.additionalPrices.setup.title')}
                     </h4>
                     <p className="text-ink-700 text-lg">
-                      2 x abonnementspris <span className="text-ink-600 text-base">(engangsbeløb)</span>
+                      {t('pricing.additionalPrices.setup.value')} <span className="text-ink-600 text-base">{t('pricing.additionalPrices.setup.note')}</span>
                     </p>
                   </div>
 
                   <div className="pb-8 border-b border-ink-200">
                     <h4 className="text-lg font-semibold text-ink-900 mb-2">
-                      Månedlig vedligeholdelse og prompting <span className="text-brand-600 text-sm font-medium">(tilvalg)</span>
+                      {t('pricing.additionalPrices.maintenance.title')} <span className="text-brand-600 text-sm font-medium">{t('pricing.additionalPrices.maintenance.optional_label')}</span>
                     </h4>
                     <p className="text-ink-600 mb-2 text-sm leading-relaxed">
-                      Vi står for vedligeholdelse og hjælper løbende med at optimere prompts, så der gives præcise og relevante svar. Det sparer jer tid og sikrer en endnu bedre oplevelse for jeres kunder og medarbejdere.
+                      {t('pricing.additionalPrices.maintenance.description')}
                     </p>
                     <p className="text-ink-900 font-semibold text-base">
-                      2.995 kr./md
+                      {t('pricing.additionalPrices.maintenance.price')}
                     </p>
                   </div>
 
                   <div>
                     <h4 className="text-xl font-semibold text-ink-900 mb-4">
-                      Timepris ved ad hoc-opgaver
+                      {t('pricing.additionalPrices.hourly.title')}
                     </h4>
                     <div className="space-y-3">
                       <div className="flex justify-between items-center">
-                        <span className="text-ink-700">Prompting/træning</span>
-                        <span className="text-ink-900 font-semibold">695 kr. pr. time</span>
+                        <span className="text-ink-700">{t('pricing.additionalPrices.hourly.prompting_label')}</span>
+                        <span className="text-ink-900 font-semibold">{t('pricing.additionalPrices.hourly.prompting_price')}</span>
                       </div>
                       <div className="flex justify-between items-center">
-                        <span className="text-ink-700">Udvikling</span>
-                        <span className="text-ink-900 font-semibold">1.100 kr. pr. time</span>
+                        <span className="text-ink-700">{t('pricing.additionalPrices.hourly.development_label')}</span>
+                        <span className="text-ink-900 font-semibold">{t('pricing.additionalPrices.hourly.development_price')}</span>
                       </div>
                     </div>
                   </div>

@@ -141,7 +141,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                 })}
               </div>
               <a
-                href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
+                href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 bg-brand-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-brand-700 transition-all shadow-lg hover:shadow-xl"
@@ -334,7 +334,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
           <div className="mt-12 text-center">
             <p className="text-ink-600 mb-6 text-lg">{t('voiceCta.text')}</p>
             <a
-              href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
+              href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-3 bg-ink-900 text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-ink-800 transition-all shadow-xl hover:shadow-2xl"
@@ -416,7 +416,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                   <ArrowRight className="w-5 h-5" />
                 </button>
                 <a
-                  href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
+                  href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center space-x-2 border-2 border-ink-300 text-ink-700 px-8 py-4 rounded-2xl font-bold text-lg hover:border-cyan-600 hover:text-cyan-600 transition-all"
@@ -549,7 +549,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
+                  href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white text-brand-700 px-10 py-5 rounded-2xl font-bold text-lg hover:bg-brand-50 transition-all shadow-lg hover:shadow-xl inline-block"

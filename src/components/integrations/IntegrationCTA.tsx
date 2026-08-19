@@ -19,7 +19,7 @@ function IntegrationCTA() {
               {t('ctaSection.subtitle')}
             </p>
             <a
-              href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
+              href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 bg-white text-brand-600 px-8 py-4 rounded-lg hover:bg-brand-50 transition-all duration-300 font-semibold text-lg group"

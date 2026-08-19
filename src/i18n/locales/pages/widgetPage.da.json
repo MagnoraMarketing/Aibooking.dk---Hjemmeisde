@@ -19,10 +19,22 @@
     "booking_badge_sub": "Via voice widget – nu"
   },
   "stats": [
-    { "value": "24/7", "label": "Altid tilgængelig" },
-    { "value": "< 5 min", "label": "Til at komme i gang" },
-    { "value": "150 min", "label": "Taletid inkluderet" },
-    { "value": "999 kr", "label": "Pr. måned" }
+    {
+      "value": "24/7",
+      "label": "Altid tilgængelig"
+    },
+    {
+      "value": "< 5 min",
+      "label": "Til at komme i gang"
+    },
+    {
+      "value": "150 min",
+      "label": "Taletid inkluderet"
+    },
+    {
+      "value": "999 kr",
+      "label": "Pr. måned"
+    }
   ],
   "whatIs": {
     "title": "Hvad er en AI voice widget?",
@@ -34,42 +46,101 @@
     "para2_strong": "helt uden menneskelig indgriben",
     "para2_post": ".",
     "para3": "Det er som at have en receptionist, der aldrig sover, aldrig er syg og altid er professionel – til en brøkdel af prisen.",
-    "chips": ["Talebaseret", "Tekst-chat", "Auto-booking", "Flersproget"]
+    "chips": [
+      "Talebaseret",
+      "Tekst-chat",
+      "Auto-booking",
+      "Flersproget"
+    ]
   },
   "howItWorks": {
     "title": "Sådan virker AI voice widgetten",
     "subtitle": "Fra installation til automatisk booking – en simpel proces i tre trin",
     "steps": [
-      { "title": "Installer widgetten", "description": "Du får en enkel JavaScript-kodestump. Indsæt den på din hjemmeside – kompatibel med WordPress, Shopify, Wix og alle andre platforme. Ingen teknisk viden kræves." },
-      { "title": "Kunder taler med AI", "description": "Besøgende på din hjemmeside klikker på widgetten og taler direkte med din personlige AI-assistent. AI'en forstår dansk og svarer på spørgsmål om din virksomhed." },
-      { "title": "Bookinger lander automatisk", "description": "Møder og bookinger registreres direkte i din kalender. Du modtager en bekræftelse, og kunden får automatisk en kvittering – uden du skal gøre noget." }
+      {
+        "title": "Installer widgetten",
+        "description": "Du får en enkel JavaScript-kodestump. Indsæt den på din hjemmeside – kompatibel med WordPress, Shopify, Wix og alle andre platforme. Ingen teknisk viden kræves."
+      },
+      {
+        "title": "Kunder taler med AI",
+        "description": "Besøgende på din hjemmeside klikker på widgetten og taler direkte med din personlige AI-assistent. AI'en forstår dansk og svarer på spørgsmål om din virksomhed."
+      },
+      {
+        "title": "Bookinger lander automatisk",
+        "description": "Møder og bookinger registreres direkte i din kalender. Du modtager en bekræftelse, og kunden får automatisk en kvittering – uden du skal gøre noget."
+      }
     ]
   },
   "features": {
     "title": "Funktioner der gør forskel",
     "subtitle": "Alt hvad du har brug for til automatisk booking og kundeservice via AI",
     "items": [
-      { "title": "Naturlig talegenkendelse", "description": "Forstår naturligt dansk tale – kunder behøver ikke tale i kommandoer. AI'en følger samtalen og stiller opfølgende spørgsmål." },
-      { "title": "Direkte kalenderintegration", "description": "Synkroniserer med Google Calendar, Outlook og andre kalendersystemer. Ingen dobbeltbookinger, ingen manuel registrering." },
-      { "title": "24/7 tilgængelighed", "description": "Din AI-assistent arbejder rundt uret – også uden for åbningstid, i weekenden og på helligdage." },
-      { "title": "Tale og tekst", "description": "Kunder kan vælge at tale eller skrive. Widgetten understøtter begge inputformer og svarer på samme måde." },
-      { "title": "GDPR-kompatibel", "description": "Al data behandles sikkert og i overensstemmelse med GDPR. Du har fuld kontrol over dine kunders data." },
-      { "title": "Flersproget AI", "description": "Widgetten understøtter dansk og mange andre sprog. AI'en tilpasser sig automatisk til det sprog kunden taler." },
-      { "title": "Lynhurtig opsætning", "description": "Fra bestilling til aktiv widget på din hjemmeside tager det under 5 minutter. Ingen udviklere nødvendige." },
-      { "title": "Tilpasset din virksomhed", "description": "AI-assistenten kender din virksomhed, dine services og dine åbningstider – svar der passer præcist til din forretning." },
-      { "title": "Betal kun for aktivitet", "description": "Du betaler kun for aktive taletid – ikke for ventetid eller pauser. En langt billigere løsning end en deltidsmedarbejder." }
+      {
+        "title": "Naturlig talegenkendelse",
+        "description": "Forstår naturligt dansk tale – kunder behøver ikke tale i kommandoer. AI'en følger samtalen og stiller opfølgende spørgsmål."
+      },
+      {
+        "title": "Direkte kalenderintegration",
+        "description": "Synkroniserer med Google Calendar, Outlook og andre kalendersystemer. Ingen dobbeltbookinger, ingen manuel registrering."
+      },
+      {
+        "title": "24/7 tilgængelighed",
+        "description": "Din AI-assistent arbejder rundt uret – også uden for åbningstid, i weekenden og på helligdage."
+      },
+      {
+        "title": "Tale og tekst",
+        "description": "Kunder kan vælge at tale eller skrive. Widgetten understøtter begge inputformer og svarer på samme måde."
+      },
+      {
+        "title": "GDPR-kompatibel",
+        "description": "Al data behandles sikkert og i overensstemmelse med GDPR. Du har fuld kontrol over dine kunders data."
+      },
+      {
+        "title": "Flersproget AI",
+        "description": "Widgetten understøtter dansk og mange andre sprog. AI'en tilpasser sig automatisk til det sprog kunden taler."
+      },
+      {
+        "title": "Lynhurtig opsætning",
+        "description": "Fra bestilling til aktiv widget på din hjemmeside tager det under 5 minutter. Ingen udviklere nødvendige."
+      },
+      {
+        "title": "Tilpasset din virksomhed",
+        "description": "AI-assistenten kender din virksomhed, dine services og dine åbningstider – svar der passer præcist til din forretning."
+      },
+      {
+        "title": "Betal kun for aktivitet",
+        "description": "Du betaler kun for aktive taletid – ikke for ventetid eller pauser. En langt billigere løsning end en deltidsmedarbejder."
+      }
     ]
   },
   "useCases": {
     "title": "Hvem bruger AI voice widgetten?",
     "subtitle": "Perfekt til alle virksomheder, der tager imod bookinger og kundehenvendelser online",
     "items": [
-      { "label": "Klinikker", "desc": "Patientbooking automatiseret" },
-      { "label": "Håndværkere", "desc": "Opgaver og møder bookes" },
-      { "label": "Konsulenter", "desc": "Møder direkte i kalender" },
-      { "label": "Saloner", "desc": "Tider bookes automatisk" },
-      { "label": "Tandlæger", "desc": "Patienthåndtering 24/7" },
-      { "label": "E-handel", "desc": "Kundeservice non-stop" }
+      {
+        "label": "Klinikker",
+        "desc": "Patientbooking automatiseret"
+      },
+      {
+        "label": "Håndværkere",
+        "desc": "Opgaver og møder bookes"
+      },
+      {
+        "label": "Konsulenter",
+        "desc": "Møder direkte i kalender"
+      },
+      {
+        "label": "Saloner",
+        "desc": "Tider bookes automatisk"
+      },
+      {
+        "label": "Tandlæger",
+        "desc": "Patienthåndtering 24/7"
+      },
+      {
+        "label": "E-handel",
+        "desc": "Kundeservice non-stop"
+      }
     ],
     "roi": {
       "title": "Typisk ROI for en AI voice widget",
@@ -77,9 +148,18 @@
       "desc_strong": "samme funktionalitet",
       "desc_post": " – men 24 timer i døgnet, 7 dage om ugen.",
       "stats": [
-        { "value": "95%", "label": "Besparelse vs. receptionist" },
-        { "value": "0 sek", "label": "Ventetid for kunder" },
-        { "value": "100%", "label": "Automatiserede bookinger" }
+        {
+          "value": "95%",
+          "label": "Besparelse vs. receptionist"
+        },
+        {
+          "value": "0 sek",
+          "label": "Ventetid for kunder"
+        },
+        {
+          "value": "100%",
+          "label": "Automatiserede bookinger"
+        }
       ]
     }
   },
@@ -129,11 +209,13 @@
     "plans": [
       {
         "name": "Demo",
-        "description": "Til dig der vil se vores platform og lege selv med opsætning",
-        "minutes": "Aktiv i 7 dage",
+        "description": "Prøv gratis i 7 dage inkl. 75 minutters taletid – se hvor meget tid I frigør til andre opgaver og flere kunder",
+        "minutes": "Gratis i 7 dage · 75 min taletid",
         "features": [
+          "75 minutters AI-taletid",
           "Basis stemme-tilpasning",
           "Analyse dashboard",
+          "I stiller jeres nuværende firmanummer til rådighed i prøveperioden, så AI'en kan besvare rigtige opkald",
           "Mulighed for at opgradere til Starterpakken"
         ],
         "cta": "Prøv gratis"

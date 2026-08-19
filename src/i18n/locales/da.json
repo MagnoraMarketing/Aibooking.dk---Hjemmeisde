@@ -7,10 +7,22 @@
     "features": "Funktioner",
     "industries": "Brancher",
     "industries_menu": {
-      "healthcare": { "name": "Klinikker", "description": "Læger, tandlæger, fysioterapeuter" },
-      "craftsman": { "name": "Håndværk", "description": "VVS, el, tømrer, maler" },
-      "office": { "name": "Kontor & Erhverv", "description": "Advokater, revisorer, konsulenter" },
-      "ecommerce": { "name": "E-commerce & Webshop", "description": "Webshops og online forretninger" }
+      "healthcare": {
+        "name": "Klinikker",
+        "description": "Læger, tandlæger, fysioterapeuter"
+      },
+      "craftsman": {
+        "name": "Håndværk",
+        "description": "VVS, el, tømrer, maler"
+      },
+      "office": {
+        "name": "Kontor & Erhverv",
+        "description": "Advokater, revisorer, konsulenter"
+      },
+      "ecommerce": {
+        "name": "E-commerce & Webshop",
+        "description": "Webshops og online forretninger"
+      }
     },
     "see_all_industries": "Se alle brancher →",
     "integrations": "Integrationer",
@@ -44,75 +56,198 @@
     }
   },
   "features": {
-    "title": "Kraftfulde Funktioner Til Din Virksomhed",
-    "subtitle": "Alt hvad du behøver for at automatisere din kundekommunikation",
-    "ai_receptionist": {
-      "title": "AI Telefonreceptionist",
-      "description": "Besvarer opkald 24/7 med naturlig dansk stemme"
+    "badge": "Kraftfulde Funktioner",
+    "title_line1": "Alt du behøver for at",
+    "title_line2": "automatisere bookinger",
+    "subtitle": "Vores AI-løsning er bygget specifikt til danske klinikker og servicevirksomheder",
+    "items": [
+      {
+        "title": "Intelligent Opkaldstyring",
+        "description": "AI'en tager alle indgående opkald, forstår kundens behov og håndterer bookinger professionelt – som en erfaren receptionist."
+      },
+      {
+        "title": "Automatisk Kalenderintegration",
+        "description": "Synkroniserer direkte med dit eksisterende bookingsystem. Ingen dobbeltbookinger, ingen konflikter."
+      },
+      {
+        "title": "Naturlig Samtale",
+        "description": "Avanceret dansk sprogforståelse gør samtalen naturlig og behagelig for dine kunder."
+      },
+      {
+        "title": "Detaljeret Analyse",
+        "description": "Fuldt overblik over alle opkald, bookinger og kundeinteraktioner i et overskueligt dashboard."
+      },
+      {
+        "title": "Kundehistorik",
+        "description": "AI'en husker tidligere kunder og deres præferencer for en personlig oplevelse hver gang."
+      },
+      {
+        "title": "Automatiske Påmindelser",
+        "description": "Send automatiske påmindelser til kunder om kommende aftaler og reducér no-shows."
+      },
+      {
+        "title": "Øjeblikkelig Opfølgning",
+        "description": "Automatiske opfølgnings-SMS og emails efter hvert opkald og hver aftale."
+      },
+      {
+        "title": "GDPR Sikker",
+        "description": "Alle data håndteres sikkert og i overensstemmelse med dansk lovgivning."
+      }
+    ],
+    "dashboard": {
+      "badge": "PREMIUM FEATURE",
+      "title": "Eget Dashboard",
+      "subtitle": "Centraliseret kontrol og indsigt i alle dine AI-voice agenter fra ét sted",
+      "items": [
+        {
+          "title": "Unlimited AI Voice Agents",
+          "description": "Skaler dine operationer uden begrænsninger. Administrer nemt flere klientkonti fra ét centraliseret dashboard."
+        },
+        {
+          "title": "Automatisk Booking",
+          "description": "Strømlin din planlægning med AI-drevet booking. Alle aftaler synkroniseres direkte til din kalender med detaljeret resume."
+        },
+        {
+          "title": "Optagelse & Transkription",
+          "description": "Optag og konverter hver samtale til tekst for nem reference. Lyt til alle opkald og se komplette transskriptioner."
+        },
+        {
+          "title": "Overlegen Støjreduktion",
+          "description": "Sikr krystalklare samtaler med avanceret lydbehandling. Dine kunder hører kun professionel, klar lyd."
+        },
+        {
+          "title": "Træn på 10 Sekunder",
+          "description": "Tilpas AI-adfærd hurtigt ved at bruge eksisterende optagelser eller et færdigbygget script. Ingen teknisk viden krævet."
+        },
+        {
+          "title": "Intelligent Kalenderintegration",
+          "description": "Alle bookinger lægges automatisk i din kalender med noter om opkaldsresume, aftaletidspunkt og kundeoplysninger."
+        }
+      ],
+      "cta": {
+        "title": "Klar til at komme i gang?",
+        "description": "Maksimer dine kunders bookinger med vores AI-drevne, ultrarealistiske stemmeopkaldstjeneste, der arbejder døgnet rundt for at holde deres kalendere fuldt bookede.",
+        "button": "Book Din Gratis Demo"
+      }
     },
-    "smart_booking": {
-      "title": "Smart Booking",
-      "description": "Automatisk kalenderstyring og aftalebekræftelse"
-    },
-    "crm_integration": {
-      "title": "CRM Integration",
-      "description": "Synkroniserer seamless med dine eksisterende systemer"
-    },
-    "analytics": {
-      "title": "Analyser & Rapporter",
-      "description": "Detaljeret indsigt i alle kundekontakter"
+    "industry": {
+      "title": "Perfekt til klinikker og servicevirksomheder",
+      "description": "Uanset om du driver en tandlægeklinik, frisørsalon, massageklinik eller anden servicevirksomhed, så er vores AI-løsning skræddersyet til netop dine behov.",
+      "bullets": [
+        "Håndterer komplekse bookingscenarier",
+        "Integration med populære bookingsystemer",
+        "Tilpasset jeres specifikke branché og arbejdsgange"
+      ],
+      "stats": [
+        {
+          "label": "Gennemsnitlig besparelse",
+          "value": "10+ timer/uge"
+        },
+        {
+          "label": "Kundetilfredshed",
+          "value": "98%"
+        },
+        {
+          "label": "Reducering af no-shows",
+          "value": "65%"
+        }
+      ]
     }
   },
   "pricing": {
-    "title": "Gennemsigtige Priser",
-    "subtitle": "Vælg den plan der passer til din virksomhed",
-    "starter": {
-      "name": "Starter",
-      "price": "499",
-      "period": "/måned",
-      "description": "Perfekt til små virksomheder",
-      "features": {
-        "calls": "Op til 100 opkald/måned",
-        "booking": "Booking integration",
-        "support": "Email support",
-        "analytics": "Basis analyser"
-      }
-    },
-    "professional": {
-      "name": "Professional",
-      "price": "999",
-      "period": "/måned",
-      "description": "Til voksende virksomheder",
-      "features": {
-        "calls": "Op til 500 opkald/måned",
-        "booking": "Avanceret booking",
-        "support": "Prioriteret support",
-        "analytics": "Avancerede analyser",
-        "crm": "CRM integration"
+    "badge": "Transparent Prissætning",
+    "title": "Vælg din pakke",
+    "subtitle": "Skræddersyede pakker designet til virksomheder af alle størrelser",
+    "most_popular_badge": "Mest Populær",
+    "free_label": "Gratis",
+    "currency_suffix": "kr/md",
+    "setup_note": "Engangspris på {{setup}} kr for opsætning og onboarding",
+    "after_order_note": "Efter bestilling modtager du et kalenderlink hvor du kan booke tid til opsætning.",
+    "cta_demo": "Prøv gratis",
+    "cta_order": "Bestil pakke og book Onboarding",
+    "plans": [
+      {
+        "name": "Demo",
+        "description": "Prøv gratis i 7 dage inkl. 75 minutters taletid – se hvor meget tid I frigør til andre opgaver og flere kunder",
+        "minutes": "Gratis i 7 dage · 75 min taletid",
+        "features": [
+          "75 minutters AI-taletid",
+          "Basis stemme-tilpasning",
+          "Analyse dashboard",
+          "I stiller jeres nuværende firmanummer til rådighed i prøveperioden, så AI'en kan besvare rigtige opkald",
+          "Mulighed for at opgradere til Starterpakken"
+        ]
       },
-      "popular": "Mest Populær"
-    },
-    "enterprise": {
-      "name": "Enterprise",
-      "price": "Kontakt os",
-      "period": "",
-      "description": "Til store organisationer",
-      "features": {
-        "calls": "Ubegrænsede opkald",
-        "booking": "Fuld tilpasning",
-        "support": "Dedikeret account manager",
-        "analytics": "Custom rapporter",
-        "crm": "Enterprise integration",
-        "sla": "SLA garanti"
+      {
+        "name": "Starter",
+        "description": "Perfekt til mindre virksomheder der vil i gang med AI",
+        "minutes": "200 minutter",
+        "features": [
+          "200 AI opkalds-minutter",
+          "Basis stemme-tilpasning",
+          "Standard support",
+          "Analyse dashboard",
+          "Email notifikationer"
+        ]
+      },
+      {
+        "name": "Professional",
+        "description": "Ideel til voksende virksomheder med regelmæssige opkald",
+        "minutes": "600 minutter",
+        "features": [
+          "600 AI opkalds-minutter",
+          "Avanceret stemme-tilpasning",
+          "Prioriteret support",
+          "Avanceret analyse",
+          "Tilpassede integrationer",
+          "SMS påmindelser",
+          "Kundehistorik"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "description": "For organisationer der kræver maksimal fleksibilitet",
+        "minutes": "2000 minutter",
+        "features": [
+          "2000 AI opkalds-minutter",
+          "Fuld stemme-tilpasning",
+          "24/7 dedikeret support",
+          "Tilpasset AI træning",
+          "API adgang",
+          "Dedikeret success manager",
+          "Ubegrænset integrationer",
+          "GDPR compliance support"
+        ]
       }
-    },
-    "cta": "Kom I Gang",
-    "contact": "Kontakt Salg"
+    ],
+    "additionalPrices": {
+      "title": "Øvrige priser",
+      "toggle_label": "Se øvrige priser",
+      "setup": {
+        "title": "Opsætning",
+        "value": "2 x abonnementspris",
+        "note": "(engangsbeløb)"
+      },
+      "maintenance": {
+        "title": "Månedlig vedligeholdelse og prompting",
+        "optional_label": "(tilvalg)",
+        "description": "Vi står for vedligeholdelse og hjælper løbende med at optimere prompts, så der gives præcise og relevante svar. Det sparer jer tid og sikrer en endnu bedre oplevelse for jeres kunder og medarbejdere.",
+        "price": "2.995 kr./md"
+      },
+      "hourly": {
+        "title": "Timepris ved ad hoc-opgaver",
+        "prompting_label": "Prompting/træning",
+        "prompting_price": "695 kr. pr. time",
+        "development_label": "Udvikling",
+        "development_price": "1.100 kr. pr. time"
+      }
+    }
   },
   "cta_section": {
-    "title": "Klar Til At Komme I Gang?",
-    "subtitle": "Prøv Aibooking.dk gratis i 14 dage. Ingen kreditkort påkrævet.",
-    "button": "Start Gratis Prøveperiode"
+    "title": "Klar til at komme i gang?",
+    "subtitle": "Prøv gratis i 7 dage inkl. 75 minutters taletid. Se hvor meget tid I frigør til andre opgaver – og måske flere kunder.",
+    "trial_button": "Start 7 dages gratis prøveperiode",
+    "button": "Book Intro-møde"
   },
   "footer": {
     "description": "Automatisér dine bookinger og kundeservice med intelligent AI-teknologi.",
@@ -209,14 +344,38 @@
     "price_note1": "Inkluderer 150 minutters taletid (ca. 6,66 kr/minut)",
     "price_note2": "Pakken fornyes automatisk når de 150 minutter er brugt",
     "features": [
-      { "bold": "Voice AI-bot", "rest": " - kunder taler direkte med AI'en" },
-      { "bold": "", "rest": "Besvarer spørgsmål og håndterer bookinger" },
-      { "bold": "", "rest": "Bookinger går direkte i din kalender" },
-      { "bold": "", "rest": "24/7 tilgængelig på din hjemmeside" },
-      { "bold": "", "rest": "150 minutters taletid inkluderet" },
-      { "bold": "Betal kun for aktiv tale", "rest": " - ingen timeløn" },
-      { "bold": "Åben 24/7, 365 dage om året", "rest": " - altid klar" },
-      { "bold": "", "rest": "Håndterer kunder selv når du er optaget" }
+      {
+        "bold": "Voice AI-bot",
+        "rest": " - kunder taler direkte med AI'en"
+      },
+      {
+        "bold": "",
+        "rest": "Besvarer spørgsmål og håndterer bookinger"
+      },
+      {
+        "bold": "",
+        "rest": "Bookinger går direkte i din kalender"
+      },
+      {
+        "bold": "",
+        "rest": "24/7 tilgængelig på din hjemmeside"
+      },
+      {
+        "bold": "",
+        "rest": "150 minutters taletid inkluderet"
+      },
+      {
+        "bold": "Betal kun for aktiv tale",
+        "rest": " - ingen timeløn"
+      },
+      {
+        "bold": "Åben 24/7, 365 dage om året",
+        "rest": " - altid klar"
+      },
+      {
+        "bold": "",
+        "rest": "Håndterer kunder selv når du er optaget"
+      }
     ],
     "cta": "Se AI-Widget i aktion",
     "demo_widget_label": "AI Booking Assistant",

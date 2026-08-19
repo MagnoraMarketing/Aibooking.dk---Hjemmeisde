@@ -97,7 +97,7 @@ function IntegrationGrid() {
             {t('gridSection.missing.description')}
           </p>
           <a
-            href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
+            href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-brand-600 text-white px-8 py-3 rounded-lg hover:bg-brand-700 transition-colors font-medium"

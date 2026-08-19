@@ -1,4 +1,7 @@
+import { useTranslation } from 'react-i18next';
+
 function CTA() {
+  const { t } = useTranslation();
 
   return (
     <section id="kontakt" className="py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-brand-600 via-brand-600 to-brand-700 relative overflow-hidden">
@@ -8,19 +11,29 @@ function CTA() {
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight tracking-tight">
-            Klar til at komme i gang?
+            {t('cta_section.title')}
           </h2>
           <p className="text-xl text-brand-100 leading-relaxed mb-8">
-            Maksimer dine kunders bookinger med vores AI-drevne, ultrarealistiske stemmeopkaldstjeneste, der arbejder døgnet rundt for at holde deres kalendere fuldt bookede.
+            {t('cta_section.subtitle')}
           </p>
-          <a
-            href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-brand-600 bg-white rounded-xl hover:bg-brand-50 transition-all shadow-xl hover:shadow-2xl hover:scale-105"
-          >
-            Book Gratis Demo
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a
+              href="https://cal.com/magnora-marketing-30zqdm/onboarding-7-dage-prøve-periode"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-brand-600 bg-white rounded-xl hover:bg-brand-50 transition-all shadow-xl hover:shadow-2xl hover:scale-105"
+            >
+              {t('cta_section.trial_button')}
+            </a>
+            <a
+              href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white border border-white/40 rounded-xl hover:bg-white/10 transition-all"
+            >
+              {t('cta_section.button')}
+            </a>
+          </div>
         </div>
 
       </div>

@@ -7,10 +7,22 @@
     "features": "Features",
     "industries": "Industries",
     "industries_menu": {
-      "healthcare": { "name": "Clinics", "description": "Doctors, dentists, physiotherapists" },
-      "craftsman": { "name": "Craftsmen", "description": "Plumbers, electricians, carpenters, painters" },
-      "office": { "name": "Office & Business", "description": "Lawyers, accountants, consultants" },
-      "ecommerce": { "name": "E-commerce & Webshop", "description": "Webshops and online businesses" }
+      "healthcare": {
+        "name": "Clinics",
+        "description": "Doctors, dentists, physiotherapists"
+      },
+      "craftsman": {
+        "name": "Craftsmen",
+        "description": "Plumbers, electricians, carpenters, painters"
+      },
+      "office": {
+        "name": "Office & Business",
+        "description": "Lawyers, accountants, consultants"
+      },
+      "ecommerce": {
+        "name": "E-commerce & Webshop",
+        "description": "Webshops and online businesses"
+      }
     },
     "see_all_industries": "See all industries →",
     "integrations": "Integrations",
@@ -44,75 +56,198 @@
     }
   },
   "features": {
-    "title": "Powerful Features For Your Business",
-    "subtitle": "Everything you need to automate your customer communication",
-    "ai_receptionist": {
-      "title": "AI Phone Receptionist",
-      "description": "Answers calls 24/7 with natural voice"
+    "badge": "Powerful Features",
+    "title_line1": "Everything you need to",
+    "title_line2": "automate bookings",
+    "subtitle": "Our AI solution is built specifically for clinics and service businesses",
+    "items": [
+      {
+        "title": "Intelligent Call Handling",
+        "description": "The AI takes every incoming call, understands the customer's needs, and handles bookings professionally — like an experienced receptionist."
+      },
+      {
+        "title": "Automatic Calendar Integration",
+        "description": "Syncs directly with your existing booking system. No double bookings, no conflicts."
+      },
+      {
+        "title": "Natural Conversation",
+        "description": "Advanced language understanding makes the conversation natural and pleasant for your customers."
+      },
+      {
+        "title": "Detailed Analytics",
+        "description": "Full overview of every call, booking and customer interaction in a clear dashboard."
+      },
+      {
+        "title": "Customer History",
+        "description": "The AI remembers past customers and their preferences for a personal experience every time."
+      },
+      {
+        "title": "Automatic Reminders",
+        "description": "Send automatic reminders to customers about upcoming appointments and reduce no-shows."
+      },
+      {
+        "title": "Instant Follow-up",
+        "description": "Automatic follow-up SMS and emails after every call and appointment."
+      },
+      {
+        "title": "GDPR Secure",
+        "description": "All data is handled securely and in accordance with applicable regulations."
+      }
+    ],
+    "dashboard": {
+      "badge": "PREMIUM FEATURE",
+      "title": "Your Own Dashboard",
+      "subtitle": "Centralized control and insight into all your AI voice agents from one place",
+      "items": [
+        {
+          "title": "Unlimited AI Voice Agents",
+          "description": "Scale your operations without limits. Easily manage multiple client accounts from one centralized dashboard."
+        },
+        {
+          "title": "Automatic Booking",
+          "description": "Streamline your scheduling with AI-powered booking. Every appointment syncs directly to your calendar with a detailed summary."
+        },
+        {
+          "title": "Recording & Transcription",
+          "description": "Record and convert every conversation to text for easy reference. Listen to every call and view full transcripts."
+        },
+        {
+          "title": "Superior Noise Reduction",
+          "description": "Ensure crystal-clear conversations with advanced audio processing. Your customers only hear professional, clear audio."
+        },
+        {
+          "title": "Train in 10 Seconds",
+          "description": "Quickly adapt the AI's behavior using existing recordings or a ready-made script. No technical knowledge required."
+        },
+        {
+          "title": "Intelligent Calendar Integration",
+          "description": "Every booking is added automatically to your calendar with notes on the call summary, appointment time and customer details."
+        }
+      ],
+      "cta": {
+        "title": "Ready to get started?",
+        "description": "Maximize your customers' bookings with our AI-powered, ultra-realistic voice calling service, working around the clock to keep their calendars fully booked.",
+        "button": "Book Your Free Demo"
+      }
     },
-    "smart_booking": {
-      "title": "Smart Booking",
-      "description": "Automatic calendar management and appointment confirmation"
-    },
-    "crm_integration": {
-      "title": "CRM Integration",
-      "description": "Seamlessly syncs with your existing systems"
-    },
-    "analytics": {
-      "title": "Analytics & Reports",
-      "description": "Detailed insights into all customer contacts"
+    "industry": {
+      "title": "Perfect for clinics and service businesses",
+      "description": "Whether you run a dental clinic, hair salon, massage clinic or another service business, our AI solution is tailored to your exact needs.",
+      "bullets": [
+        "Handles complex booking scenarios",
+        "Integration with popular booking systems",
+        "Tailored to your specific industry and workflows"
+      ],
+      "stats": [
+        {
+          "label": "Average time saved",
+          "value": "10+ hours/week"
+        },
+        {
+          "label": "Customer satisfaction",
+          "value": "98%"
+        },
+        {
+          "label": "Reduction in no-shows",
+          "value": "65%"
+        }
+      ]
     }
   },
   "pricing": {
-    "title": "Transparent Pricing",
-    "subtitle": "Choose the plan that fits your business",
-    "starter": {
-      "name": "Starter",
-      "price": "499",
-      "period": "/month",
-      "description": "Perfect for small businesses",
-      "features": {
-        "calls": "Up to 100 calls/month",
-        "booking": "Booking integration",
-        "support": "Email support",
-        "analytics": "Basic analytics"
-      }
-    },
-    "professional": {
-      "name": "Professional",
-      "price": "999",
-      "period": "/month",
-      "description": "For growing businesses",
-      "features": {
-        "calls": "Up to 500 calls/month",
-        "booking": "Advanced booking",
-        "support": "Priority support",
-        "analytics": "Advanced analytics",
-        "crm": "CRM integration"
+    "badge": "Transparent Pricing",
+    "title": "Choose your package",
+    "subtitle": "Tailored packages designed for businesses of all sizes",
+    "most_popular_badge": "Most Popular",
+    "free_label": "Free",
+    "currency_suffix": "/mo",
+    "setup_note": "One-time fee of {{setup}} kr for setup and onboarding",
+    "after_order_note": "After ordering, you'll receive a calendar link to book a time for setup.",
+    "cta_demo": "Try for free",
+    "cta_order": "Order package and book onboarding",
+    "plans": [
+      {
+        "name": "Demo",
+        "description": "Try free for 7 days incl. 75 minutes of talk time – see how much time you free up for other tasks and more customers",
+        "minutes": "Free for 7 days · 75 min talk time",
+        "features": [
+          "75 minutes of AI talk time",
+          "Basic voice customization",
+          "Analytics dashboard",
+          "You provide your current business phone number for the trial period, so the AI can answer real calls",
+          "Option to upgrade to the Starter package"
+        ]
       },
-      "popular": "Most Popular"
-    },
-    "enterprise": {
-      "name": "Enterprise",
-      "price": "Contact us",
-      "period": "",
-      "description": "For large organizations",
-      "features": {
-        "calls": "Unlimited calls",
-        "booking": "Full customization",
-        "support": "Dedicated account manager",
-        "analytics": "Custom reports",
-        "crm": "Enterprise integration",
-        "sla": "SLA guarantee"
+      {
+        "name": "Starter",
+        "description": "Perfect for small businesses getting started with AI",
+        "minutes": "200 minutes",
+        "features": [
+          "200 AI call minutes",
+          "Basic voice customization",
+          "Standard support",
+          "Analytics dashboard",
+          "Email notifications"
+        ]
+      },
+      {
+        "name": "Professional",
+        "description": "Ideal for growing businesses with regular call volume",
+        "minutes": "600 minutes",
+        "features": [
+          "600 AI call minutes",
+          "Advanced voice customization",
+          "Priority support",
+          "Advanced analytics",
+          "Custom integrations",
+          "SMS reminders",
+          "Customer history"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "description": "For organizations that need maximum flexibility",
+        "minutes": "2000 minutes",
+        "features": [
+          "2000 AI call minutes",
+          "Full voice customization",
+          "24/7 dedicated support",
+          "Custom AI training",
+          "API access",
+          "Dedicated success manager",
+          "Unlimited integrations",
+          "GDPR compliance support"
+        ]
       }
-    },
-    "cta": "Get Started",
-    "contact": "Contact Sales"
+    ],
+    "additionalPrices": {
+      "title": "Other prices",
+      "toggle_label": "See other prices",
+      "setup": {
+        "title": "Setup",
+        "value": "2x subscription price",
+        "note": "(one-time fee)"
+      },
+      "maintenance": {
+        "title": "Monthly maintenance and prompting",
+        "optional_label": "(optional)",
+        "description": "We handle maintenance and continuously help optimize prompts so accurate, relevant answers are given. It saves you time and ensures an even better experience for your customers and staff.",
+        "price": "2,995 kr/mo"
+      },
+      "hourly": {
+        "title": "Hourly rate for ad hoc tasks",
+        "prompting_label": "Prompting/training",
+        "prompting_price": "695 kr/hour",
+        "development_label": "Development",
+        "development_price": "1,100 kr/hour"
+      }
+    }
   },
   "cta_section": {
-    "title": "Ready To Get Started?",
-    "subtitle": "Try Aibooking.dk free for 14 days. No credit card required.",
-    "button": "Start Free Trial"
+    "title": "Ready to get started?",
+    "subtitle": "Try free for 7 days incl. 75 minutes of talk time. See how much time you free up for other tasks — and maybe more customers.",
+    "trial_button": "Start your 7-day free trial",
+    "button": "Book an Intro Call"
   },
   "footer": {
     "description": "Automate your bookings and customer service with intelligent AI technology.",
@@ -209,14 +344,38 @@
     "price_note1": "Includes 150 minutes of talk time (approx. 6.66 DKK/minute)",
     "price_note2": "The package renews automatically once the 150 minutes are used",
     "features": [
-      { "bold": "Voice AI bot", "rest": " - customers talk directly with the AI" },
-      { "bold": "", "rest": "Answers questions and handles bookings" },
-      { "bold": "", "rest": "Bookings go straight into your calendar" },
-      { "bold": "", "rest": "Available 24/7 on your website" },
-      { "bold": "", "rest": "150 minutes of talk time included" },
-      { "bold": "Pay only for active talk time", "rest": " - no hourly fee" },
-      { "bold": "Open 24/7, 365 days a year", "rest": " - always ready" },
-      { "bold": "", "rest": "Handles customers even when you're busy" }
+      {
+        "bold": "Voice AI bot",
+        "rest": " - customers talk directly with the AI"
+      },
+      {
+        "bold": "",
+        "rest": "Answers questions and handles bookings"
+      },
+      {
+        "bold": "",
+        "rest": "Bookings go straight into your calendar"
+      },
+      {
+        "bold": "",
+        "rest": "Available 24/7 on your website"
+      },
+      {
+        "bold": "",
+        "rest": "150 minutes of talk time included"
+      },
+      {
+        "bold": "Pay only for active talk time",
+        "rest": " - no hourly fee"
+      },
+      {
+        "bold": "Open 24/7, 365 days a year",
+        "rest": " - always ready"
+      },
+      {
+        "bold": "",
+        "rest": "Handles customers even when you're busy"
+      }
     ],
     "cta": "See the AI Widget in action",
     "demo_widget_label": "AI Booking Assistant",

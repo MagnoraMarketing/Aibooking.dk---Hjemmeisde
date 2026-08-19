@@ -34,7 +34,7 @@ function HomePage({ onNavigate }: HomePageProps) {
       <Navigation onNavigate={onNavigate} />
       <Hero onNavigate={onNavigate} />
       <ReceptionistShowcase onNavigate={onNavigate} />
-      <Features onNavigate={onNavigate} />
+      <Features />
       <Pricing />
       <WidgetPricing />
       <CTA />

@@ -19,10 +19,22 @@
     "booking_badge_sub": "Via le voice widget – à l'instant"
   },
   "stats": [
-    { "value": "24/7", "label": "Toujours disponible" },
-    { "value": "< 5 min", "label": "Pour démarrer" },
-    { "value": "150 min", "label": "Temps de parole inclus" },
-    { "value": "999 kr", "label": "Par mois" }
+    {
+      "value": "24/7",
+      "label": "Toujours disponible"
+    },
+    {
+      "value": "< 5 min",
+      "label": "Pour démarrer"
+    },
+    {
+      "value": "150 min",
+      "label": "Temps de parole inclus"
+    },
+    {
+      "value": "999 kr",
+      "label": "Par mois"
+    }
   ],
   "whatIs": {
     "title": "Qu'est-ce qu'un AI voice widget ?",
@@ -34,42 +46,101 @@
     "para2_strong": "sans aucune intervention humaine",
     "para2_post": ".",
     "para3": "C'est comme avoir une réceptionniste qui ne dort jamais, n'est jamais malade et reste toujours professionnelle – pour une fraction du prix.",
-    "chips": ["Vocal", "Chat texte", "Réservation automatique", "Multilingue"]
+    "chips": [
+      "Vocal",
+      "Chat texte",
+      "Réservation automatique",
+      "Multilingue"
+    ]
   },
   "howItWorks": {
     "title": "Comment fonctionne le AI voice widget",
     "subtitle": "De l'installation à la réservation automatique – un processus simple en trois étapes",
     "steps": [
-      { "title": "Installez le widget", "description": "Vous recevez un simple extrait de code JavaScript. Ajoutez-le à votre site web – compatible avec WordPress, Shopify, Wix et toutes les autres plateformes. Aucune connaissance technique requise." },
-      { "title": "Les clients parlent avec l'IA", "description": "Les visiteurs de votre site web cliquent sur le widget et parlent directement avec votre assistant IA personnel. L'IA comprend le danois et répond aux questions sur votre entreprise." },
-      { "title": "Les réservations arrivent automatiquement", "description": "Les rendez-vous et réservations sont enregistrés directement dans votre calendrier. Vous recevez une confirmation et le client reçoit automatiquement un reçu – sans que vous n'ayez rien à faire." }
+      {
+        "title": "Installez le widget",
+        "description": "Vous recevez un simple extrait de code JavaScript. Ajoutez-le à votre site web – compatible avec WordPress, Shopify, Wix et toutes les autres plateformes. Aucune connaissance technique requise."
+      },
+      {
+        "title": "Les clients parlent avec l'IA",
+        "description": "Les visiteurs de votre site web cliquent sur le widget et parlent directement avec votre assistant IA personnel. L'IA comprend le danois et répond aux questions sur votre entreprise."
+      },
+      {
+        "title": "Les réservations arrivent automatiquement",
+        "description": "Les rendez-vous et réservations sont enregistrés directement dans votre calendrier. Vous recevez une confirmation et le client reçoit automatiquement un reçu – sans que vous n'ayez rien à faire."
+      }
     ]
   },
   "features": {
     "title": "Des fonctionnalités qui font la différence",
     "subtitle": "Tout ce dont vous avez besoin pour la réservation automatique et le service client par IA",
     "items": [
-      { "title": "Reconnaissance vocale naturelle", "description": "Comprend le danois parlé naturellement – les clients n'ont pas besoin de parler par commandes. L'IA suit la conversation et pose des questions de relance." },
-      { "title": "Intégration directe au calendrier", "description": "Se synchronise avec Google Calendar, Outlook et d'autres systèmes de calendrier. Aucune double réservation, aucune saisie manuelle." },
-      { "title": "Disponibilité 24h/24 et 7j/7", "description": "Votre assistant IA travaille en continu – y compris en dehors des heures d'ouverture, le week-end et les jours fériés." },
-      { "title": "Voix et texte", "description": "Les clients peuvent choisir de parler ou d'écrire. Le widget prend en charge les deux formats et répond de la même manière." },
-      { "title": "Conforme au RGPD", "description": "Toutes les données sont traitées en toute sécurité et conformément au RGPD. Vous gardez le contrôle total sur les données de vos clients." },
-      { "title": "IA multilingue", "description": "Le widget prend en charge le danois et de nombreuses autres langues. L'IA s'adapte automatiquement à la langue parlée par le client." },
-      { "title": "Mise en place ultra-rapide", "description": "De la commande à un widget actif sur votre site web, il faut moins de 5 minutes. Aucun développeur nécessaire." },
-      { "title": "Adapté à votre entreprise", "description": "L'assistant IA connaît votre entreprise, vos services et vos horaires d'ouverture – des réponses parfaitement adaptées à votre activité." },
-      { "title": "Payez uniquement l'activité", "description": "Vous ne payez que le temps de parole actif – pas les temps d'attente ni les pauses. Une solution bien plus économique qu'un employé à temps partiel." }
+      {
+        "title": "Reconnaissance vocale naturelle",
+        "description": "Comprend le danois parlé naturellement – les clients n'ont pas besoin de parler par commandes. L'IA suit la conversation et pose des questions de relance."
+      },
+      {
+        "title": "Intégration directe au calendrier",
+        "description": "Se synchronise avec Google Calendar, Outlook et d'autres systèmes de calendrier. Aucune double réservation, aucune saisie manuelle."
+      },
+      {
+        "title": "Disponibilité 24h/24 et 7j/7",
+        "description": "Votre assistant IA travaille en continu – y compris en dehors des heures d'ouverture, le week-end et les jours fériés."
+      },
+      {
+        "title": "Voix et texte",
+        "description": "Les clients peuvent choisir de parler ou d'écrire. Le widget prend en charge les deux formats et répond de la même manière."
+      },
+      {
+        "title": "Conforme au RGPD",
+        "description": "Toutes les données sont traitées en toute sécurité et conformément au RGPD. Vous gardez le contrôle total sur les données de vos clients."
+      },
+      {
+        "title": "IA multilingue",
+        "description": "Le widget prend en charge le danois et de nombreuses autres langues. L'IA s'adapte automatiquement à la langue parlée par le client."
+      },
+      {
+        "title": "Mise en place ultra-rapide",
+        "description": "De la commande à un widget actif sur votre site web, il faut moins de 5 minutes. Aucun développeur nécessaire."
+      },
+      {
+        "title": "Adapté à votre entreprise",
+        "description": "L'assistant IA connaît votre entreprise, vos services et vos horaires d'ouverture – des réponses parfaitement adaptées à votre activité."
+      },
+      {
+        "title": "Payez uniquement l'activité",
+        "description": "Vous ne payez que le temps de parole actif – pas les temps d'attente ni les pauses. Une solution bien plus économique qu'un employé à temps partiel."
+      }
     ]
   },
   "useCases": {
     "title": "Qui utilise le AI voice widget ?",
     "subtitle": "Parfait pour toute entreprise qui reçoit des réservations et des demandes clients en ligne",
     "items": [
-      { "label": "Cliniques", "desc": "Réservation des patients automatisée" },
-      { "label": "Artisans", "desc": "Chantiers et rendez-vous réservés" },
-      { "label": "Consultants", "desc": "Rendez-vous directement dans le calendrier" },
-      { "label": "Salons", "desc": "Créneaux réservés automatiquement" },
-      { "label": "Dentistes", "desc": "Gestion des patients 24h/24" },
-      { "label": "E-commerce", "desc": "Service client sans interruption" }
+      {
+        "label": "Cliniques",
+        "desc": "Réservation des patients automatisée"
+      },
+      {
+        "label": "Artisans",
+        "desc": "Chantiers et rendez-vous réservés"
+      },
+      {
+        "label": "Consultants",
+        "desc": "Rendez-vous directement dans le calendrier"
+      },
+      {
+        "label": "Salons",
+        "desc": "Créneaux réservés automatiquement"
+      },
+      {
+        "label": "Dentistes",
+        "desc": "Gestion des patients 24h/24"
+      },
+      {
+        "label": "E-commerce",
+        "desc": "Service client sans interruption"
+      }
     ],
     "roi": {
       "title": "ROI type d'un AI voice widget",
@@ -77,9 +148,18 @@
       "desc_strong": "la même fonctionnalité",
       "desc_post": " – mais 24 heures sur 24, 7 jours sur 7.",
       "stats": [
-        { "value": "95%", "label": "D'économies vs. une réceptionniste" },
-        { "value": "0 sec", "label": "Temps d'attente pour les clients" },
-        { "value": "100%", "label": "Réservations automatisées" }
+        {
+          "value": "95%",
+          "label": "D'économies vs. une réceptionniste"
+        },
+        {
+          "value": "0 sec",
+          "label": "Temps d'attente pour les clients"
+        },
+        {
+          "value": "100%",
+          "label": "Réservations automatisées"
+        }
       ]
     }
   },
@@ -129,11 +209,13 @@
     "plans": [
       {
         "name": "Demo",
-        "description": "Pour découvrir notre plateforme et tester la configuration vous-même",
-        "minutes": "Actif pendant 7 jours",
+        "description": "Essayez gratuitement pendant 7 jours, incl. 75 minutes de temps de parole – découvrez le temps que vous libérez pour d'autres tâches et plus de clients",
+        "minutes": "Gratuit pendant 7 jours · 75 min de temps de parole",
         "features": [
+          "75 minutes de temps de parole IA",
           "Personnalisation vocale de base",
           "Dashboard d'analyse",
+          "Vous mettez le numéro de téléphone actuel de votre entreprise à disposition pendant la période d'essai, afin que l'IA puisse répondre à de vrais appels",
           "Possibilité de passer au forfait Starter"
         ],
         "cta": "Essayer gratuitement"

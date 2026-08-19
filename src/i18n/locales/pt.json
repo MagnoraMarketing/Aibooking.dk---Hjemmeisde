@@ -7,10 +7,22 @@
     "features": "Funcionalidades",
     "industries": "Setores",
     "industries_menu": {
-      "healthcare": { "name": "Clínicas", "description": "Médicos, dentistas, fisioterapeutas" },
-      "craftsman": { "name": "Artesãos", "description": "Canalizadores, eletricistas, carpinteiros, pintores" },
-      "office": { "name": "Escritório & Negócios", "description": "Advogados, contabilistas, consultores" },
-      "ecommerce": { "name": "E-commerce & Loja Online", "description": "Lojas online e negócios digitais" }
+      "healthcare": {
+        "name": "Clínicas",
+        "description": "Médicos, dentistas, fisioterapeutas"
+      },
+      "craftsman": {
+        "name": "Artesãos",
+        "description": "Canalizadores, eletricistas, carpinteiros, pintores"
+      },
+      "office": {
+        "name": "Escritório & Negócios",
+        "description": "Advogados, contabilistas, consultores"
+      },
+      "ecommerce": {
+        "name": "E-commerce & Loja Online",
+        "description": "Lojas online e negócios digitais"
+      }
     },
     "see_all_industries": "Ver todos os setores →",
     "integrations": "Integrações",
@@ -44,75 +56,198 @@
     }
   },
   "features": {
-    "title": "Funcionalidades Poderosas Para o Seu Negócio",
-    "subtitle": "Tudo o que precisa para automatizar a comunicação com os clientes",
-    "ai_receptionist": {
-      "title": "Recepcionista Telefónica com IA",
-      "description": "Atende chamadas 24/7 com voz natural"
+    "badge": "Funcionalidades Poderosas",
+    "title_line1": "Tudo o que precisa para",
+    "title_line2": "automatizar marcações",
+    "subtitle": "A nossa solução de IA foi criada especificamente para clínicas e empresas de serviços",
+    "items": [
+      {
+        "title": "Gestão Inteligente de Chamadas",
+        "description": "A IA atende todas as chamadas recebidas, compreende as necessidades do cliente e trata as marcações de forma profissional — como uma receção experiente."
+      },
+      {
+        "title": "Integração Automática de Calendário",
+        "description": "Sincroniza diretamente com o seu sistema de marcações existente. Sem marcações duplicadas, sem conflitos."
+      },
+      {
+        "title": "Conversa Natural",
+        "description": "A compreensão avançada de linguagem torna a conversa natural e agradável para os seus clientes."
+      },
+      {
+        "title": "Análise Detalhada",
+        "description": "Visão completa de todas as chamadas, marcações e interações com clientes num painel claro."
+      },
+      {
+        "title": "Histórico de Clientes",
+        "description": "A IA lembra-se de clientes anteriores e das suas preferências para uma experiência personalizada de cada vez."
+      },
+      {
+        "title": "Lembretes Automáticos",
+        "description": "Envie lembretes automáticos aos clientes sobre próximas consultas e reduza as faltas."
+      },
+      {
+        "title": "Acompanhamento Instantâneo",
+        "description": "SMS e emails de acompanhamento automáticos após cada chamada e consulta."
+      },
+      {
+        "title": "Seguro e Conforme o RGPD",
+        "description": "Todos os dados são tratados com segurança e em conformidade com a legislação aplicável."
+      }
+    ],
+    "dashboard": {
+      "badge": "FUNCIONALIDADE PREMIUM",
+      "title": "O Seu Próprio Painel",
+      "subtitle": "Controlo centralizado e visibilidade sobre todos os seus agentes de voz de IA num só lugar",
+      "items": [
+        {
+          "title": "Agentes de Voz de IA Ilimitados",
+          "description": "Escale as suas operações sem limites. Gira facilmente várias contas de clientes a partir de um painel centralizado."
+        },
+        {
+          "title": "Marcação Automática",
+          "description": "Simplifique a sua agenda com marcações orientadas por IA. Cada consulta sincroniza diretamente com o seu calendário com um resumo detalhado."
+        },
+        {
+          "title": "Gravação e Transcrição",
+          "description": "Grave e converta cada conversa em texto para consulta fácil. Ouça todas as chamadas e veja transcrições completas."
+        },
+        {
+          "title": "Redução de Ruído Superior",
+          "description": "Garanta conversas cristalinas com processamento de áudio avançado. Os seus clientes ouvem apenas áudio profissional e claro."
+        },
+        {
+          "title": "Treine em 10 Segundos",
+          "description": "Adapte rapidamente o comportamento da IA usando gravações existentes ou um guião pronto. Sem conhecimentos técnicos necessários."
+        },
+        {
+          "title": "Integração Inteligente de Calendário",
+          "description": "Cada marcação é adicionada automaticamente ao seu calendário com notas sobre o resumo da chamada, horário e dados do cliente."
+        }
+      ],
+      "cta": {
+        "title": "Pronto para começar?",
+        "description": "Maximize as marcações dos seus clientes com o nosso serviço de chamadas de voz por IA, ultra-realista, que trabalha 24 horas por dia para manter os calendários sempre cheios.",
+        "button": "Marque a Sua Demonstração Gratuita"
+      }
     },
-    "smart_booking": {
-      "title": "Marcações Inteligentes",
-      "description": "Gestão automática de calendário e confirmação de marcações"
-    },
-    "crm_integration": {
-      "title": "Integração com CRM",
-      "description": "Sincroniza sem esforço com os seus sistemas existentes"
-    },
-    "analytics": {
-      "title": "Análises e Relatórios",
-      "description": "Informações detalhadas sobre todos os contactos com clientes"
+    "industry": {
+      "title": "Perfeito para clínicas e empresas de serviços",
+      "description": "Quer geste uma clínica dentária, um salão de cabeleireiro, uma clínica de massagens ou outra empresa de serviços, a nossa solução de IA é adaptada às suas necessidades específicas.",
+      "bullets": [
+        "Gere cenários de marcação complexos",
+        "Integração com sistemas de marcação populares",
+        "Adaptado ao seu setor e fluxos de trabalho específicos"
+      ],
+      "stats": [
+        {
+          "label": "Poupança média de tempo",
+          "value": "10+ horas/semana"
+        },
+        {
+          "label": "Satisfação do cliente",
+          "value": "98%"
+        },
+        {
+          "label": "Redução de faltas",
+          "value": "65%"
+        }
+      ]
     }
   },
   "pricing": {
-    "title": "Preços Transparentes",
-    "subtitle": "Escolha o plano ideal para o seu negócio",
-    "starter": {
-      "name": "Starter",
-      "price": "499",
-      "period": "/mês",
-      "description": "Perfeito para pequenas empresas",
-      "features": {
-        "calls": "Até 100 chamadas/mês",
-        "booking": "Integração de marcações",
-        "support": "Suporte por email",
-        "analytics": "Análises básicas"
-      }
-    },
-    "professional": {
-      "name": "Professional",
-      "price": "999",
-      "period": "/mês",
-      "description": "Para empresas em crescimento",
-      "features": {
-        "calls": "Até 500 chamadas/mês",
-        "booking": "Marcações avançadas",
-        "support": "Suporte prioritário",
-        "analytics": "Análises avançadas",
-        "crm": "Integração com CRM"
+    "badge": "Preços Transparentes",
+    "title": "Escolha o seu pacote",
+    "subtitle": "Pacotes personalizados criados para empresas de todas as dimensões",
+    "most_popular_badge": "Mais Popular",
+    "free_label": "Grátis",
+    "currency_suffix": "kr/mês",
+    "setup_note": "Taxa única de {{setup}} kr para configuração e onboarding",
+    "after_order_note": "Após a encomenda, recebe um link de calendário para marcar a configuração.",
+    "cta_demo": "Experimentar grátis",
+    "cta_order": "Encomendar pacote e marcar Onboarding",
+    "plans": [
+      {
+        "name": "Demo",
+        "description": "Experimente grátis durante 7 dias, incl. 75 minutos de conversa – veja quanto tempo liberta para outras tarefas e mais clientes",
+        "minutes": "Grátis durante 7 dias · 75 min de conversa",
+        "features": [
+          "75 minutos de conversa com IA",
+          "Personalização de voz básica",
+          "Dashboard de análise",
+          "Disponibiliza o número de telefone atual da sua empresa durante o período de teste, para a IA poder atender chamadas reais",
+          "Possibilidade de upgrade para o pacote Starter"
+        ]
       },
-      "popular": "Mais Popular"
-    },
-    "enterprise": {
-      "name": "Enterprise",
-      "price": "Contacte-nos",
-      "period": "",
-      "description": "Para grandes organizações",
-      "features": {
-        "calls": "Chamadas ilimitadas",
-        "booking": "Personalização total",
-        "support": "Gestor de conta dedicado",
-        "analytics": "Relatórios personalizados",
-        "crm": "Integração empresarial",
-        "sla": "Garantia de SLA"
+      {
+        "name": "Starter",
+        "description": "Perfeito para pequenas empresas que querem começar com IA",
+        "minutes": "200 minutos",
+        "features": [
+          "200 minutos de chamadas de IA",
+          "Personalização de voz básica",
+          "Suporte padrão",
+          "Dashboard de análise",
+          "Notificações por email"
+        ]
+      },
+      {
+        "name": "Professional",
+        "description": "Ideal para empresas em crescimento com volume regular de chamadas",
+        "minutes": "600 minutos",
+        "features": [
+          "600 minutos de chamadas de IA",
+          "Personalização de voz avançada",
+          "Suporte prioritário",
+          "Análise avançada",
+          "Integrações personalizadas",
+          "Lembretes por SMS",
+          "Histórico de clientes"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "description": "Para organizações que necessitam de máxima flexibilidade",
+        "minutes": "2000 minutos",
+        "features": [
+          "2000 minutos de chamadas de IA",
+          "Personalização de voz completa",
+          "Suporte dedicado 24/7",
+          "Treino de IA personalizado",
+          "Acesso à API",
+          "Gestor de sucesso dedicado",
+          "Integrações ilimitadas",
+          "Suporte à conformidade RGPD"
+        ]
       }
-    },
-    "cta": "Começar Agora",
-    "contact": "Contactar Vendas"
+    ],
+    "additionalPrices": {
+      "title": "Outros preços",
+      "toggle_label": "Ver outros preços",
+      "setup": {
+        "title": "Configuração",
+        "value": "2x o preço da subscrição",
+        "note": "(pagamento único)"
+      },
+      "maintenance": {
+        "title": "Manutenção mensal e prompting",
+        "optional_label": "(opcional)",
+        "description": "Tratamos da manutenção e ajudamos continuamente a otimizar os prompts para dar respostas precisas e relevantes. Isto poupa-lhe tempo e garante uma experiência ainda melhor para os seus clientes e equipa.",
+        "price": "2.995 kr/mês"
+      },
+      "hourly": {
+        "title": "Preço por hora para tarefas pontuais",
+        "prompting_label": "Prompting/treino",
+        "prompting_price": "695 kr/hora",
+        "development_label": "Desenvolvimento",
+        "development_price": "1.100 kr/hora"
+      }
+    }
   },
   "cta_section": {
-    "title": "Pronto Para Começar?",
-    "subtitle": "Experimente o Aibooking.dk grátis durante 14 dias. Sem cartão de crédito.",
-    "button": "Iniciar Período Gratuito"
+    "title": "Pronto para começar?",
+    "subtitle": "Experimente grátis durante 7 dias, incl. 75 minutos de conversa. Veja quanto tempo liberta para outras tarefas — e talvez mais clientes.",
+    "trial_button": "Comece o seu teste gratuito de 7 dias",
+    "button": "Marque uma Reunião Introdutória"
   },
   "footer": {
     "description": "Automatize as suas marcações e apoio ao cliente com tecnologia de IA inteligente.",
@@ -209,14 +344,38 @@
     "price_note1": "Inclui 150 minutos de conversa (aprox. 6,66 DKK/minuto)",
     "price_note2": "O pacote renova-se automaticamente quando os 150 minutos são utilizados",
     "features": [
-      { "bold": "Voice AI bot", "rest": " - os clientes falam diretamente com a IA" },
-      { "bold": "", "rest": "Responde a perguntas e gere marcações" },
-      { "bold": "", "rest": "As marcações vão diretamente para o seu calendário" },
-      { "bold": "", "rest": "Disponível 24/7 no seu website" },
-      { "bold": "", "rest": "150 minutos de conversa incluídos" },
-      { "bold": "Pague apenas pelo tempo de conversa ativo", "rest": " - sem tarifa horária" },
-      { "bold": "Aberto 24/7, 365 dias por ano", "rest": " - sempre pronto" },
-      { "bold": "", "rest": "Atende clientes mesmo quando está ocupado" }
+      {
+        "bold": "Voice AI bot",
+        "rest": " - os clientes falam diretamente com a IA"
+      },
+      {
+        "bold": "",
+        "rest": "Responde a perguntas e gere marcações"
+      },
+      {
+        "bold": "",
+        "rest": "As marcações vão diretamente para o seu calendário"
+      },
+      {
+        "bold": "",
+        "rest": "Disponível 24/7 no seu website"
+      },
+      {
+        "bold": "",
+        "rest": "150 minutos de conversa incluídos"
+      },
+      {
+        "bold": "Pague apenas pelo tempo de conversa ativo",
+        "rest": " - sem tarifa horária"
+      },
+      {
+        "bold": "Aberto 24/7, 365 dias por ano",
+        "rest": " - sempre pronto"
+      },
+      {
+        "bold": "",
+        "rest": "Atende clientes mesmo quando está ocupado"
+      }
     ],
     "cta": "Ver o AI Widget em ação",
     "demo_widget_label": "AI Booking Assistant",

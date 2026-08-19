@@ -104,7 +104,7 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
               ))}
             </div>
             <a
-              href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
+              href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-brand-900 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-brand-50 transition-all shadow-2xl inline-block"
@@ -124,7 +124,7 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
             {t('ctaSection.subtitle')}
           </p>
           <a
-            href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
+            href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-brand-900 px-12 py-6 rounded-2xl font-bold text-xl hover:bg-brand-50 transition-all shadow-2xl inline-block"

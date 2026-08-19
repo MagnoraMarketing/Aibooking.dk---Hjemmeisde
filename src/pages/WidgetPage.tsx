@@ -43,7 +43,7 @@ function PricingSection() {
 
   const plansText = t('pricing.plans', { returnObjects: true }) as PricingPlanText[];
   const planMeta = [
-    { price: '0', setup: '0', highlighted: false, isDemo: true, href: 'https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk' },
+    { price: '0', setup: '0', highlighted: false, isDemo: true, href: 'https://cal.com/magnora-marketing-30zqdm/onboarding-7-dage-prøve-periode' },
     { price: '999', setup: '1.998', highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
     { price: '2.499', setup: '4.998', highlighted: true, isDemo: false, href: 'https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01' },
     { price: '5.999', setup: '11.998', highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02' },
@@ -107,7 +107,7 @@ function PricingSection() {
                     <ArrowRight className="w-4 h-4" />
                   </a>
                   <a
-                    href="https://cal.com/ai-booking-mgtx8v/intro-voiceboot-aibooking.dk"
+                    href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-ink-100 text-ink-800 border border-ink-200 px-6 py-3.5 rounded-xl hover:bg-ink-200 transition-all font-semibold"
@@ -366,7 +366,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="https://cal.com/ai-booking-mgtx8v/intro-voiceboot-aibooking.dk"
+                    href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-brand-600 text-white px-8 py-4 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
@@ -597,7 +597,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href="https://cal.com/ai-booking-mgtx8v/intro-voiceboot-aibooking.dk"
+                    href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-white text-brand-600 px-8 py-4 rounded-xl hover:bg-brand-50 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"

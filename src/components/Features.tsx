@@ -1,52 +1,24 @@
-import { Phone, Calendar, BarChart3, MessageSquare, Users, Clock, Zap, Shield, LayoutDashboard, Headphones, Mic, Settings, FileText, CheckCircle } from 'lucide-react';
+import { Phone, Calendar, BarChart3, MessageSquare, Users, Clock, Zap, Shield, LayoutDashboard, Headphones, Mic, Settings, FileText } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
-interface FeaturesProps {
-  onNavigate?: (page: 'home' | 'email' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features') => void;
+interface TitleDescription {
+  title: string;
+  description: string;
 }
 
-function Features({ onNavigate }: FeaturesProps) {
-  const features = [
-    {
-      icon: Phone,
-      title: "Intelligent Opkaldstyring",
-      description: "AI'en tager alle indgående opkald, forstår kundens behov og håndterer bookinger professionelt – som en erfaren receptionist."
-    },
-    {
-      icon: Calendar,
-      title: "Automatisk Kalenderintegration",
-      description: "Synkroniserer direkte med dit eksisterende bookingsystem. Ingen dobbeltbookinger, ingen konflikter."
-    },
-    {
-      icon: MessageSquare,
-      title: "Naturlig Samtale",
-      description: "Avanceret dansk sprogforståelse gør samtalen naturlig og behagelig for dine kunder."
-    },
-    {
-      icon: BarChart3,
-      title: "Detaljeret Analyse",
-      description: "Fuldt overblik over alle opkald, bookinger og kundeinteraktioner i et overskueligt dashboard."
-    },
-    {
-      icon: Users,
-      title: "Kundehistorik",
-      description: "AI'en husker tidligere kunder og deres præferencer for en personlig oplevelse hver gang."
-    },
-    {
-      icon: Clock,
-      title: "Automatiske Påmindelser",
-      description: "Send automatiske påmindelser til kunder om kommende aftaler og reducér no-shows."
-    },
-    {
-      icon: Zap,
-      title: "Øjeblikkelig Opfølgning",
-      description: "Automatiske opfølgnings-SMS og emails efter hvert opkald og hver aftale."
-    },
-    {
-      icon: Shield,
-      title: "GDPR Sikker",
-      description: "Alle data håndteres sikkert og i overensstemmelse med dansk lovgivning."
-    }
-  ];
+function Features() {
+  const { t } = useTranslation();
+
+  const featureIcons = [Phone, Calendar, MessageSquare, BarChart3, Users, Clock, Zap, Shield];
+  const featureItems = t('features.items', { returnObjects: true }) as TitleDescription[];
+  const features = featureItems.map((item, i) => ({ ...item, icon: featureIcons[i] }));
+
+  const dashboardIcons = [Users, Calendar, Headphones, Mic, Settings, FileText];
+  const dashboardItemsText = t('features.dashboard.items', { returnObjects: true }) as TitleDescription[];
+  const dashboardItems = dashboardItemsText.map((item, i) => ({ ...item, icon: dashboardIcons[i] }));
+
+  const industryBullets = t('features.industry.bullets', { returnObjects: true }) as string[];
+  const industryStats = t('features.industry.stats', { returnObjects: true }) as { label: string; value: string }[];
 
   return (
     <section id="features" className="py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-white via-ink-50/40 to-white">
@@ -54,13 +26,13 @@ function Features({ onNavigate }: FeaturesProps) {
         <div className="text-center mb-20">
           <div className="inline-flex items-center space-x-2 bg-brand-50 text-brand-700 px-5 py-2.5 rounded-full mb-8 border border-brand-100">
             <Zap className="w-4 h-4" />
-            <span className="text-sm font-semibold">Kraftfulde Funktioner</span>
+            <span className="text-sm font-semibold">{t('features.badge')}</span>
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-ink-900 mb-6 tracking-tight">
-            Alt du behøver for at<br />automatisere bookinger
+            {t('features.title_line1')}<br />{t('features.title_line2')}
           </h2>
           <p className="text-xl text-ink-600 max-w-3xl mx-auto leading-relaxed">
-            Vores AI-løsning er bygget specifikt til danske klinikker og servicevirksomheder
+            {t('features.subtitle')}
           </p>
         </div>
 
@@ -91,93 +63,45 @@ function Features({ onNavigate }: FeaturesProps) {
             <div className="text-center mb-14">
               <div className="inline-flex items-center space-x-2 bg-brand-500/20 backdrop-blur-sm text-brand-200 px-5 py-2.5 rounded-full mb-8 border border-brand-400/30">
                 <LayoutDashboard className="w-5 h-5" />
-                <span className="text-sm font-bold tracking-wide">PREMIUM FEATURE</span>
+                <span className="text-sm font-bold tracking-wide">{t('features.dashboard.badge')}</span>
               </div>
               <h3 className="text-4xl md:text-5xl font-bold mb-6 leading-tight tracking-tight">
-                Eget Dashboard
+                {t('features.dashboard.title')}
               </h3>
               <p className="text-xl text-brand-100 max-w-3xl mx-auto leading-relaxed">
-                Centraliseret kontrol og indsigt i alle dine AI-voice agenter fra ét sted
+                {t('features.dashboard.subtitle')}
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all">
-                <div className="w-12 h-12 bg-brand-500/20 rounded-xl flex items-center justify-center mb-4">
-                  <Users className="w-6 h-6 text-brand-300" />
+              {dashboardItems.map((item, index) => (
+                <div key={index} className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all">
+                  <div className="w-12 h-12 bg-brand-500/20 rounded-xl flex items-center justify-center mb-4">
+                    <item.icon className="w-6 h-6 text-brand-300" />
+                  </div>
+                  <h4 className="text-xl font-bold mb-2 text-white">{item.title}</h4>
+                  <p className="text-brand-200 leading-relaxed">
+                    {item.description}
+                  </p>
                 </div>
-                <h4 className="text-xl font-bold mb-2 text-white">Unlimited AI Voice Agents</h4>
-                <p className="text-brand-200 leading-relaxed">
-                  Skaler dine operationer uden begrænsninger. Administrer nemt flere klientkonti fra ét centraliseret dashboard.
-                </p>
-              </div>
-
-              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all">
-                <div className="w-12 h-12 bg-brand-500/20 rounded-xl flex items-center justify-center mb-4">
-                  <Calendar className="w-6 h-6 text-brand-300" />
-                </div>
-                <h4 className="text-xl font-bold mb-2 text-white">Automatisk Booking</h4>
-                <p className="text-brand-200 leading-relaxed">
-                  Strømlin din planlægning med AI-drevet booking. Alle aftaler synkroniseres direkte til din kalender med detaljeret resume.
-                </p>
-              </div>
-
-              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all">
-                <div className="w-12 h-12 bg-brand-500/20 rounded-xl flex items-center justify-center mb-4">
-                  <Headphones className="w-6 h-6 text-brand-300" />
-                </div>
-                <h4 className="text-xl font-bold mb-2 text-white">Optagelse & Transkription</h4>
-                <p className="text-brand-200 leading-relaxed">
-                  Optag og konverter hver samtale til tekst for nem reference. Lyt til alle opkald og se komplette transskriptioner.
-                </p>
-              </div>
-
-              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all">
-                <div className="w-12 h-12 bg-brand-500/20 rounded-xl flex items-center justify-center mb-4">
-                  <Mic className="w-6 h-6 text-brand-300" />
-                </div>
-                <h4 className="text-xl font-bold mb-2 text-white">Overlegen Støjreduktion</h4>
-                <p className="text-brand-200 leading-relaxed">
-                  Sikr krystalklare samtaler med avanceret lydbehandling. Dine kunder hører kun professionel, klar lyd.
-                </p>
-              </div>
-
-              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all">
-                <div className="w-12 h-12 bg-brand-500/20 rounded-xl flex items-center justify-center mb-4">
-                  <Settings className="w-6 h-6 text-brand-300" />
-                </div>
-                <h4 className="text-xl font-bold mb-2 text-white">Træn på 10 Sekunder</h4>
-                <p className="text-brand-200 leading-relaxed">
-                  Tilpas AI-adfærd hurtigt ved at bruge eksisterende optagelser eller et færdigbygget script. Ingen teknisk viden krævet.
-                </p>
-              </div>
-
-              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all">
-                <div className="w-12 h-12 bg-brand-500/20 rounded-xl flex items-center justify-center mb-4">
-                  <FileText className="w-6 h-6 text-brand-300" />
-                </div>
-                <h4 className="text-xl font-bold mb-2 text-white">Intelligent Kalenderintegration</h4>
-                <p className="text-brand-200 leading-relaxed">
-                  Alle bookinger lægges automatisk i din kalender med noter om opkaldsresume, aftaletidspunkt og kundeoplysninger.
-                </p>
-              </div>
+              ))}
             </div>
 
             <div className="bg-gradient-to-r from-brand-500/20 to-brand-600/20 backdrop-blur-sm rounded-2xl p-8 border border-brand-400/30">
               <div className="flex flex-col md:flex-row items-center justify-between gap-6">
                 <div>
-                  <h4 className="text-2xl font-bold mb-2 text-white">Klar til at komme i gang?</h4>
+                  <h4 className="text-2xl font-bold mb-2 text-white">{t('features.dashboard.cta.title')}</h4>
                   <p className="text-brand-200 text-lg">
-                    Maximize your clients appointment bookings med vores AI-drevne, ultra-realistiske voice calling service, der arbejder 24/7 for at holde deres kalendere fuldt bookede.
+                    {t('features.dashboard.cta.description')}
                   </p>
                 </div>
                 <a
-                  href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
+                  href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white text-brand-900 px-8 py-4 rounded-xl font-bold text-lg hover:bg-brand-50 transition-all shadow-lg hover:shadow-xl transform hover:scale-[1.02] whitespace-nowrap inline-block"
                 >
-                  Book Din Gratis Demo
+                  {t('features.dashboard.cta.button')}
                 </a>
               </div>
             </div>
@@ -191,47 +115,33 @@ function Features({ onNavigate }: FeaturesProps) {
           <div className="grid md:grid-cols-2 gap-10 items-center relative z-10">
             <div>
               <h3 className="text-3xl md:text-4xl font-bold mb-5 leading-tight">
-                Perfekt til klinikker og servicevirksomheder
+                {t('features.industry.title')}
               </h3>
               <p className="text-brand-100 mb-8 leading-relaxed text-lg">
-                Uanset om du driver en tandlægeklinik, frisørsalon, massageklinik eller anden servicevirksomhed,
-                så er vores AI-løsning skræddersyet til netop dine behov.
+                {t('features.industry.description')}
               </p>
               <ul className="space-y-4">
-                <li className="flex items-start space-x-3">
-                  <div className="w-7 h-7 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-white text-sm font-bold">✓</span>
-                  </div>
-                  <span className="text-brand-50 text-lg">Håndterer komplekse bookingscenarier</span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <div className="w-7 h-7 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-white text-sm font-bold">✓</span>
-                  </div>
-                  <span className="text-brand-50 text-lg">Integration med populære bookingsystemer</span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <div className="w-7 h-7 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-white text-sm font-bold">✓</span>
-                  </div>
-                  <span className="text-brand-50 text-lg">Tilpasset jeres specifikke branché og arbejdsgange</span>
-                </li>
+                {industryBullets.map((bullet, index) => (
+                  <li key={index} className="flex items-start space-x-3">
+                    <div className="w-7 h-7 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <span className="text-white text-sm font-bold">✓</span>
+                    </div>
+                    <span className="text-brand-50 text-lg">{bullet}</span>
+                  </li>
+                ))}
               </ul>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20 shadow-xl">
               <div className="space-y-6">
-                <div className="flex items-center justify-between pb-5 border-b border-white/20">
-                  <span className="text-brand-100 text-lg">Gennemsnitlig besparelse</span>
-                  <span className="text-3xl font-bold">10+ timer/uge</span>
-                </div>
-                <div className="flex items-center justify-between pb-5 border-b border-white/20">
-                  <span className="text-brand-100 text-lg">Kundetilfredshed</span>
-                  <span className="text-3xl font-bold">98%</span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-brand-100 text-lg">Reducering af no-shows</span>
-                  <span className="text-3xl font-bold">65%</span>
-                </div>
+                {industryStats.map((stat, index) => (
+                  <div
+                    key={index}
+                    className={`flex items-center justify-between ${index < industryStats.length - 1 ? 'pb-5 border-b border-white/20' : ''}`}
+                  >
+                    <span className="text-brand-100 text-lg">{stat.label}</span>
+                    <span className="text-3xl font-bold">{stat.value}</span>
+                  </div>
+                ))}
               </div>
             </div>
           </div>

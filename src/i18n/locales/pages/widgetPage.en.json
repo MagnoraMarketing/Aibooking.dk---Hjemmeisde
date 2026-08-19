@@ -19,10 +19,22 @@
     "booking_badge_sub": "Via voice widget – just now"
   },
   "stats": [
-    { "value": "24/7", "label": "Always available" },
-    { "value": "< 5 min", "label": "To get started" },
-    { "value": "150 min", "label": "Talk time included" },
-    { "value": "999 kr", "label": "Per month" }
+    {
+      "value": "24/7",
+      "label": "Always available"
+    },
+    {
+      "value": "< 5 min",
+      "label": "To get started"
+    },
+    {
+      "value": "150 min",
+      "label": "Talk time included"
+    },
+    {
+      "value": "999 kr",
+      "label": "Per month"
+    }
   ],
   "whatIs": {
     "title": "What is an AI voice widget?",
@@ -34,42 +46,101 @@
     "para2_strong": "with no human involvement at all",
     "para2_post": ".",
     "para3": "It's like having a receptionist who never sleeps, never calls in sick, and is always professional – for a fraction of the cost.",
-    "chips": ["Voice-based", "Text chat", "Auto-booking", "Multilingual"]
+    "chips": [
+      "Voice-based",
+      "Text chat",
+      "Auto-booking",
+      "Multilingual"
+    ]
   },
   "howItWorks": {
     "title": "How the AI voice widget works",
     "subtitle": "From installation to automatic booking – a simple three-step process",
     "steps": [
-      { "title": "Install the widget", "description": "You get a simple JavaScript code snippet. Add it to your website – compatible with WordPress, Shopify, Wix, and every other platform. No technical knowledge required." },
-      { "title": "Customers talk to the AI", "description": "Visitors to your website click the widget and speak directly with your personal AI assistant. The AI understands Danish and answers questions about your business." },
-      { "title": "Bookings land automatically", "description": "Meetings and bookings are registered directly in your calendar. You receive a confirmation and the customer automatically gets a receipt – without you having to do anything." }
+      {
+        "title": "Install the widget",
+        "description": "You get a simple JavaScript code snippet. Add it to your website – compatible with WordPress, Shopify, Wix, and every other platform. No technical knowledge required."
+      },
+      {
+        "title": "Customers talk to the AI",
+        "description": "Visitors to your website click the widget and speak directly with your personal AI assistant. The AI understands Danish and answers questions about your business."
+      },
+      {
+        "title": "Bookings land automatically",
+        "description": "Meetings and bookings are registered directly in your calendar. You receive a confirmation and the customer automatically gets a receipt – without you having to do anything."
+      }
     ]
   },
   "features": {
     "title": "Features that make a difference",
     "subtitle": "Everything you need for automatic booking and customer service powered by AI",
     "items": [
-      { "title": "Natural speech recognition", "description": "Understands natural Danish speech – customers don't need to speak in commands. The AI follows the conversation and asks follow-up questions." },
-      { "title": "Direct calendar integration", "description": "Syncs with Google Calendar, Outlook, and other calendar systems. No double bookings, no manual entry." },
-      { "title": "24/7 availability", "description": "Your AI assistant works around the clock – including outside business hours, on weekends, and on public holidays." },
-      { "title": "Voice and text", "description": "Customers can choose to talk or type. The widget supports both input methods and responds the same way." },
-      { "title": "GDPR-compliant", "description": "All data is processed securely and in compliance with GDPR. You have full control over your customers' data." },
-      { "title": "Multilingual AI", "description": "The widget supports Danish and many other languages. The AI automatically adapts to the language the customer speaks." },
-      { "title": "Lightning-fast setup", "description": "From order to an active widget on your website takes under 5 minutes. No developers required." },
-      { "title": "Tailored to your business", "description": "The AI assistant knows your business, your services, and your opening hours – answers that fit your business precisely." },
-      { "title": "Pay only for activity", "description": "You only pay for active talk time – not for waiting or breaks. A far cheaper solution than a part-time employee." }
+      {
+        "title": "Natural speech recognition",
+        "description": "Understands natural Danish speech – customers don't need to speak in commands. The AI follows the conversation and asks follow-up questions."
+      },
+      {
+        "title": "Direct calendar integration",
+        "description": "Syncs with Google Calendar, Outlook, and other calendar systems. No double bookings, no manual entry."
+      },
+      {
+        "title": "24/7 availability",
+        "description": "Your AI assistant works around the clock – including outside business hours, on weekends, and on public holidays."
+      },
+      {
+        "title": "Voice and text",
+        "description": "Customers can choose to talk or type. The widget supports both input methods and responds the same way."
+      },
+      {
+        "title": "GDPR-compliant",
+        "description": "All data is processed securely and in compliance with GDPR. You have full control over your customers' data."
+      },
+      {
+        "title": "Multilingual AI",
+        "description": "The widget supports Danish and many other languages. The AI automatically adapts to the language the customer speaks."
+      },
+      {
+        "title": "Lightning-fast setup",
+        "description": "From order to an active widget on your website takes under 5 minutes. No developers required."
+      },
+      {
+        "title": "Tailored to your business",
+        "description": "The AI assistant knows your business, your services, and your opening hours – answers that fit your business precisely."
+      },
+      {
+        "title": "Pay only for activity",
+        "description": "You only pay for active talk time – not for waiting or breaks. A far cheaper solution than a part-time employee."
+      }
     ]
   },
   "useCases": {
     "title": "Who uses the AI voice widget?",
     "subtitle": "Perfect for any business that takes bookings and customer enquiries online",
     "items": [
-      { "label": "Clinics", "desc": "Patient booking automated" },
-      { "label": "Tradespeople", "desc": "Jobs and meetings get booked" },
-      { "label": "Consultants", "desc": "Meetings go straight into the calendar" },
-      { "label": "Salons", "desc": "Appointments booked automatically" },
-      { "label": "Dentists", "desc": "Patient handling 24/7" },
-      { "label": "E-commerce", "desc": "Non-stop customer service" }
+      {
+        "label": "Clinics",
+        "desc": "Patient booking automated"
+      },
+      {
+        "label": "Tradespeople",
+        "desc": "Jobs and meetings get booked"
+      },
+      {
+        "label": "Consultants",
+        "desc": "Meetings go straight into the calendar"
+      },
+      {
+        "label": "Salons",
+        "desc": "Appointments booked automatically"
+      },
+      {
+        "label": "Dentists",
+        "desc": "Patient handling 24/7"
+      },
+      {
+        "label": "E-commerce",
+        "desc": "Non-stop customer service"
+      }
     ],
     "roi": {
       "title": "Typical ROI for an AI voice widget",
@@ -77,9 +148,18 @@
       "desc_strong": "the same functionality",
       "desc_post": " – but 24 hours a day, 7 days a week.",
       "stats": [
-        { "value": "95%", "label": "Savings vs. a receptionist" },
-        { "value": "0 sec", "label": "Wait time for customers" },
-        { "value": "100%", "label": "Automated bookings" }
+        {
+          "value": "95%",
+          "label": "Savings vs. a receptionist"
+        },
+        {
+          "value": "0 sec",
+          "label": "Wait time for customers"
+        },
+        {
+          "value": "100%",
+          "label": "Automated bookings"
+        }
       ]
     }
   },
@@ -129,11 +209,13 @@
     "plans": [
       {
         "name": "Demo",
-        "description": "For you to see our platform and try out the setup yourself",
-        "minutes": "Active for 7 days",
+        "description": "Try free for 7 days incl. 75 minutes of talk time – see how much time you free up for other tasks and more customers",
+        "minutes": "Free for 7 days · 75 min talk time",
         "features": [
+          "75 minutes of AI talk time",
           "Basic voice customization",
           "Analytics dashboard",
+          "You provide your current business phone number for the trial period, so the AI can answer real calls",
           "Option to upgrade to the Starter package"
         ],
         "cta": "Try for free"

@@ -114,7 +114,7 @@ function DemoPage({ onNavigate }: DemoPageProps) {
             </div>
             <div className="p-12 text-center">
               <a
-                href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
+                href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-brand-600 text-white px-12 py-6 rounded-2xl font-bold text-xl hover:bg-brand-700 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
@@ -200,7 +200,7 @@ function DemoPage({ onNavigate }: DemoPageProps) {
                   {t('benefitsSection.ctaText')}
                 </p>
                 <a
-                  href="https://cal.com/aibooking-booking/intro-voiceagent-aibooking.dk"
+                  href="https://cal.com/magnora-marketing-30zqdm/intro-møde"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-white text-brand-900 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-brand-50 transition-all shadow-2xl hover:shadow-3xl transform hover:scale-105"

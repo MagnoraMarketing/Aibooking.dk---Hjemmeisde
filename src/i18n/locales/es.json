@@ -1,0 +1,407 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "benefits": "Ventajas",
+    "widget": "Widget de IA",
+    "pricing": "Precios",
+    "features": "Funciones",
+    "industries": "Sectores",
+    "industries_menu": {
+      "healthcare": {
+        "name": "Clínicas",
+        "description": "Médicos, dentistas, fisioterapeutas"
+      },
+      "craftsman": {
+        "name": "Oficios",
+        "description": "Fontaneros, electricistas, carpinteros, pintores"
+      },
+      "office": {
+        "name": "Oficina y Empresa",
+        "description": "Abogados, contables, consultores"
+      },
+      "ecommerce": {
+        "name": "E-commerce y Tienda Online",
+        "description": "Tiendas online y negocios digitales"
+      }
+    },
+    "see_all_industries": "Ver todos los sectores →",
+    "integrations": "Integraciones",
+    "demo": "Demo",
+    "contact": "Contacto",
+    "contact_us": "Contáctanos",
+    "about_us": "Sobre nosotros",
+    "book_demo": "Empezar",
+    "language": "Idioma",
+    "open_menu": "Abrir menú",
+    "close_menu": "Cerrar menú"
+  },
+  "hero": {
+    "badge": "Tu Recepcionista Virtual",
+    "title_line1": "¿Pasas horas en llamadas,",
+    "title_line2": "SMS y seguimientos?",
+    "subtitle": "Olvídate de la administración. Nuestra recepcionista de IA se encarga de todo — desde llamadas y mensajes hasta reservas y redes sociales. Ahorra más de 10 horas a la semana y céntrate en lo que mejor sabes hacer.",
+    "cta": "Empieza Gratis",
+    "secondary": "Ver Cómo Funciona",
+    "feature1": {
+      "title": "Disponibilidad 24/7",
+      "description": "Responde llamadas y mensajes en cualquier momento, incluso fuera del horario comercial"
+    },
+    "feature2": {
+      "title": "Reserva Automática",
+      "description": "Gestiona reservas, cambios y cancelaciones sin intervención humana"
+    },
+    "feature3": {
+      "title": "Ahorra más de 10 Horas/Semana",
+      "description": "Céntrate en tus tareas principales mientras la IA gestiona la administración"
+    }
+  },
+  "features": {
+    "badge": "Funciones Potentes",
+    "title_line1": "Todo lo que necesitas para",
+    "title_line2": "automatizar reservas",
+    "subtitle": "Nuestra solución de IA está diseñada específicamente para clínicas y empresas de servicios",
+    "items": [
+      {
+        "title": "Gestión Inteligente de Llamadas",
+        "description": "La IA atiende cada llamada entrante, entiende las necesidades del cliente y gestiona las reservas de forma profesional — como una recepcionista experimentada."
+      },
+      {
+        "title": "Integración Automática con el Calendario",
+        "description": "Se sincroniza directamente con tu sistema de reservas actual. Sin reservas duplicadas, sin conflictos."
+      },
+      {
+        "title": "Conversación Natural",
+        "description": "La comprensión avanzada del lenguaje hace que la conversación sea natural y agradable para tus clientes."
+      },
+      {
+        "title": "Análisis Detallado",
+        "description": "Visión completa de cada llamada, reserva e interacción con el cliente en un panel claro."
+      },
+      {
+        "title": "Historial de Clientes",
+        "description": "La IA recuerda a los clientes anteriores y sus preferencias para ofrecer una experiencia personal cada vez."
+      },
+      {
+        "title": "Recordatorios Automáticos",
+        "description": "Envía recordatorios automáticos a los clientes sobre próximas citas y reduce las ausencias."
+      },
+      {
+        "title": "Seguimiento Instantáneo",
+        "description": "SMS y correos electrónicos de seguimiento automáticos después de cada llamada y cita."
+      },
+      {
+        "title": "Seguro Según el RGPD",
+        "description": "Todos los datos se gestionan de forma segura y conforme a la normativa vigente."
+      }
+    ],
+    "dashboard": {
+      "badge": "FUNCIÓN PREMIUM",
+      "title": "Tu Propio Panel",
+      "subtitle": "Control centralizado y visión de todos tus agentes de voz con IA desde un solo lugar",
+      "items": [
+        {
+          "title": "Agentes de Voz con IA Ilimitados",
+          "description": "Escala tus operaciones sin límites. Gestiona fácilmente varias cuentas de clientes desde un panel centralizado."
+        },
+        {
+          "title": "Reserva Automática",
+          "description": "Optimiza tu programación con reservas impulsadas por IA. Cada cita se sincroniza directamente con tu calendario junto con un resumen detallado."
+        },
+        {
+          "title": "Grabación y Transcripción",
+          "description": "Graba y convierte cada conversación en texto para consultarla fácilmente. Escucha cada llamada y consulta las transcripciones completas."
+        },
+        {
+          "title": "Reducción de Ruido Superior",
+          "description": "Garantiza conversaciones cristalinas con un procesamiento de audio avanzado. Tus clientes solo escuchan un audio profesional y claro."
+        },
+        {
+          "title": "Entrena en 10 Segundos",
+          "description": "Adapta rápidamente el comportamiento de la IA usando grabaciones existentes o un guion ya preparado. No se requieren conocimientos técnicos."
+        },
+        {
+          "title": "Integración Inteligente con el Calendario",
+          "description": "Cada reserva se añade automáticamente a tu calendario con notas sobre el resumen de la llamada, la hora de la cita y los datos del cliente."
+        }
+      ],
+      "cta": {
+        "title": "¿Listo para empezar?",
+        "description": "Maximiza las reservas de tus clientes con nuestro servicio de llamadas de voz impulsado por IA, ultrarrealista, que funciona a cualquier hora para mantener sus calendarios siempre llenos.",
+        "button": "Reserva Tu Demo Gratuita"
+      }
+    },
+    "industry": {
+      "title": "Perfecto para clínicas y empresas de servicios",
+      "description": "Ya dirijas una clínica dental, una peluquería, una clínica de masajes u otra empresa de servicios, nuestra solución de IA se adapta exactamente a tus necesidades.",
+      "bullets": [
+        "Gestiona escenarios de reserva complejos",
+        "Integración con sistemas de reservas populares",
+        "Adaptado a tu sector y flujos de trabajo específicos"
+      ],
+      "stats": [
+        {
+          "label": "Tiempo medio ahorrado",
+          "value": "10+ horas/semana"
+        },
+        {
+          "label": "Satisfacción del cliente",
+          "value": "98%"
+        },
+        {
+          "label": "Reducción de ausencias",
+          "value": "65%"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "badge": "Precios Transparentes",
+    "title": "Elige tu paquete",
+    "subtitle": "Paquetes a medida diseñados para negocios de todos los tamaños",
+    "most_popular_badge": "Más Popular",
+    "free_label": "Gratis",
+    "currency_suffix": "€/mes",
+    "after_order_note": "Después de realizar el pedido, recibirás un enlace de calendario para reservar un horario de configuración.",
+    "cta_demo": "Probar gratis",
+    "cta_order": "Pedir paquete y reservar incorporación",
+    "plans": [
+      {
+        "name": "Demo",
+        "description": "Prueba gratis durante 7 días incl. 75 minutos de conversación – comprueba cuánto tiempo liberas para otras tareas y más clientes",
+        "minutes": "Gratis durante 7 días · 75 min de conversación",
+        "features": [
+          "75 minutos de conversación con IA",
+          "Personalización básica de voz",
+          "Panel de análisis",
+          "Aportas tu número de teléfono comercial actual para el periodo de prueba, para que la IA pueda responder llamadas reales",
+          "Opción de actualizar al paquete Starter"
+        ]
+      },
+      {
+        "name": "Starter",
+        "description": "Perfecto para pequeños negocios que empiezan con la IA",
+        "minutes": "200 minutos",
+        "features": [
+          "200 minutos de llamadas con IA",
+          "Personalización básica de voz",
+          "Soporte estándar",
+          "Panel de análisis",
+          "Notificaciones por correo electrónico"
+        ]
+      },
+      {
+        "name": "Professional",
+        "description": "Ideal para negocios en crecimiento con un volumen de llamadas regular",
+        "minutes": "600 minutos",
+        "features": [
+          "600 minutos de llamadas con IA",
+          "Personalización avanzada de voz",
+          "Soporte prioritario",
+          "Análisis avanzado",
+          "Integraciones personalizadas",
+          "Recordatorios por SMS",
+          "Historial de clientes"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "description": "Para organizaciones que necesitan la máxima flexibilidad",
+        "minutes": "2000 minutos",
+        "features": [
+          "2000 minutos de llamadas con IA",
+          "Personalización de voz completa",
+          "Soporte dedicado 24/7",
+          "Entrenamiento de IA personalizado",
+          "Acceso a la API",
+          "Gestor de éxito dedicado",
+          "Integraciones ilimitadas",
+          "Soporte para el cumplimiento del RGPD"
+        ]
+      }
+    ],
+    "additionalPrices": {
+      "title": "Otros precios",
+      "toggle_label": "Ver otros precios",
+      "setup": {
+        "title": "Configuración",
+        "value": "Complemento opcional – precio mostrado en cada paquete",
+        "note": "(pago único)"
+      },
+      "maintenance": {
+        "title": "Mantenimiento mensual y prompting",
+        "optional_label": "(opcional)",
+        "description": "Nos encargamos del mantenimiento y ayudamos continuamente a optimizar los prompts para ofrecer respuestas precisas y relevantes. Esto te ahorra tiempo y garantiza una experiencia aún mejor para tus clientes y tu personal.",
+        "price": "401€/mes"
+      },
+      "hourly": {
+        "title": "Tarifa por hora para tareas puntuales",
+        "prompting_label": "Prompting/entrenamiento",
+        "prompting_price": "93€/hora",
+        "development_label": "Desarrollo",
+        "development_price": "147€/hora"
+      }
+    },
+    "setup_note_optional": "Añadir configuración e incorporación – pago único de {{setup}}€, incl. 1 hora de soporte de seguimiento"
+  },
+  "cta_section": {
+    "title": "¿Listo para empezar?",
+    "subtitle": "Prueba gratis durante 7 días incl. 75 minutos de conversación. Comprueba cuánto tiempo liberas para otras tareas — y quizás más clientes.",
+    "trial_button": "Empieza tu prueba gratuita de 7 días",
+    "button": "Reservar una Llamada Introductoria"
+  },
+  "footer": {
+    "description": "Automatiza tus reservas y atención al cliente con tecnología de IA inteligente.",
+    "solutions": "Soluciones",
+    "ai_booking": "Reservas con IA",
+    "ai_widget": "Widget de IA",
+    "book_demo": "Reservar Demo",
+    "features": "Funciones",
+    "industries_title": "Sectores",
+    "healthcare": "Clínicas y Sanidad",
+    "craftsman": "Oficios",
+    "office": "Oficina y Empresa",
+    "ecommerce": "Tienda Online y E-commerce",
+    "blog_title": "Blog",
+    "all_articles": "Todos los Artículos",
+    "blog_ai_widget": "Widget de IA",
+    "blog_inbound_outbound": "IA de Llamadas Entrantes/Salientes",
+    "blog_total_solution": "Solución Total de IA",
+    "company": "Empresa",
+    "about": "Sobre nosotros",
+    "contact": "Contacto",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos y Condiciones",
+    "contact_title": "Contacto",
+    "address": "Aarhus, Dinamarca",
+    "rights": "Todos los derechos reservados",
+    "made_by": "Creado y gestionado por"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Estamos aquí para ayudarte a automatizar tu negocio",
+    "form": {
+      "name": "Tu nombre",
+      "email": "Tu correo electrónico",
+      "phone": "Número de teléfono",
+      "company": "Empresa",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias por tu mensaje! Te responderemos lo antes posible.",
+      "error": "Se ha producido un error. Por favor, inténtalo de nuevo."
+    }
+  },
+  "about": {
+    "title": "Sobre Aibooking.dk",
+    "subtitle": "Ayudamos a las empresas a automatizar su comunicación con los clientes",
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Hacer que la comunicación profesional con los clientes sea accesible para todas las empresas mediante tecnología de IA."
+    }
+  },
+  "widget": {
+    "title": "Widget de IA - Automatiza Reuniones",
+    "description": "Implementa nuestro widget de IA en tu sitio web y deja que la inteligencia artificial gestione las reservas automáticamente",
+    "demo_title": "Prueba el Asistente de Voz con IA",
+    "demo_subtitle": "Haz clic en el icono de abajo para iniciar una conversación con nuestro asistente de IA"
+  },
+  "demo_page": {
+    "title": "Reserva Una Demo Gratuita",
+    "subtitle": "Descubre cómo Aibooking.dk puede transformar tu comunicación con los clientes"
+  },
+  "faq": {
+    "heading": "Preguntas Frecuentes"
+  },
+  "receptionistShowcase": {
+    "badge": "Recepcionista de IA Para Negocios en Crecimiento",
+    "title_line1": "No vuelvas a perder una llamada.",
+    "title_line2": "Consigue más trabajo.",
+    "title_line3": "Reduce la administración.",
+    "subtitle": "Tu recepcionista de IA gestiona llamadas, capta clientes potenciales y se encarga de las reprogramaciones, para que puedas centrarte en hacer crecer tu negocio.",
+    "cta_primary": "Reservar Demo Gratuita",
+    "cta_secondary": "Prueba nuestro widget de voz con IA",
+    "demo_badge": "Recepcionista de IA Activa",
+    "chat_label": "Recepcionista de IA",
+    "chat_message": "Hola, ha contactado con la Clínica Pentworth. ¿En qué puedo ayudarte hoy?",
+    "card_call_answered_label": "Llamada Atendida",
+    "card_call_answered_value": "Nuevo Paciente Registrado",
+    "card_rebooked_label": "Reprogramada",
+    "card_rebooked_value": "Enlace Enviado Automáticamente",
+    "card_notification_label": "Notificación",
+    "card_notification_value": "Dr. Schmidt Informado",
+    "card_conversation_label": "Llamada",
+    "card_conversation_value": "La IA Se Encargó de Todo",
+    "summary_label": "Resumen",
+    "summary_text": "Fenley solicitó información sobre el aparcamiento de la clínica. Le proporcionamos todos los detalles relevantes para garantizar una visita sin contratiempos."
+  },
+  "widgetPricing": {
+    "badge": "Fácil Integración En Tu Sitio Web",
+    "title": "Widget de Voz con IA de AIBooking",
+    "subtitle": "Un voicebot con el que tus clientes pueden hablar directamente en tu sitio web - gestiona preguntas y reservas automáticamente",
+    "plan_badge": "Solución Más Flexible",
+    "price_period": "€/mes",
+    "price_note1": "Incluye 150 minutos de conversación (aprox. 0,89€/minuto)",
+    "price_note2": "El paquete se renueva automáticamente una vez usados los 150 minutos",
+    "features": [
+      {
+        "bold": "Bot de voz con IA",
+        "rest": " - los clientes hablan directamente con la IA"
+      },
+      {
+        "bold": "",
+        "rest": "Responde preguntas y gestiona reservas"
+      },
+      {
+        "bold": "",
+        "rest": "Las reservas van directas a tu calendario"
+      },
+      {
+        "bold": "",
+        "rest": "Disponible 24/7 en tu sitio web"
+      },
+      {
+        "bold": "",
+        "rest": "150 minutos de conversación incluidos"
+      },
+      {
+        "bold": "Paga solo por el tiempo de conversación activo",
+        "rest": " - sin tarifa por hora"
+      },
+      {
+        "bold": "Abierto 24/7, 365 días al año",
+        "rest": " - siempre listo"
+      },
+      {
+        "bold": "",
+        "rest": "Atiende a los clientes incluso cuando estás ocupado"
+      }
+    ],
+    "cta": "Ver el Widget de IA en acción",
+    "demo_widget_label": "Asistente de Reservas con IA",
+    "demo_widget_status": "En línea ahora",
+    "demo_ai_label": "🎤 Voz IA:",
+    "demo_msg1": "¡Hola! Puedes hablar conmigo directamente. ¿En qué puedo ayudarte?",
+    "demo_customer_label": "🗣️ Cliente:",
+    "demo_msg2": "\"Me gustaría reservar una cita el viernes\"",
+    "demo_msg3": "¡Perfecto! Estos son los horarios disponibles el viernes...",
+    "demo_footer": "Widget de voz con IA - los clientes hablan directamente en tu sitio",
+    "perfect_for_label": "Perfecto para:",
+    "perfect_for_text": "Clínicas, profesionales de oficios, consultores, salones, oficinas y cualquier otro negocio que gestione reservas directamente en su sitio web."
+  },
+  "trialOfferWidget": {
+    "dialog_aria": "Prueba la recepcionista de IA gratis",
+    "close_aria": "Cerrar",
+    "badge": "7 DÍAS GRATIS",
+    "title": "Prueba tu recepcionista de IA gratis durante 7 días",
+    "description": "Solo tienes que desviar las llamadas de tu número de teléfono actual — no se requiere configuración técnica. ¡Comprueba tú mismo cuánto tiempo libera para otras tareas!",
+    "cta": "Empezar mi prueba gratuita",
+    "voice_label": "Tiempo de conversación",
+    "voice_value": "75 min incluidos",
+    "sms_label": "SMS",
+    "sms_value": "100 SMS gratis",
+    "email_label": "Correo electrónico",
+    "email_value": "3.000 correos gratis",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_value": "100 mensajes gratis"
+  }
+}

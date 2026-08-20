@@ -9,6 +9,7 @@ const INTL_LOCALE: Record<SupportedLanguage, string> = {
   en: 'en-GB',
   pt: 'pt-PT',
   fr: 'fr-FR',
+  es: 'es-ES',
 };
 
 export function dkkToEur(dkkAmount: number): number {

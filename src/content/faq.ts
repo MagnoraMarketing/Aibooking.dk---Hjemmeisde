@@ -8,8 +8,10 @@ export const blogFAQs: FAQItem[] = [
     answer_en: 'The blog covers AI widgets, AI phone assistants (inbound and outbound), and complete AI automation of reception and booking — with practical angles for clinics, craftsmen, offices and webshops.',
     question_pt: 'Sobre o que é o blog da AIBooking.dk?',
     question_fr: 'De quoi parle le blog d\'AIBooking.dk ?',
+    question_es: '¿De qué trata el blog de AIBooking.dk?',
     answer_pt: 'O blog aborda widgets de IA, assistentes telefónicos de IA (inbound e outbound) e a automatização completa de receção e marcação com IA — com abordagens práticas para clínicas, artesãos, escritórios e lojas online.',
     answer_fr: 'Le blog couvre les widgets IA, les assistants téléphoniques IA (entrants et sortants) et l\'automatisation complète de la réception et des réservations par IA — avec des angles pratiques pour les cliniques, artisans, bureaux et boutiques en ligne.',
+    answer_es: 'El blog abarca widgets de IA, asistentes telefónicos de IA (entrantes y salientes) y la automatización completa de la recepción y las reservas con IA — con enfoques prácticos para clínicas, profesionales de oficios, oficinas y tiendas online.',
   },
   {
     question_da: 'Er artiklerne relevante for mindre virksomheder?',
@@ -18,8 +20,10 @@ export const blogFAQs: FAQItem[] = [
     answer_en: 'Yes, a large part of the content is specifically about how smaller companies and one-person businesses get the most out of automation without needing to hire more people.',
     question_pt: 'Os artigos são relevantes para pequenas empresas?',
     question_fr: 'Les articles sont-ils pertinents pour les petites entreprises ?',
+    question_es: '¿Son los artículos relevantes para pequeñas empresas?',
     answer_pt: 'Sim, grande parte do conteúdo é especificamente sobre como pequenas empresas e negócios unipessoais tiram o máximo partido da automatização sem precisarem de contratar mais pessoal.',
     answer_fr: 'Oui, une grande partie du contenu porte spécifiquement sur la façon dont les petites entreprises et les indépendants tirent le meilleur parti de l\'automatisation sans avoir besoin d\'embaucher davantage.',
+    answer_es: 'Sí, gran parte del contenido trata específicamente de cómo las empresas más pequeñas y los negocios unipersonales sacan el máximo partido de la automatización sin necesidad de contratar más personal.',
   },
   {
     question_da: 'Hvordan hænger widget, telefon og booking sammen?',
@@ -28,8 +32,10 @@ export const blogFAQs: FAQItem[] = [
     answer_en: 'Connected to the same calendar and customer record, they cover each other\'s gaps so an enquiry is never lost between channels — that\'s the theme of our "AI Total Solution" category.',
     question_pt: 'Como se conjugam o widget, o telefone e as marcações?',
     question_fr: 'Comment le widget, le téléphone et la réservation s\'articulent-ils ?',
+    question_es: '¿Cómo encajan el widget, el teléfono y las reservas?',
     answer_pt: 'Ligados ao mesmo calendário e ficha de cliente, cobrem as lacunas uns dos outros para que nenhum pedido se perca entre canais — esse é o tema da nossa categoria "Solução Total de IA".',
     answer_fr: 'Connectés au même calendrier et à la même fiche client, ils comblent mutuellement leurs lacunes afin qu\'aucune demande ne se perde entre les canaux — c\'est le thème de notre catégorie « Solution IA Totale ».',
+    answer_es: 'Conectados al mismo calendario y ficha de cliente, cubren las carencias del otro para que ninguna consulta se pierda entre canales — ese es el tema de nuestra categoría "Solución Total de IA".',
   },
   {
     question_da: 'Kan jeg få hjælp til at vælge den rigtige løsning efter at have læst bloggen?',
@@ -38,8 +44,10 @@ export const blogFAQs: FAQItem[] = [
     answer_en: 'Yes, book a free demo and we\'ll walk through what gives the most value for your specific business and industry.',
     question_pt: 'Posso obter ajuda para escolher a solução certa depois de ler o blog?',
     question_fr: 'Puis-je obtenir de l\'aide pour choisir la bonne solution après avoir lu le blog ?',
+    question_es: '¿Puedo recibir ayuda para elegir la solución adecuada después de leer el blog?',
     answer_pt: 'Sim, marque uma demonstração gratuita e mostramos-lhe o que traz mais valor para a sua empresa e setor específicos.',
     answer_fr: 'Oui, réservez une démo gratuite et nous passerons en revue ce qui apporte le plus de valeur à votre entreprise et à votre secteur spécifiques.',
+    answer_es: 'Sí, reserva una demo gratuita y repasaremos qué es lo que aporta más valor a tu negocio y sector específicos.',
   },
 ];
 
@@ -51,8 +59,10 @@ export const homeFAQs: FAQItem[] = [
     answer_en: 'Aibooking.dk is an AI-driven reception that handles inbound and outbound calls, a chat/voice widget on your website, and automatic calendar booking — so you never lose a customer just because no one was free to answer.',
     question_pt: 'O que é a Aibooking.dk?',
     question_fr: 'Qu\'est-ce qu\'Aibooking.dk ?',
+    question_es: '¿Qué es Aibooking.dk?',
     answer_pt: 'A Aibooking.dk é uma receção alimentada por IA que gere chamadas recebidas e efetuadas, um widget de chat/voz no seu site e marcações automáticas no calendário — para nunca perder um cliente só porque ninguém estava livre para atender.',
     answer_fr: 'Aibooking.dk est une réception pilotée par IA qui gère les appels entrants et sortants, un widget de chat/voix sur votre site web, et la prise de rendez-vous automatique dans votre calendrier — pour ne jamais perdre un client simplement parce que personne n\'était disponible pour répondre.',
+    answer_es: 'Aibooking.dk es una recepción impulsada por IA que gestiona llamadas entrantes y salientes, un widget de chat/voz en tu sitio web y reservas automáticas en tu calendario — para que nunca pierdas a un cliente solo porque nadie estaba libre para atender.',
   },
   {
     question_da: 'Hvor meget tid kan jeg spare med en AI-receptionist?',
@@ -61,8 +71,10 @@ export const homeFAQs: FAQItem[] = [
     answer_en: 'It depends on how many calls and enquiries your business gets, but most customers notice it most on the routine questions about opening hours, prices and availability that otherwise take up staff time every day. That freed-up time is money you can redirect to work that actually pays.',
     question_pt: 'Quanto tempo posso poupar com uma receção de IA?',
     question_fr: 'Combien de temps une réceptionniste IA peut-elle me faire gagner ?',
+    question_es: '¿Cuánto tiempo puedo ahorrar con una recepcionista de IA?',
     answer_pt: 'Depende do número de chamadas e pedidos que a sua empresa recebe, mas a maioria dos clientes nota mais o efeito nas perguntas rotineiras sobre horários, preços e disponibilidade, que de outra forma ocupam tempo da equipa todos os dias. Esse tempo libertado é dinheiro que pode direcionar para trabalho que realmente compensa.',
     answer_fr: 'Cela dépend du nombre d\'appels et de demandes que reçoit votre entreprise, mais la plupart des clients constatent l\'effet surtout sur les questions courantes concernant les horaires, les prix et les disponibilités, qui autrement occupent le personnel chaque jour. Ce temps libéré représente de l\'argent que vous pouvez consacrer à un travail réellement rentable.',
+    answer_es: 'Depende de cuántas llamadas y consultas reciba tu negocio, pero la mayoría de los clientes notan el mayor efecto en las preguntas rutinarias sobre horarios, precios y disponibilidad, que de otro modo ocupan tiempo del personal cada día. Ese tiempo liberado es dinero que puedes destinar a trabajo que realmente rinde.',
   },
   {
     question_da: 'Fungerer det for mindre virksomheder og enkeltmandsfirmaer?',
@@ -71,8 +83,10 @@ export const homeFAQs: FAQItem[] = [
     answer_en: 'Yes — small businesses often feel the biggest impact, precisely because there is no colleague to step in when the owner is busy. The AI receptionist acts like an always-available employee without requiring a new hire.',
     question_pt: 'Funciona para pequenas empresas e negócios unipessoais?',
     question_fr: 'Est-ce adapté aux petites entreprises et aux indépendants ?',
+    question_es: '¿Funciona para pequeñas empresas y negocios unipersonales?',
     answer_pt: 'Sim — as pequenas empresas sentem frequentemente o maior impacto, precisamente porque não há um colega para assumir quando o proprietário está ocupado. A receção de IA funciona como um colaborador sempre disponível, sem exigir uma nova contratação.',
     answer_fr: 'Oui — ce sont souvent les petites entreprises qui en ressentent le plus l\'impact, justement parce qu\'il n\'y a pas de collègue pour prendre le relais lorsque le dirigeant est occupé. La réceptionniste IA agit comme un employé toujours disponible, sans nécessiter d\'embauche.',
+    answer_es: 'Sí — de hecho, las pequeñas empresas suelen notar el mayor impacto, precisamente porque no hay un compañero que se haga cargo cuando el propietario está ocupado. La recepcionista de IA actúa como un empleado siempre disponible sin necesidad de contratar a nadie.',
   },
   {
     question_da: 'Kan jeg bruge løsningen, hvis jeg driver en webshop?',
@@ -81,8 +95,10 @@ export const homeFAQs: FAQItem[] = [
     answer_en: 'Yes. The widget answers product, shipping and return questions directly on your site, around the clock, turning what would have been an abandoned cart into a completed order.',
     question_pt: 'Posso usar isto se tiver uma loja online?',
     question_fr: 'Puis-je l\'utiliser si je gère une boutique en ligne ?',
+    question_es: '¿Puedo usar esto si tengo una tienda online?',
     answer_pt: 'Sim. O widget responde a perguntas sobre produtos, envios e devoluções diretamente no seu site, a qualquer hora, transformando o que seria um carrinho abandonado numa encomenda concluída.',
     answer_fr: 'Oui. Le widget répond aux questions sur les produits, la livraison et les retours directement sur votre site, 24h/24, transformant ce qui aurait été un panier abandonné en commande finalisée.',
+    answer_es: 'Sí. El widget responde a preguntas sobre productos, envíos y devoluciones directamente en tu sitio web, las 24 horas, convirtiendo lo que habría sido un carrito abandonado en un pedido completado.',
   },
   {
     question_da: 'Hvad koster det, og hvordan kommer jeg i gang?',
@@ -91,8 +107,10 @@ export const homeFAQs: FAQItem[] = [
     answer_en: 'See the pricing overview on the page, or book a free demo where we walk through what gives the most value for your specific business — clinic, craftsman, office or webshop.',
     question_pt: 'Quanto custa e como começo?',
     question_fr: 'Combien ça coûte et comment démarrer ?',
+    question_es: '¿Cuánto cuesta y cómo empiezo?',
     answer_pt: 'Consulte a tabela de preços na página, ou marque uma demonstração gratuita onde lhe mostramos o que traz mais valor para a sua empresa específica — clínica, artesão, escritório ou loja online.',
     answer_fr: 'Consultez la grille tarifaire sur la page, ou réservez une démo gratuite où nous passerons en revue ce qui apporte le plus de valeur à votre entreprise spécifique — clinique, artisan, bureau ou boutique en ligne.',
+    answer_es: 'Consulta la tabla de precios en la página, o reserva una demo gratuita donde repasaremos qué es lo que aporta más valor a tu negocio específico — clínica, oficio, oficina o tienda online.',
   },
 ];
 
@@ -104,8 +122,10 @@ export const widgetFAQs: FAQItem[] = [
     answer_en: "The widget answers visitors' questions instantly, checks real availability in your calendar, and can book an appointment directly — without anyone on your team needing to be online.",
     question_pt: 'O que pode fazer o widget de IA no meu site?',
     question_fr: 'Que peut faire le widget IA sur mon site ?',
+    question_es: '¿Qué puede hacer el widget de IA en mi sitio web?',
     answer_pt: 'O widget responde instantaneamente às perguntas dos visitantes, verifica a disponibilidade real no seu calendário e pode marcar uma consulta diretamente — sem que ninguém da sua equipa precise de estar online.',
     answer_fr: 'Le widget répond instantanément aux questions des visiteurs, vérifie les disponibilités réelles dans votre calendrier et peut réserver un rendez-vous directement — sans qu\'un membre de votre équipe ait besoin d\'être en ligne.',
+    answer_es: 'El widget responde al instante a las preguntas de los visitantes, comprueba la disponibilidad real en tu calendario y puede reservar una cita directamente — sin que nadie de tu equipo tenga que estar conectado.',
   },
   {
     question_da: 'Kan widgeten booke direkte i min kalender?',
@@ -114,8 +134,10 @@ export const widgetFAQs: FAQItem[] = [
     answer_en: 'Yes, once connected to your booking system, the widget can show real available times and confirm an appointment on the spot, instead of just forwarding a message.',
     question_pt: 'O widget pode marcar diretamente no meu calendário?',
     question_fr: 'Le widget peut-il réserver directement dans mon calendrier ?',
+    question_es: '¿Puede el widget reservar directamente en mi calendario?',
     answer_pt: 'Sim, uma vez ligado ao seu sistema de marcações, o widget pode mostrar horários realmente disponíveis e confirmar uma marcação na hora, em vez de apenas encaminhar uma mensagem.',
     answer_fr: 'Oui, une fois connecté à votre système de réservation, le widget peut afficher les créneaux réellement disponibles et confirmer un rendez-vous sur-le-champ, plutôt que de simplement transmettre un message.',
+    answer_es: 'Sí, una vez conectado a tu sistema de reservas, el widget puede mostrar horarios realmente disponibles y confirmar una cita al instante, en lugar de limitarse a reenviar un mensaje.',
   },
   {
     question_da: 'Er widgeten god til webshops?',
@@ -124,8 +146,10 @@ export const widgetFAQs: FAQItem[] = [
     answer_en: 'Much of the traffic a webshop gets happens outside opening hours. The widget answers product, sizing and shipping questions instantly, which reduces abandoned carts.',
     question_pt: 'O widget é adequado para lojas online?',
     question_fr: 'Le widget est-il adapté aux boutiques en ligne ?',
+    question_es: '¿Es bueno el widget para tiendas online?',
     answer_pt: 'Grande parte do tráfego de uma loja online ocorre fora do horário comercial. O widget responde instantaneamente a perguntas sobre produtos, tamanhos e envios, o que reduz os carrinhos abandonados.',
     answer_fr: 'Une grande partie du trafic d\'une boutique en ligne survient en dehors des heures d\'ouverture. Le widget répond instantanément aux questions sur les produits, les tailles et la livraison, ce qui réduit les paniers abandonnés.',
+    answer_es: 'Gran parte del tráfico que recibe una tienda online ocurre fuera del horario comercial. El widget responde al instante a preguntas sobre productos, tallas y envíos, lo que reduce los carritos abandonados.',
   },
   {
     question_da: 'Kan patienter booke tid hos min klinik uden for åbningstid?',
@@ -134,8 +158,10 @@ export const widgetFAQs: FAQItem[] = [
     answer_en: 'Yes. The widget lets patients see and book available times in the evening and on weekends, without requiring a phone call during opening hours.',
     question_pt: 'Os pacientes podem marcar consulta na minha clínica fora do horário de funcionamento?',
     question_fr: 'Les patients peuvent-ils prendre rendez-vous dans ma clinique en dehors des heures d\'ouverture ?',
+    question_es: '¿Pueden los pacientes reservar cita en mi clínica fuera del horario de apertura?',
     answer_pt: 'Sim. O widget permite que os pacientes vejam e marquem horários disponíveis à noite e aos fins de semana, sem precisarem de telefonar durante o horário de funcionamento.',
     answer_fr: 'Oui. Le widget permet aux patients de consulter et réserver des créneaux disponibles le soir et le week-end, sans avoir besoin d\'appeler pendant les heures d\'ouverture.',
+    answer_es: 'Sí. El widget permite a los pacientes ver y reservar horarios disponibles por la tarde-noche y los fines de semana, sin necesidad de llamar por teléfono durante el horario de apertura.',
   },
   {
     question_da: 'Hvad sker der med de persondata, widgeten indsamler?',
@@ -144,8 +170,10 @@ export const widgetFAQs: FAQItem[] = [
     answer_en: 'Data is handled in accordance with GDPR — we only collect what is necessary for a booking or enquiry, and can provide details on storage and deletion on request.',
     question_pt: 'O que acontece aos dados pessoais recolhidos pelo widget?',
     question_fr: 'Que deviennent les données personnelles collectées par le widget ?',
+    question_es: '¿Qué ocurre con los datos personales que recopila el widget?',
     answer_pt: 'Os dados são tratados em conformidade com o RGPD — apenas recolhemos o que é necessário para uma marcação ou pedido, e podemos fornecer detalhes sobre armazenamento e eliminação a pedido.',
     answer_fr: 'Les données sont traitées conformément au RGPD — nous ne collectons que ce qui est nécessaire à une réservation ou une demande, et pouvons fournir des détails sur la conservation et la suppression sur demande.',
+    answer_es: 'Los datos se gestionan conforme al RGPD — solo recopilamos lo necesario para una reserva o consulta, y podemos facilitar detalles sobre el almacenamiento y la eliminación si se solicitan.',
   },
 ];
 
@@ -157,8 +185,10 @@ export const industriesFAQs: FAQItem[] = [
     answer_en: 'The solution is used broadly by clinics, craftsmen, office and admin businesses, and webshops — anywhere phone and website enquiries need to be handled consistently.',
     question_pt: 'Para que setores serve a automatização com IA?',
     question_fr: 'À quels secteurs l\'automatisation IA convient-elle ?',
+    question_es: '¿A qué sectores se adapta la automatización con IA?',
     answer_pt: 'A solução é amplamente utilizada por clínicas, artesãos, empresas de escritório e administração, e lojas online — em qualquer lugar onde os pedidos por telefone e site precisem de ser tratados de forma consistente.',
     answer_fr: 'La solution est largement utilisée par les cliniques, artisans, entreprises de bureau et d\'administration, ainsi que les boutiques en ligne — partout où les demandes par téléphone et par site web doivent être traitées de manière cohérente.',
+    answer_es: 'La solución la utilizan ampliamente clínicas, profesionales de oficios, empresas de oficina y administración, y tiendas online — en cualquier lugar donde las consultas por teléfono y sitio web deban gestionarse de forma consistente.',
   },
   {
     question_da: 'Skal jeg vælge mellem widget og telefonassistent?',
@@ -167,8 +197,10 @@ export const industriesFAQs: FAQItem[] = [
     answer_en: "No, most businesses get the most value from connecting them, so a conversation that starts on the website can continue over the phone without the customer repeating themselves.",
     question_pt: 'Tenho de escolher entre o widget e o assistente telefónico?',
     question_fr: 'Dois-je choisir entre le widget et l\'assistant téléphonique ?',
+    question_es: '¿Tengo que elegir entre el widget y el asistente telefónico?',
     answer_pt: 'Não, a maioria das empresas obtém mais valor ao ligá-los, para que uma conversa iniciada no site possa continuar por telefone sem o cliente ter de se repetir.',
     answer_fr: 'Non, la plupart des entreprises tirent le plus de valeur en les connectant, afin qu\'une conversation commencée sur le site puisse se poursuivre par téléphone sans que le client ait à se répéter.',
+    answer_es: 'No, la mayoría de los negocios obtienen más valor al combinarlos, de modo que una conversación iniciada en el sitio web pueda continuar por teléfono sin que el cliente tenga que repetirse.',
   },
   {
     question_da: 'Kan mindre firmaer også have gavn af det?',
@@ -177,8 +209,10 @@ export const industriesFAQs: FAQItem[] = [
     answer_en: 'Yes, often the most — a smaller business rarely has a backup when the one person responsible is busy, and automation ensures no enquiry gets lost.',
     question_pt: 'As empresas mais pequenas também podem beneficiar?',
     question_fr: 'Les petites entreprises peuvent-elles aussi en bénéficier ?',
+    question_es: '¿Pueden beneficiarse también las empresas más pequeñas?',
     answer_pt: 'Sim, muitas vezes são as que mais beneficiam — uma empresa pequena raramente tem um substituto quando a pessoa responsável está ocupada, e a automatização garante que nenhum pedido se perde.',
     answer_fr: 'Oui, souvent plus que les autres — une petite entreprise dispose rarement d\'un remplaçant lorsque la personne responsable est occupée, et l\'automatisation garantit qu\'aucune demande n\'est perdue.',
+    answer_es: 'Sí, a menudo son las que más se benefician — una empresa pequeña rara vez tiene un suplente cuando la persona responsable está ocupada, y la automatización garantiza que ninguna consulta se pierda.',
   },
   {
     question_da: 'Hvordan sikrer det, at jeg aldrig mister en kunde?',
@@ -187,8 +221,10 @@ export const industriesFAQs: FAQItem[] = [
     answer_en: 'By covering every touchpoint — widget, phone and follow-up — in one system, so an enquiry never falls through the gap between channels.',
     question_pt: 'Como garante que nunca perco um cliente?',
     question_fr: 'Comment garantit-elle que je ne perds jamais un client ?',
+    question_es: '¿Cómo garantiza que nunca pierda a un cliente?',
     answer_pt: 'Cobrindo todos os pontos de contacto — widget, telefone e acompanhamento — num único sistema, para que nenhum pedido se perca entre canais.',
     answer_fr: 'En couvrant chaque point de contact — widget, téléphone et suivi — au sein d\'un seul système, afin qu\'aucune demande ne se perde entre les canaux.',
+    answer_es: 'Cubriendo todos los puntos de contacto — widget, teléfono y seguimiento — en un solo sistema, para que ninguna consulta se pierda entre canales.',
   },
   {
     question_da: 'Kan jeg se, hvordan det virker for netop min branche?',
@@ -197,8 +233,10 @@ export const industriesFAQs: FAQItem[] = [
     answer_en: 'Yes, see the industry pages for clinic, craftsman, office and webshop, or book a free demo tailored to your business.',
     question_pt: 'Posso ver como funciona especificamente para o meu setor?',
     question_fr: 'Puis-je voir comment cela fonctionne pour mon secteur spécifique ?',
+    question_es: '¿Puedo ver cómo funciona específicamente para mi sector?',
     answer_pt: 'Sim, consulte as páginas de setores para clínica, artesão, escritório e loja online, ou marque uma demonstração gratuita adaptada à sua empresa.',
     answer_fr: 'Oui, consultez les pages sectorielles pour clinique, artisan, bureau et boutique en ligne, ou réservez une démo gratuite adaptée à votre entreprise.',
+    answer_es: 'Sí, consulta las páginas de sectores para clínica, oficios, oficina y tienda online, o reserva una demo gratuita adaptada a tu negocio.',
   },
 ];
 
@@ -210,8 +248,10 @@ export const healthcareFAQs: FAQItem[] = [
     answer_en: "Yes. Automatic reminder calls ahead of an appointment reduce the number of patients who simply forget to show up, without requiring extra work from reception.",
     question_pt: 'Um assistente telefónico de IA pode reduzir as faltas na minha clínica?',
     question_fr: 'Un assistant téléphonique IA peut-il réduire les rendez-vous manqués dans ma clinique ?',
+    question_es: '¿Puede un asistente telefónico de IA reducir las ausencias en mi clínica?',
     answer_pt: 'Sim. As chamadas automáticas de lembrete antes de uma consulta reduzem o número de pacientes que simplesmente se esquecem de comparecer, sem exigir trabalho extra da receção.',
     answer_fr: 'Oui. Les appels de rappel automatiques avant un rendez-vous réduisent le nombre de patients qui oublient simplement de se présenter, sans travail supplémentaire pour la réception.',
+    answer_es: 'Sí. Las llamadas automáticas de recordatorio antes de una cita reducen el número de pacientes que simplemente se olvidan de acudir, sin exigir trabajo extra a la recepción.',
   },
   {
     question_da: 'Kan patienter booke tid uden at ringe?',
@@ -220,8 +260,10 @@ export const healthcareFAQs: FAQItem[] = [
     answer_en: 'Yes, through the widget on your website, patients can see availability and book directly, even outside the clinic\'s opening hours.',
     question_pt: 'Os pacientes podem marcar consulta sem telefonar?',
     question_fr: 'Les patients peuvent-ils prendre rendez-vous sans appeler ?',
+    question_es: '¿Pueden los pacientes reservar cita sin llamar por teléfono?',
     answer_pt: 'Sim, através do widget no seu site, os pacientes podem ver a disponibilidade e marcar diretamente, mesmo fora do horário de funcionamento da clínica.',
     answer_fr: 'Oui, grâce au widget sur votre site, les patients peuvent consulter les disponibilités et réserver directement, même en dehors des heures d\'ouverture de la clinique.',
+    answer_es: 'Sí, a través del widget en tu sitio web, los pacientes pueden ver la disponibilidad y reservar directamente, incluso fuera del horario de apertura de la clínica.',
   },
   {
     question_da: 'Hvad sker der, hvis en patient ringer med et akut spørgsmål?',
@@ -230,8 +272,10 @@ export const healthcareFAQs: FAQItem[] = [
     answer_en: "The AI phone assistant assesses the enquiry and transfers it to the clinic's staff when relevant, rather than trying to decide it on its own.",
     question_pt: 'O que acontece se um paciente ligar com uma questão urgente?',
     question_fr: 'Que se passe-t-il si un patient appelle pour une question urgente ?',
+    question_es: '¿Qué ocurre si un paciente llama con una pregunta urgente?',
     answer_pt: 'O assistente telefónico de IA avalia o pedido e transfere-o para a equipa da clínica quando relevante, em vez de tentar decidir sozinho.',
     answer_fr: 'L\'assistant téléphonique IA évalue la demande et la transfère au personnel de la clinique lorsque cela est pertinent, plutôt que de tenter de trancher seul.',
+    answer_es: 'El asistente telefónico de IA evalúa la consulta y la transfiere al personal de la clínica cuando es relevante, en lugar de intentar decidirlo por sí mismo.',
   },
   {
     question_da: 'Frigør det tid for min reception?',
@@ -240,8 +284,10 @@ export const healthcareFAQs: FAQItem[] = [
     answer_en: 'Yes, routine calls about booking, opening hours and prices are answered automatically, so reception can spend more time with the patients in front of them.',
     question_pt: 'Isto liberta tempo para a minha receção?',
     question_fr: 'Cela libère-t-il du temps pour ma réception ?',
+    question_es: '¿Libera esto tiempo para mi recepción?',
     answer_pt: 'Sim, as chamadas rotineiras sobre marcações, horários e preços são atendidas automaticamente, para que a receção possa dedicar mais tempo aos pacientes presentes.',
     answer_fr: 'Oui, les appels courants concernant les réservations, les horaires et les tarifs sont traités automatiquement, ce qui permet à la réception de consacrer plus de temps aux patients présents.',
+    answer_es: 'Sí, las llamadas rutinarias sobre reservas, horarios y precios se responden automáticamente, para que la recepción pueda dedicar más tiempo a los pacientes presentes.',
   },
   {
     question_da: 'Er løsningen GDPR-sikker for patientdata?',
@@ -250,8 +296,10 @@ export const healthcareFAQs: FAQItem[] = [
     answer_en: 'Yes, data is handled securely and in accordance with applicable regulations. Contact us for details on the data processing agreement and retention.',
     question_pt: 'A solução está em conformidade com o RGPD para dados de pacientes?',
     question_fr: 'La solution est-elle conforme au RGPD pour les données des patients ?',
+    question_es: '¿Es la solución conforme al RGPD para los datos de pacientes?',
     answer_pt: 'Sim, os dados são tratados com segurança e em conformidade com a legislação aplicável. Contacte-nos para detalhes sobre o acordo de tratamento de dados e retenção.',
     answer_fr: 'Oui, les données sont traitées en toute sécurité et conformément à la réglementation applicable. Contactez-nous pour plus de détails sur l\'accord de traitement des données et la durée de conservation.',
+    answer_es: 'Sí, los datos se gestionan de forma segura y conforme a la normativa aplicable. Contáctanos para más detalles sobre el acuerdo de tratamiento de datos y la conservación.',
   },
 ];
 
@@ -263,8 +311,10 @@ export const craftsmanFAQs: FAQItem[] = [
     answer_en: 'Yes, that\'s exactly the situation this is built for. The AI phone assistant answers the call, gathers the address, job type and urgency, and books a callback or visit time.',
     question_pt: 'Raramente consigo atender o telefone a meio de um trabalho — isto ajuda?',
     question_fr: 'Je peux rarement répondre au téléphone en plein chantier — est-ce que ça aide ?',
+    question_es: 'Rara vez puedo contestar el teléfono en mitad de un trabajo — ¿ayuda esto?',
     answer_pt: 'Sim, é exatamente para essa situação que isto foi criado. O assistente telefónico de IA atende a chamada, recolhe a morada, o tipo de trabalho e a urgência, e marca um horário para retorno ou visita.',
     answer_fr: 'Oui, c\'est exactement la situation pour laquelle c\'est conçu. L\'assistant téléphonique IA répond à l\'appel, recueille l\'adresse, le type d\'intervention et l\'urgence, et planifie un rappel ou une visite.',
+    answer_es: 'Sí, es exactamente para esta situación para la que está diseñado. El asistente telefónico de IA responde a la llamada, recoge la dirección, el tipo de trabajo y la urgencia, y reserva un horario de devolución de llamada o visita.',
   },
   {
     question_da: 'Kan kunder booke et opgavebesøg via hjemmesiden?',
@@ -273,8 +323,10 @@ export const craftsmanFAQs: FAQItem[] = [
     answer_en: "Yes, the widget can take job requests with the necessary details directly from the website, so you can prioritize the day before you call back.",
     question_pt: 'Os clientes podem marcar uma visita através do site?',
     question_fr: 'Les clients peuvent-ils réserver une visite via le site web ?',
+    question_es: '¿Pueden los clientes reservar una visita a través del sitio web?',
     answer_pt: 'Sim, o widget pode recolher pedidos de trabalho com os detalhes necessários diretamente a partir do site, para que possa organizar o dia antes de retornar a chamada.',
     answer_fr: 'Oui, le widget peut recueillir les demandes d\'intervention avec les détails nécessaires directement depuis le site, afin que vous puissiez organiser votre journée avant de rappeler.',
+    answer_es: 'Sí, el widget puede recoger solicitudes de trabajo con los detalles necesarios directamente desde el sitio web, para que puedas organizar el día antes de devolver la llamada.',
   },
   {
     question_da: 'Fungerer det for en enkeltmandsvirksomhed?',
@@ -283,8 +335,10 @@ export const craftsmanFAQs: FAQItem[] = [
     answer_en: 'Yes, this is often where the impact is greatest — no job request is lost because the phone couldn\'t be answered on the spot.',
     question_pt: 'Funciona para um negócio unipessoal?',
     question_fr: 'Est-ce adapté à une entreprise individuelle ?',
+    question_es: '¿Funciona para un negocio unipersonal?',
     answer_pt: 'Sim, é frequentemente aí que o impacto é maior — nenhum pedido de trabalho se perde por o telefone não poder ser atendido na hora.',
     answer_fr: 'Oui, c\'est souvent là que l\'impact est le plus fort — aucune demande d\'intervention n\'est perdue parce que le téléphone n\'a pas pu être décroché sur le moment.',
+    answer_es: 'Sí, a menudo es ahí donde el impacto es mayor — ninguna solicitud de trabajo se pierde porque no se pudo contestar el teléfono en el momento.',
   },
   {
     question_da: 'Kan jeg få automatiske påmindelser sendt til kunder?',
@@ -293,8 +347,10 @@ export const craftsmanFAQs: FAQItem[] = [
     answer_en: 'Yes, the AI assistant can call or send a reminder ahead of a scheduled visit, so fewer appointments get forgotten.',
     question_pt: 'É possível enviar lembretes automáticos aos clientes?',
     question_fr: 'Peut-on envoyer des rappels automatiques aux clients ?',
+    question_es: '¿Se pueden enviar recordatorios automáticos a los clientes?',
     answer_pt: 'Sim, o assistente de IA pode ligar ou enviar um lembrete antes de uma visita agendada, para que menos marcações sejam esquecidas.',
     answer_fr: 'Oui, l\'assistant IA peut appeler ou envoyer un rappel avant une visite planifiée, pour que moins de rendez-vous soient oubliés.',
+    answer_es: 'Sí, el asistente de IA puede llamar o enviar un recordatorio antes de una visita programada, para que se olviden menos citas.',
   },
   {
     question_da: 'Hvor lang tid tager det at komme i gang?',
@@ -303,8 +359,10 @@ export const craftsmanFAQs: FAQItem[] = [
     answer_en: 'Setup typically takes a short time, and you can start with just the phone assistant if that solves your most pressing problem right now.',
     question_pt: 'Quanto tempo demora a começar?',
     question_fr: 'Combien de temps faut-il pour démarrer ?',
+    question_es: '¿Cuánto tiempo se tarda en empezar?',
     answer_pt: 'A configuração demora tipicamente pouco tempo, e pode começar apenas com o assistente telefónico se isso resolver o seu problema mais urgente agora.',
     answer_fr: 'La mise en place prend généralement peu de temps, et vous pouvez commencer uniquement avec l\'assistant téléphonique si cela résout votre problème le plus urgent dès maintenant.',
+    answer_es: 'La configuración suele llevar poco tiempo, y puedes empezar solo con el asistente telefónico si eso resuelve tu problema más urgente ahora mismo.',
   },
 ];
 
@@ -316,8 +374,10 @@ export const officeFAQs: FAQItem[] = [
     answer_en: 'Routine calls about status, changes and general questions are handled automatically, giving staff longer, uninterrupted stretches for focused work.',
     question_pt: 'Como é que isto ajuda o trabalho de escritório e administração?',
     question_fr: 'Comment cela aide-t-il le travail de bureau et administratif ?',
+    question_es: '¿Cómo ayuda esto al trabajo de oficina y administración?',
     answer_pt: 'As chamadas rotineiras sobre estado, alterações e perguntas gerais são tratadas automaticamente, dando à equipa períodos mais longos e ininterruptos para trabalho concentrado.',
     answer_fr: 'Les appels courants concernant le statut, les modifications et les questions générales sont traités automatiquement, offrant au personnel des plages plus longues et ininterrompues pour un travail concentré.',
+    answer_es: 'Las llamadas rutinarias sobre el estado, cambios y preguntas generales se gestionan automáticamente, dando al personal periodos más largos e ininterrumpidos para el trabajo concentrado.',
   },
   {
     question_da: 'Kan systemet håndtere både opkald og hjemmesidehenvendelser?',
@@ -326,8 +386,10 @@ export const officeFAQs: FAQItem[] = [
     answer_en: 'Yes, the phone assistant and widget share the same information, so answers are consistent regardless of channel.',
     question_pt: 'O sistema consegue gerir tanto chamadas como pedidos pelo site?',
     question_fr: 'Le système peut-il gérer à la fois les appels et les demandes via le site ?',
+    question_es: '¿Puede el sistema gestionar tanto llamadas como consultas del sitio web?',
     answer_pt: 'Sim, o assistente telefónico e o widget partilham a mesma informação, para que as respostas sejam consistentes independentemente do canal.',
     answer_fr: 'Oui, l\'assistant téléphonique et le widget partagent les mêmes informations, garantissant des réponses cohérentes quel que soit le canal.',
+    answer_es: 'Sí, el asistente telefónico y el widget comparten la misma información, para que las respuestas sean coherentes sin importar el canal.',
   },
   {
     question_da: 'Kan jeg tilpasse, hvilke opkald der bliver stillet videre?',
@@ -336,8 +398,10 @@ export const officeFAQs: FAQItem[] = [
     answer_en: 'Yes, together we define which types of enquiries the AI assistant should handle on its own, and which should always go to a person.',
     question_pt: 'Posso personalizar que chamadas são transferidas?',
     question_fr: 'Puis-je personnaliser quels appels sont transférés ?',
+    question_es: '¿Puedo personalizar qué llamadas se transfieren?',
     answer_pt: 'Sim, definimos juntos que tipos de pedidos o assistente de IA deve tratar sozinho e quais devem ser sempre encaminhados para uma pessoa.',
     answer_fr: 'Oui, nous définissons ensemble quels types de demandes l\'assistant IA doit traiter seul, et lesquelles doivent toujours être transmises à une personne.',
+    answer_es: 'Sí, definimos juntos qué tipos de consultas debe gestionar el asistente de IA por sí solo y cuáles deben transferirse siempre a una persona.',
   },
   {
     question_da: 'Er det egnet til mindre administrationsteams?',
@@ -346,8 +410,10 @@ export const officeFAQs: FAQItem[] = [
     answer_en: 'Yes, especially for teams without a dedicated receptionist — automation covers the routine enquiries the team would otherwise have to take themselves.',
     question_pt: 'É adequado para equipas administrativas mais pequenas?',
     question_fr: 'Est-ce adapté aux petites équipes administratives ?',
+    question_es: '¿Es adecuado para equipos administrativos más pequeños?',
     answer_pt: 'Sim, especialmente para equipas sem receção dedicada — a automatização cobre os pedidos rotineiros que a equipa teria de tratar de outra forma.',
     answer_fr: 'Oui, en particulier pour les équipes sans réceptionniste dédié — l\'automatisation prend en charge les demandes courantes que l\'équipe devrait sinon traiter elle-même.',
+    answer_es: 'Sí, especialmente para equipos sin recepcionista dedicado — la automatización cubre las consultas rutinarias que el equipo tendría que atender de otro modo.',
   },
   {
     question_da: 'Hvordan kommer jeg i gang?',
@@ -356,8 +422,10 @@ export const officeFAQs: FAQItem[] = [
     answer_en: 'Book a free demo, and we\'ll go through your current call pattern and find the best starting setup for your team.',
     question_pt: 'Como começo?',
     question_fr: 'Comment démarrer ?',
+    question_es: '¿Cómo empiezo?',
     answer_pt: 'Marque uma demonstração gratuita e analisamos o seu padrão atual de chamadas para encontrar a melhor configuração inicial para a sua equipa.',
     answer_fr: 'Réservez une démo gratuite, et nous passerons en revue votre schéma d\'appels actuel pour trouver la meilleure configuration de départ pour votre équipe.',
+    answer_es: 'Reserva una demo gratuita, y repasaremos vuestro patrón de llamadas actual para encontrar la mejor configuración inicial para tu equipo.',
   },
 ];
 
@@ -369,8 +437,10 @@ export const ecommerceFAQs: FAQItem[] = [
     answer_en: 'Yes. Many carts are abandoned because of an unanswered question about size, shipping or returns. The widget answers instantly, even outside opening hours.',
     question_pt: 'O widget de IA pode reduzir os carrinhos abandonados na minha loja online?',
     question_fr: 'Le widget IA peut-il réduire les paniers abandonnés dans ma boutique en ligne ?',
+    question_es: '¿Puede el widget de IA reducir los carritos abandonados en mi tienda online?',
     answer_pt: 'Sim. Muitos carrinhos são abandonados devido a uma pergunta sem resposta sobre tamanho, envio ou devoluções. O widget responde instantaneamente, mesmo fora do horário comercial.',
     answer_fr: 'Oui. De nombreux paniers sont abandonnés à cause d\'une question sans réponse sur la taille, la livraison ou les retours. Le widget répond instantanément, même en dehors des heures d\'ouverture.',
+    answer_es: 'Sí. Muchos carritos se abandonan por una pregunta sin responder sobre la talla, el envío o las devoluciones. El widget responde al instante, incluso fuera del horario comercial.',
   },
   {
     question_da: 'Kan widgeten svare på spørgsmål om ordrestatus?',
@@ -379,8 +449,10 @@ export const ecommerceFAQs: FAQItem[] = [
     answer_en: 'Yes, once connected to your order data, it can answer status and delivery questions without pulling staff away from picking and shipping.',
     question_pt: 'O widget pode responder a perguntas sobre o estado da encomenda?',
     question_fr: 'Le widget peut-il répondre aux questions sur le statut des commandes ?',
+    question_es: '¿Puede el widget responder a preguntas sobre el estado del pedido?',
     answer_pt: 'Sim, uma vez ligado aos dados das suas encomendas, pode responder a perguntas sobre estado e entrega sem desviar a equipa da preparação e expedição.',
     answer_fr: 'Oui, une fois connecté à vos données de commande, il peut répondre aux questions de statut et de livraison sans détourner le personnel de la préparation et de l\'expédition.',
+    answer_es: 'Sí, una vez conectado a los datos de tus pedidos, puede responder a preguntas sobre el estado y la entrega sin apartar al personal de la preparación y el envío.',
   },
   {
     question_da: 'Fungerer det sammen med min telefonsupport?',
@@ -389,8 +461,10 @@ export const ecommerceFAQs: FAQItem[] = [
     answer_en: 'Yes, the widget and phone assistant share the same customer data, so a customer who starts in chat and calls afterward doesn\'t have to explain themselves again.',
     question_pt: 'Funciona em conjunto com o meu apoio telefónico?',
     question_fr: 'Fonctionne-t-il avec mon support téléphonique ?',
+    question_es: '¿Funciona junto con mi soporte telefónico?',
     answer_pt: 'Sim, o widget e o assistente telefónico partilham os mesmos dados de cliente, para que um cliente que comece no chat e depois ligue não tenha de se explicar novamente.',
     answer_fr: 'Oui, le widget et l\'assistant téléphonique partagent les mêmes données client, afin qu\'un client qui commence par le chat puis appelle n\'ait pas à se réexpliquer.',
+    answer_es: 'Sí, el widget y el asistente telefónico comparten los mismos datos de cliente, para que un cliente que empiece en el chat y luego llame no tenga que volver a explicarse.',
   },
   {
     question_da: 'Kan komplekse sager blive sendt videre til et menneske?',
@@ -399,8 +473,10 @@ export const ecommerceFAQs: FAQItem[] = [
     answer_en: 'Yes, damaged items, disputes and other cases outside the widget\'s scope are handed off with full context instead of going in circles.',
     question_pt: 'Os casos complexos podem ser encaminhados para uma pessoa?',
     question_fr: 'Les cas complexes peuvent-ils être transférés à une personne ?',
+    question_es: '¿Se pueden transferir los casos complejos a una persona?',
     answer_pt: 'Sim, artigos danificados, litígios e outros casos fora do âmbito do widget são encaminhados com todo o contexto, em vez de ficarem a andar em círculos.',
     answer_fr: 'Oui, les articles endommagés, les litiges et autres cas hors du champ du widget sont transmis avec le contexte complet, au lieu de tourner en rond.',
+    answer_es: 'Sí, los artículos dañados, las disputas y otros casos fuera del alcance del widget se transfieren con todo el contexto, en lugar de dar vueltas sin solución.',
   },
   {
     question_da: 'Er det svært at integrere med min eksisterende webshop?',
@@ -409,8 +485,10 @@ export const ecommerceFAQs: FAQItem[] = [
     answer_en: 'No, setup is designed to get you running quickly — book a demo and we\'ll show you how it fits your platform.',
     question_pt: 'É difícil integrar com a minha loja online já existente?',
     question_fr: 'Est-ce difficile à intégrer à ma boutique en ligne existante ?',
+    question_es: '¿Es difícil integrarlo con mi tienda online actual?',
     answer_pt: 'Não, a configuração foi pensada para começar rapidamente — marque uma demonstração e mostramos como se adapta à sua plataforma.',
     answer_fr: 'Non, la configuration est conçue pour vous permettre de démarrer rapidement — réservez une démo et nous vous montrerons comment cela s\'adapte à votre plateforme.',
+    answer_es: 'No, la configuración está diseñada para empezar rápidamente — reserva una demo y te mostraremos cómo se adapta a tu plataforma.',
   },
 ];
 
@@ -422,8 +500,10 @@ export const featuresFAQs: FAQItem[] = [
     answer_en: 'Intelligent call handling, automatic calendar integration, an AI widget for your website, automatic reminders and follow-up, and a single dashboard covering every enquiry.',
     question_pt: 'Que funcionalidades estão incluídas?',
     question_fr: 'Quelles fonctionnalités sont incluses ?',
+    question_es: '¿Qué funciones están incluidas?',
     answer_pt: 'Gestão inteligente de chamadas, integração automática de calendário, um widget de IA para o seu site, lembretes e acompanhamento automáticos, e um painel único que cobre todos os pedidos.',
     answer_fr: 'Gestion intelligente des appels, intégration automatique du calendrier, un widget IA pour votre site, rappels et suivi automatiques, et un tableau de bord unique couvrant toutes les demandes.',
+    answer_es: 'Gestión inteligente de llamadas, integración automática con el calendario, un widget de IA para tu sitio web, recordatorios y seguimiento automáticos, y un panel único que cubre todas las consultas.',
   },
   {
     question_da: 'Kan jeg bruge widget og telefonassistent sammen?',
@@ -432,8 +512,10 @@ export const featuresFAQs: FAQItem[] = [
     answer_en: 'Yes, connected to the same calendar and customer record, they cover each other\'s gaps so no enquiry is lost between channels.',
     question_pt: 'Posso usar o widget e o assistente telefónico em conjunto?',
     question_fr: 'Puis-je utiliser le widget et l\'assistant téléphonique ensemble ?',
+    question_es: '¿Puedo usar el widget y el asistente telefónico juntos?',
     answer_pt: 'Sim, ligados ao mesmo calendário e ficha de cliente, cobrem as lacunas um do outro para que nenhum pedido se perca entre canais.',
     answer_fr: 'Oui, connectés au même calendrier et à la même fiche client, ils comblent mutuellement leurs lacunes afin qu\'aucune demande ne se perde entre les canaux.',
+    answer_es: 'Sí, conectados al mismo calendario y ficha de cliente, cubren las carencias del otro para que ninguna consulta se pierda entre canales.',
   },
   {
     question_da: 'Fungerer funktionerne på dansk?',
@@ -442,8 +524,10 @@ export const featuresFAQs: FAQItem[] = [
     answer_en: 'Yes, the system is built to understand natural, casual Danish, with English available for international customers.',
     question_pt: 'As funcionalidades funcionam em dinamarquês?',
     question_fr: 'Les fonctionnalités fonctionnent-elles en danois ?',
+    question_es: '¿Funcionan las funciones en danés?',
     answer_pt: 'Sim, o sistema foi criado para compreender dinamarquês natural e informal, com inglês disponível para clientes internacionais.',
     answer_fr: 'Oui, le système est conçu pour comprendre un danois naturel et courant, avec l\'anglais disponible pour les clients internationaux.',
+    answer_es: 'Sí, el sistema está diseñado para entender un danés natural y coloquial, con inglés disponible para clientes internacionales.',
   },
   {
     question_da: 'Kan jeg tilpasse, hvad AI\'en må håndtere selv?',
@@ -452,8 +536,10 @@ export const featuresFAQs: FAQItem[] = [
     answer_en: 'Yes, together we set the boundaries for what gets answered automatically and what always gets escalated to a person.',
     question_pt: 'Posso personalizar o que a IA pode tratar sozinha?',
     question_fr: 'Puis-je personnaliser ce que l\'IA est autorisée à gérer seule ?',
+    question_es: '¿Puedo personalizar lo que la IA puede gestionar por sí sola?',
     answer_pt: 'Sim, definimos juntos os limites do que é respondido automaticamente e do que é sempre encaminhado para uma pessoa.',
     answer_fr: 'Oui, nous définissons ensemble les limites de ce qui est traité automatiquement et de ce qui est toujours transmis à une personne.',
+    answer_es: 'Sí, definimos juntos los límites de lo que se responde automáticamente y lo que siempre se transfiere a una persona.',
   },
   {
     question_da: 'Hvordan overvåger jeg, hvordan det bliver brugt?',
@@ -462,8 +548,10 @@ export const featuresFAQs: FAQItem[] = [
     answer_en: 'A single dashboard shows every call, chat and booking, so you always have an overview without checking multiple systems.',
     question_pt: 'Como monitorizo a forma como está a ser utilizado?',
     question_fr: 'Comment puis-je suivre son utilisation ?',
+    question_es: '¿Cómo puedo supervisar cómo se está utilizando?',
     answer_pt: 'Um painel único mostra todas as chamadas, chats e marcações, para que tenha sempre uma visão geral sem ter de consultar vários sistemas.',
     answer_fr: 'Un tableau de bord unique affiche tous les appels, discussions et réservations, vous offrant toujours une vue d\'ensemble sans avoir à consulter plusieurs systèmes.',
+    answer_es: 'Un panel único muestra todas las llamadas, chats y reservas, para que siempre tengas una visión general sin tener que consultar varios sistemas.',
   },
 ];
 
@@ -475,8 +563,10 @@ export const integrationsFAQs: FAQItem[] = [
     answer_en: 'Yes, the system is built to integrate with common calendar and booking systems, so you avoid double bookings and manual reconciliation.',
     question_pt: 'Posso ligar a solução ao meu sistema de marcações existente?',
     question_fr: 'Puis-je connecter la solution à mon système de réservation existant ?',
+    question_es: '¿Puedo conectar la solución a mi sistema de reservas actual?',
     answer_pt: 'Sim, o sistema foi criado para integrar com sistemas comuns de calendário e marcações, evitando marcações duplicadas e reconciliação manual.',
     answer_fr: 'Oui, le système est conçu pour s\'intégrer aux systèmes de calendrier et de réservation courants, afin d\'éviter les doubles réservations et la réconciliation manuelle.',
+    answer_es: 'Sí, el sistema está diseñado para integrarse con los sistemas de calendario y reservas más habituales, así evitas reservas duplicadas y conciliaciones manuales.',
   },
   {
     question_da: 'Skal jeg skifte system for at bruge AI-automatisering?',
@@ -485,8 +575,10 @@ export const integrationsFAQs: FAQItem[] = [
     answer_en: 'No, the goal is to connect to what you already use, not replace it.',
     question_pt: 'Tenho de mudar de sistema para usar a automatização com IA?',
     question_fr: 'Dois-je changer de système pour utiliser l\'automatisation IA ?',
+    question_es: '¿Tengo que cambiar de sistema para usar la automatización con IA?',
     answer_pt: 'Não, o objetivo é ligar-se ao que já utiliza, não substituí-lo.',
     answer_fr: 'Non, l\'objectif est de se connecter à ce que vous utilisez déjà, pas de le remplacer.',
+    answer_es: 'No, el objetivo es conectar con lo que ya usas, no sustituirlo.',
   },
   {
     question_da: 'Hvilke integrationer understøttes?',
@@ -495,8 +587,10 @@ export const integrationsFAQs: FAQItem[] = [
     answer_en: 'See the integrations page for an overview of categories — calendar, communication and more — or contact us to confirm your specific setup.',
     question_pt: 'Que integrações são suportadas?',
     question_fr: 'Quelles intégrations sont prises en charge ?',
+    question_es: '¿Qué integraciones son compatibles?',
     answer_pt: 'Consulte a página de integrações para uma visão geral das categorias — calendário, comunicação e mais — ou contacte-nos para confirmar a sua configuração específica.',
     answer_fr: 'Consultez la page des intégrations pour un aperçu des catégories — calendrier, communication et plus — ou contactez-nous pour confirmer votre configuration spécifique.',
+    answer_es: 'Consulta la página de integraciones para ver un resumen de las categorías — calendario, comunicación y más — o contáctanos para confirmar tu configuración específica.',
   },
   {
     question_da: 'Hvad sker der, hvis min platform ikke er understøttet direkte?',
@@ -505,8 +599,10 @@ export const integrationsFAQs: FAQItem[] = [
     answer_en: 'Contact us — we\'ll assess what\'s possible and often find a solution even when it isn\'t a standard integration.',
     question_pt: 'O que acontece se a minha plataforma não for diretamente suportada?',
     question_fr: 'Que se passe-t-il si ma plateforme n\'est pas directement prise en charge ?',
+    question_es: '¿Qué ocurre si mi plataforma no es compatible directamente?',
     answer_pt: 'Contacte-nos — avaliamos o que é possível e frequentemente encontramos uma solução mesmo quando não se trata de uma integração padrão.',
     answer_fr: 'Contactez-nous — nous évaluerons ce qui est possible et trouvons souvent une solution même lorsqu\'il ne s\'agit pas d\'une intégration standard.',
+    answer_es: 'Contáctanos — evaluamos qué es posible y a menudo encontramos una solución incluso cuando no se trata de una integración estándar.',
   },
   {
     question_da: 'Kræver integrationen teknisk arbejde fra min side?',
@@ -515,8 +611,10 @@ export const integrationsFAQs: FAQItem[] = [
     answer_en: 'Most setups require minimal effort on your side — we handle most of the work along the way.',
     question_pt: 'A integração exige trabalho técnico da minha parte?',
     question_fr: 'L\'intégration nécessite-t-elle un travail technique de mon côté ?',
+    question_es: '¿Requiere la integración trabajo técnico por mi parte?',
     answer_pt: 'A maioria das configurações exige um esforço mínimo da sua parte — tratamos da maior parte do trabalho ao longo do processo.',
     answer_fr: 'La plupart des configurations nécessitent un effort minimal de votre part — nous prenons en charge la majeure partie du travail.',
+    answer_es: 'La mayoría de las configuraciones requieren un esfuerzo mínimo por tu parte — nos encargamos de la mayor parte del trabajo durante el proceso.',
   },
 ];
 
@@ -528,8 +626,10 @@ export const demoFAQs: FAQItem[] = [
     answer_en: 'A walkthrough of the widget and phone assistant tailored to your industry, plus access to try the solution in practice for a period.',
     question_pt: 'O que inclui a demonstração gratuita?',
     question_fr: 'Que comprend la démo gratuite ?',
+    question_es: '¿Qué incluye la demo gratuita?',
     answer_pt: 'Uma apresentação do widget e do assistente telefónico adaptada ao seu setor, além de acesso para experimentar a solução na prática durante um período.',
     answer_fr: 'Une présentation du widget et de l\'assistant téléphonique adaptée à votre secteur, ainsi qu\'un accès pour tester la solution en pratique pendant une période.',
+    answer_es: 'Un recorrido por el widget y el asistente telefónico adaptado a tu sector, además de acceso para probar la solución en la práctica durante un periodo.',
   },
   {
     question_da: 'Er der nogen binding under demoperioden?',
@@ -538,8 +638,10 @@ export const demoFAQs: FAQItem[] = [
     answer_en: 'No, the demo is non-binding, so you can assess the value before deciding.',
     question_pt: 'Existe algum compromisso durante o período de demonstração?',
     question_fr: 'Y a-t-il un engagement pendant la période de démo ?',
+    question_es: '¿Hay algún compromiso durante el periodo de demo?',
     answer_pt: 'Não, a demonstração é sem compromisso, para que possa avaliar o valor antes de decidir.',
     answer_fr: 'Non, la démo est sans engagement, afin que vous puissiez évaluer sa valeur avant de vous décider.',
+    answer_es: 'No, la demo no conlleva ningún compromiso, para que puedas evaluar su valor antes de decidirte.',
   },
   {
     question_da: 'Hvor lang tid tager det at booke en demo?',
@@ -548,8 +650,10 @@ export const demoFAQs: FAQItem[] = [
     answer_en: 'Just a couple of minutes — pick a time directly through the booking calendar on the page.',
     question_pt: 'Quanto tempo demora a marcar uma demonstração?',
     question_fr: 'Combien de temps faut-il pour réserver une démo ?',
+    question_es: '¿Cuánto se tarda en reservar una demo?',
     answer_pt: 'Apenas alguns minutos — escolha um horário diretamente no calendário de marcações da página.',
     answer_fr: 'Seulement quelques minutes — choisissez un créneau directement via le calendrier de réservation sur la page.',
+    answer_es: 'Solo un par de minutos — elige un horario directamente en el calendario de reservas de la página.',
   },
   {
     question_da: 'Kan demoen tilpasses min specifikke branche?',
@@ -558,8 +662,10 @@ export const demoFAQs: FAQItem[] = [
     answer_en: 'Yes, we tailor the walkthrough to whether you run a clinic, a craftsman business, an office or a webshop.',
     question_pt: 'A demonstração pode ser adaptada ao meu setor específico?',
     question_fr: 'La démo peut-elle être adaptée à mon secteur spécifique ?',
+    question_es: '¿Se puede adaptar la demo a mi sector específico?',
     answer_pt: 'Sim, adaptamos a apresentação consoante geste uma clínica, um negócio de artesão, um escritório ou uma loja online.',
     answer_fr: 'Oui, nous adaptons la présentation selon que vous dirigez une clinique, une entreprise artisanale, un bureau ou une boutique en ligne.',
+    answer_es: 'Sí, adaptamos el recorrido según si diriges una clínica, un negocio de oficios, una oficina o una tienda online.',
   },
   {
     question_da: 'Hvad sker der efter demoen?',
@@ -568,8 +674,10 @@ export const demoFAQs: FAQItem[] = [
     answer_en: 'If it\'s a fit, we help with setup step by step, starting with whatever solves your most pressing problem.',
     question_pt: 'O que acontece depois da demonstração?',
     question_fr: 'Que se passe-t-il après la démo ?',
+    question_es: '¿Qué ocurre después de la demo?',
     answer_pt: 'Se for adequado, ajudamos na configuração passo a passo, começando pelo que resolve o seu problema mais urgente.',
     answer_fr: 'Si cela vous convient, nous vous aidons dans la configuration étape par étape, en commençant par ce qui résout votre problème le plus urgent.',
+    answer_es: 'Si encaja, te ayudamos con la configuración paso a paso, empezando por lo que resuelva tu problema más urgente.',
   },
 ];
 
@@ -581,8 +689,10 @@ export const contactFAQs: FAQItem[] = [
     answer_en: 'Call +45 91952794, send an email, or fill in the contact form on the page, and we\'ll get back to you within 24 hours.',
     question_pt: 'Como posso entrar em contacto convosco?',
     question_fr: 'Comment puis-je vous contacter ?',
+    question_es: '¿Cómo puedo contactar con vosotros?',
     answer_pt: 'Ligue para +45 91952794, envie um email, ou preencha o formulário de contacto na página, e responderemos no prazo de 24 horas.',
     answer_fr: 'Appelez le +45 91952794, envoyez un e-mail, ou remplissez le formulaire de contact sur la page, et nous vous répondrons sous 24 heures.',
+    answer_es: 'Llama al +45 91952794, envía un correo electrónico, o rellena el formulario de contacto en la página, y te responderemos en un plazo de 24 horas.',
   },
   {
     question_da: 'Kan I hjælpe mig med at vælge den rigtige løsning?',
@@ -591,8 +701,10 @@ export const contactFAQs: FAQItem[] = [
     answer_en: 'Yes, tell us about your business and we\'ll recommend whether the widget, phone assistant, or a combined total solution makes the most sense.',
     question_pt: 'Podem ajudar-me a escolher a solução certa?',
     question_fr: 'Pouvez-vous m\'aider à choisir la bonne solution ?',
+    question_es: '¿Podéis ayudarme a elegir la solución adecuada?',
     answer_pt: 'Sim, fale-nos sobre a sua empresa e recomendamos se o widget, o assistente telefónico ou uma solução total combinada faz mais sentido.',
     answer_fr: 'Oui, parlez-nous de votre entreprise et nous vous recommanderons si le widget, l\'assistant téléphonique, ou une solution totale combinée est la plus pertinente.',
+    answer_es: 'Sí, cuéntanos sobre tu negocio y te recomendaremos si el widget, el asistente telefónico o una solución total combinada tiene más sentido.',
   },
   {
     question_da: 'Tilbyder I support på dansk?',
@@ -601,8 +713,10 @@ export const contactFAQs: FAQItem[] = [
     answer_en: 'Yes, our support team is Danish and responds in both Danish and English.',
     question_pt: 'Oferecem apoio em dinamarquês?',
     question_fr: 'Proposez-vous un support en danois ?',
+    question_es: '¿Ofrecéis soporte en danés?',
     answer_pt: 'Sim, a nossa equipa de apoio é dinamarquesa e responde tanto em dinamarquês como em inglês.',
     answer_fr: 'Oui, notre équipe de support est danoise et répond aussi bien en danois qu\'en anglais.',
+    answer_es: 'Sí, nuestro equipo de soporte es danés y responde tanto en danés como en inglés.',
   },
   {
     question_da: 'Hvor hurtigt kan jeg forvente svar?',
@@ -611,8 +725,10 @@ export const contactFAQs: FAQItem[] = [
     answer_en: 'We aim to respond within 24 hours on business days.',
     question_pt: 'Com que rapidez posso esperar uma resposta?',
     question_fr: 'À quelle vitesse puis-je espérer une réponse ?',
+    question_es: '¿Con qué rapidez puedo esperar una respuesta?',
     answer_pt: 'Procuramos responder no prazo de 24 horas em dias úteis.',
     answer_fr: 'Nous visons à répondre sous 24 heures les jours ouvrés.',
+    answer_es: 'Procuramos responder en un plazo de 24 horas en días laborables.',
   },
   {
     question_da: 'Kan jeg booke en demo i stedet for at skrive?',
@@ -621,8 +737,10 @@ export const contactFAQs: FAQItem[] = [
     answer_en: 'Yes, use the link to book a free demo directly if you\'d rather see the solution in practice.',
     question_pt: 'Posso marcar uma demonstração em vez de escrever?',
     question_fr: 'Puis-je réserver une démo au lieu d\'écrire ?',
+    question_es: '¿Puedo reservar una demo en lugar de escribir?',
     answer_pt: 'Sim, use o link para marcar diretamente uma demonstração gratuita se preferir ver a solução na prática.',
     answer_fr: 'Oui, utilisez le lien pour réserver directement une démo gratuite si vous préférez voir la solution en pratique.',
+    answer_es: 'Sí, usa el enlace para reservar directamente una demo gratuita si prefieres ver la solución en la práctica.',
   },
 ];
 
@@ -634,8 +752,10 @@ export const aboutFAQs: FAQItem[] = [
     answer_en: 'Aibooking.dk is built for Danish businesses that want to automate reception and booking without compromising the customer experience.',
     question_pt: 'Quem está por trás da Aibooking.dk?',
     question_fr: 'Qui se cache derrière Aibooking.dk ?',
+    question_es: '¿Quién está detrás de Aibooking.dk?',
     answer_pt: 'A Aibooking.dk foi criada para empresas dinamarquesas que querem automatizar a receção e as marcações sem comprometer a experiência do cliente.',
     answer_fr: 'Aibooking.dk est conçue pour les entreprises danoises qui souhaitent automatiser la réception et les réservations sans compromettre l\'expérience client.',
+    answer_es: 'Aibooking.dk está diseñada para empresas danesas que quieren automatizar la recepción y las reservas sin comprometer la experiencia del cliente.',
   },
   {
     question_da: 'Hvorfor skulle jeg vælge Aibooking.dk frem for et andet system?',
@@ -644,8 +764,10 @@ export const aboutFAQs: FAQItem[] = [
     answer_en: 'The solution is built specifically for the Danish market, with natural Danish language and a focus on combining widget, phone and booking into one connected system.',
     question_pt: 'Porque deveria escolher a Aibooking.dk em vez de outro sistema?',
     question_fr: 'Pourquoi choisir Aibooking.dk plutôt qu\'un autre système ?',
+    question_es: '¿Por qué debería elegir Aibooking.dk en lugar de otro sistema?',
     answer_pt: 'A solução foi criada especificamente para o mercado dinamarquês, com linguagem natural em dinamarquês e foco em combinar widget, telefone e marcações num único sistema integrado.',
     answer_fr: 'La solution est conçue spécifiquement pour le marché danois, avec un danois naturel et l\'objectif de réunir widget, téléphone et réservation dans un système unique et connecté.',
+    answer_es: 'La solución está diseñada específicamente para el mercado danés, con un lenguaje danés natural y el enfoque de combinar widget, teléfono y reservas en un único sistema conectado.',
   },
   {
     question_da: 'Hvilke virksomheder passer produktet bedst til?',
@@ -654,8 +776,10 @@ export const aboutFAQs: FAQItem[] = [
     answer_en: 'Clinics, craftsmen, office and admin businesses, and webshops that receive ongoing phone and website enquiries.',
     question_pt: 'Para que empresas é mais indicado o produto?',
     question_fr: 'À quelles entreprises le produit convient-il le mieux ?',
+    question_es: '¿Para qué empresas es más adecuado el producto?',
     answer_pt: 'Clínicas, artesãos, empresas de escritório e administração, e lojas online que recebem pedidos contínuos por telefone e site.',
     answer_fr: 'Cliniques, artisans, entreprises de bureau et d\'administration, et boutiques en ligne recevant des demandes continues par téléphone et par site web.',
+    answer_es: 'Clínicas, profesionales de oficios, empresas de oficina y administración, y tiendas online que reciben consultas continuas por teléfono y sitio web.',
   },
   {
     question_da: 'Er data sikre hos jer?',
@@ -664,8 +788,10 @@ export const aboutFAQs: FAQItem[] = [
     answer_en: 'Yes, all data is handled securely and in accordance with Danish and European regulations.',
     question_pt: 'Os dados estão seguros convosco?',
     question_fr: 'Mes données sont-elles en sécurité chez vous ?',
+    question_es: '¿Están seguros los datos con vosotros?',
     answer_pt: 'Sim, todos os dados são tratados com segurança e em conformidade com a legislação dinamarquesa e europeia.',
     answer_fr: 'Oui, toutes les données sont traitées en toute sécurité et conformément à la réglementation danoise et européenne.',
+    answer_es: 'Sí, todos los datos se gestionan de forma segura y conforme a la normativa danesa y europea.',
   },
   {
     question_da: 'Hvordan kommer jeg i gang med at samarbejde med jer?',
@@ -674,7 +800,9 @@ export const aboutFAQs: FAQItem[] = [
     answer_en: 'Book a free demo and we\'ll show you how the solution fits your business.',
     question_pt: 'Como começo a trabalhar convosco?',
     question_fr: 'Comment démarrer une collaboration avec vous ?',
+    question_es: '¿Cómo empiezo a colaborar con vosotros?',
     answer_pt: 'Marque uma demonstração gratuita e mostramos-lhe como a solução se adapta à sua empresa.',
     answer_fr: 'Réservez une démo gratuite et nous vous montrerons comment la solution s\'adapte à votre entreprise.',
+    answer_es: 'Reserva una demo gratuita y te mostraremos cómo la solución se adapta a tu empresa.',
   },
 ];

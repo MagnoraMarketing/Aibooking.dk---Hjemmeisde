@@ -1,0 +1,41 @@
+{
+  "seo": {
+    "title": "Atención al Cliente con IA para E-commerce y Tiendas Online | Aibooking.dk",
+    "description": "Atención al cliente con IA 24/7 para tiendas online. 40% más satisfacción del cliente, 28% más conversión. Respuestas automáticas, actualizaciones por SMS. Pruébalo gratis.",
+    "keywords": "atención al cliente tienda online, ia para e-commerce, automatización de tienda online, chatbot para tienda online, automatización de atención al cliente"
+  },
+  "breadcrumb": { "home": "Inicio", "industries": "Sectores", "ecommerce": "E-commerce y Tienda Online" },
+  "hero": {
+    "badge": "E-commerce y Tienda Online",
+    "title": "Atención al cliente que crece con tu negocio",
+    "subtitle": "En el e-commerce, una atención al cliente rápida es fundamental para el éxito. Las respuestas tardías a las consultas de los clientes significan ventas perdidas y malas reseñas. Pero tener personal de atención al cliente 24/7 es caro y complejo."
+  },
+  "mainCard": {
+    "title": "Atención al cliente con IA que nunca duerme",
+    "description": "Aibooking.dk te ofrece una atención al cliente impulsada por IA que nunca duerme. El sistema responde al instante a preguntas frecuentes sobre productos, plazos de entrega, devoluciones y estado de los pedidos. Las consultas complejas se derivan automáticamente a tu equipo. Con notificaciones por SMS, mantienes a los clientes informados durante todo su proceso de compra. Tu panel muestra todas las interacciones con los clientes, resúmenes de conversaciones, preguntas frecuentes y tendencias, para que puedas optimizar continuamente tu servicio. Reduce los tiempos de respuesta de horas a segundos y mejora notablemente la satisfacción del cliente."
+  },
+  "benefits": [
+    { "title": "Atención al cliente 24/7", "description": "Responde a las consultas al instante sin personal adicional" },
+    { "title": "Respuestas automáticas", "description": "Gestiona preguntas sobre productos, estado de pedidos y devoluciones" },
+    { "title": "Actualizaciones por SMS", "description": "Notificaciones automáticas sobre envíos y entregas" },
+    { "title": "Tiempos de respuesta ultrarrápidos", "description": "Reduce los tiempos de respuesta de horas a segundos" },
+    { "title": "Perspectivas de tendencias", "description": "Panel con interacciones de clientes y preguntas frecuentes" },
+    { "title": "Integración con tienda online", "description": "Integración con tu sistema de tienda online y gestión de pedidos" }
+  ],
+  "stats": [
+    { "value": "95%", "label": "Respuestas más rápidas" },
+    { "value": "+40%", "label": "Satisfacción del cliente" },
+    { "value": "1200+", "label": "Consultas/mes" },
+    { "value": "+28%", "label": "Conversión" }
+  ],
+  "perfectFor": {
+    "title": "Perfecto para todo tipo de negocios online",
+    "items": ["Tiendas online", "E-commerce", "Dropshipping", "Marketplaces", "Ventas online"],
+    "cta": "Reserva una reunión sin compromiso y obtén un acceso de prueba gratuito"
+  },
+  "ctaSection": {
+    "title": "¿Listo para empezar?",
+    "subtitle": "Reserva una reunión gratuita y sin compromiso y obtén acceso a un login de prueba para probar el sistema tú mismo",
+    "button": "Reserva una reunión sin compromiso y obtén un acceso de prueba gratuito"
+  }
+}

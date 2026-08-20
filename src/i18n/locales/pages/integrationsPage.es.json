@@ -1,0 +1,89 @@
+{
+  "seo": {
+    "title": "Integraciones - Conecta Tu Recepcionista de IA con Tus Sistemas | Aibooking.dk",
+    "description": "Integra nuestra recepcionista de IA con Google Calendar, Outlook, Microsoft Teams, Zoom, Slack y muchos más. Integraciones perfectas de calendario y reservas.",
+    "keywords": "integración de calendario, google calendar, integración outlook, integración sistema de reservas, integración crm, integración de correo electrónico"
+  },
+  "breadcrumb": { "home": "Inicio", "integrations": "Integraciones" },
+  "hero": {
+    "badge": "Integración Perfecta",
+    "title_line1": "Conecta con tus",
+    "title_line2": "herramientas actuales",
+    "subtitle": "Nuestra solución de IA automatiza la administración, llamadas, SMS y correo electrónico trabajando junto a los sistemas que ya usas. Ahorra tiempo, gana profesionalidad y deja que la IA gestione reprogramaciones, seguimientos y confirmaciones de reuniones automáticamente.",
+    "features": [
+      { "title": "Ahorra Horas Cada Día", "description": "Automatiza llamadas entrantes y salientes, SMS y correos electrónicos mientras la IA se sincroniza con tus sistemas" },
+      { "title": "Configuración Rápida", "description": "Sin instalaciones complicadas. Conecta tus herramientas actuales en minutos" },
+      { "title": "Siempre Sincronizado", "description": "Actualizaciones en tiempo real en todas tus plataformas. Sin trabajo duplicado" }
+    ]
+  },
+  "categoriesSection": {
+    "title": "Categorías de Integración",
+    "subtitle": "Nuestra solución de IA se conecta con las herramientas que ya usas cada día",
+    "categories": [
+      { "title": "Calendario y Programación", "description": "Google Calendar, Outlook, CalDAV" },
+      { "title": "CRM y Clientes", "description": "HubSpot, Salesforce, Pipedrive" },
+      { "title": "Comunicación", "description": "WhatsApp, Slack, Discord, Messenger" },
+      { "title": "Documentos", "description": "Notion, WordPress, Google Docs" },
+      { "title": "E-commerce", "description": "Shopify, WooCommerce, Stripe" },
+      { "title": "Automatización", "description": "Zapier, Make, Webhooks, API" }
+    ]
+  },
+  "gridSection": {
+    "title": "Integraciones Populares",
+    "subtitle": "Trabaja sin fricciones con tus herramientas actuales. Nuestra IA gestiona automáticamente la comunicación en cada plataforma.",
+    "clinicHighlight": {
+      "title": "Creado específicamente para clínicas y centros de tratamiento",
+      "description": "Más de 500 clínicas danesas ya han elegido nuestra solución. Desde clínicas dentales y fisioterapeutas hasta salones de belleza y centros de bienestar: nuestro asistente de IA se integra perfectamente con tu sistema de reservas actual y se encarga de todo, desde llamadas telefónicas hasta recordatorios por SMS.",
+      "points": [
+        { "strong": "Gestión de datos segura según el RGPD", "text": "— todos los datos de pacientes se tratan de forma confidencial y conforme a la normativa sanitaria" },
+        { "strong": "Reduce las ausencias hasta un 67%", "text": "— los recordatorios automáticos por SMS y correo electrónico mantienen informados a tus clientes" },
+        { "strong": "Configuración en menos de 15 minutos", "text": "— no se requieren conocimientos de informática, nuestro equipo te guía en cada paso" },
+        { "strong": "Soporte danés 7 días a la semana", "text": "— ayuda siempre que la necesites, en tu propio idioma" }
+      ]
+    },
+    "popularBadge": "Popular",
+    "integrations": [
+      { "name": "Google Calendar", "description": "Reserva automática y sincronización de reuniones", "category": "Calendario" },
+      { "name": "Outlook", "description": "Integración con Microsoft 365 para correo y calendario", "category": "Calendario" },
+      { "name": "WhatsApp", "description": "Envía confirmaciones y recordatorios por SMS", "category": "Comunicación" },
+      { "name": "Slack", "description": "Notificaciones en tiempo real para tu equipo", "category": "Comunicación" },
+      { "name": "Shopify", "description": "Integración de reservas para e-commerce", "category": "E-commerce" },
+      { "name": "Notion", "description": "Sincronización de documentos y notas", "category": "Productividad" },
+      { "name": "WordPress", "description": "Añade reservas a tu sitio web", "category": "Sitio web" },
+      { "name": "Zapier", "description": "Conecta con más de 5.000 aplicaciones automáticamente", "category": "Automatización" },
+      { "name": "Zoom", "description": "Creación automática de enlaces de reunión", "category": "Vídeo" },
+      { "name": "Microsoft Teams", "description": "Integración de reuniones de Teams", "category": "Vídeo" },
+      { "name": "Messenger", "description": "Integración con Facebook Messenger", "category": "Comunicación" },
+      { "name": "Discord", "description": "Integración de comunidad y servidor", "category": "Comunicación" },
+      { "name": "OpenAI", "description": "Soporte avanzado de IA", "category": "IA" },
+      { "name": "Webhooks", "description": "Integración personalizada con tus sistemas", "category": "Desarrollador" },
+      { "name": "REST API", "description": "Acceso completo a la API de todas las funciones", "category": "Desarrollador" }
+    ],
+    "missing": {
+      "title": "¿Falta tu integración?",
+      "description": "Añadimos nuevas integraciones continuamente. Con nuestro soporte de Webhook y API, puedes conectar casi cualquier sistema a nuestra solución de IA.",
+      "button": "Reservar una Demo"
+    }
+  },
+  "ctaSection": {
+    "title": "Deja que la IA se encargue de la administración",
+    "subtitle": "Nuestra solución de IA se integra perfectamente con tus sistemas actuales y automatiza todo, desde llamadas telefónicas hasta comunicación por correo electrónico. Ahorra horas cada día y céntrate en lo que realmente importa: tus clientes.",
+    "button": "Reservar una Demo",
+    "benefitsTitle": "¿Qué obtienes con la integración de IA?",
+    "benefits": [
+      "Gestión automática de llamadas entrantes y salientes",
+      "Recordatorios y confirmaciones por SMS enviados automáticamente",
+      "Comunicación por correo electrónico gestionada por IA",
+      "Reprogramaciones gestionadas sin intervención manual",
+      "Confirmaciones de reunión enviadas a tiempo, siempre",
+      "Seguimiento de llamadas y consultas perdidas",
+      "Sincronización en tiempo real con todos tus sistemas",
+      "Gestión profesional 24/7"
+    ],
+    "stats": [
+      { "value": "5 min", "label": "Tiempo medio de configuración" },
+      { "value": "24/7", "label": "Atención al cliente con IA" },
+      { "value": "100%", "label": "Sincronización automática" }
+    ]
+  }
+}

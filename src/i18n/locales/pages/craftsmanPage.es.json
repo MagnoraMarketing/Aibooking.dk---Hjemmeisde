@@ -1,0 +1,45 @@
+{
+  "seo": {
+    "title": "Recepcionista de IA para Profesionales - Fontaneros, Electricistas, Carpinteros | Aibooking.dk",
+    "description": "Reservas automáticas para profesionales. No pierdas ni un trabajo más. 45% más trabajos, 100% de llamadas atendidas. Perfecto para fontaneros, electricistas y pintores. Pruébalo gratis.",
+    "keywords": "reservas para profesionales, reservas fontanero, reservas electricista, reservas carpintero, recepcionista de ia para oficios, automatización de trabajos"
+  },
+  "breadcrumb": {
+    "home": "Inicio",
+    "industries": "Sectores",
+    "craftsman": "Profesionales"
+  },
+  "hero": {
+    "badge": "Profesionales y Oficios",
+    "title": "Deja de perder trabajos porque no contestas al teléfono",
+    "subtitle": "Conoces la sensación: estás en medio de un trabajo y suena el teléfono. Si contestas, pierdes la concentración. Si no lo haces, arriesgas perder un buen trabajo. Es una situación imposible."
+  },
+  "solution": {
+    "title": "No vuelvas a perder ni un trabajo",
+    "description": "Nuestra recepcionista de IA resuelve este problema de una vez por todas. El sistema contesta cada llamada, registra los datos del cliente, agenda visitas y envía confirmaciones automáticas por SMS. En tu panel puedes ver cada consulta, escuchar las conversaciones grabadas, obtener resúmenes breves de lo que quiere el cliente y ver lo que se ha acordado. Tu calendario se actualiza automáticamente, sea cual sea el sistema que uses. Deja de preocuparte por trabajos perdidos: céntrate en tu oficio."
+  },
+  "benefits": [
+    { "title": "Contesta cada consulta", "description": "Incluso cuando estás en un trabajo y no puedes coger el teléfono" },
+    { "title": "Registro automático", "description": "Los datos del cliente y la descripción del trabajo se guardan automáticamente" },
+    { "title": "Agenda visitas directamente", "description": "Directo a tu calendario — se sincroniza automáticamente con tu sistema" },
+    { "title": "Confirmaciones por SMS", "description": "Tanto para ti como para el cliente, con todos los detalles relevantes" },
+    { "title": "Panel completo", "description": "Ve cada consulta de cliente y lo que se ha acordado" },
+    { "title": "Disponibilidad 24/7", "description": "El sistema funciona a cualquier hora, fines de semana incluidos" }
+  ],
+  "stats": [
+    { "value": "+45%", "label": "Más trabajos" },
+    { "value": "10h/semana", "label": "Tiempo ahorrado" },
+    { "value": "100%", "label": "Llamadas atendidas" },
+    { "value": "4.9/5", "label": "Satisfacción del cliente" }
+  ],
+  "trades": {
+    "title": "Perfecto para cualquier oficio",
+    "items": ["Fontanería", "Electricistas", "Pintores", "Carpinteros", "Limpieza", "Empresas de mudanzas"],
+    "cta": "Reserva una reunión sin compromiso y obtén un acceso de prueba gratuito"
+  },
+  "finalCta": {
+    "title": "¿Listo para empezar?",
+    "subtitle": "Reserva una reunión gratuita y sin compromiso y obtén acceso a un login de prueba para probar el sistema tú mismo",
+    "button": "Reserva una reunión sin compromiso y obtén un acceso de prueba gratuito"
+  }
+}

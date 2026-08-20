@@ -7,10 +7,12 @@ export interface FAQItem {
   question_en: string;
   question_pt: string;
   question_fr: string;
+  question_es: string;
   answer_da: string;
   answer_en: string;
   answer_pt: string;
   answer_fr: string;
+  answer_es: string;
 }
 
 interface FAQProps {
@@ -21,7 +23,7 @@ export default function FAQ({ items }: FAQProps) {
   const { t, i18n } = useTranslation();
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
-  const lang = (i18n.language in { da: 1, en: 1, pt: 1, fr: 1 } ? i18n.language : 'da') as 'da' | 'en' | 'pt' | 'fr';
+  const lang = (i18n.language in { da: 1, en: 1, pt: 1, fr: 1, es: 1 } ? i18n.language : 'da') as 'da' | 'en' | 'pt' | 'fr' | 'es';
   const getQuestion = (item: FAQItem) => item[`question_${lang}`];
   const getAnswer = (item: FAQItem) => item[`answer_${lang}`];
 

@@ -1,0 +1,21 @@
+{
+  "notFound": {
+    "title": "Artículo no encontrado"
+  },
+  "backToBlog": "Volver al blog",
+  "readTime": "{{count}} min de lectura",
+  "actions": {
+    "share": "Compartir",
+    "save": "Guardar"
+  },
+  "ctaBox": {
+    "title": "¿Listo para empezar?",
+    "description": "Descubre cómo AIBooking.dk puede transformar tu negocio con automatización inteligente. Reserva una demo gratuita hoy mismo.",
+    "button": "Probar el Widget de IA Gratis"
+  },
+  "related": {
+    "title": "Artículos Relacionados",
+    "subtitle": "Lee más sobre {{category}}"
+  },
+  "readArticle": "Leer artículo"
+}

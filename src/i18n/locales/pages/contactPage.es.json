@@ -1,0 +1,53 @@
+{
+  "seo": {
+    "title": "Contáctanos - Obtén Ayuda y Soporte | Aibooking.dk",
+    "description": "¿Tienes preguntas sobre nuestra recepcionista de IA? Contacta con nuestro equipo de soporte danés. Respondemos en 24 horas. Llama al +45 91952794 o envía un correo.",
+    "keywords": "contactar aibooking, soporte danés, ayuda recepcionista de ia, atención al cliente, obtener una demo"
+  },
+  "breadcrumb": { "home": "Inicio", "contact": "Contacto" },
+  "hero": {
+    "badge": "Estamos listos para ayudar",
+    "title": "Contáctanos hoy",
+    "subtitle": "¿Tienes preguntas o quieres saber más sobre cómo Aibooking.dk puede ayudar a tu negocio? Estamos aquí para ayudarte."
+  },
+  "infoCards": {
+    "call": { "title": "Llámanos", "desc": "Estaremos encantados de responder tus preguntas" },
+    "email": { "title": "Envía un correo", "desc": "Respondemos en 24 horas" },
+    "hours": { "title": "Horario de atención", "line1": "Lun-Vie: 9:00 - 17:00", "line2": "Fin de semana: Cerrado" }
+  },
+  "form": {
+    "title": "Envíanos un mensaje",
+    "subtitle": "Rellena el siguiente formulario y te responderemos lo antes posible",
+    "successTitle": "¡Gracias por tu mensaje!",
+    "successMessage": "Te responderemos lo antes posible.",
+    "error": "Algo salió mal. Por favor, inténtalo de nuevo.",
+    "labels": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "phone": "Teléfono (opcional)",
+      "message": "Mensaje"
+    },
+    "placeholders": {
+      "name": "Tu nombre completo",
+      "email": "tu@email.com",
+      "phone": "+45 91952794",
+      "message": "¿Cómo podemos ayudarte?"
+    },
+    "submit": "Enviar mensaje",
+    "sending": "Enviando..."
+  },
+  "location": {
+    "title": "Encuéntranos aquí",
+    "companyName": "Aibooking.dk ApS",
+    "addressLine1": "Trindsøvej 6, 1. sal",
+    "addressLine2": "8000 Aarhus C, Dinamarca"
+  },
+  "whyUs": {
+    "title": "¿Por qué elegirnos?",
+    "items": [
+      "Soporte danés en español",
+      "Implementación rápida",
+      "Solución conforme al RGPD"
+    ]
+  }
+}

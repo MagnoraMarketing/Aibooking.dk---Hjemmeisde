@@ -1,0 +1,41 @@
+{
+  "seo": {
+    "title": "Recepcionista de IA para Clínicas - Dentistas, Fisioterapeutas | Aibooking.dk",
+    "description": "Reservas automáticas para clínicas, dentistas y fisioterapeutas. Reduce las ausencias en un 60%, ahorra 12 horas a la semana. Datos de pacientes seguros según el RGPD. Pruébalo gratis.",
+    "keywords": "reservas dentista, reservas clínica, reservas fisioterapia, recepcionista de ia sanitario, reservas de pacientes, automatización de clínicas"
+  },
+  "breadcrumb": { "home": "Inicio", "industries": "Sectores", "healthcare": "Clínicas" },
+  "hero": {
+    "badge": "Clínicas y Salud",
+    "title": "Libertad para centrarte en el cuidado del paciente",
+    "subtitle": "Como clínica, sabes lo importante que es ofrecer a tus pacientes el mejor tratamiento posible. Pero las tareas administrativas como llamadas telefónicas, reservas y cancelaciones roban tiempo valioso al cuidado del paciente."
+  },
+  "solution": {
+    "title": "La solución completa para el sector sanitario",
+    "description": "Nuestra recepcionista de IA gestiona cada consulta de forma profesional: desde nuevas reservas hasta reprogramaciones y confirmaciones. Con recordatorios automáticos por SMS, reduces significativamente las ausencias. Tu panel personalizado te ofrece una visión completa: escucha cada llamada, ve resúmenes breves de cada conversación, lo que se acordó, estadísticas de reservas e integración con el calendario. Puedes seguir usando tu software de calendario actual — nuestro sistema se sincroniza automáticamente.",
+    "benefits": [
+      { "title": "Reduce el tiempo al teléfono en un 85%", "description": "Céntrate en tus pacientes en lugar de en tareas administrativas" },
+      { "title": "Recordatorios automáticos por SMS", "description": "Reduce las ausencias hasta un 60% y optimiza tu capacidad" },
+      { "title": "Servicio de reservas 24/7", "description": "Gestiona reservas, reprogramaciones y cancelaciones a cualquier hora" },
+      { "title": "Panel completo", "description": "Historial de llamadas, resúmenes de conversaciones y estadísticas de reservas" },
+      { "title": "Integración con calendario", "description": "Se sincroniza automáticamente con tu sistema de reservas actual" },
+      { "title": "Cumplimiento del RGPD", "description": "Seguridad total para los datos sensibles de los pacientes" }
+    ]
+  },
+  "stats": [
+    { "value": "60%", "label": "Menos ausencias" },
+    { "value": "12h/semana", "label": "Tiempo ahorrado" },
+    { "value": "95%", "label": "Tasa de reservas" },
+    { "value": "4.8/5", "label": "Satisfacción del cliente" }
+  ],
+  "perfectFor": {
+    "title": "Perfecto para cualquier clínica sanitaria",
+    "practices": ["Dentistas", "Fisioterapeutas", "Quiroprácticos", "Clínicas de masaje", "Psicólogos"],
+    "cta": "Reserva una reunión sin compromiso y obtén un acceso de prueba gratuito"
+  },
+  "ctaSection": {
+    "title": "¿Listo para empezar?",
+    "subtitle": "Reserva una reunión gratuita y sin compromiso y obtén acceso a un login de prueba para probar el sistema tú mismo",
+    "button": "Reserva una reunión sin compromiso y obtén un acceso de prueba gratuito"
+  }
+}

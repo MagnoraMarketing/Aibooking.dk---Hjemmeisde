@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Reserva una Demo Gratuita - Ve la Recepcionista de IA en Acción | Aibooking.dk",
+    "description": "Reserva una demo gratuita y sin compromiso de nuestra recepcionista de IA. Obtén 7 días de acceso gratuito y descubre cómo podemos transformar tu negocio. Reserva ahora.",
+    "keywords": "reservar demo, demo gratuita, demo recepcionista de ia, probar gratis, demo sin compromiso"
+  },
+  "breadcrumb": { "home": "Inicio", "demo": "Reservar Demo" },
+  "hero": {
+    "badge": "Oferta Exclusiva",
+    "title": "Reserva Tu Demo Gratuita",
+    "subtitle_line1": "Obtén una demostración personal del sistema y descubre cómo nuestra recepcionista de IA puede transformar tu negocio. Reserva hoy una demo gratuita y sin compromiso y obtén ",
+    "subtitle_bold": "7 días de prueba gratuita",
+    "subtitle_line2": " con acceso completo."
+  },
+  "heroCards": [
+    { "title": "Demostración Gratuita", "description": "Obtén una demostración personal y sin compromiso adaptada a tu negocio y tus necesidades." },
+    { "title": "Demo Gratuita de 7 Días", "description": "Prueba todas las funciones sin compromiso durante 7 días. Totalmente sin obligación y sin necesidad de tarjeta de crédito." },
+    { "title": "Te Ayudamos a Empezar", "description": "Nuestro equipo te guía durante toda la configuración y se asegura de que empieces con muy buen pie desde el primer día." }
+  ],
+  "booking": {
+    "title": "Elige Tu Horario",
+    "subtitle": "Reserva una reunión que se ajuste a tu calendario",
+    "button": "Reserva Tu Demo Gratuita"
+  },
+  "afterBooking": {
+    "title": "¿Qué Pasa Después de Reservar?",
+    "steps": [
+      { "title": "Reserva una Reunión", "desc": "Elige un horario que te convenga" },
+      { "title": "Demo Personal", "desc": "Ve la recepcionista de IA en acción" },
+      { "title": "Activación Gratuita", "desc": "Obtén 7 días de acceso completo" },
+      { "title": "Disfruta de las Ventajas", "desc": "Céntrate en hacer crecer tu clínica" }
+    ]
+  },
+  "whyChoose": {
+    "title": "¿Por Qué Elegir Nuestra Recepcionista de IA?",
+    "subtitle": "Descubre la diferencia con el sistema de reservas impulsado por IA más avanzado del mercado, diseñado específicamente para empresas danesas"
+  },
+  "features": [
+    {
+      "title": "Disponibilidad 24/7",
+      "description": "Nuestra recepcionista de IA trabaja a cualquier hora, sin descansos, festivos ni días libres. Tus clientes siempre pueden reservar una cita, ya sea en mitad de la noche, el fin de semana o un día festivo. Eso significa más reservas y una mayor satisfacción del cliente."
+    },
+    {
+      "title": "Mayor Eficiencia",
+      "description": "Automatiza hasta el 80% de tus consultas telefónicas y libera tiempo valioso para tu personal. Reduce drásticamente las tareas administrativas y deja que tu equipo se centre en ofrecer un servicio de primera categoría a tus clientes."
+    },
+    {
+      "title": "Respuesta Instantánea",
+      "description": "Sin tiempos de espera para tus clientes. La IA responde a cada llamada al instante y puede gestionar conversaciones ilimitadas simultáneamente. Eso significa cero llamadas perdidas y máxima satisfacción del cliente en todo momento."
+    },
+    {
+      "title": "Integración Inteligente con el Calendario",
+      "description": "Integración perfecta con tu sistema de reservas actual. La IA ve tu calendario real en tiempo real y solo reserva los horarios disponibles. Cada cita se sincroniza automáticamente con notas detalladas sobre la conversación y las solicitudes del cliente."
+    },
+    {
+      "title": "Reduce las Ausencias",
+      "description": "Los recordatorios automáticos por SMS y correo electrónico reducen las citas perdidas hasta en un 65%. El sistema envía recordatorios inteligentes en el momento adecuado e incluso puede reprogramar automáticamente en caso de cancelaciones."
+    },
+    {
+      "title": "Danés Impecable",
+      "description": "Nuestra IA está entrenada específicamente para el idioma danés y las normas culturales danesas. Entiende dialectos y jerga y habla un danés natural. Tus clientes disfrutan de una conversación agradable y profesional cada vez."
+    }
+  ],
+  "benefitsSection": {
+    "title": "Ventajas Concretas Para Tu Negocio",
+    "benefits": [
+      { "title": "Ahorra Más de 10 Horas a la Semana", "description": "Libera el tiempo que antes dedicabas a contestar el teléfono, gestionar reservas y enviar recordatorios. Dedica ese tiempo a hacer crecer tu negocio." },
+      { "title": "Aumenta los Ingresos un 30%", "description": "Capta cada oportunidad 24/7 y reduce las reservas perdidas. Más reservas y menos ausencias significan un aumento directo de los ingresos." },
+      { "title": "Cero Llamadas Perdidas", "description": "Cada llamada sin responder son ingresos perdidos. Con la recepcionista de IA, ninguna llamada se escapa, ni siquiera cuando estás ocupado, en una reunión o fuera del horario de apertura." },
+      { "title": "Mejor Experiencia del Cliente", "description": "Calidad de servicio consistentemente alta en todo momento. Sin días malos, sin errores causados por el estrés. Tus clientes siempre disfrutan de una recepcionista profesional y amable." },
+      { "title": "Documentación Completa", "description": "Cada conversación se graba y transcribe automáticamente. Obtén información valiosa sobre las solicitudes de los clientes, preguntas frecuentes y oportunidades para mejorar tu servicio." },
+      { "title": "Solución Escalable", "description": "Gestiona 1 o 1.000 llamadas al día sin contratar más personal. El sistema crece con tu negocio sin coste adicional." }
+    ],
+    "ctaTitle": "¿Listo para Empezar?",
+    "ctaText": "Reserva ya tu demo gratuita y obtén 7 días de acceso completo al sistema. Te guiamos durante toda la configuración y nos aseguramos de que empieces con muy buen pie. Sin compromiso, sin necesidad de tarjeta de crédito.",
+    "ctaButton": "Reserva Tu Demo Gratuita Ahora"
+  },
+  "industries": {
+    "title": "Perfecto Para Todo Tipo de Empresas de Servicios",
+    "subtitle": "Nuestra recepcionista de IA está diseñada para gestionar reservas y atención al cliente en cualquier sector",
+    "items": [
+      { "title": "Sanidad", "desc": "Dentistas, fisioterapeutas, quiroprácticos, clínicas de masaje, psicólogos" },
+      { "title": "Belleza y Bienestar", "desc": "Peluquerías, esteticistas, salones de uñas, spas, tatuadores" },
+      { "title": "Oficios y Servicios", "desc": "Fontaneros, electricistas, pintores, carpinteros, limpieza, empresas de mudanzas" },
+      { "title": "Consultoría y Coaching", "desc": "Abogados, contables, consultores, entrenadores personales, coaches profesionales" }
+    ]
+  }
+}

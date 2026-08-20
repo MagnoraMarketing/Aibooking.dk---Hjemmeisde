@@ -1,0 +1,17 @@
+{
+  "seo": {
+    "title": "Blog - Automatización con IA y Reservas | AIBooking.dk",
+    "description": "Lee los últimos artículos sobre automatización con IA, sistemas de reservas y soluciones digitales para empresas modernas. Perspectivas de expertos sobre widgets de IA, asistentes telefónicos y automatización completa.",
+    "keywords": "blog de ia, automatización de reservas, perspectivas de ia, transformación digital, widget de ia, asistente telefónico"
+  },
+  "hero": {
+    "badge": "Últimas Novedades",
+    "title": "Blog de AIBooking",
+    "subtitle": "Perspectivas sobre automatización con IA, sistemas de reservas y soluciones digitales que transforman las empresas modernas."
+  },
+  "featured": {
+    "label": "Destacado",
+    "readArticle": "Leer artículo"
+  },
+  "readMore": "Leer más"
+}

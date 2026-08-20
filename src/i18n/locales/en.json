@@ -394,6 +394,14 @@
     "badge": "7 DAYS FREE",
     "title": "Try your AI receptionist free for 7 days",
     "description": "Just forward calls from your existing phone number — no technical setup required. See for yourself how much time it frees up for other tasks!",
-    "cta": "Start my free trial"
+    "cta": "Start my free trial",
+    "voice_label": "Talk time",
+    "voice_value": "75 min included",
+    "sms_label": "SMS",
+    "sms_value": "100 free SMS",
+    "email_label": "Email",
+    "email_value": "3,000 free emails",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_value": "100 free messages"
   }
 }

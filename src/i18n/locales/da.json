@@ -394,6 +394,14 @@
     "badge": "7 DAGE GRATIS",
     "title": "Prøv din AI-receptionist gratis i 7 dage",
     "description": "Blot med viderestilling fra dit nuværende telefonnummer — ingen teknisk opsætning. Se selv hvor meget tid du frigør til andre opgaver!",
-    "cta": "Start min gratis prøveperiode"
+    "cta": "Start min gratis prøveperiode",
+    "voice_label": "Taletid",
+    "voice_value": "75 min. inkluderet",
+    "sms_label": "SMS",
+    "sms_value": "100 gratis SMS",
+    "email_label": "Email",
+    "email_value": "3.000 gratis emails",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_value": "100 gratis beskeder"
   }
 }

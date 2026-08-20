@@ -394,6 +394,14 @@
     "badge": "7 JOURS GRATUITS",
     "title": "Essayez votre réceptionniste IA gratuitement pendant 7 jours",
     "description": "Il vous suffit de transférer les appels depuis votre numéro de téléphone actuel — aucune configuration technique requise. Découvrez par vous-même combien de temps cela vous libère pour d'autres tâches !",
-    "cta": "Démarrer mon essai gratuit"
+    "cta": "Démarrer mon essai gratuit",
+    "voice_label": "Temps de parole",
+    "voice_value": "75 min incluses",
+    "sms_label": "SMS",
+    "sms_value": "100 SMS gratuits",
+    "email_label": "E-mail",
+    "email_value": "3 000 e-mails gratuits",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_value": "100 messages gratuits"
   }
 }

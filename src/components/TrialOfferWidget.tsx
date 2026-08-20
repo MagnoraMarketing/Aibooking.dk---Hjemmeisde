@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { X, PhoneCall, Clock, ArrowRight } from 'lucide-react';
+import { X, PhoneCall, Clock, ArrowRight, Phone, MessageSquare, Mail, MessageCircle } from 'lucide-react';
 
 const DISMISSED_KEY = 'aibooking_trial_offer_dismissed';
 const SHOW_AFTER_MS = 15000;
@@ -58,6 +58,37 @@ function TrialOfferWidget() {
           <p className="text-ink-700 text-sm leading-relaxed">
             {t('trialOfferWidget.description')}
           </p>
+
+          <div className="grid grid-cols-2 gap-2">
+            <div className="flex items-start gap-2 bg-ink-50 rounded-lg px-3 py-2">
+              <Phone className="w-4 h-4 text-brand-600 flex-shrink-0 mt-0.5" />
+              <div>
+                <div className="text-xs font-semibold text-ink-900">{t('trialOfferWidget.voice_label')}</div>
+                <div className="text-[11px] text-ink-500">{t('trialOfferWidget.voice_value')}</div>
+              </div>
+            </div>
+            <div className="flex items-start gap-2 bg-ink-50 rounded-lg px-3 py-2">
+              <MessageSquare className="w-4 h-4 text-brand-600 flex-shrink-0 mt-0.5" />
+              <div>
+                <div className="text-xs font-semibold text-ink-900">{t('trialOfferWidget.sms_label')}</div>
+                <div className="text-[11px] text-ink-500">{t('trialOfferWidget.sms_value')}</div>
+              </div>
+            </div>
+            <div className="flex items-start gap-2 bg-ink-50 rounded-lg px-3 py-2">
+              <Mail className="w-4 h-4 text-brand-600 flex-shrink-0 mt-0.5" />
+              <div>
+                <div className="text-xs font-semibold text-ink-900">{t('trialOfferWidget.email_label')}</div>
+                <div className="text-[11px] text-ink-500">{t('trialOfferWidget.email_value')}</div>
+              </div>
+            </div>
+            <div className="flex items-start gap-2 bg-ink-50 rounded-lg px-3 py-2">
+              <MessageCircle className="w-4 h-4 text-brand-600 flex-shrink-0 mt-0.5" />
+              <div>
+                <div className="text-xs font-semibold text-ink-900">{t('trialOfferWidget.whatsapp_label')}</div>
+                <div className="text-[11px] text-ink-500">{t('trialOfferWidget.whatsapp_value')}</div>
+              </div>
+            </div>
+          </div>
 
           <a
             href="https://aibooking-backendnew.vercel.app/signup"

@@ -289,6 +289,53 @@
     "currency_suffix": "kr/md",
     "setup_note_optional": "Tilføj opsætning og onboarding – engangsbetaling {{setup}} kr, inkl. 1 times opfølgende support"
   },
+  "phoneSection": {
+    "eyebrow": "Vi tilbyder også",
+    "dashboardTitle": "Alt samlet ét sted – med fuldt overblik",
+    "dashboardDescription": "Widget og telefonassistent styres fra det samme dashboard. Opsætningen er lavet til at være enkel, og du får et samlet overblik over alle samtaler og bookinger, uanset om de kom ind via hjemmesiden eller telefonen.",
+    "benefits": [
+      {
+        "title": "Brugervenlig opsætning",
+        "description": "Du behøver ingen teknisk viden – vi sætter det op sammen med dig, og du justerer selv bagefter."
+      },
+      {
+        "title": "Samlet overblik i dashboardet",
+        "description": "Se aktivitet, statistik og udvikling på tværs af ind- og udgående opkald ét sted."
+      },
+      {
+        "title": "Lyt til samtalerne",
+        "description": "Alle samtaler bliver optaget og opsummeret, så du kan lytte med og se, hvad der blev aftalt."
+      },
+      {
+        "title": "Se alle bookinger",
+        "description": "Bookinger lander direkte i din kalender og vises samlet, så intet bliver overset."
+      }
+    ],
+    "dashboard": {
+      "url_label": "dashboard.aibooking.dk",
+      "live_label": "Live data",
+      "nav": ["Overblik", "Opkald", "Bookinger", "AI-agenter", "Opsætning"],
+      "stats": {
+        "inbound_label": "Indgående i dag",
+        "outbound_label": "Udgående i dag",
+        "bookings_label": "Bookinger",
+        "duration_label": "Gns. varighed"
+      },
+      "calls_title": "Seneste samtaler",
+      "calls": [
+        { "time": "09:12", "caller": "+45 40 12 88 30", "outcome": "Booket", "duration": "2:41" },
+        { "time": "10:04", "caller": "Påmindelse – Lars H.", "outcome": "Bekræftet", "duration": "0:48" },
+        { "time": "11:37", "caller": "+45 26 55 10 92", "outcome": "Booket", "duration": "3:16" },
+        { "time": "13:20", "caller": "Ukendt nummer", "outcome": "Info givet", "duration": "1:52" }
+      ],
+      "bookings_title": "Kommende bookinger",
+      "bookings": [
+        { "time": "I dag 14:30", "name": "Mette Jensen", "type": "Konsultation" },
+        { "time": "I morgen 09:00", "name": "Anders Kok", "type": "Opfølgning" },
+        { "time": "Fre. 11:15", "name": "Sofie Bech", "type": "Ny kunde" }
+      ]
+    }
+  },
   "faqSection": {
     "title": "Ofte stillede spørgsmål",
     "subtitle": "Alt du vil vide om AI voice widgetten"

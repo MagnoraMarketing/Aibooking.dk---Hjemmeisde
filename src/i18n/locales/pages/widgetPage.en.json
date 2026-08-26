@@ -289,6 +289,53 @@
     "currency_suffix": "€/mo",
     "setup_note_optional": "Add setup and onboarding – one-time payment of €{{setup}}, incl. 1 hour of follow-up support"
   },
+  "phoneSection": {
+    "eyebrow": "We also offer",
+    "dashboardTitle": "Everything in one place — with a full overview",
+    "dashboardDescription": "The widget and the phone assistant are managed from the same dashboard. Setup is designed to be simple, and you get one combined overview of every conversation and booking, whether it came in through your website or over the phone.",
+    "benefits": [
+      {
+        "title": "User-friendly setup",
+        "description": "No technical knowledge needed — we set it up together with you, and you adjust it yourself afterwards."
+      },
+      {
+        "title": "One overview in the dashboard",
+        "description": "See activity, statistics and trends across inbound and outbound calls in a single place."
+      },
+      {
+        "title": "Listen to the conversations",
+        "description": "Every call is recorded and summarised, so you can listen back and see exactly what was agreed."
+      },
+      {
+        "title": "See every booking",
+        "description": "Bookings land straight in your calendar and are listed together, so nothing gets missed."
+      }
+    ],
+    "dashboard": {
+      "url_label": "dashboard.aibooking.dk",
+      "live_label": "Live data",
+      "nav": ["Overview", "Calls", "Bookings", "AI agents", "Setup"],
+      "stats": {
+        "inbound_label": "Inbound today",
+        "outbound_label": "Outbound today",
+        "bookings_label": "Bookings",
+        "duration_label": "Avg. duration"
+      },
+      "calls_title": "Recent conversations",
+      "calls": [
+        { "time": "09:12", "caller": "+45 40 12 88 30", "outcome": "Booked", "duration": "2:41" },
+        { "time": "10:04", "caller": "Reminder – Lars H.", "outcome": "Confirmed", "duration": "0:48" },
+        { "time": "11:37", "caller": "+45 26 55 10 92", "outcome": "Booked", "duration": "3:16" },
+        { "time": "13:20", "caller": "Unknown number", "outcome": "Info given", "duration": "1:52" }
+      ],
+      "bookings_title": "Upcoming bookings",
+      "bookings": [
+        { "time": "Today 14:30", "name": "Mette Jensen", "type": "Consultation" },
+        { "time": "Tomorrow 09:00", "name": "Anders Kok", "type": "Follow-up" },
+        { "time": "Fri. 11:15", "name": "Sofie Bech", "type": "New customer" }
+      ]
+    }
+  },
   "faqSection": {
     "title": "Frequently asked questions",
     "subtitle": "Everything you want to know about the AI voice widget"

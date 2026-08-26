@@ -1,6 +1,10 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Zap, Mic, Calendar, Clock, CheckCircle, MessageSquare, PhoneCall, Star, Shield, Globe, ChevronDown, ArrowRight, Phone } from 'lucide-react';
+import {
+  Zap, Mic, Calendar, Clock, CheckCircle, MessageSquare, PhoneCall, Star, Shield, Globe,
+  ChevronDown, ArrowRight, Phone, Play, PhoneIncoming, PhoneOutgoing, LayoutDashboard,
+  SlidersHorizontal, Headphones, CalendarCheck,
+} from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
@@ -40,25 +44,141 @@ interface PricingPlanText {
   cta: string;
 }
 
+interface MockCall { time: string; caller: string; outcome: string; duration: string }
+interface MockBooking { time: string; name: string; type: string }
+
+// Illustrative mock-up of the customer dashboard, built in markup rather than
+// as a screenshot so it stays sharp, responsive and translated.
+function DashboardMock() {
+  const { t } = useTranslation('widgetPage');
+
+  const navItems = t('phoneSection.dashboard.nav', { returnObjects: true }) as string[];
+  const navIcons = [LayoutDashboard, Phone, CalendarCheck, Mic, SlidersHorizontal];
+  const calls = t('phoneSection.dashboard.calls', { returnObjects: true }) as MockCall[];
+  const bookings = t('phoneSection.dashboard.bookings', { returnObjects: true }) as MockBooking[];
+  // Inbound/outbound alternate down the list; colours match the stat tiles above.
+  const callIsInbound = [true, false, true, true];
+  const outcomeStyle = [
+    'bg-green-500/15 text-green-400',
+    'bg-brand-500/20 text-brand-300',
+    'bg-green-500/15 text-green-400',
+    'bg-accent-500/15 text-accent-300',
+  ];
+
+  const stats = [
+    { label: t('phoneSection.dashboard.stats.inbound_label'), value: '38', dot: 'bg-green-400' },
+    { label: t('phoneSection.dashboard.stats.outbound_label'), value: '24', dot: 'bg-brand-400' },
+    { label: t('phoneSection.dashboard.stats.bookings_label'), value: '19', dot: 'bg-accent-400' },
+    { label: t('phoneSection.dashboard.stats.duration_label'), value: '2:14', dot: 'bg-ink-400' },
+  ];
+
+  return (
+    <div className="relative">
+      <div className="bg-ink-900 rounded-3xl shadow-2xl overflow-hidden border border-ink-700">
+        {/* Browser chrome */}
+        <div className="bg-ink-800 px-5 py-3.5 flex items-center gap-3 border-b border-ink-700">
+          <div className="flex gap-2">
+            <div className="w-3 h-3 rounded-full bg-red-500" />
+            <div className="w-3 h-3 rounded-full bg-yellow-500" />
+            <div className="w-3 h-3 rounded-full bg-green-500" />
+          </div>
+          <div className="flex-1 bg-ink-700 rounded-lg px-4 py-1.5 text-[11px] text-ink-400 ml-3 truncate">
+            {t('phoneSection.dashboard.url_label')}
+          </div>
+        </div>
+
+        <div className="flex">
+          {/* Sidebar */}
+          <div className="hidden sm:block w-36 bg-ink-950/60 border-r border-ink-800 py-4 px-2.5 space-y-1">
+            {navItems.map((item, i) => {
+              const Icon = navIcons[i];
+              return (
+                <div
+                  key={i}
+                  className={`flex items-center gap-2 px-2.5 py-2 rounded-lg text-[11px] font-medium ${
+                    i === 1 ? 'bg-brand-600 text-white' : 'text-ink-400'
+                  }`}
+                >
+                  <Icon className="w-3.5 h-3.5 flex-shrink-0" />
+                  <span className="truncate">{item}</span>
+                </div>
+              );
+            })}
+          </div>
+
+          <div className="flex-1 p-4 space-y-3 min-w-0">
+            {/* Stat tiles */}
+            <div className="grid grid-cols-2 gap-2.5">
+              {stats.map((stat, i) => (
+                <div key={i} className="bg-ink-800 rounded-xl p-3 border border-ink-700">
+                  <div className="flex items-center gap-1.5 mb-1">
+                    <div className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${stat.dot}`} />
+                    <div className="text-[10px] text-ink-400 truncate">{stat.label}</div>
+                  </div>
+                  <div className="text-xl font-bold text-white">{stat.value}</div>
+                </div>
+              ))}
+            </div>
+
+            {/* Recent calls with playback */}
+            <div className="bg-ink-800 rounded-xl p-3.5 border border-ink-700">
+              <div className="text-[10px] text-ink-400 mb-2.5 font-semibold uppercase tracking-wider">
+                {t('phoneSection.dashboard.calls_title')}
+              </div>
+              <div className="space-y-2">
+                {calls.map((call, i) => {
+                  const DirIcon = callIsInbound[i] ? PhoneIncoming : PhoneOutgoing;
+                  return (
+                    <div key={i} className="flex items-center gap-2.5">
+                      <DirIcon className={`w-3.5 h-3.5 flex-shrink-0 ${callIsInbound[i] ? 'text-green-400' : 'text-brand-300'}`} />
+                      <span className="text-[10px] text-ink-400 w-9 flex-shrink-0">{call.time}</span>
+                      <span className="text-[11px] text-ink-300 truncate flex-1 min-w-0">{call.caller}</span>
+                      <span className="text-[10px] text-ink-400 hidden md:inline flex-shrink-0">{call.duration}</span>
+                      <span className={`text-[10px] font-medium px-2 py-0.5 rounded-full flex-shrink-0 ${outcomeStyle[i]}`}>
+                        {call.outcome}
+                      </span>
+                      <div className="w-6 h-6 rounded-full bg-ink-700 flex items-center justify-center flex-shrink-0">
+                        <Play className="w-2.5 h-2.5 text-ink-300 fill-current" />
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Upcoming bookings */}
+            <div className="bg-ink-800 rounded-xl p-3.5 border border-ink-700">
+              <div className="text-[10px] text-ink-400 mb-2.5 font-semibold uppercase tracking-wider">
+                {t('phoneSection.dashboard.bookings_title')}
+              </div>
+              <div className="space-y-2">
+                {bookings.map((booking, i) => (
+                  <div key={i} className="flex items-center gap-2.5">
+                    <div className="w-1.5 h-1.5 rounded-full bg-accent-400 flex-shrink-0" />
+                    <span className="text-[10px] text-ink-400 flex-shrink-0">{booking.time}</span>
+                    <span className="text-[11px] text-white truncate flex-1 min-w-0">{booking.name}</span>
+                    <span className="text-[10px] text-ink-400 truncate hidden md:inline">{booking.type}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="absolute -top-3 -right-3 bg-green-500 text-white text-[11px] font-bold px-3.5 py-1.5 rounded-full shadow-lg">
+        {t('phoneSection.dashboard.live_label')}
+      </div>
+    </div>
+  );
+}
+
 function PricingSection() {
   const { t, i18n } = useTranslation('widgetPage');
-  const [isAdditionalOpen, setIsAdditionalOpen] = useState(false);
-  const [setupSelected, setSetupSelected] = useState<Record<number, boolean>>({});
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
   const contactHref = buildLocalizedPath(lang, '/kontakt');
 
   const widgetPlanFeatures = t('pricing.widgetPlan.features', { returnObjects: true }) as string[];
-
-  const plansText = t('pricing.plans', { returnObjects: true }) as PricingPlanText[];
-  // Optional setup/onboarding fee equals one month's subscription price,
-  // charged once, and includes 1 hour of follow-up support afterwards.
-  const planMeta = [
-    { price: 0, highlighted: false, isDemo: true, href: contactHref },
-    { price: 1500, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
-    { price: 2499, highlighted: true, isDemo: false, href: 'https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01' },
-    { price: 5999, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02' },
-  ];
-  const phonePlans = plansText.map((plan, i) => ({ ...plan, ...planMeta[i], setup: planMeta[i].price }));
 
   return (
     <section id="priser" className="py-20 md:py-28 bg-gradient-to-b from-white to-ink-50">
@@ -147,28 +267,84 @@ function PricingSection() {
           </div>
         </div>
 
-        {/* AI Telefonassistent section header */}
-        <div className="max-w-4xl mx-auto mb-16">
-          <div className="bg-ink-900 rounded-3xl p-8 md:p-10 shadow-xl">
-            <div className="flex flex-col md:flex-row md:items-center gap-6">
-              <div className="w-14 h-14 bg-brand-600 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg">
-                <Phone className="w-7 h-7 text-white" />
-              </div>
-              <div className="flex-1">
-                <div className="flex flex-wrap items-center gap-3 mb-2">
-                  <h3 className="text-2xl md:text-3xl font-bold text-white">
-                    {t('pricing.phoneAssistant.heading')}
-                  </h3>
-                  <span className="bg-brand-600 text-white text-xs font-bold px-3 py-1 rounded-full">
-                    {t('pricing.phoneAssistant.badge')}
-                  </span>
-                </div>
-                <p className="text-ink-300 text-base leading-relaxed font-medium">
-                  {t('pricing.phoneAssistant.description')}
-                </p>
-              </div>
+      </div>
+    </section>
+  );
+}
+
+// The phone assistant is a separate product line from the website widget this
+// page is about, so it lives in its own clearly-separated section further down
+// rather than mixed into the widget pricing above.
+function PhoneAssistantSection() {
+  const { t, i18n } = useTranslation('widgetPage');
+  const [isAdditionalOpen, setIsAdditionalOpen] = useState(false);
+  const [setupSelected, setSetupSelected] = useState<Record<number, boolean>>({});
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
+  const contactHref = buildLocalizedPath(lang, '/kontakt');
+
+  const plansText = t('pricing.plans', { returnObjects: true }) as PricingPlanText[];
+  // Optional setup/onboarding fee equals one month's subscription price,
+  // charged once, and includes 1 hour of follow-up support afterwards.
+  const planMeta = [
+    { price: 0, highlighted: false, isDemo: true, href: contactHref },
+    { price: 1500, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
+    { price: 2499, highlighted: true, isDemo: false, href: 'https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01' },
+    { price: 5999, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02' },
+  ];
+  const phonePlans = plansText.map((plan, i) => ({ ...plan, ...planMeta[i], setup: planMeta[i].price }));
+
+  const benefits = t('phoneSection.benefits', { returnObjects: true }) as TitleDescription[];
+  const benefitIcons = [SlidersHorizontal, LayoutDashboard, Headphones, CalendarCheck];
+
+  return (
+    <section id="telefonassistent" className="py-20 md:py-28 bg-white border-t-4 border-brand-600">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        {/* Separated intro – signals this is an additional product line */}
+        <div className="text-center mb-14 space-y-4">
+          <div className="inline-flex items-center gap-2 bg-ink-900 text-accent-300 px-4 py-2 rounded-full text-sm font-bold">
+            <Phone className="w-4 h-4" />
+            {t('phoneSection.eyebrow')}
+          </div>
+          <h2 className="text-4xl md:text-5xl font-bold text-ink-900">
+            {t('pricing.phoneAssistant.heading')}
+          </h2>
+          <p className="text-lg md:text-xl text-brand-700 font-semibold">
+            {t('pricing.phoneAssistant.badge')}
+          </p>
+          <p className="text-lg text-ink-600 max-w-3xl mx-auto leading-relaxed">
+            {t('pricing.phoneAssistant.description')}
+          </p>
+        </div>
+
+        {/* Managed from one dashboard */}
+        <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
+          <div>
+            <h3 className="text-2xl md:text-3xl font-bold text-ink-900 mb-4">
+              {t('phoneSection.dashboardTitle')}
+            </h3>
+            <p className="text-ink-600 leading-relaxed mb-8">
+              {t('phoneSection.dashboardDescription')}
+            </p>
+            <div className="grid sm:grid-cols-2 gap-5">
+              {benefits.map((benefit, i) => {
+                const Icon = benefitIcons[i];
+                return (
+                  <div key={i} className="flex items-start gap-3">
+                    <div className="w-10 h-10 rounded-xl bg-brand-600 flex items-center justify-center flex-shrink-0">
+                      <Icon className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <div className="font-bold text-ink-900 text-[15px]">{benefit.title}</div>
+                      <div className="text-sm text-ink-600 mt-0.5 leading-relaxed">{benefit.description}</div>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
+
+          <DashboardMock />
         </div>
 
         {/* Phone plans */}
@@ -611,8 +787,11 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
           </div>
         </section>
 
+        {/* AI phone assistant – separate product line, kept apart from the widget offer above */}
+        <PhoneAssistantSection />
+
         {/* CTA */}
-        <section className="py-20 md:py-28">
+        <section className="py-20 md:py-28 bg-ink-50">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-gradient-to-r from-brand-600 to-brand-700 rounded-3xl overflow-hidden shadow-2xl">
               <div className="px-8 md:px-16 py-16 md:py-20 text-center space-y-8">

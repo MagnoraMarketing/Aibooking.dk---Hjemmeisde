@@ -289,6 +289,53 @@
     "currency_suffix": "€/mês",
     "setup_note_optional": "Adicionar configuração e onboarding – pagamento único de €{{setup}}, incl. 1 hora de apoio de acompanhamento"
   },
+  "phoneSection": {
+    "eyebrow": "Também oferecemos",
+    "dashboardTitle": "Tudo num só lugar — com uma visão completa",
+    "dashboardDescription": "O widget e o assistente telefónico são geridos a partir do mesmo painel. A configuração foi pensada para ser simples, e obtém uma visão conjunta de todas as conversas e marcações, quer tenham entrado pelo site ou por telefone.",
+    "benefits": [
+      {
+        "title": "Configuração fácil de usar",
+        "description": "Não precisa de conhecimentos técnicos — configuramos consigo e depois ajusta você mesmo."
+      },
+      {
+        "title": "Visão geral no painel",
+        "description": "Veja atividade, estatísticas e tendências de chamadas recebidas e efetuadas num único lugar."
+      },
+      {
+        "title": "Ouça as conversas",
+        "description": "Todas as chamadas são gravadas e resumidas, para poder ouvir e ver exatamente o que foi acordado."
+      },
+      {
+        "title": "Veja todas as marcações",
+        "description": "As marcações entram diretamente no seu calendário e são listadas em conjunto, para que nada se perca."
+      }
+    ],
+    "dashboard": {
+      "url_label": "dashboard.aibooking.dk",
+      "live_label": "Dados em direto",
+      "nav": ["Visão geral", "Chamadas", "Marcações", "Agentes de IA", "Configuração"],
+      "stats": {
+        "inbound_label": "Recebidas hoje",
+        "outbound_label": "Efetuadas hoje",
+        "bookings_label": "Marcações",
+        "duration_label": "Duração média"
+      },
+      "calls_title": "Conversas recentes",
+      "calls": [
+        { "time": "09:12", "caller": "+45 40 12 88 30", "outcome": "Marcado", "duration": "2:41" },
+        { "time": "10:04", "caller": "Lembrete – Lars H.", "outcome": "Confirmado", "duration": "0:48" },
+        { "time": "11:37", "caller": "+45 26 55 10 92", "outcome": "Marcado", "duration": "3:16" },
+        { "time": "13:20", "caller": "Número desconhecido", "outcome": "Info dada", "duration": "1:52" }
+      ],
+      "bookings_title": "Próximas marcações",
+      "bookings": [
+        { "time": "Hoje 14:30", "name": "Mette Jensen", "type": "Consulta" },
+        { "time": "Amanhã 09:00", "name": "Anders Kok", "type": "Seguimento" },
+        { "time": "Sex. 11:15", "name": "Sofie Bech", "type": "Novo cliente" }
+      ]
+    }
+  },
   "faqSection": {
     "title": "Perguntas frequentes",
     "subtitle": "Tudo o que precisa de saber sobre o AI voice widget"

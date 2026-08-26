@@ -289,6 +289,53 @@
     "currency_suffix": "€/mes",
     "setup_note_optional": "Añadir configuración e incorporación – pago único de {{setup}}€, incl. 1 hora de soporte de seguimiento"
   },
+  "phoneSection": {
+    "eyebrow": "También ofrecemos",
+    "dashboardTitle": "Todo en un solo lugar — con una visión completa",
+    "dashboardDescription": "El widget y el asistente telefónico se gestionan desde el mismo panel. La configuración está pensada para ser sencilla, y obtienes una visión conjunta de todas las conversaciones y reservas, tanto si llegaron por el sitio web como por teléfono.",
+    "benefits": [
+      {
+        "title": "Configuración fácil de usar",
+        "description": "No necesitas conocimientos técnicos — la configuramos contigo y luego la ajustas tú mismo."
+      },
+      {
+        "title": "Visión conjunta en el panel",
+        "description": "Consulta actividad, estadísticas y tendencias de llamadas entrantes y salientes en un solo lugar."
+      },
+      {
+        "title": "Escucha las conversaciones",
+        "description": "Cada llamada se graba y se resume, para que puedas escucharla y ver exactamente qué se acordó."
+      },
+      {
+        "title": "Ve todas las reservas",
+        "description": "Las reservas llegan directamente a tu calendario y se muestran juntas, para que no se escape nada."
+      }
+    ],
+    "dashboard": {
+      "url_label": "dashboard.aibooking.dk",
+      "live_label": "Datos en vivo",
+      "nav": ["Resumen", "Llamadas", "Reservas", "Agentes de IA", "Configuración"],
+      "stats": {
+        "inbound_label": "Entrantes hoy",
+        "outbound_label": "Salientes hoy",
+        "bookings_label": "Reservas",
+        "duration_label": "Duración media"
+      },
+      "calls_title": "Conversaciones recientes",
+      "calls": [
+        { "time": "09:12", "caller": "+45 40 12 88 30", "outcome": "Reservado", "duration": "2:41" },
+        { "time": "10:04", "caller": "Recordatorio – Lars H.", "outcome": "Confirmado", "duration": "0:48" },
+        { "time": "11:37", "caller": "+45 26 55 10 92", "outcome": "Reservado", "duration": "3:16" },
+        { "time": "13:20", "caller": "Número desconocido", "outcome": "Info dada", "duration": "1:52" }
+      ],
+      "bookings_title": "Próximas reservas",
+      "bookings": [
+        { "time": "Hoy 14:30", "name": "Mette Jensen", "type": "Consulta" },
+        { "time": "Mañana 09:00", "name": "Anders Kok", "type": "Seguimiento" },
+        { "time": "Vie. 11:15", "name": "Sofie Bech", "type": "Nuevo cliente" }
+      ]
+    }
+  },
   "faqSection": {
     "title": "Preguntas frecuentes",
     "subtitle": "Todo lo que quieres saber sobre el widget de voz con IA"

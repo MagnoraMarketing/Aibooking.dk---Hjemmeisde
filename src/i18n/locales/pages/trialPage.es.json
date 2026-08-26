@@ -1,0 +1,86 @@
+{
+  "seo": {
+    "title": "Prueba Gratuita de 7 Días - Prueba Aibooking.dk | Aibooking.dk",
+    "description": "Prueba Aibooking.dk gratis durante 7 días. Desvía tu número comercial y prueba 75 minutos de conversación con IA (entrante y saliente), SMS, correo electrónico y WhatsApp. Configuración en una breve llamada de incorporación.",
+    "keywords": "prueba gratuita, prueba de 7 días, prueba recepcionista de ia, probar asistente telefónico de ia, llamada de incorporación, desvío de número de teléfono"
+  },
+  "breadcrumb": { "home": "Inicio", "trial": "Prueba Gratuita" },
+  "hero": {
+    "badge": "7 días. Sin compromiso.",
+    "title": "Prueba toda la plataforma gratis durante 7 días",
+    "subtitle": "Crea una cuenta y configuraremos tu prueba contigo en una breve llamada de presentación e incorporación. Solo tienes que desviar tu número comercial actual al número que se te asigne, y probar la recepcionista de IA con llamadas reales.",
+    "cta_signup": "Crear una cuenta",
+    "cta_contact": "¿Tienes preguntas? Contáctanos"
+  },
+  "steps": {
+    "title": "Cómo empezar",
+    "subtitle": "Del registro a tu primera llamada gestionada por IA en menos de una semana",
+    "items": [
+      {
+        "title": "Crea tu cuenta",
+        "desc": "Te registras en un par de minutos y obtienes acceso inmediato a tu propio panel."
+      },
+      {
+        "title": "Hacemos una llamada de incorporación",
+        "desc": "Una breve presentación en la que configuramos juntos tu recepcionista de IA, según tu sector y tus necesidades."
+      },
+      {
+        "title": "Desvías tu número",
+        "desc": "Solo tienes que desviar tu número comercial actual al número que se te asigna para la prueba — sin configuración técnica por tu parte."
+      },
+      {
+        "title": "Prueba con llamadas reales durante 7 días",
+        "desc": "Comprueba cómo la recepcionista de IA gestiona llamadas entrantes y salientes en la práctica, con acceso completo al panel y al historial de llamadas."
+      }
+    ]
+  },
+  "inclusions": {
+    "title": "Qué incluye tu prueba",
+    "subtitle": "7 días de acceso completo a la plataforma, sin coste alguno",
+    "voice_label": "Conversación entrante/saliente",
+    "voice_value": "75 min incluidos",
+    "sms_label": "SMS",
+    "sms_value": "100 SMS gratis",
+    "email_label": "Correo electrónico",
+    "email_value": "3.000 correos gratis",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_value": "100 mensajes gratis"
+  },
+  "upgrade": {
+    "title": "No hace falta esperar a que termine la prueba",
+    "description": "¿Ya lo tienes claro antes de que pasen los 7 días? Puedes añadir uno de nuestros paquetes de inmediato, directamente durante la prueba, sin perder tu configuración, historial o conversaciones en curso.",
+    "points": [
+      "Mejora a Starter, Professional o Enterprise en cualquier momento durante los 7 días",
+      "Tu configuración y datos actuales se trasladan automáticamente",
+      "Sin compromiso — continúa solo si tiene sentido para tu negocio",
+      "Te ayudamos a encontrar el paquete adecuado para tu volumen de llamadas"
+    ],
+    "pricing_link": "Ver los precios de nuestros paquetes"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes sobre la prueba",
+    "items": [
+      {
+        "title": "¿Tengo que configurar algo técnico yo mismo?",
+        "desc": "No. Solo tienes que desviar tu número comercial actual al número que te asignamos — configuramos todo lo demás contigo en la llamada de incorporación."
+      },
+      {
+        "title": "¿Qué ocurre con mis 75 minutos de conversación?",
+        "desc": "Los 75 minutos cubren llamadas de IA entrantes y salientes durante los 7 días, para que puedas probar todo el flujo de llamadas, no solo un sentido."
+      },
+      {
+        "title": "¿Puedo mejorar de plan antes de que termine la prueba?",
+        "desc": "Sí. En cualquier momento durante los 7 días puedes añadir un paquete de pago y continuar sin interrupciones, sin empezar de nuevo."
+      },
+      {
+        "title": "¿Hay algún compromiso o costes ocultos?",
+        "desc": "No, la prueba no conlleva ningún compromiso. Si decides no continuar, el acceso simplemente termina después de los 7 días."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "¿Listo para probar tu propia recepcionista de IA?",
+    "subtitle": "Crea tu cuenta ahora y concertaremos una llamada de incorporación para ponerte en marcha con tu prueba enseguida.",
+    "cta_signup": "Crear cuenta y empezar"
+  }
+}

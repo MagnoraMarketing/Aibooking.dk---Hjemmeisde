@@ -1,0 +1,86 @@
+{
+  "seo": {
+    "title": "Teste Grátis de 7 Dias - Experimente a Aibooking.dk | Aibooking.dk",
+    "description": "Experimente a Aibooking.dk gratuitamente durante 7 dias. Encaminhe o seu número comercial e teste 75 minutos de tempo de conversa de IA (recebido e efetuado), SMS, email e WhatsApp. Configuração numa breve chamada de onboarding.",
+    "keywords": "teste gratuito, teste de 7 dias, teste receção de ia, testar assistente telefónico de ia, chamada de onboarding, encaminhamento de número de telefone"
+  },
+  "breadcrumb": { "home": "Início", "trial": "Teste Grátis" },
+  "hero": {
+    "badge": "7 dias. Sem compromisso.",
+    "title": "Experimente toda a plataforma gratuitamente durante 7 dias",
+    "subtitle": "Crie uma conta e configuramos o seu período de teste consigo numa breve chamada de apresentação e onboarding. Basta encaminhar o seu número comercial atual para o número que lhe é atribuído, e testar a receção de IA em chamadas reais.",
+    "cta_signup": "Criar uma conta",
+    "cta_contact": "Tem dúvidas? Contacte-nos"
+  },
+  "steps": {
+    "title": "Como começar",
+    "subtitle": "Do registo à sua primeira chamada gerida por IA em menos de uma semana",
+    "items": [
+      {
+        "title": "Crie a sua conta",
+        "desc": "Regista-se em poucos minutos e tem acesso imediato ao seu próprio painel."
+      },
+      {
+        "title": "Fazemos uma chamada de onboarding",
+        "desc": "Uma breve apresentação onde configuramos juntos a sua receção de IA, com base no seu setor e necessidades."
+      },
+      {
+        "title": "Encaminha o seu número",
+        "desc": "Basta encaminhar o seu número comercial atual para o número que lhe é atribuído para o período de teste — sem configuração técnica da sua parte."
+      },
+      {
+        "title": "Teste em chamadas reais durante 7 dias",
+        "desc": "Veja como a receção de IA gere chamadas recebidas e efetuadas na prática, com acesso total ao painel e ao histórico de chamadas."
+      }
+    ]
+  },
+  "inclusions": {
+    "title": "O que está incluído no seu período de teste",
+    "subtitle": "7 dias de acesso total à plataforma, sem qualquer custo",
+    "voice_label": "Tempo de conversa entrada/saída",
+    "voice_value": "75 min incluídos",
+    "sms_label": "SMS",
+    "sms_value": "100 SMS grátis",
+    "email_label": "Email",
+    "email_value": "3.000 emails grátis",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_value": "100 mensagens grátis"
+  },
+  "upgrade": {
+    "title": "Não precisa de esperar que o teste termine",
+    "description": "Já está convencido antes de terminarem os 7 dias? Pode adicionar um dos nossos pacotes de imediato, diretamente durante o teste, sem perder a sua configuração, histórico ou conversas em curso.",
+    "points": [
+      "Atualize para Starter, Professional ou Enterprise em qualquer momento durante os 7 dias",
+      "A sua configuração e dados existentes transitam automaticamente",
+      "Sem compromisso — continue apenas se fizer sentido para o seu negócio",
+      "Ajudamo-lo a encontrar o pacote adequado ao seu volume de chamadas"
+    ],
+    "pricing_link": "Ver os preços dos nossos pacotes"
+  },
+  "faq": {
+    "title": "Perguntas frequentes sobre o período de teste",
+    "items": [
+      {
+        "title": "Tenho de configurar alguma coisa técnica sozinho?",
+        "desc": "Não. Basta encaminhar o seu número comercial atual para o número que lhe atribuímos — configuramos tudo o resto consigo na chamada de onboarding."
+      },
+      {
+        "title": "O que acontece com os meus 75 minutos de conversa?",
+        "desc": "Os 75 minutos cobrem chamadas de IA recebidas e efetuadas durante os 7 dias, para poder testar todo o fluxo de chamadas, não apenas um sentido."
+      },
+      {
+        "title": "Posso atualizar antes de terminar o teste?",
+        "desc": "Sim. Em qualquer momento durante os 7 dias pode adicionar um pacote pago e continuar sem interrupções, sem começar de novo."
+      },
+      {
+        "title": "Existe algum compromisso ou custos ocultos?",
+        "desc": "Não, o período de teste é totalmente sem compromisso. Se optar por não continuar, o acesso simplesmente termina após os 7 dias."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Pronto para testar a sua própria receção de IA?",
+    "subtitle": "Crie a sua conta agora e combinamos uma chamada de onboarding para o pôr a funcionar com o seu teste rapidamente.",
+    "cta_signup": "Criar conta e começar"
+  }
+}

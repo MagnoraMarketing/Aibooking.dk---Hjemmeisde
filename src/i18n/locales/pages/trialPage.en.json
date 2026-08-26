@@ -1,0 +1,86 @@
+{
+  "seo": {
+    "title": "7-Day Free Trial - Test Aibooking.dk | Aibooking.dk",
+    "description": "Try Aibooking.dk free for 7 days. Forward your business number and test 75 minutes of inbound and outbound AI talk time, SMS, email and WhatsApp. Set up during a short onboarding call.",
+    "keywords": "free trial, 7-day trial, AI receptionist trial, test AI phone assistant, onboarding call, phone number forwarding"
+  },
+  "breadcrumb": { "home": "Home", "trial": "Free Trial" },
+  "hero": {
+    "badge": "7 days. No commitment.",
+    "title": "Try the whole platform free for 7 days",
+    "subtitle": "Create an account and we'll set up your trial together with you on a short presentation and onboarding call. You simply forward your current business number to the number you're assigned, and test the AI receptionist on real calls.",
+    "cta_signup": "Create an account",
+    "cta_contact": "Have questions? Contact us"
+  },
+  "steps": {
+    "title": "How to get started",
+    "subtitle": "From sign-up to your first AI-handled call in under a week",
+    "items": [
+      {
+        "title": "Create your account",
+        "desc": "You sign up in a couple of minutes and get access to your own dashboard right away."
+      },
+      {
+        "title": "We hold an onboarding call",
+        "desc": "A short presentation where we set up your AI receptionist together, based on your industry and needs."
+      },
+      {
+        "title": "You forward your number",
+        "desc": "Simply forward your current business number to the number you're assigned for the trial — no technical setup on your end."
+      },
+      {
+        "title": "Test on real calls for 7 days",
+        "desc": "See how the AI receptionist handles both inbound and outbound calls in practice, with full access to the dashboard and call history."
+      }
+    ]
+  },
+  "inclusions": {
+    "title": "What's included in your trial",
+    "subtitle": "7 days of full access to the platform, free of charge",
+    "voice_label": "Talk time in/out",
+    "voice_value": "75 min included",
+    "sms_label": "SMS",
+    "sms_value": "100 free SMS",
+    "email_label": "Email",
+    "email_value": "3,000 free emails",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_value": "100 free messages"
+  },
+  "upgrade": {
+    "title": "No need to wait for the trial to end",
+    "description": "Already convinced before the 7 days are up? You can add on one of our packages right away, directly during the trial, without losing your setup, history, or ongoing conversations.",
+    "points": [
+      "Upgrade to Starter, Professional or Enterprise at any point during the 7 days",
+      "Your existing setup and data carry over automatically",
+      "No commitment — only continue if it makes sense for your business",
+      "We'll help you find the package that fits your call volume"
+    ],
+    "pricing_link": "See pricing for our packages"
+  },
+  "faq": {
+    "title": "Frequently asked questions about the trial",
+    "items": [
+      {
+        "title": "Do I need to set anything technical up myself?",
+        "desc": "No. You just forward your existing business number to the number we assign you — we set up everything else together with you on the onboarding call."
+      },
+      {
+        "title": "What happens with my 75 minutes of talk time?",
+        "desc": "The 75 minutes covers both inbound and outbound AI calls during the 7 days, so you can test the entire call flow, not just one direction."
+      },
+      {
+        "title": "Can I upgrade before the trial ends?",
+        "desc": "Yes. At any point during the 7 days you can add a paid package and continue seamlessly, without starting over."
+      },
+      {
+        "title": "Is there any commitment or hidden costs?",
+        "desc": "No, the trial is completely non-binding. If you choose not to continue, access simply ends after the 7 days."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Ready to test your own AI receptionist?",
+    "subtitle": "Create your account now, and we'll arrange an onboarding call and have you up and running with your trial in no time.",
+    "cta_signup": "Create an account and get started"
+  }
+}

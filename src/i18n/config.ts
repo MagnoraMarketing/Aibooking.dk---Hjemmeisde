@@ -104,6 +104,12 @@ import blogPostPagePt from './locales/pages/blogPostPage.pt.json';
 import blogPostPageFr from './locales/pages/blogPostPage.fr.json';
 import blogPostPageEs from './locales/pages/blogPostPage.es.json';
 
+import trialPageDa from './locales/pages/trialPage.da.json';
+import trialPageEn from './locales/pages/trialPage.en.json';
+import trialPagePt from './locales/pages/trialPage.pt.json';
+import trialPageFr from './locales/pages/trialPage.fr.json';
+import trialPageEs from './locales/pages/trialPage.es.json';
+
 export const SUPPORTED_LANGUAGES = ['da', 'en', 'pt', 'fr', 'es'] as const;
 export type SupportedLanguage = (typeof SUPPORTED_LANGUAGES)[number];
 
@@ -124,7 +130,7 @@ const PAGE_NAMESPACES = [
   'featuresPage', 'industriesPage', 'widgetPage', 'ecommercePage',
   'healthcarePage', 'craftsmanPage', 'officePage', 'integrationsPage',
   'aboutPage', 'contactPage', 'demoPage', 'termsPage', 'privacyPage',
-  'blogPage', 'blogCategoryPage', 'blogPostPage',
+  'blogPage', 'blogCategoryPage', 'blogPostPage', 'trialPage',
 ] as const;
 
 i18n
@@ -152,6 +158,7 @@ i18n
         blogPage: blogPageDa,
         blogCategoryPage: blogCategoryPageDa,
         blogPostPage: blogPostPageDa,
+        trialPage: trialPageDa,
       },
       en: {
         common: commonEn,
@@ -171,6 +178,7 @@ i18n
         blogPage: blogPageEn,
         blogCategoryPage: blogCategoryPageEn,
         blogPostPage: blogPostPageEn,
+        trialPage: trialPageEn,
       },
       pt: {
         common: commonPt,
@@ -190,6 +198,7 @@ i18n
         blogPage: blogPagePt,
         blogCategoryPage: blogCategoryPagePt,
         blogPostPage: blogPostPagePt,
+        trialPage: trialPagePt,
       },
       fr: {
         common: commonFr,
@@ -209,6 +218,7 @@ i18n
         blogPage: blogPageFr,
         blogCategoryPage: blogCategoryPageFr,
         blogPostPage: blogPostPageFr,
+        trialPage: trialPageFr,
       },
       es: {
         common: commonEs,
@@ -228,6 +238,7 @@ i18n
         blogPage: blogPageEs,
         blogCategoryPage: blogCategoryPageEs,
         blogPostPage: blogPostPageEs,
+        trialPage: trialPageEs,
       },
     },
     supportedLngs: SUPPORTED_LANGUAGES as unknown as string[],

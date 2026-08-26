@@ -14,6 +14,7 @@ import AboutPage from './pages/AboutPage';
 import TermsPage from './pages/TermsPage';
 import PrivacyPage from './pages/PrivacyPage';
 import WidgetPage from './pages/WidgetPage';
+import TrialPage from './pages/TrialPage';
 import BlogPage from './pages/BlogPage';
 import BlogCategoryPage from './pages/BlogCategoryPage';
 import BlogPostPage from './pages/BlogPostPage';
@@ -21,7 +22,7 @@ import TrialOfferWidget from './components/TrialOfferWidget';
 import { SUPPORTED_LANGUAGES, SupportedLanguage } from './i18n/config';
 import { splitLocalizedPath, buildLocalizedPath } from './utils/localePaths';
 
-type PageType = 'home' | 'widget' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'blog-category' | 'blog-post';
+type PageType = 'home' | 'widget' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'blog-category' | 'blog-post' | 'trial';
 
 // Danish-worded paths (canonical, unprefixed). Language prefixes are
 // stripped/added separately via splitLocalizedPath/buildLocalizedPath.
@@ -30,7 +31,7 @@ const pathMap: Record<string, PageType> = {
   '/integrationer': 'integrations', '/brancher': 'industries', '/klinik': 'healthcare',
   '/haandvaerker': 'craftsman', '/kontor': 'office', '/webshop': 'ecommerce',
   '/kontakt': 'contact', '/om-aibooking': 'about', '/vilkaar': 'terms',
-  '/privatlivspolitik': 'privacy', '/blog': 'blog'
+  '/privatlivspolitik': 'privacy', '/blog': 'blog', '/proeveperiode': 'trial'
 };
 
 const pageMap: Record<PageType, string> = {
@@ -39,7 +40,7 @@ const pageMap: Record<PageType, string> = {
   'craftsman': '/haandvaerker', 'office': '/kontor', 'ecommerce': '/webshop',
   'contact': '/kontakt', 'about': '/om-aibooking', 'terms': '/vilkaar',
   'privacy': '/privatlivspolitik', 'blog': '/blog', 'blog-category': '/blog/category',
-  'blog-post': '/blog'
+  'blog-post': '/blog', 'trial': '/proeveperiode'
 };
 
 function App() {
@@ -120,6 +121,7 @@ function App() {
        : currentPage === 'blog' ? <BlogPage />
        : currentPage === 'blog-category' ? <BlogCategoryPage categorySlug={blogParam} />
        : currentPage === 'blog-post' ? <BlogPostPage postSlug={blogParam} />
+       : currentPage === 'trial' ? <TrialPage onNavigate={handleNavigate} />
        : <DemoPage onNavigate={handleNavigate} />}
       <TrialOfferWidget />
     </>

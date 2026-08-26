@@ -1,0 +1,86 @@
+{
+  "seo": {
+    "title": "7 Dages Gratis Prøveperiode - Test Aibooking.dk | Aibooking.dk",
+    "description": "Prøv Aibooking.dk gratis i 7 dage. Viderestil dit firmanummer og test 75 minutters ind- og udgående AI-taletid, SMS, email og WhatsApp. Opsætning på et kort onboarding-møde.",
+    "keywords": "gratis prøveperiode, 7 dages prøve, AI receptionist prøve, test AI telefonassistent, onboarding møde, viderestilling telefonnummer"
+  },
+  "breadcrumb": { "home": "Hjem", "trial": "Prøveperiode" },
+  "hero": {
+    "badge": "7 dage. Ingen binding.",
+    "title": "Prøv hele platformen gratis i 7 dage",
+    "subtitle": "Opret en bruger, og vi sætter din prøveperiode op sammen med dig på et kort præsentations- og onboarding-møde. Du viderestiller blot dit nuværende firmanummer til det nummer, du får tildelt, og tester AI-receptionisten på rigtige opkald.",
+    "cta_signup": "Opret bruger",
+    "cta_contact": "Har du spørgsmål? Kontakt os"
+  },
+  "steps": {
+    "title": "Sådan kommer du i gang",
+    "subtitle": "Fra oprettelse til dit første AI-håndterede opkald på under en uge",
+    "items": [
+      {
+        "title": "Opret din bruger",
+        "desc": "Du opretter en bruger på et par minutter og får adgang til dit eget dashboard med det samme."
+      },
+      {
+        "title": "Vi holder et onboarding-møde",
+        "desc": "En kort præsentation, hvor vi sammen sætter din AI-receptionist op, ud fra din branche og dine behov."
+      },
+      {
+        "title": "Du viderestiller dit nummer",
+        "desc": "Viderestil blot dit nuværende firmanummer til det nummer, du får tildelt til prøveperioden — ingen teknisk opsætning på din side."
+      },
+      {
+        "title": "Test på rigtige opkald i 7 dage",
+        "desc": "Se hvordan AI-receptionisten håndterer både indgående og udgående opkald i praksis, med fuld adgang til dashboard og opkaldshistorik."
+      }
+    ]
+  },
+  "inclusions": {
+    "title": "Det er inkluderet i din prøveperiode",
+    "subtitle": "7 dages fuld adgang til platformen, uden beregning",
+    "voice_label": "Taletid ind/ud",
+    "voice_value": "75 min. inkluderet",
+    "sms_label": "SMS",
+    "sms_value": "100 gratis SMS",
+    "email_label": "Email",
+    "email_value": "3.000 gratis emails",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_value": "100 gratis beskeder"
+  },
+  "upgrade": {
+    "title": "Behøver ikke vente på, at prøveperioden slutter",
+    "description": "Kan du allerede se værdien, før de 7 dage er gået? Du kan tilkøbe en af vores pakker med det samme, direkte i prøveperioden, uden at miste din opsætning, historik eller igangværende samtaler.",
+    "points": [
+      "Opgrader til Starter, Professional eller Enterprise når som helst i løbet af de 7 dage",
+      "Din eksisterende opsætning og dine data følger automatisk med",
+      "Ingen binding — fortsæt kun, hvis det giver mening for din virksomhed",
+      "Vi hjælper med at finde den pakke, der passer til dit opkaldsvolumen"
+    ],
+    "pricing_link": "Se priser på vores pakker"
+  },
+  "faq": {
+    "title": "Ofte stillede spørgsmål om prøveperioden",
+    "items": [
+      {
+        "title": "Skal jeg selv sætte noget teknisk op?",
+        "desc": "Nej. Du skal blot viderestille dit eksisterende firmanummer til det nummer, vi tildeler dig — resten sætter vi op sammen med dig på onboarding-mødet."
+      },
+      {
+        "title": "Hvad sker der med mine 75 minutters taletid?",
+        "desc": "De 75 minutter dækker både indgående og udgående AI-opkald i løbet af de 7 dage, så du kan teste hele opkaldsflowet, ikke kun én retning."
+      },
+      {
+        "title": "Kan jeg opgradere, før prøveperioden er slut?",
+        "desc": "Ja. Du kan til enhver tid i løbet af de 7 dage tilkøbe en betalt pakke og fortsætte problemfrit, uden at starte forfra."
+      },
+      {
+        "title": "Er der nogen binding eller skjulte omkostninger?",
+        "desc": "Nej, prøveperioden er helt uforpligtende. Vælger du ikke at fortsætte, stopper adgangen automatisk efter de 7 dage."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Klar til at teste din egen AI-receptionist?",
+    "subtitle": "Opret din bruger nu, så aftaler vi et onboarding-møde og har dig i gang med prøveperioden på ingen tid.",
+    "cta_signup": "Opret bruger og kom i gang"
+  }
+}

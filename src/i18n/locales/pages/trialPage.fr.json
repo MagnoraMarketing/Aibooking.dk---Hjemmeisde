@@ -1,0 +1,86 @@
+{
+  "seo": {
+    "title": "Essai Gratuit de 7 Jours - Testez Aibooking.dk | Aibooking.dk",
+    "description": "Essayez Aibooking.dk gratuitement pendant 7 jours. Transférez votre numéro professionnel et testez 75 minutes de temps de parole IA (entrant et sortant), SMS, email et WhatsApp. Configuration lors d'un court appel d'onboarding.",
+    "keywords": "essai gratuit, essai de 7 jours, essai réceptionniste IA, tester assistant téléphonique IA, appel d'onboarding, transfert de numéro de téléphone"
+  },
+  "breadcrumb": { "home": "Accueil", "trial": "Essai Gratuit" },
+  "hero": {
+    "badge": "7 jours. Sans engagement.",
+    "title": "Essayez toute la plateforme gratuitement pendant 7 jours",
+    "subtitle": "Créez un compte et nous configurons votre essai avec vous lors d'un court appel de présentation et d'onboarding. Il vous suffit de transférer votre numéro professionnel actuel vers le numéro qui vous est attribué, et de tester la réceptionniste IA sur de vrais appels.",
+    "cta_signup": "Créer un compte",
+    "cta_contact": "Des questions ? Contactez-nous"
+  },
+  "steps": {
+    "title": "Comment démarrer",
+    "subtitle": "De l'inscription à votre premier appel géré par l'IA en moins d'une semaine",
+    "items": [
+      {
+        "title": "Créez votre compte",
+        "desc": "Vous vous inscrivez en quelques minutes et accédez immédiatement à votre propre tableau de bord."
+      },
+      {
+        "title": "Nous organisons un appel d'onboarding",
+        "desc": "Une courte présentation où nous configurons ensemble votre réceptionniste IA, selon votre secteur et vos besoins."
+      },
+      {
+        "title": "Vous transférez votre numéro",
+        "desc": "Il vous suffit de transférer votre numéro professionnel actuel vers le numéro qui vous est attribué pour l'essai — aucune configuration technique de votre côté."
+      },
+      {
+        "title": "Testez sur de vrais appels pendant 7 jours",
+        "desc": "Découvrez comment la réceptionniste IA gère les appels entrants et sortants en pratique, avec un accès complet au tableau de bord et à l'historique des appels."
+      }
+    ]
+  },
+  "inclusions": {
+    "title": "Ce qui est inclus dans votre essai",
+    "subtitle": "7 jours d'accès complet à la plateforme, sans frais",
+    "voice_label": "Temps de parole entrant/sortant",
+    "voice_value": "75 min incluses",
+    "sms_label": "SMS",
+    "sms_value": "100 SMS gratuits",
+    "email_label": "E-mail",
+    "email_value": "3 000 e-mails gratuits",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_value": "100 messages gratuits"
+  },
+  "upgrade": {
+    "title": "Pas besoin d'attendre la fin de l'essai",
+    "description": "Déjà convaincu avant la fin des 7 jours ? Vous pouvez ajouter l'une de nos formules immédiatement, directement pendant l'essai, sans perdre votre configuration, votre historique ni vos conversations en cours.",
+    "points": [
+      "Passez à Starter, Professional ou Enterprise à tout moment pendant les 7 jours",
+      "Votre configuration et vos données existantes sont automatiquement conservées",
+      "Sans engagement — continuez uniquement si cela a du sens pour votre entreprise",
+      "Nous vous aidons à trouver la formule adaptée à votre volume d'appels"
+    ],
+    "pricing_link": "Voir les tarifs de nos formules"
+  },
+  "faq": {
+    "title": "Questions fréquentes sur l'essai",
+    "items": [
+      {
+        "title": "Dois-je configurer quelque chose de technique moi-même ?",
+        "desc": "Non. Il vous suffit de transférer votre numéro professionnel actuel vers le numéro que nous vous attribuons — nous configurons tout le reste avec vous lors de l'appel d'onboarding."
+      },
+      {
+        "title": "Que deviennent mes 75 minutes de temps de parole ?",
+        "desc": "Les 75 minutes couvrent les appels IA entrants et sortants pendant les 7 jours, afin que vous puissiez tester tout le flux d'appels, pas seulement un sens."
+      },
+      {
+        "title": "Puis-je passer à une formule payante avant la fin de l'essai ?",
+        "desc": "Oui. À tout moment pendant les 7 jours, vous pouvez ajouter une formule payante et continuer sans interruption, sans repartir de zéro."
+      },
+      {
+        "title": "Y a-t-il un engagement ou des frais cachés ?",
+        "desc": "Non, l'essai est entièrement sans engagement. Si vous choisissez de ne pas continuer, l'accès prend simplement fin après les 7 jours."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Prêt à tester votre propre réceptionniste IA ?",
+    "subtitle": "Créez votre compte dès maintenant, et nous organiserons un appel d'onboarding pour vous lancer rapidement dans votre essai.",
+    "cta_signup": "Créer un compte et démarrer"
+  }
+}

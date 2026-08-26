@@ -1,7 +1,7 @@
 import { Phone, Mail, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-type NavigatePage = 'home' | 'widget' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog';
+type NavigatePage = 'home' | 'widget' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'trial';
 
 interface FooterProps {
   onNavigate?: (page: NavigatePage) => void;
@@ -35,6 +35,14 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.ai_booking')}
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => onNavigate('trial')}
+                  className="hover:text-brand-400 transition-colors"
+                >
+                  {t('footer.free_trial')}
                 </button>
               </li>
               <li>

@@ -162,6 +162,7 @@
     "free_label": "Free",
     "currency_suffix": "€/mo",
     "after_order_note": "After ordering, you'll receive a calendar link to book a time for setup.",
+    "setup_recommendation": "We recommend trying the solution free for 7 days first — then you choose your package, with or without setup.",
     "cta_demo": "Try for free",
     "cta_order": "Order package and book onboarding",
     "plans": [
@@ -388,6 +389,132 @@
     "demo_footer": "Voice AI widget - customers talk directly on your site",
     "perfect_for_label": "Perfect for:",
     "perfect_for_text": "Clinics, craftsmen, consultants, salons, offices and any other business that takes bookings directly on its website."
+  },
+  "industryTools": {
+    "scenario": {
+      "badge": "How it plays out in practice",
+      "situationLabel": "The situation:",
+      "resultsLabel": "The result",
+      "aiHandling": "The AI receptionist is handling the call",
+      "live": "Live",
+      "healthcare": {
+        "title": "A call mid-treatment — without interrupting anyone",
+        "intro": "For clinics the phone is both the lifeline and the biggest distraction. Every rebooking, every appointment and every question about opening hours takes time away from the patient in front of you. The AI receptionist takes the call, finds an open slot in your calendar and confirms it while you look after the clinic.",
+        "situation": "At 08:14 a patient calls to move their appointment. Reception is already with a patient at the desk, and the call would normally interrupt both.",
+        "callLabel": "Inbound call · Patient",
+        "chat": [
+          { "role": "customer", "text": "Hi, I'm afraid I need to move my appointment on Thursday." },
+          { "role": "ai", "text": "I can sort that out. I can see your appointment on Thursday at 09:00. Would Thursday 10:30 or Friday 14:00 suit you better?" },
+          { "role": "customer", "text": "Thursday 10:30 is perfect." },
+          { "role": "ai", "text": "That's moved. You'll get an SMS confirmation in a moment." }
+        ],
+        "outcomes": [
+          "Rebookings and cancellations are handled without interrupting reception",
+          "Automatic SMS reminders cut no-shows significantly",
+          "Patients can call and book outside opening hours — evenings and weekends too",
+          "Everything is noted and added to the calendar, so you have the full picture afterwards"
+        ],
+        "results": ["Moved to Thu. 10:30", "SMS confirmation sent", "Calendar updated"]
+      },
+      "craftsman": {
+        "title": "The job gets booked while your hands are still full",
+        "intro": "For a tradesperson every missed call is potentially a lost job. You can't answer mid-task, and the customer simply rings the next number. The AI receptionist takes the call, gathers the address, job type and urgency, and books a site visit straight into your calendar.",
+        "situation": "At 10:47 a new customer calls about a bathroom. You're up a ladder at another job and can't answer.",
+        "callLabel": "Inbound call · New customer",
+        "chat": [
+          { "role": "customer", "text": "Hi, I need a new bathroom fitted. Could you come and take a look?" },
+          { "role": "ai", "text": "Of course. Could I take the address, and is it the whole bathroom or just part of it?" },
+          { "role": "customer", "text": "14 Nørregade, and it's the whole room." },
+          { "role": "ai", "text": "Noted. I have a free visit on Friday at 08:00 — shall I put it in the calendar?" }
+        ],
+        "outcomes": [
+          "No jobs lost because the phone wasn't answered in time",
+          "Address, job type and urgency are logged before you call back",
+          "Site visits land straight in your calendar — no double bookings",
+          "Automatic reminders to the customer the day before the visit"
+        ],
+        "results": ["Visit booked Fri. 08:00", "Address logged", "SMS sent to both"]
+      },
+      "office": {
+        "title": "Room to concentrate — without leaving customers waiting",
+        "intro": "In an office, interruptions are expensive. Every call about status, prices or meeting times pulls someone out of their work. The AI receptionist screens every inbound call, answers the routine ones itself, books meetings in the shared calendar and only forwards what matters.",
+        "situation": "At 13:05 a customer calls to book a meeting. The team is mid-deadline, and a call would cost all of their focus.",
+        "callLabel": "Inbound call · Customer",
+        "chat": [
+          { "role": "customer", "text": "Hi, I'd like to book a meeting about our case." },
+          { "role": "ai", "text": "Of course. I can see openings on Tuesday at 11:00 and Wednesday at 14:30 — which suits you best?" },
+          { "role": "customer", "text": "Wednesday at 14:30." },
+          { "role": "ai", "text": "That's booked. You'll both get a calendar invitation right away." }
+        ],
+        "outcomes": [
+          "Fewer interruptions mean longer stretches of focused work",
+          "Routine questions about status, prices and opening hours are answered automatically",
+          "Meetings are booked straight into the team's shared calendar",
+          "You decide which calls should always be put through to a person"
+        ],
+        "results": ["Meeting booked Wed. 14:30", "Invitation sent", "Team not interrupted"]
+      },
+      "ecommerce": {
+        "title": "The question gets answered before the cart is abandoned",
+        "intro": "In a webshop a large share of traffic arrives outside opening hours, and one unanswered question about delivery, sizing or returns quickly becomes an abandoned cart. The AI widget answers on your site instantly — around the clock — and carries the customer all the way to a completed order.",
+        "situation": "At 21:38 a customer has the item in their cart but is unsure about delivery and returns. Support doesn't open until tomorrow.",
+        "callLabel": "Website chat · Visitor",
+        "chat": [
+          { "role": "customer", "text": "When would I get it if I order now?" },
+          { "role": "ai", "text": "Order before 22:00 and we ship tomorrow — you'd typically have it in 1-2 working days." },
+          { "role": "customer", "text": "And if it doesn't fit?" },
+          { "role": "ai", "text": "You have 30 days to return it, and the return label is in your order confirmation." }
+        ],
+        "outcomes": [
+          "Product, delivery and returns questions answered instantly — evenings included",
+          "Fewer abandoned carts, because the doubt is cleared up on the spot",
+          "Complex cases are handed to your team with the full conversation as context",
+          "No waiting and no queue — however many people ask at once"
+        ],
+        "results": ["Answered in 3 seconds", "Order completed", "No waiting time"]
+      }
+    },
+    "calculator": {
+      "badge": "Work out your price",
+      "title": "What does it cost — and how much time do you get back?",
+      "subtitle": "Pick the solution you're interested in, set your expected talk time, and see the price straight away.",
+      "modeLabel": "Which solution would you like to price?",
+      "modeVoice": "Inbound and outbound calls",
+      "modeVoiceDesc": "The AI phone assistant answers calls and makes its own outbound reminders and follow-ups.",
+      "modeWidget": "Voice widget on your website",
+      "modeWidgetDesc": "Visitors talk or type directly with the AI on your site and book for themselves.",
+      "widgetPlanName": "Voice Widget",
+      "minutesLabel": "Expected talk time per month",
+      "minutesUnit": "min",
+      "recommendedLabel": "Recommended package",
+      "includedMinutes": "{{minutes}} minutes included",
+      "setupLabel": "Add setup and onboarding.",
+      "setupNote": "One-time payment of {{price}} — the same as one month — incl. 1 hour of follow-up support.",
+      "setupLine": "Setup (one-time)",
+      "firstMonthTotal": "First month total",
+      "aboveLargest": "Need more than 2,000 minutes a month? We'll put a package together for you — get in touch for a quote.",
+      "timeFreedValue": "About {{hours}} hours of phone time back",
+      "timeFreedText": "Time you can spend running the business instead. Bookings, rebookings and questions are handled without you.",
+      "alwaysOnTitle": "Open 24/7, 365 days a year",
+      "alwaysOnText": "The agent always answers — evenings, weekends and holidays. You don't lose customers because nobody could pick up.",
+      "recommendation": "We recommend trying the solution free for 7 days first. Then you choose your package — with or without setup.",
+      "cta": "Try free for 7 days",
+      "note": "Prices are indicative and non-binding. You can change package along the way."
+    },
+    "trial": {
+      "badge": "7 days free",
+      "title": "Test it on your own calls — no strings attached",
+      "text": "Create a test account and try the solution for 7 days with 75 minutes of talk time. We set it up together with you on a short onboarding call, and you simply forward your current business number to the number you're assigned.",
+      "points": [
+        "No technical setup — you just forward your number",
+        "Full access to the dashboard, recordings and bookings",
+        "No commitment and no card details required"
+      ],
+      "minutesValue": "75 min",
+      "minutesLabel": "talk time included in the trial",
+      "cta": "Create a test account",
+      "secondary": "Read more about the trial"
+    }
   },
   "trialOfferWidget": {
     "dialog_aria": "Try the AI receptionist for free",

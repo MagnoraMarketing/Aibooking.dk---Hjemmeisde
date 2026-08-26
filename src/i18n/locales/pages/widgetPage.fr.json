@@ -264,6 +264,7 @@
       }
     ],
     "after_order_note": "Après votre commande, vous recevrez un lien de calendrier pour réserver votre séance de mise en place.",
+    "setup_recommendation": "Nous vous conseillons d'essayer la solution gratuitement pendant 7 jours d'abord — vous choisirez ensuite votre formule, avec ou sans configuration.",
     "additionalPrices": {
       "title": "Autres tarifs",
       "toggle_label": "Voir les autres tarifs",

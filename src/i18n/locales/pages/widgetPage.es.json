@@ -264,6 +264,7 @@
       }
     ],
     "after_order_note": "Después de realizar el pedido, recibirás un enlace de calendario donde podrás reservar una sesión de configuración.",
+    "setup_recommendation": "Te recomendamos probar la solución gratis durante 7 días primero — después eliges tu paquete, con o sin configuración.",
     "additionalPrices": {
       "title": "Otros precios",
       "toggle_label": "Ver otros precios",

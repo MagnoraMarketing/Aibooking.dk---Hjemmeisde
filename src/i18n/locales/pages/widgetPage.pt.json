@@ -264,6 +264,7 @@
       }
     ],
     "after_order_note": "Após a encomenda, recebe um link de calendário onde pode marcar a sessão de configuração.",
+    "setup_recommendation": "Recomendamos que experimente a solução gratuitamente durante 7 dias primeiro — depois escolhe o seu pacote, com ou sem configuração.",
     "additionalPrices": {
       "title": "Outros preços",
       "toggle_label": "Ver outros preços",

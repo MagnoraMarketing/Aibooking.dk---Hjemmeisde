@@ -143,7 +143,10 @@ function Pricing() {
           ))}
         </div>
 
-        <div className="mt-20 text-center">
+        <div className="mt-20 text-center space-y-5">
+          <p className="inline-block bg-brand-50 border border-brand-100 text-brand-800 rounded-2xl px-6 py-4 font-medium max-w-2xl mx-auto">
+            {t('pricing.setup_recommendation')}
+          </p>
           <p className="text-ink-600 text-lg max-w-2xl mx-auto">
             {t('pricing.after_order_note')}
           </p>

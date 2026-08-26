@@ -162,6 +162,7 @@
     "free_label": "Gratuit",
     "currency_suffix": "€/mois",
     "after_order_note": "Après la commande, vous recevrez un lien de calendrier pour réserver un créneau de configuration.",
+    "setup_recommendation": "Nous vous conseillons d'essayer la solution gratuitement pendant 7 jours d'abord — vous choisirez ensuite votre formule, avec ou sans configuration.",
     "cta_demo": "Essayer gratuitement",
     "cta_order": "Commander le forfait et réserver l'onboarding",
     "plans": [
@@ -388,6 +389,132 @@
     "demo_footer": "Widget vocal IA - les clients parlent directement sur votre site",
     "perfect_for_label": "Idéal pour :",
     "perfect_for_text": "Cliniques, artisans, consultants, salons, bureaux et toute autre entreprise qui prend des réservations directement sur son site web."
+  },
+  "industryTools": {
+    "scenario": {
+      "badge": "Comment ça se passe en pratique",
+      "situationLabel": "La situation :",
+      "resultsLabel": "Le résultat",
+      "aiHandling": "La réceptionniste IA prend l'appel",
+      "live": "En direct",
+      "healthcare": {
+        "title": "Un appel en pleine consultation — sans interrompre personne",
+        "intro": "Pour une clinique, le téléphone est à la fois vital et la plus grande source de distraction. Chaque report, chaque prise de rendez-vous et chaque question sur les horaires prend du temps au patient qui est devant vous. La réceptionniste IA prend l'appel, trouve un créneau libre dans votre agenda et le confirme pendant que vous vous occupez de la clinique.",
+        "situation": "À 08h14, un patient appelle pour déplacer son rendez-vous. La réception est déjà avec un patient au comptoir, et l'appel interromprait les deux.",
+        "callLabel": "Appel entrant · Patient",
+        "chat": [
+          { "role": "customer", "text": "Bonjour, je dois malheureusement déplacer mon rendez-vous de jeudi." },
+          { "role": "ai", "text": "Je m'en occupe. Je vois votre rendez-vous jeudi à 09h00. Jeudi 10h30 ou vendredi 14h00 vous conviendrait mieux ?" },
+          { "role": "customer", "text": "Jeudi 10h30, c'est parfait." },
+          { "role": "ai", "text": "C'est déplacé. Vous recevrez une confirmation par SMS dans un instant." }
+        ],
+        "outcomes": [
+          "Reports et annulations gérés sans interrompre la réception",
+          "Les rappels SMS automatiques réduisent nettement les rendez-vous manqués",
+          "Les patients peuvent appeler et réserver en dehors des heures — soirs et week-ends compris",
+          "Tout est noté et ajouté à l'agenda, pour avoir la vue complète ensuite"
+        ],
+        "results": ["Déplacé au jeu. 10h30", "Confirmation SMS envoyée", "Agenda mis à jour"]
+      },
+      "craftsman": {
+        "title": "Le chantier est réservé pendant que vous avez les mains prises",
+        "intro": "Pour un artisan, chaque appel manqué est potentiellement un chantier perdu. Vous ne pouvez pas répondre en pleine intervention, et le client appelle simplement le numéro suivant. La réceptionniste IA prend l'appel, recueille l'adresse, le type d'intervention et l'urgence, et planifie une visite directement dans votre agenda.",
+        "situation": "À 10h47, un nouveau client appelle pour une salle de bains. Vous êtes sur une échelle chez un autre client et ne pouvez pas répondre.",
+        "callLabel": "Appel entrant · Nouveau client",
+        "chat": [
+          { "role": "customer", "text": "Bonjour, je voudrais refaire ma salle de bains. Vous pourriez venir voir ?" },
+          { "role": "ai", "text": "Bien sûr. Puis-je avoir l'adresse, et s'agit-il de toute la salle de bains ou seulement d'une partie ?" },
+          { "role": "customer", "text": "14 rue Nørregade, et c'est toute la pièce." },
+          { "role": "ai", "text": "C'est noté. J'ai une visite libre vendredi à 08h00 — je la mets dans l'agenda ?" }
+        ],
+        "outcomes": [
+          "Aucun chantier perdu faute d'avoir décroché à temps",
+          "Adresse, type d'intervention et urgence sont enregistrés avant votre rappel",
+          "Les visites arrivent directement dans votre agenda — sans double réservation",
+          "Rappels automatiques au client la veille de la visite"
+        ],
+        "results": ["Visite prévue ven. 08h00", "Adresse enregistrée", "SMS envoyé aux deux"]
+      },
+      "office": {
+        "title": "De la place pour se concentrer — sans faire attendre les clients",
+        "intro": "Dans un bureau, les interruptions coûtent cher. Chaque appel sur un statut, un tarif ou un horaire de réunion sort quelqu'un de son travail. La réceptionniste IA filtre tous les appels entrants, répond elle-même aux appels courants, planifie les réunions dans l'agenda partagé et ne transfère que l'essentiel.",
+        "situation": "À 13h05, un client appelle pour réserver une réunion. L'équipe est en plein rush, et un appel coûterait toute sa concentration.",
+        "callLabel": "Appel entrant · Client",
+        "chat": [
+          { "role": "customer", "text": "Bonjour, j'aimerais réserver une réunion au sujet de notre dossier." },
+          { "role": "ai", "text": "Bien sûr. Je vois des créneaux mardi à 11h00 et mercredi à 14h30 — lequel vous convient le mieux ?" },
+          { "role": "customer", "text": "Mercredi à 14h30." },
+          { "role": "ai", "text": "C'est réservé. Vous recevrez tous les deux une invitation d'agenda immédiatement." }
+        ],
+        "outcomes": [
+          "Moins d'interruptions, donc des plages plus longues de travail concentré",
+          "Les questions courantes sur les statuts, les tarifs et les horaires reçoivent une réponse automatique",
+          "Les réunions sont planifiées directement dans l'agenda partagé de l'équipe",
+          "C'est vous qui décidez quels appels doivent toujours être transmis à une personne"
+        ],
+        "results": ["Réunion mer. 14h30", "Invitation envoyée", "Équipe non interrompue"]
+      },
+      "ecommerce": {
+        "title": "La question trouve sa réponse avant que le panier soit abandonné",
+        "intro": "Dans une boutique en ligne, une grande partie du trafic arrive en dehors des heures d'ouverture, et une question sans réponse sur la livraison, la taille ou les retours devient vite un panier abandonné. Le widget IA répond instantanément sur votre site — 24h/24 — et accompagne le client jusqu'à la commande finalisée.",
+        "situation": "À 21h38, un client a l'article dans son panier mais hésite sur la livraison et le retour. Le support n'ouvre que demain.",
+        "callLabel": "Chat du site · Visiteur",
+        "chat": [
+          { "role": "customer", "text": "Je le recevrais quand si je commande maintenant ?" },
+          { "role": "ai", "text": "Si vous commandez avant 22h, nous expédions demain — vous l'avez généralement sous 1 à 2 jours ouvrés." },
+          { "role": "customer", "text": "Et si la taille ne va pas ?" },
+          { "role": "ai", "text": "Vous avez 30 jours pour le retourner, et l'étiquette de retour est dans votre confirmation de commande." }
+        ],
+        "outcomes": [
+          "Réponses immédiates aux questions produits, livraison et retours — le soir aussi",
+          "Moins de paniers abandonnés, car le doute est levé sur le champ",
+          "Les cas complexes sont transmis à votre équipe avec toute la conversation en contexte",
+          "Aucune attente et aucune file — quel que soit le nombre de personnes qui demandent en même temps"
+        ],
+        "results": ["Réponse en 3 secondes", "Commande finalisée", "Aucune attente"]
+      }
+    },
+    "calculator": {
+      "badge": "Calculez votre tarif",
+      "title": "Combien ça coûte — et combien de temps récupérez-vous ?",
+      "subtitle": "Choisissez la solution qui vous intéresse, indiquez votre temps de parole prévu, et voyez le tarif immédiatement.",
+      "modeLabel": "Quelle solution souhaitez-vous chiffrer ?",
+      "modeVoice": "Appels entrants et sortants",
+      "modeVoiceDesc": "L'assistant téléphonique IA répond aux appels et passe lui-même ses rappels et relances.",
+      "modeWidget": "Widget vocal sur votre site",
+      "modeWidgetDesc": "Les visiteurs parlent ou écrivent directement avec l'IA sur votre site et réservent eux-mêmes.",
+      "widgetPlanName": "Voice Widget",
+      "minutesLabel": "Temps de parole prévu par mois",
+      "minutesUnit": "min",
+      "recommendedLabel": "Formule recommandée",
+      "includedMinutes": "{{minutes}} minutes incluses",
+      "setupLabel": "Ajouter la configuration et l'onboarding.",
+      "setupNote": "Paiement unique de {{price}} — l'équivalent d'un mois — incl. 1 heure de support de suivi.",
+      "setupLine": "Configuration (unique)",
+      "firstMonthTotal": "Total du premier mois",
+      "aboveLargest": "Besoin de plus de 2 000 minutes par mois ? Nous vous composons une formule — contactez-nous pour un devis.",
+      "timeFreedValue": "Environ {{hours}} heures de téléphone récupérées",
+      "timeFreedText": "Du temps que vous pouvez consacrer à faire tourner l'entreprise. Réservations, reports et questions sont traités sans vous.",
+      "alwaysOnTitle": "Ouvert 24h/24, 365 jours par an",
+      "alwaysOnText": "L'agent répond toujours — soirs, week-ends et jours fériés. Vous ne perdez plus de clients faute de décrocher.",
+      "recommendation": "Nous vous conseillons d'essayer la solution gratuitement pendant 7 jours d'abord. Vous choisirez ensuite votre formule — avec ou sans configuration.",
+      "cta": "Essayer 7 jours gratuitement",
+      "note": "Les tarifs sont indicatifs et sans engagement. Vous pouvez changer de formule en cours de route."
+    },
+    "trial": {
+      "badge": "7 jours gratuits",
+      "title": "Testez sur vos propres appels — sans engagement",
+      "text": "Créez un compte de test et essayez la solution pendant 7 jours avec 75 minutes de temps de parole. Nous la configurons avec vous lors d'un court appel d'onboarding, et il vous suffit de transférer votre numéro professionnel actuel vers celui qui vous est attribué.",
+      "points": [
+        "Aucune configuration technique — vous transférez simplement votre numéro",
+        "Accès complet au tableau de bord, aux enregistrements et aux réservations",
+        "Sans engagement et sans carte bancaire"
+      ],
+      "minutesValue": "75 min",
+      "minutesLabel": "de temps de parole inclus dans l'essai",
+      "cta": "Créer un compte de test",
+      "secondary": "En savoir plus sur l'essai"
+    }
   },
   "trialOfferWidget": {
     "dialog_aria": "Essayez gratuitement le réceptionniste IA",

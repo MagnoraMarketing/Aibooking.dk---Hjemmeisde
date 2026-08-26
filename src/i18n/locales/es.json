@@ -162,6 +162,7 @@
     "free_label": "Gratis",
     "currency_suffix": "€/mes",
     "after_order_note": "Después de realizar el pedido, recibirás un enlace de calendario para reservar un horario de configuración.",
+    "setup_recommendation": "Te recomendamos probar la solución gratis durante 7 días primero — después eliges tu paquete, con o sin configuración.",
     "cta_demo": "Probar gratis",
     "cta_order": "Pedir paquete y reservar incorporación",
     "plans": [
@@ -388,6 +389,132 @@
     "demo_footer": "Widget de voz con IA - los clientes hablan directamente en tu sitio",
     "perfect_for_label": "Perfecto para:",
     "perfect_for_text": "Clínicas, profesionales de oficios, consultores, salones, oficinas y cualquier otro negocio que gestione reservas directamente en su sitio web."
+  },
+  "industryTools": {
+    "scenario": {
+      "badge": "Cómo funciona en la práctica",
+      "situationLabel": "La situación:",
+      "resultsLabel": "El resultado",
+      "aiHandling": "La recepcionista de IA está atendiendo la llamada",
+      "live": "En directo",
+      "healthcare": {
+        "title": "Una llamada en mitad de un tratamiento — sin interrumpir a nadie",
+        "intro": "Para una clínica, el teléfono es a la vez la vía principal y la mayor distracción. Cada cambio de cita, cada reserva y cada pregunta sobre horarios resta tiempo al paciente que tienes delante. La recepcionista de IA atiende la llamada, encuentra un hueco libre en tu calendario y lo confirma mientras tú atiendes la clínica.",
+        "situation": "A las 08:14 un paciente llama para cambiar su cita. Recepción ya está con un paciente en el mostrador, y la llamada interrumpiría a ambos.",
+        "callLabel": "Llamada entrante · Paciente",
+        "chat": [
+          { "role": "customer", "text": "Hola, me temo que necesito cambiar mi cita del jueves." },
+          { "role": "ai", "text": "Puedo encargarme. Veo tu cita el jueves a las 09:00. ¿Te viene mejor el jueves a las 10:30 o el viernes a las 14:00?" },
+          { "role": "customer", "text": "El jueves a las 10:30 es perfecto." },
+          { "role": "ai", "text": "Ya está cambiada. Recibirás una confirmación por SMS en un momento." }
+        ],
+        "outcomes": [
+          "Cambios y cancelaciones gestionados sin interrumpir a recepción",
+          "Los recordatorios automáticos por SMS reducen notablemente las ausencias",
+          "Los pacientes pueden llamar y reservar fuera del horario — también tardes y fines de semana",
+          "Todo queda anotado y en el calendario, para tener la visión completa después"
+        ],
+        "results": ["Cambiada al jue. 10:30", "Confirmación SMS enviada", "Calendario actualizado"]
+      },
+      "craftsman": {
+        "title": "El trabajo se reserva mientras tienes las manos ocupadas",
+        "intro": "Para un profesional de oficios, cada llamada perdida es potencialmente un trabajo perdido. No puedes contestar en mitad de una tarea, y el cliente simplemente llama al siguiente número. La recepcionista de IA atiende, recoge la dirección, el tipo de trabajo y la urgencia, y reserva una visita directamente en tu calendario.",
+        "situation": "A las 10:47 un cliente nuevo llama por un baño. Estás en una escalera en otra obra y no puedes contestar.",
+        "callLabel": "Llamada entrante · Cliente nuevo",
+        "chat": [
+          { "role": "customer", "text": "Hola, necesito reformar el baño. ¿Podríais venir a verlo?" },
+          { "role": "ai", "text": "Por supuesto. ¿Me puede dar la dirección, y se trata del baño entero o solo de una parte?" },
+          { "role": "customer", "text": "Calle Nørregade 14, y es la habitación entera." },
+          { "role": "ai", "text": "Anotado. Tengo una visita libre el viernes a las 08:00 — ¿la agendo?" }
+        ],
+        "outcomes": [
+          "Ningún trabajo se pierde por no haber contestado el teléfono a tiempo",
+          "Dirección, tipo de trabajo y urgencia quedan registrados antes de devolver la llamada",
+          "Las visitas entran directamente en tu calendario — sin reservas duplicadas",
+          "Recordatorios automáticos al cliente el día antes de la visita"
+        ],
+        "results": ["Visita el vie. 08:00", "Dirección registrada", "SMS enviado a ambos"]
+      },
+      "office": {
+        "title": "Espacio para concentrarse — sin dejar a los clientes esperando",
+        "intro": "En una oficina, las interrupciones salen caras. Cada llamada sobre el estado, precios u horarios de reunión saca a alguien de su trabajo. La recepcionista de IA filtra todas las llamadas entrantes, responde ella misma a las rutinarias, reserva reuniones en el calendario compartido y solo transfiere lo importante.",
+        "situation": "A las 13:05 un cliente llama para reservar una reunión. El equipo está en mitad de una entrega, y una llamada costaría toda la concentración.",
+        "callLabel": "Llamada entrante · Cliente",
+        "chat": [
+          { "role": "customer", "text": "Hola, me gustaría reservar una reunión sobre nuestro caso." },
+          { "role": "ai", "text": "Por supuesto. Veo huecos el martes a las 11:00 y el miércoles a las 14:30 — ¿cuál le viene mejor?" },
+          { "role": "customer", "text": "El miércoles a las 14:30." },
+          { "role": "ai", "text": "Queda reservada. Ambos recibiréis una invitación de calendario enseguida." }
+        ],
+        "outcomes": [
+          "Menos interrupciones significan periodos más largos de trabajo concentrado",
+          "Las preguntas rutinarias sobre estado, precios y horarios se responden automáticamente",
+          "Las reuniones se reservan directamente en el calendario compartido del equipo",
+          "Tú decides qué llamadas deben pasarse siempre a una persona"
+        ],
+        "results": ["Reunión el mié. 14:30", "Invitación enviada", "Equipo sin interrumpir"]
+      },
+      "ecommerce": {
+        "title": "La pregunta se responde antes de que se abandone el carrito",
+        "intro": "En una tienda online gran parte del tráfico llega fuera del horario, y una pregunta sin responder sobre envío, talla o devoluciones se convierte rápidamente en un carrito abandonado. El widget de IA responde en tu sitio al instante — las 24 horas — y acompaña al cliente hasta el pedido completado.",
+        "situation": "A las 21:38 un cliente tiene el artículo en el carrito pero duda sobre el envío y la devolución. El soporte no abre hasta mañana.",
+        "callLabel": "Chat en la web · Visitante",
+        "chat": [
+          { "role": "customer", "text": "¿Cuándo lo recibiría si hago el pedido ahora?" },
+          { "role": "ai", "text": "Si pides antes de las 22:00, enviamos mañana — normalmente lo tienes en 1-2 días laborables." },
+          { "role": "customer", "text": "¿Y si no me queda bien?" },
+          { "role": "ai", "text": "Tienes 30 días para devolverlo, y la etiqueta de devolución está en tu confirmación de pedido." }
+        ],
+        "outcomes": [
+          "Preguntas sobre producto, envío y devoluciones respondidas al instante — también por la tarde",
+          "Menos carritos abandonados, porque la duda se resuelve en el momento",
+          "Los casos complejos pasan a tu equipo con toda la conversación como contexto",
+          "Sin esperas ni colas — por muchas personas que pregunten a la vez"
+        ],
+        "results": ["Respuesta en 3 segundos", "Pedido completado", "Sin tiempo de espera"]
+      }
+    },
+    "calculator": {
+      "badge": "Calcula tu precio",
+      "title": "¿Cuánto cuesta — y cuánto tiempo recuperas?",
+      "subtitle": "Elige la solución que te interesa, indica tu tiempo de conversación previsto y ve el precio al instante.",
+      "modeLabel": "¿Qué solución quieres calcular?",
+      "modeVoice": "Llamadas entrantes y salientes",
+      "modeVoiceDesc": "El asistente telefónico de IA atiende llamadas y realiza sus propios recordatorios y seguimientos.",
+      "modeWidget": "Widget de voz en tu sitio web",
+      "modeWidgetDesc": "Los visitantes hablan o escriben directamente con la IA en tu sitio y reservan ellos mismos.",
+      "widgetPlanName": "Voice Widget",
+      "minutesLabel": "Tiempo de conversación previsto al mes",
+      "minutesUnit": "min",
+      "recommendedLabel": "Paquete recomendado",
+      "includedMinutes": "{{minutes}} minutos incluidos",
+      "setupLabel": "Añadir configuración e incorporación.",
+      "setupNote": "Pago único de {{price}} — lo mismo que un mes — incl. 1 hora de soporte de seguimiento.",
+      "setupLine": "Configuración (único)",
+      "firstMonthTotal": "Total del primer mes",
+      "aboveLargest": "¿Necesitas más de 2.000 minutos al mes? Te preparamos un paquete a medida — contáctanos para un presupuesto.",
+      "timeFreedValue": "Unas {{hours}} horas de teléfono recuperadas",
+      "timeFreedText": "Tiempo que puedes dedicar a llevar el negocio. Reservas, cambios y preguntas se gestionan sin ti.",
+      "alwaysOnTitle": "Abierto 24/7, 365 días al año",
+      "alwaysOnText": "El agente siempre responde — tardes, fines de semana y festivos. No pierdes clientes porque nadie pudo contestar.",
+      "recommendation": "Te recomendamos probar la solución gratis durante 7 días primero. Después eliges tu paquete — con o sin configuración.",
+      "cta": "Probar gratis 7 días",
+      "note": "Los precios son orientativos y sin compromiso. Puedes cambiar de paquete sobre la marcha."
+    },
+    "trial": {
+      "badge": "7 días gratis",
+      "title": "Pruébalo con tus propias llamadas — sin compromiso",
+      "text": "Crea una cuenta de prueba y prueba la solución durante 7 días con 75 minutos de conversación. La configuramos contigo en una breve llamada de incorporación, y solo tienes que desviar tu número comercial actual al número que se te asigne.",
+      "points": [
+        "Sin configuración técnica — solo desvías tu número",
+        "Acceso completo al panel, grabaciones y reservas",
+        "Sin compromiso y sin datos de tarjeta"
+      ],
+      "minutesValue": "75 min",
+      "minutesLabel": "de conversación incluidos en la prueba",
+      "cta": "Crear cuenta de prueba",
+      "secondary": "Más información sobre la prueba"
+    }
   },
   "trialOfferWidget": {
     "dialog_aria": "Prueba la recepcionista de IA gratis",

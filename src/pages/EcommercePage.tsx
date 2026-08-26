@@ -8,6 +8,9 @@ import { createBreadcrumbSchema } from '../utils/structuredData';
 import { Clock, Users, MessageSquare, CheckSquare, CheckCircle, ShoppingCart } from 'lucide-react';
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath } from '../utils/localePaths';
+import IndustryScenario from '../components/industries/IndustryScenario';
+import IndustryCalculator from '../components/industries/IndustryCalculator';
+import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
 
 interface EcommercePageProps {
   onNavigate: (page: 'home' | 'email' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features') => void;
@@ -59,8 +62,14 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
               {t('hero.subtitle')}
             </p>
           </div>
+        </div>
+      </section>
 
+      {/* Worked example, right up top so visitors immediately see how it plays out */}
+      <IndustryScenario industry="ecommerce" />
 
+      <section className="py-16 bg-gradient-to-br from-brand-50 to-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-3xl p-8 md:p-12 shadow-lg border border-ink-200 mb-16">
             <h2 className="text-3xl font-bold text-ink-900 mb-6">{t('mainCard.title')}</h2>
             <p className="text-lg text-ink-600 leading-relaxed mb-8">
@@ -116,6 +125,10 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
           </div>
         </div>
       </section>
+
+      <IndustryCalculator industry="ecommerce" />
+
+      <IndustryTrialBanner industry="ecommerce" />
 
       <section className="py-20 bg-gradient-to-br from-brand-900 to-ink-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

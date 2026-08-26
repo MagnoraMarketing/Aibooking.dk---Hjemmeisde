@@ -16,9 +16,19 @@ export function dkkToEur(dkkAmount: number): number {
   return Math.round(dkkAmount / DKK_TO_EUR_RATE);
 }
 
-// Danish visitors see the real DKK amount; every other supported language
-// sees the EUR-converted amount, formatted with that locale's grouping.
-export function localizedPrice(dkkAmount: number, lang: SupportedLanguage): string {
-  const amount = lang === 'da' ? dkkAmount : dkkToEur(dkkAmount);
+// Danish visitors see the real DKK amount; every other supported language sees
+// the EUR-converted amount. Exposed on its own so callers that add several
+// prices together can sum the rounded display values — summing in DKK first
+// and converting afterwards can be a unit off from the figures on screen.
+export function displayAmount(dkkAmount: number, lang: SupportedLanguage): number {
+  return lang === 'da' ? dkkAmount : dkkToEur(dkkAmount);
+}
+
+export function formatAmount(amount: number, lang: SupportedLanguage): string {
   return new Intl.NumberFormat(INTL_LOCALE[lang]).format(amount);
+}
+
+// Formatted price for a DKK amount, in the visitor's currency and grouping.
+export function localizedPrice(dkkAmount: number, lang: SupportedLanguage): string {
+  return formatAmount(displayAmount(dkkAmount, lang), lang);
 }

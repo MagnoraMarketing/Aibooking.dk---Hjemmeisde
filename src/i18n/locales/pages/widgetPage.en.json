@@ -264,6 +264,7 @@
       }
     ],
     "after_order_note": "After ordering, you'll receive a calendar link where you can book a setup session.",
+    "setup_recommendation": "We recommend trying the solution free for 7 days first — then you choose your package, with or without setup.",
     "additionalPrices": {
       "title": "Other prices",
       "toggle_label": "See other prices",

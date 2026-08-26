@@ -162,6 +162,7 @@
     "free_label": "Gratis",
     "currency_suffix": "kr/md",
     "after_order_note": "Efter bestilling modtager du et kalenderlink hvor du kan booke tid til opsætning.",
+    "setup_recommendation": "Vi anbefaler, at du prøver løsningen gratis i 7 dage først – derefter vælger du din pakke, med eller uden opsætning.",
     "cta_demo": "Prøv gratis",
     "cta_order": "Bestil pakke og book Onboarding",
     "plans": [
@@ -388,6 +389,132 @@
     "demo_footer": "Voice AI-widget - kunder taler direkte på din side",
     "perfect_for_label": "Perfekt til:",
     "perfect_for_text": "Klinikker, håndværkere, konsulenter, saloner, kontorer og alle andre virksomheder der tager imod bookinger direkte på deres hjemmeside."
+  },
+  "industryTools": {
+    "scenario": {
+      "badge": "Sådan ser det ud i praksis",
+      "situationLabel": "Situationen:",
+      "resultsLabel": "Resultatet",
+      "aiHandling": "AI-receptionisten håndterer opkaldet",
+      "live": "Live",
+      "healthcare": {
+        "title": "Et opkald midt i en behandling – uden at nogen bliver afbrudt",
+        "intro": "For klinikker er telefonen både livsnerven og den største forstyrrelse. Hver ombooking, hver tidsbestilling og hvert spørgsmål om åbningstider tager tid fra patienten, der sidder foran jer. AI-receptionisten tager samtalen, finder en ledig tid i jeres kalender og bekræfter den, mens I passer klinikken.",
+        "situation": "Kl. 08:14 ringer en patient for at flytte sin tid. Receptionen står allerede med en patient ved skranken, og opkaldet ville normalt afbryde begge.",
+        "callLabel": "Indgående opkald · Patient",
+        "chat": [
+          { "role": "customer", "text": "Hej, jeg skal desværre flytte min tid på torsdag." },
+          { "role": "ai", "text": "Det ordner jeg. Jeg kan se din tid torsdag kl. 09:00. Passer torsdag kl. 10:30 eller fredag kl. 14:00 bedre?" },
+          { "role": "customer", "text": "Torsdag 10:30 er perfekt." },
+          { "role": "ai", "text": "Så er den flyttet. Du får en SMS-bekræftelse om et øjeblik." }
+        ],
+        "outcomes": [
+          "Ombookinger og afbud håndteres uden at receptionen bliver afbrudt",
+          "Automatiske SMS-påmindelser reducerer udeblivelser markant",
+          "Patienter kan ringe og booke uden for åbningstiden – også aften og weekend",
+          "Alt bliver noteret og lagt i kalenderen, så I har det fulde overblik bagefter"
+        ],
+        "results": ["Tid flyttet til tors. 10:30", "SMS-bekræftelse sendt", "Kalender opdateret"]
+      },
+      "craftsman": {
+        "title": "Opgaven bliver booket, mens du står med værktøjet i hånden",
+        "intro": "Som håndværker koster hvert ubesvaret opkald potentielt en opgave. Du kan ikke tage telefonen midt i et arbejde, og kunden ringer bare videre til den næste. AI-receptionisten tager opkaldet, indhenter adresse, opgavetype og hastegrad og booker et besøg direkte i din kalender.",
+        "situation": "Kl. 10:47 ringer en ny kunde om et badeværelse. Du står på en stige hos en anden kunde og kan ikke svare.",
+        "callLabel": "Indgående opkald · Ny kunde",
+        "chat": [
+          { "role": "customer", "text": "Hej, jeg skal have lavet et nyt badeværelse. Kan I kigge på det?" },
+          { "role": "ai", "text": "Det kan vi godt. Må jeg få adressen, og er det hele badeværelset eller kun dele af det?" },
+          { "role": "customer", "text": "Nørregade 14, og det er hele rummet." },
+          { "role": "ai", "text": "Noteret. Jeg har et ledigt besøg fredag kl. 08:00 – skal jeg sætte det i kalenderen?" }
+        ],
+        "outcomes": [
+          "Ingen opgaver går tabt, fordi telefonen ikke blev taget i tide",
+          "Adresse, opgavetype og hastegrad er registreret, før du ringer tilbage",
+          "Besøg lander direkte i din kalender – uden dobbeltbookinger",
+          "Automatiske påmindelser til kunden dagen før besøget"
+        ],
+        "results": ["Besøg booket fre. 08:00", "Adresse registreret", "SMS sendt til begge"]
+      },
+      "office": {
+        "title": "Ro til det koncentrerede arbejde – uden at kunden venter",
+        "intro": "På et kontor er afbrydelser dyre. Hvert opkald om status, priser eller mødetider river en medarbejder ud af opgaven. AI-receptionisten screener alle indgående opkald, besvarer de rutinemæssige selv, booker møder i den fælles kalender og stiller kun det vigtige videre.",
+        "situation": "Kl. 13:05 ringer en kunde for at booke et møde. Teamet sidder midt i en deadline, og et opkald ville koste hele koncentrationen.",
+        "callLabel": "Indgående opkald · Kunde",
+        "chat": [
+          { "role": "customer", "text": "Hej, jeg vil gerne booke et møde om vores sag." },
+          { "role": "ai", "text": "Selvfølgelig. Jeg kan se ledige tider tirsdag kl. 11:00 og onsdag kl. 14:30 – hvad passer bedst?" },
+          { "role": "customer", "text": "Onsdag kl. 14:30." },
+          { "role": "ai", "text": "Det er noteret. I får begge en kalenderinvitation med det samme." }
+        ],
+        "outcomes": [
+          "Færre afbrydelser giver længere perioder med fokuseret arbejde",
+          "Rutinespørgsmål om status, priser og åbningstider besvares automatisk",
+          "Møder bookes direkte i teamets fælles kalender",
+          "I bestemmer selv, hvilke opkald der altid skal stilles videre til et menneske"
+        ],
+        "results": ["Møde booket ons. 14:30", "Invitation sendt", "Ingen afbrydelse af teamet"]
+      },
+      "ecommerce": {
+        "title": "Spørgsmålet bliver besvaret, før kurven bliver forladt",
+        "intro": "I en webshop kommer en stor del af trafikken uden for åbningstiden, og et ubesvaret spørgsmål om levering, størrelse eller retur bliver hurtigt til en efterladt kurv. AI-widgetten svarer på hjemmesiden med det samme – døgnet rundt – og fører kunden hele vejen til gennemført ordre.",
+        "situation": "Kl. 21:38 står en kunde med varen i kurven, men er i tvivl om levering og returret. Supporten åbner først i morgen.",
+        "callLabel": "Chat på hjemmesiden · Besøgende",
+        "chat": [
+          { "role": "customer", "text": "Hvornår får jeg den, hvis jeg bestiller nu?" },
+          { "role": "ai", "text": "Bestiller du inden kl. 22, sender vi i morgen – du har den typisk om 1-2 hverdage." },
+          { "role": "customer", "text": "Og hvis den ikke passer?" },
+          { "role": "ai", "text": "Så har du 30 dages fuld returret, og returlabelen ligger i din ordrebekræftelse." }
+        ],
+        "outcomes": [
+          "Svar på produkt-, leverings- og returspørgsmål med det samme – også om aftenen",
+          "Færre efterladte kurve, fordi tvivlen bliver ryddet af vejen med det samme",
+          "Komplekse sager sendes videre til jeres team med den fulde samtale som kontekst",
+          "Ingen ventetid og ingen kø – uanset hvor mange der spørger på samme tid"
+        ],
+        "results": ["Svar på 3 sekunder", "Ordre gennemført", "Ingen ventetid"]
+      }
+    },
+    "calculator": {
+      "badge": "Beregn din pris",
+      "title": "Hvad koster det – og hvor meget tid får du tilbage?",
+      "subtitle": "Vælg den løsning du er interesseret i, sæt din forventede taletid, og se prisen med det samme.",
+      "modeLabel": "Hvilken løsning vil du regne på?",
+      "modeVoice": "Ind- og udgående opkald",
+      "modeVoiceDesc": "AI-telefonassistenten besvarer opkald og ringer selv ud med påmindelser og opfølgning.",
+      "modeWidget": "Voice widget på hjemmesiden",
+      "modeWidgetDesc": "Besøgende taler eller skriver direkte med AI'en på din hjemmeside og booker selv.",
+      "widgetPlanName": "Voice Widget",
+      "minutesLabel": "Forventet taletid pr. måned",
+      "minutesUnit": "min.",
+      "recommendedLabel": "Anbefalet pakke",
+      "includedMinutes": "{{minutes}} minutter inkluderet",
+      "setupLabel": "Tilføj opsætning og onboarding.",
+      "setupNote": "Engangsbeløb på {{price}} – det samme som én måned – inkl. 1 times opfølgende support.",
+      "setupLine": "Opsætning (engangs)",
+      "firstMonthTotal": "Første måned i alt",
+      "aboveLargest": "Har du mere end 2.000 minutter om måneden? Så laver vi en pakke til dig – kontakt os for et tilbud.",
+      "timeFreedValue": "Ca. {{hours}} timers telefontid tilbage",
+      "timeFreedText": "Tid du i stedet kan bruge på at drive virksomheden. Booking, ombooking og spørgsmål bliver håndteret uden dig.",
+      "alwaysOnTitle": "Åbent 24/7, 365 dage om året",
+      "alwaysOnText": "Agenten svarer altid – aften, weekend og helligdage. Du mister ikke kunder, fordi ingen kunne tage telefonen.",
+      "recommendation": "Vi anbefaler, at du prøver løsningen gratis i 7 dage først. Derefter vælger du din pakke – med eller uden opsætning.",
+      "cta": "Prøv gratis i 7 dage",
+      "note": "Priserne er vejledende og uden binding. Du kan skifte pakke undervejs."
+    },
+    "trial": {
+      "badge": "7 dage gratis",
+      "title": "Test det på dine egne opkald – helt uforpligtende",
+      "text": "Opret en testkonto og prøv løsningen i 7 dage med 75 minutters taletid. Vi sætter det op sammen med dig på et kort onboarding-møde, og du viderestiller blot dit nuværende firmanummer til det nummer, du får tildelt.",
+      "points": [
+        "Ingen teknisk opsætning – du viderestiller bare dit nummer",
+        "Fuld adgang til dashboard, optagelser og bookinger",
+        "Ingen binding og intet kortnummer påkrævet"
+      ],
+      "minutesValue": "75 min.",
+      "minutesLabel": "taletid inkluderet i prøveperioden",
+      "cta": "Opret testkonto",
+      "secondary": "Læs mere om prøveperioden"
+    }
   },
   "trialOfferWidget": {
     "dialog_aria": "Prøv AI-receptionen gratis",

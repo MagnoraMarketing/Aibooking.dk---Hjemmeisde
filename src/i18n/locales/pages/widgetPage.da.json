@@ -264,6 +264,7 @@
       }
     ],
     "after_order_note": "Efter bestilling modtager du et kalenderlink hvor du kan booke tid til opsætning.",
+    "setup_recommendation": "Vi anbefaler, at du prøver løsningen gratis i 7 dage først – derefter vælger du din pakke, med eller uden opsætning.",
     "additionalPrices": {
       "title": "Øvrige priser",
       "toggle_label": "Se øvrige priser",

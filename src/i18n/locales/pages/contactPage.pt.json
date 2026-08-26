@@ -25,14 +25,25 @@
       "name": "Nome",
       "email": "Email",
       "phone": "Telefone (opcional)",
+      "inquiryType": "Tipo de pedido",
+      "preferredDate": "Horário preferido para contacto (opcional)",
       "message": "Mensagem"
     },
     "placeholders": {
       "name": "O seu nome completo",
       "email": "oseu@email.com",
       "phone": "+45 91952794",
+      "inquiryType": "Selecione o assunto do seu pedido",
       "message": "Como podemos ajudar?"
     },
+    "inquiryTypeOptions": {
+      "aiSolutions": "Colaboração sobre as nossas soluções de IA",
+      "widget": "Widget de IA",
+      "inboundOutbound": "Chamadas recebidas/efetuadas (assistente telefónico)",
+      "reception": "Receção de IA",
+      "other": "Outro"
+    },
+    "preferredDateHint": "A marcação de um horário exato através de calendário estará disponível em breve. Até lá, entraremos em contacto consigo à volta da data que indicar aqui.",
     "submit": "Enviar mensagem",
     "sending": "A enviar..."
   },

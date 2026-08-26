@@ -25,14 +25,25 @@
       "name": "Nom",
       "email": "Email",
       "phone": "Téléphone (facultatif)",
+      "inquiryType": "Type de demande",
+      "preferredDate": "Horaire souhaité pour le contact (facultatif)",
       "message": "Message"
     },
     "placeholders": {
       "name": "Votre nom complet",
       "email": "votre@email.com",
       "phone": "+45 91952794",
+      "inquiryType": "Sélectionnez le sujet de votre demande",
       "message": "Comment pouvons-nous vous aider ?"
     },
+    "inquiryTypeOptions": {
+      "aiSolutions": "Collaboration autour de nos solutions IA",
+      "widget": "Widget IA",
+      "inboundOutbound": "Appels entrants/sortants (assistant téléphonique)",
+      "reception": "Réception IA",
+      "other": "Autre"
+    },
+    "preferredDateHint": "La réservation d'un horaire précis via calendrier arrive bientôt. En attendant, nous vous recontacterons autour de la date indiquée ici.",
     "submit": "Envoyer le message",
     "sending": "Envoi en cours..."
   },

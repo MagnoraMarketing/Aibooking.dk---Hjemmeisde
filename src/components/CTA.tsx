@@ -1,7 +1,11 @@
 import { useTranslation } from 'react-i18next';
+import type { SupportedLanguage } from '../i18n/config';
+import { buildLocalizedPath } from '../utils/localePaths';
 
 function CTA() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
+  const contactHref = buildLocalizedPath(lang, '/kontakt');
 
   return (
     <section id="kontakt" className="py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-brand-600 via-brand-600 to-brand-700 relative overflow-hidden">
@@ -18,7 +22,7 @@ function CTA() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://cal.com/aibooking-booking/info-om-ai-reception-og-widget-copy"
+              href="https://aibooking-backendnew.vercel.app/signup"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-brand-600 bg-white rounded-xl hover:bg-brand-50 transition-all shadow-xl hover:shadow-2xl hover:scale-105"
@@ -26,9 +30,7 @@ function CTA() {
               {t('cta_section.trial_button')}
             </a>
             <a
-              href="https://cal.com/aibooking-booking/30min"
-              target="_blank"
-              rel="noopener noreferrer"
+              href={contactHref}
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white border border-white/40 rounded-xl hover:bg-white/10 transition-all"
             >
               {t('cta_section.button')}

@@ -1,11 +1,15 @@
 import { useTranslation } from 'react-i18next';
 import { Calendar, Mail, MessageSquare, ShoppingBag, FileText, Zap, Video, Share2 } from 'lucide-react';
+import type { SupportedLanguage } from '../../i18n/config';
+import { buildLocalizedPath } from '../../utils/localePaths';
 
 interface IntegrationItem { name: string; description: string; category: string }
 interface ClinicPoint { strong: string; text: string }
 
 function IntegrationGrid() {
-  const { t } = useTranslation('integrationsPage');
+  const { t, i18n } = useTranslation('integrationsPage');
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
+  const contactHref = buildLocalizedPath(lang, '/kontakt');
 
   const integrationsText = t('gridSection.integrations', { returnObjects: true }) as IntegrationItem[];
   const integrationIcons = [Calendar, Mail, MessageSquare, MessageSquare, ShoppingBag, FileText, FileText, Zap, Video, Video, MessageSquare, MessageSquare, Share2, Share2, Share2];
@@ -97,9 +101,7 @@ function IntegrationGrid() {
             {t('gridSection.missing.description')}
           </p>
           <a
-            href="https://cal.com/aibooking-booking/30min"
-            target="_blank"
-            rel="noopener noreferrer"
+            href={contactHref}
             className="inline-block bg-brand-600 text-white px-8 py-3 rounded-lg hover:bg-brand-700 transition-colors font-medium"
           >
             {t('gridSection.missing.button')}

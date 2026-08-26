@@ -6,6 +6,8 @@ import { demoFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { CheckCircle, Calendar, Clock, Zap } from 'lucide-react';
+import type { SupportedLanguage } from '../i18n/config';
+import { buildLocalizedPath } from '../utils/localePaths';
 
 interface DemoPageProps {
   onNavigate: (page: 'home' | 'email' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features') => void;
@@ -15,7 +17,9 @@ interface TitleDescription { title: string; description: string }
 interface TitleDesc { title: string; desc: string }
 
 function DemoPage({ onNavigate }: DemoPageProps) {
-  const { t } = useTranslation('demoPage');
+  const { t, i18n } = useTranslation('demoPage');
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
+  const contactHref = buildLocalizedPath(lang, '/kontakt');
 
   const breadcrumbData = createBreadcrumbSchema([
     { name: t('breadcrumb.home'), url: 'https://www.aibooking.dk/' },
@@ -114,9 +118,7 @@ function DemoPage({ onNavigate }: DemoPageProps) {
             </div>
             <div className="p-12 text-center">
               <a
-                href="https://cal.com/aibooking-booking/30min"
-                target="_blank"
-                rel="noopener noreferrer"
+                href={contactHref}
                 className="inline-block bg-brand-600 text-white px-12 py-6 rounded-2xl font-bold text-xl hover:bg-brand-700 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
               >
                 {t('booking.button')}
@@ -200,9 +202,7 @@ function DemoPage({ onNavigate }: DemoPageProps) {
                   {t('benefitsSection.ctaText')}
                 </p>
                 <a
-                  href="https://cal.com/aibooking-booking/30min"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={contactHref}
                   className="inline-block bg-white text-brand-900 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-brand-50 transition-all shadow-2xl hover:shadow-3xl transform hover:scale-105"
                 >
                   {t('benefitsSection.ctaButton')}

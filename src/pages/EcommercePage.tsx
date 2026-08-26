@@ -6,6 +6,8 @@ import { ecommerceFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { Clock, Users, MessageSquare, CheckSquare, CheckCircle, ShoppingCart } from 'lucide-react';
+import type { SupportedLanguage } from '../i18n/config';
+import { buildLocalizedPath } from '../utils/localePaths';
 
 interface EcommercePageProps {
   onNavigate: (page: 'home' | 'email' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features') => void;
@@ -15,7 +17,9 @@ interface TitleDescription { title: string; description: string }
 interface StatItem { value: string; label: string }
 
 function EcommercePage({ onNavigate }: EcommercePageProps) {
-  const { t } = useTranslation('ecommercePage');
+  const { t, i18n } = useTranslation('ecommercePage');
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
+  const contactHref = buildLocalizedPath(lang, '/kontakt');
 
   const breadcrumbData = createBreadcrumbSchema([
     { name: t('breadcrumb.home'), url: 'https://www.aibooking.dk/' },
@@ -104,9 +108,7 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
               ))}
             </div>
             <a
-              href="https://cal.com/aibooking-booking/30min"
-              target="_blank"
-              rel="noopener noreferrer"
+              href={contactHref}
               className="bg-white text-brand-900 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-brand-50 transition-all shadow-2xl inline-block"
             >
               {t('perfectFor.cta')}
@@ -124,9 +126,7 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
             {t('ctaSection.subtitle')}
           </p>
           <a
-            href="https://cal.com/aibooking-booking/30min"
-            target="_blank"
-            rel="noopener noreferrer"
+            href={contactHref}
             className="bg-white text-brand-900 px-12 py-6 rounded-2xl font-bold text-xl hover:bg-brand-50 transition-all shadow-2xl inline-block"
           >
             {t('ctaSection.button')}

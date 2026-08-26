@@ -1,8 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
+import type { SupportedLanguage } from '../../i18n/config';
+import { buildLocalizedPath } from '../../utils/localePaths';
 
 function IntegrationCTA() {
-  const { t } = useTranslation('integrationsPage');
+  const { t, i18n } = useTranslation('integrationsPage');
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
+  const contactHref = buildLocalizedPath(lang, '/kontakt');
 
   const benefits = t('ctaSection.benefits', { returnObjects: true }) as string[];
   const stats = t('ctaSection.stats', { returnObjects: true }) as { value: string; label: string }[];
@@ -19,9 +23,7 @@ function IntegrationCTA() {
               {t('ctaSection.subtitle')}
             </p>
             <a
-              href="https://cal.com/aibooking-booking/30min"
-              target="_blank"
-              rel="noopener noreferrer"
+              href={contactHref}
               className="inline-flex items-center space-x-2 bg-white text-brand-600 px-8 py-4 rounded-lg hover:bg-brand-50 transition-all duration-300 font-semibold text-lg group"
             >
               <span>{t('ctaSection.button')}</span>

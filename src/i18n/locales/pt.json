@@ -390,7 +390,9 @@
   },
   "trialOfferWidget": {
     "dialog_aria": "Experimente a rececionista de IA gratuitamente",
-    "close_aria": "Fechar",
+    "close_aria": "Minimizar",
+    "expand_aria": "Abrir a oferta de teste gratuito",
+    "minimized_label": "Teste gratuito de 7 dias",
     "badge": "7 DIAS GRÁTIS",
     "title": "Experimente a sua rececionista de IA gratuitamente durante 7 dias",
     "description": "Basta reencaminhar as chamadas do seu número de telefone atual — sem qualquer configuração técnica. Veja por si mesmo quanto tempo liberta para outras tarefas!",

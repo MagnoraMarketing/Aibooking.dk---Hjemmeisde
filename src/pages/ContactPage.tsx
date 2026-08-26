@@ -6,7 +6,7 @@ import FAQ from '../components/FAQ';
 import { contactFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
-import { Phone, Mail, MapPin, Clock, MessageSquare, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, MessageSquare, CheckCircle2, AlertCircle, Calendar } from 'lucide-react';
 
 interface ContactPageProps {
   onNavigate: (page: 'home' | 'email' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about') => void;
@@ -22,12 +22,12 @@ function ContactPage({ onNavigate }: ContactPageProps) {
 
   const whyUsItems = t('whyUs.items', { returnObjects: true }) as string[];
 
-  const [formData, setFormData] = useState({ name: '', email: '', phone: '', message: '' });
+  const [formData, setFormData] = useState({ name: '', email: '', phone: '', inquiryType: '', preferredDate: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
@@ -46,7 +46,7 @@ function ContactPage({ onNavigate }: ContactPageProps) {
       if (!response.ok) throw new Error('Request failed');
 
       setSubmitted(true);
-      setFormData({ name: '', email: '', phone: '', message: '' });
+      setFormData({ name: '', email: '', phone: '', inquiryType: '', preferredDate: '', message: '' });
       setTimeout(() => setSubmitted(false), 8000);
     } catch (err) {
       setError(t('form.error'));
@@ -169,6 +169,38 @@ function ContactPage({ onNavigate }: ContactPageProps) {
                         className="w-full px-4 py-3 border border-ink-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all"
                         placeholder={t('form.placeholders.phone')}
                       />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-semibold text-ink-700 mb-2">{t('form.labels.inquiryType')}</label>
+                      <select
+                        name="inquiryType"
+                        value={formData.inquiryType}
+                        onChange={handleChange}
+                        required
+                        className="w-full px-4 py-3 border border-ink-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all bg-white"
+                      >
+                        <option value="">{t('form.placeholders.inquiryType')}</option>
+                        <option value="ai-solutions">{t('form.inquiryTypeOptions.aiSolutions')}</option>
+                        <option value="widget">{t('form.inquiryTypeOptions.widget')}</option>
+                        <option value="inbound-outbound">{t('form.inquiryTypeOptions.inboundOutbound')}</option>
+                        <option value="reception">{t('form.inquiryTypeOptions.reception')}</option>
+                        <option value="other">{t('form.inquiryTypeOptions.other')}</option>
+                      </select>
+                    </div>
+                    <div>
+                      <label className="flex items-center gap-2 text-sm font-semibold text-ink-700 mb-2">
+                        <Calendar className="w-4 h-4" />
+                        {t('form.labels.preferredDate')}
+                      </label>
+                      <input
+                        type="date"
+                        name="preferredDate"
+                        value={formData.preferredDate}
+                        onChange={handleChange}
+                        min={new Date().toISOString().split('T')[0]}
+                        className="w-full px-4 py-3 border border-ink-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all"
+                      />
+                      <p className="text-xs text-ink-500 mt-1.5">{t('form.preferredDateHint')}</p>
                     </div>
                     <div>
                       <label className="block text-sm font-semibold text-ink-700 mb-2">{t('form.labels.message')}</label>

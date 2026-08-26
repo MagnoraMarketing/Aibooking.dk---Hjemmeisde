@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import { localizedPrice } from '../utils/currency';
 import type { SupportedLanguage } from '../i18n/config';
+import { buildLocalizedPath } from '../utils/localePaths';
 
 const WIDGET_PLAN_PRICE_DKK = 999;
 
@@ -44,6 +45,7 @@ function PricingSection() {
   const [isAdditionalOpen, setIsAdditionalOpen] = useState(false);
   const [setupSelected, setSetupSelected] = useState<Record<number, boolean>>({});
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
+  const contactHref = buildLocalizedPath(lang, '/kontakt');
 
   const widgetPlanFeatures = t('pricing.widgetPlan.features', { returnObjects: true }) as string[];
 
@@ -51,7 +53,7 @@ function PricingSection() {
   // Optional setup/onboarding fee equals one month's subscription price,
   // charged once, and includes 1 hour of follow-up support afterwards.
   const planMeta = [
-    { price: 0, highlighted: false, isDemo: true, href: 'https://cal.com/aibooking-booking/info-om-ai-reception-og-widget-copy' },
+    { price: 0, highlighted: false, isDemo: true, href: contactHref },
     { price: 1500, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
     { price: 2499, highlighted: true, isDemo: false, href: 'https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01' },
     { price: 5999, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02' },
@@ -115,9 +117,7 @@ function PricingSection() {
                     <ArrowRight className="w-4 h-4" />
                   </a>
                   <a
-                    href="https://cal.com/aibooking-booking/30min"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href={contactHref}
                     className="inline-flex items-center justify-center gap-2 bg-ink-100 text-ink-800 border border-ink-200 px-6 py-3.5 rounded-xl hover:bg-ink-200 transition-all font-semibold"
                   >
                     {t('pricing.widgetPlan.cta_intro')}
@@ -255,8 +255,7 @@ function PricingSection() {
 
               <a
                 href={plan.href}
-                target="_blank"
-                rel="noopener noreferrer"
+                {...(plan.isDemo ? {} : { target: '_blank', rel: 'noopener noreferrer' })}
                 className={`block w-full text-center py-3.5 rounded-xl font-semibold transition-all transform hover:scale-[1.02] text-[15px] ${
                   plan.highlighted
                     ? 'bg-white text-brand-600 hover:bg-brand-50 shadow-md'
@@ -385,15 +384,13 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                   {t('hero.subtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <a
-                    href="https://cal.com/aibooking-booking/30min"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
+                    onClick={() => onNavigate('contact')}
                     className="inline-flex items-center justify-center gap-2 bg-accent-400 text-ink-950 px-8 py-4 rounded-xl hover:bg-accent-300 transition-all font-bold shadow-lg shadow-accent-500/20 transform hover:scale-[1.02]"
                   >
                     {t('hero.cta_demo')}
                     <ArrowRight className="w-5 h-5" />
-                  </a>
+                  </button>
                   <a
                     href="https://buy.stripe.com/7sY3cu2H14JB00k4IX4AU04"
                     target="_blank"
@@ -626,15 +623,13 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                   {t('ctaFinal.subtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a
-                    href="https://cal.com/aibooking-booking/30min"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
+                    onClick={() => onNavigate('contact')}
                     className="inline-flex items-center justify-center gap-2 bg-white text-brand-600 px-8 py-4 rounded-xl hover:bg-brand-50 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
                   >
                     {t('ctaFinal.cta_intro')}
                     <ArrowRight className="w-5 h-5" />
-                  </a>
+                  </button>
                   <a
                     href="https://buy.stripe.com/7sY3cu2H14JB00k4IX4AU04"
                     target="_blank"

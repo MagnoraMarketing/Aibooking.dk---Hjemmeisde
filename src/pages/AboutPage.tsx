@@ -217,14 +217,12 @@ function AboutPage({ onNavigate }: AboutPageProps) {
               {t('ctaSection.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="https://cal.com/aibooking-booking/30min"
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                onClick={() => onNavigate('demo')}
                 className="bg-white text-brand-600 px-8 py-4 rounded-xl font-bold hover:bg-brand-50 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 inline-block"
               >
                 {t('ctaSection.button_demo')}
-              </a>
+              </button>
               <button
                 onClick={() => onNavigate('contact')}
                 className="bg-brand-500 text-white px-8 py-4 rounded-xl font-bold hover:bg-brand-400 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-white/20"

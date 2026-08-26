@@ -54,14 +54,12 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                 </button>
               </li>
               <li>
-                <a
-                  href="https://cal.com/aibooking-booking/30min"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <button
+                  onClick={() => onNavigate('contact')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.book_demo')}
-                </a>
+                </button>
               </li>
               <li>
                 <button

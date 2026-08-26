@@ -1,35 +1,55 @@
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { X, PhoneCall, Clock, ArrowRight, Phone, MessageSquare, Mail, MessageCircle } from 'lucide-react';
+import { Minus, PhoneCall, Clock, ArrowRight, Phone, MessageSquare, Mail, MessageCircle } from 'lucide-react';
 
-const DISMISSED_KEY = 'aibooking_trial_offer_dismissed';
+const STATE_KEY = 'aibooking_trial_offer_state';
 const SHOW_AFTER_MS = 15000;
+
+type WidgetState = 'hidden' | 'expanded' | 'minimized';
 
 function TrialOfferWidget() {
   const { t } = useTranslation();
-  const [visible, setVisible] = useState(false);
-  const [dismissed, setDismissed] = useState(false);
+  const [state, setState] = useState<WidgetState>('hidden');
 
   useEffect(() => {
-    if (sessionStorage.getItem(DISMISSED_KEY) === '1') return;
+    const saved = sessionStorage.getItem(STATE_KEY);
+    if (saved === 'minimized' || saved === 'expanded') {
+      setState(saved);
+      return;
+    }
 
-    const timer = setTimeout(() => setVisible(true), SHOW_AFTER_MS);
+    const timer = setTimeout(() => setState('expanded'), SHOW_AFTER_MS);
     return () => clearTimeout(timer);
   }, []);
 
-  const handleDismiss = () => {
-    setVisible(false);
-    setDismissed(true);
-    sessionStorage.setItem(DISMISSED_KEY, '1');
+  const handleMinimize = () => {
+    setState('minimized');
+    sessionStorage.setItem(STATE_KEY, 'minimized');
   };
 
-  if (dismissed) return null;
+  const handleExpand = () => {
+    setState('expanded');
+    sessionStorage.setItem(STATE_KEY, 'expanded');
+  };
+
+  if (state === 'hidden') return null;
+
+  if (state === 'minimized') {
+    return (
+      <button
+        onClick={handleExpand}
+        aria-label={t('trialOfferWidget.expand_aria')}
+        className="fixed bottom-6 left-6 z-50 flex items-center gap-2 bg-brand-600 text-white pl-4 pr-5 py-3 rounded-full shadow-2xl hover:bg-brand-700 hover:scale-105 transition-all"
+      >
+        <Clock className="w-4 h-4" />
+        <span className="text-sm font-semibold">{t('trialOfferWidget.minimized_label')}</span>
+      </button>
+    );
+  }
 
   return (
     <div
-      className={`fixed bottom-6 left-6 z-50 w-[min(360px,calc(100vw-3rem))] transition-transform duration-700 ease-out ${
-        visible ? 'translate-x-0' : '-translate-x-[150%]'
-      }`}
+      className="fixed bottom-6 left-6 z-50 w-[min(360px,calc(100vw-3rem))]"
       role="dialog"
       aria-label={t('trialOfferWidget.dialog_aria')}
     >
@@ -37,11 +57,11 @@ function TrialOfferWidget() {
         <div className="absolute -top-10 -right-10 w-32 h-32 bg-accent-400/20 rounded-full blur-2xl pointer-events-none" />
 
         <button
-          onClick={handleDismiss}
+          onClick={handleMinimize}
           aria-label={t('trialOfferWidget.close_aria')}
-          className="absolute top-3 right-3 w-7 h-7 flex items-center justify-center rounded-full text-ink-400 hover:text-ink-700 hover:bg-ink-100 transition-colors"
+          className="absolute top-3 right-3 z-10 w-7 h-7 flex items-center justify-center rounded-full text-white/80 hover:text-white hover:bg-white/10 transition-colors"
         >
-          <X className="w-4 h-4" />
+          <Minus className="w-4 h-4" />
         </button>
 
         <div className="bg-gradient-to-br from-brand-600 via-brand-600 to-brand-700 px-5 pt-5 pb-4 relative">
@@ -94,7 +114,7 @@ function TrialOfferWidget() {
             href="https://aibooking-backendnew.vercel.app/signup"
             target="_blank"
             rel="noopener noreferrer"
-            onClick={() => sessionStorage.setItem(DISMISSED_KEY, '1')}
+            onClick={handleMinimize}
             className="flex items-center justify-center gap-2 w-full bg-brand-600 text-white px-5 py-3 rounded-xl font-semibold hover:bg-brand-700 transition-all shadow-md hover:shadow-lg transform hover:scale-[1.02]"
           >
             <PhoneCall className="w-4 h-4" />

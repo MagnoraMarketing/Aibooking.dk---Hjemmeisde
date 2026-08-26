@@ -25,14 +25,25 @@
       "name": "Navn",
       "email": "Email",
       "phone": "Telefon (valgfri)",
+      "inquiryType": "Type af henvendelse",
+      "preferredDate": "Ønsket tidspunkt for kontakt (valgfrit)",
       "message": "Besked"
     },
     "placeholders": {
       "name": "Dit fulde navn",
       "email": "din@email.dk",
       "phone": "+45 91952794",
+      "inquiryType": "Vælg emne for din henvendelse",
       "message": "Hvordan kan vi hjælpe?"
     },
+    "inquiryTypeOptions": {
+      "aiSolutions": "Samarbejde om AI-løsninger",
+      "widget": "AI-widget",
+      "inboundOutbound": "Ind-/udgående opkald (telefonassistent)",
+      "reception": "AI-reception",
+      "other": "Andet"
+    },
+    "preferredDateHint": "Kalenderbooking af et præcist tidspunkt tilføjes snart. Indtil da kontakter vi dig omkring den dato, du angiver her.",
     "submit": "Send besked",
     "sending": "Sender..."
   },

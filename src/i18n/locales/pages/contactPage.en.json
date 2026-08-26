@@ -25,14 +25,25 @@
       "name": "Name",
       "email": "Email",
       "phone": "Phone (optional)",
+      "inquiryType": "Type of enquiry",
+      "preferredDate": "Preferred time for contact (optional)",
       "message": "Message"
     },
     "placeholders": {
       "name": "Your full name",
       "email": "your@email.com",
       "phone": "+45 91952794",
+      "inquiryType": "Select a topic for your enquiry",
       "message": "How can we help?"
     },
+    "inquiryTypeOptions": {
+      "aiSolutions": "Collaboration on our AI solutions",
+      "widget": "AI widget",
+      "inboundOutbound": "Inbound/outbound calls (phone assistant)",
+      "reception": "AI reception",
+      "other": "Other"
+    },
+    "preferredDateHint": "Calendar booking of an exact time is coming soon. Until then, we'll reach out to you around the date you specify here.",
     "submit": "Send message",
     "sending": "Sending..."
   },

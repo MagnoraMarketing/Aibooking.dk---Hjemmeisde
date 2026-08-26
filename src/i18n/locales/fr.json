@@ -390,7 +390,9 @@
   },
   "trialOfferWidget": {
     "dialog_aria": "Essayez gratuitement le réceptionniste IA",
-    "close_aria": "Fermer",
+    "close_aria": "Réduire",
+    "expand_aria": "Ouvrir l'offre d'essai gratuit",
+    "minimized_label": "Essai gratuit de 7 jours",
     "badge": "7 JOURS GRATUITS",
     "title": "Essayez votre réceptionniste IA gratuitement pendant 7 jours",
     "description": "Il vous suffit de transférer les appels depuis votre numéro de téléphone actuel — aucune configuration technique requise. Découvrez par vous-même combien de temps cela vous libère pour d'autres tâches !",

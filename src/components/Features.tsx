@@ -1,5 +1,7 @@
 import { Phone, Calendar, BarChart3, MessageSquare, Users, Clock, Zap, Shield, LayoutDashboard, Headphones, Mic, Settings, FileText } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import type { SupportedLanguage } from '../i18n/config';
+import { buildLocalizedPath } from '../utils/localePaths';
 
 interface TitleDescription {
   title: string;
@@ -7,7 +9,9 @@ interface TitleDescription {
 }
 
 function Features() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
+  const contactHref = buildLocalizedPath(lang, '/kontakt');
 
   const featureIcons = [Phone, Calendar, MessageSquare, BarChart3, Users, Clock, Zap, Shield];
   const featureItems = t('features.items', { returnObjects: true }) as TitleDescription[];
@@ -96,9 +100,7 @@ function Features() {
                   </p>
                 </div>
                 <a
-                  href="https://cal.com/aibooking-booking/30min"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={contactHref}
                   className="bg-white text-brand-900 px-8 py-4 rounded-xl font-bold text-lg hover:bg-brand-50 transition-all shadow-lg hover:shadow-xl transform hover:scale-[1.02] whitespace-nowrap inline-block"
                 >
                   {t('features.dashboard.cta.button')}

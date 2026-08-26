@@ -390,7 +390,9 @@
   },
   "trialOfferWidget": {
     "dialog_aria": "Prøv AI-receptionen gratis",
-    "close_aria": "Luk",
+    "close_aria": "Minimer",
+    "expand_aria": "Åbn tilbuddet om gratis prøveperiode",
+    "minimized_label": "7 dages gratis prøve",
     "badge": "7 DAGE GRATIS",
     "title": "Prøv din AI-receptionist gratis i 7 dage",
     "description": "Blot med viderestilling fra dit nuværende telefonnummer — ingen teknisk opsætning. Se selv hvor meget tid du frigør til andre opgaver!",

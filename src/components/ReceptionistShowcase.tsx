@@ -1,12 +1,16 @@
 import { Phone, Calendar, Bell, CheckCircle, MessageSquare, Zap } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import type { SupportedLanguage } from '../i18n/config';
+import { buildLocalizedPath } from '../utils/localePaths';
 
 interface ReceptionistShowcaseProps {
   onNavigate: (page: 'home' | 'email' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features') => void;
 }
 
 function ReceptionistShowcase({ onNavigate }: ReceptionistShowcaseProps) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
+  const contactHref = buildLocalizedPath(lang, '/kontakt');
   return (
     <section id="video" className="relative py-32 bg-gradient-to-br from-ink-900 via-brand-900 to-ink-900 overflow-hidden">
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PHBhdGggZD0iTTM2IDM0djItMnptMC0ydjJ6bTAtMnYyem0wLTJ2MnptMC0ydjJ6bTAtMnYyem0wLTJ2MnptMC0ydjJ6bTAtMnYyem0wLTJ2MnptMC0ydjJ6bTAtMnYyem0wLTJ2MnoiLz48L2c+PC9nPjwvc3ZnPg==')] opacity-40"></div>
@@ -35,9 +39,7 @@ function ReceptionistShowcase({ onNavigate }: ReceptionistShowcaseProps) {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://cal.com/aibooking-booking/30min"
-                target="_blank"
-                rel="noopener noreferrer"
+                href={contactHref}
                 className="group bg-white text-ink-900 px-8 py-4 rounded-xl hover:bg-brand-50 transition-all duration-300 font-semibold shadow-md hover:shadow-lg flex items-center justify-center space-x-2 transform hover:scale-[1.02]"
               >
                 <Calendar className="w-5 h-5" />

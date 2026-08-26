@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { localizedPrice } from '../utils/currency';
 import type { SupportedLanguage } from '../i18n/config';
+import { buildLocalizedPath } from '../utils/localePaths';
 
 interface PricingPlanText {
   name: string;
@@ -16,12 +17,13 @@ function Pricing() {
   const [isAdditionalPricesOpen, setIsAdditionalPricesOpen] = useState(false);
   const [setupSelected, setSetupSelected] = useState<Record<number, boolean>>({});
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
+  const contactHref = buildLocalizedPath(lang, '/kontakt');
 
   const plansText = t('pricing.plans', { returnObjects: true }) as PricingPlanText[];
   // Optional setup/onboarding fee equals one month's subscription price,
   // charged once, and includes 1 hour of follow-up support afterwards.
   const planMeta = [
-    { price: 0, highlighted: false, isDemo: true, href: 'https://cal.com/aibooking-booking/info-om-ai-reception-og-widget-copy' },
+    { price: 0, highlighted: false, isDemo: true, href: contactHref },
     { price: 1500, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
     { price: 2499, highlighted: true, isDemo: false, href: 'https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01' },
     { price: 5999, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02' },
@@ -128,8 +130,7 @@ function Pricing() {
 
               <a
                 href={plan.href}
-                target="_blank"
-                rel="noopener noreferrer"
+                {...(plan.isDemo ? {} : { target: '_blank', rel: 'noopener noreferrer' })}
                 className={`block w-full text-center py-3.5 rounded-xl font-semibold transition-all transform hover:scale-[1.02] text-[15px] ${
                   plan.highlighted
                     ? 'bg-white text-brand-600 hover:bg-brand-50 shadow-md'

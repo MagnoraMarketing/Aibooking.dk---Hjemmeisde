@@ -6,6 +6,8 @@ import { officeFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { TrendingUp, Clock, Phone, BarChart3, CheckCircle, Briefcase } from 'lucide-react';
+import type { SupportedLanguage } from '../i18n/config';
+import { buildLocalizedPath } from '../utils/localePaths';
 
 interface OfficePageProps {
   onNavigate: (page: 'home' | 'email' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features') => void;
@@ -15,7 +17,9 @@ interface TitleDescription { title: string; description: string }
 interface StatItem { value: string; label: string }
 
 function OfficePage({ onNavigate }: OfficePageProps) {
-  const { t } = useTranslation('officePage');
+  const { t, i18n } = useTranslation('officePage');
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
+  const contactHref = buildLocalizedPath(lang, '/kontakt');
 
   const breadcrumbData = createBreadcrumbSchema([
     { name: t('breadcrumb.home'), url: 'https://www.aibooking.dk/' },
@@ -102,9 +106,7 @@ function OfficePage({ onNavigate }: OfficePageProps) {
               ))}
             </div>
             <a
-              href="https://cal.com/aibooking-booking/30min"
-              target="_blank"
-              rel="noopener noreferrer"
+              href={contactHref}
               className="bg-white text-brand-900 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-brand-50 transition-all shadow-2xl inline-block"
             >
               {t('perfectFor.ctaButton')}
@@ -122,9 +124,7 @@ function OfficePage({ onNavigate }: OfficePageProps) {
             {t('finalCta.subtitle')}
           </p>
           <a
-            href="https://cal.com/aibooking-booking/30min"
-            target="_blank"
-            rel="noopener noreferrer"
+            href={contactHref}
             className="bg-white text-brand-900 px-12 py-6 rounded-2xl font-bold text-xl hover:bg-brand-50 transition-all shadow-2xl inline-block"
           >
             {t('finalCta.button')}

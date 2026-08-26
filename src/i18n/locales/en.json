@@ -390,7 +390,9 @@
   },
   "trialOfferWidget": {
     "dialog_aria": "Try the AI receptionist for free",
-    "close_aria": "Close",
+    "close_aria": "Minimize",
+    "expand_aria": "Open the free trial offer",
+    "minimized_label": "7-day free trial",
     "badge": "7 DAYS FREE",
     "title": "Try your AI receptionist free for 7 days",
     "description": "Just forward calls from your existing phone number — no technical setup required. See for yourself how much time it frees up for other tasks!",

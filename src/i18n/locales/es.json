@@ -390,7 +390,9 @@
   },
   "trialOfferWidget": {
     "dialog_aria": "Prueba la recepcionista de IA gratis",
-    "close_aria": "Cerrar",
+    "close_aria": "Minimizar",
+    "expand_aria": "Abrir la oferta de prueba gratuita",
+    "minimized_label": "Prueba gratuita de 7 días",
     "badge": "7 DÍAS GRATIS",
     "title": "Prueba tu recepcionista de IA gratis durante 7 días",
     "description": "Solo tienes que desviar las llamadas de tu número de teléfono actual — no se requiere configuración técnica. ¡Comprueba tú mismo cuánto tiempo libera para otras tareas!",

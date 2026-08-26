@@ -62,18 +62,9 @@ function ContactForm() {
           <h2 className="text-4xl md:text-5xl font-bold text-ink-900 mb-4">
             {t('contactForm.title')}
           </h2>
-          <p className="text-xl text-ink-600 max-w-2xl mx-auto mb-6">
+          <p className="text-xl text-ink-600 max-w-2xl mx-auto">
             {t('contactForm.subtitle')}
           </p>
-          <a
-            href="https://cal.com/aibooking-booking/30min"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-8 py-4 bg-brand-600 text-white font-semibold rounded-xl hover:bg-brand-700 transition-all shadow-lg hover:shadow-xl"
-          >
-            {t('contactForm.bookDemoButton')}
-          </a>
-          <p className="text-sm text-ink-500 mt-4">{t('contactForm.orFillForm')}</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12">

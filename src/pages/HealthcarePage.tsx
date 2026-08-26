@@ -6,6 +6,8 @@ import { healthcareFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { TrendingUp, Clock, Calendar, Users, CheckCircle, Phone } from 'lucide-react';
+import type { SupportedLanguage } from '../i18n/config';
+import { buildLocalizedPath } from '../utils/localePaths';
 
 interface HealthcarePageProps {
   onNavigate: (page: 'home' | 'email' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features') => void;
@@ -15,7 +17,9 @@ interface TitleDescription { title: string; description: string }
 interface StatItem { value: string; label: string }
 
 function HealthcarePage({ onNavigate }: HealthcarePageProps) {
-  const { t } = useTranslation('healthcarePage');
+  const { t, i18n } = useTranslation('healthcarePage');
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
+  const contactHref = buildLocalizedPath(lang, '/kontakt');
 
   const breadcrumbData = createBreadcrumbSchema([
     { name: t('breadcrumb.home'), url: 'https://www.aibooking.dk/' },
@@ -102,9 +106,7 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
               ))}
             </div>
             <a
-              href="https://cal.com/aibooking-booking/30min"
-              target="_blank"
-              rel="noopener noreferrer"
+              href={contactHref}
               className="bg-white text-green-900 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-green-50 transition-all shadow-2xl inline-block"
             >
               {t('perfectFor.cta')}
@@ -122,9 +124,7 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
             {t('ctaSection.subtitle')}
           </p>
           <a
-            href="https://cal.com/aibooking-booking/30min"
-            target="_blank"
-            rel="noopener noreferrer"
+            href={contactHref}
             className="bg-white text-green-900 px-12 py-6 rounded-2xl font-bold text-xl hover:bg-green-50 transition-all shadow-2xl inline-block"
           >
             {t('ctaSection.button')}

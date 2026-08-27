@@ -348,8 +348,8 @@
     "subtitle": "Um voicebot com quem os seus clientes podem falar diretamente no seu website - responde a perguntas e gere marcações automaticamente",
     "plan_badge": "Solução Mais Flexível",
     "price_period": "€/mês",
-    "price_note1": "Inclui 150 minutos de conversa (aprox. 0,89 €/minuto)",
-    "price_note2": "O pacote renova-se automaticamente quando os 150 minutos são utilizados",
+    "price_note1": "Inclui 200 minutos de conversa (aprox. 0,67 €/minuto)",
+    "price_note2": "O pacote renova-se automaticamente quando os 200 minutos são utilizados",
     "features": [
       {
         "bold": "Voice AI bot",
@@ -369,7 +369,7 @@
       },
       {
         "bold": "",
-        "rest": "150 minutos de conversa incluídos"
+        "rest": "200 minutos de conversa incluídos"
       },
       {
         "bold": "Pague apenas pelo tempo de conversa ativo",

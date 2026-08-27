@@ -3,94 +3,128 @@
     "Tableau de bord",
     "Entrants",
     "Sortants",
+    "Widget",
     "Agenda",
     "Analyses"
   ],
   "windowLabel": "app.aibooking.dk/tableau-de-bord",
   "heading": "Tableau de bord",
-  "headingSub": "Suivez les performances de vos agents IA",
+  "headingSub": "Suivez les performances de vos agents IA au téléphone et sur votre site",
   "org": "Clinique Sund · Dentaire",
   "period": "Ce mois-ci",
   "stats": [
     {
-      "label": "Appels au total",
-      "value": "342"
+      "label": "Conversations au total",
+      "value": "438"
     },
     {
       "label": "Agents actifs",
-      "value": "4"
+      "value": "5"
     },
     {
       "label": "Minutes utilisées",
-      "value": "486"
+      "value": "550"
     },
     {
       "label": "Minutes restantes",
-      "value": "114"
+      "value": "250"
     }
   ],
   "seeAgents": "Voir les agents →",
   "panels": {
-    "agentsLabel": "Agents actifs",
-    "callsLabel": "Appels",
-    "minutesLabel": "Minutes",
     "inbound": {
       "title": "Appels entrants",
       "agents": "2",
       "calls": "214",
-      "minutes": "298"
+      "minutes": "298",
+      "agentsLabel": "Agents actifs",
+      "callsLabel": "Appels",
+      "minutesLabel": "Minutes"
     },
     "outbound": {
       "title": "Appels sortants",
       "agents": "2",
       "calls": "128",
-      "minutes": "188"
+      "minutes": "188",
+      "agentsLabel": "Agents actifs",
+      "callsLabel": "Appels",
+      "minutesLabel": "Minutes"
+    },
+    "widget": {
+      "title": "Widget du site web",
+      "agents": "1",
+      "calls": "96",
+      "minutes": "64",
+      "agentsLabel": "Widgets actifs",
+      "callsLabel": "Conversations",
+      "minutesLabel": "Minutes"
     }
   },
   "recent": {
-    "title": "Derniers appels",
+    "title": "Dernières conversations",
     "columns": {
       "agent": "Agent",
       "date": "Date",
       "status": "Statut",
       "minutes": "Minutes"
     },
-    "view": "Voir l'appel",
+    "view": "Voir la conversation",
     "rows": [
+      {
+        "agent": "Widget – page d'accueil",
+        "channel": "Widget",
+        "date": "26 août 2026, 21h12",
+        "status": "Terminé",
+        "live": false,
+        "minutes": "0.47"
+      },
       {
         "agent": "Accueil – hors horaires",
         "date": "26 août 2026, 20h41",
         "status": "Terminé",
         "live": false,
-        "minutes": "1.04"
+        "minutes": "1.04",
+        "channel": "Téléphone"
       },
       {
         "agent": "Rappels – la veille",
         "date": "26 août 2026, 09h15",
         "status": "Terminé",
         "live": false,
-        "minutes": "0.38"
+        "minutes": "0.38",
+        "channel": "Téléphone"
       },
       {
         "agent": "Accueil – ligne principale",
         "date": "25 août 2026, 14h22",
         "status": "Terminé",
         "live": false,
-        "minutes": "2.11"
+        "minutes": "2.11",
+        "channel": "Téléphone"
+      },
+      {
+        "agent": "Widget – page de réservation",
+        "channel": "Widget",
+        "date": "25 août 2026, 16h05",
+        "status": "Terminé",
+        "live": false,
+        "minutes": "1.12"
       },
       {
         "agent": "Report – annulations",
         "date": "25 août 2026, 11h03",
         "status": "Terminé",
         "live": false,
-        "minutes": "0.52"
+        "minutes": "0.52",
+        "channel": "Téléphone"
       },
       {
         "agent": "Accueil – ligne principale",
         "date": "25 août 2026, 08h47",
         "status": "En cours",
         "live": true,
-        "minutes": "0.19"
+        "minutes": "0.19",
+        "channel": "Téléphone"
       }
     ]
   },
@@ -100,7 +134,8 @@
       "Accueil – ligne principale",
       "Accueil – hors horaires",
       "Rappels – la veille",
-      "Report – annulations"
+      "Report – annulations",
+      "Widget – site web"
     ]
   },
   "bookings": {
@@ -123,5 +158,5 @@
       }
     ]
   },
-  "note": "Chiffres illustratifs d'un cabinet de démonstration : votre tableau de bord affiche vos agents et vos appels."
+  "note": "Chiffres illustratifs d'un cabinet de démonstration : votre tableau de bord affiche vos agents, vos conversations widget et vos appels."
 }

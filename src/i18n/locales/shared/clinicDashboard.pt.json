@@ -3,94 +3,128 @@
     "Painel",
     "Recebidas",
     "Efetuadas",
+    "Widget",
     "Agenda",
     "Análises"
   ],
   "windowLabel": "app.aibooking.dk/painel",
   "heading": "Painel",
-  "headingSub": "Acompanhe o desempenho dos vossos agentes de IA",
+  "headingSub": "Acompanhe o desempenho dos vossos agentes de IA no telefone e no site",
   "org": "Clínica Sund · Dentária",
   "period": "Este mês",
   "stats": [
     {
-      "label": "Chamadas no total",
-      "value": "342"
+      "label": "Conversas no total",
+      "value": "438"
     },
     {
       "label": "Agentes ativos",
-      "value": "4"
+      "value": "5"
     },
     {
       "label": "Minutos usados",
-      "value": "486"
+      "value": "550"
     },
     {
       "label": "Minutos restantes",
-      "value": "114"
+      "value": "250"
     }
   ],
   "seeAgents": "Ver agentes →",
   "panels": {
-    "agentsLabel": "Agentes ativos",
-    "callsLabel": "Chamadas",
-    "minutesLabel": "Minutos",
     "inbound": {
       "title": "Chamadas recebidas",
       "agents": "2",
       "calls": "214",
-      "minutes": "298"
+      "minutes": "298",
+      "agentsLabel": "Agentes ativos",
+      "callsLabel": "Chamadas",
+      "minutesLabel": "Minutos"
     },
     "outbound": {
       "title": "Chamadas efetuadas",
       "agents": "2",
       "calls": "128",
-      "minutes": "188"
+      "minutes": "188",
+      "agentsLabel": "Agentes ativos",
+      "callsLabel": "Chamadas",
+      "minutesLabel": "Minutos"
+    },
+    "widget": {
+      "title": "Widget do site",
+      "agents": "1",
+      "calls": "96",
+      "minutes": "64",
+      "agentsLabel": "Widgets ativos",
+      "callsLabel": "Conversas",
+      "minutesLabel": "Minutos"
     }
   },
   "recent": {
-    "title": "Últimas chamadas",
+    "title": "Últimas conversas",
     "columns": {
       "agent": "Agente",
       "date": "Data",
       "status": "Estado",
       "minutes": "Minutos"
     },
-    "view": "Ver chamada",
+    "view": "Ver conversa",
     "rows": [
+      {
+        "agent": "Widget – página inicial",
+        "channel": "Widget",
+        "date": "26 ago. 2026, 21:12",
+        "status": "Terminada",
+        "live": false,
+        "minutes": "0.47"
+      },
       {
         "agent": "Receção – fora de horas",
         "date": "26 ago. 2026, 20:41",
         "status": "Terminada",
         "live": false,
-        "minutes": "1.04"
+        "minutes": "1.04",
+        "channel": "Telefone"
       },
       {
         "agent": "Lembretes – véspera",
         "date": "26 ago. 2026, 09:15",
         "status": "Terminada",
         "live": false,
-        "minutes": "0.38"
+        "minutes": "0.38",
+        "channel": "Telefone"
       },
       {
         "agent": "Receção – linha principal",
         "date": "25 ago. 2026, 14:22",
         "status": "Terminada",
         "live": false,
-        "minutes": "2.11"
+        "minutes": "2.11",
+        "channel": "Telefone"
+      },
+      {
+        "agent": "Widget – página de marcações",
+        "channel": "Widget",
+        "date": "25 ago. 2026, 16:05",
+        "status": "Terminada",
+        "live": false,
+        "minutes": "1.12"
       },
       {
         "agent": "Remarcação – cancelamentos",
         "date": "25 ago. 2026, 11:03",
         "status": "Terminada",
         "live": false,
-        "minutes": "0.52"
+        "minutes": "0.52",
+        "channel": "Telefone"
       },
       {
         "agent": "Receção – linha principal",
         "date": "25 ago. 2026, 08:47",
         "status": "Em curso",
         "live": true,
-        "minutes": "0.19"
+        "minutes": "0.19",
+        "channel": "Telefone"
       }
     ]
   },
@@ -100,7 +134,8 @@
       "Receção – linha principal",
       "Receção – fora de horas",
       "Lembretes – véspera",
-      "Remarcação – cancelamentos"
+      "Remarcação – cancelamentos",
+      "Widget – site"
     ]
   },
   "bookings": {
@@ -123,5 +158,5 @@
       }
     ]
   },
-  "note": "Números ilustrativos de uma clínica de demonstração – o seu painel mostra os seus agentes e as suas chamadas."
+  "note": "Números ilustrativos de uma clínica de demonstração – o seu painel mostra os seus agentes, as suas conversas no widget e as suas chamadas."
 }

@@ -28,7 +28,7 @@
       "label": "Pour démarrer"
     },
     {
-      "value": "150 min",
+      "value": "200 min",
       "label": "Temps de parole inclus"
     },
     {
@@ -286,8 +286,8 @@
       "badge": "Point de départ recommandé",
       "description": "Le moyen le plus rapide et le moins cher d'automatiser vos réservations. Le widget s'installe sur votre site web et permet aux clients de parler ou d'écrire directement avec votre assistant IA – 24h/24, sans intervention humaine.",
       "price_suffix": "€/mois",
-      "includes": "Comprend 150 minutes de temps de parole (env. 0,89 €/minute)",
-      "renewal_note": "Le forfait se renouvelle automatiquement une fois les 150 minutes utilisées",
+      "includes": "Comprend 200 minutes de temps de parole (env. 0,67 €/minute)",
+      "renewal_note": "Le forfait se renouvelle automatiquement une fois les 200 minutes utilisées",
       "cta_order": "Commander maintenant",
       "cta_intro": "Réserver une intro gratuite",
       "features": [
@@ -295,7 +295,7 @@
         "Répond aux questions et gère les réservations",
         "Les réservations arrivent directement dans votre calendrier",
         "Disponible 24h/24 sur votre site web",
-        "150 minutes de temps de parole incluses",
+        "200 minutes de temps de parole incluses",
         "Payez uniquement le temps de parole actif – pas de salaire horaire",
         "Ouvert 24h/24, 365 jours par an – toujours prêt",
         "Prend en charge les clients même lorsque vous êtes occupé"
@@ -303,7 +303,7 @@
       "footnote_talketime_label": "Temps de parole :",
       "footnote_talketime_value": "Le crédit acheté est valable 3 mois",
       "footnote_renewal_label": "Renouvellement :",
-      "footnote_renewal_value": "Automatique une fois les 150 min. utilisées",
+      "footnote_renewal_value": "Automatique une fois les 200 min. utilisées",
       "footnote_binding_label": "Engagement :",
       "footnote_binding_value": "Aucun – résiliez à tout moment"
     },
@@ -415,7 +415,7 @@
       },
       {
         "title": "Vue d'ensemble dans le tableau de bord",
-        "description": "Consultez l'activité, les statistiques et les tendances des appels entrants et sortants au même endroit."
+        "description": "Consultez l'activité, les statistiques et les tendances des conversations widget et des appels entrants et sortants au même endroit."
       },
       {
         "title": "Écoutez les conversations",
@@ -446,7 +446,7 @@
     },
     {
       "question": "Combien coûte le AI widget ?",
-      "answer": "Le forfait de départ coûte 134 €/mois et comprend 150 minutes de temps de parole. Vous ne payez que le temps de parole actif – pas de salaire horaire, pas d'engagement."
+      "answer": "Le forfait de départ coûte 134 €/mois et comprend 200 minutes de temps de parole. Vous ne payez que le temps de parole actif – pas de salaire horaire, pas d'engagement."
     },
     {
       "question": "Quelles langues le widget prend-il en charge ?",

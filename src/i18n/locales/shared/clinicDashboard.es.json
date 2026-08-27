@@ -3,94 +3,128 @@
     "Panel",
     "Entrantes",
     "Salientes",
+    "Widget",
     "Calendario",
     "Analítica"
   ],
   "windowLabel": "app.aibooking.dk/panel",
   "heading": "Panel",
-  "headingSub": "Sigue el rendimiento de vuestros agentes de IA",
+  "headingSub": "Sigue el rendimiento de vuestros agentes de IA por teléfono y en la web",
   "org": "Clínica Sund · Dental",
   "period": "Este mes",
   "stats": [
     {
-      "label": "Llamadas totales",
-      "value": "342"
+      "label": "Conversaciones totales",
+      "value": "438"
     },
     {
       "label": "Agentes activos",
-      "value": "4"
+      "value": "5"
     },
     {
       "label": "Minutos usados",
-      "value": "486"
+      "value": "550"
     },
     {
       "label": "Minutos restantes",
-      "value": "114"
+      "value": "250"
     }
   ],
   "seeAgents": "Ver agentes →",
   "panels": {
-    "agentsLabel": "Agentes activos",
-    "callsLabel": "Llamadas",
-    "minutesLabel": "Minutos",
     "inbound": {
       "title": "Llamadas entrantes",
       "agents": "2",
       "calls": "214",
-      "minutes": "298"
+      "minutes": "298",
+      "agentsLabel": "Agentes activos",
+      "callsLabel": "Llamadas",
+      "minutesLabel": "Minutos"
     },
     "outbound": {
       "title": "Llamadas salientes",
       "agents": "2",
       "calls": "128",
-      "minutes": "188"
+      "minutes": "188",
+      "agentsLabel": "Agentes activos",
+      "callsLabel": "Llamadas",
+      "minutesLabel": "Minutos"
+    },
+    "widget": {
+      "title": "Widget del sitio web",
+      "agents": "1",
+      "calls": "96",
+      "minutes": "64",
+      "agentsLabel": "Widgets activos",
+      "callsLabel": "Conversaciones",
+      "minutesLabel": "Minutos"
     }
   },
   "recent": {
-    "title": "Últimas llamadas",
+    "title": "Últimas conversaciones",
     "columns": {
       "agent": "Agente",
       "date": "Fecha",
       "status": "Estado",
       "minutes": "Minutos"
     },
-    "view": "Ver llamada",
+    "view": "Ver conversación",
     "rows": [
+      {
+        "agent": "Widget – página de inicio",
+        "channel": "Widget",
+        "date": "26 ago 2026, 21:12",
+        "status": "Finalizada",
+        "live": false,
+        "minutes": "0.47"
+      },
       {
         "agent": "Recepción – fuera de horario",
         "date": "26 ago 2026, 20:41",
         "status": "Finalizada",
         "live": false,
-        "minutes": "1.04"
+        "minutes": "1.04",
+        "channel": "Teléfono"
       },
       {
         "agent": "Recordatorios – víspera",
         "date": "26 ago 2026, 09:15",
         "status": "Finalizada",
         "live": false,
-        "minutes": "0.38"
+        "minutes": "0.38",
+        "channel": "Teléfono"
       },
       {
         "agent": "Recepción – línea principal",
         "date": "25 ago 2026, 14:22",
         "status": "Finalizada",
         "live": false,
-        "minutes": "2.11"
+        "minutes": "2.11",
+        "channel": "Teléfono"
+      },
+      {
+        "agent": "Widget – página de reservas",
+        "channel": "Widget",
+        "date": "25 ago 2026, 16:05",
+        "status": "Finalizada",
+        "live": false,
+        "minutes": "1.12"
       },
       {
         "agent": "Recolocación – anulaciones",
         "date": "25 ago 2026, 11:03",
         "status": "Finalizada",
         "live": false,
-        "minutes": "0.52"
+        "minutes": "0.52",
+        "channel": "Teléfono"
       },
       {
         "agent": "Recepción – línea principal",
         "date": "25 ago 2026, 08:47",
         "status": "En curso",
         "live": true,
-        "minutes": "0.19"
+        "minutes": "0.19",
+        "channel": "Teléfono"
       }
     ]
   },
@@ -100,7 +134,8 @@
       "Recepción – línea principal",
       "Recepción – fuera de horario",
       "Recordatorios – víspera",
-      "Recolocación – anulaciones"
+      "Recolocación – anulaciones",
+      "Widget – sitio web"
     ]
   },
   "bookings": {
@@ -123,5 +158,5 @@
       }
     ]
   },
-  "note": "Cifras ilustrativas de una clínica de demostración; tu panel muestra tus agentes y tus llamadas."
+  "note": "Cifras ilustrativas de una clínica de demostración; tu panel muestra tus agentes, tus conversaciones del widget y tus llamadas."
 }

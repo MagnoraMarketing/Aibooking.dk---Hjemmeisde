@@ -10,6 +10,7 @@ import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import { localizedPrice } from '../utils/currency';
+import { STRIPE_CHECKOUT } from '../utils/checkout';
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath } from '../utils/localePaths';
 import ClinicDashboardMock from '../components/ClinicDashboardMock';
@@ -104,7 +105,7 @@ function PricingSection() {
 
                 <div className="mt-8 flex flex-col sm:flex-row gap-3">
                   <a
-                    href="https://buy.stripe.com/7sY3cu2H14JB00k4IX4AU04"
+                    href={STRIPE_CHECKOUT.widget}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-brand-600 text-white px-6 py-3.5 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
@@ -156,16 +157,15 @@ function PhoneAssistantSection() {
   const [isAdditionalOpen, setIsAdditionalOpen] = useState(false);
   const [setupSelected, setSetupSelected] = useState<Record<number, boolean>>({});
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
-  const contactHref = buildLocalizedPath(lang, '/kontakt');
 
   const plansText = t('pricing.plans', { returnObjects: true }) as PricingPlanText[];
   // Optional setup/onboarding fee equals one month's subscription price,
   // charged once, and includes 1 hour of follow-up support afterwards.
   const planMeta = [
-    { price: 0, highlighted: false, isDemo: true, href: contactHref },
-    { price: 1500, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
-    { price: 2499, highlighted: true, isDemo: false, href: 'https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01' },
-    { price: 5999, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02' },
+    { price: 0, highlighted: false, href: STRIPE_CHECKOUT.trial },
+    { price: 1500, highlighted: false, href: STRIPE_CHECKOUT.starter },
+    { price: 2499, highlighted: true, href: STRIPE_CHECKOUT.professional },
+    { price: 5999, highlighted: false, href: STRIPE_CHECKOUT.enterprise },
   ];
   const phonePlans = plansText.map((plan, i) => ({ ...plan, ...planMeta[i], setup: planMeta[i].price }));
 
@@ -311,7 +311,8 @@ function PhoneAssistantSection() {
 
               <a
                 href={plan.href}
-                {...(plan.isDemo ? {} : { target: '_blank', rel: 'noopener noreferrer' })}
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`block w-full text-center py-3.5 rounded-xl font-semibold transition-all transform hover:scale-[1.02] text-[15px] ${
                   plan.highlighted
                     ? 'bg-white text-brand-600 hover:bg-brand-50 shadow-md'
@@ -462,7 +463,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                     <ArrowRight className="w-5 h-5" />
                   </button>
                   <a
-                    href="https://buy.stripe.com/7sY3cu2H14JB00k4IX4AU04"
+                    href={STRIPE_CHECKOUT.widget}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-white/5 backdrop-blur-sm border border-white/15 text-white px-8 py-4 rounded-xl hover:bg-white/10 transition-all font-semibold"
@@ -865,7 +866,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                     <ArrowRight className="w-5 h-5" />
                   </button>
                   <a
-                    href="https://buy.stripe.com/7sY3cu2H14JB00k4IX4AU04"
+                    href={STRIPE_CHECKOUT.widget}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-brand-500/30 text-white border border-white/30 px-8 py-4 rounded-xl hover:bg-brand-500/50 transition-all font-semibold"

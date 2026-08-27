@@ -1,9 +1,10 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import type { NavigatePage } from '../types/navigation';
 
 interface TermsPageProps {
-  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'trial') => void;
+  onNavigate: (page: NavigatePage) => void;
 }
 
 interface TermsSection {

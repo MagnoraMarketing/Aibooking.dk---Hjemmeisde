@@ -2,9 +2,10 @@ import { Phone, Calendar, Bell, CheckCircle, MessageSquare, Zap } from 'lucide-r
 import { useTranslation } from 'react-i18next';
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath } from '../utils/localePaths';
+import type { NavigatePage } from '../types/navigation';
 
 interface ReceptionistShowcaseProps {
-  onNavigate: (page: 'home' | 'email' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features') => void;
+  onNavigate: (page: NavigatePage) => void;
 }
 
 function ReceptionistShowcase({ onNavigate }: ReceptionistShowcaseProps) {

@@ -9,9 +9,10 @@ import IntegrationGrid from '../components/integrations/IntegrationGrid';
 import IntegrationCTA from '../components/integrations/IntegrationCTA';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
+import type { NavigatePage } from '../types/navigation';
 
 interface IntegrationsPageProps {
-  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'trial') => void;
+  onNavigate: (page: NavigatePage) => void;
 }
 
 function IntegrationsPage({ onNavigate }: IntegrationsPageProps) {

@@ -1,11 +1,7 @@
 import { Phone, Calendar, Clock, ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-interface HeroProps {
-  onNavigate: (page: 'home' | 'email' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features') => void;
-}
-
-function Hero({ onNavigate }: HeroProps) {
+function Hero() {
   const { t } = useTranslation();
   return (
     <section className="relative pt-32 pb-32 px-4 sm:px-6 lg:px-8 bg-ink-950 overflow-hidden">

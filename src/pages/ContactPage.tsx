@@ -6,10 +6,11 @@ import FAQ from '../components/FAQ';
 import { contactFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
-import { Phone, Mail, MapPin, Clock, MessageSquare, CheckCircle2, AlertCircle, Calendar } from 'lucide-react';
+import { Mail, MapPin, Clock, MessageSquare, CheckCircle2, AlertCircle, Calendar } from 'lucide-react';
+import type { NavigatePage } from '../types/navigation';
 
 interface ContactPageProps {
-  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'trial') => void;
+  onNavigate: (page: NavigatePage) => void;
 }
 
 function ContactPage({ onNavigate }: ContactPageProps) {

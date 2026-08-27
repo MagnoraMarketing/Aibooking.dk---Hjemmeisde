@@ -6,9 +6,10 @@ import { aboutFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { Users, Target, Lightbulb, Heart, TrendingUp, Shield, Zap, Globe } from 'lucide-react';
+import type { NavigatePage } from '../types/navigation';
 
 interface AboutPageProps {
-  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'trial') => void;
+  onNavigate: (page: NavigatePage) => void;
 }
 
 interface TitleDescription { title: string; description: string }

@@ -1,0 +1,127 @@
+{
+  "appTabs": [
+    "Tableau de bord",
+    "Entrants",
+    "Sortants",
+    "Agenda",
+    "Analyses"
+  ],
+  "windowLabel": "app.aibooking.dk/tableau-de-bord",
+  "heading": "Tableau de bord",
+  "headingSub": "Suivez les performances de vos agents IA",
+  "org": "Clinique Sund · Dentaire",
+  "period": "Ce mois-ci",
+  "stats": [
+    {
+      "label": "Appels au total",
+      "value": "342"
+    },
+    {
+      "label": "Agents actifs",
+      "value": "4"
+    },
+    {
+      "label": "Minutes utilisées",
+      "value": "486"
+    },
+    {
+      "label": "Minutes restantes",
+      "value": "114"
+    }
+  ],
+  "seeAgents": "Voir les agents →",
+  "panels": {
+    "agentsLabel": "Agents actifs",
+    "callsLabel": "Appels",
+    "minutesLabel": "Minutes",
+    "inbound": {
+      "title": "Appels entrants",
+      "agents": "2",
+      "calls": "214",
+      "minutes": "298"
+    },
+    "outbound": {
+      "title": "Appels sortants",
+      "agents": "2",
+      "calls": "128",
+      "minutes": "188"
+    }
+  },
+  "recent": {
+    "title": "Derniers appels",
+    "columns": {
+      "agent": "Agent",
+      "date": "Date",
+      "status": "Statut",
+      "minutes": "Minutes"
+    },
+    "view": "Voir l'appel",
+    "rows": [
+      {
+        "agent": "Accueil – hors horaires",
+        "date": "26 août 2026, 20h41",
+        "status": "Terminé",
+        "live": false,
+        "minutes": "1.04"
+      },
+      {
+        "agent": "Rappels – la veille",
+        "date": "26 août 2026, 09h15",
+        "status": "Terminé",
+        "live": false,
+        "minutes": "0.38"
+      },
+      {
+        "agent": "Accueil – ligne principale",
+        "date": "25 août 2026, 14h22",
+        "status": "Terminé",
+        "live": false,
+        "minutes": "2.11"
+      },
+      {
+        "agent": "Report – annulations",
+        "date": "25 août 2026, 11h03",
+        "status": "Terminé",
+        "live": false,
+        "minutes": "0.52"
+      },
+      {
+        "agent": "Accueil – ligne principale",
+        "date": "25 août 2026, 08h47",
+        "status": "En cours",
+        "live": true,
+        "minutes": "0.19"
+      }
+    ]
+  },
+  "agents": {
+    "title": "Agents actifs",
+    "items": [
+      "Accueil – ligne principale",
+      "Accueil – hors horaires",
+      "Rappels – la veille",
+      "Report – annulations"
+    ]
+  },
+  "bookings": {
+    "title": "Rendez-vous",
+    "items": [
+      {
+        "name": "Marie Lefèvre",
+        "type": "Détartrage",
+        "time": "ven. 09h30"
+      },
+      {
+        "name": "Jonas Bak",
+        "type": "Contrôle",
+        "time": "ven. 11h00"
+      },
+      {
+        "name": "Aisha Karim",
+        "type": "Urgence",
+        "time": "lun. 08h15"
+      }
+    ]
+  },
+  "note": "Chiffres illustratifs d'un cabinet de démonstration : votre tableau de bord affiche vos agents et vos appels."
+}

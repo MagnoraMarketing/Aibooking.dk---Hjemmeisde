@@ -1,0 +1,127 @@
+{
+  "appTabs": [
+    "Dashboard",
+    "Indgående",
+    "Udgående",
+    "Kalender",
+    "Analyse"
+  ],
+  "windowLabel": "app.aibooking.dk/dashboard",
+  "heading": "Dashboard",
+  "headingSub": "Følg jeres AI-agenters performance",
+  "org": "Klinik Sund · Tandlæge",
+  "period": "Denne måned",
+  "stats": [
+    {
+      "label": "Opkald i alt",
+      "value": "342"
+    },
+    {
+      "label": "Aktive agenter",
+      "value": "4"
+    },
+    {
+      "label": "Minutter brugt",
+      "value": "486"
+    },
+    {
+      "label": "Minutter tilbage",
+      "value": "114"
+    }
+  ],
+  "seeAgents": "Se agenter →",
+  "panels": {
+    "agentsLabel": "Aktive agenter",
+    "callsLabel": "Opkald",
+    "minutesLabel": "Minutter",
+    "inbound": {
+      "title": "Indgående opkald",
+      "agents": "2",
+      "calls": "214",
+      "minutes": "298"
+    },
+    "outbound": {
+      "title": "Udgående opkald",
+      "agents": "2",
+      "calls": "128",
+      "minutes": "188"
+    }
+  },
+  "recent": {
+    "title": "Seneste opkald",
+    "columns": {
+      "agent": "Agent",
+      "date": "Dato",
+      "status": "Status",
+      "minutes": "Minutter"
+    },
+    "view": "Se opkald",
+    "rows": [
+      {
+        "agent": "Reception – efter lukketid",
+        "date": "26. aug. 2026, 20.41",
+        "status": "Afsluttet",
+        "live": false,
+        "minutes": "1.04"
+      },
+      {
+        "agent": "Påmindelser – dagen før",
+        "date": "26. aug. 2026, 09.15",
+        "status": "Afsluttet",
+        "live": false,
+        "minutes": "0.38"
+      },
+      {
+        "agent": "Reception – hovednummer",
+        "date": "25. aug. 2026, 14.22",
+        "status": "Afsluttet",
+        "live": false,
+        "minutes": "2.11"
+      },
+      {
+        "agent": "Genbooking – afbud",
+        "date": "25. aug. 2026, 11.03",
+        "status": "Afsluttet",
+        "live": false,
+        "minutes": "0.52"
+      },
+      {
+        "agent": "Reception – hovednummer",
+        "date": "25. aug. 2026, 08.47",
+        "status": "Aktiv",
+        "live": true,
+        "minutes": "0.19"
+      }
+    ]
+  },
+  "agents": {
+    "title": "Aktive agenter",
+    "items": [
+      "Reception – hovednummer",
+      "Reception – efter lukketid",
+      "Påmindelser – dagen før",
+      "Genbooking – afbud"
+    ]
+  },
+  "bookings": {
+    "title": "Bookinger",
+    "items": [
+      {
+        "name": "Mette Hansen",
+        "type": "Tandrensning",
+        "time": "fre. 09:30"
+      },
+      {
+        "name": "Jonas Bak",
+        "type": "Kontrol",
+        "time": "fre. 11:00"
+      },
+      {
+        "name": "Aisha Karim",
+        "type": "Akut tid",
+        "time": "man. 08:15"
+      }
+    ]
+  },
+  "note": "Fiktive tal fra en demoklinik – dit eget dashboard viser dine egne agenter og opkald."
+}

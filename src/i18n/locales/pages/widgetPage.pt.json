@@ -311,31 +311,7 @@
         "title": "Veja todas as marcações",
         "description": "As marcações entram diretamente no seu calendário e são listadas em conjunto, para que nada se perca."
       }
-    ],
-    "dashboard": {
-      "url_label": "dashboard.aibooking.dk",
-      "live_label": "Dados em direto",
-      "nav": ["Visão geral", "Chamadas", "Marcações", "Agentes de IA", "Configuração"],
-      "stats": {
-        "inbound_label": "Recebidas hoje",
-        "outbound_label": "Efetuadas hoje",
-        "bookings_label": "Marcações",
-        "duration_label": "Duração média"
-      },
-      "calls_title": "Conversas recentes",
-      "calls": [
-        { "time": "09:12", "caller": "Novo cliente", "outcome": "Marcado", "duration": "2:41" },
-        { "time": "10:04", "caller": "Lembrete – Lars H.", "outcome": "Confirmado", "duration": "0:48" },
-        { "time": "11:37", "caller": "Morten K.", "outcome": "Marcado", "duration": "3:16" },
-        { "time": "13:20", "caller": "Número desconhecido", "outcome": "Info dada", "duration": "1:52" }
-      ],
-      "bookings_title": "Próximas marcações",
-      "bookings": [
-        { "time": "Hoje 14:30", "name": "Mette Jensen", "type": "Consulta" },
-        { "time": "Amanhã 09:00", "name": "Anders Kok", "type": "Seguimento" },
-        { "time": "Sex. 11:15", "name": "Sofie Bech", "type": "Novo cliente" }
-      ]
-    }
+    ]
   },
   "faqSection": {
     "title": "Perguntas frequentes",

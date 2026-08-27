@@ -1,0 +1,127 @@
+{
+  "appTabs": [
+    "Panel",
+    "Entrantes",
+    "Salientes",
+    "Calendario",
+    "Analítica"
+  ],
+  "windowLabel": "app.aibooking.dk/panel",
+  "heading": "Panel",
+  "headingSub": "Sigue el rendimiento de vuestros agentes de IA",
+  "org": "Clínica Sund · Dental",
+  "period": "Este mes",
+  "stats": [
+    {
+      "label": "Llamadas totales",
+      "value": "342"
+    },
+    {
+      "label": "Agentes activos",
+      "value": "4"
+    },
+    {
+      "label": "Minutos usados",
+      "value": "486"
+    },
+    {
+      "label": "Minutos restantes",
+      "value": "114"
+    }
+  ],
+  "seeAgents": "Ver agentes →",
+  "panels": {
+    "agentsLabel": "Agentes activos",
+    "callsLabel": "Llamadas",
+    "minutesLabel": "Minutos",
+    "inbound": {
+      "title": "Llamadas entrantes",
+      "agents": "2",
+      "calls": "214",
+      "minutes": "298"
+    },
+    "outbound": {
+      "title": "Llamadas salientes",
+      "agents": "2",
+      "calls": "128",
+      "minutes": "188"
+    }
+  },
+  "recent": {
+    "title": "Últimas llamadas",
+    "columns": {
+      "agent": "Agente",
+      "date": "Fecha",
+      "status": "Estado",
+      "minutes": "Minutos"
+    },
+    "view": "Ver llamada",
+    "rows": [
+      {
+        "agent": "Recepción – fuera de horario",
+        "date": "26 ago 2026, 20:41",
+        "status": "Finalizada",
+        "live": false,
+        "minutes": "1.04"
+      },
+      {
+        "agent": "Recordatorios – víspera",
+        "date": "26 ago 2026, 09:15",
+        "status": "Finalizada",
+        "live": false,
+        "minutes": "0.38"
+      },
+      {
+        "agent": "Recepción – línea principal",
+        "date": "25 ago 2026, 14:22",
+        "status": "Finalizada",
+        "live": false,
+        "minutes": "2.11"
+      },
+      {
+        "agent": "Recolocación – anulaciones",
+        "date": "25 ago 2026, 11:03",
+        "status": "Finalizada",
+        "live": false,
+        "minutes": "0.52"
+      },
+      {
+        "agent": "Recepción – línea principal",
+        "date": "25 ago 2026, 08:47",
+        "status": "En curso",
+        "live": true,
+        "minutes": "0.19"
+      }
+    ]
+  },
+  "agents": {
+    "title": "Agentes activos",
+    "items": [
+      "Recepción – línea principal",
+      "Recepción – fuera de horario",
+      "Recordatorios – víspera",
+      "Recolocación – anulaciones"
+    ]
+  },
+  "bookings": {
+    "title": "Reservas",
+    "items": [
+      {
+        "name": "Marta Sáez",
+        "type": "Limpieza dental",
+        "time": "vie. 09:30"
+      },
+      {
+        "name": "Jonás Bax",
+        "type": "Revisión",
+        "time": "vie. 11:00"
+      },
+      {
+        "name": "Aisha Karim",
+        "type": "Cita urgente",
+        "time": "lun. 08:15"
+      }
+    ]
+  },
+  "note": "Cifras ilustrativas de una clínica de demostración; tu panel muestra tus agentes y tus llamadas."
+}

@@ -15,7 +15,7 @@ import { buildLocalizedPath } from '../utils/localePaths';
 const WIDGET_PLAN_PRICE_DKK = 999;
 
 interface WidgetPageProps {
-  onNavigate: (page: 'home' | 'widget' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy') => void;
+  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'trial') => void;
 }
 
 interface Faq { question: string; answer: string }

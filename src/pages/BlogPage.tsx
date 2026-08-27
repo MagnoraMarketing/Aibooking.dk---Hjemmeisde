@@ -59,7 +59,7 @@ export default function BlogPage() {
         {JSON.stringify(structuredData)}
       </script>
 
-      <Navigation />
+      <Navigation onNavigate={() => {}} />
 
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-brand-50 via-transparent to-ink-50 pointer-events-none"></div>

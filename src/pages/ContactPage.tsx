@@ -9,7 +9,7 @@ import { createBreadcrumbSchema } from '../utils/structuredData';
 import { Phone, Mail, MapPin, Clock, MessageSquare, CheckCircle2, AlertCircle, Calendar } from 'lucide-react';
 
 interface ContactPageProps {
-  onNavigate: (page: 'home' | 'email' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about') => void;
+  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'trial') => void;
 }
 
 function ContactPage({ onNavigate }: ContactPageProps) {

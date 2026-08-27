@@ -39,7 +39,7 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
   if (!category) {
     return (
       <div className="min-h-screen bg-gradient-to-b from-ink-50 via-white to-ink-50">
-        <Navigation />
+        <Navigation onNavigate={() => {}} />
         <div className="flex items-center justify-center min-h-screen">
           <div className="text-center">
             <h1 className="text-3xl font-bold text-ink-900 mb-4">
@@ -80,7 +80,7 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
         {JSON.stringify(structuredData)}
       </script>
 
-      <Navigation />
+      <Navigation onNavigate={() => {}} />
 
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-brand-50 via-transparent to-ink-50 pointer-events-none"></div>

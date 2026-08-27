@@ -8,7 +8,7 @@ import { createBreadcrumbSchema } from '../utils/structuredData';
 import { Users, Target, Lightbulb, Heart, TrendingUp, Shield, Zap, Globe } from 'lucide-react';
 
 interface AboutPageProps {
-  onNavigate: (page: 'home' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about') => void;
+  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'trial') => void;
 }
 
 interface TitleDescription { title: string; description: string }

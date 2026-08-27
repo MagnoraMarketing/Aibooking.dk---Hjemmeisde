@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Phone, Mic, Clock, ShieldCheck, ArrowRight, Info } from 'lucide-react';
 import { localizedPrice, displayAmount, formatAmount } from '../../utils/currency';
 import type { SupportedLanguage } from '../../i18n/config';
-import { INDUSTRY_THEMES, IndustryKey, SIGNUP_URL } from './industryTheme';
+import { INDUSTRY_THEMES, IndustryKey, TRIAL_URL } from './industryTheme';
 
 type Mode = 'voice' | 'widget';
 
@@ -234,7 +234,7 @@ function IndustryCalculator({ industry }: IndustryCalculatorProps) {
               <div className="flex-grow" />
 
               <a
-                href={SIGNUP_URL}
+                href={TRIAL_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`mt-8 inline-flex items-center justify-center gap-2 w-full ${theme.solidBtn} text-white px-6 py-3.5 rounded-xl font-semibold transition-all shadow-lg`}

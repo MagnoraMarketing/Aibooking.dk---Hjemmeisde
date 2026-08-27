@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath } from '../utils/localePaths';
+import { STRIPE_CHECKOUT } from '../utils/checkout';
 
 function CTA() {
   const { t, i18n } = useTranslation();
@@ -22,7 +23,7 @@ function CTA() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://aibooking-backendnew.vercel.app/signup"
+              href={STRIPE_CHECKOUT.trial}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-brand-600 bg-white rounded-xl hover:bg-brand-50 transition-all shadow-xl hover:shadow-2xl hover:scale-105"

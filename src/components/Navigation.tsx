@@ -4,10 +4,10 @@ import { useTranslation } from 'react-i18next';
 import { splitLocalizedPath, buildLocalizedPath } from '../utils/localePaths';
 import { SupportedLanguage } from '../i18n/config';
 import type { NavigatePage } from '../types/navigation';
+import { STRIPE_CHECKOUT } from '../utils/checkout';
 
 // Customer dashboard lives on the separate backend app.
 const LOGIN_URL = 'https://aibooking-backendnew.vercel.app/login';
-const SIGNUP_URL = 'https://aibooking-backendnew.vercel.app/signup';
 
 interface NavigationProps {
   onNavigate: (page: NavigatePage) => void;
@@ -273,7 +273,7 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
                 <span className="hidden 2xl:inline">{t('nav.login')}</span>
               </a>
               <a
-                href={SIGNUP_URL}
+                href={STRIPE_CHECKOUT.trial}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-brand-600 text-white px-4 2xl:px-5 py-2.5 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-sm hover:shadow-md transform hover:scale-[1.02] text-[15px] inline-block whitespace-nowrap flex-shrink-0"
@@ -474,7 +474,7 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
         {/* Drawer footer CTA */}
         <div className="px-4 py-5 border-t border-ink-100 flex-shrink-0 space-y-2.5">
           <a
-            href={SIGNUP_URL}
+            href={STRIPE_CHECKOUT.trial}
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsMobileOpen(false)}

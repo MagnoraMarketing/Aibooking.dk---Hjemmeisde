@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "AI Voice Widget – Book Møder Med Stemmen | Aibooking.dk",
-    "description": "Integrer Aibooking.dk's AI voice widget på din hjemmeside. Lad kunder booke møder og stille spørgsmål via tale – 24/7 automatisk. Kom i gang på under 5 minutter. Fra 999 kr/md.",
-    "keywords": "AI voice widget, voicebot hjemmeside, AI booking widget, stemmebaseret booking, chatbot dansk, automatisk møbebooking, AI receptionist widget, booking automation"
+    "title": "AI Voice Widget til Hjemmeside & Webshop – Book og Sælg Med Stemmen | Aibooking.dk",
+    "description": "Læg Aibooking.dk's AI-widget på din hjemmeside eller webshop (Shopify, WooCommerce, WordPress). Lad kunder booke tider, bestille varer og spore ordrer med stemmen – automatisk, døgnet rundt.",
+    "keywords": "AI voice widget, voicebot hjemmeside, AI booking widget, stemmebaseret booking, chatbot dansk, automatisk møbebooking, AI receptionist widget, booking automation, webshop AI widget, Shopify voice assistant, AI ordresporing, WooCommerce chatbot, AI widget webshop"
   },
   "hero": {
     "badge": "AI Voice Widget til din hjemmeside",
@@ -159,6 +159,120 @@
         {
           "value": "100%",
           "label": "Automatiserede bookinger"
+        }
+      ]
+    }
+  },
+  "platforms": {
+    "badge": "Din digitale ekstra medarbejder",
+    "title": "Kan integreres overalt online – vælg selv platform",
+    "subtitle": "Widgetten fungerer som en ekstra medarbejder, der aldrig holder fri. Du vælger den platform, du allerede bruger, og AI'en tager sig af resten – fra første besøg til booket tid eller indhentet tilbud i din kalender.",
+    "list": [
+      "WordPress",
+      "Shopify",
+      "WooCommerce",
+      "Wix",
+      "Squarespace",
+      "Magento",
+      "Egen platform"
+    ],
+    "cards": [
+      {
+        "title": "Booker og ombooker tid",
+        "description": "På almindelige hjemmesider fanger widgetten den besøgende med det samme og får booket – eller ombooket – en tid direkte i din kalender. Ingen frem-og-tilbage på mail."
+      },
+      {
+        "title": "Indhenter tilbud og leads",
+        "description": "Vil kunden have et tilbud, samler widgetten oplysningerne og sætter automatisk et opfølgende møde i kalenderen – klar til at du tager over."
+      },
+      {
+        "title": "Tager imod bestillinger",
+        "description": "På webshops kan kunderne bestille varer, spørge til lager og få hjælp gennem hele købet – uden at vente på en medarbejder."
+      }
+    ]
+  },
+  "webshop": {
+    "badge": "AI-widget til webshop",
+    "title": "Ligesom webshoppens indbyggede chat – bare med en AI der booker og sælger",
+    "para1": "Driver du en webshop på Shopify, WooCommerce eller Magento, kan AI-widgetten lægges direkte på siden – ligesom de indbyggede chatløsninger du kender, blot med en assistent der taler og forstår dansk.",
+    "para2": "Kunderne kan bede widgetten om at spore en ordre, bestille en vare igen, spørge til lagerstatus eller få hjælp til en returnering – automatisk, uden at skulle skrive til kundeservice.",
+    "points": [
+      {
+        "label": "Sporer ordrestatus",
+        "desc": "\"Hvor er min pakke?\" bliver besvaret med det samme"
+      },
+      {
+        "label": "Genbestiller varer",
+        "desc": "Kunden bestiller samme vare igen med stemmen"
+      },
+      {
+        "label": "Hjælper med købet",
+        "desc": "Svarer på spørgsmål om produkter og lager"
+      },
+      {
+        "label": "Foreslår produkter",
+        "desc": "Anbefaler relevante varer ud fra kundens behov"
+      }
+    ],
+    "chat": {
+      "title": "AI-widget · Webshop",
+      "status": "Online nu",
+      "customerLabel": "Kunde",
+      "aiLabel": "AI-widget",
+      "lines": [
+        {
+          "role": "customer",
+          "text": "Hvor langt er min ordre #4021?"
+        },
+        {
+          "role": "ai",
+          "text": "Din ordre blev afsendt i går og forventes leveret i morgen med GLS."
+        },
+        {
+          "role": "customer",
+          "text": "Kan jeg få den samme jakke igen i str. M?"
+        },
+        {
+          "role": "ai",
+          "text": "Ja, str. M er på lager. Skal jeg oprette bestillingen nu?"
+        }
+      ]
+    }
+  },
+  "realExamples": {
+    "title": "Eksempler fra det virkelige liv",
+    "subtitle": "Sådan bruger virksomheder AI-widgetten i praksis – på almindelige hjemmesider og på webshops.",
+    "website": {
+      "title": "På en almindelig hjemmeside",
+      "items": [
+        {
+          "title": "Klinikken",
+          "desc": "En patient booker tid hos tandlægen kl. 22 om aftenen – widgetten finder en ledig tid og bekræfter med det samme."
+        },
+        {
+          "title": "Håndværkeren",
+          "desc": "En kunde beder om tilbud på et badeværelse. Widgetten noterer adresse og opgave og booker et besigtigelsesmøde i kalenderen."
+        },
+        {
+          "title": "Konsulenten",
+          "desc": "En eksisterende kunde vil flytte et møde til næste uge – widgetten ombooker automatisk uden mailkorrespondance."
+        }
+      ]
+    },
+    "webshop": {
+      "title": "På en webshop",
+      "items": [
+        {
+          "title": "Tøjbutikken",
+          "desc": "En kunde spørger, om en vare findes i en anden størrelse – AI'en tjekker lageret og hjælper med at bestille."
+        },
+        {
+          "title": "Elektronikbutikken",
+          "desc": "En kunde vil vide, hvor pakken er. Widgetten henter ordrestatus og svarer med det samme – ingen ventetid."
+        },
+        {
+          "title": "Abonnementsshoppen",
+          "desc": "En kunde vil genbestille sin faste vare hver måned – widgetten opretter bestillingen direkte i samtalen."
         }
       ]
     }

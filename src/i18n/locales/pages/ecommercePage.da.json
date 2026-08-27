@@ -1,10 +1,14 @@
 {
   "seo": {
-    "title": "AI Kundeservice til E-commerce & Webshops | Aibooking.dk",
-    "description": "24/7 AI kundeservice til webshops. 40% mere kundetilfredshed, 28% højere konvertering. Automatiske svar, SMS-opdateringer. Prøv gratis.",
-    "keywords": "webshop kundeservice, e-handel AI, online shop automatisering, webshop chatbot, kundeservice automation"
+    "title": "AI Kundeservice & Voice Widget til Webshops (Shopify, WooCommerce) | Aibooking.dk",
+    "description": "AI-kundeservice og voice-widget til webshops på Shopify, WooCommerce og Magento. Lad kunderne spore ordrer, bestille varer igen og få svar med stemmen – døgnet rundt.",
+    "keywords": "webshop kundeservice, e-handel AI, online shop automatisering, webshop chatbot, kundeservice automation, Shopify AI widget, webshop voice assistant, AI ordresporing, WooCommerce chatbot"
   },
-  "breadcrumb": { "home": "Hjem", "industries": "Brancher", "ecommerce": "E-commerce & Webshop" },
+  "breadcrumb": {
+    "home": "Hjem",
+    "industries": "Brancher",
+    "ecommerce": "E-commerce & Webshop"
+  },
   "hero": {
     "badge": "E-commerce & Webshop",
     "title": "Kundeservice der skalerer med din forretning",
@@ -15,22 +19,78 @@
     "description": "Aibooking.dk giver dig AI-drevet kundeservice der aldrig sover. Systemet besvarer almindelige spørgsmål om produkter, leveringstider, returneringer og ordrestatus øjeblikkeligt. Komplekse henvendelser eskaleres automatisk til dit team. Med SMS-notifikationer holder du kunderne opdaterede gennem hele købsrejsen. Dit dashboard viser alle kundeinteraktioner, opsummeringer af samtaler, hyppige spørgsmål og trends, så du konstant kan optimere din service. Reducer svartider fra timer til sekunder og forbedr kundetilfredsheden markant."
   },
   "benefits": [
-    { "title": "24/7 kundeservice", "description": "Besvar henvendelser øjeblikkeligt uden ekstra personale" },
-    { "title": "Automatiske svar", "description": "Håndter spørgsmål om produkter, ordrestatus og returneringer" },
-    { "title": "SMS-opdateringer", "description": "Automatiske notifikationer om forsendelser og leveringer" },
-    { "title": "Lynhurtige svartider", "description": "Reducer svartider fra timer til sekunder" },
-    { "title": "Indsigt i trends", "description": "Dashboard med kundeinteraktioner og hyppige spørgsmål" },
-    { "title": "Webshop-integration", "description": "Integration med dit webshop-system og ordrehåndtering" }
+    {
+      "title": "24/7 kundeservice",
+      "description": "Besvar henvendelser øjeblikkeligt uden ekstra personale"
+    },
+    {
+      "title": "Automatiske svar",
+      "description": "Håndter spørgsmål om produkter, ordrestatus og returneringer"
+    },
+    {
+      "title": "SMS-opdateringer",
+      "description": "Automatiske notifikationer om forsendelser og leveringer"
+    },
+    {
+      "title": "Lynhurtige svartider",
+      "description": "Reducer svartider fra timer til sekunder"
+    },
+    {
+      "title": "Indsigt i trends",
+      "description": "Dashboard med kundeinteraktioner og hyppige spørgsmål"
+    },
+    {
+      "title": "Webshop-integration",
+      "description": "Integration med dit webshop-system og ordrehåndtering"
+    }
   ],
   "stats": [
-    { "value": "95%", "label": "Hurtigere svar" },
-    { "value": "+40%", "label": "Kundetilfredshed" },
-    { "value": "1200+", "label": "Henvendelser/md" },
-    { "value": "+28%", "label": "Konvertering" }
+    {
+      "value": "95%",
+      "label": "Hurtigere svar"
+    },
+    {
+      "value": "+40%",
+      "label": "Kundetilfredshed"
+    },
+    {
+      "value": "1200+",
+      "label": "Henvendelser/md"
+    },
+    {
+      "value": "+28%",
+      "label": "Konvertering"
+    }
   ],
+  "voiceWidget": {
+    "badge": "AI Voice Widget til din webshop",
+    "title": "Som at have en ekstra sælger i butikken – ligesom webshoppens chat, bare klogere",
+    "intro": "Aibooking.dk's AI-widget kan lægges direkte på din webshop, uanset om du kører Shopify, WooCommerce eller Magento. Kunderne kan tale eller skrive med widgetten for at høre om ordrestatus, bestille en vare igen eller finde det rigtige produkt – automatisk, døgnet rundt.",
+    "cards": [
+      {
+        "title": "Sporer ordrer",
+        "desc": "\"Hvor er min pakke?\" bliver besvaret med det samme ud fra live ordrestatus"
+      },
+      {
+        "title": "Genbestiller varer",
+        "desc": "Kunden bestiller en tidligere vare igen direkte i samtalen"
+      },
+      {
+        "title": "Hjælper med købet",
+        "desc": "Svarer på spørgsmål om lager, størrelser og levering, mens kunden handler"
+      }
+    ],
+    "cta": "Se AI-widgetten til webshops"
+  },
   "perfectFor": {
     "title": "Perfekt til alle online forretninger",
-    "items": ["Webshops", "E-handel", "Dropshipping", "Markedspladser", "Online salg"],
+    "items": [
+      "Webshops",
+      "E-handel",
+      "Dropshipping",
+      "Markedspladser",
+      "Online salg"
+    ],
     "cta": "Book et uforpligtende møde og få et gratis test login"
   },
   "ctaSection": {

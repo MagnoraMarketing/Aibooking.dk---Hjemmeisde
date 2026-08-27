@@ -32,6 +32,8 @@
     "contact_us": "Kontakt os",
     "about_us": "Om os",
     "book_demo": "Kom i gang",
+    "login": "Log ind",
+    "signup": "Opret konto",
     "language": "Sprog",
     "open_menu": "Åbn menu",
     "close_menu": "Luk menu"
@@ -278,6 +280,8 @@
     "contact_title": "Kontakt",
     "address": "Aarhus C, Danmark",
     "rights": "Alle rettigheder forbeholdes",
+    "customer_cta_title": "Kundelogin",
+    "customer_cta_subtitle": "Log ind på dit dashboard, eller opret en gratis konto som ny kunde.",
     "made_by": "Lavet og drevet af"
   },
   "contact": {

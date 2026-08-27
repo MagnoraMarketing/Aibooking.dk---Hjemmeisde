@@ -1,10 +1,14 @@
 {
   "seo": {
-    "title": "Apoio ao Cliente com IA para E-commerce e Lojas Online | Aibooking.dk",
-    "description": "Apoio ao cliente com IA 24 horas por dia para lojas online. Mais 40% de satisfação do cliente, mais 28% de conversão. Respostas automáticas, atualizações por SMS. Experimente gratuitamente.",
-    "keywords": "apoio ao cliente loja online, IA para e-commerce, automatização de loja online, chatbot para loja online, automatização de apoio ao cliente"
+    "title": "Apoio ao cliente com IA e widget de voz para lojas online (Shopify, WooCommerce) | Aibooking.dk",
+    "description": "Apoio ao cliente com IA e widget de voz para lojas em Shopify, WooCommerce e Magento. Os clientes seguem encomendas, repetem compras e obtêm respostas pela voz, a qualquer hora.",
+    "keywords": "apoio ao cliente loja online, IA para e-commerce, automatização de loja online, chatbot para loja online, automatização de apoio ao cliente, widget IA Shopify, assistente de voz loja online, seguimento de encomendas com IA, chatbot WooCommerce"
   },
-  "breadcrumb": { "home": "Início", "industries": "Setores", "ecommerce": "E-commerce e Loja Online" },
+  "breadcrumb": {
+    "home": "Início",
+    "industries": "Setores",
+    "ecommerce": "E-commerce e Loja Online"
+  },
   "hero": {
     "badge": "E-commerce e Loja Online",
     "title": "Apoio ao cliente que acompanha o crescimento do seu negócio",
@@ -15,22 +19,78 @@
     "description": "A Aibooking.dk oferece-lhe um apoio ao cliente com IA que nunca dorme. O sistema responde instantaneamente a perguntas comuns sobre produtos, prazos de entrega, devoluções e estado da encomenda. Os pedidos mais complexos são automaticamente encaminhados para a sua equipa. Com notificações por SMS, mantém os clientes informados durante toda a jornada de compra. O seu painel de controlo mostra todas as interações com clientes, resumos de conversas, perguntas frequentes e tendências, para que possa otimizar continuamente o seu serviço. Reduza os tempos de resposta de horas para segundos e melhore significativamente a satisfação do cliente."
   },
   "benefits": [
-    { "title": "Apoio ao cliente 24 horas por dia", "description": "Responda a pedidos instantaneamente sem precisar de mais pessoal" },
-    { "title": "Respostas automáticas", "description": "Trate de perguntas sobre produtos, estado da encomenda e devoluções" },
-    { "title": "Atualizações por SMS", "description": "Notificações automáticas sobre envios e entregas" },
-    { "title": "Tempos de resposta ultrarrápidos", "description": "Reduza os tempos de resposta de horas para segundos" },
-    { "title": "Informações sobre tendências", "description": "Painel de controlo com interações de clientes e perguntas frequentes" },
-    { "title": "Integração com a loja online", "description": "Integração com o seu sistema de loja online e gestão de encomendas" }
+    {
+      "title": "Apoio ao cliente 24 horas por dia",
+      "description": "Responda a pedidos instantaneamente sem precisar de mais pessoal"
+    },
+    {
+      "title": "Respostas automáticas",
+      "description": "Trate de perguntas sobre produtos, estado da encomenda e devoluções"
+    },
+    {
+      "title": "Atualizações por SMS",
+      "description": "Notificações automáticas sobre envios e entregas"
+    },
+    {
+      "title": "Tempos de resposta ultrarrápidos",
+      "description": "Reduza os tempos de resposta de horas para segundos"
+    },
+    {
+      "title": "Informações sobre tendências",
+      "description": "Painel de controlo com interações de clientes e perguntas frequentes"
+    },
+    {
+      "title": "Integração com a loja online",
+      "description": "Integração com o seu sistema de loja online e gestão de encomendas"
+    }
   ],
   "stats": [
-    { "value": "95%", "label": "Respostas mais rápidas" },
-    { "value": "+40%", "label": "Satisfação do cliente" },
-    { "value": "1200+", "label": "Pedidos/mês" },
-    { "value": "+28%", "label": "Conversão" }
+    {
+      "value": "95%",
+      "label": "Respostas mais rápidas"
+    },
+    {
+      "value": "+40%",
+      "label": "Satisfação do cliente"
+    },
+    {
+      "value": "1200+",
+      "label": "Pedidos/mês"
+    },
+    {
+      "value": "+28%",
+      "label": "Conversão"
+    }
   ],
+  "voiceWidget": {
+    "badge": "Widget de voz com IA para a sua loja online",
+    "title": "Como ter mais um vendedor na loja – o chat do seu site, só que mais esperto",
+    "intro": "O widget de IA da Aibooking.dk entra diretamente na sua loja online, quer use Shopify, WooCommerce ou Magento. Os clientes podem falar ou escrever para saber o estado de uma encomenda, repetir uma compra ou encontrar o produto certo – automaticamente, a qualquer hora.",
+    "cards": [
+      {
+        "title": "Segue encomendas",
+        "desc": "\"Onde está a minha encomenda?\" é respondido logo com o estado real"
+      },
+      {
+        "title": "Repete encomendas",
+        "desc": "O cliente volta a encomendar um artigo anterior na própria conversa"
+      },
+      {
+        "title": "Ajuda durante a compra",
+        "desc": "Responde sobre stock, tamanhos e entrega enquanto o cliente compra"
+      }
+    ],
+    "cta": "Ver o widget de IA para lojas online"
+  },
   "perfectFor": {
     "title": "Perfeito para todos os negócios online",
-    "items": ["Lojas online", "E-commerce", "Dropshipping", "Marketplaces", "Vendas online"],
+    "items": [
+      "Lojas online",
+      "E-commerce",
+      "Dropshipping",
+      "Marketplaces",
+      "Vendas online"
+    ],
     "cta": "Agende uma reunião sem compromisso e receba um login de teste gratuito"
   },
   "ctaSection": {

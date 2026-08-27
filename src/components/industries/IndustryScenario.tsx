@@ -25,10 +25,13 @@ function IndustryScenario({ industry }: IndustryScenarioProps) {
   return (
     <section className="py-16 md:py-20 bg-white border-b border-ink-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* min-w-0 on the columns: grid items default to min-width:auto, so a
+            long unbreakable compound word pushed the track wider than the
+            viewport and gave the page a horizontal scrollbar on mobile. */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
           {/* Narrative – also the industry-specific SEO copy for this page */}
-          <div>
+          <div className="min-w-0">
             <div className={`inline-flex items-center gap-2 ${theme.chip} px-4 py-2 rounded-full text-sm font-semibold mb-6`}>
               <Sparkles className="w-4 h-4" />
               {t('industryTools.scenario.badge')}
@@ -58,7 +61,7 @@ function IndustryScenario({ industry }: IndustryScenarioProps) {
           </div>
 
           {/* Visual: the conversation as it actually plays out */}
-          <div className="relative">
+          <div className="relative min-w-0">
             <div className="bg-ink-900 rounded-3xl shadow-2xl border border-ink-700 overflow-hidden">
               <div className="flex items-center gap-3 px-5 py-4 border-b border-ink-800 bg-ink-950/50">
                 <div className={`w-9 h-9 rounded-xl ${theme.iconBg} flex items-center justify-center flex-shrink-0`}>

@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "AI Voice Widget – Réservez des Rendez-vous à la Voix | Aibooking.dk",
-    "description": "Intégrez le AI voice widget d'Aibooking.dk sur votre site web. Laissez vos clients réserver des rendez-vous et poser des questions par la voix – automatique, 24h/24. Démarrez en moins de 5 minutes. Dès 134 €/mois.",
-    "keywords": "AI voice widget, voicebot site web, widget de réservation IA, réservation vocale, chatbot en français, réservation automatique de rendez-vous, widget réceptionniste IA, automatisation de réservation"
+    "title": "Widget vocal IA pour sites et boutiques en ligne – réserver et vendre à la voix | Aibooking.dk",
+    "description": "Installez le widget IA d'Aibooking.dk sur votre site ou votre boutique en ligne (Shopify, WooCommerce, WordPress). Vos clients prennent rendez-vous, commandent et suivent leurs colis à la voix, 24h/24.",
+    "keywords": "AI voice widget, voicebot site web, widget de réservation IA, réservation vocale, chatbot en français, réservation automatique de rendez-vous, widget réceptionniste IA, automatisation de réservation, widget IA boutique en ligne, assistant vocal Shopify, suivi de commande IA, chatbot WooCommerce, widget vocal e-commerce"
   },
   "hero": {
     "badge": "AI Voice Widget pour votre site web",
@@ -159,6 +159,120 @@
         {
           "value": "100%",
           "label": "Réservations automatisées"
+        }
+      ]
+    }
+  },
+  "platforms": {
+    "badge": "Votre employé numérique en plus",
+    "title": "S'intègre partout en ligne – choisissez votre plateforme",
+    "subtitle": "Le widget fonctionne comme un employé de plus qui ne prend jamais de congés. Vous choisissez la plateforme que vous utilisez déjà, et l'IA s'occupe du reste : de la première visite au rendez-vous pris ou à la demande de devis déposée dans votre agenda.",
+    "list": [
+      "WordPress",
+      "Shopify",
+      "WooCommerce",
+      "Wix",
+      "Squarespace",
+      "Magento",
+      "Site sur mesure"
+    ],
+    "cards": [
+      {
+        "title": "Prend et déplace les rendez-vous",
+        "description": "Sur les sites classiques, le widget accroche le visiteur tout de suite et fait poser – ou déplacer – un rendez-vous directement dans votre agenda. Sans échanges d'e-mails."
+      },
+      {
+        "title": "Recueille devis et prospects",
+        "description": "Si le client veut un devis, le widget rassemble les informations et place automatiquement un rendez-vous de suivi dans l'agenda, prêt à ce que vous preniez la main."
+      },
+      {
+        "title": "Enregistre les commandes",
+        "description": "Sur les boutiques en ligne, les clients peuvent commander, se renseigner sur le stock et être aidés tout au long de l'achat, sans attendre un employé."
+      }
+    ]
+  },
+  "webshop": {
+    "badge": "Widget IA pour boutique en ligne",
+    "title": "Comme le chat intégré de votre boutique, mais avec une IA qui réserve et vend",
+    "para1": "Si vous tenez une boutique sur Shopify, WooCommerce ou Magento, le widget IA se pose directement sur le site – comme les chats intégrés que vous connaissez, avec en plus un assistant qui parle et comprend la langue de vos clients.",
+    "para2": "Les clients peuvent demander au widget de suivre une commande, de recommander un article, de vérifier le stock ou de les aider pour un retour – automatiquement, sans écrire au service client.",
+    "points": [
+      {
+        "label": "Suit l'état de la commande",
+        "desc": "« Où est mon colis ? » reçoit une réponse immédiate"
+      },
+      {
+        "label": "Recommande un article",
+        "desc": "Le client repasse la même commande à la voix"
+      },
+      {
+        "label": "Accompagne l'achat",
+        "desc": "Répond aux questions produits et stock"
+      },
+      {
+        "label": "Suggère des produits",
+        "desc": "Recommande des articles selon le besoin"
+      }
+    ],
+    "chat": {
+      "title": "Widget IA · Boutique en ligne",
+      "status": "En ligne",
+      "customerLabel": "Client",
+      "aiLabel": "Widget IA",
+      "lines": [
+        {
+          "role": "customer",
+          "text": "Où en est ma commande n° 4021 ?"
+        },
+        {
+          "role": "ai",
+          "text": "Votre commande est partie hier et doit être livrée demain par le transporteur."
+        },
+        {
+          "role": "customer",
+          "text": "Je peux reprendre la même veste en taille M ?"
+        },
+        {
+          "role": "ai",
+          "text": "Oui, la taille M est en stock. Je passe la commande maintenant ?"
+        }
+      ]
+    }
+  },
+  "realExamples": {
+    "title": "Des exemples concrets",
+    "subtitle": "Comment les entreprises utilisent le widget IA au quotidien – sur les sites classiques et sur les boutiques en ligne.",
+    "website": {
+      "title": "Sur un site classique",
+      "items": [
+        {
+          "title": "Le cabinet dentaire",
+          "desc": "Un patient prend rendez-vous à 22 heures : le widget trouve un créneau libre et confirme immédiatement."
+        },
+        {
+          "title": "L'artisan",
+          "desc": "Un client demande un devis pour une salle de bains. Le widget note l'adresse et la nature des travaux et cale une visite d'évaluation dans l'agenda."
+        },
+        {
+          "title": "Le consultant",
+          "desc": "Un client existant veut déplacer une réunion à la semaine suivante : le widget la reprogramme seul, sans échange d'e-mails."
+        }
+      ]
+    },
+    "webshop": {
+      "title": "Sur une boutique en ligne",
+      "items": [
+        {
+          "title": "La boutique de vêtements",
+          "desc": "Un client demande si un article existe dans une autre taille : l'IA vérifie le stock et l'aide à commander."
+        },
+        {
+          "title": "Le magasin d'électronique",
+          "desc": "Un client veut savoir où est son colis. Le widget récupère le statut et répond tout de suite, sans attente."
+        },
+        {
+          "title": "La boutique par abonnement",
+          "desc": "Un client veut recommander son article habituel chaque mois : le widget enregistre la commande pendant la conversation."
         }
       ]
     }

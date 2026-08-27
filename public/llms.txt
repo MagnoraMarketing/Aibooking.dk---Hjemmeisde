@@ -1,8 +1,12 @@
 # Aibooking.dk
 
-> Aibooking.dk is a Danish AI reception and booking platform. It combines an AI chat/voice widget for websites, an AI phone assistant that handles inbound and outbound calls, and automatic calendar booking, so businesses never miss a call, chat, or booking request — in Danish or English, 24/7.
+> Aibooking.dk is a Danish AI reception and booking platform. It combines an AI chat/voice widget for websites and webshops, an AI phone assistant that handles inbound and outbound calls, and automatic calendar booking, so businesses never miss a call, chat, order, or booking request — in Danish, English, Spanish, French or Portuguese, 24/7.
 
-Aibooking.dk is aimed at small and medium-sized Danish businesses — clinics, craftsmen, offices/admin teams, and webshops — that want to automate reception and booking without hiring additional staff. The product connects the website widget, phone assistant, and booking calendar into one system so customer contact is never lost between channels.
+Aibooking.dk is aimed at small and medium-sized Danish businesses — clinics, craftsmen, offices/admin teams, and webshops — that want to automate reception, sales and booking without hiring additional staff. The product connects the website widget, phone assistant, and booking calendar into one system so customer contact is never lost between channels.
+
+The AI voice/chat widget embeds on any platform (WordPress, Shopify, WooCommerce, Wix, Squarespace, Magento or a custom site) and acts as an extra employee: on ordinary business websites it books and reschedules appointments and collects quote requests and leads straight into the owner's calendar; on webshops it behaves like an upgraded version of the platform's native chat, letting customers track orders, reorder products, check stock and get help mid-purchase by voice or text.
+
+Customers manage their account on the Aibooking.dk dashboard: new customers sign up at https://aibooking-backendnew.vercel.app/signup and existing customers log in at https://aibooking-backendnew.vercel.app/login.
 
 ## Product
 

@@ -3,94 +3,128 @@
     "Dashboard",
     "Inbound",
     "Outbound",
+    "Widget",
     "Calendar",
     "Analytics"
   ],
   "windowLabel": "app.aibooking.dk/dashboard",
   "heading": "Dashboard",
-  "headingSub": "Track how your AI agents are performing",
+  "headingSub": "Track how your AI agents perform on the phone and on your website",
   "org": "Clinic Sund · Dental",
   "period": "This month",
   "stats": [
     {
-      "label": "Total calls",
-      "value": "342"
+      "label": "Total conversations",
+      "value": "438"
     },
     {
       "label": "Active agents",
-      "value": "4"
+      "value": "5"
     },
     {
       "label": "Minutes used",
-      "value": "486"
+      "value": "550"
     },
     {
       "label": "Minutes left",
-      "value": "114"
+      "value": "250"
     }
   ],
   "seeAgents": "View agents →",
   "panels": {
-    "agentsLabel": "Active agents",
-    "callsLabel": "Calls",
-    "minutesLabel": "Minutes",
     "inbound": {
       "title": "Inbound calls",
       "agents": "2",
       "calls": "214",
-      "minutes": "298"
+      "minutes": "298",
+      "agentsLabel": "Active agents",
+      "callsLabel": "Calls",
+      "minutesLabel": "Minutes"
     },
     "outbound": {
       "title": "Outbound calls",
       "agents": "2",
       "calls": "128",
-      "minutes": "188"
+      "minutes": "188",
+      "agentsLabel": "Active agents",
+      "callsLabel": "Calls",
+      "minutesLabel": "Minutes"
+    },
+    "widget": {
+      "title": "Website widget",
+      "agents": "1",
+      "calls": "96",
+      "minutes": "64",
+      "agentsLabel": "Active widgets",
+      "callsLabel": "Conversations",
+      "minutesLabel": "Minutes"
     }
   },
   "recent": {
-    "title": "Recent calls",
+    "title": "Recent conversations",
     "columns": {
       "agent": "Agent",
       "date": "Date",
       "status": "Status",
       "minutes": "Minutes"
     },
-    "view": "View call",
+    "view": "View conversation",
     "rows": [
+      {
+        "agent": "Widget – home page",
+        "channel": "Widget",
+        "date": "26 Aug 2026, 21:12",
+        "status": "Completed",
+        "live": false,
+        "minutes": "0.47"
+      },
       {
         "agent": "Reception – after hours",
         "date": "26 Aug 2026, 20:41",
         "status": "Completed",
         "live": false,
-        "minutes": "1.04"
+        "minutes": "1.04",
+        "channel": "Phone"
       },
       {
         "agent": "Reminders – day before",
         "date": "26 Aug 2026, 09:15",
         "status": "Completed",
         "live": false,
-        "minutes": "0.38"
+        "minutes": "0.38",
+        "channel": "Phone"
       },
       {
         "agent": "Reception – main line",
         "date": "25 Aug 2026, 14:22",
         "status": "Completed",
         "live": false,
-        "minutes": "2.11"
+        "minutes": "2.11",
+        "channel": "Phone"
+      },
+      {
+        "agent": "Widget – booking page",
+        "channel": "Widget",
+        "date": "25 Aug 2026, 16:05",
+        "status": "Completed",
+        "live": false,
+        "minutes": "1.12"
       },
       {
         "agent": "Rebooking – cancellations",
         "date": "25 Aug 2026, 11:03",
         "status": "Completed",
         "live": false,
-        "minutes": "0.52"
+        "minutes": "0.52",
+        "channel": "Phone"
       },
       {
         "agent": "Reception – main line",
         "date": "25 Aug 2026, 08:47",
         "status": "Live",
         "live": true,
-        "minutes": "0.19"
+        "minutes": "0.19",
+        "channel": "Phone"
       }
     ]
   },
@@ -100,7 +134,8 @@
       "Reception – main line",
       "Reception – after hours",
       "Reminders – day before",
-      "Rebooking – cancellations"
+      "Rebooking – cancellations",
+      "Widget – website"
     ]
   },
   "bookings": {
@@ -123,5 +158,5 @@
       }
     ]
   },
-  "note": "Illustrative figures from a demo clinic – your own dashboard shows your agents and your calls."
+  "note": "Illustrative figures from a demo clinic – your own dashboard shows your agents, your widget conversations and your calls."
 }

@@ -159,7 +159,7 @@
   },
   "pricing": {
     "badge": "Transparent Prissætning",
-    "title": "Vælg din pakke",
+    "title": "Vælg din Voice-pakke til ind- og udgående opkald",
     "subtitle": "Skræddersyede pakker designet til virksomheder af alle størrelser",
     "most_popular_badge": "Mest Populær",
     "free_label": "Gratis",
@@ -348,8 +348,9 @@
     "subtitle": "Voicebot dine kunder kan snakke med direkte på din hjemmeside - håndterer spørgsmål og bookinger automatisk",
     "plan_badge": "Mest Fleksible Løsning",
     "price_period": "kr/md",
-    "price_note1": "Inkluderer 150 minutters taletid (ca. 6,66 kr/minut)",
-    "price_note2": "Pakken fornyes automatisk når de 150 minutter er brugt",
+    "price_note1": "Inkluderer 200 minutters taletid (ca. 5,00 kr/minut)",
+    "campaign_note": "Kampagne: 200 min. i stedet for 150 – gælder resten af året, til samme pris",
+    "price_note2": "Pakken fornyes automatisk når de 200 minutter er brugt",
     "features": [
       {
         "bold": "Voice AI-bot",
@@ -369,7 +370,7 @@
       },
       {
         "bold": "",
-        "rest": "150 minutters taletid inkluderet"
+        "rest": "200 minutters taletid inkluderet"
       },
       {
         "bold": "Betal kun for aktiv tale",

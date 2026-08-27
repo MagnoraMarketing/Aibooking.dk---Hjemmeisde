@@ -3,94 +3,128 @@
     "Dashboard",
     "Indgående",
     "Udgående",
+    "Widget",
     "Kalender",
     "Analyse"
   ],
   "windowLabel": "app.aibooking.dk/dashboard",
   "heading": "Dashboard",
-  "headingSub": "Følg jeres AI-agenters performance",
+  "headingSub": "Følg jeres AI-agenter på telefon og hjemmeside",
   "org": "Klinik Sund · Tandlæge",
   "period": "Denne måned",
   "stats": [
     {
-      "label": "Opkald i alt",
-      "value": "342"
+      "label": "Samtaler i alt",
+      "value": "438"
     },
     {
       "label": "Aktive agenter",
-      "value": "4"
+      "value": "5"
     },
     {
       "label": "Minutter brugt",
-      "value": "486"
+      "value": "550"
     },
     {
       "label": "Minutter tilbage",
-      "value": "114"
+      "value": "250"
     }
   ],
   "seeAgents": "Se agenter →",
   "panels": {
-    "agentsLabel": "Aktive agenter",
-    "callsLabel": "Opkald",
-    "minutesLabel": "Minutter",
     "inbound": {
       "title": "Indgående opkald",
       "agents": "2",
       "calls": "214",
-      "minutes": "298"
+      "minutes": "298",
+      "agentsLabel": "Aktive agenter",
+      "callsLabel": "Opkald",
+      "minutesLabel": "Minutter"
     },
     "outbound": {
       "title": "Udgående opkald",
       "agents": "2",
       "calls": "128",
-      "minutes": "188"
+      "minutes": "188",
+      "agentsLabel": "Aktive agenter",
+      "callsLabel": "Opkald",
+      "minutesLabel": "Minutter"
+    },
+    "widget": {
+      "title": "Widget på hjemmesiden",
+      "agents": "1",
+      "calls": "96",
+      "minutes": "64",
+      "agentsLabel": "Aktive widgets",
+      "callsLabel": "Samtaler",
+      "minutesLabel": "Minutter"
     }
   },
   "recent": {
-    "title": "Seneste opkald",
+    "title": "Seneste samtaler",
     "columns": {
       "agent": "Agent",
       "date": "Dato",
       "status": "Status",
       "minutes": "Minutter"
     },
-    "view": "Se opkald",
+    "view": "Se samtale",
     "rows": [
+      {
+        "agent": "Widget – forside",
+        "channel": "Widget",
+        "date": "26. aug. 2026, 21.12",
+        "status": "Afsluttet",
+        "live": false,
+        "minutes": "0.47"
+      },
       {
         "agent": "Reception – efter lukketid",
         "date": "26. aug. 2026, 20.41",
         "status": "Afsluttet",
         "live": false,
-        "minutes": "1.04"
+        "minutes": "1.04",
+        "channel": "Telefon"
       },
       {
         "agent": "Påmindelser – dagen før",
         "date": "26. aug. 2026, 09.15",
         "status": "Afsluttet",
         "live": false,
-        "minutes": "0.38"
+        "minutes": "0.38",
+        "channel": "Telefon"
       },
       {
         "agent": "Reception – hovednummer",
         "date": "25. aug. 2026, 14.22",
         "status": "Afsluttet",
         "live": false,
-        "minutes": "2.11"
+        "minutes": "2.11",
+        "channel": "Telefon"
+      },
+      {
+        "agent": "Widget – book tid",
+        "channel": "Widget",
+        "date": "25. aug. 2026, 16.05",
+        "status": "Afsluttet",
+        "live": false,
+        "minutes": "1.12"
       },
       {
         "agent": "Genbooking – afbud",
         "date": "25. aug. 2026, 11.03",
         "status": "Afsluttet",
         "live": false,
-        "minutes": "0.52"
+        "minutes": "0.52",
+        "channel": "Telefon"
       },
       {
         "agent": "Reception – hovednummer",
         "date": "25. aug. 2026, 08.47",
         "status": "Aktiv",
         "live": true,
-        "minutes": "0.19"
+        "minutes": "0.19",
+        "channel": "Telefon"
       }
     ]
   },
@@ -100,7 +134,8 @@
       "Reception – hovednummer",
       "Reception – efter lukketid",
       "Påmindelser – dagen før",
-      "Genbooking – afbud"
+      "Genbooking – afbud",
+      "Widget – hjemmeside"
     ]
   },
   "bookings": {
@@ -123,5 +158,5 @@
       }
     ]
   },
-  "note": "Fiktive tal fra en demoklinik – dit eget dashboard viser dine egne agenter og opkald."
+  "note": "Fiktive tal fra en demoklinik – dit eget dashboard viser dine egne agenter, widget-samtaler og opkald."
 }

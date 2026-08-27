@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { ArrowRight, PhoneForwarded, Clock, CheckCircle2 } from 'lucide-react';
 import type { SupportedLanguage } from '../../i18n/config';
 import { buildLocalizedPath } from '../../utils/localePaths';
-import { INDUSTRY_THEMES, IndustryKey, SIGNUP_URL } from './industryTheme';
+import { INDUSTRY_THEMES, IndustryKey, TRIAL_URL } from './industryTheme';
 
 interface IndustryTrialBannerProps {
   industry: IndustryKey;
@@ -53,7 +53,7 @@ function IndustryTrialBanner({ industry }: IndustryTrialBannerProps) {
                 <div className="text-xs text-ink-400">{t('industryTools.trial.minutesLabel')}</div>
               </div>
               <a
-                href={SIGNUP_URL}
+                href={TRIAL_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`flex items-center justify-center gap-2 w-full ${theme.solidBtn} text-white px-6 py-3.5 rounded-xl font-semibold transition-all shadow-lg`}

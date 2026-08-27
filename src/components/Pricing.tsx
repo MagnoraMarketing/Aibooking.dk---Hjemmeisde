@@ -2,6 +2,7 @@ import { Check, ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { localizedPrice } from '../utils/currency';
+import { STRIPE_CHECKOUT } from '../utils/checkout';
 import type { SupportedLanguage } from '../i18n/config';
 
 interface PricingPlanText {
@@ -21,12 +22,12 @@ function Pricing() {
   // Optional setup/onboarding fee equals one month's subscription price,
   // charged once, and includes 1 hour of follow-up support afterwards.
   const planMeta = [
-    // The free tier is self-serve, so it goes straight to signup rather than
-    // through the contact form like the paid enquiry flows.
-    { price: 0, highlighted: false, href: 'https://aibooking-backendnew.vercel.app/signup' },
-    { price: 1500, highlighted: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
-    { price: 2499, highlighted: true, href: 'https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01' },
-    { price: 5999, highlighted: false, href: 'https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02' },
+    // The 7-day trial is self-serve too, so it goes straight to its own Stripe
+    // link rather than through the contact form.
+    { price: 0, highlighted: false, href: STRIPE_CHECKOUT.trial },
+    { price: 1500, highlighted: false, href: STRIPE_CHECKOUT.starter },
+    { price: 2499, highlighted: true, href: STRIPE_CHECKOUT.professional },
+    { price: 5999, highlighted: false, href: STRIPE_CHECKOUT.enterprise },
   ];
   const plans = plansText.map((plan, i) => ({ ...plan, ...planMeta[i], setup: planMeta[i].price }));
 

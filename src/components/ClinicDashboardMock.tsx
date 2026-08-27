@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next';
-import { PhoneIncoming, PhoneOutgoing, PhoneCall, Users, Clock, Gauge, Calendar } from 'lucide-react';
+import { PhoneIncoming, PhoneOutgoing, MessageSquare, Users, Clock, Gauge, Calendar, Mic } from 'lucide-react';
 
 interface StatTile { label: string; value: string }
-interface CallRow { agent: string; date: string; status: string; live: boolean; minutes: string }
+interface CallRow { agent: string; channel: string; date: string; status: string; live: boolean; minutes: string }
 interface BookingRow { name: string; type: string; time: string }
 
 // Mock-up of the customer dashboard, built in markup rather than as a
@@ -17,11 +17,14 @@ export default function ClinicDashboardMock() {
   const agents = t('agents.items', { returnObjects: true }) as string[];
   const bookings = t('bookings.items', { returnObjects: true }) as BookingRow[];
 
-  const statIcons = [PhoneCall, Users, Clock, Gauge];
+  const statIcons = [MessageSquare, Users, Clock, Gauge];
 
+  // Phone and website widget report into the same dashboard, so all three
+  // channels sit side by side.
   const panels = [
     { key: 'inbound', icon: PhoneIncoming },
     { key: 'outbound', icon: PhoneOutgoing },
+    { key: 'widget', icon: Mic },
   ] as const;
 
   return (
@@ -71,7 +74,7 @@ export default function ClinicDashboardMock() {
         {/* Stat tiles */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
           {stats.map((stat, i) => {
-            const Icon = statIcons[i] ?? PhoneCall;
+            const Icon = statIcons[i] ?? MessageSquare;
             return (
               // Stacked on narrow screens: side by side, the label has too
               // little room left and gets cut off mid-word.
@@ -89,7 +92,7 @@ export default function ClinicDashboardMock() {
         </div>
 
         {/* Direction panels */}
-        <div className="grid md:grid-cols-2 gap-3 sm:gap-4">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
           {panels.map(({ key, icon: Icon }) => (
             <div key={key} className="bg-white rounded-2xl border border-ink-200 p-5">
               <div className="flex items-center justify-between mb-4">
@@ -110,7 +113,7 @@ export default function ClinicDashboardMock() {
                       {t(`panels.${key}.${metric}`)}
                     </div>
                     <div className="text-[11px] text-ink-400 mt-0.5">
-                      {t(`panels.${metric}Label`)}
+                      {t(`panels.${key}.${metric}Label`)}
                     </div>
                   </div>
                 ))}
@@ -137,7 +140,12 @@ export default function ClinicDashboardMock() {
                 <tbody className="divide-y divide-ink-100">
                   {rows.map((row, i) => (
                     <tr key={i}>
-                      <td className="px-5 py-3 font-medium text-ink-900 whitespace-nowrap">{row.agent}</td>
+                      {/* The channel rides along under the agent name: as its own
+                          column it pushed the table wider than the panel. */}
+                      <td className="px-5 py-3 whitespace-nowrap">
+                        <div className="font-medium text-ink-900">{row.agent}</div>
+                        <div className="text-[11px] text-ink-400 mt-0.5">{row.channel}</div>
+                      </td>
                       <td className="px-3 py-3 text-brand-600 whitespace-nowrap">{row.date}</td>
                       <td className="px-3 py-3">
                         <span

@@ -1,3 +1,5 @@
+import { STRIPE_CHECKOUT } from '../../utils/checkout';
+
 export type IndustryKey = 'healthcare' | 'craftsman' | 'office' | 'ecommerce';
 
 export interface IndustryTheme {
@@ -66,4 +68,4 @@ export const INDUSTRY_THEMES: Record<IndustryKey, IndustryTheme> = {
   },
 };
 
-export const SIGNUP_URL = 'https://aibooking-backendnew.vercel.app/signup';
+export const TRIAL_URL = STRIPE_CHECKOUT.trial;

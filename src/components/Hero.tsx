@@ -1,5 +1,6 @@
 import { Phone, Calendar, Clock, ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { STRIPE_CHECKOUT } from '../utils/checkout';
 
 function Hero() {
   const { t } = useTranslation();
@@ -29,7 +30,7 @@ function Hero() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-5 mb-20">
             <a
-              href="https://aibooking-backendnew.vercel.app/signup"
+              href={STRIPE_CHECKOUT.trial}
               target="_blank"
               rel="noopener noreferrer"
               className="group w-full sm:w-auto bg-accent-400 text-ink-950 px-10 py-4 rounded-xl text-lg font-bold hover:bg-accent-300 transition-all transform hover:scale-[1.02] shadow-lg shadow-accent-500/20 inline-flex items-center justify-center space-x-2"

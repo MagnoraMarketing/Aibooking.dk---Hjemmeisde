@@ -10,14 +10,13 @@ import {
   Users, PhoneForwarded, PackagePlus, CheckCircle2,
 } from 'lucide-react';
 import type { NavigatePage } from '../types/navigation';
+import { STRIPE_CHECKOUT } from '../utils/checkout';
 
 interface TrialPageProps {
   onNavigate: (page: NavigatePage) => void;
 }
 
 interface TitleDesc { title: string; desc: string }
-
-const SIGNUP_URL = 'https://aibooking-backendnew.vercel.app/signup';
 
 function TrialPage({ onNavigate }: TrialPageProps) {
   const { t, i18n } = useTranslation('trialPage');
@@ -68,7 +67,7 @@ function TrialPage({ onNavigate }: TrialPageProps) {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href={SIGNUP_URL}
+              href={STRIPE_CHECKOUT.trial}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-brand-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-brand-700 transition-all shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
@@ -197,7 +196,7 @@ function TrialPage({ onNavigate }: TrialPageProps) {
             {t('finalCta.subtitle')}
           </p>
           <a
-            href={SIGNUP_URL}
+            href={STRIPE_CHECKOUT.trial}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-white text-brand-700 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-brand-50 transition-all shadow-2xl transform hover:scale-105"

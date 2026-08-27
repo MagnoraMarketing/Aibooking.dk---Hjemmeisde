@@ -2,10 +2,10 @@ import { Phone, Mail, MapPin, LogIn, UserPlus } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 import type { NavigatePage } from '../types/navigation';
+import { STRIPE_CHECKOUT } from '../utils/checkout';
 
 // Customer dashboard lives on the separate backend app.
 const LOGIN_URL = 'https://aibooking-backendnew.vercel.app/login';
-const SIGNUP_URL = 'https://aibooking-backendnew.vercel.app/signup';
 
 interface FooterProps {
   onNavigate?: (page: NavigatePage) => void;
@@ -241,7 +241,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                 {t('nav.login')}
               </a>
               <a
-                href={SIGNUP_URL}
+                href={STRIPE_CHECKOUT.trial}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-brand-600 text-white px-6 py-3 rounded-xl hover:bg-brand-700 transition-colors font-semibold text-sm whitespace-nowrap"

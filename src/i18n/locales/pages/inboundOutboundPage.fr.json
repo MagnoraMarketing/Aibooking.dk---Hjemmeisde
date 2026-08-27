@@ -1,0 +1,208 @@
+{
+  "seo": {
+    "title": "Appels Entrants et Sortants | Assistant Téléphonique IA | Aibooking.dk",
+    "description": "Automatisez les appels entrants et sortants avec notre assistant téléphonique IA. Service client 24/7, communication automatique, réservations et rappels. Économisez jusqu'à 80% sur le support téléphonique.",
+    "keywords": "appels entrants sortants, assistant téléphonique IA, appels automatiques, service client, réservations"
+  },
+  "hero": {
+    "badge": "Appels Entrants et Sortants",
+    "title": "Assistant Téléphonique IA pour Appels Entrants et Sortants",
+    "subtitle": "Automatisez tous vos appels téléphoniques 24/7. Répondez aux appels professionnellement, communiquez avec vos clients automatiquement, et prenez rendez-vous sans intervention humaine.",
+    "cta_demo": "Réservez une démo gratuite",
+    "cta_pricing": "Voir les prix",
+    "stats": {
+      "inbound": "Appels Entrants",
+      "outbound": "Appels Sortants",
+      "roi": "80% Économies"
+    }
+  },
+  "whatIs": {
+    "title": "Qu'est-ce que l'IA pour Appels Entrants et Sortants?",
+    "para1": "Un assistant téléphonique IA est une réceptionniste virtuelle intelligente qui gère complètement les appels entrants et sortants. Votre assistant IA répond profesionnellement, capture les informations clients, réserve des rendez-vous, et peut communiquer avec les clients automatiquement.",
+    "para2": "Contrairement à une réceptionniste traditionnelle, notre IA fonctionne 24/7 sans pause. Votre équipe consacre plus de temps au travail précieux, vos clients reçoivent un service rapide et professionnel, et vous économisez des coûts importants.",
+    "para3": "Choisissez de gérer uniquement les appels entrants (service client), sortants (communication), ou une solution combinée.",
+    "inbound": {
+      "title": "Appels Entrants",
+      "desc": "L'IA répond à tous les appels profesionnellement, capture les informations, prend les rendez-vous, répond aux questions, transfère les cas importants"
+    },
+    "outbound": {
+      "title": "Appels Sortants",
+      "desc": "L'IA appelle automatiquement vos clients - rappels, confirmations, offres, annonces - complètement personnalisé"
+    }
+  },
+  "features": {
+    "title": "Fonctionnalités Avancées",
+    "subtitle": "Tout ce dont vous avez besoin pour la gestion automatisée des appels",
+    "items": [
+      {
+        "title": "Reconnaissance Vocale Naturelle",
+        "description": "L'IA comprend le langage naturel sans commandes. Elle suit les conversations naturellement et pose des questions pertinentes."
+      },
+      {
+        "title": "Gestion des Appels Entrants",
+        "description": "Répond profesionnellement, capture les informations, gère les réservations, répond aux FAQ, transfère à votre équipe."
+      },
+      {
+        "title": "Appels Sortants",
+        "description": "Appelle automatiquement avec rappels, confirmations, suivis ou campagnes - complètement personnalisé et professionnel."
+      },
+      {
+        "title": "Minutage Intelligent",
+        "description": "L'IA choisit les moments optimaux, respecte les préférences clients, s'adapte selon les taux de réponse."
+      },
+      {
+        "title": "Intégration Calendrier",
+        "description": "Se synchronise avec Google Calendar, Outlook et systèmes de réservation. Sans saisie manuelle."
+      },
+      {
+        "title": "Rappels SMS",
+        "description": "Combine les appels aux SMS pour maximum d'efficacité. Réduit les no-shows jusqu'à 60%."
+      },
+      {
+        "title": "Enregistrement et Résumés",
+        "description": "Tous les appels sont enregistrés et résumés. Voyez exactement ce qui a été convenu."
+      },
+      {
+        "title": "Routage Intelligent",
+        "description": "Transfère automatiquement aux membres de l'équipe selon leur expertise."
+      },
+      {
+        "title": "RGPD et Sécurité",
+        "description": "Conformité complète RGPD et chiffrement de bout en bout. Vos données toujours sécurisées."
+      }
+    ]
+  },
+  "useCases": {
+    "title": "Cas d'Usage",
+    "subtitle": "Parfait pour les entreprises voulant automatiser toute communication téléphonique",
+    "items": [
+      {
+        "title": "Cliniques et Dentistes",
+        "description": "Répondez aux appels de rendez-vous, envoyez des rappels SMS, rappelez les absents. Réduisez les no-shows de 20% à 5%."
+      },
+      {
+        "title": "Artisans et Installateurs",
+        "description": "Recevez les demandes, confirmez les visites, envoyez les rappels. Ne manquez jamais un appel client."
+      },
+      {
+        "title": "Entreprises de Vente",
+        "description": "Appelez les prospects avec des offres personnalisées, comprenez leurs besoins, reservez rendez-vous automatiquement."
+      },
+      {
+        "title": "Centres de Service",
+        "description": "Gérez des milliers d'appels sans embaucher. Répondez aux FAQ, cherchez les commandes, résolvez les plaintes."
+      },
+      {
+        "title": "E-commerce",
+        "description": "Appelez les clients avec confirmation de commande, demandez les préférences, gérez les retours par téléphone."
+      },
+      {
+        "title": "Gestion d'Événements",
+        "description": "Confirmez les participants, envoyez des rappels, collectez les commentaires après."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Entrants vs Sortants – Lequel Vous Convient?",
+    "feature": "Fonctionnalité",
+    "inbound": "Entrants",
+    "outbound": "Sortants",
+    "items": [
+      {
+        "feature": "Répondre aux appels clients",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Appeler les clients",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Capturer les informations",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Prendre des rendez-vous",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Envoyer des rappels",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Prospection commerciale",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Support client",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Confirmation de commande",
+        "inbound": true,
+        "outbound": true
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Tarification Simple et Transparente",
+    "subtitle": "Payez uniquement ce que vous utilisez - y compris les appels et toutes les fonctionnalités",
+    "demo": {
+      "name": "Démo",
+      "label": "7 jours gratuits · 75 min"
+    },
+    "starter": {
+      "name": "Starter"
+    },
+    "professional": {
+      "name": "Professional"
+    },
+    "enterprise": {
+      "name": "Enterprise"
+    },
+    "free": "Gratuit",
+    "mostPopular": "Plus Populaire",
+    "cta": "Commencer"
+  },
+  "faqTitle": "Questions Fréquemment Posées",
+  "faq": [
+    {
+      "question": "Quelle est la différence entre appels entrants et sortants?",
+      "answer": "Entrants = clients vous appellent. L'IA répond et résout. Sortants = l'IA appelle clients avec rappels, confirmations ou campagnes. Utilisez les deux ou juste ce qui vous convient."
+    },
+    {
+      "question": "Combien d'appels peut gérer l'IA simultanément?",
+      "answer": "L'IA gère un nombre illimité d'appels simultanés. Vous payez uniquement pour le temps d'appel réel. Un réceptionniste gère 5-10 appels/jour; notre IA en gère des centaines."
+    },
+    {
+      "question": "Fonctionne-t-il en français?",
+      "answer": "Oui, complètement optimisé pour le français. L'IA comprend le langage naturel. Nous supportons aussi le danois, l'anglais, l'espagnol, le portugais - l'IA s'adapte automatiquement."
+    },
+    {
+      "question": "Peux-je écouter les appels après?",
+      "answer": "Oui, tous les appels sont enregistrés et résumés. Vous obtenez une transcription et pouvez écouter dans le tableau de bord. Vous avez aussi un court résumé de ce qui a été convenu."
+    },
+    {
+      "question": "Et si un client a besoin de parler à une personne?",
+      "answer": "L'IA reconnaît automatiquement quand l'intervention humaine est nécessaire. L'appel peut être transféré directement ou l'IA prend un message pour un rappel."
+    },
+    {
+      "question": "Est-il légal de faire des appels automatisés?",
+      "answer": "Oui, en respectant le RGPD. Vous avez besoin du consentement du client et ils peuvent se désabonner. Notre système vous aide à gérer cela correctement."
+    },
+    {
+      "question": "Combien d'argent vais-je économiser?",
+      "answer": "Une réceptionniste à temps plein coûte typiquement €2000-2700/mois. Notre IA coûte €200-800/mois. C'est 80-95% d'économies avec meilleur service 24/7."
+    },
+    {
+      "question": "Comment débuter?",
+      "answer": "Réservez une démo gratuite. Nous discutons de votre entreprise. Nous configurons avec vos instructions. Essai gratuit 7 jours. Choisissez votre plan."
+    }
+  ]
+}

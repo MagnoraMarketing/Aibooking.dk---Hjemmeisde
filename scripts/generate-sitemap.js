@@ -34,6 +34,7 @@ const routeMap = {
   'PrivacyPage.tsx': '/privatlivspolitik',
   'TermsPage.tsx': '/vilkaar',
   'WidgetPage.tsx': '/widget',
+  'InboundOutboundPage.tsx': '/ind-og-udgaaende-opkald',
   'TrialPage.tsx': '/proeveperiode',
   'BlogPage.tsx': '/blog',
   'BlogCategoryPage.tsx': [
@@ -95,6 +96,7 @@ const priorityMap = {
   '/blog/komplet-ai-automatisering-widget-telefon-booking': 0.8,
   '/blog/roi-ai-automatisering-virksomheder': 0.8,
   '/widget': 0.9,
+  '/ind-og-udgaaende-opkald': 0.9,
   '/proeveperiode': 0.9,
   '/kontakt': 0.6,
   '/om-aibooking': 0.6,
@@ -122,6 +124,7 @@ const changefreqMap = {
   '/blog/komplet-ai-automatisering-widget-telefon-booking': 'monthly',
   '/blog/roi-ai-automatisering-virksomheder': 'monthly',
   '/widget': 'weekly',
+  '/ind-og-udgaaende-opkald': 'weekly',
   '/proeveperiode': 'weekly',
   '/kontakt': 'monthly',
   '/om-aibooking': 'monthly',

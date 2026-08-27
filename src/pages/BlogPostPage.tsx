@@ -44,7 +44,7 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
   if (!post || !category) {
     return (
       <div className="min-h-screen bg-gradient-to-b from-ink-50 via-white to-ink-50">
-        <Navigation />
+        <Navigation onNavigate={() => {}} />
         <div className="flex items-center justify-center min-h-screen">
           <div className="text-center">
             <h1 className="text-3xl font-bold text-ink-900 mb-4">
@@ -93,14 +93,14 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
         title={getMetaTitle()}
         description={getMetaDescription()}
         keywords={post.keywords.join(', ')}
-        image={post.image_url}
+        ogImage={post.image_url}
       />
 
       <script type="application/ld+json">
         {JSON.stringify(structuredData)}
       </script>
 
-      <Navigation />
+      <Navigation onNavigate={() => {}} />
 
       <article className="pt-24 pb-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

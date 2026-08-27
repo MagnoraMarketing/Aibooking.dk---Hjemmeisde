@@ -324,9 +324,9 @@
       },
       "calls_title": "Recent conversations",
       "calls": [
-        { "time": "09:12", "caller": "+45 40 12 88 30", "outcome": "Booked", "duration": "2:41" },
+        { "time": "09:12", "caller": "New customer", "outcome": "Booked", "duration": "2:41" },
         { "time": "10:04", "caller": "Reminder – Lars H.", "outcome": "Confirmed", "duration": "0:48" },
-        { "time": "11:37", "caller": "+45 26 55 10 92", "outcome": "Booked", "duration": "3:16" },
+        { "time": "11:37", "caller": "Morten K.", "outcome": "Booked", "duration": "3:16" },
         { "time": "13:20", "caller": "Unknown number", "outcome": "Info given", "duration": "1:52" }
       ],
       "bookings_title": "Upcoming bookings",

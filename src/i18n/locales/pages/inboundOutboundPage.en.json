@@ -1,0 +1,208 @@
+{
+  "seo": {
+    "title": "Inbound & Outbound Calls | AI Phone Assistant | Aibooking.dk",
+    "description": "Automate both inbound and outbound calls with our AI phone assistant. 24/7 customer service, automatic outreach, booking, and reminders. Save up to 80% on phone support.",
+    "keywords": "inbound outbound calls, AI phone assistant, outbound calling, inbound call handling, automation, customer service, booking reminders"
+  },
+  "hero": {
+    "badge": "Inbound & Outbound Calls",
+    "title": "AI Phone Assistant for Inbound & Outbound Calls",
+    "subtitle": "Automate all your phone calls 24/7. Handle incoming calls professionally, reach out to customers with reminders, and book meetings – completely hands-free.",
+    "cta_demo": "Book free demo",
+    "cta_pricing": "View pricing",
+    "stats": {
+      "inbound": "Inbound Calls",
+      "outbound": "Outbound Calls",
+      "roi": "80% Savings"
+    }
+  },
+  "whatIs": {
+    "title": "What is Inbound & Outbound AI Calling?",
+    "para1": "An AI phone assistant is an intelligent virtual receptionist that handles both incoming and outgoing phone calls completely automatically. Your AI assistant answers incoming calls professionally, captures customer information, books meetings, and can also reach out to customers with reminders or announcements.",
+    "para2": "Unlike a traditional receptionist, our AI works 24/7 without breaks, vacations, or sick days. Your team gets more time for valuable work, your customers get fast and professional service, and you save significant salary costs.",
+    "para3": "Choose to handle inbound calls only (customer service), outbound calls only (outreach), or a combined solution that does both.",
+    "inbound": {
+      "title": "Inbound Calls",
+      "desc": "AI answers all incoming calls professionally, captures customer info, books meetings, answers questions, and transfers important cases to your team"
+    },
+    "outbound": {
+      "title": "Outbound Calls",
+      "desc": "AI reaches out to customers with reminders, confirmations, new offers, or important announcements – completely automated and personalized"
+    }
+  },
+  "features": {
+    "title": "Advanced Features",
+    "subtitle": "Everything you need for fully automated phone handling",
+    "items": [
+      {
+        "title": "Natural Speech Recognition",
+        "description": "AI understands natural speech without requiring commands. The system follows conversations naturally and asks relevant follow-up questions."
+      },
+      {
+        "title": "Inbound Call Handling",
+        "description": "Answers all calls professionally, captures customer info, handles bookings, answers FAQs, and transfers important cases to your team."
+      },
+      {
+        "title": "Outbound Calling",
+        "description": "Automatically calls customers with reminders, confirmations, follow-ups, or campaigns – completely personalized and professional."
+      },
+      {
+        "title": "Intelligent Timing",
+        "description": "AI chooses optimal call times, respects customer preferences, and adapts based on answer rates."
+      },
+      {
+        "title": "Calendar Integration",
+        "description": "Syncs directly with Google Calendar, Outlook, and industry-specific booking systems. No manual entries."
+      },
+      {
+        "title": "SMS Reminders",
+        "description": "Combine phone calls with SMS reminders for maximum effectiveness. No-shows drop by up to 60%."
+      },
+      {
+        "title": "Call Recording & Summaries",
+        "description": "All calls are automatically recorded and summarized. Listen to calls and see exactly what was agreed upon."
+      },
+      {
+        "title": "Intelligent Routing",
+        "description": "Complex customer questions are automatically transferred to the right team member based on their expertise."
+      },
+      {
+        "title": "GDPR & Security",
+        "description": "Full GDPR compliance and end-to-end encryption. Your data is always secure and under your control."
+      }
+    ]
+  },
+  "useCases": {
+    "title": "Use Cases",
+    "subtitle": "Perfect for businesses that want to automate all phone communication",
+    "items": [
+      {
+        "title": "Clinics & Dentists",
+        "description": "Answer appointment calls, send SMS reminders before visits, and call no-show patients with alternative times. Reduce no-shows from 20% to 5%."
+      },
+      {
+        "title": "Tradespeople & Installers",
+        "description": "Receive and log jobs, call with visit confirmation, send reminders. Never miss a job inquiry again."
+      },
+      {
+        "title": "Sales Companies",
+        "description": "Call leads with personalized offers, understand their needs, and book meetings directly in the calendar – completely automatic."
+      },
+      {
+        "title": "Customer Service Centers",
+        "description": "Handle thousands of incoming calls without hiring new staff. Answer FAQs, look up orders, handle complaints."
+      },
+      {
+        "title": "E-commerce",
+        "description": "Call customers with order confirmation, ask about delivery preferences, handle returns over the phone."
+      },
+      {
+        "title": "Event Management",
+        "description": "Call attendee confirmations the day before, send SMS reminders, and collect feedback after events."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Inbound vs Outbound Calls – Which is Right for You?",
+    "feature": "Feature",
+    "inbound": "Inbound",
+    "outbound": "Outbound",
+    "items": [
+      {
+        "feature": "Answer customer calls",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Call out to customers",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Capture customer info",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Book meetings",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Send reminders",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Lead outreach",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Customer support",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Order confirmation",
+        "inbound": true,
+        "outbound": true
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Simple & Transparent Pricing",
+    "subtitle": "Pay only for what you use – including talk time and all features",
+    "demo": {
+      "name": "Demo",
+      "label": "7 days free · 75 min"
+    },
+    "starter": {
+      "name": "Starter"
+    },
+    "professional": {
+      "name": "Professional"
+    },
+    "enterprise": {
+      "name": "Enterprise"
+    },
+    "free": "Free",
+    "mostPopular": "Most Popular",
+    "cta": "Get Started"
+  },
+  "faqTitle": "Frequently Asked Questions",
+  "faq": [
+    {
+      "question": "What's the difference between inbound and outbound calls?",
+      "answer": "Inbound calls are when customers call you – AI answers and handles their questions. Outbound calls are when AI calls your customers – e.g., with reminders, confirmations, or campaigns. You can use both or just what fits your business."
+    },
+    {
+      "question": "How many calls can the AI handle at once?",
+      "answer": "AI can handle unlimited simultaneous calls. You pay only for actual talk time, not capacity. A full-time receptionist handles 5-10 calls daily; our AI handles hundreds."
+    },
+    {
+      "question": "Does it work in English?",
+      "answer": "Yes, the system is fully optimized for English. AI understands natural speech patterns and accents. We also support Danish, French, Spanish, and Portuguese – AI adapts automatically."
+    },
+    {
+      "question": "Can I listen to calls afterwards?",
+      "answer": "Yes, all calls are recorded and summarized. You get a transcript and can listen to the full call in your dashboard. You also get a brief summary of what was agreed upon."
+    },
+    {
+      "question": "What if a customer needs to speak to a human?",
+      "answer": "AI automatically recognizes when human intervention is needed. The call can transfer directly to your team, or AI can take a message and you can call back later."
+    },
+    {
+      "question": "Is it legal to make automated outbound calls?",
+      "answer": "Yes, as long as you comply with GDPR and local regulations. You need customer consent and they must be able to opt out. Our system helps you handle all of this correctly."
+    },
+    {
+      "question": "How much money will I save?",
+      "answer": "A full-time receptionist typically costs €2,000-2,700/month. Our AI costs €200-800/month. That's 80-95% savings while providing better 24/7 service."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Book a free demo where we discuss your business and needs. We then set up the system with your specific instructions and you get 7 days free trial. After that, choose the plan that fits best."
+    }
+  ]
+}

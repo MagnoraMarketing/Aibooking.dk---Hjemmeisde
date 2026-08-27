@@ -5,7 +5,7 @@ import { splitLocalizedPath, buildLocalizedPath } from '../utils/localePaths';
 import { SupportedLanguage } from '../i18n/config';
 
 interface NavigationProps {
-  onNavigate: (page: 'home' | 'widget' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy') => void;
+  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy') => void;
   // Set on pages whose hero is a full-bleed dark section (Home, Widget) so
   // the nav starts see-through with light text over it, then turns into
   // the normal solid white bar once the user scrolls past the hero. Pages
@@ -116,6 +116,12 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
                 className={navLinkClass}
               >
                 {t('nav.widget')}
+              </button>
+              <button
+                onClick={() => onNavigate('inbound-outbound')}
+                className={navLinkClass}
+              >
+                {t('nav.inbound_outbound')}
               </button>
               <a href="#priser" className={navLinkClass}>
                 {t('nav.pricing')}

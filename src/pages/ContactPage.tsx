@@ -9,7 +9,7 @@ import { createBreadcrumbSchema } from '../utils/structuredData';
 import { Phone, Mail, MapPin, Clock, MessageSquare, CheckCircle2, AlertCircle, Calendar } from 'lucide-react';
 
 interface ContactPageProps {
-  onNavigate: (page: 'home' | 'email' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about') => void;
+  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'trial') => void;
 }
 
 function ContactPage({ onNavigate }: ContactPageProps) {
@@ -83,16 +83,6 @@ function ContactPage({ onNavigate }: ContactPageProps) {
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8 mb-16">
-            <div className="bg-white rounded-3xl p-8 shadow-lg border border-ink-200/60 hover:shadow-xl transition-all">
-              <div className="w-14 h-14 bg-gradient-to-br from-brand-600 to-brand-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-brand-500/20">
-                <Phone className="w-7 h-7 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-ink-900 mb-3">{t('infoCards.call.title')}</h3>
-              <p className="text-ink-600 mb-4">{t('infoCards.call.desc')}</p>
-              <a href="tel:+4591952794" className="text-brand-600 font-semibold hover:text-brand-700 transition-colors text-lg">
-                +45 91952794
-              </a>
-            </div>
 
             <div className="bg-white rounded-3xl p-8 shadow-lg border border-ink-200/60 hover:shadow-xl transition-all">
               <div className="w-14 h-14 bg-gradient-to-br from-brand-600 to-brand-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-brand-500/20">

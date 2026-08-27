@@ -12,7 +12,7 @@ import { homeFAQs } from '../content/faq';
 import { organizationSchema, websiteSchema, softwareApplicationSchema } from '../utils/structuredData';
 
 interface HomePageProps {
-  onNavigate: (page: 'home' | 'email' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features') => void;
+  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'trial') => void;
 }
 
 function HomePage({ onNavigate }: HomePageProps) {

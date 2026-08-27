@@ -163,7 +163,7 @@ function PhoneAssistantSection() {
   // charged once, and includes 1 hour of follow-up support afterwards.
   const planMeta = [
     { price: 0, highlighted: false, isDemo: true, href: contactHref },
-    { price: 1500, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
+    { price: 999, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
     { price: 2499, highlighted: true, isDemo: false, href: 'https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01' },
     { price: 5999, highlighted: false, isDemo: false, href: 'https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02' },
   ];

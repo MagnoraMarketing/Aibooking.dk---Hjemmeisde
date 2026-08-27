@@ -28,7 +28,7 @@
       "label": "Para empezar"
     },
     {
-      "value": "150 min",
+      "value": "200 min",
       "label": "Tiempo de conversación incluido"
     },
     {
@@ -286,8 +286,8 @@
       "badge": "Punto de partida recomendado",
       "description": "La forma más rápida y económica de automatizar tus reservas. El widget se coloca en tu sitio web y permite a los clientes hablar o escribir directamente con tu asistente de IA – 24/7, sin intervención humana.",
       "price_suffix": "€/mes",
-      "includes": "Incluye 150 minutos de conversación (aprox. 0,89€/minuto)",
-      "renewal_note": "El paquete se renueva automáticamente una vez usados los 150 minutos",
+      "includes": "Incluye 200 minutos de conversación (aprox. 0,67€/minuto)",
+      "renewal_note": "El paquete se renueva automáticamente una vez usados los 200 minutos",
       "cta_order": "Pedir ahora",
       "cta_intro": "Reservar una introducción gratuita",
       "features": [
@@ -295,7 +295,7 @@
         "Responde preguntas y gestiona reservas",
         "Las reservas van directas a tu calendario",
         "Disponible 24/7 en tu sitio web",
-        "150 minutos de conversación incluidos",
+        "200 minutos de conversación incluidos",
         "Paga solo por el tiempo de conversación activo – sin salarios por horas",
         "Abierto 24/7, 365 días al año – siempre listo",
         "Atiende a los clientes incluso cuando estás ocupado"
@@ -303,7 +303,7 @@
       "footnote_talketime_label": "Tiempo de conversación:",
       "footnote_talketime_value": "El crédito comprado es válido durante 3 meses",
       "footnote_renewal_label": "Renovación:",
-      "footnote_renewal_value": "Automática una vez usados los 150 min.",
+      "footnote_renewal_value": "Automática una vez usados los 200 min.",
       "footnote_binding_label": "Compromiso:",
       "footnote_binding_value": "Ninguno – cancela cuando quieras"
     },
@@ -446,7 +446,7 @@
     },
     {
       "question": "¿Cuánto cuesta el widget de IA?",
-      "answer": "El paquete inicial cuesta 134€/mes e incluye 150 minutos de conversación. Solo pagas por el tiempo de conversación activo – sin salarios por horas, sin compromiso."
+      "answer": "El paquete inicial cuesta 134€/mes e incluye 200 minutos de conversación. Solo pagas por el tiempo de conversación activo – sin salarios por horas, sin compromiso."
     },
     {
       "question": "¿Qué idiomas admite el widget?",

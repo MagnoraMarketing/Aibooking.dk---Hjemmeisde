@@ -9,11 +9,11 @@ type Mode = 'voice' | 'widget';
 
 // Same packages and prices as the pricing tables elsewhere on the site.
 const VOICE_PLANS = [
-  { name: 'Starter', minutes: 200, price: 1500 },
+  { name: 'Starter', minutes: 200, price: 999 },
   { name: 'Professional', minutes: 600, price: 2499 },
   { name: 'Enterprise', minutes: 2000, price: 5999 },
 ];
-const WIDGET_PACK_MINUTES = 150;
+const WIDGET_PACK_MINUTES = 200;
 const WIDGET_PACK_PRICE = 999;
 
 const MIN_MINUTES = 25;

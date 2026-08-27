@@ -24,7 +24,7 @@ function Pricing() {
     // The free tier is self-serve, so it goes straight to signup rather than
     // through the contact form like the paid enquiry flows.
     { price: 0, highlighted: false, href: 'https://aibooking-backendnew.vercel.app/signup' },
-    { price: 1500, highlighted: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
+    { price: 999, highlighted: false, href: 'https://buy.stripe.com/7sY5kC1CX5NF6oI3ET4AU00' },
     { price: 2499, highlighted: true, href: 'https://buy.stripe.com/9B628q3L5b7Z3cwgrF4AU01' },
     { price: 5999, highlighted: false, href: 'https://buy.stripe.com/7sYeVcgxRa3VcN64IX4AU02' },
   ];

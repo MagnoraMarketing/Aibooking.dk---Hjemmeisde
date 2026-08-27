@@ -28,7 +28,7 @@
       "label": "To get started"
     },
     {
-      "value": "150 min",
+      "value": "200 min",
       "label": "Talk time included"
     },
     {
@@ -286,8 +286,8 @@
       "badge": "Recommended starting point",
       "description": "The fastest and cheapest way to automate your booking. The widget sits on your website and lets customers talk or type directly with your AI assistant – 24/7, with no human involvement.",
       "price_suffix": "€/month",
-      "includes": "Includes 150 minutes of talk time (approx. €0.89/minute)",
-      "renewal_note": "The package renews automatically once the 150 minutes are used",
+      "includes": "Includes 200 minutes of talk time (approx. €0.67/minute)",
+      "renewal_note": "The package renews automatically once the 200 minutes are used",
       "cta_order": "Order now",
       "cta_intro": "Book a free intro",
       "features": [
@@ -295,7 +295,7 @@
         "Answers questions and handles bookings",
         "Bookings go straight into your calendar",
         "Available 24/7 on your website",
-        "150 minutes of talk time included",
+        "200 minutes of talk time included",
         "Pay only for active talk time – no hourly wages",
         "Open 24/7, 365 days a year – always ready",
         "Handles customers even when you're busy"
@@ -303,7 +303,7 @@
       "footnote_talketime_label": "Talk time:",
       "footnote_talketime_value": "Purchased credit is valid for 3 months",
       "footnote_renewal_label": "Renewal:",
-      "footnote_renewal_value": "Automatic once 150 min. are used",
+      "footnote_renewal_value": "Automatic once 200 min. are used",
       "footnote_binding_label": "Commitment:",
       "footnote_binding_value": "None – cancel anytime"
     },
@@ -446,7 +446,7 @@
     },
     {
       "question": "What does the AI widget cost?",
-      "answer": "The starter package costs €134/month and includes 150 minutes of talk time. You only pay for active talk time – no hourly wages, no commitment."
+      "answer": "The starter package costs €134/month and includes 200 minutes of talk time. You only pay for active talk time – no hourly wages, no commitment."
     },
     {
       "question": "Which languages does the widget support?",

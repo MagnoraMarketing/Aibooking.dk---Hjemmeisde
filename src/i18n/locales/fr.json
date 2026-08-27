@@ -348,8 +348,8 @@
     "subtitle": "Un voicebot avec lequel vos clients peuvent parler directement sur votre site web - répond aux questions et gère les réservations automatiquement",
     "plan_badge": "Solution La Plus Flexible",
     "price_period": "€/mois",
-    "price_note1": "Inclut 150 minutes de temps de parole (environ 0,89 €/minute)",
-    "price_note2": "Le forfait se renouvelle automatiquement une fois les 150 minutes utilisées",
+    "price_note1": "Inclut 200 minutes de temps de parole (environ 0,67 €/minute)",
+    "price_note2": "Le forfait se renouvelle automatiquement une fois les 200 minutes utilisées",
     "features": [
       {
         "bold": "Bot vocal IA",
@@ -369,7 +369,7 @@
       },
       {
         "bold": "",
-        "rest": "150 minutes de temps de parole incluses"
+        "rest": "200 minutes de temps de parole incluses"
       },
       {
         "bold": "Payez uniquement le temps de parole actif",

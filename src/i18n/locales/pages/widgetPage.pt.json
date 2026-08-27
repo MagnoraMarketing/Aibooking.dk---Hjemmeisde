@@ -28,7 +28,7 @@
       "label": "Para começar"
     },
     {
-      "value": "150 min",
+      "value": "200 min",
       "label": "Tempo de voz incluído"
     },
     {
@@ -286,8 +286,8 @@
       "badge": "Ponto de partida recomendado",
       "description": "A forma mais rápida e económica de automatizar as suas marcações. O widget fica no seu website e permite que os clientes falem ou escrevam diretamente com o seu assistente de IA – 24/7, sem intervenção humana.",
       "price_suffix": "€/mês",
-      "includes": "Inclui 150 minutos de tempo de voz (aprox. 0,89 €/minuto)",
-      "renewal_note": "O pacote renova-se automaticamente quando os 150 minutos forem usados",
+      "includes": "Inclui 200 minutos de tempo de voz (aprox. 0,67 €/minuto)",
+      "renewal_note": "O pacote renova-se automaticamente quando os 200 minutos forem usados",
       "cta_order": "Comprar agora",
       "cta_intro": "Marcar intro grátis",
       "features": [
@@ -295,7 +295,7 @@
         "Responde a perguntas e trata de marcações",
         "As marcações vão diretamente para o seu calendário",
         "Disponível 24/7 no seu website",
-        "150 minutos de tempo de voz incluídos",
+        "200 minutos de tempo de voz incluídos",
         "Pague apenas pelo tempo de voz ativo – sem salário à hora",
         "Aberto 24/7, 365 dias por ano – sempre pronto",
         "Atende os clientes mesmo quando está ocupado"
@@ -303,7 +303,7 @@
       "footnote_talketime_label": "Tempo de voz:",
       "footnote_talketime_value": "O crédito comprado é válido por 3 meses",
       "footnote_renewal_label": "Renovação:",
-      "footnote_renewal_value": "Automática assim que os 150 min. forem usados",
+      "footnote_renewal_value": "Automática assim que os 200 min. forem usados",
       "footnote_binding_label": "Fidelização:",
       "footnote_binding_value": "Nenhuma – cancele quando quiser"
     },
@@ -446,7 +446,7 @@
     },
     {
       "question": "Quanto custa o AI widget?",
-      "answer": "O pacote inicial custa 134 €/mês e inclui 150 minutos de tempo de voz. Só paga pelo tempo de voz ativo – sem salário à hora, sem fidelização."
+      "answer": "O pacote inicial custa 134 €/mês e inclui 200 minutos de tempo de voz. Só paga pelo tempo de voz ativo – sem salário à hora, sem fidelização."
     },
     {
       "question": "Que línguas suporta o widget?",

@@ -254,7 +254,7 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
 
   const plans = [
     { key: 'demo', price: 0, highlight: false },
-    { key: 'starter', price: 1500, highlight: false },
+    { key: 'starter', price: 999, highlight: false },
     { key: 'professional', price: 2499, highlight: true },
     { key: 'enterprise', price: 5999, highlight: false },
   ] as const;
@@ -280,7 +280,7 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
         offers: {
           '@type': 'AggregateOffer',
           priceCurrency: 'DKK',
-          lowPrice: '1500',
+          lowPrice: '999',
           highPrice: '5999',
           offerCount: '4',
         },

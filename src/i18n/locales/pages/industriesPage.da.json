@@ -159,7 +159,7 @@
     "fields": {
       "name": { "label": "Navn", "placeholder": "Dit fulde navn" },
       "email": { "label": "Email", "placeholder": "din@email.dk" },
-      "phone": { "label": "Telefon", "placeholder": "+45 91952794" },
+      "phone": { "label": "Telefon", "placeholder": "Dit telefonnummer" },
       "industry": {
         "label": "Branche",
         "placeholder": "Vælg din branche",

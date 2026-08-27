@@ -204,12 +204,6 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                 </a>
               </li>
               <li className="flex items-start space-x-2">
-                <Phone className="w-4 h-4 mt-0.5 text-brand-400" />
-                <a href="tel:+4591952794" className="hover:text-brand-400 transition-all">
-                  +45 91952794
-                </a>
-              </li>
-              <li className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 mt-0.5 text-brand-400" />
                 <span>{t('footer.address')}</span>
               </li>

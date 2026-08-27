@@ -159,7 +159,7 @@
     "fields": {
       "name": { "label": "Nom", "placeholder": "Votre nom complet" },
       "email": { "label": "Email", "placeholder": "votre@email.fr" },
-      "phone": { "label": "Téléphone", "placeholder": "+45 91952794" },
+      "phone": { "label": "Téléphone", "placeholder": "Votre numéro de téléphone" },
       "industry": {
         "label": "Secteur",
         "placeholder": "Sélectionnez votre secteur",

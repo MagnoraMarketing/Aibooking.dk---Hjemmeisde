@@ -324,9 +324,9 @@
       },
       "calls_title": "Conversations récentes",
       "calls": [
-        { "time": "09:12", "caller": "+45 40 12 88 30", "outcome": "Réservé", "duration": "2:41" },
+        { "time": "09:12", "caller": "Nouveau client", "outcome": "Réservé", "duration": "2:41" },
         { "time": "10:04", "caller": "Rappel – Lars H.", "outcome": "Confirmé", "duration": "0:48" },
-        { "time": "11:37", "caller": "+45 26 55 10 92", "outcome": "Réservé", "duration": "3:16" },
+        { "time": "11:37", "caller": "Morten K.", "outcome": "Réservé", "duration": "3:16" },
         { "time": "13:20", "caller": "Numéro inconnu", "outcome": "Info donnée", "duration": "1:52" }
       ],
       "bookings_title": "Prochaines réservations",

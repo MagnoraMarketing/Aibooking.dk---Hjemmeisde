@@ -324,9 +324,9 @@
       },
       "calls_title": "Seneste samtaler",
       "calls": [
-        { "time": "09:12", "caller": "+45 40 12 88 30", "outcome": "Booket", "duration": "2:41" },
+        { "time": "09:12", "caller": "Ny kunde", "outcome": "Booket", "duration": "2:41" },
         { "time": "10:04", "caller": "Påmindelse – Lars H.", "outcome": "Bekræftet", "duration": "0:48" },
-        { "time": "11:37", "caller": "+45 26 55 10 92", "outcome": "Booket", "duration": "3:16" },
+        { "time": "11:37", "caller": "Morten K.", "outcome": "Booket", "duration": "3:16" },
         { "time": "13:20", "caller": "Ukendt nummer", "outcome": "Info givet", "duration": "1:52" }
       ],
       "bookings_title": "Kommende bookinger",

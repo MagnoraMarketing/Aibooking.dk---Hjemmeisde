@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Contact Us - Get Help and Support | Aibooking.dk",
-    "description": "Have questions about our AI receptionist? Contact our Danish support team. We reply within 24 hours. Call +45 91952794 or send an email.",
+    "description": "Have questions about our AI receptionist? Contact our Danish support team. We reply within 24 hours via email.",
     "keywords": "contact aibooking, danish support, AI receptionist help, customer service, get a demo"
   },
   "breadcrumb": { "home": "Home", "contact": "Contact" },
@@ -32,7 +32,7 @@
     "placeholders": {
       "name": "Your full name",
       "email": "your@email.com",
-      "phone": "+45 91952794",
+      "phone": "Your phone number",
       "inquiryType": "Select a topic for your enquiry",
       "message": "How can we help?"
     },

@@ -1,7 +1,7 @@
 import { Phone, Mail, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-type NavigatePage = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'trial';
+import type { NavigatePage } from '../types/navigation';
 
 interface FooterProps {
   onNavigate?: (page: NavigatePage) => void;

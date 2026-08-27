@@ -104,6 +104,12 @@ import blogPostPagePt from './locales/pages/blogPostPage.pt.json';
 import blogPostPageFr from './locales/pages/blogPostPage.fr.json';
 import blogPostPageEs from './locales/pages/blogPostPage.es.json';
 
+import inboundOutboundPageDa from './locales/pages/inboundOutboundPage.da.json';
+import inboundOutboundPageEn from './locales/pages/inboundOutboundPage.en.json';
+import inboundOutboundPagePt from './locales/pages/inboundOutboundPage.pt.json';
+import inboundOutboundPageFr from './locales/pages/inboundOutboundPage.fr.json';
+import inboundOutboundPageEs from './locales/pages/inboundOutboundPage.es.json';
+
 import trialPageDa from './locales/pages/trialPage.da.json';
 import trialPageEn from './locales/pages/trialPage.en.json';
 import trialPagePt from './locales/pages/trialPage.pt.json';
@@ -131,6 +137,7 @@ const PAGE_NAMESPACES = [
   'healthcarePage', 'craftsmanPage', 'officePage', 'integrationsPage',
   'aboutPage', 'contactPage', 'demoPage', 'termsPage', 'privacyPage',
   'blogPage', 'blogCategoryPage', 'blogPostPage', 'trialPage',
+  'inboundOutboundPage',
 ] as const;
 
 i18n
@@ -159,6 +166,7 @@ i18n
         blogCategoryPage: blogCategoryPageDa,
         blogPostPage: blogPostPageDa,
         trialPage: trialPageDa,
+        inboundOutboundPage: inboundOutboundPageDa,
       },
       en: {
         common: commonEn,
@@ -179,6 +187,7 @@ i18n
         blogCategoryPage: blogCategoryPageEn,
         blogPostPage: blogPostPageEn,
         trialPage: trialPageEn,
+        inboundOutboundPage: inboundOutboundPageEn,
       },
       pt: {
         common: commonPt,
@@ -199,6 +208,7 @@ i18n
         blogCategoryPage: blogCategoryPagePt,
         blogPostPage: blogPostPagePt,
         trialPage: trialPagePt,
+        inboundOutboundPage: inboundOutboundPagePt,
       },
       fr: {
         common: commonFr,
@@ -219,6 +229,7 @@ i18n
         blogCategoryPage: blogCategoryPageFr,
         blogPostPage: blogPostPageFr,
         trialPage: trialPageFr,
+        inboundOutboundPage: inboundOutboundPageFr,
       },
       es: {
         common: commonEs,
@@ -239,6 +250,7 @@ i18n
         blogCategoryPage: blogCategoryPageEs,
         blogPostPage: blogPostPageEs,
         trialPage: trialPageEs,
+        inboundOutboundPage: inboundOutboundPageEs,
       },
     },
     supportedLngs: SUPPORTED_LANGUAGES as unknown as string[],

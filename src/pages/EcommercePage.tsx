@@ -11,9 +11,10 @@ import { buildLocalizedPath } from '../utils/localePaths';
 import IndustryScenario from '../components/industries/IndustryScenario';
 import IndustryCalculator from '../components/industries/IndustryCalculator';
 import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
+import type { NavigatePage } from '../types/navigation';
 
 interface EcommercePageProps {
-  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'trial') => void;
+  onNavigate: (page: NavigatePage) => void;
 }
 
 interface TitleDescription { title: string; description: string }

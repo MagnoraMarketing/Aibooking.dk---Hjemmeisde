@@ -11,11 +11,12 @@ import SEO from '../components/SEO';
 import { localizedPrice } from '../utils/currency';
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath } from '../utils/localePaths';
+import type { NavigatePage } from '../types/navigation';
 
 const WIDGET_PLAN_PRICE_DKK = 999;
 
 interface WidgetPageProps {
-  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'trial') => void;
+  onNavigate: (page: NavigatePage) => void;
 }
 
 interface Faq { question: string; answer: string }

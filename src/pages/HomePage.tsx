@@ -10,9 +10,10 @@ import SEO from '../components/SEO';
 import FAQ from '../components/FAQ';
 import { homeFAQs } from '../content/faq';
 import { organizationSchema, websiteSchema, softwareApplicationSchema } from '../utils/structuredData';
+import type { NavigatePage } from '../types/navigation';
 
 interface HomePageProps {
-  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'trial') => void;
+  onNavigate: (page: NavigatePage) => void;
 }
 
 function HomePage({ onNavigate }: HomePageProps) {
@@ -32,7 +33,7 @@ function HomePage({ onNavigate }: HomePageProps) {
         path="/"
       />
       <Navigation onNavigate={onNavigate} transparent />
-      <Hero onNavigate={onNavigate} />
+      <Hero />
       <ReceptionistShowcase onNavigate={onNavigate} />
       <Features />
       <Pricing />

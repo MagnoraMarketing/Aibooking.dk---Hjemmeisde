@@ -8,9 +8,10 @@ import { createBreadcrumbSchema } from '../utils/structuredData';
 import { CheckCircle, Calendar, Clock, Zap } from 'lucide-react';
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath } from '../utils/localePaths';
+import type { NavigatePage } from '../types/navigation';
 
 interface DemoPageProps {
-  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'trial') => void;
+  onNavigate: (page: NavigatePage) => void;
 }
 
 interface TitleDescription { title: string; description: string }

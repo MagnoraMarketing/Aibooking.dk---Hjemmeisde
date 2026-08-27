@@ -9,9 +9,10 @@ import IndustrySEO from '../components/industries/IndustrySEO';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { BarChart3, Calendar, Clock, TrendingUp, Users, Phone, MessageSquare, CheckSquare } from 'lucide-react';
+import type { NavigatePage } from '../types/navigation';
 
 interface IndustriesPageProps {
-  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'trial') => void;
+  onNavigate: (page: NavigatePage) => void;
 }
 
 interface StatText { label: string; value: string }

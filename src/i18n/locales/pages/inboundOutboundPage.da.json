@@ -1,208 +1,345 @@
 {
   "seo": {
-    "title": "Ind- og Udgående Opkald | AI Telefonassistent | Aibooking.dk",
-    "description": "Automate både indgående og udgående opkald med vores AI telefonassistent. 24/7 kundeservice, opringning til kunderne, booking og påmindelser. Spar op til 80% på telefonbetjening.",
-    "keywords": "ind- og udgående opkald, AI telefonassistent, udgående opkald, indgående opkald, automatisering, kundeservice, booking, påmindelser"
+    "title": "Inbound-Outbound AI Voice – AI der tager telefonen | Aibooking.dk",
+    "description": "Inbound-Outbound AI Voice besvarer dine indgående opkald og ringer selv ud til kunderne. Booking, påmindelser og opfølgning – automatisk, døgnet rundt, på dansk.",
+    "keywords": "inbound outbound ai voice, ai telefonassistent, ai voice agent, indgående opkald, udgående opkald, automatisk telefonpasning, ai receptionist, voicebot dansk, telefonbooking"
+  },
+  "breadcrumb": {
+    "home": "Hjem",
+    "current": "Inbound-Outbound AI Voice"
   },
   "hero": {
-    "badge": "Ind- og udgående opkald",
-    "title": "AI Telefonassistent til Ind- og Udgående Opkald",
-    "subtitle": "Automate alle dine telefonsamtaler 24/7. Håndter indgående opkald professionelt, ring ud til kunder med påmindelser, og book møder – helt uden menneskelig indgriben.",
+    "badge": "Inbound-Outbound AI Voice",
+    "title": "Inbound-Outbound AI Voice",
+    "titleAccent": "AI'en der både tager telefonen og ringer op",
+    "subtitle": "Én stemme håndterer begge retninger: den besvarer dine indgående opkald professionelt og ringer selv ud til kunderne med bekræftelser, påmindelser og opfølgning. Døgnet rundt, på dansk, uden ventetid.",
     "cta_demo": "Book gratis demo",
+    "cta_example": "Hør et eksempel",
     "cta_pricing": "Se priser",
     "stats": {
-      "inbound": "Indgående opkald",
-      "outbound": "Udgående opkald",
-      "roi": "80% besparelse"
+      "answer": { "value": "2 sek.", "label": "Gennemsnitlig svartid" },
+      "availability": { "value": "24/7", "label": "Også aften og weekend" },
+      "saving": { "value": "80%", "label": "Lavere omkostning end en receptionist" }
+    },
+    "card": {
+      "status": "Aktivt opkald",
+      "direction": "Indgående · Ukendt nummer",
+      "timer": "00:51",
+      "transcriptLabel": "Live transskription",
+      "line": "Så er du booket til i morgen kl. 08:30. Du får en SMS-bekræftelse nu.",
+      "actions": ["Tid booket", "SMS sendt", "Sag oprettet"]
     }
   },
   "whatIs": {
-    "title": "Hvad er Ind- og Udgående AI Opkald?",
-    "para1": "En AI telefonassistent er en intelligent virtuel receptionist, der håndterer både indgående og udgående telefonopkald fuldt automatiseret. Din AI-assistent besvarer indgående opkald professionelt, registrerer kundeinformation, booker møder, og kan også ringe ud til kunderne med påmindelser eller meddelelser.",
-    "para2": "I modsætning til en traditionel receptionist arbejder vores AI 24/7 uden pauser, ferier eller sygedage. Dit team får mere tid til værdiskabende arbejde, dine kunder får hurtig og professionel service, og du sparer betydelige lønomkostninger.",
-    "para3": "Vælg mellem at håndtere kun indgående opkald (kundeservice), kun udgående opkald (opringninger), eller en kombineret løsning der gør begge dele.",
+    "title": "To retninger, én AI-stemme",
+    "para1": "Inbound-Outbound AI Voice er en AI-telefonassistent, der arbejder i begge retninger. Indgående tager den imod kunderne, forstår hvad de ringer om, booker tider og sender de vigtige sager videre til dit team. Udgående ringer den selv op med bekræftelser, påmindelser, opfølgning på tilbud eller besked om en ledig tid.",
+    "para2": "Til forskel fra en receptionist holder den ikke fri. Den svarer på andet ring klokken 20 om aftenen, den tager fem opkald samtidig i myldretiden, og den glemmer aldrig at ringe tilbage. Dit team slipper for at blive afbrudt, og ingen kunde ender på telefonsvareren.",
+    "para3": "Du bestemmer selv omfanget: kun indgående, kun udgående, eller begge dele på samme nummer.",
     "inbound": {
-      "title": "Indgående Opkald",
-      "desc": "AI besvarer alle indgående opkald professionelt, registrerer kundeinfo, booker møder, besvarer spørgsmål og viderestiller vigtige sager til dit team"
+      "title": "Indgående",
+      "desc": "Besvarer opkald på sekunder, booker i din kalender, svarer på de spørgsmål der går igen, og stiller om til dit team når sagen kræver et menneske."
     },
     "outbound": {
-      "title": "Udgående Opkald",
-      "desc": "AI ringer ud til kunderne med påmindelser, bekræftelser, nye produkttilbud, eller vigtige meddelelser – helt automatiseret og personaliseret"
+      "title": "Udgående",
+      "desc": "Ringer selv ud med bekræftelser, påmindelser dagen før, opfølgning på tilbud og genbooking af aflyste tider – i dit navn og med dine ord."
     }
   },
+  "example": {
+    "badge": "Eksempel",
+    "title": "Sådan lyder et rigtigt opkald",
+    "subtitle": "To faktiske samtaleforløb – ét indgående og ét udgående. Ordret som AI'en fører dem, og med det den nåede at ordne undervejs.",
+    "tabs": {
+      "inbound": "Indgående opkald",
+      "outbound": "Udgående opkald"
+    },
+    "chatLabels": {
+      "ai": "AI Voice",
+      "customer": "Kunde"
+    },
+    "inbound": {
+      "situationLabel": "Situationen",
+      "situation": "Kl. 20:41, halvanden time efter lukketid. Normalt ville opkaldet gå på telefonsvarer – og kunden ville ringe videre til den næste VVS'er på listen.",
+      "caller": "Ukendt nummer",
+      "meta": "Indgående · 20:41 · Nordjysk VVS",
+      "chat": [
+        { "role": "ai", "time": "0:02", "text": "Du taler med Aibooking hos Nordjysk VVS. Hvad kan jeg hjælpe med?" },
+        { "role": "customer", "time": "0:07", "text": "Hej. Jeg har et vandrør der drypper under køkkenvasken. Kan I komme forbi?" },
+        { "role": "ai", "time": "0:12", "text": "Det hjælper vi gerne med. Er der vand på gulvet lige nu, eller er det et langsomt dryp?" },
+        { "role": "customer", "time": "0:19", "text": "Det er et langsomt dryp. Jeg har sat en spand under." },
+        { "role": "ai", "time": "0:24", "text": "Godt. Så booker jeg en almindelig tid frem for et akut udkald – det er billigere for dig. Jeg har i morgen kl. 08:30 eller torsdag kl. 13:00." },
+        { "role": "customer", "time": "0:35", "text": "I morgen kl. 08:30 passer fint." },
+        { "role": "ai", "time": "0:39", "text": "Perfekt. Må jeg få adressen og et mobilnummer til bekræftelsen?" },
+        { "role": "customer", "time": "0:45", "text": "Søndergade 14, 9000 Aalborg." },
+        { "role": "ai", "time": "0:51", "text": "Tak. Så er du booket til i morgen kl. 08:30. Du får en SMS-bekræftelse nu og en påmindelse en time før." }
+      ],
+      "outcomesLabel": "Hvad AI'en gjorde undervejs",
+      "outcomes": [
+        "Besvarede på to sekunder – halvanden time efter lukketid",
+        "Vurderede om sagen var akut, og valgte den rigtige opgavetype",
+        "Fandt en ledig tid i den rigtige montørs kalender",
+        "Noterede adresse og telefonnummer direkte på sagen",
+        "Sendte bekræftelse og planlagde påmindelsen automatisk"
+      ],
+      "resultsLabel": "Resultat",
+      "results": [
+        { "label": "Varighed", "value": "1:04" },
+        { "label": "Udfald", "value": "Booket i morgen kl. 08:30" },
+        { "label": "Sag oprettet", "value": "#4821 · Dryppende vandrør" }
+      ]
+    },
+    "outbound": {
+      "situationLabel": "Situationen",
+      "situation": "Kl. 09:15 dagen før. AI'en ringer selv morgendagens aftaler igennem, så afbud bliver fanget i god tid i stedet for at ende som en udeblivelse.",
+      "caller": "Mette Hansen",
+      "meta": "Udgående · 09:15 · Klinik Sund",
+      "chat": [
+        { "role": "ai", "time": "0:03", "text": "Hej Mette. Det er Aibooking, der ringer på vegne af Klinik Sund. Jeg ringer om din tid i morgen kl. 10:00 – passer den stadig?" },
+        { "role": "customer", "time": "0:11", "text": "Åh, den havde jeg helt glemt. Jeg er faktisk på arbejde til kl. 15." },
+        { "role": "ai", "time": "0:18", "text": "Det er helt i orden. Jeg kan tilbyde i morgen kl. 15:45 eller fredag kl. 09:30. Hvad passer bedst?" },
+        { "role": "customer", "time": "0:26", "text": "Fredag kl. 09:30, tak." },
+        { "role": "ai", "time": "0:30", "text": "Så er din tid flyttet til fredag kl. 09:30. Du får en SMS med den nye tid nu. Ha' en god dag." }
+      ],
+      "outcomesLabel": "Hvad AI'en gjorde undervejs",
+      "outcomes": [
+        "Ringede morgendagens aftaler igennem uden at nogen skulle huske det",
+        "Fangede afbuddet dagen før i stedet for ved udeblivelse",
+        "Tilbød en ny tid med det samme, mens kunden var i røret",
+        "Frigav kl. 10:00 og tilbød den til den næste på ventelisten",
+        "Opdaterede kalenderen og sendte den nye bekræftelse"
+      ],
+      "resultsLabel": "Resultat",
+      "results": [
+        { "label": "Varighed", "value": "0:38" },
+        { "label": "Udfald", "value": "Flyttet til fredag kl. 09:30" },
+        { "label": "Undgået", "value": "Én udeblivelse · tid gentilbudt" }
+      ]
+    }
+  },
+  "dashboard": {
+    "badge": "Dashboard",
+    "title": "Og sådan ser det ud bagefter",
+    "subtitle": "Hvert opkald lander i dit dashboard med varighed, status og resultat. Her er en måned hos en tandklinik med fire agenter i luften.",
+    "appTabs": ["Dashboard", "Indgående", "Udgående", "Kalender", "Analyse"],
+    "windowLabel": "app.aibooking.dk/dashboard",
+    "heading": "Dashboard",
+    "headingSub": "Følg jeres AI-agenters performance",
+    "org": "Klinik Sund · Tandlæge",
+    "period": "Denne måned",
+    "stats": [
+      { "label": "Opkald i alt", "value": "342" },
+      { "label": "Aktive agenter", "value": "4" },
+      { "label": "Minutter brugt", "value": "486" },
+      { "label": "Minutter tilbage", "value": "114" }
+    ],
+    "seeAgents": "Se agenter →",
+    "panels": {
+      "agentsLabel": "Aktive agenter",
+      "callsLabel": "Opkald",
+      "minutesLabel": "Minutter",
+      "inbound": { "title": "Indgående opkald", "agents": "2", "calls": "214", "minutes": "298" },
+      "outbound": { "title": "Udgående opkald", "agents": "2", "calls": "128", "minutes": "188" }
+    },
+    "recent": {
+      "title": "Seneste opkald",
+      "columns": { "agent": "Agent", "date": "Dato", "status": "Status", "minutes": "Minutter" },
+      "view": "Se opkald",
+      "rows": [
+        { "agent": "Reception – efter lukketid", "date": "26. aug. 2026, 20.41", "status": "Afsluttet", "live": false, "minutes": "1.04" },
+        { "agent": "Påmindelser – dagen før", "date": "26. aug. 2026, 09.15", "status": "Afsluttet", "live": false, "minutes": "0.38" },
+        { "agent": "Reception – hovednummer", "date": "25. aug. 2026, 14.22", "status": "Afsluttet", "live": false, "minutes": "2.11" },
+        { "agent": "Genbooking – afbud", "date": "25. aug. 2026, 11.03", "status": "Afsluttet", "live": false, "minutes": "0.52" },
+        { "agent": "Reception – hovednummer", "date": "25. aug. 2026, 08.47", "status": "Aktiv", "live": true, "minutes": "0.19" }
+      ]
+    },
+    "agents": {
+      "title": "Aktive agenter",
+      "items": [
+        "Reception – hovednummer",
+        "Reception – efter lukketid",
+        "Påmindelser – dagen før",
+        "Genbooking – afbud"
+      ]
+    },
+    "bookings": {
+      "title": "Bookinger",
+      "items": [
+        { "name": "Mette Hansen", "type": "Tandrensning", "time": "fre. 09:30" },
+        { "name": "Jonas Bak", "type": "Kontrol", "time": "fre. 11:00" },
+        { "name": "Aisha Karim", "type": "Akut tid", "time": "man. 08:15" }
+      ]
+    },
+    "note": "Fiktive tal fra en demoklinik – dit eget dashboard viser dine egne agenter og opkald."
+  },
+  "howItWorks": {
+    "title": "Sådan kommer du i gang",
+    "subtitle": "Fra første samtale til live AI-stemme tager det typisk under en uge.",
+    "steps": [
+      {
+        "title": "Vi kobler dit nummer på",
+        "description": "Du beholder dit nuværende telefonnummer. Vi sætter viderestilling op, så AI'en tager præcis de opkald du vælger – alle, kun uden for åbningstid, eller kun når linjen er optaget."
+      },
+      {
+        "title": "AI'en lærer din forretning",
+        "description": "Vi træner den på dine ydelser, priser, åbningstider og de spørgsmål dine kunder faktisk stiller. Du godkender ordlyden, før den går i luften."
+      },
+      {
+        "title": "Kalender og systemer kobles på",
+        "description": "Google Calendar, Outlook eller dit branchesystem. AI'en booker kun i tider der reelt er ledige, og skriver aftalen ind samme sted som I plejer."
+      },
+      {
+        "title": "Du følger med i dashboardet",
+        "description": "Hvert opkald bliver optaget, transskriberet og opsummeret. Du kan altid gå tilbage og se præcis hvad der blev sagt og aftalt."
+      }
+    ]
+  },
   "features": {
-    "title": "Avancerede Funktioner",
-    "subtitle": "Alt hvad du behøver til fuldt automatiseret telefonhåndtering",
+    "title": "Hvad AI-stemmen kan",
+    "subtitle": "Alt der skal til, for at telefonen bliver passet – i begge retninger.",
     "items": [
       {
-        "title": "Naturlig Talegenkendelse",
-        "description": "AI forstår naturlig dansk tale uden krav til kommandoer. Systemet følger samtalen naturligt og stiller relevante opfølgende spørgsmål."
+        "title": "Besvarer alle indgående opkald",
+        "description": "Tager telefonen på sekunder, forstår hvad kunden ringer om, booker tider og svarer på de spørgsmål der går igen. Ingen kunde ender på telefonsvareren."
       },
       {
-        "title": "Indgående Opkaldsbehandling",
-        "description": "Besvarer alle opkald professionelt, registrerer kundeinfo, håndterer bookinger, besvarer FAQ-spørgsmål, og viderestiller vigtige sager."
+        "title": "Ringer selv ud til kunderne",
+        "description": "Bekræftelser, påmindelser dagen før, opfølgning på tilbud og genbooking af aflyste tider – ringet op automatisk, i dit navn og med dine ord."
       },
       {
-        "title": "Udgående Opringninger",
-        "description": "Ring automatisk ud til kunderne med påmindelser, bekræftelser, opfølgninger eller kampagner – helt personaliseret og professionelt."
+        "title": "Naturlig dansk samtale",
+        "description": "Forstår almindelig dansk tale, dialekt og afbrydelser. Kunden skal ikke trykke 1 for booking – der bliver bare talt, som med et menneske."
       },
       {
-        "title": "Intelligent Timing",
-        "description": "AI vælger optimale tidspunkter for udgående opkald, respekterer kundernes præferencer, og tilpasser efter svarprocenter."
+        "title": "Ubegrænset samtidige opkald",
+        "description": "Fem kunder kan ringe på én gang uden at nogen står i kø. Du betaler for taletid, ikke for kapacitet, så myldretid koster ikke ekstra."
       },
       {
-        "title": "Kalenderintegration",
-        "description": "Synkroniserer direkte med Google Calendar, Outlook og branchespecifikke booking-systemer. Ingen manuelle registreringer."
+        "title": "Booker direkte i din kalender",
+        "description": "Synkroniseret med Google Calendar, Outlook og de gængse branchesystemer. AI'en ser kun de tider der er reelt ledige – ingen dobbeltbookinger."
       },
       {
-        "title": "SMS Påmindelser",
-        "description": "Kombiner telefonopkald med SMS-påmindelser for maksimal effekt. No-shows reduceres med op til 60%."
+        "title": "SMS-bekræftelse og påmindelse",
+        "description": "Opkaldet følges op af en SMS med tid og adresse, og en påmindelse inden besøget. Kombinationen er det, der får udeblivelserne ned."
       },
       {
-        "title": "Taleoptagelse & Opsummering",
-        "description": "Alle opkald optages og opsummeres automatisk. Lyt til samtaler og se præcis hvad der blev aftalt."
+        "title": "Optagelse, referat og transskription",
+        "description": "Hvert opkald gemmes med fuld transskription og et kort referat af, hvad der blev aftalt. Du kan altid dokumentere samtalen bagefter."
       },
       {
-        "title": "Intelligent Routing",
-        "description": "Komplekse kundespørgsmål viderestilles automatisk til det rigtige team medlem baseret på deres ekspertise."
+        "title": "Stiller om, når det kræver et menneske",
+        "description": "AI'en genkender selv de sager den ikke skal afgøre – klager, akutte opgaver, forhandling – og stiller om til den rigtige kollega eller tager en besked."
       },
       {
-        "title": "GDPR & Sikkerhed",
-        "description": "Fuld GDPR-overholdelse og end-to-end kryptering. Din data er altid sikker og under din kontrol."
+        "title": "GDPR og datasikkerhed",
+        "description": "Data behandles i EU med krypteret opbevaring, aftalte sletteregler og databehandleraftale. Optagelser og transskriptioner er kun tilgængelige for jer."
       }
     ]
   },
   "useCases": {
-    "title": "Brugsscenarier",
-    "subtitle": "Perfekt til virksomheder der vil automatisere al telefonkommunikation",
+    "title": "Hvem bruger det til hvad",
+    "subtitle": "De samme to retninger løser meget forskellige problemer, alt efter branche.",
     "items": [
       {
-        "title": "Kliniker & Tandlæger",
-        "description": "Besvare tilmeldings-opkald, sende SMS-påmindelser dagen før, og ringe ud til no-show-kunder med alternative tider. Reducer no-shows fra 20% til 5%."
+        "title": "Klinikker og tandlæger",
+        "description": "Indgående: booking og ombooking uden at afbryde receptionen. Udgående: påmindelse dagen før og ny tid til dem, der melder afbud. Det er her udeblivelserne falder mest."
       },
       {
-        "title": "Håndværkere & Installatører",
-        "description": "Modtag og registrer jobs, ring ud med bekræftelse af besøg, og send påmindelser. Aldrig gå glip af en jobopringning igen."
+        "title": "Håndværkere og installatører",
+        "description": "Indgående: opkald bliver besvaret, mens du står med hænderne i en installation. Udgående: bekræftelse af morgendagens besøg og besked, hvis montøren bliver forsinket."
       },
       {
-        "title": "Salgsvirksomheder",
-        "description": "Ring ud til leads med personaliserede tilbud, spørg efter deres behov, og book møde direkte i kalenderen – helt automatisk."
+        "title": "Salg og leadopfølgning",
+        "description": "Udgående: ring nye leads op inden for få minutter, afklar behovet og book mødet direkte i sælgerens kalender, mens interessen stadig er varm."
       },
       {
-        "title": "Kundeservice Centers",
-        "description": "Håndter tusinder af indgående opkald uden at ansætte nye medarbejdere. Svar på FAQ, foretag ordresøgninger, håndter klager."
+        "title": "Kundeservice og support",
+        "description": "Indgående: tag toppen af opkaldsmængden med de spørgsmål der går igen – ordrestatus, åbningstider, priser – og send resten videre med kontekst."
       },
       {
-        "title": "E-handel",
-        "description": "Ring til kunder med ordrebekræftelse, spørg om forsendelsespræferencer, og håndter returneringer over telefonen."
+        "title": "Webshops og e-handel",
+        "description": "Udgående: ring ved manglende betaling eller uafhentede pakker. Indgående: svar på leverings- og returspørgsmål uden ventetid i højsæsonen."
       },
       {
-        "title": "Event Management",
-        "description": "Ring til deltager-bekræftelser dagen før, send SMS-påmindelser, og opsaml tilbagemeldinger efter arrangementet."
+        "title": "Kontor og rådgivning",
+        "description": "Indgående: professionel modtagelse af klientopkald med besked og mødebooking. Udgående: bekræftelse af aftaler og opfølgning på fremsendt materiale."
       }
     ]
   },
   "comparison": {
-    "title": "Ind- vs Udgående Opkald – Hvad Passer Til Din Virksomhed?",
-    "feature": "Funktion",
+    "title": "Indgående eller udgående – hvad har du brug for?",
+    "subtitle": "De fleste starter med den ene retning og slår den anden til bagefter. Samme nummer, samme stemme.",
+    "feature": "Opgave",
     "inbound": "Indgående",
     "outbound": "Udgående",
     "items": [
-      {
-        "feature": "Besvare kundetelefoner",
-        "inbound": true,
-        "outbound": false
-      },
-      {
-        "feature": "Ring ud til kunder",
-        "inbound": false,
-        "outbound": true
-      },
-      {
-        "feature": "Registrere kundeinfo",
-        "inbound": true,
-        "outbound": true
-      },
-      {
-        "feature": "Booke møder",
-        "inbound": true,
-        "outbound": true
-      },
-      {
-        "feature": "Sende påmindelser",
-        "inbound": false,
-        "outbound": true
-      },
-      {
-        "feature": "Lead-opringninger",
-        "inbound": false,
-        "outbound": true
-      },
-      {
-        "feature": "Kundeservice",
-        "inbound": true,
-        "outbound": false
-      },
-      {
-        "feature": "Ordrebekræftelse",
-        "inbound": true,
-        "outbound": true
-      }
+      { "feature": "Besvare opkald fra kunder", "inbound": true, "outbound": false },
+      { "feature": "Ringe op til kunder", "inbound": false, "outbound": true },
+      { "feature": "Booke tider i kalenderen", "inbound": true, "outbound": true },
+      { "feature": "Registrere kundeoplysninger", "inbound": true, "outbound": true },
+      { "feature": "Påmindelse dagen før", "inbound": false, "outbound": true },
+      { "feature": "Opfølgning på leads og tilbud", "inbound": false, "outbound": true },
+      { "feature": "Svare på gengangerspørgsmål", "inbound": true, "outbound": false },
+      { "feature": "Stille om til en kollega", "inbound": true, "outbound": false },
+      { "feature": "Genbooke en aflyst tid", "inbound": true, "outbound": true },
+      { "feature": "Optagelse og referat", "inbound": true, "outbound": true }
     ]
   },
   "pricing": {
-    "title": "Enkle og Gennemsigtige Priser",
-    "subtitle": "Betal kun for hvad du bruger – inklusiv taletid og alle funktioner",
-    "demo": {
-      "name": "Demo",
-      "label": "7 dage gratis · 75 min"
-    },
-    "starter": {
-      "name": "Starter"
-    },
-    "professional": {
-      "name": "Professional"
-    },
-    "enterprise": {
-      "name": "Enterprise"
-    },
+    "title": "Priser",
+    "subtitle": "Taletid og alle funktioner er med i prisen. Ingen binding, ingen opstartsgebyr.",
+    "perMonth": "/md",
+    "demo": { "name": "Demo", "label": "7 dage gratis · 75 min" },
+    "starter": { "name": "Starter", "label": "200 min/md inkl." },
+    "professional": { "name": "Professional", "label": "600 min/md inkl." },
+    "enterprise": { "name": "Enterprise", "label": "2.000 min/md inkl." },
     "free": "Gratis",
-    "mostPopular": "Mest Populær",
-    "cta": "Kom i gang"
+    "mostPopular": "Mest valgte",
+    "cta": "Kom i gang",
+    "note": "Alle pakker indeholder både indgående og udgående opkald, kalenderintegration, SMS og optagelse."
   },
-  "faqTitle": "Ofte Stillede Spørgsmål",
+  "cta": {
+    "title": "Hør din egen AI-stemme før du beslutter dig",
+    "subtitle": "Vi sætter en demo op med dine ydelser og din åbningstid, så du kan ringe ind og høre præcis, hvordan den svarer dine kunder.",
+    "primary": "Book gratis demo",
+    "secondary": "Se priser"
+  },
+  "faqTitle": "Ofte stillede spørgsmål",
+  "faqSubtitle": "Det vi oftest bliver spurgt om, inden en AI-stemme sættes i luften.",
   "faq": [
     {
-      "question": "Hvad er forskellen på ind- og udgående opkald?",
-      "answer": "Indgående opkald er når kunderne ringer til dig – AI besvarer og håndterer deres spørgsmål. Udgående opkald er når AI ringer ud til dine kunder – f.eks. med påmindelser, bekræftelser eller kampagner. Du kan bruge både, eller bare det der passer til din virksomhed."
+      "question": "Hvad er forskellen på indgående og udgående opkald?",
+      "answer": "Indgående er når kunden ringer til dig – AI'en tager telefonen, hjælper med det kunden ringer om og booker eller stiller om. Udgående er når AI'en selv ringer ud, typisk med påmindelser, bekræftelser eller opfølgning på et tilbud. Du kan bruge den ene retning eller begge på samme nummer."
     },
     {
-      "question": "Hvor mange opkald kan AI håndtere samtidig?",
-      "answer": "AI kan håndtere ubegrænset mange opkald samtidig. Du betaler kun for den faktiske taletid, ikke for kapacitet. En fuldtidsmedarbejder kan håndtere 5-10 opkald dagligt, vores AI håndterer hundredvis."
+      "question": "Kan jeg beholde mit nuværende telefonnummer?",
+      "answer": "Ja. Du beholder dit nummer, og vi sætter en viderestilling op. Du bestemmer selv hvornår AI'en tager over: på alle opkald, kun uden for åbningstid, eller kun når linjen er optaget eller ikke bliver taget inden for et antal ring."
     },
     {
-      "question": "Fungerer det på dansk?",
-      "answer": "Ja, systemet er optimeret til dansk. AI forstår dansk dialekt, slang, og naturlig tale. Vi understøtter også engelsk, fransk, spansk og portugisisk – AI tilpasser sig sproget automatisk."
+      "question": "Hvor mange opkald kan den håndtere samtidig?",
+      "answer": "Der er ingen øvre grænse for samtidige opkald. Ringer der ti kunder på samme tid, bliver alle ti besvaret med det samme. Du betaler for den taletid der reelt bruges, ikke for kapacitet, så en travl mandag morgen koster ikke ekstra i abonnement."
     },
     {
-      "question": "Kan jeg høre opkaldet bagefter?",
-      "answer": "Ja, alle opkald optages og opsummeres. Du får en transskription, og du kan lytte til det fulde opkald på dit dashboard. Du får også en kort opsummering af hvad der blev aftalt."
+      "question": "Kan kunderne høre, at det er en AI?",
+      "answer": "Stemmen er naturlig, men vi anbefaler altid at den præsenterer sig som en digital assistent – det er både mest ærligt og det, kunderne reagerer bedst på. Du bestemmer selv den præcise ordlyd i velkomsten."
     },
     {
-      "question": "Hvad hvis customer kontaktet skal overføres til mig?",
-      "answer": "AI genkender automatisk når der er brug for menneskelig indgriben. Samtalen kan overføres direkte til dit team, eller AI kan tage en besked og du ringer tilbage senere."
+      "question": "Hvad sker der, hvis AI'en ikke kan hjælpe?",
+      "answer": "Den er sat op til at genkende sine egne grænser. Ved klager, akutte sager eller spørgsmål den ikke har svar på, stiller den om til den rigtige kollega, eller tager en besked med navn, nummer og hvad sagen drejer sig om, så I kan ringe tilbage."
     },
     {
       "question": "Er det lovligt at ringe ud automatisk?",
-      "answer": "Ja, så længe du overholder GDPR og lokale regler. Du skal have samtykke fra kunderne, og de skal kunne framelde sig. Vores system hjælper dig med at håndtere alt dette korrekt."
+      "answer": "Ja, når du overholder GDPR og markedsføringsloven. Servicerelaterede opkald til eksisterende kunder – påmindelser, bekræftelser, ombooking – kræver ikke særskilt samtykke. Ren markedsføring gør, og modtageren skal altid kunne frabede sig flere opkald. Systemet håndterer frameldinger for dig."
     },
     {
-      "question": "Hvor mange penge sparer jeg?",
-      "answer": "En fuldtidsreceptionist koster typisk 200.000-250.000 kr/år. Vores AI koster 1500-5999 kr/måned. Det er en besparelse på 80-95% mens du får bedre service 24/7."
+      "question": "Fungerer det på andre sprog end dansk?",
+      "answer": "Ja. Ud over dansk håndterer AI'en blandt andet engelsk, tysk, spansk, fransk og portugisisk, og den skifter selv sprog, hvis kunden gør. Det er især brugbart, hvis du har udenlandske kunder eller medarbejdere."
     },
     {
-      "question": "Hvordan starter jeg?",
-      "answer": "Book en gratis demo hvor vi taler om din virksomhed og behov. Vi sætter derefter systemet op med dine specifikke instrukser, og du får 7 dages gratis test. Derefter vælger du den pakke der passer bedst."
+      "question": "Hvad koster det sammenlignet med en receptionist?",
+      "answer": "En fuldtidsreceptionist koster typisk 350.000–450.000 kr. om året inklusive pension og feriepenge. AI-stemmen koster fra 1.500 kr. om måneden og passer telefonen døgnet rundt, også i ferier og sygdomsperioder."
+    },
+    {
+      "question": "Hvor lang tid tager opsætningen?",
+      "answer": "Typisk under en uge. Vi starter med en samtale om dine ydelser og arbejdsgange, sætter stemmen og kalenderintegrationen op, og du tester den i syv dage gratis, inden du beslutter dig."
     }
   ]
 }

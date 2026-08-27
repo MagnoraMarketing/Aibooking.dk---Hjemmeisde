@@ -3,9 +3,10 @@ import { Phone, Plug, Building2, ChevronDown, Stethoscope, Wrench, Briefcase, Sh
 import { useTranslation } from 'react-i18next';
 import { splitLocalizedPath, buildLocalizedPath } from '../utils/localePaths';
 import { SupportedLanguage } from '../i18n/config';
+import type { NavigatePage } from '../types/navigation';
 
 interface NavigationProps {
-  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy') => void;
+  onNavigate: (page: NavigatePage) => void;
   // Set on pages whose hero is a full-bleed dark section (Home, Widget) so
   // the nav starts see-through with light text over it, then turns into
   // the normal solid white bar once the user scrolls past the hero. Pages
@@ -35,7 +36,9 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
   }, [transparent]);
 
   const solid = !transparent || isScrolled;
-  const navLinkClass = `${solid ? 'text-ink-600 hover:text-brand-600' : 'text-white/90 hover:text-white'} transition-all font-medium text-[15px]`;
+  // whitespace-nowrap: the desktop bar is tight enough that a two-word label
+  // would otherwise wrap mid-item and push the whole row out of alignment.
+  const navLinkClass = `${solid ? 'text-ink-600 hover:text-brand-600' : 'text-white/90 hover:text-white'} transition-all font-medium text-sm whitespace-nowrap`;
   const navLinkClassFlex = `flex items-center space-x-2 ${navLinkClass}`;
 
   useEffect(() => {
@@ -90,15 +93,15 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${solid ? 'bg-white/90 backdrop-blur-xl border-b border-ink-200/50 shadow-sm' : 'bg-transparent'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center space-x-3 flex-shrink-0 mr-4">
               <div className="w-11 h-11 bg-gradient-to-br from-brand-600 via-brand-600 to-brand-700 rounded-2xl flex items-center justify-center shadow-lg shadow-brand-500/20">
                 <Phone className="w-6 h-6 text-white" />
               </div>
-              <span className={`text-2xl font-bold tracking-tight transition-colors ${solid ? 'text-ink-900' : 'text-white'}`}>Aibooking.dk</span>
+              <span className={`text-2xl font-bold tracking-tight transition-colors whitespace-nowrap ${solid ? 'text-ink-900' : 'text-white'}`}>Aibooking.dk</span>
             </div>
 
             {/* Desktop menu */}
-            <div className="hidden md:flex items-center space-x-8">
+            <div className="hidden xl:flex items-center gap-x-5">
               <button
                 onClick={() => onNavigate('home')}
                 className={navLinkClass}
@@ -256,7 +259,7 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
                 href="https://aibooking-backendnew.vercel.app/signup"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-brand-600 text-white px-7 py-2.5 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-sm hover:shadow-md transform hover:scale-[1.02] text-[15px] inline-block"
+                className="bg-brand-600 text-white px-5 py-2.5 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-sm hover:shadow-md transform hover:scale-[1.02] text-[15px] inline-block whitespace-nowrap flex-shrink-0"
               >
                 {t('nav.book_demo')}
               </a>
@@ -265,7 +268,7 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
             {/* Mobile hamburger */}
             <button
               onClick={() => setIsMobileOpen(true)}
-              className={`md:hidden p-2 rounded-xl transition-colors ${solid ? 'text-ink-700 hover:bg-ink-100' : 'text-white hover:bg-white/10'}`}
+              className={`xl:hidden p-2 rounded-xl transition-colors ${solid ? 'text-ink-700 hover:bg-ink-100' : 'text-white hover:bg-white/10'}`}
               aria-label={t('nav.open_menu')}
             >
               <Menu className="w-6 h-6" />
@@ -276,13 +279,13 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
 
       {/* Mobile overlay */}
       <div
-        className={`fixed inset-0 bg-black/40 backdrop-blur-sm z-[60] transition-opacity duration-300 md:hidden ${isMobileOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
+        className={`fixed inset-0 bg-black/40 backdrop-blur-sm z-[60] transition-opacity duration-300 xl:hidden ${isMobileOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
         onClick={() => setIsMobileOpen(false)}
       />
 
       {/* Mobile side drawer */}
       <div
-        className={`fixed top-0 right-0 h-full w-[300px] bg-white z-[70] shadow-2xl flex flex-col transition-transform duration-300 ease-in-out md:hidden ${isMobileOpen ? 'translate-x-0' : 'translate-x-full'}`}
+        className={`fixed top-0 right-0 h-full w-[300px] bg-white z-[70] shadow-2xl flex flex-col transition-transform duration-300 ease-in-out xl:hidden ${isMobileOpen ? 'translate-x-0' : 'translate-x-full'}`}
       >
         {/* Drawer header */}
         <div className="flex items-center justify-between px-5 h-20 border-b border-ink-100 flex-shrink-0">
@@ -320,6 +323,12 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
             className="w-full flex items-center px-4 py-3.5 rounded-xl text-ink-700 hover:bg-ink-50 hover:text-brand-600 transition-all font-medium text-[15px] text-left"
           >
             {t('nav.widget')}
+          </button>
+          <button
+            onClick={() => handleMobileNavigate('inbound-outbound')}
+            className="w-full flex items-center px-4 py-3.5 rounded-xl text-ink-700 hover:bg-ink-50 hover:text-brand-600 transition-all font-medium text-[15px] text-left"
+          >
+            {t('nav.inbound_outbound')}
           </button>
           <a
             href="#priser"

@@ -9,9 +9,10 @@ import {
   Phone, MessageSquare, Mail, MessageCircle, ArrowRight, PhoneCall,
   Users, PhoneForwarded, PackagePlus, CheckCircle2,
 } from 'lucide-react';
+import type { NavigatePage } from '../types/navigation';
 
 interface TrialPageProps {
-  onNavigate: (page: 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'trial') => void;
+  onNavigate: (page: NavigatePage) => void;
 }
 
 interface TitleDesc { title: string; desc: string }

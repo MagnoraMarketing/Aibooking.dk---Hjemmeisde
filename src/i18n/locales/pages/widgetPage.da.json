@@ -311,31 +311,7 @@
         "title": "Se alle bookinger",
         "description": "Bookinger lander direkte i din kalender og vises samlet, så intet bliver overset."
       }
-    ],
-    "dashboard": {
-      "url_label": "dashboard.aibooking.dk",
-      "live_label": "Live data",
-      "nav": ["Overblik", "Opkald", "Bookinger", "AI-agenter", "Opsætning"],
-      "stats": {
-        "inbound_label": "Indgående i dag",
-        "outbound_label": "Udgående i dag",
-        "bookings_label": "Bookinger",
-        "duration_label": "Gns. varighed"
-      },
-      "calls_title": "Seneste samtaler",
-      "calls": [
-        { "time": "09:12", "caller": "Ny kunde", "outcome": "Booket", "duration": "2:41" },
-        { "time": "10:04", "caller": "Påmindelse – Lars H.", "outcome": "Bekræftet", "duration": "0:48" },
-        { "time": "11:37", "caller": "Morten K.", "outcome": "Booket", "duration": "3:16" },
-        { "time": "13:20", "caller": "Ukendt nummer", "outcome": "Info givet", "duration": "1:52" }
-      ],
-      "bookings_title": "Kommende bookinger",
-      "bookings": [
-        { "time": "I dag 14:30", "name": "Mette Jensen", "type": "Konsultation" },
-        { "time": "I morgen 09:00", "name": "Anders Kok", "type": "Opfølgning" },
-        { "time": "Fre. 11:15", "name": "Sofie Bech", "type": "Ny kunde" }
-      ]
-    }
+    ]
   },
   "faqSection": {
     "title": "Ofte stillede spørgsmål",

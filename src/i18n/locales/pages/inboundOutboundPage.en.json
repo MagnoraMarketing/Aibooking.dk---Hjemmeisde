@@ -118,57 +118,7 @@
   "dashboard": {
     "badge": "Dashboard",
     "title": "And here's what it looks like afterwards",
-    "subtitle": "Every call lands in your dashboard with duration, status and outcome. This is one month at a dental clinic running four agents.",
-    "appTabs": ["Dashboard", "Inbound", "Outbound", "Calendar", "Analytics"],
-    "windowLabel": "app.aibooking.dk/dashboard",
-    "heading": "Dashboard",
-    "headingSub": "Track how your AI agents are performing",
-    "org": "Clinic Sund · Dental",
-    "period": "This month",
-    "stats": [
-      { "label": "Total calls", "value": "342" },
-      { "label": "Active agents", "value": "4" },
-      { "label": "Minutes used", "value": "486" },
-      { "label": "Minutes left", "value": "114" }
-    ],
-    "seeAgents": "View agents →",
-    "panels": {
-      "agentsLabel": "Active agents",
-      "callsLabel": "Calls",
-      "minutesLabel": "Minutes",
-      "inbound": { "title": "Inbound calls", "agents": "2", "calls": "214", "minutes": "298" },
-      "outbound": { "title": "Outbound calls", "agents": "2", "calls": "128", "minutes": "188" }
-    },
-    "recent": {
-      "title": "Recent calls",
-      "columns": { "agent": "Agent", "date": "Date", "status": "Status", "minutes": "Minutes" },
-      "view": "View call",
-      "rows": [
-        { "agent": "Reception – after hours", "date": "26 Aug 2026, 20:41", "status": "Completed", "live": false, "minutes": "1.04" },
-        { "agent": "Reminders – day before", "date": "26 Aug 2026, 09:15", "status": "Completed", "live": false, "minutes": "0.38" },
-        { "agent": "Reception – main line", "date": "25 Aug 2026, 14:22", "status": "Completed", "live": false, "minutes": "2.11" },
-        { "agent": "Rebooking – cancellations", "date": "25 Aug 2026, 11:03", "status": "Completed", "live": false, "minutes": "0.52" },
-        { "agent": "Reception – main line", "date": "25 Aug 2026, 08:47", "status": "Live", "live": true, "minutes": "0.19" }
-      ]
-    },
-    "agents": {
-      "title": "Active agents",
-      "items": [
-        "Reception – main line",
-        "Reception – after hours",
-        "Reminders – day before",
-        "Rebooking – cancellations"
-      ]
-    },
-    "bookings": {
-      "title": "Bookings",
-      "items": [
-        { "name": "Emma Hansen", "type": "Hygiene visit", "time": "Fri 09:30" },
-        { "name": "Jonas Bak", "type": "Check-up", "time": "Fri 11:00" },
-        { "name": "Aisha Karim", "type": "Emergency slot", "time": "Mon 08:15" }
-      ]
-    },
-    "note": "Illustrative figures from a demo clinic – your own dashboard shows your agents and your calls."
+    "subtitle": "Every call lands in your dashboard with duration, status and outcome. This is one month at a dental clinic running four agents."
   },
   "howItWorks": {
     "title": "How you get started",

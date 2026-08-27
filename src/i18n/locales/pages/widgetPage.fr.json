@@ -311,31 +311,7 @@
         "title": "Voyez toutes les réservations",
         "description": "Les réservations arrivent directement dans votre calendrier et sont regroupées, pour ne rien manquer."
       }
-    ],
-    "dashboard": {
-      "url_label": "dashboard.aibooking.dk",
-      "live_label": "Données en direct",
-      "nav": ["Vue d'ensemble", "Appels", "Réservations", "Agents IA", "Configuration"],
-      "stats": {
-        "inbound_label": "Entrants aujourd'hui",
-        "outbound_label": "Sortants aujourd'hui",
-        "bookings_label": "Réservations",
-        "duration_label": "Durée moyenne"
-      },
-      "calls_title": "Conversations récentes",
-      "calls": [
-        { "time": "09:12", "caller": "Nouveau client", "outcome": "Réservé", "duration": "2:41" },
-        { "time": "10:04", "caller": "Rappel – Lars H.", "outcome": "Confirmé", "duration": "0:48" },
-        { "time": "11:37", "caller": "Morten K.", "outcome": "Réservé", "duration": "3:16" },
-        { "time": "13:20", "caller": "Numéro inconnu", "outcome": "Info donnée", "duration": "1:52" }
-      ],
-      "bookings_title": "Prochaines réservations",
-      "bookings": [
-        { "time": "Auj. 14:30", "name": "Mette Jensen", "type": "Consultation" },
-        { "time": "Demain 09:00", "name": "Anders Kok", "type": "Suivi" },
-        { "time": "Ven. 11:15", "name": "Sofie Bech", "type": "Nouveau client" }
-      ]
-    }
+    ]
   },
   "faqSection": {
     "title": "Questions fréquentes",

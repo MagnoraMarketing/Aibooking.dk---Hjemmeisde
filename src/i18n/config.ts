@@ -110,6 +110,12 @@ import inboundOutboundPagePt from './locales/pages/inboundOutboundPage.pt.json';
 import inboundOutboundPageFr from './locales/pages/inboundOutboundPage.fr.json';
 import inboundOutboundPageEs from './locales/pages/inboundOutboundPage.es.json';
 
+import clinicDashboardDa from './locales/shared/clinicDashboard.da.json';
+import clinicDashboardEn from './locales/shared/clinicDashboard.en.json';
+import clinicDashboardPt from './locales/shared/clinicDashboard.pt.json';
+import clinicDashboardFr from './locales/shared/clinicDashboard.fr.json';
+import clinicDashboardEs from './locales/shared/clinicDashboard.es.json';
+
 import trialPageDa from './locales/pages/trialPage.da.json';
 import trialPageEn from './locales/pages/trialPage.en.json';
 import trialPagePt from './locales/pages/trialPage.pt.json';
@@ -140,11 +146,15 @@ const PAGE_NAMESPACES = [
   'inboundOutboundPage',
 ] as const;
 
+// Namespaces for components rendered on more than one page, so the two copies
+// can't drift apart.
+const SHARED_NAMESPACES = ['clinicDashboard'] as const;
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    ns: ['common', ...PAGE_NAMESPACES],
+    ns: ['common', ...PAGE_NAMESPACES, ...SHARED_NAMESPACES],
     defaultNS: 'common',
     resources: {
       da: {
@@ -167,6 +177,7 @@ i18n
         blogPostPage: blogPostPageDa,
         trialPage: trialPageDa,
         inboundOutboundPage: inboundOutboundPageDa,
+        clinicDashboard: clinicDashboardDa,
       },
       en: {
         common: commonEn,
@@ -188,6 +199,7 @@ i18n
         blogPostPage: blogPostPageEn,
         trialPage: trialPageEn,
         inboundOutboundPage: inboundOutboundPageEn,
+        clinicDashboard: clinicDashboardEn,
       },
       pt: {
         common: commonPt,
@@ -209,6 +221,7 @@ i18n
         blogPostPage: blogPostPagePt,
         trialPage: trialPagePt,
         inboundOutboundPage: inboundOutboundPagePt,
+        clinicDashboard: clinicDashboardPt,
       },
       fr: {
         common: commonFr,
@@ -230,6 +243,7 @@ i18n
         blogPostPage: blogPostPageFr,
         trialPage: trialPageFr,
         inboundOutboundPage: inboundOutboundPageFr,
+        clinicDashboard: clinicDashboardFr,
       },
       es: {
         common: commonEs,
@@ -251,6 +265,7 @@ i18n
         blogPostPage: blogPostPageEs,
         trialPage: trialPageEs,
         inboundOutboundPage: inboundOutboundPageEs,
+        clinicDashboard: clinicDashboardEs,
       },
     },
     supportedLngs: SUPPORTED_LANGUAGES as unknown as string[],

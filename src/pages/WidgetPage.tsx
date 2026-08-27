@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   Zap, Mic, Calendar, Clock, CheckCircle, MessageSquare, PhoneCall, Star, Shield, Globe,
-  ChevronDown, ArrowRight, Phone, Play, PhoneIncoming, PhoneOutgoing, LayoutDashboard,
+  ChevronDown, ArrowRight, Phone, LayoutDashboard,
   SlidersHorizontal, Headphones, CalendarCheck,
 } from 'lucide-react';
 import Navigation from '../components/Navigation';
@@ -11,6 +11,7 @@ import SEO from '../components/SEO';
 import { localizedPrice } from '../utils/currency';
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath } from '../utils/localePaths';
+import ClinicDashboardMock from '../components/ClinicDashboardMock';
 import type { NavigatePage } from '../types/navigation';
 
 const WIDGET_PLAN_PRICE_DKK = 999;
@@ -43,135 +44,6 @@ interface PricingPlanText {
   minutes: string;
   features: string[];
   cta: string;
-}
-
-interface MockCall { time: string; caller: string; outcome: string; duration: string }
-interface MockBooking { time: string; name: string; type: string }
-
-// Illustrative mock-up of the customer dashboard, built in markup rather than
-// as a screenshot so it stays sharp, responsive and translated.
-function DashboardMock() {
-  const { t } = useTranslation('widgetPage');
-
-  const navItems = t('phoneSection.dashboard.nav', { returnObjects: true }) as string[];
-  const navIcons = [LayoutDashboard, Phone, CalendarCheck, Mic, SlidersHorizontal];
-  const calls = t('phoneSection.dashboard.calls', { returnObjects: true }) as MockCall[];
-  const bookings = t('phoneSection.dashboard.bookings', { returnObjects: true }) as MockBooking[];
-  // Inbound/outbound alternate down the list; colours match the stat tiles above.
-  const callIsInbound = [true, false, true, true];
-  const outcomeStyle = [
-    'bg-green-500/15 text-green-400',
-    'bg-brand-500/20 text-brand-300',
-    'bg-green-500/15 text-green-400',
-    'bg-accent-500/15 text-accent-300',
-  ];
-
-  const stats = [
-    { label: t('phoneSection.dashboard.stats.inbound_label'), value: '38', dot: 'bg-green-400' },
-    { label: t('phoneSection.dashboard.stats.outbound_label'), value: '24', dot: 'bg-brand-400' },
-    { label: t('phoneSection.dashboard.stats.bookings_label'), value: '19', dot: 'bg-accent-400' },
-    { label: t('phoneSection.dashboard.stats.duration_label'), value: '2:14', dot: 'bg-ink-400' },
-  ];
-
-  return (
-    <div className="relative">
-      <div className="bg-ink-900 rounded-3xl shadow-2xl overflow-hidden border border-ink-700">
-        {/* Browser chrome */}
-        <div className="bg-ink-800 px-5 py-3.5 flex items-center gap-3 border-b border-ink-700">
-          <div className="flex gap-2">
-            <div className="w-3 h-3 rounded-full bg-red-500" />
-            <div className="w-3 h-3 rounded-full bg-yellow-500" />
-            <div className="w-3 h-3 rounded-full bg-green-500" />
-          </div>
-          <div className="flex-1 bg-ink-700 rounded-lg px-4 py-1.5 text-[11px] text-ink-400 ml-3 truncate">
-            {t('phoneSection.dashboard.url_label')}
-          </div>
-        </div>
-
-        <div className="flex">
-          {/* Sidebar */}
-          <div className="hidden sm:block w-36 bg-ink-950/60 border-r border-ink-800 py-4 px-2.5 space-y-1">
-            {navItems.map((item, i) => {
-              const Icon = navIcons[i];
-              return (
-                <div
-                  key={i}
-                  className={`flex items-center gap-2 px-2.5 py-2 rounded-lg text-[11px] font-medium ${
-                    i === 1 ? 'bg-brand-600 text-white' : 'text-ink-400'
-                  }`}
-                >
-                  <Icon className="w-3.5 h-3.5 flex-shrink-0" />
-                  <span className="truncate">{item}</span>
-                </div>
-              );
-            })}
-          </div>
-
-          <div className="flex-1 p-4 space-y-3 min-w-0">
-            {/* Stat tiles */}
-            <div className="grid grid-cols-2 gap-2.5">
-              {stats.map((stat, i) => (
-                <div key={i} className="bg-ink-800 rounded-xl p-3 border border-ink-700">
-                  <div className="flex items-center gap-1.5 mb-1">
-                    <div className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${stat.dot}`} />
-                    <div className="text-[10px] text-ink-400 truncate">{stat.label}</div>
-                  </div>
-                  <div className="text-xl font-bold text-white">{stat.value}</div>
-                </div>
-              ))}
-            </div>
-
-            {/* Recent calls with playback */}
-            <div className="bg-ink-800 rounded-xl p-3.5 border border-ink-700">
-              <div className="text-[10px] text-ink-400 mb-2.5 font-semibold uppercase tracking-wider">
-                {t('phoneSection.dashboard.calls_title')}
-              </div>
-              <div className="space-y-2">
-                {calls.map((call, i) => {
-                  const DirIcon = callIsInbound[i] ? PhoneIncoming : PhoneOutgoing;
-                  return (
-                    <div key={i} className="flex items-center gap-2.5">
-                      <DirIcon className={`w-3.5 h-3.5 flex-shrink-0 ${callIsInbound[i] ? 'text-green-400' : 'text-brand-300'}`} />
-                      <span className="text-[10px] text-ink-400 w-9 flex-shrink-0">{call.time}</span>
-                      <span className="text-[11px] text-ink-300 truncate flex-1 min-w-0">{call.caller}</span>
-                      <span className="text-[10px] text-ink-400 hidden md:inline flex-shrink-0">{call.duration}</span>
-                      <span className={`text-[10px] font-medium px-2 py-0.5 rounded-full flex-shrink-0 ${outcomeStyle[i]}`}>
-                        {call.outcome}
-                      </span>
-                      <div className="w-6 h-6 rounded-full bg-ink-700 flex items-center justify-center flex-shrink-0">
-                        <Play className="w-2.5 h-2.5 text-ink-300 fill-current" />
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-
-            {/* Upcoming bookings */}
-            <div className="bg-ink-800 rounded-xl p-3.5 border border-ink-700">
-              <div className="text-[10px] text-ink-400 mb-2.5 font-semibold uppercase tracking-wider">
-                {t('phoneSection.dashboard.bookings_title')}
-              </div>
-              <div className="space-y-2">
-                {bookings.map((booking, i) => (
-                  <div key={i} className="flex items-center gap-2.5">
-                    <div className="w-1.5 h-1.5 rounded-full bg-accent-400 flex-shrink-0" />
-                    <span className="text-[10px] text-ink-400 flex-shrink-0">{booking.time}</span>
-                    <span className="text-[11px] text-white truncate flex-1 min-w-0">{booking.name}</span>
-                    <span className="text-[10px] text-ink-400 truncate hidden md:inline">{booking.type}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="absolute -top-3 -right-3 bg-green-500 text-white text-[11px] font-bold px-3.5 py-1.5 rounded-full shadow-lg">
-        {t('phoneSection.dashboard.live_label')}
-      </div>
-    </div>
-  );
 }
 
 function PricingSection() {
@@ -319,14 +191,16 @@ function PhoneAssistantSection() {
         </div>
 
         {/* Managed from one dashboard */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
-          <div>
-            <h3 className="text-2xl md:text-3xl font-bold text-ink-900 mb-4">
-              {t('phoneSection.dashboardTitle')}
-            </h3>
-            <p className="text-ink-600 leading-relaxed mb-8">
-              {t('phoneSection.dashboardDescription')}
-            </p>
+        <div className="mb-20">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-12 items-start mb-12">
+            <div>
+              <h3 className="text-2xl md:text-3xl font-bold text-ink-900 mb-4">
+                {t('phoneSection.dashboardTitle')}
+              </h3>
+              <p className="text-ink-600 leading-relaxed">
+                {t('phoneSection.dashboardDescription')}
+              </p>
+            </div>
             <div className="grid sm:grid-cols-2 gap-5">
               {benefits.map((benefit, i) => {
                 const Icon = benefitIcons[i];
@@ -345,7 +219,9 @@ function PhoneAssistantSection() {
             </div>
           </div>
 
-          <DashboardMock />
+          {/* Full width: the frame is too detailed to read in a half column. */}
+          <ClinicDashboardMock />
+          <p className="text-center text-sm text-ink-400 mt-6">{t('clinicDashboard:note')}</p>
         </div>
 
         {/* Phone plans */}

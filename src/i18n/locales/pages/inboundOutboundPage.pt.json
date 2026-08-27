@@ -115,6 +115,61 @@
       ]
     }
   },
+  "dashboard": {
+    "badge": "Painel",
+    "title": "E é assim que fica depois",
+    "subtitle": "Cada chamada chega ao seu painel com duração, estado e resultado. Isto é um mês numa clínica dentária com quatro agentes ativos.",
+    "appTabs": ["Painel", "Recebidas", "Efetuadas", "Agenda", "Análises"],
+    "windowLabel": "app.aibooking.dk/painel",
+    "heading": "Painel",
+    "headingSub": "Acompanhe o desempenho dos vossos agentes de IA",
+    "org": "Clínica Sund · Dentária",
+    "period": "Este mês",
+    "stats": [
+      { "label": "Chamadas no total", "value": "342" },
+      { "label": "Agentes ativos", "value": "4" },
+      { "label": "Minutos usados", "value": "486" },
+      { "label": "Minutos restantes", "value": "114" }
+    ],
+    "seeAgents": "Ver agentes →",
+    "panels": {
+      "agentsLabel": "Agentes ativos",
+      "callsLabel": "Chamadas",
+      "minutesLabel": "Minutos",
+      "inbound": { "title": "Chamadas recebidas", "agents": "2", "calls": "214", "minutes": "298" },
+      "outbound": { "title": "Chamadas efetuadas", "agents": "2", "calls": "128", "minutes": "188" }
+    },
+    "recent": {
+      "title": "Últimas chamadas",
+      "columns": { "agent": "Agente", "date": "Data", "status": "Estado", "minutes": "Minutos" },
+      "view": "Ver chamada",
+      "rows": [
+        { "agent": "Receção – fora de horas", "date": "26 ago. 2026, 20:41", "status": "Terminada", "live": false, "minutes": "1.04" },
+        { "agent": "Lembretes – véspera", "date": "26 ago. 2026, 09:15", "status": "Terminada", "live": false, "minutes": "0.38" },
+        { "agent": "Receção – linha principal", "date": "25 ago. 2026, 14:22", "status": "Terminada", "live": false, "minutes": "2.11" },
+        { "agent": "Remarcação – cancelamentos", "date": "25 ago. 2026, 11:03", "status": "Terminada", "live": false, "minutes": "0.52" },
+        { "agent": "Receção – linha principal", "date": "25 ago. 2026, 08:47", "status": "Em curso", "live": true, "minutes": "0.19" }
+      ]
+    },
+    "agents": {
+      "title": "Agentes ativos",
+      "items": [
+        "Receção – linha principal",
+        "Receção – fora de horas",
+        "Lembretes – véspera",
+        "Remarcação – cancelamentos"
+      ]
+    },
+    "bookings": {
+      "title": "Marcações",
+      "items": [
+        { "name": "Marta Ferreira", "type": "Destartarização", "time": "sex. 09:30" },
+        { "name": "Jonas Bak", "type": "Consulta de controlo", "time": "sex. 11:00" },
+        { "name": "Aisha Karim", "type": "Urgência", "time": "seg. 08:15" }
+      ]
+    },
+    "note": "Números ilustrativos de uma clínica de demonstração – o seu painel mostra os seus agentes e as suas chamadas."
+  },
   "howItWorks": {
     "title": "Como começar",
     "subtitle": "Da primeira conversa até à voz de IA em funcionamento passa normalmente menos de uma semana.",

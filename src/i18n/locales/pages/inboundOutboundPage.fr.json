@@ -1,208 +1,290 @@
 {
   "seo": {
-    "title": "Appels Entrants et Sortants | Assistant Téléphonique IA | Aibooking.dk",
-    "description": "Automatisez les appels entrants et sortants avec notre assistant téléphonique IA. Service client 24/7, communication automatique, réservations et rappels. Économisez jusqu'à 80% sur le support téléphonique.",
-    "keywords": "appels entrants sortants, assistant téléphonique IA, appels automatiques, service client, réservations"
+    "title": "Inbound-Outbound AI Voice – l'IA qui répond au téléphone | Aibooking.dk",
+    "description": "Inbound-Outbound AI Voice répond à vos appels entrants et rappelle vos clients. Réservations, rappels et relances – automatiquement, 24h/24.",
+    "keywords": "inbound outbound ai voice, assistant téléphonique ia, agent vocal ia, appels entrants, appels sortants, permanence téléphonique automatisée, réceptionniste ia, voicebot, réservation par téléphone"
+  },
+  "breadcrumb": {
+    "home": "Accueil",
+    "current": "Inbound-Outbound AI Voice"
   },
   "hero": {
-    "badge": "Appels Entrants et Sortants",
-    "title": "Assistant Téléphonique IA pour Appels Entrants et Sortants",
-    "subtitle": "Automatisez tous vos appels téléphoniques 24/7. Répondez aux appels professionnellement, communiquez avec vos clients automatiquement, et prenez rendez-vous sans intervention humaine.",
-    "cta_demo": "Réservez une démo gratuite",
-    "cta_pricing": "Voir les prix",
+    "badge": "Inbound-Outbound AI Voice",
+    "title": "Inbound-Outbound AI Voice",
+    "titleAccent": "L'IA qui répond et qui appelle",
+    "subtitle": "Une seule voix gère les deux sens : elle répond à vos appels entrants avec professionnalisme et appelle vos clients pour les confirmations, les rappels et les relances. 24h/24, sans attente.",
+    "cta_demo": "Réserver une démo gratuite",
+    "cta_example": "Écouter un exemple",
+    "cta_pricing": "Voir les tarifs",
     "stats": {
-      "inbound": "Appels Entrants",
-      "outbound": "Appels Sortants",
-      "roi": "80% Économies"
+      "answer": { "value": "2 sec.", "label": "Délai moyen de décroché" },
+      "availability": { "value": "24/7", "label": "Soirs et week-ends compris" },
+      "saving": { "value": "80%", "label": "Moins cher qu'un réceptionniste" }
+    },
+    "card": {
+      "status": "Appel en cours",
+      "direction": "Entrant · Numéro inconnu",
+      "timer": "00:51",
+      "transcriptLabel": "Transcription en direct",
+      "line": "C'est réservé pour demain à 8h30. Vous recevez un SMS de confirmation tout de suite.",
+      "actions": ["Rendez-vous pris", "SMS envoyé", "Dossier créé"]
     }
   },
   "whatIs": {
-    "title": "Qu'est-ce que l'IA pour Appels Entrants et Sortants?",
-    "para1": "Un assistant téléphonique IA est une réceptionniste virtuelle intelligente qui gère complètement les appels entrants et sortants. Votre assistant IA répond profesionnellement, capture les informations clients, réserve des rendez-vous, et peut communiquer avec les clients automatiquement.",
-    "para2": "Contrairement à une réceptionniste traditionnelle, notre IA fonctionne 24/7 sans pause. Votre équipe consacre plus de temps au travail précieux, vos clients reçoivent un service rapide et professionnel, et vous économisez des coûts importants.",
-    "para3": "Choisissez de gérer uniquement les appels entrants (service client), sortants (communication), ou une solution combinée.",
+    "title": "Deux sens, une seule voix IA",
+    "para1": "Inbound-Outbound AI Voice est un assistant téléphonique IA qui travaille dans les deux sens. En entrant, il accueille vos clients, comprend l'objet de l'appel, prend les rendez-vous et transmet les dossiers importants à votre équipe. En sortant, il appelle de lui-même : confirmations, rappels, relances de devis ou annonce d'un créneau qui vient de se libérer.",
+    "para2": "Contrairement à un réceptionniste, il ne prend jamais de congés. Il décroche à la deuxième sonnerie à 20 heures, il prend cinq appels en même temps aux heures de pointe, et il n'oublie jamais de rappeler. Votre équipe n'est plus interrompue et aucun client ne finit sur la messagerie.",
+    "para3": "Vous choisissez l'étendue : entrants seulement, sortants seulement, ou les deux sur le même numéro.",
     "inbound": {
-      "title": "Appels Entrants",
-      "desc": "L'IA répond à tous les appels profesionnellement, capture les informations, prend les rendez-vous, répond aux questions, transfère les cas importants"
+      "title": "Entrants",
+      "desc": "Décroche en quelques secondes, réserve dans votre agenda, traite les questions qui reviennent sans cesse et transfère à votre équipe quand le dossier exige un humain."
     },
     "outbound": {
-      "title": "Appels Sortants",
-      "desc": "L'IA appelle automatiquement vos clients - rappels, confirmations, offres, annonces - complètement personnalisé"
+      "title": "Sortants",
+      "desc": "Appelle pour les confirmations, les rappels la veille, les relances de devis et le report des rendez-vous annulés – en votre nom et avec vos mots."
     }
   },
+  "example": {
+    "badge": "Exemple",
+    "title": "À quoi ressemble un vrai appel",
+    "subtitle": "Deux conversations réelles – une entrante, une sortante. Mot pour mot telles que l'IA les mène, avec tout ce qu'elle a réglé au passage.",
+    "tabs": {
+      "inbound": "Appel entrant",
+      "outbound": "Appel sortant"
+    },
+    "chatLabels": {
+      "ai": "AI Voice",
+      "customer": "Client"
+    },
+    "inbound": {
+      "situationLabel": "La situation",
+      "situation": "20h41, une heure et demie après la fermeture. Normalement, cet appel finirait sur la messagerie – et le client passerait au plombier suivant sur sa liste.",
+      "caller": "Numéro inconnu",
+      "meta": "Entrant · 20h41 · Plomberie du Nord",
+      "chat": [
+        { "role": "ai", "time": "0:02", "text": "Vous êtes en ligne avec Aibooking, de Plomberie du Nord. Que puis-je faire pour vous ?" },
+        { "role": "customer", "time": "0:07", "text": "Bonjour. J'ai un tuyau qui goutte sous l'évier de la cuisine. Vous pouvez passer ?" },
+        { "role": "ai", "time": "0:12", "text": "Nous pouvons nous en occuper. Y a-t-il de l'eau au sol en ce moment, ou s'agit-il d'un goutte-à-goutte lent ?" },
+        { "role": "customer", "time": "0:19", "text": "C'est un goutte-à-goutte lent. J'ai mis un seau dessous." },
+        { "role": "ai", "time": "0:24", "text": "Très bien. Je réserve donc une intervention normale plutôt qu'une urgence, cela vous revient moins cher. J'ai demain à 8h30 ou jeudi à 13h." },
+        { "role": "customer", "time": "0:35", "text": "Demain 8h30, ça me va très bien." },
+        { "role": "ai", "time": "0:39", "text": "Parfait. Puis-je avoir l'adresse et un numéro de portable pour la confirmation ?" },
+        { "role": "customer", "time": "0:45", "text": "14 rue du Sud, à Lille." },
+        { "role": "ai", "time": "0:51", "text": "Merci. C'est réservé pour demain à 8h30. Vous recevez le SMS de confirmation maintenant et un rappel une heure avant." }
+      ],
+      "outcomesLabel": "Ce que l'IA a fait au passage",
+      "outcomes": [
+        "A décroché en deux secondes – une heure et demie après la fermeture",
+        "A évalué l'urgence du dossier et choisi le bon type d'intervention",
+        "A trouvé un créneau libre dans l'agenda du bon technicien",
+        "A noté l'adresse et le numéro directement sur le dossier",
+        "A envoyé la confirmation et programmé le rappel automatiquement"
+      ],
+      "resultsLabel": "Résultat",
+      "results": [
+        { "label": "Durée", "value": "1:04" },
+        { "label": "Issue", "value": "Réservé demain à 8h30" },
+        { "label": "Dossier créé", "value": "#4821 · Fuite de tuyau" }
+      ]
+    },
+    "outbound": {
+      "situationLabel": "La situation",
+      "situation": "9h15 la veille. L'IA passe elle-même en revue les rendez-vous du lendemain, si bien que les annulations sont détectées à temps au lieu de devenir des absences.",
+      "caller": "Marie Lefèvre",
+      "meta": "Sortant · 9h15 · Clinique Sund",
+      "chat": [
+        { "role": "ai", "time": "0:03", "text": "Bonjour Marie. Aibooking à l'appareil, de la part de la Clinique Sund. Je vous appelle au sujet de votre rendez-vous de demain à 10h – cela vous convient toujours ?" },
+        { "role": "customer", "time": "0:11", "text": "Oh, je l'avais complètement oublié. En fait je travaille jusqu'à 15h." },
+        { "role": "ai", "time": "0:18", "text": "Aucun problème. Je peux vous proposer demain à 15h45, ou vendredi à 9h30. Qu'est-ce qui vous arrange le plus ?" },
+        { "role": "customer", "time": "0:26", "text": "Vendredi 9h30, s'il vous plaît." },
+        { "role": "ai", "time": "0:30", "text": "Votre rendez-vous est déplacé à vendredi 9h30. Je vous envoie un SMS avec le nouvel horaire. Bonne journée." }
+      ],
+      "outcomesLabel": "Ce que l'IA a fait au passage",
+      "outcomes": [
+        "A passé en revue les rendez-vous du lendemain sans que personne ait à y penser",
+        "A détecté l'annulation la veille au lieu du jour même",
+        "A proposé un nouveau créneau immédiatement, le client encore en ligne",
+        "A libéré le créneau de 10h et l'a proposé au suivant sur la liste d'attente",
+        "A mis à jour l'agenda et envoyé la nouvelle confirmation"
+      ],
+      "resultsLabel": "Résultat",
+      "results": [
+        { "label": "Durée", "value": "0:38" },
+        { "label": "Issue", "value": "Déplacé à vendredi 9h30" },
+        { "label": "Évité", "value": "Une absence · créneau reproposé" }
+      ]
+    }
+  },
+  "howItWorks": {
+    "title": "Comment démarrer",
+    "subtitle": "De la première conversation à la voix IA en production, il faut généralement moins d'une semaine.",
+    "steps": [
+      {
+        "title": "Nous raccordons votre numéro",
+        "description": "Vous gardez votre numéro actuel. Nous mettons en place un renvoi pour que l'IA prenne exactement les appels que vous choisissez : tous, uniquement en dehors des horaires, ou seulement quand la ligne est occupée."
+      },
+      {
+        "title": "L'IA apprend votre métier",
+        "description": "Nous l'entraînons sur vos prestations, vos tarifs, vos horaires et les questions que vos clients posent réellement. Vous validez la formulation avant la mise en ligne."
+      },
+      {
+        "title": "Agenda et systèmes connectés",
+        "description": "Google Calendar, Outlook ou votre logiciel métier. L'IA ne réserve que des créneaux réellement libres et inscrit le rendez-vous au même endroit que d'habitude."
+      },
+      {
+        "title": "Vous suivez tout dans le tableau de bord",
+        "description": "Chaque appel est enregistré, transcrit et résumé. Vous pouvez toujours revenir en arrière et voir exactement ce qui a été dit et convenu."
+      }
+    ]
+  },
   "features": {
-    "title": "Fonctionnalités Avancées",
-    "subtitle": "Tout ce dont vous avez besoin pour la gestion automatisée des appels",
+    "title": "Ce que sait faire la voix IA",
+    "subtitle": "Tout ce qu'il faut pour que le téléphone soit couvert, dans les deux sens.",
     "items": [
       {
-        "title": "Reconnaissance Vocale Naturelle",
-        "description": "L'IA comprend le langage naturel sans commandes. Elle suit les conversations naturellement et pose des questions pertinentes."
+        "title": "Répond à tous les appels entrants",
+        "description": "Décroche en quelques secondes, comprend l'objet de l'appel, prend les rendez-vous et répond aux questions récurrentes. Aucun client ne finit sur la messagerie."
       },
       {
-        "title": "Gestion des Appels Entrants",
-        "description": "Répond profesionnellement, capture les informations, gère les réservations, répond aux FAQ, transfère à votre équipe."
+        "title": "Appelle vos clients de lui-même",
+        "description": "Confirmations, rappels la veille, relances de devis et report des rendez-vous annulés – composés automatiquement, en votre nom et avec vos mots."
       },
       {
-        "title": "Appels Sortants",
-        "description": "Appelle automatiquement avec rappels, confirmations, suivis ou campagnes - complètement personnalisé et professionnel."
+        "title": "Conversation naturelle",
+        "description": "Comprend la parole ordinaire, les accents et les interruptions. Le client ne tape pas 1 pour réserver : il parle, comme à une personne."
       },
       {
-        "title": "Minutage Intelligent",
-        "description": "L'IA choisit les moments optimaux, respecte les préférences clients, s'adapte selon les taux de réponse."
+        "title": "Appels simultanés illimités",
+        "description": "Cinq clients peuvent appeler en même temps sans file d'attente. Vous payez le temps de parole, pas la capacité : les heures de pointe ne coûtent pas plus cher."
       },
       {
-        "title": "Intégration Calendrier",
-        "description": "Se synchronise avec Google Calendar, Outlook et systèmes de réservation. Sans saisie manuelle."
+        "title": "Réserve directement dans votre agenda",
+        "description": "Synchronisé avec Google Calendar, Outlook et les logiciels métier courants. L'IA ne voit que les créneaux réellement libres : aucun doublon."
       },
       {
-        "title": "Rappels SMS",
-        "description": "Combine les appels aux SMS pour maximum d'efficacité. Réduit les no-shows jusqu'à 60%."
+        "title": "Confirmation et rappel par SMS",
+        "description": "L'appel est suivi d'un SMS avec l'heure et l'adresse, puis d'un rappel avant la visite. C'est cette combinaison qui fait chuter les absences."
       },
       {
-        "title": "Enregistrement et Résumés",
-        "description": "Tous les appels sont enregistrés et résumés. Voyez exactement ce qui a été convenu."
+        "title": "Enregistrement, résumé et transcription",
+        "description": "Chaque appel est conservé avec sa transcription complète et un résumé court de ce qui a été convenu. Vous pouvez toujours documenter l'échange après coup."
       },
       {
-        "title": "Routage Intelligent",
-        "description": "Transfère automatiquement aux membres de l'équipe selon leur expertise."
+        "title": "Transfère quand un humain est nécessaire",
+        "description": "L'IA reconnaît les cas qu'elle ne doit pas trancher – réclamations, urgences, négociations – et transfère au bon collègue ou prend un message."
       },
       {
-        "title": "RGPD et Sécurité",
-        "description": "Conformité complète RGPD et chiffrement de bout en bout. Vos données toujours sécurisées."
+        "title": "RGPD et sécurité des données",
+        "description": "Les données sont traitées dans l'UE avec stockage chiffré, règles de suppression convenues et contrat de sous-traitance. Les enregistrements n'appartiennent qu'à vous."
       }
     ]
   },
   "useCases": {
-    "title": "Cas d'Usage",
-    "subtitle": "Parfait pour les entreprises voulant automatiser toute communication téléphonique",
+    "title": "Qui l'utilise et pour quoi",
+    "subtitle": "Les deux mêmes sens résolvent des problèmes très différents selon le secteur.",
     "items": [
       {
-        "title": "Cliniques et Dentistes",
-        "description": "Répondez aux appels de rendez-vous, envoyez des rappels SMS, rappelez les absents. Réduisez les no-shows de 20% à 5%."
+        "title": "Cabinets médicaux et dentaires",
+        "description": "Entrants : prise et report de rendez-vous sans interrompre l'accueil. Sortants : rappel la veille et nouveau créneau pour qui annule. C'est là que les absences baissent le plus."
       },
       {
-        "title": "Artisans et Installateurs",
-        "description": "Recevez les demandes, confirmez les visites, envoyez les rappels. Ne manquez jamais un appel client."
+        "title": "Artisans et installateurs",
+        "description": "Entrants : les appels sont pris pendant que vous avez les mains dans une installation. Sortants : confirmation des visites du lendemain et information en cas de retard du technicien."
       },
       {
-        "title": "Entreprises de Vente",
-        "description": "Appelez les prospects avec des offres personnalisées, comprenez leurs besoins, reservez rendez-vous automatiquement."
+        "title": "Vente et suivi de leads",
+        "description": "Sortants : appelez les nouveaux leads en quelques minutes, cernez le besoin et réservez le rendez-vous dans l'agenda du commercial tant que l'intérêt est chaud."
       },
       {
-        "title": "Centres de Service",
-        "description": "Gérez des milliers d'appels sans embaucher. Répondez aux FAQ, cherchez les commandes, résolvez les plaintes."
+        "title": "Service client et support",
+        "description": "Entrants : absorbez le pic de volume avec les questions qui reviennent – suivi de commande, horaires, tarifs – et transmettez le reste avec le contexte."
       },
       {
-        "title": "E-commerce",
-        "description": "Appelez les clients avec confirmation de commande, demandez les préférences, gérez les retours par téléphone."
+        "title": "Boutiques en ligne et e-commerce",
+        "description": "Sortants : appelez en cas de paiement échoué ou de colis non retiré. Entrants : répondez aux questions de livraison et de retour sans attente en haute saison."
       },
       {
-        "title": "Gestion d'Événements",
-        "description": "Confirmez les participants, envoyez des rappels, collectez les commentaires après."
+        "title": "Cabinets et conseil",
+        "description": "Entrants : un accueil professionnel des appels clients, avec messages pris et réunions réservées. Sortants : confirmation des rendez-vous et relance des documents envoyés."
       }
     ]
   },
   "comparison": {
-    "title": "Entrants vs Sortants – Lequel Vous Convient?",
-    "feature": "Fonctionnalité",
+    "title": "Entrants ou sortants : de quoi avez-vous besoin ?",
+    "subtitle": "La plupart commencent par un sens et activent l'autre ensuite. Même numéro, même voix.",
+    "feature": "Tâche",
     "inbound": "Entrants",
     "outbound": "Sortants",
     "items": [
-      {
-        "feature": "Répondre aux appels clients",
-        "inbound": true,
-        "outbound": false
-      },
-      {
-        "feature": "Appeler les clients",
-        "inbound": false,
-        "outbound": true
-      },
-      {
-        "feature": "Capturer les informations",
-        "inbound": true,
-        "outbound": true
-      },
-      {
-        "feature": "Prendre des rendez-vous",
-        "inbound": true,
-        "outbound": true
-      },
-      {
-        "feature": "Envoyer des rappels",
-        "inbound": false,
-        "outbound": true
-      },
-      {
-        "feature": "Prospection commerciale",
-        "inbound": false,
-        "outbound": true
-      },
-      {
-        "feature": "Support client",
-        "inbound": true,
-        "outbound": false
-      },
-      {
-        "feature": "Confirmation de commande",
-        "inbound": true,
-        "outbound": true
-      }
+      { "feature": "Répondre aux appels des clients", "inbound": true, "outbound": false },
+      { "feature": "Appeler les clients", "inbound": false, "outbound": true },
+      { "feature": "Réserver des rendez-vous dans l'agenda", "inbound": true, "outbound": true },
+      { "feature": "Enregistrer les coordonnées client", "inbound": true, "outbound": true },
+      { "feature": "Rappel la veille", "inbound": false, "outbound": true },
+      { "feature": "Relance des leads et des devis", "inbound": false, "outbound": true },
+      { "feature": "Répondre aux questions récurrentes", "inbound": true, "outbound": false },
+      { "feature": "Transférer à un collègue", "inbound": true, "outbound": false },
+      { "feature": "Reprogrammer un rendez-vous annulé", "inbound": true, "outbound": true },
+      { "feature": "Enregistrement et résumé", "inbound": true, "outbound": true }
     ]
   },
   "pricing": {
-    "title": "Tarification Simple et Transparente",
-    "subtitle": "Payez uniquement ce que vous utilisez - y compris les appels et toutes les fonctionnalités",
-    "demo": {
-      "name": "Démo",
-      "label": "7 jours gratuits · 75 min"
-    },
-    "starter": {
-      "name": "Starter"
-    },
-    "professional": {
-      "name": "Professional"
-    },
-    "enterprise": {
-      "name": "Enterprise"
-    },
+    "title": "Tarifs",
+    "subtitle": "Le temps de parole et toutes les fonctionnalités sont inclus. Sans engagement ni frais de mise en service.",
+    "perMonth": "/mois",
+    "demo": { "name": "Démo", "label": "7 jours gratuits · 75 min" },
+    "starter": { "name": "Starter", "label": "200 min/mois inclus" },
+    "professional": { "name": "Professional", "label": "600 min/mois inclus" },
+    "enterprise": { "name": "Enterprise", "label": "2 000 min/mois inclus" },
     "free": "Gratuit",
-    "mostPopular": "Plus Populaire",
-    "cta": "Commencer"
+    "mostPopular": "Le plus choisi",
+    "cta": "Commencer",
+    "note": "Toutes les formules incluent les appels entrants et sortants, l'intégration d'agenda, les SMS et l'enregistrement."
   },
-  "faqTitle": "Questions Fréquemment Posées",
+  "cta": {
+    "title": "Écoutez votre propre voix IA avant de décider",
+    "subtitle": "Nous préparons une démo avec vos prestations et vos horaires, pour que vous puissiez appeler et entendre exactement comment elle répond à vos clients.",
+    "primary": "Réserver une démo gratuite",
+    "secondary": "Voir les tarifs"
+  },
+  "faqTitle": "Questions fréquentes",
+  "faqSubtitle": "Ce qu'on nous demande le plus avant la mise en service d'une voix IA.",
   "faq": [
     {
-      "question": "Quelle est la différence entre appels entrants et sortants?",
-      "answer": "Entrants = clients vous appellent. L'IA répond et résout. Sortants = l'IA appelle clients avec rappels, confirmations ou campagnes. Utilisez les deux ou juste ce qui vous convient."
+      "question": "Quelle est la différence entre appels entrants et sortants ?",
+      "answer": "Entrant, c'est quand le client vous appelle : l'IA décroche, l'aide sur l'objet de son appel, puis réserve ou transfère. Sortant, c'est quand l'IA appelle d'elle-même, généralement pour des rappels, des confirmations ou la relance d'un devis. Vous pouvez utiliser un seul sens ou les deux sur le même numéro."
     },
     {
-      "question": "Combien d'appels peut gérer l'IA simultanément?",
-      "answer": "L'IA gère un nombre illimité d'appels simultanés. Vous payez uniquement pour le temps d'appel réel. Un réceptionniste gère 5-10 appels/jour; notre IA en gère des centaines."
+      "question": "Puis-je garder mon numéro de téléphone actuel ?",
+      "answer": "Oui. Vous gardez votre numéro et nous mettons en place un renvoi. Vous décidez quand l'IA prend le relais : sur tous les appels, uniquement en dehors des horaires, ou seulement quand la ligne est occupée ou reste sans réponse après un certain nombre de sonneries."
     },
     {
-      "question": "Fonctionne-t-il en français?",
-      "answer": "Oui, complètement optimisé pour le français. L'IA comprend le langage naturel. Nous supportons aussi le danois, l'anglais, l'espagnol, le portugais - l'IA s'adapte automatiquement."
+      "question": "Combien d'appels peut-elle traiter en même temps ?",
+      "answer": "Il n'y a pas de limite au nombre d'appels simultanés. Si dix clients appellent en même temps, les dix sont pris immédiatement. Vous payez le temps de parole réellement consommé, pas la capacité : un lundi matin chargé ne coûte pas plus cher en abonnement."
     },
     {
-      "question": "Peux-je écouter les appels après?",
-      "answer": "Oui, tous les appels sont enregistrés et résumés. Vous obtenez une transcription et pouvez écouter dans le tableau de bord. Vous avez aussi un court résumé de ce qui a été convenu."
+      "question": "Les clients entendent-ils que c'est une IA ?",
+      "answer": "La voix est naturelle, mais nous recommandons toujours qu'elle se présente comme un assistant numérique : c'est l'approche la plus honnête et celle que les clients accueillent le mieux. Vous décidez de la formulation exacte de l'accueil."
     },
     {
-      "question": "Et si un client a besoin de parler à une personne?",
-      "answer": "L'IA reconnaît automatiquement quand l'intervention humaine est nécessaire. L'appel peut être transféré directement ou l'IA prend un message pour un rappel."
+      "question": "Que se passe-t-il si l'IA ne peut pas aider ?",
+      "answer": "Elle est configurée pour reconnaître ses propres limites. En cas de réclamation, d'urgence ou de question sans réponse, elle transfère au bon collègue ou prend un message avec le nom, le numéro et l'objet, pour que vous puissiez rappeler."
     },
     {
-      "question": "Est-il légal de faire des appels automatisés?",
-      "answer": "Oui, en respectant le RGPD. Vous avez besoin du consentement du client et ils peuvent se désabonner. Notre système vous aide à gérer cela correctement."
+      "question": "Les appels sortants automatisés sont-ils légaux ?",
+      "answer": "Oui, dès lors que vous respectez le RGPD et la réglementation sur la prospection. Les appels de service aux clients existants – rappels, confirmations, report de rendez-vous – ne nécessitent pas de consentement distinct. La prospection commerciale, si, et le destinataire doit toujours pouvoir refuser d'autres appels. Le système gère les désinscriptions pour vous."
     },
     {
-      "question": "Combien d'argent vais-je économiser?",
-      "answer": "Une réceptionniste à temps plein coûte typiquement €2000-2700/mois. Notre IA coûte €200-800/mois. C'est 80-95% d'économies avec meilleur service 24/7."
+      "question": "Fonctionne-t-elle dans d'autres langues que le français ?",
+      "answer": "Oui. Outre le français, l'IA gère notamment l'anglais, le danois, l'allemand, l'espagnol et le portugais, et elle change de langue d'elle-même si le client le fait. C'est particulièrement utile si vous avez une clientèle ou des équipes internationales."
     },
     {
-      "question": "Comment débuter?",
-      "answer": "Réservez une démo gratuite. Nous discutons de votre entreprise. Nous configurons avec vos instructions. Essai gratuit 7 jours. Choisissez votre plan."
+      "question": "Combien cela coûte-t-il face à un réceptionniste ?",
+      "answer": "Un réceptionniste à temps plein coûte généralement entre 35 000 et 45 000 euros par an, charges comprises. La voix IA démarre à 200 euros par mois et couvre le téléphone 24h/24, y compris pendant les congés et les arrêts maladie."
+    },
+    {
+      "question": "Combien de temps prend la mise en place ?",
+      "answer": "Généralement moins d'une semaine. Nous commençons par un échange sur vos prestations et vos processus, nous configurons la voix et l'intégration d'agenda, et vous la testez gratuitement pendant sept jours avant de décider."
     }
   ]
 }

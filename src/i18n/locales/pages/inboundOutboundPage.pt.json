@@ -1,208 +1,290 @@
 {
   "seo": {
-    "title": "Chamadas Entradas e Saídas | Assistente Telefônico IA | Aibooking.dk",
-    "description": "Automatize chamadas entradas e saídas com nosso assistente telefônico IA. Atendimento ao cliente 24/7, comunicação automática, marcações e lembretes. Economize até 80% em suporte telefônico.",
-    "keywords": "chamadas entradas saídas, assistente telefônico IA, chamadas automáticas, atendimento cliente, marcações"
+    "title": "Inbound-Outbound AI Voice – IA que atende o telefone | Aibooking.dk",
+    "description": "O Inbound-Outbound AI Voice atende as suas chamadas recebidas e liga aos seus clientes. Marcações, lembretes e seguimento – automaticamente, 24 horas por dia.",
+    "keywords": "inbound outbound ai voice, assistente telefónico ia, agente de voz ia, chamadas recebidas, chamadas efetuadas, atendimento telefónico automatizado, rececionista ia, voicebot, marcações por telefone"
+  },
+  "breadcrumb": {
+    "home": "Início",
+    "current": "Inbound-Outbound AI Voice"
   },
   "hero": {
-    "badge": "Chamadas Entradas e Saídas",
-    "title": "Assistente Telefônico IA para Chamadas Entradas e Saídas",
-    "subtitle": "Automatize todas as suas chamadas telefônicas 24/7. Atenda chamadas profissionalmente, comunique-se com clientes automaticamente, e marque consultas sem intervenção humana.",
-    "cta_demo": "Reserve demo gratuita",
+    "badge": "Inbound-Outbound AI Voice",
+    "title": "Inbound-Outbound AI Voice",
+    "titleAccent": "A IA que atende e também liga",
+    "subtitle": "Uma só voz trata das duas direções: atende as suas chamadas recebidas com profissionalismo e liga aos seus clientes com confirmações, lembretes e seguimento. 24 horas por dia, sem espera.",
+    "cta_demo": "Marcar demonstração gratuita",
+    "cta_example": "Ouvir um exemplo",
     "cta_pricing": "Ver preços",
     "stats": {
-      "inbound": "Chamadas Entradas",
-      "outbound": "Chamadas Saídas",
-      "roi": "80% Economia"
+      "answer": { "value": "2 seg.", "label": "Tempo médio de atendimento" },
+      "availability": { "value": "24/7", "label": "Também à noite e ao fim de semana" },
+      "saving": { "value": "80%", "label": "Menos custo do que um rececionista" }
+    },
+    "card": {
+      "status": "Chamada ativa",
+      "direction": "Recebida · Número desconhecido",
+      "timer": "00:51",
+      "transcriptLabel": "Transcrição em direto",
+      "line": "Fica marcado para amanhã às 8:30. Vai receber já um SMS de confirmação.",
+      "actions": ["Marcação feita", "SMS enviado", "Processo criado"]
     }
   },
   "whatIs": {
-    "title": "O Que São Chamadas IA Entradas e Saídas?",
-    "para1": "Um assistente telefônico IA é uma recepcionista virtual inteligente que gerencia chamadas entradas e saídas completamente automatizadas. Seu assistente IA atende profissionalmente, captura informações do cliente, marca consultas, e pode se comunicar com clientes automaticamente.",
-    "para2": "Diferentemente de uma recepcionista tradicional, nossa IA funciona 24/7 sem pausas. Sua equipe dedica mais tempo ao trabalho valioso, seus clientes recebem atendimento rápido e profissional, e você economiza custos significativos.",
-    "para3": "Escolha gerenciar apenas chamadas entradas (atendimento ao cliente), saídas (comunicação), ou uma solução combinada.",
+    "title": "Duas direções, uma voz de IA",
+    "para1": "O Inbound-Outbound AI Voice é um assistente telefónico de IA que trabalha nos dois sentidos. Nas chamadas recebidas acolhe os clientes, percebe o motivo da chamada, marca horas e encaminha os casos importantes para a sua equipa. Nas chamadas efetuadas liga por iniciativa própria: confirmações, lembretes, seguimento de orçamentos ou aviso de uma vaga que acabou de abrir.",
+    "para2": "Ao contrário de um rececionista, nunca folga. Atende ao segundo toque às oito da noite, aceita cinco chamadas ao mesmo tempo na hora de ponta e nunca se esquece de retribuir uma chamada. A sua equipa deixa de ser interrompida e nenhum cliente acaba no atendedor.",
+    "para3": "É você que define o âmbito: só recebidas, só efetuadas, ou ambas no mesmo número.",
     "inbound": {
-      "title": "Chamadas Entradas",
-      "desc": "IA atende todas as chamadas profissionalmente, captura informações, marca consultas, responde dúvidas, transfere casos importantes"
+      "title": "Recebidas",
+      "desc": "Atende em segundos, marca na sua agenda, resolve as perguntas que se repetem e transfere para a sua equipa quando o caso exige uma pessoa."
     },
     "outbound": {
-      "title": "Chamadas Saídas",
-      "desc": "IA se comunica com clientes automaticamente - lembretes, confirmações, ofertas, anúncios - completamente personalizado"
+      "title": "Efetuadas",
+      "desc": "Liga com confirmações, lembretes na véspera, seguimento de orçamentos e remarcação de horas canceladas – em seu nome e com as suas palavras."
     }
   },
+  "example": {
+    "badge": "Exemplo",
+    "title": "Como soa uma chamada real",
+    "subtitle": "Duas conversas reais – uma recebida e outra efetuada. Palavra por palavra, tal como a IA as conduz, com tudo o que resolveu pelo caminho.",
+    "tabs": {
+      "inbound": "Chamada recebida",
+      "outbound": "Chamada efetuada"
+    },
+    "chatLabels": {
+      "ai": "AI Voice",
+      "customer": "Cliente"
+    },
+    "inbound": {
+      "situationLabel": "A situação",
+      "situation": "20:41, hora e meia depois do fecho. Normalmente esta chamada ia parar ao atendedor – e o cliente passava ao canalizador seguinte da lista.",
+      "caller": "Número desconhecido",
+      "meta": "Recebida · 20:41 · Canalizações Norte",
+      "chat": [
+        { "role": "ai", "time": "0:02", "text": "Está a falar com o Aibooking, das Canalizações Norte. Em que posso ajudar?" },
+        { "role": "customer", "time": "0:07", "text": "Boa noite. Tenho um cano a pingar por baixo do lava-loiça. Podem cá vir?" },
+        { "role": "ai", "time": "0:12", "text": "Podemos tratar disso. Há água no chão neste momento ou é um pingo lento?" },
+        { "role": "customer", "time": "0:19", "text": "É um pingo lento. Já pus um balde por baixo." },
+        { "role": "ai", "time": "0:24", "text": "Muito bem. Então marco uma visita normal em vez de uma urgência – fica-lhe mais barato. Tenho amanhã às 8:30 ou quinta-feira às 13:00." },
+        { "role": "customer", "time": "0:35", "text": "Amanhã às 8:30 fica-me bem." },
+        { "role": "ai", "time": "0:39", "text": "Perfeito. Pode dar-me a morada e um telemóvel para a confirmação?" },
+        { "role": "customer", "time": "0:45", "text": "Rua do Sul 14, no Porto." },
+        { "role": "ai", "time": "0:51", "text": "Obrigado. Fica marcado para amanhã às 8:30. Recebe já o SMS de confirmação e um lembrete uma hora antes." }
+      ],
+      "outcomesLabel": "O que a IA tratou pelo caminho",
+      "outcomes": [
+        "Atendeu em dois segundos – hora e meia depois do fecho",
+        "Avaliou se o caso era urgente e escolheu o tipo de serviço certo",
+        "Encontrou uma vaga na agenda do técnico indicado",
+        "Registou a morada e o telefone diretamente no processo",
+        "Enviou a confirmação e agendou o lembrete automaticamente"
+      ],
+      "resultsLabel": "Resultado",
+      "results": [
+        { "label": "Duração", "value": "1:04" },
+        { "label": "Desfecho", "value": "Marcado amanhã às 8:30" },
+        { "label": "Processo criado", "value": "#4821 · Cano a pingar" }
+      ]
+    },
+    "outbound": {
+      "situationLabel": "A situação",
+      "situation": "09:15 do dia anterior. A IA liga por sua conta às marcações do dia seguinte, para que os cancelamentos sejam apanhados a tempo em vez de se tornarem faltas.",
+      "caller": "Marta Ferreira",
+      "meta": "Efetuada · 09:15 · Clínica Sund",
+      "chat": [
+        { "role": "ai", "time": "0:03", "text": "Olá Marta. É o Aibooking a ligar em nome da Clínica Sund. É por causa da sua marcação de amanhã às 10:00 – continua a dar-lhe jeito?" },
+        { "role": "customer", "time": "0:11", "text": "Ai, tinha-me esquecido completamente. Na verdade estou a trabalhar até às três." },
+        { "role": "ai", "time": "0:18", "text": "Não há problema nenhum. Posso oferecer-lhe amanhã às 15:45 ou sexta-feira às 9:30. O que lhe dá mais jeito?" },
+        { "role": "customer", "time": "0:26", "text": "Sexta às 9:30, por favor." },
+        { "role": "ai", "time": "0:30", "text": "A sua marcação fica passada para sexta-feira às 9:30. Envio-lhe já um SMS com a nova hora. Tenha um bom dia." }
+      ],
+      "outcomesLabel": "O que a IA tratou pelo caminho",
+      "outcomes": [
+        "Ligou às marcações do dia seguinte sem ninguém ter de se lembrar",
+        "Apanhou o cancelamento na véspera em vez de na falta",
+        "Ofereceu uma hora nova de imediato, com o cliente ainda em linha",
+        "Libertou as 10:00 e ofereceu-as ao seguinte da lista de espera",
+        "Atualizou a agenda e enviou a nova confirmação"
+      ],
+      "resultsLabel": "Resultado",
+      "results": [
+        { "label": "Duração", "value": "0:38" },
+        { "label": "Desfecho", "value": "Passada para sexta 9:30" },
+        { "label": "Evitado", "value": "Uma falta · hora reoferecida" }
+      ]
+    }
+  },
+  "howItWorks": {
+    "title": "Como começar",
+    "subtitle": "Da primeira conversa até à voz de IA em funcionamento passa normalmente menos de uma semana.",
+    "steps": [
+      {
+        "title": "Ligamos o seu número",
+        "description": "Mantém o número que já tem. Configuramos o reencaminhamento para que a IA atenda exatamente as chamadas que escolher: todas, apenas fora do horário, ou só quando a linha estiver ocupada."
+      },
+      {
+        "title": "A IA aprende o seu negócio",
+        "description": "Treinamo-la com os seus serviços, preços, horários e as perguntas que os seus clientes fazem de facto. Aprova a formulação antes de entrar em funcionamento."
+      },
+      {
+        "title": "Agenda e sistemas ligados",
+        "description": "Google Calendar, Outlook ou o seu sistema de setor. A IA só marca em horas realmente livres e escreve a marcação no mesmo sítio de sempre."
+      },
+      {
+        "title": "Acompanha tudo no painel",
+        "description": "Cada chamada é gravada, transcrita e resumida. Pode sempre voltar atrás e ver exatamente o que foi dito e combinado."
+      }
+    ]
+  },
   "features": {
-    "title": "Funcionalidades Avançadas",
-    "subtitle": "Tudo que você precisa para gerenciamento automático de chamadas",
+    "title": "O que a voz de IA sabe fazer",
+    "subtitle": "Tudo o que é preciso para o telefone ficar coberto, nas duas direções.",
     "items": [
       {
-        "title": "Reconhecimento de Voz Natural",
-        "description": "IA compreende linguagem natural sem comandos. Segue conversas naturalmente e faz perguntas relevantes."
+        "title": "Atende todas as chamadas recebidas",
+        "description": "Atende em segundos, percebe o motivo da chamada, marca horas e responde às perguntas que se repetem. Nenhum cliente acaba no atendedor."
       },
       {
-        "title": "Gestão de Chamadas Entradas",
-        "description": "Atende profissionalmente, captura informações, gerencia marcações, responde FAQs, transfere para sua equipe."
+        "title": "Liga aos seus clientes por iniciativa própria",
+        "description": "Confirmações, lembretes na véspera, seguimento de orçamentos e remarcação de horas canceladas – marcados automaticamente, em seu nome e com as suas palavras."
       },
       {
-        "title": "Chamadas Saídas",
-        "description": "Chama automaticamente com lembretes, confirmações, acompanhamentos ou campanhas - completamente personalizado e profissional."
+        "title": "Conversa natural",
+        "description": "Percebe a fala corrente, os sotaques e as interrupções. O cliente não carrega no 1 para marcar: simplesmente fala, como falaria com uma pessoa."
       },
       {
-        "title": "Timing Inteligente",
-        "description": "IA escolhe momentos ideais, respeita preferências do cliente, se adapta conforme taxas de resposta."
+        "title": "Chamadas simultâneas ilimitadas",
+        "description": "Cinco clientes podem ligar ao mesmo tempo sem ninguém ficar em fila. Paga tempo de conversa, não capacidade, por isso a hora de ponta não custa mais."
       },
       {
-        "title": "Integração de Calendário",
-        "description": "Sincroniza com Google Calendar, Outlook e sistemas de marcação. Sem entradas manuais."
+        "title": "Marca diretamente na sua agenda",
+        "description": "Sincronizado com o Google Calendar, o Outlook e os sistemas de setor mais comuns. A IA só vê as horas realmente livres: sem marcações duplicadas."
       },
       {
-        "title": "Lembretes SMS",
-        "description": "Combina chamadas com SMS para máxima efetividade. Reduz ausências até 60%."
+        "title": "Confirmação e lembrete por SMS",
+        "description": "Depois da chamada segue um SMS com hora e morada, e um lembrete antes da visita. É essa combinação que faz descer as faltas."
       },
       {
-        "title": "Gravação e Resumo",
-        "description": "Todas as chamadas são gravadas e resumidas. Veja exatamente o que foi combinado."
+        "title": "Gravação, resumo e transcrição",
+        "description": "Cada chamada fica guardada com transcrição completa e um resumo curto do que foi combinado. Pode sempre documentar a conversa depois."
       },
       {
-        "title": "Roteamento Inteligente",
-        "description": "Transfere automaticamente para membros da equipe conforme sua experiência."
+        "title": "Transfere quando é preciso uma pessoa",
+        "description": "A IA reconhece os casos que não lhe cabe decidir – reclamações, urgências, negociações – e transfere para o colega certo ou toma um recado."
       },
       {
-        "title": "LGPD e Segurança",
-        "description": "Conformidade total com LGPD e criptografia de ponta a ponta. Seus dados sempre seguros."
+        "title": "RGPD e segurança dos dados",
+        "description": "Os dados são tratados na UE com armazenamento cifrado, regras de eliminação acordadas e contrato de subcontratação. As gravações são só vossas."
       }
     ]
   },
   "useCases": {
-    "title": "Casos de Uso",
-    "subtitle": "Perfeito para empresas que querem automatizar toda comunicação telefônica",
+    "title": "Quem usa e para quê",
+    "subtitle": "As mesmas duas direções resolvem problemas muito diferentes conforme o setor.",
     "items": [
       {
-        "title": "Clínicas e Consultórios",
-        "description": "Atenda marcações, envie lembretes SMS, chame ausentes com alternativas. Reduza ausências de 20% para 5%."
+        "title": "Clínicas e dentistas",
+        "description": "Recebidas: marcações e remarcações sem interromper a receção. Efetuadas: lembrete na véspera e hora nova para quem cancela. É aqui que as faltas mais descem."
       },
       {
-        "title": "Profissionais e Instaladores",
-        "description": "Receba trabalhos, confirme visitas, envie lembretes. Nunca perca uma consulta de cliente."
+        "title": "Profissionais e instaladores",
+        "description": "Recebidas: as chamadas são atendidas enquanto tem as mãos numa instalação. Efetuadas: confirmação das visitas de amanhã e aviso se o técnico se atrasar."
       },
       {
-        "title": "Empresas de Vendas",
-        "description": "Ligue para prospects com ofertas personalizadas, compreenda necessidades, marque reuniões automaticamente."
+        "title": "Vendas e seguimento de leads",
+        "description": "Efetuadas: ligue aos novos leads em poucos minutos, perceba a necessidade e marque a reunião diretamente na agenda do comercial enquanto o interesse está quente."
       },
       {
-        "title": "Centros de Atendimento",
-        "description": "Gerencie milhares de chamadas sem contratar pessoal. Responda FAQs, busque pedidos, resolva reclamações."
+        "title": "Apoio ao cliente",
+        "description": "Recebidas: corte o pico de volume com as perguntas que se repetem – estado da encomenda, horários, preços – e encaminhe o resto com contexto."
       },
       {
-        "title": "E-commerce",
-        "description": "Ligue para clientes com confirmação de pedido, pergunte preferências, gerencie devoluções por telefone."
+        "title": "Lojas online e e-commerce",
+        "description": "Efetuadas: ligue por pagamentos falhados ou encomendas não levantadas. Recebidas: responda a dúvidas de entrega e devolução sem espera na época alta."
       },
       {
-        "title": "Gestão de Eventos",
-        "description": "Confirme participantes, envie lembretes, colete feedback depois."
+        "title": "Escritórios e consultoria",
+        "description": "Recebidas: receção profissional das chamadas de clientes, com recados tomados e reuniões marcadas. Efetuadas: confirmação de reuniões e seguimento da documentação enviada."
       }
     ]
   },
   "comparison": {
-    "title": "Entradas vs Saídas – Qual é Melhor para Você?",
-    "feature": "Funcionalidade",
-    "inbound": "Entradas",
-    "outbound": "Saídas",
+    "title": "Recebidas ou efetuadas: do que precisa?",
+    "subtitle": "A maioria começa por uma direção e ativa a outra mais tarde. Mesmo número, mesma voz.",
+    "feature": "Tarefa",
+    "inbound": "Recebidas",
+    "outbound": "Efetuadas",
     "items": [
-      {
-        "feature": "Atender chamadas clientes",
-        "inbound": true,
-        "outbound": false
-      },
-      {
-        "feature": "Ligar para clientes",
-        "inbound": false,
-        "outbound": true
-      },
-      {
-        "feature": "Capturar informações",
-        "inbound": true,
-        "outbound": true
-      },
-      {
-        "feature": "Marcar consultas",
-        "inbound": true,
-        "outbound": true
-      },
-      {
-        "feature": "Enviar lembretes",
-        "inbound": false,
-        "outbound": true
-      },
-      {
-        "feature": "Prospecção de leads",
-        "inbound": false,
-        "outbound": true
-      },
-      {
-        "feature": "Atendimento cliente",
-        "inbound": true,
-        "outbound": false
-      },
-      {
-        "feature": "Confirmação de pedido",
-        "inbound": true,
-        "outbound": true
-      }
+      { "feature": "Atender chamadas de clientes", "inbound": true, "outbound": false },
+      { "feature": "Ligar aos clientes", "inbound": false, "outbound": true },
+      { "feature": "Marcar horas na agenda", "inbound": true, "outbound": true },
+      { "feature": "Registar dados do cliente", "inbound": true, "outbound": true },
+      { "feature": "Lembrete na véspera", "inbound": false, "outbound": true },
+      { "feature": "Seguimento de leads e orçamentos", "inbound": false, "outbound": true },
+      { "feature": "Responder a perguntas frequentes", "inbound": true, "outbound": false },
+      { "feature": "Transferir para um colega", "inbound": true, "outbound": false },
+      { "feature": "Remarcar uma hora cancelada", "inbound": true, "outbound": true },
+      { "feature": "Gravação e resumo", "inbound": true, "outbound": true }
     ]
   },
   "pricing": {
-    "title": "Preços Simples e Transparentes",
-    "subtitle": "Pague apenas pelo que usar - inclui tempo de chamada e todas as funcionalidades",
-    "demo": {
-      "name": "Demo",
-      "label": "7 dias grátis · 75 min"
-    },
-    "starter": {
-      "name": "Starter"
-    },
-    "professional": {
-      "name": "Professional"
-    },
-    "enterprise": {
-      "name": "Enterprise"
-    },
+    "title": "Preços",
+    "subtitle": "O tempo de conversa e todas as funcionalidades estão incluídos. Sem fidelização nem taxa de ativação.",
+    "perMonth": "/mês",
+    "demo": { "name": "Demonstração", "label": "7 dias grátis · 75 min" },
+    "starter": { "name": "Starter", "label": "200 min/mês incl." },
+    "professional": { "name": "Professional", "label": "600 min/mês incl." },
+    "enterprise": { "name": "Enterprise", "label": "2.000 min/mês incl." },
     "free": "Grátis",
-    "mostPopular": "Mais Popular",
-    "cta": "Começar"
+    "mostPopular": "O mais escolhido",
+    "cta": "Começar",
+    "note": "Todos os planos incluem chamadas recebidas e efetuadas, integração de agenda, SMS e gravação."
   },
-  "faqTitle": "Perguntas Frequentes",
+  "cta": {
+    "title": "Ouça a sua própria voz de IA antes de decidir",
+    "subtitle": "Preparamos uma demonstração com os seus serviços e o seu horário, para poder ligar e ouvir exatamente como atende os seus clientes.",
+    "primary": "Marcar demonstração gratuita",
+    "secondary": "Ver preços"
+  },
+  "faqTitle": "Perguntas frequentes",
+  "faqSubtitle": "O que mais nos perguntam antes de pôr uma voz de IA a funcionar.",
   "faq": [
     {
-      "question": "Qual é a diferença entre chamadas entradas e saídas?",
-      "answer": "Entradas = clientes ligam para você. IA atende e resolve. Saídas = IA liga para clientes com lembretes, confirmações ou campanhas. Use ambas ou apenas o que precisar."
+      "question": "Qual é a diferença entre chamadas recebidas e efetuadas?",
+      "answer": "Recebida é quando o cliente lhe liga: a IA atende, ajuda no motivo da chamada e marca ou transfere. Efetuada é quando a IA liga por iniciativa própria, normalmente com lembretes, confirmações ou seguimento de um orçamento. Pode usar uma direção ou as duas no mesmo número."
     },
     {
-      "question": "Quantas chamadas a IA pode gerenciar simultaneamente?",
-      "answer": "IA gerencia chamadas ilimitadas simultaneamente. Você paga apenas por tempo real de chamada. Um recepcionista gerencia 5-10 chamadas/dia; nossa IA gerencia centenas."
+      "question": "Posso manter o meu número de telefone atual?",
+      "answer": "Sim. Mantém o seu número e nós configuramos o reencaminhamento. É você que decide quando a IA assume: em todas as chamadas, apenas fora do horário, ou só quando a linha está ocupada ou ninguém atende ao fim de alguns toques."
     },
     {
-      "question": "Funciona em português?",
-      "answer": "Sim, completamente otimizado para português. IA compreende linguagem natural. Também suportamos dinamarquês, inglês, francês, espanhol - se adapta automaticamente."
+      "question": "Quantas chamadas consegue tratar ao mesmo tempo?",
+      "answer": "Não há limite de chamadas simultâneas. Se ligarem dez clientes ao mesmo tempo, os dez são atendidos de imediato. Paga o tempo de conversa efetivamente usado e não a capacidade, por isso uma segunda-feira cheia não encarece a mensalidade."
     },
     {
-      "question": "Posso ouvir as chamadas depois?",
-      "answer": "Sim, todas são gravadas e resumidas. Você obtém transcrição e pode ouvir no painel. Também tem resumo breve do que foi combinado."
+      "question": "Os clientes percebem que é uma IA?",
+      "answer": "A voz é natural, mas recomendamos sempre que se apresente como assistente digital: é a abordagem mais honesta e a que os clientes recebem melhor. É você que decide a formulação exata das boas-vindas."
     },
     {
-      "question": "E se um cliente precisa falar com uma pessoa?",
-      "answer": "IA reconhece automaticamente quando intervenção humana é necessária. A chamada transfere direto ou IA toma mensagem para retorno."
+      "question": "O que acontece se a IA não conseguir ajudar?",
+      "answer": "Está configurada para reconhecer os seus próprios limites. Perante reclamações, casos urgentes ou perguntas sem resposta, transfere para o colega indicado ou toma um recado com nome, número e assunto para que possam ligar de volta."
     },
     {
-      "question": "É legal fazer chamadas automatizadas?",
-      "answer": "Sim, seguindo LGPD. Você precisa de consentimento do cliente e eles podem se desinscrever. Nosso sistema ajuda você com isso."
+      "question": "É legal ligar de forma automatizada?",
+      "answer": "Sim, cumprindo o RGPD e as regras de marketing. As chamadas de serviço a clientes existentes – lembretes, confirmações, remarcações – não exigem consentimento separado. O marketing puro exige, e o destinatário tem de poder recusar mais chamadas. O sistema trata das recusas por si."
     },
     {
-      "question": "Quanto vou economizar?",
-      "answer": "Recepcionista tempo integral custa tipicamente €2000-2700/mês. Nossa IA custa €200-800/mês. É economia de 80-95% com melhor atendimento 24/7."
+      "question": "Funciona noutras línguas além do português?",
+      "answer": "Sim. Além do português, a IA lida com inglês, dinamarquês, alemão, espanhol e francês, entre outras, e muda de língua sozinha se o cliente mudar. É especialmente útil se tiver clientes ou pessoal internacional."
     },
     {
-      "question": "Como começo?",
-      "answer": "Reserve demo gratuita. Discutimos seu negócio. Configuramos com suas instruções. Teste grátis 7 dias. Escolha seu plano."
+      "question": "Quanto custa face a um rececionista?",
+      "answer": "Um rececionista a tempo inteiro custa normalmente entre 20.000 e 30.000 euros por ano com encargos incluídos. A voz de IA começa nos 200 euros por mês e cobre o telefone 24 horas por dia, também em férias e baixas."
+    },
+    {
+      "question": "Quanto tempo demora a instalação?",
+      "answer": "Normalmente menos de uma semana. Começamos por uma conversa sobre os seus serviços e processos, configuramos a voz e a integração de agenda, e testa gratuitamente durante sete dias antes de decidir."
     }
   ]
 }

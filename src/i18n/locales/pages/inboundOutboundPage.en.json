@@ -1,208 +1,290 @@
 {
   "seo": {
-    "title": "Inbound & Outbound Calls | AI Phone Assistant | Aibooking.dk",
-    "description": "Automate both inbound and outbound calls with our AI phone assistant. 24/7 customer service, automatic outreach, booking, and reminders. Save up to 80% on phone support.",
-    "keywords": "inbound outbound calls, AI phone assistant, outbound calling, inbound call handling, automation, customer service, booking reminders"
+    "title": "Inbound-Outbound AI Voice – AI That Answers Your Phone | Aibooking.dk",
+    "description": "Inbound-Outbound AI Voice answers your incoming calls and calls your customers back. Booking, reminders and follow-ups – automatically, around the clock.",
+    "keywords": "inbound outbound ai voice, ai phone assistant, ai voice agent, inbound calls, outbound calls, automated phone answering, ai receptionist, voicebot, phone booking"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "current": "Inbound-Outbound AI Voice"
   },
   "hero": {
-    "badge": "Inbound & Outbound Calls",
-    "title": "AI Phone Assistant for Inbound & Outbound Calls",
-    "subtitle": "Automate all your phone calls 24/7. Handle incoming calls professionally, reach out to customers with reminders, and book meetings – completely hands-free.",
-    "cta_demo": "Book free demo",
-    "cta_pricing": "View pricing",
+    "badge": "Inbound-Outbound AI Voice",
+    "title": "Inbound-Outbound AI Voice",
+    "titleAccent": "The AI that both answers and places your calls",
+    "subtitle": "One voice handles both directions: it answers your incoming calls professionally and calls your customers with confirmations, reminders and follow-ups. Around the clock, with no hold time.",
+    "cta_demo": "Book a free demo",
+    "cta_example": "Hear an example",
+    "cta_pricing": "See pricing",
     "stats": {
-      "inbound": "Inbound Calls",
-      "outbound": "Outbound Calls",
-      "roi": "80% Savings"
+      "answer": { "value": "2 sec.", "label": "Average time to answer" },
+      "availability": { "value": "24/7", "label": "Evenings and weekends too" },
+      "saving": { "value": "80%", "label": "Lower cost than a receptionist" }
+    },
+    "card": {
+      "status": "Active call",
+      "direction": "Inbound · Unknown number",
+      "timer": "00:51",
+      "transcriptLabel": "Live transcript",
+      "line": "You're booked for tomorrow at 8:30 AM. You'll get an SMS confirmation right away.",
+      "actions": ["Appointment booked", "SMS sent", "Job created"]
     }
   },
   "whatIs": {
-    "title": "What is Inbound & Outbound AI Calling?",
-    "para1": "An AI phone assistant is an intelligent virtual receptionist that handles both incoming and outgoing phone calls completely automatically. Your AI assistant answers incoming calls professionally, captures customer information, books meetings, and can also reach out to customers with reminders or announcements.",
-    "para2": "Unlike a traditional receptionist, our AI works 24/7 without breaks, vacations, or sick days. Your team gets more time for valuable work, your customers get fast and professional service, and you save significant salary costs.",
-    "para3": "Choose to handle inbound calls only (customer service), outbound calls only (outreach), or a combined solution that does both.",
+    "title": "Two directions, one AI voice",
+    "para1": "Inbound-Outbound AI Voice is an AI phone assistant that works both ways. Inbound, it greets your customers, understands what they're calling about, books appointments and passes the important cases on to your team. Outbound, it places the calls itself: confirmations, reminders, follow-ups on quotes, or news of a slot that just opened up.",
+    "para2": "Unlike a receptionist, it never takes time off. It answers on the second ring at 8 in the evening, it takes five calls at once during the morning rush, and it never forgets to call back. Your team stops getting interrupted, and no customer ends up in voicemail.",
+    "para3": "You decide the scope: inbound only, outbound only, or both on the same number.",
     "inbound": {
-      "title": "Inbound Calls",
-      "desc": "AI answers all incoming calls professionally, captures customer info, books meetings, answers questions, and transfers important cases to your team"
+      "title": "Inbound",
+      "desc": "Answers within seconds, books into your calendar, handles the questions that come up again and again, and transfers to your team when a case needs a human."
     },
     "outbound": {
-      "title": "Outbound Calls",
-      "desc": "AI reaches out to customers with reminders, confirmations, new offers, or important announcements – completely automated and personalized"
+      "title": "Outbound",
+      "desc": "Places calls with confirmations, day-before reminders, follow-ups on quotes and rebooking of cancelled slots – in your name and in your words."
     }
   },
+  "example": {
+    "badge": "Example",
+    "title": "What a real call sounds like",
+    "subtitle": "Two actual conversations – one inbound, one outbound. Word for word as the AI runs them, along with everything it handled along the way.",
+    "tabs": {
+      "inbound": "Inbound call",
+      "outbound": "Outbound call"
+    },
+    "chatLabels": {
+      "ai": "AI Voice",
+      "customer": "Customer"
+    },
+    "inbound": {
+      "situationLabel": "The situation",
+      "situation": "8:41 PM, an hour and a half after closing. Normally this call would hit voicemail – and the customer would move on to the next plumber on the list.",
+      "caller": "Unknown number",
+      "meta": "Inbound · 8:41 PM · Northside Plumbing",
+      "chat": [
+        { "role": "ai", "time": "0:02", "text": "You've reached Aibooking at Northside Plumbing. How can I help?" },
+        { "role": "customer", "time": "0:07", "text": "Hi. I've got a pipe dripping under the kitchen sink. Can someone come out?" },
+        { "role": "ai", "time": "0:12", "text": "We can help with that. Is there water on the floor right now, or is it a slow drip?" },
+        { "role": "customer", "time": "0:19", "text": "It's a slow drip. I've put a bucket under it." },
+        { "role": "ai", "time": "0:24", "text": "Good. Then I'll book a standard visit rather than an emergency call-out – that's cheaper for you. I have tomorrow at 8:30 AM or Thursday at 1 PM." },
+        { "role": "customer", "time": "0:35", "text": "Tomorrow at 8:30 works fine." },
+        { "role": "ai", "time": "0:39", "text": "Perfect. Could I get the address and a mobile number for the confirmation?" },
+        { "role": "customer", "time": "0:45", "text": "14 Southgate Road, Manchester." },
+        { "role": "ai", "time": "0:51", "text": "Thank you. You're booked for tomorrow at 8:30 AM. You'll get an SMS confirmation now and a reminder an hour before." }
+      ],
+      "outcomesLabel": "What the AI handled along the way",
+      "outcomes": [
+        "Answered in two seconds – an hour and a half after closing",
+        "Assessed whether the job was urgent and picked the right job type",
+        "Found an open slot in the right engineer's calendar",
+        "Logged the address and phone number straight onto the job",
+        "Sent the confirmation and scheduled the reminder automatically"
+      ],
+      "resultsLabel": "Result",
+      "results": [
+        { "label": "Duration", "value": "1:04" },
+        { "label": "Outcome", "value": "Booked tomorrow at 8:30 AM" },
+        { "label": "Job created", "value": "#4821 · Dripping water pipe" }
+      ]
+    },
+    "outbound": {
+      "situationLabel": "The situation",
+      "situation": "9:15 AM the day before. The AI calls through tomorrow's appointments itself, so cancellations get caught in good time instead of turning into no-shows.",
+      "caller": "Emma Hansen",
+      "meta": "Outbound · 9:15 AM · Clinic Sund",
+      "chat": [
+        { "role": "ai", "time": "0:03", "text": "Hi Emma. This is Aibooking calling on behalf of Clinic Sund. I'm calling about your appointment tomorrow at 10 AM – does that still work?" },
+        { "role": "customer", "time": "0:11", "text": "Oh, I'd completely forgotten. I'm actually at work until 3." },
+        { "role": "ai", "time": "0:18", "text": "That's no problem at all. I can offer tomorrow at 3:45 PM, or Friday at 9:30 AM. Which suits you better?" },
+        { "role": "customer", "time": "0:26", "text": "Friday at 9:30, please." },
+        { "role": "ai", "time": "0:30", "text": "Your appointment is moved to Friday at 9:30 AM. You'll get an SMS with the new time now. Have a good day." }
+      ],
+      "outcomesLabel": "What the AI handled along the way",
+      "outcomes": [
+        "Called through tomorrow's appointments without anyone having to remember",
+        "Caught the cancellation the day before instead of at the no-show",
+        "Offered a new slot immediately, while the customer was still on the line",
+        "Freed up the 10 AM slot and offered it to the next person on the waiting list",
+        "Updated the calendar and sent the new confirmation"
+      ],
+      "resultsLabel": "Result",
+      "results": [
+        { "label": "Duration", "value": "0:38" },
+        { "label": "Outcome", "value": "Moved to Friday 9:30 AM" },
+        { "label": "Avoided", "value": "One no-show · slot re-offered" }
+      ]
+    }
+  },
+  "howItWorks": {
+    "title": "How you get started",
+    "subtitle": "From the first conversation to a live AI voice usually takes less than a week.",
+    "steps": [
+      {
+        "title": "We connect your number",
+        "description": "You keep your current phone number. We set up forwarding so the AI takes exactly the calls you choose – all of them, only outside opening hours, or only when the line is busy."
+      },
+      {
+        "title": "The AI learns your business",
+        "description": "We train it on your services, prices, opening hours and the questions your customers actually ask. You approve the wording before it goes live."
+      },
+      {
+        "title": "Calendar and systems connect",
+        "description": "Google Calendar, Outlook or your industry system. The AI only books slots that are genuinely free, and writes the appointment into the same place you always use."
+      },
+      {
+        "title": "You follow along in the dashboard",
+        "description": "Every call is recorded, transcribed and summarised. You can always go back and see exactly what was said and agreed."
+      }
+    ]
+  },
   "features": {
-    "title": "Advanced Features",
-    "subtitle": "Everything you need for fully automated phone handling",
+    "title": "What the AI voice can do",
+    "subtitle": "Everything it takes to keep the phone covered – in both directions.",
     "items": [
       {
-        "title": "Natural Speech Recognition",
-        "description": "AI understands natural speech without requiring commands. The system follows conversations naturally and asks relevant follow-up questions."
+        "title": "Answers every incoming call",
+        "description": "Picks up within seconds, understands what the customer is calling about, books appointments and answers the recurring questions. No customer ends up in voicemail."
       },
       {
-        "title": "Inbound Call Handling",
-        "description": "Answers all calls professionally, captures customer info, handles bookings, answers FAQs, and transfers important cases to your team."
+        "title": "Calls your customers itself",
+        "description": "Confirmations, day-before reminders, follow-ups on quotes and rebooking of cancelled slots – dialled automatically, in your name and in your words."
       },
       {
-        "title": "Outbound Calling",
-        "description": "Automatically calls customers with reminders, confirmations, follow-ups, or campaigns – completely personalized and professional."
+        "title": "Natural conversation",
+        "description": "Understands ordinary speech, accents and interruptions. Customers don't press 1 for booking – they just talk, the way they would to a person."
       },
       {
-        "title": "Intelligent Timing",
-        "description": "AI chooses optimal call times, respects customer preferences, and adapts based on answer rates."
+        "title": "Unlimited simultaneous calls",
+        "description": "Five customers can call at once without anyone queuing. You pay for talk time, not for capacity, so a busy morning doesn't cost extra."
       },
       {
-        "title": "Calendar Integration",
-        "description": "Syncs directly with Google Calendar, Outlook, and industry-specific booking systems. No manual entries."
+        "title": "Books straight into your calendar",
+        "description": "Synced with Google Calendar, Outlook and the common industry systems. The AI only sees slots that are genuinely free – no double bookings."
       },
       {
-        "title": "SMS Reminders",
-        "description": "Combine phone calls with SMS reminders for maximum effectiveness. No-shows drop by up to 60%."
+        "title": "SMS confirmation and reminder",
+        "description": "The call is followed by an SMS with time and address, and a reminder before the visit. That combination is what brings no-shows down."
       },
       {
-        "title": "Call Recording & Summaries",
-        "description": "All calls are automatically recorded and summarized. Listen to calls and see exactly what was agreed upon."
+        "title": "Recording, summary and transcript",
+        "description": "Every call is stored with a full transcript and a short summary of what was agreed. You can always document the conversation afterwards."
       },
       {
-        "title": "Intelligent Routing",
-        "description": "Complex customer questions are automatically transferred to the right team member based on their expertise."
+        "title": "Transfers when a human is needed",
+        "description": "The AI recognises the cases it shouldn't decide – complaints, emergencies, negotiations – and transfers to the right colleague or takes a message."
       },
       {
-        "title": "GDPR & Security",
-        "description": "Full GDPR compliance and end-to-end encryption. Your data is always secure and under your control."
+        "title": "GDPR and data security",
+        "description": "Data is processed in the EU with encrypted storage, agreed deletion rules and a data processing agreement. Recordings and transcripts are yours alone."
       }
     ]
   },
   "useCases": {
-    "title": "Use Cases",
-    "subtitle": "Perfect for businesses that want to automate all phone communication",
+    "title": "Who uses it for what",
+    "subtitle": "The same two directions solve very different problems depending on the industry.",
     "items": [
       {
-        "title": "Clinics & Dentists",
-        "description": "Answer appointment calls, send SMS reminders before visits, and call no-show patients with alternative times. Reduce no-shows from 20% to 5%."
+        "title": "Clinics and dentists",
+        "description": "Inbound: booking and rebooking without interrupting the front desk. Outbound: day-before reminders and a new slot for anyone who cancels. This is where no-shows drop the most."
       },
       {
-        "title": "Tradespeople & Installers",
-        "description": "Receive and log jobs, call with visit confirmation, send reminders. Never miss a job inquiry again."
+        "title": "Tradespeople and installers",
+        "description": "Inbound: calls get answered while your hands are inside an installation. Outbound: confirmation of tomorrow's visits and a heads-up if the engineer is running late."
       },
       {
-        "title": "Sales Companies",
-        "description": "Call leads with personalized offers, understand their needs, and book meetings directly in the calendar – completely automatic."
+        "title": "Sales and lead follow-up",
+        "description": "Outbound: call new leads within minutes, qualify the need and book the meeting straight into the rep's calendar while the interest is still warm."
       },
       {
-        "title": "Customer Service Centers",
-        "description": "Handle thousands of incoming calls without hiring new staff. Answer FAQs, look up orders, handle complaints."
+        "title": "Customer service and support",
+        "description": "Inbound: take the top off the call volume with the questions that repeat – order status, opening hours, prices – and pass the rest on with context."
       },
       {
-        "title": "E-commerce",
-        "description": "Call customers with order confirmation, ask about delivery preferences, handle returns over the phone."
+        "title": "Webshops and e-commerce",
+        "description": "Outbound: call on failed payments or uncollected parcels. Inbound: answer delivery and returns questions without hold time in peak season."
       },
       {
-        "title": "Event Management",
-        "description": "Call attendee confirmations the day before, send SMS reminders, and collect feedback after events."
+        "title": "Offices and professional services",
+        "description": "Inbound: a professional welcome for client calls, with messages taken and meetings booked. Outbound: confirming appointments and following up on documents sent."
       }
     ]
   },
   "comparison": {
-    "title": "Inbound vs Outbound Calls – Which is Right for You?",
-    "feature": "Feature",
+    "title": "Inbound or outbound – what do you need?",
+    "subtitle": "Most businesses start with one direction and switch the other on later. Same number, same voice.",
+    "feature": "Task",
     "inbound": "Inbound",
     "outbound": "Outbound",
     "items": [
-      {
-        "feature": "Answer customer calls",
-        "inbound": true,
-        "outbound": false
-      },
-      {
-        "feature": "Call out to customers",
-        "inbound": false,
-        "outbound": true
-      },
-      {
-        "feature": "Capture customer info",
-        "inbound": true,
-        "outbound": true
-      },
-      {
-        "feature": "Book meetings",
-        "inbound": true,
-        "outbound": true
-      },
-      {
-        "feature": "Send reminders",
-        "inbound": false,
-        "outbound": true
-      },
-      {
-        "feature": "Lead outreach",
-        "inbound": false,
-        "outbound": true
-      },
-      {
-        "feature": "Customer support",
-        "inbound": true,
-        "outbound": false
-      },
-      {
-        "feature": "Order confirmation",
-        "inbound": true,
-        "outbound": true
-      }
+      { "feature": "Answering calls from customers", "inbound": true, "outbound": false },
+      { "feature": "Calling customers", "inbound": false, "outbound": true },
+      { "feature": "Booking appointments in the calendar", "inbound": true, "outbound": true },
+      { "feature": "Capturing customer details", "inbound": true, "outbound": true },
+      { "feature": "Day-before reminders", "inbound": false, "outbound": true },
+      { "feature": "Following up on leads and quotes", "inbound": false, "outbound": true },
+      { "feature": "Answering recurring questions", "inbound": true, "outbound": false },
+      { "feature": "Transferring to a colleague", "inbound": true, "outbound": false },
+      { "feature": "Rebooking a cancelled slot", "inbound": true, "outbound": true },
+      { "feature": "Recording and summary", "inbound": true, "outbound": true }
     ]
   },
   "pricing": {
-    "title": "Simple & Transparent Pricing",
-    "subtitle": "Pay only for what you use – including talk time and all features",
-    "demo": {
-      "name": "Demo",
-      "label": "7 days free · 75 min"
-    },
-    "starter": {
-      "name": "Starter"
-    },
-    "professional": {
-      "name": "Professional"
-    },
-    "enterprise": {
-      "name": "Enterprise"
-    },
+    "title": "Pricing",
+    "subtitle": "Talk time and every feature are included. No lock-in, no setup fee.",
+    "perMonth": "/mo",
+    "demo": { "name": "Demo", "label": "7 days free · 75 min" },
+    "starter": { "name": "Starter", "label": "200 min/mo included" },
+    "professional": { "name": "Professional", "label": "600 min/mo included" },
+    "enterprise": { "name": "Enterprise", "label": "2,000 min/mo included" },
     "free": "Free",
-    "mostPopular": "Most Popular",
-    "cta": "Get Started"
+    "mostPopular": "Most chosen",
+    "cta": "Get started",
+    "note": "Every plan includes both inbound and outbound calling, calendar integration, SMS and recording."
   },
-  "faqTitle": "Frequently Asked Questions",
+  "cta": {
+    "title": "Hear your own AI voice before you decide",
+    "subtitle": "We'll set up a demo with your services and your opening hours, so you can call in and hear exactly how it answers your customers.",
+    "primary": "Book a free demo",
+    "secondary": "See pricing"
+  },
+  "faqTitle": "Frequently asked questions",
+  "faqSubtitle": "What we're asked most often before an AI voice goes live.",
   "faq": [
     {
-      "question": "What's the difference between inbound and outbound calls?",
-      "answer": "Inbound calls are when customers call you – AI answers and handles their questions. Outbound calls are when AI calls your customers – e.g., with reminders, confirmations, or campaigns. You can use both or just what fits your business."
+      "question": "What is the difference between inbound and outbound calls?",
+      "answer": "Inbound is when the customer calls you – the AI picks up, helps with whatever they're calling about, and books or transfers. Outbound is when the AI places the call itself, typically with reminders, confirmations or follow-ups on a quote. You can use one direction or both on the same number."
     },
     {
-      "question": "How many calls can the AI handle at once?",
-      "answer": "AI can handle unlimited simultaneous calls. You pay only for actual talk time, not capacity. A full-time receptionist handles 5-10 calls daily; our AI handles hundreds."
+      "question": "Can I keep my current phone number?",
+      "answer": "Yes. You keep your number and we set up forwarding. You decide when the AI takes over: on every call, only outside opening hours, or only when the line is busy or goes unanswered after a set number of rings."
     },
     {
-      "question": "Does it work in English?",
-      "answer": "Yes, the system is fully optimized for English. AI understands natural speech patterns and accents. We also support Danish, French, Spanish, and Portuguese – AI adapts automatically."
+      "question": "How many calls can it handle at once?",
+      "answer": "There's no upper limit on simultaneous calls. If ten customers call at the same time, all ten are answered immediately. You pay for the talk time actually used, not for capacity, so a busy Monday morning doesn't cost extra in subscription."
     },
     {
-      "question": "Can I listen to calls afterwards?",
-      "answer": "Yes, all calls are recorded and summarized. You get a transcript and can listen to the full call in your dashboard. You also get a brief summary of what was agreed upon."
+      "question": "Can customers tell it's an AI?",
+      "answer": "The voice is natural, but we always recommend it introduces itself as a digital assistant – it's both the honest approach and the one customers respond best to. You decide the exact wording of the greeting."
     },
     {
-      "question": "What if a customer needs to speak to a human?",
-      "answer": "AI automatically recognizes when human intervention is needed. The call can transfer directly to your team, or AI can take a message and you can call back later."
+      "question": "What happens if the AI can't help?",
+      "answer": "It's set up to recognise its own limits. For complaints, urgent cases or questions it has no answer to, it transfers to the right colleague, or takes a message with name, number and what the case is about so you can call back."
     },
     {
-      "question": "Is it legal to make automated outbound calls?",
-      "answer": "Yes, as long as you comply with GDPR and local regulations. You need customer consent and they must be able to opt out. Our system helps you handle all of this correctly."
+      "question": "Is automated outbound calling legal?",
+      "answer": "Yes, when you comply with GDPR and marketing law. Service-related calls to existing customers – reminders, confirmations, rebooking – don't require separate consent. Pure marketing does, and the recipient must always be able to opt out of further calls. The system handles opt-outs for you."
     },
     {
-      "question": "How much money will I save?",
-      "answer": "A full-time receptionist typically costs €2,000-2,700/month. Our AI costs €200-800/month. That's 80-95% savings while providing better 24/7 service."
+      "question": "Does it work in languages other than English?",
+      "answer": "Yes. Alongside English the AI handles Danish, German, Spanish, French and Portuguese among others, and it switches language by itself if the customer does. That's particularly useful if you have international customers or staff."
     },
     {
-      "question": "How do I get started?",
-      "answer": "Book a free demo where we discuss your business and needs. We then set up the system with your specific instructions and you get 7 days free trial. After that, choose the plan that fits best."
+      "question": "What does it cost compared to a receptionist?",
+      "answer": "A full-time receptionist typically costs EUR 47,000–60,000 a year including pension and holiday pay. The AI voice starts at EUR 200 a month and covers the phone around the clock, through holidays and sick days too."
+    },
+    {
+      "question": "How long does setup take?",
+      "answer": "Usually under a week. We start with a conversation about your services and workflows, set up the voice and the calendar integration, and you test it free for seven days before deciding."
     }
   ]
 }

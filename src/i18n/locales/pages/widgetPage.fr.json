@@ -29,7 +29,7 @@
     },
     {
       "value": "200 min",
-      "label": "Temps de parole inclus"
+      "label": "Temps de parole, reste de l'année"
     },
     {
       "value": "134 €",
@@ -287,6 +287,7 @@
       "description": "Le moyen le plus rapide et le moins cher d'automatiser vos réservations. Le widget s'installe sur votre site web et permet aux clients de parler ou d'écrire directement avec votre assistant IA – 24h/24, sans intervention humaine.",
       "price_suffix": "€/mois",
       "includes": "Comprend 200 minutes de temps de parole (env. 0,67 €/minute)",
+      "campaign_note": "Offre : 200 min au lieu de 150 – pour le reste de l'année, au même prix",
       "renewal_note": "Le forfait se renouvelle automatiquement une fois les 200 minutes utilisées",
       "cta_order": "Commander maintenant",
       "cta_intro": "Réserver une intro gratuite",
@@ -446,7 +447,7 @@
     },
     {
       "question": "Combien coûte le AI widget ?",
-      "answer": "Le forfait de départ coûte 134 €/mois et comprend 200 minutes de temps de parole. Vous ne payez que le temps de parole actif – pas de salaire horaire, pas d'engagement."
+      "answer": "Le forfait de départ coûte 134 €/mois et comprend 200 minutes de temps de parole. Vous ne payez que le temps de parole actif – pas de salaire horaire, pas d'engagement. Les 200 minutes sont une offre valable pour le reste de l'année ; ensuite, ce sont 150 minutes au même prix."
     },
     {
       "question": "Quelles langues le widget prend-il en charge ?",

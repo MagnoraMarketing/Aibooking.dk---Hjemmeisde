@@ -29,7 +29,7 @@
     },
     {
       "value": "200 min",
-      "label": "Tempo de voz incluído"
+      "label": "Tempo de voz, resto do ano"
     },
     {
       "value": "134 €",
@@ -287,6 +287,7 @@
       "description": "A forma mais rápida e económica de automatizar as suas marcações. O widget fica no seu website e permite que os clientes falem ou escrevam diretamente com o seu assistente de IA – 24/7, sem intervenção humana.",
       "price_suffix": "€/mês",
       "includes": "Inclui 200 minutos de tempo de voz (aprox. 0,67 €/minuto)",
+      "campaign_note": "Campanha: 200 min em vez de 150 – durante o resto do ano, ao mesmo preço",
       "renewal_note": "O pacote renova-se automaticamente quando os 200 minutos forem usados",
       "cta_order": "Comprar agora",
       "cta_intro": "Marcar intro grátis",
@@ -446,7 +447,7 @@
     },
     {
       "question": "Quanto custa o AI widget?",
-      "answer": "O pacote inicial custa 134 €/mês e inclui 200 minutos de tempo de voz. Só paga pelo tempo de voz ativo – sem salário à hora, sem fidelização."
+      "answer": "O pacote inicial custa 134 €/mês e inclui 200 minutos de tempo de voz. Só paga pelo tempo de voz ativo – sem salário à hora, sem fidelização. Os 200 minutos são uma campanha válida durante o resto do ano; depois são 150 minutos ao mesmo preço."
     },
     {
       "question": "Que línguas suporta o widget?",

@@ -29,7 +29,7 @@
     },
     {
       "value": "200 min",
-      "label": "Taletid inkluderet"
+      "label": "Taletid resten af året"
     },
     {
       "value": "999 kr",
@@ -287,6 +287,7 @@
       "description": "Den hurtigste og billigste måde at automatisere din booking på. Widgetten sidder på din hjemmeside og lader kunder tale eller skrive direkte med din AI-assistent – 24/7, uden menneskelig indgriben.",
       "price_suffix": "kr/md",
       "includes": "Inkluderer 200 minutters taletid (ca. 5,00 kr/minut)",
+      "campaign_note": "Kampagne: 200 min. i stedet for 150 – gælder resten af året, til samme pris",
       "renewal_note": "Pakken fornyes automatisk når de 200 minutter er brugt",
       "cta_order": "Bestil nu",
       "cta_intro": "Book gratis intro",
@@ -446,7 +447,7 @@
     },
     {
       "question": "Hvad koster AI-widgetten?",
-      "answer": "Startpakken koster 999 kr/md og inkluderer 200 minutters taletid. Du betaler kun for aktiv tale – ingen timeløn, ingen binding."
+      "answer": "Startpakken koster 999 kr/md og inkluderer 200 minutters taletid. Du betaler kun for aktiv tale – ingen timeløn, ingen binding. De 200 minutter er en kampagne, der gælder resten af året – derefter er det 150 minutter til samme pris."
     },
     {
       "question": "Hvilke sprog understøtter widgetten?",

@@ -101,6 +101,11 @@ function PricingSection() {
                   <span className="text-2xl text-brand-600 font-semibold">{t('pricing.widgetPlan.price_suffix')}</span>
                 </div>
                 <p className="text-ink-700 mb-1 font-medium">{t('pricing.widgetPlan.includes')}</p>
+                {/* The extra 50 minutes are a limited campaign, so say so right
+                    next to the number rather than in the small print. */}
+                <p className="inline-flex items-center gap-2 my-2 bg-accent-400/20 text-ink-900 border border-accent-400/50 rounded-full px-4 py-1.5 text-sm font-semibold">
+                  {t('pricing.widgetPlan.campaign_note')}
+                </p>
                 <p className="text-ink-500 text-sm">{t('pricing.widgetPlan.renewal_note')}</p>
 
                 <div className="mt-8 flex flex-col sm:flex-row gap-3">

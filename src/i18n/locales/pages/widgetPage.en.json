@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "AI Voice Widget – Book Meetings With Your Voice | Aibooking.dk",
-    "description": "Add Aibooking.dk's AI voice widget to your website. Let customers book meetings and ask questions by voice – automatic, 24/7. Get started in under 5 minutes. From €134/month.",
-    "keywords": "AI voice widget, voicebot website, AI booking widget, voice-based booking, Danish chatbot, automatic meeting booking, AI receptionist widget, booking automation"
+    "title": "AI Voice Widget for Websites & Webshops – Book and Sell by Voice | Aibooking.dk",
+    "description": "Put Aibooking.dk's AI widget on your website or webshop (Shopify, WooCommerce, WordPress). Let customers book appointments, order products and track orders by voice – automatically, around the clock.",
+    "keywords": "AI voice widget, voicebot website, AI booking widget, voice-based booking, Danish chatbot, automatic meeting booking, AI receptionist widget, booking automation, webshop AI widget, Shopify voice assistant, AI order tracking, WooCommerce chatbot, ecommerce voice widget"
   },
   "hero": {
     "badge": "AI Voice Widget for your website",
@@ -159,6 +159,120 @@
         {
           "value": "100%",
           "label": "Automated bookings"
+        }
+      ]
+    }
+  },
+  "platforms": {
+    "badge": "Your digital extra employee",
+    "title": "Embeds anywhere online – pick your platform",
+    "subtitle": "The widget works like an extra employee who never takes time off. You pick the platform you already use, and the AI handles the rest – from first visit to a booked appointment or a captured quote request in your calendar.",
+    "list": [
+      "WordPress",
+      "Shopify",
+      "WooCommerce",
+      "Wix",
+      "Squarespace",
+      "Magento",
+      "Custom site"
+    ],
+    "cards": [
+      {
+        "title": "Books and rebooks appointments",
+        "description": "On ordinary websites the widget catches the visitor straight away and gets an appointment booked – or moved – directly in your calendar. No back and forth by email."
+      },
+      {
+        "title": "Captures quotes and leads",
+        "description": "If the customer wants a quote, the widget gathers the details and puts a follow-up meeting in the calendar automatically – ready for you to take over."
+      },
+      {
+        "title": "Takes orders",
+        "description": "On webshops customers can order products, ask about stock and get help through the whole purchase – without waiting for a member of staff."
+      }
+    ]
+  },
+  "webshop": {
+    "badge": "AI widget for webshops",
+    "title": "Like your webshop's built-in chat – but with an AI that books and sells",
+    "para1": "If you run a webshop on Shopify, WooCommerce or Magento, the AI widget drops straight onto the site – like the built-in chat tools you already know, only with an assistant that speaks and understands your customers' language.",
+    "para2": "Customers can ask the widget to track an order, reorder a product, check stock or get help with a return – automatically, without writing to customer service.",
+    "points": [
+      {
+        "label": "Tracks order status",
+        "desc": "\"Where's my parcel?\" is answered immediately"
+      },
+      {
+        "label": "Reorders products",
+        "desc": "The customer reorders the same item by voice"
+      },
+      {
+        "label": "Helps through the purchase",
+        "desc": "Answers questions about products and stock"
+      },
+      {
+        "label": "Suggests products",
+        "desc": "Recommends relevant items based on the need"
+      }
+    ],
+    "chat": {
+      "title": "AI widget · Webshop",
+      "status": "Online now",
+      "customerLabel": "Customer",
+      "aiLabel": "AI widget",
+      "lines": [
+        {
+          "role": "customer",
+          "text": "How far along is my order #4021?"
+        },
+        {
+          "role": "ai",
+          "text": "Your order shipped yesterday and is due to arrive tomorrow with the courier."
+        },
+        {
+          "role": "customer",
+          "text": "Can I get the same jacket again in size M?"
+        },
+        {
+          "role": "ai",
+          "text": "Yes, size M is in stock. Shall I place the order now?"
+        }
+      ]
+    }
+  },
+  "realExamples": {
+    "title": "Examples from real businesses",
+    "subtitle": "How companies use the AI widget in practice – on ordinary websites and on webshops.",
+    "website": {
+      "title": "On an ordinary website",
+      "items": [
+        {
+          "title": "The clinic",
+          "desc": "A patient books a dental appointment at 10 in the evening – the widget finds a free slot and confirms on the spot."
+        },
+        {
+          "title": "The tradesperson",
+          "desc": "A customer asks for a quote on a bathroom. The widget notes the address and the job and books a site visit in the calendar."
+        },
+        {
+          "title": "The consultant",
+          "desc": "An existing client wants to move a meeting to next week – the widget rebooks it automatically, with no email thread."
+        }
+      ]
+    },
+    "webshop": {
+      "title": "On a webshop",
+      "items": [
+        {
+          "title": "The clothing store",
+          "desc": "A customer asks whether an item comes in another size – the AI checks stock and helps place the order."
+        },
+        {
+          "title": "The electronics store",
+          "desc": "A customer wants to know where their parcel is. The widget pulls the order status and answers immediately – no hold time."
+        },
+        {
+          "title": "The subscription shop",
+          "desc": "A customer wants to reorder their regular item every month – the widget sets the order up during the conversation."
         }
       ]
     }

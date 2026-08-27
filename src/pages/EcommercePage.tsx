@@ -5,13 +5,16 @@ import FAQ from '../components/FAQ';
 import { ecommerceFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
-import { Clock, Users, MessageSquare, CheckSquare, CheckCircle, ShoppingCart } from 'lucide-react';
+import { Clock, Users, MessageSquare, CheckSquare, CheckCircle, ShoppingCart, Mic, Package, RefreshCw, ArrowRight } from 'lucide-react';
 import type { SupportedLanguage } from '../i18n/config';
-import { buildLocalizedPath } from '../utils/localePaths';
+import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import IndustryScenario from '../components/industries/IndustryScenario';
 import IndustryCalculator from '../components/industries/IndustryCalculator';
 import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
 import type { NavigatePage } from '../types/navigation';
+
+// Danish-worded canonical path; SEO turns it into per-language hreflang URLs.
+const PAGE_PATH = '/webshop';
 
 interface EcommercePageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -19,16 +22,20 @@ interface EcommercePageProps {
 
 interface TitleDescription { title: string; description: string }
 interface StatItem { value: string; label: string }
+interface TitleDesc { title: string; desc: string }
 
 function EcommercePage({ onNavigate }: EcommercePageProps) {
   const { t, i18n } = useTranslation('ecommercePage');
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
   const contactHref = buildLocalizedPath(lang, '/kontakt');
 
+  // These have to match the router's real paths — the canonical and the
+  // breadcrumb both used to point at /Hjemmeside/webshop and /industries,
+  // neither of which the router serves.
   const breadcrumbData = createBreadcrumbSchema([
-    { name: t('breadcrumb.home'), url: 'https://www.aibooking.dk/' },
-    { name: t('breadcrumb.industries'), url: 'https://www.aibooking.dk/industries' },
-    { name: t('breadcrumb.ecommerce'), url: 'https://www.aibooking.dk/Hjemmeside/webshop' },
+    { name: t('breadcrumb.home'), url: localizedUrl(lang, '/') },
+    { name: t('breadcrumb.industries'), url: localizedUrl(lang, '/brancher') },
+    { name: t('breadcrumb.ecommerce'), url: localizedUrl(lang, PAGE_PATH) },
   ]);
 
   const benefits = t('benefits', { returnObjects: true }) as TitleDescription[];
@@ -38,13 +45,18 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
 
   const perfectForItems = t('perfectFor.items', { returnObjects: true }) as string[];
 
+  const voiceWidgetCards = t('voiceWidget.cards', { returnObjects: true }) as TitleDesc[];
+  const voiceWidgetIcons = [Package, RefreshCw, ShoppingCart];
+  const widgetHref = buildLocalizedPath(lang, '/widget');
+
   return (
     <div className="min-h-screen bg-white">
       <SEO
         title={t('seo.title')}
         description={t('seo.description')}
         keywords={t('seo.keywords')}
-        canonical="https://www.aibooking.dk/Hjemmeside/webshop"
+        canonical={localizedUrl(lang, PAGE_PATH)}
+        path={PAGE_PATH}
         structuredData={breadcrumbData}
       />
       <Navigation onNavigate={onNavigate} />
@@ -103,6 +115,41 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
                 </div>
               );
             })}
+          </div>
+
+          {/* Voice widget for webshops – links through to the widget page */}
+          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-lg border border-ink-200 mb-16">
+            <div className="inline-flex items-center gap-2 bg-brand-50 text-brand-700 px-4 py-2 rounded-full mb-6 border border-brand-100">
+              <Mic className="w-4 h-4" />
+              <span className="text-sm font-semibold">{t('voiceWidget.badge')}</span>
+            </div>
+            <h2 className="text-2xl md:text-3xl font-bold text-ink-900 mb-5">{t('voiceWidget.title')}</h2>
+            <p className="text-lg text-ink-600 leading-relaxed mb-8 max-w-4xl">
+              {t('voiceWidget.intro')}
+            </p>
+            <div className="grid md:grid-cols-3 gap-6 mb-10">
+              {voiceWidgetCards.map((card, index) => {
+                const Icon = voiceWidgetIcons[index] ?? Package;
+                return (
+                  <div key={index} className="flex items-start gap-4">
+                    <div className="w-9 h-9 bg-brand-50 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <Icon className="w-5 h-5 text-brand-600" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-ink-900 mb-1.5">{card.title}</h3>
+                      <p className="text-ink-600 text-sm leading-relaxed">{card.desc}</p>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+            <a
+              href={widgetHref}
+              className="inline-flex items-center justify-center gap-2 bg-brand-600 text-white px-8 py-4 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
+            >
+              {t('voiceWidget.cta')}
+              <ArrowRight className="w-5 h-5" />
+            </a>
           </div>
 
           <div className="bg-gradient-to-br from-ink-900 to-brand-900 rounded-3xl p-12 text-white text-center">

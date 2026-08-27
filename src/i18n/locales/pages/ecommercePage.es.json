@@ -1,10 +1,14 @@
 {
   "seo": {
-    "title": "Atención al Cliente con IA para E-commerce y Tiendas Online | Aibooking.dk",
-    "description": "Atención al cliente con IA 24/7 para tiendas online. 40% más satisfacción del cliente, 28% más conversión. Respuestas automáticas, actualizaciones por SMS. Pruébalo gratis.",
-    "keywords": "atención al cliente tienda online, ia para e-commerce, automatización de tienda online, chatbot para tienda online, automatización de atención al cliente"
+    "title": "Atención al cliente con IA y widget de voz para tiendas online (Shopify, WooCommerce) | Aibooking.dk",
+    "description": "Atención al cliente con IA y widget de voz para tiendas en Shopify, WooCommerce y Magento. Deja que los clientes sigan pedidos, repitan compras y obtengan respuestas con la voz, a cualquier hora.",
+    "keywords": "atención al cliente tienda online, ia para e-commerce, automatización de tienda online, chatbot para tienda online, automatización de atención al cliente, widget IA Shopify, asistente de voz tienda online, seguimiento de pedidos con IA, chatbot WooCommerce"
   },
-  "breadcrumb": { "home": "Inicio", "industries": "Sectores", "ecommerce": "E-commerce y Tienda Online" },
+  "breadcrumb": {
+    "home": "Inicio",
+    "industries": "Sectores",
+    "ecommerce": "E-commerce y Tienda Online"
+  },
   "hero": {
     "badge": "E-commerce y Tienda Online",
     "title": "Atención al cliente que crece con tu negocio",
@@ -15,22 +19,78 @@
     "description": "Aibooking.dk te ofrece una atención al cliente impulsada por IA que nunca duerme. El sistema responde al instante a preguntas frecuentes sobre productos, plazos de entrega, devoluciones y estado de los pedidos. Las consultas complejas se derivan automáticamente a tu equipo. Con notificaciones por SMS, mantienes a los clientes informados durante todo su proceso de compra. Tu panel muestra todas las interacciones con los clientes, resúmenes de conversaciones, preguntas frecuentes y tendencias, para que puedas optimizar continuamente tu servicio. Reduce los tiempos de respuesta de horas a segundos y mejora notablemente la satisfacción del cliente."
   },
   "benefits": [
-    { "title": "Atención al cliente 24/7", "description": "Responde a las consultas al instante sin personal adicional" },
-    { "title": "Respuestas automáticas", "description": "Gestiona preguntas sobre productos, estado de pedidos y devoluciones" },
-    { "title": "Actualizaciones por SMS", "description": "Notificaciones automáticas sobre envíos y entregas" },
-    { "title": "Tiempos de respuesta ultrarrápidos", "description": "Reduce los tiempos de respuesta de horas a segundos" },
-    { "title": "Perspectivas de tendencias", "description": "Panel con interacciones de clientes y preguntas frecuentes" },
-    { "title": "Integración con tienda online", "description": "Integración con tu sistema de tienda online y gestión de pedidos" }
+    {
+      "title": "Atención al cliente 24/7",
+      "description": "Responde a las consultas al instante sin personal adicional"
+    },
+    {
+      "title": "Respuestas automáticas",
+      "description": "Gestiona preguntas sobre productos, estado de pedidos y devoluciones"
+    },
+    {
+      "title": "Actualizaciones por SMS",
+      "description": "Notificaciones automáticas sobre envíos y entregas"
+    },
+    {
+      "title": "Tiempos de respuesta ultrarrápidos",
+      "description": "Reduce los tiempos de respuesta de horas a segundos"
+    },
+    {
+      "title": "Perspectivas de tendencias",
+      "description": "Panel con interacciones de clientes y preguntas frecuentes"
+    },
+    {
+      "title": "Integración con tienda online",
+      "description": "Integración con tu sistema de tienda online y gestión de pedidos"
+    }
   ],
   "stats": [
-    { "value": "95%", "label": "Respuestas más rápidas" },
-    { "value": "+40%", "label": "Satisfacción del cliente" },
-    { "value": "1200+", "label": "Consultas/mes" },
-    { "value": "+28%", "label": "Conversión" }
+    {
+      "value": "95%",
+      "label": "Respuestas más rápidas"
+    },
+    {
+      "value": "+40%",
+      "label": "Satisfacción del cliente"
+    },
+    {
+      "value": "1200+",
+      "label": "Consultas/mes"
+    },
+    {
+      "value": "+28%",
+      "label": "Conversión"
+    }
   ],
+  "voiceWidget": {
+    "badge": "Widget de voz con IA para tu tienda online",
+    "title": "Como tener un vendedor más en la tienda: el chat de tu web, pero más listo",
+    "intro": "El widget de IA de Aibooking.dk se instala directamente en tu tienda online, tanto si usas Shopify como WooCommerce o Magento. Los clientes pueden hablar o escribir para consultar un pedido, repetir una compra o encontrar el producto adecuado, de forma automática y a cualquier hora.",
+    "cards": [
+      {
+        "title": "Sigue pedidos",
+        "desc": "\"¿Dónde está mi paquete?\" se responde al instante con el estado real del pedido"
+      },
+      {
+        "title": "Repite pedidos",
+        "desc": "El cliente vuelve a pedir un artículo anterior en la propia conversación"
+      },
+      {
+        "title": "Ayuda en la compra",
+        "desc": "Resuelve dudas de stock, tallas y envío mientras el cliente compra"
+      }
+    ],
+    "cta": "Ver el widget de IA para tiendas online"
+  },
   "perfectFor": {
     "title": "Perfecto para todo tipo de negocios online",
-    "items": ["Tiendas online", "E-commerce", "Dropshipping", "Marketplaces", "Ventas online"],
+    "items": [
+      "Tiendas online",
+      "E-commerce",
+      "Dropshipping",
+      "Marketplaces",
+      "Ventas online"
+    ],
     "cta": "Reserva una reunión sin compromiso y obtén un acceso de prueba gratuito"
   },
   "ctaSection": {

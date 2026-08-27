@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Widget de Voz con IA – Reserva Reuniones con Tu Voz | Aibooking.dk",
-    "description": "Añade el widget de voz con IA de Aibooking.dk a tu sitio web. Deja que tus clientes reserven reuniones y hagan preguntas por voz – automático, 24/7. Empieza en menos de 5 minutos. Desde 134€/mes.",
-    "keywords": "widget de voz con ia, voicebot sitio web, widget de reservas con ia, reserva por voz, chatbot en danés, reserva automática de reuniones, widget de recepcionista de ia, automatización de reservas"
+    "title": "Widget de voz con IA para webs y tiendas online – reserva y vende con la voz | Aibooking.dk",
+    "description": "Instala el widget de IA de Aibooking.dk en tu web o tienda online (Shopify, WooCommerce, WordPress). Deja que los clientes reserven citas, pidan productos y sigan pedidos con la voz, las 24 horas.",
+    "keywords": "widget de voz con ia, voicebot sitio web, widget de reservas con ia, reserva por voz, chatbot en danés, reserva automática de reuniones, widget de recepcionista de ia, automatización de reservas, widget IA tienda online, asistente de voz Shopify, seguimiento de pedidos con IA, chatbot WooCommerce, widget de voz ecommerce"
   },
   "hero": {
     "badge": "Widget de Voz con IA para tu sitio web",
@@ -159,6 +159,120 @@
         {
           "value": "100%",
           "label": "Reservas automatizadas"
+        }
+      ]
+    }
+  },
+  "platforms": {
+    "badge": "Tu empleado digital extra",
+    "title": "Se integra en cualquier sitio – elige tu plataforma",
+    "subtitle": "El widget funciona como un empleado más que nunca libra. Tú eliges la plataforma que ya usas y la IA se encarga del resto: desde la primera visita hasta una cita reservada o una solicitud de presupuesto en tu calendario.",
+    "list": [
+      "WordPress",
+      "Shopify",
+      "WooCommerce",
+      "Wix",
+      "Squarespace",
+      "Magento",
+      "Web propia"
+    ],
+    "cards": [
+      {
+        "title": "Reserva y cambia citas",
+        "description": "En webs corrientes el widget capta a la visita al momento y deja la cita reservada – o cambiada – directamente en tu calendario. Sin correos de ida y vuelta."
+      },
+      {
+        "title": "Recoge presupuestos y leads",
+        "description": "Si el cliente quiere un presupuesto, el widget reúne los datos y agenda automáticamente una reunión de seguimiento, lista para que tomes el relevo."
+      },
+      {
+        "title": "Recibe pedidos",
+        "description": "En tiendas online los clientes pueden pedir productos, preguntar por el stock y recibir ayuda durante toda la compra, sin esperar a un empleado."
+      }
+    ]
+  },
+  "webshop": {
+    "badge": "Widget de IA para tiendas online",
+    "title": "Como el chat integrado de tu tienda, pero con una IA que reserva y vende",
+    "para1": "Si tienes una tienda en Shopify, WooCommerce o Magento, el widget de IA se instala directamente en la web – como los chats integrados que ya conoces, solo que con un asistente que habla y entiende el idioma de tus clientes.",
+    "para2": "Los clientes pueden pedirle al widget que siga un pedido, repita una compra, consulte el stock o ayude con una devolución, de forma automática y sin escribir a atención al cliente.",
+    "points": [
+      {
+        "label": "Sigue el estado del pedido",
+        "desc": "\"¿Dónde está mi paquete?\" se responde al instante"
+      },
+      {
+        "label": "Repite pedidos",
+        "desc": "El cliente vuelve a pedir el mismo artículo con la voz"
+      },
+      {
+        "label": "Ayuda en la compra",
+        "desc": "Responde dudas sobre productos y stock"
+      },
+      {
+        "label": "Sugiere productos",
+        "desc": "Recomienda artículos según la necesidad"
+      }
+    ],
+    "chat": {
+      "title": "Widget de IA · Tienda online",
+      "status": "En línea",
+      "customerLabel": "Cliente",
+      "aiLabel": "Widget de IA",
+      "lines": [
+        {
+          "role": "customer",
+          "text": "¿Cómo va mi pedido #4021?"
+        },
+        {
+          "role": "ai",
+          "text": "Su pedido salió ayer y está previsto que llegue mañana con la agencia de transporte."
+        },
+        {
+          "role": "customer",
+          "text": "¿Puedo pedir la misma chaqueta en talla M?"
+        },
+        {
+          "role": "ai",
+          "text": "Sí, la talla M está disponible. ¿Le tramito el pedido ahora?"
+        }
+      ]
+    }
+  },
+  "realExamples": {
+    "title": "Ejemplos de empresas reales",
+    "subtitle": "Así usan las empresas el widget de IA en la práctica: en webs corrientes y en tiendas online.",
+    "website": {
+      "title": "En una web corriente",
+      "items": [
+        {
+          "title": "La clínica",
+          "desc": "Un paciente reserva cita con el dentista a las diez de la noche; el widget encuentra un hueco libre y lo confirma al momento."
+        },
+        {
+          "title": "El gremio",
+          "desc": "Un cliente pide presupuesto para un baño. El widget anota la dirección y el trabajo y agenda una visita de valoración."
+        },
+        {
+          "title": "El consultor",
+          "desc": "Un cliente quiere mover una reunión a la semana siguiente; el widget la cambia solo, sin cadena de correos."
+        }
+      ]
+    },
+    "webshop": {
+      "title": "En una tienda online",
+      "items": [
+        {
+          "title": "La tienda de ropa",
+          "desc": "Un cliente pregunta si un artículo existe en otra talla; la IA consulta el stock y ayuda a tramitar el pedido."
+        },
+        {
+          "title": "La tienda de electrónica",
+          "desc": "Un cliente quiere saber dónde está su paquete. El widget consulta el estado y responde al momento, sin esperas."
+        },
+        {
+          "title": "La tienda de suscripción",
+          "desc": "Un cliente quiere repetir su pedido habitual cada mes; el widget lo deja tramitado durante la conversación."
         }
       ]
     }

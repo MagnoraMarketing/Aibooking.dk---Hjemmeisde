@@ -4,6 +4,7 @@ import {
   Zap, Mic, Calendar, Clock, CheckCircle, MessageSquare, PhoneCall, Star, Shield, Globe,
   ChevronDown, ArrowRight, Phone, LayoutDashboard,
   SlidersHorizontal, Headphones, CalendarCheck,
+  ShoppingCart, Store, Package, RefreshCw, Sparkles, Users,
 } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
@@ -23,6 +24,8 @@ interface WidgetPageProps {
 interface Faq { question: string; answer: string }
 interface TitleDescription { title: string; description: string }
 interface LabelDesc { label: string; desc: string }
+interface ChatLine { role: 'ai' | 'customer'; text: string }
+interface TitleDesc { title: string; desc: string }
 interface StatItem { value: string; label: string }
 interface StepItem { title: string; description: string }
 
@@ -408,6 +411,17 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
   const useCaseItems = t('useCases.items', { returnObjects: true }) as LabelDesc[];
   const roiStats = t('useCases.roi.stats', { returnObjects: true }) as StatItem[];
 
+  const platformList = t('platforms.list', { returnObjects: true }) as string[];
+  const platformCards = t('platforms.cards', { returnObjects: true }) as TitleDescription[];
+  const platformCardIcons = [Calendar, MessageSquare, ShoppingCart];
+
+  const webshopPoints = t('webshop.points', { returnObjects: true }) as LabelDesc[];
+  const webshopPointIcons = [Package, RefreshCw, ShoppingCart, Sparkles];
+  const webshopChat = t('webshop.chat.lines', { returnObjects: true }) as ChatLine[];
+
+  const websiteExamples = t('realExamples.website.items', { returnObjects: true }) as TitleDesc[];
+  const webshopExamples = t('realExamples.webshop.items', { returnObjects: true }) as TitleDesc[];
+
   return (
     <>
       <SEO
@@ -641,6 +655,167 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                   </div>
                 ))}
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Platforms the widget embeds into */}
+        <section className="py-20 md:py-28 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-14 space-y-4">
+              <div className="inline-flex items-center gap-2 bg-brand-50 text-brand-700 px-4 py-2 rounded-full text-sm font-semibold border border-brand-100">
+                <Users className="w-4 h-4" />
+                {t('platforms.badge')}
+              </div>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-ink-900 tracking-tight">
+                {t('platforms.title')}
+              </h2>
+              <p className="text-lg text-ink-600 max-w-3xl mx-auto leading-relaxed">
+                {t('platforms.subtitle')}
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4 mb-14">
+              {platformList.map((platform) => (
+                <div key={platform} className="bg-white border border-ink-200 rounded-2xl p-4 text-center hover:border-brand-300 hover:shadow-md transition-all">
+                  <div className="w-10 h-10 bg-brand-50 rounded-xl flex items-center justify-center mx-auto mb-2">
+                    <Store className="w-5 h-5 text-brand-600" />
+                  </div>
+                  <div className="text-sm font-semibold text-ink-800">{platform}</div>
+                </div>
+              ))}
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              {platformCards.map((card, i) => {
+                const Icon = platformCardIcons[i] ?? Calendar;
+                return (
+                  <div key={i} className="bg-white border border-ink-200 rounded-2xl p-6">
+                    <div className="w-11 h-11 bg-brand-50 rounded-xl flex items-center justify-center mb-4">
+                      <Icon className="w-5 h-5 text-brand-600" />
+                    </div>
+                    <h3 className="text-lg font-bold text-ink-900 mb-2">{card.title}</h3>
+                    <p className="text-ink-600 text-[15px] leading-relaxed">{card.description}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+
+        {/* Webshop widget */}
+        <section className="py-20 md:py-28 bg-ink-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+              <div className="space-y-6">
+                <div className="inline-flex items-center gap-2 bg-brand-50 text-brand-700 px-4 py-2 rounded-full text-sm font-semibold border border-brand-100">
+                  <ShoppingCart className="w-4 h-4" />
+                  {t('webshop.badge')}
+                </div>
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-ink-900 leading-tight tracking-tight">
+                  {t('webshop.title')}
+                </h2>
+                <p className="text-lg text-ink-600 leading-relaxed">{t('webshop.para1')}</p>
+                <p className="text-lg text-ink-600 leading-relaxed">{t('webshop.para2')}</p>
+
+                <div className="grid sm:grid-cols-2 gap-4 pt-2">
+                  {webshopPoints.map((point, i) => {
+                    const Icon = webshopPointIcons[i] ?? Package;
+                    return (
+                      <div key={i} className="flex items-start gap-3 bg-white rounded-xl p-4 border border-ink-200">
+                        <div className="w-9 h-9 bg-brand-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <Icon className="w-5 h-5 text-brand-600" />
+                        </div>
+                        <div className="min-w-0">
+                          <div className="font-semibold text-ink-800 text-sm">{point.label}</div>
+                          <div className="text-xs text-ink-600 mt-0.5 leading-snug">{point.desc}</div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+
+              <div className="relative">
+                <div className="absolute -inset-4 bg-gradient-to-br from-brand-100 to-ink-100 rounded-3xl blur-2xl opacity-60" aria-hidden="true" />
+                <div className="relative bg-white rounded-3xl shadow-2xl border border-ink-100 p-6">
+                  <div className="flex items-center gap-3 mb-5">
+                    <div className="w-10 h-10 rounded-full bg-brand-600 flex items-center justify-center flex-shrink-0">
+                      <Mic className="w-5 h-5 text-white" />
+                    </div>
+                    <div className="min-w-0">
+                      <div className="text-sm font-semibold text-ink-900 truncate">{t('webshop.chat.title')}</div>
+                      <div className="flex items-center gap-1.5 text-xs text-ink-600">
+                        <span className="w-1.5 h-1.5 rounded-full bg-green-500" />
+                        {t('webshop.chat.status')}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="space-y-3">
+                    {webshopChat.map((line, i) => {
+                      const isAi = line.role === 'ai';
+                      return (
+                        <div
+                          key={i}
+                          className={`rounded-xl p-3.5 border ${
+                            isAi
+                              ? 'bg-brand-50 border-brand-100'
+                              : 'bg-ink-50 border-ink-200 ml-6'
+                          }`}
+                        >
+                          <div className="text-[11px] uppercase tracking-wider font-semibold mb-1 text-ink-600">
+                            {isAi ? t('webshop.chat.aiLabel') : t('webshop.chat.customerLabel')}
+                          </div>
+                          <p className="text-sm text-ink-800 leading-relaxed">{line.text}</p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Website vs webshop examples */}
+        <section className="py-20 md:py-28 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-14 space-y-4">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-ink-900 tracking-tight">
+                {t('realExamples.title')}
+              </h2>
+              <p className="text-lg text-ink-600 max-w-3xl mx-auto leading-relaxed">
+                {t('realExamples.subtitle')}
+              </p>
+            </div>
+
+            <div className="grid lg:grid-cols-2 gap-8">
+              {([
+                { key: 'website', icon: Globe, items: websiteExamples },
+                { key: 'webshop', icon: ShoppingCart, items: webshopExamples },
+              ] as const).map(({ key, icon: Icon, items }) => (
+                <div key={key} className="bg-white rounded-3xl border border-ink-200 p-8 shadow-sm">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="w-11 h-11 bg-brand-50 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <Icon className="w-5 h-5 text-brand-600" />
+                    </div>
+                    <h3 className="text-xl font-bold text-ink-900">{t(`realExamples.${key}.title`)}</h3>
+                  </div>
+                  <ul className="space-y-4">
+                    {items.map((example, i) => (
+                      <li key={i} className="flex items-start gap-3">
+                        <div className="w-6 h-6 rounded-full bg-brand-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <CheckCircle className="w-3.5 h-3.5 text-white" />
+                        </div>
+                        <div>
+                          <span className="font-semibold text-ink-900">{example.title}: </span>
+                          <span className="text-ink-600 text-[15px] leading-relaxed">{example.desc}</span>
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
             </div>
           </div>
         </section>

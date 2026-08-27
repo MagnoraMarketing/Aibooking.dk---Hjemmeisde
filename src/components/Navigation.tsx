@@ -1,9 +1,13 @@
 import { useState, useRef, useEffect } from 'react';
-import { Phone, Plug, Building2, ChevronDown, Stethoscope, Wrench, Briefcase, ShoppingCart, MessageSquare, Users, Globe, Menu, X } from 'lucide-react';
+import { Phone, Plug, Building2, ChevronDown, Stethoscope, Wrench, Briefcase, ShoppingCart, MessageSquare, Users, Globe, Menu, X, LogIn } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { splitLocalizedPath, buildLocalizedPath } from '../utils/localePaths';
 import { SupportedLanguage } from '../i18n/config';
 import type { NavigatePage } from '../types/navigation';
+
+// Customer dashboard lives on the separate backend app.
+const LOGIN_URL = 'https://aibooking-backendnew.vercel.app/login';
+const SIGNUP_URL = 'https://aibooking-backendnew.vercel.app/signup';
 
 interface NavigationProps {
   onNavigate: (page: NavigatePage) => void;
@@ -93,7 +97,7 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${solid ? 'bg-white/90 backdrop-blur-xl border-b border-ink-200/50 shadow-sm' : 'bg-transparent'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
-            <div className="flex items-center space-x-3 flex-shrink-0 mr-4">
+            <div className="flex items-center space-x-3 flex-shrink-0 mr-3 2xl:mr-4">
               <div className="w-11 h-11 bg-gradient-to-br from-brand-600 via-brand-600 to-brand-700 rounded-2xl flex items-center justify-center shadow-lg shadow-brand-500/20">
                 <Phone className="w-6 h-6 text-white" />
               </div>
@@ -101,7 +105,7 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
             </div>
 
             {/* Desktop menu */}
-            <div className="hidden xl:flex items-center gap-x-5">
+            <div className="hidden xl:flex items-center gap-x-4 2xl:gap-x-5">
               <button
                 onClick={() => onNavigate('home')}
                 className={navLinkClass}
@@ -255,11 +259,24 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
                   </div>
                 )}
               </div>
+              {/* The CTA beside this already points at signup, so returning
+                  customers only need the way back in. */}
               <a
-                href="https://aibooking-backendnew.vercel.app/signup"
+                href={LOGIN_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-brand-600 text-white px-5 py-2.5 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-sm hover:shadow-md transform hover:scale-[1.02] text-[15px] inline-block whitespace-nowrap flex-shrink-0"
+                className={`${navLinkClassFlex} flex-shrink-0`}
+                aria-label={t('nav.login')}
+                title={t('nav.login')}
+              >
+                <LogIn className="w-4 h-4" />
+                <span className="hidden 2xl:inline">{t('nav.login')}</span>
+              </a>
+              <a
+                href={SIGNUP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-brand-600 text-white px-4 2xl:px-5 py-2.5 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-sm hover:shadow-md transform hover:scale-[1.02] text-[15px] inline-block whitespace-nowrap flex-shrink-0"
               >
                 {t('nav.book_demo')}
               </a>
@@ -455,15 +472,25 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
         </div>
 
         {/* Drawer footer CTA */}
-        <div className="px-4 py-5 border-t border-ink-100 flex-shrink-0">
+        <div className="px-4 py-5 border-t border-ink-100 flex-shrink-0 space-y-2.5">
           <a
-            href="https://aibooking-backendnew.vercel.app/signup"
+            href={SIGNUP_URL}
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsMobileOpen(false)}
             className="w-full flex items-center justify-center bg-brand-600 text-white py-3.5 rounded-xl hover:bg-brand-700 transition-all font-semibold text-[15px] shadow-md"
           >
             {t('nav.book_demo')}
+          </a>
+          <a
+            href={LOGIN_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setIsMobileOpen(false)}
+            className="w-full flex items-center justify-center gap-2 border border-ink-200 text-ink-700 py-3 rounded-xl hover:bg-ink-50 transition-all font-medium text-[15px]"
+          >
+            <LogIn className="w-4 h-4" />
+            {t('nav.login')}
           </a>
         </div>
       </div>

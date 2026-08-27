@@ -1,7 +1,11 @@
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin, LogIn, UserPlus } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 import type { NavigatePage } from '../types/navigation';
+
+// Customer dashboard lives on the separate backend app.
+const LOGIN_URL = 'https://aibooking-backendnew.vercel.app/login';
+const SIGNUP_URL = 'https://aibooking-backendnew.vercel.app/signup';
 
 interface FooterProps {
   onNavigate?: (page: NavigatePage) => void;
@@ -216,6 +220,36 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                 <span>{t('footer.address')}</span>
               </li>
             </ul>
+          </div>
+        </div>
+
+        {/* Customer account callout — the dashboard lives on the backend app */}
+        <div className="border-t border-ink-800 pt-10 mb-10">
+          <div className="bg-ink-800/60 border border-ink-700 rounded-2xl p-6 sm:p-8 flex flex-col lg:flex-row lg:items-center gap-6">
+            <div className="flex-1">
+              <h3 className="text-white font-semibold text-lg mb-1.5">{t('footer.customer_cta_title')}</h3>
+              <p className="text-sm text-ink-400 leading-relaxed">{t('footer.customer_cta_subtitle')}</p>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
+              <a
+                href={LOGIN_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 border border-ink-600 text-white px-6 py-3 rounded-xl hover:bg-ink-700 transition-colors font-medium text-sm whitespace-nowrap"
+              >
+                <LogIn className="w-4 h-4" />
+                {t('nav.login')}
+              </a>
+              <a
+                href={SIGNUP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-brand-600 text-white px-6 py-3 rounded-xl hover:bg-brand-700 transition-colors font-semibold text-sm whitespace-nowrap"
+              >
+                <UserPlus className="w-4 h-4" />
+                {t('nav.signup')}
+              </a>
+            </div>
           </div>
         </div>
 

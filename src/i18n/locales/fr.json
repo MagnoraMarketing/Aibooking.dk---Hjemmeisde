@@ -32,6 +32,8 @@
     "contact_us": "Nous contacter",
     "about_us": "À propos",
     "book_demo": "Commencer",
+    "login": "Se connecter",
+    "signup": "Créer un compte",
     "language": "Langue",
     "open_menu": "Ouvrir le menu",
     "close_menu": "Fermer le menu"
@@ -278,6 +280,8 @@
     "contact_title": "Contact",
     "address": "Aarhus, Danemark",
     "rights": "Tous droits réservés",
+    "customer_cta_title": "Espace client",
+    "customer_cta_subtitle": "Connectez-vous à votre tableau de bord, ou créez un compte gratuit en tant que nouveau client.",
     "made_by": "Conçu et propulsé par"
   },
   "contact": {

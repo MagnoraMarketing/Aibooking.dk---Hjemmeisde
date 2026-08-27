@@ -25,6 +25,7 @@
       }
     },
     "see_all_industries": "Voir tous les secteurs →",
+    "inbound_outbound": "Appels Téléphoniques",
     "integrations": "Intégrations",
     "demo": "Démo",
     "contact": "Contact",
@@ -256,6 +257,7 @@
     "ai_booking": "AI Booking",
     "free_trial": "Essai Gratuit de 7 Jours",
     "ai_widget": "Widget IA",
+    "phone_assistant": "Assistant Téléphonique IA",
     "book_demo": "Réserver une démo",
     "features": "Fonctionnalités",
     "industries_title": "Secteurs",

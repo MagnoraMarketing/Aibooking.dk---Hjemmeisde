@@ -1,0 +1,208 @@
+{
+  "seo": {
+    "title": "Ind- og Udgående Opkald | AI Telefonassistent | Aibooking.dk",
+    "description": "Automate både indgående og udgående opkald med vores AI telefonassistent. 24/7 kundeservice, opringning til kunderne, booking og påmindelser. Spar op til 80% på telefonbetjening.",
+    "keywords": "ind- og udgående opkald, AI telefonassistent, udgående opkald, indgående opkald, automatisering, kundeservice, booking, påmindelser"
+  },
+  "hero": {
+    "badge": "Ind- og udgående opkald",
+    "title": "AI Telefonassistent til Ind- og Udgående Opkald",
+    "subtitle": "Automate alle dine telefonsamtaler 24/7. Håndter indgående opkald professionelt, ring ud til kunder med påmindelser, og book møder – helt uden menneskelig indgriben.",
+    "cta_demo": "Book gratis demo",
+    "cta_pricing": "Se priser",
+    "stats": {
+      "inbound": "Indgående opkald",
+      "outbound": "Udgående opkald",
+      "roi": "80% besparelse"
+    }
+  },
+  "whatIs": {
+    "title": "Hvad er Ind- og Udgående AI Opkald?",
+    "para1": "En AI telefonassistent er en intelligent virtuel receptionist, der håndterer både indgående og udgående telefonopkald fuldt automatiseret. Din AI-assistent besvarer indgående opkald professionelt, registrerer kundeinformation, booker møder, og kan også ringe ud til kunderne med påmindelser eller meddelelser.",
+    "para2": "I modsætning til en traditionel receptionist arbejder vores AI 24/7 uden pauser, ferier eller sygedage. Dit team får mere tid til værdiskabende arbejde, dine kunder får hurtig og professionel service, og du sparer betydelige lønomkostninger.",
+    "para3": "Vælg mellem at håndtere kun indgående opkald (kundeservice), kun udgående opkald (opringninger), eller en kombineret løsning der gør begge dele.",
+    "inbound": {
+      "title": "Indgående Opkald",
+      "desc": "AI besvarer alle indgående opkald professionelt, registrerer kundeinfo, booker møder, besvarer spørgsmål og viderestiller vigtige sager til dit team"
+    },
+    "outbound": {
+      "title": "Udgående Opkald",
+      "desc": "AI ringer ud til kunderne med påmindelser, bekræftelser, nye produkttilbud, eller vigtige meddelelser – helt automatiseret og personaliseret"
+    }
+  },
+  "features": {
+    "title": "Avancerede Funktioner",
+    "subtitle": "Alt hvad du behøver til fuldt automatiseret telefonhåndtering",
+    "items": [
+      {
+        "title": "Naturlig Talegenkendelse",
+        "description": "AI forstår naturlig dansk tale uden krav til kommandoer. Systemet følger samtalen naturligt og stiller relevante opfølgende spørgsmål."
+      },
+      {
+        "title": "Indgående Opkaldsbehandling",
+        "description": "Besvarer alle opkald professionelt, registrerer kundeinfo, håndterer bookinger, besvarer FAQ-spørgsmål, og viderestiller vigtige sager."
+      },
+      {
+        "title": "Udgående Opringninger",
+        "description": "Ring automatisk ud til kunderne med påmindelser, bekræftelser, opfølgninger eller kampagner – helt personaliseret og professionelt."
+      },
+      {
+        "title": "Intelligent Timing",
+        "description": "AI vælger optimale tidspunkter for udgående opkald, respekterer kundernes præferencer, og tilpasser efter svarprocenter."
+      },
+      {
+        "title": "Kalenderintegration",
+        "description": "Synkroniserer direkte med Google Calendar, Outlook og branchespecifikke booking-systemer. Ingen manuelle registreringer."
+      },
+      {
+        "title": "SMS Påmindelser",
+        "description": "Kombiner telefonopkald med SMS-påmindelser for maksimal effekt. No-shows reduceres med op til 60%."
+      },
+      {
+        "title": "Taleoptagelse & Opsummering",
+        "description": "Alle opkald optages og opsummeres automatisk. Lyt til samtaler og se præcis hvad der blev aftalt."
+      },
+      {
+        "title": "Intelligent Routing",
+        "description": "Komplekse kundespørgsmål viderestilles automatisk til det rigtige team medlem baseret på deres ekspertise."
+      },
+      {
+        "title": "GDPR & Sikkerhed",
+        "description": "Fuld GDPR-overholdelse og end-to-end kryptering. Din data er altid sikker og under din kontrol."
+      }
+    ]
+  },
+  "useCases": {
+    "title": "Brugsscenarier",
+    "subtitle": "Perfekt til virksomheder der vil automatisere al telefonkommunikation",
+    "items": [
+      {
+        "title": "Kliniker & Tandlæger",
+        "description": "Besvare tilmeldings-opkald, sende SMS-påmindelser dagen før, og ringe ud til no-show-kunder med alternative tider. Reducer no-shows fra 20% til 5%."
+      },
+      {
+        "title": "Håndværkere & Installatører",
+        "description": "Modtag og registrer jobs, ring ud med bekræftelse af besøg, og send påmindelser. Aldrig gå glip af en jobopringning igen."
+      },
+      {
+        "title": "Salgsvirksomheder",
+        "description": "Ring ud til leads med personaliserede tilbud, spørg efter deres behov, og book møde direkte i kalenderen – helt automatisk."
+      },
+      {
+        "title": "Kundeservice Centers",
+        "description": "Håndter tusinder af indgående opkald uden at ansætte nye medarbejdere. Svar på FAQ, foretag ordresøgninger, håndter klager."
+      },
+      {
+        "title": "E-handel",
+        "description": "Ring til kunder med ordrebekræftelse, spørg om forsendelsespræferencer, og håndter returneringer over telefonen."
+      },
+      {
+        "title": "Event Management",
+        "description": "Ring til deltager-bekræftelser dagen før, send SMS-påmindelser, og opsaml tilbagemeldinger efter arrangementet."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Ind- vs Udgående Opkald – Hvad Passer Til Din Virksomhed?",
+    "feature": "Funktion",
+    "inbound": "Indgående",
+    "outbound": "Udgående",
+    "items": [
+      {
+        "feature": "Besvare kundetelefoner",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Ring ud til kunder",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Registrere kundeinfo",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Booke møder",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Sende påmindelser",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Lead-opringninger",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Kundeservice",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Ordrebekræftelse",
+        "inbound": true,
+        "outbound": true
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Enkle og Gennemsigtige Priser",
+    "subtitle": "Betal kun for hvad du bruger – inklusiv taletid og alle funktioner",
+    "demo": {
+      "name": "Demo",
+      "label": "7 dage gratis · 75 min"
+    },
+    "starter": {
+      "name": "Starter"
+    },
+    "professional": {
+      "name": "Professional"
+    },
+    "enterprise": {
+      "name": "Enterprise"
+    },
+    "free": "Gratis",
+    "mostPopular": "Mest Populær",
+    "cta": "Kom i gang"
+  },
+  "faqTitle": "Ofte Stillede Spørgsmål",
+  "faq": [
+    {
+      "question": "Hvad er forskellen på ind- og udgående opkald?",
+      "answer": "Indgående opkald er når kunderne ringer til dig – AI besvarer og håndterer deres spørgsmål. Udgående opkald er når AI ringer ud til dine kunder – f.eks. med påmindelser, bekræftelser eller kampagner. Du kan bruge både, eller bare det der passer til din virksomhed."
+    },
+    {
+      "question": "Hvor mange opkald kan AI håndtere samtidig?",
+      "answer": "AI kan håndtere ubegrænset mange opkald samtidig. Du betaler kun for den faktiske taletid, ikke for kapacitet. En fuldtidsmedarbejder kan håndtere 5-10 opkald dagligt, vores AI håndterer hundredvis."
+    },
+    {
+      "question": "Fungerer det på dansk?",
+      "answer": "Ja, systemet er optimeret til dansk. AI forstår dansk dialekt, slang, og naturlig tale. Vi understøtter også engelsk, fransk, spansk og portugisisk – AI tilpasser sig sproget automatisk."
+    },
+    {
+      "question": "Kan jeg høre opkaldet bagefter?",
+      "answer": "Ja, alle opkald optages og opsummeres. Du får en transskription, og du kan lytte til det fulde opkald på dit dashboard. Du får også en kort opsummering af hvad der blev aftalt."
+    },
+    {
+      "question": "Hvad hvis customer kontaktet skal overføres til mig?",
+      "answer": "AI genkender automatisk når der er brug for menneskelig indgriben. Samtalen kan overføres direkte til dit team, eller AI kan tage en besked og du ringer tilbage senere."
+    },
+    {
+      "question": "Er det lovligt at ringe ud automatisk?",
+      "answer": "Ja, så længe du overholder GDPR og lokale regler. Du skal have samtykke fra kunderne, og de skal kunne framelde sig. Vores system hjælper dig med at håndtere alt dette korrekt."
+    },
+    {
+      "question": "Hvor mange penge sparer jeg?",
+      "answer": "En fuldtidsreceptionist koster typisk 200.000-250.000 kr/år. Vores AI koster 1500-5999 kr/måned. Det er en besparelse på 80-95% mens du får bedre service 24/7."
+    },
+    {
+      "question": "Hvordan starter jeg?",
+      "answer": "Book en gratis demo hvor vi taler om din virksomhed og behov. Vi sætter derefter systemet op med dine specifikke instrukser, og du får 7 dages gratis test. Derefter vælger du den pakke der passer bedst."
+    }
+  ]
+}

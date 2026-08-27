@@ -1,7 +1,7 @@
 import { Phone, Mail, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-type NavigatePage = 'home' | 'widget' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'trial';
+type NavigatePage = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'trial';
 
 interface FooterProps {
   onNavigate?: (page: NavigatePage) => void;
@@ -51,6 +51,14 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.ai_widget')}
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => onNavigate('inbound-outbound')}
+                  className="hover:text-brand-400 transition-colors"
+                >
+                  {t('footer.phone_assistant')}
                 </button>
               </li>
               <li>

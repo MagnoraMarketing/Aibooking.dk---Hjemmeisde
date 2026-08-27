@@ -1,0 +1,208 @@
+{
+  "seo": {
+    "title": "Chamadas Entradas e Saídas | Assistente Telefônico IA | Aibooking.dk",
+    "description": "Automatize chamadas entradas e saídas com nosso assistente telefônico IA. Atendimento ao cliente 24/7, comunicação automática, marcações e lembretes. Economize até 80% em suporte telefônico.",
+    "keywords": "chamadas entradas saídas, assistente telefônico IA, chamadas automáticas, atendimento cliente, marcações"
+  },
+  "hero": {
+    "badge": "Chamadas Entradas e Saídas",
+    "title": "Assistente Telefônico IA para Chamadas Entradas e Saídas",
+    "subtitle": "Automatize todas as suas chamadas telefônicas 24/7. Atenda chamadas profissionalmente, comunique-se com clientes automaticamente, e marque consultas sem intervenção humana.",
+    "cta_demo": "Reserve demo gratuita",
+    "cta_pricing": "Ver preços",
+    "stats": {
+      "inbound": "Chamadas Entradas",
+      "outbound": "Chamadas Saídas",
+      "roi": "80% Economia"
+    }
+  },
+  "whatIs": {
+    "title": "O Que São Chamadas IA Entradas e Saídas?",
+    "para1": "Um assistente telefônico IA é uma recepcionista virtual inteligente que gerencia chamadas entradas e saídas completamente automatizadas. Seu assistente IA atende profissionalmente, captura informações do cliente, marca consultas, e pode se comunicar com clientes automaticamente.",
+    "para2": "Diferentemente de uma recepcionista tradicional, nossa IA funciona 24/7 sem pausas. Sua equipe dedica mais tempo ao trabalho valioso, seus clientes recebem atendimento rápido e profissional, e você economiza custos significativos.",
+    "para3": "Escolha gerenciar apenas chamadas entradas (atendimento ao cliente), saídas (comunicação), ou uma solução combinada.",
+    "inbound": {
+      "title": "Chamadas Entradas",
+      "desc": "IA atende todas as chamadas profissionalmente, captura informações, marca consultas, responde dúvidas, transfere casos importantes"
+    },
+    "outbound": {
+      "title": "Chamadas Saídas",
+      "desc": "IA se comunica com clientes automaticamente - lembretes, confirmações, ofertas, anúncios - completamente personalizado"
+    }
+  },
+  "features": {
+    "title": "Funcionalidades Avançadas",
+    "subtitle": "Tudo que você precisa para gerenciamento automático de chamadas",
+    "items": [
+      {
+        "title": "Reconhecimento de Voz Natural",
+        "description": "IA compreende linguagem natural sem comandos. Segue conversas naturalmente e faz perguntas relevantes."
+      },
+      {
+        "title": "Gestão de Chamadas Entradas",
+        "description": "Atende profissionalmente, captura informações, gerencia marcações, responde FAQs, transfere para sua equipe."
+      },
+      {
+        "title": "Chamadas Saídas",
+        "description": "Chama automaticamente com lembretes, confirmações, acompanhamentos ou campanhas - completamente personalizado e profissional."
+      },
+      {
+        "title": "Timing Inteligente",
+        "description": "IA escolhe momentos ideais, respeita preferências do cliente, se adapta conforme taxas de resposta."
+      },
+      {
+        "title": "Integração de Calendário",
+        "description": "Sincroniza com Google Calendar, Outlook e sistemas de marcação. Sem entradas manuais."
+      },
+      {
+        "title": "Lembretes SMS",
+        "description": "Combina chamadas com SMS para máxima efetividade. Reduz ausências até 60%."
+      },
+      {
+        "title": "Gravação e Resumo",
+        "description": "Todas as chamadas são gravadas e resumidas. Veja exatamente o que foi combinado."
+      },
+      {
+        "title": "Roteamento Inteligente",
+        "description": "Transfere automaticamente para membros da equipe conforme sua experiência."
+      },
+      {
+        "title": "LGPD e Segurança",
+        "description": "Conformidade total com LGPD e criptografia de ponta a ponta. Seus dados sempre seguros."
+      }
+    ]
+  },
+  "useCases": {
+    "title": "Casos de Uso",
+    "subtitle": "Perfeito para empresas que querem automatizar toda comunicação telefônica",
+    "items": [
+      {
+        "title": "Clínicas e Consultórios",
+        "description": "Atenda marcações, envie lembretes SMS, chame ausentes com alternativas. Reduza ausências de 20% para 5%."
+      },
+      {
+        "title": "Profissionais e Instaladores",
+        "description": "Receba trabalhos, confirme visitas, envie lembretes. Nunca perca uma consulta de cliente."
+      },
+      {
+        "title": "Empresas de Vendas",
+        "description": "Ligue para prospects com ofertas personalizadas, compreenda necessidades, marque reuniões automaticamente."
+      },
+      {
+        "title": "Centros de Atendimento",
+        "description": "Gerencie milhares de chamadas sem contratar pessoal. Responda FAQs, busque pedidos, resolva reclamações."
+      },
+      {
+        "title": "E-commerce",
+        "description": "Ligue para clientes com confirmação de pedido, pergunte preferências, gerencie devoluções por telefone."
+      },
+      {
+        "title": "Gestão de Eventos",
+        "description": "Confirme participantes, envie lembretes, colete feedback depois."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Entradas vs Saídas – Qual é Melhor para Você?",
+    "feature": "Funcionalidade",
+    "inbound": "Entradas",
+    "outbound": "Saídas",
+    "items": [
+      {
+        "feature": "Atender chamadas clientes",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Ligar para clientes",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Capturar informações",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Marcar consultas",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Enviar lembretes",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Prospecção de leads",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Atendimento cliente",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Confirmação de pedido",
+        "inbound": true,
+        "outbound": true
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Preços Simples e Transparentes",
+    "subtitle": "Pague apenas pelo que usar - inclui tempo de chamada e todas as funcionalidades",
+    "demo": {
+      "name": "Demo",
+      "label": "7 dias grátis · 75 min"
+    },
+    "starter": {
+      "name": "Starter"
+    },
+    "professional": {
+      "name": "Professional"
+    },
+    "enterprise": {
+      "name": "Enterprise"
+    },
+    "free": "Grátis",
+    "mostPopular": "Mais Popular",
+    "cta": "Começar"
+  },
+  "faqTitle": "Perguntas Frequentes",
+  "faq": [
+    {
+      "question": "Qual é a diferença entre chamadas entradas e saídas?",
+      "answer": "Entradas = clientes ligam para você. IA atende e resolve. Saídas = IA liga para clientes com lembretes, confirmações ou campanhas. Use ambas ou apenas o que precisar."
+    },
+    {
+      "question": "Quantas chamadas a IA pode gerenciar simultaneamente?",
+      "answer": "IA gerencia chamadas ilimitadas simultaneamente. Você paga apenas por tempo real de chamada. Um recepcionista gerencia 5-10 chamadas/dia; nossa IA gerencia centenas."
+    },
+    {
+      "question": "Funciona em português?",
+      "answer": "Sim, completamente otimizado para português. IA compreende linguagem natural. Também suportamos dinamarquês, inglês, francês, espanhol - se adapta automaticamente."
+    },
+    {
+      "question": "Posso ouvir as chamadas depois?",
+      "answer": "Sim, todas são gravadas e resumidas. Você obtém transcrição e pode ouvir no painel. Também tem resumo breve do que foi combinado."
+    },
+    {
+      "question": "E se um cliente precisa falar com uma pessoa?",
+      "answer": "IA reconhece automaticamente quando intervenção humana é necessária. A chamada transfere direto ou IA toma mensagem para retorno."
+    },
+    {
+      "question": "É legal fazer chamadas automatizadas?",
+      "answer": "Sim, seguindo LGPD. Você precisa de consentimento do cliente e eles podem se desinscrever. Nosso sistema ajuda você com isso."
+    },
+    {
+      "question": "Quanto vou economizar?",
+      "answer": "Recepcionista tempo integral custa tipicamente €2000-2700/mês. Nossa IA custa €200-800/mês. É economia de 80-95% com melhor atendimento 24/7."
+    },
+    {
+      "question": "Como começo?",
+      "answer": "Reserve demo gratuita. Discutimos seu negócio. Configuramos com suas instruções. Teste grátis 7 dias. Escolha seu plano."
+    }
+  ]
+}

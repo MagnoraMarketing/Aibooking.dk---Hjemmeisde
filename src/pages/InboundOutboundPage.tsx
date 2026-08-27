@@ -1,9 +1,7 @@
-import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   PhoneIncoming, PhoneOutgoing, BarChart3, Zap, Shield, Globe,
   CheckCircle, ArrowRight, ChevronDown, Clock, TrendingUp, Users,
-  LayoutDashboard, SlidersHorizontal, Headphones, CalendarCheck, MessageSquare,
 } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
@@ -18,8 +16,6 @@ interface InboundOutboundPageProps {
 
 interface Faq { question: string; answer: string }
 interface TitleDescription { title: string; description: string }
-interface StatItem { value: string; label: string }
-interface StepItem { title: string; description: string }
 interface ComparisonItem { feature: string; inbound: boolean; outbound: boolean }
 
 function FAQItem({ question, answer }: { question: string; answer: string }) {
@@ -34,20 +30,10 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
   );
 }
 
-interface PricingPlanText {
-  name: string;
-  description: string;
-  minutes: string;
-  features: string[];
-  cta: string;
-}
-
 function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
   const { t, i18n } = useTranslation('inboundOutboundPage');
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
   const contactHref = buildLocalizedPath(lang, '/kontakt');
-
-  const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
 
   const faqs = t('faq', { returnObjects: true }) as Faq[];
   const features = t('features.items', { returnObjects: true }) as TitleDescription[];

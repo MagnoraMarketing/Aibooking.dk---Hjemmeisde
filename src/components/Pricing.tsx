@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { localizedPrice } from '../utils/currency';
 import { STRIPE_CHECKOUT } from '../utils/checkout';
+import { VOICE_PLAN_PRICES_DKK, onboardingPrice } from '../utils/pricing';
 import type { SupportedLanguage } from '../i18n/config';
 
 interface PricingPlanText {
@@ -24,12 +25,16 @@ function Pricing() {
   const planMeta = [
     // The 7-day trial is self-serve too, so it goes straight to its own Stripe
     // link rather than through the contact form.
-    { price: 0, highlighted: false, href: STRIPE_CHECKOUT.trial },
-    { price: 1500, highlighted: false, href: STRIPE_CHECKOUT.starter },
-    { price: 2499, highlighted: true, href: STRIPE_CHECKOUT.professional },
-    { price: 5999, highlighted: false, href: STRIPE_CHECKOUT.enterprise },
+    { price: VOICE_PLAN_PRICES_DKK[0], highlighted: false, href: STRIPE_CHECKOUT.trial },
+    { price: VOICE_PLAN_PRICES_DKK[1], highlighted: false, href: STRIPE_CHECKOUT.starter },
+    { price: VOICE_PLAN_PRICES_DKK[2], highlighted: true, href: STRIPE_CHECKOUT.professional },
+    { price: VOICE_PLAN_PRICES_DKK[3], highlighted: false, href: STRIPE_CHECKOUT.enterprise },
   ];
-  const plans = plansText.map((plan, i) => ({ ...plan, ...planMeta[i], setup: planMeta[i].price }));
+  const plans = plansText.map((plan, i) => ({
+    ...plan,
+    ...planMeta[i],
+    setup: onboardingPrice(planMeta[i].price),
+  }));
 
   return (
     <section id="priser" className="py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-white via-ink-50/40 to-white">

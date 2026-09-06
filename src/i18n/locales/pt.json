@@ -184,9 +184,9 @@
       {
         "name": "Starter",
         "description": "Perfeito para pequenas empresas que querem começar com IA",
-        "minutes": "200 minutos",
+        "minutes": "150 minutos",
         "features": [
-          "200 minutos de chamadas de IA",
+          "150 minutos de chamadas de IA",
           "Personalização de voz básica",
           "Suporte padrão",
           "Dashboard de análise",
@@ -228,7 +228,7 @@
       "toggle_label": "Ver outros preços",
       "setup": {
         "title": "Configuração",
-        "value": "Opcional – o preço é apresentado em cada pacote",
+        "value": "Opcional – sempre um mês de subscrição, cobrado uma única vez. O preço é apresentado em cada pacote",
         "note": "(taxa única)"
       },
       "maintenance": {
@@ -245,7 +245,7 @@
         "development_price": "147 €/hora"
       }
     },
-    "setup_note_optional": "Adicionar configuração e onboarding – pagamento único de €{{setup}}, incl. 1 hora de apoio de acompanhamento"
+    "setup_note_optional": "Adicionar configuração e onboarding – pagamento único de €{{setup}}, o mesmo que um mês de subscrição, incl. 1 hora de apoio de acompanhamento"
   },
   "cta_section": {
     "title": "Pronto para começar?",
@@ -348,9 +348,8 @@
     "subtitle": "Um voicebot com quem os seus clientes podem falar diretamente no seu website - responde a perguntas e gere marcações automaticamente",
     "plan_badge": "Solução Mais Flexível",
     "price_period": "€/mês",
-    "price_note1": "Inclui 200 minutos de conversa (aprox. 0,67 €/minuto)",
-    "campaign_note": "Campanha: 200 min em vez de 150 – durante o resto do ano, ao mesmo preço",
-    "price_note2": "O pacote renova-se automaticamente quando os 200 minutos são utilizados",
+    "price_note1": "Inclui 150 minutos de conversa (aprox. 0,89 €/minuto)",
+    "price_note2": "O pacote renova-se automaticamente quando os 150 minutos são utilizados",
     "features": [
       {
         "bold": "Voice AI bot",
@@ -370,7 +369,7 @@
       },
       {
         "bold": "",
-        "rest": "200 minutos de conversa incluídos"
+        "rest": "150 minutos de conversa incluídos"
       },
       {
         "bold": "Pague apenas pelo tempo de conversa ativo",

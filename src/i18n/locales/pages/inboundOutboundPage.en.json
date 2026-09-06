@@ -238,7 +238,7 @@
     "subtitle": "Talk time and every feature are included. No lock-in, no setup fee.",
     "perMonth": "/mo",
     "demo": { "name": "Demo", "label": "7 days free · 75 min" },
-    "starter": { "name": "Starter", "label": "200 min/mo included" },
+    "starter": { "name": "Starter", "label": "150 min/mo included" },
     "professional": { "name": "Professional", "label": "600 min/mo included" },
     "enterprise": { "name": "Enterprise", "label": "2,000 min/mo included" },
     "free": "Free",
@@ -285,7 +285,7 @@
     },
     {
       "question": "What does it cost compared to a receptionist?",
-      "answer": "A full-time receptionist typically costs EUR 47,000–60,000 a year including pension and holiday pay. The AI voice starts at EUR 200 a month and covers the phone around the clock, through holidays and sick days too."
+      "answer": "A full-time receptionist typically costs EUR 47,000–60,000 a year including pension and holiday pay. The AI voice starts at EUR 134 a month and covers the phone around the clock, through holidays and sick days too."
     },
     {
       "question": "How long does setup take?",

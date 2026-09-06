@@ -2,8 +2,7 @@ import { Check, ArrowRight, Sparkles, Mic } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { localizedPrice } from '../utils/currency';
 import type { SupportedLanguage } from '../i18n/config';
-
-const WIDGET_PLAN_PRICE_DKK = 999;
+import { WIDGET_PLAN_PRICE_DKK } from '../utils/pricing';
 
 interface WidgetFeature {
   bold: string;
@@ -53,11 +52,6 @@ function WidgetPricing() {
                     </div>
                     <p className="text-ink-200 text-lg">
                       {t('widgetPricing.price_note1')}
-                    </p>
-                    {/* The extra 50 minutes are a limited campaign, so say so
-                        right next to the number rather than in the small print. */}
-                    <p className="inline-flex items-center gap-2 mt-3 bg-accent-400/15 text-accent-300 border border-accent-400/30 rounded-full px-4 py-1.5 text-sm font-semibold">
-                      {t('widgetPricing.campaign_note')}
                     </p>
                     <p className="text-sm text-ink-400 mt-3">
                       {t('widgetPricing.price_note2')}

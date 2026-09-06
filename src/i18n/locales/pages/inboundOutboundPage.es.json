@@ -238,7 +238,7 @@
     "subtitle": "Los minutos y todas las funciones van incluidos. Sin permanencia ni cuota de alta.",
     "perMonth": "/mes",
     "demo": { "name": "Demo", "label": "7 días gratis · 75 min" },
-    "starter": { "name": "Starter", "label": "200 min/mes incl." },
+    "starter": { "name": "Starter", "label": "150 min/mes incl." },
     "professional": { "name": "Professional", "label": "600 min/mes incl." },
     "enterprise": { "name": "Enterprise", "label": "2.000 min/mes incl." },
     "free": "Gratis",
@@ -285,7 +285,7 @@
     },
     {
       "question": "¿Cuánto cuesta frente a un recepcionista?",
-      "answer": "Un recepcionista a jornada completa cuesta normalmente entre 25.000 y 35.000 euros al año con cargas incluidas. La voz de IA arranca en 200 euros al mes y cubre el teléfono las 24 horas, también en vacaciones y bajas."
+      "answer": "Un recepcionista a jornada completa cuesta normalmente entre 25.000 y 35.000 euros al año con cargas incluidas. La voz de IA arranca en 134 euros al mes y cubre el teléfono las 24 horas, también en vacaciones y bajas."
     },
     {
       "question": "¿Cuánto tarda la puesta en marcha?",

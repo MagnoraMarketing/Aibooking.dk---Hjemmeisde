@@ -4,17 +4,25 @@ import { Phone, Mic, Clock, ShieldCheck, ArrowRight, Info } from 'lucide-react';
 import { localizedPrice, displayAmount, formatAmount } from '../../utils/currency';
 import type { SupportedLanguage } from '../../i18n/config';
 import { INDUSTRY_THEMES, IndustryKey, TRIAL_URL } from './industryTheme';
+import {
+  VOICE_PLAN_MINUTES,
+  VOICE_PLAN_PRICES_DKK,
+  WIDGET_PLAN_MINUTES,
+  WIDGET_PLAN_PRICE_DKK,
+  onboardingPrice,
+} from '../../utils/pricing';
 
 type Mode = 'voice' | 'widget';
 
-// Same packages and prices as the pricing tables elsewhere on the site.
+// Same packages and prices as the pricing tables elsewhere on the site — index
+// 0 is the free trial, which isn't one of the paid packages offered here.
 const VOICE_PLANS = [
-  { name: 'Starter', minutes: 200, price: 1500 },
-  { name: 'Professional', minutes: 600, price: 2499 },
-  { name: 'Enterprise', minutes: 2000, price: 5999 },
+  { name: 'Starter', minutes: VOICE_PLAN_MINUTES[1], price: VOICE_PLAN_PRICES_DKK[1] },
+  { name: 'Professional', minutes: VOICE_PLAN_MINUTES[2], price: VOICE_PLAN_PRICES_DKK[2] },
+  { name: 'Enterprise', minutes: VOICE_PLAN_MINUTES[3], price: VOICE_PLAN_PRICES_DKK[3] },
 ];
-const WIDGET_PACK_MINUTES = 150;
-const WIDGET_PACK_PRICE = 999;
+const WIDGET_PACK_MINUTES = WIDGET_PLAN_MINUTES;
+const WIDGET_PACK_PRICE = WIDGET_PLAN_PRICE_DKK;
 
 const MIN_MINUTES = 25;
 const MAX_MINUTES = 2000;
@@ -34,7 +42,9 @@ function IndustryCalculator({ industry }: IndustryCalculatorProps) {
   const theme = INDUSTRY_THEMES[industry];
 
   const [mode, setMode] = useState<Mode>('voice');
-  const [minutes, setMinutes] = useState(200);
+  // Opens on the Starter package, so the first figure shown matches the
+  // headline price quoted in the pricing tables.
+  const [minutes, setMinutes] = useState<number>(VOICE_PLAN_MINUTES[1]);
   const [withSetup, setWithSetup] = useState(false);
 
   // Voice: smallest package that covers the volume. Widget: talk time is sold
@@ -46,8 +56,10 @@ function IndustryCalculator({ industry }: IndustryCalculatorProps) {
   const planName = mode === 'voice' ? voicePlan.name : t('industryTools.calculator.widgetPlanName');
   const monthlyPrice = mode === 'voice' ? voicePlan.price : packs * WIDGET_PACK_PRICE;
   const includedMinutes = mode === 'voice' ? voicePlan.minutes : packs * WIDGET_PACK_MINUTES;
-  // Setup is a one-off add-on priced at one month of the chosen package.
-  const setupPrice = monthlyPrice;
+  // Setup is a one-off add-on priced at one month of the chosen subscription.
+  // For the widget that is the single pack price — extra packs are talk-time
+  // top-ups, so they must never multiply the one-off onboarding fee.
+  const setupPrice = onboardingPrice(mode === 'voice' ? voicePlan.price : WIDGET_PACK_PRICE);
   // Summed from the rounded display values so the total matches the two lines
   // above it once the amounts have been converted to the visitor's currency.
   const firstMonthTotal = displayAmount(monthlyPrice, lang) + displayAmount(setupPrice, lang);

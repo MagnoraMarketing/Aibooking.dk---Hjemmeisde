@@ -14,6 +14,7 @@ import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import { createBreadcrumbSchema, createFAQSchema } from '../utils/structuredData';
 import ClinicDashboardMock from '../components/ClinicDashboardMock';
 import type { NavigatePage } from '../types/navigation';
+import { VOICE_PLAN_PRICES_DKK } from '../utils/pricing';
 
 // Danish-worded canonical path; SEO turns it into per-language hreflang URLs.
 const PAGE_PATH = '/ind-og-udgaaende-opkald';
@@ -253,10 +254,10 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
   ] as const;
 
   const plans = [
-    { key: 'demo', price: 0, highlight: false },
-    { key: 'starter', price: 1500, highlight: false },
-    { key: 'professional', price: 2499, highlight: true },
-    { key: 'enterprise', price: 5999, highlight: false },
+    { key: 'demo', price: VOICE_PLAN_PRICES_DKK[0], highlight: false },
+    { key: 'starter', price: VOICE_PLAN_PRICES_DKK[1], highlight: false },
+    { key: 'professional', price: VOICE_PLAN_PRICES_DKK[2], highlight: true },
+    { key: 'enterprise', price: VOICE_PLAN_PRICES_DKK[3], highlight: false },
   ] as const;
 
   // Service + FAQ + breadcrumb in one graph, so the page can win both a rich
@@ -280,8 +281,8 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
         offers: {
           '@type': 'AggregateOffer',
           priceCurrency: 'DKK',
-          lowPrice: '1500',
-          highPrice: '5999',
+          lowPrice: String(VOICE_PLAN_PRICES_DKK[1]),
+          highPrice: String(VOICE_PLAN_PRICES_DKK[3]),
           offerCount: '4',
         },
       },

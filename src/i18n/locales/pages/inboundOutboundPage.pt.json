@@ -238,7 +238,7 @@
     "subtitle": "O tempo de conversa e todas as funcionalidades estão incluídos. Sem fidelização nem taxa de ativação.",
     "perMonth": "/mês",
     "demo": { "name": "Demonstração", "label": "7 dias grátis · 75 min" },
-    "starter": { "name": "Starter", "label": "200 min/mês incl." },
+    "starter": { "name": "Starter", "label": "150 min/mês incl." },
     "professional": { "name": "Professional", "label": "600 min/mês incl." },
     "enterprise": { "name": "Enterprise", "label": "2.000 min/mês incl." },
     "free": "Grátis",
@@ -285,7 +285,7 @@
     },
     {
       "question": "Quanto custa face a um rececionista?",
-      "answer": "Um rececionista a tempo inteiro custa normalmente entre 20.000 e 30.000 euros por ano com encargos incluídos. A voz de IA começa nos 200 euros por mês e cobre o telefone 24 horas por dia, também em férias e baixas."
+      "answer": "Um rececionista a tempo inteiro custa normalmente entre 20.000 e 30.000 euros por ano com encargos incluídos. A voz de IA começa nos 134 euros por mês e cobre o telefone 24 horas por dia, também em férias e baixas."
     },
     {
       "question": "Quanto tempo demora a instalação?",

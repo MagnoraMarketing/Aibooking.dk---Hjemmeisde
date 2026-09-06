@@ -184,9 +184,9 @@
       {
         "name": "Starter",
         "description": "Perfect for small businesses getting started with AI",
-        "minutes": "200 minutes",
+        "minutes": "150 minutes",
         "features": [
-          "200 AI call minutes",
+          "150 AI call minutes",
           "Basic voice customization",
           "Standard support",
           "Analytics dashboard",
@@ -228,7 +228,7 @@
       "toggle_label": "See other prices",
       "setup": {
         "title": "Setup",
-        "value": "Optional add-on – price shown under each package",
+        "value": "Optional add-on – always one month's subscription, charged once. Price shown under each package",
         "note": "(one-time fee)"
       },
       "maintenance": {
@@ -245,7 +245,7 @@
         "development_price": "€147/hour"
       }
     },
-    "setup_note_optional": "Add setup and onboarding – one-time payment of €{{setup}}, incl. 1 hour of follow-up support"
+    "setup_note_optional": "Add setup and onboarding – one-time payment of €{{setup}}, the same as one month's subscription, incl. 1 hour of follow-up support"
   },
   "cta_section": {
     "title": "Ready to get started?",
@@ -348,9 +348,8 @@
     "subtitle": "A voicebot your customers can talk to directly on your website - handles questions and bookings automatically",
     "plan_badge": "Most Flexible Solution",
     "price_period": "€/mo",
-    "price_note1": "Includes 200 minutes of talk time (approx. €0.67/minute)",
-    "campaign_note": "Campaign: 200 min instead of 150 – for the rest of the year, at the same price",
-    "price_note2": "The package renews automatically once the 200 minutes are used",
+    "price_note1": "Includes 150 minutes of talk time (approx. €0.89/minute)",
+    "price_note2": "The package renews automatically once the 150 minutes are used",
     "features": [
       {
         "bold": "Voice AI bot",
@@ -370,7 +369,7 @@
       },
       {
         "bold": "",
-        "rest": "200 minutes of talk time included"
+        "rest": "150 minutes of talk time included"
       },
       {
         "bold": "Pay only for active talk time",

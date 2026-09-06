@@ -28,8 +28,8 @@
       "label": "Til at komme i gang"
     },
     {
-      "value": "200 min",
-      "label": "Taletid resten af året"
+      "value": "150 min",
+      "label": "Taletid inkluderet"
     },
     {
       "value": "999 kr",
@@ -286,9 +286,8 @@
       "badge": "Anbefalet startpunkt",
       "description": "Den hurtigste og billigste måde at automatisere din booking på. Widgetten sidder på din hjemmeside og lader kunder tale eller skrive direkte med din AI-assistent – 24/7, uden menneskelig indgriben.",
       "price_suffix": "kr/md",
-      "includes": "Inkluderer 200 minutters taletid (ca. 5,00 kr/minut)",
-      "campaign_note": "Kampagne: 200 min. i stedet for 150 – gælder resten af året, til samme pris",
-      "renewal_note": "Pakken fornyes automatisk når de 200 minutter er brugt",
+      "includes": "Inkluderer 150 minutters taletid (ca. 6,66 kr/minut)",
+      "renewal_note": "Pakken fornyes automatisk når de 150 minutter er brugt",
       "cta_order": "Bestil nu",
       "cta_intro": "Book gratis intro",
       "features": [
@@ -296,7 +295,7 @@
         "Besvarer spørgsmål og håndterer bookinger",
         "Bookinger går direkte i din kalender",
         "24/7 tilgængelig på din hjemmeside",
-        "200 minutters taletid inkluderet",
+        "150 minutters taletid inkluderet",
         "Betal kun for aktiv tale – ingen timeløn",
         "Åben 24/7, 365 dage om året – altid klar",
         "Håndterer kunder selv når du er optaget"
@@ -304,7 +303,7 @@
       "footnote_talketime_label": "Taletid:",
       "footnote_talketime_value": "Indkøbt credit gælder i 3 måneder",
       "footnote_renewal_label": "Fornyelse:",
-      "footnote_renewal_value": "Automatisk ved 200 min. brugt",
+      "footnote_renewal_value": "Automatisk ved 150 min. brugt",
       "footnote_binding_label": "Binding:",
       "footnote_binding_value": "Ingen – opsig når som helst"
     },
@@ -336,9 +335,9 @@
       {
         "name": "Starter",
         "description": "Perfekt til mindre virksomheder der vil i gang med AI",
-        "minutes": "200 minutter",
+        "minutes": "150 minutter",
         "features": [
-          "200 AI opkalds-minutter",
+          "150 AI opkalds-minutter",
           "Basis stemme-tilpasning",
           "Standard support",
           "Analyse dashboard",
@@ -385,7 +384,7 @@
       "toggle_label": "Se øvrige priser",
       "setup": {
         "title": "Opsætning",
-        "value": "Valgfrit tilvalg – prisen fremgår under hver pakke",
+        "value": "Valgfrit tilvalg – altid én måneds abonnement, betalt én gang. Prisen fremgår under hver pakke",
         "note": "(engangsbeløb)"
       },
       "maintenance": {
@@ -403,7 +402,7 @@
       }
     },
     "currency_suffix": "kr/md",
-    "setup_note_optional": "Tilføj opsætning og onboarding – engangsbetaling {{setup}} kr, inkl. 1 times opfølgende support"
+    "setup_note_optional": "Tilføj opsætning og onboarding – engangsbetaling på {{setup}} kr, svarende til én måneds abonnement, inkl. 1 times opfølgende support"
   },
   "phoneSection": {
     "eyebrow": "Vi tilbyder også",
@@ -447,7 +446,7 @@
     },
     {
       "question": "Hvad koster AI-widgetten?",
-      "answer": "Startpakken koster 999 kr/md og inkluderer 200 minutters taletid. Du betaler kun for aktiv tale – ingen timeløn, ingen binding. De 200 minutter er en kampagne, der gælder resten af året – derefter er det 150 minutter til samme pris."
+      "answer": "Startpakken koster 999 kr/md og inkluderer 150 minutters taletid. Du betaler kun for aktiv tale – ingen timeløn, ingen binding. Pakken fornyes automatisk, når de 150 minutter er brugt."
     },
     {
       "question": "Hvilke sprog understøtter widgetten?",

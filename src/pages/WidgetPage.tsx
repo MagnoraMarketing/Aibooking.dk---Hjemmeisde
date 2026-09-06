@@ -11,12 +11,11 @@ import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import { localizedPrice } from '../utils/currency';
 import { STRIPE_CHECKOUT } from '../utils/checkout';
+import { VOICE_PLAN_PRICES_DKK, WIDGET_PLAN_PRICE_DKK, onboardingPrice } from '../utils/pricing';
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath } from '../utils/localePaths';
 import ClinicDashboardMock from '../components/ClinicDashboardMock';
 import type { NavigatePage } from '../types/navigation';
-
-const WIDGET_PLAN_PRICE_DKK = 999;
 
 interface WidgetPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -101,11 +100,6 @@ function PricingSection() {
                   <span className="text-2xl text-brand-600 font-semibold">{t('pricing.widgetPlan.price_suffix')}</span>
                 </div>
                 <p className="text-ink-700 mb-1 font-medium">{t('pricing.widgetPlan.includes')}</p>
-                {/* The extra 50 minutes are a limited campaign, so say so right
-                    next to the number rather than in the small print. */}
-                <p className="inline-flex items-center gap-2 my-2 bg-accent-400/20 text-ink-900 border border-accent-400/50 rounded-full px-4 py-1.5 text-sm font-semibold">
-                  {t('pricing.widgetPlan.campaign_note')}
-                </p>
                 <p className="text-ink-500 text-sm">{t('pricing.widgetPlan.renewal_note')}</p>
 
                 <div className="mt-8 flex flex-col sm:flex-row gap-3">
@@ -167,12 +161,16 @@ function PhoneAssistantSection() {
   // Optional setup/onboarding fee equals one month's subscription price,
   // charged once, and includes 1 hour of follow-up support afterwards.
   const planMeta = [
-    { price: 0, highlighted: false, href: STRIPE_CHECKOUT.trial },
-    { price: 1500, highlighted: false, href: STRIPE_CHECKOUT.starter },
-    { price: 2499, highlighted: true, href: STRIPE_CHECKOUT.professional },
-    { price: 5999, highlighted: false, href: STRIPE_CHECKOUT.enterprise },
+    { price: VOICE_PLAN_PRICES_DKK[0], highlighted: false, href: STRIPE_CHECKOUT.trial },
+    { price: VOICE_PLAN_PRICES_DKK[1], highlighted: false, href: STRIPE_CHECKOUT.starter },
+    { price: VOICE_PLAN_PRICES_DKK[2], highlighted: true, href: STRIPE_CHECKOUT.professional },
+    { price: VOICE_PLAN_PRICES_DKK[3], highlighted: false, href: STRIPE_CHECKOUT.enterprise },
   ];
-  const phonePlans = plansText.map((plan, i) => ({ ...plan, ...planMeta[i], setup: planMeta[i].price }));
+  const phonePlans = plansText.map((plan, i) => ({
+    ...plan,
+    ...planMeta[i],
+    setup: onboardingPrice(planMeta[i].price),
+  }));
 
   const benefits = t('phoneSection.benefits', { returnObjects: true }) as TitleDescription[];
   const benefitIcons = [SlidersHorizontal, LayoutDashboard, Headphones, CalendarCheck];

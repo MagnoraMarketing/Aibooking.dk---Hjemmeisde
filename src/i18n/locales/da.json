@@ -184,9 +184,9 @@
       {
         "name": "Starter",
         "description": "Perfekt til mindre virksomheder der vil i gang med AI",
-        "minutes": "200 minutter",
+        "minutes": "150 minutter",
         "features": [
-          "200 AI opkalds-minutter",
+          "150 AI opkalds-minutter",
           "Basis stemme-tilpasning",
           "Standard support",
           "Analyse dashboard",
@@ -228,7 +228,7 @@
       "toggle_label": "Se øvrige priser",
       "setup": {
         "title": "Opsætning",
-        "value": "Valgfrit tilvalg – prisen fremgår under hver pakke",
+        "value": "Valgfrit tilvalg – altid én måneds abonnement, betalt én gang. Prisen fremgår under hver pakke",
         "note": "(engangsbeløb)"
       },
       "maintenance": {
@@ -245,7 +245,7 @@
         "development_price": "1.100 kr. pr. time"
       }
     },
-    "setup_note_optional": "Tilføj opsætning og onboarding – engangsbetaling {{setup}} kr, inkl. 1 times opfølgende support"
+    "setup_note_optional": "Tilføj opsætning og onboarding – engangsbetaling på {{setup}} kr, svarende til én måneds abonnement, inkl. 1 times opfølgende support"
   },
   "cta_section": {
     "title": "Klar til at komme i gang?",
@@ -348,9 +348,8 @@
     "subtitle": "Voicebot dine kunder kan snakke med direkte på din hjemmeside - håndterer spørgsmål og bookinger automatisk",
     "plan_badge": "Mest Fleksible Løsning",
     "price_period": "kr/md",
-    "price_note1": "Inkluderer 200 minutters taletid (ca. 5,00 kr/minut)",
-    "campaign_note": "Kampagne: 200 min. i stedet for 150 – gælder resten af året, til samme pris",
-    "price_note2": "Pakken fornyes automatisk når de 200 minutter er brugt",
+    "price_note1": "Inkluderer 150 minutters taletid (ca. 6,66 kr/minut)",
+    "price_note2": "Pakken fornyes automatisk når de 150 minutter er brugt",
     "features": [
       {
         "bold": "Voice AI-bot",
@@ -370,7 +369,7 @@
       },
       {
         "bold": "",
-        "rest": "200 minutters taletid inkluderet"
+        "rest": "150 minutters taletid inkluderet"
       },
       {
         "bold": "Betal kun for aktiv tale",

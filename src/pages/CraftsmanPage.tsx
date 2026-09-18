@@ -11,6 +11,7 @@ import { buildLocalizedPath } from '../utils/localePaths';
 import IndustryScenario from '../components/industries/IndustryScenario';
 import IndustryCalculator from '../components/industries/IndustryCalculator';
 import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
+import DashboardShowcase from '../components/DashboardShowcase';
 import type { NavigatePage } from '../types/navigation';
 
 interface CraftsmanPageProps {
@@ -126,6 +127,8 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
       </section>
 
       <IndustryCalculator industry="craftsman" />
+
+      <DashboardShowcase variant="craftsman" className="py-20 md:py-28 bg-white" />
 
       <IndustryTrialBanner industry="craftsman" />
 

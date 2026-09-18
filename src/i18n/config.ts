@@ -116,6 +116,12 @@ import clinicDashboardPt from './locales/shared/clinicDashboard.pt.json';
 import clinicDashboardFr from './locales/shared/clinicDashboard.fr.json';
 import clinicDashboardEs from './locales/shared/clinicDashboard.es.json';
 
+import agencyDashboardDa from './locales/shared/agencyDashboard.da.json';
+import agencyDashboardEn from './locales/shared/agencyDashboard.en.json';
+import agencyDashboardPt from './locales/shared/agencyDashboard.pt.json';
+import agencyDashboardFr from './locales/shared/agencyDashboard.fr.json';
+import agencyDashboardEs from './locales/shared/agencyDashboard.es.json';
+
 import trialPageDa from './locales/pages/trialPage.da.json';
 import trialPageEn from './locales/pages/trialPage.en.json';
 import trialPagePt from './locales/pages/trialPage.pt.json';
@@ -148,7 +154,7 @@ const PAGE_NAMESPACES = [
 
 // Namespaces for components rendered on more than one page, so the two copies
 // can't drift apart.
-const SHARED_NAMESPACES = ['clinicDashboard'] as const;
+const SHARED_NAMESPACES = ['clinicDashboard', 'agencyDashboard'] as const;
 
 i18n
   .use(LanguageDetector)
@@ -178,6 +184,7 @@ i18n
         trialPage: trialPageDa,
         inboundOutboundPage: inboundOutboundPageDa,
         clinicDashboard: clinicDashboardDa,
+        agencyDashboard: agencyDashboardDa,
       },
       en: {
         common: commonEn,
@@ -200,6 +207,7 @@ i18n
         trialPage: trialPageEn,
         inboundOutboundPage: inboundOutboundPageEn,
         clinicDashboard: clinicDashboardEn,
+        agencyDashboard: agencyDashboardEn,
       },
       pt: {
         common: commonPt,
@@ -222,6 +230,7 @@ i18n
         trialPage: trialPagePt,
         inboundOutboundPage: inboundOutboundPagePt,
         clinicDashboard: clinicDashboardPt,
+        agencyDashboard: agencyDashboardPt,
       },
       fr: {
         common: commonFr,
@@ -244,6 +253,7 @@ i18n
         trialPage: trialPageFr,
         inboundOutboundPage: inboundOutboundPageFr,
         clinicDashboard: clinicDashboardFr,
+        agencyDashboard: agencyDashboardFr,
       },
       es: {
         common: commonEs,
@@ -266,6 +276,7 @@ i18n
         trialPage: trialPageEs,
         inboundOutboundPage: inboundOutboundPageEs,
         clinicDashboard: clinicDashboardEs,
+        agencyDashboard: agencyDashboardEs,
       },
     },
     supportedLngs: SUPPORTED_LANGUAGES as unknown as string[],

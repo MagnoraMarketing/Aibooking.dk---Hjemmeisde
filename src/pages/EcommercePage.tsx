@@ -11,7 +11,6 @@ import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import IndustryScenario from '../components/industries/IndustryScenario';
 import IndustryCalculator from '../components/industries/IndustryCalculator';
 import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
-import DashboardShowcase from '../components/DashboardShowcase';
 import type { NavigatePage } from '../types/navigation';
 
 // Danish-worded canonical path; SEO turns it into per-language hreflang URLs.
@@ -176,8 +175,6 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
       </section>
 
       <IndustryCalculator industry="ecommerce" />
-
-      <DashboardShowcase variant="ecommerce" className="py-20 md:py-28 bg-white" />
 
       <IndustryTrialBanner industry="ecommerce" />
 

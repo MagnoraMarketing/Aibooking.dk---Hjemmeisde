@@ -2,7 +2,6 @@ import Hero from '../components/Hero';
 import HowItWorks from '../components/HowItWorks';
 import ReceptionistShowcase from '../components/ReceptionistShowcase';
 import Features from '../components/Features';
-import DashboardShowcase from '../components/DashboardShowcase';
 import Pricing from '../components/Pricing';
 import WidgetPricing from '../components/WidgetPricing';
 import CTA from '../components/CTA';
@@ -39,7 +38,6 @@ function HomePage({ onNavigate }: HomePageProps) {
       <HowItWorks />
       <ReceptionistShowcase onNavigate={onNavigate} />
       <Features />
-      <DashboardShowcase variant="frisor" className="py-20 md:py-28 bg-ink-50/60" />
       <Pricing />
       <WidgetPricing />
       <CTA />

@@ -168,14 +168,18 @@
     "setup_recommendation": "We recommend trying the solution free for 7 days first — then you choose your package, with or without setup.",
     "cta_signup": "Create free account",
     "cta_demo": "Try for free",
+    "no_card_required": "No credit card or payment details required",
     "cta_order": "Order package and book onboarding",
     "plans": [
       {
         "name": "Demo",
-        "description": "Try free for 7 days incl. 75 minutes of talk time – see how much time you free up for other tasks and more customers",
-        "minutes": "Free for 7 days · 75 min talk time",
+        "description": "Try free for 7 days – see how much time you free up for other tasks and more customers",
+        "minutes": "7-day free trial",
         "features": [
-          "75 minutes of AI talk time",
+          "Inbound – the AI answers your calls",
+          "Voice widget – the AI answers general questions on your website",
+          "Booking – straight into the calendar",
+          "Webshop – Shopify integration",
           "Basic voice customization",
           "Analytics dashboard",
           "You provide your current business phone number for the trial period, so the AI can answer real calls",

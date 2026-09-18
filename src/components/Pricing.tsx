@@ -100,6 +100,12 @@ function Pricing() {
                 <div className={`mt-2 text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
                   {plan.minutes}
                 </div>
+                {plan.price === 0 && (
+                  <div className="mt-3 inline-flex items-center gap-1.5 text-xs font-semibold text-brand-700 bg-brand-50 border border-brand-100 rounded-full px-3 py-1">
+                    <Check className="w-3.5 h-3.5" />
+                    {t('pricing.no_card_required')}
+                  </div>
+                )}
               </div>
 
               <ul className="space-y-3 mb-8">
@@ -143,7 +149,7 @@ function Pricing() {
                     : 'bg-brand-600 text-white hover:bg-brand-700 shadow-sm'
                 }`}
               >
-                {t('pricing.cta_signup')}
+                {plan.price === 0 ? t('pricing.cta_demo') : t('pricing.cta_signup')}
               </a>
             </div>
           ))}

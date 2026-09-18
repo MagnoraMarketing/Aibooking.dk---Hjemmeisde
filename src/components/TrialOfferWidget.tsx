@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Minus, PhoneCall, Clock, ArrowRight, Phone, MessageSquare, Mail, MessageCircle } from 'lucide-react';
-import { STRIPE_CHECKOUT } from '../utils/checkout';
+import { SIGNUP_URL } from '../utils/backend';
 
 const STATE_KEY = 'aibooking_trial_offer_state';
 const SHOW_AFTER_MS = 15000;
@@ -112,7 +112,7 @@ function TrialOfferWidget() {
           </div>
 
           <a
-            href={STRIPE_CHECKOUT.trial}
+            href={SIGNUP_URL}
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleMinimize}

@@ -164,8 +164,9 @@
     "most_popular_badge": "Mest Populær",
     "free_label": "Gratis",
     "currency_suffix": "kr/md",
-    "after_order_note": "Efter bestilling modtager du et kalenderlink hvor du kan booke tid til opsætning.",
+    "after_order_note": "Når I har oprettet jeres gratis konto, kan I booke tid til opsætning direkte fra jeres dashboard.",
     "setup_recommendation": "Vi anbefaler, at du prøver løsningen gratis i 7 dage først – derefter vælger du din pakke, med eller uden opsætning.",
+    "cta_signup": "Opret gratis konto",
     "cta_demo": "Prøv gratis",
     "cta_order": "Bestil pakke og book Onboarding",
     "plans": [
@@ -539,5 +540,26 @@
     "email_value": "3.000 gratis emails",
     "whatsapp_label": "WhatsApp",
     "whatsapp_value": "100 gratis beskeder"
+  },
+  "howItWorks": {
+    "title": "Sådan kommer du i gang",
+    "subtitle": "Opret en gratis konto på under 2 minutter – ingen kreditkort, ingen binding.",
+    "steps": [
+      {
+        "title": "Opret din gratis konto",
+        "desc": "Tilmeld dig på under 2 minutter uden kreditkort, og få adgang til alle funktioner med det samme."
+      },
+      {
+        "title": "Få tildelt et telefonnummer",
+        "desc": "I får tildelt et nummer til jeres AI-receptionist. Viderestil blot jeres eksisterende firmanummer dertil, så AI'en kan besvare de indgående opkald."
+      },
+      {
+        "title": "Opret og afprøv jeres widget",
+        "desc": "Opret jeres AI voice-widget gratis, afprøv den, og indsæt den derefter på jeres hjemmeside – det hjælper vi også gerne med."
+      }
+    ],
+    "cta": "Opret gratis konto",
+    "demo_phone_label": "Vil du høre AI'en først? Ring gratis til",
+    "demo_phone_note": "helt uforpligtende, og det er gratis at ringe"
   }
 }

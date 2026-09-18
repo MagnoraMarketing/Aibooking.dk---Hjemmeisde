@@ -404,6 +404,49 @@
     "currency_suffix": "€/mois",
     "setup_note_optional": "Ajouter la configuration et l'onboarding – paiement unique de {{setup}} €, l'équivalent d'un mois d'abonnement, incl. 1 heure de support de suivi"
   },
+  "shopifyIntegration": {
+    "badge": "Intégration Shopify",
+    "title": "Une seule connexion — répond dans le widget et au téléphone",
+    "subtitle": "Connectez votre boutique Shopify une seule fois dans le tableau de bord, et le widget IA comme l'assistant téléphonique IA pourront répondre aux questions sur les produits et aider les clients avec leurs commandes — récupéré directement depuis Shopify à chaque question d'un client.",
+    "channels": [
+      {
+        "title": "Widget IA sur votre site",
+        "description": "Les clients qui parlent ou écrivent au widget sur votre site reçoivent des réponses sur les produits, le stock et les commandes directement depuis Shopify."
+      },
+      {
+        "title": "Assistant téléphonique IA (entrant)",
+        "description": "Les clients qui appellent reçoivent exactement les mêmes réponses depuis votre boutique Shopify, sans être transférés à un employé."
+      }
+    ],
+    "points": [
+      { "label": "Questions produits", "desc": "Prix, stock et informations produit sont récupérés en direct depuis Shopify" },
+      { "label": "Statut de commande", "desc": "Les clients peuvent demander « où est mon colis ? » et obtenir une réponse instantanée" },
+      { "label": "Configuration sécurisée", "desc": "La clé API est vérifiée auprès de Shopify avant d'être enregistrée, et stockée chiffrée" },
+      { "label": "Prêt en 5 minutes", "desc": "Ajoutez l'adresse de votre boutique et la clé API dans le tableau de bord, et les deux canaux sont actifs" }
+    ],
+    "mock": {
+      "windowLabel": "Configure Agent",
+      "tabs": ["Prompt Lab", "Settings", "Knowledge Base", "Booking", "Webshop", "Customise Widget", "Test Agent", "Embed Code"],
+      "activeTab": "Webshop",
+      "sectionLabel": "WEBSHOP / SHOPIFY",
+      "statusNotConnected": "Non connecté",
+      "description": "Connectez votre boutique Shopify pour que l'agent puisse répondre aux questions sur les produits et aider les clients avec leurs commandes. Tout est récupéré directement depuis Shopify lorsque le client le demande.",
+      "urlLabel": "Votre adresse Shopify",
+      "urlPlaceholder": "votreboutique.myshopify.com",
+      "urlNote": "L'adresse avec laquelle vous vous connectez à Shopify — elle se termine toujours par .myshopify.com. Vous serez redirigé vers Shopify pour approuver la connexion.",
+      "apiKeyBoxTitle": "Se connecter avec une clé API Shopify",
+      "steps": [
+        "Ouvrez Shopify → Settings → Apps and sales channels → Develop apps, puis cliquez sur Create an app. (renseignez l'adresse de la boutique ci-dessus et nous vous enverrons directement vers la page)",
+        "Sous Admin API scopes : cochez read_products, read_orders et read_legal_policies.",
+        "Installez l'application, copiez l'Admin API access token (commence par shpat_) et collez-le ci-dessous.",
+        "Le token ne s'affiche qu'une seule fois. Copiez-le immédiatement — si vous en avez besoin à nouveau, générez-en un nouveau sous Uninstall/Reveal token dans la même application."
+      ],
+      "apiKeyLabel": "Clé API admin Shopify",
+      "apiKeyPlaceholder": "shpat_...",
+      "apiKeyNote": "La clé est vérifiée auprès de Shopify avant d'être enregistrée, et stockée chiffrée. Elle ne s'affiche plus jamais ensuite — ni ici, ni ailleurs dans le tableau de bord.",
+      "saveButton": "Enregistrer et connecter"
+    }
+  },
   "phoneSection": {
     "eyebrow": "Nous proposons aussi",
     "dashboardTitle": "Tout au même endroit — avec une vue d'ensemble complète",

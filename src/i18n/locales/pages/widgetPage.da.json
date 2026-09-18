@@ -404,6 +404,49 @@
     "currency_suffix": "kr/md",
     "setup_note_optional": "Tilføj opsætning og onboarding – engangsbetaling på {{setup}} kr, svarende til én måneds abonnement, inkl. 1 times opfølgende support"
   },
+  "shopifyIntegration": {
+    "badge": "Shopify-integration",
+    "title": "Én forbindelse – svarer både i widget og på telefonen",
+    "subtitle": "Forbind jeres Shopify-butik én gang i dashboardet, så kan både AI-widgetten og AI-telefonassistenten svare på produktspørgsmål og hjælpe kunderne med deres ordrer – hentet direkte fra Shopify, når kunden spørger.",
+    "channels": [
+      {
+        "title": "AI-widget på hjemmesiden",
+        "description": "Kunder der taler eller skriver med widgetten på jeres hjemmeside, får svar om produkter, lager og ordrer direkte fra Shopify."
+      },
+      {
+        "title": "AI-telefonassistent (indbound)",
+        "description": "Kunder der ringer ind, får præcis de samme svar fra jeres Shopify-butik – uden at skulle stilles videre til en medarbejder."
+      }
+    ],
+    "points": [
+      { "label": "Produktspørgsmål", "desc": "Priser, lagerstatus og produktinfo hentes live fra Shopify" },
+      { "label": "Ordrestatus", "desc": "Kunder kan spørge \"hvor er min pakke?\" og få svar med det samme" },
+      { "label": "Sikker opsætning", "desc": "API-nøglen tjekkes mod Shopify, før den gemmes, og opbevares krypteret" },
+      { "label": "Klar på 5 minutter", "desc": "Indsæt butiksadresse og API-nøgle i dashboardet, og begge kanaler er i gang" }
+    ],
+    "mock": {
+      "windowLabel": "Configure Agent",
+      "tabs": ["Prompt Lab", "Settings", "Knowledge Base", "Booking", "Webshop", "Customise Widget", "Test Agent", "Embed Code"],
+      "activeTab": "Webshop",
+      "sectionLabel": "WEBSHOP / SHOPIFY",
+      "statusNotConnected": "Ikke forbundet",
+      "description": "Forbind jeres Shopify-butik, så agenten kan svare på produktspørgsmål og hjælpe kunderne med deres ordrer. Alt hentes direkte fra Shopify, når kunden spørger.",
+      "urlLabel": "Jeres Shopify-adresse",
+      "urlPlaceholder": "dinbutik.myshopify.com",
+      "urlNote": "Den adresse I logger ind på i Shopify — den slutter altid på .myshopify.com. I bliver sendt til Shopify for at godkende forbindelsen.",
+      "apiKeyBoxTitle": "Forbind med Shopify API-nøgle",
+      "steps": [
+        "Åbn Shopify → Settings → Apps and sales channels → Develop apps, og tryk Create an app. (udfyld butiksadressen ovenfor, så linker vi direkte til siden)",
+        "Under Admin API scopes: sæt flueben ved read_products, read_orders og read_legal_policies.",
+        "Installér appen, kopiér Admin API access token (starter med shpat_) og indsæt det herunder.",
+        "Tokenet vises kun én gang. Kopiér det med det samme — skal I bruge det igen, laver I et nyt under Uninstall/Reveal token i samme app."
+      ],
+      "apiKeyLabel": "Shopify Admin API-nøgle",
+      "apiKeyPlaceholder": "shpat_...",
+      "apiKeyNote": "Nøglen tjekkes mod Shopify, før den gemmes, og gemmes krypteret. Den vises aldrig igen — hverken her eller andre steder i dashboardet.",
+      "saveButton": "Gem og forbind"
+    }
+  },
   "phoneSection": {
     "eyebrow": "Vi tilbyder også",
     "dashboardTitle": "Alt samlet ét sted – med fuldt overblik",

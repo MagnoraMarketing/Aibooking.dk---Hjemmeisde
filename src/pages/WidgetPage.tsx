@@ -15,6 +15,7 @@ import { VOICE_PLAN_PRICES_DKK, WIDGET_PLAN_PRICE_DKK, onboardingPrice } from '.
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath } from '../utils/localePaths';
 import ClinicDashboardMock from '../components/ClinicDashboardMock';
+import ShopifyIntegrationMock from '../components/ShopifyIntegrationMock';
 import type { NavigatePage } from '../types/navigation';
 
 interface WidgetPageProps {
@@ -422,6 +423,14 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
   const webshopPoints = t('webshop.points', { returnObjects: true }) as LabelDesc[];
   const webshopPointIcons = [Package, RefreshCw, ShoppingCart, Sparkles];
   const webshopChat = t('webshop.chat.lines', { returnObjects: true }) as ChatLine[];
+
+  const shopifyChannelsText = t('shopifyIntegration.channels', { returnObjects: true }) as TitleDescription[];
+  const shopifyChannelIcons = [Mic, PhoneCall];
+  const shopifyChannels = shopifyChannelsText.map((item, i) => ({ ...item, icon: shopifyChannelIcons[i] }));
+
+  const shopifyPointsText = t('shopifyIntegration.points', { returnObjects: true }) as LabelDesc[];
+  const shopifyPointIcons = [Package, RefreshCw, Shield, Clock];
+  const shopifyPoints = shopifyPointsText.map((item, i) => ({ ...item, icon: shopifyPointIcons[i] }));
 
   const websiteExamples = t('realExamples.website.items', { returnObjects: true }) as TitleDesc[];
   const webshopExamples = t('realExamples.webshop.items', { returnObjects: true }) as TitleDesc[];
@@ -842,6 +851,60 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
               {faqs.map((faq) => (
                 <FAQItem key={faq.question} {...faq} />
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Shopify integration – ties the widget and the phone assistant
+            together, since both channels answer from the same connected store */}
+        <section className="py-20 md:py-28 bg-white border-t border-ink-100">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-14 space-y-4">
+              <div className="inline-flex items-center gap-2 bg-brand-50 text-brand-700 px-4 py-2 rounded-full text-sm font-semibold border border-brand-100">
+                <ShoppingCart className="w-4 h-4" />
+                {t('shopifyIntegration.badge')}
+              </div>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-ink-900 tracking-tight">
+                {t('shopifyIntegration.title')}
+              </h2>
+              <p className="text-lg text-ink-600 max-w-3xl mx-auto leading-relaxed">
+                {t('shopifyIntegration.subtitle')}
+              </p>
+            </div>
+
+            <div className="grid sm:grid-cols-2 gap-5 mb-8 max-w-4xl mx-auto">
+              {shopifyChannels.map((channel, i) => {
+                const Icon = channel.icon;
+                return (
+                  <div key={i} className="flex items-start gap-3 bg-ink-50 border border-ink-200 rounded-2xl p-5">
+                    <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center flex-shrink-0 border border-ink-200">
+                      <Icon className="w-5 h-5 text-brand-600" />
+                    </div>
+                    <div className="min-w-0">
+                      <div className="font-bold text-ink-900 text-[15px]">{channel.title}</div>
+                      <p className="text-sm text-ink-600 mt-1 leading-relaxed">{channel.description}</p>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-14 max-w-5xl mx-auto">
+              {shopifyPoints.map((point, i) => {
+                const Icon = point.icon;
+                return (
+                  <div key={i} className="bg-white border border-ink-200 rounded-2xl p-5">
+                    <Icon className="w-5 h-5 text-brand-600 mb-3" />
+                    <div className="font-semibold text-ink-900 text-sm">{point.label}</div>
+                    <div className="text-xs text-ink-600 mt-1 leading-relaxed">{point.desc}</div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* Full width: the frame is too detailed to read in a half column. */}
+            <div className="max-w-3xl mx-auto">
+              <ShopifyIntegrationMock />
             </div>
           </div>
         </section>

@@ -404,6 +404,49 @@
     "currency_suffix": "€/mo",
     "setup_note_optional": "Add setup and onboarding – one-time payment of €{{setup}}, the same as one month's subscription, incl. 1 hour of follow-up support"
   },
+  "shopifyIntegration": {
+    "badge": "Shopify integration",
+    "title": "One connection — answers in the widget and on the phone",
+    "subtitle": "Connect your Shopify store once in the dashboard, and both the AI widget and the AI phone assistant can answer product questions and help customers with their orders — pulled directly from Shopify whenever a customer asks.",
+    "channels": [
+      {
+        "title": "AI widget on your website",
+        "description": "Customers talking or typing to the widget on your site get answers about products, stock and orders straight from Shopify."
+      },
+      {
+        "title": "AI phone assistant (inbound)",
+        "description": "Customers who call in get the exact same answers from your Shopify store — without being transferred to a staff member."
+      }
+    ],
+    "points": [
+      { "label": "Product questions", "desc": "Prices, stock status and product info are pulled live from Shopify" },
+      { "label": "Order status", "desc": "Customers can ask \"where's my package?\" and get an instant answer" },
+      { "label": "Secure setup", "desc": "The API key is verified against Shopify before it's saved, and stored encrypted" },
+      { "label": "Live in 5 minutes", "desc": "Add your store address and API key in the dashboard, and both channels are up and running" }
+    ],
+    "mock": {
+      "windowLabel": "Configure Agent",
+      "tabs": ["Prompt Lab", "Settings", "Knowledge Base", "Booking", "Webshop", "Customise Widget", "Test Agent", "Embed Code"],
+      "activeTab": "Webshop",
+      "sectionLabel": "WEBSHOP / SHOPIFY",
+      "statusNotConnected": "Not connected",
+      "description": "Connect your Shopify store so the agent can answer product questions and help customers with their orders. Everything is pulled directly from Shopify when the customer asks.",
+      "urlLabel": "Your Shopify address",
+      "urlPlaceholder": "yourstore.myshopify.com",
+      "urlNote": "The address you log in with on Shopify — it always ends in .myshopify.com. You'll be sent to Shopify to approve the connection.",
+      "apiKeyBoxTitle": "Connect with a Shopify API key",
+      "steps": [
+        "Open Shopify → Settings → Apps and sales channels → Develop apps, and click Create an app. (fill in the store address above and we'll link straight to the page)",
+        "Under Admin API scopes: check read_products, read_orders and read_legal_policies.",
+        "Install the app, copy the Admin API access token (starts with shpat_) and paste it below.",
+        "The token is shown only once. Copy it right away — if you need it again, generate a new one under Uninstall/Reveal token in the same app."
+      ],
+      "apiKeyLabel": "Shopify Admin API key",
+      "apiKeyPlaceholder": "shpat_...",
+      "apiKeyNote": "The key is verified against Shopify before it's saved, and stored encrypted. It's never shown again — not here, nor anywhere else in the dashboard.",
+      "saveButton": "Save and connect"
+    }
+  },
   "phoneSection": {
     "eyebrow": "We also offer",
     "dashboardTitle": "Everything in one place — with a full overview",

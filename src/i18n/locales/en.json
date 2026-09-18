@@ -229,14 +229,8 @@
       "toggle_label": "See other prices",
       "setup": {
         "title": "Setup",
-        "value": "Optional add-on – always one month's subscription, charged once. Price shown under each package",
+        "value": "Optional add-on – the same flat one-time fee for every package and the AI widget. Price shown next to each plan",
         "note": "(one-time fee)"
-      },
-      "maintenance": {
-        "title": "Monthly maintenance and prompting",
-        "optional_label": "(optional)",
-        "description": "We handle maintenance and continuously help optimize prompts so accurate, relevant answers are given. It saves you time and ensures an even better experience for your customers and staff.",
-        "price": "€401/mo"
       },
       "hourly": {
         "title": "Hourly rate for ad hoc tasks",
@@ -246,7 +240,7 @@
         "development_price": "€147/hour"
       }
     },
-    "setup_note_optional": "Add setup and onboarding – one-time payment of €{{setup}}, the same as one month's subscription, incl. 1 hour of follow-up support"
+    "setup_note_optional": "Add setup and onboarding – one-time payment of €{{setup}}, incl. 1 hour of follow-up support"
   },
   "cta_section": {
     "title": "Ready to get started?",

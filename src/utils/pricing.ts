@@ -14,10 +14,8 @@ export const WIDGET_PLAN_PRICE_DKK = 999;
 export const WIDGET_PLAN_MINUTES = 150;
 
 /**
- * Optional setup/onboarding is a one-off fee equal to exactly one month of the
- * chosen subscription — never more, no matter how much talk time is added on
- * top — and includes 1 hour of follow-up support afterwards.
+ * Optional setup/onboarding is a flat one-off fee — the same amount for every
+ * voice package and for the widget, regardless of talk time — and includes 1
+ * hour of follow-up support afterwards.
  */
-export function onboardingPrice(monthlySubscriptionDkk: number): number {
-  return monthlySubscriptionDkk;
-}
+export const SETUP_PRICE_DKK = 999;

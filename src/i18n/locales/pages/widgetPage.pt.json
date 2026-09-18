@@ -398,6 +398,49 @@
     "currency_suffix": "€/mês",
     "setup_note_optional": "Adicionar configuração e onboarding – pagamento único de €{{setup}}, incl. 1 hora de apoio de acompanhamento"
   },
+  "shopifyIntegration": {
+    "badge": "Integração com Shopify",
+    "title": "Uma única ligação — responde no widget e ao telefone",
+    "subtitle": "Ligue a sua loja Shopify uma única vez no painel, e tanto o widget de IA como o assistente telefónico de IA podem responder a perguntas sobre produtos e ajudar os clientes com as suas encomendas — obtido diretamente da Shopify sempre que um cliente pergunta.",
+    "channels": [
+      {
+        "title": "Widget de IA no seu site",
+        "description": "Os clientes que falam ou escrevem com o widget no seu site recebem respostas sobre produtos, stock e encomendas diretamente da Shopify."
+      },
+      {
+        "title": "Assistente telefónico de IA (receção)",
+        "description": "Os clientes que ligam recebem exatamente as mesmas respostas da sua loja Shopify — sem serem transferidos para um colaborador."
+      }
+    ],
+    "points": [
+      { "label": "Perguntas sobre produtos", "desc": "Preços, stock e informação de produto são obtidos em tempo real da Shopify" },
+      { "label": "Estado da encomenda", "desc": "Os clientes podem perguntar \"onde está a minha encomenda?\" e obter resposta imediata" },
+      { "label": "Configuração segura", "desc": "A chave API é verificada junto da Shopify antes de ser guardada, e armazenada encriptada" },
+      { "label": "Pronto em 5 minutos", "desc": "Adicione o endereço da loja e a chave API no painel, e ambos os canais ficam ativos" }
+    ],
+    "mock": {
+      "windowLabel": "Configure Agent",
+      "tabs": ["Prompt Lab", "Settings", "Knowledge Base", "Booking", "Webshop", "Customise Widget", "Test Agent", "Embed Code"],
+      "activeTab": "Webshop",
+      "sectionLabel": "WEBSHOP / SHOPIFY",
+      "statusNotConnected": "Não ligado",
+      "description": "Ligue a sua loja Shopify para que o agente possa responder a perguntas sobre produtos e ajudar os clientes com as suas encomendas. Tudo é obtido diretamente da Shopify quando o cliente pergunta.",
+      "urlLabel": "O seu endereço Shopify",
+      "urlPlaceholder": "asualoja.myshopify.com",
+      "urlNote": "O endereço com que inicia sessão na Shopify — termina sempre em .myshopify.com. Será enviado para a Shopify para aprovar a ligação.",
+      "apiKeyBoxTitle": "Ligar com uma chave API da Shopify",
+      "steps": [
+        "Abra Shopify → Settings → Apps and sales channels → Develop apps, e clique em Create an app. (preencha o endereço da loja acima e ligamos diretamente à página)",
+        "Em Admin API scopes: assinale read_products, read_orders e read_legal_policies.",
+        "Instale a app, copie o Admin API access token (começa por shpat_) e cole-o abaixo.",
+        "O token só é mostrado uma vez. Copie-o de imediato — se precisar dele novamente, gere um novo em Uninstall/Reveal token na mesma app."
+      ],
+      "apiKeyLabel": "Chave API de administrador Shopify",
+      "apiKeyPlaceholder": "shpat_...",
+      "apiKeyNote": "A chave é verificada junto da Shopify antes de ser guardada, e armazenada encriptada. Nunca mais é mostrada — nem aqui, nem em qualquer outro local do painel.",
+      "saveButton": "Guardar e ligar"
+    }
+  },
   "phoneSection": {
     "eyebrow": "Também oferecemos",
     "dashboardTitle": "Tudo num só lugar — com uma visão completa",

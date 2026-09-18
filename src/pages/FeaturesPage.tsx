@@ -201,13 +201,17 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                     <div className="text-xs text-ink-400 mb-3 font-semibold uppercase tracking-wider">{t('dashboardMock.weekly_activity_label')}</div>
                     <div className="flex items-end space-x-2 h-16">
                       {[40, 65, 55, 80, 70, 90, 75].map((h, i) => (
-                        <div key={i} className="flex-1 flex flex-col items-center space-y-1">
+                        <div key={i} className="flex-1 h-full flex items-end">
                           <div
                             className="w-full bg-brand-600 rounded-t-sm opacity-80 hover:opacity-100 transition-opacity"
                             style={{ height: `${h}%` }}
                           ></div>
-                          <div className="text-ink-500 text-xs">{mockDays[i]}</div>
                         </div>
+                      ))}
+                    </div>
+                    <div className="flex space-x-2 mt-1">
+                      {mockDays.map((day, i) => (
+                        <div key={i} className="flex-1 text-center text-ink-500 text-xs">{day}</div>
                       ))}
                     </div>
                   </div>

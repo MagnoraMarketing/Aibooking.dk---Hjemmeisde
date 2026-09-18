@@ -1,0 +1,49 @@
+{
+  "windowLabel": "Dashboard",
+  "navTabs": ["Dashboard", "Widget Agents", "Inbound", "Outbound", "Dialer", "Knowledge Base", "Analytics", "Integrations", "Billing", "Agency"],
+  "creditsLabel": "Credits",
+  "sectionHeading": {
+    "badge": "Dit dashboard",
+    "title": "Sådan ser jeres dashboard ud i praksis",
+    "subtitle": "Et rigtigt eksempel på hvordan I følger jeres AI-widget og telefonassistent – samlet ét sted, med tal for begge kanaler."
+  },
+  "title": "Dashboard",
+  "subtitle": "Følg jeres AI-widgets' performance",
+  "stats": {
+    "totalConversations": "Samtaler i alt",
+    "activeWidgets": "Aktive widgets",
+    "minutesUsed": "Minutter brugt",
+    "minutesLeft": "Minutter tilbage"
+  },
+  "panels": {
+    "widgetTitle": "Voice Widget",
+    "phoneTitle": "Telefon (Inbound/Outbound)",
+    "seeAgents": "Se agenter →",
+    "activeAgents": "Aktive agenter",
+    "conversations": "Samtaler",
+    "minutes": "Minutter",
+    "calls": "Opkald"
+  },
+  "recent": {
+    "title": "Seneste samtaler",
+    "columns": {
+      "widget": "WIDGET",
+      "date": "DATO",
+      "status": "STATUS",
+      "minutes": "MINUTTER"
+    },
+    "viewCall": "Se samtale"
+  },
+  "channelLabel": {
+    "widget": "Widget",
+    "inbound": "Indbound"
+  },
+  "status": {
+    "active": "Aktiv",
+    "ended": "Afsluttet",
+    "booked": "Booket",
+    "failed": "Fejlet"
+  },
+  "recentWidgetsTitle": "Senest brugte widgets",
+  "bookingsTitle": "Bookinger"
+}

@@ -57,10 +57,13 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     .split(',')
     .map((address) => address.trim())
     .filter(Boolean);
-  const from = process.env.CONTACT_EMAIL_FROM;
+  // Resend's own sandbox sender works out of the box with no domain
+  // verification, so CONTACT_EMAIL_FROM is optional — RESEND_API_KEY is the
+  // only variable that must be set for the form to work.
+  const from = process.env.CONTACT_EMAIL_FROM || 'Aibooking.dk <onboarding@resend.dev>';
 
-  if (!apiKey || to.length === 0 || !from) {
-    console.error('Contact form is not configured: missing RESEND_API_KEY, CONTACT_EMAIL_TO or CONTACT_EMAIL_FROM');
+  if (!apiKey) {
+    console.error('Contact form is not configured: missing RESEND_API_KEY');
     return res.status(500).json({ error: 'Contact form is not configured' });
   }
 

@@ -22,7 +22,7 @@ Blog posts and categories are static data in `src/content/blog.ts` (no database)
 
 ## Contact form
 
-The industry contact form (`src/components/industries/ContactForm.tsx`) POSTs to `api/contact.ts`, a Vercel serverless function that sends an email via Resend. It requires `RESEND_API_KEY`, `CONTACT_EMAIL_TO`, and `CONTACT_EMAIL_FROM` set as Vercel environment variables (see `.env.example`).
+The industry contact form (`src/components/industries/ContactForm.tsx`) POSTs to `api/contact.ts`, a Vercel serverless function that sends an email via Resend. Only `RESEND_API_KEY` must be set as a Vercel environment variable — `CONTACT_EMAIL_TO` and `CONTACT_EMAIL_FROM` are optional and fall back to sensible defaults (see `.env.example`).
 
 ## No backend database
 

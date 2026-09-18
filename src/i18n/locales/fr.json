@@ -164,8 +164,9 @@
     "most_popular_badge": "Le Plus Populaire",
     "free_label": "Gratuit",
     "currency_suffix": "€/mois",
-    "after_order_note": "Après la commande, vous recevrez un lien de calendrier pour réserver un créneau de configuration.",
+    "after_order_note": "Une fois votre compte gratuit créé, vous pouvez réserver un créneau de configuration directement depuis votre tableau de bord.",
     "setup_recommendation": "Nous vous conseillons d'essayer la solution gratuitement pendant 7 jours d'abord — vous choisirez ensuite votre formule, avec ou sans configuration.",
+    "cta_signup": "Créer un compte gratuit",
     "cta_demo": "Essayer gratuitement",
     "cta_order": "Commander le forfait et réserver l'onboarding",
     "plans": [
@@ -539,5 +540,26 @@
     "email_value": "3 000 e-mails gratuits",
     "whatsapp_label": "WhatsApp",
     "whatsapp_value": "100 messages gratuits"
+  },
+  "howItWorks": {
+    "title": "Comment commencer",
+    "subtitle": "Créez un compte gratuit en moins de 2 minutes — sans carte bancaire, sans engagement.",
+    "steps": [
+      {
+        "title": "Créez votre compte gratuit",
+        "desc": "Inscrivez-vous en moins de 2 minutes sans carte bancaire et accédez immédiatement à toutes les fonctionnalités."
+      },
+      {
+        "title": "Recevez votre propre numéro",
+        "desc": "Un numéro est attribué à votre réceptionniste IA. Il vous suffit d'y transférer votre numéro professionnel actuel pour que l'IA réponde à vos appels entrants."
+      },
+      {
+        "title": "Créez et testez votre widget",
+        "desc": "Configurez gratuitement votre widget vocal IA, testez-le, puis intégrez-le à votre site — nous pouvons aussi vous y aider."
+      }
+    ],
+    "cta": "Créer un compte gratuit",
+    "demo_phone_label": "Vous voulez l'entendre d'abord ? Appelez gratuitement le",
+    "demo_phone_note": "sans engagement, et l'appel est gratuit"
   }
 }

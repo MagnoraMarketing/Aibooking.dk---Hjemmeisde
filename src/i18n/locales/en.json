@@ -164,8 +164,9 @@
     "most_popular_badge": "Most Popular",
     "free_label": "Free",
     "currency_suffix": "€/mo",
-    "after_order_note": "After ordering, you'll receive a calendar link to book a time for setup.",
+    "after_order_note": "Once you've created your free account, you can book a setup time directly from your dashboard.",
     "setup_recommendation": "We recommend trying the solution free for 7 days first — then you choose your package, with or without setup.",
+    "cta_signup": "Create free account",
     "cta_demo": "Try for free",
     "cta_order": "Order package and book onboarding",
     "plans": [
@@ -539,5 +540,26 @@
     "email_value": "3,000 free emails",
     "whatsapp_label": "WhatsApp",
     "whatsapp_value": "100 free messages"
+  },
+  "howItWorks": {
+    "title": "How to get started",
+    "subtitle": "Create a free account in under 2 minutes — no credit card, no commitment.",
+    "steps": [
+      {
+        "title": "Create your free account",
+        "desc": "Sign up in under 2 minutes with no credit card, and get instant access to every feature."
+      },
+      {
+        "title": "Get your own phone number",
+        "desc": "You're assigned a number for your AI receptionist. Just forward your existing business number to it, and the AI answers your inbound calls."
+      },
+      {
+        "title": "Create and try your widget",
+        "desc": "Set up your AI voice widget for free, try it out, and add it to your website afterwards — we're happy to help with that too."
+      }
+    ],
+    "cta": "Create free account",
+    "demo_phone_label": "Want to hear it first? Call for free on",
+    "demo_phone_note": "no obligation, and it's free to call"
   }
 }

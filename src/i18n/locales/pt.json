@@ -164,8 +164,9 @@
     "most_popular_badge": "Mais Popular",
     "free_label": "Grátis",
     "currency_suffix": "€/mês",
-    "after_order_note": "Após a encomenda, recebe um link de calendário para marcar a configuração.",
+    "after_order_note": "Depois de criar a sua conta gratuita, pode agendar um horário de configuração diretamente no seu painel.",
     "setup_recommendation": "Recomendamos que experimente a solução gratuitamente durante 7 dias primeiro — depois escolhe o seu pacote, com ou sem configuração.",
+    "cta_signup": "Criar conta gratuita",
     "cta_demo": "Experimentar grátis",
     "cta_order": "Encomendar pacote e marcar Onboarding",
     "plans": [
@@ -539,5 +540,26 @@
     "email_value": "3.000 emails grátis",
     "whatsapp_label": "WhatsApp",
     "whatsapp_value": "100 mensagens grátis"
+  },
+  "howItWorks": {
+    "title": "Como começar",
+    "subtitle": "Crie uma conta gratuita em menos de 2 minutos — sem cartão de crédito, sem compromisso.",
+    "steps": [
+      {
+        "title": "Crie sua conta gratuita",
+        "desc": "Cadastre-se em menos de 2 minutos sem cartão de crédito e tenha acesso imediato a todos os recursos."
+      },
+      {
+        "title": "Receba o seu próprio número",
+        "desc": "Você recebe um número para o seu recepcionista de IA. Basta encaminhar o seu número comercial atual para ele, e a IA atende as suas chamadas recebidas."
+      },
+      {
+        "title": "Crie e teste o seu widget",
+        "desc": "Configure o seu widget de voz com IA gratuitamente, teste-o e depois adicione-o ao seu site — também podemos ajudar com isso."
+      }
+    ],
+    "cta": "Criar conta gratuita",
+    "demo_phone_label": "Quer ouvir primeiro? Ligue grátis para",
+    "demo_phone_note": "sem compromisso, e é grátis ligar"
   }
 }

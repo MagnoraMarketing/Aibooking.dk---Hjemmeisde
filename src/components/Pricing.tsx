@@ -2,7 +2,7 @@ import { Check, ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { localizedPrice } from '../utils/currency';
-import { STRIPE_CHECKOUT } from '../utils/checkout';
+import { SIGNUP_URL } from '../utils/backend';
 import { VOICE_PLAN_PRICES_DKK, onboardingPrice } from '../utils/pricing';
 import type { SupportedLanguage } from '../i18n/config';
 
@@ -22,13 +22,14 @@ function Pricing() {
   const plansText = t('pricing.plans', { returnObjects: true }) as PricingPlanText[];
   // Optional setup/onboarding fee equals one month's subscription price,
   // charged once, and includes 1 hour of follow-up support afterwards.
+  // Every plan links to the free signup on the backend app rather than a
+  // payment link — visitors try the product first, and packages are sold
+  // afterwards from the backend once they're a qualified lead.
   const planMeta = [
-    // The 7-day trial is self-serve too, so it goes straight to its own Stripe
-    // link rather than through the contact form.
-    { price: VOICE_PLAN_PRICES_DKK[0], highlighted: false, href: STRIPE_CHECKOUT.trial },
-    { price: VOICE_PLAN_PRICES_DKK[1], highlighted: false, href: STRIPE_CHECKOUT.starter },
-    { price: VOICE_PLAN_PRICES_DKK[2], highlighted: true, href: STRIPE_CHECKOUT.professional },
-    { price: VOICE_PLAN_PRICES_DKK[3], highlighted: false, href: STRIPE_CHECKOUT.enterprise },
+    { price: VOICE_PLAN_PRICES_DKK[0], highlighted: false, href: SIGNUP_URL },
+    { price: VOICE_PLAN_PRICES_DKK[1], highlighted: false, href: SIGNUP_URL },
+    { price: VOICE_PLAN_PRICES_DKK[2], highlighted: true, href: SIGNUP_URL },
+    { price: VOICE_PLAN_PRICES_DKK[3], highlighted: false, href: SIGNUP_URL },
   ];
   const plans = plansText.map((plan, i) => ({
     ...plan,
@@ -144,7 +145,7 @@ function Pricing() {
                     : 'bg-brand-600 text-white hover:bg-brand-700 shadow-sm'
                 }`}
               >
-                {index === 0 ? t('pricing.cta_demo') : t('pricing.cta_order')}
+                {t('pricing.cta_signup')}
               </a>
             </div>
           ))}

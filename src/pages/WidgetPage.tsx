@@ -5,6 +5,7 @@ import {
   ChevronDown, ArrowRight, Phone, LayoutDashboard,
   SlidersHorizontal, Headphones, CalendarCheck,
   ShoppingCart, Store, Package, RefreshCw, Sparkles, Users,
+  PhoneOff, Loader2,
 } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
@@ -12,6 +13,8 @@ import SEO from '../components/SEO';
 import { localizedPrice } from '../utils/currency';
 import { STRIPE_CHECKOUT } from '../utils/checkout';
 import { VOICE_PLAN_PRICES_DKK, WIDGET_PLAN_PRICE_DKK, SETUP_PRICE_DKK } from '../utils/pricing';
+import { VAPI_WIDGET_ASSISTANT_ID } from '../utils/vapi';
+import { useVapiCall } from '../hooks/useVapiCall';
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath } from '../utils/localePaths';
 import ClinicDashboardMock from '../components/ClinicDashboardMock';
@@ -383,6 +386,7 @@ function PhoneAssistantSection() {
 
 function WidgetPage({ onNavigate }: WidgetPageProps) {
   const { t } = useTranslation('widgetPage');
+  const vapiCall = useVapiCall(VAPI_WIDGET_ASSISTANT_ID);
 
   const faqs = t('faqs', { returnObjects: true }) as Faq[];
 
@@ -457,11 +461,27 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <button
-                    onClick={() => onNavigate('contact')}
-                    className="inline-flex items-center justify-center gap-2 bg-accent-400 text-ink-950 px-8 py-4 rounded-xl hover:bg-accent-300 transition-all font-bold shadow-lg shadow-accent-500/20 transform hover:scale-[1.02]"
+                    type="button"
+                    onClick={vapiCall.state === 'active' ? vapiCall.stop : vapiCall.start}
+                    disabled={vapiCall.state === 'connecting'}
+                    className="inline-flex items-center justify-center gap-2 bg-accent-400 text-ink-950 px-8 py-4 rounded-xl hover:bg-accent-300 transition-all font-bold shadow-lg shadow-accent-500/20 transform hover:scale-[1.02] disabled:opacity-70 disabled:cursor-wait disabled:hover:scale-100"
                   >
-                    {t('hero.cta_demo')}
-                    <ArrowRight className="w-5 h-5" />
+                    {vapiCall.state === 'active' ? (
+                      <>
+                        <PhoneOff className="w-5 h-5" />
+                        {t('hero.cta_demo_end')}
+                      </>
+                    ) : vapiCall.state === 'connecting' ? (
+                      <>
+                        <Loader2 className="w-5 h-5 animate-spin" />
+                        {t('hero.cta_demo_connecting')}
+                      </>
+                    ) : (
+                      <>
+                        {t('hero.cta_demo')}
+                        <ArrowRight className="w-5 h-5" />
+                      </>
+                    )}
                   </button>
                   <a
                     href={STRIPE_CHECKOUT.widget}
@@ -472,6 +492,9 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                     {t('hero.cta_buy')}
                   </a>
                 </div>
+                {vapiCall.state === 'error' && (
+                  <p className="text-sm text-red-300">{t('hero.cta_demo_error')}</p>
+                )}
                 <div className="flex flex-wrap items-center gap-6 text-sm text-ink-300">
                   <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-accent-400" /> {t('hero.trust_no_binding')}</span>
                   <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-accent-400" /> {t('hero.trust_5min')}</span>
@@ -480,14 +503,26 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
               </div>
 
               <div className="relative flex items-center justify-center py-8 lg:py-0">
-                <div className="relative w-full max-w-sm aspect-square flex items-center justify-center">
-                  <div className="absolute inset-0 rounded-full border border-brand-400/20"></div>
-                  <div className="absolute inset-10 rounded-full border border-brand-400/25 animate-pulse"></div>
+                <button
+                  type="button"
+                  onClick={vapiCall.state === 'active' ? vapiCall.stop : vapiCall.start}
+                  disabled={vapiCall.state === 'connecting'}
+                  aria-label={vapiCall.state === 'active' ? t('hero.cta_demo_end') : t('hero.cta_demo')}
+                  className="relative w-full max-w-sm aspect-square flex items-center justify-center disabled:cursor-wait"
+                >
+                  <div className={`absolute inset-0 rounded-full border transition-colors ${vapiCall.state === 'active' ? 'border-accent-400/40' : 'border-brand-400/20'}`}></div>
+                  <div className={`absolute inset-10 rounded-full border animate-pulse transition-colors ${vapiCall.isAssistantSpeaking ? 'border-accent-400/60' : 'border-brand-400/25'}`}></div>
                   <div className="absolute inset-20 rounded-full border border-accent-400/25"></div>
-                  <div className="w-28 h-28 bg-gradient-to-br from-brand-500 to-brand-700 rounded-full flex items-center justify-center shadow-2xl shadow-brand-500/40">
-                    <Mic className="w-12 h-12 text-white" />
+                  <div className={`w-28 h-28 bg-gradient-to-br rounded-full flex items-center justify-center shadow-2xl shadow-brand-500/40 transition-transform ${vapiCall.isAssistantSpeaking ? 'scale-110' : ''} ${vapiCall.state === 'active' ? 'from-accent-400 to-accent-600' : 'from-brand-500 to-brand-700'}`}>
+                    {vapiCall.state === 'connecting' ? (
+                      <Loader2 className="w-12 h-12 text-white animate-spin" />
+                    ) : vapiCall.state === 'active' ? (
+                      <PhoneOff className="w-12 h-12 text-white" />
+                    ) : (
+                      <Mic className="w-12 h-12 text-white" />
+                    )}
                   </div>
-                </div>
+                </button>
 
                 <div className="absolute -bottom-2 -right-2 sm:right-6 w-52 sm:w-60 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
                   <img

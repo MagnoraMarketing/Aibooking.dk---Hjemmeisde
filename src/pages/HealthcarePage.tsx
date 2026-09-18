@@ -11,6 +11,7 @@ import { buildLocalizedPath } from '../utils/localePaths';
 import IndustryScenario from '../components/industries/IndustryScenario';
 import IndustryCalculator from '../components/industries/IndustryCalculator';
 import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
+import DashboardShowcase from '../components/DashboardShowcase';
 import type { NavigatePage } from '../types/navigation';
 
 interface HealthcarePageProps {
@@ -126,6 +127,8 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
       </section>
 
       <IndustryCalculator industry="healthcare" />
+
+      <DashboardShowcase variant="healthcare" className="py-20 md:py-28 bg-white" />
 
       <IndustryTrialBanner industry="healthcare" />
 

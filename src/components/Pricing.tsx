@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { localizedPrice } from '../utils/currency';
 import { SIGNUP_URL } from '../utils/backend';
-import { VOICE_PLAN_PRICES_DKK, onboardingPrice } from '../utils/pricing';
+import { VOICE_PLAN_PRICES_DKK, SETUP_PRICE_DKK } from '../utils/pricing';
 import type { SupportedLanguage } from '../i18n/config';
 
 interface PricingPlanText {
@@ -34,7 +34,7 @@ function Pricing() {
   const plans = plansText.map((plan, i) => ({
     ...plan,
     ...planMeta[i],
-    setup: onboardingPrice(planMeta[i].price),
+    setup: SETUP_PRICE_DKK,
   }));
 
   return (
@@ -117,21 +117,19 @@ function Pricing() {
                 ))}
               </ul>
 
-              {plan.setup !== 0 && (
-                <div className={`mb-6 pt-6 border-t ${plan.highlighted ? 'border-brand-500' : 'border-ink-200'}`}>
-                  <label className="flex items-start gap-2.5 cursor-pointer">
-                    <input
-                      type="checkbox"
-                      checked={!!setupSelected[index]}
-                      onChange={() => setSetupSelected((s) => ({ ...s, [index]: !s[index] }))}
-                      className="mt-0.5 w-4 h-4 rounded accent-white flex-shrink-0"
-                    />
-                    <span className={`text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
-                      {t('pricing.setup_note_optional', { setup: localizedPrice(plan.setup, lang) })}
-                    </span>
-                  </label>
-                </div>
-              )}
+              <div className={`mb-6 pt-6 border-t ${plan.highlighted ? 'border-brand-500' : 'border-ink-200'}`}>
+                <label className="flex items-start gap-2.5 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={!!setupSelected[index]}
+                    onChange={() => setSetupSelected((s) => ({ ...s, [index]: !s[index] }))}
+                    className="mt-0.5 w-4 h-4 rounded accent-white flex-shrink-0"
+                  />
+                  <span className={`text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
+                    {t('pricing.setup_note_optional', { setup: localizedPrice(plan.setup, lang) })}
+                  </span>
+                </label>
+              </div>
 
               <div className="flex-grow"></div>
 
@@ -187,18 +185,6 @@ function Pricing() {
                     </h4>
                     <p className="text-ink-700 text-lg">
                       {t('pricing.additionalPrices.setup.value')} <span className="text-ink-600 text-base">{t('pricing.additionalPrices.setup.note')}</span>
-                    </p>
-                  </div>
-
-                  <div className="pb-8 border-b border-ink-200">
-                    <h4 className="text-lg font-semibold text-ink-900 mb-2">
-                      {t('pricing.additionalPrices.maintenance.title')} <span className="text-brand-600 text-sm font-medium">{t('pricing.additionalPrices.maintenance.optional_label')}</span>
-                    </h4>
-                    <p className="text-ink-600 mb-2 text-sm leading-relaxed">
-                      {t('pricing.additionalPrices.maintenance.description')}
-                    </p>
-                    <p className="text-ink-900 font-semibold text-base">
-                      {t('pricing.additionalPrices.maintenance.price')}
                     </p>
                   </div>
 

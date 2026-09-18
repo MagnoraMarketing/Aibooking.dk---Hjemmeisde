@@ -229,14 +229,8 @@
       "toggle_label": "Se øvrige priser",
       "setup": {
         "title": "Opsætning",
-        "value": "Valgfrit tilvalg – altid én måneds abonnement, betalt én gang. Prisen fremgår under hver pakke",
+        "value": "Valgfrit tilvalg – samme faste engangsbeløb for alle pakker og AI-widgetten. Prisen fremgår ved hver pakke",
         "note": "(engangsbeløb)"
-      },
-      "maintenance": {
-        "title": "Månedlig vedligeholdelse og prompting",
-        "optional_label": "(tilvalg)",
-        "description": "Vi står for vedligeholdelse og hjælper løbende med at optimere prompts, så der gives præcise og relevante svar. Det sparer jer tid og sikrer en endnu bedre oplevelse for jeres kunder og medarbejdere.",
-        "price": "2.995 kr./md"
       },
       "hourly": {
         "title": "Timepris ved ad hoc-opgaver",
@@ -246,7 +240,7 @@
         "development_price": "1.100 kr. pr. time"
       }
     },
-    "setup_note_optional": "Tilføj opsætning og onboarding – engangsbetaling på {{setup}} kr, svarende til én måneds abonnement, inkl. 1 times opfølgende support"
+    "setup_note_optional": "Tilføj opsætning og onboarding – engangsbetaling på {{setup}} kr, inkl. 1 times opfølgende support"
   },
   "cta_section": {
     "title": "Klar til at komme i gang?",

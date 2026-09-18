@@ -229,14 +229,8 @@
       "toggle_label": "Ver otros precios",
       "setup": {
         "title": "Configuración",
-        "value": "Complemento opcional – siempre un mes de suscripción, cobrado una sola vez. Precio mostrado en cada paquete",
+        "value": "Complemento opcional – la misma tarifa única fija para todos los paquetes y el widget de IA. El precio se muestra junto a cada plan",
         "note": "(pago único)"
-      },
-      "maintenance": {
-        "title": "Mantenimiento mensual y prompting",
-        "optional_label": "(opcional)",
-        "description": "Nos encargamos del mantenimiento y ayudamos continuamente a optimizar los prompts para ofrecer respuestas precisas y relevantes. Esto te ahorra tiempo y garantiza una experiencia aún mejor para tus clientes y tu personal.",
-        "price": "401€/mes"
       },
       "hourly": {
         "title": "Tarifa por hora para tareas puntuales",
@@ -246,7 +240,7 @@
         "development_price": "147€/hora"
       }
     },
-    "setup_note_optional": "Añadir configuración e incorporación – pago único de {{setup}}€, lo mismo que un mes de suscripción, incl. 1 hora de soporte de seguimiento"
+    "setup_note_optional": "Añadir configuración e incorporación – pago único de {{setup}}€, incl. 1 hora de soporte de seguimiento"
   },
   "cta_section": {
     "title": "¿Listo para empezar?",

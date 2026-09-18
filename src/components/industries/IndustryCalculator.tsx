@@ -9,7 +9,7 @@ import {
   VOICE_PLAN_PRICES_DKK,
   WIDGET_PLAN_MINUTES,
   WIDGET_PLAN_PRICE_DKK,
-  onboardingPrice,
+  SETUP_PRICE_DKK,
 } from '../../utils/pricing';
 
 type Mode = 'voice' | 'widget';
@@ -56,10 +56,10 @@ function IndustryCalculator({ industry }: IndustryCalculatorProps) {
   const planName = mode === 'voice' ? voicePlan.name : t('industryTools.calculator.widgetPlanName');
   const monthlyPrice = mode === 'voice' ? voicePlan.price : packs * WIDGET_PACK_PRICE;
   const includedMinutes = mode === 'voice' ? voicePlan.minutes : packs * WIDGET_PACK_MINUTES;
-  // Setup is a one-off add-on priced at one month of the chosen subscription.
-  // For the widget that is the single pack price — extra packs are talk-time
-  // top-ups, so they must never multiply the one-off onboarding fee.
-  const setupPrice = onboardingPrice(mode === 'voice' ? voicePlan.price : WIDGET_PACK_PRICE);
+  // Setup is a flat one-off add-on, the same for every package and the
+  // widget — extra widget packs are talk-time top-ups, so they must never
+  // multiply the one-off setup fee.
+  const setupPrice = SETUP_PRICE_DKK;
   // Summed from the rounded display values so the total matches the two lines
   // above it once the amounts have been converted to the visitor's currency.
   const firstMonthTotal = displayAmount(monthlyPrice, lang) + displayAmount(setupPrice, lang);

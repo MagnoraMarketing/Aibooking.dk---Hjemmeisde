@@ -540,6 +540,20 @@
     "webshop_label": "Webshop",
     "webshop_value": "Shopify integration"
   },
+  "voiceAssistantWidget": {
+    "open_aria": "Open the AI assistant",
+    "close_aria": "Close",
+    "launcher_label": "Ask the AI",
+    "dialog_aria": "Talk to the AI assistant",
+    "title": "Ask the AI assistant",
+    "subtitle": "Ask a question by voice — it's the same AI you can set up on your own website.",
+    "start_aria": "Start conversation",
+    "stop_aria": "End conversation",
+    "state_idle": "Tap to start",
+    "state_connecting": "Connecting...",
+    "state_active": "Listening — say something!",
+    "state_error": "Something went wrong. Please try again."
+  },
   "howItWorks": {
     "title": "How to get started",
     "subtitle": "Create a free account in under 2 minutes — no credit card, no commitment.",

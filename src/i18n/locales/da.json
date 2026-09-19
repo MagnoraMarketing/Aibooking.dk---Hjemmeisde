@@ -540,6 +540,20 @@
     "webshop_label": "Webshop",
     "webshop_value": "Shopify-integration"
   },
+  "voiceAssistantWidget": {
+    "open_aria": "Åbn AI-assistenten",
+    "close_aria": "Luk",
+    "launcher_label": "Spørg AI'en",
+    "dialog_aria": "Snak med AI-assistenten",
+    "title": "Spørg AI-assistenten",
+    "subtitle": "Stil et spørgsmål med stemmen – det er den samme AI, I kan sætte op på jeres egen hjemmeside.",
+    "start_aria": "Start samtale",
+    "stop_aria": "Afslut samtale",
+    "state_idle": "Tryk for at starte",
+    "state_connecting": "Forbinder...",
+    "state_active": "Lyt – sig noget!",
+    "state_error": "Der skete en fejl. Prøv igen."
+  },
   "howItWorks": {
     "title": "Sådan kommer du i gang",
     "subtitle": "Opret en gratis konto på under 2 minutter – ingen kreditkort, ingen binding.",

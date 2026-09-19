@@ -20,6 +20,7 @@ import BlogPage from './pages/BlogPage';
 import BlogCategoryPage from './pages/BlogCategoryPage';
 import BlogPostPage from './pages/BlogPostPage';
 import TrialOfferWidget from './components/TrialOfferWidget';
+import VoiceAssistantWidget from './components/VoiceAssistantWidget';
 import { SUPPORTED_LANGUAGES, SupportedLanguage } from './i18n/config';
 import { splitLocalizedPath, buildLocalizedPath } from './utils/localePaths';
 
@@ -126,6 +127,7 @@ function App() {
        : currentPage === 'trial' ? <TrialPage onNavigate={handleNavigate} />
        : <DemoPage onNavigate={handleNavigate} />}
       <TrialOfferWidget />
+      <VoiceAssistantWidget />
     </>
   );
 }

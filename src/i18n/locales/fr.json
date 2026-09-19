@@ -540,6 +540,20 @@
     "webshop_label": "Boutique en ligne",
     "webshop_value": "Intégration Shopify"
   },
+  "voiceAssistantWidget": {
+    "open_aria": "Ouvrir l'assistant IA",
+    "close_aria": "Fermer",
+    "launcher_label": "Demander à l'IA",
+    "dialog_aria": "Parler à l'assistant IA",
+    "title": "Demandez à l'assistant IA",
+    "subtitle": "Posez une question à voix haute — c'est la même IA que vous pouvez installer sur votre propre site.",
+    "start_aria": "Démarrer la conversation",
+    "stop_aria": "Terminer la conversation",
+    "state_idle": "Appuyez pour commencer",
+    "state_connecting": "Connexion...",
+    "state_active": "À l'écoute — dites quelque chose !",
+    "state_error": "Une erreur s'est produite. Veuillez réessayer."
+  },
   "howItWorks": {
     "title": "Comment commencer",
     "subtitle": "Créez un compte gratuit en moins de 2 minutes — sans carte bancaire, sans engagement.",

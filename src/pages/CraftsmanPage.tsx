@@ -65,6 +65,8 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
         </div>
       </section>
 
+      <DashboardShowcase variant="craftsman" className="py-20 md:py-28 bg-white" />
+
       {/* Worked example, right up top so visitors immediately see how it plays out */}
       <IndustryScenario industry="craftsman" />
 
@@ -127,8 +129,6 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
       </section>
 
       <IndustryCalculator industry="craftsman" />
-
-      <DashboardShowcase variant="craftsman" className="py-20 md:py-28 bg-white" />
 
       <IndustryTrialBanner industry="craftsman" />
 

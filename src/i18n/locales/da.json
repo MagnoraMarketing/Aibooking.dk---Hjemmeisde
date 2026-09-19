@@ -508,15 +508,17 @@
     },
     "trial": {
       "badge": "7 dage gratis",
-      "title": "Test det på dine egne opkald – helt uforpligtende",
-      "text": "Opret en testkonto og prøv løsningen i 7 dage med 75 minutters taletid. Vi sætter det op sammen med dig på et kort onboarding-møde, og du viderestiller blot dit nuværende firmanummer til det nummer, du får tildelt.",
+      "title": "Prøv det med det samme – på jeres opkald og jeres hjemmeside",
+      "text": "Opret en testkonto og få fuld adgang til løsningen i 7 dage, helt gratis og uden binding. Vi sætter det op sammen med jer på et kort onboarding-møde.",
       "points": [
-        "Ingen teknisk opsætning – du viderestiller bare dit nummer",
+        "Ingen teknisk opsætning krævet",
         "Fuld adgang til dashboard, optagelser og bookinger",
         "Ingen binding og intet kortnummer påkrævet"
       ],
-      "minutesValue": "75 min.",
-      "minutesLabel": "taletid inkluderet i prøveperioden",
+      "inboundLabel": "Indbound",
+      "inboundValue": "Viderestil jeres nuværende nummer, så svarer AI'en på jeres rigtige opkald med det samme",
+      "widgetLabel": "Voice-widget",
+      "widgetValue": "Få en embedkode med det samme – test og tilpas widgetten på jeres hjemmeside",
       "cta": "Opret testkonto",
       "secondary": "Læs mere om prøveperioden"
     }

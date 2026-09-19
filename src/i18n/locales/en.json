@@ -508,15 +508,17 @@
     },
     "trial": {
       "badge": "7 days free",
-      "title": "Test it on your own calls — no strings attached",
-      "text": "Create a test account and try the solution for 7 days with 75 minutes of talk time. We set it up together with you on a short onboarding call, and you simply forward your current business number to the number you're assigned.",
+      "title": "Try it right away — on your calls and your website",
+      "text": "Create a test account and get full access to the solution for 7 days, completely free with no commitment. We set it up together with you on a short onboarding call.",
       "points": [
-        "No technical setup — you just forward your number",
+        "No technical setup required",
         "Full access to the dashboard, recordings and bookings",
         "No commitment and no card details required"
       ],
-      "minutesValue": "75 min",
-      "minutesLabel": "talk time included in the trial",
+      "inboundLabel": "Inbound",
+      "inboundValue": "Forward your current number and the AI answers your real calls right away",
+      "widgetLabel": "Voice widget",
+      "widgetValue": "Get an embed code right away — test and customize the widget on your website",
       "cta": "Create a test account",
       "secondary": "Read more about the trial"
     }

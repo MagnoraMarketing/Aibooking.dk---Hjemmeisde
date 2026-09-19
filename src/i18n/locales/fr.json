@@ -508,15 +508,17 @@
     },
     "trial": {
       "badge": "7 jours gratuits",
-      "title": "Testez sur vos propres appels — sans engagement",
-      "text": "Créez un compte de test et essayez la solution pendant 7 jours avec 75 minutes de temps de parole. Nous la configurons avec vous lors d'un court appel d'onboarding, et il vous suffit de transférer votre numéro professionnel actuel vers celui qui vous est attribué.",
+      "title": "Essayez-le tout de suite — sur vos appels et votre site",
+      "text": "Créez un compte de test et obtenez un accès complet à la solution pendant 7 jours, entièrement gratuit et sans engagement. Nous la configurons avec vous lors d'un court appel d'onboarding.",
       "points": [
-        "Aucune configuration technique — vous transférez simplement votre numéro",
+        "Aucune configuration technique requise",
         "Accès complet au tableau de bord, aux enregistrements et aux réservations",
         "Sans engagement et sans carte bancaire"
       ],
-      "minutesValue": "75 min",
-      "minutesLabel": "de temps de parole inclus dans l'essai",
+      "inboundLabel": "Entrant",
+      "inboundValue": "Transférez votre numéro actuel et l'IA répond immédiatement à vos vrais appels",
+      "widgetLabel": "Widget vocal",
+      "widgetValue": "Recevez un code d'intégration immédiatement — testez et personnalisez le widget sur votre site",
       "cta": "Créer un compte de test",
       "secondary": "En savoir plus sur l'essai"
     }

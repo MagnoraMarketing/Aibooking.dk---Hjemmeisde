@@ -508,15 +508,17 @@
     },
     "trial": {
       "badge": "7 días gratis",
-      "title": "Pruébalo con tus propias llamadas — sin compromiso",
-      "text": "Crea una cuenta de prueba y prueba la solución durante 7 días con 75 minutos de conversación. La configuramos contigo en una breve llamada de incorporación, y solo tienes que desviar tu número comercial actual al número que se te asigne.",
+      "title": "Pruébalo ahora mismo — en tus llamadas y en tu web",
+      "text": "Crea una cuenta de prueba y obtén acceso completo a la solución durante 7 días, totalmente gratis y sin compromiso. La configuramos contigo en una breve llamada de incorporación.",
       "points": [
-        "Sin configuración técnica — solo desvías tu número",
+        "Sin configuración técnica",
         "Acceso completo al panel, grabaciones y reservas",
         "Sin compromiso y sin datos de tarjeta"
       ],
-      "minutesValue": "75 min",
-      "minutesLabel": "de conversación incluidos en la prueba",
+      "inboundLabel": "Entrantes",
+      "inboundValue": "Desvía tu número actual y la IA responde tus llamadas reales al instante",
+      "widgetLabel": "Widget de voz",
+      "widgetValue": "Recibe un código de inserción al instante — pruébalo y personalízalo en tu web",
       "cta": "Crear cuenta de prueba",
       "secondary": "Más información sobre la prueba"
     }

@@ -158,12 +158,12 @@ function PricingSection() {
 function PhoneAssistantSection() {
   const { t, i18n } = useTranslation('widgetPage');
   const [isAdditionalOpen, setIsAdditionalOpen] = useState(false);
-  const [setupSelected, setSetupSelected] = useState<Record<number, boolean>>({});
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
 
   const plansText = t('pricing.plans', { returnObjects: true }) as PricingPlanText[];
-  // Optional setup/onboarding fee equals one month's subscription price,
-  // charged once, and includes 1 hour of follow-up support afterwards.
+  // Setup/onboarding is included free with every paid plan (waived rather
+  // than charged) — SETUP_PRICE_DKK is only used to show its reference value
+  // in the "included free" messaging below.
   const planMeta = [
     { price: VOICE_PLAN_PRICES_DKK[0], highlighted: false, href: SIGNUP_URL },
     { price: VOICE_PLAN_PRICES_DKK[1], highlighted: false, href: SIGNUP_URL },
@@ -241,7 +241,7 @@ function PhoneAssistantSection() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-          {phonePlans.map((plan, index) => (
+          {phonePlans.map((plan) => (
             <div
               key={plan.name}
               className={`relative rounded-2xl p-8 transition-all duration-300 flex flex-col ${
@@ -298,18 +298,11 @@ function PhoneAssistantSection() {
                 ))}
               </ul>
 
-              <div className={`mb-6 pt-6 border-t ${plan.highlighted ? 'border-brand-500' : 'border-ink-200'}`}>
-                <label className="flex items-start gap-2.5 cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={!!setupSelected[index]}
-                    onChange={() => setSetupSelected((s) => ({ ...s, [index]: !s[index] }))}
-                    className="mt-0.5 w-4 h-4 rounded accent-white flex-shrink-0"
-                  />
-                  <span className={`text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
-                    {t('pricing.setup_note_optional', { setup: localizedPrice(plan.setup, lang) })}
-                  </span>
-                </label>
+              <div className={`mb-6 pt-6 border-t flex items-start gap-2.5 ${plan.highlighted ? 'border-brand-500' : 'border-ink-200'}`}>
+                <CheckCircle className={`mt-0.5 w-4 h-4 flex-shrink-0 ${plan.highlighted ? 'text-white' : 'text-brand-600'}`} />
+                <span className={`text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
+                  {t('pricing.setup_included_note', { setup: localizedPrice(plan.setup, lang) })}
+                </span>
               </div>
 
               <div className="flex-grow"></div>
@@ -357,7 +350,7 @@ function PhoneAssistantSection() {
                   <div className="pb-8 border-b border-ink-200">
                     <h4 className="text-xl font-semibold text-ink-900 mb-3">{t('pricing.additionalPrices.setup.title')}</h4>
                     <p className="text-ink-700 text-lg">
-                      {t('pricing.additionalPrices.setup.value')} <span className="text-ink-600 text-base">{t('pricing.additionalPrices.setup.note')}</span>
+                      {t('pricing.additionalPrices.setup.value', { setup: localizedPrice(SETUP_PRICE_DKK, lang) })} <span className="text-ink-600 text-base">{t('pricing.additionalPrices.setup.note')}</span>
                     </p>
                   </div>
                   <div>

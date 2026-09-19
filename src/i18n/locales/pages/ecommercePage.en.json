@@ -82,6 +82,22 @@
     ],
     "cta": "See the AI widget for webshops"
   },
+  "shopifyHighlight": {
+    "badge": "New",
+    "title": "Now connected directly to your Shopify store — and your calendar",
+    "subtitle": "Connect your store once in the dashboard, and the AI agent pulls products, stock and orders straight from Shopify, and can book appointments directly in your calendar — no manual updates anywhere.",
+    "features": [
+      {
+        "title": "Shopify integration",
+        "desc": "The agent answers product questions, prices and \"where's my package?\" with data pulled live from your Shopify store — ready in 5 minutes."
+      },
+      {
+        "title": "Calendar integration",
+        "desc": "Book personal consultations, pickup times or follow-ups directly into your Google Calendar or Outlook, synced automatically."
+      }
+    ],
+    "cta": "See how the Shopify integration works"
+  },
   "perfectFor": {
     "title": "Perfect for all online businesses",
     "items": [

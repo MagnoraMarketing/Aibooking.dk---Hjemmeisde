@@ -1,12 +1,13 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 const VALID_INDUSTRIES = ['klinikker', 'haandvaerker', 'kontor', 'webshop'];
-const VALID_INQUIRY_TYPES = ['ai-solutions', 'widget', 'inbound-outbound', 'reception', 'other'];
+const VALID_INQUIRY_TYPES = ['ai-solutions', 'widget', 'inbound-outbound', 'reception', 'reseller', 'other'];
 const INQUIRY_TYPE_LABELS: Record<string, string> = {
   'ai-solutions': 'Samarbejde om AI-løsninger',
   widget: 'AI-widget',
   'inbound-outbound': 'Ind-/udgående opkald (telefonassistent)',
   reception: 'AI-reception',
+  reseller: 'Forhandler / videresalg af vores produkter',
   other: 'Andet',
 };
 

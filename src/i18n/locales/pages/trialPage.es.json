@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Prueba Gratuita de 7 Días - Prueba Aibooking.dk | Aibooking.dk",
-    "description": "Prueba Aibooking.dk gratis durante 7 días. Desvía tu número comercial y prueba 75 minutos de conversación con IA (entrante y saliente), SMS, correo electrónico y WhatsApp. Configuración en una breve llamada de incorporación.",
+    "description": "Prueba Aibooking.dk gratis durante 7 días. Desvía tu número comercial y prueba conversación con IA (entrante y saliente) con crédito gratuito, SMS, correo electrónico y WhatsApp. Configuración en una breve llamada de incorporación.",
     "keywords": "prueba gratuita, prueba de 7 días, prueba recepcionista de ia, probar asistente telefónico de ia, llamada de incorporación, desvío de número de teléfono"
   },
   "breadcrumb": { "home": "Inicio", "trial": "Prueba Gratuita" },
@@ -38,7 +38,7 @@
     "title": "Qué incluye tu prueba",
     "subtitle": "7 días de acceso completo a la plataforma, sin coste alguno",
     "voice_label": "Conversación entrante/saliente",
-    "voice_value": "75 min incluidos",
+    "voice_value": "Crédito gratuito incluido",
     "sms_label": "SMS",
     "sms_value": "100 SMS gratis",
     "email_label": "Correo electrónico",
@@ -65,8 +65,8 @@
         "desc": "No. Solo tienes que desviar tu número comercial actual al número que te asignamos — configuramos todo lo demás contigo en la llamada de incorporación."
       },
       {
-        "title": "¿Qué ocurre con mis 75 minutos de conversación?",
-        "desc": "Los 75 minutos cubren llamadas de IA entrantes y salientes durante los 7 días, para que puedas probar todo el flujo de llamadas, no solo un sentido."
+        "title": "¿Cuánto puedo probar durante la prueba?",
+        "desc": "Tu crédito gratuito cubre llamadas de IA entrantes y salientes durante los 7 días, para que puedas probar todo el flujo de llamadas, no solo un sentido."
       },
       {
         "title": "¿Puedo mejorar de plan antes de que termine la prueba?",

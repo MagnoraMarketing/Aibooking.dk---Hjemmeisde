@@ -237,7 +237,7 @@
     "title": "Precios",
     "subtitle": "Los minutos y todas las funciones van incluidos. Sin permanencia ni cuota de alta.",
     "perMonth": "/mes",
-    "demo": { "name": "Demo", "label": "7 días gratis · 75 min" },
+    "demo": { "name": "Demo", "label": "7 días gratis · acceso completo" },
     "starter": { "name": "Starter", "label": "150 min/mes incl." },
     "professional": { "name": "Professional", "label": "600 min/mes incl." },
     "enterprise": { "name": "Enterprise", "label": "2.000 min/mes incl." },

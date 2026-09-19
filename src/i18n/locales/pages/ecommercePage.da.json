@@ -82,6 +82,22 @@
     ],
     "cta": "Se AI-widgetten til webshops"
   },
+  "shopifyHighlight": {
+    "badge": "Nyhed",
+    "title": "Nu forbundet direkte til jeres Shopify-butik – og jeres kalender",
+    "subtitle": "Forbind jeres butik én gang i dashboardet, så henter AI-agenten produkter, lagerstatus og ordrer direkte fra Shopify og kan booke tider direkte i jeres kalender – uden manuel opdatering nogen steder.",
+    "features": [
+      {
+        "title": "Shopify-integration",
+        "desc": "Agenten svarer på produktspørgsmål, priser og \"hvor er min pakke?\" med data hentet live fra jeres Shopify-butik – klar på 5 minutter."
+      },
+      {
+        "title": "Kalenderintegration",
+        "desc": "Book personlig rådgivning, afhentningstider eller opfølgninger direkte i jeres Google Calendar eller Outlook, synkroniseret automatisk."
+      }
+    ],
+    "cta": "Se hvordan Shopify-integrationen virker"
+  },
   "perfectFor": {
     "title": "Perfekt til alle online forretninger",
     "items": [

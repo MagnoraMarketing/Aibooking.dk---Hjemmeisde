@@ -324,10 +324,10 @@
     "plans": [
       {
         "name": "Demo",
-        "description": "Prøv gratis i 7 dage inkl. 75 minutters taletid – se hvor meget tid I frigør til andre opgaver og flere kunder",
-        "minutes": "Gratis i 7 dage · 75 min taletid",
+        "description": "Prøv gratis i 7 dage med credit til rigtige opkald – se hvor meget tid I frigør til andre opgaver og flere kunder",
+        "minutes": "Gratis i 7 dage · fuld adgang",
         "features": [
-          "75 minutters AI-taletid",
+          "Gratis credit til AI-opkald under prøveperioden",
           "Basis stemme-tilpasning",
           "Analyse dashboard",
           "I stiller jeres nuværende firmanummer til rådighed i prøveperioden, så AI'en kan besvare rigtige opkald",
@@ -380,15 +380,15 @@
         "cta": "Bestil pakke og book Onboarding"
       }
     ],
-    "after_order_note": "Efter bestilling modtager du et kalenderlink hvor du kan booke tid til opsætning.",
-    "setup_recommendation": "Vi anbefaler, at du prøver løsningen gratis i 7 dage først – derefter vælger du din pakke, med eller uden opsætning.",
+    "after_order_note": "Efter bestilling modtager du et kalenderlink hvor du kan booke tid til jeres gratis opsætning.",
+    "setup_recommendation": "Vi anbefaler, at du prøver løsningen gratis i 7 dage først – derefter vælger du din pakke og får opsætning og onboarding med i købet, helt gratis.",
     "additionalPrices": {
       "title": "Øvrige priser",
       "toggle_label": "Se øvrige priser",
       "setup": {
-        "title": "Opsætning",
-        "value": "Valgfrit tilvalg – samme faste engangsbeløb for alle pakker og AI-widgetten. Prisen fremgår ved hver pakke",
-        "note": "(engangsbeløb)"
+        "title": "Opsætning & onboarding",
+        "value": "Inkluderet gratis, når du vælger en betalt pakke eller AI-widgetten – normalpris {{setup}} kr, inkl. 1 times opfølgende support",
+        "note": "(foræret ved køb)"
       },
       "hourly": {
         "title": "Timepris ved ad hoc-opgaver",
@@ -399,7 +399,7 @@
       }
     },
     "currency_suffix": "kr/md",
-    "setup_note_optional": "Tilføj opsætning og onboarding – engangsbetaling på {{setup}} kr, inkl. 1 times opfølgende support"
+    "setup_included_note": "Opsætning og onboarding (normalpris {{setup}} kr) er inkluderet gratis, inkl. 1 times opfølgende support"
   },
   "shopifyIntegration": {
     "badge": "Shopify-integration",

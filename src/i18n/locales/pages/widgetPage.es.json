@@ -324,10 +324,10 @@
     "plans": [
       {
         "name": "Demo",
-        "description": "Prueba gratis durante 7 días incl. 75 minutos de conversación – comprueba cuánto tiempo liberas para otras tareas y más clientes",
-        "minutes": "Gratis durante 7 días · 75 min de conversación",
+        "description": "Prueba gratis durante 7 días con crédito para llamadas reales – comprueba cuánto tiempo liberas para otras tareas y más clientes",
+        "minutes": "Gratis durante 7 días · acceso completo",
         "features": [
-          "75 minutos de conversación con IA",
+          "Crédito gratuito para llamadas de IA durante la prueba",
           "Personalización básica de voz",
           "Panel de análisis",
           "Aportas tu número de teléfono comercial actual para el periodo de prueba, para que la IA pueda responder llamadas reales",
@@ -380,15 +380,15 @@
         "cta": "Pedir paquete y reservar incorporación"
       }
     ],
-    "after_order_note": "Después de realizar el pedido, recibirás un enlace de calendario donde podrás reservar una sesión de configuración.",
-    "setup_recommendation": "Te recomendamos probar la solución gratis durante 7 días primero — después eliges tu paquete, con o sin configuración.",
+    "after_order_note": "Después de realizar el pedido, recibirás un enlace de calendario donde podrás reservar tu sesión de configuración gratuita.",
+    "setup_recommendation": "Te recomendamos probar la solución gratis durante 7 días primero — después eliges tu paquete y la configuración y la incorporación van incluidas, totalmente gratis.",
     "additionalPrices": {
       "title": "Otros precios",
       "toggle_label": "Ver otros precios",
       "setup": {
-        "title": "Configuración",
-        "value": "Complemento opcional – la misma tarifa única fija para todos los paquetes y el widget de IA. El precio se muestra junto a cada plan",
-        "note": "(pago único)"
+        "title": "Configuración e incorporación",
+        "value": "Incluido gratis al elegir un plan de pago o el widget de IA — normalmente {{setup}}€, incl. 1 hora de soporte de seguimiento",
+        "note": "(regalado al comprar)"
       },
       "hourly": {
         "title": "Tarifa por hora para tareas puntuales",
@@ -399,7 +399,7 @@
       }
     },
     "currency_suffix": "€/mes",
-    "setup_note_optional": "Añadir configuración e incorporación – pago único de {{setup}}€, incl. 1 hora de soporte de seguimiento"
+    "setup_included_note": "La configuración e incorporación (normalmente {{setup}}€) está incluida gratis, incl. 1 hora de soporte de seguimiento"
   },
   "shopifyIntegration": {
     "badge": "Integración con Shopify",

@@ -5,7 +5,7 @@ import FAQ from '../components/FAQ';
 import { ecommerceFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
-import { Clock, Users, MessageSquare, CheckSquare, CheckCircle, ShoppingCart, Mic, Package, RefreshCw, ArrowRight } from 'lucide-react';
+import { Clock, Users, MessageSquare, CheckSquare, CheckCircle, ShoppingCart, Mic, Package, RefreshCw, ArrowRight, Calendar, Sparkles } from 'lucide-react';
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import IndustryScenario from '../components/industries/IndustryScenario';
@@ -49,6 +49,9 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
   const voiceWidgetCards = t('voiceWidget.cards', { returnObjects: true }) as TitleDesc[];
   const voiceWidgetIcons = [Package, RefreshCw, ShoppingCart];
   const widgetHref = buildLocalizedPath(lang, '/widget');
+
+  const shopifyHighlightFeatures = t('shopifyHighlight.features', { returnObjects: true }) as TitleDesc[];
+  const shopifyHighlightIcons = [ShoppingCart, Calendar];
 
   return (
     <div className="min-h-screen bg-white">
@@ -152,6 +155,35 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
             >
               {t('voiceWidget.cta')}
               <ArrowRight className="w-5 h-5" />
+            </a>
+          </div>
+
+          {/* New: Shopify + calendar integration highlight */}
+          <div className="bg-gradient-to-br from-ink-900 to-brand-900 rounded-3xl p-8 md:p-12 text-white mb-16">
+            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur text-white px-4 py-2 rounded-full mb-6 border border-white/20">
+              <Sparkles className="w-4 h-4" />
+              <span className="text-sm font-semibold">{t('shopifyHighlight.badge')}</span>
+            </div>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">{t('shopifyHighlight.title')}</h2>
+            <p className="text-lg text-brand-100 leading-relaxed mb-8 max-w-3xl">{t('shopifyHighlight.subtitle')}</p>
+            <div className="grid md:grid-cols-2 gap-6 mb-8">
+              {shopifyHighlightFeatures.map((feature, index) => {
+                const Icon = shopifyHighlightIcons[index];
+                return (
+                  <div key={feature.title} className="bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/10">
+                    <Icon className="w-8 h-8 mb-4" />
+                    <h3 className="font-bold text-lg mb-2">{feature.title}</h3>
+                    <p className="text-brand-100 text-sm leading-relaxed">{feature.desc}</p>
+                  </div>
+                );
+              })}
+            </div>
+            <a
+              href={widgetHref}
+              className="inline-flex items-center gap-2 bg-white text-brand-900 px-6 py-3.5 rounded-xl font-semibold hover:bg-brand-50 transition-all"
+            >
+              {t('shopifyHighlight.cta')}
+              <ArrowRight className="w-4 h-4" />
             </a>
           </div>
 

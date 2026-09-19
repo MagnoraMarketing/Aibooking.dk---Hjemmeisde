@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Essai Gratuit de 7 Jours - Testez Aibooking.dk | Aibooking.dk",
-    "description": "Essayez Aibooking.dk gratuitement pendant 7 jours. Transférez votre numéro professionnel et testez 75 minutes de temps de parole IA (entrant et sortant), SMS, email et WhatsApp. Configuration lors d'un court appel d'onboarding.",
+    "description": "Essayez Aibooking.dk gratuitement pendant 7 jours. Transférez votre numéro professionnel et testez le temps de parole IA (entrant et sortant) avec du crédit gratuit, SMS, email et WhatsApp. Configuration lors d'un court appel d'onboarding.",
     "keywords": "essai gratuit, essai de 7 jours, essai réceptionniste IA, tester assistant téléphonique IA, appel d'onboarding, transfert de numéro de téléphone"
   },
   "breadcrumb": { "home": "Accueil", "trial": "Essai Gratuit" },
@@ -38,7 +38,7 @@
     "title": "Ce qui est inclus dans votre essai",
     "subtitle": "7 jours d'accès complet à la plateforme, sans frais",
     "voice_label": "Temps de parole entrant/sortant",
-    "voice_value": "75 min incluses",
+    "voice_value": "Crédit gratuit inclus",
     "sms_label": "SMS",
     "sms_value": "100 SMS gratuits",
     "email_label": "E-mail",
@@ -65,8 +65,8 @@
         "desc": "Non. Il vous suffit de transférer votre numéro professionnel actuel vers le numéro que nous vous attribuons — nous configurons tout le reste avec vous lors de l'appel d'onboarding."
       },
       {
-        "title": "Que deviennent mes 75 minutes de temps de parole ?",
-        "desc": "Les 75 minutes couvrent les appels IA entrants et sortants pendant les 7 jours, afin que vous puissiez tester tout le flux d'appels, pas seulement un sens."
+        "title": "Combien puis-je tester pendant l'essai ?",
+        "desc": "Votre crédit gratuit couvre les appels IA entrants et sortants pendant les 7 jours, afin que vous puissiez tester tout le flux d'appels, pas seulement un sens."
       },
       {
         "title": "Puis-je passer à une formule payante avant la fin de l'essai ?",

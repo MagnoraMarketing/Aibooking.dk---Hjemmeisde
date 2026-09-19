@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "7-Day Free Trial - Test Aibooking.dk | Aibooking.dk",
-    "description": "Try Aibooking.dk free for 7 days. Forward your business number and test 75 minutes of inbound and outbound AI talk time, SMS, email and WhatsApp. Set up during a short onboarding call.",
+    "description": "Try Aibooking.dk free for 7 days. Forward your business number and test inbound and outbound AI talk time with free credit, SMS, email and WhatsApp. Set up during a short onboarding call.",
     "keywords": "free trial, 7-day trial, AI receptionist trial, test AI phone assistant, onboarding call, phone number forwarding"
   },
   "breadcrumb": { "home": "Home", "trial": "Free Trial" },
@@ -38,7 +38,7 @@
     "title": "What's included in your trial",
     "subtitle": "7 days of full access to the platform, free of charge",
     "voice_label": "Talk time in/out",
-    "voice_value": "75 min included",
+    "voice_value": "Free credit included",
     "sms_label": "SMS",
     "sms_value": "100 free SMS",
     "email_label": "Email",
@@ -65,8 +65,8 @@
         "desc": "No. You just forward your existing business number to the number we assign you — we set up everything else together with you on the onboarding call."
       },
       {
-        "title": "What happens with my 75 minutes of talk time?",
-        "desc": "The 75 minutes covers both inbound and outbound AI calls during the 7 days, so you can test the entire call flow, not just one direction."
+        "title": "How much can I test during the trial?",
+        "desc": "Your free credit covers both inbound and outbound AI calls during the 7 days, so you can test the entire call flow, not just one direction."
       },
       {
         "title": "Can I upgrade before the trial ends?",

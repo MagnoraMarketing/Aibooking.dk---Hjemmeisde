@@ -82,6 +82,22 @@
     ],
     "cta": "Ver el widget de IA para tiendas online"
   },
+  "shopifyHighlight": {
+    "badge": "Novedad",
+    "title": "Ahora conectado directamente a tu tienda Shopify — y a tu calendario",
+    "subtitle": "Conecta tu tienda una vez en el panel, y el agente de IA obtiene productos, stock y pedidos directamente de Shopify, y puede reservar citas directamente en tu calendario, sin actualizaciones manuales en ningún sitio.",
+    "features": [
+      {
+        "title": "Integración con Shopify",
+        "desc": "El agente responde preguntas sobre productos, precios y \"¿dónde está mi paquete?\" con datos obtenidos en vivo de tu tienda Shopify — listo en 5 minutos."
+      },
+      {
+        "title": "Integración con el calendario",
+        "desc": "Reserva asesorías personales, horarios de recogida o seguimientos directamente en tu Google Calendar u Outlook, sincronizados automáticamente."
+      }
+    ],
+    "cta": "Ver cómo funciona la integración con Shopify"
+  },
   "perfectFor": {
     "title": "Perfecto para todo tipo de negocios online",
     "items": [

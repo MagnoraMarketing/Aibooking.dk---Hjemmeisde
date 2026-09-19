@@ -164,8 +164,8 @@
     "most_popular_badge": "Le Plus Populaire",
     "free_label": "Gratuit",
     "currency_suffix": "€/mois",
-    "after_order_note": "Une fois votre compte gratuit créé, vous pouvez réserver un créneau de configuration directement depuis votre tableau de bord.",
-    "setup_recommendation": "Nous vous conseillons d'essayer la solution gratuitement pendant 7 jours d'abord — vous choisirez ensuite votre formule, avec ou sans configuration.",
+    "after_order_note": "Une fois votre compte gratuit créé, vous pouvez réserver votre créneau de configuration gratuit directement depuis votre tableau de bord.",
+    "setup_recommendation": "Nous vous conseillons d'essayer la solution gratuitement pendant 7 jours d'abord — vous choisirez ensuite votre formule, avec la configuration et l'onboarding inclus, entièrement gratuits.",
     "cta_signup": "Créer un compte gratuit",
     "cta_demo": "Essayer gratuitement",
     "no_card_required": "Aucune carte bancaire ni information de paiement requise",
@@ -232,9 +232,9 @@
       "title": "Autres tarifs",
       "toggle_label": "Voir les autres tarifs",
       "setup": {
-        "title": "Configuration",
-        "value": "Option supplémentaire – les mêmes frais uniques fixes pour chaque forfait et pour le widget IA. Le prix est indiqué à côté de chaque forfait",
-        "note": "(frais unique)"
+        "title": "Configuration & onboarding",
+        "value": "Inclus gratuitement lorsque vous choisissez une formule payante ou le widget IA — normalement {{setup}} €, incl. 1 heure de support de suivi",
+        "note": "(offert à l'achat)"
       },
       "hourly": {
         "title": "Tarif horaire pour les tâches ponctuelles",
@@ -244,11 +244,11 @@
         "development_price": "147 €/heure"
       }
     },
-    "setup_note_optional": "Ajouter la configuration et l'onboarding – paiement unique de {{setup}} €, incl. 1 heure de support de suivi"
+    "setup_included_note": "La configuration et l'onboarding (normalement {{setup}} €) sont inclus gratuitement, incl. 1 heure de support de suivi"
   },
   "cta_section": {
     "title": "Prêt à démarrer ?",
-    "subtitle": "Essayez gratuitement pendant 7 jours, incl. 75 minutes de temps de parole. Découvrez le temps que vous libérez pour d'autres tâches — et peut-être plus de clients.",
+    "subtitle": "Essayez gratuitement pendant 7 jours avec du crédit pour de vrais appels — sans engagement et sans carte bancaire. Découvrez le temps que vous libérez pour d'autres tâches — et peut-être plus de clients.",
     "trial_button": "Démarrez votre essai gratuit de 7 jours",
     "button": "Réservez un Appel Découverte"
   },
@@ -493,16 +493,15 @@
       "minutesUnit": "min",
       "recommendedLabel": "Formule recommandée",
       "includedMinutes": "{{minutes}} minutes incluses",
-      "setupLabel": "Ajouter la configuration et l'onboarding.",
-      "setupNote": "Paiement unique de {{price}} — l'équivalent d'un mois — incl. 1 heure de support de suivi.",
-      "setupLine": "Configuration (unique)",
-      "firstMonthTotal": "Total du premier mois",
+      "setupLabel": "La configuration et l'onboarding sont inclus gratuitement.",
+      "setupNote": "Normalement {{price}} — offert lorsque vous choisissez une formule payante, incl. 1 heure de support de suivi.",
+      "setupLine": "Configuration et onboarding gratuits inclus",
       "aboveLargest": "Besoin de plus de 2 000 minutes par mois ? Nous vous composons une formule — contactez-nous pour un devis.",
       "timeFreedValue": "Environ {{hours}} heures de téléphone récupérées",
       "timeFreedText": "Du temps que vous pouvez consacrer à faire tourner l'entreprise. Réservations, reports et questions sont traités sans vous.",
       "alwaysOnTitle": "Ouvert 24h/24, 365 jours par an",
       "alwaysOnText": "L'agent répond toujours — soirs, week-ends et jours fériés. Vous ne perdez plus de clients faute de décrocher.",
-      "recommendation": "Nous vous conseillons d'essayer la solution gratuitement pendant 7 jours d'abord. Vous choisirez ensuite votre formule — avec ou sans configuration.",
+      "recommendation": "Nous vous conseillons d'essayer la solution gratuitement pendant 7 jours d'abord. Vous choisirez ensuite votre formule, avec la configuration et l'onboarding inclus, entièrement gratuits.",
       "cta": "Essayer 7 jours gratuitement",
       "note": "Les tarifs sont indicatifs et sans engagement. Vous pouvez changer de formule en cours de route."
     },

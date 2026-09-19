@@ -11,9 +11,31 @@
     "subtitle": "Har du spørgsmål eller vil du vide mere om hvordan Aibooking.dk kan hjælpe din virksomhed? Vi står klar til at hjælpe dig."
   },
   "infoCards": {
-    "call": { "title": "Ring til os", "desc": "Vi svarer gerne på dine spørgsmål" },
+    "call": { "title": "Ring og prøv AI'en", "desc": "Ring gratis og oplev vores AI-receptionist live" },
     "email": { "title": "Send en email", "desc": "Vi svarer inden for 24 timer" },
     "hours": { "title": "Åbningstider", "line1": "Man-Fre: 9:00 - 17:00", "line2": "Weekend: Lukket" }
+  },
+  "coreServices": {
+    "badge": "Vores kerneydelser",
+    "title": "3 måder vi automatiserer din telefon på",
+    "subtitle": "Uanset om du vil have en AI til at tage telefonen, tilføje en talestyret widget til din hjemmeside eller automatisere ind- og udgående opkald — det er her, du starter.",
+    "items": [
+      {
+        "title": "AI-reception",
+        "description": "En AI-telefonassistent besvarer alle indgående opkald 24/7, booker tider direkte i din kalender og sender SMS-påmindelser, så du aldrig går glip af en kunde.",
+        "cta": "Se AI-reception"
+      },
+      {
+        "title": "AI-widget",
+        "description": "Tilføj en talestyret AI-widget til din hjemmeside, der svarer på spørgsmål og booker tider direkte, mens den besøgende stadig er på siden.",
+        "cta": "Se AI-widget"
+      },
+      {
+        "title": "Ind-/udgående opkald",
+        "description": "Automatiser både indgående kundeopkald og udgående opkald til leads med en AI-telefonassistent, der lyder naturlig og taler dansk.",
+        "cta": "Se ind-/udgående opkald"
+      }
+    ]
   },
   "form": {
     "title": "Send os en besked",
@@ -37,10 +59,11 @@
       "message": "Hvordan kan vi hjælpe?"
     },
     "inquiryTypeOptions": {
-      "aiSolutions": "Samarbejde om AI-løsninger",
       "widget": "AI-widget",
       "inboundOutbound": "Ind-/udgående opkald (telefonassistent)",
       "reception": "AI-reception",
+      "reseller": "Forhandler / videresalg af vores produkter",
+      "aiSolutions": "Samarbejde om AI-løsninger",
       "other": "Andet"
     },
     "preferredDateHint": "Kalenderbooking af et præcist tidspunkt tilføjes snart. Indtil da kontakter vi dig omkring den dato, du angiver her.",

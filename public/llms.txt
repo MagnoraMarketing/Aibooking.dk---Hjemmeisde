@@ -6,13 +6,15 @@ Aibooking.dk is aimed at small and medium-sized Danish businesses — clinics, c
 
 The AI voice/chat widget embeds on any platform (WordPress, Shopify, WooCommerce, Wix, Squarespace, Magento or a custom site) and acts as an extra employee: on ordinary business websites it books and reschedules appointments and collects quote requests and leads straight into the owner's calendar; on webshops it behaves like an upgraded version of the platform's native chat, letting customers track orders, reorder products, check stock and get help mid-purchase by voice or text.
 
-Customers manage their account on the Aibooking.dk dashboard: new customers sign up at https://aibooking-backendnew.vercel.app/signup and existing customers log in at https://aibooking-backendnew.vercel.app/login.
+Trying the product is free: new customers create a free account (no credit card required) at https://aibooking-backendnew.vercel.app/signup and get a 7-day trial before choosing a paid package. Existing customers manage their account, agents and subscription from the same dashboard, logging in at https://aibooking-backendnew.vercel.app/login.
 
 ## Product
 
 - [Home](https://www.aibooking.dk/): Overview of the AI receptionist product, pricing and core value proposition.
 - [Features](https://www.aibooking.dk/funktioner): Full feature list — call handling, calendar integration, reminders, dashboard.
 - [AI Widget](https://www.aibooking.dk/widget): The website chat/voice widget product page, including pricing.
+- [Inbound-Outbound AI Voice](https://www.aibooking.dk/ind-og-udgaaende-opkald): The AI phone assistant product page — answers inbound calls and places outbound calls for bookings, reminders and follow-ups.
+- [Free Trial](https://www.aibooking.dk/proeveperiode): Details of the 7-day free trial, started by creating a free account — no credit card required.
 - [Demo](https://www.aibooking.dk/demo): Book a free, no-commitment demo.
 - [Integrations](https://www.aibooking.dk/integrationer): Supported calendar and communication integrations.
 

@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "7 Dages Gratis Prøveperiode - Test Aibooking.dk | Aibooking.dk",
-    "description": "Prøv Aibooking.dk gratis i 7 dage. Viderestil dit firmanummer og test 75 minutters ind- og udgående AI-taletid, SMS, email og WhatsApp. Opsætning på et kort onboarding-møde.",
+    "description": "Prøv Aibooking.dk gratis i 7 dage. Viderestil dit firmanummer og test ind- og udgående AI-taletid med gratis credit, SMS, email og WhatsApp. Opsætning på et kort onboarding-møde.",
     "keywords": "gratis prøveperiode, 7 dages prøve, AI receptionist prøve, test AI telefonassistent, onboarding møde, viderestilling telefonnummer"
   },
   "breadcrumb": { "home": "Hjem", "trial": "Prøveperiode" },
@@ -38,7 +38,7 @@
     "title": "Det er inkluderet i din prøveperiode",
     "subtitle": "7 dages fuld adgang til platformen, uden beregning",
     "voice_label": "Taletid ind/ud",
-    "voice_value": "75 min. inkluderet",
+    "voice_value": "Gratis credit inkluderet",
     "sms_label": "SMS",
     "sms_value": "100 gratis SMS",
     "email_label": "Email",
@@ -65,8 +65,8 @@
         "desc": "Nej. Du skal blot viderestille dit eksisterende firmanummer til det nummer, vi tildeler dig — resten sætter vi op sammen med dig på onboarding-mødet."
       },
       {
-        "title": "Hvad sker der med mine 75 minutters taletid?",
-        "desc": "De 75 minutter dækker både indgående og udgående AI-opkald i løbet af de 7 dage, så du kan teste hele opkaldsflowet, ikke kun én retning."
+        "title": "Hvor meget kan jeg nå at teste i prøveperioden?",
+        "desc": "Din gratis credit dækker både indgående og udgående AI-opkald i løbet af de 7 dage, så du kan teste hele opkaldsflowet, ikke kun én retning."
       },
       {
         "title": "Kan jeg opgradere, før prøveperioden er slut?",

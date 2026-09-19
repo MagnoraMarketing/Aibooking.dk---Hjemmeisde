@@ -164,8 +164,8 @@
     "most_popular_badge": "Más Popular",
     "free_label": "Gratis",
     "currency_suffix": "€/mes",
-    "after_order_note": "Una vez que hayas creado tu cuenta gratuita, podrás reservar una hora de configuración directamente desde tu panel.",
-    "setup_recommendation": "Te recomendamos probar la solución gratis durante 7 días primero — después eliges tu paquete, con o sin configuración.",
+    "after_order_note": "Una vez que hayas creado tu cuenta gratuita, podrás reservar tu hora de configuración gratuita directamente desde tu panel.",
+    "setup_recommendation": "Te recomendamos probar la solución gratis durante 7 días primero — después eliges tu paquete y la configuración y la incorporación van incluidas, totalmente gratis.",
     "cta_signup": "Crear cuenta gratuita",
     "cta_demo": "Probar gratis",
     "no_card_required": "No se requiere tarjeta de crédito ni datos de pago",
@@ -232,9 +232,9 @@
       "title": "Otros precios",
       "toggle_label": "Ver otros precios",
       "setup": {
-        "title": "Configuración",
-        "value": "Complemento opcional – la misma tarifa única fija para todos los paquetes y el widget de IA. El precio se muestra junto a cada plan",
-        "note": "(pago único)"
+        "title": "Configuración e incorporación",
+        "value": "Incluido gratis al elegir un plan de pago o el widget de IA — normalmente {{setup}}€, incl. 1 hora de soporte de seguimiento",
+        "note": "(regalado al comprar)"
       },
       "hourly": {
         "title": "Tarifa por hora para tareas puntuales",
@@ -244,11 +244,11 @@
         "development_price": "147€/hora"
       }
     },
-    "setup_note_optional": "Añadir configuración e incorporación – pago único de {{setup}}€, incl. 1 hora de soporte de seguimiento"
+    "setup_included_note": "La configuración e incorporación (normalmente {{setup}}€) está incluida gratis, incl. 1 hora de soporte de seguimiento"
   },
   "cta_section": {
     "title": "¿Listo para empezar?",
-    "subtitle": "Prueba gratis durante 7 días incl. 75 minutos de conversación. Comprueba cuánto tiempo liberas para otras tareas — y quizás más clientes.",
+    "subtitle": "Prueba gratis durante 7 días con crédito para llamadas reales, sin compromiso y sin tarjeta. Comprueba cuánto tiempo liberas para otras tareas — y quizás más clientes.",
     "trial_button": "Empieza tu prueba gratuita de 7 días",
     "button": "Reservar una Llamada Introductoria"
   },
@@ -493,16 +493,15 @@
       "minutesUnit": "min",
       "recommendedLabel": "Paquete recomendado",
       "includedMinutes": "{{minutes}} minutos incluidos",
-      "setupLabel": "Añadir configuración e incorporación.",
-      "setupNote": "Pago único de {{price}} — lo mismo que un mes — incl. 1 hora de soporte de seguimiento.",
-      "setupLine": "Configuración (único)",
-      "firstMonthTotal": "Total del primer mes",
+      "setupLabel": "La configuración e incorporación están incluidas gratis.",
+      "setupNote": "Normalmente {{price}} — gratis al elegir un paquete de pago, incl. 1 hora de soporte de seguimiento.",
+      "setupLine": "Configuración e incorporación gratis incluidas",
       "aboveLargest": "¿Necesitas más de 2.000 minutos al mes? Te preparamos un paquete a medida — contáctanos para un presupuesto.",
       "timeFreedValue": "Unas {{hours}} horas de teléfono recuperadas",
       "timeFreedText": "Tiempo que puedes dedicar a llevar el negocio. Reservas, cambios y preguntas se gestionan sin ti.",
       "alwaysOnTitle": "Abierto 24/7, 365 días al año",
       "alwaysOnText": "El agente siempre responde — tardes, fines de semana y festivos. No pierdes clientes porque nadie pudo contestar.",
-      "recommendation": "Te recomendamos probar la solución gratis durante 7 días primero. Después eliges tu paquete — con o sin configuración.",
+      "recommendation": "Te recomendamos probar la solución gratis durante 7 días primero. Después eliges tu paquete y la configuración y la incorporación van incluidas, totalmente gratis.",
       "cta": "Probar gratis 7 días",
       "note": "Los precios son orientativos y sin compromiso. Puedes cambiar de paquete sobre la marcha."
     },
@@ -540,6 +539,20 @@
     "booking_value": "Directo al calendario",
     "webshop_label": "Tienda online",
     "webshop_value": "Integración con Shopify"
+  },
+  "voiceAssistantWidget": {
+    "open_aria": "Abrir el asistente de IA",
+    "close_aria": "Cerrar",
+    "launcher_label": "Pregunta a la IA",
+    "dialog_aria": "Habla con el asistente de IA",
+    "title": "Pregunta al asistente de IA",
+    "subtitle": "Haz una pregunta con la voz — es la misma IA que puedes configurar en tu propia web.",
+    "start_aria": "Iniciar conversación",
+    "stop_aria": "Finalizar conversación",
+    "state_idle": "Toca para empezar",
+    "state_connecting": "Conectando...",
+    "state_active": "Escuchando — ¡di algo!",
+    "state_error": "Algo salió mal. Inténtalo de nuevo."
   },
   "howItWorks": {
     "title": "Cómo empezar",

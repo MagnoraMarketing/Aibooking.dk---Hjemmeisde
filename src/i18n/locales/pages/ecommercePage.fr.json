@@ -82,6 +82,22 @@
     ],
     "cta": "Voir le widget IA pour boutiques en ligne"
   },
+  "shopifyHighlight": {
+    "badge": "Nouveauté",
+    "title": "Désormais connecté directement à votre boutique Shopify — et à votre agenda",
+    "subtitle": "Connectez votre boutique une seule fois dans le tableau de bord, et l'agent IA récupère produits, stock et commandes directement depuis Shopify, et peut réserver des rendez-vous directement dans votre agenda — sans mise à jour manuelle nulle part.",
+    "features": [
+      {
+        "title": "Intégration Shopify",
+        "desc": "L'agent répond aux questions sur les produits, les prix et « où est mon colis ? » avec des données récupérées en direct depuis votre boutique Shopify — prêt en 5 minutes."
+      },
+      {
+        "title": "Intégration agenda",
+        "desc": "Réservez des consultations personnelles, des créneaux de retrait ou des suivis directement dans votre Google Agenda ou Outlook, synchronisés automatiquement."
+      }
+    ],
+    "cta": "Voir comment fonctionne l'intégration Shopify"
+  },
   "perfectFor": {
     "title": "Idéal pour toutes les entreprises en ligne",
     "items": [

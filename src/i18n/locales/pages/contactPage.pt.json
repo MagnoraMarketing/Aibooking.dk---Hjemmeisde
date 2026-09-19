@@ -11,9 +11,31 @@
     "subtitle": "Tem dúvidas ou quer saber mais sobre como a Aibooking.dk pode ajudar a sua empresa? Estamos aqui para o ajudar."
   },
   "infoCards": {
-    "call": { "title": "Ligue-nos", "desc": "Teremos todo o gosto em responder às suas perguntas" },
+    "call": { "title": "Ligue e experimente a IA", "desc": "Ligue gratuitamente e experimente a nossa rececionista de IA ao vivo" },
     "email": { "title": "Envie um email", "desc": "Respondemos no prazo de 24 horas" },
     "hours": { "title": "Horário de funcionamento", "line1": "Seg-Sex: 9:00 - 17:00", "line2": "Fim de semana: Encerrado" }
+  },
+  "coreServices": {
+    "badge": "Os nossos serviços principais",
+    "title": "3 formas de automatizar o seu telefone",
+    "subtitle": "Quer queira que uma IA atenda o telefone, adicionar um widget por voz ao seu site ou automatizar chamadas recebidas e efetuadas — é aqui que começa.",
+    "items": [
+      {
+        "title": "Receção de IA",
+        "description": "Um assistente telefónico de IA atende todas as chamadas recebidas 24 horas por dia, marca compromissos diretamente no seu calendário e envia lembretes por SMS — para nunca perder um cliente.",
+        "cta": "Ver receção de IA"
+      },
+      {
+        "title": "Widget de IA",
+        "description": "Adicione ao seu site um widget de IA por voz que responde a perguntas e marca compromissos diretamente enquanto os visitantes ainda estão na página.",
+        "cta": "Ver widget de IA"
+      },
+      {
+        "title": "Chamadas recebidas/efetuadas",
+        "description": "Automatize tanto as chamadas recebidas de clientes como as chamadas efetuadas para leads com um assistente telefónico de IA que soa natural.",
+        "cta": "Ver recebidas/efetuadas"
+      }
+    ]
   },
   "form": {
     "title": "Envie-nos uma mensagem",
@@ -37,10 +59,11 @@
       "message": "Como podemos ajudar?"
     },
     "inquiryTypeOptions": {
-      "aiSolutions": "Colaboração sobre as nossas soluções de IA",
       "widget": "Widget de IA",
       "inboundOutbound": "Chamadas recebidas/efetuadas (assistente telefónico)",
       "reception": "Receção de IA",
+      "reseller": "Revendedor / distribuir os nossos produtos",
+      "aiSolutions": "Colaboração sobre as nossas soluções de IA",
       "other": "Outro"
     },
     "preferredDateHint": "A marcação de um horário exato através de calendário estará disponível em breve. Até lá, entraremos em contacto consigo à volta da data que indicar aqui.",

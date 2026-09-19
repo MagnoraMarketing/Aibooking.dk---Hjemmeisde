@@ -237,7 +237,7 @@
     "title": "Pricing",
     "subtitle": "Talk time and every feature are included. No lock-in, no setup fee.",
     "perMonth": "/mo",
-    "demo": { "name": "Demo", "label": "7 days free · 75 min" },
+    "demo": { "name": "Demo", "label": "7 days free · full access" },
     "starter": { "name": "Starter", "label": "150 min/mo included" },
     "professional": { "name": "Professional", "label": "600 min/mo included" },
     "enterprise": { "name": "Enterprise", "label": "2,000 min/mo included" },

@@ -6,10 +6,21 @@ import SEO from '../components/SEO';
 import FAQ from '../components/FAQ';
 import { blogFAQs } from '../content/faq';
 import { getPublishedPosts, getCategoryBySlug, BlogPost } from '../content/blog';
+import type { SupportedLanguage } from '../i18n/config';
+import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
+import type { NavigatePage } from '../types/navigation';
 
-export default function BlogPage() {
+const PAGE_PATH = '/blog';
+
+interface BlogPageProps {
+  onNavigate: (page: NavigatePage) => void;
+}
+
+export default function BlogPage({ onNavigate }: BlogPageProps) {
   const { t, i18n } = useTranslation('blogPage');
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
   const posts = getPublishedPosts();
+  const blogHref = (path: string) => buildLocalizedPath(lang, path);
 
   const getTitle = (post: BlogPost) =>
     i18n.language === 'da' ? post.title_da : post.title_en;
@@ -53,13 +64,15 @@ export default function BlogPage() {
         title={t('seo.title')}
         description={t('seo.description')}
         keywords={t('seo.keywords')}
+        canonical={localizedUrl(lang, PAGE_PATH)}
+        path={PAGE_PATH}
       />
 
       <script type="application/ld+json">
         {JSON.stringify(structuredData)}
       </script>
 
-      <Navigation onNavigate={() => {}} />
+      <Navigation onNavigate={onNavigate} />
 
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-brand-50 via-transparent to-ink-50 pointer-events-none"></div>
@@ -83,7 +96,7 @@ export default function BlogPage() {
 
             {posts.length > 0 && (
               <div className="mb-12">
-                <a href={`/blog/${posts[0].slug}`} className="block group">
+                <a href={blogHref(`/blog/${posts[0].slug}`)} className="block group">
                   <article className="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
                     <div className="grid lg:grid-cols-2 gap-8">
                       <div className="aspect-[16/10] lg:aspect-auto overflow-hidden">
@@ -132,7 +145,7 @@ export default function BlogPage() {
                   key={post.id}
                   className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
                 >
-                  <a href={`/blog/${post.slug}`} className="block">
+                  <a href={blogHref(`/blog/${post.slug}`)} className="block">
                     <div className="aspect-video overflow-hidden bg-ink-100">
                       <img
                         src={post.image_url}
@@ -170,7 +183,7 @@ export default function BlogPage() {
       </div>
 
       <FAQ items={blogFAQs} />
-      <Footer />
+      <Footer onNavigate={onNavigate} />
     </div>
   );
 }

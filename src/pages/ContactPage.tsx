@@ -6,12 +6,26 @@ import FAQ from '../components/FAQ';
 import { contactFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
-import { Mail, MapPin, Clock, MessageSquare, CheckCircle2, AlertCircle, Calendar } from 'lucide-react';
+import { DEMO_PHONE_DISPLAY, DEMO_PHONE_TEL } from '../utils/demoPhone';
+import {
+  Mail, MapPin, Clock, MessageSquare, CheckCircle2, AlertCircle, Calendar,
+  Phone, Headphones, Mic, PhoneCall, Sparkles, ArrowRight,
+} from 'lucide-react';
 import type { NavigatePage } from '../types/navigation';
 
 interface ContactPageProps {
   onNavigate: (page: NavigatePage) => void;
 }
+
+interface CoreServiceContent { title: string; description: string; cta: string }
+
+// Icon + destination page for each coreServices.items entry (index-matched);
+// kept out of the translation files since icons/routes aren't translatable.
+const CORE_SERVICE_META: { icon: typeof Headphones; page: NavigatePage }[] = [
+  { icon: Headphones, page: 'home' },
+  { icon: Mic, page: 'widget' },
+  { icon: PhoneCall, page: 'inbound-outbound' },
+];
 
 function ContactPage({ onNavigate }: ContactPageProps) {
   const { t } = useTranslation('contactPage');
@@ -22,6 +36,7 @@ function ContactPage({ onNavigate }: ContactPageProps) {
   ]);
 
   const whyUsItems = t('whyUs.items', { returnObjects: true }) as string[];
+  const coreServiceItems = t('coreServices.items', { returnObjects: true }) as CoreServiceContent[];
 
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', inquiryType: '', preferredDate: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
@@ -83,7 +98,18 @@ function ContactPage({ onNavigate }: ContactPageProps) {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-3 gap-8 mb-16">
+          <div className="grid lg:grid-cols-3 gap-8 mb-24">
+
+            <div className="bg-white rounded-3xl p-8 shadow-lg border border-ink-200/60 hover:shadow-xl transition-all">
+              <div className="w-14 h-14 bg-gradient-to-br from-brand-600 to-brand-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-brand-500/20">
+                <Phone className="w-7 h-7 text-white" />
+              </div>
+              <h3 className="text-xl font-bold text-ink-900 mb-3">{t('infoCards.call.title')}</h3>
+              <p className="text-ink-600 mb-4">{t('infoCards.call.desc')}</p>
+              <a href={`tel:${DEMO_PHONE_TEL}`} className="text-brand-600 font-semibold hover:text-brand-700 transition-colors">
+                {DEMO_PHONE_DISPLAY}
+              </a>
+            </div>
 
             <div className="bg-white rounded-3xl p-8 shadow-lg border border-ink-200/60 hover:shadow-xl transition-all">
               <div className="w-14 h-14 bg-gradient-to-br from-brand-600 to-brand-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-brand-500/20">
@@ -103,6 +129,46 @@ function ContactPage({ onNavigate }: ContactPageProps) {
               <h3 className="text-xl font-bold text-ink-900 mb-3">{t('infoCards.hours.title')}</h3>
               <p className="text-ink-600 mb-2">{t('infoCards.hours.line1')}</p>
               <p className="text-ink-600">{t('infoCards.hours.line2')}</p>
+            </div>
+          </div>
+
+          {/* Core services — SEO section covering the 3 flagship products */}
+          <div className="mb-24">
+            <div className="text-center mb-12 space-y-4">
+              <div className="inline-flex items-center gap-2 bg-brand-50 text-brand-700 px-4 py-2 rounded-full text-sm font-semibold border border-brand-100">
+                <Sparkles className="w-4 h-4" />
+                {t('coreServices.badge')}
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold text-ink-900">
+                {t('coreServices.title')}
+              </h2>
+              <p className="text-lg text-ink-600 max-w-2xl mx-auto">
+                {t('coreServices.subtitle')}
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              {coreServiceItems.map((service, index) => {
+                const { icon: Icon, page } = CORE_SERVICE_META[index];
+                return (
+                  <button
+                    key={service.title}
+                    type="button"
+                    onClick={() => onNavigate(page)}
+                    className="text-left bg-white rounded-3xl p-8 shadow-lg border border-ink-200/60 hover:shadow-xl hover:-translate-y-1 transition-all group"
+                  >
+                    <div className="w-14 h-14 bg-gradient-to-br from-brand-600 to-brand-700 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-brand-500/20">
+                      <Icon className="w-7 h-7 text-white" />
+                    </div>
+                    <h3 className="text-xl font-bold text-ink-900 mb-3">{service.title}</h3>
+                    <p className="text-ink-600 mb-4 leading-relaxed">{service.description}</p>
+                    <span className="inline-flex items-center gap-1.5 text-brand-600 font-semibold group-hover:gap-2.5 transition-all">
+                      {service.cta}
+                      <ArrowRight className="w-4 h-4" />
+                    </span>
+                  </button>
+                );
+              })}
             </div>
           </div>
 
@@ -171,10 +237,11 @@ function ContactPage({ onNavigate }: ContactPageProps) {
                         className="w-full px-4 py-3 border border-ink-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all bg-white"
                       >
                         <option value="">{t('form.placeholders.inquiryType')}</option>
-                        <option value="ai-solutions">{t('form.inquiryTypeOptions.aiSolutions')}</option>
                         <option value="widget">{t('form.inquiryTypeOptions.widget')}</option>
                         <option value="inbound-outbound">{t('form.inquiryTypeOptions.inboundOutbound')}</option>
                         <option value="reception">{t('form.inquiryTypeOptions.reception')}</option>
+                        <option value="reseller">{t('form.inquiryTypeOptions.reseller')}</option>
+                        <option value="ai-solutions">{t('form.inquiryTypeOptions.aiSolutions')}</option>
                         <option value="other">{t('form.inquiryTypeOptions.other')}</option>
                       </select>
                     </div>

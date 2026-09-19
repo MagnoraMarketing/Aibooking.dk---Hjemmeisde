@@ -164,8 +164,8 @@
     "most_popular_badge": "Most Popular",
     "free_label": "Free",
     "currency_suffix": "€/mo",
-    "after_order_note": "Once you've created your free account, you can book a setup time directly from your dashboard.",
-    "setup_recommendation": "We recommend trying the solution free for 7 days first — then you choose your package, with or without setup.",
+    "after_order_note": "Once you've created your free account, you can book your free setup time directly from your dashboard.",
+    "setup_recommendation": "We recommend trying the solution free for 7 days first — then choose your package and get setup and onboarding included, completely free.",
     "cta_signup": "Create free account",
     "cta_demo": "Try for free",
     "no_card_required": "No credit card or payment details required",
@@ -232,9 +232,9 @@
       "title": "Other prices",
       "toggle_label": "See other prices",
       "setup": {
-        "title": "Setup",
-        "value": "Optional add-on – the same flat one-time fee for every package and the AI widget. Price shown next to each plan",
-        "note": "(one-time fee)"
+        "title": "Setup & onboarding",
+        "value": "Included free when you choose a paid plan or the AI widget — normally €{{setup}}, incl. 1 hour of follow-up support",
+        "note": "(waived on purchase)"
       },
       "hourly": {
         "title": "Hourly rate for ad hoc tasks",
@@ -244,11 +244,11 @@
         "development_price": "€147/hour"
       }
     },
-    "setup_note_optional": "Add setup and onboarding – one-time payment of €{{setup}}, incl. 1 hour of follow-up support"
+    "setup_included_note": "Setup and onboarding (normally €{{setup}}) is included free, incl. 1 hour of follow-up support"
   },
   "cta_section": {
     "title": "Ready to get started?",
-    "subtitle": "Try free for 7 days incl. 75 minutes of talk time. See how much time you free up for other tasks — and maybe more customers.",
+    "subtitle": "Try free for 7 days with real call credit — no commitment and no card required. See how much time you free up for other tasks — and maybe more customers.",
     "trial_button": "Start your 7-day free trial",
     "button": "Book an Intro Call"
   },
@@ -493,16 +493,15 @@
       "minutesUnit": "min",
       "recommendedLabel": "Recommended package",
       "includedMinutes": "{{minutes}} minutes included",
-      "setupLabel": "Add setup and onboarding.",
-      "setupNote": "One-time payment of {{price}} — the same as one month — incl. 1 hour of follow-up support.",
-      "setupLine": "Setup (one-time)",
-      "firstMonthTotal": "First month total",
+      "setupLabel": "Setup and onboarding is included free.",
+      "setupNote": "Normally {{price}} — yours free when you choose a paid package, incl. 1 hour of follow-up support.",
+      "setupLine": "Free setup and onboarding included",
       "aboveLargest": "Need more than 2,000 minutes a month? We'll put a package together for you — get in touch for a quote.",
       "timeFreedValue": "About {{hours}} hours of phone time back",
       "timeFreedText": "Time you can spend running the business instead. Bookings, rebookings and questions are handled without you.",
       "alwaysOnTitle": "Open 24/7, 365 days a year",
       "alwaysOnText": "The agent always answers — evenings, weekends and holidays. You don't lose customers because nobody could pick up.",
-      "recommendation": "We recommend trying the solution free for 7 days first. Then you choose your package — with or without setup.",
+      "recommendation": "We recommend trying the solution free for 7 days first. Then choose your package and get setup and onboarding included, completely free.",
       "cta": "Try free for 7 days",
       "note": "Prices are indicative and non-binding. You can change package along the way."
     },
@@ -540,6 +539,20 @@
     "booking_value": "Straight into the calendar",
     "webshop_label": "Webshop",
     "webshop_value": "Shopify integration"
+  },
+  "voiceAssistantWidget": {
+    "open_aria": "Open the AI assistant",
+    "close_aria": "Close",
+    "launcher_label": "Ask the AI",
+    "dialog_aria": "Talk to the AI assistant",
+    "title": "Ask the AI assistant",
+    "subtitle": "Ask a question by voice — it's the same AI you can set up on your own website.",
+    "start_aria": "Start conversation",
+    "stop_aria": "End conversation",
+    "state_idle": "Tap to start",
+    "state_connecting": "Connecting...",
+    "state_active": "Listening — say something!",
+    "state_error": "Something went wrong. Please try again."
   },
   "howItWorks": {
     "title": "How to get started",

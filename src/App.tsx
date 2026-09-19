@@ -20,6 +20,7 @@ import BlogPage from './pages/BlogPage';
 import BlogCategoryPage from './pages/BlogCategoryPage';
 import BlogPostPage from './pages/BlogPostPage';
 import TrialOfferWidget from './components/TrialOfferWidget';
+import VoiceAssistantWidget from './components/VoiceAssistantWidget';
 import { SUPPORTED_LANGUAGES, SupportedLanguage } from './i18n/config';
 import { splitLocalizedPath, buildLocalizedPath } from './utils/localePaths';
 
@@ -120,12 +121,13 @@ function App() {
        : currentPage === 'about' ? <AboutPage onNavigate={handleNavigate} />
        : currentPage === 'terms' ? <TermsPage onNavigate={handleNavigate} />
        : currentPage === 'privacy' ? <PrivacyPage onNavigate={handleNavigate} />
-       : currentPage === 'blog' ? <BlogPage />
-       : currentPage === 'blog-category' ? <BlogCategoryPage categorySlug={blogParam} />
-       : currentPage === 'blog-post' ? <BlogPostPage postSlug={blogParam} />
+       : currentPage === 'blog' ? <BlogPage onNavigate={handleNavigate} />
+       : currentPage === 'blog-category' ? <BlogCategoryPage categorySlug={blogParam} onNavigate={handleNavigate} />
+       : currentPage === 'blog-post' ? <BlogPostPage postSlug={blogParam} onNavigate={handleNavigate} />
        : currentPage === 'trial' ? <TrialPage onNavigate={handleNavigate} />
        : <DemoPage onNavigate={handleNavigate} />}
       <TrialOfferWidget />
+      <VoiceAssistantWidget />
     </>
   );
 }

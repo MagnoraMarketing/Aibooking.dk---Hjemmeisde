@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Phone, Mic, Clock, ShieldCheck, ArrowRight, Info } from 'lucide-react';
-import { localizedPrice, displayAmount, formatAmount } from '../../utils/currency';
+import { Phone, Mic, Clock, ShieldCheck, ArrowRight, Info, CheckCircle } from 'lucide-react';
+import { localizedPrice } from '../../utils/currency';
 import type { SupportedLanguage } from '../../i18n/config';
 import { INDUSTRY_THEMES, IndustryKey, TRIAL_URL } from './industryTheme';
 import {
@@ -45,7 +45,6 @@ function IndustryCalculator({ industry }: IndustryCalculatorProps) {
   // Opens on the Starter package, so the first figure shown matches the
   // headline price quoted in the pricing tables.
   const [minutes, setMinutes] = useState<number>(VOICE_PLAN_MINUTES[1]);
-  const [withSetup, setWithSetup] = useState(false);
 
   // Voice: smallest package that covers the volume. Widget: talk time is sold
   // in 150-minute packs that renew as they're used up.
@@ -56,13 +55,10 @@ function IndustryCalculator({ industry }: IndustryCalculatorProps) {
   const planName = mode === 'voice' ? voicePlan.name : t('industryTools.calculator.widgetPlanName');
   const monthlyPrice = mode === 'voice' ? voicePlan.price : packs * WIDGET_PACK_PRICE;
   const includedMinutes = mode === 'voice' ? voicePlan.minutes : packs * WIDGET_PACK_MINUTES;
-  // Setup is a flat one-off add-on, the same for every package and the
-  // widget — extra widget packs are talk-time top-ups, so they must never
-  // multiply the one-off setup fee.
+  // Setup/onboarding is included free with every paid package and the widget
+  // (waived rather than charged as a one-off) — this constant is only kept
+  // around to show its reference value in the "included free" messaging.
   const setupPrice = SETUP_PRICE_DKK;
-  // Summed from the rounded display values so the total matches the two lines
-  // above it once the amounts have been converted to the visitor's currency.
-  const firstMonthTotal = displayAmount(monthlyPrice, lang) + displayAmount(setupPrice, lang);
 
   const hoursFreed = new Intl.NumberFormat(lang, { maximumFractionDigits: 1 }).format(minutes / 60);
 
@@ -159,20 +155,15 @@ function IndustryCalculator({ industry }: IndustryCalculatorProps) {
                 </div>
               </div>
 
-              <label className="flex items-start gap-3 cursor-pointer bg-ink-50 border border-ink-200 rounded-2xl p-4">
-                <input
-                  type="checkbox"
-                  checked={withSetup}
-                  onChange={() => setWithSetup((v) => !v)}
-                  className="mt-0.5 w-4 h-4 rounded flex-shrink-0"
-                />
+              <div className="flex items-start gap-3 bg-brand-50 border border-brand-100 rounded-2xl p-4">
+                <CheckCircle className="w-4 h-4 text-brand-600 mt-0.5 flex-shrink-0" />
                 <span className="text-sm text-ink-700 leading-relaxed">
                   <span className="font-semibold text-ink-900">
                     {t('industryTools.calculator.setupLabel')}
                   </span>{' '}
                   {t('industryTools.calculator.setupNote', { price: localizedPrice(setupPrice, lang) })}
                 </span>
-              </label>
+              </div>
 
               <div className="flex items-start gap-2.5 text-sm text-ink-600">
                 <Info className="w-4 h-4 flex-shrink-0 mt-0.5" />
@@ -195,18 +186,10 @@ function IndustryCalculator({ industry }: IndustryCalculatorProps) {
                 <span className="text-lg text-ink-400">{t('pricing.currency_suffix')}</span>
               </div>
 
-              {withSetup && (
-                <div className="mt-4 pt-4 border-t border-ink-700 text-sm space-y-1.5">
-                  <div className="flex justify-between text-ink-300">
-                    <span>{t('industryTools.calculator.setupLine')}</span>
-                    <span>{localizedPrice(setupPrice, lang)}</span>
-                  </div>
-                  <div className="flex justify-between font-bold text-white">
-                    <span>{t('industryTools.calculator.firstMonthTotal')}</span>
-                    <span>{formatAmount(firstMonthTotal, lang)}</span>
-                  </div>
-                </div>
-              )}
+              <div className="mt-4 pt-4 border-t border-ink-700 flex items-center gap-1.5 text-sm text-accent-300 font-semibold">
+                <CheckCircle className="w-4 h-4 flex-shrink-0" />
+                {t('industryTools.calculator.setupLine')}
+              </div>
 
               {exceedsLargest && mode === 'voice' && (
                 <p className="mt-4 text-xs text-accent-300 leading-relaxed">

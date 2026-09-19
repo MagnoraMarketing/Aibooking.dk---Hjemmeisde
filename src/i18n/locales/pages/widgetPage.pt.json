@@ -324,10 +324,10 @@
     "plans": [
       {
         "name": "Demo",
-        "description": "Experimente grátis durante 7 dias, incl. 75 minutos de conversa – veja quanto tempo liberta para outras tarefas e mais clientes",
-        "minutes": "Grátis durante 7 dias · 75 min de conversa",
+        "description": "Experimente grátis durante 7 dias com crédito para chamadas reais – veja quanto tempo liberta para outras tarefas e mais clientes",
+        "minutes": "Grátis durante 7 dias · acesso completo",
         "features": [
-          "75 minutos de conversa com IA",
+          "Crédito grátis para chamadas de IA durante o teste",
           "Personalização de voz básica",
           "Dashboard de análise",
           "Disponibiliza o número de telefone atual da sua empresa durante o período de teste, para a IA poder atender chamadas reais",
@@ -380,15 +380,15 @@
         "cta": "Encomendar pacote e marcar onboarding"
       }
     ],
-    "after_order_note": "Após a encomenda, recebe um link de calendário onde pode marcar a sessão de configuração.",
-    "setup_recommendation": "Recomendamos que experimente a solução gratuitamente durante 7 dias primeiro — depois escolhe o seu pacote, com ou sem configuração.",
+    "after_order_note": "Após a encomenda, recebe um link de calendário onde pode marcar a sua sessão de configuração gratuita.",
+    "setup_recommendation": "Recomendamos que experimente a solução gratuitamente durante 7 dias primeiro — depois escolhe o seu pacote e a configuração e o onboarding ficam incluídos, totalmente grátis.",
     "additionalPrices": {
       "title": "Outros preços",
       "toggle_label": "Ver outros preços",
       "setup": {
-        "title": "Configuração",
-        "value": "Complemento opcional – a mesma taxa única fixa para todos os pacotes e para o widget de IA. O preço é apresentado junto a cada plano",
-        "note": "(taxa única)"
+        "title": "Configuração & onboarding",
+        "value": "Incluído gratuitamente ao escolher um plano pago ou o widget de IA — normalmente €{{setup}}, incl. 1 hora de apoio de acompanhamento",
+        "note": "(oferecido na compra)"
       },
       "hourly": {
         "title": "Preço por hora para tarefas pontuais",
@@ -399,7 +399,7 @@
       }
     },
     "currency_suffix": "€/mês",
-    "setup_note_optional": "Adicionar configuração e onboarding – pagamento único de €{{setup}}, incl. 1 hora de apoio de acompanhamento"
+    "setup_included_note": "A configuração e o onboarding (normalmente €{{setup}}) estão incluídos gratuitamente, incl. 1 hora de apoio de acompanhamento"
   },
   "shopifyIntegration": {
     "badge": "Integração com Shopify",

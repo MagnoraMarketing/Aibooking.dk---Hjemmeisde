@@ -11,9 +11,31 @@
     "subtitle": "Have questions or want to know more about how Aibooking.dk can help your business? We're here to help you."
   },
   "infoCards": {
-    "call": { "title": "Call us", "desc": "We're happy to answer your questions" },
+    "call": { "title": "Call and try the AI", "desc": "Call for free and experience our AI receptionist live" },
     "email": { "title": "Send an email", "desc": "We reply within 24 hours" },
     "hours": { "title": "Opening hours", "line1": "Mon-Fri: 9:00 - 17:00", "line2": "Weekend: Closed" }
+  },
+  "coreServices": {
+    "badge": "Our core services",
+    "title": "3 ways we automate your phone",
+    "subtitle": "Whether you want an AI to answer the phone, add a voice-driven widget to your website, or automate inbound and outbound calls — this is where you start.",
+    "items": [
+      {
+        "title": "AI reception",
+        "description": "An AI phone assistant answers every incoming call 24/7, books appointments straight into your calendar, and sends SMS reminders — so you never miss a customer.",
+        "cta": "See AI reception"
+      },
+      {
+        "title": "AI widget",
+        "description": "Add a voice-driven AI widget to your website that answers questions and books appointments directly while visitors are still on the page.",
+        "cta": "See AI widget"
+      },
+      {
+        "title": "Inbound/outbound calls",
+        "description": "Automate both incoming customer calls and outgoing calls to leads with an AI phone assistant that sounds natural.",
+        "cta": "See inbound/outbound"
+      }
+    ]
   },
   "form": {
     "title": "Send us a message",
@@ -37,10 +59,11 @@
       "message": "How can we help?"
     },
     "inquiryTypeOptions": {
-      "aiSolutions": "Collaboration on our AI solutions",
       "widget": "AI widget",
       "inboundOutbound": "Inbound/outbound calls (phone assistant)",
       "reception": "AI reception",
+      "reseller": "Reseller / distribute our products",
+      "aiSolutions": "Collaboration on our AI solutions",
       "other": "Other"
     },
     "preferredDateHint": "Calendar booking of an exact time is coming soon. Until then, we'll reach out to you around the date you specify here.",

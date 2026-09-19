@@ -237,7 +237,7 @@
     "title": "Tarifs",
     "subtitle": "Le temps de parole et toutes les fonctionnalités sont inclus. Sans engagement ni frais de mise en service.",
     "perMonth": "/mois",
-    "demo": { "name": "Démo", "label": "7 jours gratuits · 75 min" },
+    "demo": { "name": "Démo", "label": "7 jours gratuits · accès complet" },
     "starter": { "name": "Starter", "label": "150 min/mois inclus" },
     "professional": { "name": "Professional", "label": "600 min/mois inclus" },
     "enterprise": { "name": "Enterprise", "label": "2 000 min/mois inclus" },

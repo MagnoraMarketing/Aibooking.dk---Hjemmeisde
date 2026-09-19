@@ -11,9 +11,31 @@
     "subtitle": "¿Tienes preguntas o quieres saber más sobre cómo Aibooking.dk puede ayudar a tu negocio? Estamos aquí para ayudarte."
   },
   "infoCards": {
-    "call": { "title": "Llámanos", "desc": "Estaremos encantados de responder tus preguntas" },
+    "call": { "title": "Llama y pruébalo", "desc": "Llama gratis y prueba nuestra recepcionista de IA en vivo" },
     "email": { "title": "Envía un correo", "desc": "Respondemos en 24 horas" },
     "hours": { "title": "Horario de atención", "line1": "Lun-Vie: 9:00 - 17:00", "line2": "Fin de semana: Cerrado" }
+  },
+  "coreServices": {
+    "badge": "Nuestros servicios principales",
+    "title": "3 formas de automatizar tu teléfono",
+    "subtitle": "Ya sea que quieras que una IA conteste el teléfono, añadir un widget por voz a tu web o automatizar llamadas entrantes y salientes, aquí es donde empiezas.",
+    "items": [
+      {
+        "title": "Recepción de IA",
+        "description": "Un asistente telefónico de IA responde todas las llamadas entrantes 24/7, reserva citas directamente en tu calendario y envía recordatorios por SMS, para que nunca pierdas un cliente.",
+        "cta": "Ver recepción de IA"
+      },
+      {
+        "title": "Widget de IA",
+        "description": "Añade un widget de IA por voz a tu web que responde preguntas y reserva citas directamente mientras los visitantes siguen en la página.",
+        "cta": "Ver widget de IA"
+      },
+      {
+        "title": "Llamadas entrantes/salientes",
+        "description": "Automatiza tanto las llamadas entrantes de clientes como las llamadas salientes a leads con un asistente telefónico de IA que suena natural.",
+        "cta": "Ver entrantes/salientes"
+      }
+    ]
   },
   "form": {
     "title": "Envíanos un mensaje",
@@ -37,10 +59,11 @@
       "message": "¿Cómo podemos ayudarte?"
     },
     "inquiryTypeOptions": {
-      "aiSolutions": "Colaboración sobre nuestras soluciones de IA",
       "widget": "Widget de IA",
       "inboundOutbound": "Llamadas entrantes/salientes (asistente telefónico)",
       "reception": "Recepción de IA",
+      "reseller": "Distribuidor / revender nuestros productos",
+      "aiSolutions": "Colaboración sobre nuestras soluciones de IA",
       "other": "Otro"
     },
     "preferredDateHint": "Muy pronto podrás reservar un horario exacto mediante calendario. Hasta entonces, te contactaremos en torno a la fecha que indiques aquí.",

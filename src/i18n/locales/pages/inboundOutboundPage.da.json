@@ -237,7 +237,7 @@
     "title": "Priser",
     "subtitle": "Taletid og alle funktioner er med i prisen. Ingen binding, ingen opstartsgebyr.",
     "perMonth": "/md",
-    "demo": { "name": "Demo", "label": "7 dage gratis · 75 min" },
+    "demo": { "name": "Demo", "label": "7 dage gratis · fuld adgang" },
     "starter": { "name": "Starter", "label": "150 min/md inkl." },
     "professional": { "name": "Professional", "label": "600 min/md inkl." },
     "enterprise": { "name": "Enterprise", "label": "2.000 min/md inkl." },

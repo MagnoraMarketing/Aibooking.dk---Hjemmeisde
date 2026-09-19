@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Teste Grátis de 7 Dias - Experimente a Aibooking.dk | Aibooking.dk",
-    "description": "Experimente a Aibooking.dk gratuitamente durante 7 dias. Encaminhe o seu número comercial e teste 75 minutos de tempo de conversa de IA (recebido e efetuado), SMS, email e WhatsApp. Configuração numa breve chamada de onboarding.",
+    "description": "Experimente a Aibooking.dk gratuitamente durante 7 dias. Encaminhe o seu número comercial e teste o tempo de conversa de IA (recebido e efetuado) com crédito grátis, SMS, email e WhatsApp. Configuração numa breve chamada de onboarding.",
     "keywords": "teste gratuito, teste de 7 dias, teste receção de ia, testar assistente telefónico de ia, chamada de onboarding, encaminhamento de número de telefone"
   },
   "breadcrumb": { "home": "Início", "trial": "Teste Grátis" },
@@ -38,7 +38,7 @@
     "title": "O que está incluído no seu período de teste",
     "subtitle": "7 dias de acesso total à plataforma, sem qualquer custo",
     "voice_label": "Tempo de conversa entrada/saída",
-    "voice_value": "75 min incluídos",
+    "voice_value": "Crédito grátis incluído",
     "sms_label": "SMS",
     "sms_value": "100 SMS grátis",
     "email_label": "Email",
@@ -65,8 +65,8 @@
         "desc": "Não. Basta encaminhar o seu número comercial atual para o número que lhe atribuímos — configuramos tudo o resto consigo na chamada de onboarding."
       },
       {
-        "title": "O que acontece com os meus 75 minutos de conversa?",
-        "desc": "Os 75 minutos cobrem chamadas de IA recebidas e efetuadas durante os 7 dias, para poder testar todo o fluxo de chamadas, não apenas um sentido."
+        "title": "Quanto posso testar durante o período de teste?",
+        "desc": "O seu crédito grátis cobre chamadas de IA recebidas e efetuadas durante os 7 dias, para poder testar todo o fluxo de chamadas, não apenas um sentido."
       },
       {
         "title": "Posso atualizar antes de terminar o teste?",

@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, PhoneForwarded, Clock, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, PhoneForwarded, Clock, CheckCircle2, Mic } from 'lucide-react';
 import type { SupportedLanguage } from '../../i18n/config';
 import { buildLocalizedPath } from '../../utils/localePaths';
 import { INDUSTRY_THEMES, IndustryKey, TRIAL_URL } from './industryTheme';
@@ -8,7 +8,7 @@ interface IndustryTrialBannerProps {
   industry: IndustryKey;
 }
 
-/** 7-day / 75-minute trial call-to-action, repeated on every industry page. */
+/** 7-day free trial call-to-action, repeated on every industry page. */
 function IndustryTrialBanner({ industry }: IndustryTrialBannerProps) {
   const { t, i18n } = useTranslation();
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
@@ -45,12 +45,19 @@ function IndustryTrialBanner({ industry }: IndustryTrialBannerProps) {
             </div>
 
             <div className="md:col-span-2 space-y-3">
-              <div className="bg-white/5 border border-white/10 rounded-2xl p-5 text-center mb-2">
-                <PhoneForwarded className="w-7 h-7 text-white mx-auto mb-3" />
-                <div className="text-3xl font-bold text-white leading-none mb-1">
-                  {t('industryTools.trial.minutesValue')}
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-4 flex items-start gap-3 mb-2">
+                <PhoneForwarded className="w-5 h-5 text-white flex-shrink-0 mt-0.5" />
+                <div>
+                  <div className="text-sm font-semibold text-white">{t('industryTools.trial.inboundLabel')}</div>
+                  <div className="text-xs text-ink-400 leading-relaxed mt-0.5">{t('industryTools.trial.inboundValue')}</div>
                 </div>
-                <div className="text-xs text-ink-400">{t('industryTools.trial.minutesLabel')}</div>
+              </div>
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-4 flex items-start gap-3 mb-2">
+                <Mic className="w-5 h-5 text-white flex-shrink-0 mt-0.5" />
+                <div>
+                  <div className="text-sm font-semibold text-white">{t('industryTools.trial.widgetLabel')}</div>
+                  <div className="text-xs text-ink-400 leading-relaxed mt-0.5">{t('industryTools.trial.widgetValue')}</div>
+                </div>
               </div>
               <a
                 href={TRIAL_URL}

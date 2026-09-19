@@ -508,15 +508,17 @@
     },
     "trial": {
       "badge": "7 dias grátis",
-      "title": "Teste com as suas próprias chamadas — sem compromisso",
-      "text": "Crie uma conta de teste e experimente a solução durante 7 dias com 75 minutos de conversa. Configuramos consigo numa breve chamada de onboarding, e basta encaminhar o seu número comercial atual para o número que lhe é atribuído.",
+      "title": "Experimente já — nas suas chamadas e no seu site",
+      "text": "Crie uma conta de teste e obtenha acesso total à solução durante 7 dias, totalmente grátis e sem compromisso. Configuramos consigo numa breve chamada de onboarding.",
       "points": [
-        "Sem configuração técnica — basta encaminhar o seu número",
+        "Sem configuração técnica necessária",
         "Acesso total ao painel, gravações e marcações",
         "Sem compromisso e sem dados de cartão"
       ],
-      "minutesValue": "75 min",
-      "minutesLabel": "de conversa incluídos no período de teste",
+      "inboundLabel": "Chamadas recebidas",
+      "inboundValue": "Encaminhe o seu número atual e a IA responde às suas chamadas reais de imediato",
+      "widgetLabel": "Widget de voz",
+      "widgetValue": "Receba um código de incorporação de imediato — teste e personalize o widget no seu site",
       "cta": "Criar conta de teste",
       "secondary": "Saber mais sobre o período de teste"
     }

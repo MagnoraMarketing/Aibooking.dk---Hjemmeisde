@@ -1,4 +1,4 @@
-import { STRIPE_CHECKOUT } from '../../utils/checkout';
+import { SIGNUP_URL } from '../../utils/backend';
 
 export type IndustryKey = 'healthcare' | 'craftsman' | 'office' | 'ecommerce';
 
@@ -68,4 +68,7 @@ export const INDUSTRY_THEMES: Record<IndustryKey, IndustryTheme> = {
   },
 };
 
-export const TRIAL_URL = STRIPE_CHECKOUT.trial;
+// Visitors try the product via a free account first — packages are sold
+// afterwards from inside the backend dashboard, not via a payment link on
+// the marketing site.
+export const TRIAL_URL = SIGNUP_URL;

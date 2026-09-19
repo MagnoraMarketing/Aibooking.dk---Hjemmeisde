@@ -11,7 +11,7 @@ import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import { localizedPrice } from '../utils/currency';
-import { STRIPE_CHECKOUT } from '../utils/checkout';
+import { SIGNUP_URL } from '../utils/backend';
 import { VOICE_PLAN_PRICES_DKK, WIDGET_PLAN_PRICE_DKK, SETUP_PRICE_DKK } from '../utils/pricing';
 import { VAPI_WIDGET_ASSISTANT_ID } from '../utils/vapi';
 import { useVapiCall } from '../hooks/useVapiCall';
@@ -108,7 +108,7 @@ function PricingSection() {
 
                 <div className="mt-8 flex flex-col sm:flex-row gap-3">
                   <a
-                    href={STRIPE_CHECKOUT.widget}
+                    href={SIGNUP_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-brand-600 text-white px-6 py-3.5 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
@@ -165,10 +165,10 @@ function PhoneAssistantSection() {
   // Optional setup/onboarding fee equals one month's subscription price,
   // charged once, and includes 1 hour of follow-up support afterwards.
   const planMeta = [
-    { price: VOICE_PLAN_PRICES_DKK[0], highlighted: false, href: STRIPE_CHECKOUT.trial },
-    { price: VOICE_PLAN_PRICES_DKK[1], highlighted: false, href: STRIPE_CHECKOUT.starter },
-    { price: VOICE_PLAN_PRICES_DKK[2], highlighted: true, href: STRIPE_CHECKOUT.professional },
-    { price: VOICE_PLAN_PRICES_DKK[3], highlighted: false, href: STRIPE_CHECKOUT.enterprise },
+    { price: VOICE_PLAN_PRICES_DKK[0], highlighted: false, href: SIGNUP_URL },
+    { price: VOICE_PLAN_PRICES_DKK[1], highlighted: false, href: SIGNUP_URL },
+    { price: VOICE_PLAN_PRICES_DKK[2], highlighted: true, href: SIGNUP_URL },
+    { price: VOICE_PLAN_PRICES_DKK[3], highlighted: false, href: SIGNUP_URL },
   ];
   const phonePlans = plansText.map((plan, i) => ({
     ...plan,
@@ -484,7 +484,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                     )}
                   </button>
                   <a
-                    href={STRIPE_CHECKOUT.widget}
+                    href={SIGNUP_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-white/5 backdrop-blur-sm border border-white/15 text-white px-8 py-4 rounded-xl hover:bg-white/10 transition-all font-semibold"
@@ -956,7 +956,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                     <ArrowRight className="w-5 h-5" />
                   </button>
                   <a
-                    href={STRIPE_CHECKOUT.widget}
+                    href={SIGNUP_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-brand-500/30 text-white border border-white/30 px-8 py-4 rounded-xl hover:bg-brand-500/50 transition-all font-semibold"

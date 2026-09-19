@@ -65,6 +65,8 @@ function OfficePage({ onNavigate }: OfficePageProps) {
         </div>
       </section>
 
+      <DashboardShowcase variant="office" className="py-20 md:py-28 bg-white" />
+
       {/* Worked example, right up top so visitors immediately see how it plays out */}
       <IndustryScenario industry="office" />
 
@@ -127,8 +129,6 @@ function OfficePage({ onNavigate }: OfficePageProps) {
       </section>
 
       <IndustryCalculator industry="office" />
-
-      <DashboardShowcase variant="office" className="py-20 md:py-28 bg-white" />
 
       <IndustryTrialBanner industry="office" />
 

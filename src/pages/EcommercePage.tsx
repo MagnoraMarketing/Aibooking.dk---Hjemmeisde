@@ -79,6 +79,8 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
         </div>
       </section>
 
+      <DashboardShowcase variant="ecommerce" className="py-20 md:py-28 bg-white" />
+
       {/* Worked example, right up top so visitors immediately see how it plays out */}
       <IndustryScenario industry="ecommerce" />
 
@@ -176,8 +178,6 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
       </section>
 
       <IndustryCalculator industry="ecommerce" />
-
-      <DashboardShowcase variant="ecommerce" className="py-20 md:py-28 bg-white" />
 
       <IndustryTrialBanner industry="ecommerce" />
 

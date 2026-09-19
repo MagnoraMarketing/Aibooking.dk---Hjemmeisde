@@ -168,14 +168,18 @@
     "setup_recommendation": "Vi anbefaler, at du prøver løsningen gratis i 7 dage først – derefter vælger du din pakke, med eller uden opsætning.",
     "cta_signup": "Opret gratis konto",
     "cta_demo": "Prøv gratis",
+    "no_card_required": "Intet kreditkort eller betalingsoplysninger krævet",
     "cta_order": "Bestil pakke og book Onboarding",
     "plans": [
       {
         "name": "Demo",
-        "description": "Prøv gratis i 7 dage inkl. 75 minutters taletid – se hvor meget tid I frigør til andre opgaver og flere kunder",
-        "minutes": "Gratis i 7 dage · 75 min taletid",
+        "description": "Prøv gratis i 7 dage – se hvor meget tid I frigør til andre opgaver og flere kunder",
+        "minutes": "7 dages gratis prøveperiode",
         "features": [
-          "75 minutters AI-taletid",
+          "Indbound – AI'en svarer på jeres opkald",
+          "Voice-widget – AI'en svarer på generelle spørgsmål på hjemmesiden",
+          "Booking – direkte i kalenderen",
+          "Webshop – Shopify-integration",
           "Basis stemme-tilpasning",
           "Analyse dashboard",
           "I stiller jeres nuværende firmanummer til rådighed i prøveperioden, så AI'en kan besvare rigtige opkald",

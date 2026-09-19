@@ -168,14 +168,18 @@
     "setup_recommendation": "Recomendamos que experimente a solução gratuitamente durante 7 dias primeiro — depois escolhe o seu pacote, com ou sem configuração.",
     "cta_signup": "Criar conta gratuita",
     "cta_demo": "Experimentar grátis",
+    "no_card_required": "Não é necessário cartão de crédito ou dados de pagamento",
     "cta_order": "Encomendar pacote e marcar Onboarding",
     "plans": [
       {
         "name": "Demo",
-        "description": "Experimente grátis durante 7 dias, incl. 75 minutos de conversa – veja quanto tempo liberta para outras tarefas e mais clientes",
-        "minutes": "Grátis durante 7 dias · 75 min de conversa",
+        "description": "Experimente grátis durante 7 dias – veja quanto tempo liberta para outras tarefas e mais clientes",
+        "minutes": "Teste grátis de 7 dias",
         "features": [
-          "75 minutos de conversa com IA",
+          "Chamadas recebidas – a IA atende as suas chamadas",
+          "Widget de voz – a IA responde a perguntas gerais no seu site",
+          "Marcações – diretamente no calendário",
+          "Loja online – integração com Shopify",
           "Personalização de voz básica",
           "Dashboard de análise",
           "Disponibiliza o número de telefone atual da sua empresa durante o período de teste, para a IA poder atender chamadas reais",

@@ -65,6 +65,8 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
         </div>
       </section>
 
+      <DashboardShowcase variant="healthcare" className="py-20 md:py-28 bg-white" />
+
       {/* Worked example, right up top so visitors immediately see how it plays out */}
       <IndustryScenario industry="healthcare" />
 
@@ -127,8 +129,6 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
       </section>
 
       <IndustryCalculator industry="healthcare" />
-
-      <DashboardShowcase variant="healthcare" className="py-20 md:py-28 bg-white" />
 
       <IndustryTrialBanner industry="healthcare" />
 

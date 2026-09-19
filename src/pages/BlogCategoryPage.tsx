@@ -6,13 +6,19 @@ import SEO from '../components/SEO';
 import FAQ from '../components/FAQ';
 import { blogFAQs } from '../content/faq';
 import { getCategoryBySlug, getPostsByCategory, BlogPost } from '../content/blog';
+import type { SupportedLanguage } from '../i18n/config';
+import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
+import type { NavigatePage } from '../types/navigation';
 
 interface BlogCategoryPageProps {
   categorySlug: string;
+  onNavigate: (page: NavigatePage) => void;
 }
 
-export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps) {
+export default function BlogCategoryPage({ categorySlug, onNavigate }: BlogCategoryPageProps) {
   const { t, i18n } = useTranslation('blogCategoryPage');
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
+  const blogHref = (path: string) => buildLocalizedPath(lang, path);
   const category = getCategoryBySlug(categorySlug);
   const posts = category ? getPostsByCategory(categorySlug) : [];
 
@@ -39,18 +45,18 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
   if (!category) {
     return (
       <div className="min-h-screen bg-gradient-to-b from-ink-50 via-white to-ink-50">
-        <Navigation onNavigate={() => {}} />
+        <Navigation onNavigate={onNavigate} />
         <div className="flex items-center justify-center min-h-screen">
           <div className="text-center">
             <h1 className="text-3xl font-bold text-ink-900 mb-4">
               {t('notFound.title')}
             </h1>
-            <a href="/blog" className="text-brand-600 hover:text-brand-700 font-semibold">
+            <a href={blogHref('/blog')} className="text-brand-600 hover:text-brand-700 font-semibold">
               {t('notFound.backToBlog')}
             </a>
           </div>
         </div>
-        <Footer />
+        <Footer onNavigate={onNavigate} />
       </div>
     );
   }
@@ -74,13 +80,15 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
         title={t('seo.title', { category: getCategoryName() })}
         description={getCategoryDescription()}
         keywords={t('seo.keywords', { slug: categorySlug, category: getCategoryName() })}
+        canonical={localizedUrl(lang, `/blog/category/${categorySlug}`)}
+        path={`/blog/category/${categorySlug}`}
       />
 
       <script type="application/ld+json">
         {JSON.stringify(structuredData)}
       </script>
 
-      <Navigation onNavigate={() => {}} />
+      <Navigation onNavigate={onNavigate} />
 
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-brand-50 via-transparent to-ink-50 pointer-events-none"></div>
@@ -90,7 +98,7 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <a
-                href="/blog"
+                href={blogHref('/blog')}
                 className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-700 font-medium mb-6 transition-colors"
               >
                 <ArrowRight className="w-4 h-4 rotate-180" />
@@ -110,7 +118,7 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
 
             <div className="mb-16 text-center">
               <a
-                href="https://aibooking.dk/widget"
+                href={blogHref('/widget')}
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-700 text-white px-8 py-4 rounded-xl font-semibold hover:shadow-xl transition-all transform hover:scale-105"
               >
                 <Sparkles className="w-5 h-5" />
@@ -125,7 +133,7 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
                   {t('emptyState.message')}
                 </p>
                 <a
-                  href="/blog"
+                  href={blogHref('/blog')}
                   className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-700 font-semibold mt-4"
                 >
                   {t('emptyState.viewAll')}
@@ -139,7 +147,7 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
                     key={post.id}
                     className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
                   >
-                    <a href={`/blog/${post.slug}`} className="block">
+                    <a href={blogHref(`/blog/${post.slug}`)} className="block">
                       <div className="aspect-video overflow-hidden bg-ink-100">
                         <img
                           src={post.image_url}
@@ -178,7 +186,7 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
                   {t('wantMore.description')}
                 </p>
                 <a
-                  href="https://aibooking.dk/widget"
+                  href={blogHref('/widget')}
                   className="inline-flex items-center gap-2 bg-brand-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-brand-700 transition-colors"
                 >
                   {t('wantMore.cta')}
@@ -191,7 +199,7 @@ export default function BlogCategoryPage({ categorySlug }: BlogCategoryPageProps
       </div>
 
       <FAQ items={blogFAQs} />
-      <Footer />
+      <Footer onNavigate={onNavigate} />
     </div>
   );
 }

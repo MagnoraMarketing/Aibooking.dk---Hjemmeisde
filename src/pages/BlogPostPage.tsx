@@ -6,13 +6,19 @@ import SEO from '../components/SEO';
 import FAQ from '../components/FAQ';
 import { blogFAQs } from '../content/faq';
 import { getPostBySlug, getCategoryBySlug, getRelatedPosts, BlogPost } from '../content/blog';
+import type { SupportedLanguage } from '../i18n/config';
+import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
+import type { NavigatePage } from '../types/navigation';
 
 interface BlogPostPageProps {
   postSlug: string;
+  onNavigate: (page: NavigatePage) => void;
 }
 
-export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
+export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps) {
   const { t, i18n } = useTranslation('blogPostPage');
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
+  const blogHref = (path: string) => buildLocalizedPath(lang, path);
   const post = getPostBySlug(postSlug);
   const category = post ? getCategoryBySlug(post.categorySlug) : undefined;
   const relatedPosts = post ? getRelatedPosts(post) : [];
@@ -44,18 +50,18 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
   if (!post || !category) {
     return (
       <div className="min-h-screen bg-gradient-to-b from-ink-50 via-white to-ink-50">
-        <Navigation onNavigate={() => {}} />
+        <Navigation onNavigate={onNavigate} />
         <div className="flex items-center justify-center min-h-screen">
           <div className="text-center">
             <h1 className="text-3xl font-bold text-ink-900 mb-4">
               {t('notFound.title')}
             </h1>
-            <a href="/blog" className="text-brand-600 hover:text-brand-700 font-semibold">
+            <a href={blogHref('/blog')} className="text-brand-600 hover:text-brand-700 font-semibold">
               {t('backToBlog')}
             </a>
           </div>
         </div>
-        <Footer />
+        <Footer onNavigate={onNavigate} />
       </div>
     );
   }
@@ -94,18 +100,20 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
         description={getMetaDescription()}
         keywords={post.keywords.join(', ')}
         ogImage={post.image_url}
+        canonical={localizedUrl(lang, `/blog/${post.slug}`)}
+        path={`/blog/${post.slug}`}
       />
 
       <script type="application/ld+json">
         {JSON.stringify(structuredData)}
       </script>
 
-      <Navigation onNavigate={() => {}} />
+      <Navigation onNavigate={onNavigate} />
 
       <article className="pt-24 pb-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <a
-            href="/blog"
+            href={blogHref('/blog')}
             className="inline-flex items-center text-brand-600 hover:text-brand-700 font-medium mb-8 transition-colors group"
           >
             <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
@@ -114,7 +122,7 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
 
           <div className="mb-8">
             <a
-              href={`/blog/category/${category.slug}`}
+              href={blogHref(`/blog/category/${category.slug}`)}
               className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-gradient-to-r from-brand-600 to-brand-700 text-white text-sm font-semibold rounded-full mb-6 shadow-sm hover:shadow-lg transition-all"
             >
               {getCategoryName()}
@@ -185,7 +193,7 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
               {t('ctaBox.description')}
             </p>
             <a
-              href="https://aibooking.dk/widget"
+              href={blogHref('/widget')}
               className="inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-700 text-white px-8 py-4 rounded-xl font-bold hover:shadow-xl transition-all transform hover:scale-105"
             >
               {t('ctaBox.button')}
@@ -208,7 +216,7 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
               {relatedPosts.map((relatedPost) => (
                 <a
                   key={relatedPost.id}
-                  href={`/blog/${relatedPost.slug}`}
+                  href={blogHref(`/blog/${relatedPost.slug}`)}
                   className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
                 >
                   <div className="aspect-video overflow-hidden bg-ink-100">
@@ -235,7 +243,7 @@ export default function BlogPostPage({ postSlug }: BlogPostPageProps) {
       </article>
 
       <FAQ items={blogFAQs} />
-      <Footer />
+      <Footer onNavigate={onNavigate} />
     </div>
   );
 }

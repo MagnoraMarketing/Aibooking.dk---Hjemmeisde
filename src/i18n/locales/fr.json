@@ -164,17 +164,17 @@
     "most_popular_badge": "Le Plus Populaire",
     "free_label": "Gratuit",
     "currency_suffix": "€/mois",
-    "after_order_note": "Une fois votre compte gratuit créé, vous pouvez réserver votre créneau de configuration gratuit directement depuis votre tableau de bord.",
-    "setup_recommendation": "Nous vous conseillons d'essayer la solution gratuitement pendant 7 jours d'abord — vous choisirez ensuite votre formule, avec la configuration et l'onboarding inclus, entièrement gratuits.",
+    "after_order_note": "Une fois votre compte gratuit créé, vous pouvez réserver un créneau pour la configuration directement depuis votre tableau de bord, si vous l'avez ajoutée à votre commande.",
+    "setup_recommendation": "Nous vous conseillons d'essayer la solution gratuitement pendant 7 jours d'abord — vous choisirez ensuite votre formule. La configuration et l'onboarding peuvent être ajoutés en option, moyennant un paiement unique, si vous souhaitez de l'aide.",
     "cta_signup": "Créer un compte gratuit",
     "cta_demo": "Essayer gratuitement",
     "no_card_required": "Aucune carte bancaire ni information de paiement requise",
-    "cta_order": "Commander le forfait et réserver l'onboarding",
+    "cta_order": "Commander la formule",
     "plans": [
       {
         "name": "Demo",
         "description": "Essayez gratuitement pendant 7 jours – découvrez le temps que vous libérez pour d'autres tâches et plus de clients",
-        "minutes": "Essai gratuit de 7 jours",
+        "minutes": "Essai gratuit de 7 jours · 10 minutes de communication offertes",
         "features": [
           "Entrant – l'IA répond à vos appels",
           "Widget vocal – l'IA répond aux questions générales sur votre site",
@@ -233,8 +233,8 @@
       "toggle_label": "Voir les autres tarifs",
       "setup": {
         "title": "Configuration & onboarding",
-        "value": "Inclus gratuitement lorsque vous choisissez une formule payante ou le widget IA — normalement {{setup}} €, incl. 1 heure de support de suivi",
-        "note": "(offert à l'achat)"
+        "value": "Option au moment du paiement — un paiement unique de {{setupMin}} € à {{setupMax}} €, identique au prix de la formule choisie, incl. 1 heure de support de suivi",
+        "note": "(paiement unique, non inclus dans l'abonnement)"
       },
       "hourly": {
         "title": "Tarif horaire pour les tâches ponctuelles",
@@ -244,7 +244,7 @@
         "development_price": "147 €/heure"
       }
     },
-    "setup_included_note": "La configuration et l'onboarding (normalement {{setup}} €) sont inclus gratuitement, incl. 1 heure de support de suivi"
+    "setup_included_note": "La configuration et l'onboarding peuvent être ajoutés pour {{setup}} € en paiement unique (même prix que la formule), incl. 1 heure de support de suivi"
   },
   "cta_section": {
     "title": "Prêt à démarrer ?",
@@ -493,9 +493,9 @@
       "minutesUnit": "min",
       "recommendedLabel": "Formule recommandée",
       "includedMinutes": "{{minutes}} minutes incluses",
-      "setupLabel": "La configuration et l'onboarding sont inclus gratuitement.",
-      "setupNote": "Normalement {{price}} — offert lorsque vous choisissez une formule payante, incl. 1 heure de support de suivi.",
-      "setupLine": "Configuration et onboarding gratuits inclus",
+      "setupLabel": "La configuration et l'onboarding peuvent être ajoutés en option, moyennant un paiement unique.",
+      "setupNote": "Option : {{price}} en paiement unique — même prix que le forfait, incl. 1 heure de support de suivi.",
+      "setupLine": "Configuration et onboarding en option disponibles",
       "aboveLargest": "Besoin de plus de 2 000 minutes par mois ? Nous vous composons une formule — contactez-nous pour un devis.",
       "timeFreedValue": "Environ {{hours}} heures de téléphone récupérées",
       "timeFreedText": "Du temps que vous pouvez consacrer à faire tourner l'entreprise. Réservations, reports et questions sont traités sans vous.",

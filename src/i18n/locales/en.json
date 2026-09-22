@@ -164,17 +164,17 @@
     "most_popular_badge": "Most Popular",
     "free_label": "Free",
     "currency_suffix": "€/mo",
-    "after_order_note": "Once you've created your free account, you can book your free setup time directly from your dashboard.",
-    "setup_recommendation": "We recommend trying the solution free for 7 days first — then choose your package and get setup and onboarding included, completely free.",
+    "after_order_note": "Once you've created your free account, you can book a time for setup directly from your dashboard, if you've added it to your order.",
+    "setup_recommendation": "We recommend trying the solution free for 7 days first — then choose your package. Setup and onboarding can be added as an optional one-time payment if you'd like help with it.",
     "cta_signup": "Create free account",
     "cta_demo": "Try for free",
     "no_card_required": "No credit card or payment details required",
-    "cta_order": "Order package and book onboarding",
+    "cta_order": "Order plan",
     "plans": [
       {
         "name": "Demo",
         "description": "Try free for 7 days – see how much time you free up for other tasks and more customers",
-        "minutes": "7-day free trial",
+        "minutes": "7-day free trial · 10 minutes of free talk time",
         "features": [
           "Inbound – the AI answers your calls",
           "Voice widget – the AI answers general questions on your website",
@@ -233,8 +233,8 @@
       "toggle_label": "See other prices",
       "setup": {
         "title": "Setup & onboarding",
-        "value": "Included free when you choose a paid plan or the AI widget — normally €{{setup}}, incl. 1 hour of follow-up support",
-        "note": "(waived on purchase)"
+        "value": "Optional add-on at checkout — a one-time payment from €{{setupMin}} to €{{setupMax}}, matching your chosen plan's price, incl. 1 hour of follow-up support",
+        "note": "(one-time only, not included in the subscription)"
       },
       "hourly": {
         "title": "Hourly rate for ad hoc tasks",
@@ -244,7 +244,7 @@
         "development_price": "€147/hour"
       }
     },
-    "setup_included_note": "Setup and onboarding (normally €{{setup}}) is included free, incl. 1 hour of follow-up support"
+    "setup_included_note": "Setup and onboarding can be added for €{{setup}} as a one-time payment (same price as the plan), incl. 1 hour of follow-up support"
   },
   "cta_section": {
     "title": "Ready to get started?",
@@ -493,9 +493,9 @@
       "minutesUnit": "min",
       "recommendedLabel": "Recommended package",
       "includedMinutes": "{{minutes}} minutes included",
-      "setupLabel": "Setup and onboarding is included free.",
-      "setupNote": "Normally {{price}} — yours free when you choose a paid package, incl. 1 hour of follow-up support.",
-      "setupLine": "Free setup and onboarding included",
+      "setupLabel": "Setup and onboarding can be added as an optional one-time payment.",
+      "setupNote": "Optional add-on: {{price}} one-time — same price as the package, incl. 1 hour of follow-up support.",
+      "setupLine": "Optional setup and onboarding available",
       "aboveLargest": "Need more than 2,000 minutes a month? We'll put a package together for you — get in touch for a quote.",
       "timeFreedValue": "About {{hours}} hours of phone time back",
       "timeFreedText": "Time you can spend running the business instead. Bookings, rebookings and questions are handled without you.",

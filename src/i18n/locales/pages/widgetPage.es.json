@@ -325,7 +325,7 @@
       {
         "name": "Demo",
         "description": "Prueba gratis durante 7 días con crédito para llamadas reales – comprueba cuánto tiempo liberas para otras tareas y más clientes",
-        "minutes": "Gratis durante 7 días · acceso completo",
+        "minutes": "Gratis durante 7 días · 10 minutos de conversación gratis",
         "features": [
           "Crédito gratuito para llamadas de IA durante la prueba",
           "Personalización básica de voz",
@@ -346,7 +346,7 @@
           "Panel de análisis",
           "Notificaciones por correo electrónico"
         ],
-        "cta": "Pedir paquete y reservar incorporación"
+        "cta": "Pedir paquete"
       },
       {
         "name": "Professional",
@@ -361,7 +361,7 @@
           "Recordatorios por SMS",
           "Historial de clientes"
         ],
-        "cta": "Pedir paquete y reservar incorporación"
+        "cta": "Pedir paquete"
       },
       {
         "name": "Enterprise",
@@ -377,18 +377,18 @@
           "Integraciones ilimitadas",
           "Soporte para el cumplimiento del RGPD"
         ],
-        "cta": "Pedir paquete y reservar incorporación"
+        "cta": "Pedir paquete"
       }
     ],
-    "after_order_note": "Después de realizar el pedido, recibirás un enlace de calendario donde podrás reservar tu sesión de configuración gratuita.",
-    "setup_recommendation": "Te recomendamos probar la solución gratis durante 7 días primero — después eliges tu paquete y la configuración y la incorporación van incluidas, totalmente gratis.",
+    "after_order_note": "Después de realizar el pedido, recibirás un enlace de calendario donde podrás reservar tu sesión de configuración, si la has añadido a tu pedido.",
+    "setup_recommendation": "Te recomendamos probar la solución gratis durante 7 días primero — después eliges tu paquete. La configuración y la incorporación se pueden añadir como pago único opcional si quieres ayuda con ello.",
     "additionalPrices": {
       "title": "Otros precios",
       "toggle_label": "Ver otros precios",
       "setup": {
         "title": "Configuración e incorporación",
-        "value": "Incluido gratis al elegir un plan de pago o el widget de IA — normalmente {{setup}}€, incl. 1 hora de soporte de seguimiento",
-        "note": "(regalado al comprar)"
+        "value": "Complemento opcional al finalizar la compra — un pago único desde {{setupMin}}€ hasta {{setupMax}}€, igual al precio del plan elegido, incl. 1 hora de soporte de seguimiento",
+        "note": "(pago único, no incluido en la suscripción)"
       },
       "hourly": {
         "title": "Tarifa por hora para tareas puntuales",
@@ -399,7 +399,7 @@
       }
     },
     "currency_suffix": "€/mes",
-    "setup_included_note": "La configuración e incorporación (normalmente {{setup}}€) está incluida gratis, incl. 1 hora de soporte de seguimiento"
+    "setup_included_note": "La configuración e incorporación se pueden añadir por {{setup}}€ como pago único (mismo precio que el plan), incl. 1 hora de soporte de seguimiento"
   },
   "shopifyIntegration": {
     "badge": "Integración con Shopify",

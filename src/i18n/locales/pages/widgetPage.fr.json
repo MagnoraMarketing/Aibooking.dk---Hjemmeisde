@@ -325,7 +325,7 @@
       {
         "name": "Demo",
         "description": "Essayez gratuitement pendant 7 jours avec du crédit pour de vrais appels – découvrez le temps que vous libérez pour d'autres tâches et plus de clients",
-        "minutes": "Gratuit pendant 7 jours · accès complet",
+        "minutes": "Gratuit pendant 7 jours · 10 minutes de communication offertes",
         "features": [
           "Crédit gratuit pour les appels IA pendant l'essai",
           "Personnalisation vocale de base",
@@ -346,7 +346,7 @@
           "Dashboard d'analyse",
           "Notifications par email"
         ],
-        "cta": "Commander le forfait et réserver l'onboarding"
+        "cta": "Commander le forfait"
       },
       {
         "name": "Professional",
@@ -361,7 +361,7 @@
           "Rappels par SMS",
           "Historique client"
         ],
-        "cta": "Commander le forfait et réserver l'onboarding"
+        "cta": "Commander le forfait"
       },
       {
         "name": "Enterprise",
@@ -377,18 +377,18 @@
           "Intégrations illimitées",
           "Accompagnement à la conformité RGPD"
         ],
-        "cta": "Commander le forfait et réserver l'onboarding"
+        "cta": "Commander le forfait"
       }
     ],
-    "after_order_note": "Après votre commande, vous recevrez un lien de calendrier pour réserver votre séance de mise en place gratuite.",
-    "setup_recommendation": "Nous vous conseillons d'essayer la solution gratuitement pendant 7 jours d'abord — vous choisirez ensuite votre formule, avec la configuration et l'onboarding inclus, entièrement gratuits.",
+    "after_order_note": "Après votre commande, vous recevrez un lien de calendrier pour réserver votre séance de configuration, si vous l'avez ajoutée à votre commande.",
+    "setup_recommendation": "Nous vous conseillons d'essayer la solution gratuitement pendant 7 jours d'abord — vous choisirez ensuite votre formule. La configuration et l'onboarding peuvent être ajoutés en option, moyennant un paiement unique, si vous souhaitez de l'aide.",
     "additionalPrices": {
       "title": "Autres tarifs",
       "toggle_label": "Voir les autres tarifs",
       "setup": {
         "title": "Configuration & onboarding",
-        "value": "Inclus gratuitement lorsque vous choisissez une formule payante ou le widget IA — normalement {{setup}} €, incl. 1 heure de support de suivi",
-        "note": "(offert à l'achat)"
+        "value": "Option au moment du paiement — un paiement unique de {{setupMin}} € à {{setupMax}} €, identique au prix de la formule choisie, incl. 1 heure de support de suivi",
+        "note": "(paiement unique, non inclus dans l'abonnement)"
       },
       "hourly": {
         "title": "Tarif horaire pour les tâches ponctuelles",
@@ -399,7 +399,7 @@
       }
     },
     "currency_suffix": "€/mois",
-    "setup_included_note": "La configuration et l'onboarding (normalement {{setup}} €) sont inclus gratuitement, incl. 1 heure de support de suivi"
+    "setup_included_note": "La configuration et l'onboarding peuvent être ajoutés pour {{setup}} € en paiement unique (même prix que la formule), incl. 1 heure de support de suivi"
   },
   "shopifyIntegration": {
     "badge": "Intégration Shopify",

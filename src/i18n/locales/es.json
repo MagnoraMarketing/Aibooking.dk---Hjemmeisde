@@ -164,17 +164,17 @@
     "most_popular_badge": "Más Popular",
     "free_label": "Gratis",
     "currency_suffix": "€/mes",
-    "after_order_note": "Una vez que hayas creado tu cuenta gratuita, podrás reservar tu hora de configuración gratuita directamente desde tu panel.",
-    "setup_recommendation": "Te recomendamos probar la solución gratis durante 7 días primero — después eliges tu paquete y la configuración y la incorporación van incluidas, totalmente gratis.",
+    "after_order_note": "Una vez creada tu cuenta gratuita, puedes reservar una hora para la configuración directamente desde tu panel, si la has añadido a tu pedido.",
+    "setup_recommendation": "Te recomendamos probar la solución gratis durante 7 días primero — después eliges tu paquete. La configuración y la incorporación se pueden añadir como pago único opcional si quieres ayuda con ello.",
     "cta_signup": "Crear cuenta gratuita",
     "cta_demo": "Probar gratis",
     "no_card_required": "No se requiere tarjeta de crédito ni datos de pago",
-    "cta_order": "Pedir paquete y reservar incorporación",
+    "cta_order": "Pedir plan",
     "plans": [
       {
         "name": "Demo",
         "description": "Prueba gratis durante 7 días – comprueba cuánto tiempo liberas para otras tareas y más clientes",
-        "minutes": "Prueba gratuita de 7 días",
+        "minutes": "Prueba gratuita de 7 días · 10 minutos de conversación gratis",
         "features": [
           "Entrantes – la IA responde tus llamadas",
           "Widget de voz – la IA responde preguntas generales en tu web",
@@ -233,8 +233,8 @@
       "toggle_label": "Ver otros precios",
       "setup": {
         "title": "Configuración e incorporación",
-        "value": "Incluido gratis al elegir un plan de pago o el widget de IA — normalmente {{setup}}€, incl. 1 hora de soporte de seguimiento",
-        "note": "(regalado al comprar)"
+        "value": "Complemento opcional al finalizar la compra — un pago único desde {{setupMin}}€ hasta {{setupMax}}€, igual al precio del plan elegido, incl. 1 hora de soporte de seguimiento",
+        "note": "(pago único, no incluido en la suscripción)"
       },
       "hourly": {
         "title": "Tarifa por hora para tareas puntuales",
@@ -244,7 +244,7 @@
         "development_price": "147€/hora"
       }
     },
-    "setup_included_note": "La configuración e incorporación (normalmente {{setup}}€) está incluida gratis, incl. 1 hora de soporte de seguimiento"
+    "setup_included_note": "La configuración e incorporación se pueden añadir por {{setup}}€ como pago único (mismo precio que el plan), incl. 1 hora de soporte de seguimiento"
   },
   "cta_section": {
     "title": "¿Listo para empezar?",
@@ -493,9 +493,9 @@
       "minutesUnit": "min",
       "recommendedLabel": "Paquete recomendado",
       "includedMinutes": "{{minutes}} minutos incluidos",
-      "setupLabel": "La configuración e incorporación están incluidas gratis.",
-      "setupNote": "Normalmente {{price}} — gratis al elegir un paquete de pago, incl. 1 hora de soporte de seguimiento.",
-      "setupLine": "Configuración e incorporación gratis incluidas",
+      "setupLabel": "La configuración e incorporación se pueden añadir como pago único opcional.",
+      "setupNote": "Complemento opcional: {{price}} de pago único — mismo precio que el paquete, incl. 1 hora de soporte de seguimiento.",
+      "setupLine": "Configuración e incorporación opcionales disponibles",
       "aboveLargest": "¿Necesitas más de 2.000 minutos al mes? Te preparamos un paquete a medida — contáctanos para un presupuesto.",
       "timeFreedValue": "Unas {{hours}} horas de teléfono recuperadas",
       "timeFreedText": "Tiempo que puedes dedicar a llevar el negocio. Reservas, cambios y preguntas se gestionan sin ti.",

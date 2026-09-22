@@ -164,17 +164,17 @@
     "most_popular_badge": "Mest Populær",
     "free_label": "Gratis",
     "currency_suffix": "kr/md",
-    "after_order_note": "Når I har oprettet jeres gratis konto, kan I booke tid til jeres gratis opsætning direkte fra jeres dashboard.",
-    "setup_recommendation": "Vi anbefaler, at du prøver løsningen gratis i 7 dage først – derefter vælger du din pakke og får opsætning og onboarding med i købet, helt gratis.",
+    "after_order_note": "Når I har oprettet jeres gratis konto, kan I booke tid til opsætning direkte fra jeres dashboard, hvis I har tilkøbt det.",
+    "setup_recommendation": "Vi anbefaler, at du prøver løsningen gratis i 7 dage først – derefter vælger du din pakke. Opsætning og onboarding kan tilkøbes som en valgfri engangsbetaling, hvis I ønsker hjælp til det.",
     "cta_signup": "Opret gratis konto",
     "cta_demo": "Prøv gratis",
     "no_card_required": "Intet kreditkort eller betalingsoplysninger krævet",
-    "cta_order": "Bestil pakke og book Onboarding",
+    "cta_order": "Bestil pakke",
     "plans": [
       {
         "name": "Demo",
         "description": "Prøv gratis i 7 dage – se hvor meget tid I frigør til andre opgaver og flere kunder",
-        "minutes": "7 dages gratis prøveperiode",
+        "minutes": "7 dages gratis prøveperiode · 10 minutters gratis taletid",
         "features": [
           "Indbound – AI'en svarer på jeres opkald",
           "Voice-widget – AI'en svarer på generelle spørgsmål på hjemmesiden",
@@ -233,8 +233,8 @@
       "toggle_label": "Se øvrige priser",
       "setup": {
         "title": "Opsætning & onboarding",
-        "value": "Inkluderet gratis, når du vælger en betalt pakke eller AI-widgetten – normalpris {{setup}} kr, inkl. 1 times opfølgende support",
-        "note": "(foræret ved køb)"
+        "value": "Valgfrit tilkøb ved bestilling – en engangsbetaling fra {{setupMin}} til {{setupMax}} kr, svarende til prisen på den valgte pakke, inkl. 1 times opfølgende support",
+        "note": "(betales kun én gang, ikke inkluderet i abonnementet)"
       },
       "hourly": {
         "title": "Timepris ved ad hoc-opgaver",
@@ -244,7 +244,7 @@
         "development_price": "1.100 kr. pr. time"
       }
     },
-    "setup_included_note": "Opsætning og onboarding (normalpris {{setup}} kr) er inkluderet gratis, inkl. 1 times opfølgende support"
+    "setup_included_note": "Opsætning og onboarding kan tilkøbes for {{setup}} kr som engangsbetaling (samme pris som pakken), inkl. 1 times opfølgende support"
   },
   "cta_section": {
     "title": "Klar til at komme i gang?",
@@ -493,9 +493,9 @@
       "minutesUnit": "min.",
       "recommendedLabel": "Anbefalet pakke",
       "includedMinutes": "{{minutes}} minutter inkluderet",
-      "setupLabel": "Opsætning og onboarding er inkluderet gratis.",
-      "setupNote": "Normalpris {{price}} – du får det foræret, når du vælger en betalt pakke, inkl. 1 times opfølgende support.",
-      "setupLine": "Gratis opsætning og onboarding inkluderet",
+      "setupLabel": "Opsætning og onboarding kan tilkøbes som en valgfri engangsbetaling.",
+      "setupNote": "Valgfrit tilkøb: {{price}} som engangsbetaling – samme pris som pakken, inkl. 1 times opfølgende support.",
+      "setupLine": "Valgfri opsætning og onboarding tilgængelig",
       "aboveLargest": "Har du mere end 2.000 minutter om måneden? Så laver vi en pakke til dig – kontakt os for et tilbud.",
       "timeFreedValue": "Ca. {{hours}} timers telefontid tilbage",
       "timeFreedText": "Tid du i stedet kan bruge på at drive virksomheden. Booking, ombooking og spørgsmål bliver håndteret uden dig.",

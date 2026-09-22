@@ -99,7 +99,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Hvordan AI-widgets transformerer kundeservice | AIBooking.dk',
     meta_description_en: 'See how an AI chat and voice widget answers, qualifies and books website visitors around the clock, and where it fits best for clinics, craftsmen and webshops.',
     meta_description_da: 'Se hvordan en AI chat- og talewidget svarer, kvalificerer og booker besøgende på hjemmesiden døgnet rundt, og hvor det passer bedst for klinikker, håndværkere og webshops.',
-    keywords: ['ai widget', 'kundeservice', 'automatisering', 'booking widget', 'chatbot'],
+    keywords: ['ai widget', 'kundeservice', 'automatisering', 'booking widget', 'chatbot', 'widget til webshop', 'ai widget til shopify'],
     image_url: '/blog/covers/hvordan-ai-widgets-transformerer-kundeservice.svg',
     published: true,
     published_at: '2026-04-16',
@@ -146,7 +146,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Bedste praksis for AI-widget integration | AIBooking.dk',
     meta_description_en: 'Six practical choices that determine whether a website AI widget actually converts visitors: context, calendar integration, boundaries, tone, review and placement.',
     meta_description_da: 'Seks praktiske valg, der afgør om en AI-widget på hjemmesiden reelt konverterer besøgende: kontekst, kalenderintegration, grænser, tone, gennemgang og placering.',
-    keywords: ['ai widget', 'integration', 'bedste praksis', 'konvertering', 'booking'],
+    keywords: ['ai widget', 'integration', 'bedste praksis', 'konvertering', 'booking', 'widget til webshop', 'ai widget til shopify'],
     image_url: '/blog/covers/ai-widget-integration-bedste-praksis.svg',
     published: true,
     published_at: '2026-04-10',
@@ -193,7 +193,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI-telefonassistent: Fremtidens kundeservice | AIBooking.dk',
     meta_description_en: 'How an AI phone assistant handles inbound calls and outbound reminders in Danish, and why voice still matters alongside a website widget.',
     meta_description_da: 'Hvordan en AI-telefonassistent håndterer indgående opkald og udgående påmindelser på dansk, og hvorfor telefon stadig betyder noget ved siden af en widget på hjemmesiden.',
-    keywords: ['ai telefonassistent', 'inbound', 'outbound', 'telefon booking', 'kundeservice'],
+    keywords: ['ai telefonassistent', 'inbound', 'outbound', 'telefon booking', 'kundeservice', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/ai-telefonassistent-fremtidens-kundeservice.svg',
     published: true,
     published_at: '2026-04-05',
@@ -240,7 +240,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Komplet AI-automatisering: Widget, telefon og booking | AIBooking.dk',
     meta_description_en: 'Why connecting the website widget, phone assistant and booking calendar into one system beats running separate tools for each channel.',
     meta_description_da: 'Hvorfor det at forbinde widget, telefonassistent og bookingkalender i ét system er bedre end at køre separate værktøjer til hver kanal.',
-    keywords: ['ai automatisering', 'totalløsning', 'booking', 'widget', 'telefonassistent'],
+    keywords: ['ai automatisering', 'totalløsning', 'booking', 'widget', 'telefonassistent', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/komplet-ai-automatisering-widget-telefon-booking.svg',
     published: true,
     published_at: '2026-03-28',
@@ -289,7 +289,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'ROI af AI-automatisering for virksomheder | AIBooking.dk',
     meta_description_en: 'A practical framework for measuring the return on AI reception and booking automation: what it costs to miss a contact, and what to track before and after.',
     meta_description_da: 'En praktisk model til at måle afkastet af AI-reception og bookingautomatisering: hvad det koster at gå glip af en henvendelse, og hvad du skal måle på før og efter.',
-    keywords: ['roi', 'ai automatisering', 'virksomheder', 'booking', 'effektivitet'],
+    keywords: ['roi', 'ai automatisering', 'virksomheder', 'booking', 'effektivitet', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/roi-ai-automatisering-virksomheder.svg',
     published: true,
     published_at: '2026-03-20',
@@ -324,7 +324,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI-widget til webshops: Øg konverteringen døgnet rundt | AIBooking.dk',
     meta_description_en: 'How an AI widget on a webshop answers product, shipping and return questions in real time, reducing abandoned carts outside opening hours.',
     meta_description_da: 'Sådan svarer en AI-widget på en webshop på produkt-, leverings- og returspørgsmål i realtid og reducerer efterladte kurve uden for åbningstiden.',
-    keywords: ['ai widget', 'webshop', 'konvertering', 'e-handel', 'kundeservice'],
+    keywords: ['ai widget', 'webshop', 'konvertering', 'e-handel', 'kundeservice', 'widget til webshop', 'ai widget til shopify'],
     image_url: '/blog/covers/ai-widget-webshop-konvertering-dognet-rundt.svg',
     published: true,
     published_at: '2026-06-10',
@@ -357,7 +357,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI-widget til klinikker: Book tider uden for åbningstid | AIBooking.dk',
     meta_description_en: 'How an AI widget lets clinic patients book real appointments outside opening hours, reducing phone pressure on reception staff.',
     meta_description_da: 'Sådan lader en AI-widget klinikkens patienter booke rigtige tider uden for åbningstiden og reducerer telefonpres på receptionspersonalet.',
-    keywords: ['ai widget', 'klinik', 'booking', 'åbningstid', 'reception'],
+    keywords: ['ai widget', 'klinik', 'booking', 'åbningstid', 'reception', 'widget til webshop', 'ai widget til shopify'],
     image_url: '/blog/covers/ai-widget-klinik-book-tid-udenfor-aabningstid.svg',
     published: true,
     published_at: '2026-06-03',
@@ -400,7 +400,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: '7 fordele ved en AI-widget for mindre virksomheder | AIBooking.dk',
     meta_description_en: 'Seven concrete benefits an AI website widget brings to a small business team that already wears many hats.',
     meta_description_da: 'Syv konkrete fordele en AI-widget på hjemmesiden giver et lille virksomhedsteam, der allerede har mange kasketter på.',
-    keywords: ['ai widget', 'mindre virksomheder', 'fordele', 'automatisering'],
+    keywords: ['ai widget', 'mindre virksomheder', 'fordele', 'automatisering', 'widget til webshop', 'ai widget til shopify'],
     image_url: '/blog/covers/fordele-ai-widget-mindre-virksomheder.svg',
     published: true,
     published_at: '2026-05-27',
@@ -433,7 +433,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Sådan sparer en AI-widget dig tid – og dermed penge | AIBooking.dk',
     meta_description_en: 'Where the time spent on repetitive website enquiries actually goes, and how an AI widget hands those hours back to paying work.',
     meta_description_da: 'Hvor tiden brugt på gentagne hjemmesidehenvendelser faktisk går hen, og hvordan en AI-widget giver de timer tilbage til betalende arbejde.',
-    keywords: ['ai widget', 'tidsbesparelse', 'penge', 'effektivitet', 'produktivitet'],
+    keywords: ['ai widget', 'tidsbesparelse', 'penge', 'effektivitet', 'produktivitet', 'widget til webshop', 'ai widget til shopify'],
     image_url: '/blog/covers/ai-widget-spar-tid-spar-penge.svg',
     published: true,
     published_at: '2026-05-20',
@@ -466,7 +466,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Derfor mister du kunder til en langsom hjemmeside | AIBooking.dk',
     meta_description_en: 'How unanswered website questions quietly lose bookings to competitors, and why an always-on AI widget closes that gap.',
     meta_description_da: 'Hvordan ubesvarede spørgsmål på hjemmesiden stille mister bookinger til konkurrenter, og hvorfor en altid-tændt AI-widget lukker det hul.',
-    keywords: ['ai widget', 'miste kunder', 'konvertering', 'kundeoplevelse'],
+    keywords: ['ai widget', 'miste kunder', 'konvertering', 'kundeoplevelse', 'widget til webshop', 'ai widget til shopify'],
     image_url: '/blog/covers/miste-kunde-langsom-hjemmeside.svg',
     published: true,
     published_at: '2026-05-13',
@@ -499,7 +499,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI-widget vs. kontaktformular: Hvad konverterer bedst? | AIBooking.dk',
     meta_description_en: 'Comparing AI widgets and contact forms for website conversion, and where each one still makes sense.',
     meta_description_da: 'Sammenligning af AI-widgets og kontaktformularer for konvertering på hjemmesiden, og hvor hver især stadig giver mening.',
-    keywords: ['ai widget', 'kontaktformular', 'konvertering', 'sammenligning'],
+    keywords: ['ai widget', 'kontaktformular', 'konvertering', 'sammenligning', 'widget til webshop', 'ai widget til shopify'],
     image_url: '/blog/covers/ai-widget-vs-kontaktformular.svg',
     published: true,
     published_at: '2026-05-06',
@@ -540,7 +540,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Sådan vælger du den rigtige AI-widget til din virksomhed | AIBooking.dk',
     meta_description_en: 'A practical checklist for comparing AI widgets: calendar integration, natural Danish, human handoff, data handling, and easy upkeep.',
     meta_description_da: 'En praktisk tjekliste til at sammenligne AI-widgets: kalenderintegration, naturligt dansk, overdragelse til mennesker, databehandling og nem vedligeholdelse.',
-    keywords: ['ai widget', 'vælg widget', 'sammenligning', 'checklist'],
+    keywords: ['ai widget', 'vælg widget', 'sammenligning', 'checklist', 'widget til webshop', 'ai widget til shopify'],
     image_url: '/blog/covers/vaelg-den-rigtige-ai-widget.svg',
     published: true,
     published_at: '2026-04-29',
@@ -583,7 +583,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI-widget og GDPR: Det skal danske virksomheder vide | AIBooking.dk',
     meta_description_en: 'General GDPR considerations for Danish businesses using an AI website widget: data storage, processing agreements, deletion and transparency.',
     meta_description_da: 'Generelle GDPR-overvejelser for danske virksomheder, der bruger en AI-widget: dataopbevaring, databehandleraftaler, sletning og transparens.',
-    keywords: ['ai widget', 'gdpr', 'persondata', 'danske virksomheder'],
+    keywords: ['ai widget', 'gdpr', 'persondata', 'danske virksomheder', 'widget til webshop', 'ai widget til shopify'],
     image_url: '/blog/covers/ai-widget-gdpr-danske-virksomheder.svg',
     published: true,
     published_at: '2026-04-22',
@@ -618,7 +618,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI-telefonassistent til klinikker: Færre udeblivelser, flere bookinger | AIBooking.dk',
     meta_description_en: 'How an AI phone assistant reduces missed calls and no-shows for a clinic through consistent inbound answering and outbound reminders.',
     meta_description_da: 'Sådan reducerer en AI-telefonassistent ubesvarede opkald og udeblivelser for en klinik gennem konsekvent besvarelse og udgående påmindelser.',
-    keywords: ['ai telefonassistent', 'klinik', 'udeblivelser', 'no-show', 'booking'],
+    keywords: ['ai telefonassistent', 'klinik', 'udeblivelser', 'no-show', 'booking', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/ai-telefonassistent-klinik-udeblivelser.svg',
     published: true,
     published_at: '2026-06-07',
@@ -651,7 +651,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Aldrig mere et ubesvaret opkald: Sådan virker AI inbound | AIBooking.dk',
     meta_description_en: 'What actually happens on an AI-answered inbound call, and why it captures customers a voicemail box would lose.',
     meta_description_da: 'Hvad der faktisk sker på et AI-besvaret indgående opkald, og hvorfor det fanger kunder, en telefonsvarer ville miste.',
-    keywords: ['ai inbound', 'ubesvaret opkald', 'telefonassistent', 'kundeservice'],
+    keywords: ['ai inbound', 'ubesvaret opkald', 'telefonassistent', 'kundeservice', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/aldrig-mere-ubesvaret-opkald.svg',
     published: true,
     published_at: '2026-05-31',
@@ -684,7 +684,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Automatiske påmindelsesopkald: Sådan reducerer AI outbound no-shows | AIBooking.dk',
     meta_description_en: 'How consistent AI outbound reminder calls reduce no-shows and turn missed appointments into rebookings instead of empty slots.',
     meta_description_da: 'Sådan reducerer konsekvente AI-udgående påmindelsesopkald udeblivelser og gør glemte aftaler til ombookinger i stedet for tomme tider.',
-    keywords: ['ai outbound', 'påmindelser', 'no-show', 'udeblivelser', 'booking'],
+    keywords: ['ai outbound', 'påmindelser', 'no-show', 'udeblivelser', 'booking', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/outbound-ai-opkald-paamindelser.svg',
     published: true,
     published_at: '2026-05-24',
@@ -717,7 +717,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI-telefonassistent til håndværkere: Fang hver eneste opgaveforespørgsel | AIBooking.dk',
     meta_description_en: 'How an AI phone assistant captures job requests with address, task type and urgency for craftsmen who can\'t answer the phone mid-job.',
     meta_description_da: 'Sådan fanger en AI-telefonassistent opgaveforespørgsler med adresse, opgavetype og hastegrad for håndværkere, der ikke kan tage telefonen midt i en opgave.',
-    keywords: ['ai telefonassistent', 'håndværker', 'opgaveforespørgsel', 'inbound'],
+    keywords: ['ai telefonassistent', 'håndværker', 'opgaveforespørgsel', 'inbound', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/ai-telefonassistent-haandvaerker.svg',
     published: true,
     published_at: '2026-05-17',
@@ -750,7 +750,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI-telefonassistent vs. telefonsvarer: Hvorfor kunder lægger på | AIBooking.dk',
     meta_description_en: 'Why callers hang up on voicemail but stay on the line with an AI phone assistant, and what that means for missed business.',
     meta_description_da: 'Hvorfor opkaldere lægger på ved telefonsvareren, men bliver på linjen hos en AI-telefonassistent, og hvad det betyder for tabt forretning.',
-    keywords: ['ai telefonassistent', 'telefonsvarer', 'kundeoplevelse', 'inbound'],
+    keywords: ['ai telefonassistent', 'telefonsvarer', 'kundeoplevelse', 'inbound', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/ai-telefon-vs-telefonsvarer.svg',
     published: true,
     published_at: '2026-05-10',
@@ -783,7 +783,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Tid er penge: AI-telefonassistent for mindre firmaer | AIBooking.dk',
     meta_description_en: 'How routine phone interruptions cost a small business owner real hours each week, and how an AI phone assistant gives that time back.',
     meta_description_da: 'Hvordan rutinemæssige telefonafbrydelser koster en mindre virksomhedsejer reelle timer hver uge, og hvordan en AI-telefonassistent giver den tid tilbage.',
-    keywords: ['ai telefonassistent', 'mindre virksomheder', 'tidsbesparelse', 'penge'],
+    keywords: ['ai telefonassistent', 'mindre virksomheder', 'tidsbesparelse', 'penge', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/sma-virksomheder-telefon-tid-penge.svg',
     published: true,
     published_at: '2026-05-03',
@@ -816,7 +816,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Naturligt dansk i telefonen: Hvordan AI-stemmeassistenter fungerer | AIBooking.dk',
     meta_description_en: 'Why understanding casual, natural Danish matters more than word recognition for an AI phone assistant, and how it affects call completion.',
     meta_description_da: 'Hvorfor forståelse af afslappet, naturligt dansk betyder mere end ordgenkendelse for en AI-telefonassistent, og hvordan det påvirker gennemførte opkald.',
-    keywords: ['ai telefonassistent', 'dansk sprog', 'stemmeassistent', 'naturligt sprog'],
+    keywords: ['ai telefonassistent', 'dansk sprog', 'stemmeassistent', 'naturligt sprog', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/ai-telefonassistent-dansk-sprog.svg',
     published: true,
     published_at: '2026-04-26',
@@ -851,7 +851,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Inbound og outbound AI-opkald: Hvad er forskellen? | AIBooking.dk',
     meta_description_en: 'The practical difference between inbound and outbound AI phone assistance, and how to decide which one your business needs first.',
     meta_description_da: 'Den praktiske forskel på inbound og outbound AI-telefonassistance, og hvordan du beslutter, hvad din virksomhed har brug for først.',
-    keywords: ['ai inbound', 'ai outbound', 'forskel', 'telefonassistent'],
+    keywords: ['ai inbound', 'ai outbound', 'forskel', 'telefonassistent', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/inbound-outbound-forskel.svg',
     published: true,
     published_at: '2026-04-19',
@@ -884,7 +884,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI-telefonassistent til kontor og administration | AIBooking.dk',
     meta_description_en: 'How an AI phone assistant reduces routine call interruptions for office and admin teams, protecting focused work time.',
     meta_description_da: 'Sådan reducerer en AI-telefonassistent rutinemæssige opkaldsafbrydelser for kontor- og administrationsteams og beskytter fokuseret arbejdstid.',
-    keywords: ['ai telefonassistent', 'kontor', 'administration', 'produktivitet'],
+    keywords: ['ai telefonassistent', 'kontor', 'administration', 'produktivitet', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/ai-telefonassistent-kontor-administration.svg',
     published: true,
     published_at: '2026-04-12',
@@ -919,7 +919,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Aldrig mist en kunde igen: AI-automatisering på tværs af alle kontaktpunkter | AIBooking.dk',
     meta_description_en: 'How a connected AI system closes the gaps between website, phone and reminders where customers actually get lost.',
     meta_description_da: 'Sådan lukker et forbundet AI-system hullerne mellem hjemmeside, telefon og påmindelser, hvor kunder faktisk går tabt.',
-    keywords: ['ai automatisering', 'miste kunder', 'totalløsning', 'kundeoplevelse'],
+    keywords: ['ai automatisering', 'miste kunder', 'totalløsning', 'kundeoplevelse', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/aldrig-mist-en-kunde-igen.svg',
     published: true,
     published_at: '2026-05-28',
@@ -952,7 +952,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI-totalløsning til webshops | AIBooking.dk',
     meta_description_en: 'How connecting the widget, phone assistant and order data into one system helps webshop customers move between channels seamlessly.',
     meta_description_da: 'Sådan hjælper det at forbinde widget, telefonassistent og ordredata i ét system webshopkunder med at skifte mellem kanaler gnidningsfrit.',
-    keywords: ['ai totalløsning', 'webshop', 'e-handel', 'automatisering'],
+    keywords: ['ai totalløsning', 'webshop', 'e-handel', 'automatisering', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/totalloesning-webshop.svg',
     published: true,
     published_at: '2026-05-21',
@@ -987,7 +987,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI-totalløsning til klinikker | AIBooking.dk',
     meta_description_en: 'Mapping a patient journey from widget chat to booking, reminder and follow-up, and what a connected AI system changes at each step.',
     meta_description_da: 'Kortlægning af en patientrejse fra widget-chat til booking, påmindelse og opfølgning, og hvad et forbundet AI-system ændrer i hvert trin.',
-    keywords: ['ai totalløsning', 'klinik', 'patientrejse', 'booking'],
+    keywords: ['ai totalløsning', 'klinik', 'patientrejse', 'booking', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/totalloesning-klinik.svg',
     published: true,
     published_at: '2026-05-14',
@@ -1020,7 +1020,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Lille virksomhed, stor virkning: AI-automatisering for mindre firmaer | AIBooking.dk',
     meta_description_en: 'Why small businesses often need AI reception automation more than large ones, and what consistent coverage actually gives back.',
     meta_description_da: 'Hvorfor mindre virksomheder ofte har mere brug for AI-receptionsautomatisering end store, og hvad konsekvent dækning faktisk giver tilbage.',
-    keywords: ['ai automatisering', 'mindre virksomheder', 'totalløsning', 'reception'],
+    keywords: ['ai automatisering', 'mindre virksomheder', 'totalløsning', 'reception', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/mindre-virksomhed-stor-virkning-ai.svg',
     published: true,
     published_at: '2026-05-07',
@@ -1053,7 +1053,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Frigør tid er penge: Regnestykket bag AI-automatisering | AIBooking.dk',
     meta_description_en: 'A simple framework for estimating the value of hours freed up by AI automation, and why that value only materializes when the time is redirected.',
     meta_description_da: 'En simpel model til at estimere værdien af timer frigjort af AI-automatisering, og hvorfor værdien først materialiserer sig, når tiden bliver omdirigeret.',
-    keywords: ['ai automatisering', 'tid er penge', 'roi', 'effektivitet'],
+    keywords: ['ai automatisering', 'tid er penge', 'roi', 'effektivitet', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/frigoer-tid-er-penge.svg',
     published: true,
     published_at: '2026-04-30',
@@ -1086,7 +1086,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Voks din virksomhed uden flere ansatte til telefonen | AIBooking.dk',
     meta_description_en: 'How AI automation absorbs the growth in routine calls and bookings so a business can scale contact volume without scaling headcount.',
     meta_description_da: 'Sådan opsuger AI-automatisering væksten i rutineopkald og bookinger, så en virksomhed kan skalere kontaktvolumen uden at skalere antallet af ansatte.',
-    keywords: ['ai automatisering', 'vækst', 'skalering', 'totalløsning'],
+    keywords: ['ai automatisering', 'vækst', 'skalering', 'totalløsning', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/automatisering-uden-flere-medarbejdere.svg',
     published: true,
     published_at: '2026-04-23',
@@ -1119,7 +1119,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Bedre kundeoplevelse med AI: Konsistens på tværs af kanaler | AIBooking.dk',
     meta_description_en: 'Why consistent information across widget, phone and follow-up matters more for customer trust than any single channel being impressive.',
     meta_description_da: 'Hvorfor konsistent information på tværs af widget, telefon og opfølgning betyder mere for kundetillid end at én kanal er imponerende.',
-    keywords: ['ai automatisering', 'kundeoplevelse', 'konsistens', 'totalløsning'],
+    keywords: ['ai automatisering', 'kundeoplevelse', 'konsistens', 'totalløsning', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/kundeoplevelse-ai-automatisering.svg',
     published: true,
     published_at: '2026-04-16',
@@ -1160,7 +1160,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Kom i gang med AI-automatisering: Trin-for-trin guide | AIBooking.dk',
     meta_description_en: 'A practical, low-risk rollout order for AI reception automation: calendar first, then phone, then widget, then reminders.',
     meta_description_da: 'En praktisk, lavrisiko-rækkefølge til udrulning af AI-receptionsautomatisering: kalender først, så telefon, så widget, så påmindelser.',
-    keywords: ['ai automatisering', 'kom i gang', 'guide', 'totalløsning'],
+    keywords: ['ai automatisering', 'kom i gang', 'guide', 'totalløsning', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/kom-i-gang-ai-automatisering-trin-for-trin.svg',
     published: true,
     published_at: '2026-04-09',
@@ -1249,7 +1249,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI widget til hjemmeside: Komplet guide 2026 | AIBooking.dk',
     meta_description_en: 'What an AI widget is, how it differs from a chatbot, how voice, booking and Shopify orders work — and how to choose the right AI widget for your website.',
     meta_description_da: 'Hvad er en AI widget, og hvordan adskiller den sig fra en chatbot? Se hvordan tale, booking og Shopify-ordrer virker — og vælg den rigtige AI widget til din hjemmeside.',
-    keywords: ['ai widget', 'ai widget til hjemmeside', 'ai voice widget', 'ai chatbot dansk', 'booking widget', 'ai til hjemmeside', 'shopify ai widget'],
+    keywords: ['ai widget', 'ai widget til hjemmeside', 'ai voice widget', 'ai chatbot dansk', 'booking widget', 'ai til hjemmeside', 'shopify ai widget', 'widget til webshop', 'ai widget til shopify'],
     image_url: '/blog/covers/ai-widget-hjemmeside-komplet-guide.svg',
     published: true,
     published_at: '2026-09-22',
@@ -1331,7 +1331,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'Automatisering af Shopify med AI – kundeservice & ordrer | AIBooking.dk',
     meta_description_en: 'Automate your Shopify store with AI: answer order tracking, stock and product questions, handle reorders and sell by voice — 24/7, directly from live Shopify data.',
     meta_description_da: 'Automatisér din Shopify-butik med AI: besvar ordresporing, lager- og produktspørgsmål, håndtér genbestillinger og sælg med stemmen — døgnet rundt fra live Shopify-data.',
-    keywords: ['shopify ai', 'automatisering af shopify', 'shopify ai automatisering', 'shopify chatbot', 'ai kundeservice webshop', 'ai ordresporing', 'shopify voice assistant', 'ai widget webshop'],
+    keywords: ['shopify ai', 'automatisering af shopify', 'shopify ai automatisering', 'shopify chatbot', 'ai kundeservice webshop', 'ai ordresporing', 'shopify voice assistant', 'ai widget webshop', 'widget til webshop', 'ai widget til shopify'],
     image_url: '/blog/covers/shopify-ai-automatisering.svg',
     published: true,
     published_at: '2026-09-21',
@@ -1388,7 +1388,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI til hjemmeside: 7 måder at bruge AI på din side | AIBooking.dk',
     meta_description_en: 'Seven concrete ways to use AI on your website: instant answers, 24/7 booking, lead capture, voice, webshop support, multiple languages and a connected phone.',
     meta_description_da: 'Syv konkrete måder at bruge AI på din hjemmeside: øjeblikkelige svar, booking døgnet rundt, leads, tale, webshop-support, flere sprog og forbundet telefon.',
-    keywords: ['ai til hjemmeside', 'ai på hjemmesiden', 'ai hjemmeside', 'ai widget', 'ai chatbot hjemmeside', 'ai booking hjemmeside'],
+    keywords: ['ai til hjemmeside', 'ai på hjemmesiden', 'ai hjemmeside', 'ai widget', 'ai chatbot hjemmeside', 'ai booking hjemmeside', 'widget til webshop', 'ai widget til shopify'],
     image_url: '/blog/covers/ai-til-hjemmeside.svg',
     published: true,
     published_at: '2026-09-20',
@@ -1449,7 +1449,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI reception: Sådan virker en virtuel AI-receptionist | AIBooking.dk',
     meta_description_en: 'An AI reception answers calls, website chats and bookings 24/7 and books directly in your calendar. See how it works and who it is for.',
     meta_description_da: 'En AI reception besvarer opkald, chats og bookinger døgnet rundt og booker direkte i din kalender. Se hvordan en virtuel AI-receptionist virker, og hvem den passer til.',
-    keywords: ['ai reception', 'ai receptionist', 'virtuel receptionist', 'virtuel reception', 'ai telefonpasning', 'digital reception'],
+    keywords: ['ai reception', 'ai receptionist', 'virtuel receptionist', 'virtuel reception', 'ai telefonpasning', 'digital reception', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/ai-reception-virtuel-receptionist.svg',
     published: true,
     published_at: '2026-09-19',
@@ -1510,7 +1510,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI til indgående opkald – besvar alle opkald 24/7 | AIBooking.dk',
     meta_description_en: 'AI for inbound calls answers every call in natural Danish, books in your calendar, takes messages and forwards urgent calls. Forward your number and try it free.',
     meta_description_da: 'AI til indgående opkald besvarer hvert opkald på naturligt dansk, booker i din kalender, tager beskeder og viderestiller akutte opkald. Viderestil dit nummer og prøv gratis.',
-    keywords: ['ai indgående opkald', 'ai til indgående opkald', 'ai telefonassistent', 'ai telefonpasning', 'automatisk telefonpasning', 'ai voice agent dansk'],
+    keywords: ['ai indgående opkald', 'ai til indgående opkald', 'ai telefonassistent', 'ai telefonpasning', 'automatisk telefonpasning', 'ai voice agent dansk', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/ai-indgaaende-opkald.svg',
     published: true,
     published_at: '2026-09-18',
@@ -1574,7 +1574,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI kundeservice: Hurtigere svar døgnet rundt | AIBooking.dk',
     meta_description_en: 'AI customer service on phone, website chat, voice and webshop: instant, consistent answers 24/7 and more time for your team. See how to get started.',
     meta_description_da: 'AI kundeservice på telefon, chat, tale og webshop: øjeblikkelige, ensartede svar døgnet rundt og mere tid til dit team. Se fordele, bedste praksis og kom i gang.',
-    keywords: ['ai kundeservice', 'kundeservice ai', 'ai i kundeservice', 'automatisk kundeservice', 'ai chatbot kundeservice', 'kundeservice automatisering'],
+    keywords: ['ai kundeservice', 'kundeservice ai', 'ai i kundeservice', 'automatisk kundeservice', 'ai chatbot kundeservice', 'kundeservice automatisering', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/ai-kundeservice.svg',
     published: true,
     published_at: '2026-09-17',
@@ -1629,7 +1629,7 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI medarbejder: Din digitale kollega døgnet rundt | AIBooking.dk',
     meta_description_en: 'An AI employee answers calls, website chats and bookings and follows up with customers 24/7. See which tasks it can take over and how to get started.',
     meta_description_da: 'En AI medarbejder tager telefonen, besvarer chats, booker tider og følger op med kunder døgnet rundt. Se hvilke opgaver den kan overtage, og hvordan du kommer i gang.',
-    keywords: ['ai medarbejder', 'digital medarbejder', 'ai assistent virksomhed', 'virtuel medarbejder', 'ai kollega', 'ai automatisering'],
+    keywords: ['ai medarbejder', 'digital medarbejder', 'ai assistent virksomhed', 'virtuel medarbejder', 'ai kollega', 'ai automatisering', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/ai-medarbejder.svg',
     published: true,
     published_at: '2026-09-16',
@@ -1687,10 +1687,223 @@ export const blogPosts: BlogPost[] = [
     meta_title_da: 'AI i Danmark: Sådan bruger danske virksomheder AI | AIBooking.dk',
     meta_description_en: 'How small and medium-sized Danish businesses use AI in 2026 — reception, phone, website widget, webshops and customer service — and what to look for in a Danish AI solution.',
     meta_description_da: 'Sådan bruger danske virksomheder AI i 2026 — reception, telefon, AI widget, webshops og kundeservice — og hvad du skal kigge efter i en dansk AI-løsning med GDPR og dansk sprog.',
-    keywords: ['ai danmark', 'ai i danmark', 'dansk ai', 'ai løsning danmark', 'ai til virksomheder', 'ai smv'],
+    keywords: ['ai danmark', 'ai i danmark', 'dansk ai', 'ai løsning danmark', 'ai til virksomheder', 'ai smv', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/ai-i-danmark.svg',
     published: true,
     published_at: '2026-09-15',
+  },
+  {
+    id: 'ai-telefonpasning-dansk-ai-receptionist',
+    slug: 'ai-telefonpasning-dansk-ai-receptionist',
+    categorySlug: 'ai-inbound-outbound',
+    title_en: 'AI Phone Answering: Let a Danish AI Receptionist Take Your Calls',
+    title_da: 'AI-telefonpasning: Lad en dansk AI-receptionist tage telefonen',
+    excerpt_en: 'AI phone answering means every call is picked up, understood and handled — by an AI receptionist that speaks natural Danish, books in your calendar and never has a lunch break.',
+    excerpt_da: 'Med AI-telefonpasning bliver hvert opkald taget, forstået og håndteret — af en dansk AI-receptionist, der taler naturligt dansk, booker i din kalender og aldrig holder frokostpause.',
+    content_en: `
+      <p>Traditional phone answering services mean a stranger reading from a script, or a voicemail nobody listens to until the next morning. <strong>AI phone answering</strong> is different: an AI receptionist that knows your business answers every call, understands what the caller needs and gets it done — in natural Danish.</p>
+      <div class="blog-cta"><strong>Hear it for yourself</strong><p>Call our demo line and talk to the AI receptionist live — or start a free 7-day trial with credit for real calls.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Start free trial</a><a href="/demo">Book a demo</a></div></div>
+      <h2>What is AI phone answering?</h2>
+      <p>You forward your business number to the AI — always, when busy or outside opening hours. The AI receptionist answers, identifies why the customer is calling and handles it:</p>
+      <ul>
+        <li><strong>Books, reschedules and cancels</strong> directly in Google Calendar or Outlook.</li>
+        <li><strong>Answers questions</strong> about prices, opening hours, services and directions.</li>
+        <li><strong>Takes structured messages</strong> and forwards urgent calls to a person.</li>
+        <li><strong>Sends confirmations</strong> by SMS and email afterwards.</li>
+        <li><strong>Logs everything</strong>: recording, transcript and summary in your dashboard.</li>
+      </ul>
+      <h2>Why a Danish AI receptionist?</h2>
+      <p>Many AI voice tools are built for English and translated as an afterthought. Your customers notice. A Danish AI receptionist understands Danish names, addresses, dialects and the way Danes actually phrase things — and answers with a natural Danish voice. Read more in <a href="/blog/ai-telefonassistent-dansk-sprog">AI phone assistant in Danish</a>.</p>
+      <h2>AI phone answering vs. a traditional answering service</h2>
+      <ol>
+        <li><strong>Knows your business:</strong> trained on your services and rules, not a generic script.</li>
+        <li><strong>Books for real:</strong> it writes directly in your calendar, instead of passing on a note.</li>
+        <li><strong>Handles peaks:</strong> many calls at once, no queue.</li>
+        <li><strong>24/7:</strong> evenings, weekends and holidays included.</li>
+      </ol>
+      <div class="blog-cta"><strong>Never miss a call again</strong><p>See how AI phone answering works for inbound and outbound calls.</p><div class="blog-cta-actions"><a class="primary" href="/ind-og-udgaaende-opkald">See AI phone answering</a><a href="/proeveperiode">Try free for 7 days</a></div></div>
+      <h2>Who benefits most?</h2>
+      <p><a href="/klinik">Clinics</a> that can't answer during treatments, <a href="/haandvaerker">craftsmen</a> on a job, <a href="/kontor">offices</a> with busy mornings and <a href="/webshop">webshops</a> that get order calls. Combine it with the <a href="/widget">AI widget</a> on your website for one AI reception across every channel.</p>
+      <div class="blog-cta"><strong>Ready to get your Danish AI receptionist?</strong><p>Forward your number, and the AI takes the next call. No commitment, no credit card.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Get started free</a><a href="/kontakt">Talk to us</a></div></div>
+    `,
+    content_da: `
+      <p>Klassisk telefonpasning betyder en fremmed, der læser op fra et manuskript — eller en telefonsvarer, som ingen lytter til før næste morgen. <strong>AI-telefonpasning</strong> er noget andet: en AI-receptionist, der kender din virksomhed, tager hvert opkald, forstår hvad kunden vil og får det klaret — på naturligt dansk.</p>
+      <div class="blog-cta"><strong>Hør det selv</strong><p>Ring til vores demolinje og tal med AI-receptionisten live — eller start en gratis 7-dages prøveperiode med credit til rigtige opkald.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Start gratis prøveperiode</a><a href="/demo">Book en demo</a></div></div>
+      <h2>Hvad er AI-telefonpasning?</h2>
+      <p>Du viderestiller dit firmanummer til AI'en — altid, ved optaget eller uden for åbningstid. Den danske AI-receptionist tager telefonen, finder ud af hvorfor kunden ringer og håndterer det:</p>
+      <ul>
+        <li><strong>Booker, ombooker og aflyser</strong> direkte i Google Kalender eller Outlook.</li>
+        <li><strong>Svarer på spørgsmål</strong> om priser, åbningstider, ydelser og vejvisning.</li>
+        <li><strong>Tager strukturerede beskeder</strong> og viderestiller akutte opkald til et menneske.</li>
+        <li><strong>Sender bekræftelser</strong> på SMS og email bagefter.</li>
+        <li><strong>Logger alt</strong>: optagelse, transskription og resumé i dit dashboard.</li>
+      </ul>
+      <h2>Hvorfor en dansk AI-receptionist?</h2>
+      <p>Mange AI-stemmeværktøjer er bygget til engelsk og oversat bagefter. Det kan kunderne høre. En dansk AI-receptionist forstår danske navne, adresser, dialekter og den måde, danskere faktisk formulerer sig på — og svarer med en naturlig dansk stemme. Læs mere i <a href="/blog/ai-telefonassistent-dansk-sprog">AI-telefonassistent på dansk</a>.</p>
+      <h2>AI-telefonpasning vs. traditionel telefonpasning</h2>
+      <ol>
+        <li><strong>Kender din virksomhed:</strong> trænet på dine ydelser og regler, ikke et generelt manuskript.</li>
+        <li><strong>Booker for alvor:</strong> skriver direkte i din kalender i stedet for at sende en seddel videre.</li>
+        <li><strong>Klarer spidsbelastning:</strong> mange opkald på én gang, ingen telefonkø.</li>
+        <li><strong>Døgnet rundt:</strong> aftener, weekender og helligdage inklusive.</li>
+        <li><strong>Fuldt overblik:</strong> du kan læse og lytte til hver samtale bagefter.</li>
+      </ol>
+      <div class="blog-cta"><strong>Gå aldrig glip af et opkald igen</strong><p>Se hvordan AI-telefonpasning fungerer for både indgående og udgående opkald.</p><div class="blog-cta-actions"><a class="primary" href="/ind-og-udgaaende-opkald">Se AI-telefonpasning</a><a href="/proeveperiode">Prøv gratis i 7 dage</a></div></div>
+      <h2>Sådan kommer du i gang på én dag</h2>
+      <ol>
+        <li><strong>Opret en gratis konto</strong> — intet betalingskort.</li>
+        <li><strong>Kort onboarding-møde</strong>, hvor AI-receptionisten lærer dine ydelser, priser og regler.</li>
+        <li><strong>Forbind kalenderen</strong>, så den kan booke direkte.</li>
+        <li><strong>Viderestil dit nummer</strong> — og det næste opkald bliver taget af AI'en.</li>
+      </ol>
+      <h2>Hvem får mest ud af AI-telefonpasning?</h2>
+      <p><a href="/klinik">Klinikker</a>, der ikke kan tage telefonen under behandlinger, <a href="/haandvaerker">håndværkere</a> ude på en opgave, <a href="/kontor">kontorer</a> med travle formiddage og <a href="/webshop">webshops</a>, der får opkald om ordrer. Kombinér det med <a href="/widget">AI widgeten</a> på hjemmesiden, så du har én samlet AI reception på alle kanaler. Læs også <a href="/blog/ai-reception-virtuel-receptionist">AI reception: sådan virker en virtuel receptionist</a>.</p>
+      <h2>Ofte stillede spørgsmål</h2>
+      <h3>Kan kunderne høre, at det er en AI?</h3>
+      <p>Stemmen er naturlig og taler flydende dansk. Mange kunder opdager det ikke — og dem, der gør, sætter pris på, at de fik svar med det samme.</p>
+      <h3>Hvad sker der med opkald, AI'en ikke kan klare?</h3>
+      <p>Du bestemmer reglerne. Akutte eller komplekse opkald kan viderestilles til dig, eller AI'en tager en besked med alle detaljer.</p>
+      <div class="blog-cta"><strong>Klar til din danske AI-receptionist?</strong><p>Viderestil dit nummer, og AI'en tager det næste opkald. Ingen binding, intet betalingskort.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Kom i gang gratis</a><a href="/kontakt">Tal med os</a></div></div>
+    `,
+    meta_title_en: 'AI Phone Answering with a Danish AI Receptionist | AIBooking.dk',
+    meta_title_da: 'AI-telefonpasning med dansk AI-receptionist | AIBooking.dk',
+    meta_description_en: 'AI phone answering: a Danish AI receptionist answers every call, books in your calendar, takes messages and forwards urgent calls — 24/7. Try it free for 7 days.',
+    meta_description_da: 'AI-telefonpasning: en dansk AI-receptionist tager hvert opkald, booker i din kalender, tager beskeder og viderestiller akutte opkald — døgnet rundt. Prøv gratis i 7 dage.',
+    keywords: ['ai-telefonpasning', 'ai telefonpasning', 'dansk ai-receptionist', 'ai receptionist dansk', 'telefonpasning', 'virtuel receptionist', 'ai reception'],
+    image_url: '/blog/covers/ai-telefonpasning-dansk-ai-receptionist.svg',
+    published: true,
+    published_at: '2026-09-23',
+  },
+  {
+    id: 'widget-til-webshop',
+    slug: 'widget-til-webshop',
+    categorySlug: 'ai-widget',
+    title_en: 'Webshop Widget: How an AI Widget Sells More and Lightens Customer Service',
+    title_da: 'Widget til webshop: Sådan sælger en AI widget mere og aflaster kundeservicen',
+    excerpt_en: 'A webshop widget with AI answers product questions, tracks orders and helps customers finish their purchase — on WooCommerce, Magento, Shopify and more.',
+    excerpt_da: 'En widget til webshop med AI svarer på produktspørgsmål, sporer ordrer og hjælper kunderne med at gennemføre købet — på WooCommerce, Magento, Shopify og flere.',
+    content_en: `
+      <p>Most webshops already have some kind of chat. The problem is that it's either staffed only during office hours or runs a rigid decision tree that frustrates customers. A <strong>webshop widget with AI</strong> answers like your best employee — instantly, around the clock.</p>
+      <div class="blog-cta"><strong>See the webshop widget in action</strong><p>Try the AI widget and see how it answers order and product questions by voice and text.</p><div class="blog-cta-actions"><a class="primary" href="/widget">See the AI widget</a><a href="/proeveperiode">Try free for 7 days</a></div></div>
+      <h2>What a webshop widget does</h2>
+      <ul>
+        <li><strong>Order status:</strong> "Where is my parcel?" answered from live order data.</li>
+        <li><strong>Product help:</strong> sizes, materials, stock and delivery times.</li>
+        <li><strong>Reorders:</strong> returning customers reorder in the conversation.</li>
+        <li><strong>Returns:</strong> consistent answers from your own policy.</li>
+        <li><strong>Voice:</strong> customers can simply speak on mobile.</li>
+      </ul>
+      <h2>Why it sells more</h2>
+      <p>A customer with an unanswered question often leaves the cart. Instant answers remove that doubt at the moment of purchase. Read <a href="/blog/ai-widget-webshop-konvertering-dognet-rundt">AI widget for webshops: conversion around the clock</a>.</p>
+      <div class="blog-cta"><strong>Running Shopify?</strong><p>The AI widget connects directly to your Shopify store.</p><div class="blog-cta-actions"><a class="primary" href="/blog/ai-widget-til-shopify">AI widget for Shopify</a><a href="/webshop">AI for webshops</a></div></div>
+      <h2>Platforms</h2>
+      <p>WooCommerce, Magento, Wix, Squarespace, custom shops and <a href="/blog/ai-widget-til-shopify">Shopify</a> with the deepest integration.</p>
+      <div class="blog-cta"><strong>Put AI to work in your webshop</strong><p>Free for 7 days, no credit card, no commitment.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Start free trial</a><a href="/demo">Book a demo</a></div></div>
+    `,
+    content_da: `
+      <p>De fleste webshops har allerede en form for chat. Problemet er, at den enten kun er bemandet i kontortiden, eller kører et stift beslutningstræ, der frustrerer kunderne. En <strong>widget til webshop med AI</strong> svarer som din bedste medarbejder — med det samme, døgnet rundt.</p>
+      <div class="blog-cta"><strong>Se webshop-widgeten i aktion</strong><p>Prøv AI widgeten og se, hvordan den besvarer ordre- og produktspørgsmål med tale og tekst.</p><div class="blog-cta-actions"><a class="primary" href="/widget">Se AI widgeten</a><a href="/proeveperiode">Prøv gratis i 7 dage</a></div></div>
+      <h2>Hvad gør en widget til webshop?</h2>
+      <ul>
+        <li><strong>Ordrestatus:</strong> "Hvor er min pakke?" besvares ud fra live ordredata.</li>
+        <li><strong>Produkthjælp:</strong> størrelser, materialer, lager og leveringstider.</li>
+        <li><strong>Genbestilling:</strong> faste kunder bestiller igen direkte i samtalen.</li>
+        <li><strong>Returnering:</strong> ensartede svar ud fra din egen returpolitik.</li>
+        <li><strong>Tale:</strong> kunderne kan bare tale — perfekt på mobilen.</li>
+        <li><strong>Overdragelse:</strong> klager og særtilfælde sendes videre til dit team med resumé.</li>
+      </ul>
+      <h2>Hvorfor en AI widget sælger mere</h2>
+      <p>En kunde med et ubesvaret spørgsmål forlader ofte kurven. Et øjeblikkeligt svar fjerner tvivlen i selve købsøjeblikket — også kl. 23, hvor mange handler, men ingen sidder i kundeservice. Læs <a href="/blog/ai-widget-webshop-konvertering-dognet-rundt">AI widget til webshop: konvertering døgnet rundt</a>.</p>
+      <h2>Hvorfor den aflaster kundeservicen</h2>
+      <p>En stor del af henvendelserne til en webshop er de samme få spørgsmål. Når widgeten tager dem, får dit team tid til indkøb, marketing og de sager, der reelt kræver et menneske. Se også <a href="/blog/ai-kundeservice">AI kundeservice</a>.</p>
+      <div class="blog-cta"><strong>Kører du Shopify?</strong><p>AI widgeten forbindes direkte til din Shopify-butik og henter produkter, lager og ordrer automatisk.</p><div class="blog-cta-actions"><a class="primary" href="/blog/ai-widget-til-shopify">AI widget til Shopify</a><a href="/webshop">AI til webshops</a></div></div>
+      <h2>Sådan vælger du den rigtige widget til din webshop</h2>
+      <ol>
+        <li><strong>Live data:</strong> den skal kunne læse ordrer og lager, ikke kun en FAQ.</li>
+        <li><strong>Dansk sprog:</strong> naturligt dansk i både tekst og tale.</li>
+        <li><strong>Tale og tekst:</strong> begge dele i samme widget.</li>
+        <li><strong>Nem installation:</strong> ét kodestykke i dit tema.</li>
+        <li><strong>GDPR:</strong> databehandling efter EU-reglerne — læs <a href="/blog/ai-widget-gdpr-danske-virksomheder">AI widget og GDPR</a>.</li>
+      </ol>
+      <h2>Hvilke platforme understøttes?</h2>
+      <p>WooCommerce, Magento, Wix, Squarespace, specialbyggede shops — og <a href="/blog/ai-widget-til-shopify">Shopify</a> med den dybeste integration. Se alle <a href="/integrationer">integrationer</a>.</p>
+      <div class="blog-cta"><strong>Sæt AI i arbejde i din webshop</strong><p>Gratis i 7 dage, intet betalingskort, ingen binding.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Start gratis prøveperiode</a><a href="/demo">Book en demo</a></div></div>
+    `,
+    meta_title_en: 'Webshop Widget with AI: Sell More, Answer Faster | AIBooking.dk',
+    meta_title_da: 'Widget til webshop med AI – sælg mere, svar hurtigere | AIBooking.dk',
+    meta_description_en: 'A webshop widget with AI answers product and order questions, tracks parcels and handles reorders 24/7 — on WooCommerce, Magento, Shopify and more.',
+    meta_description_da: 'En widget til webshop med AI svarer på produkt- og ordrespørgsmål, sporer pakker og håndterer genbestillinger døgnet rundt — på WooCommerce, Magento, Shopify m.fl.',
+    keywords: ['widget til webshop', 'webshop widget', 'ai widget webshop', 'chat til webshop', 'webshop chatbot', 'ai kundeservice webshop', 'woocommerce chatbot', 'ai widget til shopify'],
+    image_url: '/blog/covers/widget-til-webshop.svg',
+    published: true,
+    published_at: '2026-09-23',
+  },
+  {
+    id: 'ai-widget-til-shopify',
+    slug: 'ai-widget-til-shopify',
+    categorySlug: 'ai-widget',
+    title_en: 'AI Widget for Shopify: Add an AI Assistant to Your Shopify Store',
+    title_da: 'AI widget til Shopify: Sådan får du en AI-assistent i din Shopify-butik',
+    excerpt_en: 'An AI widget for Shopify reads your products, stock and orders directly from Shopify and answers customers by voice and text — here is how to set it up.',
+    excerpt_da: 'En AI widget til Shopify læser produkter, lager og ordrer direkte fra Shopify og svarer kunderne med tale og tekst — her er, hvordan du sætter den op.',
+    content_en: `
+      <p>Shopify makes it easy to sell online — but every order creates questions. An <strong>AI widget for Shopify</strong> answers them automatically, using live data from your store.</p>
+      <div class="blog-cta"><strong>Connect your Shopify store today</strong><p>Free 7-day trial, set up in a short onboarding meeting.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Start free trial</a><a href="/widget">See the AI widget</a></div></div>
+      <h2>What the AI widget does in Shopify</h2>
+      <ul>
+        <li>Answers product questions from your Shopify catalogue.</li>
+        <li>Checks live stock before answering.</li>
+        <li>Tracks orders and answers "where is my parcel?".</li>
+        <li>Lets returning customers reorder in the chat.</li>
+        <li>Talks with customers by voice as well as text.</li>
+      </ul>
+      <h2>Setup in four steps</h2>
+      <ol>
+        <li>Create a free account.</li>
+        <li>Connect your Shopify store in the dashboard.</li>
+        <li>Paste the widget snippet into your theme.</li>
+        <li>Adjust tone, rules and hand-off to your team.</li>
+      </ol>
+      <div class="blog-cta"><strong>Want to see it on a real store?</strong><p>Book a demo and we'll show the widget on Shopify.</p><div class="blog-cta-actions"><a class="primary" href="/demo">Book a demo</a><a href="/webshop">AI for webshops</a></div></div>
+      <p>Read the broader guide: <a href="/blog/shopify-ai-automatisering">automating Shopify with AI</a>.</p>
+      <div class="blog-cta"><strong>Your Shopify store, answered 24/7</strong><p>No commitment, no credit card.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Try free for 7 days</a><a href="/kontakt">Contact us</a></div></div>
+    `,
+    content_da: `
+      <p>Shopify gør det nemt at sælge online — men hver ordre skaber spørgsmål. En <strong>AI widget til Shopify</strong> besvarer dem automatisk ud fra live data fra din butik, så dine kunder får svar med det samme, og du slipper for de samme mails igen og igen.</p>
+      <div class="blog-cta"><strong>Forbind din Shopify-butik i dag</strong><p>Gratis 7-dages prøveperiode — sat op på et kort onboarding-møde.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Start gratis prøveperiode</a><a href="/widget">Se AI widgeten</a></div></div>
+      <h2>Hvad kan AI widgeten i Shopify?</h2>
+      <ul>
+        <li><strong>Produktspørgsmål:</strong> svarer ud fra dit Shopify-katalog — pris, varianter, materialer.</li>
+        <li><strong>Lagerstatus:</strong> tjekker live lager, før den lover noget.</li>
+        <li><strong>Ordresporing:</strong> besvarer "hvor er min pakke?" ud fra ordrens status.</li>
+        <li><strong>Genbestilling:</strong> faste kunder bestiller igen direkte i chatten.</li>
+        <li><strong>Tale og tekst:</strong> kunderne kan skrive eller bare tale.</li>
+        <li><strong>Booking:</strong> tilbyder du rådgivning, fitting eller afhentning, kan den også booke tider i din kalender.</li>
+      </ul>
+      <h2>Sådan sætter du AI widgeten op i Shopify</h2>
+      <ol>
+        <li><strong>Opret en gratis konto</strong> — intet betalingskort.</li>
+        <li><strong>Forbind din Shopify-butik</strong> i dashboardet med få klik.</li>
+        <li><strong>Indsæt widget-koden</strong> i dit Shopify-tema (eller få hjælp på onboarding-mødet).</li>
+        <li><strong>Tilpas tone og regler</strong>, og bestem hvornår den skal sende videre til dit team.</li>
+      </ol>
+      <p>Fordi produkter, lager og ordrer hentes direkte fra Shopify, skal du ikke vedligeholde noget ekstra — svarene følger automatisk med, når du ændrer priser eller får nye varer ind.</p>
+      <div class="blog-cta"><strong>Vil du se det på en rigtig butik?</strong><p>Book en demo, så viser vi widgeten i en Shopify-butik.</p><div class="blog-cta-actions"><a class="primary" href="/demo">Book en demo</a><a href="/webshop">AI til webshops</a></div></div>
+      <h2>AI widget vs. Shopifys egen chat</h2>
+      <p>Shopifys indbyggede chat er god til at tage imod beskeder, men kræver, at nogen svarer. AI widgeten svarer selv — med viden om din butik — og overdrager kun til et menneske, når det giver mening. Tænk på den som en ekstra sælger, der aldrig går hjem.</p>
+      <h2>Hvad med telefonen?</h2>
+      <p>Mange Shopify-butikker får også opkald. Med <a href="/ind-og-udgaaende-opkald">AI-telefonpasning</a> tager en dansk AI-receptionist telefonen med samme viden som widgeten. Læs <a href="/blog/ai-telefonpasning-dansk-ai-receptionist">AI-telefonpasning med dansk AI-receptionist</a>.</p>
+      <p>Vil du have hele billedet, så læs den store guide til <a href="/blog/shopify-ai-automatisering">automatisering af Shopify med AI</a> og <a href="/blog/widget-til-webshop">widget til webshop</a>.</p>
+      <div class="blog-cta"><strong>Din Shopify-butik — besvaret døgnet rundt</strong><p>Ingen binding, intet betalingskort. Klar på et kort onboarding-møde.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prøv gratis i 7 dage</a><a href="/kontakt">Kontakt os</a></div></div>
+    `,
+    meta_title_en: 'AI Widget for Shopify: AI Assistant for Your Store | AIBooking.dk',
+    meta_title_da: 'AI widget til Shopify – AI-assistent i din butik | AIBooking.dk',
+    meta_description_en: 'An AI widget for Shopify that reads products, stock and orders from your store and answers customers by voice and text 24/7. Set up in four steps — try it free.',
+    meta_description_da: 'AI widget til Shopify, der læser produkter, lager og ordrer fra din butik og svarer kunderne med tale og tekst døgnet rundt. Sat op i fire trin — prøv gratis.',
+    keywords: ['ai widget til shopify', 'shopify ai widget', 'shopify chatbot', 'shopify ai', 'shopify kundeservice', 'shopify voice assistant', 'widget til webshop'],
+    image_url: '/blog/covers/ai-widget-til-shopify.svg',
+    published: true,
+    published_at: '2026-09-23',
   },
 ];
 

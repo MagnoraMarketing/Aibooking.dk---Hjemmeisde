@@ -1,6 +1,11 @@
 import { useEffect } from 'react';
-import { SUPPORTED_LANGUAGES } from '../i18n/config';
+import { useTranslation } from 'react-i18next';
+import { SUPPORTED_LANGUAGES, SupportedLanguage } from '../i18n/config';
 import { localizedUrl } from '../utils/localePaths';
+
+const OG_LOCALES: Record<string, string> = {
+  da: 'da_DK', en: 'en_US', pt: 'pt_PT', fr: 'fr_FR', es: 'es_ES',
+};
 
 interface SEOProps {
   title: string;
@@ -14,6 +19,9 @@ interface SEOProps {
    * hreflang alternate links for every supported language. Omit on pages
    * that don't yet have a stable path (e.g. dynamic blog posts). */
   path?: string;
+  /** Languages this page's content actually exists in (hreflang alternates).
+   * Defaults to every supported language. */
+  languages?: readonly SupportedLanguage[];
 }
 
 export default function SEO({
@@ -25,9 +33,16 @@ export default function SEO({
   canonical,
   structuredData,
   path,
+  languages = SUPPORTED_LANGUAGES,
 }: SEOProps) {
+  const { i18n } = useTranslation();
+  const uiLang = (i18n.resolvedLanguage || i18n.language || 'da') as SupportedLanguage;
+  // Content not available in the UI language is served in English.
+  const lang: SupportedLanguage = languages.includes(uiLang) ? uiLang : 'en';
+
   useEffect(() => {
     document.title = title;
+    document.documentElement.lang = lang;
 
     const updateMetaTag = (name: string, content: string, attribute: 'name' | 'property' = 'name') => {
       let element = document.querySelector(`meta[${attribute}="${name}"]`);
@@ -48,7 +63,8 @@ export default function SEO({
     updateMetaTag('og:description', description, 'property');
     updateMetaTag('og:image', ogImage, 'property');
     updateMetaTag('og:type', ogType, 'property');
-    updateMetaTag('og:url', window.location.href, 'property');
+    updateMetaTag('og:url', canonical || window.location.href, 'property');
+    updateMetaTag('og:locale', OG_LOCALES[lang] || 'da_DK', 'property');
 
     updateMetaTag('twitter:card', 'summary_large_image', 'name');
     updateMetaTag('twitter:title', title, 'name');
@@ -77,7 +93,7 @@ export default function SEO({
 
     document.querySelectorAll('link[rel="alternate"][hreflang]').forEach((el) => el.remove());
     if (path) {
-      SUPPORTED_LANGUAGES.forEach((lang) => {
+      languages.forEach((lang) => {
         const link = document.createElement('link');
         link.setAttribute('rel', 'alternate');
         link.setAttribute('hreflang', lang === 'da' ? 'da' : lang);
@@ -90,7 +106,7 @@ export default function SEO({
       xDefault.setAttribute('href', localizedUrl('da', path));
       document.head.appendChild(xDefault);
     }
-  }, [title, description, keywords, ogImage, ogType, canonical, structuredData, path]);
+  }, [title, description, keywords, ogImage, ogType, canonical, structuredData, path, lang, languages]);
 
   return null;
 }

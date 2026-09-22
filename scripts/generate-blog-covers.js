@@ -142,6 +142,9 @@ const SLUG_TOPICS = {
   'ai-kundeservice': 'customerService',
   'ai-medarbejder': 'automation',
   'ai-i-danmark': 'nodes',
+  'ai-telefonpasning-dansk-ai-receptionist': 'phone',
+  'widget-til-webshop': 'package',
+  'ai-widget-til-shopify': 'cart',
 };
 
 function pickIcon(rand, slug, category) {

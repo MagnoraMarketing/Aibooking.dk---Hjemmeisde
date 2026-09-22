@@ -138,6 +138,11 @@ import blogCtaEn from './locales/shared/blogCta.en.json';
 import blogCtaPt from './locales/shared/blogCta.pt.json';
 import blogCtaFr from './locales/shared/blogCta.fr.json';
 import blogCtaEs from './locales/shared/blogCta.es.json';
+import pageHeroDa from './locales/shared/pageHero.da.json';
+import pageHeroEn from './locales/shared/pageHero.en.json';
+import pageHeroPt from './locales/shared/pageHero.pt.json';
+import pageHeroFr from './locales/shared/pageHero.fr.json';
+import pageHeroEs from './locales/shared/pageHero.es.json';
 
 export const SUPPORTED_LANGUAGES = ['da', 'en', 'pt', 'fr', 'es'] as const;
 export type SupportedLanguage = (typeof SUPPORTED_LANGUAGES)[number];
@@ -165,7 +170,7 @@ const PAGE_NAMESPACES = [
 
 // Namespaces for components rendered on more than one page, so the two copies
 // can't drift apart.
-const SHARED_NAMESPACES = ['clinicDashboard', 'agencyDashboard', 'widgetCapabilitiesSEO', 'blogCta'] as const;
+const SHARED_NAMESPACES = ['clinicDashboard', 'agencyDashboard', 'widgetCapabilitiesSEO', 'blogCta', 'pageHero'] as const;
 
 i18n
   .use(LanguageDetector)
@@ -198,6 +203,7 @@ i18n
         agencyDashboard: agencyDashboardDa,
         widgetCapabilitiesSEO: widgetCapabilitiesSEODa,
         blogCta: blogCtaDa,
+        pageHero: pageHeroDa,
       },
       en: {
         common: commonEn,
@@ -223,6 +229,7 @@ i18n
         agencyDashboard: agencyDashboardEn,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOEn,
         blogCta: blogCtaEn,
+        pageHero: pageHeroEn,
       },
       pt: {
         common: commonPt,
@@ -248,6 +255,7 @@ i18n
         agencyDashboard: agencyDashboardPt,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOPt,
         blogCta: blogCtaPt,
+        pageHero: pageHeroPt,
       },
       fr: {
         common: commonFr,
@@ -273,6 +281,7 @@ i18n
         agencyDashboard: agencyDashboardFr,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOFr,
         blogCta: blogCtaFr,
+        pageHero: pageHeroFr,
       },
       es: {
         common: commonEs,
@@ -298,6 +307,7 @@ i18n
         agencyDashboard: agencyDashboardEs,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOEs,
         blogCta: blogCtaEs,
+        pageHero: pageHeroEs,
       },
     },
     supportedLngs: SUPPORTED_LANGUAGES as unknown as string[],

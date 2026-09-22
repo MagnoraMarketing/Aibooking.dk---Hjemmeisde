@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
-import { Calendar, ArrowRight, Sparkles, Tag } from 'lucide-react';
+import { Calendar, ArrowRight } from 'lucide-react';
 import Navigation from '../components/Navigation';
+import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import FAQ from '../components/FAQ';
@@ -46,7 +47,7 @@ export default function BlogCategoryPage({ categorySlug, onNavigate }: BlogCateg
   if (!category) {
     return (
       <div className="min-h-screen bg-gradient-to-b from-ink-50 via-white to-ink-50">
-        <Navigation onNavigate={onNavigate} />
+        <Navigation onNavigate={onNavigate} transparent />
         <div className="flex items-center justify-center min-h-screen">
           <div className="text-center">
             <h1 className="text-3xl font-bold text-ink-900 mb-4">
@@ -89,45 +90,27 @@ export default function BlogCategoryPage({ categorySlug, onNavigate }: BlogCateg
         {JSON.stringify(structuredData)}
       </script>
 
-      <Navigation onNavigate={onNavigate} />
+      <Navigation onNavigate={onNavigate} transparent />
 
-      <div className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-50 via-transparent to-ink-50 pointer-events-none"></div>
-        <div className="absolute top-0 right-0 -mt-40 -mr-40 w-80 h-80 bg-brand-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 pointer-events-none"></div>
+      <PageHero
+        badge="Blog"
+        title={getCategoryName()}
+        subtitle={getCategoryDescription()}
+        secondaryCta={categorySlug === 'ai-widget' ? { label: t('tryWidgetCta'), href: '/widget' } : undefined}
+        compact
+      >
+        <a
+          href={blogHref('/blog')}
+          className="inline-flex items-center gap-2 text-brand-200 hover:text-white font-medium transition-colors"
+        >
+          <ArrowRight className="w-4 h-4 rotate-180" />
+          {t('backToAll')}
+        </a>
+      </PageHero>
 
-        <div className="relative pt-32 pb-20">
+      <div>
+        <div className="relative pt-16 pb-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <a
-                href={blogHref('/blog')}
-                className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-700 font-medium mb-6 transition-colors"
-              >
-                <ArrowRight className="w-4 h-4 rotate-180" />
-                {t('backToAll')}
-              </a>
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-brand-600 to-brand-700 text-white font-semibold rounded-full mb-6 shadow-lg">
-                <Tag className="w-4 h-4" />
-                {getCategoryName()}
-              </div>
-              <h1 className="text-4xl md:text-6xl font-bold text-ink-900 mb-6 tracking-tight">
-                {getCategoryName()}
-              </h1>
-              <p className="text-xl text-ink-600 max-w-3xl mx-auto leading-relaxed">
-                {getCategoryDescription()}
-              </p>
-            </div>
-
-            <div className="mb-16 text-center">
-              <a
-                href={blogHref('/widget')}
-                className="inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-700 text-white px-8 py-4 rounded-xl font-semibold hover:shadow-xl transition-all transform hover:scale-105"
-              >
-                <Sparkles className="w-5 h-5" />
-                {t('tryWidgetCta')}
-                <ArrowRight className="w-5 h-5" />
-              </a>
-            </div>
-
             {posts.length === 0 ? (
               <div className="text-center py-20 bg-white rounded-3xl shadow-lg">
                 <p className="text-ink-600 text-lg">

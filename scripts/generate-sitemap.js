@@ -80,7 +80,10 @@ const routeMap = {
     '/blog/ai-indgaaende-opkald',
     '/blog/ai-kundeservice',
     '/blog/ai-medarbejder',
-    '/blog/ai-i-danmark'
+    '/blog/ai-i-danmark',
+    '/blog/ai-telefonpasning-dansk-ai-receptionist',
+    '/blog/widget-til-webshop',
+    '/blog/ai-widget-til-shopify'
   ]
 };
 
@@ -111,6 +114,9 @@ const priorityMap = {
   '/blog/ai-kundeservice': 0.8,
   '/blog/ai-medarbejder': 0.8,
   '/blog/ai-i-danmark': 0.8,
+  '/blog/ai-telefonpasning-dansk-ai-receptionist': 0.8,
+  '/blog/widget-til-webshop': 0.8,
+  '/blog/ai-widget-til-shopify': 0.8,
   '/widget': 0.9,
   '/ind-og-udgaaende-opkald': 0.9,
   '/proeveperiode': 0.9,
@@ -183,12 +189,14 @@ function getExistingPages() {
 }
 
 function generateSitemap(pages) {
-  const alternates = (route) => LANGUAGES
+  // Blog posts only exist in Danish and English.
+  const langsFor = (route) => (/^\/blog\/(?!category\/)./.test(route) ? ['da', 'en'] : LANGUAGES);
+  const alternates = (route) => langsFor(route)
     .map(lang => `    <xhtml:link rel="alternate" hreflang="${lang}" href="${DOMAIN}${localizedPath(lang, route)}" />`)
     .concat(`    <xhtml:link rel="alternate" hreflang="x-default" href="${DOMAIN}${route}" />`)
     .join('\n');
 
-  const urls = pages.flatMap(page => LANGUAGES.map(lang => `  <url>
+  const urls = pages.flatMap(page => langsFor(page.route).map(lang => `  <url>
     <loc>${DOMAIN}${localizedPath(lang, page.route)}</loc>
     <lastmod>${page.lastmod}</lastmod>
     <changefreq>${page.changefreq}</changefreq>

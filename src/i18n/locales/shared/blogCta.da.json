@@ -6,15 +6,15 @@
   "exploreTitle": "Udforsk vores AI-løsninger",
   "links": {
     "widget": {
-      "title": "AI Widget til hjemmeside",
+      "title": "AI widget til hjemmeside & Shopify",
       "desc": "Chat og tale, der svarer og booker døgnet rundt"
     },
     "inbound": {
-      "title": "AI til indgående & udgående opkald",
-      "desc": "AI reception, der tager telefonen på dansk"
+      "title": "AI-telefonpasning",
+      "desc": "Dansk AI-receptionist, der tager telefonen"
     },
     "webshop": {
-      "title": "AI til webshop & Shopify",
+      "title": "Widget til webshop & Shopify",
       "desc": "Ordresporing, lager og kundeservice automatisk"
     },
     "features": {

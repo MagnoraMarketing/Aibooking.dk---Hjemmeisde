@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Calendar, ArrowRight, TrendingUp, Sparkles, Search, X, LayoutGrid } from 'lucide-react';
+import { Calendar, ArrowRight, TrendingUp, Search, X, LayoutGrid } from 'lucide-react';
 import Navigation from '../components/Navigation';
+import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import FAQ from '../components/FAQ';
@@ -114,35 +115,16 @@ export default function BlogPage({ onNavigate }: BlogPageProps) {
         {JSON.stringify(structuredData)}
       </script>
 
-      <Navigation onNavigate={onNavigate} />
+      <Navigation onNavigate={onNavigate} transparent />
 
-      {/* Decorative hero — overflow-hidden here (to clip the blurred blobs)
-          would otherwise break `sticky` on the filter bar below, so that
-          bar lives in its own sibling section instead of being nested here. */}
-      <div className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-50 via-transparent to-ink-50 pointer-events-none"></div>
-        <div className="absolute top-0 right-0 -mt-40 -mr-40 w-80 h-80 bg-brand-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 pointer-events-none"></div>
-        <div className="absolute bottom-0 left-0 -mb-40 -ml-40 w-80 h-80 bg-ink-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 pointer-events-none"></div>
+      <PageHero
+        badge={t('hero.badge')}
+        title={t('hero.title')}
+        subtitle={t('hero.subtitle')}
+        compact
+      />
 
-        <div className="relative pt-32 pb-10">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-50 border border-brand-100 rounded-full text-brand-700 font-medium text-sm mb-6">
-                <Sparkles className="w-4 h-4" />
-                {t('hero.badge')}
-              </div>
-              <h1 className="text-5xl md:text-6xl font-bold text-ink-900 mb-6 tracking-tight">
-                {t('hero.title')}
-              </h1>
-              <p className="text-xl text-ink-600 max-w-3xl mx-auto leading-relaxed">
-                {t('hero.subtitle')}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="relative pb-20">
+      <div className="relative pt-10 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Search + category filters */}
             <div className="sticky top-20 z-30 mb-10 bg-white/80 backdrop-blur-xl border border-ink-200/60 rounded-2xl shadow-sm p-4 sm:p-5">

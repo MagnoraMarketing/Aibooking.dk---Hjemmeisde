@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-aireceptionv" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(4 0.5 0.5)">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <radialGradient id="glow1-aireceptionv" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-aireceptionv" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d97706" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-aireceptionv" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-aireceptionv)"/>
+  <rect width="1200" height="675" fill="url(#dots-aireceptionv)"/>
+  <circle cx="221.98852248257026" cy="130.0330765079707" r="365.664320550859" fill="url(#glow1-aireceptionv)"/>
+  <circle cx="946.2255468708463" cy="438.00177450757474" r="351.06144024059176" fill="url(#glow2-aireceptionv)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#d97706" stroke-width="140" opacity="0.10"
+    transform="rotate(22 600 337.5)"/>
+
+  <circle cx="924.1075888294725" cy="146.7493372214958" r="35.78976816404611" fill="none" stroke="#d97706" stroke-width="2" opacity="0.5"/>
+  <circle cx="195.90361424535513" cy="541.4125491930172" r="29.41935219243169" fill="#1d4ed8" opacity="0.18"/>
+
+  <g transform="translate(461.7179693877697 331.6682794438675) rotate(-6)">
+    <circle r="73.97403128421865" fill="white" opacity="0.06"/>
+    <circle r="73.97403128421865" fill="none" stroke="white" stroke-opacity="0.25" stroke-width="1.5"/>
+    <rect x="-53.79929547943175" y="-53.79929547943175" width="107.5985909588635" height="107.5985909588635" rx="26.899647739715874"
+      fill="url(#glow1-aireceptionv)" opacity="0.9"/>
+    <rect x="-53.79929547943175" y="-53.79929547943175" width="107.5985909588635" height="107.5985909588635" rx="26.899647739715874"
+      fill="#3b82f6" opacity="0.55"/>
+    <g transform="scale(6.7249119349289685) translate(-12 -12)">
+      <path d="M4 13a8 8 0 0 1 16 0" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round"/><rect x="3" y="13" width="4" height="6" rx="1.5" fill="none" stroke="white" stroke-width="1.6"/><rect x="17" y="13" width="4" height="6" rx="1.5" fill="none" stroke="white" stroke-width="1.6"/><path d="M19 19v1a3 3 0 0 1-3 3h-3" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

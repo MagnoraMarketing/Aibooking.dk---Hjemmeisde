@@ -134,6 +134,14 @@ const SLUG_TOPICS = {
   'automatisering-uden-flere-medarbejdere': 'automation',
   'kundeoplevelse-ai-automatisering': 'customerService',
   'kom-i-gang-ai-automatisering-trin-for-trin': 'steps',
+  'ai-widget-hjemmeside-komplet-guide': 'chat',
+  'shopify-ai-automatisering': 'cart',
+  'ai-til-hjemmeside': 'globe',
+  'ai-reception-virtuel-receptionist': 'customerService',
+  'ai-indgaaende-opkald': 'phone',
+  'ai-kundeservice': 'customerService',
+  'ai-medarbejder': 'automation',
+  'ai-i-danmark': 'nodes',
 };
 
 function pickIcon(rand, slug, category) {

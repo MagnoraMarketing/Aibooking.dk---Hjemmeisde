@@ -1,0 +1,33 @@
+{
+  "title": "Ready to put AI to work?",
+  "description": "Get an AI widget on your website, an AI receptionist on the phone and automated customer service for your webshop — in one solution. Try it free for 7 days, no credit card required.",
+  "primary": "Start free trial",
+  "secondary": "Book a free demo",
+  "exploreTitle": "Explore our AI solutions",
+  "links": {
+    "widget": {
+      "title": "AI Widget for websites",
+      "desc": "Chat and voice that answers and books 24/7"
+    },
+    "inbound": {
+      "title": "AI for inbound & outbound calls",
+      "desc": "An AI reception that answers the phone"
+    },
+    "webshop": {
+      "title": "AI for webshops & Shopify",
+      "desc": "Order tracking, stock and support, automated"
+    },
+    "features": {
+      "title": "All features",
+      "desc": "Dashboard, calendar, SMS and AI employee"
+    },
+    "industries": {
+      "title": "Industries",
+      "desc": "Clinics, craftsmen, offices and e-commerce"
+    },
+    "integrations": {
+      "title": "Integrations",
+      "desc": "Google Calendar, Outlook, Shopify and more"
+    }
+  }
+}

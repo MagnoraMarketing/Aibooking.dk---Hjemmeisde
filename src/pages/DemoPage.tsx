@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
 import { demoFAQs } from '../content/faq';
 import SEO from '../components/SEO';
+import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { CheckCircle, Calendar, Clock, Zap } from 'lucide-react';
 import type { SupportedLanguage } from '../i18n/config';
@@ -239,6 +240,7 @@ function DemoPage({ onNavigate }: DemoPageProps) {
       </section>
 
       <FAQ items={demoFAQs} />
+      <WidgetCapabilitiesSEO />
       <Footer onNavigate={onNavigate} />
     </div>
   );

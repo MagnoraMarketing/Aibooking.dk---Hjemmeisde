@@ -1,0 +1,39 @@
+{
+  "title": "AI Voice Widget: your digital receptionist – ready 24/7",
+  "intro": "Our primary solution is the AI Voice Widget – an AI-powered voice assistant that lives directly on your website and handles the customer conversation from the first question to a confirmed booking. The widget can even book a viewing appointment directly through the conversation.",
+  "capabilities": [
+    {
+      "title": "Answers general questions",
+      "text": "Responds quickly and accurately to customers' general questions about your business, opening hours and services."
+    },
+    {
+      "title": "Books and reschedules appointments",
+      "text": "Finds available times and books or reschedules appointments instantly – without customers waiting for a callback."
+    },
+    {
+      "title": "Books meetings directly in your calendar",
+      "text": "Books meetings – including viewings – directly in the company calendar, synced in real time."
+    },
+    {
+      "title": "Answers questions about products and services",
+      "text": "Gives customers detailed answers about your products and services, so they get the information they need right away."
+    },
+    {
+      "title": "Helps webshops with sales and orders",
+      "text": "Supports webshops with sales and order inquiries, so customers get answers while purchase intent is high."
+    },
+    {
+      "title": "Answers questions about delivery and orders",
+      "text": "Gives customers status updates and answers to questions about products, delivery and existing orders."
+    },
+    {
+      "title": "Guides customers toward a purchase",
+      "text": "Confidently leads customers through the sales process and helps them take the next step toward a purchase."
+    },
+    {
+      "title": "Handles inquiries around the clock",
+      "text": "Always available, handling customer inquiries 24 hours a day, 7 days a week – even when the office is closed."
+    }
+  ],
+  "closing": "Whatever your industry, the AI Voice Widget is the core of your customer experience – one solution that answers, books and guides your customers all the way."
+}

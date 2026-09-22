@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
 import { healthcareFAQs } from '../content/faq';
 import SEO from '../components/SEO';
+import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { TrendingUp, Clock, Calendar, Users, CheckCircle, Phone } from 'lucide-react';
 import type { SupportedLanguage } from '../i18n/config';
@@ -150,6 +151,7 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
       </section>
 
       <FAQ items={healthcareFAQs} />
+      <WidgetCapabilitiesSEO />
       <Footer onNavigate={onNavigate} />
     </div>
   );

@@ -1,0 +1,39 @@
+{
+  "title": "AI Voice Widget: a sua recepcionista digital, disponível 24 horas por dia",
+  "intro": "A nossa solução principal é o AI Voice Widget, um assistente de voz alimentado por IA que vive diretamente no seu site e trata da conversa com o cliente, desde a primeira pergunta até à reserva confirmada. O widget consegue até marcar uma reunião para uma visita diretamente durante a conversa.",
+  "capabilities": [
+    {
+      "title": "Responde a perguntas gerais",
+      "text": "Responde rápida e corretamente às perguntas gerais dos clientes sobre a sua empresa, horários e serviços."
+    },
+    {
+      "title": "Marca e remarca horários",
+      "text": "Encontra horários disponíveis e marca ou remarca compromissos instantaneamente, sem que o cliente tenha de esperar por uma chamada de volta."
+    },
+    {
+      "title": "Marca reuniões diretamente no seu calendário",
+      "text": "Marca reuniões, incluindo visitas, diretamente no calendário da empresa, sincronizado em tempo real."
+    },
+    {
+      "title": "Responde a perguntas sobre produtos e serviços",
+      "text": "Dá aos clientes respostas detalhadas sobre os seus produtos e serviços, para que obtenham de imediato a informação de que precisam."
+    },
+    {
+      "title": "Ajuda lojas online com vendas e encomendas",
+      "text": "Apoia lojas online em pedidos de vendas e encomendas, respondendo aos clientes enquanto a intenção de compra está elevada."
+    },
+    {
+      "title": "Responde a perguntas sobre entrega e encomendas",
+      "text": "Dá aos clientes o estado e as respostas a perguntas sobre produtos, entrega e encomendas existentes."
+    },
+    {
+      "title": "Orienta os clientes até à compra",
+      "text": "Conduz os clientes com confiança ao longo do processo de venda e ajuda-os a dar o próximo passo até à compra."
+    },
+    {
+      "title": "Trata pedidos 24 horas por dia",
+      "text": "Está sempre disponível, tratando os pedidos dos clientes 24 horas por dia, 7 dias por semana, mesmo quando o escritório está fechado."
+    }
+  ],
+  "closing": "Seja qual for o seu setor, o AI Voice Widget é o centro da experiência do cliente: uma única solução que responde, marca e orienta os seus clientes em todos os momentos."
+}

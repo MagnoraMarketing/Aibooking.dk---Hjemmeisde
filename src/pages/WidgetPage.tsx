@@ -10,6 +10,7 @@ import {
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
+import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import { localizedPrice } from '../utils/currency';
 import { SIGNUP_URL } from '../utils/backend';
 import { VOICE_PLAN_PRICES_DKK, WIDGET_PLAN_PRICE_DKK, SETUP_PRICES_DKK } from '../utils/pricing';
@@ -992,6 +993,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
         </section>
 
       </main>
+      <WidgetCapabilitiesSEO />
       <Footer onNavigate={onNavigate} />
     </>
   );

@@ -11,6 +11,7 @@ import CTA from '../components/CTA';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
+import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import FAQ from '../components/FAQ';
 import { homeFAQs } from '../content/faq';
 import { organizationSchema, websiteSchema, softwareApplicationSchema } from '../utils/structuredData';
@@ -51,6 +52,7 @@ function HomePage({ onNavigate }: HomePageProps) {
       <WidgetPricing />
       <CTA />
       <FAQ items={homeFAQs} />
+      <WidgetCapabilitiesSEO />
       <Footer onNavigate={onNavigate} />
     </div>
   );

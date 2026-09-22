@@ -8,6 +8,7 @@ import {
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
+import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import { localizedPrice } from '../utils/currency';
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
@@ -711,6 +712,7 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
         </div>
       </section>
 
+      <WidgetCapabilitiesSEO />
       <Footer onNavigate={onNavigate} />
     </div>
   );

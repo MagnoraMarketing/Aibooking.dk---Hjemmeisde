@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
 import { featuresFAQs } from '../content/faq';
 import SEO from '../components/SEO';
+import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import {
   Phone, Calendar, MessageSquare, Clock, Shield, CheckCircle, Zap,
@@ -565,6 +566,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
       </section>
 
       <FAQ items={featuresFAQs} />
+      <WidgetCapabilitiesSEO />
       <Footer onNavigate={onNavigate} />
     </div>
   );

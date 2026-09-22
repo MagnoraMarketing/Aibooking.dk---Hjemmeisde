@@ -12,7 +12,7 @@ import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import { localizedPrice } from '../utils/currency';
 import { SIGNUP_URL } from '../utils/backend';
-import { VOICE_PLAN_PRICES_DKK, WIDGET_PLAN_PRICE_DKK, SETUP_PRICE_DKK } from '../utils/pricing';
+import { VOICE_PLAN_PRICES_DKK, WIDGET_PLAN_PRICE_DKK, SETUP_PRICES_DKK } from '../utils/pricing';
 import { VAPI_WIDGET_ASSISTANT_ID } from '../utils/vapi';
 import { useVapiCall } from '../hooks/useVapiCall';
 import type { SupportedLanguage } from '../i18n/config';
@@ -161,9 +161,9 @@ function PhoneAssistantSection() {
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
 
   const plansText = t('pricing.plans', { returnObjects: true }) as PricingPlanText[];
-  // Setup/onboarding is included free with every paid plan (waived rather
-  // than charged) — SETUP_PRICE_DKK is only used to show its reference value
-  // in the "included free" messaging below.
+  // Setup/onboarding is an OPTIONAL one-time add-on, priced the same as the
+  // plan's own monthly price (SETUP_PRICES_DKK mirrors VOICE_PLAN_PRICES_DKK
+  // index-for-index) — never included automatically.
   const planMeta = [
     { price: VOICE_PLAN_PRICES_DKK[0], highlighted: false, href: SIGNUP_URL },
     { price: VOICE_PLAN_PRICES_DKK[1], highlighted: false, href: SIGNUP_URL },
@@ -173,7 +173,7 @@ function PhoneAssistantSection() {
   const phonePlans = plansText.map((plan, i) => ({
     ...plan,
     ...planMeta[i],
-    setup: SETUP_PRICE_DKK,
+    setup: SETUP_PRICES_DKK[i],
   }));
 
   const benefits = t('phoneSection.benefits', { returnObjects: true }) as TitleDescription[];
@@ -298,12 +298,14 @@ function PhoneAssistantSection() {
                 ))}
               </ul>
 
-              <div className={`mb-6 pt-6 border-t flex items-start gap-2.5 ${plan.highlighted ? 'border-brand-500' : 'border-ink-200'}`}>
-                <CheckCircle className={`mt-0.5 w-4 h-4 flex-shrink-0 ${plan.highlighted ? 'text-white' : 'text-brand-600'}`} />
-                <span className={`text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
-                  {t('pricing.setup_included_note', { setup: localizedPrice(plan.setup, lang) })}
-                </span>
-              </div>
+              {plan.setup > 0 && (
+                <div className={`mb-6 pt-6 border-t flex items-start gap-2.5 ${plan.highlighted ? 'border-brand-500' : 'border-ink-200'}`}>
+                  <CheckCircle className={`mt-0.5 w-4 h-4 flex-shrink-0 ${plan.highlighted ? 'text-white' : 'text-brand-600'}`} />
+                  <span className={`text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
+                    {t('pricing.setup_included_note', { setup: localizedPrice(plan.setup, lang) })}
+                  </span>
+                </div>
+              )}
 
               <div className="flex-grow"></div>
 
@@ -350,7 +352,10 @@ function PhoneAssistantSection() {
                   <div className="pb-8 border-b border-ink-200">
                     <h4 className="text-xl font-semibold text-ink-900 mb-3">{t('pricing.additionalPrices.setup.title')}</h4>
                     <p className="text-ink-700 text-lg">
-                      {t('pricing.additionalPrices.setup.value', { setup: localizedPrice(SETUP_PRICE_DKK, lang) })} <span className="text-ink-600 text-base">{t('pricing.additionalPrices.setup.note')}</span>
+                      {t('pricing.additionalPrices.setup.value', {
+                        setupMin: localizedPrice(SETUP_PRICES_DKK[1], lang),
+                        setupMax: localizedPrice(SETUP_PRICES_DKK[3], lang),
+                      })} <span className="text-ink-600 text-base">{t('pricing.additionalPrices.setup.note')}</span>
                     </p>
                   </div>
                   <div>

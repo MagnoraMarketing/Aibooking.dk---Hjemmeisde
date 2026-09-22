@@ -164,17 +164,17 @@
     "most_popular_badge": "Mais Popular",
     "free_label": "Grátis",
     "currency_suffix": "€/mês",
-    "after_order_note": "Depois de criar a sua conta gratuita, pode agendar o seu horário de configuração gratuito diretamente no seu painel.",
-    "setup_recommendation": "Recomendamos que experimente a solução gratuitamente durante 7 dias primeiro — depois escolhe o seu pacote e a configuração e o onboarding ficam incluídos, totalmente grátis.",
+    "after_order_note": "Depois de criar a sua conta gratuita, pode marcar um horário para a configuração diretamente no seu painel, caso a tenha adicionado ao pedido.",
+    "setup_recommendation": "Recomendamos que experimente a solução gratuitamente durante 7 dias primeiro — depois escolhe o seu pacote. A configuração e o onboarding podem ser adicionados como um pagamento único opcional, caso queira ajuda com isso.",
     "cta_signup": "Criar conta gratuita",
     "cta_demo": "Experimentar grátis",
     "no_card_required": "Não é necessário cartão de crédito ou dados de pagamento",
-    "cta_order": "Encomendar pacote e marcar Onboarding",
+    "cta_order": "Solicitar plano",
     "plans": [
       {
         "name": "Demo",
         "description": "Experimente grátis durante 7 dias – veja quanto tempo liberta para outras tarefas e mais clientes",
-        "minutes": "Teste grátis de 7 dias",
+        "minutes": "Teste grátis de 7 dias · 10 minutos de conversa grátis",
         "features": [
           "Chamadas recebidas – a IA atende as suas chamadas",
           "Widget de voz – a IA responde a perguntas gerais no seu site",
@@ -233,8 +233,8 @@
       "toggle_label": "Ver outros preços",
       "setup": {
         "title": "Configuração & onboarding",
-        "value": "Incluído gratuitamente ao escolher um plano pago ou o widget de IA — normalmente €{{setup}}, incl. 1 hora de apoio de acompanhamento",
-        "note": "(oferecido na compra)"
+        "value": "Complemento opcional na finalização — um pagamento único de €{{setupMin}} a €{{setupMax}}, igual ao preço do plano escolhido, incl. 1 hora de apoio de acompanhamento",
+        "note": "(pagamento único, não incluído na assinatura)"
       },
       "hourly": {
         "title": "Preço por hora para tarefas pontuais",
@@ -244,7 +244,7 @@
         "development_price": "147 €/hora"
       }
     },
-    "setup_included_note": "A configuração e o onboarding (normalmente €{{setup}}) estão incluídos gratuitamente, incl. 1 hora de apoio de acompanhamento"
+    "setup_included_note": "A configuração e o onboarding podem ser adicionados por €{{setup}} como pagamento único (mesmo preço do plano), incl. 1 hora de apoio de acompanhamento"
   },
   "cta_section": {
     "title": "Pronto para começar?",
@@ -493,9 +493,9 @@
       "minutesUnit": "min",
       "recommendedLabel": "Pacote recomendado",
       "includedMinutes": "{{minutes}} minutos incluídos",
-      "setupLabel": "A configuração e o onboarding estão incluídos gratuitamente.",
-      "setupNote": "Normalmente {{price}} — oferecido ao escolher um pacote pago, incl. 1 hora de apoio de acompanhamento.",
-      "setupLine": "Configuração e onboarding grátis incluídos",
+      "setupLabel": "A configuração e o onboarding podem ser adicionados como pagamento único opcional.",
+      "setupNote": "Complemento opcional: {{price}} em pagamento único — mesmo preço do pacote, incl. 1 hora de apoio de acompanhamento.",
+      "setupLine": "Configuração e onboarding opcionais disponíveis",
       "aboveLargest": "Precisa de mais de 2.000 minutos por mês? Criamos um pacote para si — contacte-nos para um orçamento.",
       "timeFreedValue": "Cerca de {{hours}} horas de telefone de volta",
       "timeFreedText": "Tempo que pode dedicar a gerir o negócio. Marcações, remarcações e perguntas são tratadas sem si.",

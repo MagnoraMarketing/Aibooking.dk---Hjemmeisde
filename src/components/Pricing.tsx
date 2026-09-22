@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { localizedPrice } from '../utils/currency';
 import { SIGNUP_URL } from '../utils/backend';
-import { VOICE_PLAN_PRICES_DKK, SETUP_PRICE_DKK } from '../utils/pricing';
+import { VOICE_PLAN_PRICES_DKK, SETUP_PRICES_DKK } from '../utils/pricing';
 import type { SupportedLanguage } from '../i18n/config';
 
 interface PricingPlanText {
@@ -19,9 +19,9 @@ function Pricing() {
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
 
   const plansText = t('pricing.plans', { returnObjects: true }) as PricingPlanText[];
-  // Setup/onboarding is included free with every paid plan (waived rather
-  // than charged) — SETUP_PRICE_DKK is only used to show its reference value
-  // in the "included free" messaging below.
+  // Setup/onboarding is an OPTIONAL one-time add-on, priced the same as the
+  // plan's own monthly price (SETUP_PRICES_DKK mirrors VOICE_PLAN_PRICES_DKK
+  // index-for-index) — never included automatically.
   // Every plan links to the free signup on the backend app rather than a
   // payment link — visitors try the product first, and packages are sold
   // afterwards from the backend once they're a qualified lead.
@@ -34,7 +34,7 @@ function Pricing() {
   const plans = plansText.map((plan, i) => ({
     ...plan,
     ...planMeta[i],
-    setup: SETUP_PRICE_DKK,
+    setup: SETUP_PRICES_DKK[i],
   }));
 
   return (
@@ -123,12 +123,14 @@ function Pricing() {
                 ))}
               </ul>
 
-              <div className={`mb-6 pt-6 border-t flex items-start gap-2.5 ${plan.highlighted ? 'border-brand-500' : 'border-ink-200'}`}>
-                <Check className={`mt-0.5 w-4 h-4 flex-shrink-0 ${plan.highlighted ? 'text-white' : 'text-brand-600'}`} />
-                <span className={`text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
-                  {t('pricing.setup_included_note', { setup: localizedPrice(plan.setup, lang) })}
-                </span>
-              </div>
+              {plan.setup > 0 && (
+                <div className={`mb-6 pt-6 border-t flex items-start gap-2.5 ${plan.highlighted ? 'border-brand-500' : 'border-ink-200'}`}>
+                  <Check className={`mt-0.5 w-4 h-4 flex-shrink-0 ${plan.highlighted ? 'text-white' : 'text-brand-600'}`} />
+                  <span className={`text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
+                    {t('pricing.setup_included_note', { setup: localizedPrice(plan.setup, lang) })}
+                  </span>
+                </div>
+              )}
 
               <div className="flex-grow"></div>
 
@@ -183,7 +185,10 @@ function Pricing() {
                       {t('pricing.additionalPrices.setup.title')}
                     </h4>
                     <p className="text-ink-700 text-lg">
-                      {t('pricing.additionalPrices.setup.value', { setup: localizedPrice(SETUP_PRICE_DKK, lang) })} <span className="text-ink-600 text-base">{t('pricing.additionalPrices.setup.note')}</span>
+                      {t('pricing.additionalPrices.setup.value', {
+                        setupMin: localizedPrice(SETUP_PRICES_DKK[1], lang),
+                        setupMax: localizedPrice(SETUP_PRICES_DKK[3], lang),
+                      })} <span className="text-ink-600 text-base">{t('pricing.additionalPrices.setup.note')}</span>
                     </p>
                   </div>
 

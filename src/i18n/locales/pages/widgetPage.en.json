@@ -325,7 +325,7 @@
       {
         "name": "Demo",
         "description": "Try free for 7 days with real call credit – see how much time you free up for other tasks and more customers",
-        "minutes": "Free for 7 days · full access",
+        "minutes": "Free for 7 days · 10 minutes of free talk time",
         "features": [
           "Free credit for AI calls during the trial",
           "Basic voice customization",
@@ -346,7 +346,7 @@
           "Analytics dashboard",
           "Email notifications"
         ],
-        "cta": "Order package and book onboarding"
+        "cta": "Order package"
       },
       {
         "name": "Professional",
@@ -361,7 +361,7 @@
           "SMS reminders",
           "Customer history"
         ],
-        "cta": "Order package and book onboarding"
+        "cta": "Order package"
       },
       {
         "name": "Enterprise",
@@ -377,18 +377,18 @@
           "Unlimited integrations",
           "GDPR compliance support"
         ],
-        "cta": "Order package and book onboarding"
+        "cta": "Order package"
       }
     ],
-    "after_order_note": "After ordering, you'll receive a calendar link where you can book your free setup session.",
-    "setup_recommendation": "We recommend trying the solution free for 7 days first — then choose your package and get setup and onboarding included, completely free.",
+    "after_order_note": "After ordering, you'll receive a calendar link where you can book a setup session, if you've added it to your order.",
+    "setup_recommendation": "We recommend trying the solution free for 7 days first — then choose your package. Setup and onboarding can be added as an optional one-time payment if you'd like help with it.",
     "additionalPrices": {
       "title": "Other prices",
       "toggle_label": "See other prices",
       "setup": {
         "title": "Setup & onboarding",
-        "value": "Included free when you choose a paid plan or the AI widget — normally €{{setup}}, incl. 1 hour of follow-up support",
-        "note": "(waived on purchase)"
+        "value": "Optional add-on at checkout — a one-time payment from €{{setupMin}} to €{{setupMax}}, matching your chosen plan's price, incl. 1 hour of follow-up support",
+        "note": "(one-time only, not included in the subscription)"
       },
       "hourly": {
         "title": "Hourly rate for ad hoc tasks",
@@ -399,7 +399,7 @@
       }
     },
     "currency_suffix": "€/mo",
-    "setup_included_note": "Setup and onboarding (normally €{{setup}}) is included free, incl. 1 hour of follow-up support"
+    "setup_included_note": "Setup and onboarding can be added for €{{setup}} as a one-time payment (same price as the plan), incl. 1 hour of follow-up support"
   },
   "shopifyIntegration": {
     "badge": "Shopify integration",

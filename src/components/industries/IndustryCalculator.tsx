@@ -9,17 +9,18 @@ import {
   VOICE_PLAN_PRICES_DKK,
   WIDGET_PLAN_MINUTES,
   WIDGET_PLAN_PRICE_DKK,
-  SETUP_PRICE_DKK,
+  SETUP_PRICES_DKK,
 } from '../../utils/pricing';
 
 type Mode = 'voice' | 'widget';
 
 // Same packages and prices as the pricing tables elsewhere on the site — index
 // 0 is the free trial, which isn't one of the paid packages offered here.
+// Setup (see SETUP_PRICES_DKK) is priced the same as the plan itself.
 const VOICE_PLANS = [
-  { name: 'Starter', minutes: VOICE_PLAN_MINUTES[1], price: VOICE_PLAN_PRICES_DKK[1] },
-  { name: 'Professional', minutes: VOICE_PLAN_MINUTES[2], price: VOICE_PLAN_PRICES_DKK[2] },
-  { name: 'Enterprise', minutes: VOICE_PLAN_MINUTES[3], price: VOICE_PLAN_PRICES_DKK[3] },
+  { name: 'Starter', minutes: VOICE_PLAN_MINUTES[1], price: VOICE_PLAN_PRICES_DKK[1], setup: SETUP_PRICES_DKK[1] },
+  { name: 'Professional', minutes: VOICE_PLAN_MINUTES[2], price: VOICE_PLAN_PRICES_DKK[2], setup: SETUP_PRICES_DKK[2] },
+  { name: 'Enterprise', minutes: VOICE_PLAN_MINUTES[3], price: VOICE_PLAN_PRICES_DKK[3], setup: SETUP_PRICES_DKK[3] },
 ];
 const WIDGET_PACK_MINUTES = WIDGET_PLAN_MINUTES;
 const WIDGET_PACK_PRICE = WIDGET_PLAN_PRICE_DKK;
@@ -55,10 +56,10 @@ function IndustryCalculator({ industry }: IndustryCalculatorProps) {
   const planName = mode === 'voice' ? voicePlan.name : t('industryTools.calculator.widgetPlanName');
   const monthlyPrice = mode === 'voice' ? voicePlan.price : packs * WIDGET_PACK_PRICE;
   const includedMinutes = mode === 'voice' ? voicePlan.minutes : packs * WIDGET_PACK_MINUTES;
-  // Setup/onboarding is included free with every paid package and the widget
-  // (waived rather than charged as a one-off) — this constant is only kept
-  // around to show its reference value in the "included free" messaging.
-  const setupPrice = SETUP_PRICE_DKK;
+  // Setup/onboarding is an optional one-time add-on priced the same as the
+  // matched plan (see SETUP_PRICES_DKK) — the widget uses its own flat price
+  // since it isn't one of the three voice tiers.
+  const setupPrice = mode === 'voice' ? voicePlan.setup : WIDGET_PLAN_PRICE_DKK;
 
   const hoursFreed = new Intl.NumberFormat(lang, { maximumFractionDigits: 1 }).format(minutes / 60);
 

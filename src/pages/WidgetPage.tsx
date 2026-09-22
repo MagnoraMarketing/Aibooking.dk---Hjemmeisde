@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   Zap, Mic, Calendar, Clock, CheckCircle, MessageSquare, PhoneCall, Star, Shield, Globe,
@@ -16,10 +16,14 @@ import { VOICE_PLAN_PRICES_DKK, WIDGET_PLAN_PRICE_DKK, SETUP_PRICES_DKK } from '
 import { VAPI_WIDGET_ASSISTANT_ID } from '../utils/vapi';
 import { useVapiCall } from '../hooks/useVapiCall';
 import type { SupportedLanguage } from '../i18n/config';
-import { buildLocalizedPath } from '../utils/localePaths';
+import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
+import { createBreadcrumbSchema, createFAQSchema } from '../utils/structuredData';
 import ClinicDashboardMock from '../components/ClinicDashboardMock';
 import ShopifyIntegrationMock from '../components/ShopifyIntegrationMock';
 import type { NavigatePage } from '../types/navigation';
+
+// Danish-worded canonical path; SEO turns it into per-language hreflang URLs.
+const PAGE_PATH = '/widget';
 
 interface WidgetPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -383,10 +387,28 @@ function PhoneAssistantSection() {
 }
 
 function WidgetPage({ onNavigate }: WidgetPageProps) {
-  const { t } = useTranslation('widgetPage');
+  const { t, i18n } = useTranslation('widgetPage');
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
   const vapiCall = useVapiCall(VAPI_WIDGET_ASSISTANT_ID);
 
   const faqs = t('faqs', { returnObjects: true }) as Faq[];
+
+  // FAQ + breadcrumb in one graph, so the page (the "AI widget til
+  // hjemmeside" landing page) can win a rich FAQ result and a breadcrumb
+  // trail, same pattern as InboundOutboundPage.
+  const structuredData = useMemo(
+    () => ({
+      '@context': 'https://schema.org',
+      '@graph': [
+        createFAQSchema(faqs),
+        createBreadcrumbSchema([
+          { name: t('breadcrumb.home'), url: localizedUrl(lang, '/') },
+          { name: t('breadcrumb.current'), url: localizedUrl(lang, PAGE_PATH) },
+        ]),
+      ],
+    }),
+    [t, faqs, lang]
+  );
 
   const whatIsChips = t('whatIs.chips', { returnObjects: true }) as string[];
   const whatIsChipIcons = [Mic, MessageSquare, Calendar, Globe];
@@ -432,7 +454,9 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
         title={t('seo.title')}
         description={t('seo.description')}
         keywords={t('seo.keywords')}
-        canonical="https://www.aibooking.dk/widget"
+        canonical={localizedUrl(lang, PAGE_PATH)}
+        path={PAGE_PATH}
+        structuredData={structuredData}
       />
       <Navigation onNavigate={onNavigate} transparent />
       <main className="min-h-screen bg-white">

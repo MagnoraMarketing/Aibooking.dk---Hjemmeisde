@@ -4,6 +4,7 @@
     "description": "Coloque o widget de IA da Aibooking.dk no seu site ou loja online (Shopify, WooCommerce, WordPress). Os clientes marcam horas, encomendam e seguem encomendas pela voz, 24 horas por dia.",
     "keywords": "AI voice widget, voicebot website, widget de marcações IA, marcação por voz, chatbot em português, marcação automática de reuniões, widget de recepcionista IA, automação de marcações, widget IA loja online, assistente de voz Shopify, seguimento de encomendas com IA, chatbot WooCommerce, widget de voz e-commerce"
   },
+  "breadcrumb": { "home": "Início", "current": "AI Widget" },
   "hero": {
     "badge": "AI Voice Widget para o seu website",
     "title_line1": "Deixe os seus clientes marcarem reuniões",

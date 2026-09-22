@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import Hero from '../components/Hero';
 import SavingsCalculator from '../components/SavingsCalculator';
 import HowItWorks from '../components/HowItWorks';
@@ -13,6 +14,8 @@ import SEO from '../components/SEO';
 import FAQ from '../components/FAQ';
 import { homeFAQs } from '../content/faq';
 import { organizationSchema, websiteSchema, softwareApplicationSchema } from '../utils/structuredData';
+import type { SupportedLanguage } from '../i18n/config';
+import { localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
 
 interface HomePageProps {
@@ -20,6 +23,8 @@ interface HomePageProps {
 }
 
 function HomePage({ onNavigate }: HomePageProps) {
+  const { t, i18n } = useTranslation();
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
   const structuredData = {
     '@context': 'https://schema.org',
     '@graph': [organizationSchema, websiteSchema, softwareApplicationSchema],
@@ -28,10 +33,10 @@ function HomePage({ onNavigate }: HomePageProps) {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="AI Receptionist - Automatiser Din Telefon og Booking | Aibooking.dk"
-        description="Spar 85% af din telefontid med vores AI-receptionist. Automatisk booking, SMS-påmindelser og 24/7 kundeservice. Prøv gratis i 7 dage. Book din demo i dag."
-        keywords="AI receptionist, automatisk booking, telefon automatisering, SMS påmindelser, kundeservice automation, dansk AI løsning"
-        canonical="https://www.aibooking.dk/"
+        title={t('seo.title')}
+        description={t('seo.description')}
+        keywords={t('seo.keywords')}
+        canonical={localizedUrl(lang, '/')}
         structuredData={structuredData}
         path="/"
       />

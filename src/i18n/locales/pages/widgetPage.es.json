@@ -4,6 +4,7 @@
     "description": "Instala el widget de IA de Aibooking.dk en tu web o tienda online (Shopify, WooCommerce, WordPress). Deja que los clientes reserven citas, pidan productos y sigan pedidos con la voz, las 24 horas.",
     "keywords": "widget de voz con ia, voicebot sitio web, widget de reservas con ia, reserva por voz, chatbot en danés, reserva automática de reuniones, widget de recepcionista de ia, automatización de reservas, widget IA tienda online, asistente de voz Shopify, seguimiento de pedidos con IA, chatbot WooCommerce, widget de voz ecommerce"
   },
+  "breadcrumb": { "home": "Inicio", "current": "Widget de IA" },
   "hero": {
     "badge": "Widget de Voz con IA para tu sitio web",
     "title_line1": "Deja que tus clientes reserven reuniones",

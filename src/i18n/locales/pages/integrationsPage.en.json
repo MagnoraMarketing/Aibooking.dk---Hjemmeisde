@@ -2,7 +2,7 @@
   "seo": {
     "title": "Integrations - Connect Your AI Receptionist to Your Systems | Aibooking.dk",
     "description": "Integrate our AI receptionist with Google Calendar, Outlook, Microsoft Teams, Zoom, Slack, and many more. Seamless calendar and booking integrations.",
-    "keywords": "calendar integration, Google Calendar, Outlook integration, booking system integration, CRM integration, email integration"
+    "keywords": "AI booking calendar, calendar integration, AI reception, Google Calendar, Outlook integration, booking system integration, CRM integration, email integration"
   },
   "breadcrumb": { "home": "Home", "integrations": "Integrations" },
   "hero": {
@@ -66,7 +66,7 @@
     }
   },
   "integrationSEO": {
-    "title": "AI assistant for Shopify and bookings",
+    "title": "AI Booking, Calendar and Shopify in One Solution",
     "intro": "Whether you run a Shopify store, take bookings, or both, our AI receptionist and AI widget can answer customers in seconds, cut down on abandoned carts, and book more appointments — automatically, around the clock.",
     "shopify": {
       "title": "What can the AI assistant do for your Shopify store?",
@@ -76,7 +76,7 @@
     "solutions": {
       "title": "Shopify, bookings — or both",
       "shopify": { "title": "Shopify store", "text": "Automatically answer product, shipping and return questions, and cut abandoned carts with an AI widget that's available 24/7 on your store." },
-      "booking": { "title": "Bookings & appointments", "text": "Let customers book, reschedule and cancel appointments by phone or on your site, while the AI syncs directly with your calendar and sends automatic SMS reminders." },
+      "booking": { "title": "AI Booking & Calendar", "text": "Let customers book, reschedule and cancel appointments by phone or on your site, while the AI syncs directly with your calendar and sends automatic SMS reminders." },
       "combined": { "title": "Webshop + bookings combined", "text": "Sell both products and services — a clinic with a webshop, or a salon selling products — and the AI can handle order questions and appointment booking in the very same conversation." }
     },
     "howItWorks": {

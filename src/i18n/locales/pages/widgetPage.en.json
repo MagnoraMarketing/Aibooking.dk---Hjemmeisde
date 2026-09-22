@@ -4,6 +4,7 @@
     "description": "Put Aibooking.dk's AI widget on your website or webshop (Shopify, WooCommerce, WordPress). Let customers book appointments, order products and track orders by voice – automatically, around the clock.",
     "keywords": "AI voice widget, voicebot website, AI booking widget, voice-based booking, Danish chatbot, automatic meeting booking, AI receptionist widget, booking automation, webshop AI widget, Shopify voice assistant, AI order tracking, WooCommerce chatbot, ecommerce voice widget"
   },
+  "breadcrumb": { "home": "Home", "current": "AI Widget" },
   "hero": {
     "badge": "AI Voice Widget for your website",
     "title_line1": "Let your customers book meetings",

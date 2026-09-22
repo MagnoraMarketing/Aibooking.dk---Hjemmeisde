@@ -6,15 +6,15 @@
   "exploreTitle": "Explore our AI solutions",
   "links": {
     "widget": {
-      "title": "AI Widget for websites",
+      "title": "AI widget for websites & Shopify",
       "desc": "Chat and voice that answers and books 24/7"
     },
     "inbound": {
-      "title": "AI for inbound & outbound calls",
-      "desc": "An AI reception that answers the phone"
+      "title": "AI phone answering",
+      "desc": "A Danish AI receptionist that answers the phone"
     },
     "webshop": {
-      "title": "AI for webshops & Shopify",
+      "title": "Webshop widget & Shopify",
       "desc": "Order tracking, stock and support, automated"
     },
     "features": {

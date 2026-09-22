@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
+import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
 import { ecommerceFAQs } from '../content/faq';
@@ -65,24 +66,9 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
         path={PAGE_PATH}
         structuredData={breadcrumbData}
       />
-      <Navigation onNavigate={onNavigate} />
+      <Navigation onNavigate={onNavigate} transparent />
 
-      <section className="pt-32 pb-16 bg-gradient-to-br from-brand-50 to-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <div className="inline-flex items-center space-x-2 bg-brand-100 text-brand-700 px-4 py-2 rounded-full mb-6">
-              <span className="w-2 h-2 bg-brand-600 rounded-full animate-pulse"></span>
-              <span className="text-sm font-semibold">{t('hero.badge')}</span>
-            </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-ink-900 mb-6">
-              {t('hero.title')}
-            </h1>
-            <p className="text-xl text-ink-600 max-w-4xl mx-auto leading-relaxed">
-              {t('hero.subtitle')}
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero badge={t('hero.badge')} title={t('hero.title')} subtitle={t('hero.subtitle')} secondaryCta={{ label: t('voiceWidget.cta'), href: '/widget' }} />
 
       <DashboardShowcase variant="ecommerce" className="py-20 md:py-28 bg-white" />
 

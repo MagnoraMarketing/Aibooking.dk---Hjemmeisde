@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-widgettilweb" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(265 0.5 0.5)">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <radialGradient id="glow1-widgettilweb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e40af" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1e40af" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-widgettilweb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-widgettilweb" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.10"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-widgettilweb)"/>
+  <rect width="1200" height="675" fill="url(#dots-widgettilweb)"/>
+  <circle cx="487.9673382383771" cy="122.1308444160968" r="298.83340518921614" fill="url(#glow1-widgettilweb)"/>
+  <circle cx="1010.6003420776688" cy="581.7916561150923" r="373.49722212180495" fill="url(#glow2-widgettilweb)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#fbbf24" stroke-width="140" opacity="0.17"
+    transform="rotate(161 600 337.5)"/>
+
+  <circle cx="110.28415104746819" cy="196.99558728933337" r="35.40586199471727" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
+  <circle cx="185.8834731895477" cy="593.1420527826995" r="31.697689902503043" fill="#1e40af" opacity="0.18"/>
+
+  <g transform="translate(709.8048988804221 415.0715842642821) rotate(6)">
+    <circle r="89.21618044876959" fill="white" opacity="0.06"/>
+    <circle r="89.21618044876959" fill="none" stroke="white" stroke-opacity="0.19" stroke-width="1.5"/>
+    <rect x="-64.88449487183243" y="-64.88449487183243" width="129.76898974366486" height="129.76898974366486" rx="32.442247435916215"
+      fill="url(#glow1-widgettilweb)" opacity="0.9"/>
+    <rect x="-64.88449487183243" y="-64.88449487183243" width="129.76898974366486" height="129.76898974366486" rx="32.442247435916215"
+      fill="#3b82f6" opacity="0.55"/>
+    <g transform="scale(8.110561858979054) translate(-12 -12)">
+      <path d="M3 8l9-5 9 5-9 5-9-5z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/><path d="M3 8v9l9 5 9-5V8M12 13v9" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

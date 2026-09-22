@@ -1,10 +1,13 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
+import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
 import { featuresFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
+import type { SupportedLanguage } from '../i18n/config';
+import { localizedUrl } from '../utils/localePaths';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import {
   Phone, Calendar, MessageSquare, Clock, Shield, CheckCircle, Zap,
@@ -26,11 +29,12 @@ interface AdditionalFeature { title: string; description: string; benefits: stri
 interface StatItem { value: string; label: string }
 
 function FeaturesPage({ onNavigate }: FeaturesPageProps) {
-  const { t } = useTranslation('featuresPage');
+  const { t, i18n } = useTranslation('featuresPage');
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
 
   const breadcrumbData = createBreadcrumbSchema([
-    { name: t('breadcrumb.home'), url: 'https://www.aibooking.dk/' },
-    { name: t('breadcrumb.features'), url: 'https://www.aibooking.dk/funktioner' },
+    { name: t('breadcrumb.home'), url: localizedUrl(lang, '/') },
+    { name: t('breadcrumb.features'), url: localizedUrl(lang, '/funktioner') },
   ]);
 
   const mainBenefitsText = t('mainBenefits', { returnObjects: true }) as TitleDescription[];
@@ -70,28 +74,16 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
         title={t('seo.title')}
         description={t('seo.description')}
         keywords={t('seo.keywords')}
-        canonical="https://www.aibooking.dk/funktioner"
+        canonical={localizedUrl(lang, '/funktioner')}
+        path="/funktioner"
         structuredData={breadcrumbData}
       />
-      <Navigation onNavigate={onNavigate} />
+      <Navigation onNavigate={onNavigate} transparent />
 
-      {/* Hero */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-brand-50 via-white to-ink-50">
+      <PageHero badge={t('hero.badge')} title={t('hero.title_line1')} highlight={t('hero.title_line2')} subtitle={t('hero.subtitle')} />
+
+      <section className="py-20 md:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-brand-100 text-brand-700 px-4 py-2 rounded-full mb-6">
-              <span className="w-2 h-2 bg-brand-600 rounded-full animate-pulse"></span>
-              <span className="text-sm font-semibold">{t('hero.badge')}</span>
-            </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-ink-900 mb-6 leading-tight">
-              {t('hero.title_line1')}<br />
-              <span className="text-brand-600">{t('hero.title_line2')}</span>
-            </h1>
-            <p className="text-xl text-ink-600 max-w-4xl mx-auto leading-relaxed">
-              {t('hero.subtitle')}
-            </p>
-          </div>
-
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {mainBenefits.map((benefit, index) => {
               const Icon = benefit.icon;

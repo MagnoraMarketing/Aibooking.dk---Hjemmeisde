@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Calendar, ArrowLeft, ArrowRight, Clock, Share2, BookmarkPlus } from 'lucide-react';
+import { Calendar, ArrowLeft, ArrowRight, Clock, Share2 } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
@@ -11,6 +11,8 @@ import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
 
+const POST_LANGUAGES = ['da', 'en'] as const;
+
 interface BlogPostPageProps {
   postSlug: string;
   onNavigate: (page: NavigatePage) => void;
@@ -20,6 +22,9 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
   const { t, i18n } = useTranslation('blogPostPage');
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
   const blogHref = (path: string) => buildLocalizedPath(lang, path);
+  // Posts are written in Danish and English; other languages read the
+  // English text, so that version is their canonical.
+  const contentLang: SupportedLanguage = lang === 'da' ? 'da' : 'en';
   const post = getPostBySlug(postSlug);
   const category = post ? getCategoryBySlug(post.categorySlug) : undefined;
   const relatedPosts = post ? getRelatedPosts(post) : [];
@@ -48,6 +53,19 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
       month: 'long',
       day: 'numeric'
     });
+  };
+
+  const handleShare = async () => {
+    const url = window.location.href;
+    try {
+      if (navigator.share) {
+        await navigator.share({ title: getTitle(), url });
+      } else {
+        await navigator.clipboard.writeText(url);
+      }
+    } catch {
+      // Share sheet dismissed or clipboard blocked — nothing to do.
+    }
   };
 
   const estimatedReadTime = (content: string) => {
@@ -97,9 +115,9 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": localizedUrl(lang, `/blog/${post.slug}`)
+      "@id": localizedUrl(contentLang, `/blog/${post.slug}`)
     },
-    "inLanguage": lang,
+    "inLanguage": contentLang,
     "articleSection": getCategoryName(),
     "keywords": post.keywords.join(', ')
   };
@@ -123,8 +141,9 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
         keywords={post.keywords.join(', ')}
         ogImage={`https://www.aibooking.dk${post.image_url}`}
         ogType="article"
-        canonical={localizedUrl(lang, `/blog/${post.slug}`)}
+        canonical={localizedUrl(contentLang, `/blog/${post.slug}`)}
         path={`/blog/${post.slug}`}
+        languages={POST_LANGUAGES}
       />
 
       <script type="application/ld+json">
@@ -134,43 +153,59 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
         {JSON.stringify(breadcrumbData)}
       </script>
 
-      <Navigation onNavigate={onNavigate} />
+      <Navigation onNavigate={onNavigate} transparent />
 
-      <article className="pt-24 pb-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <a
-            href={blogHref('/blog')}
-            className="inline-flex items-center text-brand-600 hover:text-brand-700 font-medium mb-8 transition-colors group"
-          >
-            <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
-            {t('backToBlog')}
-          </a>
+      <article className="pb-20">
+        <header className="relative pt-32 pb-40 md:pb-48 bg-ink-950 overflow-hidden">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.06)_1px,transparent_0)] bg-[length:32px_32px]"></div>
+          <div className="absolute -top-20 right-0 w-[600px] h-[600px] bg-brand-600/25 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-accent-500/10 rounded-full blur-3xl"></div>
 
-          <div className="mb-8">
+          <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <a
-              href={blogHref(`/blog/category/${category.slug}`)}
-              className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-gradient-to-r from-brand-600 to-brand-700 text-white text-sm font-semibold rounded-full mb-6 shadow-sm hover:shadow-lg transition-all"
+              href={blogHref('/blog')}
+              className="inline-flex items-center text-brand-200 hover:text-white font-medium mb-8 transition-colors group"
             >
-              {getCategoryName()}
+              <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
+              {t('backToBlog')}
             </a>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-ink-900 mb-6 leading-tight">
-              {getTitle()}
-            </h1>
-            <div className="flex flex-wrap items-center gap-6 text-ink-500">
-              <div className="flex items-center gap-2">
-                <Calendar className="w-5 h-5 text-brand-600" />
-                <span className="font-medium">{formatDate(post.published_at)}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Clock className="w-5 h-5 text-brand-600" />
-                <span className="font-medium">
+
+            <div>
+              <a
+                href={blogHref(`/blog/category/${category.slug}`)}
+                className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm text-accent-300 px-4 py-2 rounded-full text-sm font-semibold border border-white/10 mb-6 hover:bg-white/10 transition-colors"
+              >
+                <span className="w-2 h-2 bg-accent-400 rounded-full animate-pulse"></span>
+                {getCategoryName()}
+              </a>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+                {getTitle()}
+              </h1>
+              <p className="text-xl text-ink-200 leading-relaxed mb-8">{getExcerpt()}</p>
+              <div className="flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-ink-300">
+                <span className="flex items-center gap-1.5">
+                  <Calendar className="w-4 h-4 text-accent-400" />
+                  {formatDate(post.published_at)}
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <Clock className="w-4 h-4 text-accent-400" />
                   {t('readTime', { count: estimatedReadTime(getContent()) })}
                 </span>
+                <button
+                  type="button"
+                  onClick={handleShare}
+                  className="flex items-center gap-1.5 hover:text-white transition-colors"
+                >
+                  <Share2 className="w-4 h-4 text-accent-400" />
+                  {t('actions.share')}
+                </button>
               </div>
             </div>
           </div>
+        </header>
 
-          <div className="aspect-[21/9] rounded-3xl overflow-hidden mb-12 shadow-2xl">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="-mt-28 md:-mt-36 relative z-10 aspect-[21/9] rounded-3xl overflow-hidden mb-12 shadow-2xl ring-1 ring-white/10">
             <img
               src={post.image_url}
               alt={getTitle()}
@@ -178,33 +213,8 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
             />
           </div>
 
-          <div className="flex gap-4 mb-12 pb-8 border-b border-ink-200">
-            <button className="flex items-center gap-2 px-4 py-2 bg-white border border-ink-200 rounded-lg hover:bg-ink-50 transition-colors font-medium text-ink-700 shadow-sm">
-              <Share2 className="w-4 h-4" />
-              {t('actions.share')}
-            </button>
-            <button className="flex items-center gap-2 px-4 py-2 bg-white border border-ink-200 rounded-lg hover:bg-ink-50 transition-colors font-medium text-ink-700 shadow-sm">
-              <BookmarkPlus className="w-4 h-4" />
-              {t('actions.save')}
-            </button>
-          </div>
-
           <div
-            className="blog-content prose prose-lg max-w-none
-              prose-headings:text-ink-900 prose-headings:font-bold prose-headings:tracking-tight
-              prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6
-              prose-h3:text-2xl prose-h3:mt-10 prose-h3:mb-4
-              prose-h4:text-xl prose-h4:mt-8 prose-h4:mb-3
-              prose-p:text-ink-700 prose-p:leading-relaxed prose-p:mb-6
-              prose-a:text-brand-600 prose-a:font-semibold prose-a:no-underline hover:prose-a:text-brand-700
-              prose-strong:text-ink-900 prose-strong:font-bold
-              prose-ul:my-6 prose-ul:text-ink-700
-              prose-ol:my-6 prose-ol:text-ink-700
-              prose-li:my-2 prose-li:leading-relaxed
-              prose-code:text-brand-600 prose-code:bg-brand-50 prose-code:px-2 prose-code:py-1 prose-code:rounded
-              prose-pre:bg-ink-900 prose-pre:text-ink-100
-              prose-blockquote:border-l-4 prose-blockquote:border-brand-600 prose-blockquote:pl-6 prose-blockquote:italic
-              prose-img:rounded-xl prose-img:shadow-lg"
+            className="blog-content"
             dangerouslySetInnerHTML={{ __html: getContent() }}
           />
 

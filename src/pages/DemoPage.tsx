@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
+import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
 import { demoFAQs } from '../content/faq';
@@ -8,7 +9,7 @@ import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { CheckCircle, Calendar, Clock, Zap } from 'lucide-react';
 import type { SupportedLanguage } from '../i18n/config';
-import { buildLocalizedPath } from '../utils/localePaths';
+import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
 
 interface DemoPageProps {
@@ -24,8 +25,8 @@ function DemoPage({ onNavigate }: DemoPageProps) {
   const contactHref = buildLocalizedPath(lang, '/kontakt');
 
   const breadcrumbData = createBreadcrumbSchema([
-    { name: t('breadcrumb.home'), url: 'https://www.aibooking.dk/' },
-    { name: t('breadcrumb.demo'), url: 'https://www.aibooking.dk/demo' },
+    { name: t('breadcrumb.home'), url: localizedUrl(lang, '/') },
+    { name: t('breadcrumb.demo'), url: localizedUrl(lang, '/demo') },
   ]);
 
   const heroCardsText = t('heroCards', { returnObjects: true }) as TitleDescription[];
@@ -71,27 +72,22 @@ function DemoPage({ onNavigate }: DemoPageProps) {
         title={t('seo.title')}
         description={t('seo.description')}
         keywords={t('seo.keywords')}
-        canonical="https://www.aibooking.dk/demo"
+        canonical={localizedUrl(lang, '/demo')}
+        path="/demo"
         structuredData={breadcrumbData}
       />
-      <Navigation onNavigate={onNavigate} />
+      <Navigation onNavigate={onNavigate} transparent />
 
 
-      <section className="py-16 bg-gradient-to-br from-ink-50 to-brand-50">
+      <PageHero
+        badge={t('hero.badge')}
+        title={t('hero.title')}
+        subtitle={<>{t('hero.subtitle_line1')}<span className="font-bold text-accent-300">{t('hero.subtitle_bold')}</span>{t('hero.subtitle_line2')}</>}
+        secondaryCta={null}
+      />
+
+      <section className="py-20 md:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <div className="inline-flex items-center space-x-2 bg-brand-100 text-brand-700 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              <Zap className="w-4 h-4" />
-              <span>{t('hero.badge')}</span>
-            </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-ink-900 mb-6">
-              {t('hero.title')}
-            </h1>
-            <p className="text-xl text-ink-600 max-w-3xl mx-auto leading-relaxed">
-              {t('hero.subtitle_line1')}<span className="font-bold text-brand-600">{t('hero.subtitle_bold')}</span>{t('hero.subtitle_line2')}
-            </p>
-          </div>
-
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             {heroCards.map((card, index) => {
               const Icon = card.icon;

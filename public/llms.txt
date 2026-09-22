@@ -50,6 +50,9 @@ Trying the product is free: new customers create a free account (no credit card 
 - [AI kundeservice](https://www.aibooking.dk/blog/ai-kundeservice): AI customer service across phone, chat, voice and webshop.
 - [AI medarbejder](https://www.aibooking.dk/blog/ai-medarbejder): An AI employee that handles calls, chats, bookings and follow-up.
 - [AI i Danmark](https://www.aibooking.dk/blog/ai-i-danmark): How Danish SMEs use AI and what to look for in a Danish AI solution.
+- [AI-telefonpasning med dansk AI-receptionist](https://www.aibooking.dk/blog/ai-telefonpasning-dansk-ai-receptionist): AI phone answering by a Danish-speaking AI receptionist.
+- [Widget til webshop](https://www.aibooking.dk/blog/widget-til-webshop): An AI widget for webshops (WooCommerce, Magento, Shopify) that answers order and product questions.
+- [AI widget til Shopify](https://www.aibooking.dk/blog/ai-widget-til-shopify): Adding an AI assistant to a Shopify store in four steps.
 
 ## Optional
 

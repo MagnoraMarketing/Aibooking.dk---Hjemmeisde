@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-aiwidgettils" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(285 0.5 0.5)">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <radialGradient id="glow1-aiwidgettils" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-aiwidgettils" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-aiwidgettils" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-aiwidgettils)"/>
+  <rect width="1200" height="675" fill="url(#dots-aiwidgettils)"/>
+  <circle cx="237.54011299461126" cy="167.1473780181259" r="327.65158254653215" fill="url(#glow1-aiwidgettils)"/>
+  <circle cx="1074.8435470391996" cy="375.1930312952027" r="317.1501997904852" fill="url(#glow2-aiwidgettils)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#fbbf24" stroke-width="140" opacity="0.11"
+    transform="rotate(110 600 337.5)"/>
+
+  <circle cx="202.76017051935196" cy="200.90505275689068" r="51.247539369855076" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
+  <circle cx="94.66937895677984" cy="545.6273519452661" r="17.824942104518414" fill="#3b82f6" opacity="0.18"/>
+
+  <g transform="translate(715.5272837206721 273.0560295791365) rotate(-1)">
+    <circle r="94.15292935422622" fill="white" opacity="0.06"/>
+    <circle r="94.15292935422622" fill="none" stroke="white" stroke-opacity="0.27" stroke-width="1.5"/>
+    <rect x="-68.47485771216452" y="-68.47485771216452" width="136.94971542432904" height="136.94971542432904" rx="34.23742885608226"
+      fill="url(#glow1-aiwidgettils)" opacity="0.9"/>
+    <rect x="-68.47485771216452" y="-68.47485771216452" width="136.94971542432904" height="136.94971542432904" rx="34.23742885608226"
+      fill="#1e3a8a" opacity="0.55"/>
+    <g transform="scale(8.559357214020565) translate(-12 -12)">
+      <circle cx="9" cy="20" r="1.4" fill="white"/><circle cx="17" cy="20" r="1.4" fill="white"/><path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H6" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

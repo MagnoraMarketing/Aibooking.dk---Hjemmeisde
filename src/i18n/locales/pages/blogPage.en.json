@@ -13,5 +13,17 @@
     "label": "Featured",
     "readArticle": "Read article"
   },
-  "readMore": "Read more"
+  "readMore": "Read more",
+  "filters": {
+    "searchLabel": "Search blog posts",
+    "searchPlaceholder": "Search by topic, e.g. booking or webshop...",
+    "allCategories": "All posts",
+    "resultsCount_one": "{{count}} article found",
+    "resultsCount_other": "{{count}} articles found",
+    "emptyState": {
+      "title": "No articles match your search",
+      "message": "Try a different keyword or pick another category.",
+      "reset": "Reset filters"
+    }
+  }
 }

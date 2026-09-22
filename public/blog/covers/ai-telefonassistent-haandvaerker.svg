@@ -13,7 +13,7 @@
       <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
     </radialGradient>
     <pattern id="dots-aitelefonass" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.07"/>
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.09"/>
     </pattern>
   </defs>
 
@@ -23,21 +23,21 @@
   <circle cx="796.9920559437014" cy="356.8776295520365" r="208.788804798387" fill="url(#glow2-aitelefonass)"/>
 
   <line x1="600" y1="-202.5" x2="600" y2="877.5"
-    stroke="#fbbf24" stroke-width="140" opacity="0.17"
-    transform="rotate(211 600 337.5)"/>
+    stroke="#fbbf24" stroke-width="140" opacity="0.14"
+    transform="rotate(268 600 337.5)"/>
 
-  <circle cx="1034.1812934335321" cy="171.34838811401278" r="27.772214928641915" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
-  <circle cx="73.2111483681947" cy="600.3271184675395" r="27.40437636524439" fill="#1d4ed8" opacity="0.18"/>
+  <circle cx="160.7162727713585" cy="179.5906467167661" r="50.19301107292995" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
+  <circle cx="80.75682670623064" cy="527.2785953795537" r="26.304519744589925" fill="#1d4ed8" opacity="0.18"/>
 
-  <g transform="translate(541.1621480807662 281.14409769605845) rotate(-2)">
-    <circle r="98.66559283726383" fill="white" opacity="0.06"/>
-    <circle r="98.66559283726383" fill="none" stroke="white" stroke-opacity="0.27" stroke-width="1.5"/>
-    <rect x="-71.75679479073733" y="-71.75679479073733" width="143.51358958147466" height="143.51358958147466" rx="35.878397395368665"
+  <g transform="translate(740.4978449866176 304.403708295431) rotate(3)">
+    <circle r="83.3020792939933" fill="white" opacity="0.06"/>
+    <circle r="83.3020792939933" fill="none" stroke="white" stroke-opacity="0.17" stroke-width="1.5"/>
+    <rect x="-60.58333039563149" y="-60.58333039563149" width="121.16666079126298" height="121.16666079126298" rx="30.291665197815746"
       fill="url(#glow1-aitelefonass)" opacity="0.9"/>
-    <rect x="-71.75679479073733" y="-71.75679479073733" width="143.51358958147466" height="143.51358958147466" rx="35.878397395368665"
+    <rect x="-60.58333039563149" y="-60.58333039563149" width="121.16666079126298" height="121.16666079126298" rx="30.291665197815746"
       fill="#1e3a8a" opacity="0.55"/>
-    <g transform="scale(8.969599348842166) translate(-12 -12)">
-      <path d="M3 12h2l2-6 3 12 3-16 3 14 2-8 3 4h2" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="scale(7.5729162994539365) translate(-12 -12)">
+      <path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2-2 2.6-2.6z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
     </g>
   </g>
 </svg>

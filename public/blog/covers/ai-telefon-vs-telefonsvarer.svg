@@ -13,7 +13,7 @@
       <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
     </radialGradient>
     <pattern id="dots-aitelefonvst" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.05"/>
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.08"/>
     </pattern>
   </defs>
 
@@ -23,20 +23,20 @@
   <circle cx="830.6190786417574" cy="553.6915465141647" r="241.6186590399593" fill="url(#glow2-aitelefonvst)"/>
 
   <line x1="600" y1="-202.5" x2="600" y2="877.5"
-    stroke="#f59e0b" stroke-width="140" opacity="0.14"
-    transform="rotate(32 600 337.5)"/>
+    stroke="#f59e0b" stroke-width="140" opacity="0.09"
+    transform="rotate(276 600 337.5)"/>
 
-  <circle cx="209.41352592408654" cy="136.59758781921118" r="54.520862182136625" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
-  <circle cx="209.76108480244875" cy="611.0873524742201" r="27.822779756970704" fill="#1e3a8a" opacity="0.18"/>
+  <circle cx="867.1342060435563" cy="158.2951083322987" r="39.25294431345537" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+  <circle cx="212.92661313526332" cy="615.0606973730028" r="28.097892079036683" fill="#1e3a8a" opacity="0.18"/>
 
-  <g transform="translate(738.9381201937795 337.5293201864697) rotate(-6)">
-    <circle r="85.16484879981726" fill="white" opacity="0.06"/>
-    <circle r="85.16484879981726" fill="none" stroke="white" stroke-opacity="0.23" stroke-width="1.5"/>
-    <rect x="-61.938071854412556" y="-61.938071854412556" width="123.87614370882511" height="123.87614370882511" rx="30.969035927206278"
+  <g transform="translate(599.1082347035408 415.65269260900095) rotate(-7)">
+    <circle r="76.19092287530657" fill="white" opacity="0.06"/>
+    <circle r="76.19092287530657" fill="none" stroke="white" stroke-opacity="0.23" stroke-width="1.5"/>
+    <rect x="-55.41158027295023" y="-55.41158027295023" width="110.82316054590046" height="110.82316054590046" rx="27.705790136475116"
       fill="url(#glow1-aitelefonvst)" opacity="0.9"/>
-    <rect x="-61.938071854412556" y="-61.938071854412556" width="123.87614370882511" height="123.87614370882511" rx="30.969035927206278"
+    <rect x="-55.41158027295023" y="-55.41158027295023" width="110.82316054590046" height="110.82316054590046" rx="27.705790136475116"
       fill="#1e40af" opacity="0.55"/>
-    <g transform="scale(7.7422589818015695) translate(-12 -12)">
+    <g transform="scale(6.926447534118779) translate(-12 -12)">
       <path d="M6 3h4l2 5-2.5 1.5a12 12 0 0 0 5 5L16 12l5 2v4a2 2 0 0 1-2 2C10.5 20 4 13.5 4 5a2 2 0 0 1 2-2z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
     </g>
   </g>

@@ -23,20 +23,20 @@
   <circle cx="879.3105407850817" cy="501.55384317040443" r="261.53553241863847" fill="url(#glow2-aldrigmereub)"/>
 
   <line x1="600" y1="-202.5" x2="600" y2="877.5"
-    stroke="#f59e0b" stroke-width="140" opacity="0.17"
-    transform="rotate(263 600 337.5)"/>
+    stroke="#f59e0b" stroke-width="140" opacity="0.15"
+    transform="rotate(203 600 337.5)"/>
 
-  <circle cx="1020.5619080923498" cy="178.91028154268864" r="40.844298779498786" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
-  <circle cx="228.373838217929" cy="580.0478466236964" r="24.19238372053951" fill="#3b82f6" opacity="0.18"/>
+  <circle cx="1022.0118440017103" cy="172.78095404617488" r="52.573607152327895" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+  <circle cx="145.34829985164106" cy="627.0260388543829" r="22.924641103949398" fill="#3b82f6" opacity="0.18"/>
 
-  <g transform="translate(467.73645240068436 329.0614750860259) rotate(-7)">
-    <circle r="83.03624426515307" fill="white" opacity="0.06"/>
-    <circle r="83.03624426515307" fill="none" stroke="white" stroke-opacity="0.27" stroke-width="1.5"/>
-    <rect x="-60.389995829202235" y="-60.389995829202235" width="120.77999165840447" height="120.77999165840447" rx="30.194997914601117"
+  <g transform="translate(576.8159399405122 263.10175447538495) rotate(-8)">
+    <circle r="73.91321610461455" fill="white" opacity="0.06"/>
+    <circle r="73.91321610461455" fill="none" stroke="white" stroke-opacity="0.22" stroke-width="1.5"/>
+    <rect x="-53.75506625790149" y="-53.75506625790149" width="107.51013251580298" height="107.51013251580298" rx="26.877533128950745"
       fill="url(#glow1-aldrigmereub)" opacity="0.9"/>
-    <rect x="-60.389995829202235" y="-60.389995829202235" width="120.77999165840447" height="120.77999165840447" rx="30.194997914601117"
+    <rect x="-53.75506625790149" y="-53.75506625790149" width="107.51013251580298" height="107.51013251580298" rx="26.877533128950745"
       fill="#1e40af" opacity="0.55"/>
-    <g transform="scale(7.548749478650279) translate(-12 -12)">
+    <g transform="scale(6.719383282237686) translate(-12 -12)">
       <path d="M6 3h4l2 5-2.5 1.5a12 12 0 0 0 5 5L16 12l5 2v4a2 2 0 0 1-2 2C10.5 20 4 13.5 4 5a2 2 0 0 1 2-2z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
     </g>
   </g>

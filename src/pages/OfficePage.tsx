@@ -10,6 +10,7 @@ import { TrendingUp, Clock, Phone, BarChart3, CheckCircle, Briefcase } from 'luc
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath } from '../utils/localePaths';
 import IndustryScenario from '../components/industries/IndustryScenario';
+import IndustryIntegrations from '../components/industries/IndustryIntegrations';
 import IndustryCalculator from '../components/industries/IndustryCalculator';
 import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
 import DashboardShowcase from '../components/DashboardShowcase';
@@ -126,6 +127,8 @@ function OfficePage({ onNavigate }: OfficePageProps) {
               {t('perfectFor.ctaButton')}
             </a>
           </div>
+
+          <IndustryIntegrations industry="office" />
         </div>
       </section>
 

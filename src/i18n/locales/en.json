@@ -33,6 +33,8 @@
     "see_all_industries": "See all industries →",
     "integrations": "Integrations",
     "demo": "Demo",
+    "blog": "Blog",
+    "menu": "Menu",
     "contact": "Contact",
     "contact_us": "Contact us",
     "about_us": "About us",
@@ -538,6 +540,57 @@
       "widgetValue": "Get an embed code right away — test and customize the widget on your website",
       "cta": "Create a test account",
       "secondary": "Read more about the trial"
+    },
+    "integrations": {
+      "badge": "Calendar integrations",
+      "healthcare": {
+        "title": "The calendar systems clinics use most",
+        "subtitle": "Whatever booking system you use today, the AI receptionist can sync directly with your calendar.",
+        "items": [
+          { "name": "Google Calendar", "description": "Automatic real-time sync of patient appointments" },
+          { "name": "Microsoft Outlook / 365", "description": "Booking and calendar sharing for the whole clinic" },
+          { "name": "Apple Calendar", "description": "Syncs directly via iCloud" },
+          { "name": "EasyPractice", "description": "Widely used practice management system in Denmark" },
+          { "name": "Novax", "description": "Popular calendar system among chiropractors and physiotherapists" },
+          { "name": "Other systems", "description": "Using something else? We connect via CalDAV/iCal sync" }
+        ]
+      },
+      "craftsman": {
+        "title": "The calendar systems tradespeople use most",
+        "subtitle": "Visits get booked straight into the calendar system you already run your business on.",
+        "items": [
+          { "name": "Google Calendar", "description": "Automatic real-time sync of visits and jobs" },
+          { "name": "Microsoft Outlook / 365", "description": "Shared calendar for the whole team on the go" },
+          { "name": "Apple Calendar", "description": "Syncs directly via iCloud" },
+          { "name": "Dinero", "description": "Widely used among Danish tradespeople for invoicing and scheduling" },
+          { "name": "e-conomic", "description": "Popular accounting and scheduling system in the trade" },
+          { "name": "Other systems", "description": "Using something else? We connect via CalDAV/iCal sync" }
+        ]
+      },
+      "office": {
+        "title": "The calendar systems offices use most",
+        "subtitle": "Meetings get booked straight into the system your team already works in.",
+        "items": [
+          { "name": "Google Calendar", "description": "Automatic real-time sync of meetings" },
+          { "name": "Microsoft Outlook / 365", "description": "Shared calendar and meeting invites for the whole team" },
+          { "name": "Microsoft Teams calendar", "description": "Book meetings straight into the team's shared calendar" },
+          { "name": "Apple Calendar", "description": "Syncs directly via iCloud" },
+          { "name": "Calendly", "description": "Popular meeting-booking tool among offices and consultants" },
+          { "name": "Other systems", "description": "Using something else? We connect via CalDAV/iCal sync" }
+        ]
+      },
+      "ecommerce": {
+        "title": "The calendar systems webshops use most",
+        "subtitle": "Sell both products and services? Bookings can land straight in your existing calendar.",
+        "items": [
+          { "name": "Google Calendar", "description": "Automatic real-time sync of bookings" },
+          { "name": "Microsoft Outlook / 365", "description": "Booking and calendar sharing for the whole team" },
+          { "name": "Shopify", "description": "Book pickup, delivery or consultations straight from the webshop" },
+          { "name": "Calendly", "description": "For webshops that also sell consultations or demos" },
+          { "name": "Apple Calendar", "description": "Syncs directly via iCloud" },
+          { "name": "Other systems", "description": "Using something else? We connect via CalDAV/iCal sync" }
+        ]
+      }
     }
   },
   "trialOfferWidget": {

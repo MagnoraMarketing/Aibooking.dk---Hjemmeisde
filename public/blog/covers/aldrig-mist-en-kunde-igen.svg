@@ -23,21 +23,21 @@
   <circle cx="1023.8037717179395" cy="404.47469028877094" r="217.75008422788233" fill="url(#glow2-aldrigmisten)"/>
 
   <line x1="600" y1="-202.5" x2="600" y2="877.5"
-    stroke="#d97706" stroke-width="140" opacity="0.15"
-    transform="rotate(281 600 337.5)"/>
+    stroke="#d97706" stroke-width="140" opacity="0.16"
+    transform="rotate(119 600 337.5)"/>
 
-  <circle cx="112.31516218185425" cy="178.98674421384933" r="32.96102710068226" fill="none" stroke="#d97706" stroke-width="2" opacity="0.5"/>
-  <circle cx="105.83214994892478" cy="610.0408680578694" r="19.99035133002326" fill="#1e3a8a" opacity="0.18"/>
+  <circle cx="1055.778111917898" cy="103.67727872729303" r="52.597678733989596" fill="none" stroke="#d97706" stroke-width="2" opacity="0.5"/>
+  <circle cx="106.39566332101822" cy="548.2492392528802" r="27.923478009644896" fill="#1e3a8a" opacity="0.18"/>
 
-  <g transform="translate(608.7570154666901 363.24286836571997) rotate(2)">
-    <circle r="79.03183480526786" fill="white" opacity="0.06"/>
-    <circle r="79.03183480526786" fill="none" stroke="white" stroke-opacity="0.27" stroke-width="1.5"/>
-    <rect x="-57.47769804019481" y="-57.47769804019481" width="114.95539608038962" height="114.95539608038962" rx="28.738849020097405"
+  <g transform="translate(534.8788517788053 342.4258212000131) rotate(-5)">
+    <circle r="90.13552457594778" fill="white" opacity="0.06"/>
+    <circle r="90.13552457594778" fill="none" stroke="white" stroke-opacity="0.25" stroke-width="1.5"/>
+    <rect x="-65.55310878250748" y="-65.55310878250748" width="131.10621756501496" height="131.10621756501496" rx="32.77655439125374"
       fill="url(#glow1-aldrigmisten)" opacity="0.9"/>
-    <rect x="-57.47769804019481" y="-57.47769804019481" width="114.95539608038962" height="114.95539608038962" rx="28.738849020097405"
+    <rect x="-65.55310878250748" y="-65.55310878250748" width="131.10621756501496" height="131.10621756501496" rx="32.77655439125374"
       fill="#1e40af" opacity="0.55"/>
-    <g transform="scale(7.184712255024351) translate(-12 -12)">
-      <circle cx="6" cy="6" r="2.2" fill="white"/><circle cx="18" cy="6" r="2.2" fill="white"/><circle cx="12" cy="18" r="2.2" fill="white"/><path d="M8 6h8M7.3 7.8 10.7 16.4M16.7 7.8 13.3 16.4" stroke="white" stroke-width="1.4"/>
+    <g transform="scale(8.194138597813435) translate(-12 -12)">
+      <path d="M12 20s-7-4.4-9.5-8.8A5 5 0 0 1 12 6a5 5 0 0 1 9.5 5.2C19 15.6 12 20 12 20z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
     </g>
   </g>
 </svg>

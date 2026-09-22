@@ -10,6 +10,7 @@ import { TrendingUp, Clock, Calendar, Users, CheckCircle, Phone } from 'lucide-r
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath } from '../utils/localePaths';
 import IndustryScenario from '../components/industries/IndustryScenario';
+import IndustryIntegrations from '../components/industries/IndustryIntegrations';
 import IndustryCalculator from '../components/industries/IndustryCalculator';
 import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
 import DashboardShowcase from '../components/DashboardShowcase';
@@ -126,6 +127,8 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
               {t('perfectFor.cta')}
             </a>
           </div>
+
+          <IndustryIntegrations industry="healthcare" />
         </div>
       </section>
 

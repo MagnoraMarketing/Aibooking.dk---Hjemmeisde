@@ -13,5 +13,17 @@
     "label": "Destacado",
     "readArticle": "Leer artículo"
   },
-  "readMore": "Leer más"
+  "readMore": "Leer más",
+  "filters": {
+    "searchLabel": "Buscar en el blog",
+    "searchPlaceholder": "Busca por tema, p. ej. reservas o tienda online...",
+    "allCategories": "Todos los artículos",
+    "resultsCount_one": "{{count}} artículo encontrado",
+    "resultsCount_other": "{{count}} artículos encontrados",
+    "emptyState": {
+      "title": "Ningún artículo coincide con tu búsqueda",
+      "message": "Prueba con otra palabra clave o elige otra categoría.",
+      "reset": "Restablecer filtros"
+    }
+  }
 }

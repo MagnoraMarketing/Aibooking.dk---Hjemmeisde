@@ -49,28 +49,99 @@ function pick(rand, arr) {
   return arr[Math.floor(rand() * arr.length)];
 }
 
-// Icon path groups (viewBox 0 0 24 24, stroke-based, matches lucide-style icons
-// used elsewhere on the site) per blog category.
+// Icon library (viewBox 0 0 24 24, stroke-based, matches lucide-style icons
+// used elsewhere on the site), keyed by topic rather than just category so
+// each cover can reflect what the post is actually about — booking, webshop
+// orders, automated customer handling, etc. — not just its broad category.
 const ICONS = {
-  'ai-widget': [
-    // chat bubble
-    '<path d="M4 4h16v12H8l-4 4V4z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>',
-    // message square with dots
-    '<path d="M4 5h16v10H9l-3 3v-3H4V5z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/><circle cx="9" cy="10" r="1" fill="white"/><circle cx="12" cy="10" r="1" fill="white"/><circle cx="15" cy="10" r="1" fill="white"/>',
-  ],
-  'ai-inbound-outbound': [
-    // phone
-    '<path d="M6 3h4l2 5-2.5 1.5a12 12 0 0 0 5 5L16 12l5 2v4a2 2 0 0 1-2 2C10.5 20 4 13.5 4 5a2 2 0 0 1 2-2z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>',
-    // waveform
-    '<path d="M3 12h2l2-6 3 12 3-16 3 14 2-8 3 4h2" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>',
-  ],
-  'ai-total-solution': [
-    // connected nodes
-    '<circle cx="6" cy="6" r="2.2" fill="white"/><circle cx="18" cy="6" r="2.2" fill="white"/><circle cx="12" cy="18" r="2.2" fill="white"/><path d="M8 6h8M7.3 7.8 10.7 16.4M16.7 7.8 13.3 16.4" stroke="white" stroke-width="1.4"/>',
-    // calendar/booking
-    '<rect x="4" y="5" width="16" height="14" rx="2" fill="none" stroke="white" stroke-width="1.6"/><path d="M4 9.5h16M8 3v4M16 3v4" stroke="white" stroke-width="1.6" stroke-linecap="round"/><circle cx="9" cy="14" r="1.1" fill="white"/><circle cx="15" cy="14" r="1.1" fill="white"/>',
-  ],
+  // calendar / booking
+  calendar: '<rect x="4" y="5" width="16" height="14" rx="2" fill="none" stroke="white" stroke-width="1.6"/><path d="M4 9.5h16M8 3v4M16 3v4" stroke="white" stroke-width="1.6" stroke-linecap="round"/><circle cx="9" cy="14" r="1.1" fill="white"/><circle cx="15" cy="14" r="1.1" fill="white"/>',
+  // shopping cart / webshop
+  cart: '<circle cx="9" cy="20" r="1.4" fill="white"/><circle cx="17" cy="20" r="1.4" fill="white"/><path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H6" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>',
+  // package / order fulfilment
+  package: '<path d="M3 8l9-5 9 5-9 5-9-5z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/><path d="M3 8v9l9 5 9-5V8M12 13v9" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>',
+  // headset / automated customer handling
+  customerService: '<path d="M4 13a8 8 0 0 1 16 0" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round"/><rect x="3" y="13" width="4" height="6" rx="1.5" fill="none" stroke="white" stroke-width="1.6"/><rect x="17" y="13" width="4" height="6" rx="1.5" fill="none" stroke="white" stroke-width="1.6"/><path d="M19 19v1a3 3 0 0 1-3 3h-3" stroke="white" stroke-width="1.6" stroke-linecap="round"/>',
+  // phone call
+  phone: '<path d="M6 3h4l2 5-2.5 1.5a12 12 0 0 0 5 5L16 12l5 2v4a2 2 0 0 1-2 2C10.5 20 4 13.5 4 5a2 2 0 0 1 2-2z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>',
+  // reminder bell (outbound reminders)
+  bell: '<path d="M6 10a6 6 0 0 1 12 0c0 4 1.5 5.5 1.5 5.5H4.5S6 14 6 10z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 19a2 2 0 0 0 4 0" stroke="white" stroke-width="1.6" stroke-linecap="round"/>',
+  // wrench / craftsman
+  wrench: '<path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2-2 2.6-2.6z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>',
+  // briefcase / office
+  briefcase: '<rect x="3" y="7" width="18" height="13" rx="2" fill="none" stroke="white" stroke-width="1.6"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18" stroke="white" stroke-width="1.6" stroke-linecap="round"/>',
+  // shield / GDPR & data security
+  shield: '<path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>',
+  // bar chart / ROI & growth
+  chart: '<path d="M4 20V10M10 20V4M16 20v-7M22 20H2" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>',
+  // clock / time saved
+  clock: '<circle cx="12" cy="13" r="8" fill="none" stroke="white" stroke-width="1.6"/><path d="M12 9v4l3 2" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 2h6" stroke="white" stroke-width="1.6" stroke-linecap="round"/>',
+  // gear / automation
+  automation: '<circle cx="12" cy="12" r="3" fill="none" stroke="white" stroke-width="1.6"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1" stroke="white" stroke-width="1.6" stroke-linecap="round"/>',
+  // heart / customer retention
+  heart: '<path d="M12 20s-7-4.4-9.5-8.8A5 5 0 0 1 12 6a5 5 0 0 1 9.5 5.2C19 15.6 12 20 12 20z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>',
+  // numbered steps / getting started
+  steps: '<path d="M4 6h4M4 12h4M4 18h4" stroke="white" stroke-width="1.6" stroke-linecap="round"/><path d="M11 6h9M11 12h9M11 18h9" stroke="white" stroke-width="1.6" stroke-linecap="round" opacity="0.6"/><path d="M4.5 5.2l1 1 1.8-2" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>',
+  // inbound vs outbound arrows
+  arrows: '<path d="M4 8h10M14 8l-3-3M14 8l-3 3" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 16H10M10 16l3-3M10 16l3 3" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>',
+  // globe / language
+  globe: '<circle cx="12" cy="12" r="9" fill="none" stroke="white" stroke-width="1.6"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" stroke="white" stroke-width="1.4"/>',
+  // chat bubble (generic AI widget conversation)
+  chat: '<path d="M4 5h16v10H9l-3 3v-3H4V5z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/><circle cx="9" cy="10" r="1" fill="white"/><circle cx="12" cy="10" r="1" fill="white"/><circle cx="15" cy="10" r="1" fill="white"/>',
+  // connected nodes (everything working together)
+  nodes: '<circle cx="6" cy="6" r="2.2" fill="white"/><circle cx="18" cy="6" r="2.2" fill="white"/><circle cx="12" cy="18" r="2.2" fill="white"/><path d="M8 6h8M7.3 7.8 10.7 16.4M16.7 7.8 13.3 16.4" stroke="white" stroke-width="1.4"/>',
 };
+
+// Fallback icon choices per category, used only for posts not listed in
+// SLUG_TOPICS below (e.g. a new post added later, until it's mapped).
+const CATEGORY_FALLBACK_ICONS = {
+  'ai-widget': ['chat', 'cart'],
+  'ai-inbound-outbound': ['phone', 'bell'],
+  'ai-total-solution': ['nodes', 'calendar'],
+};
+
+// Per-post icon, chosen to match what each article is actually about —
+// booking, webshop/orders, automated customer handling, GDPR, ROI, etc. —
+// rather than a random pick within the post's broad category.
+const SLUG_TOPICS = {
+  'hvordan-ai-widgets-transformerer-kundeservice': 'customerService',
+  'ai-widget-integration-bedste-praksis': 'automation',
+  'ai-telefonassistent-fremtidens-kundeservice': 'customerService',
+  'komplet-ai-automatisering-widget-telefon-booking': 'nodes',
+  'roi-ai-automatisering-virksomheder': 'chart',
+  'ai-widget-webshop-konvertering-dognet-rundt': 'cart',
+  'ai-widget-klinik-book-tid-udenfor-aabningstid': 'calendar',
+  'fordele-ai-widget-mindre-virksomheder': 'chat',
+  'ai-widget-spar-tid-spar-penge': 'clock',
+  'miste-kunde-langsom-hjemmeside': 'heart',
+  'ai-widget-vs-kontaktformular': 'chat',
+  'vaelg-den-rigtige-ai-widget': 'steps',
+  'ai-widget-gdpr-danske-virksomheder': 'shield',
+  'ai-telefonassistent-klinik-udeblivelser': 'calendar',
+  'aldrig-mere-ubesvaret-opkald': 'phone',
+  'outbound-ai-opkald-paamindelser': 'bell',
+  'ai-telefonassistent-haandvaerker': 'wrench',
+  'ai-telefon-vs-telefonsvarer': 'phone',
+  'sma-virksomheder-telefon-tid-penge': 'clock',
+  'ai-telefonassistent-dansk-sprog': 'globe',
+  'inbound-outbound-forskel': 'arrows',
+  'ai-telefonassistent-kontor-administration': 'briefcase',
+  'aldrig-mist-en-kunde-igen': 'heart',
+  'totalloesning-webshop': 'package',
+  'totalloesning-klinik': 'calendar',
+  'mindre-virksomhed-stor-virkning-ai': 'chart',
+  'frigoer-tid-er-penge': 'clock',
+  'automatisering-uden-flere-medarbejdere': 'automation',
+  'kundeoplevelse-ai-automatisering': 'customerService',
+  'kom-i-gang-ai-automatisering-trin-for-trin': 'steps',
+};
+
+function pickIcon(rand, slug, category) {
+  const topic = SLUG_TOPICS[slug];
+  if (topic && ICONS[topic]) return ICONS[topic];
+  const fallbacks = CATEGORY_FALLBACK_ICONS[category] || CATEGORY_FALLBACK_ICONS['ai-widget'];
+  return ICONS[pick(rand, fallbacks)];
+}
 
 function generateCover(slug, category) {
   const rand = mulberry32(hashSeed(slug));
@@ -86,7 +157,7 @@ function generateCover(slug, category) {
   const glow1 = { cx: 150 + rand() * 350, cy: 100 + rand() * 200, r: 220 + rand() * 160 };
   const glow2 = { cx: 750 + rand() * 350, cy: 350 + rand() * 250, r: 200 + rand() * 180 };
 
-  const icon = pick(rand, ICONS[category] || ICONS['ai-widget']);
+  const icon = pickIcon(rand, slug, category);
   const iconRotate = Math.floor(rand() * 16 - 8);
   const iconScale = 6.5 + rand() * 2.5;
   const iconCx = width * (0.38 + rand() * 0.24);

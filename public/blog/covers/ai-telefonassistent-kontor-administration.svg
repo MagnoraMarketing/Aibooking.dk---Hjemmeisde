@@ -13,7 +13,7 @@
       <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
     </radialGradient>
     <pattern id="dots-aitelefonass" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.06"/>
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.07"/>
     </pattern>
   </defs>
 
@@ -23,21 +23,21 @@
   <circle cx="784.8639554227702" cy="467.74701438844204" r="317.0312123047188" fill="url(#glow2-aitelefonass)"/>
 
   <line x1="600" y1="-202.5" x2="600" y2="877.5"
-    stroke="#fbbf24" stroke-width="140" opacity="0.18"
-    transform="rotate(212 600 337.5)"/>
+    stroke="#fbbf24" stroke-width="140" opacity="0.14"
+    transform="rotate(142 600 337.5)"/>
 
-  <circle cx="922.1552886161953" cy="153.79626764170828" r="32.62320868996903" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
-  <circle cx="89.63737033680081" cy="534.5234710900113" r="21.110849246382713" fill="#1e40af" opacity="0.18"/>
+  <circle cx="120.5791284441948" cy="123.57764430809767" r="44.66734351683408" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
+  <circle cx="104.72644293867052" cy="537.8383095022291" r="15.33724518166855" fill="#1e40af" opacity="0.18"/>
 
-  <g transform="translate(594.2189762368798 357.9470813088119) rotate(4)">
-    <circle r="95.44421453063842" fill="white" opacity="0.06"/>
-    <circle r="95.44421453063842" fill="none" stroke="white" stroke-opacity="0.22" stroke-width="1.5"/>
-    <rect x="-69.41397420410067" y="-69.41397420410067" width="138.82794840820134" height="138.82794840820134" rx="34.706987102050334"
+  <g transform="translate(706.7612285390496 334.2481741332449) rotate(-4)">
+    <circle r="92.39491378690582" fill="white" opacity="0.06"/>
+    <circle r="92.39491378690582" fill="none" stroke="white" stroke-opacity="0.24" stroke-width="1.5"/>
+    <rect x="-67.1963009359315" y="-67.1963009359315" width="134.392601871863" height="134.392601871863" rx="33.59815046796575"
       fill="url(#glow1-aitelefonass)" opacity="0.9"/>
-    <rect x="-69.41397420410067" y="-69.41397420410067" width="138.82794840820134" height="138.82794840820134" rx="34.706987102050334"
+    <rect x="-67.1963009359315" y="-67.1963009359315" width="134.392601871863" height="134.392601871863" rx="33.59815046796575"
       fill="#1e3a8a" opacity="0.55"/>
-    <g transform="scale(8.676746775512584) translate(-12 -12)">
-      <path d="M6 3h4l2 5-2.5 1.5a12 12 0 0 0 5 5L16 12l5 2v4a2 2 0 0 1-2 2C10.5 20 4 13.5 4 5a2 2 0 0 1 2-2z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+    <g transform="scale(8.399537616991438) translate(-12 -12)">
+      <rect x="3" y="7" width="18" height="13" rx="2" fill="none" stroke="white" stroke-width="1.6"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
     </g>
   </g>
 </svg>

@@ -2,7 +2,7 @@
   "seo": {
     "title": "Integrationer - Tilslut AI Receptionist til Dine Systemer | Aibooking.dk",
     "description": "Integrer vores AI-receptionist med Google Calendar, Outlook, Microsoft Teams, Zoom, Slack og mange flere. Seamless kalender- og booking-integrationer.",
-    "keywords": "kalender integration, Google Calendar, Outlook integration, booking system integration, CRM integration, email integration"
+    "keywords": "AI booking kalender, kalender integration, AI reception, Google Calendar, Outlook integration, booking system integration, CRM integration, email integration"
   },
   "breadcrumb": { "home": "Hjem", "integrations": "Integrationer" },
   "hero": {
@@ -66,7 +66,7 @@
     }
   },
   "integrationSEO": {
-    "title": "AI-assistent til Shopify og bookinger",
+    "title": "AI Booking, Kalender og Shopify i Én Løsning",
     "intro": "Uanset om I driver en Shopify-webshop, tager imod bookinger, eller begge dele, kan vores AI-receptionist og AI-widget besvare kunder på sekunder, reducere efterladte kurve og booke flere aftaler – automatisk, døgnet rundt.",
     "shopify": {
       "title": "Hvad kan AI-assistenten hjælpe din Shopify-webshop med?",
@@ -76,7 +76,7 @@
     "solutions": {
       "title": "Shopify, bookinger – eller begge dele",
       "shopify": { "title": "Shopify-webshop", "text": "Besvar produkt-, leverings- og returspørgsmål automatisk, og reducér efterladte kurve med en AI-widget, der er tilgængelig 24/7 på din webshop." },
-      "booking": { "title": "Bookinger & tidsbestilling", "text": "Lad kunder booke, ombooke og aflyse tider over telefon eller på hjemmesiden, mens AI'en synkroniserer direkte med jeres kalender og sender automatiske SMS-påmindelser." },
+      "booking": { "title": "AI Booking & Kalender", "text": "Lad kunder booke, ombooke og aflyse tider over telefon eller på hjemmesiden, mens AI'en synkroniserer direkte med jeres kalender og sender automatiske SMS-påmindelser." },
       "combined": { "title": "Webshop + bookinger kombineret", "text": "Sælger I både produkter og ydelser – f.eks. en klinik med webshop eller en salon der sælger produkter – kan AI'en håndtere både ordrespørgsmål og tidsbestilling i én og samme samtale." }
     },
     "howItWorks": {

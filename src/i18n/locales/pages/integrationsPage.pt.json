@@ -2,7 +2,7 @@
   "seo": {
     "title": "Integrações - Ligue a Sua Recepcionista IA aos Seus Sistemas | Aibooking.dk",
     "description": "Integre a nossa recepcionista de IA com o Google Calendar, Outlook, Microsoft Teams, Zoom, Slack e muito mais. Integrações de calendário e marcações sem esforço.",
-    "keywords": "integração de calendário, Google Calendar, integração Outlook, integração de sistema de marcações, integração CRM, integração de email"
+    "keywords": "ai booking calendário, integração de calendário, receção com ia, Google Calendar, integração Outlook, integração de sistema de marcações, integração CRM, integração de email"
   },
   "breadcrumb": { "home": "Início", "integrations": "Integrações" },
   "hero": {
@@ -66,7 +66,7 @@
     }
   },
   "integrationSEO": {
-    "title": "Assistente de IA para Shopify e marcações",
+    "title": "AI Booking, Calendário e Shopify numa Única Solução",
     "intro": "Quer tenha uma loja Shopify, faça marcações, ou ambos, a nossa recepcionista de IA e o widget de IA respondem aos clientes em segundos, reduzem carrinhos abandonados e ajudam a marcar mais consultas — automaticamente, 24 horas por dia.",
     "shopify": {
       "title": "O que pode o assistente de IA fazer pela sua loja Shopify?",
@@ -76,7 +76,7 @@
     "solutions": {
       "title": "Shopify, marcações — ou ambos",
       "shopify": { "title": "Loja Shopify", "text": "Responda automaticamente a perguntas sobre produtos, envio e devoluções, e reduza carrinhos abandonados com um widget de IA disponível 24/7 na sua loja." },
-      "booking": { "title": "Marcações e agendamentos", "text": "Permita que os clientes marquem, remarquem e cancelem consultas por telefone ou no seu site, enquanto a IA sincroniza diretamente com o seu calendário e envia lembretes automáticos por SMS." },
+      "booking": { "title": "AI Booking e Calendário", "text": "Permita que os clientes marquem, remarquem e cancelem consultas por telefone ou no seu site, enquanto a IA sincroniza diretamente com o seu calendário e envia lembretes automáticos por SMS." },
       "combined": { "title": "Loja online + marcações combinadas", "text": "Vende produtos e serviços — uma clínica com loja online, ou um salão que também vende produtos? A IA consegue tratar de perguntas sobre encomendas e marcações na mesma conversa." }
     },
     "howItWorks": {

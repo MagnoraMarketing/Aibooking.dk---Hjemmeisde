@@ -2,7 +2,7 @@
   "seo": {
     "title": "Integraciones - Conecta Tu Recepcionista de IA con Tus Sistemas | Aibooking.dk",
     "description": "Integra nuestra recepcionista de IA con Google Calendar, Outlook, Microsoft Teams, Zoom, Slack y muchos más. Integraciones perfectas de calendario y reservas.",
-    "keywords": "integración de calendario, google calendar, integración outlook, integración sistema de reservas, integración crm, integración de correo electrónico"
+    "keywords": "ai booking calendario, integración de calendario, recepción con ia, google calendar, integración outlook, integración sistema de reservas, integración crm, integración de correo electrónico"
   },
   "breadcrumb": { "home": "Inicio", "integrations": "Integraciones" },
   "hero": {
@@ -66,7 +66,7 @@
     }
   },
   "integrationSEO": {
-    "title": "Asistente de IA para Shopify y reservas",
+    "title": "AI Booking, Calendario y Shopify en Una Sola Solución",
     "intro": "Ya sea que tengas una tienda Shopify, gestiones reservas, o ambas cosas, nuestra recepcionista de IA y el widget de IA pueden responder a los clientes en segundos, reducir los carritos abandonados y conseguir más citas reservadas, de forma automática las 24 horas.",
     "shopify": {
       "title": "¿Qué puede hacer el asistente de IA por tu tienda Shopify?",
@@ -76,7 +76,7 @@
     "solutions": {
       "title": "Shopify, reservas — o ambas cosas",
       "shopify": { "title": "Tienda Shopify", "text": "Responde automáticamente a preguntas sobre productos, envíos y devoluciones, y reduce los carritos abandonados con un widget de IA disponible 24/7 en tu tienda." },
-      "booking": { "title": "Reservas y citas", "text": "Permite a los clientes reservar, cambiar y cancelar citas por teléfono o en tu web, mientras la IA se sincroniza directamente con tu calendario y envía recordatorios automáticos por SMS." },
+      "booking": { "title": "AI Booking y Calendario", "text": "Permite a los clientes reservar, cambiar y cancelar citas por teléfono o en tu web, mientras la IA se sincroniza directamente con tu calendario y envía recordatorios automáticos por SMS." },
       "combined": { "title": "Tienda online + reservas combinadas", "text": "¿Vendes productos y servicios — una clínica con tienda online, o un salón que también vende productos? La IA puede gestionar preguntas sobre pedidos y reservas de citas en la misma conversación." }
     },
     "howItWorks": {

@@ -2,7 +2,7 @@
   "seo": {
     "title": "Intégrations - Connectez Votre Réceptionniste IA à Vos Systèmes | Aibooking.dk",
     "description": "Intégrez notre réceptionniste IA avec Google Calendar, Outlook, Microsoft Teams, Zoom, Slack et bien plus encore. Intégrations de calendrier et de réservation sans effort.",
-    "keywords": "intégration calendrier, Google Calendar, intégration Outlook, intégration système de réservation, intégration CRM, intégration email"
+    "keywords": "ai booking calendrier, intégration calendrier, réception ia, Google Calendar, intégration Outlook, intégration système de réservation, intégration CRM, intégration email"
   },
   "breadcrumb": { "home": "Accueil", "integrations": "Intégrations" },
   "hero": {
@@ -66,7 +66,7 @@
     }
   },
   "integrationSEO": {
-    "title": "Assistant IA pour Shopify et les réservations",
+    "title": "AI Booking, Calendrier et Shopify en Une Seule Solution",
     "intro": "Que vous gériez une boutique Shopify, des réservations, ou les deux, notre réceptionniste IA et notre widget IA répondent aux clients en quelques secondes, réduisent les paniers abandonnés et permettent de réserver plus de rendez-vous — automatiquement, 24h/24.",
     "shopify": {
       "title": "Que peut faire l'assistant IA pour votre boutique Shopify ?",
@@ -76,7 +76,7 @@
     "solutions": {
       "title": "Shopify, réservations — ou les deux",
       "shopify": { "title": "Boutique Shopify", "text": "Répondez automatiquement aux questions produits, livraison et retours, et réduisez les paniers abandonnés grâce à un widget IA disponible 24h/24 sur votre boutique." },
-      "booking": { "title": "Réservations & rendez-vous", "text": "Laissez vos clients réserver, modifier et annuler des rendez-vous par téléphone ou sur votre site, pendant que l'IA se synchronise directement avec votre agenda et envoie des rappels SMS automatiques." },
+      "booking": { "title": "AI Booking et Calendrier", "text": "Laissez vos clients réserver, modifier et annuler des rendez-vous par téléphone ou sur votre site, pendant que l'IA se synchronise directement avec votre agenda et envoie des rappels SMS automatiques." },
       "combined": { "title": "Boutique en ligne + réservations combinées", "text": "Vous vendez à la fois des produits et des services — une clinique avec boutique en ligne, ou un salon qui vend aussi des produits ? L'IA peut gérer les questions de commande et la prise de rendez-vous dans la même conversation." }
     },
     "howItWorks": {

@@ -40,6 +40,17 @@ Trying the product is free: new customers create a free account (no credit card 
 - [AI Inbound & Outbound articles](https://www.aibooking.dk/blog/category/ai-inbound-outbound): AI phone assistant guides for inbound calls, outbound reminders, and industry-specific use cases.
 - [AI Total Solution articles](https://www.aibooking.dk/blog/category/ai-total-solution): Connecting widget, phone and booking into one system; ROI and getting-started guides.
 
+### Key guides
+
+- [AI widget til hjemmeside: komplet guide](https://www.aibooking.dk/blog/ai-widget-hjemmeside-komplet-guide): What an AI chat/voice widget is and how to choose one.
+- [Automatisering af Shopify med AI](https://www.aibooking.dk/blog/shopify-ai-automatisering): Shopify AI automation: order tracking, stock, reorders and voice shopping.
+- [AI til hjemmeside](https://www.aibooking.dk/blog/ai-til-hjemmeside): Seven practical ways to use AI on a business website.
+- [AI reception](https://www.aibooking.dk/blog/ai-reception-virtuel-receptionist): How a virtual AI receptionist works across phone, website and calendar.
+- [AI til indgående opkald](https://www.aibooking.dk/blog/ai-indgaaende-opkald): AI that answers every inbound call, books and forwards urgent calls.
+- [AI kundeservice](https://www.aibooking.dk/blog/ai-kundeservice): AI customer service across phone, chat, voice and webshop.
+- [AI medarbejder](https://www.aibooking.dk/blog/ai-medarbejder): An AI employee that handles calls, chats, bookings and follow-up.
+- [AI i Danmark](https://www.aibooking.dk/blog/ai-i-danmark): How Danish SMEs use AI and what to look for in a Danish AI solution.
+
 ## Optional
 
 - [Sitemap](https://www.aibooking.dk/sitemap.xml): Full list of indexed pages.

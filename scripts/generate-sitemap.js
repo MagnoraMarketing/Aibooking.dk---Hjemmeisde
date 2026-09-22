@@ -72,7 +72,15 @@ const routeMap = {
     '/blog/frigoer-tid-er-penge',
     '/blog/automatisering-uden-flere-medarbejdere',
     '/blog/kundeoplevelse-ai-automatisering',
-    '/blog/kom-i-gang-ai-automatisering-trin-for-trin'
+    '/blog/kom-i-gang-ai-automatisering-trin-for-trin',
+    '/blog/ai-widget-hjemmeside-komplet-guide',
+    '/blog/shopify-ai-automatisering',
+    '/blog/ai-til-hjemmeside',
+    '/blog/ai-reception-virtuel-receptionist',
+    '/blog/ai-indgaaende-opkald',
+    '/blog/ai-kundeservice',
+    '/blog/ai-medarbejder',
+    '/blog/ai-i-danmark'
   ]
 };
 
@@ -95,6 +103,14 @@ const priorityMap = {
   '/blog/ai-telefonassistent-fremtidens-kundeservice': 0.7,
   '/blog/komplet-ai-automatisering-widget-telefon-booking': 0.8,
   '/blog/roi-ai-automatisering-virksomheder': 0.8,
+  '/blog/ai-widget-hjemmeside-komplet-guide': 0.8,
+  '/blog/shopify-ai-automatisering': 0.8,
+  '/blog/ai-til-hjemmeside': 0.8,
+  '/blog/ai-reception-virtuel-receptionist': 0.8,
+  '/blog/ai-indgaaende-opkald': 0.8,
+  '/blog/ai-kundeservice': 0.8,
+  '/blog/ai-medarbejder': 0.8,
+  '/blog/ai-i-danmark': 0.8,
   '/widget': 0.9,
   '/ind-og-udgaaende-opkald': 0.9,
   '/proeveperiode': 0.9,

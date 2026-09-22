@@ -4,6 +4,7 @@ import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import FAQ from '../components/FAQ';
+import BlogCTA from '../components/BlogCTA';
 import { blogFAQs } from '../content/faq';
 import { getCategoryBySlug, getPostsByCategory, BlogPost } from '../content/blog';
 import type { SupportedLanguage } from '../i18n/config';
@@ -177,23 +178,7 @@ export default function BlogCategoryPage({ categorySlug, onNavigate }: BlogCateg
               </div>
             )}
 
-            <div className="mt-16 text-center">
-              <div className="inline-block bg-white rounded-2xl shadow-lg p-8 max-w-2xl">
-                <h3 className="text-2xl font-bold text-ink-900 mb-4">
-                  {t('wantMore.title')}
-                </h3>
-                <p className="text-ink-600 mb-6">
-                  {t('wantMore.description')}
-                </p>
-                <a
-                  href={blogHref('/widget')}
-                  className="inline-flex items-center gap-2 bg-brand-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-brand-700 transition-colors"
-                >
-                  {t('wantMore.cta')}
-                  <ArrowRight className="w-4 h-4" />
-                </a>
-              </div>
-            </div>
+            <BlogCTA categorySlug={categorySlug} />
           </div>
         </div>
       </div>

@@ -13,10 +13,5 @@
     "message": "Aucun article dans cette catégorie pour le moment.",
     "viewAll": "Voir tous les articles"
   },
-  "readArticle": "Lire l'article",
-  "wantMore": {
-    "title": "Vous voulez en savoir plus ?",
-    "description": "Contactez-nous pour découvrir comment l'automatisation IA peut transformer votre entreprise.",
-    "cta": "Réserver une démo"
-  }
+  "readArticle": "Lire l'article"
 }

@@ -5,6 +5,7 @@ import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import FAQ from '../components/FAQ';
+import BlogCTA from '../components/BlogCTA';
 import { blogFAQs } from '../content/faq';
 import { getPublishedPosts, getCategoryBySlug, blogCategories, BlogPost } from '../content/blog';
 import type { SupportedLanguage } from '../i18n/config';
@@ -310,6 +311,8 @@ export default function BlogPage({ onNavigate }: BlogPageProps) {
                 </div>
               </>
             )}
+
+          <BlogCTA />
         </div>
       </div>
 

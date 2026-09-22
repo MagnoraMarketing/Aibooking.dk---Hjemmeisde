@@ -1,9 +1,10 @@
 import { useTranslation } from 'react-i18next';
-import { Calendar, ArrowLeft, ArrowRight, Clock, Share2, BookmarkPlus, Sparkles } from 'lucide-react';
+import { Calendar, ArrowLeft, ArrowRight, Clock, Share2, BookmarkPlus } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import FAQ from '../components/FAQ';
+import BlogCTA from '../components/BlogCTA';
 import { blogFAQs } from '../content/faq';
 import { getPostBySlug, getCategoryBySlug, getRelatedPosts, BlogPost } from '../content/blog';
 import type { SupportedLanguage } from '../i18n/config';
@@ -24,7 +25,15 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
   const relatedPosts = post ? getRelatedPosts(post) : [];
 
   const getTitle = () => (post ? (i18n.language === 'da' ? post.title_da : post.title_en) : '');
-  const getContent = () => (post ? (i18n.language === 'da' ? post.content_da : post.content_en) : '');
+  // Internal links in post HTML are written as Danish (unprefixed) paths;
+  // prefix them for the current language so readers stay on their locale.
+  const getContent = () =>
+    post
+      ? (i18n.language === 'da' ? post.content_da : post.content_en).replace(
+          /href="(\/[^"]*)"/g,
+          (_, path: string) => `href="${buildLocalizedPath(lang, path)}"`
+        )
+      : '';
   const getExcerpt = () => (post ? (i18n.language === 'da' ? post.excerpt_da : post.excerpt_en) : '');
   const getMetaTitle = () => (post ? (i18n.language === 'da' ? post.meta_title_da : post.meta_title_en) : '');
   const getMetaDescription = () => (post ? (i18n.language === 'da' ? post.meta_description_da : post.meta_description_en) : '');
@@ -71,7 +80,7 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
     "@type": "BlogPosting",
     "headline": getTitle(),
     "description": getExcerpt(),
-    "image": post.image_url,
+    "image": `https://www.aibooking.dk${post.image_url}`,
     "datePublished": post.published_at,
     "dateModified": post.published_at,
     "author": {
@@ -88,9 +97,22 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://www.aibooking.dk/blog/${post.slug}`
+      "@id": localizedUrl(lang, `/blog/${post.slug}`)
     },
+    "inLanguage": lang,
+    "articleSection": getCategoryName(),
     "keywords": post.keywords.join(', ')
+  };
+
+  const breadcrumbData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "AIBooking.dk", "item": localizedUrl(lang, '/') },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": localizedUrl(lang, '/blog') },
+      { "@type": "ListItem", "position": 3, "name": getCategoryName(), "item": localizedUrl(lang, `/blog/category/${category.slug}`) },
+      { "@type": "ListItem", "position": 4, "name": getTitle(), "item": localizedUrl(lang, `/blog/${post.slug}`) }
+    ]
   };
 
   return (
@@ -99,13 +121,17 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
         title={getMetaTitle()}
         description={getMetaDescription()}
         keywords={post.keywords.join(', ')}
-        ogImage={post.image_url}
+        ogImage={`https://www.aibooking.dk${post.image_url}`}
+        ogType="article"
         canonical={localizedUrl(lang, `/blog/${post.slug}`)}
         path={`/blog/${post.slug}`}
       />
 
       <script type="application/ld+json">
         {JSON.stringify(structuredData)}
+      </script>
+      <script type="application/ld+json">
+        {JSON.stringify(breadcrumbData)}
       </script>
 
       <Navigation onNavigate={onNavigate} />
@@ -182,24 +208,7 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
             dangerouslySetInnerHTML={{ __html: getContent() }}
           />
 
-          <div className="mt-16 p-10 bg-gradient-to-br from-brand-50 via-brand-50 to-indigo-50 rounded-3xl border-2 border-brand-100 shadow-lg">
-            <div className="flex items-center gap-2 mb-4">
-              <Sparkles className="w-6 h-6 text-brand-600" />
-              <h3 className="text-2xl font-bold text-ink-900">
-                {t('ctaBox.title')}
-              </h3>
-            </div>
-            <p className="text-lg text-ink-700 mb-6 leading-relaxed">
-              {t('ctaBox.description')}
-            </p>
-            <a
-              href={blogHref('/widget')}
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-700 text-white px-8 py-4 rounded-xl font-bold hover:shadow-xl transition-all transform hover:scale-105"
-            >
-              {t('ctaBox.button')}
-              <ArrowRight className="w-5 h-5" />
-            </a>
-          </div>
+          <BlogCTA categorySlug={post.categorySlug} />
         </div>
 
         {relatedPosts.length > 0 && (

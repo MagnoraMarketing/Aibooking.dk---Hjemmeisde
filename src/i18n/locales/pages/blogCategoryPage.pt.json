@@ -13,10 +13,5 @@
     "message": "Ainda não há artigos nesta categoria.",
     "viewAll": "Ver todos os artigos"
   },
-  "readArticle": "Ler artigo",
-  "wantMore": {
-    "title": "Quer saber mais?",
-    "description": "Contacte-nos para saber como a automação IA pode transformar o seu negócio.",
-    "cta": "Marcar uma demonstração"
-  }
+  "readArticle": "Ler artigo"
 }

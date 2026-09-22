@@ -1,0 +1,33 @@
+{
+  "title": "Klar til at sætte AI i arbejde?",
+  "description": "Få en AI widget på din hjemmeside, en AI-receptionist på telefonen og automatiseret kundeservice til din webshop — samlet i én dansk løsning. Prøv gratis i 7 dage, intet betalingskort krævet.",
+  "primary": "Start gratis prøveperiode",
+  "secondary": "Book en gratis demo",
+  "exploreTitle": "Udforsk vores AI-løsninger",
+  "links": {
+    "widget": {
+      "title": "AI Widget til hjemmeside",
+      "desc": "Chat og tale, der svarer og booker døgnet rundt"
+    },
+    "inbound": {
+      "title": "AI til indgående & udgående opkald",
+      "desc": "AI reception, der tager telefonen på dansk"
+    },
+    "webshop": {
+      "title": "AI til webshop & Shopify",
+      "desc": "Ordresporing, lager og kundeservice automatisk"
+    },
+    "features": {
+      "title": "Alle funktioner",
+      "desc": "Dashboard, kalender, SMS og AI-medarbejder"
+    },
+    "industries": {
+      "title": "Brancher",
+      "desc": "Klinik, håndværker, kontor og e-handel"
+    },
+    "integrations": {
+      "title": "Integrationer",
+      "desc": "Google Kalender, Outlook, Shopify m.fl."
+    }
+  }
+}

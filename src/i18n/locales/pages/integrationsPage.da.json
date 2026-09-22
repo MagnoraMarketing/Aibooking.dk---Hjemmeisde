@@ -65,6 +65,39 @@
       "button": "Book Demo"
     }
   },
+  "integrationSEO": {
+    "title": "AI-assistent til Shopify og bookinger",
+    "intro": "Uanset om I driver en Shopify-webshop, tager imod bookinger, eller begge dele, kan vores AI-receptionist og AI-widget besvare kunder på sekunder, reducere efterladte kurve og booke flere aftaler – automatisk, døgnet rundt.",
+    "shopify": {
+      "title": "Hvad kan AI-assistenten hjælpe din Shopify-webshop med?",
+      "paragraph1": "AI-widgetten sættes direkte ind på din Shopify-side og svarer besøgende med det samme på spørgsmål om levering, størrelser, lagerstatus og returret – også uden for åbningstid, hvor en stor del af trafikken kommer. Det betyder færre efterladte kurve og flere gennemførte køb.",
+      "paragraph2": "Har kunden brug for menneskelig hjælp – f.eks. en kompliceret returvare eller en specialordre – sender AI'en samtalen videre til jeres team med den fulde kontekst, så ingen skal starte forfra."
+    },
+    "solutions": {
+      "title": "Shopify, bookinger – eller begge dele",
+      "shopify": { "title": "Shopify-webshop", "text": "Besvar produkt-, leverings- og returspørgsmål automatisk, og reducér efterladte kurve med en AI-widget, der er tilgængelig 24/7 på din webshop." },
+      "booking": { "title": "Bookinger & tidsbestilling", "text": "Lad kunder booke, ombooke og aflyse tider over telefon eller på hjemmesiden, mens AI'en synkroniserer direkte med jeres kalender og sender automatiske SMS-påmindelser." },
+      "combined": { "title": "Webshop + bookinger kombineret", "text": "Sælger I både produkter og ydelser – f.eks. en klinik med webshop eller en salon der sælger produkter – kan AI'en håndtere både ordrespørgsmål og tidsbestilling i én og samme samtale." }
+    },
+    "howItWorks": {
+      "title": "Sådan fungerer det i praksis",
+      "paragraph1": "Integrationen kobler sig på jeres Shopify-butik og kalender, så AI'en altid har adgang til opdaterede ordre- og ledig-tid-oplysninger. Opsætningen tager typisk under 15 minutter, og der kræves ingen udvikling fra jeres side.",
+      "paragraph2": "AI'en lærer jeres produkter, priser og åbningstider, og I kan til enhver tid justere, hvad den må svare på selv, og hvornår den skal give kunden videre til et menneske."
+    },
+    "whyChoose": {
+      "title": "Hvorfor vælge Aibooking til Shopify og bookinger?",
+      "points": [
+        "Én AI-løsning til både webshop-support og bookingsystem",
+        "Opsætning på under 15 minutter uden IT-viden",
+        "Dansk support og en AI, der taler flydende dansk",
+        "Ingen binding – prøv gratis i 7 dage"
+      ]
+    },
+    "closing": {
+      "paragraph1": "Uanset om jeres udfordring er efterladte kurve i Shopify, spildtid på telefonen, eller begge dele, kan AI-receptionisten fra Aibooking hjælpe.",
+      "paragraph2": "Book en demo i dag, og se hvordan Shopify og bookinger kan hænge sammen i én AI-løsning."
+    }
+  },
   "ctaSection": {
     "title": "Lad AI'en overtage administrationen",
     "subtitle": "Vores AI-løsning integrerer problemfrit med dine eksisterende systemer og automatiserer alt fra telefonopkald til email kommunikation. Spar timer hver dag og fokuser på det der virkelig betyder noget: dine kunder.",

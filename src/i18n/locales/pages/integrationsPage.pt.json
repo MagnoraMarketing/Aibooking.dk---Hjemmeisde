@@ -65,6 +65,39 @@
       "button": "Marcar Demonstração"
     }
   },
+  "integrationSEO": {
+    "title": "Assistente de IA para Shopify e marcações",
+    "intro": "Quer tenha uma loja Shopify, faça marcações, ou ambos, a nossa recepcionista de IA e o widget de IA respondem aos clientes em segundos, reduzem carrinhos abandonados e ajudam a marcar mais consultas — automaticamente, 24 horas por dia.",
+    "shopify": {
+      "title": "O que pode o assistente de IA fazer pela sua loja Shopify?",
+      "paragraph1": "O widget de IA é colocado diretamente na sua loja Shopify e responde de imediato a perguntas sobre envio, tamanhos, stock e devoluções — mesmo fora do horário comercial, quando chega grande parte do tráfego. Isso significa menos carrinhos abandonados e mais compras concluídas.",
+      "paragraph2": "Quando um cliente precisa de ajuda humana — uma devolução complicada ou uma encomenda personalizada — a IA transfere a conversa para a sua equipa com todo o contexto, para que ninguém tenha de recomeçar do zero."
+    },
+    "solutions": {
+      "title": "Shopify, marcações — ou ambos",
+      "shopify": { "title": "Loja Shopify", "text": "Responda automaticamente a perguntas sobre produtos, envio e devoluções, e reduza carrinhos abandonados com um widget de IA disponível 24/7 na sua loja." },
+      "booking": { "title": "Marcações e agendamentos", "text": "Permita que os clientes marquem, remarquem e cancelem consultas por telefone ou no seu site, enquanto a IA sincroniza diretamente com o seu calendário e envia lembretes automáticos por SMS." },
+      "combined": { "title": "Loja online + marcações combinadas", "text": "Vende produtos e serviços — uma clínica com loja online, ou um salão que também vende produtos? A IA consegue tratar de perguntas sobre encomendas e marcações na mesma conversa." }
+    },
+    "howItWorks": {
+      "title": "Como funciona na prática",
+      "paragraph1": "A integração liga-se à sua loja Shopify e ao seu calendário, para que a IA tenha sempre dados atualizados sobre encomendas e disponibilidade. A configuração demora normalmente menos de 15 minutos e não exige desenvolvimento da sua parte.",
+      "paragraph2": "A IA aprende os seus produtos, preços e horários, e pode ajustar a qualquer momento o que ela pode responder sozinha e quando deve transferir o cliente para uma pessoa."
+    },
+    "whyChoose": {
+      "title": "Porquê escolher a Aibooking para Shopify e marcações?",
+      "points": [
+        "Uma única solução de IA para suporte de loja online e sistema de marcações",
+        "Configuração em menos de 15 minutos, sem conhecimentos técnicos",
+        "Suporte e uma IA que fala várias línguas fluentemente",
+        "Sem fidelização — experimente gratuitamente durante 7 dias"
+      ]
+    },
+    "closing": {
+      "paragraph1": "Seja o seu desafio os carrinhos abandonados no Shopify, o tempo perdido ao telefone, ou ambos, a recepcionista de IA da Aibooking pode ajudar.",
+      "paragraph2": "Marque uma demonstração hoje e veja como o Shopify e as marcações podem funcionar em conjunto numa única solução de IA."
+    }
+  },
   "ctaSection": {
     "title": "Deixe a IA assumir a gestão administrativa",
     "subtitle": "A nossa solução de IA integra-se sem esforço com os seus sistemas existentes e automatiza tudo, desde chamadas telefónicas a comunicação por email. Poupe horas todos os dias e concentre-se no que realmente importa: os seus clientes.",

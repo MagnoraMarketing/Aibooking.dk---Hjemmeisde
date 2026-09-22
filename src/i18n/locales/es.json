@@ -42,7 +42,8 @@
     "badge": "Tu Recepcionista Virtual",
     "title_line1": "¿Pasas horas en llamadas,",
     "title_line2": "SMS y seguimientos?",
-    "subtitle": "Olvídate de la administración. Nuestra recepcionista de IA se encarga de todo — desde llamadas y mensajes hasta reservas y redes sociales. Ahorra más de 10 horas a la semana y céntrate en lo que mejor sabes hacer.",
+    "subtitle": "Olvídate de la administración. Nuestra recepcionista de IA se encarga de todo — desde llamadas y mensajes hasta reservas y redes sociales. Indica tus propias horas al teléfono y descubre cuánto tiempo puedes ahorrar.",
+    "savingsLink": "Descubre cuánto puedes ahorrar con AIbooking",
     "cta": "Empieza Gratis",
     "secondary": "Ver Cómo Funciona",
     "feature1": {
@@ -54,9 +55,21 @@
       "description": "Gestiona reservas, cambios y cancelaciones sin intervención humana"
     },
     "feature3": {
-      "title": "Ahorra más de 10 Horas/Semana",
-      "description": "Céntrate en tus tareas principales mientras la IA gestiona la administración"
+      "title": "Ahorra Tiempo Valioso",
+      "description": "Ya dediques 5 o 20 horas semanales al teléfono, la IA se encarga de la administración para que te centres en tu negocio"
     }
+  },
+  "savingsCalculator": {
+    "badge": "Calcula tu ahorro",
+    "title": "¿Cuántas horas a la semana dedicas al teléfono?",
+    "subtitle": "Cada negocio dedica un tiempo distinto a llamadas, mensajes y seguimiento. Introduce tus propias horas y descubre cuánto podrías ahorrar con AIbooking.",
+    "inputLabel": "Horas al teléfono por semana",
+    "hoursUnit": "horas",
+    "resultLabel": "Esto es lo que podrías ahorrar con AIbooking",
+    "hoursSavedWeek": "≈ {{hours}} horas ahorradas a la semana",
+    "hoursSavedMonth": "Equivale a unas {{hours}} horas al mes",
+    "note": "Basado en que la recepcionista de IA suele asumir hasta el 85% de las llamadas, mensajes y reservas.",
+    "cta": "Pruébalo gratis 7 días"
   },
   "features": {
     "badge": "Funciones Potentes",

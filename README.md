@@ -7,7 +7,8 @@ Aibooking.dk er en AI-drevet virtuel reception til danske virksomheder. Løsning
 - **AI-telefonassistent** — besvarer indgående opkald og håndterer udgående opkald som bekræftelser og påmindelser, døgnet rundt
 - **AI-widget** — en chat- og talewidget på virksomhedens hjemmeside, der svarer på spørgsmål og booker tid direkte, også uden for åbningstid
 - **Automatisk booking** — synkroniseret med virksomhedens egen kalender, uden dobbeltbookinger eller manuel registrering
-- **Skræddersyet til branchen** — tilpasset klinikker, håndværkere, kontor- og administrationsvirksomheder samt webshops
+- **Skræddersyet til branchen** — tilpasset klinikker, håndværkere, kontor- og administrationsvirksomheder samt webshops (herunder Shopify)
+- **Beregn din besparelse** — på forsiden kan besøgende selv indtaste deres ugentlige telefontimer og se den forventede tidsbesparelse, i stedet for et fast tal
 
 ## Formål
 

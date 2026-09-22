@@ -24,9 +24,17 @@ function Hero() {
             <span className="bg-gradient-to-r from-brand-300 via-brand-200 to-accent-300 bg-clip-text text-transparent">{t('hero.title_line2')}</span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-ink-200 mb-14 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-ink-200 mb-6 leading-relaxed max-w-3xl mx-auto">
             {t('hero.subtitle')}
           </p>
+
+          <a
+            href="#spar-tid"
+            className="inline-flex items-center gap-1.5 text-accent-300 hover:text-accent-200 font-semibold text-sm underline underline-offset-4 decoration-accent-300/40 hover:decoration-accent-200 mb-14 transition-colors"
+          >
+            {t('hero.savingsLink')}
+            <ArrowRight className="w-3.5 h-3.5" />
+          </a>
 
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-5 mb-20">
             <a

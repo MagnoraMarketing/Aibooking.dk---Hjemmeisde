@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
 import { contactFAQs } from '../content/faq';
 import SEO from '../components/SEO';
+import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { DEMO_PHONE_DISPLAY, DEMO_PHONE_TEL } from '../utils/demoPhone';
 import {
@@ -312,6 +313,7 @@ function ContactPage({ onNavigate }: ContactPageProps) {
       </div>
 
       <FAQ items={contactFAQs} />
+      <WidgetCapabilitiesSEO />
       <Footer onNavigate={onNavigate} />
     </div>
   );

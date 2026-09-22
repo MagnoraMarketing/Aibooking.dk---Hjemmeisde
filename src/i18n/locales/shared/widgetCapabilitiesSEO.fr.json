@@ -1,0 +1,39 @@
+{
+  "title": "AI Voice Widget : votre réceptionniste numérique, disponible 24h/24 et 7j/7",
+  "intro": "Notre solution principale est l'AI Voice Widget, un assistant vocal alimenté par l'IA installé directement sur votre site web, qui gère la conversation avec le client de la première question jusqu'à la réservation confirmée. Le widget peut même réserver un rendez-vous de visite directement pendant la conversation.",
+  "capabilities": [
+    {
+      "title": "Répond aux questions générales",
+      "text": "Répond rapidement et avec précision aux questions générales des clients sur votre entreprise, vos horaires d'ouverture et vos services."
+    },
+    {
+      "title": "Réserve et reprogramme des rendez-vous",
+      "text": "Trouve des créneaux disponibles et réserve ou reprogramme des rendez-vous instantanément, sans que le client n'ait à attendre un rappel."
+    },
+    {
+      "title": "Réserve des rendez-vous directement dans votre agenda",
+      "text": "Réserve des rendez-vous, y compris des visites, directement dans l'agenda de l'entreprise, synchronisé en temps réel."
+    },
+    {
+      "title": "Répond aux questions sur les produits et services",
+      "text": "Guide les clients avec des réponses détaillées sur vos produits et services, afin qu'ils obtiennent immédiatement les informations dont ils ont besoin."
+    },
+    {
+      "title": "Aide les boutiques en ligne pour les ventes et commandes",
+      "text": "Accompagne les boutiques en ligne dans les demandes de vente et de commande, en répondant aux clients pendant que leur intention d'achat est forte."
+    },
+    {
+      "title": "Répond aux questions sur la livraison et les commandes",
+      "text": "Donne aux clients le statut et les réponses aux questions sur les produits, la livraison et les commandes existantes."
+    },
+    {
+      "title": "Guide les clients vers l'achat",
+      "text": "Accompagne les clients en toute confiance tout au long du processus de vente et les aide à franchir la prochaine étape vers l'achat."
+    },
+    {
+      "title": "Gère les demandes 24h/24 et 7j/7",
+      "text": "Toujours disponible, il gère les demandes des clients 24 heures sur 24, 7 jours sur 7, même lorsque le bureau est fermé."
+    }
+  ],
+  "closing": "Quel que soit votre secteur, l'AI Voice Widget est au cœur de l'expérience client : une seule solution qui répond, réserve et guide vos clients à chaque étape."
+}

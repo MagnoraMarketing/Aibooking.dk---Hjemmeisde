@@ -128,6 +128,12 @@ import trialPagePt from './locales/pages/trialPage.pt.json';
 import trialPageFr from './locales/pages/trialPage.fr.json';
 import trialPageEs from './locales/pages/trialPage.es.json';
 
+import widgetCapabilitiesSEODa from './locales/shared/widgetCapabilitiesSEO.da.json';
+import widgetCapabilitiesSEOEn from './locales/shared/widgetCapabilitiesSEO.en.json';
+import widgetCapabilitiesSEOPt from './locales/shared/widgetCapabilitiesSEO.pt.json';
+import widgetCapabilitiesSEOFr from './locales/shared/widgetCapabilitiesSEO.fr.json';
+import widgetCapabilitiesSEOEs from './locales/shared/widgetCapabilitiesSEO.es.json';
+
 export const SUPPORTED_LANGUAGES = ['da', 'en', 'pt', 'fr', 'es'] as const;
 export type SupportedLanguage = (typeof SUPPORTED_LANGUAGES)[number];
 
@@ -154,7 +160,7 @@ const PAGE_NAMESPACES = [
 
 // Namespaces for components rendered on more than one page, so the two copies
 // can't drift apart.
-const SHARED_NAMESPACES = ['clinicDashboard', 'agencyDashboard'] as const;
+const SHARED_NAMESPACES = ['clinicDashboard', 'agencyDashboard', 'widgetCapabilitiesSEO'] as const;
 
 i18n
   .use(LanguageDetector)
@@ -185,6 +191,7 @@ i18n
         inboundOutboundPage: inboundOutboundPageDa,
         clinicDashboard: clinicDashboardDa,
         agencyDashboard: agencyDashboardDa,
+        widgetCapabilitiesSEO: widgetCapabilitiesSEODa,
       },
       en: {
         common: commonEn,
@@ -208,6 +215,7 @@ i18n
         inboundOutboundPage: inboundOutboundPageEn,
         clinicDashboard: clinicDashboardEn,
         agencyDashboard: agencyDashboardEn,
+        widgetCapabilitiesSEO: widgetCapabilitiesSEOEn,
       },
       pt: {
         common: commonPt,
@@ -231,6 +239,7 @@ i18n
         inboundOutboundPage: inboundOutboundPagePt,
         clinicDashboard: clinicDashboardPt,
         agencyDashboard: agencyDashboardPt,
+        widgetCapabilitiesSEO: widgetCapabilitiesSEOPt,
       },
       fr: {
         common: commonFr,
@@ -254,6 +263,7 @@ i18n
         inboundOutboundPage: inboundOutboundPageFr,
         clinicDashboard: clinicDashboardFr,
         agencyDashboard: agencyDashboardFr,
+        widgetCapabilitiesSEO: widgetCapabilitiesSEOFr,
       },
       es: {
         common: commonEs,
@@ -277,6 +287,7 @@ i18n
         inboundOutboundPage: inboundOutboundPageEs,
         clinicDashboard: clinicDashboardEs,
         agencyDashboard: agencyDashboardEs,
+        widgetCapabilitiesSEO: widgetCapabilitiesSEOEs,
       },
     },
     supportedLngs: SUPPORTED_LANGUAGES as unknown as string[],

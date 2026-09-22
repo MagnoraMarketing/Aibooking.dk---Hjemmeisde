@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
 import { ecommerceFAQs } from '../content/faq';
 import SEO from '../components/SEO';
+import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { Clock, Users, MessageSquare, CheckSquare, CheckCircle, ShoppingCart, Mic, Package, RefreshCw, ArrowRight, Calendar, Sparkles } from 'lucide-react';
 import type { SupportedLanguage } from '../i18n/config';
@@ -231,6 +232,7 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
       </section>
 
       <FAQ items={ecommerceFAQs} />
+      <WidgetCapabilitiesSEO />
       <Footer onNavigate={onNavigate} />
     </div>
   );

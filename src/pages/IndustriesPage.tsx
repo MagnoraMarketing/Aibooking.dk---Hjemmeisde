@@ -6,6 +6,7 @@ import { industriesFAQs } from '../content/faq';
 import IndustrySection from '../components/industries/IndustrySection';
 import ContactForm from '../components/industries/ContactForm';
 import IndustrySEO from '../components/industries/IndustrySEO';
+import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { BarChart3, Calendar, Clock, TrendingUp, Users, Phone, MessageSquare, CheckSquare } from 'lucide-react';
@@ -150,6 +151,7 @@ function IndustriesPage({ onNavigate }: IndustriesPageProps) {
       </div>
 
       <FAQ items={industriesFAQs} />
+      <WidgetCapabilitiesSEO />
       <Footer onNavigate={onNavigate} />
     </div>
   );

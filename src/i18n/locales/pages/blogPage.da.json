@@ -13,5 +13,17 @@
     "label": "Fremhævet",
     "readArticle": "Læs artikel"
   },
-  "readMore": "Læs mere"
+  "readMore": "Læs mere",
+  "filters": {
+    "searchLabel": "Søg i blogindlæg",
+    "searchPlaceholder": "Søg efter emne, fx booking eller webshop...",
+    "allCategories": "Alle indlæg",
+    "resultsCount_one": "{{count}} artikel fundet",
+    "resultsCount_other": "{{count}} artikler fundet",
+    "emptyState": {
+      "title": "Ingen artikler matcher din søgning",
+      "message": "Prøv et andet søgeord eller vælg en anden kategori.",
+      "reset": "Nulstil filtre"
+    }
+  }
 }

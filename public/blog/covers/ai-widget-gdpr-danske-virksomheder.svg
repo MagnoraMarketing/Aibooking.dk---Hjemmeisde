@@ -13,7 +13,7 @@
       <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
     </radialGradient>
     <pattern id="dots-aiwidgetgdpr" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.08"/>
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.09"/>
     </pattern>
   </defs>
 
@@ -23,21 +23,21 @@
   <circle cx="1044.3501714617014" cy="421.8430813285522" r="360.53000485524535" fill="url(#glow2-aiwidgetgdpr)"/>
 
   <line x1="600" y1="-202.5" x2="600" y2="877.5"
-    stroke="#d97706" stroke-width="140" opacity="0.15"
-    transform="rotate(89 600 337.5)"/>
+    stroke="#d97706" stroke-width="140" opacity="0.10"
+    transform="rotate(113 600 337.5)"/>
 
-  <circle cx="164.72021560370922" cy="146.46936926711354" r="37.98145317658782" fill="none" stroke="#d97706" stroke-width="2" opacity="0.5"/>
-  <circle cx="99.55877717770638" cy="626.9635794013739" r="19.68311481922865" fill="#3b82f6" opacity="0.18"/>
+  <circle cx="227.07600358128548" cy="133.15512127708644" r="42.36072736186907" fill="none" stroke="#d97706" stroke-width="2" opacity="0.5"/>
+  <circle cx="131.2024745196104" cy="544.216356757097" r="30.743929900228977" fill="#3b82f6" opacity="0.18"/>
 
-  <g transform="translate(600.3644612431526 390.4834735156037) rotate(-5)">
-    <circle r="96.78885962150525" fill="white" opacity="0.06"/>
-    <circle r="96.78885962150525" fill="none" stroke="white" stroke-opacity="0.26" stroke-width="1.5"/>
-    <rect x="-70.39189790654927" y="-70.39189790654927" width="140.78379581309855" height="140.78379581309855" rx="35.19594895327464"
+  <g transform="translate(720.8433298543097 337.70500944927335) rotate(-4)">
+    <circle r="76.6838627201505" fill="white" opacity="0.06"/>
+    <circle r="76.6838627201505" fill="none" stroke="white" stroke-opacity="0.27" stroke-width="1.5"/>
+    <rect x="-55.77008197829127" y="-55.77008197829127" width="111.54016395658255" height="111.54016395658255" rx="27.885040989145637"
       fill="url(#glow1-aiwidgetgdpr)" opacity="0.9"/>
-    <rect x="-70.39189790654927" y="-70.39189790654927" width="140.78379581309855" height="140.78379581309855" rx="35.19594895327464"
+    <rect x="-55.77008197829127" y="-55.77008197829127" width="111.54016395658255" height="111.54016395658255" rx="27.885040989145637"
       fill="#2563eb" opacity="0.55"/>
-    <g transform="scale(8.79898723831866) translate(-12 -12)">
-      <path d="M4 4h16v12H8l-4 4V4z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+    <g transform="scale(6.971260247286409) translate(-12 -12)">
+      <path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
   </g>
 </svg>

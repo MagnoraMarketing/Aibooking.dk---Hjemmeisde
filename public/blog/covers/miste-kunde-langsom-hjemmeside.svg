@@ -13,7 +13,7 @@
       <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
     </radialGradient>
     <pattern id="dots-mistekundela" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.07"/>
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.05"/>
     </pattern>
   </defs>
 
@@ -23,21 +23,21 @@
   <circle cx="1059.983610198833" cy="403.9927940699272" r="290.3522691782564" fill="url(#glow2-mistekundela)"/>
 
   <line x1="600" y1="-202.5" x2="600" y2="877.5"
-    stroke="#fbbf24" stroke-width="140" opacity="0.08"
-    transform="rotate(212 600 337.5)"/>
+    stroke="#fbbf24" stroke-width="140" opacity="0.14"
+    transform="rotate(173 600 337.5)"/>
 
-  <circle cx="157.14439657330513" cy="174.9578090161085" r="53.11297835363075" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
-  <circle cx="126.71246169134974" cy="598.7082651229575" r="22.691763259936124" fill="#2563eb" opacity="0.18"/>
+  <circle cx="943.992206532508" cy="128.89372307248416" r="51.32931024581194" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
+  <circle cx="205.97001068852842" cy="561.672296801582" r="26.034710853826255" fill="#2563eb" opacity="0.18"/>
 
-  <g transform="translate(722.5539517700672 305.32445843098685) rotate(-4)">
-    <circle r="82.99157095293049" fill="white" opacity="0.06"/>
-    <circle r="82.99157095293049" fill="none" stroke="white" stroke-opacity="0.15" stroke-width="1.5"/>
-    <rect x="-60.35750614758581" y="-60.35750614758581" width="120.71501229517162" height="120.71501229517162" rx="30.178753073792905"
+  <g transform="translate(576.3480885252357 406.4365978706628) rotate(1)">
+    <circle r="78.81443740311079" fill="white" opacity="0.06"/>
+    <circle r="78.81443740311079" fill="none" stroke="white" stroke-opacity="0.20" stroke-width="1.5"/>
+    <rect x="-57.31959083862603" y="-57.31959083862603" width="114.63918167725205" height="114.63918167725205" rx="28.659795419313014"
       fill="url(#glow1-mistekundela)" opacity="0.9"/>
-    <rect x="-60.35750614758581" y="-60.35750614758581" width="120.71501229517162" height="120.71501229517162" rx="30.178753073792905"
+    <rect x="-57.31959083862603" y="-57.31959083862603" width="114.63918167725205" height="114.63918167725205" rx="28.659795419313014"
       fill="#2563eb" opacity="0.55"/>
-    <g transform="scale(7.544688268448226) translate(-12 -12)">
-      <path d="M4 5h16v10H9l-3 3v-3H4V5z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/><circle cx="9" cy="10" r="1" fill="white"/><circle cx="12" cy="10" r="1" fill="white"/><circle cx="15" cy="10" r="1" fill="white"/>
+    <g transform="scale(7.164948854828253) translate(-12 -12)">
+      <path d="M12 20s-7-4.4-9.5-8.8A5 5 0 0 1 12 6a5 5 0 0 1 9.5 5.2C19 15.6 12 20 12 20z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
     </g>
   </g>
 </svg>

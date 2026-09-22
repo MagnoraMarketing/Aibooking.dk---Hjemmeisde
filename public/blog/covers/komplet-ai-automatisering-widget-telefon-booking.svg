@@ -13,7 +13,7 @@
       <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
     </radialGradient>
     <pattern id="dots-kompletaiaut" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.07"/>
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.08"/>
     </pattern>
   </defs>
 
@@ -23,20 +23,20 @@
   <circle cx="868.7842338578776" cy="374.477883533109" r="300.65250118728727" fill="url(#glow2-kompletaiaut)"/>
 
   <line x1="600" y1="-202.5" x2="600" y2="877.5"
-    stroke="#f59e0b" stroke-width="140" opacity="0.14"
-    transform="rotate(297 600 337.5)"/>
+    stroke="#f59e0b" stroke-width="140" opacity="0.16"
+    transform="rotate(73 600 337.5)"/>
 
-  <circle cx="1050.7979889605194" cy="168.27769869938493" r="48.21646316163242" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
-  <circle cx="72.8525729700923" cy="527.0468339882791" r="17.68126158649102" fill="#1d4ed8" opacity="0.18"/>
+  <circle cx="167.7412048727274" cy="187.89899448025974" r="49.22631255351007" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+  <circle cx="181.77546503394842" cy="527.0480826236308" r="14.091138998046517" fill="#1d4ed8" opacity="0.18"/>
 
-  <g transform="translate(518.1750184893608 295.3709474299103) rotate(2)">
-    <circle r="98.06475144205615" fill="white" opacity="0.06"/>
-    <circle r="98.06475144205615" fill="none" stroke="white" stroke-opacity="0.23" stroke-width="1.5"/>
-    <rect x="-71.31981923058629" y="-71.31981923058629" width="142.63963846117258" height="142.63963846117258" rx="35.659909615293145"
+  <g transform="translate(734.2053969204426 291.47344790026546) rotate(-6)">
+    <circle r="88.85384685220197" fill="white" opacity="0.06"/>
+    <circle r="88.85384685220197" fill="none" stroke="white" stroke-opacity="0.19" stroke-width="1.5"/>
+    <rect x="-64.62097952887416" y="-64.62097952887416" width="129.24195905774832" height="129.24195905774832" rx="32.31048976443708"
       fill="url(#glow1-kompletaiaut)" opacity="0.9"/>
-    <rect x="-71.31981923058629" y="-71.31981923058629" width="142.63963846117258" height="142.63963846117258" rx="35.659909615293145"
+    <rect x="-64.62097952887416" y="-64.62097952887416" width="129.24195905774832" height="129.24195905774832" rx="32.31048976443708"
       fill="#1e3a8a" opacity="0.55"/>
-    <g transform="scale(8.914977403823286) translate(-12 -12)">
+    <g transform="scale(8.07762244110927) translate(-12 -12)">
       <circle cx="6" cy="6" r="2.2" fill="white"/><circle cx="18" cy="6" r="2.2" fill="white"/><circle cx="12" cy="18" r="2.2" fill="white"/><path d="M8 6h8M7.3 7.8 10.7 16.4M16.7 7.8 13.3 16.4" stroke="white" stroke-width="1.4"/>
     </g>
   </g>

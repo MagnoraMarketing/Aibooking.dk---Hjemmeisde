@@ -13,7 +13,7 @@
       <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
     </radialGradient>
     <pattern id="dots-roiaiautomat" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.06"/>
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.09"/>
     </pattern>
   </defs>
 
@@ -23,21 +23,21 @@
   <circle cx="959.8996777785942" cy="365.3963823686354" r="216.86204044613987" fill="url(#glow2-roiaiautomat)"/>
 
   <line x1="600" y1="-202.5" x2="600" y2="877.5"
-    stroke="#f59e0b" stroke-width="140" opacity="0.17"
-    transform="rotate(61 600 337.5)"/>
+    stroke="#f59e0b" stroke-width="140" opacity="0.10"
+    transform="rotate(275 600 337.5)"/>
 
-  <circle cx="1016.2869270555675" cy="175.45492204092443" r="56.45647589536384" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
-  <circle cx="213.9941515848041" cy="580.9805232938379" r="27.764620568137616" fill="#1d4ed8" opacity="0.18"/>
+  <circle cx="127.0182654708624" cy="170.64346352778375" r="51.485808790661395" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+  <circle cx="222.49082207120955" cy="617.7819545902312" r="23.08008721563965" fill="#1d4ed8" opacity="0.18"/>
 
-  <g transform="translate(478.13345199823385 323.2953810975887) rotate(7)">
-    <circle r="95.63568952470087" fill="white" opacity="0.06"/>
-    <circle r="95.63568952470087" fill="none" stroke="white" stroke-opacity="0.28" stroke-width="1.5"/>
-    <rect x="-69.55322874523699" y="-69.55322874523699" width="139.10645749047399" height="139.10645749047399" rx="34.776614372618496"
+  <g transform="translate(708.7664939314126 268.9500667490065) rotate(3)">
+    <circle r="97.9949668146437" fill="white" opacity="0.06"/>
+    <circle r="97.9949668146437" fill="none" stroke="white" stroke-opacity="0.21" stroke-width="1.5"/>
+    <rect x="-71.26906677428633" y="-71.26906677428633" width="142.53813354857266" height="142.53813354857266" rx="35.634533387143165"
       fill="url(#glow1-roiaiautomat)" opacity="0.9"/>
-    <rect x="-69.55322874523699" y="-69.55322874523699" width="139.10645749047399" height="139.10645749047399" rx="34.776614372618496"
+    <rect x="-71.26906677428633" y="-71.26906677428633" width="142.53813354857266" height="142.53813354857266" rx="35.634533387143165"
       fill="#1d4ed8" opacity="0.55"/>
-    <g transform="scale(8.694153593154624) translate(-12 -12)">
-      <rect x="4" y="5" width="16" height="14" rx="2" fill="none" stroke="white" stroke-width="1.6"/><path d="M4 9.5h16M8 3v4M16 3v4" stroke="white" stroke-width="1.6" stroke-linecap="round"/><circle cx="9" cy="14" r="1.1" fill="white"/><circle cx="15" cy="14" r="1.1" fill="white"/>
+    <g transform="scale(8.908633346785791) translate(-12 -12)">
+      <path d="M4 20V10M10 20V4M16 20v-7M22 20H2" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
   </g>
 </svg>

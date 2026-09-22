@@ -13,5 +13,17 @@
     "label": "Destaque",
     "readArticle": "Ler artigo"
   },
-  "readMore": "Ler mais"
+  "readMore": "Ler mais",
+  "filters": {
+    "searchLabel": "Pesquisar no blog",
+    "searchPlaceholder": "Pesquise por tema, por ex. marcações ou loja online...",
+    "allCategories": "Todos os artigos",
+    "resultsCount_one": "{{count}} artigo encontrado",
+    "resultsCount_other": "{{count}} artigos encontrados",
+    "emptyState": {
+      "title": "Nenhum artigo corresponde à sua pesquisa",
+      "message": "Tente outra palavra-chave ou escolha outra categoria.",
+      "reset": "Repor filtros"
+    }
+  }
 }

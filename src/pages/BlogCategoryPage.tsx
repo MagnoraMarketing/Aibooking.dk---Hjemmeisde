@@ -141,7 +141,7 @@ export default function BlogCategoryPage({ categorySlug, onNavigate }: BlogCateg
                 </a>
               </div>
             ) : (
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-8">
                 {posts.map((post) => (
                   <article
                     key={post.id}
@@ -155,7 +155,7 @@ export default function BlogCategoryPage({ categorySlug, onNavigate }: BlogCateg
                           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                         />
                       </div>
-                      <div className="p-6">
+                      <div className="p-5 sm:p-6">
                         <div className="flex items-center text-ink-400 text-xs mb-3">
                           <Calendar className="w-3.5 h-3.5 mr-1.5" />
                           {formatDate(post.published_at)}

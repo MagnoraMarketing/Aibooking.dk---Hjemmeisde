@@ -13,7 +13,7 @@
       <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
     </radialGradient>
     <pattern id="dots-aiwidgetklin" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.05"/>
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.08"/>
     </pattern>
   </defs>
 
@@ -23,21 +23,21 @@
   <circle cx="852.8625468607061" cy="365.0547500234097" r="262.0531529095024" fill="url(#glow2-aiwidgetklin)"/>
 
   <line x1="600" y1="-202.5" x2="600" y2="877.5"
-    stroke="#f59e0b" stroke-width="140" opacity="0.11"
-    transform="rotate(320 600 337.5)"/>
+    stroke="#f59e0b" stroke-width="140" opacity="0.17"
+    transform="rotate(324 600 337.5)"/>
 
-  <circle cx="983.1770556494594" cy="126.1690940167755" r="38.63307970389724" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
-  <circle cx="179.41512529179454" cy="584.9111714065075" r="30.223728097509593" fill="#1e3a8a" opacity="0.18"/>
+  <circle cx="865.281514422968" cy="154.08852782472968" r="35.969899968244135" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+  <circle cx="134.42227618396282" cy="595.5525805447251" r="23.735195234417915" fill="#1e3a8a" opacity="0.18"/>
 
-  <g transform="translate(560.6557800918818 378.40165314730257) rotate(-1)">
-    <circle r="78.29365420772228" fill="white" opacity="0.06"/>
-    <circle r="78.29365420772228" fill="none" stroke="white" stroke-opacity="0.25" stroke-width="1.5"/>
-    <rect x="-56.940839423798025" y="-56.940839423798025" width="113.88167884759605" height="113.88167884759605" rx="28.470419711899012"
+  <g transform="translate(527.1480877026916 315.3688763016835) rotate(7)">
+    <circle r="84.75235291966237" fill="white" opacity="0.06"/>
+    <circle r="84.75235291966237" fill="none" stroke="white" stroke-opacity="0.26" stroke-width="1.5"/>
+    <rect x="-61.63807485066354" y="-61.63807485066354" width="123.27614970132709" height="123.27614970132709" rx="30.81903742533177"
       fill="url(#glow1-aiwidgetklin)" opacity="0.9"/>
-    <rect x="-56.940839423798025" y="-56.940839423798025" width="113.88167884759605" height="113.88167884759605" rx="28.470419711899012"
+    <rect x="-61.63807485066354" y="-61.63807485066354" width="123.27614970132709" height="123.27614970132709" rx="30.81903742533177"
       fill="#1d4ed8" opacity="0.55"/>
-    <g transform="scale(7.117604927974753) translate(-12 -12)">
-      <path d="M4 5h16v10H9l-3 3v-3H4V5z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/><circle cx="9" cy="10" r="1" fill="white"/><circle cx="12" cy="10" r="1" fill="white"/><circle cx="15" cy="10" r="1" fill="white"/>
+    <g transform="scale(7.704759356332943) translate(-12 -12)">
+      <rect x="4" y="5" width="16" height="14" rx="2" fill="none" stroke="white" stroke-width="1.6"/><path d="M4 9.5h16M8 3v4M16 3v4" stroke="white" stroke-width="1.6" stroke-linecap="round"/><circle cx="9" cy="14" r="1.1" fill="white"/><circle cx="15" cy="14" r="1.1" fill="white"/>
     </g>
   </g>
 </svg>

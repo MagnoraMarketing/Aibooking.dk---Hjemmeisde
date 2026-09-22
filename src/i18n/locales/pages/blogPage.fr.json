@@ -13,5 +13,17 @@
     "label": "À la une",
     "readArticle": "Lire l'article"
   },
-  "readMore": "Lire la suite"
+  "readMore": "Lire la suite",
+  "filters": {
+    "searchLabel": "Rechercher dans le blog",
+    "searchPlaceholder": "Recherchez un sujet, ex. réservation ou boutique en ligne...",
+    "allCategories": "Tous les articles",
+    "resultsCount_one": "{{count}} article trouvé",
+    "resultsCount_other": "{{count}} articles trouvés",
+    "emptyState": {
+      "title": "Aucun article ne correspond à votre recherche",
+      "message": "Essayez un autre mot-clé ou choisissez une autre catégorie.",
+      "reset": "Réinitialiser les filtres"
+    }
+  }
 }

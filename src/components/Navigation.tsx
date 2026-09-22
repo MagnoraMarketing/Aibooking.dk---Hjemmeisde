@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { Phone, Plug, Building2, ChevronDown, Stethoscope, Wrench, Briefcase, ShoppingCart, MessageSquare, Users, Globe, Menu, X, LogIn } from 'lucide-react';
+import { Phone, Plug, Building2, ChevronDown, Stethoscope, Wrench, Briefcase, ShoppingCart, MessageSquare, Users, Globe, Menu, X, LogIn, Home, Newspaper } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { splitLocalizedPath, buildLocalizedPath } from '../utils/localePaths';
 import { SupportedLanguage } from '../i18n/config';
@@ -89,6 +89,17 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
     { name: t('nav.industries_menu.ecommerce.name'), page: 'ecommerce' as const, icon: ShoppingCart, description: t('nav.industries_menu.ecommerce.description') },
   ];
 
+  // Read once per mount rather than tracked in state — a page switch
+  // remounts Navigation fresh (App swaps which top-level page renders), so
+  // this is already correct without a popstate listener.
+  const currentPath = splitLocalizedPath(window.location.pathname).path.replace(/\/$/, '') || '/';
+  const isHomeActive = currentPath === '/';
+  const isIndustriesActive = currentPath === '/brancher' || ['/klinik', '/haandvaerker', '/kontor', '/webshop'].includes(currentPath);
+  const isBlogActive = currentPath === '/blog' || currentPath.startsWith('/blog/');
+  const isContactActive = currentPath === '/kontakt';
+  const tabClass = (active: boolean) =>
+    `flex flex-col items-center justify-center gap-1 transition-colors ${active ? 'text-brand-600' : 'text-ink-500 hover:text-brand-600'}`;
+
   return (
     <>
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${solid ? 'bg-white/90 backdrop-blur-xl border-b border-ink-200/50 shadow-sm' : 'bg-transparent'}`}>
@@ -177,6 +188,13 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
               >
                 <Plug className="w-4 h-4" />
                 <span>{t('nav.integrations')}</span>
+              </button>
+              <button
+                onClick={() => onNavigate('blog')}
+                className={navLinkClassFlex}
+              >
+                <Newspaper className="w-4 h-4" />
+                <span>{t('nav.blog')}</span>
               </button>
               <div className="relative" ref={contactDropdownRef}>
                 <button
@@ -399,6 +417,13 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
             <Plug className="w-4 h-4" />
             {t('nav.integrations')}
           </button>
+          <button
+            onClick={() => handleMobileNavigate('blog')}
+            className="w-full flex items-center gap-2 px-4 py-3.5 rounded-xl text-ink-700 hover:bg-ink-50 hover:text-brand-600 transition-all font-medium text-[15px] text-left"
+          >
+            <Newspaper className="w-4 h-4" />
+            {t('nav.blog')}
+          </button>
 
           {/* Contact accordion */}
           <button
@@ -491,6 +516,35 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
           </a>
         </div>
       </div>
+
+      {/* Mobile app-style bottom tab bar */}
+      <nav
+        className="fixed bottom-0 left-0 right-0 z-40 xl:hidden bg-white/95 backdrop-blur-xl border-t border-ink-200/70 shadow-[0_-4px_16px_rgba(15,23,42,0.06)]"
+        style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
+      >
+        <div className="grid grid-cols-5 h-16">
+          <button onClick={() => onNavigate('home')} className={tabClass(isHomeActive)}>
+            <Home className="w-5 h-5" />
+            <span className="text-[11px] font-medium">{t('nav.home')}</span>
+          </button>
+          <button onClick={() => onNavigate('industries')} className={tabClass(isIndustriesActive)}>
+            <Building2 className="w-5 h-5" />
+            <span className="text-[11px] font-medium">{t('nav.industries')}</span>
+          </button>
+          <button onClick={() => onNavigate('blog')} className={tabClass(isBlogActive)}>
+            <Newspaper className="w-5 h-5" />
+            <span className="text-[11px] font-medium">{t('nav.blog')}</span>
+          </button>
+          <button onClick={() => onNavigate('contact')} className={tabClass(isContactActive)}>
+            <MessageSquare className="w-5 h-5" />
+            <span className="text-[11px] font-medium">{t('nav.contact')}</span>
+          </button>
+          <button onClick={() => setIsMobileOpen(true)} className={tabClass(false)} aria-label={t('nav.open_menu')}>
+            <Menu className="w-5 h-5" />
+            <span className="text-[11px] font-medium">{t('nav.menu')}</span>
+          </button>
+        </div>
+      </nav>
     </>
   );
 }

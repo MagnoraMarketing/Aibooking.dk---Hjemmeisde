@@ -13,7 +13,7 @@
       <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
     </radialGradient>
     <pattern id="dots-komigangaiau" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.06"/>
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.07"/>
     </pattern>
   </defs>
 
@@ -23,21 +23,21 @@
   <circle cx="927.8635690105148" cy="583.1090422230773" r="367.79384126886725" fill="url(#glow2-komigangaiau)"/>
 
   <line x1="600" y1="-202.5" x2="600" y2="877.5"
-    stroke="#d97706" stroke-width="140" opacity="0.12"
-    transform="rotate(87 600 337.5)"/>
+    stroke="#d97706" stroke-width="140" opacity="0.10"
+    transform="rotate(218 600 337.5)"/>
 
-  <circle cx="165.25709822773933" cy="139.4697634242475" r="42.8480055751279" fill="none" stroke="#d97706" stroke-width="2" opacity="0.5"/>
-  <circle cx="121.60389760695398" cy="555.5012984387577" r="24.919170099776238" fill="#1e40af" opacity="0.18"/>
+  <circle cx="135.6063442826271" cy="133.4571177531034" r="40.15714774467051" fill="none" stroke="#d97706" stroke-width="2" opacity="0.5"/>
+  <circle cx="155.2489687241614" cy="558.3882198901847" r="18.833549739792943" fill="#1e40af" opacity="0.18"/>
 
-  <g transform="translate(651.7817106842995 303.74765504943207) rotate(2)">
-    <circle r="96.70171084324829" fill="white" opacity="0.06"/>
-    <circle r="96.70171084324829" fill="none" stroke="white" stroke-opacity="0.20" stroke-width="1.5"/>
-    <rect x="-70.32851697690785" y="-70.32851697690785" width="140.6570339538157" height="140.6570339538157" rx="35.164258488453925"
+  <g transform="translate(719.930644467473 366.62721225991845) rotate(-7)">
+    <circle r="89.89830714219715" fill="white" opacity="0.06"/>
+    <circle r="89.89830714219715" fill="none" stroke="white" stroke-opacity="0.19" stroke-width="1.5"/>
+    <rect x="-65.38058701250702" y="-65.38058701250702" width="130.76117402501404" height="130.76117402501404" rx="32.69029350625351"
       fill="url(#glow1-komigangaiau)" opacity="0.9"/>
-    <rect x="-70.32851697690785" y="-70.32851697690785" width="140.6570339538157" height="140.6570339538157" rx="35.164258488453925"
+    <rect x="-65.38058701250702" y="-65.38058701250702" width="130.76117402501404" height="130.76117402501404" rx="32.69029350625351"
       fill="#1e40af" opacity="0.55"/>
-    <g transform="scale(8.791064622113481) translate(-12 -12)">
-      <circle cx="6" cy="6" r="2.2" fill="white"/><circle cx="18" cy="6" r="2.2" fill="white"/><circle cx="12" cy="18" r="2.2" fill="white"/><path d="M8 6h8M7.3 7.8 10.7 16.4M16.7 7.8 13.3 16.4" stroke="white" stroke-width="1.4"/>
+    <g transform="scale(8.172573376563378) translate(-12 -12)">
+      <path d="M4 6h4M4 12h4M4 18h4" stroke="white" stroke-width="1.6" stroke-linecap="round"/><path d="M11 6h9M11 12h9M11 18h9" stroke="white" stroke-width="1.6" stroke-linecap="round" opacity="0.6"/><path d="M4.5 5.2l1 1 1.8-2" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
   </g>
 </svg>

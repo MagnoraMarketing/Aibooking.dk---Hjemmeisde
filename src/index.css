@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Keeps page content (mainly the footer) clear of the fixed mobile
+   app-style bottom tab bar in Navigation.tsx — matches its xl:hidden cutoff. */
+@media (max-width: 1279.98px) {
+  body {
+    padding-bottom: calc(4rem + env(safe-area-inset-bottom));
+  }
+}
+
+/* Hides the scrollbar on horizontally-scrollable chip rows (e.g. blog
+   category filters) while keeping them scrollable. */
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}

@@ -40,7 +40,7 @@ function TrialOfferWidget() {
       <button
         onClick={handleExpand}
         aria-label={t('trialOfferWidget.expand_aria')}
-        className="fixed bottom-6 left-6 z-50 flex items-center gap-2 bg-brand-600 text-white pl-4 pr-5 py-3 rounded-full shadow-2xl hover:bg-brand-700 hover:scale-105 transition-all"
+        className="fixed bottom-24 left-4 xl:bottom-6 xl:left-6 z-50 flex items-center gap-2 bg-brand-600 text-white pl-4 pr-5 py-3 rounded-full shadow-2xl hover:bg-brand-700 hover:scale-105 transition-all"
       >
         <Clock className="w-4 h-4" />
         <span className="text-sm font-semibold">{t('trialOfferWidget.minimized_label')}</span>
@@ -50,7 +50,7 @@ function TrialOfferWidget() {
 
   return (
     <div
-      className="fixed bottom-6 left-6 z-50 w-[min(360px,calc(100vw-3rem))]"
+      className="fixed bottom-24 left-4 xl:bottom-6 xl:left-6 z-50 w-[min(360px,calc(100vw-3rem))]"
       role="dialog"
       aria-label={t('trialOfferWidget.dialog_aria')}
     >

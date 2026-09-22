@@ -65,6 +65,39 @@
       "button": "Book a Demo"
     }
   },
+  "integrationSEO": {
+    "title": "AI assistant for Shopify and bookings",
+    "intro": "Whether you run a Shopify store, take bookings, or both, our AI receptionist and AI widget can answer customers in seconds, cut down on abandoned carts, and book more appointments — automatically, around the clock.",
+    "shopify": {
+      "title": "What can the AI assistant do for your Shopify store?",
+      "paragraph1": "The AI widget sits right on your Shopify site and instantly answers visitor questions about shipping, sizing, stock, and returns — even outside business hours, when a large share of your traffic arrives. That means fewer abandoned carts and more completed purchases.",
+      "paragraph2": "When a customer needs a human touch — a complicated return or a custom order — the AI hands the conversation to your team with the full context, so nobody has to start over."
+    },
+    "solutions": {
+      "title": "Shopify, bookings — or both",
+      "shopify": { "title": "Shopify store", "text": "Automatically answer product, shipping and return questions, and cut abandoned carts with an AI widget that's available 24/7 on your store." },
+      "booking": { "title": "Bookings & appointments", "text": "Let customers book, reschedule and cancel appointments by phone or on your site, while the AI syncs directly with your calendar and sends automatic SMS reminders." },
+      "combined": { "title": "Webshop + bookings combined", "text": "Sell both products and services — a clinic with a webshop, or a salon selling products — and the AI can handle order questions and appointment booking in the very same conversation." }
+    },
+    "howItWorks": {
+      "title": "How it works in practice",
+      "paragraph1": "The integration connects to your Shopify store and calendar, so the AI always has up-to-date order and availability data. Setup typically takes under 15 minutes and requires no development work on your end.",
+      "paragraph2": "The AI learns your products, prices and opening hours, and you can adjust at any time what it's allowed to answer on its own, and when it should hand a customer over to a person."
+    },
+    "whyChoose": {
+      "title": "Why choose Aibooking for Shopify and bookings?",
+      "points": [
+        "One AI solution for both webshop support and a booking system",
+        "Setup in under 15 minutes, no IT knowledge required",
+        "Support and an AI that speaks fluent Danish and English",
+        "No commitment — try it free for 7 days"
+      ]
+    },
+    "closing": {
+      "paragraph1": "Whether your challenge is abandoned Shopify carts, time lost on the phone, or both, Aibooking's AI receptionist can help.",
+      "paragraph2": "Book a demo today and see how Shopify and bookings can come together in one AI solution."
+    }
+  },
   "ctaSection": {
     "title": "Let the AI take over the administration",
     "subtitle": "Our AI solution integrates seamlessly with your existing systems and automates everything from phone calls to email communication. Save hours every day and focus on what really matters: your customers.",

@@ -1,4 +1,5 @@
 import Hero from '../components/Hero';
+import SavingsCalculator from '../components/SavingsCalculator';
 import HowItWorks from '../components/HowItWorks';
 import ReceptionistShowcase from '../components/ReceptionistShowcase';
 import Features from '../components/Features';
@@ -36,6 +37,7 @@ function HomePage({ onNavigate }: HomePageProps) {
       />
       <Navigation onNavigate={onNavigate} transparent />
       <Hero />
+      <SavingsCalculator />
       <HowItWorks />
       <ReceptionistShowcase onNavigate={onNavigate} />
       <Features />

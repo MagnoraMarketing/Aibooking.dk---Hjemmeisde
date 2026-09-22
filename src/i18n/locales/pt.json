@@ -42,7 +42,8 @@
     "badge": "A Sua Recepcionista Virtual",
     "title_line1": "Perde horas com chamadas,",
     "title_line2": "SMS e acompanhamento?",
-    "subtitle": "Livre-se da administração. A nossa recepcionista de IA trata de tudo – desde chamadas e mensagens até marcações e redes sociais. Poupe 10+ horas por semana e concentre-se no que faz de melhor.",
+    "subtitle": "Livre-se da administração. A nossa recepcionista de IA trata de tudo – desde chamadas e mensagens até marcações e redes sociais. Indique as suas próprias horas ao telefone e veja quanto tempo pode poupar.",
+    "savingsLink": "Veja quanto pode poupar com a AIbooking",
     "cta": "Começar Grátis",
     "secondary": "Ver Como Funciona",
     "feature1": {
@@ -54,9 +55,21 @@
       "description": "Gere marcações, alterações e cancelamentos sem intervenção humana"
     },
     "feature3": {
-      "title": "Poupe 10+ Horas/Semana",
-      "description": "Concentre-se no essencial enquanto a IA trata da administração"
+      "title": "Poupe Tempo Valioso",
+      "description": "Quer passe 5 ou 20 horas por semana ao telefone, a IA trata da administração para que se possa concentrar no seu negócio"
     }
+  },
+  "savingsCalculator": {
+    "badge": "Calcule a sua poupança",
+    "title": "Quantas horas por semana passa ao telefone?",
+    "subtitle": "Cada negócio dedica um tempo diferente a chamadas, mensagens e acompanhamento. Indique as suas próprias horas e veja quanto poderia poupar com a AIbooking.",
+    "inputLabel": "Horas ao telefone por semana",
+    "hoursUnit": "horas",
+    "resultLabel": "Isto é o que poderia poupar com a AIbooking",
+    "hoursSavedWeek": "≈ {{hours}} horas poupadas por semana",
+    "hoursSavedMonth": "O que equivale a cerca de {{hours}} horas por mês",
+    "note": "Com base no facto de a recepcionista de IA assumir normalmente até 85% das chamadas, mensagens e marcações.",
+    "cta": "Experimente gratuitamente durante 7 dias"
   },
   "features": {
     "badge": "Funcionalidades Poderosas",

@@ -42,7 +42,8 @@
     "badge": "Your Virtual Receptionist",
     "title_line1": "Spending hours on calls,",
     "title_line2": "SMS and follow-ups?",
-    "subtitle": "Skip the administration. Our AI receptionist handles everything – from calls and messages to bookings and social media. Save 10+ hours per week and focus on what you do best.",
+    "subtitle": "Skip the administration. Our AI receptionist handles everything – from calls and messages to bookings and social media. Enter your own hours on the phone and see how much time you could save.",
+    "savingsLink": "See what you can save with AIbooking",
     "cta": "Get Started Free",
     "secondary": "See How It Works",
     "feature1": {
@@ -54,9 +55,21 @@
       "description": "Handles bookings, changes and cancellations without human intervention"
     },
     "feature3": {
-      "title": "Save 10+ Hours/Week",
-      "description": "Focus on your core tasks while AI handles the administration"
+      "title": "Save Valuable Time",
+      "description": "Whether you spend 5 or 20 hours a week on the phone, the AI takes over the admin so you can focus on your business"
     }
+  },
+  "savingsCalculator": {
+    "badge": "Calculate your savings",
+    "title": "How many hours a week do you spend on the phone?",
+    "subtitle": "Every business spends a different amount of time on calls, messages and follow-up. Enter your own hours and see what you could expect to save with AIbooking.",
+    "inputLabel": "Hours on the phone per week",
+    "hoursUnit": "hours",
+    "resultLabel": "What you could expect to save with AIbooking",
+    "hoursSavedWeek": "≈ {{hours}} hours saved per week",
+    "hoursSavedMonth": "That's about {{hours}} hours per month",
+    "note": "Based on the AI receptionist typically taking over up to 85% of calls, messages and bookings.",
+    "cta": "Try free for 7 days"
   },
   "features": {
     "badge": "Powerful Features",

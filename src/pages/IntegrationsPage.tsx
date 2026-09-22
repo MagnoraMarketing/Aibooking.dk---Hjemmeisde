@@ -6,6 +6,7 @@ import { integrationsFAQs } from '../content/faq';
 import IntegrationHero from '../components/integrations/IntegrationHero';
 import IntegrationCategories from '../components/integrations/IntegrationCategories';
 import IntegrationGrid from '../components/integrations/IntegrationGrid';
+import IntegrationSEO from '../components/integrations/IntegrationSEO';
 import IntegrationCTA from '../components/integrations/IntegrationCTA';
 import SEO from '../components/SEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
@@ -36,6 +37,7 @@ function IntegrationsPage({ onNavigate }: IntegrationsPageProps) {
       <IntegrationHero />
       <IntegrationCategories />
       <IntegrationGrid />
+      <IntegrationSEO />
       <IntegrationCTA />
       <FAQ items={integrationsFAQs} />
       <Footer onNavigate={onNavigate} />

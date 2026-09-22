@@ -65,6 +65,39 @@
       "button": "Reservar una Demo"
     }
   },
+  "integrationSEO": {
+    "title": "Asistente de IA para Shopify y reservas",
+    "intro": "Ya sea que tengas una tienda Shopify, gestiones reservas, o ambas cosas, nuestra recepcionista de IA y el widget de IA pueden responder a los clientes en segundos, reducir los carritos abandonados y conseguir más citas reservadas, de forma automática las 24 horas.",
+    "shopify": {
+      "title": "¿Qué puede hacer el asistente de IA por tu tienda Shopify?",
+      "paragraph1": "El widget de IA se integra directamente en tu tienda Shopify y responde al instante a preguntas sobre envíos, tallas, stock y devoluciones, incluso fuera del horario comercial, cuando llega gran parte del tráfico. Eso significa menos carritos abandonados y más compras completadas.",
+      "paragraph2": "Cuando un cliente necesita ayuda humana — una devolución complicada o un pedido personalizado — la IA transfiere la conversación a tu equipo con todo el contexto, para que nadie tenga que empezar de cero."
+    },
+    "solutions": {
+      "title": "Shopify, reservas — o ambas cosas",
+      "shopify": { "title": "Tienda Shopify", "text": "Responde automáticamente a preguntas sobre productos, envíos y devoluciones, y reduce los carritos abandonados con un widget de IA disponible 24/7 en tu tienda." },
+      "booking": { "title": "Reservas y citas", "text": "Permite a los clientes reservar, cambiar y cancelar citas por teléfono o en tu web, mientras la IA se sincroniza directamente con tu calendario y envía recordatorios automáticos por SMS." },
+      "combined": { "title": "Tienda online + reservas combinadas", "text": "¿Vendes productos y servicios — una clínica con tienda online, o un salón que también vende productos? La IA puede gestionar preguntas sobre pedidos y reservas de citas en la misma conversación." }
+    },
+    "howItWorks": {
+      "title": "Cómo funciona en la práctica",
+      "paragraph1": "La integración se conecta a tu tienda Shopify y a tu calendario, para que la IA tenga siempre datos actualizados de pedidos y disponibilidad. La configuración suele tardar menos de 15 minutos y no requiere desarrollo por tu parte.",
+      "paragraph2": "La IA aprende tus productos, precios y horarios, y puedes ajustar en cualquier momento qué puede responder por su cuenta y cuándo debe pasar al cliente a una persona."
+    },
+    "whyChoose": {
+      "title": "¿Por qué elegir Aibooking para Shopify y reservas?",
+      "points": [
+        "Una sola solución de IA para soporte de tienda online y sistema de reservas",
+        "Configuración en menos de 15 minutos, sin conocimientos técnicos",
+        "Soporte y una IA que habla varios idiomas con fluidez",
+        "Sin permanencia — pruébalo gratis durante 7 días"
+      ]
+    },
+    "closing": {
+      "paragraph1": "Ya sea que tu reto sean los carritos abandonados en Shopify, el tiempo perdido al teléfono, o ambos, la recepcionista de IA de Aibooking puede ayudarte.",
+      "paragraph2": "Reserva una demo hoy y descubre cómo Shopify y las reservas pueden funcionar juntos en una sola solución de IA."
+    }
+  },
   "ctaSection": {
     "title": "Deja que la IA se encargue de la administración",
     "subtitle": "Nuestra solución de IA se integra perfectamente con tus sistemas actuales y automatiza todo, desde llamadas telefónicas hasta comunicación por correo electrónico. Ahorra horas cada día y céntrate en lo que realmente importa: tus clientes.",

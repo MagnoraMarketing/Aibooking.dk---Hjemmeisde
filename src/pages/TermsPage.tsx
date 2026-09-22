@@ -1,7 +1,13 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import SEO from '../components/SEO';
+import type { SupportedLanguage } from '../i18n/config';
+import { localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
+
+// Danish-worded canonical path; SEO turns it into per-language hreflang URLs.
+const PAGE_PATH = '/vilkaar';
 
 interface TermsPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -14,11 +20,19 @@ interface TermsSection {
 }
 
 function TermsPage({ onNavigate }: TermsPageProps) {
-  const { t } = useTranslation('termsPage');
+  const { t, i18n } = useTranslation('termsPage');
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
   const sections = t('sections', { returnObjects: true }) as TermsSection[];
 
   return (
     <>
+      <SEO
+        title={t('seo.title')}
+        description={t('seo.description')}
+        keywords={t('seo.keywords')}
+        canonical={localizedUrl(lang, PAGE_PATH)}
+        path={PAGE_PATH}
+      />
       <Navigation onNavigate={onNavigate} />
       <main className="min-h-screen bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">

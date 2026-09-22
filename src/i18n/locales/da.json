@@ -42,7 +42,8 @@
     "badge": "Din Virtuelle Receptionist",
     "title_line1": "Bruger du timer på opkald,",
     "title_line2": "SMS og opfølgning?",
-    "subtitle": "Slip for administrationen. Vores AI-receptionist håndterer alt – fra opkald og beskeder til bookinger og SOME. Spar 10+ timer om ugen og fokuser på det du er god til.",
+    "subtitle": "Slip for administrationen. Vores AI-receptionist håndterer alt – fra opkald og beskeder til bookinger og SOME. Indtast dine egne timer på telefonen, og se hvor meget tid du kan spare.",
+    "savingsLink": "Se hvad du kan spare med AIbooking",
     "cta": "Kom i gang gratis",
     "secondary": "Se Hvordan Det Virker",
     "feature1": {
@@ -54,9 +55,21 @@
       "description": "Håndterer bookinger, ændringer og aflysninger uden menneskelig indgriben"
     },
     "feature3": {
-      "title": "Spar 10+ Timer/Uge",
-      "description": "Fokusér på din kerneopgave mens AI'en tager sig af administrationen"
+      "title": "Spar Værdifuld Tid",
+      "description": "Uanset om du bruger 5 eller 20 timer om ugen på telefonen – AI'en overtager administrationen, så du kan fokusere på forretningen"
     }
+  },
+  "savingsCalculator": {
+    "badge": "Beregn din besparelse",
+    "title": "Hvor mange timer bruger I på telefonen om ugen?",
+    "subtitle": "Alle bruger forskellig tid på opkald, beskeder og opfølgning. Sæt jeres egne timer ind, og se hvad I kan forvente at spare med AIbooking.",
+    "inputLabel": "Timer på telefon pr. uge",
+    "hoursUnit": "timer",
+    "resultLabel": "Det kan I forvente at spare med AIbooking",
+    "hoursSavedWeek": "≈ {{hours}} timer sparet om ugen",
+    "hoursSavedMonth": "Svarer til ca. {{hours}} timer om måneden",
+    "note": "Baseret på at AI-receptionisten typisk overtager op til 85% af opkald, beskeder og bookinger.",
+    "cta": "Prøv gratis i 7 dage"
   },
   "features": {
     "badge": "Kraftfulde Funktioner",

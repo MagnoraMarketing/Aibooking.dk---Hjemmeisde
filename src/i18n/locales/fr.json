@@ -42,7 +42,8 @@
     "badge": "Votre Réceptionniste Virtuelle",
     "title_line1": "Vous perdez des heures en appels,",
     "title_line2": "SMS et suivis ?",
-    "subtitle": "Oubliez l'administratif. Notre réceptionniste IA s'occupe de tout – des appels et messages aux réservations et réseaux sociaux. Gagnez 10+ heures par semaine et concentrez-vous sur l'essentiel.",
+    "subtitle": "Oubliez l'administratif. Notre réceptionniste IA s'occupe de tout – des appels et messages aux réservations et réseaux sociaux. Indiquez vos propres heures au téléphone et découvrez combien de temps vous pouvez gagner.",
+    "savingsLink": "Découvrez ce que vous pouvez économiser avec AIbooking",
     "cta": "Commencer Gratuitement",
     "secondary": "Voir Comment Ça Marche",
     "feature1": {
@@ -54,9 +55,21 @@
       "description": "Gère les réservations, modifications et annulations sans intervention humaine"
     },
     "feature3": {
-      "title": "Gagnez 10+ Heures/Semaine",
-      "description": "Concentrez-vous sur votre cœur de métier pendant que l'IA gère l'administratif"
+      "title": "Gagnez du Temps Précieux",
+      "description": "Que vous passiez 5 ou 20 heures par semaine au téléphone, l'IA prend en charge l'administratif pour que vous puissiez vous concentrer sur votre activité"
     }
+  },
+  "savingsCalculator": {
+    "badge": "Calculez vos économies",
+    "title": "Combien d'heures par semaine passez-vous au téléphone ?",
+    "subtitle": "Chaque entreprise consacre un temps différent aux appels, messages et suivis. Indiquez vos propres heures et découvrez ce que vous pourriez économiser avec AIbooking.",
+    "inputLabel": "Heures au téléphone par semaine",
+    "hoursUnit": "heures",
+    "resultLabel": "Ce que vous pourriez économiser avec AIbooking",
+    "hoursSavedWeek": "≈ {{hours}} heures économisées par semaine",
+    "hoursSavedMonth": "Soit environ {{hours}} heures par mois",
+    "note": "Basé sur le fait que la réceptionniste IA prend généralement en charge jusqu'à 85 % des appels, messages et réservations.",
+    "cta": "Essayez gratuitement pendant 7 jours"
   },
   "features": {
     "badge": "Fonctionnalités Puissantes",

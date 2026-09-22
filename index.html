@@ -5,6 +5,15 @@
     <link rel="icon" type="image/jpeg" href="/aibooking_logo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- AI widget: open the connection to the widget backend right away and
+         start fetching its config in parallel with widget.js, instead of the
+         script -> config waterfall. The preload URL must match the fetch in
+         widget.js exactly (same publicId as data-widget-id below). -->
+    <link rel="preconnect" href="https://aibooking-backendnew.vercel.app" />
+    <link rel="preconnect" href="https://aibooking-backendnew.vercel.app" crossorigin />
+    <link rel="preload" as="script" href="https://aibooking-backendnew.vercel.app/widget.js" />
+    <link rel="preload" as="fetch" crossorigin href="https://aibooking-backendnew.vercel.app/api/widget/config?publicId=XZUk7ukctVK62A" />
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L9X5F4JH3R"></script>
     <script>
@@ -110,6 +119,7 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script src="https://aibooking-backendnew.vercel.app/widget.js" data-widget-id="XZUk7ukctVK62A"></script>
+    <!-- async: runs as soon as it arrives, without holding up the page. -->
+    <script async src="https://aibooking-backendnew.vercel.app/widget.js" data-widget-id="XZUk7ukctVK62A"></script>
   </body>
 </html>

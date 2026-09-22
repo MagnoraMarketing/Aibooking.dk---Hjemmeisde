@@ -10,6 +10,7 @@ import { TrendingUp, Clock, Phone, Users, CheckCircle, Wrench } from 'lucide-rea
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath } from '../utils/localePaths';
 import IndustryScenario from '../components/industries/IndustryScenario';
+import IndustryIntegrations from '../components/industries/IndustryIntegrations';
 import IndustryCalculator from '../components/industries/IndustryCalculator';
 import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
 import DashboardShowcase from '../components/DashboardShowcase';
@@ -126,6 +127,8 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
               {t('trades.cta')}
             </a>
           </div>
+
+          <IndustryIntegrations industry="craftsman" />
         </div>
       </section>
 

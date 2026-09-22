@@ -538,6 +538,57 @@
       "widgetValue": "Recevez un code d'intégration immédiatement — testez et personnalisez le widget sur votre site",
       "cta": "Créer un compte de test",
       "secondary": "En savoir plus sur l'essai"
+    },
+    "integrations": {
+      "badge": "Intégrations calendrier",
+      "healthcare": {
+        "title": "Les systèmes de calendrier les plus utilisés par les cliniques",
+        "subtitle": "Quel que soit le système de réservation que vous utilisez aujourd'hui, la réceptionniste IA peut se synchroniser directement avec votre calendrier.",
+        "items": [
+          { "name": "Google Agenda", "description": "Synchronisation automatique des rendez-vous patients en temps réel" },
+          { "name": "Microsoft Outlook / 365", "description": "Réservation et calendrier partagé pour toute la clinique" },
+          { "name": "Calendrier Apple", "description": "Synchronisation directe via iCloud" },
+          { "name": "EasyPractice", "description": "Logiciel de gestion de cabinet très utilisé au Danemark" },
+          { "name": "Novax", "description": "Système de calendrier populaire chez les chiropracteurs et kinésithérapeutes" },
+          { "name": "Autres systèmes", "description": "Vous utilisez autre chose ? Nous nous connectons via la synchronisation CalDAV/iCal" }
+        ]
+      },
+      "craftsman": {
+        "title": "Les systèmes de calendrier les plus utilisés par les artisans",
+        "subtitle": "Les visites sont réservées directement dans le système de calendrier que vous utilisez déjà pour votre activité.",
+        "items": [
+          { "name": "Google Agenda", "description": "Synchronisation automatique des visites et interventions en temps réel" },
+          { "name": "Microsoft Outlook / 365", "description": "Calendrier partagé pour toute l'équipe en déplacement" },
+          { "name": "Calendrier Apple", "description": "Synchronisation directe via iCloud" },
+          { "name": "Dinero", "description": "Très utilisé par les artisans danois pour la facturation et la planification" },
+          { "name": "e-conomic", "description": "Logiciel de comptabilité et de planification populaire dans le secteur" },
+          { "name": "Autres systèmes", "description": "Vous utilisez autre chose ? Nous nous connectons via la synchronisation CalDAV/iCal" }
+        ]
+      },
+      "office": {
+        "title": "Les systèmes de calendrier les plus utilisés par les bureaux",
+        "subtitle": "Les réunions sont réservées directement dans le système que votre équipe utilise déjà.",
+        "items": [
+          { "name": "Google Agenda", "description": "Synchronisation automatique des réunions en temps réel" },
+          { "name": "Microsoft Outlook / 365", "description": "Calendrier partagé et invitations aux réunions pour toute l'équipe" },
+          { "name": "Calendrier Microsoft Teams", "description": "Réservez des réunions directement dans le calendrier partagé de l'équipe" },
+          { "name": "Calendrier Apple", "description": "Synchronisation directe via iCloud" },
+          { "name": "Calendly", "description": "Outil de réservation de réunions populaire chez les bureaux et consultants" },
+          { "name": "Autres systèmes", "description": "Vous utilisez autre chose ? Nous nous connectons via la synchronisation CalDAV/iCal" }
+        ]
+      },
+      "ecommerce": {
+        "title": "Les systèmes de calendrier les plus utilisés par les boutiques en ligne",
+        "subtitle": "Vous vendez à la fois des produits et des services ? Les réservations peuvent arriver directement dans votre calendrier existant.",
+        "items": [
+          { "name": "Google Agenda", "description": "Synchronisation automatique des réservations en temps réel" },
+          { "name": "Microsoft Outlook / 365", "description": "Réservation et calendrier partagé pour toute l'équipe" },
+          { "name": "Shopify", "description": "Réservez un retrait, une livraison ou une consultation directement depuis la boutique en ligne" },
+          { "name": "Calendly", "description": "Pour les boutiques en ligne qui vendent aussi des consultations ou démonstrations" },
+          { "name": "Calendrier Apple", "description": "Synchronisation directe via iCloud" },
+          { "name": "Autres systèmes", "description": "Vous utilisez autre chose ? Nous nous connectons via la synchronisation CalDAV/iCal" }
+        ]
+      }
     }
   },
   "trialOfferWidget": {

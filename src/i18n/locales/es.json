@@ -538,6 +538,57 @@
       "widgetValue": "Recibe un código de inserción al instante — pruébalo y personalízalo en tu web",
       "cta": "Crear cuenta de prueba",
       "secondary": "Más información sobre la prueba"
+    },
+    "integrations": {
+      "badge": "Integraciones de calendario",
+      "healthcare": {
+        "title": "Los sistemas de calendario que más usan las clínicas",
+        "subtitle": "Sea cual sea el sistema de reservas que uses hoy, la recepcionista IA puede sincronizarse directamente con tu calendario.",
+        "items": [
+          { "name": "Google Calendar", "description": "Sincronización automática de citas de pacientes en tiempo real" },
+          { "name": "Microsoft Outlook / 365", "description": "Reservas y calendario compartido para toda la clínica" },
+          { "name": "Calendario de Apple", "description": "Se sincroniza directamente vía iCloud" },
+          { "name": "EasyPractice", "description": "Sistema de gestión de clínicas muy utilizado en Dinamarca" },
+          { "name": "Novax", "description": "Sistema de calendario popular entre quiroprácticos y fisioterapeutas" },
+          { "name": "Otros sistemas", "description": "¿Usas otro sistema? Nos conectamos vía sincronización CalDAV/iCal" }
+        ]
+      },
+      "craftsman": {
+        "title": "Los sistemas de calendario que más usan los profesionales de oficios",
+        "subtitle": "Las visitas se reservan directamente en el sistema de calendario que ya usas para tu negocio.",
+        "items": [
+          { "name": "Google Calendar", "description": "Sincronización automática de visitas y trabajos en tiempo real" },
+          { "name": "Microsoft Outlook / 365", "description": "Calendario compartido para todo el equipo sobre la marcha" },
+          { "name": "Calendario de Apple", "description": "Se sincroniza directamente vía iCloud" },
+          { "name": "Dinero", "description": "Muy utilizado entre profesionales de oficios daneses para facturación y planificación" },
+          { "name": "e-conomic", "description": "Sistema de contabilidad y planificación popular en el sector" },
+          { "name": "Otros sistemas", "description": "¿Usas otro sistema? Nos conectamos vía sincronización CalDAV/iCal" }
+        ]
+      },
+      "office": {
+        "title": "Los sistemas de calendario que más usan las oficinas",
+        "subtitle": "Las reuniones se reservan directamente en el sistema que ya usa tu equipo.",
+        "items": [
+          { "name": "Google Calendar", "description": "Sincronización automática de reuniones en tiempo real" },
+          { "name": "Microsoft Outlook / 365", "description": "Calendario compartido e invitaciones a reuniones para todo el equipo" },
+          { "name": "Calendario de Microsoft Teams", "description": "Reserva reuniones directamente en el calendario compartido del equipo" },
+          { "name": "Calendario de Apple", "description": "Se sincroniza directamente vía iCloud" },
+          { "name": "Calendly", "description": "Herramienta de reserva de reuniones popular entre oficinas y consultores" },
+          { "name": "Otros sistemas", "description": "¿Usas otro sistema? Nos conectamos vía sincronización CalDAV/iCal" }
+        ]
+      },
+      "ecommerce": {
+        "title": "Los sistemas de calendario que más usan las tiendas online",
+        "subtitle": "¿Vendes productos y servicios? Las reservas pueden llegar directamente a tu calendario actual.",
+        "items": [
+          { "name": "Google Calendar", "description": "Sincronización automática de reservas en tiempo real" },
+          { "name": "Microsoft Outlook / 365", "description": "Reservas y calendario compartido para todo el equipo" },
+          { "name": "Shopify", "description": "Reserva recogidas, entregas o consultas directamente desde la tienda online" },
+          { "name": "Calendly", "description": "Para tiendas online que también venden consultas o demos" },
+          { "name": "Calendario de Apple", "description": "Se sincroniza directamente vía iCloud" },
+          { "name": "Otros sistemas", "description": "¿Usas otro sistema? Nos conectamos vía sincronización CalDAV/iCal" }
+        ]
+      }
     }
   },
   "trialOfferWidget": {

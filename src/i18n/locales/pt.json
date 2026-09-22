@@ -538,6 +538,57 @@
       "widgetValue": "Receba um código de incorporação de imediato — teste e personalize o widget no seu site",
       "cta": "Criar conta de teste",
       "secondary": "Saber mais sobre o período de teste"
+    },
+    "integrations": {
+      "badge": "Integrações de calendário",
+      "healthcare": {
+        "title": "Os sistemas de calendário mais usados pelas clínicas",
+        "subtitle": "Seja qual for o sistema de marcações que usa hoje, a recepcionista de IA pode sincronizar diretamente com o seu calendário.",
+        "items": [
+          { "name": "Google Agenda", "description": "Sincronização automática de consultas de pacientes em tempo real" },
+          { "name": "Microsoft Outlook / 365", "description": "Marcações e calendário partilhado para toda a clínica" },
+          { "name": "Calendário da Apple", "description": "Sincroniza diretamente via iCloud" },
+          { "name": "EasyPractice", "description": "Sistema de gestão de clínicas muito utilizado na Dinamarca" },
+          { "name": "Novax", "description": "Sistema de calendário popular entre quiropráticos e fisioterapeutas" },
+          { "name": "Outros sistemas", "description": "Usa outro sistema? Ligamos via sincronização CalDAV/iCal" }
+        ]
+      },
+      "craftsman": {
+        "title": "Os sistemas de calendário mais usados pelos profissionais de ofícios",
+        "subtitle": "As visitas são marcadas diretamente no sistema de calendário que já usa no seu negócio.",
+        "items": [
+          { "name": "Google Agenda", "description": "Sincronização automática de visitas e trabalhos em tempo real" },
+          { "name": "Microsoft Outlook / 365", "description": "Calendário partilhado para toda a equipa em movimento" },
+          { "name": "Calendário da Apple", "description": "Sincroniza diretamente via iCloud" },
+          { "name": "Dinero", "description": "Muito utilizado por profissionais de ofícios dinamarqueses para faturação e planeamento" },
+          { "name": "e-conomic", "description": "Sistema de contabilidade e planeamento popular no setor" },
+          { "name": "Outros sistemas", "description": "Usa outro sistema? Ligamos via sincronização CalDAV/iCal" }
+        ]
+      },
+      "office": {
+        "title": "Os sistemas de calendário mais usados pelos escritórios",
+        "subtitle": "As reuniões são marcadas diretamente no sistema que a sua equipa já utiliza.",
+        "items": [
+          { "name": "Google Agenda", "description": "Sincronização automática de reuniões em tempo real" },
+          { "name": "Microsoft Outlook / 365", "description": "Calendário partilhado e convites de reunião para toda a equipa" },
+          { "name": "Calendário do Microsoft Teams", "description": "Marque reuniões diretamente no calendário partilhado da equipa" },
+          { "name": "Calendário da Apple", "description": "Sincroniza diretamente via iCloud" },
+          { "name": "Calendly", "description": "Ferramenta de marcação de reuniões popular entre escritórios e consultores" },
+          { "name": "Outros sistemas", "description": "Usa outro sistema? Ligamos via sincronização CalDAV/iCal" }
+        ]
+      },
+      "ecommerce": {
+        "title": "Os sistemas de calendário mais usados pelas lojas online",
+        "subtitle": "Vende produtos e serviços? As marcações podem chegar diretamente ao seu calendário existente.",
+        "items": [
+          { "name": "Google Agenda", "description": "Sincronização automática de marcações em tempo real" },
+          { "name": "Microsoft Outlook / 365", "description": "Marcações e calendário partilhado para toda a equipa" },
+          { "name": "Shopify", "description": "Marque levantamentos, entregas ou consultas diretamente a partir da loja online" },
+          { "name": "Calendly", "description": "Para lojas online que também vendem consultas ou demonstrações" },
+          { "name": "Calendário da Apple", "description": "Sincroniza diretamente via iCloud" },
+          { "name": "Outros sistemas", "description": "Usa outro sistema? Ligamos via sincronização CalDAV/iCal" }
+        ]
+      }
     }
   },
   "trialOfferWidget": {

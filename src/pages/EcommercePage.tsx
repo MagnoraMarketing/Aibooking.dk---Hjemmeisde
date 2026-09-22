@@ -10,6 +10,7 @@ import { Clock, Users, MessageSquare, CheckSquare, CheckCircle, ShoppingCart, Mi
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import IndustryScenario from '../components/industries/IndustryScenario';
+import IndustryIntegrations from '../components/industries/IndustryIntegrations';
 import IndustryCalculator from '../components/industries/IndustryCalculator';
 import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
 import DashboardShowcase from '../components/DashboardShowcase';
@@ -207,6 +208,8 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
               {t('perfectFor.cta')}
             </a>
           </div>
+
+          <IndustryIntegrations industry="ecommerce" />
         </div>
       </section>
 

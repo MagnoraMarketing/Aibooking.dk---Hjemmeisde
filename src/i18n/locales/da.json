@@ -538,6 +538,57 @@
       "widgetValue": "Få en embedkode med det samme – test og tilpas widgetten på jeres hjemmeside",
       "cta": "Opret testkonto",
       "secondary": "Læs mere om prøveperioden"
+    },
+    "integrations": {
+      "badge": "Kalenderintegrationer",
+      "healthcare": {
+        "title": "De kalendersystemer, klinikker oftest bruger",
+        "subtitle": "Uanset hvilket bookingsystem I bruger i dag, kan AI-receptionisten synkronisere direkte med jeres kalender.",
+        "items": [
+          { "name": "Google Kalender", "description": "Automatisk synkronisering af patientaftaler i realtid" },
+          { "name": "Microsoft Outlook / 365", "description": "Booking og kalenderdeling til hele klinikken" },
+          { "name": "Apple Kalender", "description": "Synkroniseres direkte via iCloud" },
+          { "name": "EasyPractice", "description": "Udbredt klinik- og praksisstyringssystem i Danmark" },
+          { "name": "Novax", "description": "Populært kalendersystem blandt kiropraktorer og fysioterapeuter" },
+          { "name": "Andre systemer", "description": "Bruger I noget andet? Vi forbinder via CalDAV/iCal-synkronisering" }
+        ]
+      },
+      "craftsman": {
+        "title": "De kalendersystemer, håndværkere oftest bruger",
+        "subtitle": "Book besøg direkte i det kalendersystem, I allerede kører jeres forretning på.",
+        "items": [
+          { "name": "Google Kalender", "description": "Automatisk synkronisering af besøg og opgaver i realtid" },
+          { "name": "Microsoft Outlook / 365", "description": "Delt kalender til hele teamet på farten" },
+          { "name": "Apple Kalender", "description": "Synkroniseres direkte via iCloud" },
+          { "name": "Dinero", "description": "Udbredt blandt danske håndværkere til fakturering og planlægning" },
+          { "name": "e-conomic", "description": "Populært regnskabs- og planlægningssystem i branchen" },
+          { "name": "Andre systemer", "description": "Bruger I noget andet? Vi forbinder via CalDAV/iCal-synkronisering" }
+        ]
+      },
+      "office": {
+        "title": "De kalendersystemer, kontorer oftest bruger",
+        "subtitle": "Møder bookes direkte i det system, teamet allerede arbejder i.",
+        "items": [
+          { "name": "Google Kalender", "description": "Automatisk synkronisering af møder i realtid" },
+          { "name": "Microsoft Outlook / 365", "description": "Delt kalender og mødeindkaldelser til hele teamet" },
+          { "name": "Microsoft Teams-kalender", "description": "Book møder direkte i teamets fælles kalender" },
+          { "name": "Apple Kalender", "description": "Synkroniseres direkte via iCloud" },
+          { "name": "Calendly", "description": "Populært mødebookingværktøj blandt kontorer og konsulenter" },
+          { "name": "Andre systemer", "description": "Bruger I noget andet? Vi forbinder via CalDAV/iCal-synkronisering" }
+        ]
+      },
+      "ecommerce": {
+        "title": "De kalendersystemer, webshops oftest bruger",
+        "subtitle": "Sælger I både produkter og ydelser, kan bookinger lande direkte i jeres eksisterende kalender.",
+        "items": [
+          { "name": "Google Kalender", "description": "Automatisk synkronisering af bookinger i realtid" },
+          { "name": "Microsoft Outlook / 365", "description": "Booking og kalenderdeling til hele teamet" },
+          { "name": "Shopify", "description": "Book afhentning, levering eller konsultationer direkte fra webshoppen" },
+          { "name": "Calendly", "description": "Til webshops der også sælger konsultationer eller demoer" },
+          { "name": "Apple Kalender", "description": "Synkroniseres direkte via iCloud" },
+          { "name": "Andre systemer", "description": "Bruger I noget andet? Vi forbinder via CalDAV/iCal-synkronisering" }
+        ]
+      }
     }
   },
   "trialOfferWidget": {

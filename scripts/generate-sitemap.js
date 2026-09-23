@@ -40,7 +40,8 @@ const routeMap = {
   'BlogCategoryPage.tsx': [
     '/blog/category/ai-widget',
     '/blog/category/ai-inbound-outbound',
-    '/blog/category/ai-total-solution'
+    '/blog/category/ai-total-solution',
+    '/blog/category/ai-webshop'
   ],
   'BlogPostPage.tsx': [
     '/blog/hvordan-ai-widgets-transformerer-kundeservice',
@@ -83,7 +84,8 @@ const routeMap = {
     '/blog/ai-i-danmark',
     '/blog/ai-telefonpasning-dansk-ai-receptionist',
     '/blog/widget-til-webshop',
-    '/blog/ai-widget-til-shopify'
+    '/blog/ai-widget-til-shopify',
+    '/blog/shopify-integration-ai-voice-indgaaende-opkald'
   ]
 };
 
@@ -101,6 +103,7 @@ const priorityMap = {
   '/blog/category/ai-widget': 0.7,
   '/blog/category/ai-inbound-outbound': 0.7,
   '/blog/category/ai-total-solution': 0.7,
+  '/blog/category/ai-webshop': 0.7,
   '/blog/hvordan-ai-widgets-transformerer-kundeservice': 0.8,
   '/blog/ai-widget-integration-bedste-praksis': 0.7,
   '/blog/ai-telefonassistent-fremtidens-kundeservice': 0.7,
@@ -117,6 +120,7 @@ const priorityMap = {
   '/blog/ai-telefonpasning-dansk-ai-receptionist': 0.8,
   '/blog/widget-til-webshop': 0.8,
   '/blog/ai-widget-til-shopify': 0.8,
+  '/blog/shopify-integration-ai-voice-indgaaende-opkald': 0.8,
   '/widget': 0.9,
   '/ind-og-udgaaende-opkald': 0.9,
   '/proeveperiode': 0.9,
@@ -140,6 +144,7 @@ const changefreqMap = {
   '/blog/category/ai-widget': 'weekly',
   '/blog/category/ai-inbound-outbound': 'weekly',
   '/blog/category/ai-total-solution': 'weekly',
+  '/blog/category/ai-webshop': 'weekly',
   '/blog/hvordan-ai-widgets-transformerer-kundeservice': 'monthly',
   '/blog/ai-widget-integration-bedste-praksis': 'monthly',
   '/blog/ai-telefonassistent-fremtidens-kundeservice': 'monthly',

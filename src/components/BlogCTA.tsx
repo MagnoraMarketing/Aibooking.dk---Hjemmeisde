@@ -20,6 +20,7 @@ const LINKS = [
 const CATEGORY_FIRST: Record<string, string> = {
   'ai-widget': 'widget',
   'ai-inbound-outbound': 'inbound',
+  'ai-webshop': 'webshop',
 };
 
 interface BlogCTAProps {

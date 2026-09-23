@@ -98,6 +98,7 @@ const CATEGORY_FALLBACK_ICONS = {
   'ai-widget': ['chat', 'cart'],
   'ai-inbound-outbound': ['phone', 'bell'],
   'ai-total-solution': ['nodes', 'calendar'],
+  'ai-webshop': ['cart', 'package'],
 };
 
 // Per-post icon, chosen to match what each article is actually about —
@@ -145,6 +146,7 @@ const SLUG_TOPICS = {
   'ai-telefonpasning-dansk-ai-receptionist': 'phone',
   'widget-til-webshop': 'package',
   'ai-widget-til-shopify': 'cart',
+  'shopify-integration-ai-voice-indgaaende-opkald': 'phone',
 };
 
 function pickIcon(rand, slug, category) {

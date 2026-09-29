@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Réceptionniste IA - Automatisez Votre Téléphone et Vos Réservations | Aibooking.dk",
-    "description": "Économisez 85 % de votre temps au téléphone grâce à notre réceptionniste IA. Réservations automatiques, rappels SMS et service client 24h/24. Essayez gratuitement pendant 7 jours. Réservez votre démo dès aujourd'hui.",
-    "keywords": "réceptionniste ia, ai booking, réservation automatique, widget ia pour site web, calendrier ia, automatisation téléphonique, rappels sms, automatisation du service client, solution ia danoise"
+    "title": "Réceptionniste IA, Permanence Téléphonique IA & Widget IA | Aibooking.dk",
+    "description": "Réceptionniste IA avec permanence téléphonique IA, widget IA pour votre site et widget pour boutique en ligne et Shopify. Répond, réserve et sert vos clients 24h/24 – essai gratuit de 7 jours.",
+    "keywords": "permanence téléphonique IA, réceptionniste IA danoise, widget pour boutique en ligne, widget IA pour Shopify, réceptionniste ia, ai booking, réservation automatique, widget ia pour site web, calendrier ia, automatisation téléphonique, rappels sms, automatisation du service client, solution ia danoise"
   },
   "nav": {
     "home": "Accueil",
@@ -72,9 +72,14 @@
     "subtitle": "Chaque entreprise consacre un temps différent aux appels, messages et suivis. Indiquez vos propres heures et découvrez ce que vous pourriez économiser avec AIbooking.",
     "inputLabel": "Heures au téléphone par semaine",
     "hoursUnit": "heures",
+    "wageInputLabel": "Votre taux horaire",
+    "wageUnit": "€/heure",
     "resultLabel": "Ce que vous pourriez économiser avec AIbooking",
+    "moneySavedWeek": "≈ {{amount}} € économisés par semaine",
+    "moneySavedMonth": "Soit environ {{amount}} € par mois",
     "hoursSavedWeek": "≈ {{hours}} heures économisées par semaine",
     "hoursSavedMonth": "Soit environ {{hours}} heures par mois",
+    "billingNote": "Vous ne payez que pour votre utilisation réelle – sans engagement.",
     "note": "Basé sur le fait que la réceptionniste IA prend généralement en charge jusqu'à 85 % des appels, messages et réservations.",
     "cta": "Essayez gratuitement pendant 7 jours"
   },
@@ -290,6 +295,7 @@
     "all_articles": "Tous les Articles",
     "blog_ai_widget": "Widget IA",
     "blog_inbound_outbound": "Appels IA Entrants/Sortants",
+    "blog_webshop": "IA pour E-commerce",
     "blog_total_solution": "Solution IA Totale",
     "company": "Entreprise",
     "about": "À propos",

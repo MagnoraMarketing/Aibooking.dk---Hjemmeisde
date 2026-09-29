@@ -10,6 +10,8 @@ import IntegrationSEO from '../components/integrations/IntegrationSEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import IntegrationCTA from '../components/integrations/IntegrationCTA';
 import SEO from '../components/SEO';
+import type { SupportedLanguage } from '../i18n/config';
+import { localizedUrl } from '../utils/localePaths';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import type { NavigatePage } from '../types/navigation';
 
@@ -18,11 +20,12 @@ interface IntegrationsPageProps {
 }
 
 function IntegrationsPage({ onNavigate }: IntegrationsPageProps) {
-  const { t } = useTranslation('integrationsPage');
+  const { t, i18n } = useTranslation('integrationsPage');
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
 
   const breadcrumbData = createBreadcrumbSchema([
-    { name: t('breadcrumb.home'), url: 'https://www.aibooking.dk/' },
-    { name: t('breadcrumb.integrations'), url: 'https://www.aibooking.dk/integrations' },
+    { name: t('breadcrumb.home'), url: localizedUrl(lang, '/') },
+    { name: t('breadcrumb.integrations'), url: localizedUrl(lang, '/integrationer') },
   ]);
 
   return (
@@ -31,10 +34,11 @@ function IntegrationsPage({ onNavigate }: IntegrationsPageProps) {
         title={t('seo.title')}
         description={t('seo.description')}
         keywords={t('seo.keywords')}
-        canonical="https://www.aibooking.dk/integrations"
+        canonical={localizedUrl(lang, '/integrationer')}
+        path="/integrationer"
         structuredData={breadcrumbData}
       />
-      <Navigation onNavigate={onNavigate} />
+      <Navigation onNavigate={onNavigate} transparent />
       <IntegrationHero />
       <IntegrationCategories />
       <IntegrationGrid />

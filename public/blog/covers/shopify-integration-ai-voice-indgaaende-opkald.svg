@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-shopifyinteg" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(192 0.5 0.5)">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <radialGradient id="glow1-shopifyinteg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-shopifyinteg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d97706" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-shopifyinteg" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-shopifyinteg)"/>
+  <rect width="1200" height="675" fill="url(#dots-shopifyinteg)"/>
+  <circle cx="277.9820979689248" cy="252.76017924770713" r="327.4931014329195" fill="url(#glow1-shopifyinteg)"/>
+  <circle cx="1031.553562998306" cy="440.06430028239265" r="275.2374116797" fill="url(#glow2-shopifyinteg)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#d97706" stroke-width="140" opacity="0.14"
+    transform="rotate(119 600 337.5)"/>
+
+  <circle cx="874.9054685588926" cy="162.1198441749439" r="56.387140398379415" fill="none" stroke="#d97706" stroke-width="2" opacity="0.5"/>
+  <circle cx="211.6894803084433" cy="623.2463875086978" r="21.213437479920685" fill="#1d4ed8" opacity="0.18"/>
+
+  <g transform="translate(572.9634110480547 369.43887643748894) rotate(7)">
+    <circle r="75.00147205637768" fill="white" opacity="0.06"/>
+    <circle r="75.00147205637768" fill="none" stroke="white" stroke-opacity="0.22" stroke-width="1.5"/>
+    <rect x="-54.54652513191104" y="-54.54652513191104" width="109.09305026382208" height="109.09305026382208" rx="27.27326256595552"
+      fill="url(#glow1-shopifyinteg)" opacity="0.9"/>
+    <rect x="-54.54652513191104" y="-54.54652513191104" width="109.09305026382208" height="109.09305026382208" rx="27.27326256595552"
+      fill="#3b82f6" opacity="0.55"/>
+    <g transform="scale(6.81831564148888) translate(-12 -12)">
+      <path d="M6 3h4l2 5-2.5 1.5a12 12 0 0 0 5 5L16 12l5 2v4a2 2 0 0 1-2 2C10.5 20 4 13.5 4 5a2 2 0 0 1 2-2z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-aiidanmark" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(301 0.5 0.5)">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <radialGradient id="glow1-aiidanmark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-aiidanmark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-aiidanmark" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-aiidanmark)"/>
+  <rect width="1200" height="675" fill="url(#dots-aiidanmark)"/>
+  <circle cx="226.88703004969284" cy="110.80808453261852" r="264.07758820801973" fill="url(#glow1-aiidanmark)"/>
+  <circle cx="1089.337566238828" cy="566.8424456613138" r="242.73201877251267" fill="url(#glow2-aiidanmark)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#fbbf24" stroke-width="140" opacity="0.09"
+    transform="rotate(99 600 337.5)"/>
+
+  <circle cx="210.78627844154835" cy="142.87510365899652" r="29.931407029740512" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
+  <circle cx="93.59267037548126" cy="545.9586456371471" r="24.406876681372523" fill="#1e3a8a" opacity="0.18"/>
+
+  <g transform="translate(675.2030883058906 340.8919610828161) rotate(5)">
+    <circle r="93.52609098982066" fill="white" opacity="0.06"/>
+    <circle r="93.52609098982066" fill="none" stroke="white" stroke-opacity="0.18" stroke-width="1.5"/>
+    <rect x="-68.01897526532412" y="-68.01897526532412" width="136.03795053064823" height="136.03795053064823" rx="34.00948763266206"
+      fill="url(#glow1-aiidanmark)" opacity="0.9"/>
+    <rect x="-68.01897526532412" y="-68.01897526532412" width="136.03795053064823" height="136.03795053064823" rx="34.00948763266206"
+      fill="#1e40af" opacity="0.55"/>
+    <g transform="scale(8.502371908165514) translate(-12 -12)">
+      <circle cx="6" cy="6" r="2.2" fill="white"/><circle cx="18" cy="6" r="2.2" fill="white"/><circle cx="12" cy="18" r="2.2" fill="white"/><path d="M8 6h8M7.3 7.8 10.7 16.4M16.7 7.8 13.3 16.4" stroke="white" stroke-width="1.4"/>
+    </g>
+  </g>
+</svg>

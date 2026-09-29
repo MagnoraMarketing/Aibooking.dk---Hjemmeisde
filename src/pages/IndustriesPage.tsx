@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
+import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
 import { industriesFAQs } from '../content/faq';
@@ -8,6 +9,8 @@ import ContactForm from '../components/industries/ContactForm';
 import IndustrySEO from '../components/industries/IndustrySEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import SEO from '../components/SEO';
+import type { SupportedLanguage } from '../i18n/config';
+import { localizedUrl } from '../utils/localePaths';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { BarChart3, Calendar, Clock, TrendingUp, Users, Phone, MessageSquare, CheckSquare } from 'lucide-react';
 import type { NavigatePage } from '../types/navigation';
@@ -59,11 +62,12 @@ const industryMeta = [
 ];
 
 function IndustriesPage({ onNavigate }: IndustriesPageProps) {
-  const { t } = useTranslation('industriesPage');
+  const { t, i18n } = useTranslation('industriesPage');
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
 
   const breadcrumbData = createBreadcrumbSchema([
-    { name: t('breadcrumb.home'), url: 'https://www.aibooking.dk/' },
-    { name: t('breadcrumb.industries'), url: 'https://www.aibooking.dk/industries' },
+    { name: t('breadcrumb.home'), url: localizedUrl(lang, '/') },
+    { name: t('breadcrumb.industries'), url: localizedUrl(lang, '/brancher') },
   ]);
 
   const industriesText = t('industries', { returnObjects: true }) as Record<typeof industryKeys[number], IndustryText>;
@@ -86,30 +90,13 @@ function IndustriesPage({ onNavigate }: IndustriesPageProps) {
         title={t('seo.title')}
         description={t('seo.description')}
         keywords={t('seo.keywords')}
-        canonical="https://www.aibooking.dk/industries"
+        canonical={localizedUrl(lang, '/brancher')}
+        path="/brancher"
         structuredData={breadcrumbData}
       />
-      <Navigation onNavigate={onNavigate} />
+      <Navigation onNavigate={onNavigate} transparent />
 
-      <div className="pt-32 pb-20 bg-gradient-to-br from-ink-50 to-brand-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center space-x-2 bg-brand-100 text-brand-700 px-4 py-2 rounded-full mb-8">
-            <span className="w-2 h-2 bg-brand-600 rounded-full animate-pulse"></span>
-            <span className="text-sm font-semibold tracking-wide">{t('hero.badge')}</span>
-          </div>
-
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-ink-900 mb-8 leading-tight">
-            {t('hero.title_line1')}<br />
-            <span className="bg-gradient-to-r from-brand-600 to-brand-500 bg-clip-text text-transparent">
-              {t('hero.title_line2')}
-            </span>
-          </h1>
-
-          <p className="text-xl md:text-2xl text-ink-600 mb-12 max-w-4xl mx-auto leading-relaxed">
-            {t('hero.subtitle')}
-          </p>
-        </div>
-      </div>
+      <PageHero badge={t('hero.badge')} title={t('hero.title_line1')} highlight={t('hero.title_line2')} subtitle={t('hero.subtitle')} />
 
       {industries.map((industry, index) => (
         <div key={index}>

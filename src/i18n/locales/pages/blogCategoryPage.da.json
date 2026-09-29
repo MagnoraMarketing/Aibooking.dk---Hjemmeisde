@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "{{category}} - AI Booking Blog | AIBooking.dk",
-    "keywords": "{{slug}}, ai automation, booking, {{category}}"
+    "title": "{{category}} – Guides & Artikler | Aibooking.dk",
+    "keywords": "{{category}}, AI widget, AI til hjemmeside, AI reception, AI kundeservice, AI Danmark"
   },
   "notFound": {
     "title": "Kategori ikke fundet",
@@ -13,10 +13,5 @@
     "message": "Ingen artikler i denne kategori endnu.",
     "viewAll": "Se alle artikler"
   },
-  "readArticle": "Læs artikel",
-  "wantMore": {
-    "title": "Vil du vide mere?",
-    "description": "Kontakt os for at høre hvordan AI automatisering kan transformere din virksomhed.",
-    "cta": "Book en demo"
-  }
+  "readArticle": "Læs artikel"
 }

@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Clock, ArrowRight } from 'lucide-react';
+import { Clock, ArrowRight, ShieldCheck } from 'lucide-react';
 import { SIGNUP_URL } from '../utils/backend';
 
 const MIN_HOURS = 1;
@@ -10,22 +10,30 @@ const MAX_HOURS = 40;
 // the site (see HomePage's SEO description).
 const SAVINGS_RATE = 0.85;
 const WEEKS_PER_MONTH = 4.33;
+const DEFAULT_HOURLY_WAGE = 300;
 
 /**
- * Lets a visitor enter their own weekly phone hours instead of being told a
- * fixed number — usage varies a lot from one business to the next.
+ * Lets a visitor enter their own weekly phone hours and hourly wage instead
+ * of being told fixed numbers — both vary a lot from one business to the next.
  */
 function SavingsCalculator() {
   const { t, i18n } = useTranslation();
   const [hours, setHours] = useState(10);
+  const [wage, setWage] = useState(DEFAULT_HOURLY_WAGE);
 
   const format = useMemo(
     () => new Intl.NumberFormat(i18n.resolvedLanguage || i18n.language, { maximumFractionDigits: 1 }),
     [i18n.resolvedLanguage, i18n.language]
   );
+  const moneyFormat = useMemo(
+    () => new Intl.NumberFormat(i18n.resolvedLanguage || i18n.language, { maximumFractionDigits: 0 }),
+    [i18n.resolvedLanguage, i18n.language]
+  );
 
   const hoursSavedWeek = hours * SAVINGS_RATE;
   const hoursSavedMonth = hoursSavedWeek * WEEKS_PER_MONTH;
+  const moneySavedWeek = hoursSavedWeek * wage;
+  const moneySavedMonth = hoursSavedMonth * wage;
 
   return (
     <section id="spar-tid" className="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-white scroll-mt-24">
@@ -67,16 +75,48 @@ function SavingsCalculator() {
             <span>{MAX_HOURS}+ {t('savingsCalculator.hoursUnit')}</span>
           </div>
 
+          <div className="mb-8">
+            <label htmlFor="hourly-wage-input" className="text-sm font-bold text-ink-900 block mb-3">
+              {t('savingsCalculator.wageInputLabel')}
+            </label>
+            <div className="relative max-w-xs">
+              <input
+                id="hourly-wage-input"
+                type="number"
+                inputMode="numeric"
+                min={0}
+                step={10}
+                value={wage}
+                onChange={(e) => setWage(Math.max(0, Number(e.target.value)))}
+                className="w-full rounded-xl border border-ink-200 bg-white px-4 py-3 text-lg font-bold text-ink-900 focus:outline-none focus:ring-2 focus:ring-brand-500"
+              />
+              <span className="pointer-events-none absolute inset-y-0 right-4 flex items-center text-sm text-ink-500">
+                {t('savingsCalculator.wageUnit')}
+              </span>
+            </div>
+          </div>
+
           <div className="bg-ink-900 rounded-2xl p-7 md:p-8">
             <div className="text-xs uppercase tracking-wider text-ink-400 font-semibold mb-3">
               {t('savingsCalculator.resultLabel')}
             </div>
             <div className="text-3xl md:text-4xl font-bold text-white mb-1.5">
-              {t('savingsCalculator.hoursSavedWeek', { hours: format.format(hoursSavedWeek) })}
+              {t('savingsCalculator.moneySavedWeek', { amount: moneyFormat.format(moneySavedWeek) })}
             </div>
-            <div className="text-ink-300 mb-6">
+            <div className="text-ink-300 mb-3">
+              {t('savingsCalculator.moneySavedMonth', { amount: moneyFormat.format(moneySavedMonth) })}
+            </div>
+            <div className="text-sm text-ink-400 mb-6">
+              {t('savingsCalculator.hoursSavedWeek', { hours: format.format(hoursSavedWeek) })}
+              {' · '}
               {t('savingsCalculator.hoursSavedMonth', { hours: format.format(hoursSavedMonth) })}
             </div>
+
+            <div className="flex items-start gap-2.5 bg-brand-500/10 border border-brand-400/30 rounded-xl px-4 py-3 mb-6">
+              <ShieldCheck className="w-5 h-5 text-brand-300 flex-shrink-0 mt-0.5" />
+              <span className="text-sm text-brand-100 font-semibold">{t('savingsCalculator.billingNote')}</span>
+            </div>
+
             <p className="text-xs text-ink-500 mb-6 leading-relaxed">{t('savingsCalculator.note')}</p>
             <a
               href={SIGNUP_URL}

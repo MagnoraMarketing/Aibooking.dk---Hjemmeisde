@@ -156,6 +156,14 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
               </li>
               <li>
                 <a
+                  href="/blog/category/ai-webshop"
+                  className="hover:text-brand-400 transition-colors"
+                >
+                  {t('footer.blog_webshop')}
+                </a>
+              </li>
+              <li>
+                <a
                   href="/blog/category/ai-total-solution"
                   className="hover:text-brand-400 transition-colors"
                 >

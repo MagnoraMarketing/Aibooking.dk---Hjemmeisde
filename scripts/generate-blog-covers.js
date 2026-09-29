@@ -98,6 +98,7 @@ const CATEGORY_FALLBACK_ICONS = {
   'ai-widget': ['chat', 'cart'],
   'ai-inbound-outbound': ['phone', 'bell'],
   'ai-total-solution': ['nodes', 'calendar'],
+  'ai-webshop': ['cart', 'package'],
 };
 
 // Per-post icon, chosen to match what each article is actually about —
@@ -134,6 +135,18 @@ const SLUG_TOPICS = {
   'automatisering-uden-flere-medarbejdere': 'automation',
   'kundeoplevelse-ai-automatisering': 'customerService',
   'kom-i-gang-ai-automatisering-trin-for-trin': 'steps',
+  'ai-widget-hjemmeside-komplet-guide': 'chat',
+  'shopify-ai-automatisering': 'cart',
+  'ai-til-hjemmeside': 'globe',
+  'ai-reception-virtuel-receptionist': 'customerService',
+  'ai-indgaaende-opkald': 'phone',
+  'ai-kundeservice': 'customerService',
+  'ai-medarbejder': 'automation',
+  'ai-i-danmark': 'nodes',
+  'ai-telefonpasning-dansk-ai-receptionist': 'phone',
+  'widget-til-webshop': 'package',
+  'ai-widget-til-shopify': 'cart',
+  'shopify-integration-ai-voice-indgaaende-opkald': 'phone',
 };
 
 function pickIcon(rand, slug, category) {

@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "AI Receptionist - Automate Your Phone and Booking | Aibooking.dk",
-    "description": "Save 85% of your phone time with our AI receptionist. Automatic booking, SMS reminders and 24/7 customer service. Try free for 7 days. Book your demo today.",
-    "keywords": "AI receptionist, AI booking, automatic booking, AI widget for website, AI calendar, phone automation, SMS reminders, customer service automation, Danish AI solution"
+    "title": "Danish AI Receptionist, AI Phone Answering & AI Widget | Aibooking.dk",
+    "description": "A Danish AI receptionist with AI phone answering, an AI widget for your website and a widget for your webshop and Shopify. Answers, books and serves customers 24/7 – try it free for 7 days.",
+    "keywords": "AI phone answering, Danish AI receptionist, webshop widget, AI widget for Shopify, AI reception, AI widget, AI for website, AI customer service, AI inbound calls, AI employee, AI Denmark, AI receptionist, AI booking, Shopify AI"
   },
   "nav": {
     "home": "Home",
@@ -72,9 +72,14 @@
     "subtitle": "Every business spends a different amount of time on calls, messages and follow-up. Enter your own hours and see what you could expect to save with AIbooking.",
     "inputLabel": "Hours on the phone per week",
     "hoursUnit": "hours",
+    "wageInputLabel": "Your hourly wage",
+    "wageUnit": "€/hour",
     "resultLabel": "What you could expect to save with AIbooking",
+    "moneySavedWeek": "≈ €{{amount}} saved per week",
+    "moneySavedMonth": "That's about €{{amount}} per month",
     "hoursSavedWeek": "≈ {{hours}} hours saved per week",
     "hoursSavedMonth": "That's about {{hours}} hours per month",
+    "billingNote": "You only pay for what you actually use – no lock-in.",
     "note": "Based on the AI receptionist typically taking over up to 85% of calls, messages and bookings.",
     "cta": "Try free for 7 days"
   },
@@ -290,6 +295,7 @@
     "all_articles": "All Articles",
     "blog_ai_widget": "AI Widget",
     "blog_inbound_outbound": "AI Inbound/Outbound",
+    "blog_webshop": "AI for Webshops",
     "blog_total_solution": "AI Total Solution",
     "company": "Company",
     "about": "About us",

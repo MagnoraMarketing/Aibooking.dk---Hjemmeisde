@@ -1,11 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
+import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import type { SupportedLanguage } from '../i18n/config';
-import { buildLocalizedPath } from '../utils/localePaths';
+import { localizedUrl } from '../utils/localePaths';
 import {
   Phone, MessageSquare, Mail, MessageCircle, ArrowRight, PhoneCall,
   Users, PhoneForwarded, PackagePlus, CheckCircle2,
@@ -22,11 +23,10 @@ interface TitleDesc { title: string; desc: string }
 function TrialPage({ onNavigate }: TrialPageProps) {
   const { t, i18n } = useTranslation('trialPage');
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
-  const contactHref = buildLocalizedPath(lang, '/kontakt');
 
   const breadcrumbData = createBreadcrumbSchema([
-    { name: t('breadcrumb.home'), url: 'https://www.aibooking.dk/' },
-    { name: t('breadcrumb.trial'), url: 'https://www.aibooking.dk/proeveperiode' },
+    { name: t('breadcrumb.home'), url: localizedUrl(lang, '/') },
+    { name: t('breadcrumb.trial'), url: localizedUrl(lang, '/proeveperiode') },
   ]);
 
   const steps = t('steps.items', { returnObjects: true }) as TitleDesc[];
@@ -48,43 +48,19 @@ function TrialPage({ onNavigate }: TrialPageProps) {
         title={t('seo.title')}
         description={t('seo.description')}
         keywords={t('seo.keywords')}
-        canonical="https://www.aibooking.dk/proeveperiode"
+        canonical={localizedUrl(lang, '/proeveperiode')}
         path="/proeveperiode"
         structuredData={breadcrumbData}
       />
-      <Navigation onNavigate={onNavigate} />
+      <Navigation onNavigate={onNavigate} transparent />
 
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-ink-50 via-white to-brand-50/40">
-        <div className="max-w-5xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-accent-400 text-ink-900 px-4 py-2 rounded-full text-sm font-bold mb-6">
-            <PhoneCall className="w-4 h-4" />
-            {t('hero.badge')}
-          </div>
-          <h1 className="text-4xl md:text-6xl font-bold text-ink-900 mb-6 tracking-tight">
-            {t('hero.title')}
-          </h1>
-          <p className="text-lg md:text-xl text-ink-600 max-w-3xl mx-auto leading-relaxed mb-10">
-            {t('hero.subtitle')}
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              href={SIGNUP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-brand-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-brand-700 transition-all shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
-            >
-              {t('hero.cta_signup')}
-              <ArrowRight className="w-5 h-5" />
-            </a>
-            <a
-              href={contactHref}
-              className="inline-flex items-center justify-center gap-2 border-2 border-ink-300 text-ink-700 px-8 py-4 rounded-xl font-semibold text-lg hover:border-brand-600 hover:text-brand-600 transition-all"
-            >
-              {t('hero.cta_contact')}
-            </a>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        badge={t('hero.badge')}
+        title={t('hero.title')}
+        subtitle={t('hero.subtitle')}
+        primaryCta={{ label: t('hero.cta_signup'), href: SIGNUP_URL }}
+        secondaryCta={{ label: t('hero.cta_contact'), href: '/kontakt' }}
+      />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">

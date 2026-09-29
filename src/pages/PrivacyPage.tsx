@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
+import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import type { SupportedLanguage } from '../i18n/config';
@@ -42,18 +43,10 @@ function PrivacyPage({ onNavigate }: PrivacyPageProps) {
         canonical={localizedUrl(lang, PAGE_PATH)}
         path={PAGE_PATH}
       />
-      <Navigation onNavigate={onNavigate} />
-      <main className="min-h-screen bg-white">
+      <Navigation onNavigate={onNavigate} transparent />
+      <PageHero title={t('title')} subtitle={t('subtitle')} primaryCta={null} secondaryCta={null} trust={[]} compact />
+      <main className="bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
-          <div className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-ink-900 mb-4">
-              {t('title')}
-            </h1>
-            <p className="text-xl text-ink-600">
-              {t('subtitle')}
-            </p>
-          </div>
-
           <div className="prose prose-slate max-w-none">
             {sections.map((section, index) => (
               <section key={index} className="mb-10">

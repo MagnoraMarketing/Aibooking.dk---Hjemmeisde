@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-aimedarbejde" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(336 0.5 0.5)">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <radialGradient id="glow1-aimedarbejde" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-aimedarbejde" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-aimedarbejde" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-aimedarbejde)"/>
+  <rect width="1200" height="675" fill="url(#dots-aimedarbejde)"/>
+  <circle cx="191.66482827859" cy="180.55021008476615" r="311.0793850570917" fill="url(#glow1-aimedarbejde)"/>
+  <circle cx="811.2116948934272" cy="491.7243931791745" r="295.2384159807116" fill="url(#glow2-aimedarbejde)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#fbbf24" stroke-width="140" opacity="0.18"
+    transform="rotate(202 600 337.5)"/>
+
+  <circle cx="149.55998562276363" cy="122.2243589255959" r="48.52965718368068" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
+  <circle cx="96.07047465629876" cy="581.1219646157697" r="25.240800203289837" fill="#2563eb" opacity="0.18"/>
+
+  <g transform="translate(704.9274829030037 368.52559442678466) rotate(-4)">
+    <circle r="77.25257603370119" fill="white" opacity="0.06"/>
+    <circle r="77.25257603370119" fill="none" stroke="white" stroke-opacity="0.16" stroke-width="1.5"/>
+    <rect x="-56.18369166087359" y="-56.18369166087359" width="112.36738332174718" height="112.36738332174718" rx="28.091845830436796"
+      fill="url(#glow1-aimedarbejde)" opacity="0.9"/>
+    <rect x="-56.18369166087359" y="-56.18369166087359" width="112.36738332174718" height="112.36738332174718" rx="28.091845830436796"
+      fill="#1e40af" opacity="0.55"/>
+    <g transform="scale(7.022961457609199) translate(-12 -12)">
+      <circle cx="12" cy="12" r="3" fill="none" stroke="white" stroke-width="1.6"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

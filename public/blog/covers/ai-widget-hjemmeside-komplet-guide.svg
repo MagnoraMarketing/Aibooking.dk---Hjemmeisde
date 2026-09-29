@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-aiwidgethjem" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(140 0.5 0.5)">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <radialGradient id="glow1-aiwidgethjem" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-aiwidgethjem" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-aiwidgethjem" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-aiwidgethjem)"/>
+  <rect width="1200" height="675" fill="url(#dots-aiwidgethjem)"/>
+  <circle cx="206.00308659486473" cy="158.20362763479352" r="309.74272459745407" fill="url(#glow1-aiwidgethjem)"/>
+  <circle cx="807.4922655476257" cy="484.4579275464639" r="313.1645143497735" fill="url(#glow2-aiwidgethjem)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#f59e0b" stroke-width="140" opacity="0.13"
+    transform="rotate(55 600 337.5)"/>
+
+  <circle cx="987.9533073026687" cy="158.49679794441911" r="45.02764488570392" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+  <circle cx="188.06695053353906" cy="527.7310633789748" r="30.500259605702013" fill="#1d4ed8" opacity="0.18"/>
+
+  <g transform="translate(525.708340331912 380.1815397287719) rotate(1)">
+    <circle r="78.36300118803047" fill="white" opacity="0.06"/>
+    <circle r="78.36300118803047" fill="none" stroke="white" stroke-opacity="0.24" stroke-width="1.5"/>
+    <rect x="-56.991273591294885" y="-56.991273591294885" width="113.98254718258977" height="113.98254718258977" rx="28.495636795647442"
+      fill="url(#glow1-aiwidgethjem)" opacity="0.9"/>
+    <rect x="-56.991273591294885" y="-56.991273591294885" width="113.98254718258977" height="113.98254718258977" rx="28.495636795647442"
+      fill="#2563eb" opacity="0.55"/>
+    <g transform="scale(7.123909198911861) translate(-12 -12)">
+      <path d="M4 5h16v10H9l-3 3v-3H4V5z" fill="none" stroke="white" stroke-width="1.6" stroke-linejoin="round"/><circle cx="9" cy="10" r="1" fill="white"/><circle cx="12" cy="10" r="1" fill="white"/><circle cx="15" cy="10" r="1" fill="white"/>
+    </g>
+  </g>
+</svg>

@@ -1,15 +1,18 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
+import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
 import { contactFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
+import type { SupportedLanguage } from '../i18n/config';
+import { localizedUrl } from '../utils/localePaths';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { DEMO_PHONE_DISPLAY, DEMO_PHONE_TEL } from '../utils/demoPhone';
 import {
-  Mail, MapPin, Clock, MessageSquare, CheckCircle2, AlertCircle, Calendar,
+  Mail, MapPin, Clock, CheckCircle2, AlertCircle, Calendar,
   Phone, Headphones, Mic, PhoneCall, Sparkles, ArrowRight,
 } from 'lucide-react';
 import type { NavigatePage } from '../types/navigation';
@@ -29,11 +32,12 @@ const CORE_SERVICE_META: { icon: typeof Headphones; page: NavigatePage }[] = [
 ];
 
 function ContactPage({ onNavigate }: ContactPageProps) {
-  const { t } = useTranslation('contactPage');
+  const { t, i18n } = useTranslation('contactPage');
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
 
   const breadcrumbData = createBreadcrumbSchema([
-    { name: t('breadcrumb.home'), url: 'https://www.aibooking.dk/' },
-    { name: t('breadcrumb.contact'), url: 'https://www.aibooking.dk/contact' },
+    { name: t('breadcrumb.home'), url: localizedUrl(lang, '/') },
+    { name: t('breadcrumb.contact'), url: localizedUrl(lang, '/kontakt') },
   ]);
 
   const whyUsItems = t('whyUs.items', { returnObjects: true }) as string[];
@@ -79,26 +83,16 @@ function ContactPage({ onNavigate }: ContactPageProps) {
         title={t('seo.title')}
         description={t('seo.description')}
         keywords={t('seo.keywords')}
-        canonical="https://www.aibooking.dk/contact"
+        canonical={localizedUrl(lang, '/kontakt')}
+        path="/kontakt"
         structuredData={breadcrumbData}
       />
-      <Navigation onNavigate={onNavigate} />
+      <Navigation onNavigate={onNavigate} transparent />
 
-      <div className="pt-32 pb-20 px-4">
+      <PageHero badge={t('hero.badge')} title={t('hero.title')} subtitle={t('hero.subtitle')} />
+
+      <div className="py-20 md:py-28 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-brand-100 text-brand-700 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              <MessageSquare className="w-4 h-4" />
-              <span>{t('hero.badge')}</span>
-            </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-ink-900 mb-6">
-              {t('hero.title')}
-            </h1>
-            <p className="text-xl text-ink-600 max-w-3xl mx-auto leading-relaxed">
-              {t('hero.subtitle')}
-            </p>
-          </div>
-
           <div className="grid lg:grid-cols-3 gap-8 mb-24">
 
             <div className="bg-white rounded-3xl p-8 shadow-lg border border-ink-200/60 hover:shadow-xl transition-all">

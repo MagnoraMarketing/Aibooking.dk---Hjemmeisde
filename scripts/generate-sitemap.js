@@ -40,7 +40,8 @@ const routeMap = {
   'BlogCategoryPage.tsx': [
     '/blog/category/ai-widget',
     '/blog/category/ai-inbound-outbound',
-    '/blog/category/ai-total-solution'
+    '/blog/category/ai-total-solution',
+    '/blog/category/ai-webshop'
   ],
   'BlogPostPage.tsx': [
     '/blog/hvordan-ai-widgets-transformerer-kundeservice',
@@ -72,7 +73,19 @@ const routeMap = {
     '/blog/frigoer-tid-er-penge',
     '/blog/automatisering-uden-flere-medarbejdere',
     '/blog/kundeoplevelse-ai-automatisering',
-    '/blog/kom-i-gang-ai-automatisering-trin-for-trin'
+    '/blog/kom-i-gang-ai-automatisering-trin-for-trin',
+    '/blog/ai-widget-hjemmeside-komplet-guide',
+    '/blog/shopify-ai-automatisering',
+    '/blog/ai-til-hjemmeside',
+    '/blog/ai-reception-virtuel-receptionist',
+    '/blog/ai-indgaaende-opkald',
+    '/blog/ai-kundeservice',
+    '/blog/ai-medarbejder',
+    '/blog/ai-i-danmark',
+    '/blog/ai-telefonpasning-dansk-ai-receptionist',
+    '/blog/widget-til-webshop',
+    '/blog/ai-widget-til-shopify',
+    '/blog/shopify-integration-ai-voice-indgaaende-opkald'
   ]
 };
 
@@ -90,11 +103,24 @@ const priorityMap = {
   '/blog/category/ai-widget': 0.7,
   '/blog/category/ai-inbound-outbound': 0.7,
   '/blog/category/ai-total-solution': 0.7,
+  '/blog/category/ai-webshop': 0.7,
   '/blog/hvordan-ai-widgets-transformerer-kundeservice': 0.8,
   '/blog/ai-widget-integration-bedste-praksis': 0.7,
   '/blog/ai-telefonassistent-fremtidens-kundeservice': 0.7,
   '/blog/komplet-ai-automatisering-widget-telefon-booking': 0.8,
   '/blog/roi-ai-automatisering-virksomheder': 0.8,
+  '/blog/ai-widget-hjemmeside-komplet-guide': 0.8,
+  '/blog/shopify-ai-automatisering': 0.8,
+  '/blog/ai-til-hjemmeside': 0.8,
+  '/blog/ai-reception-virtuel-receptionist': 0.8,
+  '/blog/ai-indgaaende-opkald': 0.8,
+  '/blog/ai-kundeservice': 0.8,
+  '/blog/ai-medarbejder': 0.8,
+  '/blog/ai-i-danmark': 0.8,
+  '/blog/ai-telefonpasning-dansk-ai-receptionist': 0.8,
+  '/blog/widget-til-webshop': 0.8,
+  '/blog/ai-widget-til-shopify': 0.8,
+  '/blog/shopify-integration-ai-voice-indgaaende-opkald': 0.8,
   '/widget': 0.9,
   '/ind-og-udgaaende-opkald': 0.9,
   '/proeveperiode': 0.9,
@@ -118,6 +144,7 @@ const changefreqMap = {
   '/blog/category/ai-widget': 'weekly',
   '/blog/category/ai-inbound-outbound': 'weekly',
   '/blog/category/ai-total-solution': 'weekly',
+  '/blog/category/ai-webshop': 'weekly',
   '/blog/hvordan-ai-widgets-transformerer-kundeservice': 'monthly',
   '/blog/ai-widget-integration-bedste-praksis': 'monthly',
   '/blog/ai-telefonassistent-fremtidens-kundeservice': 'monthly',
@@ -167,12 +194,14 @@ function getExistingPages() {
 }
 
 function generateSitemap(pages) {
-  const alternates = (route) => LANGUAGES
+  // Blog posts only exist in Danish and English.
+  const langsFor = (route) => (/^\/blog\/(?!category\/)./.test(route) ? ['da', 'en'] : LANGUAGES);
+  const alternates = (route) => langsFor(route)
     .map(lang => `    <xhtml:link rel="alternate" hreflang="${lang}" href="${DOMAIN}${localizedPath(lang, route)}" />`)
     .concat(`    <xhtml:link rel="alternate" hreflang="x-default" href="${DOMAIN}${route}" />`)
     .join('\n');
 
-  const urls = pages.flatMap(page => LANGUAGES.map(lang => `  <url>
+  const urls = pages.flatMap(page => langsFor(page.route).map(lang => `  <url>
     <loc>${DOMAIN}${localizedPath(lang, page.route)}</loc>
     <lastmod>${page.lastmod}</lastmod>
     <changefreq>${page.changefreq}</changefreq>

@@ -1,0 +1,33 @@
+{
+  "title": "Prêt à mettre l'IA au travail ?",
+  "description": "Un widget IA sur votre site, une réceptionniste IA au téléphone et un service client automatisé pour votre boutique en ligne — dans une seule solution. Essai gratuit de 7 jours, sans carte bancaire.",
+  "primary": "Commencer l'essai gratuit",
+  "secondary": "Réserver une démo gratuite",
+  "exploreTitle": "Découvrez nos solutions IA",
+  "links": {
+    "widget": {
+      "title": "Widget IA pour site web",
+      "desc": "Chat et voix qui répondent et réservent 24h/24"
+    },
+    "inbound": {
+      "title": "IA pour appels entrants et sortants",
+      "desc": "Une réception IA qui répond au téléphone"
+    },
+    "webshop": {
+      "title": "IA pour e-commerce et Shopify",
+      "desc": "Suivi de commandes, stock et support automatisés"
+    },
+    "features": {
+      "title": "Toutes les fonctionnalités",
+      "desc": "Tableau de bord, calendrier, SMS et employé IA"
+    },
+    "industries": {
+      "title": "Secteurs",
+      "desc": "Cliniques, artisans, bureaux et e-commerce"
+    },
+    "integrations": {
+      "title": "Intégrations",
+      "desc": "Google Agenda, Outlook, Shopify et plus"
+    }
+  }
+}

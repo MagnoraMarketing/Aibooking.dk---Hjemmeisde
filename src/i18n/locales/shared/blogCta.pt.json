@@ -1,0 +1,33 @@
+{
+  "title": "Pronto para pôr a IA a trabalhar?",
+  "description": "Tenha um widget de IA no seu site, uma rececionista de IA ao telefone e apoio ao cliente automatizado para a sua loja online — numa só solução. Experimente grátis durante 7 dias, sem cartão de crédito.",
+  "primary": "Iniciar teste gratuito",
+  "secondary": "Agendar demonstração gratuita",
+  "exploreTitle": "Explore as nossas soluções de IA",
+  "links": {
+    "widget": {
+      "title": "Widget de IA para sites",
+      "desc": "Chat e voz que respondem e agendam 24/7"
+    },
+    "inbound": {
+      "title": "IA para chamadas recebidas e efetuadas",
+      "desc": "Uma receção de IA que atende o telefone"
+    },
+    "webshop": {
+      "title": "IA para lojas online e Shopify",
+      "desc": "Rastreio de encomendas, stock e apoio automáticos"
+    },
+    "features": {
+      "title": "Todas as funcionalidades",
+      "desc": "Painel, calendário, SMS e colaborador de IA"
+    },
+    "industries": {
+      "title": "Setores",
+      "desc": "Clínicas, artesãos, escritórios e e-commerce"
+    },
+    "integrations": {
+      "title": "Integrações",
+      "desc": "Google Calendar, Outlook, Shopify e mais"
+    }
+  }
+}

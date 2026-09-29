@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "AI Receptionist - Automatiser Din Telefon og Booking | Aibooking.dk",
-    "description": "Spar 85% af din telefontid med vores AI-receptionist. Automatisk booking, SMS-påmindelser og 24/7 kundeservice. Prøv gratis i 7 dage. Book din demo i dag.",
-    "keywords": "AI receptionist, AI booking, automatisk booking, AI widget til hjemmeside, AI kalender, telefon automatisering, SMS påmindelser, kundeservice automation, dansk AI løsning"
+    "title": "Dansk AI-receptionist, AI-telefonpasning & AI Widget | Aibooking.dk",
+    "description": "Dansk AI-receptionist med AI-telefonpasning, AI widget til hjemmeside og widget til webshop og Shopify. Svarer, booker og yder kundeservice døgnet rundt – prøv gratis i 7 dage.",
+    "keywords": "AI-telefonpasning, dansk AI-receptionist, widget til webshop, AI widget til Shopify, AI reception, AI widget, AI til hjemmeside, AI kundeservice, AI indgående opkald, AI medarbejder, AI Danmark, AI receptionist, AI booking, Shopify AI, automatisk booking, dansk AI løsning"
   },
   "nav": {
     "home": "Hjem",
@@ -72,9 +72,14 @@
     "subtitle": "Alle bruger forskellig tid på opkald, beskeder og opfølgning. Sæt jeres egne timer ind, og se hvad I kan forvente at spare med AIbooking.",
     "inputLabel": "Timer på telefon pr. uge",
     "hoursUnit": "timer",
+    "wageInputLabel": "Jeres timeløn",
+    "wageUnit": "kr./time",
     "resultLabel": "Det kan I forvente at spare med AIbooking",
+    "moneySavedWeek": "≈ {{amount}} kr sparet om ugen",
+    "moneySavedMonth": "Svarer til ca. {{amount}} kr om måneden",
     "hoursSavedWeek": "≈ {{hours}} timer sparet om ugen",
     "hoursSavedMonth": "Svarer til ca. {{hours}} timer om måneden",
+    "billingNote": "I betaler kun for jeres faktiske forbrug – ingen binding.",
     "note": "Baseret på at AI-receptionisten typisk overtager op til 85% af opkald, beskeder og bookinger.",
     "cta": "Prøv gratis i 7 dage"
   },
@@ -290,6 +295,7 @@
     "all_articles": "Alle Artikler",
     "blog_ai_widget": "AI Widget",
     "blog_inbound_outbound": "AI Ind- og Udgående Opkald",
+    "blog_webshop": "AI til Webshop",
     "blog_total_solution": "AI Totalløsning",
     "company": "Virksomhed",
     "about": "Om os",

@@ -1,12 +1,15 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
+import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
 import { aboutFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
+import type { SupportedLanguage } from '../i18n/config';
+import { localizedUrl } from '../utils/localePaths';
 import { createBreadcrumbSchema } from '../utils/structuredData';
-import { Users, Target, Lightbulb, Heart, TrendingUp, Shield, Zap, Globe } from 'lucide-react';
+import { Target, Lightbulb, Heart, TrendingUp, Shield, Zap, Globe } from 'lucide-react';
 import type { NavigatePage } from '../types/navigation';
 
 interface AboutPageProps {
@@ -17,11 +20,12 @@ interface TitleDescription { title: string; description: string }
 interface WidgetFeature { title: string; description: string }
 
 function AboutPage({ onNavigate }: AboutPageProps) {
-  const { t } = useTranslation('aboutPage');
+  const { t, i18n } = useTranslation('aboutPage');
+  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
 
   const breadcrumbData = createBreadcrumbSchema([
-    { name: t('breadcrumb.home'), url: 'https://www.aibooking.dk/' },
-    { name: t('breadcrumb.about'), url: 'https://www.aibooking.dk/about' },
+    { name: t('breadcrumb.home'), url: localizedUrl(lang, '/') },
+    { name: t('breadcrumb.about'), url: localizedUrl(lang, '/om-aibooking') },
   ]);
 
   const valuesText = t('values.items', { returnObjects: true }) as TitleDescription[];
@@ -47,26 +51,16 @@ function AboutPage({ onNavigate }: AboutPageProps) {
         title={t('seo.title')}
         description={t('seo.description')}
         keywords={t('seo.keywords')}
-        canonical="https://www.aibooking.dk/about"
+        canonical={localizedUrl(lang, '/om-aibooking')}
+        path="/om-aibooking"
         structuredData={breadcrumbData}
       />
-      <Navigation onNavigate={onNavigate} />
+      <Navigation onNavigate={onNavigate} transparent />
 
-      <div className="pt-32 pb-20 px-4">
+      <PageHero badge={t('hero.badge')} title={t('hero.title_line1')} highlight={t('hero.title_line2')} subtitle={t('hero.subtitle')} />
+
+      <div className="py-20 md:py-28 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-20">
-            <div className="inline-flex items-center space-x-2 bg-brand-100 text-brand-700 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              <Users className="w-4 h-4" />
-              <span>{t('hero.badge')}</span>
-            </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-ink-900 mb-6">
-              {t('hero.title_line1')}<br />{t('hero.title_line2')}
-            </h1>
-            <p className="text-xl text-ink-600 max-w-3xl mx-auto leading-relaxed">
-              {t('hero.subtitle')}
-            </p>
-          </div>
-
           <div className="grid lg:grid-cols-2 gap-12 mb-20 items-center">
             <div>
               <div className="inline-flex items-center space-x-2 bg-brand-100 text-brand-700 px-4 py-2 rounded-full text-sm font-semibold mb-6">
@@ -205,7 +199,7 @@ function AboutPage({ onNavigate }: AboutPageProps) {
             </div>
             <div className="text-center">
               <a
-                href="https://www.aibooking.dk/widget"
+                href={localizedUrl(lang, '/widget')}
                 className="inline-block bg-brand-600 text-white px-8 py-4 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
               >
                 {t('widget.cta')}

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-shopifyaiaut" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(352 0.5 0.5)">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <radialGradient id="glow1-shopifyaiaut" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-shopifyaiaut" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-shopifyaiaut" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.10"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-shopifyaiaut)"/>
+  <rect width="1200" height="675" fill="url(#dots-shopifyaiaut)"/>
+  <circle cx="237.9080661921762" cy="274.27933383733034" r="318.11568956822157" fill="url(#glow1-shopifyaiaut)"/>
+  <circle cx="963.914303202182" cy="508.9145335019566" r="302.88268983829767" fill="url(#glow2-shopifyaiaut)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#f59e0b" stroke-width="140" opacity="0.13"
+    transform="rotate(114 600 337.5)"/>
+
+  <circle cx="1053.4392467122525" cy="133.77887465804815" r="30.099273812491447" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+  <circle cx="157.58921183645725" cy="567.2441858863458" r="26.152361618820578" fill="#2563eb" opacity="0.18"/>
+
+  <g transform="translate(595.411563411355 306.7869309601374) rotate(-6)">
+    <circle r="73.03675593843218" fill="white" opacity="0.06"/>
+    <circle r="73.03675593843218" fill="none" stroke="white" stroke-opacity="0.24" stroke-width="1.5"/>
+    <rect x="-53.11764068249613" y="-53.11764068249613" width="106.23528136499226" height="106.23528136499226" rx="26.558820341248065"
+      fill="url(#glow1-shopifyaiaut)" opacity="0.9"/>
+    <rect x="-53.11764068249613" y="-53.11764068249613" width="106.23528136499226" height="106.23528136499226" rx="26.558820341248065"
+      fill="#1d4ed8" opacity="0.55"/>
+    <g transform="scale(6.639705085312016) translate(-12 -12)">
+      <circle cx="9" cy="20" r="1.4" fill="white"/><circle cx="17" cy="20" r="1.4" fill="white"/><path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H6" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

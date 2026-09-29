@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
+import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
 import { craftsmanFAQs } from '../content/faq';
@@ -8,7 +9,7 @@ import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { TrendingUp, Clock, Phone, Users, CheckCircle, Wrench } from 'lucide-react';
 import type { SupportedLanguage } from '../i18n/config';
-import { buildLocalizedPath } from '../utils/localePaths';
+import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import IndustryScenario from '../components/industries/IndustryScenario';
 import IndustryIntegrations from '../components/industries/IndustryIntegrations';
 import IndustryCalculator from '../components/industries/IndustryCalculator';
@@ -29,9 +30,9 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
   const contactHref = buildLocalizedPath(lang, '/kontakt');
 
   const breadcrumbData = createBreadcrumbSchema([
-    { name: t('breadcrumb.home'), url: 'https://www.aibooking.dk/' },
-    { name: t('breadcrumb.industries'), url: 'https://www.aibooking.dk/industries' },
-    { name: t('breadcrumb.craftsman'), url: 'https://www.aibooking.dk/craftsman' },
+    { name: t('breadcrumb.home'), url: localizedUrl(lang, '/') },
+    { name: t('breadcrumb.industries'), url: localizedUrl(lang, '/brancher') },
+    { name: t('breadcrumb.craftsman'), url: localizedUrl(lang, '/haandvaerker') },
   ]);
 
   const benefits = t('benefits', { returnObjects: true }) as TitleDescription[];
@@ -45,27 +46,13 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
         title={t('seo.title')}
         description={t('seo.description')}
         keywords={t('seo.keywords')}
-        canonical="https://www.aibooking.dk/craftsman"
+        canonical={localizedUrl(lang, '/haandvaerker')}
+        path="/haandvaerker"
         structuredData={breadcrumbData}
       />
-      <Navigation onNavigate={onNavigate} />
+      <Navigation onNavigate={onNavigate} transparent />
 
-      <section className="pt-32 pb-16 bg-gradient-to-br from-orange-50 to-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full mb-6">
-              <span className="w-2 h-2 bg-orange-600 rounded-full animate-pulse"></span>
-              <span className="text-sm font-semibold">{t('hero.badge')}</span>
-            </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-ink-900 mb-6">
-              {t('hero.title')}
-            </h1>
-            <p className="text-xl text-ink-600 max-w-4xl mx-auto leading-relaxed">
-              {t('hero.subtitle')}
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero badge={t('hero.badge')} title={t('hero.title')} subtitle={t('hero.subtitle')} />
 
       <DashboardShowcase variant="craftsman" className="py-20 md:py-28 bg-white" />
 

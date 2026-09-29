@@ -23,6 +23,7 @@ import TrialOfferWidget from './components/TrialOfferWidget';
 import { SUPPORTED_LANGUAGES, SupportedLanguage } from './i18n/config';
 import { splitLocalizedPath, buildLocalizedPath } from './utils/localePaths';
 import { currentPathname } from './utils/currentPath';
+import { getCategoryBySlug, getPostBySlug } from './content/blog';
 
 type PageType = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'blog-category' | 'blog-post' | 'trial';
 
@@ -46,15 +47,19 @@ const pageMap: Record<PageType, string> = {
 };
 
 // Resolve a Danish-worded path to the page (and blog slug) it renders.
-function resolveRoute(pathname: string): { page: PageType; param: string } {
+// `unknown` marks paths that fall back to the home page and missing blog
+// posts/categories.
+function resolveRoute(pathname: string): { page: PageType; param: string; unknown: boolean } {
   const path = pathname.replace(/\/$/, '') || '/';
   if (path.startsWith('/blog/category/')) {
-    return { page: 'blog-category', param: path.replace('/blog/category/', '') };
+    const param = path.replace('/blog/category/', '');
+    return { page: 'blog-category', param, unknown: !getCategoryBySlug(param) };
   }
   if (path.startsWith('/blog/') && path !== '/blog') {
-    return { page: 'blog-post', param: path.replace('/blog/', '') };
+    const param = path.replace('/blog/', '');
+    return { page: 'blog-post', param, unknown: !getPostBySlug(param) };
   }
-  return { page: pathMap[path] || 'home', param: '' };
+  return { page: pathMap[path] || 'home', param: '', unknown: !pathMap[path] };
 }
 
 function App() {
@@ -64,6 +69,7 @@ function App() {
   const [route, setRoute] = useState(() => resolveRoute(splitLocalizedPath(currentPathname()).path));
   const currentPage = route.page;
   const blogParam = route.param;
+  const unknownPath = route.unknown;
 
   const syncFromLocation = () => {
     const { lang, path } = splitLocalizedPath(window.location.pathname);
@@ -94,13 +100,26 @@ function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // Every URL is served the SPA with a 200, so unknown paths (which fall back
+  // to the home page) and missing blog posts/categories would be indexed as
+  // duplicate or soft-404 pages. Tell crawlers not to index them.
+  useEffect(() => {
+    let robots = document.querySelector('meta[name="robots"]');
+    if (!robots) {
+      robots = document.createElement('meta');
+      robots.setAttribute('name', 'robots');
+      document.head.appendChild(robots);
+    }
+    robots.setAttribute('content', unknownPath ? 'noindex, follow' : 'index, follow');
+  }, [unknownPath]);
+
   const handleNavigate = (page: PageType) => {
     const danishPath = pageMap[page] || '/';
     const currentLang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
     const lang = SUPPORTED_LANGUAGES.includes(currentLang) ? currentLang : 'da';
     const path = buildLocalizedPath(lang, danishPath);
     window.history.pushState({}, '', path);
-    setRoute({ page, param: '' });
+    setRoute({ page, param: '', unknown: false });
     window.scrollTo(0, 0);
   };
 

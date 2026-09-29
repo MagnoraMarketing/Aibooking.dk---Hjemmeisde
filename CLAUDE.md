@@ -26,11 +26,15 @@ URLs are Danish and SEO-optimized (e.g. `/funktioner`, `/brancher`, `/kontakt`) 
 
 ## Blog content
 
-Blog posts and categories are static data in `src/content/blog.ts` (no database). `BlogPage`, `BlogPostPage`, and `BlogCategoryPage` read from it via the exported helpers (`getPublishedPosts`, `getPostBySlug`, `getPostsByCategory`, `getRelatedPosts`). To add a post, add an entry to the `blogPosts` array and update `scripts/generate-sitemap.js`'s `BlogPostPage.tsx` route list.
+Blog posts and categories are static data in `src/content/blog.ts` (no database). `BlogPage`, `BlogPostPage`, and `BlogCategoryPage` read from it via the exported helpers (`getPublishedPosts`, `getPostBySlug`, `getPostsByCategory`, `getRelatedPosts`). To add a post, add an entry to the `blogPosts` array — `scripts/generate-sitemap.js` reads published posts and categories from that file, so the sitemap picks it up on the next build.
 
 ## Contact form
 
 The industry contact form (`src/components/industries/ContactForm.tsx`) POSTs to `api/contact.ts`, a Vercel serverless function that sends an email via Resend. Only `RESEND_API_KEY` must be set as a Vercel environment variable — `CONTACT_EMAIL_TO` and `CONTACT_EMAIL_FROM` are optional and fall back to sensible defaults (see `.env.example`).
+
+## Search engines
+
+`public/robots.txt` uses a single `User-agent: *` group on purpose (a bot-specific group would override the shared `Disallow` rules). Google Search Console / Bing ownership is verified with a meta tag injected by `vite.config.ts` from the `GOOGLE_SITE_VERIFICATION` / `BING_SITE_VERIFICATION` build env vars. Only add `aggregateRating`/review structured data if the reviews are visible on the page.
 
 ## No backend database
 

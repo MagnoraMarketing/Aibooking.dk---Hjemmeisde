@@ -1,40 +1,52 @@
 export const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
+  '@id': 'https://www.aibooking.dk/#organization',
   name: 'Aibooking.dk',
   url: 'https://www.aibooking.dk',
   logo: 'https://www.aibooking.dk/aibooking_logo.jpg',
   description: 'AI-drevet reception og booking system til danske virksomheder',
-  sameAs: [],
+  email: 'mail@aibooking.dk',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Aarhus',
+    addressRegion: 'Midtjylland',
+    addressCountry: 'DK',
+  },
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: 'mail@aibooking.dk',
+    contactType: 'customer service',
+    availableLanguage: ['da', 'en', 'es', 'fr', 'pt'],
+  },
 };
 
 export const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
+  '@id': 'https://www.aibooking.dk/#website',
   name: 'Aibooking.dk',
   url: 'https://www.aibooking.dk',
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: 'https://www.aibooking.dk/search?q={search_term_string}',
-    'query-input': 'required name=search_term_string',
-  },
+  inLanguage: ['da-DK', 'en', 'es', 'fr', 'pt'],
+  publisher: { '@id': 'https://www.aibooking.dk/#organization' },
 };
 
+// No aggregateRating here: Google only allows ratings in structured data
+// when the same reviews are visible on the page, otherwise it can trigger a
+// manual action for spammy markup.
 export const softwareApplicationSchema = {
   '@context': 'https://schema.org',
   '@type': 'SoftwareApplication',
   name: 'Aibooking.dk - AI Reception',
+  url: 'https://www.aibooking.dk',
   applicationCategory: 'BusinessApplication',
   operatingSystem: 'Web',
+  publisher: { '@id': 'https://www.aibooking.dk/#organization' },
   offers: {
     '@type': 'Offer',
     price: '0',
     priceCurrency: 'DKK',
-  },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.8',
-    ratingCount: '150',
+    description: 'Gratis 7-dages prøveperiode',
   },
 };
 

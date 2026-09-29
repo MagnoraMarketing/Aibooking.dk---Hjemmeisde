@@ -9,7 +9,10 @@ Dette dokument beskriver hvordan du får AIBooking.dk blogsider indekseret organ
 
 1. Gå til [Google Search Console](https://search.google.com/search-console)
 2. Tilføj din website: `https://www.aibooking.dk`
-3. Verificer ejerskab (via DNS eller HTML fil)
+3. Verificer ejerskab — vælg én af:
+   - **Domæne-ejendom (anbefales, dækker både www og uden www):** tilføj TXT-posten `google-site-verification=...` i DNS hos Simply.com (domænets navneservere).
+   - **HTML-tag (URL-præfiks `https://www.aibooking.dk/`):** kopiér kun token-værdien fra `content="..."`, sæt den som miljøvariablen `GOOGLE_SITE_VERIFICATION` i Vercel-projektet (Production), redeploy, og klik "Verificer". Tagget indsættes automatisk af `vite.config.ts`.
+   - **Google Analytics:** sitet har allerede gtag `G-L9X5F4JH3R`; hvis du er administrator på GA-ejendommen, kan du verificere direkte med den.
 4. Submit sitemap:
    - Gå til "Sitemaps" i menuen
    - Tilføj: `https://www.aibooking.dk/sitemap.xml`
@@ -28,7 +31,7 @@ Dette dokument beskriver hvordan du får AIBooking.dk blogsider indekseret organ
 
 1. Gå til [Bing Webmaster Tools](https://www.bing.com/webmasters)
 2. Tilføj site: `https://www.aibooking.dk`
-3. Verificer ejerskab
+3. Verificer ejerskab (nemmest: "Importer fra Google Search Console", eller sæt `BING_SITE_VERIFICATION` i Vercel og redeploy)
 4. Submit sitemap: `https://www.aibooking.dk/sitemap.xml`
 5. Brug "URL Submission" værktøjet til vigtige blog-sider
 

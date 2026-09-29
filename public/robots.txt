@@ -1,68 +1,16 @@
+# robots.txt for https://www.aibooking.dk
+#
+# One shared group on purpose: a crawler obeys only the most specific
+# "User-agent" group that matches it, so a separate "User-agent: Googlebot /
+# Allow: /" group would make Googlebot ignore the Disallow rules below.
+# Search engines (Googlebot, Bingbot, DuckDuckBot, Applebot, ...) and AI
+# assistants (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-User,
+# PerplexityBot, Google-Extended, Applebot-Extended, CCBot, ...) are all
+# welcome to crawl the public site. See /llms.txt for a curated summary of
+# this site for AI systems.
+
 User-agent: *
 Allow: /
 Disallow: /api/
-Disallow: /admin/
 
 Sitemap: https://www.aibooking.dk/sitemap.xml
-
-# Specific allow for blog content
-Allow: /blog/
-Allow: /blog/category/
-
-# Crawl-delay for respectful crawling
-Crawl-delay: 1
-
-# Allow all major search engines
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Slurp
-Allow: /
-
-User-agent: DuckDuckBot
-Allow: /
-
-# Allow AI assistants and LLM crawlers to index content for AI search
-# (ChatGPT, Perplexity, Claude, Google AI Overviews, Apple Intelligence, etc.)
-# See /llms.txt for a curated summary of this site for AI systems.
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: Claude-User
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Perplexity-User
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Applebot-Extended
-Allow: /
-
-User-agent: Amazonbot
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
-User-agent: Meta-ExternalAgent
-Allow: /

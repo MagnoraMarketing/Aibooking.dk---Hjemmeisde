@@ -22,6 +22,7 @@ import { createBreadcrumbSchema, createFAQSchema } from '../utils/structuredData
 import ClinicDashboardMock from '../components/ClinicDashboardMock';
 import ShopifyIntegrationMock from '../components/ShopifyIntegrationMock';
 import type { NavigatePage } from '../types/navigation';
+import PageLink from '../components/PageLink';
 
 // Danish-worded canonical path; SEO turns it into per-language hreflang URLs.
 const PAGE_PATH = '/widget';
@@ -971,13 +972,13 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
                   {t('ctaFinal.subtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <button
+                  <PageLink page="contact"
                     onClick={() => onNavigate('contact')}
                     className="inline-flex items-center justify-center gap-2 bg-white text-brand-600 px-8 py-4 rounded-xl hover:bg-brand-50 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
                   >
                     {t('ctaFinal.cta_intro')}
                     <ArrowRight className="w-5 h-5" />
-                  </button>
+                  </PageLink>
                   <a
                     href={SIGNUP_URL}
                     target="_blank"

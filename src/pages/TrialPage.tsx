@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import type { NavigatePage } from '../types/navigation';
 import { SIGNUP_URL } from '../utils/backend';
+import PageLink from '../components/PageLink';
 
 interface TrialPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -137,13 +138,13 @@ function TrialPage({ onNavigate }: TrialPageProps) {
                 </li>
               ))}
             </ul>
-            <button
+            <PageLink page="home"
               onClick={() => onNavigate('home')}
               className="inline-flex items-center gap-2 text-brand-600 font-semibold hover:text-brand-700 transition-colors"
             >
               {t('upgrade.pricing_link')}
               <ArrowRight className="w-4 h-4" />
-            </button>
+            </PageLink>
           </div>
         </div>
       </section>

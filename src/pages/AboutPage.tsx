@@ -11,6 +11,7 @@ import { localizedUrl } from '../utils/localePaths';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { Target, Lightbulb, Heart, TrendingUp, Shield, Zap, Globe } from 'lucide-react';
 import type { NavigatePage } from '../types/navigation';
+import PageLink from '../components/PageLink';
 
 interface AboutPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -213,18 +214,18 @@ function AboutPage({ onNavigate }: AboutPageProps) {
               {t('ctaSection.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button
+              <PageLink page="demo"
                 onClick={() => onNavigate('demo')}
                 className="bg-white text-brand-600 px-8 py-4 rounded-xl font-bold hover:bg-brand-50 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 inline-block"
               >
                 {t('ctaSection.button_demo')}
-              </button>
-              <button
+              </PageLink>
+              <PageLink page="contact"
                 onClick={() => onNavigate('contact')}
                 className="bg-brand-500 text-white px-8 py-4 rounded-xl font-bold hover:bg-brand-400 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-white/20"
               >
                 {t('ctaSection.button_contact')}
-              </button>
+              </PageLink>
             </div>
           </div>
         </div>

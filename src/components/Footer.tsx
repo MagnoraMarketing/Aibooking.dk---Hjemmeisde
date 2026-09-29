@@ -3,13 +3,31 @@ import { useTranslation } from 'react-i18next';
 
 import type { NavigatePage } from '../types/navigation';
 import { LOGIN_URL, SIGNUP_URL } from '../utils/backend';
+import { useLocalizedHref } from '../utils/pagePaths';
+import PageLink from './PageLink';
+import { SUPPORTED_LANGUAGES, SupportedLanguage } from '../i18n/config';
+import { splitLocalizedPath, buildLocalizedPath } from '../utils/localePaths';
+import { currentPathname } from '../utils/currentPath';
+
+const LANGUAGE_NAMES: Record<SupportedLanguage, string> = {
+  da: 'Dansk', en: 'English', pt: 'Português', fr: 'Français', es: 'Español',
+};
+
+// This page in another language. Blog posts only exist in Danish and English,
+// so the other languages link to their blog overview instead.
+function languageHref(lang: SupportedLanguage) {
+  const { path } = splitLocalizedPath(currentPathname());
+  const isPost = /^\/blog\/(?!category\/)./.test(path);
+  return buildLocalizedPath(lang, isPost && lang !== 'da' && lang !== 'en' ? '/blog' : path);
+}
 
 interface FooterProps {
   onNavigate?: (page: NavigatePage) => void;
 }
 
 function Footer({ onNavigate = () => {} }: FooterProps) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const href = useLocalizedHref();
 
   return (
     <footer className="bg-ink-900 text-ink-300 py-16 px-4 sm:px-6 lg:px-8 border-t border-ink-800">
@@ -31,60 +49,60 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
             <h3 className="text-white font-semibold mb-4 text-[15px]">{t('footer.solutions')}</h3>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <button
+                <PageLink page="home"
                   onClick={() => onNavigate('home')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.ai_booking')}
-                </button>
+                </PageLink>
               </li>
               <li>
-                <button
+                <PageLink page="trial"
                   onClick={() => onNavigate('trial')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.free_trial')}
-                </button>
+                </PageLink>
               </li>
               <li>
-                <button
+                <PageLink page="widget"
                   onClick={() => onNavigate('widget')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.ai_widget')}
-                </button>
+                </PageLink>
               </li>
               <li>
-                <button
+                <PageLink page="inbound-outbound"
                   onClick={() => onNavigate('inbound-outbound')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.phone_assistant')}
-                </button>
+                </PageLink>
               </li>
               <li>
-                <button
+                <PageLink page="integrations"
                   onClick={() => onNavigate('integrations')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('nav.integrations')}
-                </button>
+                </PageLink>
               </li>
               <li>
-                <button
+                <PageLink page="contact"
                   onClick={() => onNavigate('contact')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.book_demo')}
-                </button>
+                </PageLink>
               </li>
               <li>
-                <button
+                <PageLink page="features"
                   onClick={() => onNavigate('features')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.features')}
-                </button>
+                </PageLink>
               </li>
             </ul>
           </div>
@@ -93,36 +111,36 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
             <h3 className="text-white font-semibold mb-4 text-[15px]">{t('footer.industries_title')}</h3>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <button
+                <PageLink page="healthcare"
                   onClick={() => onNavigate('healthcare')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.healthcare')}
-                </button>
+                </PageLink>
               </li>
               <li>
-                <button
+                <PageLink page="craftsman"
                   onClick={() => onNavigate('craftsman')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.craftsman')}
-                </button>
+                </PageLink>
               </li>
               <li>
-                <button
+                <PageLink page="office"
                   onClick={() => onNavigate('office')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.office')}
-                </button>
+                </PageLink>
               </li>
               <li>
-                <button
+                <PageLink page="ecommerce"
                   onClick={() => onNavigate('ecommerce')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.ecommerce')}
-                </button>
+                </PageLink>
               </li>
             </ul>
           </div>
@@ -131,16 +149,16 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
             <h3 className="text-white font-semibold mb-4 text-[15px]">{t('footer.blog_title')}</h3>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <button
+                <PageLink page="blog"
                   onClick={() => onNavigate('blog')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.all_articles')}
-                </button>
+                </PageLink>
               </li>
               <li>
                 <a
-                  href="/blog/category/ai-widget"
+                  href={href('/blog/category/ai-widget')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.blog_ai_widget')}
@@ -148,7 +166,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
               </li>
               <li>
                 <a
-                  href="/blog/category/ai-inbound-outbound"
+                  href={href('/blog/category/ai-inbound-outbound')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.blog_inbound_outbound')}
@@ -156,7 +174,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
               </li>
               <li>
                 <a
-                  href="/blog/category/ai-webshop"
+                  href={href('/blog/category/ai-webshop')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.blog_webshop')}
@@ -164,7 +182,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
               </li>
               <li>
                 <a
-                  href="/blog/category/ai-total-solution"
+                  href={href('/blog/category/ai-total-solution')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.blog_total_solution')}
@@ -177,36 +195,36 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
             <h3 className="text-white font-semibold mb-4 text-[15px]">{t('footer.company')}</h3>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <button
+                <PageLink page="about"
                   onClick={() => onNavigate('about')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.about')}
-                </button>
+                </PageLink>
               </li>
               <li>
-                <button
+                <PageLink page="contact"
                   onClick={() => onNavigate('contact')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.contact')}
-                </button>
+                </PageLink>
               </li>
               <li>
-                <button
+                <PageLink page="privacy"
                   onClick={() => onNavigate('privacy')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.privacy')}
-                </button>
+                </PageLink>
               </li>
               <li>
-                <button
+                <PageLink page="terms"
                   onClick={() => onNavigate('terms')}
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.terms')}
-                </button>
+                </PageLink>
               </li>
             </ul>
           </div>
@@ -259,6 +277,27 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
         </div>
 
         <div className="border-t border-ink-800 pt-8 text-center text-sm text-ink-400">
+          <nav aria-label={t('nav.language')} className="mb-4 flex flex-wrap justify-center gap-x-4 gap-y-2">
+            {SUPPORTED_LANGUAGES.map((lang) => (
+              <a
+                key={lang}
+                href={languageHref(lang)}
+                hrefLang={lang}
+                lang={lang}
+                onClick={(e) => {
+                  if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+                  e.preventDefault();
+                  window.history.pushState({}, '', languageHref(lang));
+                  // App's popstate listener switches language and page.
+                  window.dispatchEvent(new PopStateEvent('popstate'));
+                  window.scrollTo(0, 0);
+                }}
+                className={`hover:text-brand-400 transition-colors ${i18n.language === lang ? 'text-white font-semibold' : ''}`}
+              >
+                {LANGUAGE_NAMES[lang]}
+              </a>
+            ))}
+          </nav>
           <p>&copy; 2026 Aibooking.dk. {t('footer.rights')}. {t('footer.made_by')} <a href="https://www.magnoramarketing.dk" target="_blank" rel="noopener noreferrer" className="hover:text-brand-400 transition-colors">MagnoraMarketing.dk</a></p>
         </div>
       </div>

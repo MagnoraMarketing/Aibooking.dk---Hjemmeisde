@@ -5,6 +5,8 @@ import { splitLocalizedPath, buildLocalizedPath } from '../utils/localePaths';
 import { SupportedLanguage } from '../i18n/config';
 import type { NavigatePage } from '../types/navigation';
 import { LOGIN_URL, SIGNUP_URL } from '../utils/backend';
+import PageLink from './PageLink';
+import { currentPathname } from '../utils/currentPath';
 
 interface NavigationProps {
   onNavigate: (page: NavigatePage) => void;
@@ -92,7 +94,7 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
   // Read once per mount rather than tracked in state — a page switch
   // remounts Navigation fresh (App swaps which top-level page renders), so
   // this is already correct without a popstate listener.
-  const currentPath = splitLocalizedPath(window.location.pathname).path.replace(/\/$/, '') || '/';
+  const currentPath = splitLocalizedPath(currentPathname()).path.replace(/\/$/, '') || '/';
   const isHomeActive = currentPath === '/';
   const isIndustriesActive = currentPath === '/brancher' || ['/klinik', '/haandvaerker', '/kontor', '/webshop'].includes(currentPath);
   const isBlogActive = currentPath === '/blog' || currentPath.startsWith('/blog/');
@@ -105,39 +107,39 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${solid ? 'bg-white/90 backdrop-blur-xl border-b border-ink-200/50 shadow-sm' : 'bg-transparent'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
-            <div className="flex items-center space-x-3 flex-shrink-0 mr-3 2xl:mr-4">
+            <PageLink page="home" onClick={() => onNavigate('home')} className="flex items-center space-x-3 flex-shrink-0 mr-3 2xl:mr-4" aria-label="Aibooking.dk">
               <div className="w-11 h-11 bg-gradient-to-br from-brand-600 via-brand-600 to-brand-700 rounded-2xl flex items-center justify-center shadow-lg shadow-brand-500/20">
                 <Phone className="w-6 h-6 text-white" />
               </div>
               <span className={`text-2xl font-bold tracking-tight transition-colors whitespace-nowrap ${solid ? 'text-ink-900' : 'text-white'}`}>Aibooking.dk</span>
-            </div>
+            </PageLink>
 
             {/* Desktop menu */}
             <div className="hidden xl:flex items-center gap-x-4 2xl:gap-x-5">
-              <button
+              <PageLink page="home"
                 onClick={() => onNavigate('home')}
                 className={navLinkClass}
               >
                 {t('nav.home')}
-              </button>
-              <button
+              </PageLink>
+              <PageLink page="features"
                 onClick={() => onNavigate('features')}
                 className={navLinkClass}
               >
                 {t('nav.benefits')}
-              </button>
-              <button
+              </PageLink>
+              <PageLink page="widget"
                 onClick={() => onNavigate('widget')}
                 className={navLinkClass}
               >
                 {t('nav.widget')}
-              </button>
-              <button
+              </PageLink>
+              <PageLink page="inbound-outbound"
                 onClick={() => onNavigate('inbound-outbound')}
                 className={navLinkClass}
               >
                 {t('nav.inbound_outbound')}
-              </button>
+              </PageLink>
               <a href="#priser" className={navLinkClass}>
                 {t('nav.pricing')}
               </a>
@@ -156,7 +158,7 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
                     {industries.map((industry, index) => {
                       const Icon = industry.icon;
                       return (
-                        <button
+                        <PageLink page={industry.page}
                           key={index}
                           onClick={() => { onNavigate(industry.page); setIsIndustriesOpen(false); }}
                           className="w-full flex items-start space-x-4 px-5 py-3.5 hover:bg-ink-50/80 transition-all text-left"
@@ -168,34 +170,34 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
                             <div className="text-ink-900 font-semibold mb-0.5 text-[15px]">{industry.name}</div>
                             <div className="text-sm text-ink-500">{industry.description}</div>
                           </div>
-                        </button>
+                        </PageLink>
                       );
                     })}
                     <div className="border-t border-ink-100 mt-2 pt-2 px-5">
-                      <button
+                      <PageLink page="industries"
                         onClick={() => { onNavigate('industries'); setIsIndustriesOpen(false); }}
                         className="text-sm text-brand-600 hover:text-brand-700 font-semibold transition-colors"
                       >
                         {t('nav.see_all_industries')}
-                      </button>
+                      </PageLink>
                     </div>
                   </div>
                 )}
               </div>
-              <button
+              <PageLink page="integrations"
                 onClick={() => onNavigate('integrations')}
                 className={navLinkClassFlex}
               >
                 <Plug className="w-4 h-4" />
                 <span>{t('nav.integrations')}</span>
-              </button>
-              <button
+              </PageLink>
+              <PageLink page="blog"
                 onClick={() => onNavigate('blog')}
                 className={navLinkClassFlex}
               >
                 <Newspaper className="w-4 h-4" />
                 <span>{t('nav.blog')}</span>
-              </button>
+              </PageLink>
               <div className="relative" ref={contactDropdownRef}>
                 <button
                   onClick={() => setIsContactOpen(!isContactOpen)}
@@ -208,7 +210,7 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
 
                 {isContactOpen && (
                   <div className="absolute top-full right-0 mt-3 w-56 bg-white rounded-2xl shadow-xl border border-ink-200/60 py-2 z-50">
-                    <button
+                    <PageLink page="contact"
                       onClick={() => { onNavigate('contact'); setIsContactOpen(false); }}
                       className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
                     >
@@ -216,8 +218,8 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
                       <span className="text-ink-900 font-medium text-[15px]">
                         {t('nav.contact_us')}
                       </span>
-                    </button>
-                    <button
+                    </PageLink>
+                    <PageLink page="about"
                       onClick={() => { onNavigate('about'); setIsContactOpen(false); }}
                       className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
                     >
@@ -225,7 +227,7 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
                       <span className="text-ink-900 font-medium text-[15px]">
                         {t('nav.about_us')}
                       </span>
-                    </button>
+                    </PageLink>
                   </div>
                 )}
               </div>
@@ -338,30 +340,30 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
 
         {/* Drawer nav items */}
         <div className="flex-1 overflow-y-auto py-4 px-3">
-          <button
+          <PageLink page="home"
             onClick={() => handleMobileNavigate('home')}
             className="w-full flex items-center px-4 py-3.5 rounded-xl text-ink-700 hover:bg-ink-50 hover:text-brand-600 transition-all font-medium text-[15px] text-left"
           >
             {t('nav.home')}
-          </button>
-          <button
+          </PageLink>
+          <PageLink page="features"
             onClick={() => handleMobileNavigate('features')}
             className="w-full flex items-center px-4 py-3.5 rounded-xl text-ink-700 hover:bg-ink-50 hover:text-brand-600 transition-all font-medium text-[15px] text-left"
           >
             {t('nav.benefits')}
-          </button>
-          <button
+          </PageLink>
+          <PageLink page="widget"
             onClick={() => handleMobileNavigate('widget')}
             className="w-full flex items-center px-4 py-3.5 rounded-xl text-ink-700 hover:bg-ink-50 hover:text-brand-600 transition-all font-medium text-[15px] text-left"
           >
             {t('nav.widget')}
-          </button>
-          <button
+          </PageLink>
+          <PageLink page="inbound-outbound"
             onClick={() => handleMobileNavigate('inbound-outbound')}
             className="w-full flex items-center px-4 py-3.5 rounded-xl text-ink-700 hover:bg-ink-50 hover:text-brand-600 transition-all font-medium text-[15px] text-left"
           >
             {t('nav.inbound_outbound')}
-          </button>
+          </PageLink>
           <a
             href="#priser"
             onClick={() => setIsMobileOpen(false)}
@@ -386,7 +388,7 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
               {industries.map((industry, index) => {
                 const Icon = industry.icon;
                 return (
-                  <button
+                  <PageLink page={industry.page}
                     key={index}
                     onClick={() => handleMobileNavigate(industry.page)}
                     className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-ink-600 hover:bg-brand-50 hover:text-brand-600 transition-all text-left"
@@ -398,32 +400,32 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
                       <div className="font-medium text-sm">{industry.name}</div>
                       <div className="text-xs text-ink-400">{industry.description}</div>
                     </div>
-                  </button>
+                  </PageLink>
                 );
               })}
-              <button
+              <PageLink page="industries"
                 onClick={() => handleMobileNavigate('industries')}
-                className="w-full px-3 py-2 text-sm text-brand-600 font-semibold hover:text-brand-700 transition-colors text-left"
+                className="w-full px-3 py-2 text-sm text-brand-600 font-semibold hover:text-brand-700 transition-colors text-left block"
               >
                 {t('nav.see_all_industries')}
-              </button>
+              </PageLink>
             </div>
           )}
 
-          <button
+          <PageLink page="integrations"
             onClick={() => handleMobileNavigate('integrations')}
             className="w-full flex items-center gap-2 px-4 py-3.5 rounded-xl text-ink-700 hover:bg-ink-50 hover:text-brand-600 transition-all font-medium text-[15px] text-left"
           >
             <Plug className="w-4 h-4" />
             {t('nav.integrations')}
-          </button>
-          <button
+          </PageLink>
+          <PageLink page="blog"
             onClick={() => handleMobileNavigate('blog')}
             className="w-full flex items-center gap-2 px-4 py-3.5 rounded-xl text-ink-700 hover:bg-ink-50 hover:text-brand-600 transition-all font-medium text-[15px] text-left"
           >
             <Newspaper className="w-4 h-4" />
             {t('nav.blog')}
-          </button>
+          </PageLink>
 
           {/* Contact accordion */}
           <button
@@ -438,20 +440,20 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
           </button>
           {mobileContactOpen && (
             <div className="ml-3 mb-1 border-l-2 border-brand-100 pl-3 space-y-1">
-              <button
+              <PageLink page="contact"
                 onClick={() => handleMobileNavigate('contact')}
                 className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-ink-600 hover:bg-brand-50 hover:text-brand-600 transition-all text-left"
               >
                 <MessageSquare className="w-4 h-4 text-brand-600" />
                 <span className="font-medium text-sm">{t('nav.contact_us')}</span>
-              </button>
-              <button
+              </PageLink>
+              <PageLink page="about"
                 onClick={() => handleMobileNavigate('about')}
                 className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-ink-600 hover:bg-brand-50 hover:text-brand-600 transition-all text-left"
               >
                 <Users className="w-4 h-4 text-brand-600" />
                 <span className="font-medium text-sm">{t('nav.about_us')}</span>
-              </button>
+              </PageLink>
             </div>
           )}
 
@@ -523,22 +525,22 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
         style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
       >
         <div className="grid grid-cols-5 h-16">
-          <button onClick={() => onNavigate('home')} className={tabClass(isHomeActive)}>
+          <PageLink page="home" onClick={() => onNavigate('home')} className={tabClass(isHomeActive)}>
             <Home className="w-5 h-5" />
             <span className="text-[11px] font-medium">{t('nav.home')}</span>
-          </button>
-          <button onClick={() => onNavigate('industries')} className={tabClass(isIndustriesActive)}>
+          </PageLink>
+          <PageLink page="industries" onClick={() => onNavigate('industries')} className={tabClass(isIndustriesActive)}>
             <Building2 className="w-5 h-5" />
             <span className="text-[11px] font-medium">{t('nav.industries')}</span>
-          </button>
-          <button onClick={() => onNavigate('blog')} className={tabClass(isBlogActive)}>
+          </PageLink>
+          <PageLink page="blog" onClick={() => onNavigate('blog')} className={tabClass(isBlogActive)}>
             <Newspaper className="w-5 h-5" />
             <span className="text-[11px] font-medium">{t('nav.blog')}</span>
-          </button>
-          <button onClick={() => onNavigate('contact')} className={tabClass(isContactActive)}>
+          </PageLink>
+          <PageLink page="contact" onClick={() => onNavigate('contact')} className={tabClass(isContactActive)}>
             <MessageSquare className="w-5 h-5" />
             <span className="text-[11px] font-medium">{t('nav.contact')}</span>
-          </button>
+          </PageLink>
           <button onClick={() => setIsMobileOpen(true)} className={tabClass(false)} aria-label={t('nav.open_menu')}>
             <Menu className="w-5 h-5" />
             <span className="text-[11px] font-medium">{t('nav.menu')}</span>

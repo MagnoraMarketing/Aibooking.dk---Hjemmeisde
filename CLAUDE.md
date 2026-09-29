@@ -11,8 +11,16 @@ Marketing website for Aibooking.dk. React 18 + TypeScript + Vite SPA, styled wit
 There is no router library. `src/App.tsx` maps URL paths to page components manually via `window.history.pushState` and a `popstate` listener. When adding a page:
 
 1. Add the page component under `src/pages`
-2. Add its path to `pathMap` and `pageMap` in `src/App.tsx`
+2. Add its path to `pathMap` and `pageMap` in `src/App.tsx`, and to `PAGE_PATHS` in `src/utils/pagePaths.ts`
 3. Add the route to `routeMap` in `scripts/generate-sitemap.js` so it appears in `public/sitemap.xml`
+
+Internal links must be real `<a href>` elements so crawlers can follow them: use `<PageLink page="…" onClick={() => onNavigate('…')}>` (`src/components/PageLink.tsx`), never a `<button>` that calls `onNavigate`. Render-time code must not touch `window`/`document` (use `currentPathname()` from `src/utils/currentPath.ts`), because pages are also rendered at build time.
+
+## Prerendering and IndexNow
+
+`npm run build` prerenders every URL in the sitemap to static HTML (`src/entry-server.tsx` + `scripts/prerender.js`), with that page's title, meta description, canonical, hreflang and content, so crawlers that don't run JavaScript see real pages. `vercel.json` `cleanUrls` serves `dist/funktioner.html` at `/funktioner`. The script warns about pages without an `<h1>`, under 300 words, or with a meta description over 160 characters — keep descriptions at 155 characters or less.
+
+On Vercel production builds it also submits pages whose content changed since the live site (compared via `/indexnow-manifest.json`) to IndexNow, using the key file in `public/`, and sets sitemap `<lastmod>` to the date each page last changed.
 
 URLs are Danish and SEO-optimized (e.g. `/funktioner`, `/brancher`, `/kontakt`) — keep that convention for new top-level pages.
 

@@ -22,6 +22,7 @@ import BlogPostPage from './pages/BlogPostPage';
 import TrialOfferWidget from './components/TrialOfferWidget';
 import { SUPPORTED_LANGUAGES, SupportedLanguage } from './i18n/config';
 import { splitLocalizedPath, buildLocalizedPath } from './utils/localePaths';
+import { currentPathname } from './utils/currentPath';
 import { getCategoryBySlug, getPostBySlug } from './content/blog';
 
 type PageType = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'blog-category' | 'blog-post' | 'trial';
@@ -45,34 +46,35 @@ const pageMap: Record<PageType, string> = {
   'blog-post': '/blog', 'trial': '/proeveperiode'
 };
 
+// Resolve a Danish-worded path to the page (and blog slug) it renders.
+// `unknown` marks paths that fall back to the home page and missing blog
+// posts/categories.
+function resolveRoute(pathname: string): { page: PageType; param: string; unknown: boolean } {
+  const path = pathname.replace(/\/$/, '') || '/';
+  if (path.startsWith('/blog/category/')) {
+    const param = path.replace('/blog/category/', '');
+    return { page: 'blog-category', param, unknown: !getCategoryBySlug(param) };
+  }
+  if (path.startsWith('/blog/') && path !== '/blog') {
+    const param = path.replace('/blog/', '');
+    return { page: 'blog-post', param, unknown: !getPostBySlug(param) };
+  }
+  return { page: pathMap[path] || 'home', param: '', unknown: !pathMap[path] };
+}
+
 function App() {
   const { i18n } = useTranslation();
-  const [currentPage, setCurrentPage] = useState<PageType>('home');
-  const [blogParam, setBlogParam] = useState<string>('');
-  const [unknownPath, setUnknownPath] = useState(false);
-
-  const getPageFromPath = (pathname: string): PageType => {
-    const path = pathname.replace(/\/$/, '') || '/';
-    if (path.startsWith('/blog/category/')) {
-      const categorySlug = path.replace('/blog/category/', '');
-      setBlogParam(categorySlug);
-      setUnknownPath(!getCategoryBySlug(categorySlug));
-      return 'blog-category';
-    }
-    if (path.startsWith('/blog/') && path !== '/blog') {
-      const postSlug = path.replace('/blog/', '');
-      setBlogParam(postSlug);
-      setUnknownPath(!getPostBySlug(postSlug));
-      return 'blog-post';
-    }
-    setUnknownPath(!pathMap[path]);
-    return pathMap[path] || 'home';
-  };
+  // Start on the page in the URL (not 'home') so the first render matches the
+  // prerendered HTML instead of flashing the home page.
+  const [route, setRoute] = useState(() => resolveRoute(splitLocalizedPath(currentPathname()).path));
+  const currentPage = route.page;
+  const blogParam = route.param;
+  const unknownPath = route.unknown;
 
   const syncFromLocation = () => {
     const { lang, path } = splitLocalizedPath(window.location.pathname);
     i18n.changeLanguage(lang);
-    setCurrentPage(getPageFromPath(path));
+    setRoute(resolveRoute(path));
   };
 
   useEffect(() => {
@@ -88,11 +90,10 @@ function App() {
       const newPath = buildLocalizedPath(detectedLang, path);
       window.history.replaceState({}, '', newPath);
       i18n.changeLanguage(detectedLang);
-      setCurrentPage(getPageFromPath(path));
     } else {
       i18n.changeLanguage(urlLang);
-      setCurrentPage(getPageFromPath(path));
     }
+    setRoute(resolveRoute(path));
 
     window.addEventListener('popstate', syncFromLocation);
     return () => window.removeEventListener('popstate', syncFromLocation);
@@ -118,8 +119,7 @@ function App() {
     const lang = SUPPORTED_LANGUAGES.includes(currentLang) ? currentLang : 'da';
     const path = buildLocalizedPath(lang, danishPath);
     window.history.pushState({}, '', path);
-    setUnknownPath(false);
-    setCurrentPage(page);
+    setRoute({ page, param: '', unknown: false });
     window.scrollTo(0, 0);
   };
 

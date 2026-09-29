@@ -22,6 +22,7 @@ import BlogPostPage from './pages/BlogPostPage';
 import TrialOfferWidget from './components/TrialOfferWidget';
 import { SUPPORTED_LANGUAGES, SupportedLanguage } from './i18n/config';
 import { splitLocalizedPath, buildLocalizedPath } from './utils/localePaths';
+import { getCategoryBySlug, getPostBySlug } from './content/blog';
 
 type PageType = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'blog-category' | 'blog-post' | 'trial';
 
@@ -48,19 +49,23 @@ function App() {
   const { i18n } = useTranslation();
   const [currentPage, setCurrentPage] = useState<PageType>('home');
   const [blogParam, setBlogParam] = useState<string>('');
+  const [unknownPath, setUnknownPath] = useState(false);
 
   const getPageFromPath = (pathname: string): PageType => {
     const path = pathname.replace(/\/$/, '') || '/';
     if (path.startsWith('/blog/category/')) {
       const categorySlug = path.replace('/blog/category/', '');
       setBlogParam(categorySlug);
+      setUnknownPath(!getCategoryBySlug(categorySlug));
       return 'blog-category';
     }
     if (path.startsWith('/blog/') && path !== '/blog') {
       const postSlug = path.replace('/blog/', '');
       setBlogParam(postSlug);
+      setUnknownPath(!getPostBySlug(postSlug));
       return 'blog-post';
     }
+    setUnknownPath(!pathMap[path]);
     return pathMap[path] || 'home';
   };
 
@@ -94,12 +99,26 @@ function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // Every URL is served the SPA with a 200, so unknown paths (which fall back
+  // to the home page) and missing blog posts/categories would be indexed as
+  // duplicate or soft-404 pages. Tell crawlers not to index them.
+  useEffect(() => {
+    let robots = document.querySelector('meta[name="robots"]');
+    if (!robots) {
+      robots = document.createElement('meta');
+      robots.setAttribute('name', 'robots');
+      document.head.appendChild(robots);
+    }
+    robots.setAttribute('content', unknownPath ? 'noindex, follow' : 'index, follow');
+  }, [unknownPath]);
+
   const handleNavigate = (page: PageType) => {
     const danishPath = pageMap[page] || '/';
     const currentLang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
     const lang = SUPPORTED_LANGUAGES.includes(currentLang) ? currentLang : 'da';
     const path = buildLocalizedPath(lang, danishPath);
     window.history.pushState({}, '', path);
+    setUnknownPath(false);
     setCurrentPage(page);
     window.scrollTo(0, 0);
   };

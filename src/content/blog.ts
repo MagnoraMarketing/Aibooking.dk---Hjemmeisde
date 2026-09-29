@@ -1,6 +1,5 @@
-// Static blog content — replaces the Supabase-backed blog_posts / blog_categories tables.
-// To publish a new post: add an entry to `blogPosts` below (and a category to
-// `blogCategories` if needed). No database or migration required.
+// Static blog content. To publish a new post: add an entry to `blogPosts` below
+// (and a category to `blogCategories` if needed). No database required.
 
 export interface BlogCategory {
   slug: string;

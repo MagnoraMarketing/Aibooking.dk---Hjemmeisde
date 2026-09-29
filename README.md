@@ -1,54 +1,63 @@
 # Aibooking.dk
 
-### Din virksomheds AI-drevne virtuelle reception
+### Jeres AI-reception — der svarer, booker og følger op døgnet rundt
 
-Aibooking.dk sørger for, at ingen kunde-henvendelse går tabt — uanset om den kommer som et telefonopkald, en besked i chatten på hjemmesiden eller en talebesked. Løsningen besvarer, kvalificerer og booker direkte i jeres kalender, døgnet rundt, og frigør den tid I ellers bruger på gentagne opkald og administration.
+Aibooking.dk sørger for, at ingen kundehenvendelse går tabt — uanset om den kommer som et telefonopkald, en besked i chatten på hjemmesiden eller en talebesked. Løsningen besvarer, kvalificerer og booker direkte i jeres kalender, døgnet rundt, og frigør den tid I ellers bruger på gentagne opkald og administration.
 
-**[🌐 Besøg aibooking.dk](https://www.aibooking.dk)** · **[📖 Blog](https://www.aibooking.dk/blog)** · **[🔌 Integrationer](https://www.aibooking.dk/integrationer)** · **[✉️ Kontakt](https://www.aibooking.dk/kontakt)**
+**[🌐 Besøg aibooking.dk](https://www.aibooking.dk)** · **[🎙️ Prøv AI-widgetten](https://www.aibooking.dk/widget)** · **[📖 Blog](https://www.aibooking.dk/blog)** · **[✉️ Kontakt](https://www.aibooking.dk/kontakt)**
 
 ---
 
-## Funktioner
+## Sådan fungerer det
 
-**AI-telefonassistent — indgående og udgående opkald**
-Besvarer alle indgående opkald øjeblikkeligt, forstår dansk (og dialekter), booker direkte i samtalen og stiller videre til et menneske, når det er nødvendigt. Ringer også selv ud med bekræftelser, påmindelser og opfølgning på ubesvarede henvendelser.
+1. **Kunden tager kontakt** — ringer, skriver i chatten eller taler med widgetten på hjemmesiden.
+2. **AI'en svarer med det samme** — på naturligt dansk, med viden om jeres forretning, priser og åbningstider.
+3. **Opgaven bliver løst** — tiden bookes i kalenderen, spørgsmålet besvares, eller samtalen stilles videre til en medarbejder.
+4. **I får overblikket** — bekræftelse til kunden, notat til jer og al aktivitet samlet i dashboardet.
 
-**AI-widget — chat og stemme på hjemmesiden**
-En chat- og talewidget der sættes på hjemmesiden med én linje kode. Besvarer spørgsmål, booker tid direkte og konverterer besøgende til kunder — også uden for åbningstid, hvor en stor del af trafikken kommer.
+## Løsningerne
 
-**Komplet dashboard**
-Fuldt overblik over al AI-aktivitet: opkaldsstatistik i realtid, AI-genererede samtalenotater, booking- og konverteringsrate, lydoptagelser og et tilpasset layout — samlet ét sted.
+**📞 AI-telefonassistent**
+Besvarer alle opkald øjeblikkeligt, forstår dansk (også dialekter), booker direkte i samtalen og stiller videre, når et menneske skal overtage. Ringer også selv ud med bekræftelser, påmindelser og opfølgning på ubesvarede henvendelser.
 
-**Automatisk kalenderintegration**
-Synkroniserer med jeres eksisterende kalendersystem — Google Calendar, Outlook/Microsoft 365, Apple Calendar og andre via CalDAV/iCal — uden dobbeltbookinger eller manuel registrering.
+**💬 AI-widget til hjemmesiden — chat og stemme**
+Sættes på hjemmesiden med én linje kode. Besvarer spørgsmål, booker tid og konverterer besøgende til kunder — også uden for åbningstid, hvor en stor del af trafikken kommer.
 
-**SMS-påmindelser og bekræftelser**
-Automatiske bookingbekræftelser og påmindelser reducerer no-shows markant, med beskedskabeloner tilpasset jeres tone og brand.
+**📅 Automatisk kalenderbooking**
+Arbejder i jeres eksisterende kalender — Google Calendar, Outlook/Microsoft 365, Apple Calendar m.fl. — uden dobbeltbookinger eller manuel registrering.
 
-**GDPR-sikker og dansk hosting**
-Data behandles i overensstemmelse med GDPR og opbevares i Danmark, med end-to-end kryptering og regelmæssige sikkerhedsaudits.
+**📲 SMS-bekræftelser og påmindelser**
+Automatiske bekræftelser og påmindelser reducerer udeblivelser markant, med beskeder i jeres egen tone.
 
-**Hurtig opsætning**
-I gang på under 24 timer med hjælp fra en dedikeret onboarding-specialist — AI'en trænes til jeres branche fra start.
+**📊 Dashboard med fuldt overblik**
+Opkaldsstatistik i realtid, samtalenotater, booking- og konverteringsrate og optagelser — samlet ét sted.
 
-## Skræddersyet til din branche
+**🔒 GDPR-sikker**
+Data behandles i overensstemmelse med GDPR og opbevares i Danmark, med kryptering og regelmæssige sikkerhedsaudits.
+
+## Skræddersyet til jeres branche
 
 | Branche | Hvad løsningen løser |
 | --- | --- |
-| **[Klinikker](https://www.aibooking.dk/klinik)** — tandlæger, fysioterapeuter, kiropraktorer m.fl. | Booking, ombooking og afbud håndteres uden at afbryde behandlingen; automatiske SMS-påmindelser reducerer udeblivelser |
-| **[Håndværkere](https://www.aibooking.dk/haandvaerker)** — VVS, el, tømrer, maler m.fl. | Ingen opgaver går tabt, fordi telefonen ikke kunne tages; adresse, opgavetype og hastegrad registreres, før der ringes tilbage |
+| **[Klinikker](https://www.aibooking.dk/klinik)** — tandlæger, fysioterapeuter, kiropraktorer m.fl. | Booking, ombooking og afbud håndteres uden at afbryde behandlingen; påmindelser reducerer udeblivelser |
+| **[Håndværkere](https://www.aibooking.dk/haandvaerker)** — VVS, el, tømrer, maler m.fl. | Ingen opgaver går tabt, fordi telefonen ikke kunne tages; adresse, opgavetype og hastegrad registreres før tilbageringning |
 | **[Kontor & Erhverv](https://www.aibooking.dk/kontor)** — advokater, revisorer, konsulenter m.fl. | Rutineopkald besvares automatisk, møder bookes i den fælles kalender, og kun det vigtige stilles videre |
 | **[Webshop & E-handel](https://www.aibooking.dk/webshop)** — herunder Shopify | Produkt-, leverings- og returspørgsmål besvares med det samme, døgnet rundt, så færre kurve bliver forladt |
 
-## Resultater der taler for sig selv
+## Resultater
 
 | 85% | 60% | 98% | 320% | +45% |
 | :---: | :---: | :---: | :---: | :---: |
 | mindre telefontid | færre no-shows | kundetilfredshed | ROI første år | flere konverteringer |
 
-## Priser
+## Kom i gang på under 24 timer
 
-Alle planer starter med **7 dages gratis prøveperiode** — ingen binding, intet kortnummer krævet.
+1. **Book en uforpligtende samtale** — vi gennemgår jeres behov og henvendelser.
+2. **Vi sætter AI'en op** — trænet på jeres branche, ydelser og tone, koblet til jeres kalender.
+3. **Test og gå live** — I prøver løsningen af, og vi finjusterer, før den tager imod kunder.
+4. **Løbende optimering** — en dedikeret kontaktperson følger op, så resultaterne bliver ved med at blive bedre.
+
+Alle planer starter med **7 dages gratis prøveperiode** — ingen binding, intet kortnummer.
 
 | Plan | Pris/måned | Inkluderet taletid |
 | --- | --- | --- |
@@ -56,24 +65,20 @@ Alle planer starter med **7 dages gratis prøveperiode** — ingen binding, inte
 | Professional | 2.499 kr | 600 min |
 | Enterprise | 5.999 kr | 2.000 min |
 
-AI-widgetten til hjemmesiden sælges separat som talepakker (999 kr / 150 min). Opsætning og onboarding kan tilkøbes som en valgfri engangsbetaling. Se de fulde og altid opdaterede priser på [aibooking.dk](https://www.aibooking.dk/#priser).
+AI-widgetten til hjemmesiden fås også separat som talepakke (999 kr / 150 min). Se altid opdaterede priser på [aibooking.dk](https://www.aibooking.dk/#priser).
 
 ## Integrationer
 
-Aibooking.dk arbejder sammen med de værktøjer, virksomheder allerede bruger — kalendere (Google Calendar, Outlook/365, Apple Calendar, CalDAV), e-handel (Shopify), kommunikation (WhatsApp, Microsoft Teams, Slack) og automatisering (Zapier, Webhooks, REST API). Se den fulde liste på [aibooking.dk/integrationer](https://www.aibooking.dk/integrationer).
+Aibooking.dk arbejder sammen med de værktøjer, I allerede bruger — kalendere, webshop, kommunikation (WhatsApp, Microsoft Teams, Slack) og automatisering (Zapier, webhooks, API). Se hele listen på [aibooking.dk/integrationer](https://www.aibooking.dk/integrationer).
 
-## Flersproget
-
-Hjemmesiden er tilgængelig på dansk (primært), engelsk, spansk, fransk og portugisisk.
+Hjemmesiden findes på dansk, engelsk, spansk, fransk og portugisisk.
 
 ---
 
-## Om dette repository
-
-Dette repository indeholder kildekoden til marketingwebsitet på [aibooking.dk](https://www.aibooking.dk) — en React 18 + TypeScript + Vite SPA stylet med Tailwind CSS og deployet på Vercel. For opsætning, arkitektur og udviklings-konventioner, se [CLAUDE.md](./CLAUDE.md).
-
 ## Kontakt
 
-📧 [mail@aibooking.dk](mailto:mail@aibooking.dk) · 📍 Aarhus C, Danmark
+📧 [mail@aibooking.dk](mailto:mail@aibooking.dk) · 📍 Aarhus C, Danmark · 🌐 [aibooking.dk/kontakt](https://www.aibooking.dk/kontakt)
 
-Lavet og drevet af [MagnoraMarketing.dk](https://www.magnoramarketing.dk).
+Udviklet og drevet af [MagnoraMarketing.dk](https://www.magnoramarketing.dk).
+
+<sub>Dette repository indeholder hjemmesiden aibooking.dk. Udviklernoter findes i [CLAUDE.md](./CLAUDE.md).</sub>

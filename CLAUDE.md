@@ -26,7 +26,11 @@ The industry contact form (`src/components/industries/ContactForm.tsx`) POSTs to
 
 ## No backend database
 
-This project previously used Supabase (Bolt-generated) for blog content and contact form storage. That has been removed in favor of static content + a Vercel serverless email function — do not reintroduce a Supabase dependency without discussing it first.
+Content is static and the contact form is a serverless email function — do not introduce a database or third-party backend dependency without discussing it first.
+
+## Public-facing documentation
+
+`README.md` is a product presentation for customers: describe features and benefits only. Do not name underlying technology vendors (voice, telephony, AI or hosting providers) in the README or other public docs. Internal SEO notes live in `docs/`.
 
 ## Commands
 

@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
+import PageLink from './PageLink';
 
 interface ReceptionistShowcaseProps {
   onNavigate: (page: NavigatePage) => void;
@@ -46,13 +47,13 @@ function ReceptionistShowcase({ onNavigate }: ReceptionistShowcaseProps) {
                 <Calendar className="w-5 h-5" />
                 <span>{t('receptionistShowcase.cta_primary')}</span>
               </a>
-              <button
+              <PageLink page="demo"
                 onClick={() => onNavigate('demo')}
                 className="group bg-brand-500/20 text-white px-8 py-4 rounded-xl hover:bg-brand-500/30 transition-all duration-300 font-semibold border border-brand-400/40 hover:border-brand-300 flex items-center justify-center space-x-2"
               >
                 <Phone className="w-5 h-5" />
                 <span>{t('receptionistShowcase.cta_secondary')}</span>
-              </button>
+              </PageLink>
             </div>
           </div>
 

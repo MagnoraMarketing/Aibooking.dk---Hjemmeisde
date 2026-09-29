@@ -9,6 +9,7 @@ import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import type { SupportedLanguage } from '../i18n/config';
 import { localizedUrl } from '../utils/localePaths';
 import { createBreadcrumbSchema } from '../utils/structuredData';
+import PageLink from '../components/PageLink';
 import {
   Phone, Calendar, MessageSquare, Clock, Shield, CheckCircle, Zap,
   Users, Settings, TrendingUp, DollarSign, PhoneIncoming,
@@ -133,13 +134,13 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                   );
                 })}
               </div>
-              <button
+              <PageLink page="contact"
                 onClick={() => onNavigate('contact')}
                 className="inline-flex items-center space-x-2 bg-brand-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-brand-700 transition-all shadow-lg hover:shadow-xl"
               >
                 <span>{t('dashboard.cta')}</span>
                 <ArrowRight className="w-5 h-5" />
-              </button>
+              </PageLink>
             </div>
 
             {/* Dashboard Mock Visual */}
@@ -328,13 +329,13 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
 
           <div className="mt-12 text-center">
             <p className="text-ink-600 mb-6 text-lg">{t('voiceCta.text')}</p>
-            <button
+            <PageLink page="contact"
               onClick={() => onNavigate('contact')}
               className="inline-flex items-center space-x-3 bg-ink-900 text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-ink-800 transition-all shadow-xl hover:shadow-2xl"
             >
               <Phone className="w-5 h-5" />
               <span>{t('voiceCta.button')}</span>
-            </button>
+            </PageLink>
           </div>
         </div>
       </section>
@@ -401,19 +402,19 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                 })}
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
-                <button
+                <PageLink page="widget"
                   onClick={() => onNavigate('widget')}
                   className="inline-flex items-center justify-center space-x-2 bg-cyan-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-cyan-700 transition-all shadow-lg hover:shadow-xl"
                 >
                   <span>{t('widgetButtons.see_plans')}</span>
                   <ArrowRight className="w-5 h-5" />
-                </button>
-                <button
+                </PageLink>
+                <PageLink page="contact"
                   onClick={() => onNavigate('contact')}
                   className="inline-flex items-center justify-center space-x-2 border-2 border-ink-300 text-ink-700 px-8 py-4 rounded-2xl font-bold text-lg hover:border-cyan-600 hover:text-cyan-600 transition-all"
                 >
                   <span>{t('widgetButtons.book_demo')}</span>
-                </button>
+                </PageLink>
               </div>
             </div>
           </div>
@@ -457,13 +458,13 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                   </li>
                 ))}
               </ul>
-              <button
+              <PageLink page="widget"
                 onClick={() => onNavigate('widget')}
                 className="inline-flex items-center space-x-2 bg-brand-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-brand-700 transition-all shadow-lg hover:shadow-xl"
               >
                 <span>{t('voiceWidgetButton')}</span>
                 <ArrowRight className="w-5 h-5" />
-              </button>
+              </PageLink>
             </div>
           </div>
         </div>
@@ -539,18 +540,18 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
                 {t('ctaSection.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button
+                <PageLink page="contact"
                   onClick={() => onNavigate('contact')}
                   className="bg-white text-brand-700 px-10 py-5 rounded-2xl font-bold text-lg hover:bg-brand-50 transition-all shadow-lg hover:shadow-xl inline-block"
                 >
                   {t('ctaSection.button_demo')}
-                </button>
-                <button
+                </PageLink>
+                <PageLink page="widget"
                   onClick={() => onNavigate('widget')}
                   className="border-2 border-white text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-white/10 transition-all"
                 >
                   {t('ctaSection.button_widget')}
-                </button>
+                </PageLink>
               </div>
             </div>
           </div>

@@ -22,6 +22,7 @@ import BlogPostPage from './pages/BlogPostPage';
 import TrialOfferWidget from './components/TrialOfferWidget';
 import { SUPPORTED_LANGUAGES, SupportedLanguage } from './i18n/config';
 import { splitLocalizedPath, buildLocalizedPath } from './utils/localePaths';
+import { currentPathname } from './utils/currentPath';
 
 type PageType = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'blog-category' | 'blog-post' | 'trial';
 
@@ -44,30 +45,30 @@ const pageMap: Record<PageType, string> = {
   'blog-post': '/blog', 'trial': '/proeveperiode'
 };
 
+// Resolve a Danish-worded path to the page (and blog slug) it renders.
+function resolveRoute(pathname: string): { page: PageType; param: string } {
+  const path = pathname.replace(/\/$/, '') || '/';
+  if (path.startsWith('/blog/category/')) {
+    return { page: 'blog-category', param: path.replace('/blog/category/', '') };
+  }
+  if (path.startsWith('/blog/') && path !== '/blog') {
+    return { page: 'blog-post', param: path.replace('/blog/', '') };
+  }
+  return { page: pathMap[path] || 'home', param: '' };
+}
+
 function App() {
   const { i18n } = useTranslation();
-  const [currentPage, setCurrentPage] = useState<PageType>('home');
-  const [blogParam, setBlogParam] = useState<string>('');
-
-  const getPageFromPath = (pathname: string): PageType => {
-    const path = pathname.replace(/\/$/, '') || '/';
-    if (path.startsWith('/blog/category/')) {
-      const categorySlug = path.replace('/blog/category/', '');
-      setBlogParam(categorySlug);
-      return 'blog-category';
-    }
-    if (path.startsWith('/blog/') && path !== '/blog') {
-      const postSlug = path.replace('/blog/', '');
-      setBlogParam(postSlug);
-      return 'blog-post';
-    }
-    return pathMap[path] || 'home';
-  };
+  // Start on the page in the URL (not 'home') so the first render matches the
+  // prerendered HTML instead of flashing the home page.
+  const [route, setRoute] = useState(() => resolveRoute(splitLocalizedPath(currentPathname()).path));
+  const currentPage = route.page;
+  const blogParam = route.param;
 
   const syncFromLocation = () => {
     const { lang, path } = splitLocalizedPath(window.location.pathname);
     i18n.changeLanguage(lang);
-    setCurrentPage(getPageFromPath(path));
+    setRoute(resolveRoute(path));
   };
 
   useEffect(() => {
@@ -83,11 +84,10 @@ function App() {
       const newPath = buildLocalizedPath(detectedLang, path);
       window.history.replaceState({}, '', newPath);
       i18n.changeLanguage(detectedLang);
-      setCurrentPage(getPageFromPath(path));
     } else {
       i18n.changeLanguage(urlLang);
-      setCurrentPage(getPageFromPath(path));
     }
+    setRoute(resolveRoute(path));
 
     window.addEventListener('popstate', syncFromLocation);
     return () => window.removeEventListener('popstate', syncFromLocation);
@@ -100,7 +100,7 @@ function App() {
     const lang = SUPPORTED_LANGUAGES.includes(currentLang) ? currentLang : 'da';
     const path = buildLocalizedPath(lang, danishPath);
     window.history.pushState({}, '', path);
-    setCurrentPage(page);
+    setRoute({ page, param: '' });
     window.scrollTo(0, 0);
   };
 

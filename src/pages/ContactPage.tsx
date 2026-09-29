@@ -16,6 +16,7 @@ import {
   Phone, Headphones, Mic, PhoneCall, Sparkles, ArrowRight,
 } from 'lucide-react';
 import type { NavigatePage } from '../types/navigation';
+import PageLink from '../components/PageLink';
 
 interface ContactPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -146,7 +147,7 @@ function ContactPage({ onNavigate }: ContactPageProps) {
               {coreServiceItems.map((service, index) => {
                 const { icon: Icon, page } = CORE_SERVICE_META[index];
                 return (
-                  <button
+                  <PageLink page={page}
                     key={service.title}
                     type="button"
                     onClick={() => onNavigate(page)}
@@ -161,7 +162,7 @@ function ContactPage({ onNavigate }: ContactPageProps) {
                       {service.cta}
                       <ArrowRight className="w-4 h-4" />
                     </span>
-                  </button>
+                  </PageLink>
                 );
               })}
             </div>

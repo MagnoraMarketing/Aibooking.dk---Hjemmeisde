@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { SUPPORTED_LANGUAGES, SupportedLanguage } from '../i18n/config';
 import { localizedUrl } from '../utils/localePaths';
+import { collectSeo } from '../utils/seoCollector';
 
 const OG_LOCALES: Record<string, string> = {
   da: 'da_DK', en: 'en_US', pt: 'pt_PT', fr: 'fr_FR', es: 'es_ES',
@@ -40,6 +41,17 @@ export default function SEO({
   // Content not available in the UI language is served in English.
   const lang: SupportedLanguage = languages.includes(uiLang) ? uiLang : 'en';
 
+  const ogLocale = OG_LOCALES[lang] || 'da_DK';
+  const alternates = path
+    ? [
+        ...languages.map((l) => ({ hreflang: l, href: localizedUrl(l, path) })),
+        { hreflang: 'x-default', href: localizedUrl('da', path) },
+      ]
+    : [];
+
+  // Only has an effect during build-time prerendering.
+  collectSeo({ title, description, keywords, ogImage, ogType, ogLocale, canonical, structuredData, lang, alternates });
+
   useEffect(() => {
     document.title = title;
     document.documentElement.lang = lang;
@@ -64,7 +76,7 @@ export default function SEO({
     updateMetaTag('og:image', ogImage, 'property');
     updateMetaTag('og:type', ogType, 'property');
     updateMetaTag('og:url', canonical || window.location.href, 'property');
-    updateMetaTag('og:locale', OG_LOCALES[lang] || 'da_DK', 'property');
+    updateMetaTag('og:locale', ogLocale, 'property');
 
     updateMetaTag('twitter:card', 'summary_large_image', 'name');
     updateMetaTag('twitter:title', title, 'name');
@@ -82,31 +94,30 @@ export default function SEO({
     }
 
     if (structuredData) {
-      let scriptElement = document.querySelector('script[type="application/ld+json"]');
+      // Page-specific JSON-LD lives in its own tag so the site-wide
+      // Organization/WebSite graph in index.html is kept.
+      let scriptElement = document.querySelector('script[type="application/ld+json"][data-seo-page]');
       if (!scriptElement) {
         scriptElement = document.createElement('script');
         scriptElement.setAttribute('type', 'application/ld+json');
+        scriptElement.setAttribute('data-seo-page', '');
         document.head.appendChild(scriptElement);
       }
       scriptElement.textContent = JSON.stringify(structuredData);
+    } else {
+      document.querySelector('script[type="application/ld+json"][data-seo-page]')?.remove();
     }
 
     document.querySelectorAll('link[rel="alternate"][hreflang]').forEach((el) => el.remove());
-    if (path) {
-      languages.forEach((lang) => {
-        const link = document.createElement('link');
-        link.setAttribute('rel', 'alternate');
-        link.setAttribute('hreflang', lang === 'da' ? 'da' : lang);
-        link.setAttribute('href', localizedUrl(lang, path));
-        document.head.appendChild(link);
-      });
-      const xDefault = document.createElement('link');
-      xDefault.setAttribute('rel', 'alternate');
-      xDefault.setAttribute('hreflang', 'x-default');
-      xDefault.setAttribute('href', localizedUrl('da', path));
-      document.head.appendChild(xDefault);
-    }
-  }, [title, description, keywords, ogImage, ogType, canonical, structuredData, path, lang, languages]);
+    alternates.forEach(({ hreflang, href }) => {
+      const link = document.createElement('link');
+      link.setAttribute('rel', 'alternate');
+      link.setAttribute('hreflang', hreflang);
+      link.setAttribute('href', href);
+      document.head.appendChild(link);
+    });
+  // eslint-disable-next-line react-hooks/exhaustive-deps -- alternates is derived from path + languages
+  }, [title, description, keywords, ogImage, ogType, ogLocale, canonical, structuredData, path, lang, languages]);
 
   return null;
 }

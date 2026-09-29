@@ -14,6 +14,7 @@ import { localizedUrl } from '../utils/localePaths';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import { BarChart3, Calendar, Clock, TrendingUp, Users, Phone, MessageSquare, CheckSquare } from 'lucide-react';
 import type { NavigatePage } from '../types/navigation';
+import PageLink from '../components/PageLink';
 
 interface IndustriesPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -104,12 +105,12 @@ function IndustriesPage({ onNavigate }: IndustriesPageProps) {
             {...industry}
           />
           <div className="text-center -mt-8 pb-12 relative z-10">
-            <button
+            <PageLink page={industry.page}
               onClick={() => onNavigate(industry.page)}
               className="bg-brand-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-brand-700 transition-all shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               {t('readMoreButton', { title: industry.title })}
-            </button>
+            </PageLink>
           </div>
         </div>
       ))}

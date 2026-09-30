@@ -10,16 +10,16 @@ import { DEMO_PHONE_DISPLAY, DEMO_PHONE_TEL } from '../utils/demoPhone';
 // whole block only renders on the Danish site.
 
 const AUDIO_SRC = '/audio/eksempel-booking-haandvaerker.mp3';
-const DURATION_SECONDS = 285;
-const DURATION_ISO = 'PT4M45S';
+const DURATION_SECONDS = 257;
+const DURATION_ISO = 'PT4M17S';
 
 // Loudness peaks of the recording (one per bar), used to draw the waveform
 // without decoding the audio in the browser.
 const PEAKS = [
-  0.1, 0.15, 0.14, 0.12, 0.13, 0.05, 0.09, 0.09, 0.08, 0.08, 0.15, 0.15, 0.14, 0.12, 0.09, 0.09,
-  0.09, 0.09, 0.08, 0.11, 0.11, 0.16, 0.09, 0.11, 0.1, 0.09, 0.08, 0.1, 0.11, 0.11, 0.1, 0.08,
-  0.1, 0.07, 0.16, 0.07, 0.1, 0.12, 0.14, 0.09, 0.08, 0.13, 0.1, 0.08, 0.08, 0.09, 0.09, 0.04,
-  0.08, 0.08, 0.11, 0.09, 0.04, 0.1, 0.07, 0.1, 0.14, 0.09, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01,
+  0.1, 0.19, 0.15, 0.15, 0.16, 0.09, 0.1, 0.12, 0.11, 0.11, 0.11, 0.17, 0.16, 0.17, 0.15, 0.12,
+  0.13, 0.11, 0.12, 0.13, 0.11, 0.15, 0.13, 0.18, 0.14, 0.12, 0.13, 0.1, 0.13, 0.12, 0.11, 0.12,
+  0.16, 0.13, 0.1, 0.09, 0.13, 0.11, 0.17, 0.08, 0.13, 0.14, 0.16, 0.1, 0.12, 0.05, 0.17, 0.12,
+  0.11, 0.09, 0.12, 0.13, 0.06, 0.1, 0.01, 0.16, 0.12, 0.1, 0.1, 0.07, 0.09, 0.1, 0.17, 0.12,
 ];
 const MAX_PEAK = Math.max(...PEAKS);
 
@@ -188,7 +188,7 @@ export default function BookingAudioDemo({ variant = 'section', className = '' }
         <div className="relative">
           <div className="inline-flex items-center gap-2 bg-white/5 text-accent-300 px-3.5 py-1.5 rounded-full text-xs font-semibold border border-white/10 mb-4">
             <Headphones className="w-3.5 h-3.5" />
-            Lydeksempel · 4:45 min
+            Lydeksempel · 4:17 min
           </div>
           <h2 className="text-2xl font-bold text-white mb-2">Hør AI’en booke en opgave — på dansk</h2>
           <p className="text-ink-300 mb-6">
@@ -269,7 +269,7 @@ export default function BookingAudioDemo({ variant = 'section', className = '' }
             <AudioPlayer dark />
             <div className="grid grid-cols-3 gap-3 mt-4 text-center">
               {[
-                ['4:45', 'min. samtale'],
+                ['4:17', 'min. samtale'],
                 ['100%', 'dansk tale'],
                 ['24/7', 'klar til opkald'],
               ].map(([value, label]) => (

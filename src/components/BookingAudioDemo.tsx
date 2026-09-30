@@ -25,16 +25,16 @@ const MAX_PEAK = Math.max(...PEAKS);
 
 const POINTS = [
   'Naturligt, flydende dansk — ingen robotstemme',
-  'Forstår opgaven og stiller de rigtige opfølgende spørgsmål',
+  'Forstår kundens behov og stiller de rigtige opfølgende spørgsmål',
   'Finder en ledig tid og booker direkte i kalenderen',
 ];
 
 const audioSchema = {
   '@context': 'https://schema.org',
   '@type': 'AudioObject',
-  name: 'Eksempel på en booking hos en håndværker med AI-telefonassistent',
+  name: 'Eksempel på en booking med AI-telefonassistent på dansk',
   description:
-    'Lydoptagelse af et rigtigt eksempel, hvor Aibooking.dk’s AI-telefonassistent tager imod et opkald og booker en opgave for en håndværker på dansk.',
+    'Lydoptagelse af et rigtigt eksempel, hvor Aibooking.dk’s AI-telefonassistent tager imod et opkald og booker en tid for kunden på dansk.',
   contentUrl: `https://www.aibooking.dk${AUDIO_SRC}`,
   encodingFormat: 'audio/mpeg',
   duration: DURATION_ISO,
@@ -190,10 +190,10 @@ export default function BookingAudioDemo({ variant = 'section', className = '' }
             <Headphones className="w-3.5 h-3.5" />
             Lydeksempel · 4:17 min
           </div>
-          <h2 className="text-2xl font-bold text-white mb-2">Hør AI’en booke en opgave — på dansk</h2>
+          <h2 className="text-2xl font-bold text-white mb-2">Hør AI’en booke en tid — på dansk</h2>
           <p className="text-ink-300 mb-6">
-            Et rigtigt eksempel på et opkald, hvor vores AI-telefonassistent tager imod en kunde og booker en opgave for en
-            håndværker. Tryk play, og hør selv kvaliteten.
+            Et rigtigt eksempel på et opkald, hvor vores AI-telefonassistent tager imod en kunde og booker en tid i
+            kalenderen. Tryk play, og hør selv kvaliteten.
           </p>
           <AudioPlayer dark />
           <div className="flex flex-col sm:flex-row gap-3 mt-6">
@@ -231,11 +231,11 @@ export default function BookingAudioDemo({ variant = 'section', className = '' }
             Lyt til et rigtigt opkald
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-5 tracking-tight leading-tight">
-            Hør vores AI booke en opgave for en håndværker
+            Hør vores AI tage opkaldet og booke en tid
           </h2>
           <p className="text-lg text-ink-300 leading-relaxed mb-8">
             Det er nemt at love en god AI-stemme — det er bedre at høre den. Her er et eksempel på et opkald, hvor en kunde
-            ringer til en håndværker, og AI’en klarer hele samtalen og bookingen. Tryk play, og hør kvaliteten.
+            ringer ind, og AI’en klarer hele samtalen og bookingen. Tryk play, og hør kvaliteten.
           </p>
           <ul className="space-y-3 mb-10">
             {POINTS.map((point) => (

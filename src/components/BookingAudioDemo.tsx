@@ -118,7 +118,7 @@ function AudioPlayer({ dark }: { dark: boolean }) {
 
         <div className="flex-1 min-w-0">
           <div className={`text-sm font-semibold mb-2 ${dark ? 'text-white' : 'text-ink-900'}`}>
-            Opkald: kunde booker håndværker
+            Eksempel med booking – Håndværker / klinik
           </div>
           <div
             role="slider"

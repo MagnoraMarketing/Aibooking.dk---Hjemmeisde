@@ -71,13 +71,13 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
 
       <PageHero badge={t('hero.badge')} title={t('hero.title')} subtitle={t('hero.subtitle')} secondaryCta={{ label: t('voiceWidget.cta'), href: '/widget' }} />
 
+      {/* Real recorded example call (Danish only), right below the hero */}
+      <BookingAudioDemo className="border-t border-white/10" />
+
       <DashboardShowcase variant="ecommerce" className="py-20 md:py-28 bg-white" />
 
       {/* Worked example, right up top so visitors immediately see how it plays out */}
       <IndustryScenario industry="ecommerce" />
-
-      {/* Real recorded example call (Danish only) */}
-      <BookingAudioDemo />
 
       <section className="py-16 bg-gradient-to-br from-brand-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

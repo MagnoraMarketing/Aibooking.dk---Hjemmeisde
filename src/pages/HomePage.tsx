@@ -8,6 +8,7 @@ import DashboardShowcase from '../components/DashboardShowcase';
 import Pricing from '../components/Pricing';
 import WidgetPricing from '../components/WidgetPricing';
 import CTA from '../components/CTA';
+import BookingAudioDemo from '../components/BookingAudioDemo';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
@@ -45,6 +46,7 @@ function HomePage({ onNavigate }: HomePageProps) {
       <Hero />
       <SavingsCalculator />
       <HowItWorks />
+      <BookingAudioDemo />
       <ReceptionistShowcase onNavigate={onNavigate} />
       <Features />
       <DashboardShowcase variant="frisor" className="py-20 md:py-28 bg-ink-50/60" />

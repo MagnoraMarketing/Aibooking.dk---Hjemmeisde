@@ -54,6 +54,8 @@ function pick(rand, arr) {
 // each cover can reflect what the post is actually about — booking, webshop
 // orders, automated customer handling, etc. — not just its broad category.
 const ICONS = {
+  // headphones / audio example
+  headphones: '<path d="M4 15v-3a8 8 0 0 1 16 0v3" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round"/><rect x="3" y="14" width="4.5" height="6" rx="1.6" fill="none" stroke="white" stroke-width="1.6"/><rect x="16.5" y="14" width="4.5" height="6" rx="1.6" fill="none" stroke="white" stroke-width="1.6"/>',
   // calendar / booking
   calendar: '<rect x="4" y="5" width="16" height="14" rx="2" fill="none" stroke="white" stroke-width="1.6"/><path d="M4 9.5h16M8 3v4M16 3v4" stroke="white" stroke-width="1.6" stroke-linecap="round"/><circle cx="9" cy="14" r="1.1" fill="white"/><circle cx="15" cy="14" r="1.1" fill="white"/>',
   // shopping cart / webshop
@@ -122,6 +124,8 @@ const SLUG_TOPICS = {
   'aldrig-mere-ubesvaret-opkald': 'phone',
   'outbound-ai-opkald-paamindelser': 'bell',
   'ai-telefonassistent-haandvaerker': 'wrench',
+  'hoer-ai-telefonassistent-booke-haandvaerker': 'headphones',
+  'hvordan-lyder-en-dansk-ai-receptionist': 'headphones',
   'ai-telefon-vs-telefonsvarer': 'phone',
   'sma-virksomheder-telefon-tid-penge': 'clock',
   'ai-telefonassistent-dansk-sprog': 'globe',

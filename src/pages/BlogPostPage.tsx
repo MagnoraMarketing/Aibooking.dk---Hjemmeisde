@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import FAQ from '../components/FAQ';
 import BlogCTA from '../components/BlogCTA';
+import BookingAudioDemo from '../components/BookingAudioDemo';
 import { blogFAQs } from '../content/faq';
 import { getPostBySlug, getCategoryBySlug, getRelatedPosts, BlogPost } from '../content/blog';
 import type { SupportedLanguage } from '../i18n/config';
@@ -213,10 +214,14 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
             />
           </div>
 
+          {post.audioDemo === 'top' && <BookingAudioDemo variant="inline" className="mb-12" />}
+
           <div
             className="blog-content"
             dangerouslySetInnerHTML={{ __html: getContent() }}
           />
+
+          {post.audioDemo === 'bottom' && <BookingAudioDemo variant="inline" />}
 
           <BlogCTA categorySlug={post.categorySlug} />
         </div>

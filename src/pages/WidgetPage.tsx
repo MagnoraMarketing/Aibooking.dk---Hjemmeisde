@@ -23,6 +23,7 @@ import ClinicDashboardMock from '../components/ClinicDashboardMock';
 import ShopifyIntegrationMock from '../components/ShopifyIntegrationMock';
 import type { NavigatePage } from '../types/navigation';
 import PageLink from '../components/PageLink';
+import BookingAudioDemo from '../components/BookingAudioDemo';
 
 // Danish-worded canonical path; SEO turns it into per-language hreflang URLs.
 const PAGE_PATH = '/widget';
@@ -585,6 +586,9 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
             </div>
           </div>
         </section>
+
+        {/* Real recorded example call (Danish only) */}
+        <BookingAudioDemo />
 
         {/* What is a voice widget */}
         <section className="py-20 md:py-28">

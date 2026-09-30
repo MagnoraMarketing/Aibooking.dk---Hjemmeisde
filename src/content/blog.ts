@@ -27,6 +27,8 @@ export interface BlogPost {
   image_url: string;
   published: boolean;
   published_at: string;
+  /** Show the Danish example-call recording (BookingAudioDemo) above or below the post text. */
+  audioDemo?: 'top' | 'bottom';
 }
 
 export const blogCategories: BlogCategory[] = [
@@ -214,6 +216,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai telefonassistent', 'inbound', 'outbound', 'telefon booking', 'kundeservice', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/ai-telefonassistent-fremtidens-kundeservice.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-04-05',
   },
   {
@@ -722,6 +725,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai inbound', 'ubesvaret opkald', 'telefonassistent', 'kundeservice', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/aldrig-mere-ubesvaret-opkald.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-05-31',
   },
   {
@@ -796,6 +800,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai telefonassistent', 'håndværker', 'opgaveforespørgsel', 'inbound', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/ai-telefonassistent-haandvaerker.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-05-17',
   },
   {
@@ -833,6 +838,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai telefonassistent', 'telefonsvarer', 'kundeoplevelse', 'inbound', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/ai-telefon-vs-telefonsvarer.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-05-10',
   },
   {
@@ -870,6 +876,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai telefonassistent', 'mindre virksomheder', 'tidsbesparelse', 'penge', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/sma-virksomheder-telefon-tid-penge.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-05-03',
   },
   {
@@ -907,6 +914,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai telefonassistent', 'dansk sprog', 'stemmeassistent', 'naturligt sprog', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/ai-telefonassistent-dansk-sprog.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-04-26',
   },
   {
@@ -1022,6 +1030,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai automatisering', 'miste kunder', 'totalløsning', 'kundeoplevelse', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/aldrig-mist-en-kunde-igen.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-05-28',
   },
   {
@@ -1380,6 +1389,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai widget', 'ai widget til hjemmeside', 'ai voice widget', 'ai chatbot dansk', 'booking widget', 'ai til hjemmeside', 'shopify ai widget', 'widget til webshop', 'ai widget til shopify'],
     image_url: '/blog/covers/ai-widget-hjemmeside-komplet-guide.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-09-22',
   },
   {
@@ -1580,6 +1590,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai reception', 'ai receptionist', 'virtuel receptionist', 'virtuel reception', 'ai telefonpasning', 'digital reception', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/ai-reception-virtuel-receptionist.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-09-19',
   },
   {
@@ -1641,6 +1652,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai indgående opkald', 'ai til indgående opkald', 'ai telefonassistent', 'ai telefonpasning', 'automatisk telefonpasning', 'ai voice agent dansk', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/ai-indgaaende-opkald.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-09-18',
   },
   {
@@ -1760,6 +1772,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai medarbejder', 'digital medarbejder', 'ai assistent virksomhed', 'virtuel medarbejder', 'ai kollega', 'ai automatisering', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/ai-medarbejder.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-09-16',
   },
   {
@@ -1900,6 +1913,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai-telefonpasning', 'ai telefonpasning', 'dansk ai-receptionist', 'ai receptionist dansk', 'telefonpasning', 'virtuel receptionist', 'ai reception'],
     image_url: '/blog/covers/ai-telefonpasning-dansk-ai-receptionist.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-09-23',
   },
   {
@@ -2237,6 +2251,115 @@ export const blogPosts: BlogPost[] = [
     image_url: '/blog/covers/shopify-integration-ai-voice-indgaaende-opkald.svg',
     published: true,
     published_at: '2026-09-23',
+  },
+  {
+    id: 'hoer-ai-telefonassistent-booke-haandvaerker',
+    slug: 'hoer-ai-telefonassistent-booke-haandvaerker',
+    categorySlug: 'ai-inbound-outbound',
+    title_en: 'Listen: An AI Phone Assistant Books a Job for a Craftsman',
+    title_da: 'Lyt med: Sådan booker en AI-telefonassistent en opgave for en håndværker',
+    excerpt_en: 'Promises about AI voices are easy. Here is a real recorded example of a call where our AI phone assistant books a job for a craftsman.',
+    excerpt_da: 'Det er nemt at love en god AI-stemme. Her kan du høre et rigtigt eksempel på et opkald, hvor vores AI-telefonassistent booker en opgave for en håndværker.',
+    content_en: `
+      <p>Every provider of AI phone assistants says their voice sounds natural. The only way to know is to listen. That's why we have published a real recorded example of a call in which our AI phone assistant answers on behalf of a craftsman, understands what the customer needs and books the job.</p>
+      <p>The recording is in Danish, because that is the language our Danish customers' callers speak. Switch the site to Danish to listen to it on this page.</p>
+      <h2>What to listen for</h2>
+      <ul>
+        <li><strong>The voice.</strong> Is it calm, clear and natural, or does it sound like a machine reading a script?</li>
+        <li><strong>Understanding.</strong> Does the AI grasp what the job is about, even when the customer explains it in their own words?</li>
+        <li><strong>Follow-up questions.</strong> A good assistant asks for what the craftsman needs: the address, the type of job and how urgent it is.</li>
+        <li><strong>The booking.</strong> The call should end with a concrete appointment in the calendar, not a vague promise of a callback.</li>
+      </ul>
+      <h2>Why this matters for craftsmen</h2>
+      <p>A craftsman on a ladder or under a sink can't answer the phone, and the customer with a leaking pipe calls the next number on the list. An <a href="/ind-og-udgaaende-opkald">AI phone assistant</a> answers every call, gathers the details and books the job while you keep working. Read more about <a href="/haandvaerker">AI for craftsmen</a>.</p>
+      <h2>Same quality on your website</h2>
+      <p>The same AI voice can sit on your website as an <a href="/widget">AI voice widget</a>, so customers who prefer to click rather than call get the same experience and the same direct booking.</p>
+      <div class="blog-cta"><strong>Try it on your own business</strong><p>Create a free account, forward your number and let the AI take your next calls. 7 days free, no credit card.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Start free trial</a><a href="/demo">Book a demo</a></div></div>
+      <h2>How to get started</h2>
+      <p>Setting up takes a few minutes: describe your services and opening hours, connect your calendar and forward your number when you are busy or outside opening hours. From then on the AI answers, books and sends you a summary of every call, so you always know what was agreed before you call the customer back. You decide which calls it takes, and you can always forward urgent calls to your own mobile.</p>
+    `,
+    content_da: `
+      <p>Alle udbydere af AI-telefonassistenter siger, at deres stemme lyder naturlig. Den eneste måde at vide det på er at lytte. Derfor har vi lagt et rigtigt eksempel på et opkald ud her på siden: vores AI-telefonassistent tager telefonen på vegne af en håndværker, forstår hvad kunden har brug for, og booker opgaven.</p>
+      <p>Tryk play på optagelsen ovenfor og hør selv, hvordan samtalen forløber — fra kunden ringer, til opgaven står i kalenderen.</p>
+      <h2>Det skal du lytte efter</h2>
+      <ul>
+        <li><strong>Stemmen.</strong> Er den rolig, tydelig og naturlig — eller lyder den som en maskine, der læser op?</li>
+        <li><strong>Forståelsen.</strong> Fanger AI'en, hvad opgaven handler om, selv når kunden forklarer det med sine egne ord?</li>
+        <li><strong>De opfølgende spørgsmål.</strong> En god assistent spørger ind til det, håndværkeren skal bruge: adresse, opgavetype og hvor akut det er.</li>
+        <li><strong>Bookingen.</strong> Samtalen skal slutte med en konkret aftale i kalenderen — ikke et løst løfte om at blive ringet op.</li>
+      </ul>
+      <h2>Hvorfor det betyder noget for håndværkere</h2>
+      <p>En håndværker oppe på en stige eller under en vask kan ikke tage telefonen, og kunden med det utætte rør ringer bare til det næste nummer på listen. En <a href="/ind-og-udgaaende-opkald">AI-telefonassistent</a> tager hvert eneste opkald, samler detaljerne og booker opgaven, mens du arbejder videre. Læs mere om <a href="/haandvaerker">AI til håndværkere</a>.</p>
+      <div class="blog-cta"><strong>Kunne du tænke dig det samme i din virksomhed?</strong><p>Opret en gratis konto, viderestil dit nummer, og lad AI'en tage dine næste opkald. 7 dage gratis — intet betalingskort.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prøv gratis i 7 dage</a><a href="/demo">Book en demo</a></div></div>
+      <h2>Samme kvalitet på din hjemmeside</h2>
+      <p>Den samme AI-stemme kan sidde på din hjemmeside som en <a href="/widget">AI-talewidget</a>, så kunder, der hellere vil klikke end ringe, får den samme oplevelse og den samme direkte booking i kalenderen.</p>
+      <h2>Sådan kommer du i gang</h2>
+      <p>Opsætningen tager få minutter: du beskriver dine ydelser og åbningstider, forbinder din kalender og viderestiller dit nummer, når du er optaget eller har lukket. Derefter svarer AI'en, booker og sender dig et resumé af hvert opkald, så du altid ved, hvad der er aftalt, før du ringer kunden op. Du bestemmer selv, hvilke opkald den tager, og akutte opkald kan altid stilles om til din egen mobil.</p>
+      <p>Læs også: <a href="/blog/ai-telefonassistent-haandvaerker">AI-telefonassistent til håndværkere</a> og <a href="/blog/hvordan-lyder-en-dansk-ai-receptionist">hvordan lyder en dansk AI-receptionist?</a></p>
+    `,
+    meta_title_en: 'Listen: AI Phone Assistant Books a Job for a Craftsman | AIBooking.dk',
+    meta_title_da: 'Lyt med: AI-telefonassistent booker en håndværkeropgave | AIBooking.dk',
+    meta_description_en: 'Hear a real example call where an AI phone assistant books a job for a craftsman. Judge the voice quality yourself, then try it free for 7 days.',
+    meta_description_da: 'Hør et rigtigt eksempel på et opkald, hvor en AI-telefonassistent booker en opgave for en håndværker. Hør kvaliteten og prøv gratis i 7 dage.',
+    keywords: ['ai telefonassistent', 'håndværker', 'lydeksempel', 'ai booking', 'dansk ai-stemme', 'ai-telefonpasning', 'ai receptionist håndværker'],
+    image_url: '/blog/covers/hoer-ai-telefonassistent-booke-haandvaerker.svg',
+    published: true,
+    audioDemo: 'top',
+    published_at: '2026-09-30',
+  },
+  {
+    id: 'hvordan-lyder-en-dansk-ai-receptionist',
+    slug: 'hvordan-lyder-en-dansk-ai-receptionist',
+    categorySlug: 'ai-inbound-outbound',
+    title_en: 'What Does a Danish AI Receptionist Sound Like? 6 Things to Listen For',
+    title_da: 'Hvordan lyder en dansk AI-receptionist? 6 ting du skal lytte efter',
+    excerpt_en: 'Before you let an AI answer your customers, listen to it. Here are six things that separate a good AI receptionist from a frustrating one.',
+    excerpt_da: 'Før du lader en AI tage imod dine kunder, bør du lytte til den. Her er seks ting, der skiller en god AI-receptionist fra en frustrerende en.',
+    content_en: `
+      <p>Many business owners have had a bad experience with automated phone menus: "press 1 for…", robotic voices and systems that don't understand a word. A modern AI receptionist is something quite different, but the quality varies a lot between solutions. The best test is simple: listen to a real call.</p>
+      <p>We have published a real recorded example call in Danish, in which our AI books a job for a craftsman. Switch the site to Danish to listen to it on this page.</p>
+      <h2>1. Does it sound like a person?</h2>
+      <p>Pace, intonation and pauses matter more than you'd think. A good AI voice sounds calm and friendly and doesn't rush the caller.</p>
+      <h2>2. Does it understand everyday language?</h2>
+      <p>Customers don't speak in keywords. They explain the problem in their own words, change their mind mid-sentence and use local expressions. The AI must still understand what they want.</p>
+      <h2>3. Does it ask the right questions?</h2>
+      <p>A receptionist that only takes a message isn't worth much. It should ask for exactly the information your business needs to act on the request.</p>
+      <h2>4. Does it end with a booking?</h2>
+      <p>The strongest sign of quality is that the call ends with a concrete appointment in your calendar, confirmed to the customer.</p>
+      <h2>5. Does it know when to hand over?</h2>
+      <p>Urgent or complex calls should be forwarded to a person with context, so the customer doesn't have to start over.</p>
+      <h2>6. Does it sound like your business?</h2>
+      <p>Tone and greeting should match how you normally talk to customers, whether you run a <a href="/klinik">clinic</a>, a <a href="/haandvaerker">trade business</a> or an <a href="/kontor">office</a>.</p>
+      <div class="blog-cta"><strong>Hear it with your own business</strong><p>Try our AI receptionist free for 7 days. No commitment, no credit card.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Start free trial</a><a href="/ind-og-udgaaende-opkald">See AI phone answering</a></div></div>
+    `,
+    content_da: `
+      <p>Mange virksomhedsejere har dårlige erfaringer med automatiske telefonmenuer: "tryk 1 for…", robotstemmer og systemer, der ikke forstår et ord. En moderne AI-receptionist er noget helt andet — men kvaliteten svinger meget fra løsning til løsning. Den bedste test er enkel: lyt til et rigtigt opkald.</p>
+      <p>Optagelsen herover er et rigtigt eksempel på et opkald, hvor vores AI booker en opgave for en håndværker. Brug den som målestok, mens du læser de seks punkter nedenfor.</p>
+      <h2>1. Lyder den som et menneske?</h2>
+      <p>Tempo, intonation og pauser betyder mere, end man tror. En god AI-stemme lyder rolig og venlig og haster ikke den, der ringer, igennem samtalen.</p>
+      <h2>2. Forstår den almindeligt talesprog?</h2>
+      <p>Kunder taler ikke i søgeord. De forklarer problemet med deres egne ord, skifter mening midt i en sætning og bruger lokale udtryk. AI'en skal stadig forstå, hvad de vil. Læs mere om <a href="/blog/ai-telefonassistent-dansk-sprog">AI-telefonassistenter på dansk</a>.</p>
+      <h2>3. Stiller den de rigtige spørgsmål?</h2>
+      <p>En receptionist, der kun tager en besked, er ikke meget værd. Den skal spørge ind til præcis de oplysninger, din virksomhed skal bruge for at handle på henvendelsen — hos en håndværker fx adresse, opgavetype og hastegrad.</p>
+      <h2>4. Slutter samtalen med en booking?</h2>
+      <p>Det stærkeste kvalitetstegn er, at opkaldet ender med en konkret aftale i din kalender, som kunden får bekræftet. Det er forskellen på en <a href="/blog/ai-telefon-vs-telefonsvarer">AI-telefon og en telefonsvarer</a>.</p>
+      <div class="blog-cta"><strong>Hør den med din egen virksomhed</strong><p>Prøv vores AI-receptionist gratis i 7 dage. Ingen binding, intet betalingskort.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prøv gratis i 7 dage</a><a href="/ind-og-udgaaende-opkald">Se AI-telefonpasning</a></div></div>
+      <h2>5. Ved den, hvornår den skal stille videre?</h2>
+      <p>Akutte eller komplicerede opkald skal stilles videre til et menneske med kontekst, så kunden ikke skal starte forfra.</p>
+      <h2>6. Lyder den som din virksomhed?</h2>
+      <p>Tone og velkomst skal passe til den måde, I normalt taler med kunderne på — uanset om du driver en <a href="/klinik">klinik</a>, en <a href="/haandvaerker">håndværkervirksomhed</a> eller et <a href="/kontor">kontor</a>.</p>
+      <h2>Lyt, før du vælger</h2>
+      <p>Spørg altid en udbyder om et rigtigt lydeksempel, og ring gerne selv til deres demolinje. Hvis stemmen ikke overbeviser dig, overbeviser den heller ikke dine kunder. Hør også <a href="/blog/hoer-ai-telefonassistent-booke-haandvaerker">hele gennemgangen af håndværker-opkaldet</a>.</p>
+    `,
+    meta_title_en: 'What Does a Danish AI Receptionist Sound Like? | AIBooking.dk',
+    meta_title_da: 'Hvordan lyder en dansk AI-receptionist? Hør et eksempel | AIBooking.dk',
+    meta_description_en: 'Six things to listen for before choosing an AI receptionist – voice, understanding, questions and booking. Hear a real example and try it free.',
+    meta_description_da: 'Seks ting du skal lytte efter, før du vælger en AI-receptionist – stemme, forståelse, spørgsmål og booking. Hør et rigtigt eksempel og prøv gratis.',
+    keywords: ['dansk ai-receptionist', 'ai-stemme dansk', 'ai telefonassistent', 'ai reception', 'lydeksempel', 'voice ai dansk', 'ai-telefonpasning'],
+    image_url: '/blog/covers/hvordan-lyder-en-dansk-ai-receptionist.svg',
+    published: true,
+    audioDemo: 'top',
+    published_at: '2026-09-29',
   },
 ];
 

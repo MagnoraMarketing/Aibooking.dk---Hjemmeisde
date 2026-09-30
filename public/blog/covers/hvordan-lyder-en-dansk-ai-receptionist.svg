@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-hvordanlyder" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(314 0.5 0.5)">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <radialGradient id="glow1-hvordanlyder" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-hvordanlyder" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d97706" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-hvordanlyder" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.10"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-hvordanlyder)"/>
+  <rect width="1200" height="675" fill="url(#dots-hvordanlyder)"/>
+  <circle cx="432.6916044461541" cy="146.51652299799025" r="292.0881658792496" fill="url(#glow1-hvordanlyder)"/>
+  <circle cx="809.7719495999627" cy="523.786734463647" r="260.5838122405112" fill="url(#glow2-hvordanlyder)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#d97706" stroke-width="140" opacity="0.18"
+    transform="rotate(85 600 337.5)"/>
+
+  <circle cx="238.93362092971802" cy="201.39808692131191" r="36.44765852857381" fill="none" stroke="#d97706" stroke-width="2" opacity="0.5"/>
+  <circle cx="167.7894855849445" cy="616.2174582732841" r="30.63686355529353" fill="#1e3a8a" opacity="0.18"/>
+
+  <g transform="translate(620.8308300822973 281.91547484882176) rotate(3)">
+    <circle r="71.56138706870843" fill="white" opacity="0.06"/>
+    <circle r="71.56138706870843" fill="none" stroke="white" stroke-opacity="0.26" stroke-width="1.5"/>
+    <rect x="-52.044645140878856" y="-52.044645140878856" width="104.08929028175771" height="104.08929028175771" rx="26.022322570439428"
+      fill="url(#glow1-hvordanlyder)" opacity="0.9"/>
+    <rect x="-52.044645140878856" y="-52.044645140878856" width="104.08929028175771" height="104.08929028175771" rx="26.022322570439428"
+      fill="#3b82f6" opacity="0.55"/>
+    <g transform="scale(6.505580642609857) translate(-12 -12)">
+      <path d="M4 15v-3a8 8 0 0 1 16 0v3" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round"/><rect x="3" y="14" width="4.5" height="6" rx="1.6" fill="none" stroke="white" stroke-width="1.6"/><rect x="16.5" y="14" width="4.5" height="6" rx="1.6" fill="none" stroke="white" stroke-width="1.6"/>
+    </g>
+  </g>
+</svg>

@@ -55,13 +55,13 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
 
       <PageHero badge={t('hero.badge')} title={t('hero.title')} subtitle={t('hero.subtitle')} />
 
+      {/* Real recorded example call (Danish only), right below the hero */}
+      <BookingAudioDemo className="border-t border-white/10" />
+
       <DashboardShowcase variant="craftsman" className="py-20 md:py-28 bg-white" />
 
       {/* Worked example, right up top so visitors immediately see how it plays out */}
       <IndustryScenario industry="craftsman" />
-
-      {/* Real recorded example call (Danish only) */}
-      <BookingAudioDemo />
 
       <section className="py-16 bg-gradient-to-br from-orange-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

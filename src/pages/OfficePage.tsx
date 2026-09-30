@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
+import BookingAudioDemo from '../components/BookingAudioDemo';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
@@ -58,6 +59,9 @@ function OfficePage({ onNavigate }: OfficePageProps) {
 
       {/* Worked example, right up top so visitors immediately see how it plays out */}
       <IndustryScenario industry="office" />
+
+      {/* Real recorded example call (Danish only) */}
+      <BookingAudioDemo />
 
       <section className="py-16 bg-gradient-to-br from-brand-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

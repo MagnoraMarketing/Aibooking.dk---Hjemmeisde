@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
+import BookingAudioDemo from '../components/BookingAudioDemo';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
@@ -85,6 +86,9 @@ function DemoPage({ onNavigate }: DemoPageProps) {
         subtitle={<>{t('hero.subtitle_line1')}<span className="font-bold text-accent-300">{t('hero.subtitle_bold')}</span>{t('hero.subtitle_line2')}</>}
         secondaryCta={null}
       />
+
+      {/* Real recorded example call (Danish only), right below the hero */}
+      <BookingAudioDemo className="border-t border-white/10" />
 
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

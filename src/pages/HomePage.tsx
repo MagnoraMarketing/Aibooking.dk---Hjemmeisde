@@ -44,9 +44,9 @@ function HomePage({ onNavigate }: HomePageProps) {
       />
       <Navigation onNavigate={onNavigate} transparent />
       <Hero />
+      <BookingAudioDemo className="border-t border-white/10" />
       <SavingsCalculator />
       <HowItWorks />
-      <BookingAudioDemo />
       <ReceptionistShowcase onNavigate={onNavigate} />
       <Features />
       <DashboardShowcase variant="frisor" className="py-20 md:py-28 bg-ink-50/60" />

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
+import BookingAudioDemo from '../components/BookingAudioDemo';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
@@ -98,6 +99,9 @@ function IndustriesPage({ onNavigate }: IndustriesPageProps) {
       <Navigation onNavigate={onNavigate} transparent />
 
       <PageHero badge={t('hero.badge')} title={t('hero.title_line1')} highlight={t('hero.title_line2')} subtitle={t('hero.subtitle')} />
+
+      {/* Real recorded example call (Danish only), right below the hero */}
+      <BookingAudioDemo className="border-t border-white/10" />
 
       {industries.map((industry, index) => (
         <div key={index}>

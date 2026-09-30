@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
+import BookingAudioDemo from '../components/BookingAudioDemo';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
@@ -62,6 +63,9 @@ function TrialPage({ onNavigate }: TrialPageProps) {
         primaryCta={{ label: t('hero.cta_signup'), href: SIGNUP_URL }}
         secondaryCta={{ label: t('hero.cta_contact'), href: '/kontakt' }}
       />
+
+      {/* Real recorded example call (Danish only), right below the hero */}
+      <BookingAudioDemo className="border-t border-white/10" />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">

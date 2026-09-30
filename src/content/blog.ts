@@ -268,6 +268,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai automatisering', 'totalløsning', 'booking', 'widget', 'telefonassistent', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/komplet-ai-automatisering-widget-telefon-booking.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-03-28',
   },
   {
@@ -397,6 +398,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai widget', 'klinik', 'booking', 'åbningstid', 'reception', 'widget til webshop', 'ai widget til shopify'],
     image_url: '/blog/covers/ai-widget-klinik-book-tid-udenfor-aabningstid.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-06-03',
   },
   {
@@ -688,6 +690,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai telefonassistent', 'klinik', 'udeblivelser', 'no-show', 'booking', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/ai-telefonassistent-klinik-udeblivelser.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-06-07',
   },
   {
@@ -763,6 +766,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai outbound', 'påmindelser', 'no-show', 'udeblivelser', 'booking', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/outbound-ai-opkald-paamindelser.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-05-24',
   },
   {
@@ -954,6 +958,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai inbound', 'ai outbound', 'forskel', 'telefonassistent', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/inbound-outbound-forskel.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-04-19',
   },
   {
@@ -991,6 +996,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai telefonassistent', 'kontor', 'administration', 'produktivitet', 'ai-telefonpasning', 'dansk ai-receptionist'],
     image_url: '/blog/covers/ai-telefonassistent-kontor-administration.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-04-12',
   },
 
@@ -1107,6 +1113,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai totalløsning', 'klinik', 'patientrejse', 'booking', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/totalloesning-klinik.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-05-14',
   },
   {
@@ -1717,6 +1724,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai kundeservice', 'kundeservice ai', 'ai i kundeservice', 'automatisk kundeservice', 'ai chatbot kundeservice', 'kundeservice automatisering', 'dansk ai-receptionist', 'ai-telefonpasning', 'widget til webshop'],
     image_url: '/blog/covers/ai-kundeservice.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-09-17',
   },
   {
@@ -2250,6 +2258,7 @@ export const blogPosts: BlogPost[] = [
     keywords: ['ai til webshop', 'shopify integration', 'ai til shopify', 'ai voice', 'ai reception hjemmeside', 'ai til indgående opkald', 'ai kundeservice webshop', 'shopify ai', 'ai telefonsvarer webshop', 'ai voice widget', 'ai til hjemmeside', 'voice ai dansk'],
     image_url: '/blog/covers/shopify-integration-ai-voice-indgaaende-opkald.svg',
     published: true,
+    audioDemo: 'bottom',
     published_at: '2026-09-23',
   },
   {

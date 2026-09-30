@@ -6,6 +6,7 @@ import {
   Sparkles, Clock, LayoutDashboard,
 } from 'lucide-react';
 import Navigation from '../components/Navigation';
+import BookingAudioDemo from '../components/BookingAudioDemo';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
@@ -368,6 +369,9 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
           </div>
         </div>
       </section>
+
+      {/* Real recorded example call (Danish only), right below the hero */}
+      <BookingAudioDemo className="border-t border-white/10" />
 
       {/* What it is */}
       <section className="py-20 md:py-28 bg-white">

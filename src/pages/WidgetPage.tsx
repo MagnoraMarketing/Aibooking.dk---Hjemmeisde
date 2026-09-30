@@ -573,6 +573,9 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
           </div>
         </section>
 
+        {/* Real recorded example call (Danish only), right below the hero */}
+        <BookingAudioDemo className="border-t border-white/10" />
+
         {/* Stats */}
         <section className="py-16 bg-brand-600">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -586,9 +589,6 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
             </div>
           </div>
         </section>
-
-        {/* Real recorded example call (Danish only) */}
-        <BookingAudioDemo />
 
         {/* What is a voice widget */}
         <section className="py-20 md:py-28">

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
+import BookingAudioDemo from '../components/BookingAudioDemo';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import FAQ from '../components/FAQ';
@@ -69,6 +70,9 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
       <Navigation onNavigate={onNavigate} transparent />
 
       <PageHero badge={t('hero.badge')} title={t('hero.title')} subtitle={t('hero.subtitle')} secondaryCta={{ label: t('voiceWidget.cta'), href: '/widget' }} />
+
+      {/* Real recorded example call (Danish only), right below the hero */}
+      <BookingAudioDemo className="border-t border-white/10" />
 
       <DashboardShowcase variant="ecommerce" className="py-20 md:py-28 bg-white" />
 

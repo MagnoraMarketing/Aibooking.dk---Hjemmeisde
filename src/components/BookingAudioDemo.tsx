@@ -118,7 +118,7 @@ function AudioPlayer({ dark }: { dark: boolean }) {
 
         <div className="flex-1 min-w-0">
           <div className={`text-sm font-semibold mb-2 ${dark ? 'text-white' : 'text-ink-900'}`}>
-            Opkald: kunde booker håndværker
+            Eksempel med booking – Håndværker / klinik
           </div>
           <div
             role="slider"
@@ -218,7 +218,7 @@ export default function BookingAudioDemo({ variant = 'section', className = '' }
   }
 
   return (
-    <section className={`relative py-20 md:py-28 bg-ink-950 overflow-hidden ${className}`}>
+    <section id="lydeksempel" className={`relative py-20 md:py-28 bg-ink-950 overflow-hidden scroll-mt-20 ${className}`}>
       {schema}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.06)_1px,transparent_0)] bg-[length:32px_32px]" />
       <div className="absolute -top-32 -left-24 w-[520px] h-[520px] bg-brand-600/25 rounded-full blur-3xl" />

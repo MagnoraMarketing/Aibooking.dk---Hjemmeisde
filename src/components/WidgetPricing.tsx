@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { localizedPrice } from '../utils/currency';
 import type { SupportedLanguage } from '../i18n/config';
 import { WIDGET_PLAN_PRICE_DKK } from '../utils/pricing';
+import { buildLocalizedPath } from '../utils/localePaths';
 
 interface WidgetFeature {
   bold: string;
@@ -73,7 +74,7 @@ function WidgetPricing() {
                   </div>
 
                   <a
-                    href="https://aibooking.dk/widget"
+                    href={buildLocalizedPath(lang, '/widget')}
                     className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-ink-950 bg-accent-400 rounded-xl hover:bg-accent-300 transition-all shadow-lg shadow-accent-500/20 hover:scale-105 group"
                   >
                     {t('widgetPricing.cta')}

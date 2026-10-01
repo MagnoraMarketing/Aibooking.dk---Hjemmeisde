@@ -1,35 +1,5 @@
-export const organizationSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Organization',
-  '@id': 'https://www.aibooking.dk/#organization',
-  name: 'Aibooking.dk',
-  url: 'https://www.aibooking.dk',
-  logo: 'https://www.aibooking.dk/aibooking_logo.jpg',
-  description: 'AI-drevet reception og booking system til danske virksomheder',
-  email: 'mail@aibooking.dk',
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Aarhus',
-    addressRegion: 'Midtjylland',
-    addressCountry: 'DK',
-  },
-  contactPoint: {
-    '@type': 'ContactPoint',
-    email: 'mail@aibooking.dk',
-    contactType: 'customer service',
-    availableLanguage: ['da', 'en', 'es', 'fr', 'pt'],
-  },
-};
-
-export const websiteSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'WebSite',
-  '@id': 'https://www.aibooking.dk/#website',
-  name: 'Aibooking.dk',
-  url: 'https://www.aibooking.dk',
-  inLanguage: ['da-DK', 'en', 'es', 'fr', 'pt'],
-  publisher: { '@id': 'https://www.aibooking.dk/#organization' },
-};
+// The site-wide Organization (#organization) and WebSite (#website) entities
+// are declared once in index.html, so every page carries them.
 
 // No aggregateRating here: Google only allows ratings in structured data
 // when the same reviews are visible on the page, otherwise it can trigger a

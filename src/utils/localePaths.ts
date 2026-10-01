@@ -24,3 +24,10 @@ export function buildLocalizedPath(lang: SupportedLanguage, path: string): strin
 export function localizedUrl(lang: SupportedLanguage, path: string): string {
   return `https://www.aibooking.dk${buildLocalizedPath(lang, path)}`;
 }
+
+// Blog posts only exist in Danish and English (other languages read the
+// English text), so link pt/fr/es readers straight to the English post
+// instead of a /pt/blog/... URL that isn't published.
+export function blogPostPath(lang: SupportedLanguage, slug: string): string {
+  return buildLocalizedPath(lang === 'da' ? 'da' : 'en', `/blog/${slug}`);
+}

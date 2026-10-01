@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import JsonLd from './JsonLd';
 
 export interface FAQItem {
   question_da: string;
@@ -42,7 +43,7 @@ export default function FAQ({ items }: FAQProps) {
 
   return (
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
-      <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
+      <JsonLd data={structuredData} />
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-ink-900 mb-4 tracking-tight">

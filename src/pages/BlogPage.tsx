@@ -10,8 +10,9 @@ import BlogCTA from '../components/BlogCTA';
 import { blogFAQs } from '../content/faq';
 import { getPublishedPosts, getCategoryBySlug, blogCategories, BlogPost } from '../content/blog';
 import type { SupportedLanguage } from '../i18n/config';
-import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
+import { blogPostPath, localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
+import JsonLd from '../components/JsonLd';
 
 const PAGE_PATH = '/blog';
 
@@ -23,7 +24,6 @@ export default function BlogPage({ onNavigate }: BlogPageProps) {
   const { t, i18n } = useTranslation('blogPage');
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
   const allPosts = getPublishedPosts();
-  const blogHref = (path: string) => buildLocalizedPath(lang, path);
 
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [query, setQuery] = useState('');
@@ -111,9 +111,7 @@ export default function BlogPage({ onNavigate }: BlogPageProps) {
         path={PAGE_PATH}
       />
 
-      <script type="application/ld+json">
-        {JSON.stringify(structuredData)}
-      </script>
+      <JsonLd data={structuredData} />
 
       <Navigation onNavigate={onNavigate} transparent />
 
@@ -209,7 +207,7 @@ export default function BlogPage({ onNavigate }: BlogPageProps) {
               <>
                 {showFeatured && (
                   <div className="mb-10 sm:mb-12">
-                    <a href={blogHref(`/blog/${filteredPosts[0].slug}`)} className="block group">
+                    <a href={blogPostPath(lang, filteredPosts[0].slug)} className="block group">
                       <article className="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
                         <div className="grid lg:grid-cols-2 gap-6 sm:gap-8">
                           <div className="aspect-[16/10] lg:aspect-auto overflow-hidden">
@@ -258,7 +256,7 @@ export default function BlogPage({ onNavigate }: BlogPageProps) {
                       key={post.id}
                       className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
                     >
-                      <a href={blogHref(`/blog/${post.slug}`)} className="block">
+                      <a href={blogPostPath(lang, post.slug)} className="block">
                         <div className="aspect-video overflow-hidden bg-ink-100">
                           <img
                             src={post.image_url}

@@ -15,7 +15,7 @@ import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import FAQ from '../components/FAQ';
 import { homeFAQs } from '../content/faq';
-import { organizationSchema, websiteSchema, softwareApplicationSchema } from '../utils/structuredData';
+import { softwareApplicationSchema } from '../utils/structuredData';
 import type { SupportedLanguage } from '../i18n/config';
 import { localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
@@ -27,10 +27,9 @@ interface HomePageProps {
 function HomePage({ onNavigate }: HomePageProps) {
   const { t, i18n } = useTranslation();
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
-  const structuredData = {
-    '@context': 'https://schema.org',
-    '@graph': [organizationSchema, websiteSchema, softwareApplicationSchema],
-  };
+  // Organization and WebSite are site-wide in index.html; only add what's
+  // specific to the home page so the entities aren't declared twice.
+  const structuredData = softwareApplicationSchema;
 
   return (
     <div className="min-h-screen bg-white">

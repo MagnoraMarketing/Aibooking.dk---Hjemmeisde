@@ -4,6 +4,7 @@ import { Play, Pause, ArrowRight, Headphones, CheckCircle2, Phone } from 'lucide
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath } from '../utils/localePaths';
 import { DEMO_PHONE_DISPLAY, DEMO_PHONE_TEL } from '../utils/demoPhone';
+import JsonLd from './JsonLd';
 
 // A real recorded example call where the AI books a job for a craftsman, so
 // visitors can hear the voice quality. The recording is in Danish, so the
@@ -178,7 +179,7 @@ export default function BookingAudioDemo({ variant = 'section', className = '' }
   if (lang !== 'da') return null;
 
   const trialHref = buildLocalizedPath(lang, '/proeveperiode');
-  const schema = <script type="application/ld+json">{JSON.stringify(audioSchema)}</script>;
+  const schema = <JsonLd data={audioSchema} />;
 
   if (variant === 'inline') {
     return (

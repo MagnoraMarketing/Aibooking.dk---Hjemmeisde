@@ -9,8 +9,9 @@ import BookingAudioDemo from '../components/BookingAudioDemo';
 import { blogFAQs } from '../content/faq';
 import { getPostBySlug, getCategoryBySlug, getRelatedPosts, BlogPost } from '../content/blog';
 import type { SupportedLanguage } from '../i18n/config';
-import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
+import { blogPostPath, buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
+import JsonLd from '../components/JsonLd';
 
 const POST_LANGUAGES = ['da', 'en'] as const;
 
@@ -147,12 +148,8 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
         languages={POST_LANGUAGES}
       />
 
-      <script type="application/ld+json">
-        {JSON.stringify(structuredData)}
-      </script>
-      <script type="application/ld+json">
-        {JSON.stringify(breadcrumbData)}
-      </script>
+      <JsonLd data={structuredData} />
+      <JsonLd data={breadcrumbData} />
 
       <Navigation onNavigate={onNavigate} transparent />
 
@@ -240,7 +237,7 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
               {relatedPosts.map((relatedPost) => (
                 <a
                   key={relatedPost.id}
-                  href={blogHref(`/blog/${relatedPost.slug}`)}
+                  href={blogPostPath(lang, relatedPost.slug)}
                   className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
                 >
                   <div className="aspect-video overflow-hidden bg-ink-100">

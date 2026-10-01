@@ -9,8 +9,9 @@ import BlogCTA from '../components/BlogCTA';
 import { blogFAQs } from '../content/faq';
 import { getCategoryBySlug, getPostsByCategory, BlogPost } from '../content/blog';
 import type { SupportedLanguage } from '../i18n/config';
-import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
+import { blogPostPath, buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
+import JsonLd from '../components/JsonLd';
 
 interface BlogCategoryPageProps {
   categorySlug: string;
@@ -86,9 +87,7 @@ export default function BlogCategoryPage({ categorySlug, onNavigate }: BlogCateg
         path={`/blog/category/${categorySlug}`}
       />
 
-      <script type="application/ld+json">
-        {JSON.stringify(structuredData)}
-      </script>
+      <JsonLd data={structuredData} />
 
       <Navigation onNavigate={onNavigate} transparent />
 
@@ -131,7 +130,7 @@ export default function BlogCategoryPage({ categorySlug, onNavigate }: BlogCateg
                     key={post.id}
                     className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
                   >
-                    <a href={blogHref(`/blog/${post.slug}`)} className="block">
+                    <a href={blogPostPath(lang, post.slug)} className="block">
                       <div className="aspect-video overflow-hidden bg-ink-100">
                         <img
                           src={post.image_url}

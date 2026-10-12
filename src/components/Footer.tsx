@@ -1,8 +1,9 @@
-import { Phone, Mail, MapPin, LogIn, UserPlus } from 'lucide-react';
+import { Phone, Mail, MapPin, LogIn, UserPlus, Facebook, Share2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 import type { NavigatePage } from '../types/navigation';
 import { LOGIN_URL, SIGNUP_URL } from '../utils/backend';
+import { FACEBOOK_URL, facebookShareUrl } from '../utils/social';
 import { useLocalizedHref } from '../utils/pagePaths';
 import PageLink from './PageLink';
 import { SUPPORTED_LANGUAGES, SupportedLanguage } from '../i18n/config';
@@ -277,6 +278,28 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
         </div>
 
         <div className="border-t border-ink-800 pt-8 text-center text-sm text-ink-400">
+          {/* Follow us on Facebook, and share the page you are on */}
+          <div className="mb-6 flex flex-wrap items-center justify-center gap-3">
+            <a
+              href={FACEBOOK_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={t('footer.facebook_follow')}
+              title={t('footer.facebook_follow')}
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-ink-800 text-white hover:bg-[#1877F2] transition-colors"
+            >
+              <Facebook className="w-5 h-5" />
+            </a>
+            <a
+              href={facebookShareUrl(currentPathname())}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-ink-700 px-4 py-2 text-white hover:bg-ink-800 transition-colors"
+            >
+              <Share2 className="w-4 h-4" />
+              {t('footer.facebook_share')}
+            </a>
+          </div>
           <nav aria-label={t('nav.language')} className="mb-4 flex flex-wrap justify-center gap-x-4 gap-y-2">
             {SUPPORTED_LANGUAGES.map((lang) => (
               <a

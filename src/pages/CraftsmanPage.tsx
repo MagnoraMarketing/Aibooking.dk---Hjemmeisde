@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
+import AppQrSection from '../components/AppQrSection';
 import FAQ from '../components/FAQ';
 import { craftsmanFAQs } from '../content/faq';
 import SEO from '../components/SEO';
@@ -146,6 +147,7 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
 
       <FAQ items={craftsmanFAQs} />
       <WidgetCapabilitiesSEO />
+      <AppQrSection />
       <Footer onNavigate={onNavigate} />
     </div>
   );

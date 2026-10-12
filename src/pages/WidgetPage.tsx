@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import AppQrSection from '../components/AppQrSection';
 import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import { localizedPrice } from '../utils/currency';
@@ -999,6 +1000,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
 
       </main>
       <WidgetCapabilitiesSEO />
+      <AppQrSection />
       <Footer onNavigate={onNavigate} />
     </>
   );

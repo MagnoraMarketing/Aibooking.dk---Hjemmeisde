@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
+import AppQrSection from '../components/AppQrSection';
 import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
@@ -190,6 +191,7 @@ function TrialPage({ onNavigate }: TrialPageProps) {
       </section>
 
       <WidgetCapabilitiesSEO />
+      <AppQrSection />
       <Footer onNavigate={onNavigate} />
     </div>
   );

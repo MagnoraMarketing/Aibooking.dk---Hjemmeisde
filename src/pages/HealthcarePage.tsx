@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
+import AppQrSection from '../components/AppQrSection';
 import FAQ from '../components/FAQ';
 import { healthcareFAQs } from '../content/faq';
 import SEO from '../components/SEO';
@@ -146,6 +147,7 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
 
       <FAQ items={healthcareFAQs} />
       <WidgetCapabilitiesSEO />
+      <AppQrSection />
       <Footer onNavigate={onNavigate} />
     </div>
   );

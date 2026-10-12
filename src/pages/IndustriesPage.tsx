@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
+import AppQrSection from '../components/AppQrSection';
 import FAQ from '../components/FAQ';
 import { industriesFAQs } from '../content/faq';
 import IndustrySection from '../components/industries/IndustrySection';
@@ -144,6 +145,7 @@ function IndustriesPage({ onNavigate }: IndustriesPageProps) {
 
       <FAQ items={industriesFAQs} />
       <WidgetCapabilitiesSEO />
+      <AppQrSection />
       <Footer onNavigate={onNavigate} />
     </div>
   );

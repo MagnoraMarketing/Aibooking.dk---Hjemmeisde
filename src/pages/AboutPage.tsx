@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
+import AppQrSection from '../components/AppQrSection';
 import FAQ from '../components/FAQ';
 import { aboutFAQs } from '../content/faq';
 import SEO from '../components/SEO';
@@ -233,6 +234,7 @@ function AboutPage({ onNavigate }: AboutPageProps) {
 
       <FAQ items={aboutFAQs} />
       <WidgetCapabilitiesSEO />
+      <AppQrSection />
       <Footer onNavigate={onNavigate} />
     </div>
   );

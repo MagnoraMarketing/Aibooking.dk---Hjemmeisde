@@ -307,7 +307,6 @@
     "rights": "Todos los derechos reservados",
     "customer_cta_title": "Acceso de clientes",
     "customer_cta_subtitle": "Entra en tu panel o crea una cuenta gratuita como nuevo cliente.",
-    "customer_cta_qr": "Escanea para abrir la app en tu móvil",
     "made_by": "Creado y gestionado por"
   },
   "contact": {
@@ -652,5 +651,16 @@
     "cta": "Crear cuenta gratuita",
     "demo_phone_label": "¿Quieres oírlo primero? Llama gratis al",
     "demo_phone_note": "sin compromiso, y la llamada es gratuita"
+  },
+  "appQr": {
+    "eyebrow": "La app de AIbooking",
+    "title": "Gestiona AIbooking desde el móvil",
+    "subtitle": "Inicia sesión con tu cuenta de AIbooking en la app y controla tu recepcionista con IA estés donde estés.",
+    "point_login": "El mismo acceso que en el ordenador",
+    "point_overview": "Consulta llamadas, conversaciones y reservas al instante",
+    "point_devices": "Funciona en iPhone y Android",
+    "button": "Obtener la app",
+    "qr_alt": "Código QR de la app de AIbooking",
+    "scan_hint": "Escanea con la cámara del móvil para obtener la app"
   }
 }

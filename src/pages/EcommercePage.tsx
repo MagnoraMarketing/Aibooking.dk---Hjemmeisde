@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
+import AppQrSection from '../components/AppQrSection';
 import FAQ from '../components/FAQ';
 import { ecommerceFAQs } from '../content/faq';
 import SEO from '../components/SEO';
@@ -226,6 +227,7 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
 
       <FAQ items={ecommerceFAQs} />
       <WidgetCapabilitiesSEO />
+      <AppQrSection />
       <Footer onNavigate={onNavigate} />
     </div>
   );

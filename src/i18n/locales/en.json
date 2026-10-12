@@ -651,5 +651,16 @@
     "cta": "Create free account",
     "demo_phone_label": "Want to hear it first? Call for free on",
     "demo_phone_note": "no obligation, and it's free to call"
+  },
+  "appQr": {
+    "eyebrow": "The AIbooking app",
+    "title": "Manage AIbooking from your phone",
+    "subtitle": "Log in with your AIbooking account in the app and keep track of your AI receptionist wherever you are.",
+    "point_login": "The same login as on your computer",
+    "point_overview": "See calls, conversations and bookings instantly",
+    "point_devices": "Works on both iPhone and Android",
+    "button": "Get the app",
+    "qr_alt": "QR code for the AIbooking app",
+    "scan_hint": "Scan with your phone's camera to get the app"
   }
 }

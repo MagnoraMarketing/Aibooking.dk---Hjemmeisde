@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import AppQrSection from '../components/AppQrSection';
 import FAQ from '../components/FAQ';
 import { integrationsFAQs } from '../content/faq';
 import IntegrationHero from '../components/integrations/IntegrationHero';
@@ -46,6 +47,7 @@ function IntegrationsPage({ onNavigate }: IntegrationsPageProps) {
       <IntegrationCTA />
       <FAQ items={integrationsFAQs} />
       <WidgetCapabilitiesSEO />
+      <AppQrSection />
       <Footer onNavigate={onNavigate} />
     </div>
   );

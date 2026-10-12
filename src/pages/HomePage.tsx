@@ -11,6 +11,7 @@ import CTA from '../components/CTA';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import AppQrSection from '../components/AppQrSection';
 import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import FAQ from '../components/FAQ';
@@ -54,6 +55,7 @@ function HomePage({ onNavigate }: HomePageProps) {
       <CTA />
       <FAQ items={homeFAQs} />
       <WidgetCapabilitiesSEO />
+      <AppQrSection />
       <Footer onNavigate={onNavigate} />
     </div>
   );

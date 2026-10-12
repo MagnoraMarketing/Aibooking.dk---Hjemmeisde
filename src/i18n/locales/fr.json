@@ -651,5 +651,16 @@
     "cta": "Créer un compte gratuit",
     "demo_phone_label": "Vous voulez l'entendre d'abord ? Appelez gratuitement le",
     "demo_phone_note": "sans engagement, et l'appel est gratuit"
+  },
+  "appQr": {
+    "eyebrow": "L'app AIbooking",
+    "title": "Pilotez AIbooking depuis votre mobile",
+    "subtitle": "Connectez-vous à votre compte AIbooking dans l'app et suivez votre réceptionniste IA où que vous soyez.",
+    "point_login": "Les mêmes identifiants que sur votre ordinateur",
+    "point_overview": "Consultez appels, conversations et réservations en direct",
+    "point_devices": "Fonctionne sur iPhone et Android",
+    "button": "Installer l'app",
+    "qr_alt": "Code QR de l'app AIbooking",
+    "scan_hint": "Scannez avec l'appareil photo de votre mobile pour installer l'app"
   }
 }

@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
+import AppQrSection from '../components/AppQrSection';
 import FAQ from '../components/FAQ';
 import { featuresFAQs } from '../content/faq';
 import SEO from '../components/SEO';
@@ -564,6 +565,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
 
       <FAQ items={featuresFAQs} />
       <WidgetCapabilitiesSEO />
+      <AppQrSection />
       <Footer onNavigate={onNavigate} />
     </div>
   );

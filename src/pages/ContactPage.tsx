@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
+import AppQrSection from '../components/AppQrSection';
 import FAQ from '../components/FAQ';
 import { contactFAQs } from '../content/faq';
 import SEO from '../components/SEO';
@@ -309,6 +310,7 @@ function ContactPage({ onNavigate }: ContactPageProps) {
 
       <FAQ items={contactFAQs} />
       <WidgetCapabilitiesSEO />
+      <AppQrSection />
       <Footer onNavigate={onNavigate} />
     </div>
   );

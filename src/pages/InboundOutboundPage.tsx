@@ -8,6 +8,7 @@ import {
 import Navigation from '../components/Navigation';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import Footer from '../components/Footer';
+import AppQrSection from '../components/AppQrSection';
 import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import { localizedPrice } from '../utils/currency';
@@ -717,6 +718,7 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
       </section>
 
       <WidgetCapabilitiesSEO />
+      <AppQrSection />
       <Footer onNavigate={onNavigate} />
     </div>
   );

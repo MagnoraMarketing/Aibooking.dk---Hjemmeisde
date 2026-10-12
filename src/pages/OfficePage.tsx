@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
+import AppQrSection from '../components/AppQrSection';
 import FAQ from '../components/FAQ';
 import { officeFAQs } from '../content/faq';
 import SEO from '../components/SEO';
@@ -146,6 +147,7 @@ function OfficePage({ onNavigate }: OfficePageProps) {
 
       <FAQ items={officeFAQs} />
       <WidgetCapabilitiesSEO />
+      <AppQrSection />
       <Footer onNavigate={onNavigate} />
     </div>
   );

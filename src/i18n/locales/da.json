@@ -651,5 +651,16 @@
     "cta": "Opret gratis konto",
     "demo_phone_label": "Vil du høre AI'en først? Ring gratis til",
     "demo_phone_note": "helt uforpligtende, og det er gratis at ringe"
+  },
+  "appQr": {
+    "eyebrow": "AIbooking-appen",
+    "title": "Styr AIbooking fra mobilen",
+    "subtitle": "Log ind med din AIbooking-konto i appen, og hold styr på din AI-receptionist, uanset hvor du er.",
+    "point_login": "Samme login som på computeren",
+    "point_overview": "Se opkald, samtaler og bookinger med det samme",
+    "point_devices": "Virker på både iPhone og Android",
+    "button": "Hent appen",
+    "qr_alt": "QR-kode til AIbooking-appen",
+    "scan_hint": "Scan med telefonens kamera for at hente appen"
   }
 }

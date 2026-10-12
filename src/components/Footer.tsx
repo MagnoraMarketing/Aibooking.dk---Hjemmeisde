@@ -253,6 +253,18 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
               <h3 className="text-white font-semibold text-lg mb-1.5">{t('footer.customer_cta_title')}</h3>
               <p className="text-sm text-ink-400 leading-relaxed">{t('footer.customer_cta_subtitle')}</p>
             </div>
+            {/* QR to the customer app — only useful on a desktop, phones just tap Log ind */}
+            <div className="hidden lg:flex items-center gap-3 flex-shrink-0">
+              <img
+                src="/app-qr.svg"
+                alt={t('footer.customer_cta_qr')}
+                width={88}
+                height={88}
+                loading="lazy"
+                className="w-[88px] h-[88px] rounded-lg bg-white p-1"
+              />
+              <p className="text-xs text-ink-400 leading-snug max-w-[7.5rem]">{t('footer.customer_cta_qr')}</p>
+            </div>
             <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
               <a
                 href={LOGIN_URL}

@@ -57,7 +57,9 @@
       { "name": "Discord", "description": "Community and server integration", "category": "Communication" },
       { "name": "OpenAI", "description": "Advanced AI support", "category": "AI" },
       { "name": "Webhooks", "description": "Custom integration with your systems", "category": "Developer" },
-      { "name": "REST API", "description": "Full API access to all features", "category": "Developer" }
+      { "name": "REST API", "description": "Full API access to all features", "category": "Developer" },
+      {"name": "Just Eat", "description": "Let the agent book a Just Eat courier for the customer", "category": "Delivery"},
+      {"name": "Uber Direct", "description": "A courier from your business to the customer – price and time first", "category": "Delivery"}
     ],
     "missing": {
       "title": "Missing your integration?",
@@ -118,5 +120,17 @@
       { "value": "24/7", "label": "AI-powered customer service" },
       { "value": "100%", "label": "Automatic synchronization" }
     ]
+  },
+  "foodDelivery": {
+    "badge": "New: food delivery",
+    "title": "Let the AI receptionist order food delivery with Just Eat and Uber Direct",
+    "description": "For restaurants, cafés and shops: the customer calls or writes, the agent gets the price and delivery time and books a courier once the customer says yes – on the phone and in the chat on your website.",
+    "points": [
+      "Price and delivery time are read out before ordering",
+      "With both Just Eat and Uber Direct, the agent offers both prices",
+      "Customers can ask about the status of their delivery",
+      "Set up under Integrations → Delivery in your dashboard"
+    ],
+    "cta": "Try for free"
   }
 }

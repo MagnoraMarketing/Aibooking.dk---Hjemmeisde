@@ -57,7 +57,9 @@
       { "name": "Discord", "description": "Intégration communauté et serveur", "category": "Communication" },
       { "name": "OpenAI", "description": "Support IA avancé", "category": "IA" },
       { "name": "Webhooks", "description": "Intégration personnalisée avec vos systèmes", "category": "Développeur" },
-      { "name": "REST API", "description": "Accès API complet à toutes les fonctionnalités", "category": "Développeur" }
+      { "name": "REST API", "description": "Accès API complet à toutes les fonctionnalités", "category": "Développeur" },
+      {"name": "Just Eat", "description": "Laissez l'agent commander un coursier Just Eat pour le client", "category": "Livraison"},
+      {"name": "Uber Direct", "description": "Un coursier de votre commerce au client – prix et délai d'abord", "category": "Livraison"}
     ],
     "missing": {
       "title": "Votre intégration manque à l'appel ?",
@@ -118,5 +120,17 @@
       { "value": "24/7", "label": "Service client propulsé par IA" },
       { "value": "100%", "label": "Synchronisation automatique" }
     ]
+  },
+  "foodDelivery": {
+    "badge": "Nouveau : livraison de repas",
+    "title": "Laissez la réception IA commander des livraisons avec Just Eat et Uber Direct",
+    "description": "Pour restaurants, cafés et boutiques : le client appelle ou écrit, l'agent obtient le prix et le délai et commande un coursier dès que le client accepte – au téléphone et dans le chat de votre site.",
+    "points": [
+      "Prix et délai annoncés avant la commande",
+      "Avec Just Eat et Uber Direct, l'agent propose les deux prix",
+      "Le client peut demander le statut de sa livraison",
+      "Se configure dans Intégrations → Livraison de votre tableau de bord"
+    ],
+    "cta": "Essai gratuit"
   }
 }

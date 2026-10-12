@@ -57,7 +57,9 @@
       { "name": "Discord", "description": "Integração de comunidade e servidor", "category": "Comunicação" },
       { "name": "OpenAI", "description": "Suporte avançado de IA", "category": "IA" },
       { "name": "Webhooks", "description": "Integração personalizada com os seus sistemas", "category": "Programador" },
-      { "name": "REST API", "description": "Acesso total à API para todas as funcionalidades", "category": "Programador" }
+      { "name": "REST API", "description": "Acesso total à API para todas as funcionalidades", "category": "Programador" },
+      {"name": "Just Eat", "description": "Deixe o agente pedir um estafeta da Just Eat para o cliente", "category": "Entrega"},
+      {"name": "Uber Direct", "description": "Um estafeta do seu negócio até ao cliente – preço e tempo primeiro", "category": "Entrega"}
     ],
     "missing": {
       "title": "Falta a sua integração?",
@@ -118,5 +120,17 @@
       { "value": "24/7", "label": "Serviço ao cliente com IA" },
       { "value": "100%", "label": "Sincronização automática" }
     ]
+  },
+  "foodDelivery": {
+    "badge": "Novo: entrega de comida",
+    "title": "Deixe a receção com IA encomendar entregas com a Just Eat e a Uber Direct",
+    "description": "Para restaurantes, cafés e lojas: o cliente liga ou escreve, o agente obtém preço e prazo e pede um estafeta quando o cliente diz que sim – ao telefone e no chat do seu site.",
+    "points": [
+      "Preço e prazo são comunicados antes de encomendar",
+      "Com Just Eat e Uber Direct, o agente oferece os dois preços",
+      "O cliente pode perguntar pelo estado da entrega",
+      "Configura-se em Integrações → Entrega no seu painel"
+    ],
+    "cta": "Experimente grátis"
   }
 }

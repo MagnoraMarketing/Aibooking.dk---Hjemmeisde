@@ -57,7 +57,9 @@
       { "name": "Discord", "description": "Community og server integration", "category": "Kommunikation" },
       { "name": "OpenAI", "description": "Avanceret AI-understøttelse", "category": "AI" },
       { "name": "Webhooks", "description": "Custom integration med dine systemer", "category": "Udvikler" },
-      { "name": "REST API", "description": "Fuld API adgang til alle funktioner", "category": "Udvikler" }
+      { "name": "REST API", "description": "Fuld API adgang til alle funktioner", "category": "Udvikler" },
+      {"name": "Just Eat", "description": "Lad agenten bestille et Just Eat-bud til kunden", "category": "Levering"},
+      {"name": "Uber Direct", "description": "Bud fra jeres forretning til kunden – pris og tid først", "category": "Levering"}
     ],
     "missing": {
       "title": "Mangler din integration?",
@@ -118,5 +120,17 @@
       { "value": "24/7", "label": "AI-drevet kundeservice" },
       { "value": "100%", "label": "Automatisk synkronisering" }
     ]
+  },
+  "foodDelivery": {
+    "badge": "Nyt: madlevering",
+    "title": "Lad AI-receptionisten bestille madlevering med Just Eat og Uber Direct",
+    "description": "Til restauranter, caféer og butikker: kunden ringer eller skriver, agenten henter pris og leveringstid og bestiller et bud, når kunden siger ja – både i telefonen og i chatten på jeres hjemmeside.",
+    "points": [
+      "Pris og leveringstid læses op, før der bestilles",
+      "Har I både Just Eat og Uber Direct, tilbyder agenten begge priser",
+      "Kunden kan spørge til status på sin levering",
+      "Sættes op under Integrationer → Levering i jeres dashboard"
+    ],
+    "cta": "Prøv gratis"
   }
 }

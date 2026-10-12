@@ -6,6 +6,7 @@ import FAQ from '../components/FAQ';
 import { integrationsFAQs } from '../content/faq';
 import IntegrationHero from '../components/integrations/IntegrationHero';
 import IntegrationCategories from '../components/integrations/IntegrationCategories';
+import FoodDeliverySpotlight from '../components/integrations/FoodDeliverySpotlight';
 import IntegrationGrid from '../components/integrations/IntegrationGrid';
 import IntegrationSEO from '../components/integrations/IntegrationSEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
@@ -41,6 +42,7 @@ function IntegrationsPage({ onNavigate }: IntegrationsPageProps) {
       />
       <Navigation onNavigate={onNavigate} transparent />
       <IntegrationHero />
+      <FoodDeliverySpotlight />
       <IntegrationCategories />
       <IntegrationGrid />
       <IntegrationSEO />

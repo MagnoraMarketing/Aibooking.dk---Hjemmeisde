@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-hvaderenaivo" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(344 0.5 0.5)">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <radialGradient id="glow1-hvaderenaivo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-hvaderenaivo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-hvaderenaivo" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-hvaderenaivo)"/>
+  <rect width="1200" height="675" fill="url(#dots-hvaderenaivo)"/>
+  <circle cx="259.3985128449276" cy="120.16285774298012" r="356.40124574303627" fill="url(#glow1-hvaderenaivo)"/>
+  <circle cx="940.6490226974711" cy="487.77998223667964" r="346.7015510611236" fill="url(#glow2-hvaderenaivo)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#f59e0b" stroke-width="140" opacity="0.12"
+    transform="rotate(174 600 337.5)"/>
+
+  <circle cx="218.72374883294106" cy="108.07895876001568" r="30.301624892745167" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+  <circle cx="113.79247445426881" cy="538.1107047758996" r="21.14425032166764" fill="#3b82f6" opacity="0.18"/>
+
+  <g transform="translate(711.1358285620807 320.4893085085787) rotate(-1)">
+    <circle r="98.51644250308163" fill="white" opacity="0.06"/>
+    <circle r="98.51644250308163" fill="none" stroke="white" stroke-opacity="0.18" stroke-width="1.5"/>
+    <rect x="-71.648321820423" y="-71.648321820423" width="143.296643640846" height="143.296643640846" rx="35.8241609102115"
+      fill="url(#glow1-hvaderenaivo)" opacity="0.9"/>
+    <rect x="-71.648321820423" y="-71.648321820423" width="143.296643640846" height="143.296643640846" rx="35.8241609102115"
+      fill="#3b82f6" opacity="0.55"/>
+    <g transform="scale(8.956040227552876) translate(-12 -12)">
+      <path d="M4 15v-3a8 8 0 0 1 16 0v3" fill="none" stroke="white" stroke-width="1.6" stroke-linecap="round"/><rect x="3" y="14" width="4.5" height="6" rx="1.6" fill="none" stroke="white" stroke-width="1.6"/><rect x="16.5" y="14" width="4.5" height="6" rx="1.6" fill="none" stroke="white" stroke-width="1.6"/>
+    </g>
+  </g>
+</svg>

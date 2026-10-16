@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
+import RelatedGuides from '../components/RelatedGuides';
 import AppQrSection from '../components/AppQrSection';
 import FAQ from '../components/FAQ';
 import { healthcareFAQs } from '../content/faq';
@@ -145,6 +146,7 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
         </div>
       </section>
 
+      <RelatedGuides slugs={['totalloesning-klinik', 'outbound-ai-opkald-paamindelser', 'ai-widget-gdpr-danske-virksomheder']} />
       <FAQ items={healthcareFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

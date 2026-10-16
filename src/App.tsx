@@ -23,7 +23,7 @@ import TrialOfferWidget from './components/TrialOfferWidget';
 import { SUPPORTED_LANGUAGES, SupportedLanguage } from './i18n/config';
 import { splitLocalizedPath, buildLocalizedPath } from './utils/localePaths';
 import { currentPathname } from './utils/currentPath';
-import { getCategoryBySlug, getPostBySlug } from './content/blog';
+import { blogRedirects, getCategoryBySlug, getPostBySlug } from './content/blog';
 
 type PageType = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'blog-category' | 'blog-post' | 'trial';
 
@@ -56,7 +56,10 @@ function resolveRoute(pathname: string): { page: PageType; param: string; unknow
     return { page: 'blog-category', param, unknown: !getCategoryBySlug(param) };
   }
   if (path.startsWith('/blog/') && path !== '/blog') {
-    const param = path.replace('/blog/', '');
+    // Merged posts 301 to their replacement in vercel.json; resolve them here
+    // too so in-app navigation to an old slug still shows the right post.
+    const slug = path.replace('/blog/', '');
+    const param = blogRedirects[slug] ?? slug;
     return { page: 'blog-post', param, unknown: !getPostBySlug(param) };
   }
   return { page: pathMap[path] || 'home', param: '', unknown: !pathMap[path] };

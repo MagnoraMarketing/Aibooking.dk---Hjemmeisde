@@ -29,5 +29,10 @@
       "title": "Intégrations",
       "desc": "Google Agenda, Outlook, Shopify et plus"
     }
+  },
+  "guides": {
+    "title": "Guides et réponses",
+    "subtitle": "Des articles détaillés sur les questions que nos clients posent le plus souvent.",
+    "read": "Lire le guide"
   }
 }

@@ -26,7 +26,9 @@ URLs are Danish and SEO-optimized (e.g. `/funktioner`, `/brancher`, `/kontakt`) 
 
 ## Blog content
 
-Blog posts and categories are static data in `src/content/blog.ts` (no database). `BlogPage`, `BlogPostPage`, and `BlogCategoryPage` read from it via the exported helpers (`getPublishedPosts`, `getPostBySlug`, `getPostsByCategory`, `getRelatedPosts`). To add a post, add an entry to the `blogPosts` array — `scripts/generate-sitemap.js` reads published posts and categories from that file, so the sitemap picks it up on the next build.
+Blog categories, types and helpers live in `src/content/blog.ts`; the posts themselves are static data in `src/content/blogPosts/*.ts`, one file per topic cluster (no database). `BlogPage`, `BlogPostPage`, and `BlogCategoryPage` read them via the exported helpers (`getPublishedPosts`, `getPostBySlug`, `getPostsByCategory`, `getRelatedPosts`). To add a post, add an entry to the matching cluster file — `scripts/generate-sitemap.js` reads published posts from those files, so the sitemap picks it up on the next build. Give each post its own `faq` (rendered with FAQPage schema), `related` slugs, `sources` for external claims, and set `updated_at` when you substantially rewrite it. New covers: `node scripts/generate-blog-covers.js`, then `node scripts/render-blog-cover-images.mjs` for the JPEG used as og:image.
+
+Before writing a new post, check that no existing post already answers the same search intent — extend that one instead. When merging posts, add the old slug to `blogRedirects` in `src/content/blog.ts` and a 301 (with and without the `/:lang` prefix) to `vercel.json`; the sitemap script fails the build if a redirect targets an unpublished post. AI receptionist content must recommend that the AI introduces itself as an AI (EU AI Act art. 50). Current SEO status and the measurement plan: `docs/SEO-AUDIT-2026-10.md`.
 
 ## Contact form
 

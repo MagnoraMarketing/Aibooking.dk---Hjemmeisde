@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
+import RelatedGuides from '../components/RelatedGuides';
 import AppQrSection from '../components/AppQrSection';
 import FAQ from '../components/FAQ';
 import { featuresFAQs } from '../content/faq';
@@ -563,6 +564,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
         </div>
       </section>
 
+      <RelatedGuides slugs={['ai-reception-virtuel-receptionist', 'komplet-ai-automatisering-widget-telefon-booking', 'ai-indgaaende-opkald']} />
       <FAQ items={featuresFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

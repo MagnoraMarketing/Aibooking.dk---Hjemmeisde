@@ -11,6 +11,7 @@ import CTA from '../components/CTA';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import RelatedGuides from '../components/RelatedGuides';
 import AppQrSection from '../components/AppQrSection';
 import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
@@ -53,6 +54,7 @@ function HomePage({ onNavigate }: HomePageProps) {
       <Pricing />
       <WidgetPricing />
       <CTA />
+      <RelatedGuides slugs={['ai-reception-virtuel-receptionist', 'hvad-koster-en-ai-receptionist', 'ai-receptionist-vs-telefonpasning', 'hvordan-lyder-en-dansk-ai-receptionist', 'komplet-ai-automatisering-widget-telefon-booking', 'nyeste-ai-teknologi-2026']} />
       <FAQ items={homeFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

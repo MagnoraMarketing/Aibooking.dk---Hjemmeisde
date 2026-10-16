@@ -3,7 +3,8 @@
 // variation only, via a deterministic seed derived from each post's slug.
 //
 // Run with: node scripts/generate-blog-covers.js
-// Re-run any time posts are added/removed in src/content/blog.ts; existing covers
+// then: node scripts/render-blog-cover-images.mjs (JPEG versions for og:image)
+// Re-run any time posts are added/removed in src/content/blogPosts/; existing covers
 // are regenerated deterministically (same slug -> same image) so this is safe to
 // run repeatedly.
 
@@ -14,7 +15,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const BLOG_CONTENT_PATH = path.join(__dirname, '../src/content/blog.ts');
+const BLOG_POSTS_DIR = path.join(__dirname, '../src/content/blogPosts');
 const OUTPUT_DIR = path.join(__dirname, '../public/blog/covers');
 
 const PALETTE = {
@@ -107,37 +108,18 @@ const CATEGORY_FALLBACK_ICONS = {
 // booking, webshop/orders, automated customer handling, GDPR, ROI, etc. —
 // rather than a random pick within the post's broad category.
 const SLUG_TOPICS = {
-  'hvordan-ai-widgets-transformerer-kundeservice': 'customerService',
-  'ai-widget-integration-bedste-praksis': 'automation',
-  'ai-telefonassistent-fremtidens-kundeservice': 'customerService',
   'komplet-ai-automatisering-widget-telefon-booking': 'nodes',
   'roi-ai-automatisering-virksomheder': 'chart',
-  'ai-widget-webshop-konvertering-dognet-rundt': 'cart',
-  'ai-widget-klinik-book-tid-udenfor-aabningstid': 'calendar',
-  'fordele-ai-widget-mindre-virksomheder': 'chat',
-  'ai-widget-spar-tid-spar-penge': 'clock',
-  'miste-kunde-langsom-hjemmeside': 'heart',
   'ai-widget-vs-kontaktformular': 'chat',
-  'vaelg-den-rigtige-ai-widget': 'steps',
   'ai-widget-gdpr-danske-virksomheder': 'shield',
-  'ai-telefonassistent-klinik-udeblivelser': 'calendar',
-  'aldrig-mere-ubesvaret-opkald': 'phone',
   'outbound-ai-opkald-paamindelser': 'bell',
   'ai-telefonassistent-haandvaerker': 'wrench',
-  'hoer-ai-telefonassistent-booke-haandvaerker': 'headphones',
   'hvordan-lyder-en-dansk-ai-receptionist': 'headphones',
-  'ai-telefon-vs-telefonsvarer': 'phone',
   'sma-virksomheder-telefon-tid-penge': 'clock',
   'ai-telefonassistent-dansk-sprog': 'globe',
   'inbound-outbound-forskel': 'arrows',
   'ai-telefonassistent-kontor-administration': 'briefcase',
-  'aldrig-mist-en-kunde-igen': 'heart',
-  'totalloesning-webshop': 'package',
   'totalloesning-klinik': 'calendar',
-  'mindre-virksomhed-stor-virkning-ai': 'chart',
-  'frigoer-tid-er-penge': 'clock',
-  'automatisering-uden-flere-medarbejdere': 'automation',
-  'kundeoplevelse-ai-automatisering': 'customerService',
   'kom-i-gang-ai-automatisering-trin-for-trin': 'steps',
   'ai-widget-hjemmeside-komplet-guide': 'chat',
   'shopify-ai-automatisering': 'cart',
@@ -149,8 +131,12 @@ const SLUG_TOPICS = {
   'ai-i-danmark': 'nodes',
   'ai-telefonpasning-dansk-ai-receptionist': 'phone',
   'widget-til-webshop': 'package',
-  'ai-widget-til-shopify': 'cart',
   'shopify-integration-ai-voice-indgaaende-opkald': 'phone',
+  'hvad-koster-en-ai-receptionist': 'chart',
+  'ai-receptionist-vs-telefonpasning': 'arrows',
+  'ai-receptionist-viderestilling-til-menneske': 'customerService',
+  'hvad-er-en-ai-voice-agent': 'headphones',
+  'nyeste-ai-teknologi-2026': 'nodes',
 };
 
 function pickIcon(rand, slug, category) {
@@ -245,7 +231,10 @@ function generateCover(slug, category) {
 }
 
 function extractPosts() {
-  const src = fs.readFileSync(BLOG_CONTENT_PATH, 'utf8');
+  const src = fs.readdirSync(BLOG_POSTS_DIR)
+    .filter((file) => file.endsWith('.ts'))
+    .map((file) => fs.readFileSync(path.join(BLOG_POSTS_DIR, file), 'utf8'))
+    .join('\n');
   const regex = /id: '([^']+)',\s*\n\s*slug: '([^']+)',\s*\n\s*categorySlug: '([^']+)'/g;
   const posts = [];
   let match;
@@ -258,7 +247,7 @@ function extractPosts() {
 function main() {
   const posts = extractPosts();
   if (posts.length === 0) {
-    console.error('No posts found in src/content/blog.ts — nothing to generate.');
+    console.error('No posts found in src/content/blogPosts/ — nothing to generate.');
     process.exit(1);
   }
 

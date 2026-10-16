@@ -29,5 +29,10 @@
       "title": "Integrações",
       "desc": "Google Calendar, Outlook, Shopify e mais"
     }
+  },
+  "guides": {
+    "title": "Guias e respostas",
+    "subtitle": "Artigos detalhados sobre as perguntas que os nossos clientes fazem com mais frequência.",
+    "read": "Ler o guia"
   }
 }

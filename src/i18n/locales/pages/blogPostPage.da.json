@@ -12,5 +12,9 @@
     "title": "Relaterede Artikler",
     "subtitle": "Læs mere om {{category}}"
   },
-  "readArticle": "Læs artikel"
+  "readArticle": "Læs artikel",
+  "updated": "Opdateret {{date}}",
+  "sources": {
+    "title": "Kilder"
+  }
 }

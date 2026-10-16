@@ -1,5 +1,7 @@
 # Næste Steps for SEO & Organisk Indeksering
 
+> **Forældet (oktober 2026):** Den aktuelle SEO-status, konkurrentanalyse og måleplan står i [SEO-AUDIT-2026-10.md](SEO-AUDIT-2026-10.md).
+
 ## 🚀 Hvad er Klart Nu
 
 ✅ **Sitemap opdateret** med alle 23 sider:
@@ -35,7 +37,7 @@
    - Submit sitemap: `https://www.aibooking.dk/sitemap.xml`
    - Request indexing af top 3 blog posts:
      - `/blog/roi-ai-automatisering-virksomheder`
-     - `/blog/hvordan-ai-widgets-transformerer-kundeservice`
+     - `/blog/nyeste-ai-teknologi-2026`
      - `/blog/komplet-ai-automatisering-widget-telefon-booking`
 
 2. **Bing Webmaster Tools**

@@ -22,7 +22,7 @@ Dette dokument beskriver hvordan du får AIBooking.dk blogsider indekseret organ
    - Indtast hver blog URL og klik "Request Indexing"
    - Prioriter disse URL'er:
      - `https://www.aibooking.dk/blog`
-     - `https://www.aibooking.dk/blog/hvordan-ai-widgets-transformerer-kundeservice`
+     - `https://www.aibooking.dk/blog/nyeste-ai-teknologi-2026`
      - `https://www.aibooking.dk/blog/roi-ai-automatisering-virksomheder`
      - `https://www.aibooking.dk/blog/komplet-ai-automatisering-widget-telefon-booking`
 

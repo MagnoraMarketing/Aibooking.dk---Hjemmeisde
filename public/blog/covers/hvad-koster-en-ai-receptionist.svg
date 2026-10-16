@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-hvadkosteren" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(232 0.5 0.5)">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <radialGradient id="glow1-hvadkosteren" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e40af" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1e40af" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-hvadkosteren" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-hvadkosteren" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-hvadkosteren)"/>
+  <rect width="1200" height="675" fill="url(#dots-hvadkosteren)"/>
+  <circle cx="253.917998354882" cy="216.1431090440601" r="346.7030442133546" fill="url(#glow1-hvadkosteren)"/>
+  <circle cx="881.4474281505682" cy="502.40243112202734" r="204.12209366448224" fill="url(#glow2-hvadkosteren)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#f59e0b" stroke-width="140" opacity="0.08"
+    transform="rotate(316 600 337.5)"/>
+
+  <circle cx="976.0871589817107" cy="150.47216522321108" r="52.81496332958341" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+  <circle cx="176.78498014993968" cy="621.4003901034594" r="29.95249105198309" fill="#1e40af" opacity="0.18"/>
+
+  <g transform="translate(518.9806981533766 361.0232079173438) rotate(6)">
+    <circle r="85.08577762381174" fill="white" opacity="0.06"/>
+    <circle r="85.08577762381174" fill="none" stroke="white" stroke-opacity="0.19" stroke-width="1.5"/>
+    <rect x="-61.880565544590354" y="-61.880565544590354" width="123.76113108918071" height="123.76113108918071" rx="30.940282772295177"
+      fill="url(#glow1-hvadkosteren)" opacity="0.9"/>
+    <rect x="-61.880565544590354" y="-61.880565544590354" width="123.76113108918071" height="123.76113108918071" rx="30.940282772295177"
+      fill="#1e40af" opacity="0.55"/>
+    <g transform="scale(7.735070693073794) translate(-12 -12)">
+      <path d="M4 20V10M10 20V4M16 20v-7M22 20H2" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

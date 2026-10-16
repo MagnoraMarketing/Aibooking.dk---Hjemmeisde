@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
+import RelatedGuides from '../components/RelatedGuides';
 import AppQrSection from '../components/AppQrSection';
 import FAQ from '../components/FAQ';
 import { craftsmanFAQs } from '../content/faq';
@@ -145,6 +146,7 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
         </div>
       </section>
 
+      <RelatedGuides slugs={['ai-telefonassistent-haandvaerker', 'ai-receptionist-viderestilling-til-menneske', 'sma-virksomheder-telefon-tid-penge']} />
       <FAQ items={craftsmanFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

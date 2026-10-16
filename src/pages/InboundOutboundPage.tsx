@@ -8,6 +8,7 @@ import {
 import Navigation from '../components/Navigation';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import Footer from '../components/Footer';
+import RelatedGuides from '../components/RelatedGuides';
 import AppQrSection from '../components/AppQrSection';
 import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
@@ -719,6 +720,7 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
 
       <WidgetCapabilitiesSEO />
       <AppQrSection />
+      <RelatedGuides slugs={['ai-telefonpasning-dansk-ai-receptionist', 'hvad-koster-en-ai-receptionist', 'inbound-outbound-forskel', 'outbound-ai-opkald-paamindelser', 'ai-receptionist-viderestilling-til-menneske', 'hvad-er-en-ai-voice-agent']} />
       <Footer onNavigate={onNavigate} />
     </div>
   );

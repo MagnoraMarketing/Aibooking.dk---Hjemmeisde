@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-aireceptioni" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(336 0.5 0.5)">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <radialGradient id="glow1-aireceptioni" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-aireceptioni" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d97706" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-aireceptioni" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-aireceptioni)"/>
+  <rect width="1200" height="675" fill="url(#dots-aireceptioni)"/>
+  <circle cx="435.4472213075496" cy="297.7281984873116" r="336.7506543546915" fill="url(#glow1-aireceptioni)"/>
+  <circle cx="847.5155696738511" cy="358.60533700324595" r="309.75817235186696" fill="url(#glow2-aireceptioni)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#d97706" stroke-width="140" opacity="0.18"
+    transform="rotate(78 600 337.5)"/>
+
+  <circle cx="1028.1849103979766" cy="94.51961186807603" r="26.94106724811718" fill="none" stroke="#d97706" stroke-width="2" opacity="0.5"/>
+  <circle cx="188.46333728916943" cy="617.4607383683324" r="16.39191955141723" fill="#1d4ed8" opacity="0.18"/>
+
+  <g transform="translate(482.7855984941125 384.8294843053445) rotate(6)">
+    <circle r="93.92411122075282" fill="white" opacity="0.06"/>
+    <circle r="93.92411122075282" fill="none" stroke="white" stroke-opacity="0.25" stroke-width="1.5"/>
+    <rect x="-68.30844452418387" y="-68.30844452418387" width="136.61688904836774" height="136.61688904836774" rx="34.154222262091935"
+      fill="url(#glow1-aireceptioni)" opacity="0.9"/>
+    <rect x="-68.30844452418387" y="-68.30844452418387" width="136.61688904836774" height="136.61688904836774" rx="34.154222262091935"
+      fill="#1e40af" opacity="0.55"/>
+    <g transform="scale(8.538555565522984) translate(-12 -12)">
+      <path d="M4 8h10M14 8l-3-3M14 8l-3 3" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 16H10M10 16l3-3M10 16l3 3" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

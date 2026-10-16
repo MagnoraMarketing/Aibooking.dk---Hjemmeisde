@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
+import RelatedGuides from '../components/RelatedGuides';
 import AppQrSection from '../components/AppQrSection';
 import FAQ from '../components/FAQ';
 import { officeFAQs } from '../content/faq';
@@ -145,6 +146,7 @@ function OfficePage({ onNavigate }: OfficePageProps) {
         </div>
       </section>
 
+      <RelatedGuides slugs={['ai-telefonassistent-kontor-administration', 'ai-receptionist-viderestilling-til-menneske', 'ai-widget-gdpr-danske-virksomheder']} />
       <FAQ items={officeFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

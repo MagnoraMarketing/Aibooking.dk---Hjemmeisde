@@ -4,9 +4,7 @@ import Navigation from '../components/Navigation';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
-import FAQ from '../components/FAQ';
 import BlogCTA from '../components/BlogCTA';
-import { blogFAQs } from '../content/faq';
 import { getCategoryBySlug, getPostsByCategory, BlogPost } from '../content/blog';
 import type { SupportedLanguage } from '../i18n/config';
 import { blogPostPath, buildLocalizedPath, localizedUrl } from '../utils/localePaths';
@@ -165,7 +163,6 @@ export default function BlogCategoryPage({ categorySlug, onNavigate }: BlogCateg
         </div>
       </div>
 
-      <FAQ items={blogFAQs} />
       <Footer onNavigate={onNavigate} />
     </div>
   );

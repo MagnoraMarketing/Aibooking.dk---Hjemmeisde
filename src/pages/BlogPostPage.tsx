@@ -3,17 +3,26 @@ import { Calendar, ArrowLeft, ArrowRight, Clock, Share2 } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
-import FAQ from '../components/FAQ';
+import FAQ, { type FAQItem } from '../components/FAQ';
 import BlogCTA from '../components/BlogCTA';
 import BookingAudioDemo from '../components/BookingAudioDemo';
-import { blogFAQs } from '../content/faq';
-import { getPostBySlug, getCategoryBySlug, getRelatedPosts, BlogPost } from '../content/blog';
+import { getPostBySlug, getCategoryBySlug, getRelatedPosts, BlogPost, BlogFAQ } from '../content/blog';
 import type { SupportedLanguage } from '../i18n/config';
 import { blogPostPath, buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
 import JsonLd from '../components/JsonLd';
 
 const POST_LANGUAGES = ['da', 'en'] as const;
+
+// Posts are written in Danish and English; the FAQ component takes all site
+// languages, so pt/fr/es readers get the English text (as for the post body).
+const toFAQItem = (f: BlogFAQ): FAQItem => ({
+  question_da: f.question_da, answer_da: f.answer_da,
+  question_en: f.question_en, answer_en: f.answer_en,
+  question_pt: f.question_en, answer_pt: f.answer_en,
+  question_fr: f.question_en, answer_fr: f.answer_en,
+  question_es: f.question_en, answer_es: f.answer_en,
+});
 
 interface BlogPostPageProps {
   postSlug: string;
@@ -95,14 +104,18 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
     );
   }
 
+  // Social networks don't render SVG previews, so share/schema images use the
+  // JPEG rendered next to each SVG cover (scripts/render-blog-cover-images.mjs).
+  const shareImage = `https://www.aibooking.dk${post.image_url.replace(/\.svg$/, '.jpg')}`;
+
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": getTitle(),
     "description": getExcerpt(),
-    "image": `https://www.aibooking.dk${post.image_url}`,
+    "image": shareImage,
     "datePublished": post.published_at,
-    "dateModified": post.published_at,
+    "dateModified": post.updated_at || post.published_at,
     "author": {
       "@type": "Organization",
       "name": "AIBooking.dk"
@@ -141,7 +154,7 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
         title={getMetaTitle()}
         description={getMetaDescription()}
         keywords={post.keywords.join(', ')}
-        ogImage={`https://www.aibooking.dk${post.image_url}`}
+        ogImage={shareImage}
         ogType="article"
         canonical={localizedUrl(contentLang, `/blog/${post.slug}`)}
         path={`/blog/${post.slug}`}
@@ -183,7 +196,9 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
               <div className="flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-ink-300">
                 <span className="flex items-center gap-1.5">
                   <Calendar className="w-4 h-4 text-accent-400" />
-                  {formatDate(post.published_at)}
+                  {post.updated_at && post.updated_at !== post.published_at
+                    ? t('updated', { date: formatDate(post.updated_at) })
+                    : formatDate(post.published_at)}
                 </span>
                 <span className="flex items-center gap-1.5">
                   <Clock className="w-4 h-4 text-accent-400" />
@@ -219,6 +234,22 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
           />
 
           {post.audioDemo === 'bottom' && <BookingAudioDemo variant="inline" />}
+
+          {post.sources && post.sources.length > 0 && (
+            <section className="mt-12 rounded-2xl border border-ink-200 bg-white p-6 sm:p-8">
+              <h2 className="text-xl font-bold text-ink-900 mb-4">{t('sources.title')}</h2>
+              <ol className="list-decimal pl-5 space-y-2 text-sm text-ink-700">
+                {post.sources.map((source) => (
+                  <li key={source.url}>
+                    <a href={source.url} target="_blank" rel="noopener" className="text-brand-700 hover:text-brand-800 underline underline-offset-2">
+                      {source.title}
+                    </a>
+                    {' '}— {source.publisher}{source.date ? `, ${source.date}` : ''}
+                  </li>
+                ))}
+              </ol>
+            </section>
+          )}
 
           <BlogCTA categorySlug={post.categorySlug} />
         </div>
@@ -263,7 +294,7 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
         )}
       </article>
 
-      <FAQ items={blogFAQs} />
+      {post.faq && post.faq.length > 0 && <FAQ items={post.faq.map(toFAQItem)} />}
       <Footer onNavigate={onNavigate} />
     </div>
   );

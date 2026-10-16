@@ -35,24 +35,26 @@ Trying the product is free: new customers create a free account (no credit card 
 
 ## Blog
 
-- [Blog](https://www.aibooking.dk/blog): All articles, spanning three categories below.
-- [AI Widget articles](https://www.aibooking.dk/blog/category/ai-widget): Website chat/voice widget guides, webshop and clinic use cases, GDPR.
-- [AI Inbound & Outbound articles](https://www.aibooking.dk/blog/category/ai-inbound-outbound): AI phone assistant guides for inbound calls, outbound reminders, and industry-specific use cases.
-- [AI Total Solution articles](https://www.aibooking.dk/blog/category/ai-total-solution): Connecting widget, phone and booking into one system; ROI and getting-started guides.
+- [Blog](https://www.aibooking.dk/blog): All articles, in the four categories below.
+- [AI Receptionist & Phone articles](https://www.aibooking.dk/blog/category/ai-inbound-outbound): AI receptionists, AI voice agents, AI phone answering, inbound/outbound calls and reminders.
+- [AI Booking & Automation articles](https://www.aibooking.dk/blog/category/ai-total-solution): Automatic booking, calendar integration, ROI, getting started, GDPR and the AI Act.
+- [AI Widget articles](https://www.aibooking.dk/blog/category/ai-widget): Website chat/voice widget guides.
+- [AI for Webshops articles](https://www.aibooking.dk/blog/category/ai-webshop): AI customer service for webshops and Shopify.
 
 ### Key guides
 
+- [Hvad er en AI-receptionist?](https://www.aibooking.dk/blog/ai-reception-virtuel-receptionist): What an AI receptionist is and what happens during a call, step by step.
+- [Hvad koster en AI-receptionist?](https://www.aibooking.dk/blog/hvad-koster-en-ai-receptionist): Pricing models, Aibooking.dk's public prices and a cost calculation.
+- [AI-receptionist vs. telefonpasning](https://www.aibooking.dk/blog/ai-receptionist-vs-telefonpasning): Voicemail, human answering service, receptionist and AI compared.
+- [Viderestilling til et menneske](https://www.aibooking.dk/blog/ai-receptionist-viderestilling-til-menneske): When an AI receptionist should hand over to a person.
+- [Hvad er en AI voice agent?](https://www.aibooking.dk/blog/hvad-er-en-ai-voice-agent): Realtime voice AI in phone calls explained.
+- [Den nyeste AI-teknologi i 2026](https://www.aibooking.dk/blog/nyeste-ai-teknologi-2026): Realtime speech models, Danish speech technology, AI agents and the EU AI Act, with sources.
+- [AI-telefonpasning: krav til en dansk AI-receptionist](https://www.aibooking.dk/blog/ai-telefonpasning-dansk-ai-receptionist): Nine requirements for AI phone answering in Danish.
+- [Automatisk booking med AI](https://www.aibooking.dk/blog/komplet-ai-automatisering-widget-telefon-booking): Calendar integration, changes and cancellations.
+- [AI-receptionist, GDPR og AI-forordningen](https://www.aibooking.dk/blog/ai-widget-gdpr-danske-virksomheder): Data protection, call recording and the AI disclosure rule.
 - [AI widget til hjemmeside: komplet guide](https://www.aibooking.dk/blog/ai-widget-hjemmeside-komplet-guide): What an AI chat/voice widget is and how to choose one.
-- [Automatisering af Shopify med AI](https://www.aibooking.dk/blog/shopify-ai-automatisering): Shopify AI automation: order tracking, stock, reorders and voice shopping.
-- [AI til hjemmeside](https://www.aibooking.dk/blog/ai-til-hjemmeside): Seven practical ways to use AI on a business website.
-- [AI reception](https://www.aibooking.dk/blog/ai-reception-virtuel-receptionist): How a virtual AI receptionist works across phone, website and calendar.
-- [AI til indgående opkald](https://www.aibooking.dk/blog/ai-indgaaende-opkald): AI that answers every inbound call, books and forwards urgent calls.
-- [AI kundeservice](https://www.aibooking.dk/blog/ai-kundeservice): AI customer service across phone, chat, voice and webshop.
-- [AI medarbejder](https://www.aibooking.dk/blog/ai-medarbejder): An AI employee that handles calls, chats, bookings and follow-up.
-- [AI i Danmark](https://www.aibooking.dk/blog/ai-i-danmark): How Danish SMEs use AI and what to look for in a Danish AI solution.
-- [AI-telefonpasning med dansk AI-receptionist](https://www.aibooking.dk/blog/ai-telefonpasning-dansk-ai-receptionist): AI phone answering by a Danish-speaking AI receptionist.
-- [Widget til webshop](https://www.aibooking.dk/blog/widget-til-webshop): An AI widget for webshops (WooCommerce, Magento, Shopify) that answers order and product questions.
-- [AI widget til Shopify](https://www.aibooking.dk/blog/ai-widget-til-shopify): Adding an AI assistant to a Shopify store in four steps.
+- [AI til webshop](https://www.aibooking.dk/blog/shopify-integration-ai-voice-indgaaende-opkald): Phone and chat customer service for webshops with Shopify integration.
+- [Shopify AI](https://www.aibooking.dk/blog/shopify-ai-automatisering): Setting up an AI assistant in a Shopify store.
 
 ## Optional
 

@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
+import RelatedGuides from '../components/RelatedGuides';
 import AppQrSection from '../components/AppQrSection';
 import FAQ from '../components/FAQ';
 import { ecommerceFAQs } from '../content/faq';
@@ -225,6 +226,7 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
         </div>
       </section>
 
+      <RelatedGuides slugs={['shopify-integration-ai-voice-indgaaende-opkald', 'widget-til-webshop', 'shopify-ai-automatisering']} />
       <FAQ items={ecommerceFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

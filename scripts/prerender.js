@@ -136,13 +136,26 @@ async function main() {
   const changed = [];
   const problems = [];
 
-  for (const url of sitemapUrls()) {
+  const urls = sitemapUrls();
+  const knownPaths = new Set(urls.map((u) => new URL(u).pathname));
+  const brokenLinks = new Map();
+
+  for (const url of urls) {
     const pathname = new URL(url).pathname;
     const { html: body, seo } = await render(pathname);
     if (!seo) throw new Error(`${pathname}: page rendered no <SEO>`);
     if (seo.canonical && seo.canonical !== url) problems.push(`${pathname}: canonical ${seo.canonical} != sitemap URL`);
     if (!/<h1[\s>]/.test(body)) problems.push(`${pathname}: no <h1>`);
     if (seo.description.length > 160) problems.push(`${pathname}: meta description is ${seo.description.length} chars`);
+    // Internal page links must point at a page we actually publish; anything
+    // else is a redirect hop or a soft 404 for crawlers.
+    for (const [, href] of body.matchAll(/href="(\/[^"#?]*)/g)) {
+      const target = href.replace(/\/$/, '') || '/';
+      if (/\.[a-z0-9]+$/i.test(target) || knownPaths.has(target)) continue;
+      if (!brokenLinks.has(target)) brokenLinks.set(target, pathname);
+    }
+    const localImage = seo.ogImage?.startsWith(DOMAIN) && seo.ogImage.slice(DOMAIN.length);
+    if (localImage && !fs.existsSync(path.join(DIST, localImage))) problems.push(`${pathname}: og:image ${localImage} does not exist`);
     const words = wordCount(body);
     if (words < 300) problems.push(`${pathname}: only ${words} words`);
 
@@ -169,6 +182,8 @@ async function main() {
     (m, loc, ws) => (manifest[loc] ? `<loc>${loc}</loc>${ws}<lastmod>${manifest[loc].lastmod}</lastmod>` : m),
   );
   fs.writeFileSync(sitemapPath, sitemap);
+
+  brokenLinks.forEach((from, target) => problems.push(`${from}: links to ${target}, which is not in the sitemap`));
 
   console.log(`✓ Prerendered ${Object.keys(manifest).length} pages (${changed.length} changed since the live site)`);
   if (problems.length) {

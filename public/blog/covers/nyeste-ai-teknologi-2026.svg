@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-nyesteaitekn" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(159 0.5 0.5)">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <radialGradient id="glow1-nyesteaitekn" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-nyesteaitekn" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-nyesteaitekn" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-nyesteaitekn)"/>
+  <rect width="1200" height="675" fill="url(#dots-nyesteaitekn)"/>
+  <circle cx="301.85291771776974" cy="187.21192288212478" r="300.4062148183584" fill="url(#glow1-nyesteaitekn)"/>
+  <circle cx="835.1079536019824" cy="364.77097935276106" r="379.99935865867883" fill="url(#glow2-nyesteaitekn)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#f59e0b" stroke-width="140" opacity="0.12"
+    transform="rotate(311 600 337.5)"/>
+
+  <circle cx="184.83551850914955" cy="174.4645479368046" r="29.77782542211935" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+  <circle cx="151.30097766034308" cy="618.4848593473434" r="25.244702758733183" fill="#2563eb" opacity="0.18"/>
+
+  <g transform="translate(672.3808503448962 323.4153959113173) rotate(-1)">
+    <circle r="72.58218807377852" fill="white" opacity="0.06"/>
+    <circle r="72.58218807377852" fill="none" stroke="white" stroke-opacity="0.29" stroke-width="1.5"/>
+    <rect x="-52.78704587183893" y="-52.78704587183893" width="105.57409174367785" height="105.57409174367785" rx="26.393522935919464"
+      fill="url(#glow1-nyesteaitekn)" opacity="0.9"/>
+    <rect x="-52.78704587183893" y="-52.78704587183893" width="105.57409174367785" height="105.57409174367785" rx="26.393522935919464"
+      fill="#3b82f6" opacity="0.55"/>
+    <g transform="scale(6.598380733979866) translate(-12 -12)">
+      <circle cx="6" cy="6" r="2.2" fill="white"/><circle cx="18" cy="6" r="2.2" fill="white"/><circle cx="12" cy="18" r="2.2" fill="white"/><path d="M8 6h8M7.3 7.8 10.7 16.4M16.7 7.8 13.3 16.4" stroke="white" stroke-width="1.4"/>
+    </g>
+  </g>
+</svg>

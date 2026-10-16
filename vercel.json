@@ -1,7 +1,212 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/blog/ai-telefon-vs-telefonsvarer",
+      "destination": "/blog/ai-receptionist-vs-telefonpasning",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/ai-telefon-vs-telefonsvarer",
+      "destination": "/:lang/blog/ai-receptionist-vs-telefonpasning",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mindre-virksomhed-stor-virkning-ai",
+      "destination": "/blog/sma-virksomheder-telefon-tid-penge",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/mindre-virksomhed-stor-virkning-ai",
+      "destination": "/:lang/blog/sma-virksomheder-telefon-tid-penge",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatisering-uden-flere-medarbejdere",
+      "destination": "/blog/sma-virksomheder-telefon-tid-penge",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/automatisering-uden-flere-medarbejdere",
+      "destination": "/:lang/blog/sma-virksomheder-telefon-tid-penge",
+      "permanent": true
+    },
+    {
+      "source": "/blog/aldrig-mere-ubesvaret-opkald",
+      "destination": "/blog/ai-indgaaende-opkald",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/aldrig-mere-ubesvaret-opkald",
+      "destination": "/:lang/blog/ai-indgaaende-opkald",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ai-telefonassistent-fremtidens-kundeservice",
+      "destination": "/blog/ai-indgaaende-opkald",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/ai-telefonassistent-fremtidens-kundeservice",
+      "destination": "/:lang/blog/ai-indgaaende-opkald",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ai-telefonassistent-klinik-udeblivelser",
+      "destination": "/blog/outbound-ai-opkald-paamindelser",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/ai-telefonassistent-klinik-udeblivelser",
+      "destination": "/:lang/blog/outbound-ai-opkald-paamindelser",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hoer-ai-telefonassistent-booke-haandvaerker",
+      "destination": "/blog/hvordan-lyder-en-dansk-ai-receptionist",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/hoer-ai-telefonassistent-booke-haandvaerker",
+      "destination": "/:lang/blog/hvordan-lyder-en-dansk-ai-receptionist",
+      "permanent": true
+    },
+    {
+      "source": "/blog/aldrig-mist-en-kunde-igen",
+      "destination": "/blog/komplet-ai-automatisering-widget-telefon-booking",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/aldrig-mist-en-kunde-igen",
+      "destination": "/:lang/blog/komplet-ai-automatisering-widget-telefon-booking",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kundeoplevelse-ai-automatisering",
+      "destination": "/blog/komplet-ai-automatisering-widget-telefon-booking",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/kundeoplevelse-ai-automatisering",
+      "destination": "/:lang/blog/komplet-ai-automatisering-widget-telefon-booking",
+      "permanent": true
+    },
+    {
+      "source": "/blog/frigoer-tid-er-penge",
+      "destination": "/blog/roi-ai-automatisering-virksomheder",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/frigoer-tid-er-penge",
+      "destination": "/:lang/blog/roi-ai-automatisering-virksomheder",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ai-widget-spar-tid-spar-penge",
+      "destination": "/blog/roi-ai-automatisering-virksomheder",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/ai-widget-spar-tid-spar-penge",
+      "destination": "/:lang/blog/roi-ai-automatisering-virksomheder",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ai-widget-klinik-book-tid-udenfor-aabningstid",
+      "destination": "/blog/totalloesning-klinik",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/ai-widget-klinik-book-tid-udenfor-aabningstid",
+      "destination": "/:lang/blog/totalloesning-klinik",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hvordan-ai-widgets-transformerer-kundeservice",
+      "destination": "/blog/ai-kundeservice",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/hvordan-ai-widgets-transformerer-kundeservice",
+      "destination": "/:lang/blog/ai-kundeservice",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ai-widget-integration-bedste-praksis",
+      "destination": "/blog/ai-widget-hjemmeside-komplet-guide",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/ai-widget-integration-bedste-praksis",
+      "destination": "/:lang/blog/ai-widget-hjemmeside-komplet-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vaelg-den-rigtige-ai-widget",
+      "destination": "/blog/ai-widget-hjemmeside-komplet-guide",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/vaelg-den-rigtige-ai-widget",
+      "destination": "/:lang/blog/ai-widget-hjemmeside-komplet-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/fordele-ai-widget-mindre-virksomheder",
+      "destination": "/blog/ai-widget-hjemmeside-komplet-guide",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/fordele-ai-widget-mindre-virksomheder",
+      "destination": "/:lang/blog/ai-widget-hjemmeside-komplet-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/miste-kunde-langsom-hjemmeside",
+      "destination": "/blog/ai-widget-vs-kontaktformular",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/miste-kunde-langsom-hjemmeside",
+      "destination": "/:lang/blog/ai-widget-vs-kontaktformular",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ai-widget-webshop-konvertering-dognet-rundt",
+      "destination": "/blog/widget-til-webshop",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/ai-widget-webshop-konvertering-dognet-rundt",
+      "destination": "/:lang/blog/widget-til-webshop",
+      "permanent": true
+    },
+    {
+      "source": "/blog/totalloesning-webshop",
+      "destination": "/blog/widget-til-webshop",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/totalloesning-webshop",
+      "destination": "/:lang/blog/widget-til-webshop",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ai-widget-til-shopify",
+      "destination": "/blog/shopify-ai-automatisering",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|pt|fr|es)/blog/ai-widget-til-shopify",
+      "destination": "/:lang/blog/shopify-ai-automatisering",
+      "permanent": true
+    }
+  ],
   "rewrites": [
-    { "source": "/((?!api/).*)", "destination": "/index.html" }
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
   ]
 }

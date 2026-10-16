@@ -12,5 +12,9 @@
     "title": "Related Articles",
     "subtitle": "Read more about {{category}}"
   },
-  "readArticle": "Read article"
+  "readArticle": "Read article",
+  "updated": "Updated {{date}}",
+  "sources": {
+    "title": "Sources"
+  }
 }

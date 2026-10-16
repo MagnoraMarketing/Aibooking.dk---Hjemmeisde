@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import RelatedGuides from '../components/RelatedGuides';
 import AppQrSection from '../components/AppQrSection';
 import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
@@ -1001,6 +1002,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
       </main>
       <WidgetCapabilitiesSEO />
       <AppQrSection />
+      <RelatedGuides slugs={['ai-widget-hjemmeside-komplet-guide', 'ai-widget-vs-kontaktformular', 'ai-til-hjemmeside']} />
       <Footer onNavigate={onNavigate} />
     </>
   );

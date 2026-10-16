@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import RelatedGuides from '../components/RelatedGuides';
 import AppQrSection from '../components/AppQrSection';
 import FAQ from '../components/FAQ';
 import { integrationsFAQs } from '../content/faq';
@@ -47,6 +48,7 @@ function IntegrationsPage({ onNavigate }: IntegrationsPageProps) {
       <IntegrationGrid />
       <IntegrationSEO />
       <IntegrationCTA />
+      <RelatedGuides slugs={['komplet-ai-automatisering-widget-telefon-booking', 'shopify-ai-automatisering', 'nyeste-ai-teknologi-2026']} />
       <FAQ items={integrationsFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

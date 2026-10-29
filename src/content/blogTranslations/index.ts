@@ -1,28 +1,31 @@
-// Blog posts in the site languages beyond Danish and English, one file per
-// language and topic cluster (mirroring src/content/blogPosts). Every published
-// post needs an entry in each language; scripts/generate-sitemap.js fails the
-// build if one is missing.
+// Blog posts in the site languages beyond Danish and English, one folder per
+// language and one file per topic cluster (mirroring src/content/blogPosts).
+// Every published post needs an entry in each language;
+// scripts/generate-sitemap.js fails the build if one is missing.
+//
+// Each language is a separate chunk, loaded only when a visitor uses that
+// language, so Danish and English visitors don't download the other texts.
 import type { BlogTranslations } from './types';
-import { receptionistEs } from './es/receptionist';
-import { voiceEs } from './es/voice';
-import { automationEs } from './es/automation';
-import { widgetEs } from './es/widget';
-import { webshopEs } from './es/webshop';
-import { receptionistDe } from './de/receptionist';
-import { voiceDe } from './de/voice';
-import { automationDe } from './de/automation';
-import { widgetDe } from './de/widget';
-import { webshopDe } from './de/webshop';
-import { receptionistFr } from './fr/receptionist';
-import { voiceFr } from './fr/voice';
-import { automationFr } from './fr/automation';
-import { widgetFr } from './fr/widget';
-import { webshopFr } from './fr/webshop';
 
 export type TranslatedBlogLanguage = 'es' | 'de' | 'fr';
 
-export const blogTranslations: Record<TranslatedBlogLanguage, BlogTranslations> = {
-  es: { ...receptionistEs, ...voiceEs, ...automationEs, ...widgetEs, ...webshopEs },
-  de: { ...receptionistDe, ...voiceDe, ...automationDe, ...widgetDe, ...webshopDe },
-  fr: { ...receptionistFr, ...voiceFr, ...automationFr, ...widgetFr, ...webshopFr },
+const loaders: Record<TranslatedBlogLanguage, () => Promise<{ default: BlogTranslations }>> = {
+  es: () => import('./es'),
+  de: () => import('./de'),
+  fr: () => import('./fr'),
 };
+
+const loaded: Partial<Record<TranslatedBlogLanguage, BlogTranslations>> = {};
+
+const isTranslated = (lang: string): lang is TranslatedBlogLanguage => lang in loaders;
+
+/** The language's translations, or undefined until loadBlogTranslations(lang) has finished. */
+export function getBlogTranslations(lang: TranslatedBlogLanguage): BlogTranslations | undefined {
+  return loaded[lang];
+}
+
+/** Loads a language's blog translations; a no-op for Danish, English and already loaded languages. */
+export async function loadBlogTranslations(lang: string): Promise<void> {
+  if (!isTranslated(lang) || loaded[lang]) return;
+  loaded[lang] = (await loaders[lang]()).default;
+}

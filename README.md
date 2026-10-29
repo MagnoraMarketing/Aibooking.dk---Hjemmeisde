@@ -71,7 +71,7 @@ AI-widgetten til hjemmesiden fås også separat som talepakke (999 kr / 150 min)
 
 Aibooking.dk arbejder sammen med de værktøjer, I allerede bruger — kalendere, webshop, kommunikation (WhatsApp, Microsoft Teams, Slack) og automatisering (Zapier, webhooks, API). Se hele listen på [aibooking.dk/integrationer](https://www.aibooking.dk/integrationer).
 
-Hjemmesiden findes på dansk, engelsk, spansk, fransk og portugisisk.
+Hjemmesiden findes på dansk, engelsk, spansk, tysk og fransk – inklusive alle blogindlæg. Besøgende får automatisk siden på deres eget sprog, og besøgende fra andre lande får den engelske version.
 
 ---
 

@@ -24,6 +24,7 @@ import { SUPPORTED_LANGUAGES, SupportedLanguage } from './i18n/config';
 import { splitLocalizedPath, buildLocalizedPath } from './utils/localePaths';
 import { currentPathname } from './utils/currentPath';
 import { blogRedirects, getCategoryBySlug, getPostBySlug } from './content/blog';
+import { loadBlogTranslations } from './content/blogTranslations';
 
 type PageType = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'blog-category' | 'blog-post' | 'trial';
 
@@ -102,6 +103,19 @@ function App() {
     return () => window.removeEventListener('popstate', syncFromLocation);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // Blog translations load per language (see content/blogTranslations), so
+  // re-render once a newly chosen language's posts have arrived.
+  const [, setBlogLanguagesLoaded] = useState(0);
+  useEffect(() => {
+    const onLanguageChanged = (lng: string) => {
+      loadBlogTranslations(lng)
+        .then(() => setBlogLanguagesLoaded((n) => n + 1))
+        .catch(() => {});
+    };
+    i18n.on('languageChanged', onLanguageChanged);
+    return () => i18n.off('languageChanged', onLanguageChanged);
+  }, [i18n]);
 
   // Every URL is served the SPA with a 200, so unknown paths (which fall back
   // to the home page) and missing blog posts/categories would be indexed as

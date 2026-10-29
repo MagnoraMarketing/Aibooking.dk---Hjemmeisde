@@ -15,7 +15,7 @@ import { voicePosts } from './blogPosts/voice';
 import { automationPosts } from './blogPosts/automation';
 import { widgetPosts } from './blogPosts/widget';
 import { webshopPosts } from './blogPosts/webshop';
-import { blogTranslations } from './blogTranslations';
+import { getBlogTranslations } from './blogTranslations';
 import type { SupportedLanguage } from '../i18n/config';
 
 export interface BlogCategory {
@@ -134,8 +134,8 @@ export const blogCategories: BlogCategory[] = [
       da: 'Guides om AI til webshop og Shopify: AI-kundeservice på hjemmesiden og i telefonen, der svarer om produkter, ordrer, lager og levering.',
       en: 'Guides on AI for webshops and Shopify: AI customer service on the website and phone that answers about products, orders, stock and delivery.',
       es: 'Guías sobre IA para tiendas online y Shopify: atención al cliente con IA en la web y por teléfono que responde sobre productos, pedidos, stock y envíos.',
-      de: 'Ratgeber zu KI für Onlineshops und Shopify: KI-Kundenservice auf der Website und am Telefon, der Fragen zu Produkten, Bestellungen, Lager und Lieferung beantwortet.',
-      fr: 'Guides sur l’IA pour les boutiques en ligne et Shopify : un service client IA sur le site et au téléphone qui répond sur les produits, commandes, stocks et livraisons.',
+      de: 'Ratgeber zu KI für Onlineshops und Shopify: KI-Kundenservice auf der Website und am Telefon für Fragen zu Produkten, Bestellungen und Lieferung.',
+      fr: 'Guides sur l’IA pour boutiques en ligne et Shopify : un service client IA sur le site et au téléphone pour les produits, commandes et livraisons.',
     },
   },
 ];
@@ -217,7 +217,8 @@ export interface LocalizedPost {
 /**
  * The post in `lang`. Danish and English are written on the post itself; the
  * other languages come from src/content/blogTranslations, falling back to
- * English for a post that hasn't been translated yet.
+ * English for a post that hasn't been translated (or whose language hasn't
+ * been loaded with loadBlogTranslations) yet.
  */
 export function localizePost(post: BlogPost, lang: SupportedLanguage): LocalizedPost {
   if (lang === 'da' || lang === 'en') {
@@ -230,14 +231,14 @@ export function localizePost(post: BlogPost, lang: SupportedLanguage): Localized
       faq: (post.faq ?? []).map((f) => ({ question: f[`question_${lang}`], answer: f[`answer_${lang}`] })),
     };
   }
-  const translation = blogTranslations[lang][post.slug];
+  const translation = getBlogTranslations(lang)?.[post.slug];
   if (!translation) return localizePost(post, 'en');
   return { ...translation, faq: translation.faq ?? localizePost(post, 'en').faq };
 }
 
 /** Whether the post's text exists in `lang` (rather than falling back to English). */
 export function isPostAvailableIn(post: BlogPost, lang: SupportedLanguage): boolean {
-  return lang === 'da' || lang === 'en' || Boolean(blogTranslations[lang][post.slug]);
+  return lang === 'da' || lang === 'en' || Boolean(getBlogTranslations(lang)?.[post.slug]);
 }
 
 /** Locale for formatting post dates. */

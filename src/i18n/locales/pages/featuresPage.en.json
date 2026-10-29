@@ -2,9 +2,12 @@
   "seo": {
     "title": "Features – AI Reception, AI Widget & AI Employee | Aibooking.dk",
     "description": "All Aibooking.dk features: AI website widget, AI for inbound and outbound calls, automatic booking, dashboard and AI customer service.",
-    "keywords": "AI phone answering, Danish AI receptionist, webshop widget, AI widget for Shopify, AI features, AI reception, AI widget, AI employee, AI customer service, AI inbound calls, outbound calls, AI dashboard, automatic booking"
+    "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, AI features, AI reception, AI widget, AI employee, AI customer service, AI inbound calls, outbound calls, AI dashboard, automatic booking"
   },
-  "breadcrumb": { "home": "Home", "features": "Features" },
+  "breadcrumb": {
+    "home": "Home",
+    "features": "Features"
+  },
   "hero": {
     "badge": "All Features",
     "title_line1": "A complete AI platform for",
@@ -12,10 +15,22 @@
     "subtitle": "From intelligent call handling and outbound AI voice calls to a complete dashboard and an AI widget for your website — all in one platform. Save time, increase conversions, and give your customers a professional experience 24/7."
   },
   "mainBenefits": [
-    { "title": "Save 85% of your phone time", "description": "Free up valuable time for core tasks" },
-    { "title": "320% ROI", "description": "Proven value from day one" },
-    { "title": "98% customer satisfaction", "description": "Professional service around the clock" },
-    { "title": "+45% more conversions", "description": "Never miss an opportunity again" }
+    {
+      "title": "Save 85% of your phone time",
+      "description": "Free up valuable time for core tasks"
+    },
+    {
+      "title": "320% ROI",
+      "description": "Proven value from day one"
+    },
+    {
+      "title": "98% customer satisfaction",
+      "description": "Professional service around the clock"
+    },
+    {
+      "title": "+45% more conversions",
+      "description": "Never miss an opportunity again"
+    }
   ],
   "dashboard": {
     "badge": "Your Control Center",
@@ -25,12 +40,30 @@
     "cta": "See the dashboard in action"
   },
   "dashboardFeatures": [
-    { "label": "Real-time call statistics", "desc": "See all calls live and historically" },
-    { "label": "AI-generated call notes", "desc": "Automatic summary of every call" },
-    { "label": "Booking and conversion rate", "desc": "Track exactly how many calls turn into bookings" },
-    { "label": "Listen to recorded calls", "desc": "Full audio log always available" },
-    { "label": "Live synchronization", "desc": "Dashboard updates in real time" },
-    { "label": "Custom overview", "desc": "Configure your own dashboard layout" }
+    {
+      "label": "Real-time call statistics",
+      "desc": "See all calls live and historically"
+    },
+    {
+      "label": "AI-generated call notes",
+      "desc": "Automatic summary of every call"
+    },
+    {
+      "label": "Booking and conversion rate",
+      "desc": "Track exactly how many calls turn into bookings"
+    },
+    {
+      "label": "Listen to recorded calls",
+      "desc": "Full audio log always available"
+    },
+    {
+      "label": "Live synchronization",
+      "desc": "Dashboard updates in real time"
+    },
+    {
+      "label": "Custom overview",
+      "desc": "Configure your own dashboard layout"
+    }
   ],
   "dashboardMock": {
     "url_label": "dashboard.aibooking.dk",
@@ -46,14 +79,22 @@
     "outcome_info": "Info given",
     "outcome_forwarded": "Forwarded",
     "weekly_activity_label": "Weekly activity",
-    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "days": [
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S",
+      "S"
+    ],
     "live_data": "Live Data"
   },
   "voiceSection": {
     "badge": "AI Voice Calls",
     "title_line1": "Inbound and outbound AI voice calls",
     "title_line2": "at a professional level",
-    "subtitle": "Our AI receptionist speaks fluent Danish and sounds like a real person. It handles all types of calls — from bookings and questions to outbound reminders and follow-ups."
+    "subtitle": "Our AI receptionist speaks fluently and sounds like a real person. It handles all types of calls — from bookings and questions to outbound reminders and follow-ups."
   },
   "incoming": {
     "title": "Inbound AI Calls",
@@ -64,7 +105,7 @@
   },
   "voiceInFeatures": [
     "AI receptionist answers instantly",
-    "Understands all Danish dialects",
+    "Understands accents and everyday speech",
     "Handles multiple simultaneous calls",
     "Automatic booking right in the conversation",
     "Transfers to human support when needed",
@@ -93,7 +134,7 @@
     "badge": "AI Chat Widget — New",
     "title_line1": "An AI widget for your website —",
     "title_line2": "convert visitors into customers",
-    "subtitle": "Add an intelligent AI chat assistant to your website with a single line of code. The widget answers questions, handles bookings, and guides your visitors — automatically, in Danish, around the clock."
+    "subtitle": "Add an intelligent AI chat assistant to your website with a single line of code. The widget answers questions, handles bookings, and guides your visitors — automatically, in their language, around the clock."
   },
   "widgetIntro": {
     "badge_plug_play": "Plug & Play",
@@ -102,12 +143,30 @@
     "description": "The Aibooking.dk AI widget is more than a chatbot. It's an intelligent sales assistant that understands your visitors' needs, gives precise answers based on your content, and converts enquiries into bookings — fully automatically."
   },
   "widgetBenefits": [
-    { "title": "Works on any website", "desc": "WordPress, Shopify, Webflow, custom — one line of code" },
-    { "title": "AI-powered live chat", "desc": "Answers questions, books appointments and converts visitors" },
-    { "title": "Natural Danish language understanding", "desc": "Understands context and nuance in customer questions" },
-    { "title": "Active in under 5 minutes", "desc": "No technical knowledge required — plug and play" },
-    { "title": "Direct booking in the chat", "desc": "Customers can book a time without leaving the page" },
-    { "title": "+45% conversion increase", "desc": "Proven effect on sales and leads" }
+    {
+      "title": "Works on any website",
+      "desc": "WordPress, Shopify, Webflow, custom — one line of code"
+    },
+    {
+      "title": "AI-powered live chat",
+      "desc": "Answers questions, books appointments and converts visitors"
+    },
+    {
+      "title": "Natural language understanding",
+      "desc": "Understands context and nuance in customer questions"
+    },
+    {
+      "title": "Active in under 5 minutes",
+      "desc": "No technical knowledge required — plug and play"
+    },
+    {
+      "title": "Direct booking in the chat",
+      "desc": "Customers can book a time without leaving the page"
+    },
+    {
+      "title": "+45% conversion increase",
+      "desc": "Proven effect on sales and leads"
+    }
   ],
   "widgetButtons": {
     "see_plans": "See AI Widget plans",
@@ -121,7 +180,7 @@
     "description": "With our AI Voice Widget, your visitors can talk directly to an AI assistant on your website. It creates an outstanding customer experience and makes it easier to book, ask and engage — without typing a word."
   },
   "voiceWidgetFeatures": [
-    "Natural Danish voice and understanding",
+    "Natural voice and understanding",
     "Activated with one click — no app download",
     "Integrates with your calendar and booking system",
     "Works on mobile, tablet and desktop",
@@ -130,10 +189,22 @@
   ],
   "voiceWidgetButton": "Get started with the Widget",
   "statsBand": [
-    { "value": "85%", "label": "Less phone time" },
-    { "value": "60%", "label": "Fewer no-shows" },
-    { "value": "98%", "label": "Customer satisfaction" },
-    { "value": "320%", "label": "ROI in year one" }
+    {
+      "value": "85%",
+      "label": "Less phone time"
+    },
+    {
+      "value": "60%",
+      "label": "Fewer no-shows"
+    },
+    {
+      "value": "98%",
+      "label": "Customer satisfaction"
+    },
+    {
+      "value": "320%",
+      "label": "ROI in year one"
+    }
   ],
   "additionalTitle": {
     "title": "All features — one unified system",
@@ -143,22 +214,42 @@
     {
       "title": "Automatic Calendar Integration",
       "description": "Syncs seamlessly with Google Calendar, Outlook, and all popular calendar systems. No double bookings, no conflicts — everything updates automatically.",
-      "benefits": ["Integration with Google Calendar and Outlook", "Real-time synchronization", "Automatic availability checks", "Handles rebookings and cancellations"]
+      "benefits": [
+        "Integration with Google Calendar and Outlook",
+        "Real-time synchronization",
+        "Automatic availability checks",
+        "Handles rebookings and cancellations"
+      ]
     },
     {
       "title": "SMS Reminders and Confirmations",
       "description": "Reduce no-shows by up to 60% with automatic SMS reminders. Customers receive confirmations and reminders tailored to your business's tone and brand.",
-      "benefits": ["Automatic booking confirmations", "Reminders 24 hours before appointments", "Option to rebook via SMS", "Custom message templates"]
+      "benefits": [
+        "Automatic booking confirmations",
+        "Reminders 24 hours before appointments",
+        "Option to rebook via SMS",
+        "Custom message templates"
+      ]
     },
     {
       "title": "GDPR-Secure and Danish Hosting",
       "description": "All data is handled in compliance with GDPR and stored securely in Denmark. End-to-end encryption, full transparency, and regular security audits.",
-      "benefits": ["Full GDPR compliance", "Data hosted in Denmark", "End-to-end encryption", "Regular security audits"]
+      "benefits": [
+        "Full GDPR compliance",
+        "Data hosted in Denmark",
+        "End-to-end encryption",
+        "Regular security audits"
+      ]
     },
     {
       "title": "Fast Setup — Under 24 Hours",
       "description": "Get started in under 24 hours with help from our dedicated onboarding specialist. The AI is trained for your industry and starts taking calls almost immediately.",
-      "benefits": ["Setup in under 24 hours", "Dedicated onboarding specialist", "Tailored to your industry", "Continuous optimization"]
+      "benefits": [
+        "Setup in under 24 hours",
+        "Dedicated onboarding specialist",
+        "Tailored to your industry",
+        "Continuous optimization"
+      ]
     }
   ],
   "ctaSection": {

@@ -2,7 +2,7 @@
   "seo": {
     "title": "Recepcionista de IA para Oficinas - Abogados, Contables, Consultores | Aibooking.dk",
     "description": "Recepcionista de IA para abogados, contables y consultores. 35% más productividad y 320% de ROI. Pruébalo gratis.",
-    "keywords": "atención telefónica con IA, recepcionista de IA danesa, widget para tienda online, widget de IA para Shopify, recepcionista para oficina, recepcionista para abogados, reservas para contables, reservas para consultores, automatización de oficina, reserva de reuniones"
+    "keywords": "atención telefónica con IA, recepcionista virtual con IA, widget para tienda online, widget de IA para Shopify, recepcionista para oficina, recepcionista para abogados, reservas para contables, reservas para consultores, automatización de oficina, reserva de reuniones"
   },
   "breadcrumb": {
     "home": "Inicio",
@@ -18,23 +18,59 @@
     "title": "Lo mejor de ambos mundos",
     "description": "Con Aibooking.dk obtienes lo mejor de ambos mundos. Nuestra recepcionista de IA filtra todas las llamadas entrantes, gestiona la reserva de reuniones, responde preguntas frecuentes y solo redirige las consultas más importantes. Tu equipo obtiene la tranquilidad de trabajar concentrado, mientras los clientes disfrutan de un servicio profesional a cualquier hora. El panel te da control total: escucha cada conversación, consulta resúmenes detallados, estadísticas de reservas e integración con el calendario. Perfecto para abogados, contables, consultores y otros negocios basados en el conocimiento.",
     "benefits": [
-      { "title": "Menos interrupciones", "description": "Mejora significativamente la productividad de los empleados" },
-      { "title": "Gestión telefónica profesional", "description": "Sin costes salariales adicionales para una recepcionista" },
-      { "title": "Filtrado automático", "description": "Solo se redirigen a tu equipo los asuntos importantes" },
-      { "title": "Reserva de reuniones", "description": "Reserva reuniones directamente en el calendario compartido de tu equipo" },
-      { "title": "Panel completo", "description": "Historial de conversaciones, resúmenes y estadísticas" },
-      { "title": "Integración con CRM", "description": "Integración con tus sistemas y calendarios actuales" }
+      {
+        "title": "Menos interrupciones",
+        "description": "Mejora significativamente la productividad de los empleados"
+      },
+      {
+        "title": "Gestión telefónica profesional",
+        "description": "Sin costes salariales adicionales para una recepcionista"
+      },
+      {
+        "title": "Filtrado automático",
+        "description": "Solo se redirigen a tu equipo los asuntos importantes"
+      },
+      {
+        "title": "Reserva de reuniones",
+        "description": "Reserva reuniones directamente en el calendario compartido de tu equipo"
+      },
+      {
+        "title": "Panel completo",
+        "description": "Historial de conversaciones, resúmenes y estadísticas"
+      },
+      {
+        "title": "Integración con CRM",
+        "description": "Integración con tus sistemas y calendarios actuales"
+      }
     ]
   },
   "stats": [
-    { "value": "+35%", "label": "Productividad" },
-    { "value": "15h/semana", "label": "Tiempo ahorrado" },
-    { "value": "98%", "label": "Llamadas gestionadas" },
-    { "value": "320%", "label": "ROI" }
+    {
+      "value": "+35%",
+      "label": "Productividad"
+    },
+    {
+      "value": "15h/semana",
+      "label": "Tiempo ahorrado"
+    },
+    {
+      "value": "98%",
+      "label": "Llamadas gestionadas"
+    },
+    {
+      "value": "320%",
+      "label": "ROI"
+    }
   ],
   "perfectFor": {
     "title": "Perfecto para todo tipo de negocios de oficina",
-    "businessTypes": ["Abogados", "Contables", "Consultores", "Formadores", "Coaches"],
+    "businessTypes": [
+      "Abogados",
+      "Contables",
+      "Consultores",
+      "Formadores",
+      "Coaches"
+    ],
     "ctaButton": "Reserva una reunión sin compromiso y obtén un acceso de prueba gratuito"
   },
   "finalCta": {

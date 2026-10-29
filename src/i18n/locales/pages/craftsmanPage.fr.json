@@ -2,7 +2,7 @@
   "seo": {
     "title": "Réceptionniste IA pour Artisans - Plombiers, Électriciens, Menuisiers | Aibooking.dk",
     "description": "Réservation automatique pour plombiers, électriciens et peintres. 45 % de commandes en plus et 100 % des appels traités. Essai gratuit.",
-    "keywords": "permanence téléphonique IA, réceptionniste IA danoise, widget pour boutique en ligne, widget IA pour Shopify, réservation artisan, réservation plombier, réservation électricien, réservation menuisier, réceptionniste IA artisan, automatisation des commandes"
+    "keywords": "permanence téléphonique IA, réceptionniste virtuel IA, widget pour boutique en ligne, widget IA pour Shopify, réservation artisan, réservation plombier, réservation électricien, réservation menuisier, réceptionniste IA artisan, automatisation des commandes"
   },
   "breadcrumb": {
     "home": "Accueil",
@@ -19,22 +19,59 @@
     "description": "Notre réceptionniste IA résout ce problème une fois pour toutes. Le système répond à tous les appels, enregistre les informations client, planifie les visites sur site et envoie des confirmations automatiques par SMS. Dans votre tableau de bord, vous pouvez consulter toutes les demandes, écouter les conversations enregistrées, obtenir des résumés courts de ce que souhaite le client, et voir ce qui a été convenu. Votre agenda se met à jour automatiquement, quel que soit le système que vous utilisez. Ne vous souciez plus des commandes perdues – concentrez-vous sur votre métier."
   },
   "benefits": [
-    { "title": "Répondez à toutes les demandes", "description": "Même lorsque vous êtes sur un chantier et ne pouvez pas répondre au téléphone" },
-    { "title": "Enregistrement automatique", "description": "Les informations client et les descriptions des travaux sont enregistrées automatiquement" },
-    { "title": "Planifiez des visites directement", "description": "Dans votre agenda – synchronisation automatique avec votre système" },
-    { "title": "Confirmations par SMS", "description": "Pour vous et pour le client, avec tous les détails pertinents" },
-    { "title": "Tableau de bord complet", "description": "Consultez toutes les demandes clients et ce qui a été convenu" },
-    { "title": "Disponibilité 24h/24 et 7j/7", "description": "Le système fonctionne jour et nuit, week-ends compris" }
+    {
+      "title": "Répondez à toutes les demandes",
+      "description": "Même lorsque vous êtes sur un chantier et ne pouvez pas répondre au téléphone"
+    },
+    {
+      "title": "Enregistrement automatique",
+      "description": "Les informations client et les descriptions des travaux sont enregistrées automatiquement"
+    },
+    {
+      "title": "Planifiez des visites directement",
+      "description": "Dans votre agenda – synchronisation automatique avec votre système"
+    },
+    {
+      "title": "Confirmations par SMS",
+      "description": "Pour vous et pour le client, avec tous les détails pertinents"
+    },
+    {
+      "title": "Tableau de bord complet",
+      "description": "Consultez toutes les demandes clients et ce qui a été convenu"
+    },
+    {
+      "title": "Disponibilité 24h/24 et 7j/7",
+      "description": "Le système fonctionne jour et nuit, week-ends compris"
+    }
   ],
   "stats": [
-    { "value": "+45%", "label": "Commandes en plus" },
-    { "value": "10h/sem.", "label": "Temps économisé" },
-    { "value": "100%", "label": "Taux de réponse" },
-    { "value": "4.9/5", "label": "Satisfaction client" }
+    {
+      "value": "+45%",
+      "label": "Commandes en plus"
+    },
+    {
+      "value": "10h/sem.",
+      "label": "Temps économisé"
+    },
+    {
+      "value": "100%",
+      "label": "Taux de réponse"
+    },
+    {
+      "value": "4.9/5",
+      "label": "Satisfaction client"
+    }
   ],
   "trades": {
     "title": "Idéal pour tous les métiers du bâtiment",
-    "items": ["Plomberie", "Électriciens", "Peintres", "Menuisiers", "Nettoyage", "Entreprises de déménagement"],
+    "items": [
+      "Plomberie",
+      "Électriciens",
+      "Peintres",
+      "Menuisiers",
+      "Nettoyage",
+      "Entreprises de déménagement"
+    ],
     "cta": "Réservez un rendez-vous sans engagement et obtenez un accès test gratuit"
   },
   "finalCta": {

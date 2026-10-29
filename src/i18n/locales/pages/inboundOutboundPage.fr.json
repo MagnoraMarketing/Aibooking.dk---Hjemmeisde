@@ -2,7 +2,7 @@
   "seo": {
     "title": "Permanence Téléphonique IA – Appels Entrants et Sortants | Aibooking.dk",
     "description": "Permanence téléphonique IA : une réceptionniste IA qui répond aux appels entrants, réserve dans votre agenda et rappelle vos clients – 24h/24.",
-    "keywords": "permanence téléphonique IA, réceptionniste IA danoise, widget pour boutique en ligne, widget IA pour Shopify, inbound outbound ai voice, assistant téléphonique ia, agent vocal ia, réception ia, appels entrants, appels sortants, permanence téléphonique automatisée, réceptionniste ia, voicebot, réservation par téléphone, ai booking"
+    "keywords": "permanence téléphonique IA, réceptionniste virtuel IA, widget pour boutique en ligne, widget IA pour Shopify, appels IA, assistant téléphonique ia, agent vocal ia, réception ia, appels entrants, appels sortants, permanence téléphonique automatisée, réceptionniste ia, voicebot, réservation par téléphone, réservation IA"
   },
   "breadcrumb": {
     "home": "Accueil",
@@ -17,9 +17,18 @@
     "cta_example": "Écouter un exemple",
     "cta_pricing": "Voir les tarifs",
     "stats": {
-      "answer": { "value": "2 sec.", "label": "Délai moyen de décroché" },
-      "availability": { "value": "24/7", "label": "Soirs et week-ends compris" },
-      "saving": { "value": "80%", "label": "Moins cher qu'un réceptionniste" }
+      "answer": {
+        "value": "2 sec.",
+        "label": "Délai moyen de décroché"
+      },
+      "availability": {
+        "value": "24/7",
+        "label": "Soirs et week-ends compris"
+      },
+      "saving": {
+        "value": "80%",
+        "label": "Moins cher qu'un réceptionniste"
+      }
     },
     "card": {
       "status": "Appel en cours",
@@ -27,7 +36,11 @@
       "timer": "00:51",
       "transcriptLabel": "Transcription en direct",
       "line": "C'est réservé pour demain à 8h30. Vous recevez un SMS de confirmation tout de suite.",
-      "actions": ["Rendez-vous pris", "SMS envoyé", "Dossier créé"]
+      "actions": [
+        "Rendez-vous pris",
+        "SMS envoyé",
+        "Dossier créé"
+      ]
     }
   },
   "whatIs": {
@@ -62,15 +75,51 @@
       "caller": "Numéro inconnu",
       "meta": "Entrant · 20h41 · Plomberie du Nord",
       "chat": [
-        { "role": "ai", "time": "0:02", "text": "Vous êtes en ligne avec Aibooking, de Plomberie du Nord. Que puis-je faire pour vous ?" },
-        { "role": "customer", "time": "0:07", "text": "Bonjour. J'ai un tuyau qui goutte sous l'évier de la cuisine. Vous pouvez passer ?" },
-        { "role": "ai", "time": "0:12", "text": "Nous pouvons nous en occuper. Y a-t-il de l'eau au sol en ce moment, ou s'agit-il d'un goutte-à-goutte lent ?" },
-        { "role": "customer", "time": "0:19", "text": "C'est un goutte-à-goutte lent. J'ai mis un seau dessous." },
-        { "role": "ai", "time": "0:24", "text": "Très bien. Je réserve donc une intervention normale plutôt qu'une urgence, cela vous revient moins cher. J'ai demain à 8h30 ou jeudi à 13h." },
-        { "role": "customer", "time": "0:35", "text": "Demain 8h30, ça me va très bien." },
-        { "role": "ai", "time": "0:39", "text": "Parfait. Puis-je avoir l'adresse et un numéro de portable pour la confirmation ?" },
-        { "role": "customer", "time": "0:45", "text": "14 rue du Sud, à Lille." },
-        { "role": "ai", "time": "0:51", "text": "Merci. C'est réservé pour demain à 8h30. Vous recevez le SMS de confirmation maintenant et un rappel une heure avant." }
+        {
+          "role": "ai",
+          "time": "0:02",
+          "text": "Vous êtes en ligne avec Aibooking, de Plomberie du Nord. Que puis-je faire pour vous ?"
+        },
+        {
+          "role": "customer",
+          "time": "0:07",
+          "text": "Bonjour. J'ai un tuyau qui goutte sous l'évier de la cuisine. Vous pouvez passer ?"
+        },
+        {
+          "role": "ai",
+          "time": "0:12",
+          "text": "Nous pouvons nous en occuper. Y a-t-il de l'eau au sol en ce moment, ou s'agit-il d'un goutte-à-goutte lent ?"
+        },
+        {
+          "role": "customer",
+          "time": "0:19",
+          "text": "C'est un goutte-à-goutte lent. J'ai mis un seau dessous."
+        },
+        {
+          "role": "ai",
+          "time": "0:24",
+          "text": "Très bien. Je réserve donc une intervention normale plutôt qu'une urgence, cela vous revient moins cher. J'ai demain à 8h30 ou jeudi à 13h."
+        },
+        {
+          "role": "customer",
+          "time": "0:35",
+          "text": "Demain 8h30, ça me va très bien."
+        },
+        {
+          "role": "ai",
+          "time": "0:39",
+          "text": "Parfait. Puis-je avoir l'adresse et un numéro de portable pour la confirmation ?"
+        },
+        {
+          "role": "customer",
+          "time": "0:45",
+          "text": "14 rue du Sud, à Lille."
+        },
+        {
+          "role": "ai",
+          "time": "0:51",
+          "text": "Merci. C'est réservé pour demain à 8h30. Vous recevez le SMS de confirmation maintenant et un rappel une heure avant."
+        }
       ],
       "outcomesLabel": "Ce que l'IA a fait au passage",
       "outcomes": [
@@ -82,9 +131,18 @@
       ],
       "resultsLabel": "Résultat",
       "results": [
-        { "label": "Durée", "value": "1:04" },
-        { "label": "Issue", "value": "Réservé demain à 8h30" },
-        { "label": "Dossier créé", "value": "#4821 · Fuite de tuyau" }
+        {
+          "label": "Durée",
+          "value": "1:04"
+        },
+        {
+          "label": "Issue",
+          "value": "Réservé demain à 8h30"
+        },
+        {
+          "label": "Dossier créé",
+          "value": "#4821 · Fuite de tuyau"
+        }
       ]
     },
     "outbound": {
@@ -93,11 +151,31 @@
       "caller": "Marie Lefèvre",
       "meta": "Sortant · 9h15 · Clinique Sund",
       "chat": [
-        { "role": "ai", "time": "0:03", "text": "Bonjour Marie. Aibooking à l'appareil, de la part de la Clinique Sund. Je vous appelle au sujet de votre rendez-vous de demain à 10h – cela vous convient toujours ?" },
-        { "role": "customer", "time": "0:11", "text": "Oh, je l'avais complètement oublié. En fait je travaille jusqu'à 15h." },
-        { "role": "ai", "time": "0:18", "text": "Aucun problème. Je peux vous proposer demain à 15h45, ou vendredi à 9h30. Qu'est-ce qui vous arrange le plus ?" },
-        { "role": "customer", "time": "0:26", "text": "Vendredi 9h30, s'il vous plaît." },
-        { "role": "ai", "time": "0:30", "text": "Votre rendez-vous est déplacé à vendredi 9h30. Je vous envoie un SMS avec le nouvel horaire. Bonne journée." }
+        {
+          "role": "ai",
+          "time": "0:03",
+          "text": "Bonjour Marie. Aibooking à l'appareil, de la part de la Clinique Sund. Je vous appelle au sujet de votre rendez-vous de demain à 10h – cela vous convient toujours ?"
+        },
+        {
+          "role": "customer",
+          "time": "0:11",
+          "text": "Oh, je l'avais complètement oublié. En fait je travaille jusqu'à 15h."
+        },
+        {
+          "role": "ai",
+          "time": "0:18",
+          "text": "Aucun problème. Je peux vous proposer demain à 15h45, ou vendredi à 9h30. Qu'est-ce qui vous arrange le plus ?"
+        },
+        {
+          "role": "customer",
+          "time": "0:26",
+          "text": "Vendredi 9h30, s'il vous plaît."
+        },
+        {
+          "role": "ai",
+          "time": "0:30",
+          "text": "Votre rendez-vous est déplacé à vendredi 9h30. Je vous envoie un SMS avec le nouvel horaire. Bonne journée."
+        }
       ],
       "outcomesLabel": "Ce que l'IA a fait au passage",
       "outcomes": [
@@ -109,9 +187,18 @@
       ],
       "resultsLabel": "Résultat",
       "results": [
-        { "label": "Durée", "value": "0:38" },
-        { "label": "Issue", "value": "Déplacé à vendredi 9h30" },
-        { "label": "Évité", "value": "Une absence · créneau reproposé" }
+        {
+          "label": "Durée",
+          "value": "0:38"
+        },
+        {
+          "label": "Issue",
+          "value": "Déplacé à vendredi 9h30"
+        },
+        {
+          "label": "Évité",
+          "value": "Une absence · créneau reproposé"
+        }
       ]
     }
   },
@@ -221,26 +308,78 @@
     "inbound": "Entrants",
     "outbound": "Sortants",
     "items": [
-      { "feature": "Répondre aux appels des clients", "inbound": true, "outbound": false },
-      { "feature": "Appeler les clients", "inbound": false, "outbound": true },
-      { "feature": "Réserver des rendez-vous dans l'agenda", "inbound": true, "outbound": true },
-      { "feature": "Enregistrer les coordonnées client", "inbound": true, "outbound": true },
-      { "feature": "Rappel la veille", "inbound": false, "outbound": true },
-      { "feature": "Relance des leads et des devis", "inbound": false, "outbound": true },
-      { "feature": "Répondre aux questions récurrentes", "inbound": true, "outbound": false },
-      { "feature": "Transférer à un collègue", "inbound": true, "outbound": false },
-      { "feature": "Reprogrammer un rendez-vous annulé", "inbound": true, "outbound": true },
-      { "feature": "Enregistrement et résumé", "inbound": true, "outbound": true }
+      {
+        "feature": "Répondre aux appels des clients",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Appeler les clients",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Réserver des rendez-vous dans l'agenda",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Enregistrer les coordonnées client",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Rappel la veille",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Relance des leads et des devis",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Répondre aux questions récurrentes",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Transférer à un collègue",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Reprogrammer un rendez-vous annulé",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Enregistrement et résumé",
+        "inbound": true,
+        "outbound": true
+      }
     ]
   },
   "pricing": {
     "title": "Tarifs",
     "subtitle": "Le temps de parole et toutes les fonctionnalités sont inclus. Sans engagement ni frais de mise en service.",
     "perMonth": "/mois",
-    "demo": { "name": "Démo", "label": "7 jours gratuits · accès complet" },
-    "starter": { "name": "Starter", "label": "150 min/mois inclus" },
-    "professional": { "name": "Professional", "label": "600 min/mois inclus" },
-    "enterprise": { "name": "Enterprise", "label": "2 000 min/mois inclus" },
+    "demo": {
+      "name": "Démo",
+      "label": "7 jours gratuits · accès complet"
+    },
+    "starter": {
+      "name": "Starter",
+      "label": "150 min/mois inclus"
+    },
+    "professional": {
+      "name": "Professional",
+      "label": "600 min/mois inclus"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "label": "2 000 min/mois inclus"
+    },
     "free": "Gratuit",
     "mostPopular": "Le plus choisi",
     "cta": "Commencer",

@@ -2,9 +2,12 @@
   "seo": {
     "title": "Widget IA pour Shopify, Boutiques en Ligne et Sites | Aibooking.dk",
     "description": "Widget IA pour Shopify, boutiques en ligne et sites web. Vos clients écrivent ou parlent : l'IA répond, réserve et suit les commandes 24h/24.",
-    "keywords": "permanence téléphonique IA, réceptionniste IA danoise, widget pour boutique en ligne, widget IA pour Shopify, AI voice widget, voicebot site web, widget de réservation IA, réservation vocale, chatbot en français, réservation automatique de rendez-vous, widget réceptionniste IA, automatisation de réservation, widget IA boutique en ligne, assistant vocal Shopify, suivi de commande IA, chatbot WooCommerce, widget vocal e-commerce"
+    "keywords": "permanence téléphonique IA, réceptionniste virtuel IA, widget pour boutique en ligne, widget IA pour Shopify, widget vocal IA, voicebot site web, widget de réservation IA, réservation vocale, chatbot en français, réservation automatique de rendez-vous, widget réceptionniste IA, automatisation de réservation, widget IA boutique en ligne, assistant vocal Shopify, suivi de commande IA, chatbot WooCommerce, widget vocal e-commerce"
   },
-  "breadcrumb": { "home": "Accueil", "current": "Widget IA" },
+  "breadcrumb": {
+    "home": "Accueil",
+    "current": "Widget IA"
+  },
   "hero": {
     "badge": "AI Voice Widget pour votre site web",
     "title_line1": "Laissez vos clients réserver des rendez-vous",
@@ -46,7 +49,7 @@
     "para1_pre": "Un ",
     "para1_strong": "AI voice widget",
     "para1_post": " est une interface vocale intelligente installée discrètement sur votre site web – généralement sous la forme d'un bouton flottant dans un coin. Lorsqu'un visiteur clique dessus, il peut parler directement avec votre assistant IA.",
-    "para2_pre": "L'assistant IA comprend naturellement le danois parlé, peut répondre aux questions sur votre entreprise et réserver des rendez-vous directement dans votre calendrier – ",
+    "para2_pre": "L'assistant IA comprend naturellement le langage parlé, peut répondre aux questions sur votre entreprise et réserver des rendez-vous directement dans votre calendrier – ",
     "para2_strong": "sans aucune intervention humaine",
     "para2_post": ".",
     "para3": "C'est comme avoir une réceptionniste qui ne dort jamais, n'est jamais malade et reste toujours professionnelle – pour une fraction du prix.",
@@ -67,7 +70,7 @@
       },
       {
         "title": "Les clients parlent avec l'IA",
-        "description": "Les visiteurs de votre site web cliquent sur le widget et parlent directement avec votre assistant IA personnel. L'IA comprend le danois et répond aux questions sur votre entreprise."
+        "description": "Les visiteurs de votre site web cliquent sur le widget et parlent directement avec votre assistant IA personnel. L'IA comprend votre langue et répond aux questions sur votre entreprise."
       },
       {
         "title": "Les réservations arrivent automatiquement",
@@ -81,7 +84,7 @@
     "items": [
       {
         "title": "Reconnaissance vocale naturelle",
-        "description": "Comprend le danois parlé naturellement – les clients n'ont pas besoin de parler par commandes. L'IA suit la conversation et pose des questions de relance."
+        "description": "Comprend le langage parlé naturellement – les clients n'ont pas besoin de parler par commandes. L'IA suit la conversation et pose des questions de relance."
       },
       {
         "title": "Intégration directe au calendrier",
@@ -101,7 +104,7 @@
       },
       {
         "title": "IA multilingue",
-        "description": "Le widget prend en charge le danois et de nombreuses autres langues. L'IA s'adapte automatiquement à la langue parlée par le client."
+        "description": "Le widget prend en charge le français, l'anglais, le danois et de nombreuses autres langues. L'IA s'adapte automatiquement à la langue parlée par le client."
       },
       {
         "title": "Mise en place ultra-rapide",
@@ -417,14 +420,35 @@
       }
     ],
     "points": [
-      { "label": "Questions produits", "desc": "Prix, stock et informations produit sont récupérés en direct depuis Shopify" },
-      { "label": "Statut de commande", "desc": "Les clients peuvent demander « où est mon colis ? » et obtenir une réponse instantanée" },
-      { "label": "Configuration sécurisée", "desc": "La clé API est vérifiée auprès de Shopify avant d'être enregistrée, et stockée chiffrée" },
-      { "label": "Prêt en 5 minutes", "desc": "Ajoutez l'adresse de votre boutique et la clé API dans le tableau de bord, et les deux canaux sont actifs" }
+      {
+        "label": "Questions produits",
+        "desc": "Prix, stock et informations produit sont récupérés en direct depuis Shopify"
+      },
+      {
+        "label": "Statut de commande",
+        "desc": "Les clients peuvent demander « où est mon colis ? » et obtenir une réponse instantanée"
+      },
+      {
+        "label": "Configuration sécurisée",
+        "desc": "La clé API est vérifiée auprès de Shopify avant d'être enregistrée, et stockée chiffrée"
+      },
+      {
+        "label": "Prêt en 5 minutes",
+        "desc": "Ajoutez l'adresse de votre boutique et la clé API dans le tableau de bord, et les deux canaux sont actifs"
+      }
     ],
     "mock": {
       "windowLabel": "Configure Agent",
-      "tabs": ["Prompt Lab", "Settings", "Knowledge Base", "Booking", "Webshop", "Customise Widget", "Test Agent", "Embed Code"],
+      "tabs": [
+        "Prompt Lab",
+        "Settings",
+        "Knowledge Base",
+        "Booking",
+        "Webshop",
+        "Customise Widget",
+        "Test Agent",
+        "Embed Code"
+      ],
       "activeTab": "Webshop",
       "sectionLabel": "WEBSHOP / SHOPIFY",
       "statusNotConnected": "Non connecté",
@@ -491,7 +515,7 @@
     },
     {
       "question": "Quelles langues le widget prend-il en charge ?",
-      "answer": "Le widget prend en charge le danois ainsi qu'un grand nombre d'autres langues. L'assistant IA s'adapte automatiquement à la langue parlée par le client."
+      "answer": "Le widget prend en charge le français, l'anglais, le danois ainsi qu'un grand nombre d'autres langues. L'assistant IA s'adapte automatiquement à la langue parlée par le client."
     },
     {
       "question": "Le widget est-il conforme au RGPD ?",

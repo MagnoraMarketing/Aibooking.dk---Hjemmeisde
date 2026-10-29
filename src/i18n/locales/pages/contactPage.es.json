@@ -1,19 +1,32 @@
 {
   "seo": {
     "title": "Contáctanos - Obtén Ayuda y Soporte | Aibooking.dk",
-    "description": "¿Tienes preguntas sobre nuestra recepcionista de IA? Contacta con nuestro equipo de soporte danés. Respondemos en 24 horas vía correo.",
-    "keywords": "atención telefónica con IA, recepcionista de IA danesa, widget para tienda online, widget de IA para Shopify, contactar aibooking, soporte danés, ayuda recepcionista de ia, atención al cliente, obtener una demo"
+    "description": "¿Tienes preguntas sobre nuestra recepcionista de IA? Contacta con nuestro equipo de soporte. Respondemos en 24 horas por correo electrónico.",
+    "keywords": "atención telefónica con IA, recepcionista virtual con IA, widget para tienda online, widget de IA para Shopify, contactar aibooking, soporte por email, ayuda recepcionista de ia, atención al cliente, obtener una demo"
   },
-  "breadcrumb": { "home": "Inicio", "contact": "Contacto" },
+  "breadcrumb": {
+    "home": "Inicio",
+    "contact": "Contacto"
+  },
   "hero": {
     "badge": "Estamos listos para ayudar",
     "title": "Contáctanos hoy",
     "subtitle": "¿Tienes preguntas o quieres saber más sobre cómo Aibooking.dk puede ayudar a tu negocio? Estamos aquí para ayudarte."
   },
   "infoCards": {
-    "call": { "title": "Llama y pruébalo", "desc": "Llama gratis y prueba nuestra recepcionista de IA en vivo" },
-    "email": { "title": "Envía un correo", "desc": "Respondemos en 24 horas" },
-    "hours": { "title": "Horario de atención", "line1": "Lun-Vie: 9:00 - 17:00", "line2": "Fin de semana: Cerrado" }
+    "call": {
+      "title": "Llama y pruébalo",
+      "desc": "Llama gratis y prueba nuestra recepcionista de IA en vivo"
+    },
+    "email": {
+      "title": "Envía un correo",
+      "desc": "Respondemos en 24 horas"
+    },
+    "hours": {
+      "title": "Horario de atención",
+      "line1": "Lun-Vie: 9:00 - 17:00",
+      "line2": "Fin de semana: Cerrado"
+    }
   },
   "coreServices": {
     "badge": "Nuestros servicios principales",
@@ -79,7 +92,7 @@
   "whyUs": {
     "title": "¿Por qué elegirnos?",
     "items": [
-      "Soporte danés en español",
+      "Soporte personal en inglés y danés",
       "Implementación rápida",
       "Solución conforme al RGPD"
     ]

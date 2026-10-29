@@ -2,9 +2,12 @@
   "seo": {
     "title": "7-Day Free Trial - Test Aibooking.dk | Aibooking.dk",
     "description": "Try Aibooking.dk free for 7 days. Forward your number and test inbound and outbound AI calls with free credit, SMS, email and WhatsApp.",
-    "keywords": "AI phone answering, Danish AI receptionist, webshop widget, AI widget for Shopify, free trial, 7-day trial, AI receptionist trial, test AI phone assistant, onboarding call, phone number forwarding"
+    "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, free trial, 7-day trial, AI receptionist trial, test AI phone assistant, onboarding call, phone number forwarding"
   },
-  "breadcrumb": { "home": "Home", "trial": "Free Trial" },
+  "breadcrumb": {
+    "home": "Home",
+    "trial": "Free Trial"
+  },
   "hero": {
     "badge": "7 days. No commitment.",
     "title": "Try the whole platform free for 7 days",

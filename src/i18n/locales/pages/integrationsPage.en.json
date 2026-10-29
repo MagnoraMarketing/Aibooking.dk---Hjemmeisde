@@ -2,30 +2,60 @@
   "seo": {
     "title": "Integrations - Connect Your AI Receptionist to Your Systems | Aibooking.dk",
     "description": "Integrate our AI receptionist with Google Calendar, Outlook, Microsoft Teams, Zoom, Slack, and many more. Seamless calendar and booking integrations.",
-    "keywords": "AI phone answering, Danish AI receptionist, webshop widget, AI widget for Shopify, AI booking calendar, calendar integration, AI reception, Google Calendar, Outlook integration, booking system integration, CRM integration, email integration"
+    "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, AI booking calendar, calendar integration, AI reception, Google Calendar, Outlook integration, booking system integration, CRM integration, email integration"
   },
-  "breadcrumb": { "home": "Home", "integrations": "Integrations" },
+  "breadcrumb": {
+    "home": "Home",
+    "integrations": "Integrations"
+  },
   "hero": {
     "badge": "Seamless Integration",
     "title_line1": "Connect with your",
     "title_line2": "existing tools",
     "subtitle": "Our AI solution automates administration, calls, SMS, and email by working alongside the systems you already use. Save time, become more professional, and let the AI handle rebookings, follow-ups, and meeting confirmations automatically.",
     "features": [
-      { "title": "Save Hours Every Day", "description": "Automate inbound and outbound calls, SMS, and emails while the AI syncs with your systems" },
-      { "title": "Fast Setup", "description": "No complicated installation. Connect your existing tools in minutes" },
-      { "title": "Always in Sync", "description": "Real-time updates across all your platforms. No duplicate work" }
+      {
+        "title": "Save Hours Every Day",
+        "description": "Automate inbound and outbound calls, SMS, and emails while the AI syncs with your systems"
+      },
+      {
+        "title": "Fast Setup",
+        "description": "No complicated installation. Connect your existing tools in minutes"
+      },
+      {
+        "title": "Always in Sync",
+        "description": "Real-time updates across all your platforms. No duplicate work"
+      }
     ]
   },
   "categoriesSection": {
     "title": "Integration Categories",
     "subtitle": "Our AI solution connects with the tools you already use every day",
     "categories": [
-      { "title": "Calendar & Scheduling", "description": "Google Calendar, Outlook, CalDAV" },
-      { "title": "CRM & Customers", "description": "HubSpot, Salesforce, Pipedrive" },
-      { "title": "Communication", "description": "WhatsApp, Slack, Discord, Messenger" },
-      { "title": "Documents", "description": "Notion, WordPress, Google Docs" },
-      { "title": "E-commerce", "description": "Shopify, WooCommerce, Stripe" },
-      { "title": "Automation", "description": "Zapier, Make, Webhooks, API" }
+      {
+        "title": "Calendar & Scheduling",
+        "description": "Google Calendar, Outlook, CalDAV"
+      },
+      {
+        "title": "CRM & Customers",
+        "description": "HubSpot, Salesforce, Pipedrive"
+      },
+      {
+        "title": "Communication",
+        "description": "WhatsApp, Slack, Discord, Messenger"
+      },
+      {
+        "title": "Documents",
+        "description": "Notion, WordPress, Google Docs"
+      },
+      {
+        "title": "E-commerce",
+        "description": "Shopify, WooCommerce, Stripe"
+      },
+      {
+        "title": "Automation",
+        "description": "Zapier, Make, Webhooks, API"
+      }
     ]
   },
   "gridSection": {
@@ -35,31 +65,111 @@
       "title": "Built specifically for clinics and treatment centers",
       "description": "Over 500 Danish clinics have already chosen our solution. From dental clinics and physiotherapists to beauty salons and wellness centers – our AI assistant integrates perfectly with your existing booking system and handles everything from phone calls to SMS reminders.",
       "points": [
-        { "strong": "GDPR-secure data handling", "text": "– all patient data is treated confidentially and in accordance with healthcare regulations" },
-        { "strong": "Reduce no-shows by up to 67%", "text": "– automatic reminders via SMS and email keep your customers informed" },
-        { "strong": "Setup in under 15 minutes", "text": "– no IT knowledge required, our team guides you every step of the way" },
-        { "strong": "Danish support 7 days a week", "text": "– help whenever you need it, in your own language" }
+        {
+          "strong": "GDPR-secure data handling",
+          "text": "– all patient data is treated confidentially and in accordance with healthcare regulations"
+        },
+        {
+          "strong": "Reduce no-shows by up to 67%",
+          "text": "– automatic reminders via SMS and email keep your customers informed"
+        },
+        {
+          "strong": "Setup in under 15 minutes",
+          "text": "– no IT knowledge required, our team guides you every step of the way"
+        },
+        {
+          "strong": "Support 7 days a week",
+          "text": "– help whenever you need it, in your own language"
+        }
       ]
     },
     "popularBadge": "Popular",
     "integrations": [
-      { "name": "Google Calendar", "description": "Automatic booking and meeting synchronization", "category": "Calendar" },
-      { "name": "Outlook", "description": "Microsoft 365 integration for email and calendar", "category": "Calendar" },
-      { "name": "WhatsApp", "description": "Send SMS confirmations and reminders", "category": "Communication" },
-      { "name": "Slack", "description": "Real-time notifications for your team", "category": "Communication" },
-      { "name": "Shopify", "description": "E-commerce booking integration", "category": "E-commerce" },
-      { "name": "Notion", "description": "Document and note synchronization", "category": "Productivity" },
-      { "name": "WordPress", "description": "Add booking to your website", "category": "Website" },
-      { "name": "Zapier", "description": "Connect with 5,000+ apps automatically", "category": "Automation" },
-      { "name": "Zoom", "description": "Automatic meeting link creation", "category": "Video" },
-      { "name": "Microsoft Teams", "description": "Teams meeting integration", "category": "Video" },
-      { "name": "Messenger", "description": "Facebook Messenger integration", "category": "Communication" },
-      { "name": "Discord", "description": "Community and server integration", "category": "Communication" },
-      { "name": "OpenAI", "description": "Advanced AI support", "category": "AI" },
-      { "name": "Webhooks", "description": "Custom integration with your systems", "category": "Developer" },
-      { "name": "REST API", "description": "Full API access to all features", "category": "Developer" },
-      {"name": "Just Eat", "description": "Let the agent book a Just Eat courier for the customer", "category": "Delivery"},
-      {"name": "Uber Direct", "description": "A courier from your business to the customer – price and time first", "category": "Delivery"}
+      {
+        "name": "Google Calendar",
+        "description": "Automatic booking and meeting synchronization",
+        "category": "Calendar"
+      },
+      {
+        "name": "Outlook",
+        "description": "Microsoft 365 integration for email and calendar",
+        "category": "Calendar"
+      },
+      {
+        "name": "WhatsApp",
+        "description": "Send SMS confirmations and reminders",
+        "category": "Communication"
+      },
+      {
+        "name": "Slack",
+        "description": "Real-time notifications for your team",
+        "category": "Communication"
+      },
+      {
+        "name": "Shopify",
+        "description": "E-commerce booking integration",
+        "category": "E-commerce"
+      },
+      {
+        "name": "Notion",
+        "description": "Document and note synchronization",
+        "category": "Productivity"
+      },
+      {
+        "name": "WordPress",
+        "description": "Add booking to your website",
+        "category": "Website"
+      },
+      {
+        "name": "Zapier",
+        "description": "Connect with 5,000+ apps automatically",
+        "category": "Automation"
+      },
+      {
+        "name": "Zoom",
+        "description": "Automatic meeting link creation",
+        "category": "Video"
+      },
+      {
+        "name": "Microsoft Teams",
+        "description": "Teams meeting integration",
+        "category": "Video"
+      },
+      {
+        "name": "Messenger",
+        "description": "Facebook Messenger integration",
+        "category": "Communication"
+      },
+      {
+        "name": "Discord",
+        "description": "Community and server integration",
+        "category": "Communication"
+      },
+      {
+        "name": "OpenAI",
+        "description": "Advanced AI support",
+        "category": "AI"
+      },
+      {
+        "name": "Webhooks",
+        "description": "Custom integration with your systems",
+        "category": "Developer"
+      },
+      {
+        "name": "REST API",
+        "description": "Full API access to all features",
+        "category": "Developer"
+      },
+      {
+        "name": "Just Eat",
+        "description": "Let the agent book a Just Eat courier for the customer",
+        "category": "Delivery"
+      },
+      {
+        "name": "Uber Direct",
+        "description": "A courier from your business to the customer – price and time first",
+        "category": "Delivery"
+      }
     ],
     "missing": {
       "title": "Missing your integration?",
@@ -77,9 +187,18 @@
     },
     "solutions": {
       "title": "Shopify, bookings — or both",
-      "shopify": { "title": "Shopify store", "text": "Automatically answer product, shipping and return questions, and cut abandoned carts with an AI widget that's available 24/7 on your store." },
-      "booking": { "title": "AI Booking & Calendar", "text": "Let customers book, reschedule and cancel appointments by phone or on your site, while the AI syncs directly with your calendar and sends automatic SMS reminders." },
-      "combined": { "title": "Webshop + bookings combined", "text": "Sell both products and services — a clinic with a webshop, or a salon selling products — and the AI can handle order questions and appointment booking in the very same conversation." }
+      "shopify": {
+        "title": "Shopify store",
+        "text": "Automatically answer product, shipping and return questions, and cut abandoned carts with an AI widget that's available 24/7 on your store."
+      },
+      "booking": {
+        "title": "AI Booking & Calendar",
+        "text": "Let customers book, reschedule and cancel appointments by phone or on your site, while the AI syncs directly with your calendar and sends automatic SMS reminders."
+      },
+      "combined": {
+        "title": "Webshop + bookings combined",
+        "text": "Sell both products and services — a clinic with a webshop, or a salon selling products — and the AI can handle order questions and appointment booking in the very same conversation."
+      }
     },
     "howItWorks": {
       "title": "How it works in practice",
@@ -91,7 +210,7 @@
       "points": [
         "One AI solution for both webshop support and a booking system",
         "Setup in under 15 minutes, no IT knowledge required",
-        "Support and an AI that speaks fluent Danish and English",
+        "Support and an AI that speaks fluent English and Danish",
         "No commitment — try it free for 7 days"
       ]
     },
@@ -116,9 +235,18 @@
       "Professional handling 24/7"
     ],
     "stats": [
-      { "value": "5 min", "label": "Average setup time" },
-      { "value": "24/7", "label": "AI-powered customer service" },
-      { "value": "100%", "label": "Automatic synchronization" }
+      {
+        "value": "5 min",
+        "label": "Average setup time"
+      },
+      {
+        "value": "24/7",
+        "label": "AI-powered customer service"
+      },
+      {
+        "value": "100%",
+        "label": "Automatic synchronization"
+      }
     ]
   },
   "foodDelivery": {

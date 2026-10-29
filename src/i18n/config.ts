@@ -329,7 +329,9 @@ i18n
       escapeValue: false,
     },
     detection: {
-      order: ['localStorage', 'navigator', 'htmlTag'],
+      // Not 'htmlTag': prerendered pages carry lang="da" on unprefixed URLs,
+      // which would keep visitors from other countries on the Danish site.
+      order: ['localStorage', 'navigator'],
       caches: ['localStorage'],
     },
   });

@@ -1,15 +1,18 @@
 {
   "seo": {
-    "title": "About Aibooking.dk – Danish AI Reception & Customer Service | Aibooking.dk",
-    "description": "Aibooking.dk is a Danish AI solution built by people with 20+ years in customer contact: AI reception, AI widgets and AI customer service.",
-    "keywords": "AI phone answering, Danish AI receptionist, webshop widget, AI widget for Shopify, about aibooking, AI Denmark, Danish AI, AI reception, AI customer service, AI widget, virtual receptionist"
+    "title": "About Aibooking.dk – AI Reception & Customer Service | Aibooking.dk",
+    "description": "Aibooking.dk is an AI solution from Denmark, built by people with 20+ years in customer contact: AI reception, AI widgets and AI customer service.",
+    "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, about aibooking, AI reception, AI customer service, AI widget, virtual receptionist"
   },
-  "breadcrumb": { "home": "Home", "about": "About Us" },
+  "breadcrumb": {
+    "home": "Home",
+    "about": "About Us"
+  },
   "hero": {
     "badge": "About Aibooking.dk",
     "title_line1": "We're revolutionizing",
     "title_line2": "customer service with AI",
-    "subtitle": "Our mission is to help Danish companies deliver outstanding customer service around the clock using advanced AI technology."
+    "subtitle": "Our mission is to help businesses deliver outstanding customer service around the clock using advanced AI technology."
   },
   "story": {
     "badge": "Our story",
@@ -23,27 +26,51 @@
   },
   "vision": {
     "title": "Our vision",
-    "description": "To be Denmark's leading provider of AI-driven customer service solutions, helping businesses grow through better customer experiences.",
+    "description": "To be a leading provider of AI-driven customer service solutions, helping businesses grow through better customer experiences.",
     "badge": "Innovation drives us forward"
   },
   "values": {
     "title": "Our values",
     "subtitle": "The principles that guide everything we do",
     "items": [
-      { "title": "Customer focus", "description": "We always put our customers' needs at the center and strive to deliver the best possible service." },
-      { "title": "Innovation", "description": "We constantly develop new solutions and improve our AI technology to stay ahead." },
-      { "title": "Reliability", "description": "We deliver stable and secure solutions you can rely on day after day." },
-      { "title": "Growth", "description": "We help businesses grow by automating and optimizing their customer service." }
+      {
+        "title": "Customer focus",
+        "description": "We always put our customers' needs at the center and strive to deliver the best possible service."
+      },
+      {
+        "title": "Innovation",
+        "description": "We constantly develop new solutions and improve our AI technology to stay ahead."
+      },
+      {
+        "title": "Reliability",
+        "description": "We deliver stable and secure solutions you can rely on day after day."
+      },
+      {
+        "title": "Growth",
+        "description": "We help businesses grow by automating and optimizing their customer service."
+      }
     ]
   },
   "benefits": {
     "title": "Why choose Aibooking.dk?",
     "subtitle": "Experience, expertise, and results that speak for themselves",
     "items": [
-      { "title": "Experience that makes a difference", "description": "With over 20 years of telemarketing experience, we know every challenge in customer contact. Our AI solution is built on real industry understanding." },
-      { "title": "Automation that works", "description": "We know exactly which parts of customer contact can be automated effectively. Our virtual receptionist handles both inbound and outbound calls professionally." },
-      { "title": "Support in Danish, English, and Spanish", "description": "Our AI speaks perfect Danish, English, and Spanish. We give you local support and guidance based on in-depth market knowledge." },
-      { "title": "Experience across many industries", "description": "We have many years of experience across numerous industries, giving us a solid understanding of how to set up the best possible solution for your business." }
+      {
+        "title": "Experience that makes a difference",
+        "description": "With over 20 years of telemarketing experience, we know every challenge in customer contact. Our AI solution is built on real industry understanding."
+      },
+      {
+        "title": "Automation that works",
+        "description": "We know exactly which parts of customer contact can be automated effectively. Our virtual receptionist handles both inbound and outbound calls professionally."
+      },
+      {
+        "title": "Support in Danish, English, and Spanish",
+        "description": "Our AI speaks perfect Danish, English, and Spanish. We give you local support and guidance based on in-depth market knowledge."
+      },
+      {
+        "title": "Experience across many industries",
+        "description": "We have many years of experience across numerous industries, giving us a solid understanding of how to set up the best possible solution for your business."
+      }
     ]
   },
   "receptionist": {
@@ -54,7 +81,7 @@
       "description": "Our virtual receptionist handles all inbound calls, answers questions, takes bookings, and only transfers calls when necessary. That means fewer interrupted workflows and more time for core tasks.",
       "features": [
         "24/7 availability",
-        "Professional Danish communication",
+        "Professional communication in your customers’ language",
         "Automatic booking and confirmation"
       ]
     },
@@ -72,9 +99,18 @@
     "title": "Aibooking.dk Widget",
     "description": "The Aibooking.dk Widget makes it easy to schedule and book meetings without manual effort. Integrate our intelligent widget directly on your website and let the AI take control. Available via both voice and text, so new meetings are booked automatically straight into your calendar.",
     "items": [
-      { "title": "AI-based scheduling", "description": "The widget suggests the best times for you and your customers - fully automatically." },
-      { "title": "Voice and text booking", "description": "Your customers can choose between speaking directly with the AI or using text-based booking." },
-      { "title": "Automatic calendar integration", "description": "New meetings are automatically booked into your calendar without manual handling." }
+      {
+        "title": "AI-based scheduling",
+        "description": "The widget suggests the best times for you and your customers - fully automatically."
+      },
+      {
+        "title": "Voice and text booking",
+        "description": "Your customers can choose between speaking directly with the AI or using text-based booking."
+      },
+      {
+        "title": "Automatic calendar integration",
+        "description": "New meetings are automatically booked into your calendar without manual handling."
+      }
     ],
     "cta": "Learn more about the Widget"
   },

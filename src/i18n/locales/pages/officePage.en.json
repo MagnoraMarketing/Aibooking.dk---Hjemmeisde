@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Danish AI Receptionist for Offices – AI Phone Answering | Aibooking.dk",
-    "description": "A Danish AI receptionist for lawyers, accountants and consultants. Professional call handling, meeting booking and messages 24/7. Try it free.",
-    "keywords": "AI phone answering, Danish AI receptionist, webshop widget, AI widget for Shopify, office receptionist, lawyer receptionist, accountant booking, consultant booking, office automation, meeting booking"
+    "title": "AI Receptionist for Offices – AI Phone Answering | Aibooking.dk",
+    "description": "An AI receptionist for lawyers, accountants and consultants. Professional call handling, meeting booking and messages 24/7. Try it free.",
+    "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, office receptionist, lawyer receptionist, accountant booking, consultant booking, office automation, meeting booking"
   },
   "breadcrumb": {
     "home": "Home",
@@ -18,23 +18,59 @@
     "title": "The best of both worlds",
     "description": "With Aibooking.dk you get the best of both worlds. Our AI receptionist screens all incoming calls, handles meeting bookings, answers common questions and only forwards the most important inquiries. Your team gets the peace to work with focus, while customers experience professional service around the clock. The dashboard gives you complete control: listen to every conversation, view detailed summaries, booking statistics and calendar integration. Perfect for lawyers, accountants, consultants and other knowledge-based businesses.",
     "benefits": [
-      { "title": "Fewer interruptions", "description": "Significantly improve employee productivity" },
-      { "title": "Professional phone handling", "description": "Without extra salary costs for a receptionist" },
-      { "title": "Automatic screening", "description": "Only important matters are forwarded to your team" },
-      { "title": "Meeting booking", "description": "Book meetings directly into your team's shared calendar" },
-      { "title": "Complete dashboard", "description": "Conversation history, summaries and statistics" },
-      { "title": "CRM integration", "description": "Integration with your existing systems and calendars" }
+      {
+        "title": "Fewer interruptions",
+        "description": "Significantly improve employee productivity"
+      },
+      {
+        "title": "Professional phone handling",
+        "description": "Without extra salary costs for a receptionist"
+      },
+      {
+        "title": "Automatic screening",
+        "description": "Only important matters are forwarded to your team"
+      },
+      {
+        "title": "Meeting booking",
+        "description": "Book meetings directly into your team's shared calendar"
+      },
+      {
+        "title": "Complete dashboard",
+        "description": "Conversation history, summaries and statistics"
+      },
+      {
+        "title": "CRM integration",
+        "description": "Integration with your existing systems and calendars"
+      }
     ]
   },
   "stats": [
-    { "value": "+35%", "label": "Productivity" },
-    { "value": "15h/week", "label": "Time saved" },
-    { "value": "98%", "label": "Calls handled" },
-    { "value": "320%", "label": "ROI" }
+    {
+      "value": "+35%",
+      "label": "Productivity"
+    },
+    {
+      "value": "15h/week",
+      "label": "Time saved"
+    },
+    {
+      "value": "98%",
+      "label": "Calls handled"
+    },
+    {
+      "value": "320%",
+      "label": "ROI"
+    }
   ],
   "perfectFor": {
     "title": "Perfect for all office businesses",
-    "businessTypes": ["Lawyers", "Accountants", "Consultants", "Trainers", "Coaches"],
+    "businessTypes": [
+      "Lawyers",
+      "Accountants",
+      "Consultants",
+      "Trainers",
+      "Coaches"
+    ],
     "ctaButton": "Book a no-obligation meeting and get a free test login"
   },
   "finalCta": {

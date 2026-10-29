@@ -111,3 +111,27 @@ Sammenlægninger (301 i `vercel.json`, spejlet i `blogRedirects` i `src/content/
 6. **GSC og Bing:** indsend sitemap igen, brug URL-inspektion på de fem nye indlæg, og overvåg rapporten "Side med omdirigering" for de 20 gamle URL'er.
 7. **Branchesider** ud fra konkurrentmatrixen — kun hvor der er rigtig efterspørgsel og rigtige cases.
 8. **Kør måleplanen** (afsnit 5) og opdatér dette dokument efter 30, 60 og 90 dage.
+
+## 7. Søgeordsplan pr. sprog (29. oktober 2026)
+
+Titler, meta-beskrivelser, H1 og brødkrummer på de 15 hovedsider er skrevet om, så hvert sprog bruger de udtryk, folk faktisk søger på i det land, i stedet for oversatte danske udtryk. Valget bygger på sprogkendskab og konkurrenternes ordvalg — **ikke** på søgevolumendata (samme begrænsning som afsnit 0). Verificér med GSC-forespørgsler efter 30 dage, og justér titler med lav CTR.
+
+| Side | da | en | es | fr | pt (pt-PT) |
+|---|---|---|---|---|---|
+| Forside | AI-receptionist, AI-telefonpasning, AI-telefonsvarer | AI receptionist, AI answering service | recepcionista virtual con IA, asistente telefónico con IA | réceptionniste IA, standard téléphonique IA | rececionista virtual com IA, atendimento telefónico com IA |
+| /ind-og-udgaaende-opkald | AI-telefonpasning, AI-telefonsvarer | AI answering service, AI phone agent | asistente telefónico con IA, agente de voz | standard téléphonique IA, agent vocal IA | atendimento telefónico com IA, agente de voz |
+| /widget | AI-chatbot til hjemmeside, voice-widget | AI chatbot for websites | chatbot con IA para web | chatbot IA pour site web | chatbot com IA para sites |
+| /webshop | AI-kundeservice, chatbot til webshop | AI customer service, chatbot for Shopify | atención al cliente con IA | service client IA | apoio ao cliente com IA |
+| /klinik | AI-receptionist til klinik og tandlæge | AI receptionist for clinics, dentists | recepcionista virtual para clínicas | secrétariat médical IA | rececionista virtual para clínicas |
+| /haandvaerker | AI-telefonpasning til håndværkere | AI answering service for tradespeople | atención telefónica con IA para profesionales | secrétariat téléphonique IA pour artisans | atendimento telefónico com IA para profissionais |
+| /kontor | AI-receptionist til kontor, advokat, revisor | AI receptionist for law firms, accountants | recepcionista virtual para despachos | standard téléphonique IA pour cabinets | rececionista virtual para escritórios |
+| /integrationer | AI-booking, Google Kalender, Outlook | AI booking, Google Calendar | reservas con IA | prise de RDV IA, Google Agenda | marcações com IA |
+
+Øvrige ændringer i samme runde:
+
+- **"Chatbot" manglede helt** i synlig tekst og titler, selv om "AI chatbot til hjemmeside" og tilsvarende er blandt de mest søgte udtryk på alle fem sprog. Widget-, webshop-, funktions-, integrations- og branchesiderne bruger det nu.
+- **H1 med søgeord:** forsiden, AI-telefonpasning (før det engelske produktnavn "Inbound-Outbound AI Voice" på alle sprog), widget, webshop, klinik, håndværker, kontor, funktioner, brancher og blog. Produktnavnet står stadig som badge.
+- **Ankertekst:** footer-linket til /ind-og-udgaaende-opkald og brødkrummen (BreadcrumbList) hedder nu "AI-telefonpasning" (og tilsvarende på hvert sprog) i stedet for produktnavnet.
+- **Titellængde:** alle titler er højst ca. 60 tegn inkl. " | Aibooking.dk" (før op til 90 på es/fr/pt), så søgeordet ikke bliver skåret af. Dobbelt brandnavn er fjernet fra "Om os", og "AIBooking.dk" er rettet til "Aibooking.dk" på bloggen for es/fr/pt.
+- **Uverificerede tal fjernet fra es/fr/pt-meta-beskrivelser** ("60 % færre udeblivelser", "45 % flere opgaver", "320 % ROI", "35 % mere produktivitet"), så de matcher da/en. Tallene står stadig i brødteksten på es/fr/pt — samme åbne beslutning som afsnit 6, punkt 1.
+- **pt-PT-stavning:** "Recepcionista" (brasiliansk) er rettet til "Rececionista" i titler og beskrivelser, så det matcher `og:locale` pt_PT. "Artesãos" (kunsthåndværkere) er erstattet af "profissionais"/"canalizadores".

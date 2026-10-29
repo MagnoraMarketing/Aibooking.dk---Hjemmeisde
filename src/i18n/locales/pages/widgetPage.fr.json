@@ -1,15 +1,15 @@
 {
   "seo": {
-    "title": "Widget IA pour Shopify, Boutiques en Ligne et Sites | Aibooking.dk",
-    "description": "Widget IA pour Shopify, boutiques en ligne et sites web. Vos clients écrivent ou parlent : l'IA répond, réserve et suit les commandes 24h/24.",
+    "title": "Chatbot IA pour Site Web avec Assistant Vocal | Aibooking.dk",
+    "description": "Chatbot IA et widget vocal pour site web, boutique en ligne et Shopify. Vos clients écrivent ou parlent : l'IA répond, réserve et suit les commandes.",
     "keywords": "permanence téléphonique IA, réceptionniste IA danoise, widget pour boutique en ligne, widget IA pour Shopify, AI voice widget, voicebot site web, widget de réservation IA, réservation vocale, chatbot en français, réservation automatique de rendez-vous, widget réceptionniste IA, automatisation de réservation, widget IA boutique en ligne, assistant vocal Shopify, suivi de commande IA, chatbot WooCommerce, widget vocal e-commerce"
   },
   "breadcrumb": { "home": "Accueil", "current": "Widget IA" },
   "hero": {
     "badge": "AI Voice Widget pour votre site web",
-    "title_line1": "Laissez vos clients réserver des rendez-vous",
-    "title_line2": "avec leur voix",
-    "subtitle": "Le AI voice widget d'Aibooking.dk s'intègre directement à votre site web et gère automatiquement les réservations, les questions et les demandes clients – par la voix et le texte, 24 heures sur 24, 365 jours par an.",
+    "title_line1": "Un chatbot IA pour votre site",
+    "title_line2": "qui réserve aussi à la voix",
+    "subtitle": "L'AI voice widget d'Aibooking.dk est un chatbot IA qui s'intègre directement à votre site web et gère automatiquement les réservations, les questions et les demandes clients – par la voix et le texte, 24 heures sur 24, 365 jours par an.",
     "cta_demo": "Essayer une démo gratuite",
     "cta_buy": "Commander maintenant – 134 €/mois",
     "cta_demo_connecting": "Connexion...",

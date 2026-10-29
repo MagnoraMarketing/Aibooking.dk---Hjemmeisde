@@ -1,14 +1,14 @@
 {
   "seo": {
-    "title": "Funcionalidades - Recepcionista IA, Dashboard, Chamadas de Voz e Widget | Aibooking.dk",
-    "description": "Todas as funcionalidades da Aibooking.dk: dashboard de IA, chamadas de IA recebidas e efetuadas, widget de chat IA e marcações automáticas.",
+    "title": "Rececionista IA, Chatbot e Marcações | Aibooking.dk",
+    "description": "Atendimento telefónico com IA para chamadas recebidas e efetuadas, chatbot com IA para o seu site, marcações automáticas, SMS e painel.",
     "keywords": "atendimento telefónico com IA, rececionista de IA dinamarquesa, widget para loja online, widget de IA para Shopify, funcionalidades IA, recepcionista IA, dashboard IA, chamadas recebidas, chamadas efetuadas, widget IA, marcação automática, chat IA, IA em português"
   },
   "breadcrumb": { "home": "Início", "features": "Funcionalidades" },
   "hero": {
     "badge": "Todas as Funcionalidades",
-    "title_line1": "Uma plataforma de IA completa para",
-    "title_line2": "empresas modernas",
+    "title_line1": "Rececionista IA, chatbot e marcações",
+    "title_line2": "numa só plataforma",
     "subtitle": "Da gestão inteligente de chamadas e chamadas de voz IA efetuadas a um dashboard completo e um widget de IA para o seu website — tudo numa só plataforma. Poupe tempo, aumente as conversões e ofereça aos seus clientes uma experiência profissional 24 horas por dia."
   },
   "mainBenefits": [

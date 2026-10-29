@@ -1,0 +1,45 @@
+{
+  "seo": {
+    "title": "KI-Telefonservice für Handwerker – KI-Rezeptionist | Aibooking.dk",
+    "description": "KI-Telefonservice für Installateure, Elektriker, Tischler und Maler. Der KI-Rezeptionist nimmt Anrufe an, während Sie arbeiten, und bucht Aufträge.",
+    "keywords": "KI-Telefonservice Handwerker, KI-Rezeptionist, Telefonservice für Handwerker, Anrufbeantworter Handwerker, Terminbuchung Installateur, Elektriker Termin buchen, Tischler Auftragsannahme, KI-Telefonassistent, Auftragsautomatisierung"
+  },
+  "breadcrumb": {
+    "home": "Startseite",
+    "industries": "Branchen",
+    "craftsman": "Handwerk"
+  },
+  "hero": {
+    "badge": "Handwerk",
+    "title": "Verlieren Sie keine Aufträge mehr, weil niemand ans Telefon geht",
+    "subtitle": "Sie kennen das: Sie stecken mitten in einem Auftrag, und das Telefon klingelt. Gehen Sie ran, verlieren Sie den Faden. Gehen Sie nicht ran, riskieren Sie einen guten Auftrag. Eine unmögliche Situation."
+  },
+  "solution": {
+    "title": "Nie wieder einen Auftrag verpassen",
+    "description": "Unser KI-Rezeptionist löst dieses Problem ein für alle Mal. Das System nimmt jeden Anruf an, erfasst die Kundendaten, bucht Besichtigungstermine und verschickt automatische Bestätigungen per SMS. In Ihrem Dashboard sehen Sie jede Anfrage, hören aufgezeichnete Gespräche, bekommen kurze Zusammenfassungen dessen, was der Kunde möchte, und sehen, was vereinbart wurde. Ihr Kalender aktualisiert sich automatisch – egal, welches System Sie nutzen. Schluss mit der Sorge um verpasste Aufträge: Konzentrieren Sie sich auf Ihr Handwerk."
+  },
+  "benefits": [
+    { "title": "Jede Anfrage beantworten", "description": "Auch wenn Sie auf der Baustelle sind und nicht ans Telefon können" },
+    { "title": "Automatische Erfassung", "description": "Kundendaten und Auftragsbeschreibungen werden automatisch gespeichert" },
+    { "title": "Besichtigungen direkt buchen", "description": "Direkt in Ihren Kalender – synchronisiert automatisch mit Ihrem System" },
+    { "title": "SMS-Bestätigungen", "description": "Für Sie und den Kunden, mit allen wichtigen Details" },
+    { "title": "Komplettes Dashboard", "description": "Sehen Sie jede Kundenanfrage und was vereinbart wurde" },
+    { "title": "Rund um die Uhr erreichbar", "description": "Das System arbeitet Tag und Nacht, auch am Wochenende" }
+  ],
+  "stats": [
+    { "value": "+45%", "label": "Mehr Aufträge" },
+    { "value": "10 Std./Woche", "label": "Zeitersparnis" },
+    { "value": "100%", "label": "Erreichbarkeit" },
+    { "value": "4,9/5", "label": "Kundenzufriedenheit" }
+  ],
+  "trades": {
+    "title": "Ideal für jedes Gewerk",
+    "items": ["Sanitär & Heizung", "Elektriker", "Maler", "Tischler & Zimmerer", "Reinigung", "Umzugsunternehmen"],
+    "cta": "Unverbindliches Gespräch buchen und kostenlosen Testzugang erhalten"
+  },
+  "finalCta": {
+    "title": "Bereit für den Start?",
+    "subtitle": "Buchen Sie ein kostenloses, unverbindliches Gespräch und erhalten Sie einen Testzugang, um das System selbst auszuprobieren",
+    "button": "Unverbindliches Gespräch buchen und kostenlosen Testzugang erhalten"
+  }
+}

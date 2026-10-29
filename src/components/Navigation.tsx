@@ -77,7 +77,7 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
     setIsLanguageOpen(false);
   };
 
-  const languageLabel: Record<SupportedLanguage, string> = { da: 'DA', en: 'EN', pt: 'PT', fr: 'FR', es: 'ES' };
+  const languageLabel: Record<SupportedLanguage, string> = { da: 'DA', en: 'EN', es: 'ES', de: 'DE', fr: 'FR' };
 
   const handleMobileNavigate = (page: Parameters<NavigationProps['onNavigate']>[0]) => {
     onNavigate(page);
@@ -256,22 +256,22 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
                       <span className="text-ink-900 font-medium text-[15px]">🇬🇧 English</span>
                     </button>
                     <button
-                      onClick={() => changeLanguage('pt')}
+                      onClick={() => changeLanguage('es')}
                       className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
                     >
-                      <span className="text-ink-900 font-medium text-[15px]">🇵🇹 Português</span>
+                      <span className="text-ink-900 font-medium text-[15px]">🇪🇸 Español</span>
+                    </button>
+                    <button
+                      onClick={() => changeLanguage('de')}
+                      className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
+                    >
+                      <span className="text-ink-900 font-medium text-[15px]">🇩🇪 Deutsch</span>
                     </button>
                     <button
                       onClick={() => changeLanguage('fr')}
                       className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
                     >
                       <span className="text-ink-900 font-medium text-[15px]">🇫🇷 Français</span>
-                    </button>
-                    <button
-                      onClick={() => changeLanguage('es')}
-                      className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
-                    >
-                      <span className="text-ink-900 font-medium text-[15px]">🇪🇸 Español</span>
                     </button>
                   </div>
                 )}
@@ -474,22 +474,22 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
                 🇬🇧 English
               </button>
               <button
-                onClick={() => { changeLanguage('pt'); setIsMobileOpen(false); }}
-                className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'pt' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
+                onClick={() => { changeLanguage('es'); setIsMobileOpen(false); }}
+                className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'es' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
               >
-                🇵🇹 Português
+                🇪🇸 Español
+              </button>
+              <button
+                onClick={() => { changeLanguage('de'); setIsMobileOpen(false); }}
+                className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'de' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
+              >
+                🇩🇪 Deutsch
               </button>
               <button
                 onClick={() => { changeLanguage('fr'); setIsMobileOpen(false); }}
                 className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'fr' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
               >
                 🇫🇷 Français
-              </button>
-              <button
-                onClick={() => { changeLanguage('es'); setIsMobileOpen(false); }}
-                className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'es' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
-              >
-                🇪🇸 Español
               </button>
             </div>
           </div>

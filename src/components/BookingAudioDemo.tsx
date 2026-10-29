@@ -7,8 +7,8 @@ import { DEMO_PHONE_DISPLAY, DEMO_PHONE_TEL } from '../utils/demoPhone';
 import JsonLd from './JsonLd';
 
 // A real recorded example call where the AI books a job for a craftsman, so
-// visitors can hear the voice quality. The recording is in Danish, so the
-// whole block only renders on the Danish site.
+// visitors can hear the voice quality. The recording is in Danish; the other
+// languages say so next to the player.
 
 const AUDIO_SRC = '/audio/eksempel-booking.mp3';
 const DURATION_SECONDS = 398;
@@ -24,23 +24,16 @@ const PEAKS = [
 ];
 const MAX_PEAK = Math.max(...PEAKS);
 
-const POINTS = [
-  'Naturligt, flydende dansk — ingen robotstemme',
-  'Forstår kundens behov og stiller de rigtige opfølgende spørgsmål',
-  'Finder en ledig tid og booker direkte i kalenderen',
-];
-
-const audioSchema = {
+const audioSchema = (name: string, description: string) => ({
   '@context': 'https://schema.org',
   '@type': 'AudioObject',
-  name: 'Eksempel på en booking med AI-telefonassistent på dansk',
-  description:
-    'Lydoptagelse af et rigtigt eksempel, hvor Aibooking.dk’s AI-telefonassistent tager imod et opkald og booker en tid for kunden på dansk.',
+  name,
+  description,
   contentUrl: `https://www.aibooking.dk${AUDIO_SRC}`,
   encodingFormat: 'audio/mpeg',
   duration: DURATION_ISO,
   inLanguage: 'da',
-};
+});
 
 function formatTime(seconds: number) {
   const s = Math.max(0, Math.floor(seconds));
@@ -48,6 +41,7 @@ function formatTime(seconds: number) {
 }
 
 function AudioPlayer({ dark }: { dark: boolean }) {
+  const { t } = useTranslation('audioDemo');
   const audioRef = useRef<HTMLAudioElement>(null);
   const [playing, setPlaying] = useState(false);
   const [current, setCurrent] = useState(0);
@@ -106,7 +100,7 @@ function AudioPlayer({ dark }: { dark: boolean }) {
         <button
           type="button"
           onClick={toggle}
-          aria-label={playing ? 'Pause optagelsen' : 'Afspil optagelsen'}
+          aria-label={playing ? t('player.pause') : t('player.play')}
           className="relative flex-shrink-0 w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-accent-400 text-ink-950 flex items-center justify-center shadow-xl hover:bg-accent-300 hover:scale-105 transition-all focus:outline-none focus-visible:ring-4 focus-visible:ring-accent-400/40"
         >
           {!playing && <span className="absolute inset-0 rounded-full bg-accent-400/40 animate-ping" />}
@@ -119,16 +113,16 @@ function AudioPlayer({ dark }: { dark: boolean }) {
 
         <div className="flex-1 min-w-0">
           <div className={`text-sm font-semibold mb-2 ${dark ? 'text-white' : 'text-ink-900'}`}>
-            Eksempel med booking – Håndværker / klinik
+            {t('player.title')}
           </div>
           <div
             role="slider"
             tabIndex={0}
-            aria-label="Spol i optagelsen"
+            aria-label={t('player.seek')}
             aria-valuemin={0}
             aria-valuemax={Math.round(duration)}
             aria-valuenow={Math.round(current)}
-            aria-valuetext={`${formatTime(current)} af ${formatTime(duration)}`}
+            aria-valuetext={t('player.of', { current: formatTime(current), total: formatTime(duration) })}
             onClick={(e) => {
               const rect = e.currentTarget.getBoundingClientRect();
               seekTo((e.clientX - rect.left) / rect.width);
@@ -174,12 +168,13 @@ interface BookingAudioDemoProps {
 }
 
 export default function BookingAudioDemo({ variant = 'section', className = '' }: BookingAudioDemoProps) {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation('audioDemo');
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
-  if (lang !== 'da') return null;
 
   const trialHref = buildLocalizedPath(lang, '/proeveperiode');
-  const schema = <JsonLd data={audioSchema} />;
+  const schema = <JsonLd data={audioSchema(t('schema.name'), t('schema.description'))} />;
+  const points = t('points', { returnObjects: true }) as string[];
+  const languageNote = t('section.languageNote');
 
   if (variant === 'inline') {
     return (
@@ -189,20 +184,17 @@ export default function BookingAudioDemo({ variant = 'section', className = '' }
         <div className="relative">
           <div className="inline-flex items-center gap-2 bg-white/5 text-accent-300 px-3.5 py-1.5 rounded-full text-xs font-semibold border border-white/10 mb-4">
             <Headphones className="w-3.5 h-3.5" />
-            Lydeksempel · 6:38 min
+            {t('inline.badge')}
           </div>
-          <h2 className="text-2xl font-bold text-white mb-2">Hør AI’en booke en tid — på dansk</h2>
-          <p className="text-ink-300 mb-6">
-            Et rigtigt eksempel på et opkald, hvor vores AI-telefonassistent tager imod en kunde og booker en tid i
-            kalenderen. Tryk play, og hør selv kvaliteten.
-          </p>
+          <h2 className="text-2xl font-bold text-white mb-2">{t('inline.title')}</h2>
+          <p className="text-ink-300 mb-6">{t('inline.text')}</p>
           <AudioPlayer dark />
           <div className="flex flex-col sm:flex-row gap-3 mt-6">
             <a
               href={trialHref}
               className="inline-flex items-center justify-center gap-2 bg-accent-400 text-ink-950 px-6 py-3 rounded-xl font-bold hover:bg-accent-300 transition-colors"
             >
-              Prøv det gratis i 7 dage
+              {t('inline.cta')}
               <ArrowRight className="w-4 h-4" />
             </a>
             <a
@@ -210,7 +202,7 @@ export default function BookingAudioDemo({ variant = 'section', className = '' }
               className="inline-flex items-center justify-center gap-2 bg-white/5 border border-white/15 text-white px-6 py-3 rounded-xl font-bold hover:bg-white/10 transition-colors"
             >
               <Phone className="w-4 h-4" />
-              Ring til demo: {DEMO_PHONE_DISPLAY}
+              {t('inline.call', { phone: DEMO_PHONE_DISPLAY })}
             </a>
           </div>
         </div>
@@ -229,17 +221,14 @@ export default function BookingAudioDemo({ variant = 'section', className = '' }
         <div>
           <div className="inline-flex items-center gap-2 bg-white/5 text-accent-300 px-4 py-2 rounded-full text-sm font-semibold border border-white/10 mb-6">
             <Headphones className="w-4 h-4" />
-            Lyt til et rigtigt opkald
+            {t('section.badge')}
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-5 tracking-tight leading-tight">
-            Hør vores AI tage opkaldet og booke en tid
+            {t('section.title')}
           </h2>
-          <p className="text-lg text-ink-300 leading-relaxed mb-8">
-            Det er nemt at love en god AI-stemme — det er bedre at høre den. Her er et eksempel på et opkald, hvor en kunde
-            ringer ind, og AI’en klarer hele samtalen og bookingen. Tryk play, og hør kvaliteten.
-          </p>
+          <p className="text-lg text-ink-300 leading-relaxed mb-8">{t('section.text')}</p>
           <ul className="space-y-3 mb-10">
-            {POINTS.map((point) => (
+            {points.map((point) => (
               <li key={point} className="flex items-start gap-3 text-ink-200">
                 <CheckCircle2 className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" />
                 <span>{point}</span>
@@ -251,7 +240,7 @@ export default function BookingAudioDemo({ variant = 'section', className = '' }
               href={trialHref}
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap bg-accent-400 text-ink-950 px-8 py-4 rounded-xl font-bold hover:bg-accent-300 transition-all shadow-xl"
             >
-              Prøv gratis i 7 dage
+              {t('section.cta')}
               <ArrowRight className="w-5 h-5" />
             </a>
             <a
@@ -259,7 +248,7 @@ export default function BookingAudioDemo({ variant = 'section', className = '' }
               className="inline-flex items-center justify-center gap-2 bg-white/5 border border-white/15 text-white px-8 py-4 rounded-xl font-bold hover:bg-white/10 transition-all"
             >
               <Phone className="w-5 h-5" />
-              Ring selv: {DEMO_PHONE_DISPLAY}
+              {t('section.call', { phone: DEMO_PHONE_DISPLAY })}
             </a>
           </div>
         </div>
@@ -268,11 +257,12 @@ export default function BookingAudioDemo({ variant = 'section', className = '' }
           <div className="absolute -inset-4 bg-gradient-to-br from-brand-600/30 to-accent-500/10 rounded-[2rem] blur-2xl" />
           <div className="relative">
             <AudioPlayer dark />
+            {languageNote && <p className="text-sm text-ink-400 mt-3">{languageNote}</p>}
             <div className="grid grid-cols-3 gap-3 mt-4 text-center">
               {[
-                ['6:38', 'min. samtale'],
-                ['100%', 'dansk tale'],
-                ['24/7', 'klar til opkald'],
+                ['6:38', t('stats.duration')],
+                ['100%', t('stats.language')],
+                ['24/7', t('stats.availability')],
               ].map(([value, label]) => (
                 <div key={label} className="bg-white/5 border border-white/10 rounded-2xl py-4 px-2">
                   <div className="text-xl sm:text-2xl font-bold text-white">{value}</div>

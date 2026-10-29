@@ -1,0 +1,295 @@
+{
+  "seo": {
+    "title": "KI-Telefonservice – KI-Rezeptionist für ein- und ausgehende Anrufe | Aibooking.dk",
+    "description": "KI-Telefonservice: Ein KI-Rezeptionist nimmt Anrufe an, bucht Termine im Kalender und ruft mit Erinnerungen zurück – rund um die Uhr, auf Deutsch.",
+    "keywords": "KI-Telefonservice, KI-Rezeptionist, KI-Telefonassistent, KI eingehende Anrufe, KI ausgehende Anrufe, KI-Rezeption, Telefonassistent KI, KI-Mitarbeiter, KI-Kundenservice Telefon, Voicebot, Telefonbot, virtuelle Telefonzentrale"
+  },
+  "breadcrumb": {
+    "home": "Startseite",
+    "current": "KI-Telefonie ein- & ausgehend"
+  },
+  "hero": {
+    "badge": "KI-Telefonie ein- & ausgehend",
+    "title": "KI-Telefonie ein- & ausgehend",
+    "titleAccent": "Die KI, die Ihre Anrufe annimmt und selbst anruft",
+    "subtitle": "Eine Stimme für beide Richtungen: Sie nimmt Ihre eingehenden Anrufe professionell an und ruft Ihre Kunden mit Bestätigungen, Erinnerungen und Nachfassanrufen an. Rund um die Uhr, ohne Warteschleife.",
+    "cta_demo": "Kostenlose Demo buchen",
+    "cta_example": "Beispiel anhören",
+    "cta_pricing": "Preise ansehen",
+    "stats": {
+      "answer": { "value": "2 Sek.", "label": "Durchschnittliche Annahmezeit" },
+      "availability": { "value": "24/7", "label": "Auch abends und am Wochenende" },
+      "saving": { "value": "80%", "label": "Günstiger als eine Rezeptionskraft" }
+    },
+    "card": {
+      "status": "Aktiver Anruf",
+      "direction": "Eingehend · Unbekannte Nummer",
+      "timer": "00:51",
+      "transcriptLabel": "Live-Transkript",
+      "line": "Sie sind für morgen um 8:30 Uhr eingetragen. Sie erhalten sofort eine SMS-Bestätigung.",
+      "actions": ["Termin gebucht", "SMS gesendet", "Auftrag angelegt"]
+    }
+  },
+  "whatIs": {
+    "title": "Zwei Richtungen, eine KI-Stimme",
+    "para1": "Die KI-Telefonie für ein- und ausgehende Anrufe ist ein KI-Telefonassistent, der in beide Richtungen arbeitet. Eingehend begrüßt er Ihre Kunden, versteht, worum es geht, bucht Termine und gibt wichtige Anliegen an Ihr Team weiter. Ausgehend ruft er selbst an: Bestätigungen, Erinnerungen, Nachfassen bei Angeboten oder der Hinweis auf einen frei gewordenen Termin.",
+    "para2": "Anders als eine Rezeptionskraft hat er nie frei. Er nimmt um 20 Uhr beim zweiten Klingeln ab, führt im morgendlichen Ansturm fünf Gespräche gleichzeitig und vergisst nie einen Rückruf. Ihr Team wird nicht mehr unterbrochen, und kein Kunde landet auf der Mailbox.",
+    "para3": "Sie bestimmen den Umfang: nur eingehend, nur ausgehend oder beides über dieselbe Nummer.",
+    "inbound": {
+      "title": "Eingehend",
+      "desc": "Nimmt innerhalb von Sekunden ab, bucht in Ihren Kalender, beantwortet die immer gleichen Fragen und verbindet mit Ihrem Team, wenn ein Anliegen einen Menschen braucht."
+    },
+    "outbound": {
+      "title": "Ausgehend",
+      "desc": "Ruft mit Bestätigungen, Erinnerungen am Vortag, Nachfragen zu Angeboten und Neuvergabe abgesagter Termine an – in Ihrem Namen und mit Ihren Worten."
+    }
+  },
+  "example": {
+    "badge": "Beispiel",
+    "title": "So klingt ein echter Anruf",
+    "subtitle": "Zwei echte Gespräche – eines eingehend, eines ausgehend. Wort für Wort so, wie die KI sie führt, mit allem, was sie dabei erledigt hat.",
+    "tabs": {
+      "inbound": "Eingehender Anruf",
+      "outbound": "Ausgehender Anruf"
+    },
+    "chatLabels": {
+      "ai": "KI-Stimme",
+      "customer": "Kunde"
+    },
+    "inbound": {
+      "situationLabel": "Die Situation",
+      "situation": "20:41 Uhr, anderthalb Stunden nach Feierabend. Normalerweise landet dieser Anruf auf der Mailbox – und der Kunde ruft den nächsten Installateur auf der Liste an.",
+      "caller": "Unbekannte Nummer",
+      "meta": "Eingehend · 20:41 · Sanitär Nord",
+      "chat": [
+        { "role": "ai", "time": "0:02", "text": "Hier ist Aibooking bei Sanitär Nord. Wie kann ich Ihnen helfen?" },
+        { "role": "customer", "time": "0:07", "text": "Hallo. Unter meiner Küchenspüle tropft ein Rohr. Kann jemand vorbeikommen?" },
+        { "role": "ai", "time": "0:12", "text": "Da helfen wir gern. Steht gerade Wasser auf dem Boden, oder tropft es nur langsam?" },
+        { "role": "customer", "time": "0:19", "text": "Es tropft langsam. Ich habe einen Eimer daruntergestellt." },
+        { "role": "ai", "time": "0:24", "text": "Gut. Dann buche ich einen normalen Termin statt eines Notdiensteinsatzes – das ist günstiger für Sie. Ich habe morgen um 8:30 Uhr oder Donnerstag um 13 Uhr frei." },
+        { "role": "customer", "time": "0:35", "text": "Morgen um 8:30 Uhr passt gut." },
+        { "role": "ai", "time": "0:39", "text": "Prima. Darf ich noch Ihre Adresse und eine Handynummer für die Bestätigung haben?" },
+        { "role": "customer", "time": "0:45", "text": "Südstraße 14, Hamburg." },
+        { "role": "ai", "time": "0:51", "text": "Vielen Dank. Sie sind für morgen um 8:30 Uhr eingetragen. Sie erhalten gleich eine SMS-Bestätigung und eine Stunde vorher eine Erinnerung." }
+      ],
+      "outcomesLabel": "Was die KI dabei erledigt hat",
+      "outcomes": [
+        "Nach zwei Sekunden abgenommen – anderthalb Stunden nach Feierabend",
+        "Eingeschätzt, ob der Auftrag dringend ist, und die richtige Auftragsart gewählt",
+        "Einen freien Termin im Kalender des passenden Monteurs gefunden",
+        "Adresse und Telefonnummer direkt im Auftrag erfasst",
+        "Bestätigung verschickt und Erinnerung automatisch eingeplant"
+      ],
+      "resultsLabel": "Ergebnis",
+      "results": [
+        { "label": "Dauer", "value": "1:04" },
+        { "label": "Ergebnis", "value": "Gebucht für morgen 8:30 Uhr" },
+        { "label": "Auftrag angelegt", "value": "#4821 · Tropfendes Wasserrohr" }
+      ]
+    },
+    "outbound": {
+      "situationLabel": "Die Situation",
+      "situation": "9:15 Uhr am Vortag. Die KI ruft die Termine für morgen selbst durch, damit Absagen rechtzeitig auffallen, statt zu Terminausfällen zu werden.",
+      "caller": "Anna Becker",
+      "meta": "Ausgehend · 9:15 · Praxis Sund",
+      "chat": [
+        { "role": "ai", "time": "0:03", "text": "Hallo Frau Becker. Hier ist Aibooking im Auftrag der Praxis Sund. Ich rufe wegen Ihres Termins morgen um 10 Uhr an – passt der noch?" },
+        { "role": "customer", "time": "0:11", "text": "Oh, den hatte ich ganz vergessen. Ich bin morgen bis 15 Uhr bei der Arbeit." },
+        { "role": "ai", "time": "0:18", "text": "Das ist überhaupt kein Problem. Ich kann Ihnen morgen um 15:45 Uhr oder Freitag um 9:30 Uhr anbieten. Was passt Ihnen besser?" },
+        { "role": "customer", "time": "0:26", "text": "Freitag um 9:30 Uhr, bitte." },
+        { "role": "ai", "time": "0:30", "text": "Ihr Termin ist auf Freitag um 9:30 Uhr verschoben. Sie erhalten gleich eine SMS mit der neuen Uhrzeit. Einen schönen Tag noch." }
+      ],
+      "outcomesLabel": "Was die KI dabei erledigt hat",
+      "outcomes": [
+        "Die Termine für morgen durchtelefoniert, ohne dass jemand daran denken musste",
+        "Die Absage am Vortag erkannt statt erst beim Nichterscheinen",
+        "Sofort einen neuen Termin angeboten, solange die Kundin noch am Telefon war",
+        "Den 10-Uhr-Termin freigegeben und der nächsten Person auf der Warteliste angeboten",
+        "Den Kalender aktualisiert und die neue Bestätigung verschickt"
+      ],
+      "resultsLabel": "Ergebnis",
+      "results": [
+        { "label": "Dauer", "value": "0:38" },
+        { "label": "Ergebnis", "value": "Verschoben auf Freitag 9:30 Uhr" },
+        { "label": "Vermieden", "value": "Ein Terminausfall · Termin neu vergeben" }
+      ]
+    }
+  },
+  "dashboard": {
+    "badge": "Dashboard",
+    "title": "Und so sieht es danach aus",
+    "subtitle": "Jeder Anruf landet mit Dauer, Status und Ergebnis in Ihrem Dashboard. Hier ein Monat in einer Zahnarztpraxis mit vier Agenten."
+  },
+  "howItWorks": {
+    "title": "So starten Sie",
+    "subtitle": "Vom ersten Gespräch bis zur aktiven KI-Stimme vergeht in der Regel weniger als eine Woche.",
+    "steps": [
+      {
+        "title": "Wir verbinden Ihre Nummer",
+        "description": "Sie behalten Ihre bisherige Telefonnummer. Wir richten eine Rufumleitung ein, damit die KI genau die Anrufe übernimmt, die Sie wählen – alle, nur außerhalb der Öffnungszeiten oder nur bei besetzter Leitung."
+      },
+      {
+        "title": "Die KI lernt Ihr Unternehmen kennen",
+        "description": "Wir trainieren sie auf Ihre Leistungen, Preise, Öffnungszeiten und die Fragen, die Ihre Kunden wirklich stellen. Sie geben die Formulierungen frei, bevor es live geht."
+      },
+      {
+        "title": "Kalender und Systeme werden verbunden",
+        "description": "Google Kalender, Outlook oder Ihre Branchensoftware. Die KI bucht nur wirklich freie Zeiten und trägt den Termin dort ein, wo Sie ihn immer eintragen."
+      },
+      {
+        "title": "Sie verfolgen alles im Dashboard",
+        "description": "Jeder Anruf wird aufgezeichnet, transkribiert und zusammengefasst. Sie können jederzeit nachsehen, was genau gesagt und vereinbart wurde."
+      }
+    ]
+  },
+  "features": {
+    "title": "Was die KI-Stimme kann",
+    "subtitle": "Alles, was es braucht, damit Ihr Telefon in beide Richtungen besetzt ist.",
+    "items": [
+      {
+        "title": "Nimmt jeden eingehenden Anruf an",
+        "description": "Nimmt innerhalb von Sekunden ab, versteht, worum es dem Kunden geht, bucht Termine und beantwortet wiederkehrende Fragen. Kein Kunde landet auf der Mailbox."
+      },
+      {
+        "title": "Ruft Ihre Kunden selbst an",
+        "description": "Bestätigungen, Erinnerungen am Vortag, Nachfassen bei Angeboten und Neuvergabe abgesagter Termine – automatisch gewählt, in Ihrem Namen und mit Ihren Worten."
+      },
+      {
+        "title": "Natürliches Gespräch",
+        "description": "Versteht Alltagssprache, Akzente und Unterbrechungen. Kunden drücken nicht die 1 für Buchungen – sie sprechen einfach, wie mit einem Menschen."
+      },
+      {
+        "title": "Unbegrenzt viele gleichzeitige Anrufe",
+        "description": "Fünf Kunden können gleichzeitig anrufen, ohne dass jemand wartet. Sie zahlen für Gesprächszeit, nicht für Kapazität – ein voller Vormittag kostet also nicht extra."
+      },
+      {
+        "title": "Bucht direkt in Ihren Kalender",
+        "description": "Synchronisiert mit Google Kalender, Outlook und gängiger Branchensoftware. Die KI sieht nur wirklich freie Zeiten – keine Doppelbuchungen."
+      },
+      {
+        "title": "SMS-Bestätigung und Erinnerung",
+        "description": "Auf den Anruf folgt eine SMS mit Uhrzeit und Adresse und vor dem Termin eine Erinnerung. Genau diese Kombination senkt Terminausfälle."
+      },
+      {
+        "title": "Aufzeichnung, Zusammenfassung und Transkript",
+        "description": "Jeder Anruf wird mit vollständigem Transkript und einer kurzen Zusammenfassung der Vereinbarungen gespeichert. So können Sie das Gespräch jederzeit belegen."
+      },
+      {
+        "title": "Verbindet, wenn ein Mensch gebraucht wird",
+        "description": "Die KI erkennt Fälle, die sie nicht entscheiden sollte – Reklamationen, Notfälle, Verhandlungen – und verbindet mit der richtigen Person oder nimmt eine Nachricht auf."
+      },
+      {
+        "title": "DSGVO und Datensicherheit",
+        "description": "Daten werden in der EU verarbeitet, verschlüsselt gespeichert, nach vereinbarten Löschregeln gelöscht und durch einen Auftragsverarbeitungsvertrag abgesichert. Aufzeichnungen und Transkripte gehören allein Ihnen."
+      }
+    ]
+  },
+  "useCases": {
+    "title": "Wer es wofür nutzt",
+    "subtitle": "Dieselben zwei Richtungen lösen je nach Branche ganz unterschiedliche Probleme.",
+    "items": [
+      {
+        "title": "Praxen und Zahnärzte",
+        "description": "Eingehend: Buchungen und Umbuchungen, ohne den Empfang zu stören. Ausgehend: Erinnerungen am Vortag und ein neuer Termin für alle, die absagen. Hier sinken die Terminausfälle am stärksten."
+      },
+      {
+        "title": "Handwerker und Installateure",
+        "description": "Eingehend: Anrufe werden angenommen, während Sie mit beiden Händen in einer Installation stecken. Ausgehend: Bestätigung der Termine für morgen und ein Hinweis, wenn sich der Monteur verspätet."
+      },
+      {
+        "title": "Vertrieb und Lead-Nachverfolgung",
+        "description": "Ausgehend: Neue Leads innerhalb von Minuten anrufen, den Bedarf qualifizieren und den Termin direkt in den Kalender des Vertriebsmitarbeiters buchen, solange das Interesse noch frisch ist."
+      },
+      {
+        "title": "Kundenservice und Support",
+        "description": "Eingehend: Spitzen im Anrufvolumen mit den immer gleichen Fragen abfangen – Bestellstatus, Öffnungszeiten, Preise – und den Rest mit Kontext weitergeben."
+      },
+      {
+        "title": "Onlineshops und E-Commerce",
+        "description": "Ausgehend: Bei fehlgeschlagenen Zahlungen oder nicht abgeholten Paketen anrufen. Eingehend: Fragen zu Lieferung und Retouren in der Hochsaison ohne Warteschleife beantworten."
+      },
+      {
+        "title": "Büros und Dienstleister",
+        "description": "Eingehend: ein professioneller Empfang für Mandantenanrufe, mit Nachrichten und Terminbuchung. Ausgehend: Termine bestätigen und bei versandten Unterlagen nachfassen."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Eingehend oder ausgehend – was brauchen Sie?",
+    "subtitle": "Die meisten Unternehmen starten mit einer Richtung und schalten die andere später dazu. Gleiche Nummer, gleiche Stimme.",
+    "feature": "Aufgabe",
+    "inbound": "Eingehend",
+    "outbound": "Ausgehend",
+    "items": [
+      { "feature": "Anrufe von Kunden annehmen", "inbound": true, "outbound": false },
+      { "feature": "Kunden anrufen", "inbound": false, "outbound": true },
+      { "feature": "Termine im Kalender buchen", "inbound": true, "outbound": true },
+      { "feature": "Kundendaten erfassen", "inbound": true, "outbound": true },
+      { "feature": "Erinnerungen am Vortag", "inbound": false, "outbound": true },
+      { "feature": "Bei Leads und Angeboten nachfassen", "inbound": false, "outbound": true },
+      { "feature": "Wiederkehrende Fragen beantworten", "inbound": true, "outbound": false },
+      { "feature": "An Kollegen weiterverbinden", "inbound": true, "outbound": false },
+      { "feature": "Abgesagten Termin neu vergeben", "inbound": true, "outbound": true },
+      { "feature": "Aufzeichnung und Zusammenfassung", "inbound": true, "outbound": true }
+    ]
+  },
+  "pricing": {
+    "title": "Preise",
+    "subtitle": "Gesprächszeit und alle Funktionen inklusive. Keine Mindestlaufzeit, keine Einrichtungsgebühr.",
+    "perMonth": "/Monat",
+    "demo": { "name": "Demo", "label": "7 Tage kostenlos · voller Zugriff" },
+    "starter": { "name": "Starter", "label": "150 Min./Monat inklusive" },
+    "professional": { "name": "Professional", "label": "600 Min./Monat inklusive" },
+    "enterprise": { "name": "Enterprise", "label": "2.000 Min./Monat inklusive" },
+    "free": "Kostenlos",
+    "mostPopular": "Am häufigsten gewählt",
+    "cta": "Jetzt starten",
+    "note": "Jedes Paket umfasst ein- und ausgehende Anrufe, Kalenderintegration, SMS und Aufzeichnung."
+  },
+  "cta": {
+    "title": "Hören Sie Ihre eigene KI-Stimme, bevor Sie sich entscheiden",
+    "subtitle": "Wir richten eine Demo mit Ihren Leistungen und Öffnungszeiten ein, damit Sie anrufen und genau hören können, wie sie Ihre Kunden begrüßt.",
+    "primary": "Kostenlose Demo buchen",
+    "secondary": "Preise ansehen"
+  },
+  "faqTitle": "Häufig gestellte Fragen",
+  "faqSubtitle": "Was wir am häufigsten gefragt werden, bevor eine KI-Stimme live geht.",
+  "faq": [
+    {
+      "question": "Was ist der Unterschied zwischen eingehenden und ausgehenden Anrufen?",
+      "answer": "Eingehend bedeutet, dass der Kunde Sie anruft – die KI nimmt ab, hilft beim Anliegen und bucht oder verbindet weiter. Ausgehend bedeutet, dass die KI selbst anruft, typischerweise mit Erinnerungen, Bestätigungen oder Nachfragen zu einem Angebot. Sie können eine Richtung oder beide über dieselbe Nummer nutzen."
+    },
+    {
+      "question": "Kann ich meine bisherige Telefonnummer behalten?",
+      "answer": "Ja. Sie behalten Ihre Nummer, und wir richten eine Rufumleitung ein. Sie bestimmen, wann die KI übernimmt: bei jedem Anruf, nur außerhalb der Öffnungszeiten oder nur, wenn besetzt ist oder nach einer bestimmten Anzahl Klingeltöne niemand abnimmt."
+    },
+    {
+      "question": "Wie viele Anrufe kann sie gleichzeitig bearbeiten?",
+      "answer": "Es gibt keine Obergrenze für gleichzeitige Anrufe. Rufen zehn Kunden gleichzeitig an, werden alle zehn sofort angenommen. Sie zahlen für die tatsächlich genutzte Gesprächszeit, nicht für Kapazität – ein voller Montagmorgen kostet also nicht mehr Abo."
+    },
+    {
+      "question": "Merken Kunden, dass es eine KI ist?",
+      "answer": "Die Stimme klingt natürlich, aber wir empfehlen immer, dass sie sich als digitale Assistentin vorstellt – das ist ehrlich und kommt bei Kunden am besten an. Den genauen Wortlaut der Begrüßung bestimmen Sie."
+    },
+    {
+      "question": "Was passiert, wenn die KI nicht helfen kann?",
+      "answer": "Sie ist so eingerichtet, dass sie ihre Grenzen erkennt. Bei Reklamationen, dringenden Fällen oder Fragen, auf die sie keine Antwort hat, verbindet sie mit der richtigen Person oder nimmt eine Nachricht mit Name, Nummer und Anliegen auf, damit Sie zurückrufen können."
+    },
+    {
+      "question": "Sind automatisierte ausgehende Anrufe erlaubt?",
+      "answer": "Ja, wenn Sie die DSGVO und das Werberecht einhalten. Servicebezogene Anrufe bei Bestandskunden – Erinnerungen, Bestätigungen, Umbuchungen – erfordern keine gesonderte Einwilligung. Reine Werbeanrufe schon, und der Empfänger muss weitere Anrufe immer ablehnen können. Das System verwaltet Abmeldungen für Sie. Prüfen Sie die Regeln in Ihrem Land, bevor Sie ausgehende Kampagnen starten."
+    },
+    {
+      "question": "Funktioniert es auch in anderen Sprachen als Deutsch?",
+      "answer": "Ja. Neben Deutsch beherrscht die KI unter anderem Dänisch, Englisch, Spanisch, Französisch und Portugiesisch und wechselt die Sprache von selbst, wenn der Kunde es tut. Das ist besonders praktisch, wenn Sie internationale Kunden oder Mitarbeiter haben."
+    },
+    {
+      "question": "Was kostet das im Vergleich zu einer Rezeptionskraft?",
+      "answer": "Eine Vollzeit-Rezeptionskraft kostet typischerweise 47.000–60.000 EUR im Jahr inklusive Nebenkosten. Die KI-Stimme gibt es ab 134 EUR im Monat, und sie hält das Telefon rund um die Uhr besetzt – auch in Urlaubs- und Krankheitszeiten."
+    },
+    {
+      "question": "Wie lange dauert die Einrichtung?",
+      "answer": "In der Regel weniger als eine Woche. Wir beginnen mit einem Gespräch über Ihre Leistungen und Abläufe, richten die Stimme und die Kalenderintegration ein, und Sie testen sieben Tage kostenlos, bevor Sie sich entscheiden."
+    }
+  ]
+}

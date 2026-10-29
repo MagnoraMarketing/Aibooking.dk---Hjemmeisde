@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Kostenlose Demo buchen – KI-Rezeptionist live erleben | Aibooking.dk",
+    "description": "Buchen Sie eine kostenlose, unverbindliche Demo unseres KI-Rezeptionisten. Mit 7 Tagen Gratiszugang sehen Sie, was er für Ihr Unternehmen leistet.",
+    "keywords": "KI-Rezeptionist Demo, Demo buchen, kostenlose Demo, KI-Telefonservice testen, KI-Telefonassistent Demo, kostenlos testen, unverbindliche Demo"
+  },
+  "breadcrumb": { "home": "Startseite", "demo": "Demo buchen" },
+  "hero": {
+    "badge": "Exklusives Angebot",
+    "title": "Buchen Sie Ihre kostenlose Demo",
+    "subtitle_line1": "Lassen Sie sich das System persönlich vorführen und sehen Sie, wie unser KI-Rezeptionist Ihr Unternehmen verändern kann. Buchen Sie noch heute eine kostenlose, unverbindliche Demo und erhalten Sie eine ",
+    "subtitle_bold": "7-tägige kostenlose Testphase",
+    "subtitle_line2": " mit vollem Zugriff."
+  },
+  "heroCards": [
+    { "title": "Kostenlose Vorführung", "description": "Eine persönliche, unverbindliche Vorführung, zugeschnitten auf Ihr Unternehmen und Ihren Bedarf." },
+    { "title": "7 Tage kostenlose Demo", "description": "Testen Sie alle Funktionen 7 Tage lang ohne Bindung. Völlig unverbindlich und ohne Kreditkarte." },
+    { "title": "Wir helfen beim Start", "description": "Unser Team begleitet Sie durch die gesamte Einrichtung und sorgt dafür, dass Sie vom ersten Tag an gut starten." }
+  ],
+  "booking": {
+    "title": "Wählen Sie Ihren Termin",
+    "subtitle": "Buchen Sie ein Gespräch, das in Ihren Kalender passt",
+    "button": "Kostenlose Demo buchen"
+  },
+  "afterBooking": {
+    "title": "Was passiert nach der Buchung?",
+    "steps": [
+      { "title": "Gespräch buchen", "desc": "Wählen Sie einen passenden Termin" },
+      { "title": "Persönliche Demo", "desc": "Erleben Sie den KI-Rezeptionisten in Aktion" },
+      { "title": "Kostenlose Freischaltung", "desc": "7 Tage voller Zugriff" },
+      { "title": "Vorteile genießen", "desc": "Konzentrieren Sie sich auf das Wachstum Ihres Unternehmens" }
+    ]
+  },
+  "whyChoose": {
+    "title": "Warum unser KI-Rezeptionist?",
+    "subtitle": "Erleben Sie den Unterschied mit einem der fortschrittlichsten KI-gestützten Buchungssysteme am Markt"
+  },
+  "features": [
+    {
+      "title": "Rund um die Uhr erreichbar",
+      "description": "Unser KI-Rezeptionist arbeitet rund um die Uhr – ohne Pausen, Urlaub oder freie Tage. Ihre Kunden können jederzeit einen Termin buchen, ob mitten in der Nacht, am Wochenende oder an Feiertagen. Das bedeutet mehr Buchungen und zufriedenere Kunden."
+    },
+    {
+      "title": "Mehr Effizienz",
+      "description": "Automatisieren Sie bis zu 80 % Ihrer telefonischen Anfragen und gewinnen Sie wertvolle Zeit für Ihr Team. Reduzieren Sie Verwaltungsaufgaben drastisch und lassen Sie Ihr Team erstklassigen Service für Ihre Kunden leisten."
+    },
+    {
+      "title": "Sofortige Antwort",
+      "description": "Keine Wartezeit für Ihre Kunden. Die KI nimmt jeden Anruf sofort an und kann beliebig viele Gespräche gleichzeitig führen. Das heißt: null verpasste Anrufe und maximale Kundenzufriedenheit."
+    },
+    {
+      "title": "Intelligente Kalenderintegration",
+      "description": "Nahtlose Anbindung an Ihr bestehendes Buchungssystem. Die KI sieht Ihren Kalender in Echtzeit und bucht nur freie Zeiten. Jeder Termin wird automatisch synchronisiert – mit ausführlichen Notizen zum Gespräch und zu den Wünschen des Kunden."
+    },
+    {
+      "title": "Weniger Terminausfälle",
+      "description": "Automatische Erinnerungen per SMS und E-Mail senken verpasste Termine um bis zu 65 %. Das System verschickt intelligente Erinnerungen zum richtigen Zeitpunkt und kann bei Absagen sogar automatisch neu buchen."
+    },
+    {
+      "title": "Natürliche Sprache",
+      "description": "Unsere KI ist speziell auf natürliche Gespräche trainiert. Sie versteht Dialekte und Umgangssprache und spricht flüssig und natürlich – ihre Stärke ist Dänisch, und sie spricht auch Englisch und Spanisch. Ihre Kunden erleben jedes Mal ein angenehmes, professionelles Gespräch."
+    }
+  ],
+  "benefitsSection": {
+    "title": "Konkrete Vorteile für Ihr Unternehmen",
+    "benefits": [
+      { "title": "Über 10 Stunden pro Woche sparen", "description": "Gewinnen Sie die Zeit zurück, die bisher für Telefonate, Terminverwaltung und Erinnerungen draufging – und investieren Sie sie in das Wachstum Ihres Unternehmens." },
+      { "title": "30 % mehr Umsatz", "description": "Erfassen Sie jeden Lead rund um die Uhr und verlieren Sie weniger Buchungen. Mehr Buchungen und weniger Ausfälle bedeuten direkt mehr Umsatz." },
+      { "title": "Null verpasste Anrufe", "description": "Jeder unbeantwortete Anruf ist verlorener Umsatz. Mit dem KI-Rezeptionisten geht kein Anruf verloren – auch nicht, wenn Sie beschäftigt sind, in einem Meeting sitzen oder außerhalb der Öffnungszeiten." },
+      { "title": "Besseres Kundenerlebnis", "description": "Gleichbleibend hohe Servicequalität bei jedem Anruf. Keine schlechten Tage, keine Stressfehler. Ihre Kunden erleben immer eine professionelle, freundliche Rezeption." },
+      { "title": "Lückenlose Dokumentation", "description": "Jedes Gespräch wird automatisch aufgezeichnet und transkribiert. So gewinnen Sie wertvolle Einblicke in Kundenwünsche, häufige Fragen und Verbesserungsmöglichkeiten." },
+      { "title": "Skalierbare Lösung", "description": "Bearbeiten Sie 1 oder 1.000 Anrufe am Tag, ohne mehr Personal einzustellen. Das System wächst ohne Mehrkosten mit Ihrem Unternehmen." }
+    ],
+    "ctaTitle": "Bereit für den Start?",
+    "ctaText": "Buchen Sie jetzt Ihre kostenlose Demo und erhalten Sie 7 Tage vollen Zugriff auf das System. Wir begleiten Sie durch die gesamte Einrichtung und sorgen für einen guten Start. Ohne Bindung, ohne Kreditkarte.",
+    "ctaButton": "Jetzt kostenlose Demo buchen"
+  },
+  "industries": {
+    "title": "Ideal für alle Dienstleistungsunternehmen",
+    "subtitle": "Unser KI-Rezeptionist übernimmt Buchungen und Kundenservice in jeder Branche",
+    "items": [
+      { "title": "Gesundheitswesen", "desc": "Zahnärzte, Physiotherapeuten, Chiropraktiker, Massagepraxen, Psychologen" },
+      { "title": "Beauty & Wellness", "desc": "Friseure, Kosmetikstudios, Nagelstudios, Spas, Tattoostudios" },
+      { "title": "Handwerk & Dienstleistungen", "desc": "Installateure, Elektriker, Maler, Tischler, Reinigung, Umzugsunternehmen" },
+      { "title": "Beratung & Coaching", "desc": "Rechtsanwälte, Steuerberater, Berater, Personal Trainer, Karrierecoaches" }
+    ]
+  }
+}

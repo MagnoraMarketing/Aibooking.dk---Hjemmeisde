@@ -1,0 +1,39 @@
+{
+  "title": "KI-Sprach-Widget: Ihre digitale Rezeption – rund um die Uhr bereit",
+  "intro": "Unsere Kernlösung ist das KI-Sprach-Widget – ein KI-gestützter Sprachassistent direkt auf Ihrer Website, der das Kundengespräch von der ersten Frage bis zur bestätigten Buchung übernimmt. Das Widget kann sogar einen Besichtigungstermin direkt im Gespräch buchen.",
+  "capabilities": [
+    {
+      "title": "Beantwortet allgemeine Fragen",
+      "text": "Antwortet schnell und präzise auf allgemeine Kundenfragen zu Ihrem Unternehmen, Ihren Öffnungszeiten und Leistungen."
+    },
+    {
+      "title": "Bucht und verschiebt Termine",
+      "text": "Findet freie Zeiten und bucht oder verschiebt Termine sofort – ohne dass Kunden auf einen Rückruf warten."
+    },
+    {
+      "title": "Bucht Meetings direkt in Ihren Kalender",
+      "text": "Bucht Meetings – auch Besichtigungen – direkt in den Firmenkalender, in Echtzeit synchronisiert."
+    },
+    {
+      "title": "Beantwortet Fragen zu Produkten und Leistungen",
+      "text": "Gibt Kunden ausführliche Antworten zu Ihren Produkten und Leistungen, damit sie sofort die nötigen Informationen haben."
+    },
+    {
+      "title": "Unterstützt Onlineshops bei Verkauf und Bestellungen",
+      "text": "Hilft Onlineshops bei Verkaufs- und Bestellanfragen, damit Kunden Antworten bekommen, solange die Kaufabsicht hoch ist."
+    },
+    {
+      "title": "Beantwortet Fragen zu Lieferung und Bestellungen",
+      "text": "Gibt Kunden Statusupdates und Antworten auf Fragen zu Produkten, Lieferung und bestehenden Bestellungen."
+    },
+    {
+      "title": "Führt Kunden zum Kauf",
+      "text": "Begleitet Kunden sicher durch den Verkaufsprozess und hilft ihnen beim nächsten Schritt zum Kauf."
+    },
+    {
+      "title": "Bearbeitet Anfragen rund um die Uhr",
+      "text": "Immer erreichbar und bearbeitet Kundenanfragen 24 Stunden am Tag, 7 Tage die Woche – auch wenn das Büro geschlossen ist."
+    }
+  ],
+  "closing": "Egal in welcher Branche: Das KI-Sprach-Widget ist das Herzstück Ihres Kundenerlebnisses – eine Lösung, die Ihre Kunden beantwortet, bucht und den ganzen Weg begleitet."
+}

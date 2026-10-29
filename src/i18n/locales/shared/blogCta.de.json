@@ -1,0 +1,38 @@
+{
+  "title": "Bereit, KI für sich arbeiten zu lassen?",
+  "description": "Ein KI-Widget auf Ihrer Website, ein KI-Rezeptionist am Telefon und automatisierter Kundenservice für Ihren Onlineshop – in einer Lösung. 7 Tage kostenlos testen, ohne Kreditkarte.",
+  "primary": "Kostenlos testen",
+  "secondary": "Kostenlose Demo buchen",
+  "exploreTitle": "Entdecken Sie unsere KI-Lösungen",
+  "links": {
+    "widget": {
+      "title": "KI-Widget für Website & Shopify",
+      "desc": "Chat und Sprache, die rund um die Uhr antworten und buchen"
+    },
+    "inbound": {
+      "title": "KI-Telefonservice",
+      "desc": "Ein KI-Rezeptionist, der ans Telefon geht"
+    },
+    "webshop": {
+      "title": "Onlineshop-Widget & Shopify",
+      "desc": "Sendungsverfolgung, Lagerbestand und Support – automatisiert"
+    },
+    "features": {
+      "title": "Alle Funktionen",
+      "desc": "Dashboard, Kalender, SMS und KI-Mitarbeiter"
+    },
+    "industries": {
+      "title": "Branchen",
+      "desc": "Praxen, Handwerk, Büros und E-Commerce"
+    },
+    "integrations": {
+      "title": "Integrationen",
+      "desc": "Google Kalender, Outlook, Shopify und mehr"
+    }
+  },
+  "guides": {
+    "title": "Ratgeber und Antworten",
+    "subtitle": "Ausführliche Artikel zu den Fragen, die uns Kunden vor dem Start am häufigsten stellen.",
+    "read": "Ratgeber lesen"
+  }
+}

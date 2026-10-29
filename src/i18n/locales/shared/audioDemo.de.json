@@ -1,0 +1,39 @@
+{
+  "points": [
+    "Natürliche, flüssige Sprache – keine Roboterstimme",
+    "Versteht, was der Anrufer braucht, und stellt die richtigen Rückfragen",
+    "Findet einen freien Termin und bucht ihn direkt in den Kalender"
+  ],
+  "player": {
+    "title": "Buchungsbeispiel – Handwerk / Praxis",
+    "play": "Aufnahme abspielen",
+    "pause": "Aufnahme pausieren",
+    "seek": "In der Aufnahme springen",
+    "of": "{{current}} von {{total}}"
+  },
+  "inline": {
+    "badge": "Hörbeispiel · 6:38 Min.",
+    "title": "Hören Sie, wie die KI einen Termin bucht",
+    "text": "Ein echtes Beispiel für einen Anruf, bei dem unser KI-Telefonassistent einen Kunden entgegennimmt und einen Termin im Kalender bucht. Das Gespräch ist auf Dänisch – drücken Sie auf Play und überzeugen Sie sich selbst von der Qualität.",
+    "cta": "7 Tage kostenlos testen",
+    "call": "Demo anrufen: {{phone}}"
+  },
+  "section": {
+    "badge": "Hören Sie einen echten Anruf",
+    "title": "Hören Sie, wie unsere KI den Anruf annimmt und einen Termin bucht",
+    "text": "Eine gute KI-Stimme zu versprechen ist leicht – sie zu hören ist besser. Hier ist ein Beispiel für einen Anruf, bei dem ein Kunde anruft und die KI das gesamte Gespräch und die Buchung übernimmt. Drücken Sie auf Play und hören Sie die Qualität.",
+    "languageNote": "Das Beispielgespräch ist auf Dänisch. Die KI nimmt Anrufe auch auf Deutsch, Englisch und in weiteren Sprachen entgegen.",
+    "cta": "7 Tage kostenlos testen",
+    "call": "Selbst anrufen: {{phone}}"
+  },
+  "stats": {
+    "duration": "Min. Gespräch",
+    "language": "natürliche Sprache",
+    "availability": "erreichbar"
+  },
+  "heroLink": "Hören Sie einen echten Anruf mit unserer KI",
+  "schema": {
+    "name": "Beispiel einer Buchung mit einem KI-Telefonassistenten (auf Dänisch)",
+    "description": "Tonaufnahme eines echten Beispiels, bei dem der KI-Telefonassistent von Aibooking.dk einen Anruf entgegennimmt und für den Kunden einen Termin bucht, auf Dänisch."
+  }
+}

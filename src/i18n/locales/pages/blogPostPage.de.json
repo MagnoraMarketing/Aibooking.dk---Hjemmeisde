@@ -1,0 +1,20 @@
+{
+  "notFound": {
+    "title": "Artikel nicht gefunden"
+  },
+  "backToBlog": "Zurück zum Blog",
+  "readTime": "{{count}} Min. Lesezeit",
+  "actions": {
+    "share": "Teilen",
+    "save": "Speichern"
+  },
+  "related": {
+    "title": "Ähnliche Artikel",
+    "subtitle": "Mehr zum Thema {{category}}"
+  },
+  "readArticle": "Artikel lesen",
+  "updated": "Aktualisiert am {{date}}",
+  "sources": {
+    "title": "Quellen"
+  }
+}

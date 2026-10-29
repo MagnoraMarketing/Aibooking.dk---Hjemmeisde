@@ -1,0 +1,41 @@
+{
+  "seo": {
+    "title": "KI-Rezeptionist für Praxen – KI-Telefonservice | Aibooking.dk",
+    "description": "Ein KI-Rezeptionist für Arzt-, Zahnarzt- und Physiotherapiepraxen. Automatische Terminbuchung, weniger Terminausfälle und DSGVO-konform. Jetzt testen.",
+    "keywords": "KI-Rezeptionist Praxis, KI-Telefonservice Arztpraxis, Telefonassistent Zahnarzt, Online-Terminbuchung Praxis, Physiotherapie Terminbuchung, Patientenbuchung, Praxisautomatisierung, KI-Telefonassistent, Terminausfälle reduzieren"
+  },
+  "breadcrumb": { "home": "Startseite", "industries": "Branchen", "healthcare": "Praxen" },
+  "hero": {
+    "badge": "Praxen und Gesundheitswesen",
+    "title": "Freiraum für die Behandlung Ihrer Patienten",
+    "subtitle": "Als Praxis wissen Sie, wie wichtig die bestmögliche Behandlung Ihrer Patienten ist. Doch Verwaltungsaufgaben wie Telefonate, Terminbuchungen und Absagen rauben wertvolle Zeit, die eigentlich den Patienten gehört."
+  },
+  "solution": {
+    "title": "Die Komplettlösung für das Gesundheitswesen",
+    "description": "Unser KI-Rezeptionist bearbeitet jede Anfrage professionell – von neuen Terminen über Umbuchungen bis zu Bestätigungen. Mit automatischen SMS-Erinnerungen senken Sie Terminausfälle deutlich. Ihr persönliches Dashboard gibt Ihnen den vollen Überblick: Hören Sie jeden Anruf, sehen Sie kurze Zusammenfassungen jedes Gesprächs, was vereinbart wurde, Buchungsstatistiken und die Kalenderintegration. Sie können Ihre bisherige Kalendersoftware weiter nutzen – unser System synchronisiert sich automatisch.",
+    "benefits": [
+      { "title": "85 % weniger Telefonzeit", "description": "Konzentrieren Sie sich auf Ihre Patienten statt auf Verwaltung" },
+      { "title": "Automatische SMS-Erinnerungen", "description": "Bis zu 60 % weniger Terminausfälle und bessere Auslastung" },
+      { "title": "Terminbuchung rund um die Uhr", "description": "Buchungen, Umbuchungen und Absagen zu jeder Tageszeit" },
+      { "title": "Komplettes Dashboard", "description": "Anrufverlauf, Gesprächszusammenfassungen und Buchungsstatistiken" },
+      { "title": "Kalenderintegration", "description": "Synchronisiert automatisch mit Ihrem bestehenden Buchungssystem" },
+      { "title": "DSGVO-konform", "description": "Volle Sicherheit für sensible Patientendaten" }
+    ]
+  },
+  "stats": [
+    { "value": "60%", "label": "Weniger Terminausfälle" },
+    { "value": "12 Std./Woche", "label": "Zeitersparnis" },
+    { "value": "95%", "label": "Buchungsquote" },
+    { "value": "4,8/5", "label": "Kundenzufriedenheit" }
+  ],
+  "perfectFor": {
+    "title": "Ideal für jede Praxis im Gesundheitswesen",
+    "practices": ["Zahnärzte", "Physiotherapeuten", "Chiropraktiker", "Massagepraxen", "Psychologen"],
+    "cta": "Unverbindliches Gespräch buchen und kostenlosen Testzugang erhalten"
+  },
+  "ctaSection": {
+    "title": "Bereit für den Start?",
+    "subtitle": "Buchen Sie ein kostenloses, unverbindliches Gespräch und erhalten Sie einen Testzugang, um das System selbst auszuprobieren",
+    "button": "Unverbindliches Gespräch buchen und kostenlosen Testzugang erhalten"
+  }
+}

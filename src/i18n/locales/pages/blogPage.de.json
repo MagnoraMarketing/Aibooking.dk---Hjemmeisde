@@ -1,0 +1,29 @@
+{
+  "seo": {
+    "title": "Blog zu KI-Telefonservice, KI-Rezeption & KI-Widgets | Aibooking.dk",
+    "description": "Ratgeber zu KI-Telefonservice, KI-Rezeptionisten, Widgets für Onlineshops und Shopify, KI für Websites und KI-Kundenservice.",
+    "keywords": "KI-Telefonservice, KI-Rezeptionist, KI-Telefonassistent, Onlineshop-Widget, KI-Widget für Shopify, KI-Blog, KI-Widget, KI für Website, Shopify KI, KI-Rezeption, KI eingehende Anrufe, KI-Mitarbeiter, KI-Kundenservice"
+  },
+  "hero": {
+    "badge": "Neueste Einblicke",
+    "title": "Der Aibooking-Blog",
+    "subtitle": "Wissen zu KI-Automatisierung, Buchungssystemen und digitalen Lösungen, die moderne Unternehmen verändern."
+  },
+  "featured": {
+    "label": "Empfohlen",
+    "readArticle": "Artikel lesen"
+  },
+  "readMore": "Weiterlesen",
+  "filters": {
+    "searchLabel": "Blogartikel durchsuchen",
+    "searchPlaceholder": "Nach Thema suchen, z. B. Buchung oder Onlineshop …",
+    "allCategories": "Alle Artikel",
+    "resultsCount_one": "{{count}} Artikel gefunden",
+    "resultsCount_other": "{{count}} Artikel gefunden",
+    "emptyState": {
+      "title": "Keine Artikel passen zu Ihrer Suche",
+      "message": "Versuchen Sie einen anderen Suchbegriff oder wählen Sie eine andere Kategorie.",
+      "reset": "Filter zurücksetzen"
+    }
+  }
+}

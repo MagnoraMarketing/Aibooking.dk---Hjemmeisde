@@ -1,0 +1,45 @@
+{
+  "seo": {
+    "title": "KI-Rezeptionist für Büros & Kanzleien – KI-Telefonservice | Aibooking.dk",
+    "description": "Ein KI-Rezeptionist für Kanzleien, Steuerberater und Berater. Professionelle Anrufannahme, Terminbuchung und Nachrichten rund um die Uhr. Jetzt testen.",
+    "keywords": "KI-Rezeptionist Büro, KI-Telefonservice Kanzlei, Telefonservice Steuerberater, Sekretariatsservice, virtuelle Rezeption, Terminbuchung Berater, Büroautomatisierung, KI-Telefonassistent, Meetingbuchung"
+  },
+  "breadcrumb": {
+    "home": "Startseite",
+    "industries": "Branchen",
+    "office": "Büro"
+  },
+  "hero": {
+    "badge": "Büro und Verwaltung",
+    "title": "Professioneller Kundenservice ohne Unterbrechungen",
+    "subtitle": "In Büros sind Konzentration und Produktivität entscheidend. Doch ständige Anrufe unterbrechen den Arbeitsfluss und senken die Effizienz deutlich. Gleichzeitig erwarten Kunden einen schnellen und professionellen Service."
+  },
+  "bestOfBoth": {
+    "title": "Das Beste aus beiden Welten",
+    "description": "Mit Aibooking.dk bekommen Sie das Beste aus beiden Welten. Unser KI-Rezeptionist filtert alle eingehenden Anrufe, bucht Meetings, beantwortet häufige Fragen und leitet nur die wichtigsten Anliegen weiter. Ihr Team kann konzentriert arbeiten, während Kunden rund um die Uhr professionellen Service erleben. Das Dashboard gibt Ihnen die volle Kontrolle: Hören Sie jedes Gespräch, sehen Sie ausführliche Zusammenfassungen, Buchungsstatistiken und die Kalenderintegration. Ideal für Kanzleien, Steuerberater, Berater und andere wissensbasierte Unternehmen.",
+    "benefits": [
+      { "title": "Weniger Unterbrechungen", "description": "Deutlich höhere Produktivität Ihrer Mitarbeiter" },
+      { "title": "Professionelle Anrufannahme", "description": "Ohne zusätzliche Personalkosten für eine Rezeption" },
+      { "title": "Automatische Vorfilterung", "description": "Nur wichtige Anliegen werden an Ihr Team weitergeleitet" },
+      { "title": "Meetingbuchung", "description": "Meetings direkt im gemeinsamen Teamkalender buchen" },
+      { "title": "Komplettes Dashboard", "description": "Gesprächsverlauf, Zusammenfassungen und Statistiken" },
+      { "title": "CRM-Integration", "description": "Anbindung an Ihre bestehenden Systeme und Kalender" }
+    ]
+  },
+  "stats": [
+    { "value": "+35%", "label": "Produktivität" },
+    { "value": "15 Std./Woche", "label": "Zeitersparnis" },
+    { "value": "98%", "label": "Angenommene Anrufe" },
+    { "value": "320%", "label": "ROI" }
+  ],
+  "perfectFor": {
+    "title": "Ideal für alle Büro- und Dienstleistungsunternehmen",
+    "businessTypes": ["Rechtsanwälte", "Steuerberater", "Berater", "Trainer", "Coaches"],
+    "ctaButton": "Unverbindliches Gespräch buchen und kostenlosen Testzugang erhalten"
+  },
+  "finalCta": {
+    "title": "Bereit für den Start?",
+    "subtitle": "Buchen Sie ein kostenloses, unverbindliches Gespräch und erhalten Sie einen Testzugang, um das System selbst auszuprobieren",
+    "button": "Unverbindliches Gespräch buchen und kostenlosen Testzugang erhalten"
+  }
+}

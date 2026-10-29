@@ -1,0 +1,162 @@
+{
+  "appTabs": [
+    "Dashboard",
+    "Eingehend",
+    "Ausgehend",
+    "Widget",
+    "Kalender",
+    "Analysen"
+  ],
+  "windowLabel": "app.aibooking.dk/dashboard",
+  "heading": "Dashboard",
+  "headingSub": "Verfolgen Sie, wie Ihre KI-Agenten am Telefon und auf Ihrer Website arbeiten",
+  "org": "Praxis Sund · Zahnmedizin",
+  "period": "Dieser Monat",
+  "stats": [
+    {
+      "label": "Gespräche gesamt",
+      "value": "438"
+    },
+    {
+      "label": "Aktive Agenten",
+      "value": "5"
+    },
+    {
+      "label": "Verbrauchte Minuten",
+      "value": "550"
+    },
+    {
+      "label": "Verbleibende Minuten",
+      "value": "250"
+    }
+  ],
+  "seeAgents": "Agenten ansehen →",
+  "panels": {
+    "inbound": {
+      "title": "Eingehende Anrufe",
+      "agents": "2",
+      "calls": "214",
+      "minutes": "298",
+      "agentsLabel": "Aktive Agenten",
+      "callsLabel": "Anrufe",
+      "minutesLabel": "Minuten"
+    },
+    "outbound": {
+      "title": "Ausgehende Anrufe",
+      "agents": "2",
+      "calls": "128",
+      "minutes": "188",
+      "agentsLabel": "Aktive Agenten",
+      "callsLabel": "Anrufe",
+      "minutesLabel": "Minuten"
+    },
+    "widget": {
+      "title": "Website-Widget",
+      "agents": "1",
+      "calls": "96",
+      "minutes": "64",
+      "agentsLabel": "Aktive Widgets",
+      "callsLabel": "Gespräche",
+      "minutesLabel": "Minuten"
+    }
+  },
+  "recent": {
+    "title": "Letzte Gespräche",
+    "columns": {
+      "agent": "Agent",
+      "date": "Datum",
+      "status": "Status",
+      "minutes": "Minuten"
+    },
+    "view": "Gespräch ansehen",
+    "rows": [
+      {
+        "agent": "Widget – Startseite",
+        "channel": "Widget",
+        "date": "26. Aug. 2026, 21:12",
+        "status": "Abgeschlossen",
+        "live": false,
+        "minutes": "0,47"
+      },
+      {
+        "agent": "Rezeption – außerhalb der Öffnungszeiten",
+        "date": "26. Aug. 2026, 20:41",
+        "status": "Abgeschlossen",
+        "live": false,
+        "minutes": "1,04",
+        "channel": "Telefon"
+      },
+      {
+        "agent": "Erinnerungen – Vortag",
+        "date": "26. Aug. 2026, 09:15",
+        "status": "Abgeschlossen",
+        "live": false,
+        "minutes": "0,38",
+        "channel": "Telefon"
+      },
+      {
+        "agent": "Rezeption – Hauptnummer",
+        "date": "25. Aug. 2026, 14:22",
+        "status": "Abgeschlossen",
+        "live": false,
+        "minutes": "2,11",
+        "channel": "Telefon"
+      },
+      {
+        "agent": "Widget – Buchungsseite",
+        "channel": "Widget",
+        "date": "25. Aug. 2026, 16:05",
+        "status": "Abgeschlossen",
+        "live": false,
+        "minutes": "1,12"
+      },
+      {
+        "agent": "Umbuchung – Absagen",
+        "date": "25. Aug. 2026, 11:03",
+        "status": "Abgeschlossen",
+        "live": false,
+        "minutes": "0,52",
+        "channel": "Telefon"
+      },
+      {
+        "agent": "Rezeption – Hauptnummer",
+        "date": "25. Aug. 2026, 08:47",
+        "status": "Live",
+        "live": true,
+        "minutes": "0,19",
+        "channel": "Telefon"
+      }
+    ]
+  },
+  "agents": {
+    "title": "Aktive Agenten",
+    "items": [
+      "Rezeption – Hauptnummer",
+      "Rezeption – außerhalb der Öffnungszeiten",
+      "Erinnerungen – Vortag",
+      "Umbuchung – Absagen",
+      "Widget – Website"
+    ]
+  },
+  "bookings": {
+    "title": "Buchungen",
+    "items": [
+      {
+        "name": "Emma Hansen",
+        "type": "Prophylaxe",
+        "time": "Fr. 09:30"
+      },
+      {
+        "name": "Jonas Bak",
+        "type": "Kontrolle",
+        "time": "Fr. 11:00"
+      },
+      {
+        "name": "Aisha Karim",
+        "type": "Notfalltermin",
+        "time": "Mo. 08:15"
+      }
+    ]
+  },
+  "note": "Beispielzahlen einer Demo-Praxis – Ihr eigenes Dashboard zeigt Ihre Agenten, Ihre Widget-Gespräche und Ihre Anrufe."
+}

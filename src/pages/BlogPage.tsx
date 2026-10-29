@@ -8,7 +8,7 @@ import SEO from '../components/SEO';
 import FAQ from '../components/FAQ';
 import BlogCTA from '../components/BlogCTA';
 import { blogFAQs } from '../content/faq';
-import { getPublishedPosts, getCategoryBySlug, blogCategories, BlogPost } from '../content/blog';
+import { getPublishedPosts, getCategoryBySlug, blogCategories, localizePost, DATE_LOCALES, BlogPost } from '../content/blog';
 import type { SupportedLanguage } from '../i18n/config';
 import { blogPostPath, localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
@@ -28,20 +28,14 @@ export default function BlogPage({ onNavigate }: BlogPageProps) {
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [query, setQuery] = useState('');
 
-  const getTitle = (post: BlogPost) =>
-    i18n.language === 'da' ? post.title_da : post.title_en;
+  const getTitle = (post: BlogPost) => localizePost(post, lang).title;
 
-  const getExcerpt = (post: BlogPost) =>
-    i18n.language === 'da' ? post.excerpt_da : post.excerpt_en;
+  const getExcerpt = (post: BlogPost) => localizePost(post, lang).excerpt;
 
-  const getCategoryName = (post: BlogPost) => {
-    const category = getCategoryBySlug(post.categorySlug);
-    if (!category) return '';
-    return i18n.language === 'da' ? category.name_da : category.name_en;
-  };
+  const getCategoryName = (post: BlogPost) => getCategoryBySlug(post.categorySlug)?.name[lang] ?? '';
 
   const formatDate = (date: string) => {
-    return new Date(date).toLocaleDateString(i18n.language === 'da' ? 'da-DK' : 'en-US', {
+    return new Date(date).toLocaleDateString(DATE_LOCALES[lang], {
       year: 'numeric',
       month: 'long',
       day: 'numeric'
@@ -164,7 +158,7 @@ export default function BlogPage({ onNavigate }: BlogPageProps) {
                   </span>
                 </button>
                 {blogCategories.map((category) => {
-                  const name = i18n.language === 'da' ? category.name_da : category.name_en;
+                  const name = category.name[lang];
                   const active = activeCategory === category.slug;
                   return (
                     <button

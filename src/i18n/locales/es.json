@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Recepcionista de IA, Atención Telefónica con IA y Widget IA | Aibooking.dk",
-    "description": "Recepcionista de IA con atención telefónica y widget de IA para tu web, tienda online y Shopify. Responde y reserva 24/7. Pruébalo gratis 7 días.",
+    "title": "Recepcionista Virtual con IA para tu Negocio | Aibooking.dk",
+    "description": "Recepcionista virtual con IA que atiende llamadas, reserva citas y responde en el chat de tu web 24/7. Asistente telefónico con IA. Prueba gratis 7 días.",
     "keywords": "atención telefónica con IA, recepcionista de IA danesa, widget para tienda online, widget de IA para Shopify, recepcionista de ia, ai booking, reservas automáticas, widget de ia para sitio web, calendario con ia, automatización telefónica, recordatorios sms, automatización de atención al cliente, solución de ia danesa"
   },
   "nav": {
@@ -47,8 +47,8 @@
   },
   "hero": {
     "badge": "Tu Recepcionista Virtual",
-    "title_line1": "¿Pasas horas en llamadas,",
-    "title_line2": "SMS y seguimientos?",
+    "title_line1": "Tu recepcionista con IA gestiona",
+    "title_line2": "llamadas, SMS y seguimientos",
     "subtitle": "Olvídate de la administración. Nuestra recepcionista de IA se encarga de todo — desde llamadas y mensajes hasta reservas y redes sociales. Indica tus propias horas al teléfono y descubre cuánto tiempo puedes ahorrar.",
     "savingsLink": "Descubre cuánto puedes ahorrar con AIbooking",
     "cta": "Empieza Gratis",
@@ -283,7 +283,7 @@
     "ai_booking": "Reservas con IA",
     "free_trial": "Prueba Gratuita de 7 Días",
     "ai_widget": "Widget de IA",
-    "phone_assistant": "Inbound-Outbound AI Voice",
+    "phone_assistant": "Atención telefónica con IA",
     "book_demo": "Reservar Demo",
     "features": "Funciones",
     "industries_title": "Sectores",

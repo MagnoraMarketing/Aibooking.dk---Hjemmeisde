@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Danish AI Receptionist, AI Phone Answering & AI Widget | Aibooking.dk",
-    "description": "A Danish AI receptionist with AI phone answering and an AI widget for your website, webshop and Shopify. Answers and books 24/7 – try it free.",
+    "title": "AI Receptionist & AI Answering Service | Aibooking.dk",
+    "description": "An AI receptionist and AI answering service that picks up calls, books appointments and chats on your website 24/7 – in Danish and English. Try it free.",
     "keywords": "AI phone answering, Danish AI receptionist, webshop widget, AI widget for Shopify, AI reception, AI widget, AI for website, AI customer service, AI inbound calls, AI employee, AI Denmark, AI receptionist, AI booking, Shopify AI"
   },
   "nav": {
@@ -47,8 +47,8 @@
   },
   "hero": {
     "badge": "Your Virtual Receptionist",
-    "title_line1": "Spending hours on calls,",
-    "title_line2": "SMS and follow-ups?",
+    "title_line1": "Your AI receptionist handles",
+    "title_line2": "calls, SMS and follow-ups",
     "subtitle": "Skip the administration. Our AI receptionist handles everything – from calls and messages to bookings and social media. Enter your own hours on the phone and see how much time you could save.",
     "savingsLink": "See what you can save with AIbooking",
     "cta": "Get Started Free",
@@ -283,7 +283,7 @@
     "ai_booking": "AI Booking",
     "free_trial": "7-Day Free Trial",
     "ai_widget": "AI Widget",
-    "phone_assistant": "Inbound-Outbound AI Voice",
+    "phone_assistant": "AI phone answering",
     "book_demo": "Book Demo",
     "features": "Features",
     "industries_title": "Industries",

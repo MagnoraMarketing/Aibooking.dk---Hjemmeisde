@@ -1,13 +1,13 @@
 {
   "seo": {
-    "title": "Dansk AI-receptionist til Klinikker – AI-telefonpasning | Aibooking.dk",
-    "description": "Dansk AI-receptionist til klinikker, tandlæger og fysioterapeuter. Automatisk booking, færre udeblivelser og GDPR-sikker håndtering. Prøv gratis.",
+    "title": "AI-receptionist til klinik & tandlæge | Aibooking.dk",
+    "description": "AI-receptionist til klinikker, tandlæger og fysioterapeuter: tager telefonen, booker tider, sender SMS-påmindelser og er GDPR-sikker. Prøv gratis.",
     "keywords": "AI-telefonpasning, dansk AI-receptionist, widget til webshop, AI widget til Shopify, tandlæge booking, klinik booking, fysioterapi booking, sundhed AI receptionist, patient booking, klinik automatisering"
   },
   "breadcrumb": { "home": "Hjem", "industries": "Brancher", "healthcare": "Klinikker" },
   "hero": {
     "badge": "Klinikker og Sundhed",
-    "title": "Frihed til at fokusere på patientpleje",
+    "title": "AI-receptionist til klinikker – mere tid til patienterne",
     "subtitle": "Som klinik ved du, hvor vigtigt det er at give dine patienter den bedste behandling. Men administrative opgaver som telefonopkald, bookinger og aflysninger stjæler værdifuld tid fra patientplejen."
   },
   "solution": {

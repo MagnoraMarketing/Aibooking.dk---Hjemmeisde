@@ -1,6 +1,17 @@
 {
   "windowLabel": "Dashboard",
-  "navTabs": ["Dashboard", "Widget Agents", "Inbound", "Outbound", "Dialer", "Knowledge Base", "Analytics", "Integrations", "Billing", "Agency"],
+  "navTabs": [
+    "Dashboard",
+    "Widget Agents",
+    "Inbound",
+    "Outbound",
+    "Dialer",
+    "Knowledge Base",
+    "Analytics",
+    "Integrations",
+    "Billing",
+    "Agency"
+  ],
   "creditsLabel": "Credits",
   "sectionHeading": {
     "badge": "Your dashboard",
@@ -22,7 +33,12 @@
     "activeAgents": "Active agents",
     "conversations": "Conversations",
     "minutes": "Minutes",
-    "calls": "Calls"
+    "calls": "Calls",
+    "shopTitle": "Webshop (Shopify)",
+    "products": "Products",
+    "orderLookups": "Order lookups",
+    "sales": "Sales via AI",
+    "seeShop": "See store →"
   },
   "recent": {
     "title": "Recent conversations",
@@ -42,8 +58,17 @@
     "active": "Active",
     "ended": "Ended",
     "booked": "Booked",
-    "failed": "Failed"
+    "failed": "Failed",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "processing": "Processing"
   },
   "recentWidgetsTitle": "Recently used widgets",
-  "bookingsTitle": "Bookings"
+  "bookingsTitle": "Bookings",
+  "showcaseTabs": {
+    "label": "Choose example",
+    "frisor": "Hair salon (booking)",
+    "ecommerce": "Webshop (Shopify)"
+  },
+  "ordersTitle": "Shopify orders"
 }

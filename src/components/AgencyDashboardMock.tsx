@@ -1,15 +1,25 @@
 import { useTranslation } from 'react-i18next';
 import {
-  MessageSquare, Sparkles, Clock, AlertCircle, Mic, Phone, Calendar, CreditCard, User,
+  MessageSquare, Sparkles, Clock, AlertCircle, Mic, Phone, Calendar, CreditCard, User, ShoppingBag, Package,
 } from 'lucide-react';
 import type { IndustryKey } from './industries/industryTheme';
 
 type Channel = 'widget' | 'inbound';
 type RowStatus = 'active' | 'ended';
 type BookingStatus = 'booked' | 'failed';
+type OrderStatus = 'shipped' | 'delivered' | 'processing';
 
 interface RecentRow { name: string; date: string; status: RowStatus; minutes: string; channel: Channel }
 interface Booking { name: string; time: string; status: BookingStatus }
+interface ShopOrder { id: string; name: string; status: OrderStatus }
+
+// Webshop accounts connect their Shopify store, so the AI can answer product
+// questions and look up orders. Shown in place of the phone panel and the
+// bookings list.
+interface ShopData {
+  panel: { products: string; orderLookups: string; sales: string };
+  orders: ShopOrder[];
+}
 
 interface VariantData {
   accountName: string;
@@ -21,6 +31,7 @@ interface VariantData {
   recent: RecentRow[];
   recentWidgets: string[];
   bookings: Booking[];
+  shop?: ShopData;
 }
 
 export type DashboardVariant = IndustryKey | 'frisor';
@@ -33,19 +44,20 @@ const VARIANTS: Record<DashboardVariant, VariantData> = {
     accountName: 'Frisørstuen',
     accountInitial: 'F',
     accent: { iconBg: 'bg-brand-600', text: 'text-brand-600', ring: 'ring-brand-600/20' },
-    stats: { conversations: '19', widgets: '5', minutesUsed: '20.25', minutesLeft: '6.18' },
-    widgetPanel: { agents: '2', conversations: '12', minutes: '20.2' },
-    phonePanel: { agents: '3', calls: '7', minutes: '0.0' },
+    stats: { conversations: '1.248', widgets: '3', minutesUsed: '2.184', minutesLeft: '816' },
+    widgetPanel: { agents: '2', conversations: '764', minutes: '1.032' },
+    phonePanel: { agents: '1', calls: '484', minutes: '1.152' },
     recent: [
-      { name: 'Frisørstuen', date: '17. sep. 03:54', status: 'active', minutes: '0.00', channel: 'widget' },
-      { name: 'Frisørstuen', date: '17. sep. 03:35', status: 'active', minutes: '0.00', channel: 'inbound' },
-      { name: 'Main widget', date: '17. sep. 03:19', status: 'ended', minutes: '2.63', channel: 'widget' },
-      { name: 'Main widget', date: '17. sep. 03:19', status: 'active', minutes: '0.00', channel: 'inbound' },
+      { name: 'Frisørstuen', date: '17. sep. 14:52', status: 'active', minutes: '1.40', channel: 'widget' },
+      { name: 'Frisørstuen', date: '17. sep. 14:35', status: 'ended', minutes: '2.15', channel: 'inbound' },
+      { name: 'Booking-widget', date: '17. sep. 13:19', status: 'ended', minutes: '2.63', channel: 'widget' },
+      { name: 'Frisørstuen', date: '17. sep. 11:07', status: 'ended', minutes: '3.05', channel: 'inbound' },
     ],
-    recentWidgets: ['Frisørstuen', 'Main widget', 'Claudeio'],
+    recentWidgets: ['Frisørstuen', 'Booking-widget', 'Hjemmeside-widget'],
     bookings: [
-      { name: 'Lasse', time: '18. sep., 08:00', status: 'booked' },
-      { name: 'Lasse Sørensen', time: '17. sep., 10:00', status: 'failed' },
+      { name: 'Mette Kjær', time: '18. sep., 09:00', status: 'booked' },
+      { name: 'Emil Thorsen', time: '18. sep., 11:30', status: 'booked' },
+      { name: 'Freja Lindberg', time: '19. sep., 14:00', status: 'booked' },
     ],
   },
   healthcare: {
@@ -109,21 +121,32 @@ const VARIANTS: Record<DashboardVariant, VariantData> = {
     accountName: 'Nordisk Webshop',
     accountInitial: 'N',
     accent: { iconBg: 'bg-brand-600', text: 'text-brand-600', ring: 'ring-brand-600/20' },
-    stats: { conversations: '58', widgets: '4', minutesUsed: '35.90', minutesLeft: '9.10' },
-    widgetPanel: { agents: '3', conversations: '46', minutes: '28.4' },
-    phonePanel: { agents: '1', calls: '12', minutes: '7.5' },
+    stats: { conversations: '3.416', widgets: '4', minutesUsed: '4.920', minutesLeft: '1.080' },
+    widgetPanel: { agents: '3', conversations: '2.874', minutes: '3.610' },
+    phonePanel: { agents: '1', calls: '542', minutes: '1.310' },
     recent: [
-      { name: 'Nordisk Webshop', date: '17. sep. 20:16', status: 'active', minutes: '0.00', channel: 'widget' },
-      { name: 'Nordisk Webshop', date: '17. sep. 19:02', status: 'ended', minutes: '1.12', channel: 'widget' },
-      { name: 'Ordrestatus-widget', date: '17. sep. 17:44', status: 'ended', minutes: '0.58', channel: 'widget' },
+      { name: 'Nordisk Webshop', date: '17. sep. 20:16', status: 'active', minutes: '0.48', channel: 'widget' },
+      { name: 'Ordrestatus-widget', date: '17. sep. 19:02', status: 'ended', minutes: '1.12', channel: 'widget' },
+      { name: 'Nordisk Webshop', date: '17. sep. 17:44', status: 'ended', minutes: '0.58', channel: 'widget' },
       { name: 'Nordisk Webshop', date: '17. sep. 12:30', status: 'ended', minutes: '3.02', channel: 'inbound' },
     ],
-    recentWidgets: ['Nordisk Webshop', 'Ordrestatus-widget'],
-    bookings: [
-      { name: 'Camilla Vig', time: '18. sep., 12:00', status: 'booked' },
-      { name: 'Anders Berg', time: '18. sep., 15:30', status: 'booked' },
-    ],
+    recentWidgets: ['Nordisk Webshop', 'Ordrestatus-widget', 'Produkt-widget'],
+    bookings: [],
+    shop: {
+      panel: { products: '1.240', orderLookups: '1.386', sales: '84.600 kr' },
+      orders: [
+        { id: '#10482', name: 'Sofie Lind', status: 'shipped' },
+        { id: '#10479', name: 'Mikkel Brandt', status: 'delivered' },
+        { id: '#10475', name: 'Ida Kragh', status: 'processing' },
+      ],
+    },
   },
+};
+
+const ORDER_STATUS_CLASSES: Record<OrderStatus, string> = {
+  shipped: 'bg-brand-50 text-brand-700',
+  delivered: 'bg-green-50 text-green-700',
+  processing: 'bg-amber-50 text-amber-700',
 };
 
 interface AgencyDashboardMockProps {
@@ -153,20 +176,36 @@ export default function AgencyDashboardMock({ variant }: AgencyDashboardMockProp
       key: 'widget' as const,
       icon: Mic,
       title: t('panels.widgetTitle'),
-      agents: data.widgetPanel.agents,
-      middleValue: data.widgetPanel.conversations,
-      middleLabel: t('panels.conversations'),
-      minutes: data.widgetPanel.minutes,
+      link: t('panels.seeAgents'),
+      cells: [
+        { value: data.widgetPanel.agents, label: t('panels.activeAgents') },
+        { value: data.widgetPanel.conversations, label: t('panels.conversations') },
+        { value: data.widgetPanel.minutes, label: t('panels.minutes') },
+      ],
     },
-    {
-      key: 'phone' as const,
-      icon: Phone,
-      title: t('panels.phoneTitle'),
-      agents: data.phonePanel.agents,
-      middleValue: data.phonePanel.calls,
-      middleLabel: t('panels.calls'),
-      minutes: data.phonePanel.minutes,
-    },
+    data.shop
+      ? {
+          key: 'shop' as const,
+          icon: ShoppingBag,
+          title: t('panels.shopTitle'),
+          link: t('panels.seeShop'),
+          cells: [
+            { value: data.shop.panel.products, label: t('panels.products') },
+            { value: data.shop.panel.orderLookups, label: t('panels.orderLookups') },
+            { value: data.shop.panel.sales, label: t('panels.sales') },
+          ],
+        }
+      : {
+          key: 'phone' as const,
+          icon: Phone,
+          title: t('panels.phoneTitle'),
+          link: t('panels.seeAgents'),
+          cells: [
+            { value: data.phonePanel.agents, label: t('panels.activeAgents') },
+            { value: data.phonePanel.calls, label: t('panels.calls') },
+            { value: data.phonePanel.minutes, label: t('panels.minutes') },
+          ],
+        },
   ];
 
   return (
@@ -232,22 +271,16 @@ export default function AgencyDashboardMock({ variant }: AgencyDashboardMockProp
                     <span className="font-semibold text-ink-900 text-[15px] truncate">{panel.title}</span>
                   </div>
                   <span className={`text-xs font-medium whitespace-nowrap ml-3 ${data.accent.text}`}>
-                    {t('panels.seeAgents')}
+                    {panel.link}
                   </span>
                 </div>
                 <div className="grid grid-cols-3 gap-2 text-center">
-                  <div>
-                    <div className="text-xl font-bold text-ink-900">{panel.agents}</div>
-                    <div className="text-[11px] text-ink-400 mt-0.5">{t('panels.activeAgents')}</div>
-                  </div>
-                  <div>
-                    <div className="text-xl font-bold text-ink-900">{panel.middleValue}</div>
-                    <div className="text-[11px] text-ink-400 mt-0.5">{panel.middleLabel}</div>
-                  </div>
-                  <div>
-                    <div className="text-xl font-bold text-ink-900">{panel.minutes}</div>
-                    <div className="text-[11px] text-ink-400 mt-0.5">{t('panels.minutes')}</div>
-                  </div>
+                  {panel.cells.map((cell, i) => (
+                    <div key={i}>
+                      <div className="text-xl font-bold text-ink-900 whitespace-nowrap">{cell.value}</div>
+                      <div className="text-[11px] text-ink-400 mt-0.5">{cell.label}</div>
+                    </div>
+                  ))}
                 </div>
               </div>
             );
@@ -320,30 +353,53 @@ export default function AgencyDashboardMock({ variant }: AgencyDashboardMockProp
               </ul>
             </div>
 
-            <div className="bg-white rounded-2xl border border-ink-200 p-5">
-              <h4 className="font-semibold text-ink-900 mb-3">{t('bookingsTitle')}</h4>
-              <ul className="space-y-3">
-                {data.bookings.map((booking, i) => (
-                  <li key={i} className="flex items-start gap-2.5">
-                    <Calendar className="w-4 h-4 text-brand-600 flex-shrink-0 mt-0.5" />
-                    <div className="min-w-0 flex-1">
-                      <div className="text-sm font-medium text-ink-900 truncate flex items-center gap-1.5">
-                        <User className="w-3 h-3 text-ink-400 flex-shrink-0" />
-                        {booking.name}
+            {data.shop ? (
+              <div className="bg-white rounded-2xl border border-ink-200 p-5">
+                <h4 className="font-semibold text-ink-900 mb-3">{t('ordersTitle')}</h4>
+                <ul className="space-y-3">
+                  {data.shop.orders.map((order, i) => (
+                    <li key={i} className="flex items-start gap-2.5">
+                      <Package className="w-4 h-4 text-brand-600 flex-shrink-0 mt-0.5" />
+                      <div className="min-w-0 flex-1">
+                        <div className="text-sm font-medium text-ink-900 truncate flex items-center gap-1.5">
+                          <User className="w-3 h-3 text-ink-400 flex-shrink-0" />
+                          {order.name}
+                        </div>
+                        <div className="text-xs text-ink-400">{order.id}</div>
                       </div>
-                      <div className="text-xs text-ink-400">{booking.time}</div>
-                    </div>
-                    <span
-                      className={`text-xs font-medium whitespace-nowrap px-2 py-0.5 rounded-full ${
-                        booking.status === 'booked' ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-600'
-                      }`}
-                    >
-                      {t(`status.${booking.status}`)}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+                      <span className={`text-xs font-medium whitespace-nowrap px-2 py-0.5 rounded-full ${ORDER_STATUS_CLASSES[order.status]}`}>
+                        {t(`status.${order.status}`)}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : (
+              <div className="bg-white rounded-2xl border border-ink-200 p-5">
+                <h4 className="font-semibold text-ink-900 mb-3">{t('bookingsTitle')}</h4>
+                <ul className="space-y-3">
+                  {data.bookings.map((booking, i) => (
+                    <li key={i} className="flex items-start gap-2.5">
+                      <Calendar className="w-4 h-4 text-brand-600 flex-shrink-0 mt-0.5" />
+                      <div className="min-w-0 flex-1">
+                        <div className="text-sm font-medium text-ink-900 truncate flex items-center gap-1.5">
+                          <User className="w-3 h-3 text-ink-400 flex-shrink-0" />
+                          {booking.name}
+                        </div>
+                        <div className="text-xs text-ink-400">{booking.time}</div>
+                      </div>
+                      <span
+                        className={`text-xs font-medium whitespace-nowrap px-2 py-0.5 rounded-full ${
+                          booking.status === 'booked' ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-600'
+                        }`}
+                      >
+                        {t(`status.${booking.status}`)}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </div>

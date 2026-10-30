@@ -1,6 +1,17 @@
 {
   "windowLabel": "Dashboard",
-  "navTabs": ["Dashboard", "Widget Agents", "Inbound", "Outbound", "Dialer", "Knowledge Base", "Analytics", "Integrations", "Billing", "Agency"],
+  "navTabs": [
+    "Dashboard",
+    "Widget Agents",
+    "Inbound",
+    "Outbound",
+    "Dialer",
+    "Knowledge Base",
+    "Analytics",
+    "Integrations",
+    "Billing",
+    "Agency"
+  ],
   "creditsLabel": "Credits",
   "sectionHeading": {
     "badge": "Dit dashboard",
@@ -22,7 +33,11 @@
     "activeAgents": "Aktive agenter",
     "conversations": "Samtaler",
     "minutes": "Minutter",
-    "calls": "Opkald"
+    "calls": "Opkald",
+    "shopTitle": "Webshop (Shopify)",
+    "products": "Produkter",
+    "orderLookups": "Ordreopslag",
+    "sales": "Salg via AI"
   },
   "recent": {
     "title": "Seneste samtaler",
@@ -36,14 +51,23 @@
   },
   "channelLabel": {
     "widget": "Widget",
-    "inbound": "Indbound"
+    "inbound": "Inbound"
   },
   "status": {
     "active": "Aktiv",
     "ended": "Afsluttet",
     "booked": "Booket",
-    "failed": "Fejlet"
+    "failed": "Fejlet",
+    "shipped": "Afsendt",
+    "delivered": "Leveret",
+    "processing": "Behandles"
   },
   "recentWidgetsTitle": "Senest brugte widgets",
-  "bookingsTitle": "Bookinger"
+  "bookingsTitle": "Bookinger",
+  "showcaseTabs": {
+    "label": "Vælg eksempel",
+    "frisor": "Frisør (booking)",
+    "ecommerce": "Webshop (Shopify)"
+  },
+  "ordersTitle": "Shopify-ordrer"
 }

@@ -1,6 +1,17 @@
 {
   "windowLabel": "Dashboard",
-  "navTabs": ["Dashboard", "Widget Agents", "Inbound", "Outbound", "Dialer", "Knowledge Base", "Analytics", "Integrations", "Billing", "Agency"],
+  "navTabs": [
+    "Dashboard",
+    "Widget Agents",
+    "Inbound",
+    "Outbound",
+    "Dialer",
+    "Knowledge Base",
+    "Analytics",
+    "Integrations",
+    "Billing",
+    "Agency"
+  ],
   "creditsLabel": "Crédits",
   "sectionHeading": {
     "badge": "Votre tableau de bord",
@@ -22,7 +33,11 @@
     "activeAgents": "Agents actifs",
     "conversations": "Conversations",
     "minutes": "Minutes",
-    "calls": "Appels"
+    "calls": "Appels",
+    "shopTitle": "Boutique en ligne (Shopify)",
+    "products": "Produits",
+    "orderLookups": "Suivis de commande",
+    "sales": "Ventes via l'IA"
   },
   "recent": {
     "title": "Conversations récentes",
@@ -42,8 +57,17 @@
     "active": "Active",
     "ended": "Terminée",
     "booked": "Réservé",
-    "failed": "Échoué"
+    "failed": "Échoué",
+    "shipped": "Expédiée",
+    "delivered": "Livrée",
+    "processing": "En cours"
   },
   "recentWidgetsTitle": "Widgets récemment utilisés",
-  "bookingsTitle": "Réservations"
+  "bookingsTitle": "Réservations",
+  "showcaseTabs": {
+    "label": "Choisir un exemple",
+    "frisor": "Salon de coiffure (réservation)",
+    "ecommerce": "Boutique en ligne (Shopify)"
+  },
+  "ordersTitle": "Commandes Shopify"
 }

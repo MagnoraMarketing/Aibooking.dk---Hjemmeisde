@@ -1,0 +1,54 @@
+{
+  "seo": {
+    "title": "Réceptionniste IA pour coiffeurs et instituts | Aibooking.dk",
+    "description": "Réceptionniste IA et prise de RDV pour coiffeurs et instituts : répond au téléphone pendant que vous travaillez, réserve, déplace et annule, envoie des SMS.",
+    "keywords": "réceptionniste IA coiffeur, prise de rendez-vous IA salon, standard téléphonique IA coiffure, secrétariat téléphonique salon, institut de beauté rendez-vous, barbier rendez-vous"
+  },
+  "breadcrumb": {
+    "home": "Accueil",
+    "industries": "Secteurs",
+    "salon": "Coiffure & beauté"
+  },
+  "hero": {
+    "badge": "Coiffure & beauté",
+    "title": "Réceptionniste IA pour coiffeurs et instituts : réservez pendant la coupe",
+    "subtitle": "Vous avez les ciseaux en main et le téléphone sonne encore. Si vous répondez, la cliente au fauteuil attend. Sinon, l'appelant réserve peut-être ailleurs. La réceptionniste IA prend l'appel et réserve directement le rendez-vous."
+  },
+  "solution": {
+    "title": "Une réceptionniste qui connaît votre salon",
+    "description": "La réceptionniste IA répond dans votre langue, se présente comme l'assistante numérique du salon et connaît vos prestations, vos tarifs et vos horaires. Elle trouve un créneau libre, le réserve, déplace ou annule des rendez-vous et envoie une confirmation par SMS. Ce qu'elle ne sait pas, elle vous le transmet avec un court résumé. Il en va de même pour le chat de votre site : vos clients peuvent aussi réserver le soir et le week-end."
+  },
+  "benefits": [
+    { "title": "Aucune interruption pendant une prestation", "description": "Restez avec la cliente au fauteuil. L'IA répond au téléphone à votre place." },
+    { "title": "Réservation, déplacement et annulation", "description": "Vos clients réservent, déplacent ou annulent eux-mêmes, à toute heure." },
+    { "title": "Confirmations et rappels par SMS", "description": "Le client reçoit une confirmation tout de suite et un rappel avant le rendez-vous : moins de rendez-vous manqués." },
+    { "title": "Réponses aux questions habituelles", "description": "Tarifs, prestations, horaires et stationnement sont traités à partir de votre propre base de connaissances." },
+    { "title": "Transfert quand c'est important", "description": "Les réclamations ou demandes particulières peuvent vous être transférées, à vous ou à un collègue." },
+    { "title": "Vue d'ensemble dans l'appli", "description": "Voyez sur votre mobile, entre deux clients, les appels du jour, les rendez-vous et qui rappeler." }
+  ],
+  "workflow": {
+    "title": "Une journée au salon avec la réceptionniste IA",
+    "subtitle": "Ce sont les petites interruptions qui coûtent cher. Voici les moments où l'IA fait la plus grande différence.",
+    "items": [
+      { "title": "Le matin : une annulation", "description": "Une cliente se déclare malade à 7 h 30. L'IA annule le rendez-vous et libère le créneau pour quelqu'un d'autre." },
+      { "title": "En fin de matinée : le fauteuil occupé", "description": "Le téléphone sonne trois fois pendant une coloration. Les trois appelants obtiennent un rendez-vous sans que vous lâchiez le pinceau." },
+      { "title": "L'après-midi : une question de prix", "description": "Une nouvelle cliente demande le prix de mèches. L'IA répond à partir de votre grille tarifaire et propose un créneau." },
+      { "title": "Le soir : réservation après la fermeture", "description": "À 21 h, une cliente réserve via le chat du site. Le rendez-vous vous attend à l'ouverture le lendemain." }
+    ]
+  },
+  "types": {
+    "title": "Pour tous les types de salons",
+    "items": ["Coiffeurs", "Barbiers", "Ongles", "Cils & sourcils", "Massage", "Instituts de beauté"],
+    "cta": "Réservez un rendez-vous sans engagement et obtenez un accès d'essai gratuit"
+  },
+  "app": {
+    "title": "Consultez les rendez-vous du jour sur votre mobile entre deux clients",
+    "text": "Tous les appels, rendez-vous et messages sont réunis dans l'appli Aibooking, qui fonctionne sur mobile comme sur ordinateur.",
+    "link": "Voir l'appli"
+  },
+  "finalCta": {
+    "title": "Prêt à lâcher le téléphone ?",
+    "subtitle": "Réservez un rendez-vous gratuit et sans engagement et obtenez un accès d'essai pour tester la réceptionniste IA dans votre salon",
+    "button": "Réservez un rendez-vous sans engagement et obtenez un accès d'essai gratuit"
+  }
+}

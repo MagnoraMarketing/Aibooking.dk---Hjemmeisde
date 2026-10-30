@@ -27,6 +27,10 @@
       "ecommerce": {
         "name": "E-commerce & Boutique en ligne",
         "description": "Boutiques en ligne et commerces digitaux"
+      },
+      "salon": {
+        "name": "Coiffure & beauté",
+        "description": "Coiffeurs, barbiers, ongles, esthétique"
       }
     },
     "see_all_industries": "Voir tous les secteurs →",
@@ -309,7 +313,9 @@
     "customer_cta_subtitle": "Connectez-vous à votre tableau de bord, ou créez un compte gratuit en tant que nouveau client.",
     "facebook_follow": "Suivez Aibooking.dk sur Facebook",
     "facebook_share": "Partager sur Facebook",
-    "made_by": "Conçu et propulsé par"
+    "made_by": "Conçu et propulsé par",
+    "salon": "Coiffure & beauté",
+    "app": "L'appli"
   },
   "contact": {
     "title": "Nous Contacter",
@@ -505,6 +511,41 @@
           "Aucune attente et aucune file — quel que soit le nombre de personnes qui demandent en même temps"
         ],
         "results": ["Réponse en 3 secondes", "Commande finalisée", "Aucune attente"]
+      },
+      "salon": {
+        "title": "Le rendez-vous est pris pendant que vous tenez les ciseaux",
+        "intro": "Dans un salon, le téléphone sonne toujours au mauvais moment : en pleine coupe, en pleine coloration ou pendant une manucure. La réceptionniste IA prend l'appel, trouve un créneau libre dans votre agenda et le réserve, pour que la cliente n'appelle pas le salon d'à côté.",
+        "situation": "À 11 h 20, une cliente appelle pour une coupe et une couleur. Vous êtes en pleine coloration et ne pouvez pas répondre.",
+        "callLabel": "Appel entrant · Cliente",
+        "chat": [
+          {
+            "role": "customer",
+            "text": "Bonjour, je voudrais un rendez-vous pour une coupe et une couleur la semaine prochaine."
+          },
+          {
+            "role": "ai",
+            "text": "Avec plaisir. J'ai mardi à 10 h 00 ou jeudi à 14 h 30. Qu'est-ce qui vous convient le mieux ?"
+          },
+          {
+            "role": "customer",
+            "text": "Jeudi à 14 h 30."
+          },
+          {
+            "role": "ai",
+            "text": "C'est noté : coupe et couleur jeudi à 14 h 30. Vous recevez une confirmation par SMS dans un instant."
+          }
+        ],
+        "outcomes": [
+          "Aucune cliente n'appelle ailleurs parce que vous étiez occupée au fauteuil",
+          "Annulations et déplacements sont traités tout de suite, le créneau peut servir à quelqu'un d'autre",
+          "Les rappels par SMS la veille réduisent les rendez-vous manqués",
+          "Vos clients peuvent aussi réserver le soir via le chat de votre site"
+        ],
+        "results": [
+          "RDV jeu. 14 h 30",
+          "Confirmation SMS envoyée",
+          "Aucune interruption au fauteuil"
+        ]
       }
     },
     "calculator": {
@@ -598,6 +639,28 @@
           { "name": "Calendrier Apple", "description": "Synchronisation directe via iCloud" },
           { "name": "Autres systèmes", "description": "Vous utilisez autre chose ? Nous nous connectons via la synchronisation CalDAV/iCal" }
         ]
+      },
+      "salon": {
+        "title": "Les agendas les plus utilisés par les salons",
+        "subtitle": "Les rendez-vous arrivent dans l'agenda que le salon utilise déjà.",
+        "items": [
+          {
+            "name": "Google Agenda",
+            "description": "Synchronisation automatique des rendez-vous en temps réel"
+          },
+          {
+            "name": "Microsoft Outlook / 365",
+            "description": "Agenda partagé pour tout le salon"
+          },
+          {
+            "name": "Calendrier Apple",
+            "description": "Synchronisé directement via iCloud"
+          },
+          {
+            "name": "Autres systèmes",
+            "description": "Vous utilisez un autre logiciel de réservation ? Nous nous connectons via CalDAV/iCal"
+          }
+        ]
       }
     }
   },
@@ -663,6 +726,7 @@
     "point_devices": "Fonctionne sur iPhone et Android",
     "button": "Installer l'app",
     "qr_alt": "Code QR de l'app AIbooking",
-    "scan_hint": "Scannez avec l'appareil photo de votre mobile pour installer l'app"
+    "scan_hint": "Scannez avec l'appareil photo de votre mobile pour installer l'app",
+    "more_link": "Voir l'appli et les captures"
   }
 }

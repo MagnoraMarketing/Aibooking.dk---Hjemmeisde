@@ -27,6 +27,10 @@
       "ecommerce": {
         "name": "E-commerce y Tienda Online",
         "description": "Tiendas online y negocios digitales"
+      },
+      "salon": {
+        "name": "Peluquería y estética",
+        "description": "Peluquerías, barberías, uñas, belleza"
       }
     },
     "see_all_industries": "Ver todos los sectores →",
@@ -309,7 +313,9 @@
     "customer_cta_subtitle": "Entra en tu panel o crea una cuenta gratuita como nuevo cliente.",
     "facebook_follow": "Sigue a Aibooking.dk en Facebook",
     "facebook_share": "Compartir en Facebook",
-    "made_by": "Creado y gestionado por"
+    "made_by": "Creado y gestionado por",
+    "salon": "Peluquerías y salones",
+    "app": "La app"
   },
   "contact": {
     "title": "Contáctanos",
@@ -505,6 +511,41 @@
           "Sin esperas ni colas — por muchas personas que pregunten a la vez"
         ],
         "results": ["Respuesta en 3 segundos", "Pedido completado", "Sin tiempo de espera"]
+      },
+      "salon": {
+        "title": "La cita se reserva mientras tienes las tijeras en la mano",
+        "intro": "En un salón el teléfono siempre suena en mal momento: en mitad de un corte, un tinte o una manicura. La recepcionista con IA atiende la llamada, busca un hueco libre en tu agenda y lo reserva, para que la clienta no llame al siguiente salón.",
+        "situation": "A las 11:20 llama una clienta para reservar corte y color. Estás en mitad de un tinte y no puedes contestar.",
+        "callLabel": "Llamada entrante · Clienta",
+        "chat": [
+          {
+            "role": "customer",
+            "text": "Hola, quería una cita para corte y color la semana que viene."
+          },
+          {
+            "role": "ai",
+            "text": "Te ayudo. Tengo el martes a las 10:00 o el jueves a las 14:30. ¿Qué te viene mejor?"
+          },
+          {
+            "role": "customer",
+            "text": "El jueves a las 14:30."
+          },
+          {
+            "role": "ai",
+            "text": "Listo, tienes cita el jueves a las 14:30 para corte y color. Te llegará una confirmación por SMS en un momento."
+          }
+        ],
+        "outcomes": [
+          "Ninguna clienta llama a otro salón porque estabas ocupada con alguien en el sillón",
+          "Las cancelaciones y cambios se gestionan al momento, para que otra persona aproveche el hueco",
+          "Los recordatorios por SMS el día antes reducen las ausencias",
+          "Los clientes también pueden reservar por la noche en el chat de la web"
+        ],
+        "results": [
+          "Cita jue. 14:30",
+          "Confirmación por SMS enviada",
+          "Sin interrupciones en el sillón"
+        ]
       }
     },
     "calculator": {
@@ -598,6 +639,28 @@
           { "name": "Calendario de Apple", "description": "Se sincroniza directamente vía iCloud" },
           { "name": "Otros sistemas", "description": "¿Usas otro sistema? Nos conectamos vía sincronización CalDAV/iCal" }
         ]
+      },
+      "salon": {
+        "title": "Los calendarios que más usan los salones",
+        "subtitle": "Las reservas llegan al calendario que el salón ya utiliza.",
+        "items": [
+          {
+            "name": "Google Calendar",
+            "description": "Sincronización automática de citas en tiempo real"
+          },
+          {
+            "name": "Microsoft Outlook / 365",
+            "description": "Calendario compartido para todo el salón"
+          },
+          {
+            "name": "Calendario de Apple",
+            "description": "Sincronización directa a través de iCloud"
+          },
+          {
+            "name": "Otros sistemas",
+            "description": "¿Usas otro sistema de reservas? Conectamos mediante sincronización CalDAV/iCal"
+          }
+        ]
       }
     }
   },
@@ -663,6 +726,7 @@
     "point_devices": "Funciona en iPhone y Android",
     "button": "Obtener la app",
     "qr_alt": "Código QR de la app de AIbooking",
-    "scan_hint": "Escanea con la cámara del móvil para obtener la app"
+    "scan_hint": "Escanea con la cámara del móvil para obtener la app",
+    "more_link": "Ver la app y capturas"
   }
 }

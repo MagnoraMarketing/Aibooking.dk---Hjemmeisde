@@ -1,12 +1,15 @@
-import { CheckCircle2, Smartphone } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Smartphone } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { APP_URL } from '../utils/backend';
+import { useLocalizedHref } from '../utils/pagePaths';
 
 // "Styr AIbooking fra mobilen": a QR code (generated at build time by
 // scripts/generate-app-qr.js) that opens the customer app on the phone. On a
 // phone the visitor is already there, so it becomes a button instead.
-function AppQrSection() {
+// Links to the /app page with screenshots, except on that page itself.
+function AppQrSection({ showMoreLink = true }: { showMoreLink?: boolean }) {
   const { t } = useTranslation();
+  const localizedHref = useLocalizedHref();
   const points = [t('appQr.point_login'), t('appQr.point_overview'), t('appQr.point_devices')];
 
   return (
@@ -27,6 +30,15 @@ function AppQrSection() {
               </li>
             ))}
           </ul>
+          {showMoreLink && (
+            <a
+              href={localizedHref('/app')}
+              className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-600 hover:text-brand-700 transition-colors"
+            >
+              {t('appQr.more_link')}
+              <ArrowRight className="w-4 h-4" />
+            </a>
+          )}
           <a
             href={APP_URL}
             className="md:hidden mt-6 inline-flex items-center justify-center gap-2 bg-brand-600 text-white px-6 py-3 rounded-xl hover:bg-brand-700 transition-colors font-semibold text-sm"

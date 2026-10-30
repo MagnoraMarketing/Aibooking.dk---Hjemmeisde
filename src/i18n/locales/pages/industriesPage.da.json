@@ -176,5 +176,10 @@
     "submitButton": "Book gratis præsentation",
     "submitButtonLoading": "Sender...",
     "disclaimer": "100% gratis og uforpligtende • 7 dages demo adgang inkluderet"
+  },
+  "salon": {
+    "title": "Frisør og salon",
+    "text": "Saloner lever af bookinger, og telefonen ringer altid midt i en behandling. AI-receptionisten tager opkaldet, booker, flytter og aflyser tider og sender SMS-påmindelser, mens du arbejder.",
+    "link": "Læs om AI-receptionist til frisør og salon"
   }
 }

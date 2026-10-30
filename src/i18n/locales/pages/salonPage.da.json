@@ -1,0 +1,54 @@
+{
+  "seo": {
+    "title": "AI-receptionist til frisør & salon | Aibooking.dk",
+    "description": "AI-receptionist og AI-booking til frisører og saloner: tager telefonen, mens du klipper, booker, flytter og aflyser tider og sender SMS. Prøv gratis.",
+    "keywords": "AI-receptionist frisør, AI-booking frisør, booking frisør telefon, AI-telefonpasser salon, telefonpasning frisør, skønhedssalon booking, neglesalon booking, barber booking"
+  },
+  "breadcrumb": {
+    "home": "Hjem",
+    "industries": "Brancher",
+    "salon": "Frisør & salon"
+  },
+  "hero": {
+    "badge": "Frisør & salon",
+    "title": "AI-receptionist til frisører og saloner: book tider, mens du klipper",
+    "subtitle": "Du står med saksen i hånden, og telefonen ringer igen. Tager du den, venter kunden i stolen. Lader du den ringe, booker kunden måske et andet sted. AI-receptionisten tager opkaldet for dig og booker tiden direkte."
+  },
+  "solution": {
+    "title": "En telefonpasser, der kender din salon",
+    "description": "AI-receptionisten svarer på dansk, præsenterer sig som salonens digitale assistent og kender dine behandlinger, priser og åbningstider. Den finder en ledig tid, booker den, flytter eller aflyser eksisterende tider og sender en bekræftelse på SMS. Spørgsmål, den ikke kan svare på, sender den videre til dig med et kort resumé. Det samme gælder chatten på din hjemmeside, så kunderne også kan booke aften og weekend."
+  },
+  "benefits": [
+    { "title": "Ingen afbrydelser midt i en behandling", "description": "Du kan blive ved kunden i stolen. AI'en tager telefonen i stedet for dig." },
+    { "title": "Booking, flytning og aflysning", "description": "Kunderne kan selv booke en tid, flytte den eller melde afbud døgnet rundt." },
+    { "title": "SMS-bekræftelser og påmindelser", "description": "Kunden får en bekræftelse med det samme og en påmindelse før tiden. Det giver færre udeblivelser." },
+    { "title": "Svar på de faste spørgsmål", "description": "Priser, behandlinger, åbningstider og parkering bliver besvaret ud fra din egen vidensbase." },
+    { "title": "Viderestilling når det er vigtigt", "description": "Reklamationer eller særlige ønsker kan stilles videre til dig eller en kollega." },
+    { "title": "Overblik i appen", "description": "Se dagens opkald, bookinger og hvem der skal ringes tilbage, på mobilen mellem to kunder." }
+  ],
+  "workflow": {
+    "title": "Sådan ser en dag i salonen ud med AI-receptionisten",
+    "subtitle": "Det er de små afbrydelser, der koster. Her er de situationer, hvor AI'en gør den største forskel.",
+    "items": [
+      { "title": "Morgen: afbud", "description": "En kunde melder sig syg kl. 7.30. AI'en aflyser tiden og frigiver den, så en anden kan få den." },
+      { "title": "Formiddag: travlt i stolen", "description": "Telefonen ringer tre gange under en farvning. Alle tre får en tid, uden at du lægger penslen fra dig." },
+      { "title": "Eftermiddag: spørgsmål om pris", "description": "En ny kunde spørger, hvad striber koster. AI'en svarer ud fra din prisliste og tilbyder en tid." },
+      { "title": "Aften: booking efter lukketid", "description": "Kl. 21 booker en kunde via chatten på hjemmesiden. Tiden ligger klar, når du åbner i morgen." }
+    ]
+  },
+  "types": {
+    "title": "Til alle typer saloner",
+    "items": ["Frisører", "Barberer", "Negle", "Vipper & bryn", "Massage", "Skønhedsklinikker"],
+    "cta": "Book et uforpligtende møde og få et gratis test login"
+  },
+  "app": {
+    "title": "Se dagens bookinger på mobilen mellem to kunder",
+    "text": "Alle opkald, bookinger og beskeder samles i Aibooking-appen, der virker på både mobil og computer.",
+    "link": "Se appen"
+  },
+  "finalCta": {
+    "title": "Klar til at slippe telefonen?",
+    "subtitle": "Book et gratis og uforpligtende møde, og få adgang til et test login, så du kan prøve AI-receptionisten i din egen salon",
+    "button": "Book et uforpligtende møde og få et gratis test login"
+  }
+}

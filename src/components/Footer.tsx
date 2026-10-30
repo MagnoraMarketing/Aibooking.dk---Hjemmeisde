@@ -105,6 +105,14 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   {t('footer.features')}
                 </PageLink>
               </li>
+              <li>
+                <PageLink page="app"
+                  onClick={() => onNavigate('app')}
+                  className="hover:text-brand-400 transition-colors"
+                >
+                  {t('footer.app')}
+                </PageLink>
+              </li>
             </ul>
           </div>
 
@@ -125,6 +133,14 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   className="hover:text-brand-400 transition-colors"
                 >
                   {t('footer.craftsman')}
+                </PageLink>
+              </li>
+              <li>
+                <PageLink page="salon"
+                  onClick={() => onNavigate('salon')}
+                  className="hover:text-brand-400 transition-colors"
+                >
+                  {t('footer.salon')}
                 </PageLink>
               </li>
               <li>

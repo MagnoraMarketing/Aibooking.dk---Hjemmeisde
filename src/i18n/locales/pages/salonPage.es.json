@@ -1,0 +1,54 @@
+{
+  "seo": {
+    "title": "Recepcionista con IA para peluquerías | Aibooking.dk",
+    "description": "Recepcionista y reservas con IA para peluquerías y salones: atiende el teléfono mientras trabajas, reserva, cambia y cancela citas y envía SMS.",
+    "keywords": "recepcionista virtual peluquería, reservas con IA peluquería, asistente telefónico con IA salón, citas peluquería por teléfono, salón de belleza reservas, barbería reservas"
+  },
+  "breadcrumb": {
+    "home": "Inicio",
+    "industries": "Sectores",
+    "salon": "Peluquerías y salones"
+  },
+  "hero": {
+    "badge": "Peluquerías y salones",
+    "title": "Recepcionista con IA para peluquerías y salones: reserva mientras cortas",
+    "subtitle": "Tienes las tijeras en la mano y el teléfono vuelve a sonar. Si contestas, la clienta del sillón espera. Si no, quien llama puede reservar en otro sitio. La recepcionista con IA atiende la llamada y reserva la cita directamente."
+  },
+  "solution": {
+    "title": "Una recepcionista que conoce tu salón",
+    "description": "La recepcionista con IA contesta en tu idioma, se presenta como la asistente digital del salón y conoce tus servicios, precios y horarios. Busca un hueco libre, lo reserva, cambia o cancela citas y envía una confirmación por SMS. Lo que no puede responder te lo pasa con un breve resumen. Lo mismo ocurre con el chat de tu web, así que los clientes también pueden reservar por la noche y el fin de semana."
+  },
+  "benefits": [
+    { "title": "Sin interrupciones en mitad de un servicio", "description": "Quédate con la clienta del sillón. La IA atiende el teléfono por ti." },
+    { "title": "Reservas, cambios y cancelaciones", "description": "Los clientes pueden reservar, cambiar o cancelar una cita ellos mismos, a cualquier hora." },
+    { "title": "Confirmaciones y recordatorios por SMS", "description": "El cliente recibe una confirmación al momento y un recordatorio antes de la cita, lo que reduce las ausencias." },
+    { "title": "Respuestas a las preguntas de siempre", "description": "Precios, servicios, horarios y aparcamiento se responden con tu propia base de conocimiento." },
+    { "title": "Transferencia cuando importa", "description": "Las reclamaciones o peticiones especiales se pueden pasar a ti o a un compañero." },
+    { "title": "Todo a la vista en la app", "description": "Consulta en el móvil las llamadas del día, las reservas y a quién devolver la llamada, entre dos clientes." }
+  ],
+  "workflow": {
+    "title": "Un día en el salón con la recepcionista con IA",
+    "subtitle": "Son las pequeñas interrupciones las que salen caras. Estos son los momentos en los que la IA marca más la diferencia.",
+    "items": [
+      { "title": "Mañana: una cancelación", "description": "Una clienta avisa a las 7:30 de que está enferma. La IA cancela la cita y libera el hueco para otra persona." },
+      { "title": "Media mañana: el sillón lleno", "description": "El teléfono suena tres veces durante un tinte. Las tres personas consiguen cita sin que sueltes la brocha." },
+      { "title": "Tarde: una pregunta de precio", "description": "Una clienta nueva pregunta cuánto cuestan unas mechas. La IA responde con tu lista de precios y ofrece una cita." },
+      { "title": "Noche: reservas fuera de horario", "description": "A las 21:00 una clienta reserva por el chat de la web. La cita está lista cuando abres al día siguiente." }
+    ]
+  },
+  "types": {
+    "title": "Para todo tipo de salones",
+    "items": ["Peluquerías", "Barberías", "Uñas", "Pestañas y cejas", "Masajes", "Centros de estética"],
+    "cta": "Reserva una reunión sin compromiso y obtén un acceso de prueba gratis"
+  },
+  "app": {
+    "title": "Mira las reservas del día en el móvil entre dos clientes",
+    "text": "Todas las llamadas, reservas y mensajes se reúnen en la app de Aibooking, que funciona en el móvil y en el ordenador.",
+    "link": "Ver la app"
+  },
+  "finalCta": {
+    "title": "¿Listo para soltar el teléfono?",
+    "subtitle": "Reserva una reunión gratuita y sin compromiso y obtén un acceso de prueba para probar la recepcionista con IA en tu propio salón",
+    "button": "Reserva una reunión sin compromiso y obtén un acceso de prueba gratis"
+  }
+}

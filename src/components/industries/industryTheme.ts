@@ -1,6 +1,6 @@
 import { SIGNUP_URL } from '../../utils/backend';
 
-export type IndustryKey = 'healthcare' | 'craftsman' | 'office' | 'ecommerce';
+export type IndustryKey = 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'salon';
 
 export interface IndustryTheme {
   chip: string;
@@ -53,6 +53,18 @@ export const INDUSTRY_THEMES: Record<IndustryKey, IndustryTheme> = {
     bubble: 'bg-brand-600',
     bar: 'bg-brand-600',
     accent: 'accent-brand-600',
+  },
+  salon: {
+    chip: 'bg-rose-100 text-rose-700',
+    iconBg: 'bg-rose-600',
+    text: 'text-rose-600',
+    softBg: 'bg-rose-50',
+    softBorder: 'border-rose-200',
+    solidBtn: 'bg-rose-600 hover:bg-rose-700',
+    selectedBorder: 'border-rose-600 ring-2 ring-rose-600/20',
+    bubble: 'bg-rose-600',
+    bar: 'bg-rose-600',
+    accent: 'accent-rose-600',
   },
   ecommerce: {
     chip: 'bg-brand-100 text-brand-700',

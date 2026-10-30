@@ -176,5 +176,10 @@
     "submitButton": "Marcar apresentação grátis",
     "submitButtonLoading": "A enviar...",
     "disclaimer": "100% grátis e sem compromisso • Acesso a demonstração de 7 dias incluído"
+  },
+  "salon": {
+    "title": "Cabeleireiros e salões",
+    "text": "Os salões vivem de marcações e o telefone toca sempre a meio de um serviço. A rececionista com IA atende a chamada, marca, altera e cancela horários e envia lembretes por SMS enquanto trabalha.",
+    "link": "Saiba mais sobre a rececionista com IA para salões"
   }
 }

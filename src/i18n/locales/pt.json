@@ -27,6 +27,10 @@
       "ecommerce": {
         "name": "E-commerce & Loja Online",
         "description": "Lojas online e negócios digitais"
+      },
+      "salon": {
+        "name": "Cabeleireiro e estética",
+        "description": "Cabeleireiros, barbearias, unhas, beleza"
       }
     },
     "see_all_industries": "Ver todos os setores →",
@@ -309,7 +313,9 @@
     "customer_cta_subtitle": "Entre no seu painel ou crie uma conta gratuita como novo cliente.",
     "facebook_follow": "Siga a Aibooking.dk no Facebook",
     "facebook_share": "Partilhar no Facebook",
-    "made_by": "Criado e gerido por"
+    "made_by": "Criado e gerido por",
+    "salon": "Cabeleireiros e salões",
+    "app": "A app"
   },
   "contact": {
     "title": "Contacte-nos",
@@ -505,6 +511,41 @@
           "Sem espera e sem fila — por muitas pessoas que perguntem ao mesmo tempo"
         ],
         "results": ["Resposta em 3 segundos", "Encomenda concluída", "Sem tempo de espera"]
+      },
+      "salon": {
+        "title": "A marcação é feita enquanto está de tesoura na mão",
+        "intro": "Num salão o telefone toca sempre na pior altura: a meio de um corte, de uma coloração ou de uma manicure. A rececionista com IA atende a chamada, encontra um horário livre na sua agenda e marca-o, para que a cliente não ligue para o salão seguinte.",
+        "situation": "Às 11h20 uma cliente liga para marcar corte e cor. Está a meio de uma coloração e não pode atender.",
+        "callLabel": "Chamada recebida · Cliente",
+        "chat": [
+          {
+            "role": "customer",
+            "text": "Olá, queria marcar corte e cor para a próxima semana."
+          },
+          {
+            "role": "ai",
+            "text": "Posso ajudar. Tenho terça às 10h00 ou quinta às 14h30. O que lhe dá mais jeito?"
+          },
+          {
+            "role": "customer",
+            "text": "Quinta às 14h30."
+          },
+          {
+            "role": "ai",
+            "text": "Ficou marcada para corte e cor na quinta às 14h30. Vai receber uma confirmação por SMS daqui a pouco."
+          }
+        ],
+        "outcomes": [
+          "Nenhuma cliente liga para outro lado porque estava ocupada com alguém na cadeira",
+          "Cancelamentos e alterações são tratados logo, para que o horário possa ser usado por outra pessoa",
+          "Os lembretes por SMS na véspera reduzem as faltas",
+          "Os clientes também podem marcar à noite pelo chat do site"
+        ],
+        "results": [
+          "Marcado qui. 14h30",
+          "Confirmação por SMS enviada",
+          "Sem interrupções na cadeira"
+        ]
       }
     },
     "calculator": {
@@ -598,6 +639,28 @@
           { "name": "Calendário da Apple", "description": "Sincroniza diretamente via iCloud" },
           { "name": "Outros sistemas", "description": "Usa outro sistema? Ligamos via sincronização CalDAV/iCal" }
         ]
+      },
+      "salon": {
+        "title": "Os calendários que os salões mais usam",
+        "subtitle": "As marcações vão para o calendário que o salão já usa.",
+        "items": [
+          {
+            "name": "Google Calendar",
+            "description": "Sincronização automática das marcações em tempo real"
+          },
+          {
+            "name": "Microsoft Outlook / 365",
+            "description": "Calendário partilhado para todo o salão"
+          },
+          {
+            "name": "Calendário Apple",
+            "description": "Sincronizado diretamente via iCloud"
+          },
+          {
+            "name": "Outros sistemas",
+            "description": "Usa outro sistema de marcações? Ligamos via sincronização CalDAV/iCal"
+          }
+        ]
       }
     }
   },
@@ -663,6 +726,7 @@
     "point_devices": "Funciona em iPhone e Android",
     "button": "Obter a app",
     "qr_alt": "Código QR da app AIbooking",
-    "scan_hint": "Digitalize com a câmara do telemóvel para obter a app"
+    "scan_hint": "Digitalize com a câmara do telemóvel para obter a app",
+    "more_link": "Ver a app e imagens"
   }
 }

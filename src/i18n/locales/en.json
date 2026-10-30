@@ -28,6 +28,10 @@
       "ecommerce": {
         "name": "E-commerce & Webshop",
         "description": "Webshops and online businesses"
+      },
+      "salon": {
+        "name": "Hair & Beauty",
+        "description": "Hairdressers, barbers, nails, beauty"
       }
     },
     "see_all_industries": "See all industries →",
@@ -309,7 +313,9 @@
     "customer_cta_subtitle": "Log in to your dashboard, or create a free account as a new customer.",
     "facebook_follow": "Follow Aibooking.dk on Facebook",
     "facebook_share": "Share on Facebook",
-    "made_by": "Made and run by"
+    "made_by": "Made and run by",
+    "salon": "Hair & Beauty Salons",
+    "app": "The app"
   },
   "contact": {
     "title": "Contact Us",
@@ -505,6 +511,41 @@
           "No waiting and no queue — however many people ask at once"
         ],
         "results": ["Answered in 3 seconds", "Order completed", "No waiting time"]
+      },
+      "salon": {
+        "title": "The appointment gets booked while you hold the scissors",
+        "intro": "In a salon the phone always rings at the wrong moment: mid-cut, mid-colour or in the middle of a manicure. The AI receptionist takes the call, finds a free slot in your calendar and books it, so the client doesn't call the next salon instead.",
+        "situation": "At 11:20 a client calls to book a cut and colour. You're in the middle of a colour treatment and can't answer.",
+        "callLabel": "Incoming call · Client",
+        "chat": [
+          {
+            "role": "customer",
+            "text": "Hi, I'd like an appointment for a cut and colour next week."
+          },
+          {
+            "role": "ai",
+            "text": "I can help with that. I have Tuesday at 10:00 or Thursday at 14:30. Which suits you best?"
+          },
+          {
+            "role": "customer",
+            "text": "Thursday at 14:30."
+          },
+          {
+            "role": "ai",
+            "text": "You're booked for a cut and colour on Thursday at 14:30. You'll get an SMS confirmation in a moment."
+          }
+        ],
+        "outcomes": [
+          "No client calls elsewhere because you were busy with someone in the chair",
+          "Cancellations and changes are handled straight away, so the slot can go to someone else",
+          "SMS reminders the day before mean fewer no-shows",
+          "Clients can also book through the chat on your website in the evening"
+        ],
+        "results": [
+          "Booked Thu 14:30",
+          "SMS confirmation sent",
+          "No interruption in the chair"
+        ]
       }
     },
     "calculator": {
@@ -598,6 +639,28 @@
           { "name": "Apple Calendar", "description": "Syncs directly via iCloud" },
           { "name": "Other systems", "description": "Using something else? We connect via CalDAV/iCal sync" }
         ]
+      },
+      "salon": {
+        "title": "Calendars salons use most",
+        "subtitle": "Bookings land in the calendar the salon already uses.",
+        "items": [
+          {
+            "name": "Google Calendar",
+            "description": "Appointments synced automatically in real time"
+          },
+          {
+            "name": "Microsoft Outlook / 365",
+            "description": "Shared calendar for the whole salon"
+          },
+          {
+            "name": "Apple Calendar",
+            "description": "Synced directly via iCloud"
+          },
+          {
+            "name": "Other systems",
+            "description": "Using another booking system? We connect via CalDAV/iCal sync"
+          }
+        ]
       }
     }
   },
@@ -663,6 +726,7 @@
     "point_devices": "Works on both iPhone and Android",
     "button": "Get the app",
     "qr_alt": "QR code for the AIbooking app",
-    "scan_hint": "Scan with your phone's camera to get the app"
+    "scan_hint": "Scan with your phone's camera to get the app",
+    "more_link": "See the app and screenshots"
   }
 }

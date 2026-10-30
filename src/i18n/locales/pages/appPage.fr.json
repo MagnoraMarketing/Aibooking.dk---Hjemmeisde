@@ -1,0 +1,129 @@
+{
+  "seo": {
+    "title": "Appli de réceptionniste IA mobile et PC | Aibooking.dk",
+    "description": "Appels, rendez-vous, enregistrements et consommation de votre réceptionniste IA dans une seule appli, sur mobile et ordinateur. Rien à installer.",
+    "keywords": "appli réceptionniste IA, application de prise de rendez-vous, standard téléphonique IA appli, suivi des rendez-vous, journal d'appels, tableau de bord réceptionniste IA"
+  },
+  "breadcrumb": { "home": "Accueil", "app": "L'appli" },
+  "hero": {
+    "badge": "L'appli Aibooking",
+    "title": "Vos appels et rendez-vous en un coup d'œil, dans votre poche",
+    "subtitle": "Voyez qui a appelé, ce qu'il voulait et ce que la réceptionniste IA a réservé. Le tout dans une appli simple qui fonctionne sur mobile, tablette et ordinateur avec le même identifiant.",
+    "cta_signup": "Créer un compte gratuit",
+    "cta_login": "Se connecter à l'appli"
+  },
+  "phones": {
+    "badge": "Sur mobile",
+    "title": "Conçue pour les journées chargées, pas pour les informaticiens",
+    "subtitle": "Pas de nouveau logiciel à apprendre. Ouvrez l'appli entre deux clients et voyez en quelques secondes les appels du jour, les nouveaux rendez-vous et qui rappeler.",
+    "items": [
+      {
+        "caption": "Les chiffres du jour en haut : conversations, rendez-vous et minutes restantes de votre forfait.",
+        "alt": "L'appli Aibooking sur un mobile : l'écran d'accueil avec le nom de l'entreprise, le choix de la période et le forfait"
+      },
+      {
+        "caption": "Les chiffres clés dans de grandes cartes claires, faciles à lire sur un petit écran.",
+        "alt": "L'appli Aibooking sur un mobile : chiffres des conversations, temps d'appel, rendez-vous, conversion et consommation"
+      },
+      {
+        "caption": "Un menu simple qui regroupe tout : agents, base de connaissances, statistiques et intégrations.",
+        "alt": "L'appli Aibooking sur un mobile : le menu ouvert avec Vue d'ensemble, Agents, Base de connaissances, Statistiques et Intégrations"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Ne perdez plus de clients et regagnez du temps",
+    "subtitle": "La réceptionniste IA répond au téléphone et au chat. L'appli vous permet de toujours savoir ce qui s'est passé, pour que rien ne passe entre les mailles du filet.",
+    "items": [
+      {
+        "title": "Aucun client perdu à cause d'un appel manqué",
+        "desc": "Chaque appel et chaque chat est enregistré avec le nom, le numéro et un court résumé. Vous voyez tout de suite qui rappeler."
+      },
+      {
+        "title": "Consacrez votre temps aux clients, pas au téléphone",
+        "desc": "Fini la messagerie à écouter et les messages à noter. Rendez-vous, modifications et annulations sont prêts dans l'appli, triés et avec le nom du client."
+      },
+      {
+        "title": "Une vue d'ensemble en quelques secondes",
+        "desc": "Conversations, rendez-vous, conversion et consommation par jour, semaine ou mois, par agent ou au total. Vous voyez tout de suite si c'est rentable."
+      },
+      {
+        "title": "Écoutez exactement ce qui a été dit",
+        "desc": "Chaque conversation a un enregistrement et une transcription complète : vérifiez un rendez-vous ou tirez les leçons d'un appel difficile sans redemander au client."
+      }
+    ]
+  },
+  "screens": {
+    "badge": "Sur ordinateur",
+    "title": "La même vue d'ensemble sur grand écran",
+    "subtitle": "Au bureau ou à l'accueil, ouvrez l'appli dans votre navigateur. Voici les écrans que vous utiliserez le plus.",
+    "demo_note": "Les captures proviennent de la vraie appli, avec un salon de coiffure fictif comme exemple. Les noms et numéros sont inventés.",
+    "items": [
+      {
+        "title": "Vue d'ensemble : comment ça se passe ?",
+        "desc": "L'écran d'accueil affiche vos chiffres clés pour la période choisie et un graphique des conversations par jour, entre téléphone et site web.",
+        "points": [
+          "Choisissez aujourd'hui, 7, 30 ou 90 jours",
+          "Chiffres d'un agent ou de tous les agents",
+          "Consommation dans votre devise et minutes restantes"
+        ],
+        "alt": "Le tableau de bord Aibooking sur ordinateur avec les chiffres des conversations, du temps d'appel, des rendez-vous, de la conversion et un graphique des conversations par jour"
+      },
+      {
+        "title": "Historique : chaque conversation avec enregistrement et texte",
+        "desc": "Cliquez sur une conversation pour voir le résumé, l'enregistrement, les rendez-vous pris et toute la conversation retranscrite ligne par ligne.",
+        "points": [
+          "Recherchez par numéro, nom ou sujet",
+          "Affichez seulement les conversations avec rendez-vous",
+          "Téléchargez l'enregistrement si vous devez le garder"
+        ],
+        "alt": "Historique des conversations dans l'appli Aibooking avec une conversation ouverte : enregistrement, résumé, rendez-vous et transcription"
+      },
+      {
+        "title": "Rendez-vous : tout ce que l'IA a mis dans l'agenda",
+        "desc": "Une liste des nouveaux rendez-vous, modifications et annulations avec l'heure, le nom du client et le statut.",
+        "points": [
+          "Voyez tout de suite si une réservation a réussi",
+          "Modifications et annulations sont listées à part",
+          "Les rendez-vous arrivent dans l'agenda configuré pour l'agent"
+        ],
+        "alt": "La liste des rendez-vous dans l'appli Aibooking avec l'heure de l'appel, l'agent, l'action, l'heure du rendez-vous, le nom du client et le statut"
+      }
+    ]
+  },
+  "install": {
+    "title": "Mettez l'appli sur votre écran d'accueil en une minute",
+    "subtitle": "L'appli fonctionne dans le navigateur : rien à télécharger sur l'App Store ou Google Play. Connectez-vous une fois, ajoutez-la à l'écran d'accueil et elle s'ouvre comme une appli classique.",
+    "image_alt": "La page de connexion de l'appli Aibooking sur un mobile avec l'encadré pour installer l'appli",
+    "image_caption": "Scannez le QR code ou allez sur app.aibooking.dk depuis votre mobile",
+    "items": [
+      {
+        "title": "iPhone et iPad",
+        "desc": "Dans Safari :",
+        "steps": ["Ouvrez app.aibooking.dk et connectez-vous", "Touchez le bouton Partager", "Choisissez « Sur l'écran d'accueil »"]
+      },
+      {
+        "title": "Android",
+        "desc": "Dans Chrome :",
+        "steps": ["Ouvrez app.aibooking.dk et connectez-vous", "Touchez « Installer l'app »", "Confirmez l'installation"]
+      },
+      {
+        "title": "Ordinateur",
+        "desc": "Dans Chrome, Edge ou Safari :",
+        "steps": ["Allez sur app.aibooking.dk", "Connectez-vous à votre compte", "Ajoutez la page aux favoris ou installez-la"]
+      }
+    ]
+  },
+  "related": {
+    "title": "L'appli est fournie avec votre réceptionniste IA",
+    "text": "L'appli est incluse dans tous les forfaits et dans l'essai gratuit. Elle affiche l'activité du standard téléphonique IA comme celle du chatbot de votre site.",
+    "link_phone": "En savoir plus sur le standard téléphonique IA",
+    "link_widget": "En savoir plus sur le chatbot IA",
+    "link_trial": "Voir l'essai gratuit"
+  },
+  "finalCta": {
+    "title": "Essayez l'appli gratuitement pendant 7 jours",
+    "subtitle": "Créez un compte et vous êtes dans l'appli tout de suite. Sans carte bancaire et sans engagement.",
+    "cta": "Créer un compte gratuit"
+  }
+}

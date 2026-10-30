@@ -28,6 +28,10 @@
       "ecommerce": {
         "name": "E-commerce & Webshop",
         "description": "Webshops og online forretninger"
+      },
+      "salon": {
+        "name": "Frisør & Salon",
+        "description": "Frisører, barberer, negle, skønhed"
       }
     },
     "see_all_industries": "Se alle brancher →",
@@ -309,7 +313,9 @@
     "customer_cta_subtitle": "Log ind på dit dashboard, eller opret en gratis konto som ny kunde.",
     "facebook_follow": "Følg Aibooking.dk på Facebook",
     "facebook_share": "Del på Facebook",
-    "made_by": "Lavet og drevet af"
+    "made_by": "Lavet og drevet af",
+    "salon": "Frisør & Salon",
+    "app": "Appen"
   },
   "contact": {
     "title": "Kontakt Os",
@@ -505,6 +511,41 @@
           "Ingen ventetid og ingen kø – uanset hvor mange der spørger på samme tid"
         ],
         "results": ["Svar på 3 sekunder", "Ordre gennemført", "Ingen ventetid"]
+      },
+      "salon": {
+        "title": "Tiden bliver booket, mens du står med saksen",
+        "intro": "I en salon ringer telefonen altid på det forkerte tidspunkt: midt i en klipning, en farvning eller en neglebehandling. AI-receptionisten tager opkaldet, finder en ledig tid i din kalender og booker den, så kunden ikke ringer videre til næste salon.",
+        "situation": "Kl. 11:20 ringer en kunde for at booke klip og farve. Du er midt i en farvning og kan ikke tage telefonen.",
+        "callLabel": "Indgående opkald · Kunde",
+        "chat": [
+          {
+            "role": "customer",
+            "text": "Hej, jeg vil gerne have en tid til klip og farve i næste uge."
+          },
+          {
+            "role": "ai",
+            "text": "Det kan jeg hjælpe med. Jeg har ledigt tirsdag kl. 10:00 eller torsdag kl. 14:30. Hvad passer bedst?"
+          },
+          {
+            "role": "customer",
+            "text": "Torsdag kl. 14:30."
+          },
+          {
+            "role": "ai",
+            "text": "Så er du booket torsdag kl. 14:30 til klip og farve. Du får en bekræftelse på SMS lige om lidt."
+          }
+        ],
+        "outcomes": [
+          "Ingen kunder ringer videre, fordi du stod med en kunde i stolen",
+          "Afbud og flytninger håndteres med det samme, så tiden kan bruges af en anden",
+          "SMS-påmindelser dagen før giver færre kunder, der ikke dukker op",
+          "Kunderne kan også booke via chatten på hjemmesiden om aftenen"
+        ],
+        "results": [
+          "Tid booket tors. 14:30",
+          "SMS-bekræftelse sendt",
+          "Ingen afbrydelse i stolen"
+        ]
       }
     },
     "calculator": {
@@ -598,6 +639,28 @@
           { "name": "Apple Kalender", "description": "Synkroniseres direkte via iCloud" },
           { "name": "Andre systemer", "description": "Bruger I noget andet? Vi forbinder via CalDAV/iCal-synkronisering" }
         ]
+      },
+      "salon": {
+        "title": "Kalendere, saloner oftest bruger",
+        "subtitle": "Bookingerne lander i den kalender, salonen allerede bruger.",
+        "items": [
+          {
+            "name": "Google Kalender",
+            "description": "Automatisk synkronisering af tider i realtid"
+          },
+          {
+            "name": "Microsoft Outlook / 365",
+            "description": "Delt kalender til hele salonen"
+          },
+          {
+            "name": "Apple Kalender",
+            "description": "Synkroniseres direkte via iCloud"
+          },
+          {
+            "name": "Andre systemer",
+            "description": "Bruger I et andet bookingsystem? Vi forbinder via CalDAV/iCal-synkronisering"
+          }
+        ]
       }
     }
   },
@@ -663,6 +726,7 @@
     "point_devices": "Virker på både iPhone og Android",
     "button": "Hent appen",
     "qr_alt": "QR-kode til AIbooking-appen",
-    "scan_hint": "Scan med telefonens kamera for at hente appen"
+    "scan_hint": "Scan med telefonens kamera for at hente appen",
+    "more_link": "Se appen og skærmbilleder"
   }
 }

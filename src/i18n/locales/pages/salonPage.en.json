@@ -1,0 +1,54 @@
+{
+  "seo": {
+    "title": "AI receptionist for hair & beauty salons | Aibooking.dk",
+    "description": "AI receptionist and AI booking for hairdressers and salons: answers the phone while you work, books, moves and cancels appointments and sends SMS.",
+    "keywords": "AI receptionist for salons, AI booking hairdresser, salon phone booking, AI answering service salon, hair salon receptionist, beauty salon booking, barber booking"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "industries": "Industries",
+    "salon": "Hair & beauty salons"
+  },
+  "hero": {
+    "badge": "Hair & beauty salons",
+    "title": "AI receptionist for hair and beauty salons: book while you cut",
+    "subtitle": "You're holding the scissors and the phone rings again. Answer it and the client in the chair waits. Let it ring and the caller may book somewhere else. The AI receptionist takes the call for you and books the appointment directly."
+  },
+  "solution": {
+    "title": "A receptionist that knows your salon",
+    "description": "The AI receptionist answers in your language, introduces itself as the salon's digital assistant and knows your treatments, prices and opening hours. It finds a free slot, books it, moves or cancels existing appointments and sends an SMS confirmation. Questions it can't answer are passed to you with a short summary. The same goes for the chat on your website, so clients can also book in the evening and at weekends."
+  },
+  "benefits": [
+    { "title": "No interruptions mid-treatment", "description": "Stay with the client in the chair. The AI answers the phone instead of you." },
+    { "title": "Booking, changes and cancellations", "description": "Clients can book, move or cancel an appointment themselves, around the clock." },
+    { "title": "SMS confirmations and reminders", "description": "Clients get a confirmation straight away and a reminder before the appointment, which means fewer no-shows." },
+    { "title": "Answers to the usual questions", "description": "Prices, treatments, opening hours and parking are answered from your own knowledge base." },
+    { "title": "Call transfer when it matters", "description": "Complaints or special requests can be transferred to you or a colleague." },
+    { "title": "Overview in the app", "description": "See today's calls, bookings and who to call back on your phone, between two clients." }
+  ],
+  "workflow": {
+    "title": "A day in the salon with the AI receptionist",
+    "subtitle": "It's the small interruptions that cost you. These are the moments where the AI makes the biggest difference.",
+    "items": [
+      { "title": "Morning: a cancellation", "description": "A client calls in sick at 7:30. The AI cancels the appointment and frees the slot for someone else." },
+      { "title": "Late morning: busy in the chair", "description": "The phone rings three times during a colour treatment. All three callers get an appointment without you putting the brush down." },
+      { "title": "Afternoon: a price question", "description": "A new client asks what highlights cost. The AI answers from your price list and offers a slot." },
+      { "title": "Evening: booking after closing", "description": "At 9 pm a client books through the chat on your website. The appointment is waiting when you open tomorrow." }
+    ]
+  },
+  "types": {
+    "title": "For every kind of salon",
+    "items": ["Hairdressers", "Barbers", "Nails", "Lashes & brows", "Massage", "Beauty clinics"],
+    "cta": "Book a no-obligation meeting and get a free test login"
+  },
+  "app": {
+    "title": "Check today's bookings on your phone between clients",
+    "text": "Every call, booking and message is collected in the Aibooking app, which works on both phone and computer.",
+    "link": "See the app"
+  },
+  "finalCta": {
+    "title": "Ready to let go of the phone?",
+    "subtitle": "Book a free, no-obligation meeting and get a test login so you can try the AI receptionist in your own salon",
+    "button": "Book a no-obligation meeting and get a free test login"
+  }
+}

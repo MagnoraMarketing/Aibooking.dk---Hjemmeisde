@@ -250,5 +250,10 @@
     "submitButton": "Réserver une présentation gratuite",
     "submitButtonLoading": "Envoi en cours...",
     "disclaimer": "100 % gratuit et sans engagement • Accès démo de 7 jours inclus"
+  },
+  "salon": {
+    "title": "Coiffure et beauté",
+    "text": "Les salons vivent des rendez-vous, et le téléphone sonne toujours en pleine prestation. La réceptionniste IA prend l'appel, réserve, déplace et annule les rendez-vous et envoie des rappels SMS pendant que vous travaillez.",
+    "link": "En savoir plus sur la réceptionniste IA pour salons"
   }
 }

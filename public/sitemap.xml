@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.aibooking.dk/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/" />
@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/en</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/" />
@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/es</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/" />
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/de</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/" />
@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/fr</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/" />
@@ -301,6 +301,66 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/widget" />
   </url>
   <url>
+    <loc>https://www.aibooking.dk/app</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/app" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/app" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/app" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/app" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/app" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/app" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/en/app</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/app" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/app" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/app" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/app" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/app" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/app" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/es/app</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/app" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/app" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/app" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/app" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/app" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/app" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/de/app</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/app" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/app" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/app" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/app" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/app" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/app" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/fr/app</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/app" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/app" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/app" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/app" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/app" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/app" />
+  </url>
+  <url>
     <loc>https://www.aibooking.dk/blog</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -362,7 +422,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/funktioner</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/funktioner" />
@@ -374,7 +434,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/en/funktioner</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/funktioner" />
@@ -386,7 +446,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/es/funktioner</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/funktioner" />
@@ -398,7 +458,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/de/funktioner</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/funktioner" />
@@ -410,7 +470,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/fr/funktioner</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/funktioner" />
@@ -422,7 +482,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/brancher</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/brancher" />
@@ -434,7 +494,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/en/brancher</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/brancher" />
@@ -446,7 +506,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/es/brancher</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/brancher" />
@@ -458,7 +518,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/de/brancher</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/brancher" />
@@ -470,7 +530,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/fr/brancher</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/brancher" />
@@ -2519,6 +2579,66 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/kontor" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/kontor" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/kontor" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/frisoer</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/frisoer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/frisoer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/frisoer" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/frisoer" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/frisoer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/frisoer" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/en/frisoer</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/frisoer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/frisoer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/frisoer" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/frisoer" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/frisoer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/frisoer" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/es/frisoer</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/frisoer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/frisoer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/frisoer" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/frisoer" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/frisoer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/frisoer" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/de/frisoer</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/frisoer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/frisoer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/frisoer" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/frisoer" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/frisoer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/frisoer" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/fr/frisoer</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/frisoer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/frisoer" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/frisoer" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/frisoer" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/frisoer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/frisoer" />
   </url>
   <url>
     <loc>https://www.aibooking.dk/blog/category/ai-widget</loc>

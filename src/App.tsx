@@ -16,6 +16,8 @@ import PrivacyPage from './pages/PrivacyPage';
 import WidgetPage from './pages/WidgetPage';
 import InboundOutboundPage from './pages/InboundOutboundPage';
 import TrialPage from './pages/TrialPage';
+import AppPage from './pages/AppPage';
+import SalonPage from './pages/SalonPage';
 import BlogPage from './pages/BlogPage';
 import BlogCategoryPage from './pages/BlogCategoryPage';
 import BlogPostPage from './pages/BlogPostPage';
@@ -26,7 +28,7 @@ import { currentPathname } from './utils/currentPath';
 import { blogRedirects, getCategoryBySlug, getPostBySlug } from './content/blog';
 import { loadBlogTranslations } from './content/blogTranslations';
 
-type PageType = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'blog-category' | 'blog-post' | 'trial';
+type PageType = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'blog-category' | 'blog-post' | 'trial' | 'app' | 'salon';
 
 // Danish-worded paths (canonical, unprefixed). Language prefixes are
 // stripped/added separately via splitLocalizedPath/buildLocalizedPath.
@@ -35,7 +37,8 @@ const pathMap: Record<string, PageType> = {
   '/ind-og-udgaaende-opkald': 'inbound-outbound', '/integrationer': 'integrations', '/brancher': 'industries', '/klinik': 'healthcare',
   '/haandvaerker': 'craftsman', '/kontor': 'office', '/webshop': 'ecommerce',
   '/kontakt': 'contact', '/om-aibooking': 'about', '/vilkaar': 'terms',
-  '/privatlivspolitik': 'privacy', '/blog': 'blog', '/proeveperiode': 'trial'
+  '/privatlivspolitik': 'privacy', '/blog': 'blog', '/proeveperiode': 'trial',
+  '/app': 'app', '/frisoer': 'salon'
 };
 
 const pageMap: Record<PageType, string> = {
@@ -44,7 +47,7 @@ const pageMap: Record<PageType, string> = {
   'craftsman': '/haandvaerker', 'office': '/kontor', 'ecommerce': '/webshop',
   'contact': '/kontakt', 'about': '/om-aibooking', 'terms': '/vilkaar',
   'privacy': '/privatlivspolitik', 'blog': '/blog', 'blog-category': '/blog/category',
-  'blog-post': '/blog', 'trial': '/proeveperiode'
+  'blog-post': '/blog', 'trial': '/proeveperiode', 'app': '/app', 'salon': '/frisoer'
 };
 
 // Resolve a Danish-worded path to the page (and blog slug) it renders.
@@ -160,6 +163,8 @@ function App() {
        : currentPage === 'blog-category' ? <BlogCategoryPage categorySlug={blogParam} onNavigate={handleNavigate} />
        : currentPage === 'blog-post' ? <BlogPostPage postSlug={blogParam} onNavigate={handleNavigate} />
        : currentPage === 'trial' ? <TrialPage onNavigate={handleNavigate} />
+       : currentPage === 'app' ? <AppPage onNavigate={handleNavigate} />
+       : currentPage === 'salon' ? <SalonPage onNavigate={handleNavigate} />
        : <DemoPage onNavigate={handleNavigate} />}
       <TrialOfferWidget />
     </>

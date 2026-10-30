@@ -176,5 +176,10 @@
     "submitButton": "Kostenlose Präsentation buchen",
     "submitButtonLoading": "Wird gesendet …",
     "disclaimer": "100 % kostenlos und unverbindlich • inklusive 7 Tage Demo-Zugang"
+  },
+  "salon": {
+    "title": "Friseur und Salon",
+    "text": "Salons leben von Terminen, und das Telefon klingelt immer mitten in der Behandlung. Der KI-Rezeptionist nimmt den Anruf an, bucht, verschiebt und storniert Termine und verschickt SMS-Erinnerungen, während Sie arbeiten.",
+    "link": "Mehr zum KI-Rezeptionisten für Salons"
   }
 }

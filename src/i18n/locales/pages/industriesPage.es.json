@@ -250,5 +250,10 @@
     "submitButton": "Reservar presentación gratuita",
     "submitButtonLoading": "Enviando...",
     "disclaimer": "100% gratis y sin compromiso • Incluye acceso a demo de 7 días"
+  },
+  "salon": {
+    "title": "Peluquerías y salones",
+    "text": "Los salones viven de las reservas y el teléfono siempre suena en mitad de un servicio. La recepcionista con IA atiende la llamada, reserva, cambia y cancela citas y envía recordatorios por SMS mientras trabajas.",
+    "link": "Más sobre la recepcionista con IA para salones"
   }
 }

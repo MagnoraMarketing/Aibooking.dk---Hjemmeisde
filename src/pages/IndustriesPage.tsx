@@ -14,7 +14,7 @@ import SEO from '../components/SEO';
 import type { SupportedLanguage } from '../i18n/config';
 import { localizedUrl } from '../utils/localePaths';
 import { createBreadcrumbSchema } from '../utils/structuredData';
-import { BarChart3, Calendar, Clock, TrendingUp, Users, Phone, MessageSquare, CheckSquare } from 'lucide-react';
+import { BarChart3, Calendar, Clock, TrendingUp, Users, Phone, MessageSquare, CheckSquare, Scissors } from 'lucide-react';
 import type { NavigatePage } from '../types/navigation';
 import PageLink from '../components/PageLink';
 
@@ -119,6 +119,25 @@ function IndustriesPage({ onNavigate }: IndustriesPageProps) {
           </div>
         </div>
       ))}
+
+      {/* Salons use the same building blocks; linked here so the page is reachable from the overview */}
+      <section className="pb-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto bg-rose-50 border border-rose-100 rounded-3xl p-8 md:p-12 flex flex-col md:flex-row md:items-center gap-8">
+          <div className="w-16 h-16 rounded-2xl bg-rose-600 text-white flex items-center justify-center flex-shrink-0">
+            <Scissors className="w-8 h-8" />
+          </div>
+          <div className="flex-1">
+            <h2 className="text-2xl md:text-3xl font-bold text-ink-900 mb-3">{t('salon.title')}</h2>
+            <p className="text-ink-600 leading-relaxed">{t('salon.text')}</p>
+          </div>
+          <PageLink page="salon"
+            onClick={() => onNavigate('salon')}
+            className="bg-rose-600 text-white px-6 py-3 rounded-2xl font-bold hover:bg-rose-700 transition-all text-center"
+          >
+            {t('salon.link')}
+          </PageLink>
+        </div>
+      </section>
 
       <IndustrySEO />
 

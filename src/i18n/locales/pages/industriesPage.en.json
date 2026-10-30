@@ -250,5 +250,10 @@
     "submitButton": "Book free presentation",
     "submitButtonLoading": "Sending...",
     "disclaimer": "100% free and no obligation • 7-day demo access included"
+  },
+  "salon": {
+    "title": "Hair and beauty salons",
+    "text": "Salons run on bookings, and the phone always rings mid-treatment. The AI receptionist takes the call, books, moves and cancels appointments and sends SMS reminders while you work.",
+    "link": "Read about the AI receptionist for salons"
   }
 }

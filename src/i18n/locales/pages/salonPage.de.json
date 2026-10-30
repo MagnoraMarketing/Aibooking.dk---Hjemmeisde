@@ -1,0 +1,54 @@
+{
+  "seo": {
+    "title": "KI-Rezeptionist für Friseure & Salons | Aibooking.dk",
+    "description": "KI-Rezeptionist und KI-Terminbuchung für Friseure und Salons: nimmt Anrufe an, während Sie arbeiten, bucht, verschiebt und storniert Termine per SMS.",
+    "keywords": "KI-Rezeptionist Friseur, Terminbuchung Friseur Telefon, KI-Telefonservice Salon, Telefonservice Friseursalon, Kosmetikstudio Termin buchen, Barbershop Terminbuchung, Nagelstudio Terminbuchung"
+  },
+  "breadcrumb": {
+    "home": "Startseite",
+    "industries": "Branchen",
+    "salon": "Friseur & Salon"
+  },
+  "hero": {
+    "badge": "Friseur & Salon",
+    "title": "KI-Rezeptionist für Friseure und Salons: Termine buchen, während Sie schneiden",
+    "subtitle": "Sie haben die Schere in der Hand, und das Telefon klingelt schon wieder. Gehen Sie ran, wartet die Kundin im Stuhl. Gehen Sie nicht ran, bucht die Anruferin vielleicht woanders. Der KI-Rezeptionist nimmt den Anruf für Sie an und bucht den Termin direkt."
+  },
+  "solution": {
+    "title": "Ein Telefonservice, der Ihren Salon kennt",
+    "description": "Der KI-Rezeptionist antwortet auf Deutsch, stellt sich als digitaler Assistent des Salons vor und kennt Ihre Behandlungen, Preise und Öffnungszeiten. Er findet einen freien Termin, bucht ihn, verschiebt oder storniert bestehende Termine und schickt eine Bestätigung per SMS. Fragen, die er nicht beantworten kann, gibt er mit kurzer Zusammenfassung an Sie weiter. Dasselbe gilt für den Chat auf Ihrer Website, sodass Kunden auch abends und am Wochenende buchen können."
+  },
+  "benefits": [
+    { "title": "Keine Unterbrechung mitten in der Behandlung", "description": "Bleiben Sie bei der Kundin im Stuhl. Die KI geht für Sie ans Telefon." },
+    { "title": "Buchen, verschieben, absagen", "description": "Kunden können rund um die Uhr selbst einen Termin buchen, verschieben oder absagen." },
+    { "title": "SMS-Bestätigungen und Erinnerungen", "description": "Kunden bekommen sofort eine Bestätigung und vor dem Termin eine Erinnerung. Das bedeutet weniger verpasste Termine." },
+    { "title": "Antworten auf die üblichen Fragen", "description": "Preise, Behandlungen, Öffnungszeiten und Parken beantwortet die KI aus Ihrer eigenen Wissensdatenbank." },
+    { "title": "Weiterleitung, wenn es wichtig ist", "description": "Reklamationen oder besondere Wünsche können an Sie oder eine Kollegin weitergeleitet werden." },
+    { "title": "Überblick in der App", "description": "Sehen Sie zwischen zwei Kunden auf dem Smartphone die Anrufe des Tages, die Termine und wen Sie zurückrufen sollten." }
+  ],
+  "workflow": {
+    "title": "Ein Tag im Salon mit dem KI-Rezeptionisten",
+    "subtitle": "Es sind die kleinen Unterbrechungen, die Geld kosten. Hier macht die KI den größten Unterschied.",
+    "items": [
+      { "title": "Morgens: eine Absage", "description": "Eine Kundin meldet sich um 7:30 Uhr krank. Die KI storniert den Termin und gibt ihn für jemand anderen frei." },
+      { "title": "Vormittags: voller Stuhl", "description": "Während einer Färbung klingelt das Telefon dreimal. Alle drei bekommen einen Termin, ohne dass Sie den Pinsel weglegen." },
+      { "title": "Nachmittags: eine Preisfrage", "description": "Eine neue Kundin fragt, was Strähnen kosten. Die KI antwortet anhand Ihrer Preisliste und bietet einen Termin an." },
+      { "title": "Abends: Buchung nach Ladenschluss", "description": "Um 21 Uhr bucht eine Kundin über den Chat auf Ihrer Website. Der Termin steht bereit, wenn Sie morgens öffnen." }
+    ]
+  },
+  "types": {
+    "title": "Für jede Art von Salon",
+    "items": ["Friseure", "Barbiere", "Nägel", "Wimpern & Brauen", "Massage", "Kosmetikstudios"],
+    "cta": "Unverbindlichen Termin buchen und kostenloses Test-Login erhalten"
+  },
+  "app": {
+    "title": "Die Termine des Tages zwischen zwei Kunden auf dem Smartphone",
+    "text": "Alle Anrufe, Buchungen und Nachrichten laufen in der Aibooking-App zusammen, die auf Smartphone und Computer funktioniert.",
+    "link": "Zur App"
+  },
+  "finalCta": {
+    "title": "Bereit, das Telefon abzugeben?",
+    "subtitle": "Buchen Sie einen kostenlosen, unverbindlichen Termin und erhalten Sie ein Test-Login, um den KI-Rezeptionisten in Ihrem eigenen Salon auszuprobieren",
+    "button": "Unverbindlichen Termin buchen und kostenloses Test-Login erhalten"
+  }
+}

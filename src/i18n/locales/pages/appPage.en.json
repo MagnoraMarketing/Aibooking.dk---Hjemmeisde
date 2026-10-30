@@ -1,0 +1,129 @@
+{
+  "seo": {
+    "title": "AI receptionist app for phone and desktop | Aibooking.dk",
+    "description": "See calls, bookings, recordings and usage from your AI receptionist in one app on phone and desktop. One login everywhere, nothing to install.",
+    "keywords": "AI receptionist app, booking app, AI answering service app, AI booking overview, call log app, AI receptionist dashboard, mobile web app"
+  },
+  "breadcrumb": { "home": "Home", "app": "The app" },
+  "hero": {
+    "badge": "The Aibooking app",
+    "title": "Your calls and bookings at a glance – in your pocket",
+    "subtitle": "See who called, what they wanted and what the AI receptionist booked. All in one simple app that works on your phone, tablet and computer with the same login.",
+    "cta_signup": "Create free account",
+    "cta_login": "Log in to the app"
+  },
+  "phones": {
+    "badge": "On your phone",
+    "title": "Built for busy days, not for IT people",
+    "subtitle": "There's no new system to learn. Open the app between two customers and within seconds you see today's calls, new bookings and who to call back.",
+    "items": [
+      {
+        "caption": "Today's numbers at the top: conversations, bookings and minutes left on your plan.",
+        "alt": "The Aibooking app on a phone: the start screen with the business name, period picker and plan details"
+      },
+      {
+        "caption": "Key figures in large, clear cards that are easy to read on a small screen.",
+        "alt": "The Aibooking app on a phone: key figures for conversations, talk time, bookings, conversion and usage"
+      },
+      {
+        "caption": "A simple menu with everything in one place: agents, knowledge base, statistics and integrations.",
+        "alt": "The Aibooking app on a phone: the open menu with Overview, Agents, Knowledge base, Statistics and Integrations"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Stop losing customers and get your time back",
+    "subtitle": "The AI receptionist answers the phone and the chat. The app makes sure you always know what happened, so nothing slips through the cracks.",
+    "items": [
+      {
+        "title": "No customer lost to an unanswered call",
+        "desc": "Every call and chat is logged with name, number and a short summary. You see straight away who needs a call back."
+      },
+      {
+        "title": "Spend your time on customers, not the phone",
+        "desc": "No more listening to voicemail or writing down messages. Bookings, changes and cancellations are ready in the app, sorted and with the customer's name."
+      },
+      {
+        "title": "The overview in seconds",
+        "desc": "Conversations, bookings, conversion and usage per day, week or month, per agent or in total. You see right away whether it pays off."
+      },
+      {
+        "title": "Hear exactly what was said",
+        "desc": "Every conversation has a recording and a full transcript, so you can check an appointment or learn from a difficult call without asking the customer again."
+      }
+    ]
+  },
+  "screens": {
+    "badge": "On your computer",
+    "title": "The same overview on the big screen",
+    "subtitle": "At the office or the front desk, open the app in your browser. These are the screens you'll use most.",
+    "demo_note": "The screenshots are from the real app, using a fictional hair salon as an example. Names and phone numbers are made up.",
+    "items": [
+      {
+        "title": "Overview: how is it going?",
+        "desc": "The start screen shows your key figures for the selected period and a chart of conversations per day, split between phone and website.",
+        "points": [
+          "Choose today, 7, 30 or 90 days",
+          "See figures for one agent or all of them",
+          "Usage in your currency and minutes left on your plan"
+        ],
+        "alt": "The Aibooking dashboard on a computer with key figures for conversations, talk time, bookings, conversion and a chart of conversations per day"
+      },
+      {
+        "title": "History: every conversation with recording and text",
+        "desc": "Click a conversation to get the summary, the recording, the bookings made and the whole conversation written out line by line.",
+        "points": [
+          "Search by number, name or topic",
+          "Show only conversations that ended in a booking",
+          "Download the recording if you need to keep it"
+        ],
+        "alt": "Conversation history in the Aibooking app with an open conversation showing recording, summary, booking and transcript"
+      },
+      {
+        "title": "Bookings: everything the AI put in the calendar",
+        "desc": "One list of new bookings, changes and cancellations with time, customer name and status.",
+        "points": [
+          "See straight away whether a booking succeeded",
+          "Changes and cancellations are listed separately",
+          "Bookings land in the calendar the agent is set up with"
+        ],
+        "alt": "The list of bookings in the Aibooking app with call time, agent, action, appointment time, customer name and status"
+      }
+    ]
+  },
+  "install": {
+    "title": "Put the app on your home screen in a minute",
+    "subtitle": "The app runs in the browser, so there's nothing to download from the App Store or Google Play. Log in once and add it to your home screen, and it opens like any other app.",
+    "image_alt": "The Aibooking app login page on a phone with the 'Get the app on your phone' box",
+    "image_caption": "Scan the QR code or go to app.aibooking.dk on your phone",
+    "items": [
+      {
+        "title": "iPhone and iPad",
+        "desc": "In Safari:",
+        "steps": ["Open app.aibooking.dk and log in", "Tap the Share button", "Choose 'Add to Home Screen'"]
+      },
+      {
+        "title": "Android",
+        "desc": "In Chrome:",
+        "steps": ["Open app.aibooking.dk and log in", "Tap 'Get the app'", "Confirm the installation"]
+      },
+      {
+        "title": "Computer",
+        "desc": "In Chrome, Edge or Safari:",
+        "steps": ["Go to app.aibooking.dk", "Log in with your account", "Bookmark the page or install it"]
+      }
+    ]
+  },
+  "related": {
+    "title": "The app comes with your AI receptionist",
+    "text": "The app is included in every plan and in the free trial. It shows the activity from both the AI answering service and the chatbot on your website.",
+    "link_phone": "Read about the AI answering service",
+    "link_widget": "Read about the AI chatbot",
+    "link_trial": "See the free trial"
+  },
+  "finalCta": {
+    "title": "Try the app free for 7 days",
+    "subtitle": "Create an account and you're in the app straight away. No credit card and no commitment.",
+    "cta": "Create free account"
+  }
+}

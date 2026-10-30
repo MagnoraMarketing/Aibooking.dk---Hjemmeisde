@@ -28,6 +28,10 @@
       "ecommerce": {
         "name": "E-Commerce & Onlineshop",
         "description": "Onlineshops und Onlineunternehmen"
+      },
+      "salon": {
+        "name": "Friseur & Salon",
+        "description": "Friseure, Barbiere, Nägel, Kosmetik"
       }
     },
     "see_all_industries": "Alle Branchen ansehen →",
@@ -309,7 +313,9 @@
     "customer_cta_subtitle": "Melden Sie sich in Ihrem Dashboard an oder erstellen Sie als Neukunde ein kostenloses Konto.",
     "facebook_follow": "Folgen Sie Aibooking.dk auf Facebook",
     "facebook_share": "Auf Facebook teilen",
-    "made_by": "Entwickelt und betrieben von"
+    "made_by": "Entwickelt und betrieben von",
+    "salon": "Friseur & Salon",
+    "app": "Die App"
   },
   "contact": {
     "title": "Kontakt",
@@ -505,6 +511,41 @@
           "Keine Wartezeit und keine Warteschlange – egal, wie viele gleichzeitig fragen"
         ],
         "results": ["In 3 Sekunden beantwortet", "Bestellung abgeschlossen", "Keine Wartezeit"]
+      },
+      "salon": {
+        "title": "Der Termin wird gebucht, während Sie die Schere in der Hand halten",
+        "intro": "Im Salon klingelt das Telefon immer im falschen Moment: mitten im Haarschnitt, beim Färben oder bei der Maniküre. Der KI-Rezeptionist nimmt den Anruf an, findet einen freien Termin in Ihrem Kalender und bucht ihn, damit die Kundin nicht beim nächsten Salon anruft.",
+        "situation": "Um 11:20 Uhr ruft eine Kundin an, um Schneiden und Färben zu buchen. Sie stehen mitten in einer Färbung und können nicht rangehen.",
+        "callLabel": "Eingehender Anruf · Kundin",
+        "chat": [
+          {
+            "role": "customer",
+            "text": "Hallo, ich hätte gern nächste Woche einen Termin zum Schneiden und Färben."
+          },
+          {
+            "role": "ai",
+            "text": "Gern. Ich habe Dienstag um 10:00 Uhr oder Donnerstag um 14:30 Uhr frei. Was passt Ihnen besser?"
+          },
+          {
+            "role": "customer",
+            "text": "Donnerstag um 14:30 Uhr."
+          },
+          {
+            "role": "ai",
+            "text": "Dann sind Sie am Donnerstag um 14:30 Uhr zum Schneiden und Färben eingetragen. Sie bekommen gleich eine Bestätigung per SMS."
+          }
+        ],
+        "outcomes": [
+          "Keine Kundin ruft woanders an, weil Sie gerade jemanden im Stuhl hatten",
+          "Absagen und Verschiebungen werden sofort erledigt, damit jemand anderes den Termin bekommt",
+          "SMS-Erinnerungen am Vortag sorgen für weniger nicht wahrgenommene Termine",
+          "Kunden können abends auch über den Chat auf Ihrer Website buchen"
+        ],
+        "results": [
+          "Termin Do. 14:30",
+          "SMS-Bestätigung gesendet",
+          "Keine Unterbrechung am Stuhl"
+        ]
       }
     },
     "calculator": {
@@ -598,6 +639,28 @@
           { "name": "Apple Kalender", "description": "Synchronisiert direkt über iCloud" },
           { "name": "Andere Systeme", "description": "Sie nutzen etwas anderes? Wir verbinden per CalDAV/iCal-Synchronisierung" }
         ]
+      },
+      "salon": {
+        "title": "Kalender, die Salons am häufigsten nutzen",
+        "subtitle": "Die Buchungen landen in dem Kalender, den der Salon bereits nutzt.",
+        "items": [
+          {
+            "name": "Google Kalender",
+            "description": "Termine werden automatisch in Echtzeit synchronisiert"
+          },
+          {
+            "name": "Microsoft Outlook / 365",
+            "description": "Gemeinsamer Kalender für den ganzen Salon"
+          },
+          {
+            "name": "Apple Kalender",
+            "description": "Direkt über iCloud synchronisiert"
+          },
+          {
+            "name": "Andere Systeme",
+            "description": "Sie nutzen ein anderes Buchungssystem? Wir verbinden per CalDAV/iCal-Synchronisierung"
+          }
+        ]
       }
     }
   },
@@ -663,6 +726,7 @@
     "point_devices": "Funktioniert auf iPhone und Android",
     "button": "App holen",
     "qr_alt": "QR-Code für die AIbooking-App",
-    "scan_hint": "Mit der Smartphone-Kamera scannen, um die App zu holen"
+    "scan_hint": "Mit der Smartphone-Kamera scannen, um die App zu holen",
+    "more_link": "App und Screenshots ansehen"
   }
 }

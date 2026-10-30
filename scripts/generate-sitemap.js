@@ -41,6 +41,8 @@ const routeMap = {
   'WidgetPage.tsx': '/widget',
   'InboundOutboundPage.tsx': '/ind-og-udgaaende-opkald',
   'TrialPage.tsx': '/proeveperiode',
+  'AppPage.tsx': '/app',
+  'SalonPage.tsx': '/frisoer',
   'BlogPage.tsx': '/blog'
 };
 
@@ -55,6 +57,8 @@ const priorityMap = {
   '/haandvaerker': 0.7,
   '/kontor': 0.7,
   '/webshop': 0.7,
+  '/frisoer': 0.7,
+  '/app': 0.8,
   '/widget': 0.9,
   '/ind-og-udgaaende-opkald': 0.9,
   '/proeveperiode': 0.9,
@@ -75,6 +79,8 @@ const changefreqMap = {
   '/haandvaerker': 'monthly',
   '/kontor': 'monthly',
   '/webshop': 'monthly',
+  '/frisoer': 'monthly',
+  '/app': 'monthly',
   '/widget': 'weekly',
   '/ind-og-udgaaende-opkald': 'weekly',
   '/proeveperiode': 'weekly',

@@ -128,6 +128,17 @@ import trialPageEs from './locales/pages/trialPage.es.json';
 import trialPageDe from './locales/pages/trialPage.de.json';
 import trialPageFr from './locales/pages/trialPage.fr.json';
 
+import appPageDa from './locales/pages/appPage.da.json';
+import appPageEn from './locales/pages/appPage.en.json';
+import appPageEs from './locales/pages/appPage.es.json';
+import appPageDe from './locales/pages/appPage.de.json';
+import appPageFr from './locales/pages/appPage.fr.json';
+import salonPageDa from './locales/pages/salonPage.da.json';
+import salonPageEn from './locales/pages/salonPage.en.json';
+import salonPageEs from './locales/pages/salonPage.es.json';
+import salonPageDe from './locales/pages/salonPage.de.json';
+import salonPageFr from './locales/pages/salonPage.fr.json';
+
 import widgetCapabilitiesSEODa from './locales/shared/widgetCapabilitiesSEO.da.json';
 import widgetCapabilitiesSEOEn from './locales/shared/widgetCapabilitiesSEO.en.json';
 import widgetCapabilitiesSEOEs from './locales/shared/widgetCapabilitiesSEO.es.json';
@@ -170,7 +181,7 @@ const PAGE_NAMESPACES = [
   'healthcarePage', 'craftsmanPage', 'officePage', 'integrationsPage',
   'aboutPage', 'contactPage', 'demoPage', 'termsPage', 'privacyPage',
   'blogPage', 'blogCategoryPage', 'blogPostPage', 'trialPage',
-  'inboundOutboundPage',
+  'inboundOutboundPage', 'appPage', 'salonPage',
 ] as const;
 
 // Namespaces for components rendered on more than one page, so the two copies
@@ -204,6 +215,8 @@ i18n
         blogPostPage: blogPostPageDa,
         trialPage: trialPageDa,
         inboundOutboundPage: inboundOutboundPageDa,
+        appPage: appPageDa,
+        salonPage: salonPageDa,
         clinicDashboard: clinicDashboardDa,
         agencyDashboard: agencyDashboardDa,
         widgetCapabilitiesSEO: widgetCapabilitiesSEODa,
@@ -231,6 +244,8 @@ i18n
         blogPostPage: blogPostPageEn,
         trialPage: trialPageEn,
         inboundOutboundPage: inboundOutboundPageEn,
+        appPage: appPageEn,
+        salonPage: salonPageEn,
         clinicDashboard: clinicDashboardEn,
         agencyDashboard: agencyDashboardEn,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOEn,
@@ -258,6 +273,8 @@ i18n
         blogPostPage: blogPostPageEs,
         trialPage: trialPageEs,
         inboundOutboundPage: inboundOutboundPageEs,
+        appPage: appPageEs,
+        salonPage: salonPageEs,
         clinicDashboard: clinicDashboardEs,
         agencyDashboard: agencyDashboardEs,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOEs,
@@ -285,6 +302,8 @@ i18n
         blogPostPage: blogPostPageFr,
         trialPage: trialPageFr,
         inboundOutboundPage: inboundOutboundPageFr,
+        appPage: appPageFr,
+        salonPage: salonPageFr,
         clinicDashboard: clinicDashboardFr,
         agencyDashboard: agencyDashboardFr,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOFr,
@@ -312,6 +331,8 @@ i18n
         blogPostPage: blogPostPageDe,
         trialPage: trialPageDe,
         inboundOutboundPage: inboundOutboundPageDe,
+        appPage: appPageDe,
+        salonPage: salonPageDe,
         clinicDashboard: clinicDashboardDe,
         agencyDashboard: agencyDashboardDe,
         widgetCapabilitiesSEO: widgetCapabilitiesSEODe,

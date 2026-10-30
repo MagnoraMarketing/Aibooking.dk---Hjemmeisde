@@ -14,6 +14,7 @@ Trying the product is free: new customers create a free account (no credit card 
 - [Features](https://www.aibooking.dk/funktioner): Full feature list — call handling, calendar integration, reminders, dashboard.
 - [AI Widget](https://www.aibooking.dk/widget): The website chat/voice widget product page, including pricing.
 - [Inbound-Outbound AI Voice](https://www.aibooking.dk/ind-og-udgaaende-opkald): The AI phone assistant product page — answers inbound calls and places outbound calls for bookings, reminders and follow-ups.
+- [The app](https://www.aibooking.dk/app): The customer app for phone and computer — calls, bookings, recordings, transcripts and usage in one place, with real screenshots and how to add it to the home screen.
 - [Free Trial](https://www.aibooking.dk/proeveperiode): Details of the 7-day free trial, started by creating a free account — no credit card required.
 - [Demo](https://www.aibooking.dk/demo): Book a free, no-commitment demo.
 - [Integrations](https://www.aibooking.dk/integrationer): Supported calendar and communication integrations.
@@ -23,6 +24,7 @@ Trying the product is free: new customers create a free account (no credit card 
 - [Industries overview](https://www.aibooking.dk/brancher): Which industries the product serves.
 - [Clinics](https://www.aibooking.dk/klinik): AI reception for healthcare clinics — booking, reminders, fewer no-shows.
 - [Craftsmen](https://www.aibooking.dk/haandvaerker): AI phone assistant for tradespeople who can't answer calls mid-job.
+- [Hair & beauty salons](https://www.aibooking.dk/frisoer): AI receptionist for hairdressers, barbers and beauty salons — books, moves and cancels appointments while the stylist works.
 - [Office & Admin](https://www.aibooking.dk/kontor): AI reception for offices and administrative teams.
 - [Webshops](https://www.aibooking.dk/webshop): AI widget and support automation for e-commerce.
 

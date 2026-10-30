@@ -1,0 +1,129 @@
+{
+  "seo": {
+    "title": "App til AI-receptionist på mobil og computer | Aibooking.dk",
+    "description": "Se opkald, bookinger, optagelser og forbrug fra din AI-receptionist i én app på mobil og computer. Samme login overalt – intet at installere.",
+    "keywords": "AI-receptionist app, booking app, app til AI-telefonpasser, AI-booking overblik, opkaldsoversigt app, dashboard til AI-receptionist, webapp til mobil"
+  },
+  "breadcrumb": { "home": "Hjem", "app": "Appen" },
+  "hero": {
+    "badge": "Aibooking-appen",
+    "title": "Hele overblikket over dine opkald og bookinger – i lommen",
+    "subtitle": "Se hvem der har ringet, hvad de ville, og hvad AI-receptionisten har booket. Det hele samlet i én enkel app, der virker på mobilen, tabletten og computeren med det samme login.",
+    "cta_signup": "Opret gratis konto",
+    "cta_login": "Log ind i appen"
+  },
+  "phones": {
+    "badge": "På mobilen",
+    "title": "Bygget til travle hverdage, ikke til IT-folk",
+    "subtitle": "Du skal ikke lære et nyt system. Åbn appen mellem to kunder, og du kan på få sekunder se dagens opkald, nye bookinger og hvad du skal ringe tilbage om.",
+    "items": [
+      {
+        "caption": "Dagens tal øverst: samtaler, bookinger og minutter tilbage på din pakke.",
+        "alt": "Aibooking-appen på en mobil: forsiden med virksomhedens navn, valg af periode og pakkeoplysninger"
+      },
+      {
+        "caption": "Nøgletal i store, tydelige felter, der er nemme at læse på en lille skærm.",
+        "alt": "Aibooking-appen på en mobil: nøgletal for samtaler, taletid, bookinger, konvertering og forbrug"
+      },
+      {
+        "caption": "En enkel menu med alt samlet: agenter, vidensbase, statistik og integrationer.",
+        "alt": "Aibooking-appen på en mobil: den åbne menu med Overblik, Agenter, Vidensbase, Statistik og Integrationer"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Mist ikke flere kunder, og få tiden tilbage",
+    "subtitle": "AI-receptionisten tager telefonen og chatten. Appen sørger for, at du altid ved, hvad der er sket, så intet falder mellem to stole.",
+    "items": [
+      {
+        "title": "Ingen kunder forsvinder i et ubesvaret opkald",
+        "desc": "Hvert opkald og hver chat bliver registreret med navn, nummer og et kort resumé. Du kan se med det samme, hvem der skal have et opkald tilbage."
+      },
+      {
+        "title": "Brug tiden på kunderne i stedet for telefonen",
+        "desc": "Du behøver ikke lytte telefonsvareren af eller skrive beskeder ned. Bookinger, flytninger og aflysninger ligger klar i appen, sorteret og med kundens navn."
+      },
+      {
+        "title": "Overblik på få sekunder",
+        "desc": "Antal samtaler, bookinger, konvertering og forbrug pr. dag, uge eller måned, pr. agent eller samlet. Du ser med det samme, om løsningen betaler sig."
+      },
+      {
+        "title": "Hør præcis, hvad der blev sagt",
+        "desc": "Hver samtale har optagelse og en fuld transskription, så du kan tjekke en aftale eller lære af en svær samtale uden at spørge kunden igen."
+      }
+    ]
+  },
+  "screens": {
+    "badge": "På computeren",
+    "title": "Det samme overblik på den store skærm",
+    "subtitle": "På kontoret eller ved skranken åbner du appen i browseren. Her er de skærme, du bruger mest.",
+    "demo_note": "Skærmbillederne er fra den rigtige app med en fiktiv frisørsalon som eksempel. Navne og telefonnumre er opdigtede.",
+    "items": [
+      {
+        "title": "Overblik: hvordan går det?",
+        "desc": "Forsiden viser dine nøgletal for den valgte periode og et diagram over samtaler pr. dag, fordelt på telefon og hjemmeside.",
+        "points": [
+          "Vælg i dag, 7, 30 eller 90 dage",
+          "Se tal for én agent eller alle samlet",
+          "Forbrug i kroner og minutter tilbage på pakken"
+        ],
+        "alt": "Aibooking-dashboardet på computeren med nøgletal for samtaler, taletid, bookinger, konvertering og et diagram over samtaler pr. dag"
+      },
+      {
+        "title": "Historik: hver samtale med optagelse og tekst",
+        "desc": "Klik på en samtale, og du får resumé, optagelse, de bookinger der blev lavet, og hele samtalen skrevet ud linje for linje.",
+        "points": [
+          "Søg på nummer, navn eller emne",
+          "Vis kun samtaler, der endte med en booking",
+          "Download optagelsen, hvis du skal gemme den"
+        ],
+        "alt": "Samtalehistorik i Aibooking-appen med en åben samtale, der viser optagelse, resumé, booking og transskription"
+      },
+      {
+        "title": "Bookinger: alt, AI'en har lagt i kalenderen",
+        "desc": "En samlet liste over nye bookinger, flytninger og aflysninger med tidspunkt, kundens navn og status.",
+        "points": [
+          "Se med det samme, om en booking lykkedes",
+          "Flytninger og aflysninger står for sig selv",
+          "Bookingerne lander i den kalender, agenten er sat op med"
+        ],
+        "alt": "Listen over bookinger i Aibooking-appen med samtaletidspunkt, agent, handling, aftalt tid, kundenavn og status"
+      }
+    ]
+  },
+  "install": {
+    "title": "Læg appen på hjemmeskærmen på et minut",
+    "subtitle": "Appen kører i browseren, så du skal ikke hente noget i App Store eller Google Play. Log ind én gang, og læg den på hjemmeskærmen, så åbner den som en almindelig app.",
+    "image_alt": "Login-siden til Aibooking-appen på en mobil med boksen 'Hent appen på mobilen'",
+    "image_caption": "Scan QR-koden eller gå til app.aibooking.dk på mobilen",
+    "items": [
+      {
+        "title": "iPhone og iPad",
+        "desc": "I Safari:",
+        "steps": ["Åbn app.aibooking.dk og log ind", "Tryk på Del-knappen", "Vælg 'Føj til hjemmeskærm'"]
+      },
+      {
+        "title": "Android",
+        "desc": "I Chrome:",
+        "steps": ["Åbn app.aibooking.dk og log ind", "Tryk på 'Hent app'", "Bekræft installationen"]
+      },
+      {
+        "title": "Computer",
+        "desc": "I Chrome, Edge eller Safari:",
+        "steps": ["Gå til app.aibooking.dk", "Log ind med din konto", "Gem siden som bogmærke eller installér den"]
+      }
+    ]
+  },
+  "related": {
+    "title": "Appen følger med din AI-receptionist",
+    "text": "Appen er inkluderet i alle pakker og i den gratis prøveperiode. Den viser aktiviteten fra både AI-telefonpasningen og chatbotten på din hjemmeside.",
+    "link_phone": "Læs om AI-telefonpasning",
+    "link_widget": "Læs om AI-chatbotten",
+    "link_trial": "Se prøveperioden"
+  },
+  "finalCta": {
+    "title": "Prøv appen gratis i 7 dage",
+    "subtitle": "Opret en konto, og du er inde i appen med det samme. Intet betalingskort og ingen binding.",
+    "cta": "Opret gratis konto"
+  }
+}

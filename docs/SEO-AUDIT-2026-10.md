@@ -135,3 +135,15 @@ Titler, meta-beskrivelser, H1 og brødkrummer på de 15 hovedsider er skrevet om
 - **Titellængde:** alle titler er højst ca. 60 tegn inkl. " | Aibooking.dk" (før op til 90 på es/fr/pt), så søgeordet ikke bliver skåret af. Dobbelt brandnavn er fjernet fra "Om os", og "AIBooking.dk" er rettet til "Aibooking.dk" på bloggen for es/fr/pt.
 - **Uverificerede tal fjernet fra es/fr/pt-meta-beskrivelser** ("60 % færre udeblivelser", "45 % flere opgaver", "320 % ROI", "35 % mere produktivitet"), så de matcher da/en. Tallene står stadig i brødteksten på es/fr/pt — samme åbne beslutning som afsnit 6, punkt 1.
 - **pt-PT-stavning:** "Recepcionista" (brasiliansk) er rettet til "Rececionista" i titler og beskrivelser, så det matcher `og:locale` pt_PT. "Artesãos" (kunsthåndværkere) er erstattet af "profissionais"/"canalizadores".
+
+## 8. Runde 30. oktober 2026: app-side, frisør/salon og "AI-telefonpasser"
+
+Søgninger efter "ai telefonpasser", "ai booking system danmark", "ai receptionist dansk virksomhed", "AI telefonpasning håndværker pris" og "AI receptionist tandlæge klinik frisør" (amerikansk søgeindeks, ikke Google.dk; samme begrænsning som afsnit 0) viste:
+
+- **"AI-telefonpasser" stod ingen steder på sitet**, og resultaterne er tynde: ingen dansk side, der målretter netop det udtryk. Det er det nemmeste sted at vinde. Tilføjet som brødtekst og FAQ på /ind-og-udgaaende-opkald og i teksten på /haandvaerker, /frisoer og /app. Eksisterende titler og URL'er er uændrede.
+- **"AI-booking"** er dækket på 17 sider, og domænet matcher ordet. Forsiden har fået et FAQ-svar: "Hvad er AI-booking, og hvordan virker det?".
+- **Konkurrenter på dansk:** retellai.com/da (programmatiske sider pr. branche, fx tandklinik og håndværkere), snakk.ai (norsk), JesperAI, telefonpasser.dk (menneskelig service), InstantCall og SIMBA. Brancheopdelte landingssider er normen.
+- **Frisør/salon manglede** som branche, selv om forsidens dashboard-eksempel er en frisør, og bookingtunge brancher passer bedst til AI-booking. Ny side **/frisoer** med eget scenarie, dagsforløb, salontyper, FAQ og kalendere. Siden har ingen udokumenterede tal (jf. afsnit 6, punkt 1).
+- **Ny side /app** med rigtige skærmbilleder af kundeappen (computer og mobil, taget med en fiktiv frisørsalon), vejledning til hjemmeskærm og FAQ. Der linkes til den fra app-sektionen (`AppQrSection`, på 16 sider), footeren og /frisoer.
+
+Begge nye sider findes på alle 5 sprog (da, en, es, de, fr) og ligger i sitemap, `PAGE_PATHS` og llms.txt. Næste kandidater til branchesider, hvis GSC viser efterspørgsel: autoværksted, fysioterapeut/kiropraktor (i dag under /klinik), ejendomsmægler og restaurant.

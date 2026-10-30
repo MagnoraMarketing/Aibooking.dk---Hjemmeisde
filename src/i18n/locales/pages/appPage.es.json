@@ -1,0 +1,129 @@
+{
+  "seo": {
+    "title": "App de recepcionista con IA para móvil y PC | Aibooking.dk",
+    "description": "Consulta llamadas, reservas, grabaciones y consumo de tu recepcionista con IA en una sola app para móvil y ordenador. Mismo acceso, sin instalar nada.",
+    "keywords": "app recepcionista virtual con IA, app de reservas, asistente telefónico con IA app, resumen de reservas, registro de llamadas, panel de recepcionista IA"
+  },
+  "breadcrumb": { "home": "Inicio", "app": "La app" },
+  "hero": {
+    "badge": "La app de Aibooking",
+    "title": "Tus llamadas y reservas de un vistazo, en el bolsillo",
+    "subtitle": "Mira quién ha llamado, qué quería y qué ha reservado la recepcionista con IA. Todo en una app sencilla que funciona en el móvil, la tablet y el ordenador con el mismo acceso.",
+    "cta_signup": "Crear cuenta gratis",
+    "cta_login": "Entrar en la app"
+  },
+  "phones": {
+    "badge": "En el móvil",
+    "title": "Pensada para días ajetreados, no para informáticos",
+    "subtitle": "No tienes que aprender un sistema nuevo. Abre la app entre dos clientes y en segundos ves las llamadas del día, las nuevas reservas y a quién devolver la llamada.",
+    "items": [
+      {
+        "caption": "Las cifras del día arriba: conversaciones, reservas y minutos restantes de tu plan.",
+        "alt": "La app de Aibooking en un móvil: la pantalla de inicio con el nombre del negocio, el selector de periodo y los datos del plan"
+      },
+      {
+        "caption": "Las cifras clave en tarjetas grandes y claras, fáciles de leer en una pantalla pequeña.",
+        "alt": "La app de Aibooking en un móvil: cifras de conversaciones, tiempo de conversación, reservas, conversión y consumo"
+      },
+      {
+        "caption": "Un menú sencillo con todo en un sitio: agentes, base de conocimiento, estadísticas e integraciones.",
+        "alt": "La app de Aibooking en un móvil: el menú abierto con Resumen, Agentes, Base de conocimiento, Estadísticas e Integraciones"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Deja de perder clientes y recupera tu tiempo",
+    "subtitle": "La recepcionista con IA atiende el teléfono y el chat. La app se asegura de que siempre sepas qué ha pasado, para que nada se quede por el camino.",
+    "items": [
+      {
+        "title": "Ningún cliente perdido por una llamada sin contestar",
+        "desc": "Cada llamada y cada chat quedan registrados con nombre, número y un breve resumen. Ves al instante a quién tienes que devolver la llamada."
+      },
+      {
+        "title": "Dedica tu tiempo a los clientes, no al teléfono",
+        "desc": "Se acabó escuchar el buzón de voz o apuntar mensajes. Las reservas, cambios y cancelaciones están listos en la app, ordenados y con el nombre del cliente."
+      },
+      {
+        "title": "Toda la información en segundos",
+        "desc": "Conversaciones, reservas, conversión y consumo por día, semana o mes, por agente o en total. Ves enseguida si te compensa."
+      },
+      {
+        "title": "Escucha exactamente lo que se dijo",
+        "desc": "Cada conversación tiene grabación y transcripción completa, para que puedas comprobar una cita o aprender de una llamada difícil sin volver a preguntar al cliente."
+      }
+    ]
+  },
+  "screens": {
+    "badge": "En el ordenador",
+    "title": "La misma visión general en la pantalla grande",
+    "subtitle": "En la oficina o en el mostrador, abre la app en el navegador. Estas son las pantallas que más usarás.",
+    "demo_note": "Las capturas son de la app real, con una peluquería ficticia como ejemplo. Los nombres y números de teléfono son inventados.",
+    "items": [
+      {
+        "title": "Resumen: ¿cómo va todo?",
+        "desc": "La pantalla de inicio muestra tus cifras clave del periodo elegido y un gráfico de conversaciones por día, repartidas entre teléfono y web.",
+        "points": [
+          "Elige hoy, 7, 30 o 90 días",
+          "Consulta las cifras de un agente o de todos",
+          "Consumo en tu moneda y minutos restantes del plan"
+        ],
+        "alt": "El panel de Aibooking en un ordenador con cifras de conversaciones, tiempo de conversación, reservas, conversión y un gráfico de conversaciones por día"
+      },
+      {
+        "title": "Historial: cada conversación con grabación y texto",
+        "desc": "Haz clic en una conversación y verás el resumen, la grabación, las reservas realizadas y toda la conversación escrita línea a línea.",
+        "points": [
+          "Busca por número, nombre o tema",
+          "Muestra solo las conversaciones que terminaron en reserva",
+          "Descarga la grabación si necesitas guardarla"
+        ],
+        "alt": "Historial de conversaciones en la app de Aibooking con una conversación abierta que muestra grabación, resumen, reserva y transcripción"
+      },
+      {
+        "title": "Reservas: todo lo que la IA ha puesto en la agenda",
+        "desc": "Una lista con las nuevas reservas, cambios y cancelaciones, con hora, nombre del cliente y estado.",
+        "points": [
+          "Comprueba al instante si una reserva salió bien",
+          "Los cambios y cancelaciones aparecen por separado",
+          "Las reservas llegan al calendario configurado para el agente"
+        ],
+        "alt": "La lista de reservas en la app de Aibooking con hora de la llamada, agente, acción, hora de la cita, nombre del cliente y estado"
+      }
+    ]
+  },
+  "install": {
+    "title": "Pon la app en la pantalla de inicio en un minuto",
+    "subtitle": "La app funciona en el navegador, así que no tienes que descargar nada de la App Store ni de Google Play. Inicia sesión una vez, añádela a la pantalla de inicio y se abrirá como cualquier otra app.",
+    "image_alt": "La página de acceso de la app de Aibooking en un móvil con el recuadro para instalar la app",
+    "image_caption": "Escanea el código QR o entra en app.aibooking.dk desde el móvil",
+    "items": [
+      {
+        "title": "iPhone y iPad",
+        "desc": "En Safari:",
+        "steps": ["Abre app.aibooking.dk e inicia sesión", "Toca el botón Compartir", "Elige «Añadir a pantalla de inicio»"]
+      },
+      {
+        "title": "Android",
+        "desc": "En Chrome:",
+        "steps": ["Abre app.aibooking.dk e inicia sesión", "Toca «Obtener la app»", "Confirma la instalación"]
+      },
+      {
+        "title": "Ordenador",
+        "desc": "En Chrome, Edge o Safari:",
+        "steps": ["Entra en app.aibooking.dk", "Inicia sesión con tu cuenta", "Guarda la página en favoritos o instálala"]
+      }
+    ]
+  },
+  "related": {
+    "title": "La app viene incluida con tu recepcionista con IA",
+    "text": "La app está incluida en todos los planes y en la prueba gratuita. Muestra la actividad tanto del asistente telefónico con IA como del chatbot de tu web.",
+    "link_phone": "Más sobre el asistente telefónico con IA",
+    "link_widget": "Más sobre el chatbot con IA",
+    "link_trial": "Ver la prueba gratuita"
+  },
+  "finalCta": {
+    "title": "Prueba la app gratis durante 7 días",
+    "subtitle": "Crea una cuenta y entrarás en la app al momento. Sin tarjeta y sin permanencia.",
+    "cta": "Crear cuenta gratis"
+  }
+}

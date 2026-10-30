@@ -32,7 +32,7 @@
   },
   "whatIs": {
     "title": "To retninger, én AI-stemme",
-    "para1": "Inbound-Outbound AI Voice er en AI-telefonassistent, der arbejder i begge retninger. Indgående tager den imod kunderne, forstår hvad de ringer om, booker tider og sender de vigtige sager videre til dit team. Udgående ringer den selv op med bekræftelser, påmindelser, opfølgning på tilbud eller besked om en ledig tid.",
+    "para1": "Inbound-Outbound AI Voice er en AI-telefonassistent, der arbejder i begge retninger. Indgående tager den imod kunderne, forstår hvad de ringer om, booker tider og sender de vigtige sager videre til dit team. Udgående ringer den selv op med bekræftelser, påmindelser, opfølgning på tilbud eller besked om en ledig tid. Mange kalder det også en AI-telefonpasser: en telefonpasser, der aldrig holder fri, og som kan booke direkte i kalenderen.",
     "para2": "Til forskel fra en receptionist holder den ikke fri. Den svarer på andet ring klokken 20 om aftenen, den tager fem opkald samtidig i myldretiden, og den glemmer aldrig at ringe tilbage. Dit team slipper for at blive afbrudt, og ingen kunde ender på telefonsvareren.",
     "para3": "Du bestemmer selv omfanget: kun indgående, kun udgående, eller begge dele på samme nummer.",
     "inbound": {
@@ -255,6 +255,10 @@
   "faqTitle": "Ofte stillede spørgsmål",
   "faqSubtitle": "Det vi oftest bliver spurgt om, inden en AI-stemme sættes i luften.",
   "faq": [
+    {
+      "question": "Hvad er en AI-telefonpasser, og hvordan adskiller den sig fra en telefonpasningsservice?",
+      "answer": "En AI-telefonpasser er en AI-stemme, der tager din telefon, når du ikke selv kan. Hos en klassisk telefonpasningsservice tager et menneske imod en besked, som du skal ringe tilbage på. AI-telefonpasseren kan også løse opgaven med det samme: booke, flytte og aflyse tider i din kalender, svare på faste spørgsmål og sende en SMS-bekræftelse. Det, den ikke kan klare, stiller den videre til dig eller sender som en besked med resumé."
+    },
     {
       "question": "Hvad er forskellen på indgående og udgående opkald?",
       "answer": "Indgående er når kunden ringer til dig – AI'en tager telefonen, hjælper med det kunden ringer om og booker eller stiller om. Udgående er når AI'en selv ringer ud, typisk med påmindelser, bekræftelser eller opfølgning på et tilbud. Du kan bruge den ene retning eller begge på samme nummer."

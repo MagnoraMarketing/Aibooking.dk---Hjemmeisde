@@ -22,4 +22,6 @@ export type NavigatePage =
   | 'terms'
   | 'privacy'
   | 'blog'
-  | 'trial';
+  | 'trial'
+  | 'app'
+  | 'salon';

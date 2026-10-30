@@ -34,7 +34,8 @@ interface VariantData {
   shop?: ShopData;
 }
 
-export type DashboardVariant = IndustryKey | 'frisor';
+// The salon page shows the hairdresser example ('frisor') rather than its own.
+export type DashboardVariant = Exclude<IndustryKey, 'salon'> | 'frisor';
 
 // Fictional demo data — names and figures are the same in every language
 // (they're not natural-language content), only the surrounding UI labels

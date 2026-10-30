@@ -1,0 +1,170 @@
+{
+  "seo": {
+    "title": "Funktionen – KI-Rezeption, KI-Widget & KI-Mitarbeiter | Aibooking.dk",
+    "description": "Alle Funktionen von Aibooking.dk: KI-Widget für Ihre Website, KI für ein- und ausgehende Anrufe, automatische Terminbuchung, Dashboard und KI-Kundenservice.",
+    "keywords": "KI-Funktionen, KI-Rezeption, KI-Widget, KI-Mitarbeiter, KI-Kundenservice, KI eingehende Anrufe, ausgehende Anrufe, KI-Dashboard, automatische Terminbuchung, KI-Telefonservice, KI-Telefonassistent"
+  },
+  "breadcrumb": { "home": "Startseite", "features": "Funktionen" },
+  "hero": {
+    "badge": "Alle Funktionen",
+    "title_line1": "Eine komplette KI-Plattform für",
+    "title_line2": "moderne Unternehmen",
+    "subtitle": "Von intelligenter Anrufannahme und ausgehenden KI-Anrufen bis zum kompletten Dashboard und einem KI-Widget für Ihre Website – alles auf einer Plattform. Sparen Sie Zeit, steigern Sie Ihre Conversion und bieten Sie Ihren Kunden rund um die Uhr ein professionelles Erlebnis."
+  },
+  "mainBenefits": [
+    { "title": "85 % weniger Telefonzeit", "description": "Gewinnen Sie wertvolle Zeit für Ihr Kerngeschäft" },
+    { "title": "320 % ROI", "description": "Nachweisbarer Nutzen ab dem ersten Tag" },
+    { "title": "98 % Kundenzufriedenheit", "description": "Professioneller Service rund um die Uhr" },
+    { "title": "+45 % mehr Conversions", "description": "Verpassen Sie keine Chance mehr" }
+  ],
+  "dashboard": {
+    "badge": "Ihre Steuerzentrale",
+    "title_line1": "Ein komplettes Dashboard –",
+    "title_line2": "volle Kontrolle über jede Interaktion",
+    "description": "Mit dem Dashboard von Aibooking.dk haben Sie die KI-Aktivität Ihres Unternehmens immer genau im Blick. Sehen Sie, welche Anrufe bearbeitet wurden, hören Sie Gespräche an, lesen Sie KI-generierte Notizen und verfolgen Sie Ihre Buchungen in Echtzeit – alles an einem Ort.",
+    "cta": "Dashboard in Aktion ansehen"
+  },
+  "dashboardFeatures": [
+    { "label": "Anrufstatistik in Echtzeit", "desc": "Alle Anrufe live und im Verlauf" },
+    { "label": "KI-generierte Gesprächsnotizen", "desc": "Automatische Zusammenfassung jedes Anrufs" },
+    { "label": "Buchungs- und Conversion-Rate", "desc": "Sehen Sie genau, wie viele Anrufe zu Buchungen werden" },
+    { "label": "Aufgezeichnete Anrufe anhören", "desc": "Vollständiges Audioprotokoll jederzeit verfügbar" },
+    { "label": "Live-Synchronisierung", "desc": "Das Dashboard aktualisiert sich in Echtzeit" },
+    { "label": "Individuelle Übersicht", "desc": "Gestalten Sie Ihr eigenes Dashboard-Layout" }
+  ],
+  "dashboardMock": {
+    "url_label": "dashboard.aibooking.dk",
+    "calls_today_label": "Anrufe heute",
+    "calls_today_change": "+12 % ggü. gestern",
+    "bookings_label": "Buchungen",
+    "bookings_conv": "66 % Conv.",
+    "response_time_label": "Antwortzeit",
+    "response_time_avg": "Durchschnitt",
+    "recent_calls_label": "Letzte Anrufe",
+    "unknown_caller": "Unbekannte Nummer",
+    "outcome_booked": "Gebucht",
+    "outcome_info": "Auskunft erteilt",
+    "outcome_forwarded": "Weitergeleitet",
+    "weekly_activity_label": "Wochenaktivität",
+    "days": ["M", "D", "M", "D", "F", "S", "S"],
+    "live_data": "Live-Daten"
+  },
+  "voiceSection": {
+    "badge": "KI-Sprachanrufe",
+    "title_line1": "Ein- und ausgehende KI-Anrufe",
+    "title_line2": "auf professionellem Niveau",
+    "subtitle": "Unser KI-Rezeptionist spricht flüssig und klingt wie ein echter Mensch. Er bearbeitet alle Arten von Anrufen – von Buchungen und Fragen bis zu ausgehenden Erinnerungen und Nachfassanrufen."
+  },
+  "incoming": {
+    "title": "Eingehende KI-Anrufe",
+    "subtitle": "Nimmt jeden Anruf an – 24 Stunden am Tag",
+    "live_label": "Eingehender Anruf – aktiv",
+    "msg1": "„Hallo, ich möchte gern einen Beratungstermin buchen …“",
+    "msg2": "„Sehr gern! Wann passt es Ihnen am besten?“"
+  },
+  "voiceInFeatures": [
+    "KI-Rezeptionist nimmt sofort ab",
+    "Versteht Dialekte und Umgangssprache",
+    "Bearbeitet mehrere Anrufe gleichzeitig",
+    "Automatische Buchung direkt im Gespräch",
+    "Leitet bei Bedarf an einen Mitarbeiter weiter",
+    "Vollständige Gesprächszusammenfassung nach jedem Anruf"
+  ],
+  "outgoing": {
+    "title": "Ausgehende KI-Anrufe",
+    "subtitle": "Automatisierte Kundenkommunikation",
+    "live_label": "Ausgehender Anruf – Erinnerung wird gesendet",
+    "msg": "„Hallo Lars, wir möchten Sie an Ihren Termin morgen um 10:00 Uhr erinnern …“",
+    "confirmed_label": "Termin vom Kunden bestätigt"
+  },
+  "voiceOutFeatures": [
+    "Automatische Bestätigungsanrufe an Kunden",
+    "Terminerinnerungen am Vortag",
+    "Nachfassen bei verpassten Anfragen",
+    "Reaktivierung inaktiver Kunden",
+    "Personalisierte KI-Stimme passend zu Ihrer Marke",
+    "Vollständiges Protokoll und Aufzeichnung jedes ausgehenden Anrufs"
+  ],
+  "voiceCta": {
+    "text": "Hören Sie, wie der KI-Rezeptionist klingt – buchen Sie eine kostenlose Vorführung",
+    "button": "Kostenlose Vorführung buchen"
+  },
+  "widgetSection": {
+    "badge": "KI-Chat-Widget – neu",
+    "title_line1": "Ein KI-Widget für Ihre Website –",
+    "title_line2": "machen Sie Besucher zu Kunden",
+    "subtitle": "Fügen Sie Ihrer Website mit einer einzigen Codezeile einen intelligenten KI-Chatassistenten hinzu. Das Widget beantwortet Fragen, nimmt Buchungen entgegen und begleitet Ihre Besucher – automatisch und rund um die Uhr."
+  },
+  "widgetIntro": {
+    "badge_plug_play": "Plug & Play",
+    "badge_active_5min": "In 5 Minuten aktiv",
+    "title": "Ihr KI-Verkaufsassistent rund um die Uhr",
+    "description": "Das KI-Widget von Aibooking.dk ist mehr als ein Chatbot. Es ist ein intelligenter Verkaufsassistent, der die Bedürfnisse Ihrer Besucher versteht, präzise Antworten auf Basis Ihrer Inhalte gibt und Anfragen vollautomatisch in Buchungen verwandelt."
+  },
+  "widgetBenefits": [
+    { "title": "Funktioniert auf jeder Website", "desc": "WordPress, Shopify, Webflow, Eigenentwicklung – eine Codezeile" },
+    { "title": "KI-gestützter Live-Chat", "desc": "Beantwortet Fragen, bucht Termine und konvertiert Besucher" },
+    { "title": "Natürliches Sprachverständnis", "desc": "Versteht Kontext und Nuancen in Kundenfragen" },
+    { "title": "In unter 5 Minuten aktiv", "desc": "Kein technisches Wissen nötig – Plug & Play" },
+    { "title": "Direkte Buchung im Chat", "desc": "Kunden buchen einen Termin, ohne die Seite zu verlassen" },
+    { "title": "+45 % mehr Conversion", "desc": "Nachweisbare Wirkung auf Umsatz und Leads" }
+  ],
+  "widgetButtons": {
+    "see_plans": "KI-Widget-Pakete ansehen",
+    "book_demo": "Demo buchen"
+  },
+  "voiceWidget": {
+    "badge": "KI-Sprach-Widget",
+    "badge_active": "Sprachgesteuert",
+    "badge_active_desc": "Direkt mit der KI sprechen",
+    "title": "Sprachgesteuerte KI direkt auf Ihrer Website",
+    "description": "Mit unserem KI-Sprach-Widget können Ihre Besucher direkt mit einem KI-Assistenten auf Ihrer Website sprechen. Das schafft ein herausragendes Kundenerlebnis und macht Buchen, Fragen und Interagieren leichter – ohne ein einziges Wort zu tippen."
+  },
+  "voiceWidgetFeatures": [
+    "Natürliche Stimme und Sprachverständnis",
+    "Mit einem Klick aktiviert – kein App-Download",
+    "Integriert sich in Ihren Kalender und Ihr Buchungssystem",
+    "Funktioniert auf Smartphone, Tablet und Desktop",
+    "Sprache und Chat im selben Widget kombinieren",
+    "Vollständiges Protokoll jedes Gesprächs im Dashboard"
+  ],
+  "voiceWidgetButton": "Mit dem Widget starten",
+  "statsBand": [
+    { "value": "85%", "label": "Weniger Telefonzeit" },
+    { "value": "60%", "label": "Weniger Terminausfälle" },
+    { "value": "98%", "label": "Kundenzufriedenheit" },
+    { "value": "320%", "label": "ROI im ersten Jahr" }
+  ],
+  "additionalTitle": {
+    "title": "Alle Funktionen – ein einheitliches System",
+    "subtitle": "Aibooking.dk ist als Ihre komplette Kommunikationszentrale konzipiert. Keine getrennten Systeme, keine umständlichen Integrationen – nur ein System, das funktioniert."
+  },
+  "additionalFeatures": [
+    {
+      "title": "Automatische Kalenderintegration",
+      "description": "Synchronisiert nahtlos mit Google Kalender, Outlook und allen gängigen Kalendersystemen. Keine Doppelbuchungen, keine Konflikte – alles aktualisiert sich automatisch.",
+      "benefits": ["Anbindung an Google Kalender und Outlook", "Synchronisierung in Echtzeit", "Automatische Verfügbarkeitsprüfung", "Bearbeitet Umbuchungen und Absagen"]
+    },
+    {
+      "title": "SMS-Erinnerungen und Bestätigungen",
+      "description": "Senken Sie Terminausfälle mit automatischen SMS-Erinnerungen um bis zu 60 %. Kunden erhalten Bestätigungen und Erinnerungen im Ton und Stil Ihrer Marke.",
+      "benefits": ["Automatische Buchungsbestätigungen", "Erinnerungen 24 Stunden vor dem Termin", "Umbuchung per SMS möglich", "Eigene Nachrichtenvorlagen"]
+    },
+    {
+      "title": "DSGVO-konform mit Hosting in Dänemark",
+      "description": "Alle Daten werden DSGVO-konform verarbeitet und sicher in Dänemark gespeichert. Ende-zu-Ende-Verschlüsselung, volle Transparenz und regelmäßige Sicherheitsprüfungen.",
+      "benefits": ["Volle DSGVO-Konformität", "Datenhosting in Dänemark (EU)", "Ende-zu-Ende-Verschlüsselung", "Regelmäßige Sicherheitsprüfungen"]
+    },
+    {
+      "title": "Schnelle Einrichtung – unter 24 Stunden",
+      "description": "Starten Sie in weniger als 24 Stunden mit Unterstützung durch Ihren persönlichen Onboarding-Spezialisten. Die KI wird auf Ihre Branche trainiert und nimmt fast sofort Anrufe entgegen.",
+      "benefits": ["Einrichtung in unter 24 Stunden", "Persönlicher Onboarding-Spezialist", "Auf Ihre Branche zugeschnitten", "Laufende Optimierung"]
+    }
+  ],
+  "ctaSection": {
+    "title": "Bereit, Ihr Unternehmen zu automatisieren?",
+    "subtitle": "Testen Sie Aibooking.dk 7 Tage kostenlos und erleben Sie den Unterschied selbst – ohne Bindung, ohne Kartendaten.",
+    "button_demo": "Kostenlose Demo buchen",
+    "button_widget": "KI-Widget ansehen"
+  }
+}

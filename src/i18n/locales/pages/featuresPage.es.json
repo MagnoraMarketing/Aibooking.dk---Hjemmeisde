@@ -2,9 +2,12 @@
   "seo": {
     "title": "Funciones: Recepcionista IA, Chatbot y Reservas | Aibooking.dk",
     "description": "Atención telefónica con IA para llamadas entrantes y salientes, chatbot con IA para tu web, reservas automáticas, SMS y panel de control.",
-    "keywords": "atención telefónica con IA, recepcionista de IA danesa, widget para tienda online, widget de IA para Shopify, funciones de ia, recepcionista de ia, panel de ia, llamadas entrantes, llamadas salientes, widget de ia, reserva automática, chat de ia, ia en danés"
+    "keywords": "atención telefónica con IA, recepcionista virtual con IA, widget para tienda online, widget de IA para Shopify, funciones de ia, recepcionista de ia, panel de ia, llamadas entrantes, llamadas salientes, widget de ia, reserva automática, chat de ia, ia en español"
   },
-  "breadcrumb": { "home": "Inicio", "features": "Funciones" },
+  "breadcrumb": {
+    "home": "Inicio",
+    "features": "Funciones"
+  },
   "hero": {
     "badge": "Todas las Funciones",
     "title_line1": "Recepcionista IA, chatbot y reservas",
@@ -12,10 +15,22 @@
     "subtitle": "Desde la gestión inteligente de llamadas y llamadas de voz salientes con IA hasta un panel completo y un widget de IA para tu sitio web, todo en una sola plataforma. Ahorra tiempo, aumenta las conversiones y ofrece a tus clientes una experiencia profesional las 24 horas."
   },
   "mainBenefits": [
-    { "title": "Ahorra el 85% de tu tiempo al teléfono", "description": "Libera tiempo valioso para las tareas principales" },
-    { "title": "320% de ROI", "description": "Valor probado desde el primer día" },
-    { "title": "98% de satisfacción del cliente", "description": "Servicio profesional a cualquier hora" },
-    { "title": "+45% más conversiones", "description": "No vuelvas a perder ni una oportunidad" }
+    {
+      "title": "Ahorra el 85% de tu tiempo al teléfono",
+      "description": "Libera tiempo valioso para las tareas principales"
+    },
+    {
+      "title": "320% de ROI",
+      "description": "Valor probado desde el primer día"
+    },
+    {
+      "title": "98% de satisfacción del cliente",
+      "description": "Servicio profesional a cualquier hora"
+    },
+    {
+      "title": "+45% más conversiones",
+      "description": "No vuelvas a perder ni una oportunidad"
+    }
   ],
   "dashboard": {
     "badge": "Tu Centro de Control",
@@ -25,12 +40,30 @@
     "cta": "Ver el panel en acción"
   },
   "dashboardFeatures": [
-    { "label": "Estadísticas de llamadas en tiempo real", "desc": "Ve todas las llamadas en directo y su historial" },
-    { "label": "Notas de llamadas generadas por IA", "desc": "Resumen automático de cada llamada" },
-    { "label": "Tasa de reservas y conversión", "desc": "Sigue exactamente cuántas llamadas se convierten en reservas" },
-    { "label": "Escucha las llamadas grabadas", "desc": "Registro de audio completo siempre disponible" },
-    { "label": "Sincronización en directo", "desc": "El panel se actualiza en tiempo real" },
-    { "label": "Vista personalizada", "desc": "Configura el diseño de tu propio panel" }
+    {
+      "label": "Estadísticas de llamadas en tiempo real",
+      "desc": "Ve todas las llamadas en directo y su historial"
+    },
+    {
+      "label": "Notas de llamadas generadas por IA",
+      "desc": "Resumen automático de cada llamada"
+    },
+    {
+      "label": "Tasa de reservas y conversión",
+      "desc": "Sigue exactamente cuántas llamadas se convierten en reservas"
+    },
+    {
+      "label": "Escucha las llamadas grabadas",
+      "desc": "Registro de audio completo siempre disponible"
+    },
+    {
+      "label": "Sincronización en directo",
+      "desc": "El panel se actualiza en tiempo real"
+    },
+    {
+      "label": "Vista personalizada",
+      "desc": "Configura el diseño de tu propio panel"
+    }
   ],
   "dashboardMock": {
     "url_label": "dashboard.aibooking.dk",
@@ -46,14 +79,22 @@
     "outcome_info": "Información dada",
     "outcome_forwarded": "Transferida",
     "weekly_activity_label": "Actividad semanal",
-    "days": ["L", "M", "X", "J", "V", "S", "D"],
+    "days": [
+      "L",
+      "M",
+      "X",
+      "J",
+      "V",
+      "S",
+      "D"
+    ],
     "live_data": "Datos en Vivo"
   },
   "voiceSection": {
     "badge": "Llamadas de Voz con IA",
     "title_line1": "Llamadas de voz con IA entrantes y salientes",
     "title_line2": "a nivel profesional",
-    "subtitle": "Nuestra recepcionista de IA habla un danés fluido y suena como una persona real. Gestiona todo tipo de llamadas — desde reservas y preguntas hasta recordatorios y seguimientos salientes."
+    "subtitle": "Nuestra recepcionista de IA habla con fluidez y suena como una persona real. Gestiona todo tipo de llamadas — desde reservas y preguntas hasta recordatorios y seguimientos salientes."
   },
   "incoming": {
     "title": "Llamadas Entrantes con IA",
@@ -64,7 +105,7 @@
   },
   "voiceInFeatures": [
     "La recepcionista de IA responde al instante",
-    "Entiende todos los dialectos daneses",
+    "Entiende acentos y expresiones coloquiales",
     "Gestiona varias llamadas simultáneas",
     "Reserva automática directamente en la conversación",
     "Transfiere a soporte humano cuando es necesario",
@@ -93,7 +134,7 @@
     "badge": "Widget de Chat con IA — Novedad",
     "title_line1": "Un widget de IA para tu sitio web —",
     "title_line2": "convierte visitantes en clientes",
-    "subtitle": "Añade un asistente de chat inteligente con IA a tu sitio web con una sola línea de código. El widget responde preguntas, gestiona reservas y guía a tus visitantes — automáticamente, en danés, a cualquier hora."
+    "subtitle": "Añade un asistente de chat inteligente con IA a tu sitio web con una sola línea de código. El widget responde preguntas, gestiona reservas y guía a tus visitantes — automáticamente, en su idioma, a cualquier hora."
   },
   "widgetIntro": {
     "badge_plug_play": "Plug & Play",
@@ -102,12 +143,30 @@
     "description": "El widget de IA de Aibooking.dk es más que un chatbot. Es un asistente de ventas inteligente que entiende las necesidades de tus visitantes, da respuestas precisas basadas en tu contenido y convierte consultas en reservas — de forma totalmente automática."
   },
   "widgetBenefits": [
-    { "title": "Funciona en cualquier sitio web", "desc": "WordPress, Shopify, Webflow, personalizado — una sola línea de código" },
-    { "title": "Chat en vivo con IA", "desc": "Responde preguntas, reserva citas y convierte visitantes" },
-    { "title": "Comprensión natural del idioma danés", "desc": "Entiende el contexto y los matices en las preguntas de los clientes" },
-    { "title": "Activo en menos de 5 minutos", "desc": "No se requieren conocimientos técnicos — plug and play" },
-    { "title": "Reserva directa en el chat", "desc": "Los clientes pueden reservar un horario sin salir de la página" },
-    { "title": "+45% de aumento en conversión", "desc": "Efecto probado en ventas y clientes potenciales" }
+    {
+      "title": "Funciona en cualquier sitio web",
+      "desc": "WordPress, Shopify, Webflow, personalizado — una sola línea de código"
+    },
+    {
+      "title": "Chat en vivo con IA",
+      "desc": "Responde preguntas, reserva citas y convierte visitantes"
+    },
+    {
+      "title": "Comprensión natural del lenguaje",
+      "desc": "Entiende el contexto y los matices en las preguntas de los clientes"
+    },
+    {
+      "title": "Activo en menos de 5 minutos",
+      "desc": "No se requieren conocimientos técnicos — plug and play"
+    },
+    {
+      "title": "Reserva directa en el chat",
+      "desc": "Los clientes pueden reservar un horario sin salir de la página"
+    },
+    {
+      "title": "+45% de aumento en conversión",
+      "desc": "Efecto probado en ventas y clientes potenciales"
+    }
   ],
   "widgetButtons": {
     "see_plans": "Ver planes del Widget de IA",
@@ -121,7 +180,7 @@
     "description": "Con nuestro Widget de Voz con IA, tus visitantes pueden hablar directamente con un asistente de IA en tu sitio web. Crea una experiencia de cliente excepcional y facilita reservar, preguntar e interactuar — sin escribir ni una palabra."
   },
   "voiceWidgetFeatures": [
-    "Voz y comprensión natural en danés",
+    "Voz y comprensión naturales",
     "Se activa con un clic — sin descargar ninguna app",
     "Se integra con tu calendario y sistema de reservas",
     "Funciona en móvil, tablet y escritorio",
@@ -130,10 +189,22 @@
   ],
   "voiceWidgetButton": "Empezar con el Widget",
   "statsBand": [
-    { "value": "85%", "label": "Menos tiempo al teléfono" },
-    { "value": "60%", "label": "Menos ausencias" },
-    { "value": "98%", "label": "Satisfacción del cliente" },
-    { "value": "320%", "label": "ROI en el primer año" }
+    {
+      "value": "85%",
+      "label": "Menos tiempo al teléfono"
+    },
+    {
+      "value": "60%",
+      "label": "Menos ausencias"
+    },
+    {
+      "value": "98%",
+      "label": "Satisfacción del cliente"
+    },
+    {
+      "value": "320%",
+      "label": "ROI en el primer año"
+    }
   ],
   "additionalTitle": {
     "title": "Todas las funciones — un sistema unificado",
@@ -143,22 +214,42 @@
     {
       "title": "Integración Automática con el Calendario",
       "description": "Se sincroniza sin fricciones con Google Calendar, Outlook y todos los sistemas de calendario populares. Sin reservas duplicadas, sin conflictos — todo se actualiza automáticamente.",
-      "benefits": ["Integración con Google Calendar y Outlook", "Sincronización en tiempo real", "Comprobación automática de disponibilidad", "Gestiona reprogramaciones y cancelaciones"]
+      "benefits": [
+        "Integración con Google Calendar y Outlook",
+        "Sincronización en tiempo real",
+        "Comprobación automática de disponibilidad",
+        "Gestiona reprogramaciones y cancelaciones"
+      ]
     },
     {
       "title": "Recordatorios y Confirmaciones por SMS",
       "description": "Reduce las ausencias hasta un 60% con recordatorios automáticos por SMS. Los clientes reciben confirmaciones y recordatorios adaptados al tono y la marca de tu negocio.",
-      "benefits": ["Confirmaciones de reserva automáticas", "Recordatorios 24 horas antes de las citas", "Opción de reprogramar por SMS", "Plantillas de mensajes personalizadas"]
+      "benefits": [
+        "Confirmaciones de reserva automáticas",
+        "Recordatorios 24 horas antes de las citas",
+        "Opción de reprogramar por SMS",
+        "Plantillas de mensajes personalizadas"
+      ]
     },
     {
       "title": "Seguro Según el RGPD y Alojamiento en Dinamarca",
       "description": "Todos los datos se gestionan conforme al RGPD y se almacenan de forma segura en Dinamarca. Cifrado de extremo a extremo, transparencia total y auditorías de seguridad periódicas.",
-      "benefits": ["Cumplimiento total del RGPD", "Datos alojados en Dinamarca", "Cifrado de extremo a extremo", "Auditorías de seguridad periódicas"]
+      "benefits": [
+        "Cumplimiento total del RGPD",
+        "Datos alojados en Dinamarca",
+        "Cifrado de extremo a extremo",
+        "Auditorías de seguridad periódicas"
+      ]
     },
     {
       "title": "Configuración Rápida — En Menos de 24 Horas",
       "description": "Empieza en menos de 24 horas con la ayuda de nuestro especialista de onboarding dedicado. La IA se entrena para tu sector y empieza a atender llamadas casi de inmediato.",
-      "benefits": ["Configuración en menos de 24 horas", "Especialista de onboarding dedicado", "Adaptado a tu sector", "Optimización continua"]
+      "benefits": [
+        "Configuración en menos de 24 horas",
+        "Especialista de onboarding dedicado",
+        "Adaptado a tu sector",
+        "Optimización continua"
+      ]
     }
   ],
   "ctaSection": {

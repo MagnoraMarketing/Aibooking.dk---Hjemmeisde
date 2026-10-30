@@ -1,0 +1,531 @@
+{
+  "seo": {
+    "title": "KI-Widget für Shopify, Onlineshops & Websites | Aibooking.dk",
+    "description": "KI-Widget für Shopify, Onlineshops und Websites: Kunden schreiben oder sprechen – die KI antwortet, bucht Termine und verfolgt Bestellungen, rund um die Uhr.",
+    "keywords": "KI-Widget, KI-Widget für Website, KI-Widget für Shopify, KI für Website, KI-Sprach-Widget, Shopify KI-Widget, KI-Chatbot, KI-Kundenservice, Buchungs-Widget, Onlineshop-Widget, KI-Sendungsverfolgung, Voicebot Website, Chatbot mit Terminbuchung"
+  },
+  "breadcrumb": {
+    "home": "Startseite",
+    "current": "KI-Widget"
+  },
+  "hero": {
+    "badge": "KI-Sprach-Widget für Ihre Website",
+    "title_line1": "Lassen Sie Ihre Kunden Termine",
+    "title_line2": "per Sprache buchen",
+    "subtitle": "Das KI-Sprach-Widget von Aibooking.dk wird direkt in Ihre Website eingebunden und übernimmt Buchungen, Fragen und Kundenanfragen automatisch – per Sprache und Text, 24 Stunden am Tag, 365 Tage im Jahr.",
+    "cta_demo": "Kostenlose Demo testen",
+    "cta_buy": "Jetzt bestellen – 134 €/Monat",
+    "cta_demo_connecting": "Verbindung wird hergestellt …",
+    "cta_demo_end": "Anruf beenden",
+    "cta_demo_error": "Verbindung fehlgeschlagen – prüfen Sie, ob der Mikrofonzugriff erlaubt ist, und versuchen Sie es erneut.",
+    "trust_no_binding": "Ohne Bindung",
+    "trust_5min": "In 5 Min. startklar",
+    "trust_gdpr": "DSGVO-konform",
+    "image_alt": "Oberfläche des KI-Sprach-Widgets – Buchung per Sprache und Chat direkt auf Ihrer Website",
+    "booking_badge_title": "Neue Buchung",
+    "booking_badge_sub": "Über das Sprach-Widget – gerade eben"
+  },
+  "stats": [
+    {
+      "value": "24/7",
+      "label": "Immer erreichbar"
+    },
+    {
+      "value": "< 5 Min.",
+      "label": "Bis zum Start"
+    },
+    {
+      "value": "150 Min.",
+      "label": "Gesprächszeit inklusive"
+    },
+    {
+      "value": "134 €",
+      "label": "Pro Monat"
+    }
+  ],
+  "whatIs": {
+    "title": "Was ist ein KI-Sprach-Widget?",
+    "image_alt": "KI-Sprach-Widget auf einer Website – automatische Terminbuchung und Kundenservice",
+    "para1_pre": "Ein ",
+    "para1_strong": "KI-Sprach-Widget",
+    "para1_post": " ist eine intelligente Sprachschnittstelle, die dezent auf Ihrer Website sitzt – meist als schwebender Button in der Ecke. Klickt ein Besucher darauf, kann er direkt mit Ihrem KI-Assistenten sprechen.",
+    "para2_pre": "Der KI-Assistent versteht natürliche Sprache, beantwortet Fragen zu Ihrem Unternehmen und bucht Termine direkt in Ihren Kalender – ",
+    "para2_strong": "ganz ohne menschliches Zutun",
+    "para2_post": ".",
+    "para3": "Als hätten Sie eine Rezeptionskraft, die nie schläft, nie krank ist und immer professionell bleibt – zu einem Bruchteil der Kosten.",
+    "chips": [
+      "Sprachbasiert",
+      "Text-Chat",
+      "Automatische Buchung",
+      "Mehrsprachig"
+    ]
+  },
+  "howItWorks": {
+    "title": "So funktioniert das KI-Sprach-Widget",
+    "subtitle": "Von der Installation bis zur automatischen Buchung – in drei einfachen Schritten",
+    "steps": [
+      {
+        "title": "Widget installieren",
+        "description": "Sie erhalten einen einfachen JavaScript-Codeschnipsel. Fügen Sie ihn in Ihre Website ein – kompatibel mit WordPress, Shopify, Wix und allen anderen Plattformen. Kein technisches Wissen nötig."
+      },
+      {
+        "title": "Kunden sprechen mit der KI",
+        "description": "Besucher Ihrer Website klicken auf das Widget und sprechen direkt mit Ihrem persönlichen KI-Assistenten. Die KI versteht natürliche Sprache und beantwortet Fragen zu Ihrem Unternehmen."
+      },
+      {
+        "title": "Buchungen landen automatisch",
+        "description": "Termine und Buchungen werden direkt in Ihrem Kalender eingetragen. Sie erhalten eine Bestätigung, und der Kunde bekommt automatisch eine Buchungsbestätigung – ohne dass Sie etwas tun müssen."
+      }
+    ]
+  },
+  "features": {
+    "title": "Funktionen, die den Unterschied machen",
+    "subtitle": "Alles, was Sie für automatische Terminbuchung und KI-gestützten Kundenservice brauchen",
+    "items": [
+      {
+        "title": "Natürliche Spracherkennung",
+        "description": "Versteht natürliche Sprache – Kunden müssen keine Befehle sprechen. Die KI folgt dem Gespräch und stellt Rückfragen."
+      },
+      {
+        "title": "Direkte Kalenderintegration",
+        "description": "Synchronisiert mit Google Kalender, Outlook und anderen Kalendersystemen. Keine Doppelbuchungen, keine manuelle Eingabe."
+      },
+      {
+        "title": "Rund um die Uhr erreichbar",
+        "description": "Ihr KI-Assistent arbeitet rund um die Uhr – auch außerhalb der Geschäftszeiten, am Wochenende und an Feiertagen."
+      },
+      {
+        "title": "Sprache und Text",
+        "description": "Kunden können sprechen oder schreiben. Das Widget unterstützt beide Eingabearten und antwortet entsprechend."
+      },
+      {
+        "title": "DSGVO-konform",
+        "description": "Alle Daten werden sicher und DSGVO-konform verarbeitet. Sie behalten die volle Kontrolle über die Daten Ihrer Kunden."
+      },
+      {
+        "title": "Mehrsprachige KI",
+        "description": "Das Widget unterstützt Deutsch, Dänisch, Englisch und viele weitere Sprachen. Die KI passt sich automatisch der Sprache des Kunden an."
+      },
+      {
+        "title": "Blitzschnelle Einrichtung",
+        "description": "Von der Bestellung bis zum aktiven Widget auf Ihrer Website vergehen weniger als 5 Minuten. Keine Entwickler nötig."
+      },
+      {
+        "title": "Auf Ihr Unternehmen zugeschnitten",
+        "description": "Der KI-Assistent kennt Ihr Unternehmen, Ihre Leistungen und Ihre Öffnungszeiten – mit Antworten, die genau zu Ihnen passen."
+      },
+      {
+        "title": "Zahlen Sie nur für Aktivität",
+        "description": "Sie zahlen nur für aktive Gesprächszeit – nicht für Warte- oder Leerlaufzeiten. Deutlich günstiger als eine Teilzeitkraft."
+      }
+    ]
+  },
+  "useCases": {
+    "title": "Wer nutzt das KI-Sprach-Widget?",
+    "subtitle": "Ideal für jedes Unternehmen, das Buchungen und Kundenanfragen online entgegennimmt",
+    "items": [
+      {
+        "label": "Praxen",
+        "desc": "Automatisierte Patientenbuchung"
+      },
+      {
+        "label": "Handwerker",
+        "desc": "Aufträge und Termine werden gebucht"
+      },
+      {
+        "label": "Berater",
+        "desc": "Meetings direkt im Kalender"
+      },
+      {
+        "label": "Salons",
+        "desc": "Termine automatisch gebucht"
+      },
+      {
+        "label": "Zahnärzte",
+        "desc": "Patientenbetreuung rund um die Uhr"
+      },
+      {
+        "label": "E-Commerce",
+        "desc": "Kundenservice ohne Pause"
+      }
+    ],
+    "roi": {
+      "title": "Typischer ROI eines KI-Sprach-Widgets",
+      "desc_pre": "Eine Teilzeit-Rezeptionskraft kostet typischerweise 2.000–2.700 € im Monat. Mit dem KI-Sprach-Widget für 134 €/Monat erhalten Sie ",
+      "desc_strong": "dieselbe Funktion",
+      "desc_post": " – aber 24 Stunden am Tag, 7 Tage die Woche.",
+      "stats": [
+        {
+          "value": "95%",
+          "label": "Ersparnis ggü. einer Rezeptionskraft"
+        },
+        {
+          "value": "0 Sek.",
+          "label": "Wartezeit für Kunden"
+        },
+        {
+          "value": "100%",
+          "label": "Automatisierte Buchungen"
+        }
+      ]
+    }
+  },
+  "platforms": {
+    "badge": "Ihr digitaler Zusatzmitarbeiter",
+    "title": "Überall online einbindbar – wählen Sie Ihre Plattform",
+    "subtitle": "Das Widget arbeitet wie ein zusätzlicher Mitarbeiter, der nie frei hat. Sie wählen die Plattform, die Sie schon nutzen, und die KI erledigt den Rest – vom ersten Besuch bis zum gebuchten Termin oder der erfassten Angebotsanfrage in Ihrem Kalender.",
+    "list": [
+      "WordPress",
+      "Shopify",
+      "WooCommerce",
+      "Wix",
+      "Squarespace",
+      "Magento",
+      "Eigene Website"
+    ],
+    "cards": [
+      {
+        "title": "Bucht und verschiebt Termine",
+        "description": "Auf normalen Websites fängt das Widget den Besucher sofort ab und bucht – oder verschiebt – einen Termin direkt in Ihrem Kalender. Kein Hin und Her per E-Mail."
+      },
+      {
+        "title": "Erfasst Angebotsanfragen und Leads",
+        "description": "Möchte der Kunde ein Angebot, sammelt das Widget die Details und trägt automatisch einen Folgetermin in den Kalender ein – bereit zur Übernahme durch Sie."
+      },
+      {
+        "title": "Nimmt Bestellungen an",
+        "description": "In Onlineshops können Kunden Produkte bestellen, nach dem Lagerbestand fragen und Hilfe beim gesamten Kauf bekommen – ohne auf einen Mitarbeiter zu warten."
+      }
+    ]
+  },
+  "webshop": {
+    "badge": "KI-Widget für Onlineshops",
+    "title": "Wie der Chat Ihres Onlineshops – aber mit einer KI, die bucht und verkauft",
+    "para1": "Wenn Sie einen Onlineshop mit Shopify, WooCommerce oder Magento betreiben, kommt das KI-Widget direkt auf die Seite – wie die integrierten Chat-Tools, die Sie kennen, nur mit einem Assistenten, der die Sprache Ihrer Kunden spricht und versteht.",
+    "para2": "Kunden können das Widget bitten, eine Bestellung zu verfolgen, ein Produkt nachzubestellen, den Lagerbestand zu prüfen oder bei einer Retoure zu helfen – automatisch, ohne dem Kundenservice zu schreiben.",
+    "points": [
+      {
+        "label": "Verfolgt den Bestellstatus",
+        "desc": "„Wo ist mein Paket?“ wird sofort beantwortet"
+      },
+      {
+        "label": "Bestellt Produkte nach",
+        "desc": "Der Kunde bestellt denselben Artikel per Sprache nach"
+      },
+      {
+        "label": "Hilft beim Kauf",
+        "desc": "Beantwortet Fragen zu Produkten und Lagerbestand"
+      },
+      {
+        "label": "Schlägt Produkte vor",
+        "desc": "Empfiehlt passende Artikel je nach Bedarf"
+      }
+    ],
+    "chat": {
+      "title": "KI-Widget · Onlineshop",
+      "status": "Jetzt online",
+      "customerLabel": "Kunde",
+      "aiLabel": "KI-Widget",
+      "lines": [
+        {
+          "role": "customer",
+          "text": "Wie weit ist meine Bestellung #4021?"
+        },
+        {
+          "role": "ai",
+          "text": "Ihre Bestellung wurde gestern verschickt und kommt voraussichtlich morgen mit dem Paketdienst an."
+        },
+        {
+          "role": "customer",
+          "text": "Kann ich dieselbe Jacke noch einmal in Größe M bekommen?"
+        },
+        {
+          "role": "ai",
+          "text": "Ja, Größe M ist auf Lager. Soll ich die Bestellung jetzt aufgeben?"
+        }
+      ]
+    }
+  },
+  "realExamples": {
+    "title": "Beispiele aus echten Unternehmen",
+    "subtitle": "So nutzen Unternehmen das KI-Widget in der Praxis – auf normalen Websites und in Onlineshops.",
+    "website": {
+      "title": "Auf einer normalen Website",
+      "items": [
+        {
+          "title": "Die Praxis",
+          "desc": "Eine Patientin bucht um 22 Uhr einen Zahnarzttermin – das Widget findet eine freie Zeit und bestätigt sofort."
+        },
+        {
+          "title": "Der Handwerker",
+          "desc": "Ein Kunde möchte ein Angebot für ein Badezimmer. Das Widget notiert Adresse und Auftrag und bucht einen Besichtigungstermin im Kalender."
+        },
+        {
+          "title": "Die Beraterin",
+          "desc": "Ein Bestandskunde möchte ein Meeting auf nächste Woche verschieben – das Widget bucht automatisch um, ohne E-Mail-Verlauf."
+        }
+      ]
+    },
+    "webshop": {
+      "title": "In einem Onlineshop",
+      "items": [
+        {
+          "title": "Das Modegeschäft",
+          "desc": "Eine Kundin fragt, ob es einen Artikel in einer anderen Größe gibt – die KI prüft den Bestand und hilft bei der Bestellung."
+        },
+        {
+          "title": "Der Elektronikhändler",
+          "desc": "Ein Kunde möchte wissen, wo sein Paket ist. Das Widget ruft den Bestellstatus ab und antwortet sofort – ohne Warteschleife."
+        },
+        {
+          "title": "Der Abo-Shop",
+          "desc": "Ein Kunde möchte seinen Stammartikel jeden Monat nachbestellen – das Widget richtet die Bestellung im Gespräch ein."
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "badge": "Transparente Preise",
+    "title": "Einfache, transparente Preise",
+    "subtitle": "Wählen Sie die Lösung, die zu Ihrem Unternehmen passt – Sie zahlen nur, was Sie nutzen, ohne versteckte Gebühren",
+    "widgetPlan": {
+      "heading": "KI-Sprach-Widget",
+      "badge": "Empfohlener Einstieg",
+      "description": "Der schnellste und günstigste Weg, Ihre Terminbuchung zu automatisieren. Das Widget sitzt auf Ihrer Website, und Kunden sprechen oder schreiben direkt mit Ihrem KI-Assistenten – rund um die Uhr, ohne menschliches Zutun.",
+      "price_suffix": "€/Monat",
+      "includes": "Inklusive 150 Minuten Gesprächszeit (ca. 0,89 €/Minute)",
+      "renewal_note": "Das Paket verlängert sich automatisch, sobald die 150 Minuten verbraucht sind",
+      "cta_order": "Jetzt bestellen",
+      "cta_intro": "Kostenloses Erstgespräch buchen",
+      "features": [
+        "Voice-KI-Bot – Kunden sprechen direkt mit der KI",
+        "Beantwortet Fragen und übernimmt Buchungen",
+        "Buchungen landen direkt in Ihrem Kalender",
+        "Rund um die Uhr auf Ihrer Website verfügbar",
+        "150 Minuten Gesprächszeit inklusive",
+        "Zahlen Sie nur für aktive Gesprächszeit – keine Stundenlöhne",
+        "24/7 und 365 Tage im Jahr geöffnet – immer bereit",
+        "Betreut Kunden, auch wenn Sie beschäftigt sind"
+      ],
+      "footnote_talketime_label": "Gesprächszeit:",
+      "footnote_talketime_value": "Gekauftes Guthaben ist 3 Monate gültig",
+      "footnote_renewal_label": "Verlängerung:",
+      "footnote_renewal_value": "Automatisch, sobald 150 Min. verbraucht sind",
+      "footnote_binding_label": "Bindung:",
+      "footnote_binding_value": "Keine – jederzeit kündbar"
+    },
+    "phoneAssistant": {
+      "heading": "KI-Telefonassistent",
+      "badge": "Ausgehende & eingehende Anrufe",
+      "description": "Sie brauchen einen KI-Assistenten, der auch selbst anruft oder Telefonate direkt annimmt? Wählen Sie eines unserer skalierbaren Pakete – von der kostenlosen Demo bis Enterprise."
+    },
+    "choosePackage": {
+      "title": "Wählen Sie Ihr Paket",
+      "subtitle": "Maßgeschneiderte Pakete für Unternehmen jeder Größe"
+    },
+    "free_label": "Kostenlos",
+    "most_popular_badge": "Am beliebtesten",
+    "plans": [
+      {
+        "name": "Demo",
+        "description": "7 Tage kostenlos testen mit echtem Gesprächsguthaben – sehen Sie, wie viel Zeit Sie für andere Aufgaben und mehr Kunden gewinnen",
+        "minutes": "7 Tage kostenlos · 10 Minuten kostenlose Gesprächszeit",
+        "features": [
+          "Gratisguthaben für KI-Anrufe während der Testphase",
+          "Grundlegende Stimmanpassung",
+          "Analyse-Dashboard",
+          "Sie hinterlegen Ihre bisherige Geschäftsnummer für die Testphase, damit die KI echte Anrufe annehmen kann",
+          "Upgrade auf das Starter-Paket möglich"
+        ],
+        "cta": "Kostenlos testen"
+      },
+      {
+        "name": "Starter",
+        "description": "Ideal für kleinere Unternehmen, die mit KI starten",
+        "minutes": "150 Minuten",
+        "features": [
+          "150 KI-Gesprächsminuten",
+          "Grundlegende Stimmanpassung",
+          "Standard-Support",
+          "Analyse-Dashboard",
+          "E-Mail-Benachrichtigungen"
+        ],
+        "cta": "Paket bestellen"
+      },
+      {
+        "name": "Professional",
+        "description": "Ideal für wachsende Unternehmen mit regelmäßigem Anrufvolumen",
+        "minutes": "600 Minuten",
+        "features": [
+          "600 KI-Gesprächsminuten",
+          "Erweiterte Stimmanpassung",
+          "Priorisierter Support",
+          "Erweiterte Analysen",
+          "Individuelle Integrationen",
+          "SMS-Erinnerungen",
+          "Kundenhistorie"
+        ],
+        "cta": "Paket bestellen"
+      },
+      {
+        "name": "Enterprise",
+        "description": "Für Organisationen, die maximale Flexibilität brauchen",
+        "minutes": "2000 Minuten",
+        "features": [
+          "2000 KI-Gesprächsminuten",
+          "Volle Stimmanpassung",
+          "Dedizierter Support rund um die Uhr",
+          "Individuelles KI-Training",
+          "API-Zugang",
+          "Persönlicher Success Manager",
+          "Unbegrenzte Integrationen",
+          "Unterstützung bei der DSGVO-Konformität"
+        ],
+        "cta": "Paket bestellen"
+      }
+    ],
+    "after_order_note": "Nach der Bestellung erhalten Sie einen Kalenderlink, über den Sie einen Einrichtungstermin buchen können, sofern Sie diesen zu Ihrer Bestellung hinzugefügt haben.",
+    "setup_recommendation": "Wir empfehlen, die Lösung zuerst 7 Tage kostenlos zu testen – und dann Ihr Paket zu wählen. Einrichtung und Onboarding können als optionale Einmalzahlung hinzugebucht werden, wenn Sie dabei Unterstützung wünschen.",
+    "additionalPrices": {
+      "title": "Weitere Preise",
+      "toggle_label": "Weitere Preise anzeigen",
+      "setup": {
+        "title": "Einrichtung & Onboarding",
+        "value": "Optionale Zusatzleistung beim Kauf – eine Einmalzahlung von {{setupMin}} € bis {{setupMax}} €, entsprechend dem Preis Ihres Pakets, inkl. 1 Stunde Nachbetreuung",
+        "note": "(nur einmalig, nicht im Abonnement enthalten)"
+      },
+      "hourly": {
+        "title": "Stundensatz für Einzelaufgaben",
+        "prompting_label": "Prompting/Training",
+        "prompting_price": "93 € pro Stunde",
+        "development_label": "Entwicklung",
+        "development_price": "147 € pro Stunde"
+      }
+    },
+    "currency_suffix": "€/Monat",
+    "setup_included_note": "Einrichtung und Onboarding können für {{setup}} € als Einmalzahlung hinzugebucht werden (gleicher Preis wie das Paket), inkl. 1 Stunde Nachbetreuung"
+  },
+  "shopifyIntegration": {
+    "badge": "Shopify-Integration",
+    "title": "Eine Verbindung – Antworten im Widget und am Telefon",
+    "subtitle": "Verbinden Sie Ihren Shopify-Shop einmal im Dashboard, und sowohl das KI-Widget als auch der KI-Telefonassistent beantworten Produktfragen und helfen Kunden bei ihren Bestellungen – direkt aus Shopify, sobald ein Kunde fragt.",
+    "channels": [
+      {
+        "title": "KI-Widget auf Ihrer Website",
+        "description": "Kunden, die mit dem Widget auf Ihrer Seite sprechen oder schreiben, erhalten Antworten zu Produkten, Lagerbestand und Bestellungen direkt aus Shopify."
+      },
+      {
+        "title": "KI-Telefonassistent (eingehend)",
+        "description": "Kunden, die anrufen, erhalten genau dieselben Antworten aus Ihrem Shopify-Shop – ohne an einen Mitarbeiter weitergeleitet zu werden."
+      }
+    ],
+    "points": [
+      {
+        "label": "Produktfragen",
+        "desc": "Preise, Lagerstatus und Produktinfos kommen live aus Shopify"
+      },
+      {
+        "label": "Bestellstatus",
+        "desc": "Kunden fragen „Wo ist mein Paket?“ und erhalten sofort eine Antwort"
+      },
+      {
+        "label": "Sichere Einrichtung",
+        "desc": "Der API-Schlüssel wird vor dem Speichern bei Shopify geprüft und verschlüsselt gespeichert"
+      },
+      {
+        "label": "In 5 Minuten live",
+        "desc": "Shop-Adresse und API-Schlüssel im Dashboard eintragen – und beide Kanäle laufen"
+      }
+    ],
+    "mock": {
+      "windowLabel": "Agent konfigurieren",
+      "tabs": [
+        "Prompt Lab",
+        "Einstellungen",
+        "Wissensdatenbank",
+        "Buchung",
+        "Onlineshop",
+        "Widget anpassen",
+        "Agent testen",
+        "Einbettungscode"
+      ],
+      "activeTab": "Onlineshop",
+      "sectionLabel": "ONLINESHOP / SHOPIFY",
+      "statusNotConnected": "Nicht verbunden",
+      "description": "Verbinden Sie Ihren Shopify-Shop, damit der Agent Produktfragen beantworten und Kunden bei ihren Bestellungen helfen kann. Alles wird direkt aus Shopify abgerufen, wenn der Kunde fragt.",
+      "urlLabel": "Ihre Shopify-Adresse",
+      "urlPlaceholder": "ihrshop.myshopify.com",
+      "urlNote": "Die Adresse, mit der Sie sich bei Shopify anmelden – sie endet immer auf .myshopify.com. Sie werden zu Shopify weitergeleitet, um die Verbindung zu bestätigen.",
+      "apiKeyBoxTitle": "Mit einem Shopify-API-Schlüssel verbinden",
+      "steps": [
+        "Öffnen Sie Shopify → Einstellungen → Apps und Vertriebskanäle → Apps entwickeln und klicken Sie auf App erstellen. (Tragen Sie oben die Shop-Adresse ein, dann verlinken wir direkt auf die Seite)",
+        "Unter Admin-API-Zugriffsbereiche: read_products, read_orders und read_legal_policies anhaken.",
+        "Installieren Sie die App, kopieren Sie das Admin-API-Zugriffstoken (beginnt mit shpat_) und fügen Sie es unten ein.",
+        "Das Token wird nur einmal angezeigt. Kopieren Sie es sofort – brauchen Sie es erneut, erzeugen Sie in derselben App unter Deinstallieren/Token anzeigen ein neues."
+      ],
+      "apiKeyLabel": "Shopify-Admin-API-Schlüssel",
+      "apiKeyPlaceholder": "shpat_...",
+      "apiKeyNote": "Der Schlüssel wird vor dem Speichern bei Shopify geprüft und verschlüsselt gespeichert. Er wird nie wieder angezeigt – weder hier noch an anderer Stelle im Dashboard.",
+      "saveButton": "Speichern und verbinden"
+    }
+  },
+  "phoneSection": {
+    "eyebrow": "Außerdem bieten wir",
+    "dashboardTitle": "Alles an einem Ort – mit vollem Überblick",
+    "dashboardDescription": "Widget und Telefonassistent werden im selben Dashboard verwaltet. Die Einrichtung ist bewusst einfach gehalten, und Sie erhalten einen gemeinsamen Überblick über alle Gespräche und Buchungen – egal, ob sie über Ihre Website oder per Telefon kamen.",
+    "benefits": [
+      {
+        "title": "Benutzerfreundliche Einrichtung",
+        "description": "Kein technisches Wissen nötig – wir richten alles gemeinsam mit Ihnen ein, danach passen Sie es selbst an."
+      },
+      {
+        "title": "Ein Überblick im Dashboard",
+        "description": "Sehen Sie Aktivität, Statistiken und Trends über Widget-Gespräche sowie ein- und ausgehende Anrufe an einem Ort."
+      },
+      {
+        "title": "Gespräche anhören",
+        "description": "Jeder Anruf wird aufgezeichnet und zusammengefasst, sodass Sie nachhören und genau sehen können, was vereinbart wurde."
+      },
+      {
+        "title": "Jede Buchung im Blick",
+        "description": "Buchungen landen direkt in Ihrem Kalender und werden gemeinsam aufgelistet – nichts geht verloren."
+      }
+    ]
+  },
+  "faqSection": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Alles, was Sie über das KI-Sprach-Widget wissen möchten"
+  },
+  "faqs": [
+    {
+      "question": "Was ist ein KI-Sprach-Widget?",
+      "answer": "Ein KI-Sprach-Widget ist eine intelligente Chat- und Sprachschnittstelle, die direkt in Ihre Website eingebunden wird. Ihre Besucher sprechen mit einem KI-Assistenten, der Fragen beantwortet, Termine bucht und Anfragen bearbeitet – automatisch, 24 Stunden am Tag."
+    },
+    {
+      "question": "Wie binde ich das Widget in meine Website ein?",
+      "answer": "Das dauert weniger als 5 Minuten. Sie erhalten einen einfachen JavaScript-Codeschnipsel, den Sie in Ihre Website einfügen. Das Widget ist mit allen Plattformen kompatibel, darunter WordPress, Shopify, Squarespace und individuell entwickelte Websites."
+    },
+    {
+      "question": "Kann das KI-Widget Termine automatisch buchen?",
+      "answer": "Ja. Das Widget ist direkt mit Ihrem Kalender verbunden (Google Kalender, Outlook und andere) und sorgt dafür, dass neue Buchungen automatisch eingetragen werden, ohne dass Sie einen Finger rühren müssen."
+    },
+    {
+      "question": "Was kostet das KI-Widget?",
+      "answer": "Das Starter-Paket kostet 134 €/Monat und enthält 150 Minuten Gesprächszeit. Sie zahlen nur für aktive Gesprächszeit – keine Stundenlöhne, keine Bindung. Das Paket verlängert sich automatisch, sobald die 150 Minuten verbraucht sind."
+    },
+    {
+      "question": "Welche Sprachen unterstützt das Widget?",
+      "answer": "Das Widget unterstützt Deutsch, Dänisch, Englisch und viele weitere Sprachen. Der KI-Assistent passt sich automatisch der Sprache an, die der Kunde spricht."
+    },
+    {
+      "question": "Ist das Widget DSGVO-konform?",
+      "answer": "Ja. Alle Daten werden gemäß der DSGVO verarbeitet, und Sie behalten die volle Kontrolle darüber, welche Informationen gespeichert werden."
+    }
+  ],
+  "ctaFinal": {
+    "title": "Bereit, Ihre Terminbuchung zu automatisieren?",
+    "subtitle": "In weniger als 5 Minuten startklar. Buchen Sie ein kostenloses Erstgespräch und sehen Sie, wie das KI-Sprach-Widget Ihren Kundenservice verändern kann.",
+    "cta_intro": "Kostenloses Erstgespräch buchen",
+    "cta_order": "Direkt bestellen – 134 €/Monat"
+  }
+}

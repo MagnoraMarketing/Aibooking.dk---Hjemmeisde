@@ -1,0 +1,39 @@
+{
+  "points": [
+    "Habla natural y fluida, sin voz robótica",
+    "Entiende lo que necesita el cliente y hace las preguntas de seguimiento adecuadas",
+    "Encuentra un hueco libre y reserva directamente en el calendario"
+  ],
+  "player": {
+    "title": "Ejemplo de reserva – reformas / clínica",
+    "play": "Reproducir la grabación",
+    "pause": "Pausar la grabación",
+    "seek": "Avanzar en la grabación",
+    "of": "{{current}} de {{total}}"
+  },
+  "inline": {
+    "badge": "Ejemplo de audio · 6:38 min",
+    "title": "Escucha a la IA reservar una cita",
+    "text": "Un ejemplo real de una llamada en la que nuestro asistente telefónico con IA atiende a un cliente y reserva una cita en el calendario. La llamada es en danés: pulsa play y comprueba tú mismo la calidad.",
+    "cta": "Pruébalo gratis 7 días",
+    "call": "Llama a la demo: {{phone}}"
+  },
+  "section": {
+    "badge": "Escucha una llamada real",
+    "title": "Escucha a nuestra IA atender la llamada y reservar una cita",
+    "text": "Es fácil prometer una buena voz de IA; es mejor escucharla. Este es un ejemplo de una llamada en la que un cliente llama y la IA gestiona toda la conversación y la reserva. Pulsa play y escucha la calidad.",
+    "languageNote": "La llamada de ejemplo es en danés. La IA también atiende en español, inglés y otros idiomas.",
+    "cta": "Prueba gratis 7 días",
+    "call": "Llama tú mismo: {{phone}}"
+  },
+  "stats": {
+    "duration": "min. de llamada",
+    "language": "habla natural",
+    "availability": "lista para llamadas"
+  },
+  "heroLink": "Escucha una llamada real con nuestra IA",
+  "schema": {
+    "name": "Ejemplo de reserva con un asistente telefónico con IA (en danés)",
+    "description": "Grabación de un ejemplo real en el que el asistente telefónico con IA de Aibooking.dk atiende una llamada y reserva una cita para el cliente, en danés."
+  }
+}

@@ -2,7 +2,7 @@
   "seo": {
     "title": "Atención Telefónica con IA para Profesionales | Aibooking.dk",
     "description": "Atención telefónica con IA para fontaneros, electricistas, carpinteros y pintores: atiende mientras trabajas, anota el encargo y lo reserva.",
-    "keywords": "atención telefónica con IA, recepcionista de IA danesa, widget para tienda online, widget de IA para Shopify, reservas para profesionales, reservas fontanero, reservas electricista, reservas carpintero, recepcionista de ia para oficios, automatización de trabajos"
+    "keywords": "atención telefónica con IA, recepcionista virtual con IA, widget para tienda online, widget de IA para Shopify, reservas para profesionales, reservas fontanero, reservas electricista, reservas carpintero, recepcionista de ia para oficios, automatización de trabajos"
   },
   "breadcrumb": {
     "home": "Inicio",
@@ -19,22 +19,59 @@
     "description": "Nuestra recepcionista de IA resuelve este problema de una vez por todas. El sistema contesta cada llamada, registra los datos del cliente, agenda visitas y envía confirmaciones automáticas por SMS. En tu panel puedes ver cada consulta, escuchar las conversaciones grabadas, obtener resúmenes breves de lo que quiere el cliente y ver lo que se ha acordado. Tu calendario se actualiza automáticamente, sea cual sea el sistema que uses. Deja de preocuparte por trabajos perdidos: céntrate en tu oficio."
   },
   "benefits": [
-    { "title": "Contesta cada consulta", "description": "Incluso cuando estás en un trabajo y no puedes coger el teléfono" },
-    { "title": "Registro automático", "description": "Los datos del cliente y la descripción del trabajo se guardan automáticamente" },
-    { "title": "Agenda visitas directamente", "description": "Directo a tu calendario — se sincroniza automáticamente con tu sistema" },
-    { "title": "Confirmaciones por SMS", "description": "Tanto para ti como para el cliente, con todos los detalles relevantes" },
-    { "title": "Panel completo", "description": "Ve cada consulta de cliente y lo que se ha acordado" },
-    { "title": "Disponibilidad 24/7", "description": "El sistema funciona a cualquier hora, fines de semana incluidos" }
+    {
+      "title": "Contesta cada consulta",
+      "description": "Incluso cuando estás en un trabajo y no puedes coger el teléfono"
+    },
+    {
+      "title": "Registro automático",
+      "description": "Los datos del cliente y la descripción del trabajo se guardan automáticamente"
+    },
+    {
+      "title": "Agenda visitas directamente",
+      "description": "Directo a tu calendario — se sincroniza automáticamente con tu sistema"
+    },
+    {
+      "title": "Confirmaciones por SMS",
+      "description": "Tanto para ti como para el cliente, con todos los detalles relevantes"
+    },
+    {
+      "title": "Panel completo",
+      "description": "Ve cada consulta de cliente y lo que se ha acordado"
+    },
+    {
+      "title": "Disponibilidad 24/7",
+      "description": "El sistema funciona a cualquier hora, fines de semana incluidos"
+    }
   ],
   "stats": [
-    { "value": "+45%", "label": "Más trabajos" },
-    { "value": "10h/semana", "label": "Tiempo ahorrado" },
-    { "value": "100%", "label": "Llamadas atendidas" },
-    { "value": "4.9/5", "label": "Satisfacción del cliente" }
+    {
+      "value": "+45%",
+      "label": "Más trabajos"
+    },
+    {
+      "value": "10h/semana",
+      "label": "Tiempo ahorrado"
+    },
+    {
+      "value": "100%",
+      "label": "Llamadas atendidas"
+    },
+    {
+      "value": "4.9/5",
+      "label": "Satisfacción del cliente"
+    }
   ],
   "trades": {
     "title": "Perfecto para cualquier oficio",
-    "items": ["Fontanería", "Electricistas", "Pintores", "Carpinteros", "Limpieza", "Empresas de mudanzas"],
+    "items": [
+      "Fontanería",
+      "Electricistas",
+      "Pintores",
+      "Carpinteros",
+      "Limpieza",
+      "Empresas de mudanzas"
+    ],
     "cta": "Reserva una reunión sin compromiso y obtén un acceso de prueba gratuito"
   },
   "finalCta": {

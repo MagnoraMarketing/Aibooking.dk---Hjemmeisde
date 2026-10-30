@@ -2,7 +2,7 @@
   "seo": {
     "title": "Asistente Telefónico con IA y Agente de Voz | Aibooking.dk",
     "description": "Atención telefónica con IA 24/7: el agente de voz responde llamadas, reserva citas, transfiere a tu equipo y llama a tus clientes con recordatorios.",
-    "keywords": "atención telefónica con IA, recepcionista de IA danesa, widget para tienda online, widget de IA para Shopify, inbound outbound ai voice, asistente telefónico ia, agente de voz ia, recepción con ia, llamadas entrantes, llamadas salientes, atención telefónica automatizada, recepcionista ia, voicebot, reservas por teléfono, ai booking"
+    "keywords": "atención telefónica con IA, recepcionista virtual con IA, widget para tienda online, widget de IA para Shopify, llamadas con ia, asistente telefónico ia, agente de voz ia, recepción con ia, llamadas entrantes, llamadas salientes, atención telefónica automatizada, recepcionista ia, voicebot, reservas por teléfono, reservas con ia"
   },
   "breadcrumb": {
     "home": "Inicio",
@@ -17,9 +17,18 @@
     "cta_example": "Escuchar un ejemplo",
     "cta_pricing": "Ver precios",
     "stats": {
-      "answer": { "value": "2 seg.", "label": "Tiempo medio de respuesta" },
-      "availability": { "value": "24/7", "label": "También tardes y fines de semana" },
-      "saving": { "value": "80%", "label": "Menos coste que un recepcionista" }
+      "answer": {
+        "value": "2 seg.",
+        "label": "Tiempo medio de respuesta"
+      },
+      "availability": {
+        "value": "24/7",
+        "label": "También tardes y fines de semana"
+      },
+      "saving": {
+        "value": "80%",
+        "label": "Menos coste que un recepcionista"
+      }
     },
     "card": {
       "status": "Llamada activa",
@@ -27,7 +36,11 @@
       "timer": "00:51",
       "transcriptLabel": "Transcripción en directo",
       "line": "Queda reservado para mañana a las 8:30. Recibirás un SMS de confirmación ahora mismo.",
-      "actions": ["Cita reservada", "SMS enviado", "Aviso creado"]
+      "actions": [
+        "Cita reservada",
+        "SMS enviado",
+        "Aviso creado"
+      ]
     }
   },
   "whatIs": {
@@ -62,15 +75,51 @@
       "caller": "Número desconocido",
       "meta": "Entrante · 20:41 · Fontanería Norte",
       "chat": [
-        { "role": "ai", "time": "0:02", "text": "Ha llamado a Aibooking, de Fontanería Norte. ¿En qué puedo ayudarle?" },
-        { "role": "customer", "time": "0:07", "text": "Hola. Tengo una tubería que gotea debajo del fregadero. ¿Pueden venir?" },
-        { "role": "ai", "time": "0:12", "text": "Podemos ayudarle con eso. ¿Hay agua en el suelo ahora mismo o es un goteo lento?" },
-        { "role": "customer", "time": "0:19", "text": "Es un goteo lento. He puesto un cubo debajo." },
-        { "role": "ai", "time": "0:24", "text": "Bien. Entonces reservo una visita normal en lugar de una urgencia, que le sale más barato. Tengo mañana a las 8:30 o el jueves a las 13:00." },
-        { "role": "customer", "time": "0:35", "text": "Mañana a las 8:30 me va bien." },
-        { "role": "ai", "time": "0:39", "text": "Perfecto. ¿Me facilita la dirección y un móvil para la confirmación?" },
-        { "role": "customer", "time": "0:45", "text": "Calle Sur 14, Valencia." },
-        { "role": "ai", "time": "0:51", "text": "Gracias. Queda reservado para mañana a las 8:30. Recibirá un SMS de confirmación ahora y un recordatorio una hora antes." }
+        {
+          "role": "ai",
+          "time": "0:02",
+          "text": "Ha llamado a Aibooking, de Fontanería Norte. ¿En qué puedo ayudarle?"
+        },
+        {
+          "role": "customer",
+          "time": "0:07",
+          "text": "Hola. Tengo una tubería que gotea debajo del fregadero. ¿Pueden venir?"
+        },
+        {
+          "role": "ai",
+          "time": "0:12",
+          "text": "Podemos ayudarle con eso. ¿Hay agua en el suelo ahora mismo o es un goteo lento?"
+        },
+        {
+          "role": "customer",
+          "time": "0:19",
+          "text": "Es un goteo lento. He puesto un cubo debajo."
+        },
+        {
+          "role": "ai",
+          "time": "0:24",
+          "text": "Bien. Entonces reservo una visita normal en lugar de una urgencia, que le sale más barato. Tengo mañana a las 8:30 o el jueves a las 13:00."
+        },
+        {
+          "role": "customer",
+          "time": "0:35",
+          "text": "Mañana a las 8:30 me va bien."
+        },
+        {
+          "role": "ai",
+          "time": "0:39",
+          "text": "Perfecto. ¿Me facilita la dirección y un móvil para la confirmación?"
+        },
+        {
+          "role": "customer",
+          "time": "0:45",
+          "text": "Calle Sur 14, Valencia."
+        },
+        {
+          "role": "ai",
+          "time": "0:51",
+          "text": "Gracias. Queda reservado para mañana a las 8:30. Recibirá un SMS de confirmación ahora y un recordatorio una hora antes."
+        }
       ],
       "outcomesLabel": "Lo que hizo la IA por el camino",
       "outcomes": [
@@ -82,9 +131,18 @@
       ],
       "resultsLabel": "Resultado",
       "results": [
-        { "label": "Duración", "value": "1:04" },
-        { "label": "Desenlace", "value": "Reservado mañana a las 8:30" },
-        { "label": "Aviso creado", "value": "#4821 · Tubería con goteo" }
+        {
+          "label": "Duración",
+          "value": "1:04"
+        },
+        {
+          "label": "Desenlace",
+          "value": "Reservado mañana a las 8:30"
+        },
+        {
+          "label": "Aviso creado",
+          "value": "#4821 · Tubería con goteo"
+        }
       ]
     },
     "outbound": {
@@ -93,11 +151,31 @@
       "caller": "Marta Sáez",
       "meta": "Saliente · 09:15 · Clínica Sund",
       "chat": [
-        { "role": "ai", "time": "0:03", "text": "Hola Marta. Le llama Aibooking de parte de Clínica Sund. Es por su cita de mañana a las 10:00, ¿le sigue viniendo bien?" },
-        { "role": "customer", "time": "0:11", "text": "Ay, se me había olvidado por completo. Es que trabajo hasta las tres." },
-        { "role": "ai", "time": "0:18", "text": "No hay ningún problema. Puedo ofrecerle mañana a las 15:45 o el viernes a las 9:30. ¿Qué le viene mejor?" },
-        { "role": "customer", "time": "0:26", "text": "El viernes a las 9:30, gracias." },
-        { "role": "ai", "time": "0:30", "text": "Su cita queda movida al viernes a las 9:30. Le envío ahora un SMS con la nueva hora. Que tenga buen día." }
+        {
+          "role": "ai",
+          "time": "0:03",
+          "text": "Hola Marta. Le llama Aibooking de parte de Clínica Sund. Es por su cita de mañana a las 10:00, ¿le sigue viniendo bien?"
+        },
+        {
+          "role": "customer",
+          "time": "0:11",
+          "text": "Ay, se me había olvidado por completo. Es que trabajo hasta las tres."
+        },
+        {
+          "role": "ai",
+          "time": "0:18",
+          "text": "No hay ningún problema. Puedo ofrecerle mañana a las 15:45 o el viernes a las 9:30. ¿Qué le viene mejor?"
+        },
+        {
+          "role": "customer",
+          "time": "0:26",
+          "text": "El viernes a las 9:30, gracias."
+        },
+        {
+          "role": "ai",
+          "time": "0:30",
+          "text": "Su cita queda movida al viernes a las 9:30. Le envío ahora un SMS con la nueva hora. Que tenga buen día."
+        }
       ],
       "outcomesLabel": "Lo que hizo la IA por el camino",
       "outcomes": [
@@ -109,9 +187,18 @@
       ],
       "resultsLabel": "Resultado",
       "results": [
-        { "label": "Duración", "value": "0:38" },
-        { "label": "Desenlace", "value": "Movida al viernes 9:30" },
-        { "label": "Evitado", "value": "Una ausencia · hora reofrecida" }
+        {
+          "label": "Duración",
+          "value": "0:38"
+        },
+        {
+          "label": "Desenlace",
+          "value": "Movida al viernes 9:30"
+        },
+        {
+          "label": "Evitado",
+          "value": "Una ausencia · hora reofrecida"
+        }
       ]
     }
   },
@@ -221,26 +308,78 @@
     "inbound": "Entrantes",
     "outbound": "Salientes",
     "items": [
-      { "feature": "Atender llamadas de clientes", "inbound": true, "outbound": false },
-      { "feature": "Llamar a los clientes", "inbound": false, "outbound": true },
-      { "feature": "Reservar citas en el calendario", "inbound": true, "outbound": true },
-      { "feature": "Registrar datos del cliente", "inbound": true, "outbound": true },
-      { "feature": "Recordatorio el día antes", "inbound": false, "outbound": true },
-      { "feature": "Seguimiento de leads y presupuestos", "inbound": false, "outbound": true },
-      { "feature": "Responder preguntas frecuentes", "inbound": true, "outbound": false },
-      { "feature": "Transferir a un compañero", "inbound": true, "outbound": false },
-      { "feature": "Recolocar una cita anulada", "inbound": true, "outbound": true },
-      { "feature": "Grabación y resumen", "inbound": true, "outbound": true }
+      {
+        "feature": "Atender llamadas de clientes",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Llamar a los clientes",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Reservar citas en el calendario",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Registrar datos del cliente",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Recordatorio el día antes",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Seguimiento de leads y presupuestos",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Responder preguntas frecuentes",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Transferir a un compañero",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Recolocar una cita anulada",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Grabación y resumen",
+        "inbound": true,
+        "outbound": true
+      }
     ]
   },
   "pricing": {
     "title": "Precios",
     "subtitle": "Los minutos y todas las funciones van incluidos. Sin permanencia ni cuota de alta.",
     "perMonth": "/mes",
-    "demo": { "name": "Demo", "label": "7 días gratis · acceso completo" },
-    "starter": { "name": "Starter", "label": "150 min/mes incl." },
-    "professional": { "name": "Professional", "label": "600 min/mes incl." },
-    "enterprise": { "name": "Enterprise", "label": "2.000 min/mes incl." },
+    "demo": {
+      "name": "Demo",
+      "label": "7 días gratis · acceso completo"
+    },
+    "starter": {
+      "name": "Starter",
+      "label": "150 min/mes incl."
+    },
+    "professional": {
+      "name": "Professional",
+      "label": "600 min/mes incl."
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "label": "2.000 min/mes incl."
+    },
     "free": "Gratis",
     "mostPopular": "El más elegido",
     "cta": "Empezar",

@@ -2,7 +2,7 @@
   "seo": {
     "title": "Recepcionista Virtual con IA para tu Negocio | Aibooking.dk",
     "description": "Recepcionista virtual con IA que atiende llamadas, reserva citas y responde en el chat de tu web 24/7. Asistente telefónico con IA. Prueba gratis 7 días.",
-    "keywords": "atención telefónica con IA, recepcionista de IA danesa, widget para tienda online, widget de IA para Shopify, recepcionista de ia, ai booking, reservas automáticas, widget de ia para sitio web, calendario con ia, automatización telefónica, recordatorios sms, automatización de atención al cliente, solución de ia danesa"
+    "keywords": "atención telefónica con IA, recepcionista virtual con IA, widget para tienda online, widget de IA para Shopify, recepcionista de ia, reservas con ia, reservas automáticas, widget de ia para sitio web, calendario con ia, automatización telefónica, recordatorios sms, automatización de atención al cliente, solución de ia danesa"
   },
   "nav": {
     "home": "Inicio",
@@ -436,10 +436,22 @@
         "situation": "A las 08:14 un paciente llama para cambiar su cita. Recepción ya está con un paciente en el mostrador, y la llamada interrumpiría a ambos.",
         "callLabel": "Llamada entrante · Paciente",
         "chat": [
-          { "role": "customer", "text": "Hola, me temo que necesito cambiar mi cita del jueves." },
-          { "role": "ai", "text": "Puedo encargarme. Veo tu cita el jueves a las 09:00. ¿Te viene mejor el jueves a las 10:30 o el viernes a las 14:00?" },
-          { "role": "customer", "text": "El jueves a las 10:30 es perfecto." },
-          { "role": "ai", "text": "Ya está cambiada. Recibirás una confirmación por SMS en un momento." }
+          {
+            "role": "customer",
+            "text": "Hola, me temo que necesito cambiar mi cita del jueves."
+          },
+          {
+            "role": "ai",
+            "text": "Puedo encargarme. Veo tu cita el jueves a las 09:00. ¿Te viene mejor el jueves a las 10:30 o el viernes a las 14:00?"
+          },
+          {
+            "role": "customer",
+            "text": "El jueves a las 10:30 es perfecto."
+          },
+          {
+            "role": "ai",
+            "text": "Ya está cambiada. Recibirás una confirmación por SMS en un momento."
+          }
         ],
         "outcomes": [
           "Cambios y cancelaciones gestionados sin interrumpir a recepción",
@@ -447,7 +459,11 @@
           "Los pacientes pueden llamar y reservar fuera del horario — también tardes y fines de semana",
           "Todo queda anotado y en el calendario, para tener la visión completa después"
         ],
-        "results": ["Cambiada al jue. 10:30", "Confirmación SMS enviada", "Calendario actualizado"]
+        "results": [
+          "Cambiada al jue. 10:30",
+          "Confirmación SMS enviada",
+          "Calendario actualizado"
+        ]
       },
       "craftsman": {
         "title": "El trabajo se reserva mientras tienes las manos ocupadas",
@@ -455,10 +471,22 @@
         "situation": "A las 10:47 un cliente nuevo llama por un baño. Estás en una escalera en otra obra y no puedes contestar.",
         "callLabel": "Llamada entrante · Cliente nuevo",
         "chat": [
-          { "role": "customer", "text": "Hola, necesito reformar el baño. ¿Podríais venir a verlo?" },
-          { "role": "ai", "text": "Por supuesto. ¿Me puede dar la dirección, y se trata del baño entero o solo de una parte?" },
-          { "role": "customer", "text": "Calle Nørregade 14, y es la habitación entera." },
-          { "role": "ai", "text": "Anotado. Tengo una visita libre el viernes a las 08:00 — ¿la agendo?" }
+          {
+            "role": "customer",
+            "text": "Hola, necesito reformar el baño. ¿Podríais venir a verlo?"
+          },
+          {
+            "role": "ai",
+            "text": "Por supuesto. ¿Me puede dar la dirección, y se trata del baño entero o solo de una parte?"
+          },
+          {
+            "role": "customer",
+            "text": "Calle Nørregade 14, y es la habitación entera."
+          },
+          {
+            "role": "ai",
+            "text": "Anotado. Tengo una visita libre el viernes a las 08:00 — ¿la agendo?"
+          }
         ],
         "outcomes": [
           "Ningún trabajo se pierde por no haber contestado el teléfono a tiempo",
@@ -466,7 +494,11 @@
           "Las visitas entran directamente en tu calendario — sin reservas duplicadas",
           "Recordatorios automáticos al cliente el día antes de la visita"
         ],
-        "results": ["Visita el vie. 08:00", "Dirección registrada", "SMS enviado a ambos"]
+        "results": [
+          "Visita el vie. 08:00",
+          "Dirección registrada",
+          "SMS enviado a ambos"
+        ]
       },
       "office": {
         "title": "Espacio para concentrarse — sin dejar a los clientes esperando",
@@ -474,10 +506,22 @@
         "situation": "A las 13:05 un cliente llama para reservar una reunión. El equipo está en mitad de una entrega, y una llamada costaría toda la concentración.",
         "callLabel": "Llamada entrante · Cliente",
         "chat": [
-          { "role": "customer", "text": "Hola, me gustaría reservar una reunión sobre nuestro caso." },
-          { "role": "ai", "text": "Por supuesto. Veo huecos el martes a las 11:00 y el miércoles a las 14:30 — ¿cuál le viene mejor?" },
-          { "role": "customer", "text": "El miércoles a las 14:30." },
-          { "role": "ai", "text": "Queda reservada. Ambos recibiréis una invitación de calendario enseguida." }
+          {
+            "role": "customer",
+            "text": "Hola, me gustaría reservar una reunión sobre nuestro caso."
+          },
+          {
+            "role": "ai",
+            "text": "Por supuesto. Veo huecos el martes a las 11:00 y el miércoles a las 14:30 — ¿cuál le viene mejor?"
+          },
+          {
+            "role": "customer",
+            "text": "El miércoles a las 14:30."
+          },
+          {
+            "role": "ai",
+            "text": "Queda reservada. Ambos recibiréis una invitación de calendario enseguida."
+          }
         ],
         "outcomes": [
           "Menos interrupciones significan periodos más largos de trabajo concentrado",
@@ -485,7 +529,11 @@
           "Las reuniones se reservan directamente en el calendario compartido del equipo",
           "Tú decides qué llamadas deben pasarse siempre a una persona"
         ],
-        "results": ["Reunión el mié. 14:30", "Invitación enviada", "Equipo sin interrumpir"]
+        "results": [
+          "Reunión el mié. 14:30",
+          "Invitación enviada",
+          "Equipo sin interrumpir"
+        ]
       },
       "ecommerce": {
         "title": "La pregunta se responde antes de que se abandone el carrito",
@@ -493,10 +541,22 @@
         "situation": "A las 21:38 un cliente tiene el artículo en el carrito pero duda sobre el envío y la devolución. El soporte no abre hasta mañana.",
         "callLabel": "Chat en la web · Visitante",
         "chat": [
-          { "role": "customer", "text": "¿Cuándo lo recibiría si hago el pedido ahora?" },
-          { "role": "ai", "text": "Si pides antes de las 22:00, enviamos mañana — normalmente lo tienes en 1-2 días laborables." },
-          { "role": "customer", "text": "¿Y si no me queda bien?" },
-          { "role": "ai", "text": "Tienes 30 días para devolverlo, y la etiqueta de devolución está en tu confirmación de pedido." }
+          {
+            "role": "customer",
+            "text": "¿Cuándo lo recibiría si hago el pedido ahora?"
+          },
+          {
+            "role": "ai",
+            "text": "Si pides antes de las 22:00, enviamos mañana — normalmente lo tienes en 1-2 días laborables."
+          },
+          {
+            "role": "customer",
+            "text": "¿Y si no me queda bien?"
+          },
+          {
+            "role": "ai",
+            "text": "Tienes 30 días para devolverlo, y la etiqueta de devolución está en tu confirmación de pedido."
+          }
         ],
         "outcomes": [
           "Preguntas sobre producto, envío y devoluciones respondidas al instante — también por la tarde",
@@ -504,7 +564,11 @@
           "Los casos complejos pasan a tu equipo con toda la conversación como contexto",
           "Sin esperas ni colas — por muchas personas que pregunten a la vez"
         ],
-        "results": ["Respuesta en 3 segundos", "Pedido completado", "Sin tiempo de espera"]
+        "results": [
+          "Respuesta en 3 segundos",
+          "Pedido completado",
+          "Sin tiempo de espera"
+        ]
       }
     },
     "calculator": {
@@ -555,48 +619,120 @@
         "title": "Los sistemas de calendario que más usan las clínicas",
         "subtitle": "Sea cual sea el sistema de reservas que uses hoy, la recepcionista IA puede sincronizarse directamente con tu calendario.",
         "items": [
-          { "name": "Google Calendar", "description": "Sincronización automática de citas de pacientes en tiempo real" },
-          { "name": "Microsoft Outlook / 365", "description": "Reservas y calendario compartido para toda la clínica" },
-          { "name": "Calendario de Apple", "description": "Se sincroniza directamente vía iCloud" },
-          { "name": "EasyPractice", "description": "Sistema de gestión de clínicas muy utilizado en Dinamarca" },
-          { "name": "Novax", "description": "Sistema de calendario popular entre quiroprácticos y fisioterapeutas" },
-          { "name": "Otros sistemas", "description": "¿Usas otro sistema? Nos conectamos vía sincronización CalDAV/iCal" }
+          {
+            "name": "Google Calendar",
+            "description": "Sincronización automática de citas de pacientes en tiempo real"
+          },
+          {
+            "name": "Microsoft Outlook / 365",
+            "description": "Reservas y calendario compartido para toda la clínica"
+          },
+          {
+            "name": "Calendario de Apple",
+            "description": "Se sincroniza directamente vía iCloud"
+          },
+          {
+            "name": "EasyPractice",
+            "description": "Sistema de gestión de clínicas muy utilizado en Dinamarca"
+          },
+          {
+            "name": "Novax",
+            "description": "Sistema de calendario popular entre quiroprácticos y fisioterapeutas"
+          },
+          {
+            "name": "Otros sistemas",
+            "description": "¿Usas otro sistema? Nos conectamos vía sincronización CalDAV/iCal"
+          }
         ]
       },
       "craftsman": {
         "title": "Los sistemas de calendario que más usan los profesionales de oficios",
         "subtitle": "Las visitas se reservan directamente en el sistema de calendario que ya usas para tu negocio.",
         "items": [
-          { "name": "Google Calendar", "description": "Sincronización automática de visitas y trabajos en tiempo real" },
-          { "name": "Microsoft Outlook / 365", "description": "Calendario compartido para todo el equipo sobre la marcha" },
-          { "name": "Calendario de Apple", "description": "Se sincroniza directamente vía iCloud" },
-          { "name": "Dinero", "description": "Muy utilizado entre profesionales de oficios daneses para facturación y planificación" },
-          { "name": "e-conomic", "description": "Sistema de contabilidad y planificación popular en el sector" },
-          { "name": "Otros sistemas", "description": "¿Usas otro sistema? Nos conectamos vía sincronización CalDAV/iCal" }
+          {
+            "name": "Google Calendar",
+            "description": "Sincronización automática de visitas y trabajos en tiempo real"
+          },
+          {
+            "name": "Microsoft Outlook / 365",
+            "description": "Calendario compartido para todo el equipo sobre la marcha"
+          },
+          {
+            "name": "Calendario de Apple",
+            "description": "Se sincroniza directamente vía iCloud"
+          },
+          {
+            "name": "Dinero",
+            "description": "Muy utilizado entre profesionales de oficios daneses para facturación y planificación"
+          },
+          {
+            "name": "e-conomic",
+            "description": "Sistema de contabilidad y planificación popular en el sector"
+          },
+          {
+            "name": "Otros sistemas",
+            "description": "¿Usas otro sistema? Nos conectamos vía sincronización CalDAV/iCal"
+          }
         ]
       },
       "office": {
         "title": "Los sistemas de calendario que más usan las oficinas",
         "subtitle": "Las reuniones se reservan directamente en el sistema que ya usa tu equipo.",
         "items": [
-          { "name": "Google Calendar", "description": "Sincronización automática de reuniones en tiempo real" },
-          { "name": "Microsoft Outlook / 365", "description": "Calendario compartido e invitaciones a reuniones para todo el equipo" },
-          { "name": "Calendario de Microsoft Teams", "description": "Reserva reuniones directamente en el calendario compartido del equipo" },
-          { "name": "Calendario de Apple", "description": "Se sincroniza directamente vía iCloud" },
-          { "name": "Calendly", "description": "Herramienta de reserva de reuniones popular entre oficinas y consultores" },
-          { "name": "Otros sistemas", "description": "¿Usas otro sistema? Nos conectamos vía sincronización CalDAV/iCal" }
+          {
+            "name": "Google Calendar",
+            "description": "Sincronización automática de reuniones en tiempo real"
+          },
+          {
+            "name": "Microsoft Outlook / 365",
+            "description": "Calendario compartido e invitaciones a reuniones para todo el equipo"
+          },
+          {
+            "name": "Calendario de Microsoft Teams",
+            "description": "Reserva reuniones directamente en el calendario compartido del equipo"
+          },
+          {
+            "name": "Calendario de Apple",
+            "description": "Se sincroniza directamente vía iCloud"
+          },
+          {
+            "name": "Calendly",
+            "description": "Herramienta de reserva de reuniones popular entre oficinas y consultores"
+          },
+          {
+            "name": "Otros sistemas",
+            "description": "¿Usas otro sistema? Nos conectamos vía sincronización CalDAV/iCal"
+          }
         ]
       },
       "ecommerce": {
         "title": "Los sistemas de calendario que más usan las tiendas online",
         "subtitle": "¿Vendes productos y servicios? Las reservas pueden llegar directamente a tu calendario actual.",
         "items": [
-          { "name": "Google Calendar", "description": "Sincronización automática de reservas en tiempo real" },
-          { "name": "Microsoft Outlook / 365", "description": "Reservas y calendario compartido para todo el equipo" },
-          { "name": "Shopify", "description": "Reserva recogidas, entregas o consultas directamente desde la tienda online" },
-          { "name": "Calendly", "description": "Para tiendas online que también venden consultas o demos" },
-          { "name": "Calendario de Apple", "description": "Se sincroniza directamente vía iCloud" },
-          { "name": "Otros sistemas", "description": "¿Usas otro sistema? Nos conectamos vía sincronización CalDAV/iCal" }
+          {
+            "name": "Google Calendar",
+            "description": "Sincronización automática de reservas en tiempo real"
+          },
+          {
+            "name": "Microsoft Outlook / 365",
+            "description": "Reservas y calendario compartido para todo el equipo"
+          },
+          {
+            "name": "Shopify",
+            "description": "Reserva recogidas, entregas o consultas directamente desde la tienda online"
+          },
+          {
+            "name": "Calendly",
+            "description": "Para tiendas online que también venden consultas o demos"
+          },
+          {
+            "name": "Calendario de Apple",
+            "description": "Se sincroniza directamente vía iCloud"
+          },
+          {
+            "name": "Otros sistemas",
+            "description": "¿Usas otro sistema? Nos conectamos vía sincronización CalDAV/iCal"
+          }
         ]
       }
     }

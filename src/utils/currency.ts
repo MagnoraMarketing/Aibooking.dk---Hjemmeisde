@@ -7,9 +7,9 @@ const DKK_TO_EUR_RATE = 7.46;
 const INTL_LOCALE: Record<SupportedLanguage, string> = {
   da: 'da-DK',
   en: 'en-GB',
-  pt: 'pt-PT',
-  fr: 'fr-FR',
   es: 'es-ES',
+  de: 'de-DE',
+  fr: 'fr-FR',
 };
 
 export function dkkToEur(dkkAmount: number): number {

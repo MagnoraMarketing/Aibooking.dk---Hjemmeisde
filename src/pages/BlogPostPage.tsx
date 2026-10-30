@@ -6,23 +6,26 @@ import SEO from '../components/SEO';
 import FAQ, { type FAQItem } from '../components/FAQ';
 import BlogCTA from '../components/BlogCTA';
 import BookingAudioDemo from '../components/BookingAudioDemo';
-import { getPostBySlug, getCategoryBySlug, getRelatedPosts, BlogPost, BlogFAQ } from '../content/blog';
-import type { SupportedLanguage } from '../i18n/config';
+import { getPostBySlug, getCategoryBySlug, getRelatedPosts, localizePost, isPostAvailableIn, DATE_LOCALES, BlogPost } from '../content/blog';
+import { SUPPORTED_LANGUAGES, type SupportedLanguage } from '../i18n/config';
 import { blogPostPath, buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
 import JsonLd from '../components/JsonLd';
 
-const POST_LANGUAGES = ['da', 'en'] as const;
-
-// Posts are written in Danish and English; the FAQ component takes all site
-// languages, so pt/fr/es readers get the English text (as for the post body).
-const toFAQItem = (f: BlogFAQ): FAQItem => ({
-  question_da: f.question_da, answer_da: f.answer_da,
-  question_en: f.question_en, answer_en: f.answer_en,
-  question_pt: f.question_en, answer_pt: f.answer_en,
-  question_fr: f.question_en, answer_fr: f.answer_en,
-  question_es: f.question_en, answer_es: f.answer_en,
-});
+// The FAQ component takes every site language at once.
+const toFAQItems = (post: BlogPost): FAQItem[] => {
+  const byLang = Object.fromEntries(SUPPORTED_LANGUAGES.map((l) => [l, localizePost(post, l).faq])) as Record<
+    SupportedLanguage,
+    { question: string; answer: string }[]
+  >;
+  return byLang.da.map((_, i) => ({
+    question_da: byLang.da[i].question, answer_da: byLang.da[i].answer,
+    question_en: byLang.en[i].question, answer_en: byLang.en[i].answer,
+    question_es: byLang.es[i].question, answer_es: byLang.es[i].answer,
+    question_de: byLang.de[i].question, answer_de: byLang.de[i].answer,
+    question_fr: byLang.fr[i].question, answer_fr: byLang.fr[i].answer,
+  }));
+};
 
 interface BlogPostPageProps {
   postSlug: string;
@@ -33,33 +36,34 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
   const { t, i18n } = useTranslation('blogPostPage');
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
   const blogHref = (path: string) => buildLocalizedPath(lang, path);
-  // Posts are written in Danish and English; other languages read the
-  // English text, so that version is their canonical.
-  const contentLang: SupportedLanguage = lang === 'da' ? 'da' : 'en';
   const post = getPostBySlug(postSlug);
+  // A post not yet translated into this language shows the English text, so
+  // that version is its canonical.
+  const contentLang: SupportedLanguage = post && !isPostAvailableIn(post, lang) ? 'en' : lang;
+  const postLanguages = post ? SUPPORTED_LANGUAGES.filter((l) => isPostAvailableIn(post, l)) : SUPPORTED_LANGUAGES;
+  const text = post ? localizePost(post, lang) : undefined;
   const category = post ? getCategoryBySlug(post.categorySlug) : undefined;
   const relatedPosts = post ? getRelatedPosts(post) : [];
 
-  const getTitle = () => (post ? (i18n.language === 'da' ? post.title_da : post.title_en) : '');
+  const getTitle = () => text?.title ?? '';
   // Internal links in post HTML are written as Danish (unprefixed) paths;
   // prefix them for the current language so readers stay on their locale.
   const getContent = () =>
-    post
-      ? (i18n.language === 'da' ? post.content_da : post.content_en).replace(
+    text
+      ? text.content.replace(
           /href="(\/[^"]*)"/g,
           (_, path: string) => `href="${buildLocalizedPath(lang, path)}"`
         )
       : '';
-  const getExcerpt = () => (post ? (i18n.language === 'da' ? post.excerpt_da : post.excerpt_en) : '');
-  const getMetaTitle = () => (post ? (i18n.language === 'da' ? post.meta_title_da : post.meta_title_en) : '');
-  const getMetaDescription = () => (post ? (i18n.language === 'da' ? post.meta_description_da : post.meta_description_en) : '');
-  const getCategoryName = () => (category ? (i18n.language === 'da' ? category.name_da : category.name_en) : '');
+  const getExcerpt = () => text?.excerpt ?? '';
+  const getMetaTitle = () => text?.meta_title ?? '';
+  const getMetaDescription = () => text?.meta_description ?? '';
+  const getCategoryName = () => category?.name[lang] ?? '';
 
-  const getRelatedTitle = (relatedPost: BlogPost) =>
-    i18n.language === 'da' ? relatedPost.title_da : relatedPost.title_en;
+  const getRelatedTitle = (relatedPost: BlogPost) => localizePost(relatedPost, lang).title;
 
   const formatDate = (date: string) => {
-    return new Date(date).toLocaleDateString(i18n.language === 'da' ? 'da-DK' : 'en-US', {
+    return new Date(date).toLocaleDateString(DATE_LOCALES[lang], {
       year: 'numeric',
       month: 'long',
       day: 'numeric'
@@ -158,7 +162,7 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
         ogType="article"
         canonical={localizedUrl(contentLang, `/blog/${post.slug}`)}
         path={`/blog/${post.slug}`}
-        languages={POST_LANGUAGES}
+        languages={postLanguages}
       />
 
       <JsonLd data={structuredData} />
@@ -294,7 +298,7 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
         )}
       </article>
 
-      {post.faq && post.faq.length > 0 && <FAQ items={post.faq.map(toFAQItem)} />}
+      {post.faq && post.faq.length > 0 && <FAQ items={toFAQItems(post)} />}
       <Footer onNavigate={onNavigate} />
     </div>
   );

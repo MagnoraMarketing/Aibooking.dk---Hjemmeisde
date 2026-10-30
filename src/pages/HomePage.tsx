@@ -31,7 +31,12 @@ function HomePage({ onNavigate }: HomePageProps) {
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
   // Organization and WebSite are site-wide in index.html; only add what's
   // specific to the home page so the entities aren't declared twice.
-  const structuredData = softwareApplicationSchema;
+  // Danish visitors see DKK prices, everyone else EUR (see utils/currency).
+  const structuredData = softwareApplicationSchema(
+    localizedUrl(lang, '/'),
+    t('footer.free_trial'),
+    lang === 'da' ? 'DKK' : 'EUR'
+  );
 
   return (
     <div className="min-h-screen bg-white">

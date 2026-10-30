@@ -2,9 +2,12 @@
   "seo": {
     "title": "Réceptionniste IA pour Chaque Secteur | Aibooking.dk",
     "description": "Réceptionniste IA et standard téléphonique IA pour cabinets, artisans et bureaux, plus un chatbot IA pour l'e-commerce. Essai gratuit de 7 jours.",
-    "keywords": "permanence téléphonique IA, réceptionniste IA danoise, widget pour boutique en ligne, widget IA pour Shopify, solutions sectorielles, réceptionniste IA secteurs, IA santé, IA artisanat, IA bureau, IA boutique en ligne"
+    "keywords": "permanence téléphonique IA, réceptionniste virtuel IA, widget pour boutique en ligne, widget IA pour Shopify, solutions sectorielles, réceptionniste IA secteurs, IA santé, IA artisanat, IA bureau, IA boutique en ligne"
   },
-  "breadcrumb": { "home": "Accueil", "industries": "Secteurs" },
+  "breadcrumb": {
+    "home": "Accueil",
+    "industries": "Secteurs"
+  },
   "hero": {
     "badge": "Solutions pour tous les secteurs",
     "title_line1": "Trouvez la réceptionniste IA",
@@ -29,10 +32,22 @@
         "Conformité RGPD totale pour les données sensibles des patients"
       ],
       "stats": [
-        { "label": "Moins de rendez-vous manqués", "value": "60%" },
-        { "label": "Temps gagné", "value": "12h/semaine" },
-        { "label": "Taux de réservation", "value": "95%" },
-        { "label": "Satisfaction client", "value": "4.8/5" }
+        {
+          "label": "Moins de rendez-vous manqués",
+          "value": "60%"
+        },
+        {
+          "label": "Temps gagné",
+          "value": "12h/semaine"
+        },
+        {
+          "label": "Taux de réservation",
+          "value": "95%"
+        },
+        {
+          "label": "Satisfaction client",
+          "value": "4.8/5"
+        }
       ]
     },
     "craftsman": {
@@ -48,10 +63,22 @@
         "Ne manquez plus jamais une commande — le système fonctionne 24h/24 et 7j/7"
       ],
       "stats": [
-        { "label": "Plus de commandes", "value": "+45%" },
-        { "label": "Temps gagné", "value": "10h/semaine" },
-        { "label": "Taux de réponse", "value": "100%" },
-        { "label": "Satisfaction client", "value": "4.9/5" }
+        {
+          "label": "Plus de commandes",
+          "value": "+45%"
+        },
+        {
+          "label": "Temps gagné",
+          "value": "10h/semaine"
+        },
+        {
+          "label": "Taux de réponse",
+          "value": "100%"
+        },
+        {
+          "label": "Satisfaction client",
+          "value": "4.9/5"
+        }
       ]
     },
     "office": {
@@ -67,10 +94,22 @@
         "Intégration avec les systèmes CRM et de calendrier existants"
       ],
       "stats": [
-        { "label": "Productivité", "value": "+35%" },
-        { "label": "Temps gagné", "value": "15h/semaine" },
-        { "label": "Appels traités", "value": "98%" },
-        { "label": "ROI", "value": "320%" }
+        {
+          "label": "Productivité",
+          "value": "+35%"
+        },
+        {
+          "label": "Temps gagné",
+          "value": "15h/semaine"
+        },
+        {
+          "label": "Appels traités",
+          "value": "98%"
+        },
+        {
+          "label": "ROI",
+          "value": "320%"
+        }
       ]
     },
     "ecommerce": {
@@ -86,21 +125,42 @@
         "Intégration avec votre système de boutique en ligne et de gestion des commandes"
       ],
       "stats": [
-        { "label": "Réponses plus rapides", "value": "95%" },
-        { "label": "Satisfaction client", "value": "+40%" },
-        { "label": "Demandes traitées", "value": "1 200+/mois" },
-        { "label": "Conversion", "value": "+28%" }
+        {
+          "label": "Réponses plus rapides",
+          "value": "95%"
+        },
+        {
+          "label": "Satisfaction client",
+          "value": "+40%"
+        },
+        {
+          "label": "Demandes traitées",
+          "value": "1 200+/mois"
+        },
+        {
+          "label": "Conversion",
+          "value": "+28%"
+        }
       ]
     }
   },
   "bottomStats": {
-    "days": { "value": "7 jours", "label": "Accès démo gratuit" },
-    "free": { "value": "100%", "label": "Sans engagement" },
-    "support": { "value": "24/7", "label": "Support et exploitation" }
+    "days": {
+      "value": "7 jours",
+      "label": "Accès démo gratuit"
+    },
+    "free": {
+      "value": "100%",
+      "label": "Sans engagement"
+    },
+    "support": {
+      "value": "24/7",
+      "label": "Support et exploitation"
+    }
   },
   "seoContent": {
-    "title": "Réceptionniste IA pour les Entreprises Danoises",
-    "intro": "Aibooking.dk est la solution de réceptionniste IA leader au Danemark, automatisant le service client, la réservation et l'administration pour les entreprises de tous les secteurs.",
+    "title": "Réceptionniste IA pour les entreprises de tous les secteurs",
+    "intro": "Aibooking.dk est une solution de réceptionniste IA de premier plan venue du Danemark, automatisant le service client, la réservation et l'administration pour les entreprises de tous les secteurs.",
     "whatIs": {
       "title": "Qu'est-ce qu'une réceptionniste IA ?",
       "paragraph1": "Une réceptionniste IA est une assistante virtuelle intelligente qui gère automatiquement toutes vos demandes clients, 24h/24. Notre technologie IA avancée peut répondre aux appels, prendre des réservations, envoyer des confirmations SMS, gérer les reports et bien plus encore — le tout sans intervention humaine.",
@@ -138,7 +198,7 @@
         "Réduisez les rendez-vous manqués grâce aux rappels SMS automatiques",
         "Vue d'ensemble complète avec un dashboard intelligent et des résumés de conversations",
         "Intégration transparente avec vos systèmes existants",
-        "Support en français et solutions adaptées à votre entreprise"
+        "Un support personnalisé et des solutions adaptées à votre entreprise"
       ]
     },
     "closing": {
@@ -157,9 +217,18 @@
     },
     "errorMessage": "Une erreur s'est produite. Veuillez réessayer.",
     "fields": {
-      "name": { "label": "Nom", "placeholder": "Votre nom complet" },
-      "email": { "label": "Email", "placeholder": "votre@email.fr" },
-      "phone": { "label": "Téléphone", "placeholder": "Votre numéro de téléphone" },
+      "name": {
+        "label": "Nom",
+        "placeholder": "Votre nom complet"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "votre@email.fr"
+      },
+      "phone": {
+        "label": "Téléphone",
+        "placeholder": "Votre numéro de téléphone"
+      },
       "industry": {
         "label": "Secteur",
         "placeholder": "Sélectionnez votre secteur",
@@ -170,8 +239,13 @@
           "webshop": "Boutique en ligne"
         }
       },
-      "callDate": { "label": "Date préférée pour l'appel" },
-      "message": { "label": "Message (facultatif)", "placeholder": "Parlez-nous un peu de vos besoins..." }
+      "callDate": {
+        "label": "Date préférée pour l'appel"
+      },
+      "message": {
+        "label": "Message (facultatif)",
+        "placeholder": "Parlez-nous un peu de vos besoins..."
+      }
     },
     "submitButton": "Réserver une présentation gratuite",
     "submitButtonLoading": "Envoi en cours...",

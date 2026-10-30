@@ -1,10 +1,13 @@
 {
   "seo": {
-    "title": "AI Receptionist for Every Industry | Aibooking.dk",
-    "description": "AI receptionist and AI phone answering for clinics, trades and offices – plus an AI chatbot for webshops and Shopify. Find the right setup. Try it free.",
-    "keywords": "AI phone answering, Danish AI receptionist, webshop widget, AI widget for Shopify, industry solutions, AI receptionist industries, healthcare AI, craftsman AI, office AI, webshop AI"
+    "title": "AI Receptionist & Webshop Widget – All Industries | Aibooking.dk",
+    "description": "AI phone answering and an AI receptionist for clinics, trades and offices – plus an AI widget for webshops and Shopify. Try it free.",
+    "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, industry solutions, AI receptionist industries, healthcare AI, craftsman AI, office AI, webshop AI"
   },
-  "breadcrumb": { "home": "Home", "industries": "Industries" },
+  "breadcrumb": {
+    "home": "Home",
+    "industries": "Industries"
+  },
   "hero": {
     "badge": "Solutions for every industry",
     "title_line1": "Find the right AI receptionist",
@@ -29,10 +32,22 @@
         "Full GDPR compliance for sensitive patient data"
       ],
       "stats": [
-        { "label": "Fewer no-shows", "value": "60%" },
-        { "label": "Time saved", "value": "12h/week" },
-        { "label": "Booking rate", "value": "95%" },
-        { "label": "Customer satisfaction", "value": "4.8/5" }
+        {
+          "label": "Fewer no-shows",
+          "value": "60%"
+        },
+        {
+          "label": "Time saved",
+          "value": "12h/week"
+        },
+        {
+          "label": "Booking rate",
+          "value": "95%"
+        },
+        {
+          "label": "Customer satisfaction",
+          "value": "4.8/5"
+        }
       ]
     },
     "craftsman": {
@@ -48,10 +63,22 @@
         "Never miss an order again — the system works 24/7"
       ],
       "stats": [
-        { "label": "More orders", "value": "+45%" },
-        { "label": "Time saved", "value": "10h/week" },
-        { "label": "Answer rate", "value": "100%" },
-        { "label": "Customer satisfaction", "value": "4.9/5" }
+        {
+          "label": "More orders",
+          "value": "+45%"
+        },
+        {
+          "label": "Time saved",
+          "value": "10h/week"
+        },
+        {
+          "label": "Answer rate",
+          "value": "100%"
+        },
+        {
+          "label": "Customer satisfaction",
+          "value": "4.9/5"
+        }
       ]
     },
     "office": {
@@ -67,10 +94,22 @@
         "Integration with existing CRM and calendar systems"
       ],
       "stats": [
-        { "label": "Productivity", "value": "+35%" },
-        { "label": "Time saved", "value": "15h/week" },
-        { "label": "Calls handled", "value": "98%" },
-        { "label": "ROI", "value": "320%" }
+        {
+          "label": "Productivity",
+          "value": "+35%"
+        },
+        {
+          "label": "Time saved",
+          "value": "15h/week"
+        },
+        {
+          "label": "Calls handled",
+          "value": "98%"
+        },
+        {
+          "label": "ROI",
+          "value": "320%"
+        }
       ]
     },
     "ecommerce": {
@@ -86,21 +125,42 @@
         "Integration with your webshop system and order management"
       ],
       "stats": [
-        { "label": "Faster responses", "value": "95%" },
-        { "label": "Customer satisfaction", "value": "+40%" },
-        { "label": "Enquiries handled", "value": "1,200+/mo" },
-        { "label": "Conversion", "value": "+28%" }
+        {
+          "label": "Faster responses",
+          "value": "95%"
+        },
+        {
+          "label": "Customer satisfaction",
+          "value": "+40%"
+        },
+        {
+          "label": "Enquiries handled",
+          "value": "1,200+/mo"
+        },
+        {
+          "label": "Conversion",
+          "value": "+28%"
+        }
       ]
     }
   },
   "bottomStats": {
-    "days": { "value": "7 days", "label": "Free demo access" },
-    "free": { "value": "100%", "label": "No obligation" },
-    "support": { "value": "24/7", "label": "Support and operations" }
+    "days": {
+      "value": "7 days",
+      "label": "Free demo access"
+    },
+    "free": {
+      "value": "100%",
+      "label": "No obligation"
+    },
+    "support": {
+      "value": "24/7",
+      "label": "Support and operations"
+    }
   },
   "seoContent": {
-    "title": "AI Receptionist for Danish Businesses",
-    "intro": "Aibooking.dk is Denmark's leading AI receptionist solution, automating customer service, booking and administration for businesses in every industry.",
+    "title": "AI Receptionist for Businesses in Every Industry",
+    "intro": "Aibooking.dk is a leading AI receptionist solution from Denmark, automating customer service, booking and administration for businesses in every industry.",
     "whatIs": {
       "title": "What is an AI receptionist?",
       "paragraph1": "An AI receptionist is an intelligent virtual assistant that handles all your customer enquiries automatically around the clock. Our advanced AI technology can answer calls, take bookings, send SMS confirmations, handle rebookings and much more — all without human intervention.",
@@ -138,7 +198,7 @@
         "Reduce no-shows with automatic SMS reminders",
         "Complete overview with an intelligent dashboard and conversation summaries",
         "Seamless integration with your existing systems",
-        "Danish support and solutions tailored to your business"
+        "Personal support and solutions tailored to your business"
       ]
     },
     "closing": {
@@ -157,9 +217,18 @@
     },
     "errorMessage": "An error occurred. Please try again.",
     "fields": {
-      "name": { "label": "Name", "placeholder": "Your full name" },
-      "email": { "label": "Email", "placeholder": "your@email.com" },
-      "phone": { "label": "Phone", "placeholder": "Your phone number" },
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your@email.com"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "Your phone number"
+      },
       "industry": {
         "label": "Industry",
         "placeholder": "Select your industry",
@@ -170,8 +239,13 @@
           "webshop": "Webshop"
         }
       },
-      "callDate": { "label": "Preferred date for a call" },
-      "message": { "label": "Message (optional)", "placeholder": "Tell us a bit about your needs..." }
+      "callDate": {
+        "label": "Preferred date for a call"
+      },
+      "message": {
+        "label": "Message (optional)",
+        "placeholder": "Tell us a bit about your needs..."
+      }
     },
     "submitButton": "Book free presentation",
     "submitButtonLoading": "Sending...",

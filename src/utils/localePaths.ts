@@ -1,7 +1,7 @@
 import { LANGUAGE_PATH_PREFIX, SUPPORTED_LANGUAGES, SupportedLanguage } from '../i18n/config';
 
-// Danish has no prefix (canonical/default language); en/pt/fr are prefixed
-// with /en, /pt, /fr. Given a raw pathname, split it into the language it
+// Danish has no prefix (canonical/default language); en/es/de/fr are
+// prefixed with /en, /es, /de, /fr. Given a raw pathname, split it into the language it
 // specifies (if any) and the underlying Danish-worded path.
 export function splitLocalizedPath(pathname: string): { lang: SupportedLanguage; path: string } {
   for (const lang of SUPPORTED_LANGUAGES) {
@@ -25,9 +25,6 @@ export function localizedUrl(lang: SupportedLanguage, path: string): string {
   return `https://www.aibooking.dk${buildLocalizedPath(lang, path)}`;
 }
 
-// Blog posts only exist in Danish and English (other languages read the
-// English text), so link pt/fr/es readers straight to the English post
-// instead of a /pt/blog/... URL that isn't published.
 export function blogPostPath(lang: SupportedLanguage, slug: string): string {
-  return buildLocalizedPath(lang === 'da' ? 'da' : 'en', `/blog/${slug}`);
+  return buildLocalizedPath(lang, `/blog/${slug}`);
 }

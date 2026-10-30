@@ -1,0 +1,117 @@
+{
+  "seo": {
+    "title": "Onlineshop-Widget & KI-Widget für Shopify – KI-Kundenservice | Aibooking.dk",
+    "description": "Onlineshop-Widget und KI-Widget für Shopify: KI-Kundenservice, der Bestellungen verfolgt, Lagerbestände prüft und rund um die Uhr per Sprache antwortet.",
+    "keywords": "Onlineshop-Widget, KI-Widget für Shopify, Shopify KI, Shopify KI-Automatisierung, KI-Kundenservice Onlineshop, KI-Widget Onlineshop, Shopify Chatbot, KI-Sendungsverfolgung, Sprachassistent Onlineshop, WooCommerce Chatbot, E-Commerce Kundenservice"
+  },
+  "breadcrumb": {
+    "home": "Startseite",
+    "industries": "Branchen",
+    "ecommerce": "E-Commerce & Onlineshop"
+  },
+  "hero": {
+    "badge": "E-Commerce & Onlineshop",
+    "title": "Kundenservice, der mit Ihrem Unternehmen wächst",
+    "subtitle": "Im E-Commerce ist schneller Kundenservice erfolgsentscheidend. Verspätete Antworten auf Kundenanfragen bedeuten verlorene Umsätze und schlechte Bewertungen. Doch einen Kundenservice rund um die Uhr zu besetzen, ist teuer und aufwendig."
+  },
+  "mainCard": {
+    "title": "KI-gestützter Kundenservice, der nie schläft",
+    "description": "Aibooking.dk gibt Ihnen einen KI-gestützten Kundenservice, der nie schläft. Das System beantwortet häufige Fragen zu Produkten, Lieferzeiten, Retouren und Bestellstatus sofort. Komplexe Anfragen werden automatisch an Ihr Team weitergeleitet. Mit SMS-Benachrichtigungen halten Sie Kunden während des gesamten Kaufprozesses auf dem Laufenden. Ihr Dashboard zeigt alle Kundeninteraktionen, Gesprächszusammenfassungen, häufige Fragen und Trends, damit Sie Ihren Service laufend verbessern können. Verkürzen Sie Antwortzeiten von Stunden auf Sekunden und steigern Sie die Kundenzufriedenheit deutlich."
+  },
+  "benefits": [
+    {
+      "title": "Kundenservice rund um die Uhr",
+      "description": "Anfragen sofort beantworten – ohne zusätzliches Personal"
+    },
+    {
+      "title": "Automatische Antworten",
+      "description": "Fragen zu Produkten, Bestellstatus und Retouren bearbeiten"
+    },
+    {
+      "title": "SMS-Updates",
+      "description": "Automatische Benachrichtigungen zu Versand und Zustellung"
+    },
+    {
+      "title": "Blitzschnelle Antwortzeiten",
+      "description": "Antwortzeiten von Stunden auf Sekunden verkürzen"
+    },
+    {
+      "title": "Einblick in Trends",
+      "description": "Dashboard mit Kundeninteraktionen und häufigen Fragen"
+    },
+    {
+      "title": "Onlineshop-Integration",
+      "description": "Anbindung an Ihr Shopsystem und Ihre Auftragsverwaltung"
+    }
+  ],
+  "stats": [
+    {
+      "value": "95%",
+      "label": "Schnellere Antworten"
+    },
+    {
+      "value": "+40%",
+      "label": "Kundenzufriedenheit"
+    },
+    {
+      "value": "1200+",
+      "label": "Anfragen/Monat"
+    },
+    {
+      "value": "+28%",
+      "label": "Conversion"
+    }
+  ],
+  "voiceWidget": {
+    "badge": "KI-Sprach-Widget für Ihren Onlineshop",
+    "title": "Wie ein zusätzlicher Verkäufer im Laden – der Chat Ihres Shops, nur smarter",
+    "intro": "Das KI-Widget von Aibooking.dk kommt direkt in Ihren Onlineshop – egal ob Sie Shopify, WooCommerce oder Magento nutzen. Kunden können sprechen oder schreiben, um eine Bestellung zu prüfen, ein Produkt nachzubestellen oder den richtigen Artikel zu finden – automatisch und rund um die Uhr.",
+    "cards": [
+      {
+        "title": "Verfolgt Bestellungen",
+        "desc": "„Wo ist mein Paket?“ wird sofort anhand des aktuellen Bestellstatus beantwortet"
+      },
+      {
+        "title": "Bestellt Produkte nach",
+        "desc": "Der Kunde bestellt einen früheren Artikel direkt im Gespräch nach"
+      },
+      {
+        "title": "Hilft beim Kauf",
+        "desc": "Beantwortet Fragen zu Lagerbestand, Größen und Lieferung, während der Kunde einkauft"
+      }
+    ],
+    "cta": "KI-Widget für Onlineshops ansehen"
+  },
+  "shopifyHighlight": {
+    "badge": "Neu",
+    "title": "Jetzt direkt mit Ihrem Shopify-Shop verbunden – und mit Ihrem Kalender",
+    "subtitle": "Verbinden Sie Ihren Shop einmal im Dashboard, und der KI-Agent holt Produkte, Lagerbestände und Bestellungen direkt aus Shopify und kann Termine direkt in Ihrem Kalender buchen – ohne manuelle Aktualisierungen.",
+    "features": [
+      {
+        "title": "Shopify-Integration",
+        "desc": "Der Agent beantwortet Produktfragen, Preise und „Wo ist mein Paket?“ mit Live-Daten aus Ihrem Shopify-Shop – in 5 Minuten startklar."
+      },
+      {
+        "title": "Kalenderintegration",
+        "desc": "Buchen Sie persönliche Beratungen, Abholzeiten oder Rückrufe direkt in Ihren Google Kalender oder Outlook – automatisch synchronisiert."
+      }
+    ],
+    "cta": "So funktioniert die Shopify-Integration"
+  },
+  "perfectFor": {
+    "title": "Ideal für alle Onlineunternehmen",
+    "items": [
+      "Onlineshops",
+      "E-Commerce",
+      "Dropshipping",
+      "Marktplätze",
+      "Onlinehandel"
+    ],
+    "cta": "Unverbindliches Gespräch buchen und kostenlosen Testzugang erhalten"
+  },
+  "ctaSection": {
+    "title": "Bereit für den Start?",
+    "subtitle": "Buchen Sie ein kostenloses, unverbindliches Gespräch und erhalten Sie einen Testzugang, um das System selbst auszuprobieren",
+    "button": "Unverbindliches Gespräch buchen und kostenlosen Testzugang erhalten"
+  }
+}

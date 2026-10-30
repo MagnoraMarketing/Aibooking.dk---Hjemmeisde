@@ -2,14 +2,17 @@
   "seo": {
     "title": "À Propos – Réceptionniste IA Danoise | Aibooking.dk",
     "description": "L'équipe d'Aibooking.dk a plus de 20 ans d'expérience du contact client. Notre réceptionniste virtuelle automatise appels et réservations.",
-    "keywords": "permanence téléphonique IA, réceptionniste IA danoise, widget pour boutique en ligne, widget IA pour Shopify, à propos d'aibooking, expérience en télémarketing, réceptionniste virtuelle, service client IA au Danemark, appels entrants, appels sortants, automatisation du contact client"
+    "keywords": "permanence téléphonique IA, réceptionniste virtuel IA, widget pour boutique en ligne, widget IA pour Shopify, à propos d'aibooking, expérience en télémarketing, réceptionniste virtuelle, service client IA, appels entrants, appels sortants, automatisation du contact client"
   },
-  "breadcrumb": { "home": "Accueil", "about": "À Propos" },
+  "breadcrumb": {
+    "home": "Accueil",
+    "about": "À Propos"
+  },
   "hero": {
     "badge": "À propos d'Aibooking.dk",
     "title_line1": "Nous révolutionnons",
     "title_line2": "le service client grâce à l'IA",
-    "subtitle": "Notre mission est d'aider les entreprises danoises à offrir un service client exceptionnel 24 heures sur 24 grâce à une technologie d'IA avancée."
+    "subtitle": "Notre mission est d'aider les entreprises à offrir un service client exceptionnel 24 heures sur 24 grâce à une technologie d'IA avancée."
   },
   "story": {
     "badge": "Notre histoire",
@@ -23,27 +26,51 @@
   },
   "vision": {
     "title": "Notre vision",
-    "description": "Devenir le premier fournisseur au Danemark de solutions de service client basées sur l'IA, en aidant les entreprises à se développer grâce à de meilleures expériences client.",
+    "description": "Être un fournisseur de premier plan de solutions de service client basées sur l'IA, en aidant les entreprises à se développer grâce à de meilleures expériences client.",
     "badge": "L'innovation nous fait avancer"
   },
   "values": {
     "title": "Nos valeurs",
     "subtitle": "Les principes qui guident tout ce que nous faisons",
     "items": [
-      { "title": "Orientation client", "description": "Nous plaçons toujours les besoins de nos clients au centre et nous nous efforçons de fournir le meilleur service possible." },
-      { "title": "Innovation", "description": "Nous développons constamment de nouvelles solutions et améliorons notre technologie d'IA pour rester à la pointe." },
-      { "title": "Fiabilité", "description": "Nous fournissons des solutions stables et sécurisées sur lesquelles vous pouvez compter jour après jour." },
-      { "title": "Croissance", "description": "Nous aidons les entreprises à se développer en automatisant et en optimisant leur service client." }
+      {
+        "title": "Orientation client",
+        "description": "Nous plaçons toujours les besoins de nos clients au centre et nous nous efforçons de fournir le meilleur service possible."
+      },
+      {
+        "title": "Innovation",
+        "description": "Nous développons constamment de nouvelles solutions et améliorons notre technologie d'IA pour rester à la pointe."
+      },
+      {
+        "title": "Fiabilité",
+        "description": "Nous fournissons des solutions stables et sécurisées sur lesquelles vous pouvez compter jour après jour."
+      },
+      {
+        "title": "Croissance",
+        "description": "Nous aidons les entreprises à se développer en automatisant et en optimisant leur service client."
+      }
     ]
   },
   "benefits": {
     "title": "Pourquoi choisir Aibooking.dk ?",
     "subtitle": "Expérience, expertise et résultats qui parlent d'eux-mêmes",
     "items": [
-      { "title": "Une expérience qui fait la différence", "description": "Avec plus de 20 ans d'expérience en télémarketing, nous connaissons tous les défis du contact client. Notre solution d'IA repose sur une véritable connaissance du secteur." },
-      { "title": "Une automatisation qui fonctionne", "description": "Nous savons exactement quelles parties du contact client peuvent être automatisées efficacement. Notre réceptionniste virtuelle gère aussi bien les appels entrants que sortants, de manière professionnelle." },
-      { "title": "Support en danois, anglais et espagnol", "description": "Notre IA parle parfaitement le danois, l'anglais et l'espagnol. Nous vous offrons un accompagnement local basé sur une connaissance approfondie du marché." },
-      { "title": "Une expérience dans de nombreux secteurs", "description": "Nous avons de nombreuses années d'expérience dans divers secteurs, ce qui nous donne une compréhension solide de la meilleure façon de configurer la solution pour votre entreprise." }
+      {
+        "title": "Une expérience qui fait la différence",
+        "description": "Avec plus de 20 ans d'expérience en télémarketing, nous connaissons tous les défis du contact client. Notre solution d'IA repose sur une véritable connaissance du secteur."
+      },
+      {
+        "title": "Une automatisation qui fonctionne",
+        "description": "Nous savons exactement quelles parties du contact client peuvent être automatisées efficacement. Notre réceptionniste virtuelle gère aussi bien les appels entrants que sortants, de manière professionnelle."
+      },
+      {
+        "title": "Support en danois, anglais et espagnol",
+        "description": "Notre IA parle parfaitement le danois, l'anglais et l'espagnol. Nous vous offrons un accompagnement local basé sur une connaissance approfondie du marché."
+      },
+      {
+        "title": "Une expérience dans de nombreux secteurs",
+        "description": "Nous avons de nombreuses années d'expérience dans divers secteurs, ce qui nous donne une compréhension solide de la meilleure façon de configurer la solution pour votre entreprise."
+      }
     ]
   },
   "receptionist": {
@@ -54,7 +81,7 @@
       "description": "Notre réceptionniste virtuelle prend en charge tous les appels entrants, répond aux questions, effectue des réservations et ne transfère l'appel que lorsque c'est nécessaire. Cela se traduit par moins d'interruptions dans le travail et plus de temps pour les tâches essentielles.",
       "features": [
         "Disponibilité 24h/24 et 7j/7",
-        "Communication professionnelle en danois",
+        "Communication professionnelle dans la langue de vos clients",
         "Réservation et confirmation automatiques"
       ]
     },
@@ -72,9 +99,18 @@
     "title": "Widget Aibooking.dk",
     "description": "Le Widget Aibooking.dk facilite la planification et la réservation de rendez-vous sans effort manuel. Intégrez notre widget intelligent directement sur votre site web et laissez l'IA prendre les commandes. Disponible par voix et par texte, avec de nouveaux rendez-vous réservés automatiquement directement dans votre calendrier.",
     "items": [
-      { "title": "Planification basée sur l'IA", "description": "Le widget suggère les meilleurs horaires pour vous et vos clients - de manière entièrement automatique." },
-      { "title": "Réservation par voix et par texte", "description": "Vos clients peuvent choisir entre parler directement à l'IA ou utiliser la réservation par texte." },
-      { "title": "Intégration automatique au calendrier", "description": "Les nouveaux rendez-vous sont automatiquement ajoutés à votre calendrier, sans gestion manuelle." }
+      {
+        "title": "Planification basée sur l'IA",
+        "description": "Le widget suggère les meilleurs horaires pour vous et vos clients - de manière entièrement automatique."
+      },
+      {
+        "title": "Réservation par voix et par texte",
+        "description": "Vos clients peuvent choisir entre parler directement à l'IA ou utiliser la réservation par texte."
+      },
+      {
+        "title": "Intégration automatique au calendrier",
+        "description": "Les nouveaux rendez-vous sont automatiquement ajoutés à votre calendrier, sans gestion manuelle."
+      }
     ],
     "cta": "En savoir plus sur le Widget"
   },

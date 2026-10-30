@@ -1,0 +1,39 @@
+{
+  "points": [
+    "Natural, fluent speech — no robot voice",
+    "Understands what the caller needs and asks the right follow-up questions",
+    "Finds a free slot and books it straight into the calendar"
+  ],
+  "player": {
+    "title": "Booking example – tradesperson / clinic",
+    "play": "Play the recording",
+    "pause": "Pause the recording",
+    "seek": "Seek in the recording",
+    "of": "{{current}} of {{total}}"
+  },
+  "inline": {
+    "badge": "Audio example · 6:38 min",
+    "title": "Hear the AI book an appointment",
+    "text": "A real example of a call where our AI phone assistant answers a customer and books an appointment in the calendar. The call is in Danish — press play and hear the quality for yourself.",
+    "cta": "Try it free for 7 days",
+    "call": "Call the demo: {{phone}}"
+  },
+  "section": {
+    "badge": "Listen to a real call",
+    "title": "Hear our AI answer the call and book an appointment",
+    "text": "It’s easy to promise a good AI voice — it’s better to hear one. Here is an example of a call where a customer phones in and the AI handles the whole conversation and the booking. Press play and hear the quality.",
+    "languageNote": "The example call is in Danish. The AI also answers in English and other languages.",
+    "cta": "Try free for 7 days",
+    "call": "Call it yourself: {{phone}}"
+  },
+  "stats": {
+    "duration": "min. call",
+    "language": "natural speech",
+    "availability": "ready for calls"
+  },
+  "heroLink": "Hear a real call with our AI",
+  "schema": {
+    "name": "Example of a booking with an AI phone assistant (in Danish)",
+    "description": "Audio recording of a real example where the Aibooking.dk AI phone assistant answers a call and books an appointment for the customer, in Danish."
+  }
+}

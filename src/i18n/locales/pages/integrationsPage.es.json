@@ -2,30 +2,60 @@
   "seo": {
     "title": "Reservas con IA en Google Calendar y Outlook | Aibooking.dk",
     "description": "Conecta la recepcionista con IA y el chatbot a Google Calendar, Outlook, Shopify, Microsoft Teams y Zoom. Reservas automáticas sin citas duplicadas.",
-    "keywords": "atención telefónica con IA, recepcionista de IA danesa, widget para tienda online, widget de IA para Shopify, ai booking calendario, integración de calendario, recepción con ia, google calendar, integración outlook, integración sistema de reservas, integración crm, integración de correo electrónico"
+    "keywords": "atención telefónica con IA, recepcionista virtual con IA, widget para tienda online, widget de IA para Shopify, calendario con ia, integración de calendario, recepción con ia, google calendar, integración outlook, integración sistema de reservas, integración crm, integración de correo electrónico"
   },
-  "breadcrumb": { "home": "Inicio", "integrations": "Integraciones" },
+  "breadcrumb": {
+    "home": "Inicio",
+    "integrations": "Integraciones"
+  },
   "hero": {
     "badge": "Integración Perfecta",
     "title_line1": "Conecta con tus",
     "title_line2": "herramientas actuales",
     "subtitle": "Nuestra solución de IA automatiza la administración, llamadas, SMS y correo electrónico trabajando junto a los sistemas que ya usas. Ahorra tiempo, gana profesionalidad y deja que la IA gestione reprogramaciones, seguimientos y confirmaciones de reuniones automáticamente.",
     "features": [
-      { "title": "Ahorra Horas Cada Día", "description": "Automatiza llamadas entrantes y salientes, SMS y correos electrónicos mientras la IA se sincroniza con tus sistemas" },
-      { "title": "Configuración Rápida", "description": "Sin instalaciones complicadas. Conecta tus herramientas actuales en minutos" },
-      { "title": "Siempre Sincronizado", "description": "Actualizaciones en tiempo real en todas tus plataformas. Sin trabajo duplicado" }
+      {
+        "title": "Ahorra Horas Cada Día",
+        "description": "Automatiza llamadas entrantes y salientes, SMS y correos electrónicos mientras la IA se sincroniza con tus sistemas"
+      },
+      {
+        "title": "Configuración Rápida",
+        "description": "Sin instalaciones complicadas. Conecta tus herramientas actuales en minutos"
+      },
+      {
+        "title": "Siempre Sincronizado",
+        "description": "Actualizaciones en tiempo real en todas tus plataformas. Sin trabajo duplicado"
+      }
     ]
   },
   "categoriesSection": {
     "title": "Categorías de Integración",
     "subtitle": "Nuestra solución de IA se conecta con las herramientas que ya usas cada día",
     "categories": [
-      { "title": "Calendario y Programación", "description": "Google Calendar, Outlook, CalDAV" },
-      { "title": "CRM y Clientes", "description": "HubSpot, Salesforce, Pipedrive" },
-      { "title": "Comunicación", "description": "WhatsApp, Slack, Discord, Messenger" },
-      { "title": "Documentos", "description": "Notion, WordPress, Google Docs" },
-      { "title": "E-commerce", "description": "Shopify, WooCommerce, Stripe" },
-      { "title": "Automatización", "description": "Zapier, Make, Webhooks, API" }
+      {
+        "title": "Calendario y Programación",
+        "description": "Google Calendar, Outlook, CalDAV"
+      },
+      {
+        "title": "CRM y Clientes",
+        "description": "HubSpot, Salesforce, Pipedrive"
+      },
+      {
+        "title": "Comunicación",
+        "description": "WhatsApp, Slack, Discord, Messenger"
+      },
+      {
+        "title": "Documentos",
+        "description": "Notion, WordPress, Google Docs"
+      },
+      {
+        "title": "E-commerce",
+        "description": "Shopify, WooCommerce, Stripe"
+      },
+      {
+        "title": "Automatización",
+        "description": "Zapier, Make, Webhooks, API"
+      }
     ]
   },
   "gridSection": {
@@ -35,31 +65,111 @@
       "title": "Creado específicamente para clínicas y centros de tratamiento",
       "description": "Más de 500 clínicas danesas ya han elegido nuestra solución. Desde clínicas dentales y fisioterapeutas hasta salones de belleza y centros de bienestar: nuestro asistente de IA se integra perfectamente con tu sistema de reservas actual y se encarga de todo, desde llamadas telefónicas hasta recordatorios por SMS.",
       "points": [
-        { "strong": "Gestión de datos segura según el RGPD", "text": "— todos los datos de pacientes se tratan de forma confidencial y conforme a la normativa sanitaria" },
-        { "strong": "Reduce las ausencias hasta un 67%", "text": "— los recordatorios automáticos por SMS y correo electrónico mantienen informados a tus clientes" },
-        { "strong": "Configuración en menos de 15 minutos", "text": "— no se requieren conocimientos de informática, nuestro equipo te guía en cada paso" },
-        { "strong": "Soporte danés 7 días a la semana", "text": "— ayuda siempre que la necesites, en tu propio idioma" }
+        {
+          "strong": "Gestión de datos segura según el RGPD",
+          "text": "— todos los datos de pacientes se tratan de forma confidencial y conforme a la normativa sanitaria"
+        },
+        {
+          "strong": "Reduce las ausencias hasta un 67%",
+          "text": "— los recordatorios automáticos por SMS y correo electrónico mantienen informados a tus clientes"
+        },
+        {
+          "strong": "Configuración en menos de 15 minutos",
+          "text": "— no se requieren conocimientos de informática, nuestro equipo te guía en cada paso"
+        },
+        {
+          "strong": "Soporte 7 días a la semana",
+          "text": "— ayuda siempre que la necesites, en tu propio idioma"
+        }
       ]
     },
     "popularBadge": "Popular",
     "integrations": [
-      { "name": "Google Calendar", "description": "Reserva automática y sincronización de reuniones", "category": "Calendario" },
-      { "name": "Outlook", "description": "Integración con Microsoft 365 para correo y calendario", "category": "Calendario" },
-      { "name": "WhatsApp", "description": "Envía confirmaciones y recordatorios por SMS", "category": "Comunicación" },
-      { "name": "Slack", "description": "Notificaciones en tiempo real para tu equipo", "category": "Comunicación" },
-      { "name": "Shopify", "description": "Integración de reservas para e-commerce", "category": "E-commerce" },
-      { "name": "Notion", "description": "Sincronización de documentos y notas", "category": "Productividad" },
-      { "name": "WordPress", "description": "Añade reservas a tu sitio web", "category": "Sitio web" },
-      { "name": "Zapier", "description": "Conecta con más de 5.000 aplicaciones automáticamente", "category": "Automatización" },
-      { "name": "Zoom", "description": "Creación automática de enlaces de reunión", "category": "Vídeo" },
-      { "name": "Microsoft Teams", "description": "Integración de reuniones de Teams", "category": "Vídeo" },
-      { "name": "Messenger", "description": "Integración con Facebook Messenger", "category": "Comunicación" },
-      { "name": "Discord", "description": "Integración de comunidad y servidor", "category": "Comunicación" },
-      { "name": "OpenAI", "description": "Soporte avanzado de IA", "category": "IA" },
-      { "name": "Webhooks", "description": "Integración personalizada con tus sistemas", "category": "Desarrollador" },
-      { "name": "REST API", "description": "Acceso completo a la API de todas las funciones", "category": "Desarrollador" },
-      {"name": "Just Eat", "description": "Deje que el agente pida un mensajero de Just Eat para el cliente", "category": "Entrega"},
-      {"name": "Uber Direct", "description": "Un mensajero desde su negocio hasta el cliente: primero precio y tiempo", "category": "Entrega"}
+      {
+        "name": "Google Calendar",
+        "description": "Reserva automática y sincronización de reuniones",
+        "category": "Calendario"
+      },
+      {
+        "name": "Outlook",
+        "description": "Integración con Microsoft 365 para correo y calendario",
+        "category": "Calendario"
+      },
+      {
+        "name": "WhatsApp",
+        "description": "Envía confirmaciones y recordatorios por SMS",
+        "category": "Comunicación"
+      },
+      {
+        "name": "Slack",
+        "description": "Notificaciones en tiempo real para tu equipo",
+        "category": "Comunicación"
+      },
+      {
+        "name": "Shopify",
+        "description": "Integración de reservas para e-commerce",
+        "category": "E-commerce"
+      },
+      {
+        "name": "Notion",
+        "description": "Sincronización de documentos y notas",
+        "category": "Productividad"
+      },
+      {
+        "name": "WordPress",
+        "description": "Añade reservas a tu sitio web",
+        "category": "Sitio web"
+      },
+      {
+        "name": "Zapier",
+        "description": "Conecta con más de 5.000 aplicaciones automáticamente",
+        "category": "Automatización"
+      },
+      {
+        "name": "Zoom",
+        "description": "Creación automática de enlaces de reunión",
+        "category": "Vídeo"
+      },
+      {
+        "name": "Microsoft Teams",
+        "description": "Integración de reuniones de Teams",
+        "category": "Vídeo"
+      },
+      {
+        "name": "Messenger",
+        "description": "Integración con Facebook Messenger",
+        "category": "Comunicación"
+      },
+      {
+        "name": "Discord",
+        "description": "Integración de comunidad y servidor",
+        "category": "Comunicación"
+      },
+      {
+        "name": "OpenAI",
+        "description": "Soporte avanzado de IA",
+        "category": "IA"
+      },
+      {
+        "name": "Webhooks",
+        "description": "Integración personalizada con tus sistemas",
+        "category": "Desarrollador"
+      },
+      {
+        "name": "REST API",
+        "description": "Acceso completo a la API de todas las funciones",
+        "category": "Desarrollador"
+      },
+      {
+        "name": "Just Eat",
+        "description": "Deje que el agente pida un mensajero de Just Eat para el cliente",
+        "category": "Entrega"
+      },
+      {
+        "name": "Uber Direct",
+        "description": "Un mensajero desde su negocio hasta el cliente: primero precio y tiempo",
+        "category": "Entrega"
+      }
     ],
     "missing": {
       "title": "¿Falta tu integración?",
@@ -77,9 +187,18 @@
     },
     "solutions": {
       "title": "Shopify, reservas — o ambas cosas",
-      "shopify": { "title": "Tienda Shopify", "text": "Responde automáticamente a preguntas sobre productos, envíos y devoluciones, y reduce los carritos abandonados con un widget de IA disponible 24/7 en tu tienda." },
-      "booking": { "title": "AI Booking y Calendario", "text": "Permite a los clientes reservar, cambiar y cancelar citas por teléfono o en tu web, mientras la IA se sincroniza directamente con tu calendario y envía recordatorios automáticos por SMS." },
-      "combined": { "title": "Tienda online + reservas combinadas", "text": "¿Vendes productos y servicios — una clínica con tienda online, o un salón que también vende productos? La IA puede gestionar preguntas sobre pedidos y reservas de citas en la misma conversación." }
+      "shopify": {
+        "title": "Tienda Shopify",
+        "text": "Responde automáticamente a preguntas sobre productos, envíos y devoluciones, y reduce los carritos abandonados con un widget de IA disponible 24/7 en tu tienda."
+      },
+      "booking": {
+        "title": "AI Booking y Calendario",
+        "text": "Permite a los clientes reservar, cambiar y cancelar citas por teléfono o en tu web, mientras la IA se sincroniza directamente con tu calendario y envía recordatorios automáticos por SMS."
+      },
+      "combined": {
+        "title": "Tienda online + reservas combinadas",
+        "text": "¿Vendes productos y servicios — una clínica con tienda online, o un salón que también vende productos? La IA puede gestionar preguntas sobre pedidos y reservas de citas en la misma conversación."
+      }
     },
     "howItWorks": {
       "title": "Cómo funciona en la práctica",
@@ -116,9 +235,18 @@
       "Gestión profesional 24/7"
     ],
     "stats": [
-      { "value": "5 min", "label": "Tiempo medio de configuración" },
-      { "value": "24/7", "label": "Atención al cliente con IA" },
-      { "value": "100%", "label": "Sincronización automática" }
+      {
+        "value": "5 min",
+        "label": "Tiempo medio de configuración"
+      },
+      {
+        "value": "24/7",
+        "label": "Atención al cliente con IA"
+      },
+      {
+        "value": "100%",
+        "label": "Sincronización automática"
+      }
     ]
   },
   "foodDelivery": {

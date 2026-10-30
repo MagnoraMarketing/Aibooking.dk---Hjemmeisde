@@ -1,0 +1,87 @@
+{
+  "seo": {
+    "title": "Kontakt – Hilfe und Support | Aibooking.dk",
+    "description": "Fragen zu unserem KI-Rezeptionisten? Kontaktieren Sie unser Support-Team. Wir antworten innerhalb von 24 Stunden per E-Mail.",
+    "keywords": "Aibooking Kontakt, KI-Rezeptionist Hilfe, KI-Telefonservice Support, Kundenservice, Demo anfragen, KI-Widget für Shopify, Onlineshop-Widget"
+  },
+  "breadcrumb": { "home": "Startseite", "contact": "Kontakt" },
+  "hero": {
+    "badge": "Wir helfen Ihnen gern",
+    "title": "Kontaktieren Sie uns noch heute",
+    "subtitle": "Haben Sie Fragen oder möchten Sie mehr darüber erfahren, wie Aibooking.dk Ihrem Unternehmen helfen kann? Wir sind für Sie da."
+  },
+  "infoCards": {
+    "call": { "title": "Anrufen und die KI testen", "desc": "Rufen Sie kostenlos an und erleben Sie unseren KI-Rezeptionisten live" },
+    "email": { "title": "E-Mail schreiben", "desc": "Wir antworten innerhalb von 24 Stunden" },
+    "hours": { "title": "Öffnungszeiten", "line1": "Mo–Fr: 9:00–17:00 Uhr", "line2": "Wochenende: geschlossen" }
+  },
+  "coreServices": {
+    "badge": "Unsere Kernleistungen",
+    "title": "3 Wege, wie wir Ihr Telefon automatisieren",
+    "subtitle": "Ob eine KI ans Telefon gehen soll, Sie ein sprachgesteuertes Widget auf Ihrer Website möchten oder ein- und ausgehende Anrufe automatisieren wollen – hier fangen Sie an.",
+    "items": [
+      {
+        "title": "KI-Rezeption",
+        "description": "Ein KI-Telefonassistent nimmt jeden eingehenden Anruf rund um die Uhr an, bucht Termine direkt in Ihren Kalender und verschickt SMS-Erinnerungen – damit Sie keinen Kunden mehr verpassen.",
+        "cta": "KI-Rezeption ansehen"
+      },
+      {
+        "title": "KI-Widget",
+        "description": "Fügen Sie Ihrer Website ein sprachgesteuertes KI-Widget hinzu, das Fragen beantwortet und Termine bucht, während die Besucher noch auf der Seite sind.",
+        "cta": "KI-Widget ansehen"
+      },
+      {
+        "title": "Ein- und ausgehende Anrufe",
+        "description": "Automatisieren Sie eingehende Kundenanrufe und ausgehende Anrufe an Leads mit einem KI-Telefonassistenten, der natürlich klingt.",
+        "cta": "Ein- und ausgehende Anrufe ansehen"
+      }
+    ]
+  },
+  "form": {
+    "title": "Schreiben Sie uns",
+    "subtitle": "Füllen Sie das Formular aus, und wir melden uns so schnell wie möglich bei Ihnen",
+    "successTitle": "Vielen Dank für Ihre Nachricht!",
+    "successMessage": "Wir melden uns so schnell wie möglich bei Ihnen.",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "labels": {
+      "name": "Name",
+      "email": "E-Mail",
+      "phone": "Telefon (optional)",
+      "inquiryType": "Art der Anfrage",
+      "preferredDate": "Bevorzugter Kontaktzeitpunkt (optional)",
+      "message": "Nachricht"
+    },
+    "placeholders": {
+      "name": "Ihr vollständiger Name",
+      "email": "ihre@email.de",
+      "phone": "Ihre Telefonnummer",
+      "inquiryType": "Wählen Sie ein Thema für Ihre Anfrage",
+      "message": "Wie können wir helfen?"
+    },
+    "inquiryTypeOptions": {
+      "widget": "KI-Widget",
+      "inboundOutbound": "Ein- und ausgehende Anrufe (Telefonassistent)",
+      "reception": "KI-Rezeption",
+      "reseller": "Wiederverkäufer / unsere Produkte vertreiben",
+      "aiSolutions": "Zusammenarbeit bei unseren KI-Lösungen",
+      "other": "Sonstiges"
+    },
+    "preferredDateHint": "Die Buchung eines genauen Termins im Kalender ist bald verfügbar. Bis dahin melden wir uns rund um das Datum, das Sie hier angeben.",
+    "submit": "Nachricht senden",
+    "sending": "Wird gesendet …"
+  },
+  "location": {
+    "title": "Hier finden Sie uns",
+    "companyName": "Aibooking.dk ApS",
+    "addressLine1": "Trindsøvej 6, 1. sal",
+    "addressLine2": "8000 Aarhus C, Dänemark"
+  },
+  "whyUs": {
+    "title": "Warum wir?",
+    "items": [
+      "Persönlicher Support auf Englisch und Dänisch",
+      "Schnelle Einrichtung",
+      "DSGVO-konforme Lösung"
+    ]
+  }
+}

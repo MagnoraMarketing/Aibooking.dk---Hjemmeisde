@@ -19,11 +19,26 @@
       "heading": "3. What data we collect",
       "intro": "We collect the following categories of personal data:",
       "labelItems": [
-        { "label": "Account data", "desc": "Name, email address, phone number, and other information you provide when creating an account" },
-        { "label": "Payment data", "desc": "Billing address and payment information (processed securely via payment providers)" },
-        { "label": "Usage data", "desc": "Information about your activities on the platform, such as bookings, enquiries, and interactions" },
-        { "label": "Technical data", "desc": "IP address, browser type, device type, and other technical information" },
-        { "label": "Communication data", "desc": "Emails, messages, and other communication between you and us" }
+        {
+          "label": "Account data",
+          "desc": "Name, email address, phone number, and other information you provide when creating an account"
+        },
+        {
+          "label": "Payment data",
+          "desc": "Billing address and payment information (processed securely via payment providers)"
+        },
+        {
+          "label": "Usage data",
+          "desc": "Information about your activities on the platform, such as bookings, enquiries, and interactions"
+        },
+        {
+          "label": "Technical data",
+          "desc": "IP address, browser type, device type, and other technical information"
+        },
+        {
+          "label": "Communication data",
+          "desc": "Emails, messages, and other communication between you and us"
+        }
       ]
     },
     {
@@ -50,12 +65,30 @@
       "heading": "7. Your rights",
       "intro": "Under the GDPR, you have the following rights regarding your personal data:",
       "labelItems": [
-        { "label": "Right of access", "desc": "You can request to see what personal data we hold about you" },
-        { "label": "Right to rectification", "desc": "You can request that we correct inaccurate data" },
-        { "label": "Right to erasure", "desc": "You can request that we delete your data" },
-        { "label": "Right to restriction", "desc": "You can request that we restrict the use of your data" },
-        { "label": "Right to data portability", "desc": "You can request to receive your data in a structured format" },
-        { "label": "Right to object", "desc": "You can object to certain processing of your data" }
+        {
+          "label": "Right of access",
+          "desc": "You can request to see what personal data we hold about you"
+        },
+        {
+          "label": "Right to rectification",
+          "desc": "You can request that we correct inaccurate data"
+        },
+        {
+          "label": "Right to erasure",
+          "desc": "You can request that we delete your data"
+        },
+        {
+          "label": "Right to restriction",
+          "desc": "You can request that we restrict the use of your data"
+        },
+        {
+          "label": "Right to data portability",
+          "desc": "You can request to receive your data in a structured format"
+        },
+        {
+          "label": "Right to object",
+          "desc": "You can object to certain processing of your data"
+        }
       ]
     },
     {

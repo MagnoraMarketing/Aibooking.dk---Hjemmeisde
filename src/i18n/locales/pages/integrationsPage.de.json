@@ -1,0 +1,136 @@
+{
+  "seo": {
+    "title": "Integrationen – KI-Rezeptionist mit Ihren Systemen verbinden | Aibooking.dk",
+    "description": "Verbinden Sie unseren KI-Rezeptionisten mit Google Kalender, Outlook, Microsoft Teams, Zoom, Slack und mehr. Nahtlose Kalender- und Buchungsintegration.",
+    "keywords": "KI-Terminbuchung Kalender, Kalenderintegration, KI-Rezeption, Google Kalender Integration, Outlook Integration, Buchungssystem Integration, CRM-Integration, E-Mail-Integration, Shopify KI, KI-Telefonservice"
+  },
+  "breadcrumb": { "home": "Startseite", "integrations": "Integrationen" },
+  "hero": {
+    "badge": "Nahtlose Integration",
+    "title_line1": "Verbinden Sie sich mit Ihren",
+    "title_line2": "bestehenden Tools",
+    "subtitle": "Unsere KI-Lösung automatisiert Verwaltung, Anrufe, SMS und E-Mails, indem sie mit den Systemen zusammenarbeitet, die Sie bereits nutzen. Sparen Sie Zeit, wirken Sie professioneller und lassen Sie die KI Umbuchungen, Nachfassaktionen und Terminbestätigungen automatisch erledigen.",
+    "features": [
+      { "title": "Jeden Tag Stunden sparen", "description": "Automatisieren Sie ein- und ausgehende Anrufe, SMS und E-Mails, während die KI mit Ihren Systemen synchronisiert" },
+      { "title": "Schnelle Einrichtung", "description": "Keine komplizierte Installation. Verbinden Sie Ihre bestehenden Tools in wenigen Minuten" },
+      { "title": "Immer synchron", "description": "Echtzeit-Updates auf allen Plattformen. Keine doppelte Arbeit" }
+    ]
+  },
+  "categoriesSection": {
+    "title": "Integrationskategorien",
+    "subtitle": "Unsere KI-Lösung verbindet sich mit den Tools, die Sie jeden Tag nutzen",
+    "categories": [
+      { "title": "Kalender & Terminplanung", "description": "Google Kalender, Outlook, CalDAV" },
+      { "title": "CRM & Kunden", "description": "HubSpot, Salesforce, Pipedrive" },
+      { "title": "Kommunikation", "description": "WhatsApp, Slack, Discord, Messenger" },
+      { "title": "Dokumente", "description": "Notion, WordPress, Google Docs" },
+      { "title": "E-Commerce", "description": "Shopify, WooCommerce, Stripe" },
+      { "title": "Automatisierung", "description": "Zapier, Make, Webhooks, API" }
+    ]
+  },
+  "gridSection": {
+    "title": "Beliebte Integrationen",
+    "subtitle": "Arbeiten Sie nahtlos mit Ihren bestehenden Tools. Unsere KI übernimmt die Kommunikation automatisch über alle Plattformen hinweg.",
+    "clinicHighlight": {
+      "title": "Speziell für Praxen und Behandlungszentren entwickelt",
+      "description": "Über 500 Praxen in Dänemark haben sich bereits für unsere Lösung entschieden. Von Zahnarztpraxen und Physiotherapeuten bis zu Kosmetikstudios und Wellnesszentren – unser KI-Assistent fügt sich perfekt in Ihr bestehendes Buchungssystem ein und übernimmt alles von Telefonaten bis zu SMS-Erinnerungen.",
+      "points": [
+        { "strong": "DSGVO-konforme Datenverarbeitung", "text": "– alle Patientendaten werden vertraulich und gemäß den Vorschriften im Gesundheitswesen behandelt" },
+        { "strong": "Bis zu 67 % weniger Terminausfälle", "text": "– automatische Erinnerungen per SMS und E-Mail halten Ihre Kunden auf dem Laufenden" },
+        { "strong": "Einrichtung in unter 15 Minuten", "text": "– keine IT-Kenntnisse nötig, unser Team begleitet Sie bei jedem Schritt" },
+        { "strong": "Support 7 Tage die Woche", "text": "– Hilfe, wann immer Sie sie brauchen" }
+      ]
+    },
+    "popularBadge": "Beliebt",
+    "integrations": [
+      { "name": "Google Kalender", "description": "Automatische Buchung und Terminsynchronisierung", "category": "Kalender" },
+      { "name": "Outlook", "description": "Microsoft-365-Integration für E-Mail und Kalender", "category": "Kalender" },
+      { "name": "WhatsApp", "description": "Bestätigungen und Erinnerungen versenden", "category": "Kommunikation" },
+      { "name": "Slack", "description": "Echtzeit-Benachrichtigungen für Ihr Team", "category": "Kommunikation" },
+      { "name": "Shopify", "description": "Buchungsintegration für E-Commerce", "category": "E-Commerce" },
+      { "name": "Notion", "description": "Synchronisierung von Dokumenten und Notizen", "category": "Produktivität" },
+      { "name": "WordPress", "description": "Buchung auf Ihrer Website hinzufügen", "category": "Website" },
+      { "name": "Zapier", "description": "Automatisch mit über 5.000 Apps verbinden", "category": "Automatisierung" },
+      { "name": "Zoom", "description": "Automatische Erstellung von Meeting-Links", "category": "Video" },
+      { "name": "Microsoft Teams", "description": "Integration von Teams-Meetings", "category": "Video" },
+      { "name": "Messenger", "description": "Integration von Facebook Messenger", "category": "Kommunikation" },
+      { "name": "Discord", "description": "Community- und Server-Integration", "category": "Kommunikation" },
+      { "name": "OpenAI", "description": "Erweiterte KI-Unterstützung", "category": "KI" },
+      { "name": "Webhooks", "description": "Individuelle Anbindung an Ihre Systeme", "category": "Entwickler" },
+      { "name": "REST API", "description": "Voller API-Zugriff auf alle Funktionen", "category": "Entwickler" },
+      { "name": "Just Eat", "description": "Der Agent bucht einen Just-Eat-Kurier für den Kunden", "category": "Lieferung" },
+      { "name": "Uber Direct", "description": "Ein Kurier von Ihrem Geschäft zum Kunden – Preis und Zeit vorab", "category": "Lieferung" }
+    ],
+    "missing": {
+      "title": "Ihre Integration fehlt?",
+      "description": "Wir fügen laufend neue Integrationen hinzu. Mit unserer Webhook- und API-Unterstützung können Sie nahezu jedes System mit unserer KI-Lösung verbinden.",
+      "button": "Demo buchen"
+    }
+  },
+  "integrationSEO": {
+    "title": "KI-Buchung, Kalender und Shopify in einer Lösung",
+    "intro": "Ob Sie einen Shopify-Shop betreiben, Termine vergeben oder beides: Unser KI-Rezeptionist und unser KI-Widget beantworten Kundenfragen in Sekunden, senken Kaufabbrüche und buchen mehr Termine – automatisch und rund um die Uhr.",
+    "shopify": {
+      "title": "Was kann der KI-Assistent für Ihren Shopify-Shop tun?",
+      "paragraph1": "Das KI-Widget sitzt direkt auf Ihrer Shopify-Seite und beantwortet Besucherfragen zu Versand, Größen, Lagerbestand und Retouren sofort – auch außerhalb der Geschäftszeiten, wenn ein großer Teil Ihres Traffics kommt. Das bedeutet weniger abgebrochene Warenkörbe und mehr abgeschlossene Käufe.",
+      "paragraph2": "Braucht ein Kunde persönliche Hilfe – etwa bei einer komplizierten Retoure oder einer Sonderbestellung –, übergibt die KI das Gespräch mit dem vollständigen Kontext an Ihr Team, sodass niemand von vorn anfangen muss."
+    },
+    "solutions": {
+      "title": "Shopify, Buchungen – oder beides",
+      "shopify": { "title": "Shopify-Shop", "text": "Beantworten Sie Fragen zu Produkten, Versand und Retouren automatisch und senken Sie Kaufabbrüche mit einem KI-Widget, das rund um die Uhr in Ihrem Shop verfügbar ist." },
+      "booking": { "title": "KI-Buchung & Kalender", "text": "Kunden buchen, verschieben und stornieren Termine per Telefon oder auf Ihrer Website, während die KI direkt mit Ihrem Kalender synchronisiert und automatische SMS-Erinnerungen verschickt." },
+      "combined": { "title": "Onlineshop und Buchungen kombiniert", "text": "Sie verkaufen Produkte und Dienstleistungen – etwa eine Praxis mit Onlineshop oder ein Salon mit Produktverkauf? Dann erledigt die KI Bestellfragen und Terminbuchung im selben Gespräch." }
+    },
+    "howItWorks": {
+      "title": "So funktioniert es in der Praxis",
+      "paragraph1": "Die Integration verbindet sich mit Ihrem Shopify-Shop und Ihrem Kalender, sodass die KI immer aktuelle Bestell- und Verfügbarkeitsdaten hat. Die Einrichtung dauert in der Regel unter 15 Minuten und erfordert keine Entwicklungsarbeit auf Ihrer Seite.",
+      "paragraph2": "Die KI lernt Ihre Produkte, Preise und Öffnungszeiten kennen, und Sie können jederzeit festlegen, was sie selbstständig beantworten darf und wann sie einen Kunden an einen Menschen übergeben soll."
+    },
+    "whyChoose": {
+      "title": "Warum Aibooking für Shopify und Buchungen?",
+      "points": [
+        "Eine KI-Lösung für Onlineshop-Support und Buchungssystem",
+        "Einrichtung in unter 15 Minuten, ohne IT-Kenntnisse",
+        "Support und eine KI, die fließend Englisch und Dänisch spricht",
+        "Ohne Bindung – 7 Tage kostenlos testen"
+      ]
+    },
+    "closing": {
+      "paragraph1": "Ob abgebrochene Shopify-Warenkörbe, verlorene Zeit am Telefon oder beides – der KI-Rezeptionist von Aibooking hilft.",
+      "paragraph2": "Buchen Sie noch heute eine Demo und sehen Sie, wie Shopify und Buchungen in einer KI-Lösung zusammenkommen."
+    }
+  },
+  "ctaSection": {
+    "title": "Lassen Sie die KI die Verwaltung übernehmen",
+    "subtitle": "Unsere KI-Lösung integriert sich nahtlos in Ihre bestehenden Systeme und automatisiert alles von Telefonaten bis zur E-Mail-Kommunikation. Sparen Sie jeden Tag Stunden und konzentrieren Sie sich auf das Wesentliche: Ihre Kunden.",
+    "button": "Demo buchen",
+    "benefitsTitle": "Was bringt Ihnen die KI-Integration?",
+    "benefits": [
+      "Automatische Bearbeitung ein- und ausgehender Anrufe",
+      "SMS-Erinnerungen und Bestätigungen werden automatisch verschickt",
+      "E-Mail-Kommunikation wird von der KI übernommen",
+      "Umbuchungen ohne manuelles Eingreifen",
+      "Terminbestätigungen immer pünktlich",
+      "Nachfassen bei verpassten Anrufen und Anfragen",
+      "Echtzeit-Synchronisierung mit all Ihren Systemen",
+      "Professionelle Bearbeitung rund um die Uhr"
+    ],
+    "stats": [
+      { "value": "5 Min.", "label": "Durchschnittliche Einrichtungszeit" },
+      { "value": "24/7", "label": "KI-gestützter Kundenservice" },
+      { "value": "100%", "label": "Automatische Synchronisierung" }
+    ]
+  },
+  "foodDelivery": {
+    "badge": "Neu: Essenslieferung",
+    "title": "Der KI-Rezeptionist bestellt Lieferungen über Just Eat und Uber Direct",
+    "description": "Für Restaurants, Cafés und Geschäfte: Der Kunde ruft an oder schreibt, der Agent ermittelt Preis und Lieferzeit und bucht einen Kurier, sobald der Kunde zustimmt – am Telefon und im Chat auf Ihrer Website.",
+    "points": [
+      "Preis und Lieferzeit werden vor der Bestellung genannt",
+      "Mit Just Eat und Uber Direct nennt der Agent beide Preise",
+      "Kunden können den Status ihrer Lieferung erfragen",
+      "Einrichtung unter Integrationen → Lieferung in Ihrem Dashboard"
+    ],
+    "cta": "Kostenlos testen"
+  }
+}

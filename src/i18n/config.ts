@@ -4,147 +4,152 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 import commonDa from './locales/da.json';
 import commonEn from './locales/en.json';
-import commonPt from './locales/pt.json';
-import commonFr from './locales/fr.json';
 import commonEs from './locales/es.json';
+import commonDe from './locales/de.json';
+import commonFr from './locales/fr.json';
 
 import featuresPageDa from './locales/pages/featuresPage.da.json';
 import featuresPageEn from './locales/pages/featuresPage.en.json';
-import featuresPagePt from './locales/pages/featuresPage.pt.json';
-import featuresPageFr from './locales/pages/featuresPage.fr.json';
 import featuresPageEs from './locales/pages/featuresPage.es.json';
+import featuresPageDe from './locales/pages/featuresPage.de.json';
+import featuresPageFr from './locales/pages/featuresPage.fr.json';
 
 import industriesPageDa from './locales/pages/industriesPage.da.json';
 import industriesPageEn from './locales/pages/industriesPage.en.json';
-import industriesPagePt from './locales/pages/industriesPage.pt.json';
-import industriesPageFr from './locales/pages/industriesPage.fr.json';
 import industriesPageEs from './locales/pages/industriesPage.es.json';
+import industriesPageDe from './locales/pages/industriesPage.de.json';
+import industriesPageFr from './locales/pages/industriesPage.fr.json';
 
 import widgetPageDa from './locales/pages/widgetPage.da.json';
 import widgetPageEn from './locales/pages/widgetPage.en.json';
-import widgetPagePt from './locales/pages/widgetPage.pt.json';
-import widgetPageFr from './locales/pages/widgetPage.fr.json';
 import widgetPageEs from './locales/pages/widgetPage.es.json';
+import widgetPageDe from './locales/pages/widgetPage.de.json';
+import widgetPageFr from './locales/pages/widgetPage.fr.json';
 
 import ecommercePageDa from './locales/pages/ecommercePage.da.json';
 import ecommercePageEn from './locales/pages/ecommercePage.en.json';
-import ecommercePagePt from './locales/pages/ecommercePage.pt.json';
-import ecommercePageFr from './locales/pages/ecommercePage.fr.json';
 import ecommercePageEs from './locales/pages/ecommercePage.es.json';
+import ecommercePageDe from './locales/pages/ecommercePage.de.json';
+import ecommercePageFr from './locales/pages/ecommercePage.fr.json';
 
 import healthcarePageDa from './locales/pages/healthcarePage.da.json';
 import healthcarePageEn from './locales/pages/healthcarePage.en.json';
-import healthcarePagePt from './locales/pages/healthcarePage.pt.json';
-import healthcarePageFr from './locales/pages/healthcarePage.fr.json';
 import healthcarePageEs from './locales/pages/healthcarePage.es.json';
+import healthcarePageDe from './locales/pages/healthcarePage.de.json';
+import healthcarePageFr from './locales/pages/healthcarePage.fr.json';
 
 import craftsmanPageDa from './locales/pages/craftsmanPage.da.json';
 import craftsmanPageEn from './locales/pages/craftsmanPage.en.json';
-import craftsmanPagePt from './locales/pages/craftsmanPage.pt.json';
-import craftsmanPageFr from './locales/pages/craftsmanPage.fr.json';
 import craftsmanPageEs from './locales/pages/craftsmanPage.es.json';
+import craftsmanPageDe from './locales/pages/craftsmanPage.de.json';
+import craftsmanPageFr from './locales/pages/craftsmanPage.fr.json';
 
 import officePageDa from './locales/pages/officePage.da.json';
 import officePageEn from './locales/pages/officePage.en.json';
-import officePagePt from './locales/pages/officePage.pt.json';
-import officePageFr from './locales/pages/officePage.fr.json';
 import officePageEs from './locales/pages/officePage.es.json';
+import officePageDe from './locales/pages/officePage.de.json';
+import officePageFr from './locales/pages/officePage.fr.json';
 
 import integrationsPageDa from './locales/pages/integrationsPage.da.json';
 import integrationsPageEn from './locales/pages/integrationsPage.en.json';
-import integrationsPagePt from './locales/pages/integrationsPage.pt.json';
-import integrationsPageFr from './locales/pages/integrationsPage.fr.json';
 import integrationsPageEs from './locales/pages/integrationsPage.es.json';
+import integrationsPageDe from './locales/pages/integrationsPage.de.json';
+import integrationsPageFr from './locales/pages/integrationsPage.fr.json';
 
 import aboutPageDa from './locales/pages/aboutPage.da.json';
 import aboutPageEn from './locales/pages/aboutPage.en.json';
-import aboutPagePt from './locales/pages/aboutPage.pt.json';
-import aboutPageFr from './locales/pages/aboutPage.fr.json';
 import aboutPageEs from './locales/pages/aboutPage.es.json';
+import aboutPageDe from './locales/pages/aboutPage.de.json';
+import aboutPageFr from './locales/pages/aboutPage.fr.json';
 
 import contactPageDa from './locales/pages/contactPage.da.json';
 import contactPageEn from './locales/pages/contactPage.en.json';
-import contactPagePt from './locales/pages/contactPage.pt.json';
-import contactPageFr from './locales/pages/contactPage.fr.json';
 import contactPageEs from './locales/pages/contactPage.es.json';
+import contactPageDe from './locales/pages/contactPage.de.json';
+import contactPageFr from './locales/pages/contactPage.fr.json';
 
 import demoPageDa from './locales/pages/demoPage.da.json';
 import demoPageEn from './locales/pages/demoPage.en.json';
-import demoPagePt from './locales/pages/demoPage.pt.json';
-import demoPageFr from './locales/pages/demoPage.fr.json';
 import demoPageEs from './locales/pages/demoPage.es.json';
+import demoPageDe from './locales/pages/demoPage.de.json';
+import demoPageFr from './locales/pages/demoPage.fr.json';
 
 import termsPageDa from './locales/pages/termsPage.da.json';
 import termsPageEn from './locales/pages/termsPage.en.json';
-import termsPagePt from './locales/pages/termsPage.pt.json';
-import termsPageFr from './locales/pages/termsPage.fr.json';
 import termsPageEs from './locales/pages/termsPage.es.json';
+import termsPageDe from './locales/pages/termsPage.de.json';
+import termsPageFr from './locales/pages/termsPage.fr.json';
 
 import privacyPageDa from './locales/pages/privacyPage.da.json';
 import privacyPageEn from './locales/pages/privacyPage.en.json';
-import privacyPagePt from './locales/pages/privacyPage.pt.json';
-import privacyPageFr from './locales/pages/privacyPage.fr.json';
 import privacyPageEs from './locales/pages/privacyPage.es.json';
+import privacyPageDe from './locales/pages/privacyPage.de.json';
+import privacyPageFr from './locales/pages/privacyPage.fr.json';
 
 import blogPageDa from './locales/pages/blogPage.da.json';
 import blogPageEn from './locales/pages/blogPage.en.json';
-import blogPagePt from './locales/pages/blogPage.pt.json';
-import blogPageFr from './locales/pages/blogPage.fr.json';
 import blogPageEs from './locales/pages/blogPage.es.json';
+import blogPageDe from './locales/pages/blogPage.de.json';
+import blogPageFr from './locales/pages/blogPage.fr.json';
 
 import blogCategoryPageDa from './locales/pages/blogCategoryPage.da.json';
 import blogCategoryPageEn from './locales/pages/blogCategoryPage.en.json';
-import blogCategoryPagePt from './locales/pages/blogCategoryPage.pt.json';
-import blogCategoryPageFr from './locales/pages/blogCategoryPage.fr.json';
 import blogCategoryPageEs from './locales/pages/blogCategoryPage.es.json';
+import blogCategoryPageDe from './locales/pages/blogCategoryPage.de.json';
+import blogCategoryPageFr from './locales/pages/blogCategoryPage.fr.json';
 
 import blogPostPageDa from './locales/pages/blogPostPage.da.json';
 import blogPostPageEn from './locales/pages/blogPostPage.en.json';
-import blogPostPagePt from './locales/pages/blogPostPage.pt.json';
-import blogPostPageFr from './locales/pages/blogPostPage.fr.json';
 import blogPostPageEs from './locales/pages/blogPostPage.es.json';
+import blogPostPageDe from './locales/pages/blogPostPage.de.json';
+import blogPostPageFr from './locales/pages/blogPostPage.fr.json';
 
 import inboundOutboundPageDa from './locales/pages/inboundOutboundPage.da.json';
 import inboundOutboundPageEn from './locales/pages/inboundOutboundPage.en.json';
-import inboundOutboundPagePt from './locales/pages/inboundOutboundPage.pt.json';
-import inboundOutboundPageFr from './locales/pages/inboundOutboundPage.fr.json';
 import inboundOutboundPageEs from './locales/pages/inboundOutboundPage.es.json';
+import inboundOutboundPageDe from './locales/pages/inboundOutboundPage.de.json';
+import inboundOutboundPageFr from './locales/pages/inboundOutboundPage.fr.json';
 
 import clinicDashboardDa from './locales/shared/clinicDashboard.da.json';
 import clinicDashboardEn from './locales/shared/clinicDashboard.en.json';
-import clinicDashboardPt from './locales/shared/clinicDashboard.pt.json';
-import clinicDashboardFr from './locales/shared/clinicDashboard.fr.json';
 import clinicDashboardEs from './locales/shared/clinicDashboard.es.json';
+import clinicDashboardDe from './locales/shared/clinicDashboard.de.json';
+import clinicDashboardFr from './locales/shared/clinicDashboard.fr.json';
 
 import agencyDashboardDa from './locales/shared/agencyDashboard.da.json';
 import agencyDashboardEn from './locales/shared/agencyDashboard.en.json';
-import agencyDashboardPt from './locales/shared/agencyDashboard.pt.json';
-import agencyDashboardFr from './locales/shared/agencyDashboard.fr.json';
 import agencyDashboardEs from './locales/shared/agencyDashboard.es.json';
+import agencyDashboardDe from './locales/shared/agencyDashboard.de.json';
+import agencyDashboardFr from './locales/shared/agencyDashboard.fr.json';
 
 import trialPageDa from './locales/pages/trialPage.da.json';
 import trialPageEn from './locales/pages/trialPage.en.json';
-import trialPagePt from './locales/pages/trialPage.pt.json';
-import trialPageFr from './locales/pages/trialPage.fr.json';
 import trialPageEs from './locales/pages/trialPage.es.json';
+import trialPageDe from './locales/pages/trialPage.de.json';
+import trialPageFr from './locales/pages/trialPage.fr.json';
 
 import widgetCapabilitiesSEODa from './locales/shared/widgetCapabilitiesSEO.da.json';
 import widgetCapabilitiesSEOEn from './locales/shared/widgetCapabilitiesSEO.en.json';
-import widgetCapabilitiesSEOPt from './locales/shared/widgetCapabilitiesSEO.pt.json';
-import widgetCapabilitiesSEOFr from './locales/shared/widgetCapabilitiesSEO.fr.json';
 import widgetCapabilitiesSEOEs from './locales/shared/widgetCapabilitiesSEO.es.json';
+import widgetCapabilitiesSEODe from './locales/shared/widgetCapabilitiesSEO.de.json';
+import widgetCapabilitiesSEOFr from './locales/shared/widgetCapabilitiesSEO.fr.json';
 import blogCtaDa from './locales/shared/blogCta.da.json';
 import blogCtaEn from './locales/shared/blogCta.en.json';
-import blogCtaPt from './locales/shared/blogCta.pt.json';
-import blogCtaFr from './locales/shared/blogCta.fr.json';
 import blogCtaEs from './locales/shared/blogCta.es.json';
+import blogCtaDe from './locales/shared/blogCta.de.json';
+import blogCtaFr from './locales/shared/blogCta.fr.json';
 import pageHeroDa from './locales/shared/pageHero.da.json';
 import pageHeroEn from './locales/shared/pageHero.en.json';
-import pageHeroPt from './locales/shared/pageHero.pt.json';
-import pageHeroFr from './locales/shared/pageHero.fr.json';
 import pageHeroEs from './locales/shared/pageHero.es.json';
+import pageHeroDe from './locales/shared/pageHero.de.json';
+import pageHeroFr from './locales/shared/pageHero.fr.json';
+import audioDemoDa from './locales/shared/audioDemo.da.json';
+import audioDemoEn from './locales/shared/audioDemo.en.json';
+import audioDemoEs from './locales/shared/audioDemo.es.json';
+import audioDemoDe from './locales/shared/audioDemo.de.json';
+import audioDemoFr from './locales/shared/audioDemo.fr.json';
 
-export const SUPPORTED_LANGUAGES = ['da', 'en', 'pt', 'fr', 'es'] as const;
+export const SUPPORTED_LANGUAGES = ['da', 'en', 'es', 'de', 'fr'] as const;
 export type SupportedLanguage = (typeof SUPPORTED_LANGUAGES)[number];
 
 // URL path prefix per language. Danish has none (it's the default/canonical
@@ -152,9 +157,9 @@ export type SupportedLanguage = (typeof SUPPORTED_LANGUAGES)[number];
 export const LANGUAGE_PATH_PREFIX: Record<SupportedLanguage, string> = {
   da: '',
   en: '/en',
-  pt: '/pt',
-  fr: '/fr',
   es: '/es',
+  de: '/de',
+  fr: '/fr',
 };
 
 // Every page/section beyond the shared chrome ('common') gets its own
@@ -170,7 +175,7 @@ const PAGE_NAMESPACES = [
 
 // Namespaces for components rendered on more than one page, so the two copies
 // can't drift apart.
-const SHARED_NAMESPACES = ['clinicDashboard', 'agencyDashboard', 'widgetCapabilitiesSEO', 'blogCta', 'pageHero'] as const;
+const SHARED_NAMESPACES = ['clinicDashboard', 'agencyDashboard', 'widgetCapabilitiesSEO', 'blogCta', 'pageHero', 'audioDemo'] as const;
 
 i18n
   .use(LanguageDetector)
@@ -204,6 +209,7 @@ i18n
         widgetCapabilitiesSEO: widgetCapabilitiesSEODa,
         blogCta: blogCtaDa,
         pageHero: pageHeroDa,
+        audioDemo: audioDemoDa,
       },
       en: {
         common: commonEn,
@@ -230,58 +236,7 @@ i18n
         widgetCapabilitiesSEO: widgetCapabilitiesSEOEn,
         blogCta: blogCtaEn,
         pageHero: pageHeroEn,
-      },
-      pt: {
-        common: commonPt,
-        featuresPage: featuresPagePt,
-        industriesPage: industriesPagePt,
-        widgetPage: widgetPagePt,
-        ecommercePage: ecommercePagePt,
-        healthcarePage: healthcarePagePt,
-        craftsmanPage: craftsmanPagePt,
-        officePage: officePagePt,
-        integrationsPage: integrationsPagePt,
-        aboutPage: aboutPagePt,
-        contactPage: contactPagePt,
-        demoPage: demoPagePt,
-        termsPage: termsPagePt,
-        privacyPage: privacyPagePt,
-        blogPage: blogPagePt,
-        blogCategoryPage: blogCategoryPagePt,
-        blogPostPage: blogPostPagePt,
-        trialPage: trialPagePt,
-        inboundOutboundPage: inboundOutboundPagePt,
-        clinicDashboard: clinicDashboardPt,
-        agencyDashboard: agencyDashboardPt,
-        widgetCapabilitiesSEO: widgetCapabilitiesSEOPt,
-        blogCta: blogCtaPt,
-        pageHero: pageHeroPt,
-      },
-      fr: {
-        common: commonFr,
-        featuresPage: featuresPageFr,
-        industriesPage: industriesPageFr,
-        widgetPage: widgetPageFr,
-        ecommercePage: ecommercePageFr,
-        healthcarePage: healthcarePageFr,
-        craftsmanPage: craftsmanPageFr,
-        officePage: officePageFr,
-        integrationsPage: integrationsPageFr,
-        aboutPage: aboutPageFr,
-        contactPage: contactPageFr,
-        demoPage: demoPageFr,
-        termsPage: termsPageFr,
-        privacyPage: privacyPageFr,
-        blogPage: blogPageFr,
-        blogCategoryPage: blogCategoryPageFr,
-        blogPostPage: blogPostPageFr,
-        trialPage: trialPageFr,
-        inboundOutboundPage: inboundOutboundPageFr,
-        clinicDashboard: clinicDashboardFr,
-        agencyDashboard: agencyDashboardFr,
-        widgetCapabilitiesSEO: widgetCapabilitiesSEOFr,
-        blogCta: blogCtaFr,
-        pageHero: pageHeroFr,
+        audioDemo: audioDemoEn,
       },
       es: {
         common: commonEs,
@@ -308,16 +263,75 @@ i18n
         widgetCapabilitiesSEO: widgetCapabilitiesSEOEs,
         blogCta: blogCtaEs,
         pageHero: pageHeroEs,
+        audioDemo: audioDemoEs,
+      },
+      fr: {
+        common: commonFr,
+        featuresPage: featuresPageFr,
+        industriesPage: industriesPageFr,
+        widgetPage: widgetPageFr,
+        ecommercePage: ecommercePageFr,
+        healthcarePage: healthcarePageFr,
+        craftsmanPage: craftsmanPageFr,
+        officePage: officePageFr,
+        integrationsPage: integrationsPageFr,
+        aboutPage: aboutPageFr,
+        contactPage: contactPageFr,
+        demoPage: demoPageFr,
+        termsPage: termsPageFr,
+        privacyPage: privacyPageFr,
+        blogPage: blogPageFr,
+        blogCategoryPage: blogCategoryPageFr,
+        blogPostPage: blogPostPageFr,
+        trialPage: trialPageFr,
+        inboundOutboundPage: inboundOutboundPageFr,
+        clinicDashboard: clinicDashboardFr,
+        agencyDashboard: agencyDashboardFr,
+        widgetCapabilitiesSEO: widgetCapabilitiesSEOFr,
+        blogCta: blogCtaFr,
+        pageHero: pageHeroFr,
+        audioDemo: audioDemoFr,
+      },
+      de: {
+        common: commonDe,
+        featuresPage: featuresPageDe,
+        industriesPage: industriesPageDe,
+        widgetPage: widgetPageDe,
+        ecommercePage: ecommercePageDe,
+        healthcarePage: healthcarePageDe,
+        craftsmanPage: craftsmanPageDe,
+        officePage: officePageDe,
+        integrationsPage: integrationsPageDe,
+        aboutPage: aboutPageDe,
+        contactPage: contactPageDe,
+        demoPage: demoPageDe,
+        termsPage: termsPageDe,
+        privacyPage: privacyPageDe,
+        blogPage: blogPageDe,
+        blogCategoryPage: blogCategoryPageDe,
+        blogPostPage: blogPostPageDe,
+        trialPage: trialPageDe,
+        inboundOutboundPage: inboundOutboundPageDe,
+        clinicDashboard: clinicDashboardDe,
+        agencyDashboard: agencyDashboardDe,
+        widgetCapabilitiesSEO: widgetCapabilitiesSEODe,
+        blogCta: blogCtaDe,
+        pageHero: pageHeroDe,
+        audioDemo: audioDemoDe,
       },
     },
     supportedLngs: SUPPORTED_LANGUAGES as unknown as string[],
     load: 'languageOnly',
-    fallbackLng: 'da',
+    // Visitors whose browser language isn't supported (anywhere in the world)
+    // get English rather than Danish.
+    fallbackLng: 'en',
     interpolation: {
       escapeValue: false,
     },
     detection: {
-      order: ['localStorage', 'navigator', 'htmlTag'],
+      // Not 'htmlTag': prerendered pages carry lang="da" on unprefixed URLs,
+      // which would keep visitors from other countries on the Danish site.
+      order: ['localStorage', 'navigator'],
       caches: ['localStorage'],
     },
   });

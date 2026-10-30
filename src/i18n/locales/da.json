@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Dansk AI-receptionist, AI-telefonpasning & AI Widget | Aibooking.dk",
-    "description": "Dansk AI-receptionist med AI-telefonpasning og AI widget til hjemmeside, webshop og Shopify. Svarer og booker døgnet rundt – prøv gratis i 7 dage.",
+    "title": "AI-receptionist & AI-telefonpasning på dansk | Aibooking.dk",
+    "description": "Dansk AI-receptionist og AI-telefonsvarer, der tager telefonen, booker tider og svarer i chatten på din hjemmeside døgnet rundt. Prøv gratis i 7 dage.",
     "keywords": "AI-telefonpasning, dansk AI-receptionist, widget til webshop, AI widget til Shopify, AI reception, AI widget, AI til hjemmeside, AI kundeservice, AI indgående opkald, AI medarbejder, AI Danmark, AI receptionist, AI booking, Shopify AI, automatisk booking, dansk AI løsning"
   },
   "nav": {
@@ -47,8 +47,8 @@
   },
   "hero": {
     "badge": "Din Virtuelle Receptionist",
-    "title_line1": "Bruger du timer på opkald,",
-    "title_line2": "SMS og opfølgning?",
+    "title_line1": "Din AI-receptionist klarer",
+    "title_line2": "opkald, SMS og opfølgning",
     "subtitle": "Slip for administrationen. Vores AI-receptionist håndterer alt – fra opkald og beskeder til bookinger og SOME. Indtast dine egne timer på telefonen, og se hvor meget tid du kan spare.",
     "savingsLink": "Se hvad du kan spare med AIbooking",
     "cta": "Kom i gang gratis",
@@ -283,7 +283,7 @@
     "ai_booking": "AI Booking",
     "free_trial": "7 dages gratis prøve",
     "ai_widget": "AI Widget",
-    "phone_assistant": "Inbound-Outbound AI Voice",
+    "phone_assistant": "AI-telefonpasning",
     "book_demo": "Book Demo",
     "features": "Funktioner",
     "industries_title": "Brancher",

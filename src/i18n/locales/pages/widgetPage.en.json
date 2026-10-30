@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "AI Widget for Shopify, Webshops & Websites | Aibooking.dk",
-    "description": "An AI widget for Shopify, webshops and websites. Customers type or talk, and the AI answers, books, tracks orders and handles reorders 24/7.",
+    "title": "AI Chatbot for Websites with Voice Booking | Aibooking.dk",
+    "description": "An AI chatbot and voice widget for websites, webshops and Shopify. Customers type or talk, and the AI answers, books and tracks orders 24/7.",
     "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, AI widget, AI widget for website, AI for website, AI voice widget, Shopify AI widget, AI chatbot, AI customer service, booking widget, webshop AI widget, AI order tracking"
   },
   "breadcrumb": {
@@ -10,9 +10,9 @@
   },
   "hero": {
     "badge": "AI Voice Widget for your website",
-    "title_line1": "Let your customers book meetings",
-    "title_line2": "with their voice",
-    "subtitle": "Aibooking.dk's AI voice widget is added directly to your website and handles bookings, questions, and customer enquiries automatically – by voice and text, 24 hours a day, 365 days a year.",
+    "title_line1": "An AI chatbot for your website",
+    "title_line2": "that books by voice too",
+    "subtitle": "Aibooking.dk's AI voice widget is an AI chatbot added directly to your website that handles bookings, questions, and customer enquiries automatically – by voice and text, 24 hours a day, 365 days a year.",
     "cta_demo": "Try a free demo",
     "cta_buy": "Order now – €134/month",
     "cta_demo_connecting": "Connecting...",

@@ -1,14 +1,14 @@
 {
   "seo": {
-    "title": "Funktioner – AI Reception, AI Widget & AI Medarbejder | Aibooking.dk",
-    "description": "Alle funktioner i Aibooking.dk: AI widget til hjemmeside, AI til ind- og udgående opkald, automatisk booking, dashboard og AI kundeservice.",
+    "title": "Funktioner: AI-receptionist, chatbot & booking | Aibooking.dk",
+    "description": "Alle funktioner: AI-telefonpasning til ind- og udgående opkald, AI-chatbot og voice-widget til hjemmesiden, automatisk booking, SMS og dashboard.",
     "keywords": "AI-telefonpasning, dansk AI-receptionist, widget til webshop, AI widget til Shopify, AI funktioner, AI reception, AI widget, AI medarbejder, AI kundeservice, AI indgående opkald, udgående opkald, AI dashboard, automatisk booking, AI til hjemmeside, dansk AI"
   },
   "breadcrumb": { "home": "Hjem", "features": "Funktioner" },
   "hero": {
     "badge": "Alle Funktioner",
-    "title_line1": "Komplet AI-platform for",
-    "title_line2": "moderne virksomheder",
+    "title_line1": "AI-receptionist, chatbot og booking",
+    "title_line2": "i én platform",
     "subtitle": "Fra intelligent opkaldstyring og udgående AI-voice opkald til et komplet dashboard og en AI-widget til din hjemmeside — alt i én platform. Spar tid, øg konverteringer og giv dine kunder en professionel oplevelse 24/7."
   },
   "mainBenefits": [

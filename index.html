@@ -13,10 +13,10 @@
          start fetching its config in parallel with widget.js, instead of the
          script -> config waterfall. The preload URL must match the fetch in
          widget.js exactly (same publicId as data-widget-id below). -->
-    <link rel="preconnect" href="https://aibooking-backendnew.vercel.app" />
-    <link rel="preconnect" href="https://aibooking-backendnew.vercel.app" crossorigin />
-    <link rel="preload" as="script" href="https://aibooking-backendnew.vercel.app/widget.js" />
-    <link rel="preload" as="fetch" crossorigin href="https://aibooking-backendnew.vercel.app/api/widget/config?publicId=XZUk7ukctVK62A" />
+    <link rel="preconnect" href="https://app.aibooking.dk" />
+    <link rel="preconnect" href="https://app.aibooking.dk" crossorigin />
+    <link rel="preload" as="script" href="https://app.aibooking.dk/widget.js" />
+    <link rel="preload" as="fetch" crossorigin href="https://app.aibooking.dk/api/widget/config?publicId=XZUk7ukctVK62A" />
 
     <!-- Ahrefs Web Analytics -->
     <script src="https://analytics.ahrefs.com/analytics.js" data-key="z8e3Hg0X9YhoS4H2+E2sVA" async></script>
@@ -97,6 +97,6 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     <!-- async: runs as soon as it arrives, without holding up the page. -->
-    <script async src="https://aibooking-backendnew.vercel.app/widget.js" data-widget-id="XZUk7ukctVK62A"></script>
+    <script async src="https://app.aibooking.dk/widget.js" data-widget-id="XZUk7ukctVK62A"></script>
   </body>
 </html>

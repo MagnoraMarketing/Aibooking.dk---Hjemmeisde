@@ -176,6 +176,7 @@ export default function AgencyDashboardMock({ variant }: AgencyDashboardMockProp
       key: 'widget' as const,
       icon: Mic,
       title: t('panels.widgetTitle'),
+      link: t('panels.seeAgents'),
       cells: [
         { value: data.widgetPanel.agents, label: t('panels.activeAgents') },
         { value: data.widgetPanel.conversations, label: t('panels.conversations') },
@@ -187,6 +188,7 @@ export default function AgencyDashboardMock({ variant }: AgencyDashboardMockProp
           key: 'shop' as const,
           icon: ShoppingBag,
           title: t('panels.shopTitle'),
+          link: t('panels.seeShop'),
           cells: [
             { value: data.shop.panel.products, label: t('panels.products') },
             { value: data.shop.panel.orderLookups, label: t('panels.orderLookups') },
@@ -197,6 +199,7 @@ export default function AgencyDashboardMock({ variant }: AgencyDashboardMockProp
           key: 'phone' as const,
           icon: Phone,
           title: t('panels.phoneTitle'),
+          link: t('panels.seeAgents'),
           cells: [
             { value: data.phonePanel.agents, label: t('panels.activeAgents') },
             { value: data.phonePanel.calls, label: t('panels.calls') },
@@ -268,7 +271,7 @@ export default function AgencyDashboardMock({ variant }: AgencyDashboardMockProp
                     <span className="font-semibold text-ink-900 text-[15px] truncate">{panel.title}</span>
                   </div>
                   <span className={`text-xs font-medium whitespace-nowrap ml-3 ${data.accent.text}`}>
-                    {t('panels.seeAgents')}
+                    {panel.link}
                   </span>
                 </div>
                 <div className="grid grid-cols-3 gap-2 text-center">

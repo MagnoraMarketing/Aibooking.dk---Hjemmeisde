@@ -37,7 +37,8 @@
     "shopTitle": "Webshop (Shopify)",
     "products": "Products",
     "orderLookups": "Order lookups",
-    "sales": "Sales via AI"
+    "sales": "Sales via AI",
+    "seeShop": "See store →"
   },
   "recent": {
     "title": "Recent conversations",

@@ -1,0 +1,732 @@
+{
+  "seo": {
+    "title": "KI-Rezeptionist, KI-Telefonservice & KI-Widget | Aibooking.dk",
+    "description": "Ein KI-Rezeptionist mit KI-Telefonservice und KI-Widget für Website, Onlineshop und Shopify. Antwortet und bucht rund um die Uhr – jetzt kostenlos testen.",
+    "keywords": "KI-Rezeptionist, KI-Telefonservice, KI-Telefonassistent, KI-Widget, KI-Widget für Shopify, Onlineshop-Widget, KI-Rezeption, KI für Website, KI-Kundenservice, KI eingehende Anrufe, KI-Mitarbeiter, KI-Terminbuchung, Shopify KI, virtuelle Rezeption"
+  },
+  "nav": {
+    "home": "Startseite",
+    "benefits": "Vorteile",
+    "widget": "KI-Widget",
+    "inbound_outbound": "KI-Telefonie",
+    "pricing": "Preise",
+    "features": "Funktionen",
+    "industries": "Branchen",
+    "industries_menu": {
+      "healthcare": {
+        "name": "Praxen",
+        "description": "Ärzte, Zahnärzte, Physiotherapeuten"
+      },
+      "craftsman": {
+        "name": "Handwerk",
+        "description": "Installateure, Elektriker, Tischler, Maler"
+      },
+      "office": {
+        "name": "Büro & Business",
+        "description": "Rechtsanwälte, Steuerberater, Berater"
+      },
+      "ecommerce": {
+        "name": "E-Commerce & Onlineshop",
+        "description": "Onlineshops und Onlineunternehmen"
+      },
+      "salon": {
+        "name": "Friseur & Salon",
+        "description": "Friseure, Barbiere, Nägel, Kosmetik"
+      }
+    },
+    "see_all_industries": "Alle Branchen ansehen →",
+    "integrations": "Integrationen",
+    "demo": "Demo",
+    "blog": "Blog",
+    "menu": "Menü",
+    "contact": "Kontakt",
+    "contact_us": "Kontakt",
+    "about_us": "Über uns",
+    "book_demo": "Jetzt starten",
+    "login": "Anmelden",
+    "signup": "Konto erstellen",
+    "language": "Sprache",
+    "open_menu": "Menü öffnen",
+    "close_menu": "Menü schließen"
+  },
+  "hero": {
+    "badge": "Ihr virtueller Rezeptionist",
+    "title_line1": "Stundenlang Anrufe,",
+    "title_line2": "SMS und Nachfassen?",
+    "subtitle": "Sparen Sie sich die Verwaltung. Unser KI-Rezeptionist übernimmt alles – von Anrufen und Nachrichten bis zu Buchungen und sozialen Medien. Geben Sie Ihre eigenen Telefonstunden ein und sehen Sie, wie viel Zeit Sie sparen könnten.",
+    "savingsLink": "Sehen Sie, was Sie mit AIbooking sparen können",
+    "cta": "Kostenlos starten",
+    "secondary": "So funktioniert es",
+    "feature1": {
+      "title": "Rund um die Uhr erreichbar",
+      "description": "Anrufe und Nachrichten jederzeit beantworten – auch außerhalb der Geschäftszeiten"
+    },
+    "feature2": {
+      "title": "Automatische Buchung",
+      "description": "Übernimmt Buchungen, Änderungen und Absagen ohne menschliches Eingreifen"
+    },
+    "feature3": {
+      "title": "Wertvolle Zeit sparen",
+      "description": "Ob Sie 5 oder 20 Stunden pro Woche am Telefon verbringen – die KI übernimmt die Verwaltung, damit Sie sich auf Ihr Geschäft konzentrieren können"
+    }
+  },
+  "savingsCalculator": {
+    "badge": "Ersparnis berechnen",
+    "title": "Wie viele Stunden pro Woche verbringen Sie am Telefon?",
+    "subtitle": "Jedes Unternehmen verbringt unterschiedlich viel Zeit mit Anrufen, Nachrichten und Nachfassen. Geben Sie Ihre eigenen Stunden ein und sehen Sie, was Sie mit AIbooking voraussichtlich sparen.",
+    "inputLabel": "Stunden am Telefon pro Woche",
+    "hoursUnit": "Stunden",
+    "wageInputLabel": "Ihr Stundenlohn",
+    "wageUnit": "€/Stunde",
+    "resultLabel": "Das können Sie mit AIbooking voraussichtlich sparen",
+    "moneySavedWeek": "≈ {{amount}} € pro Woche gespart",
+    "moneySavedMonth": "Das sind etwa {{amount}} € pro Monat",
+    "hoursSavedWeek": "≈ {{hours}} Stunden pro Woche gespart",
+    "hoursSavedMonth": "Das sind etwa {{hours}} Stunden pro Monat",
+    "billingNote": "Sie zahlen nur, was Sie tatsächlich nutzen – ohne Bindung.",
+    "note": "Basierend darauf, dass der KI-Rezeptionist typischerweise bis zu 85 % der Anrufe, Nachrichten und Buchungen übernimmt.",
+    "cta": "7 Tage kostenlos testen"
+  },
+  "features": {
+    "badge": "Starke Funktionen",
+    "title_line1": "Alles, was Sie brauchen, um",
+    "title_line2": "Buchungen zu automatisieren",
+    "subtitle": "Unsere KI-Lösung ist speziell für Praxen und Dienstleistungsunternehmen entwickelt",
+    "items": [
+      {
+        "title": "Intelligente Anrufannahme",
+        "description": "Die KI nimmt jeden eingehenden Anruf an, versteht das Anliegen des Kunden und übernimmt Buchungen professionell – wie eine erfahrene Rezeptionskraft."
+      },
+      {
+        "title": "Automatische Kalenderintegration",
+        "description": "Synchronisiert direkt mit Ihrem bestehenden Buchungssystem. Keine Doppelbuchungen, keine Konflikte."
+      },
+      {
+        "title": "Natürliches Gespräch",
+        "description": "Fortschrittliches Sprachverständnis macht das Gespräch für Ihre Kunden natürlich und angenehm."
+      },
+      {
+        "title": "Detaillierte Analysen",
+        "description": "Voller Überblick über jeden Anruf, jede Buchung und jede Kundeninteraktion in einem übersichtlichen Dashboard."
+      },
+      {
+        "title": "Kundenhistorie",
+        "description": "Die KI erinnert sich an frühere Kunden und ihre Vorlieben – für ein persönliches Erlebnis bei jedem Kontakt."
+      },
+      {
+        "title": "Automatische Erinnerungen",
+        "description": "Senden Sie Kunden automatische Erinnerungen an bevorstehende Termine und senken Sie Terminausfälle."
+      },
+      {
+        "title": "Sofortiges Nachfassen",
+        "description": "Automatische Folge-SMS und -E-Mails nach jedem Anruf und Termin."
+      },
+      {
+        "title": "DSGVO-sicher",
+        "description": "Alle Daten werden sicher und gemäß den geltenden Vorschriften verarbeitet."
+      }
+    ],
+    "dashboard": {
+      "badge": "PREMIUM-FUNKTION",
+      "title": "Ihr eigenes Dashboard",
+      "subtitle": "Zentrale Steuerung und Einblick in alle Ihre KI-Sprachagenten an einem Ort",
+      "items": [
+        {
+          "title": "Unbegrenzt viele KI-Sprachagenten",
+          "description": "Skalieren Sie ohne Grenzen. Verwalten Sie mehrere Kundenkonten bequem über ein zentrales Dashboard."
+        },
+        {
+          "title": "Automatische Buchung",
+          "description": "Vereinfachen Sie Ihre Terminplanung mit KI-gestützter Buchung. Jeder Termin wird mit einer ausführlichen Zusammenfassung direkt in Ihren Kalender übertragen."
+        },
+        {
+          "title": "Aufzeichnung & Transkription",
+          "description": "Zeichnen Sie jedes Gespräch auf und wandeln Sie es in Text um. Hören Sie jeden Anruf an und sehen Sie vollständige Transkripte."
+        },
+        {
+          "title": "Überlegene Rauschunterdrückung",
+          "description": "Kristallklare Gespräche dank fortschrittlicher Audioverarbeitung. Ihre Kunden hören nur professionellen, klaren Ton."
+        },
+        {
+          "title": "In 10 Sekunden trainieren",
+          "description": "Passen Sie das Verhalten der KI schnell mit vorhandenen Aufnahmen oder einem fertigen Skript an. Kein technisches Wissen nötig."
+        },
+        {
+          "title": "Intelligente Kalenderintegration",
+          "description": "Jede Buchung wird automatisch mit Notizen zur Gesprächszusammenfassung, Terminzeit und Kundendaten in Ihren Kalender eingetragen."
+        }
+      ],
+      "cta": {
+        "title": "Bereit für den Start?",
+        "description": "Maximieren Sie die Buchungen Ihrer Kunden mit unserem KI-gestützten, äußerst realistischen Telefonservice, der rund um die Uhr dafür sorgt, dass die Kalender voll bleiben.",
+        "button": "Kostenlose Demo buchen"
+      }
+    },
+    "industry": {
+      "title": "Ideal für Praxen und Dienstleistungsunternehmen",
+      "description": "Ob Zahnarztpraxis, Friseursalon, Massagepraxis oder anderes Dienstleistungsunternehmen – unsere KI-Lösung ist genau auf Ihre Anforderungen zugeschnitten.",
+      "bullets": [
+        "Bewältigt komplexe Buchungsszenarien",
+        "Anbindung an gängige Buchungssysteme",
+        "Zugeschnitten auf Ihre Branche und Ihre Abläufe"
+      ],
+      "stats": [
+        {
+          "label": "Durchschnittliche Zeitersparnis",
+          "value": "10+ Std./Woche"
+        },
+        {
+          "label": "Kundenzufriedenheit",
+          "value": "98%"
+        },
+        {
+          "label": "Weniger Terminausfälle",
+          "value": "65%"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "badge": "Transparente Preise",
+    "title": "Wählen Sie Ihr Voice-Paket für ein- und ausgehende Anrufe",
+    "subtitle": "Maßgeschneiderte Pakete für Unternehmen jeder Größe",
+    "most_popular_badge": "Am beliebtesten",
+    "free_label": "Kostenlos",
+    "currency_suffix": "€/Monat",
+    "after_order_note": "Sobald Sie Ihr kostenloses Konto erstellt haben, können Sie direkt im Dashboard einen Einrichtungstermin buchen, sofern Sie diesen zu Ihrer Bestellung hinzugefügt haben.",
+    "setup_recommendation": "Wir empfehlen, die Lösung zuerst 7 Tage kostenlos zu testen – und dann Ihr Paket zu wählen. Einrichtung und Onboarding können als optionale Einmalzahlung hinzugebucht werden, wenn Sie dabei Unterstützung wünschen.",
+    "cta_signup": "Kostenloses Konto erstellen",
+    "cta_demo": "Kostenlos testen",
+    "no_card_required": "Keine Kreditkarte oder Zahlungsdaten erforderlich",
+    "cta_order": "Paket bestellen",
+    "plans": [
+      {
+        "name": "Demo",
+        "description": "7 Tage kostenlos testen – sehen Sie, wie viel Zeit Sie für andere Aufgaben und mehr Kunden gewinnen",
+        "minutes": "7 Tage kostenlos · 10 Minuten kostenlose Gesprächszeit",
+        "features": [
+          "Eingehend – die KI nimmt Ihre Anrufe an",
+          "Sprach-Widget – die KI beantwortet allgemeine Fragen auf Ihrer Website",
+          "Buchung – direkt in den Kalender",
+          "Onlineshop – Shopify-Integration",
+          "Grundlegende Stimmanpassung",
+          "Analyse-Dashboard",
+          "Sie hinterlegen Ihre bisherige Geschäftsnummer für die Testphase, damit die KI echte Anrufe annehmen kann",
+          "Upgrade auf das Starter-Paket möglich"
+        ]
+      },
+      {
+        "name": "Starter",
+        "description": "Ideal für kleine Unternehmen, die mit KI starten",
+        "minutes": "150 Minuten",
+        "features": [
+          "150 KI-Gesprächsminuten",
+          "Grundlegende Stimmanpassung",
+          "Standard-Support",
+          "Analyse-Dashboard",
+          "E-Mail-Benachrichtigungen"
+        ]
+      },
+      {
+        "name": "Professional",
+        "description": "Ideal für wachsende Unternehmen mit regelmäßigem Anrufvolumen",
+        "minutes": "600 Minuten",
+        "features": [
+          "600 KI-Gesprächsminuten",
+          "Erweiterte Stimmanpassung",
+          "Priorisierter Support",
+          "Erweiterte Analysen",
+          "Individuelle Integrationen",
+          "SMS-Erinnerungen",
+          "Kundenhistorie"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "description": "Für Organisationen, die maximale Flexibilität brauchen",
+        "minutes": "2000 Minuten",
+        "features": [
+          "2000 KI-Gesprächsminuten",
+          "Volle Stimmanpassung",
+          "Dedizierter Support rund um die Uhr",
+          "Individuelles KI-Training",
+          "API-Zugang",
+          "Persönlicher Success Manager",
+          "Unbegrenzte Integrationen",
+          "Unterstützung bei der DSGVO-Konformität"
+        ]
+      }
+    ],
+    "additionalPrices": {
+      "title": "Weitere Preise",
+      "toggle_label": "Weitere Preise anzeigen",
+      "setup": {
+        "title": "Einrichtung & Onboarding",
+        "value": "Optionale Zusatzleistung beim Kauf – eine Einmalzahlung von {{setupMin}} € bis {{setupMax}} €, entsprechend dem Preis Ihres Pakets, inkl. 1 Stunde Nachbetreuung",
+        "note": "(nur einmalig, nicht im Abonnement enthalten)"
+      },
+      "hourly": {
+        "title": "Stundensatz für Einzelaufgaben",
+        "prompting_label": "Prompting/Training",
+        "prompting_price": "93 €/Stunde",
+        "development_label": "Entwicklung",
+        "development_price": "147 €/Stunde"
+      }
+    },
+    "setup_included_note": "Einrichtung und Onboarding können für {{setup}} € als Einmalzahlung hinzugebucht werden (gleicher Preis wie das Paket), inkl. 1 Stunde Nachbetreuung"
+  },
+  "cta_section": {
+    "title": "Bereit für den Start?",
+    "subtitle": "7 Tage kostenlos testen mit echtem Gesprächsguthaben – ohne Bindung und ohne Karte. Sehen Sie, wie viel Zeit Sie für andere Aufgaben gewinnen – und vielleicht mehr Kunden.",
+    "trial_button": "7 Tage kostenlos testen",
+    "button": "Erstgespräch buchen"
+  },
+  "footer": {
+    "description": "Automatisieren Sie Ihre Buchungen und Ihren Kundenservice mit intelligenter KI-Technologie.",
+    "solutions": "Lösungen",
+    "ai_booking": "KI-Buchung",
+    "free_trial": "7 Tage kostenlos testen",
+    "ai_widget": "KI-Widget",
+    "phone_assistant": "KI-Telefonie ein- & ausgehend",
+    "book_demo": "Demo buchen",
+    "features": "Funktionen",
+    "industries_title": "Branchen",
+    "healthcare": "Praxen & Gesundheitswesen",
+    "craftsman": "Handwerk",
+    "office": "Büro & Business",
+    "ecommerce": "Onlineshop & E-Commerce",
+    "blog_title": "Blog",
+    "all_articles": "Alle Artikel",
+    "blog_ai_widget": "KI-Widget",
+    "blog_inbound_outbound": "KI ein- & ausgehend",
+    "blog_webshop": "KI für Onlineshops",
+    "blog_total_solution": "KI-Komplettlösung",
+    "company": "Unternehmen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "privacy": "Datenschutzerklärung",
+    "terms": "AGB",
+    "contact_title": "Kontakt",
+    "address": "Aarhus, Dänemark",
+    "rights": "Alle Rechte vorbehalten",
+    "customer_cta_title": "Kundenlogin",
+    "customer_cta_subtitle": "Melden Sie sich in Ihrem Dashboard an oder erstellen Sie als Neukunde ein kostenloses Konto.",
+    "facebook_follow": "Folgen Sie Aibooking.dk auf Facebook",
+    "facebook_share": "Auf Facebook teilen",
+    "made_by": "Entwickelt und betrieben von",
+    "salon": "Friseur & Salon",
+    "app": "Die App"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Wir helfen Ihnen, Ihr Unternehmen zu automatisieren",
+    "form": {
+      "name": "Ihr Name",
+      "email": "Ihre E-Mail",
+      "phone": "Telefonnummer",
+      "company": "Unternehmen",
+      "message": "Nachricht",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet …",
+      "success": "Vielen Dank für Ihre Nachricht! Wir melden uns so schnell wie möglich.",
+      "error": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+    }
+  },
+  "about": {
+    "title": "Über Aibooking.dk",
+    "subtitle": "Wir helfen Unternehmen, ihre Kundenkommunikation zu automatisieren",
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Professionelle Kundenkommunikation mit KI-Technologie für alle Unternehmen zugänglich zu machen."
+    }
+  },
+  "widget": {
+    "title": "KI-Widget – Termine automatisieren",
+    "description": "Binden Sie unser KI-Widget in Ihre Website ein und lassen Sie die künstliche Intelligenz Buchungen automatisch übernehmen",
+    "demo_title": "Testen Sie den Voice-KI-Assistenten",
+    "demo_subtitle": "Klicken Sie auf das Symbol unten, um ein Gespräch mit unserem KI-Assistenten zu starten"
+  },
+  "demo_page": {
+    "title": "Kostenlose Demo buchen",
+    "subtitle": "Sehen Sie, wie Aibooking.dk Ihre Kundenkommunikation verändern kann"
+  },
+  "faq": {
+    "heading": "Häufig gestellte Fragen"
+  },
+  "receptionistShowcase": {
+    "badge": "KI-Rezeptionist für wachsende Unternehmen",
+    "title_line1": "Nie wieder einen Anruf verpassen.",
+    "title_line2": "Mehr Aufträge gewinnen.",
+    "title_line3": "Weniger Verwaltung.",
+    "subtitle": "Ihr KI-Rezeptionist nimmt Anrufe an, erfasst Leads und kümmert sich um Umbuchungen – damit Sie sich auf das Wachstum Ihres Unternehmens konzentrieren können.",
+    "cta_primary": "Kostenlose Demo buchen",
+    "cta_secondary": "KI-Sprach-Widget testen",
+    "demo_badge": "KI-Rezeptionist aktiv",
+    "chat_label": "KI-Rezeptionist",
+    "chat_message": "Hallo, Sie sind mit der Praxis Pentworth verbunden. Wie kann ich Ihnen heute helfen?",
+    "card_call_answered_label": "Anruf angenommen",
+    "card_call_answered_value": "Neuer Patient registriert",
+    "card_rebooked_label": "Umgebucht",
+    "card_rebooked_value": "Link automatisch gesendet",
+    "card_notification_label": "Benachrichtigung",
+    "card_notification_value": "Dr. Schmidt informiert",
+    "card_conversation_label": "Anruf",
+    "card_conversation_value": "KI hat alles erledigt",
+    "summary_label": "Zusammenfassung",
+    "summary_text": "Fenley hat nach Parkmöglichkeiten bei der Praxis gefragt. Wir haben alle relevanten Informationen gegeben, damit der Besuch reibungslos verläuft."
+  },
+  "widgetPricing": {
+    "badge": "Einfache Integration auf Ihrer Website",
+    "title": "AIBooking Voice-KI-Widget",
+    "subtitle": "Ein Voicebot, mit dem Ihre Kunden direkt auf Ihrer Website sprechen – beantwortet Fragen und übernimmt Buchungen automatisch",
+    "plan_badge": "Die flexibelste Lösung",
+    "price_period": "€/Monat",
+    "price_note1": "Inklusive 150 Minuten Gesprächszeit (ca. 0,89 €/Minute)",
+    "price_note2": "Das Paket verlängert sich automatisch, sobald die 150 Minuten verbraucht sind",
+    "features": [
+      {
+        "bold": "Voice-KI-Bot",
+        "rest": " – Kunden sprechen direkt mit der KI"
+      },
+      {
+        "bold": "",
+        "rest": "Beantwortet Fragen und übernimmt Buchungen"
+      },
+      {
+        "bold": "",
+        "rest": "Buchungen landen direkt in Ihrem Kalender"
+      },
+      {
+        "bold": "",
+        "rest": "Rund um die Uhr auf Ihrer Website verfügbar"
+      },
+      {
+        "bold": "",
+        "rest": "150 Minuten Gesprächszeit inklusive"
+      },
+      {
+        "bold": "Zahlen Sie nur für aktive Gesprächszeit",
+        "rest": " – keine Stundengebühr"
+      },
+      {
+        "bold": "24/7 und 365 Tage im Jahr geöffnet",
+        "rest": " – immer bereit"
+      },
+      {
+        "bold": "",
+        "rest": "Betreut Kunden, auch wenn Sie beschäftigt sind"
+      }
+    ],
+    "cta": "KI-Widget in Aktion sehen",
+    "demo_widget_label": "KI-Buchungsassistent",
+    "demo_widget_status": "Jetzt online",
+    "demo_ai_label": "🎤 KI-Stimme:",
+    "demo_msg1": "Hallo! Sie können direkt mit mir sprechen. Wobei kann ich helfen?",
+    "demo_customer_label": "🗣️ Kunde:",
+    "demo_msg2": "„Ich möchte gern einen Termin am Freitag buchen“",
+    "demo_msg3": "Sehr gern! Das sind die freien Zeiten am Freitag …",
+    "demo_footer": "Voice-KI-Widget – Kunden sprechen direkt auf Ihrer Website",
+    "perfect_for_label": "Ideal für:",
+    "perfect_for_text": "Praxen, Handwerker, Berater, Salons, Büros und alle anderen Unternehmen, die Buchungen direkt auf ihrer Website entgegennehmen."
+  },
+  "industryTools": {
+    "scenario": {
+      "badge": "So läuft es in der Praxis",
+      "situationLabel": "Die Situation:",
+      "resultsLabel": "Das Ergebnis",
+      "aiHandling": "Der KI-Rezeptionist bearbeitet den Anruf",
+      "live": "Live",
+      "healthcare": {
+        "title": "Ein Anruf mitten in der Behandlung – ohne jemanden zu stören",
+        "intro": "Für Praxen ist das Telefon Lebensader und größte Ablenkung zugleich. Jede Umbuchung, jeder Termin und jede Frage zu den Öffnungszeiten kostet Zeit, die dem Patienten vor Ihnen fehlt. Der KI-Rezeptionist nimmt den Anruf an, findet eine freie Zeit in Ihrem Kalender und bestätigt sie, während Sie sich um die Praxis kümmern.",
+        "situation": "Um 08:14 Uhr ruft ein Patient an, um seinen Termin zu verschieben. Am Empfang steht bereits ein Patient, und der Anruf würde normalerweise beide unterbrechen.",
+        "callLabel": "Eingehender Anruf · Patient",
+        "chat": [
+          { "role": "customer", "text": "Hallo, ich muss leider meinen Termin am Donnerstag verschieben." },
+          { "role": "ai", "text": "Das erledige ich gern. Ich sehe Ihren Termin am Donnerstag um 09:00 Uhr. Passt Ihnen Donnerstag um 10:30 Uhr oder Freitag um 14:00 Uhr besser?" },
+          { "role": "customer", "text": "Donnerstag um 10:30 Uhr ist perfekt." },
+          { "role": "ai", "text": "Ist verschoben. Sie erhalten gleich eine SMS-Bestätigung." }
+        ],
+        "outcomes": [
+          "Umbuchungen und Absagen werden bearbeitet, ohne den Empfang zu stören",
+          "Automatische SMS-Erinnerungen senken Terminausfälle deutlich",
+          "Patienten können auch außerhalb der Öffnungszeiten anrufen und buchen – abends und am Wochenende",
+          "Alles wird notiert und im Kalender eingetragen, sodass Sie danach den vollen Überblick haben"
+        ],
+        "results": ["Verschoben auf Do. 10:30", "SMS-Bestätigung gesendet", "Kalender aktualisiert"]
+      },
+      "craftsman": {
+        "title": "Der Auftrag wird gebucht, während Sie noch die Hände voll haben",
+        "intro": "Für Handwerker ist jeder verpasste Anruf ein möglicherweise verlorener Auftrag. Mitten in der Arbeit können Sie nicht rangehen – und der Kunde ruft einfach die nächste Nummer an. Der KI-Rezeptionist nimmt den Anruf an, erfasst Adresse, Auftragsart und Dringlichkeit und bucht einen Besichtigungstermin direkt in Ihren Kalender.",
+        "situation": "Um 10:47 Uhr ruft ein Neukunde wegen eines Badezimmers an. Sie stehen bei einem anderen Auftrag auf der Leiter und können nicht rangehen.",
+        "callLabel": "Eingehender Anruf · Neukunde",
+        "chat": [
+          { "role": "customer", "text": "Hallo, ich brauche ein neues Badezimmer. Könnten Sie sich das einmal ansehen?" },
+          { "role": "ai", "text": "Sehr gern. Darf ich die Adresse aufnehmen – und geht es um das ganze Bad oder nur einen Teil?" },
+          { "role": "customer", "text": "Hauptstraße 14, und es ist das ganze Bad." },
+          { "role": "ai", "text": "Notiert. Ich habe einen freien Termin am Freitag um 08:00 Uhr – soll ich ihn eintragen?" }
+        ],
+        "outcomes": [
+          "Keine verlorenen Aufträge mehr, weil das Telefon nicht rechtzeitig angenommen wurde",
+          "Adresse, Auftragsart und Dringlichkeit sind erfasst, bevor Sie zurückrufen",
+          "Besichtigungen landen direkt in Ihrem Kalender – keine Doppelbuchungen",
+          "Automatische Erinnerung an den Kunden am Tag vor dem Termin"
+        ],
+        "results": ["Besichtigung gebucht Fr. 08:00", "Adresse erfasst", "SMS an beide gesendet"]
+      },
+      "office": {
+        "title": "Raum für Konzentration – ohne Kunden warten zu lassen",
+        "intro": "Im Büro sind Unterbrechungen teuer. Jeder Anruf zu Status, Preisen oder Terminen reißt jemanden aus der Arbeit. Der KI-Rezeptionist filtert jeden eingehenden Anruf, beantwortet Routinefragen selbst, bucht Meetings im gemeinsamen Kalender und leitet nur das Wichtige weiter.",
+        "situation": "Um 13:05 Uhr ruft ein Kunde an, um ein Meeting zu buchen. Das Team steckt mitten in einer Deadline, und ein Anruf würde die ganze Konzentration kosten.",
+        "callLabel": "Eingehender Anruf · Kunde",
+        "chat": [
+          { "role": "customer", "text": "Hallo, ich möchte gern einen Termin zu unserem Vorgang vereinbaren." },
+          { "role": "ai", "text": "Sehr gern. Ich sehe freie Zeiten am Dienstag um 11:00 Uhr und am Mittwoch um 14:30 Uhr – was passt Ihnen am besten?" },
+          { "role": "customer", "text": "Mittwoch um 14:30 Uhr." },
+          { "role": "ai", "text": "Ist gebucht. Sie erhalten beide sofort eine Kalendereinladung." }
+        ],
+        "outcomes": [
+          "Weniger Unterbrechungen bedeuten längere Phasen konzentrierter Arbeit",
+          "Routinefragen zu Status, Preisen und Öffnungszeiten werden automatisch beantwortet",
+          "Meetings werden direkt im gemeinsamen Teamkalender gebucht",
+          "Sie bestimmen, welche Anrufe immer an einen Menschen durchgestellt werden"
+        ],
+        "results": ["Meeting gebucht Mi. 14:30", "Einladung gesendet", "Team nicht gestört"]
+      },
+      "ecommerce": {
+        "title": "Die Frage wird beantwortet, bevor der Warenkorb verlassen wird",
+        "intro": "In Onlineshops kommt ein großer Teil des Traffics außerhalb der Geschäftszeiten, und eine unbeantwortete Frage zu Lieferung, Größe oder Retoure wird schnell zum abgebrochenen Kauf. Das KI-Widget antwortet sofort auf Ihrer Seite – rund um die Uhr – und begleitet den Kunden bis zur abgeschlossenen Bestellung.",
+        "situation": "Um 21:38 Uhr hat ein Kunde den Artikel im Warenkorb, ist sich aber bei Lieferung und Retoure unsicher. Der Support öffnet erst morgen.",
+        "callLabel": "Website-Chat · Besucher",
+        "chat": [
+          { "role": "customer", "text": "Wann hätte ich es, wenn ich jetzt bestelle?" },
+          { "role": "ai", "text": "Wenn Sie vor 22:00 Uhr bestellen, versenden wir morgen – in der Regel haben Sie es in 1–2 Werktagen." },
+          { "role": "customer", "text": "Und wenn es nicht passt?" },
+          { "role": "ai", "text": "Sie haben 30 Tage Rückgaberecht, und das Retourenetikett finden Sie in Ihrer Bestellbestätigung." }
+        ],
+        "outcomes": [
+          "Fragen zu Produkten, Lieferung und Retouren werden sofort beantwortet – auch abends",
+          "Weniger abgebrochene Warenkörbe, weil Zweifel sofort ausgeräumt werden",
+          "Komplexe Fälle gehen mit dem ganzen Gespräch als Kontext an Ihr Team",
+          "Keine Wartezeit und keine Warteschlange – egal, wie viele gleichzeitig fragen"
+        ],
+        "results": ["In 3 Sekunden beantwortet", "Bestellung abgeschlossen", "Keine Wartezeit"]
+      },
+      "salon": {
+        "title": "Der Termin wird gebucht, während Sie die Schere in der Hand halten",
+        "intro": "Im Salon klingelt das Telefon immer im falschen Moment: mitten im Haarschnitt, beim Färben oder bei der Maniküre. Der KI-Rezeptionist nimmt den Anruf an, findet einen freien Termin in Ihrem Kalender und bucht ihn, damit die Kundin nicht beim nächsten Salon anruft.",
+        "situation": "Um 11:20 Uhr ruft eine Kundin an, um Schneiden und Färben zu buchen. Sie stehen mitten in einer Färbung und können nicht rangehen.",
+        "callLabel": "Eingehender Anruf · Kundin",
+        "chat": [
+          {
+            "role": "customer",
+            "text": "Hallo, ich hätte gern nächste Woche einen Termin zum Schneiden und Färben."
+          },
+          {
+            "role": "ai",
+            "text": "Gern. Ich habe Dienstag um 10:00 Uhr oder Donnerstag um 14:30 Uhr frei. Was passt Ihnen besser?"
+          },
+          {
+            "role": "customer",
+            "text": "Donnerstag um 14:30 Uhr."
+          },
+          {
+            "role": "ai",
+            "text": "Dann sind Sie am Donnerstag um 14:30 Uhr zum Schneiden und Färben eingetragen. Sie bekommen gleich eine Bestätigung per SMS."
+          }
+        ],
+        "outcomes": [
+          "Keine Kundin ruft woanders an, weil Sie gerade jemanden im Stuhl hatten",
+          "Absagen und Verschiebungen werden sofort erledigt, damit jemand anderes den Termin bekommt",
+          "SMS-Erinnerungen am Vortag sorgen für weniger nicht wahrgenommene Termine",
+          "Kunden können abends auch über den Chat auf Ihrer Website buchen"
+        ],
+        "results": [
+          "Termin Do. 14:30",
+          "SMS-Bestätigung gesendet",
+          "Keine Unterbrechung am Stuhl"
+        ]
+      }
+    },
+    "calculator": {
+      "badge": "Berechnen Sie Ihren Preis",
+      "title": "Was kostet es – und wie viel Zeit gewinnen Sie zurück?",
+      "subtitle": "Wählen Sie die Lösung, die Sie interessiert, stellen Sie Ihre erwartete Gesprächszeit ein und sehen Sie sofort den Preis.",
+      "modeLabel": "Für welche Lösung möchten Sie einen Preis?",
+      "modeVoice": "Ein- und ausgehende Anrufe",
+      "modeVoiceDesc": "Der KI-Telefonassistent nimmt Anrufe an und ruft selbst mit Erinnerungen und Nachfassanrufen an.",
+      "modeWidget": "Sprach-Widget auf Ihrer Website",
+      "modeWidgetDesc": "Besucher sprechen oder schreiben direkt mit der KI auf Ihrer Seite und buchen selbst.",
+      "widgetPlanName": "Sprach-Widget",
+      "minutesLabel": "Erwartete Gesprächszeit pro Monat",
+      "minutesUnit": "Min.",
+      "recommendedLabel": "Empfohlenes Paket",
+      "includedMinutes": "{{minutes}} Minuten inklusive",
+      "setupLabel": "Einrichtung und Onboarding können als optionale Einmalzahlung hinzugebucht werden.",
+      "setupNote": "Optionale Zusatzleistung: {{price}} einmalig – gleicher Preis wie das Paket, inkl. 1 Stunde Nachbetreuung.",
+      "setupLine": "Optionale Einrichtung und Onboarding verfügbar",
+      "aboveLargest": "Brauchen Sie mehr als 2.000 Minuten im Monat? Wir stellen Ihnen ein Paket zusammen – fragen Sie ein Angebot an.",
+      "timeFreedValue": "Etwa {{hours}} Stunden Telefonzeit zurück",
+      "timeFreedText": "Zeit, die Sie stattdessen in Ihr Unternehmen stecken können. Buchungen, Umbuchungen und Fragen werden ohne Sie erledigt.",
+      "alwaysOnTitle": "24/7 und 365 Tage im Jahr geöffnet",
+      "alwaysOnText": "Der Agent nimmt immer ab – abends, am Wochenende und an Feiertagen. Sie verlieren keine Kunden mehr, weil niemand rangehen konnte.",
+      "recommendation": "Wir empfehlen, die Lösung zuerst 7 Tage kostenlos zu testen. Danach wählen Sie Ihr Paket und erhalten Einrichtung und Onboarding komplett kostenlos dazu.",
+      "cta": "7 Tage kostenlos testen",
+      "note": "Die Preise sind Richtwerte und unverbindlich. Sie können das Paket jederzeit wechseln."
+    },
+    "trial": {
+      "badge": "7 Tage kostenlos",
+      "title": "Sofort testen – mit Ihren Anrufen und auf Ihrer Website",
+      "text": "Erstellen Sie ein Testkonto und erhalten Sie 7 Tage vollen Zugriff auf die Lösung – völlig kostenlos und unverbindlich. Wir richten alles gemeinsam mit Ihnen in einem kurzen Onboarding-Gespräch ein.",
+      "points": [
+        "Keine technische Einrichtung nötig",
+        "Voller Zugriff auf Dashboard, Aufzeichnungen und Buchungen",
+        "Ohne Bindung und ohne Kartendaten"
+      ],
+      "inboundLabel": "Eingehend",
+      "inboundValue": "Leiten Sie Ihre bisherige Nummer um, und die KI nimmt sofort Ihre echten Anrufe an",
+      "widgetLabel": "Sprach-Widget",
+      "widgetValue": "Erhalten Sie sofort einen Einbettungscode – testen und gestalten Sie das Widget auf Ihrer Website",
+      "cta": "Testkonto erstellen",
+      "secondary": "Mehr über die Testphase"
+    },
+    "integrations": {
+      "badge": "Kalenderintegrationen",
+      "healthcare": {
+        "title": "Die Kalendersysteme, die Praxen am häufigsten nutzen",
+        "subtitle": "Egal, welches Buchungssystem Sie heute nutzen – der KI-Rezeptionist kann direkt mit Ihrem Kalender synchronisieren.",
+        "items": [
+          { "name": "Google Kalender", "description": "Automatische Echtzeit-Synchronisierung von Patiententerminen" },
+          { "name": "Microsoft Outlook / 365", "description": "Buchung und Kalenderfreigabe für die ganze Praxis" },
+          { "name": "Apple Kalender", "description": "Synchronisiert direkt über iCloud" },
+          { "name": "EasyPractice", "description": "Verbreitetes Praxisverwaltungssystem in Dänemark" },
+          { "name": "Novax", "description": "Beliebtes Kalendersystem bei Chiropraktikern und Physiotherapeuten" },
+          { "name": "Andere Systeme", "description": "Sie nutzen etwas anderes? Wir verbinden per CalDAV/iCal-Synchronisierung" }
+        ]
+      },
+      "craftsman": {
+        "title": "Die Kalendersysteme, die Handwerker am häufigsten nutzen",
+        "subtitle": "Besichtigungen werden direkt in das Kalendersystem gebucht, mit dem Sie Ihren Betrieb schon führen.",
+        "items": [
+          { "name": "Google Kalender", "description": "Automatische Echtzeit-Synchronisierung von Besichtigungen und Aufträgen" },
+          { "name": "Microsoft Outlook / 365", "description": "Gemeinsamer Kalender für das ganze Team unterwegs" },
+          { "name": "Apple Kalender", "description": "Synchronisiert direkt über iCloud" },
+          { "name": "Dinero", "description": "In Dänemark bei Handwerkern für Rechnungen und Planung verbreitet" },
+          { "name": "e-conomic", "description": "Beliebtes Buchhaltungs- und Planungssystem im Handwerk" },
+          { "name": "Andere Systeme", "description": "Sie nutzen etwas anderes? Wir verbinden per CalDAV/iCal-Synchronisierung" }
+        ]
+      },
+      "office": {
+        "title": "Die Kalendersysteme, die Büros am häufigsten nutzen",
+        "subtitle": "Meetings werden direkt in das System gebucht, in dem Ihr Team schon arbeitet.",
+        "items": [
+          { "name": "Google Kalender", "description": "Automatische Echtzeit-Synchronisierung von Meetings" },
+          { "name": "Microsoft Outlook / 365", "description": "Gemeinsamer Kalender und Meeting-Einladungen für das ganze Team" },
+          { "name": "Microsoft-Teams-Kalender", "description": "Meetings direkt im gemeinsamen Teamkalender buchen" },
+          { "name": "Apple Kalender", "description": "Synchronisiert direkt über iCloud" },
+          { "name": "Calendly", "description": "Beliebtes Tool zur Terminbuchung bei Büros und Beratern" },
+          { "name": "Andere Systeme", "description": "Sie nutzen etwas anderes? Wir verbinden per CalDAV/iCal-Synchronisierung" }
+        ]
+      },
+      "ecommerce": {
+        "title": "Die Kalendersysteme, die Onlineshops am häufigsten nutzen",
+        "subtitle": "Sie verkaufen Produkte und Dienstleistungen? Buchungen landen direkt in Ihrem bestehenden Kalender.",
+        "items": [
+          { "name": "Google Kalender", "description": "Automatische Echtzeit-Synchronisierung von Buchungen" },
+          { "name": "Microsoft Outlook / 365", "description": "Buchung und Kalenderfreigabe für das ganze Team" },
+          { "name": "Shopify", "description": "Abholung, Lieferung oder Beratung direkt aus dem Onlineshop buchen" },
+          { "name": "Calendly", "description": "Für Onlineshops, die auch Beratungen oder Demos verkaufen" },
+          { "name": "Apple Kalender", "description": "Synchronisiert direkt über iCloud" },
+          { "name": "Andere Systeme", "description": "Sie nutzen etwas anderes? Wir verbinden per CalDAV/iCal-Synchronisierung" }
+        ]
+      },
+      "salon": {
+        "title": "Kalender, die Salons am häufigsten nutzen",
+        "subtitle": "Die Buchungen landen in dem Kalender, den der Salon bereits nutzt.",
+        "items": [
+          {
+            "name": "Google Kalender",
+            "description": "Termine werden automatisch in Echtzeit synchronisiert"
+          },
+          {
+            "name": "Microsoft Outlook / 365",
+            "description": "Gemeinsamer Kalender für den ganzen Salon"
+          },
+          {
+            "name": "Apple Kalender",
+            "description": "Direkt über iCloud synchronisiert"
+          },
+          {
+            "name": "Andere Systeme",
+            "description": "Sie nutzen ein anderes Buchungssystem? Wir verbinden per CalDAV/iCal-Synchronisierung"
+          }
+        ]
+      }
+    }
+  },
+  "trialOfferWidget": {
+    "dialog_aria": "KI-Rezeptionist kostenlos testen",
+    "close_aria": "Minimieren",
+    "expand_aria": "Angebot zur kostenlosen Testphase öffnen",
+    "minimized_label": "7 Tage kostenlos testen",
+    "badge": "7 TAGE KOSTENLOS",
+    "title": "Kostenloses Konto erstellen und 7 Tage gratis testen",
+    "description": "Sehr benutzerfreundlich in wenigen einfachen Schritten – keine Kreditkarte nötig. Leiten Sie Ihre bestehende Nummer um und binden Sie das Widget selbst auf Ihrer Website ein – oder buchen Sie die Einrichtung kostenpflichtig dazu, wenn Sie Hilfe möchten.",
+    "cta": "Kostenloses Konto erstellen",
+    "indbound_label": "Eingehend",
+    "indbound_value": "Nimmt Ihre Anrufe an",
+    "widget_label": "Sprach-Widget",
+    "widget_value": "Beantwortet allgemeine Fragen",
+    "booking_label": "Buchung",
+    "booking_value": "Direkt in den Kalender",
+    "webshop_label": "Onlineshop",
+    "webshop_value": "Shopify-Integration"
+  },
+  "voiceAssistantWidget": {
+    "open_aria": "KI-Assistenten öffnen",
+    "close_aria": "Schließen",
+    "launcher_label": "KI fragen",
+    "dialog_aria": "Mit dem KI-Assistenten sprechen",
+    "title": "Fragen Sie den KI-Assistenten",
+    "subtitle": "Stellen Sie eine Frage per Sprache – es ist dieselbe KI, die Sie auf Ihrer eigenen Website einrichten können.",
+    "start_aria": "Gespräch starten",
+    "stop_aria": "Gespräch beenden",
+    "state_idle": "Zum Starten tippen",
+    "state_connecting": "Verbindung wird hergestellt …",
+    "state_active": "Ich höre zu – sagen Sie etwas!",
+    "state_error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+  },
+  "howItWorks": {
+    "title": "So starten Sie",
+    "subtitle": "Erstellen Sie in weniger als 2 Minuten ein kostenloses Konto – ohne Kreditkarte, ohne Bindung.",
+    "steps": [
+      {
+        "title": "Kostenloses Konto erstellen",
+        "desc": "Melden Sie sich in weniger als 2 Minuten ohne Kreditkarte an und erhalten Sie sofort Zugriff auf alle Funktionen."
+      },
+      {
+        "title": "Eigene Telefonnummer erhalten",
+        "desc": "Sie erhalten eine Nummer für Ihren KI-Rezeptionisten. Leiten Sie einfach Ihre bestehende Geschäftsnummer dorthin um, und die KI nimmt Ihre eingehenden Anrufe an."
+      },
+      {
+        "title": "Widget erstellen und testen",
+        "desc": "Richten Sie Ihr KI-Sprach-Widget kostenlos ein, testen Sie es und binden Sie es danach auf Ihrer Website ein – dabei helfen wir Ihnen auch gern."
+      }
+    ],
+    "cta": "Kostenloses Konto erstellen",
+    "demo_phone_label": "Möchten Sie es zuerst hören? Rufen Sie kostenlos an unter",
+    "demo_phone_note": "unverbindlich und kostenlos"
+  },
+  "appQr": {
+    "eyebrow": "Die AIbooking-App",
+    "title": "AIbooking vom Smartphone aus verwalten",
+    "subtitle": "Melden Sie sich mit Ihrem AIbooking-Konto in der App an und behalten Sie Ihren KI-Rezeptionisten überall im Blick.",
+    "point_login": "Dasselbe Login wie am Computer",
+    "point_overview": "Anrufe, Gespräche und Buchungen sofort sehen",
+    "point_devices": "Funktioniert auf iPhone und Android",
+    "button": "App holen",
+    "qr_alt": "QR-Code für die AIbooking-App",
+    "scan_hint": "Mit der Smartphone-Kamera scannen, um die App zu holen",
+    "more_link": "App und Screenshots ansehen"
+  }
+}

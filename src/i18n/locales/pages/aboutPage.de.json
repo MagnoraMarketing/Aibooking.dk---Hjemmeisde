@@ -1,0 +1,87 @@
+{
+  "seo": {
+    "title": "Über Aibooking.dk – KI-Rezeption & KI-Kundenservice | Aibooking.dk",
+    "description": "Aibooking.dk ist eine KI-Lösung von Menschen mit über 20 Jahren Erfahrung im Kundenkontakt: KI-Rezeption, KI-Widgets und KI-Kundenservice.",
+    "keywords": "über Aibooking, KI-Rezeptionist, KI-Telefonservice, KI-Rezeption, KI-Kundenservice, KI-Widget, virtuelle Rezeption, KI aus Dänemark, KI-Telefonassistent"
+  },
+  "breadcrumb": { "home": "Startseite", "about": "Über uns" },
+  "hero": {
+    "badge": "Über Aibooking.dk",
+    "title_line1": "Wir revolutionieren",
+    "title_line2": "den Kundenservice mit KI",
+    "subtitle": "Unsere Mission ist es, Unternehmen mit fortschrittlicher KI-Technologie zu einem herausragenden Kundenservice rund um die Uhr zu verhelfen."
+  },
+  "story": {
+    "badge": "Unsere Geschichte",
+    "title": "Von der Idee zur Realität",
+    "paragraphs": [
+      "Aibooking.dk wurde mit einer klaren Vision gegründet: professionellen Kundenservice für jedes Unternehmen zugänglich zu machen – unabhängig von seiner Größe.",
+      "Die Menschen hinter Aibooking.dk haben mehr als 20 Jahre Erfahrung im Telemarketing, sowohl eingehend als auch ausgehend. Wir wissen genau, wie viele Ressourcen Unternehmen in den Kundenkontakt stecken. Dieses tiefe Wissen hat uns dazu gebracht, eine KI-Lösung zu entwickeln, die als Ihr virtueller Rezeptionist arbeitet und viele der wiederkehrenden Aufgaben automatisiert, die sonst erhebliche Personalressourcen binden würden.",
+      "In unseren vielen Jahren Erfahrung haben wir festgestellt, dass viele kleine und mittlere Unternehmen wertvolle Kunden verlieren, weil ihnen die Ressourcen fehlen, jede Anfrage rund um die Uhr zu beantworten. Unsere Lösung verbindet fortschrittliche KI-Technologie mit einem echten Verständnis für Sprache und Kultur.",
+      "Heute betreuen wir Hunderte von Unternehmen in Dänemark und helfen ihnen, ihren Kundenservice zu verbessern, ihre Buchungsquote zu steigern und Zeit für das zu gewinnen, was sie am besten können."
+    ]
+  },
+  "vision": {
+    "title": "Unsere Vision",
+    "description": "Ein führender Anbieter KI-gestützter Kundenservicelösungen zu sein, der Unternehmen durch bessere Kundenerlebnisse beim Wachsen hilft.",
+    "badge": "Innovation treibt uns an"
+  },
+  "values": {
+    "title": "Unsere Werte",
+    "subtitle": "Die Prinzipien, die alles leiten, was wir tun",
+    "items": [
+      { "title": "Kundenfokus", "description": "Die Bedürfnisse unserer Kunden stehen für uns immer im Mittelpunkt, und wir streben den bestmöglichen Service an." },
+      { "title": "Innovation", "description": "Wir entwickeln ständig neue Lösungen und verbessern unsere KI-Technologie, um vorne zu bleiben." },
+      { "title": "Zuverlässigkeit", "description": "Wir liefern stabile und sichere Lösungen, auf die Sie sich Tag für Tag verlassen können." },
+      { "title": "Wachstum", "description": "Wir helfen Unternehmen zu wachsen, indem wir ihren Kundenservice automatisieren und optimieren." }
+    ]
+  },
+  "benefits": {
+    "title": "Warum Aibooking.dk?",
+    "subtitle": "Erfahrung, Fachwissen und Ergebnisse, die für sich sprechen",
+    "items": [
+      { "title": "Erfahrung, die den Unterschied macht", "description": "Mit über 20 Jahren Erfahrung im Telemarketing kennen wir jede Herausforderung im Kundenkontakt. Unsere KI-Lösung basiert auf echtem Branchenverständnis." },
+      { "title": "Automatisierung, die funktioniert", "description": "Wir wissen genau, welche Teile des Kundenkontakts sich wirksam automatisieren lassen. Unser virtueller Rezeptionist bearbeitet eingehende und ausgehende Anrufe professionell." },
+      { "title": "Support auf Dänisch, Englisch und Spanisch", "description": "Unsere KI spricht perfekt Dänisch, Englisch und Spanisch. Wir bieten Ihnen persönliche Unterstützung und Beratung auf Basis fundierter Marktkenntnis." },
+      { "title": "Erfahrung in vielen Branchen", "description": "Wir haben langjährige Erfahrung in zahlreichen Branchen und wissen daher genau, wie wir die bestmögliche Lösung für Ihr Unternehmen einrichten." }
+    ]
+  },
+  "receptionist": {
+    "title": "Ihr virtueller Rezeptionist",
+    "description": "Unsere KI-Lösung ist nicht einfach ein weiterer Chatbot. Sie ist das Ergebnis jahrzehntelanger Erfahrung in Telemarketing und Kundenkontakt. Wir wissen, was professioneller Kundenservice erfordert, und haben eine Lösung gebaut, die in der Praxis wirklich funktioniert.",
+    "incoming": {
+      "title": "Eingehende Anrufe",
+      "description": "Unser virtueller Rezeptionist nimmt alle eingehenden Anrufe an, beantwortet Fragen, nimmt Buchungen entgegen und stellt nur durch, wenn es nötig ist. Das bedeutet weniger unterbrochene Arbeitsabläufe und mehr Zeit für das Kerngeschäft.",
+      "features": [
+        "Rund um die Uhr erreichbar",
+        "Professionelle Kommunikation",
+        "Automatische Buchung und Bestätigung"
+      ]
+    },
+    "outgoing": {
+      "title": "Ausgehende Anrufe",
+      "description": "Aus unserer Erfahrung im ausgehenden Telemarketing wissen wir, was funktioniert. Unsere KI kann Nachfass-Anrufe, Bestätigungen und Erinnerungen übernehmen – immer im richtigen Ton und zum richtigen Zeitpunkt.",
+      "features": [
+        "Automatische Erinnerungen",
+        "Buchungsbestätigungen",
+        "Nachfassen im Kundenservice"
+      ]
+    }
+  },
+  "widget": {
+    "title": "Das Aibooking.dk-Widget",
+    "description": "Mit dem Aibooking.dk-Widget planen und buchen Sie Meetings ganz ohne manuellen Aufwand. Integrieren Sie unser intelligentes Widget direkt auf Ihrer Website und lassen Sie die KI übernehmen. Per Sprache und Text verfügbar – neue Meetings werden automatisch direkt in Ihren Kalender gebucht.",
+    "items": [
+      { "title": "KI-gestützte Terminplanung", "description": "Das Widget schlägt die besten Zeiten für Sie und Ihre Kunden vor – vollautomatisch." },
+      { "title": "Buchung per Sprache und Text", "description": "Ihre Kunden können direkt mit der KI sprechen oder per Text buchen." },
+      { "title": "Automatische Kalenderintegration", "description": "Neue Meetings werden ohne manuelle Bearbeitung automatisch in Ihren Kalender eingetragen." }
+    ],
+    "cta": "Mehr über das Widget erfahren"
+  },
+  "ctaSection": {
+    "title": "Bereit für den Start?",
+    "subtitle": "Lassen Sie uns zeigen, wie Aibooking.dk Ihren Kundenservice verändern und Ihr Unternehmen beim Wachsen unterstützen kann.",
+    "button_demo": "Demo buchen",
+    "button_contact": "Kontakt aufnehmen"
+  }
+}

@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { ArrowRight, BookOpen } from 'lucide-react';
 import type { SupportedLanguage } from '../i18n/config';
-import { getPostBySlug, type BlogPost } from '../content/blog';
+import { getPostBySlug, localizePost, type BlogPost } from '../content/blog';
 import { blogPostPath } from '../utils/localePaths';
 
 // "Guides" block for product and industry pages: links the money pages to the
@@ -19,8 +19,6 @@ export default function RelatedGuides({ slugs }: RelatedGuidesProps) {
   const posts = slugs.map((slug) => getPostBySlug(slug)).filter((post): post is BlogPost => Boolean(post));
   if (posts.length === 0) return null;
 
-  const isDa = lang === 'da';
-
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-ink-50">
       <div className="max-w-6xl mx-auto">
@@ -30,16 +28,16 @@ export default function RelatedGuides({ slugs }: RelatedGuidesProps) {
         </div>
         <p className="text-lg text-ink-600 mb-8">{t('guides.subtitle')}</p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {posts.map((post) => (
+          {posts.map((post) => localizePost(post, lang)).map((text, i) => ({ post: posts[i], text })).map(({ post, text }) => (
             <a
               key={post.id}
               href={blogPostPath(lang, post.slug)}
               className="group flex flex-col bg-white rounded-2xl p-6 border border-ink-200 hover:border-brand-300 hover:shadow-md transition-all"
             >
               <span className="font-semibold text-ink-900 group-hover:text-brand-700 leading-snug mb-2">
-                {isDa ? post.title_da : post.title_en}
+                {text.title}
               </span>
-              <span className="text-sm text-ink-600 mb-4 flex-1">{isDa ? post.excerpt_da : post.excerpt_en}</span>
+              <span className="text-sm text-ink-600 mb-4 flex-1">{text.excerpt}</span>
               <span className="inline-flex items-center text-brand-600 font-semibold text-sm">
                 {t('guides.read')}
                 <ArrowRight className="w-4 h-4 ml-1.5 group-hover:translate-x-1 transition-transform" />

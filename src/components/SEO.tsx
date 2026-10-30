@@ -5,7 +5,7 @@ import { localizedUrl } from '../utils/localePaths';
 import { collectSeo } from '../utils/seoCollector';
 
 const OG_LOCALES: Record<string, string> = {
-  da: 'da_DK', en: 'en_US', pt: 'pt_PT', fr: 'fr_FR', es: 'es_ES',
+  da: 'da_DK', en: 'en_US', es: 'es_ES', de: 'de_DE', fr: 'fr_FR',
 };
 
 interface SEOProps {
@@ -45,7 +45,8 @@ export default function SEO({
   const alternates = path
     ? [
         ...languages.map((l) => ({ hreflang: l, href: localizedUrl(l, path) })),
-        { hreflang: 'x-default', href: localizedUrl('da', path) },
+        // Visitors from countries without their own language version get English.
+        { hreflang: 'x-default', href: localizedUrl(languages.includes('en') ? 'en' : languages[0], path) },
       ]
     : [];
 

@@ -146,4 +146,4 @@ Søgninger efter "ai telefonpasser", "ai booking system danmark", "ai receptioni
 - **Frisør/salon manglede** som branche, selv om forsidens dashboard-eksempel er en frisør, og bookingtunge brancher passer bedst til AI-booking. Ny side **/frisoer** med eget scenarie, dagsforløb, salontyper, FAQ og kalendere. Siden har ingen udokumenterede tal (jf. afsnit 6, punkt 1).
 - **Ny side /app** med rigtige skærmbilleder af kundeappen (computer og mobil, taget med en fiktiv frisørsalon), vejledning til hjemmeskærm og FAQ. Der linkes til den fra app-sektionen (`AppQrSection`, på 16 sider), footeren og /frisoer.
 
-Begge nye sider findes på alle 5 sprog og ligger i sitemap, `PAGE_PATHS` og llms.txt. Næste kandidater til branchesider, hvis GSC viser efterspørgsel: autoværksted, fysioterapeut/kiropraktor (i dag under /klinik), ejendomsmægler og restaurant.
+Begge nye sider findes på alle 5 sprog (da, en, es, de, fr) og ligger i sitemap, `PAGE_PATHS` og llms.txt. Næste kandidater til branchesider, hvis GSC viser efterspørgsel: autoværksted, fysioterapeut/kiropraktor (i dag under /klinik), ejendomsmægler og restaurant.

@@ -2,7 +2,7 @@
   "seo": {
     "title": "AI Answering Service for Tradespeople | Aibooking.dk",
     "description": "AI phone answering for plumbers, electricians, carpenters and painters: the AI answers while you work, takes the job details and books it. Try it free.",
-    "keywords": "AI phone answering, Danish AI receptionist, webshop widget, AI widget for Shopify, tradesperson booking, plumber booking, electrician booking, carpenter booking, trade AI receptionist, job automation"
+    "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, tradesperson booking, plumber booking, electrician booking, carpenter booking, trade AI receptionist, job automation"
   },
   "breadcrumb": {
     "home": "Home",
@@ -19,22 +19,59 @@
     "description": "Our AI receptionist solves this problem once and for all. The system answers every call, records customer details, books site visits and sends automatic confirmations via SMS. In your dashboard you can see every enquiry, listen to recorded conversations, get short summaries of what the customer wants, and see what's been agreed. Your calendar updates automatically, no matter which system you use. Stop worrying about missed jobs – focus on your craft."
   },
   "benefits": [
-    { "title": "Answer every enquiry", "description": "Even when you're on a job and can't pick up the phone" },
-    { "title": "Automatic logging", "description": "Customer details and job descriptions are saved automatically" },
-    { "title": "Book site visits directly", "description": "Straight into your calendar – syncs automatically with your system" },
-    { "title": "SMS confirmations", "description": "For both you and the customer, with all the relevant details" },
-    { "title": "Complete dashboard", "description": "See every customer enquiry and what's been agreed" },
-    { "title": "24/7 availability", "description": "The system works around the clock, weekends included" }
+    {
+      "title": "Answer every enquiry",
+      "description": "Even when you're on a job and can't pick up the phone"
+    },
+    {
+      "title": "Automatic logging",
+      "description": "Customer details and job descriptions are saved automatically"
+    },
+    {
+      "title": "Book site visits directly",
+      "description": "Straight into your calendar – syncs automatically with your system"
+    },
+    {
+      "title": "SMS confirmations",
+      "description": "For both you and the customer, with all the relevant details"
+    },
+    {
+      "title": "Complete dashboard",
+      "description": "See every customer enquiry and what's been agreed"
+    },
+    {
+      "title": "24/7 availability",
+      "description": "The system works around the clock, weekends included"
+    }
   ],
   "stats": [
-    { "value": "+45%", "label": "More jobs" },
-    { "value": "10h/week", "label": "Time saved" },
-    { "value": "100%", "label": "Answer rate" },
-    { "value": "4.9/5", "label": "Customer satisfaction" }
+    {
+      "value": "+45%",
+      "label": "More jobs"
+    },
+    {
+      "value": "10h/week",
+      "label": "Time saved"
+    },
+    {
+      "value": "100%",
+      "label": "Answer rate"
+    },
+    {
+      "value": "4.9/5",
+      "label": "Customer satisfaction"
+    }
   ],
   "trades": {
     "title": "Perfect for every trade",
-    "items": ["Plumbing", "Electricians", "Painters", "Carpenters", "Cleaning", "Moving companies"],
+    "items": [
+      "Plumbing",
+      "Electricians",
+      "Painters",
+      "Carpenters",
+      "Cleaning",
+      "Moving companies"
+    ],
     "cta": "Book a no-obligation meeting and get a free test login"
   },
   "finalCta": {

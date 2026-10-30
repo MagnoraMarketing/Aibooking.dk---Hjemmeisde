@@ -1,0 +1,67 @@
+{
+  "seo": {
+    "title": "Allgemeine Geschäftsbedingungen | Aibooking.dk",
+    "description": "Allgemeine Geschäftsbedingungen für die Nutzung des KI-Rezeptionisten, des Buchungs-Widgets und weiterer Dienste von Aibooking.dk.",
+    "keywords": "AGB, Allgemeine Geschäftsbedingungen, Nutzungsbedingungen, Aibooking"
+  },
+  "title": "Allgemeine Geschäftsbedingungen",
+  "subtitle": "Allgemeine Geschäftsbedingungen von Aibooking.dk",
+  "intro": "Diese Allgemeinen Geschäftsbedingungen gelten für die Nutzung von Aibooking.dk und der über die Plattform angebotenen Dienste. Mit der Erstellung eines Kontos, der Buchung einer DEMO oder dem Kauf eines Abonnements akzeptieren Sie die folgenden Bedingungen.",
+  "sections": [
+    {
+      "heading": "1. Allgemeines",
+      "body": "Aibooking.dk ist eine Online-Plattform für Buchung und Verwaltung. Die Plattform wird als digitaler Dienst angeboten und in ihrem jeweiligen Zustand und nach Verfügbarkeit bereitgestellt."
+    },
+    {
+      "heading": "2. DEMO-Zeitraum",
+      "items": [
+        "Wenn Sie eine DEMO bei Aibooking.dk buchen, erhalten Sie einen kostenlosen Testzeitraum von 7 Tagen.",
+        "Der Testzeitraum beginnt an dem Tag, an dem der Zugang freigeschaltet wird.",
+        "Während des DEMO-Zeitraums können Sie die Funktionen der Plattform ausprobieren."
+      ]
+    },
+    {
+      "heading": "3. Kauf und Bestellung",
+      "items": [
+        "Sie können auch direkt ohne DEMO-Zeitraum kaufen.",
+        "Beim Kauf können Sie zusätzlich ein Onboarding bestellen, bei dem Sie Hilfe bei der Einrichtung und Nutzung von Aibooking.dk erhalten.",
+        "Alle Preise sind in Dänischen Kronen (DKK) angegeben und verstehen sich zuzüglich Mehrwertsteuer, sofern nicht anders angegeben."
+      ]
+    },
+    {
+      "heading": "4. Zahlung",
+      "items": [
+        "Die Zahlung erfolgt im Voraus für den gewählten Abonnementzeitraum.",
+        "Das Abonnement wird laufend abgerechnet, in der Regel monatlich, sofern nicht anders vereinbart.",
+        "Bei Zahlungsverzug kann der Zugang zur Plattform gesperrt oder geschlossen werden."
+      ]
+    },
+    {
+      "heading": "5. Widerrufsrecht",
+      "items": [
+        "Nach Abschluss eines Kaufs besteht kein Widerrufsrecht.",
+        "Dies gilt sowohl für Abonnements als auch für ein etwaiges Onboarding, da es sich um digitale Dienste handelt, die sofort erbracht werden."
+      ]
+    },
+    {
+      "heading": "6. Kündigung",
+      "items": [
+        "Das Abonnement läuft fortlaufend für den laufenden Monat plus einen Monat.",
+        "Die Kündigung muss schriftlich per E-Mail oder über Ihr Konto bei Aibooking.dk erfolgen.",
+        "Die Kündigung wird zum Ende des Folgemonats wirksam."
+      ]
+    },
+    {
+      "heading": "7. Änderungen",
+      "body": "Aibooking.dk behält sich das Recht vor, diese Allgemeinen Geschäftsbedingungen laufend zu ändern. Die aktuellen Bedingungen sind jederzeit auf der Website verfügbar."
+    },
+    {
+      "heading": "8. Haftungsbeschränkung",
+      "body": "Aibooking.dk haftet nicht für indirekte Verluste, Betriebsausfälle, Datenverluste oder sonstige Folgeschäden, die aus der Nutzung der Plattform entstehen können."
+    },
+    {
+      "heading": "9. Kontakt",
+      "body": "Bei Fragen zu diesen Allgemeinen Geschäftsbedingungen können Sie uns jederzeit über Aibooking.dk kontaktieren."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "seo": {
+    "title": "{{category}} – Ratgeber & Artikel | Aibooking.dk",
+    "keywords": "{{category}}, KI-Widget, KI für Website, KI-Rezeption, KI-Kundenservice"
+  },
+  "notFound": {
+    "title": "Kategorie nicht gefunden",
+    "backToBlog": "Zurück zum Blog"
+  },
+  "backToAll": "Zurück zu allen Artikeln",
+  "tryWidgetCta": "KI-Widget kostenlos testen",
+  "emptyState": {
+    "message": "In dieser Kategorie gibt es noch keine Artikel.",
+    "viewAll": "Alle Artikel ansehen"
+  },
+  "readArticle": "Artikel lesen"
+}

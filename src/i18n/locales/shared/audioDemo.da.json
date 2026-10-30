@@ -1,0 +1,39 @@
+{
+  "points": [
+    "Naturligt, flydende dansk — ingen robotstemme",
+    "Forstår kundens behov og stiller de rigtige opfølgende spørgsmål",
+    "Finder en ledig tid og booker direkte i kalenderen"
+  ],
+  "player": {
+    "title": "Eksempel med booking – Håndværker / klinik",
+    "play": "Afspil optagelsen",
+    "pause": "Pause optagelsen",
+    "seek": "Spol i optagelsen",
+    "of": "{{current}} af {{total}}"
+  },
+  "inline": {
+    "badge": "Lydeksempel · 6:38 min",
+    "title": "Hør AI’en booke en tid — på dansk",
+    "text": "Et rigtigt eksempel på et opkald, hvor vores AI-telefonassistent tager imod en kunde og booker en tid i kalenderen. Tryk play, og hør selv kvaliteten.",
+    "cta": "Prøv det gratis i 7 dage",
+    "call": "Ring til demo: {{phone}}"
+  },
+  "section": {
+    "badge": "Lyt til et rigtigt opkald",
+    "title": "Hør vores AI tage opkaldet og booke en tid",
+    "text": "Det er nemt at love en god AI-stemme — det er bedre at høre den. Her er et eksempel på et opkald, hvor en kunde ringer ind, og AI’en klarer hele samtalen og bookingen. Tryk play, og hør kvaliteten.",
+    "languageNote": "",
+    "cta": "Prøv gratis i 7 dage",
+    "call": "Ring selv: {{phone}}"
+  },
+  "stats": {
+    "duration": "min. samtale",
+    "language": "dansk tale",
+    "availability": "klar til opkald"
+  },
+  "heroLink": "Hør et rigtigt opkald med vores AI",
+  "schema": {
+    "name": "Eksempel på en booking med AI-telefonassistent på dansk",
+    "description": "Lydoptagelse af et rigtigt eksempel, hvor Aibooking.dk’s AI-telefonassistent tager imod et opkald og booker en tid for kunden på dansk."
+  }
+}

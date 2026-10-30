@@ -1,19 +1,32 @@
 {
   "seo": {
     "title": "Contact – Support Réceptionniste IA | Aibooking.dk",
-    "description": "Vous avez des questions sur notre réceptionniste IA ? Contactez notre équipe de support danoise. Nous répondons sous 24 heures via email.",
-    "keywords": "permanence téléphonique IA, réceptionniste IA danoise, widget pour boutique en ligne, widget IA pour Shopify, contacter aibooking, support danois, aide réceptionniste IA, service client, obtenir une démo"
+    "description": "Vous avez des questions sur notre réceptionniste IA ? Contactez notre équipe de support. Nous répondons sous 24 heures par email.",
+    "keywords": "permanence téléphonique IA, réceptionniste virtuel IA, widget pour boutique en ligne, widget IA pour Shopify, contacter aibooking, support par email, aide réceptionniste IA, service client, obtenir une démo"
   },
-  "breadcrumb": { "home": "Accueil", "contact": "Contact" },
+  "breadcrumb": {
+    "home": "Accueil",
+    "contact": "Contact"
+  },
   "hero": {
     "badge": "Nous sommes prêts à vous aider",
     "title": "Contactez-nous dès aujourd'hui",
     "subtitle": "Vous avez des questions ou souhaitez en savoir plus sur la façon dont Aibooking.dk peut aider votre entreprise ? Nous sommes là pour vous aider."
   },
   "infoCards": {
-    "call": { "title": "Appelez et testez l'IA", "desc": "Appelez gratuitement et découvrez notre réceptionniste IA en direct" },
-    "email": { "title": "Envoyez un email", "desc": "Nous répondons sous 24 heures" },
-    "hours": { "title": "Horaires d'ouverture", "line1": "Lun-Ven : 9h00 - 17h00", "line2": "Week-end : Fermé" }
+    "call": {
+      "title": "Appelez et testez l'IA",
+      "desc": "Appelez gratuitement et découvrez notre réceptionniste IA en direct"
+    },
+    "email": {
+      "title": "Envoyez un email",
+      "desc": "Nous répondons sous 24 heures"
+    },
+    "hours": {
+      "title": "Horaires d'ouverture",
+      "line1": "Lun-Ven : 9h00 - 17h00",
+      "line2": "Week-end : Fermé"
+    }
   },
   "coreServices": {
     "badge": "Nos services principaux",
@@ -79,7 +92,7 @@
   "whyUs": {
     "title": "Pourquoi nous choisir ?",
     "items": [
-      "Support danois en danois",
+      "Support personnalisé en anglais et en danois",
       "Mise en œuvre rapide",
       "Solution conforme au RGPD"
     ]

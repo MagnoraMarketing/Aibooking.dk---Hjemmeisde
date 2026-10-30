@@ -2,9 +2,12 @@
   "seo": {
     "title": "Chatbot con IA para tu Web, con Voz | Aibooking.dk",
     "description": "Chatbot con IA y widget de voz para tu web, tienda online y Shopify. Los clientes escriben o hablan y la IA responde, reserva y sigue pedidos 24/7.",
-    "keywords": "atención telefónica con IA, recepcionista de IA danesa, widget para tienda online, widget de IA para Shopify, widget de voz con ia, voicebot sitio web, widget de reservas con ia, reserva por voz, chatbot en danés, reserva automática de reuniones, widget de recepcionista de ia, automatización de reservas, widget IA tienda online, asistente de voz Shopify, seguimiento de pedidos con IA, chatbot WooCommerce, widget de voz ecommerce"
+    "keywords": "atención telefónica con IA, recepcionista virtual con IA, widget para tienda online, widget de IA para Shopify, widget de voz con ia, voicebot sitio web, widget de reservas con ia, reserva por voz, chatbot en español, reserva automática de reuniones, widget de recepcionista de ia, automatización de reservas, widget IA tienda online, asistente de voz Shopify, seguimiento de pedidos con IA, chatbot WooCommerce, widget de voz ecommerce"
   },
-  "breadcrumb": { "home": "Inicio", "current": "Widget de IA" },
+  "breadcrumb": {
+    "home": "Inicio",
+    "current": "Widget de IA"
+  },
   "hero": {
     "badge": "Widget de Voz con IA para tu sitio web",
     "title_line1": "Un chatbot con IA para tu web",
@@ -46,7 +49,7 @@
     "para1_pre": "Un ",
     "para1_strong": "widget de voz con IA",
     "para1_post": " es una interfaz de voz inteligente que se coloca discretamente en tu sitio web – normalmente como un botón flotante en la esquina. Cuando un visitante hace clic en él, puede hablar directamente con tu asistente de IA.",
-    "para2_pre": "El asistente de IA entiende de forma natural el habla en danés, puede responder preguntas sobre tu negocio y reservar reuniones directamente en tu calendario – ",
+    "para2_pre": "El asistente de IA entiende de forma natural el lenguaje hablado, puede responder preguntas sobre tu negocio y reservar reuniones directamente en tu calendario – ",
     "para2_strong": "sin ninguna intervención humana",
     "para2_post": ".",
     "para3": "Es como tener una recepcionista que nunca duerme, nunca se coge una baja por enfermedad y siempre es profesional – por una fracción del coste.",
@@ -67,7 +70,7 @@
       },
       {
         "title": "Los clientes hablan con la IA",
-        "description": "Los visitantes de tu sitio web hacen clic en el widget y hablan directamente con tu asistente de IA personal. La IA entiende el danés y responde preguntas sobre tu negocio."
+        "description": "Los visitantes de tu sitio web hacen clic en el widget y hablan directamente con tu asistente de IA personal. La IA entiende tu idioma y responde preguntas sobre tu negocio."
       },
       {
         "title": "Las reservas llegan automáticamente",
@@ -81,7 +84,7 @@
     "items": [
       {
         "title": "Reconocimiento de voz natural",
-        "description": "Entiende el habla natural en danés – los clientes no necesitan hablar con comandos. La IA sigue la conversación y hace preguntas de seguimiento."
+        "description": "Entiende el habla natural – los clientes no necesitan hablar con comandos. La IA sigue la conversación y hace preguntas de seguimiento."
       },
       {
         "title": "Integración directa con el calendario",
@@ -101,7 +104,7 @@
       },
       {
         "title": "IA multilingüe",
-        "description": "El widget admite danés y muchos otros idiomas. La IA se adapta automáticamente al idioma que hable el cliente."
+        "description": "El widget admite español, inglés, danés y muchos otros idiomas. La IA se adapta automáticamente al idioma que hable el cliente."
       },
       {
         "title": "Configuración ultrarrápida",
@@ -417,14 +420,35 @@
       }
     ],
     "points": [
-      { "label": "Preguntas sobre productos", "desc": "Precios, stock e información de producto se obtienen en tiempo real desde Shopify" },
-      { "label": "Estado del pedido", "desc": "Los clientes pueden preguntar \"¿dónde está mi paquete?\" y obtener respuesta al instante" },
-      { "label": "Configuración segura", "desc": "La clave API se verifica con Shopify antes de guardarse, y se almacena cifrada" },
-      { "label": "Listo en 5 minutos", "desc": "Añade la dirección de tu tienda y la clave API en el panel, y ambos canales quedan activos" }
+      {
+        "label": "Preguntas sobre productos",
+        "desc": "Precios, stock e información de producto se obtienen en tiempo real desde Shopify"
+      },
+      {
+        "label": "Estado del pedido",
+        "desc": "Los clientes pueden preguntar \"¿dónde está mi paquete?\" y obtener respuesta al instante"
+      },
+      {
+        "label": "Configuración segura",
+        "desc": "La clave API se verifica con Shopify antes de guardarse, y se almacena cifrada"
+      },
+      {
+        "label": "Listo en 5 minutos",
+        "desc": "Añade la dirección de tu tienda y la clave API en el panel, y ambos canales quedan activos"
+      }
     ],
     "mock": {
       "windowLabel": "Configure Agent",
-      "tabs": ["Prompt Lab", "Settings", "Knowledge Base", "Booking", "Webshop", "Customise Widget", "Test Agent", "Embed Code"],
+      "tabs": [
+        "Prompt Lab",
+        "Settings",
+        "Knowledge Base",
+        "Booking",
+        "Webshop",
+        "Customise Widget",
+        "Test Agent",
+        "Embed Code"
+      ],
       "activeTab": "Webshop",
       "sectionLabel": "WEBSHOP / SHOPIFY",
       "statusNotConnected": "No conectado",
@@ -491,7 +515,7 @@
     },
     {
       "question": "¿Qué idiomas admite el widget?",
-      "answer": "El widget admite danés y una amplia gama de otros idiomas. El asistente de IA se adapta automáticamente al idioma que hable el cliente."
+      "answer": "El widget admite español, inglés, danés y una amplia gama de otros idiomas. El asistente de IA se adapta automáticamente al idioma que hable el cliente."
     },
     {
       "question": "¿Es el widget conforme al RGPD?",

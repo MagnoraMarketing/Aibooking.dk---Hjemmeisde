@@ -4,7 +4,7 @@ Guidance for Claude Code when working in this repository.
 
 ## Project
 
-Marketing website for Aibooking.dk. React 18 + TypeScript + Vite SPA, styled with Tailwind CSS, deployed on Vercel. Danish is the primary language; English is available via `react-i18next` (see `src/i18n`).
+Marketing website for Aibooking.dk. React 18 + TypeScript + Vite SPA, styled with Tailwind CSS, deployed on Vercel. Danish is the primary language; the site is also fully available in English, Spanish, German and French via `react-i18next` (see `src/i18n`). Every page and every blog post must exist in all five languages, written natively for that market (local keywords, examples and currency) rather than translated word for word. A visitor's browser language picks the language on first visit; any other language falls back to English, which is also the `x-default` hreflang.
 
 ## Routing
 
@@ -26,7 +26,7 @@ URLs are Danish and SEO-optimized (e.g. `/funktioner`, `/brancher`, `/kontakt`) 
 
 ## Blog content
 
-Blog categories, types and helpers live in `src/content/blog.ts`; the posts themselves are static data in `src/content/blogPosts/*.ts`, one file per topic cluster (no database). `BlogPage`, `BlogPostPage`, and `BlogCategoryPage` read them via the exported helpers (`getPublishedPosts`, `getPostBySlug`, `getPostsByCategory`, `getRelatedPosts`). To add a post, add an entry to the matching cluster file — `scripts/generate-sitemap.js` reads published posts from those files, so the sitemap picks it up on the next build. Give each post its own `faq` (rendered with FAQPage schema), `related` slugs, `sources` for external claims, and set `updated_at` when you substantially rewrite it. New covers: `node scripts/generate-blog-covers.js`, then `node scripts/render-blog-cover-images.mjs` for the JPEG used as og:image.
+Blog categories, types and helpers live in `src/content/blog.ts`; the posts themselves are static data in `src/content/blogPosts/*.ts`, one file per topic cluster (no database). `BlogPage`, `BlogPostPage`, and `BlogCategoryPage` read them via the exported helpers (`getPublishedPosts`, `getPostBySlug`, `getPostsByCategory`, `getRelatedPosts`). To add a post, add an entry to the matching cluster file — `scripts/generate-sitemap.js` reads published posts from those files, so the sitemap picks it up on the next build. Posts are written in Danish and English on the post itself; the Spanish, German and French versions go in `src/content/blogTranslations/<lang>/<cluster>.ts` (each language is lazy-loaded as its own chunk). The sitemap script fails the build if a published post is missing a translation. Give each post its own `faq` (rendered with FAQPage schema), `related` slugs, `sources` for external claims, and set `updated_at` when you substantially rewrite it. New covers: `node scripts/generate-blog-covers.js`, then `node scripts/render-blog-cover-images.mjs` for the JPEG used as og:image.
 
 Before writing a new post, check that no existing post already answers the same search intent — extend that one instead. When merging posts, add the old slug to `blogRedirects` in `src/content/blog.ts` and a 301 (with and without the `/:lang` prefix) to `vercel.json`; the sitemap script fails the build if a redirect targets an unpublished post. AI receptionist content must recommend that the AI introduces itself as an AI (EU AI Act art. 50). Current SEO status and the measurement plan: `docs/SEO-AUDIT-2026-10.md`.
 

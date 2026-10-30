@@ -2,9 +2,12 @@
   "seo": {
     "title": "AI Chatbot for Websites with Voice Booking | Aibooking.dk",
     "description": "An AI chatbot and voice widget for websites, webshops and Shopify. Customers type or talk, and the AI answers, books and tracks orders 24/7.",
-    "keywords": "AI phone answering, Danish AI receptionist, webshop widget, AI widget for Shopify, AI widget, AI widget for website, AI for website, AI voice widget, Shopify AI widget, AI chatbot, AI customer service, booking widget, webshop AI widget, AI order tracking"
+    "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, AI widget, AI widget for website, AI for website, AI voice widget, Shopify AI widget, AI chatbot, AI customer service, booking widget, webshop AI widget, AI order tracking"
   },
-  "breadcrumb": { "home": "Home", "current": "AI Widget" },
+  "breadcrumb": {
+    "home": "Home",
+    "current": "AI Widget"
+  },
   "hero": {
     "badge": "AI Voice Widget for your website",
     "title_line1": "An AI chatbot for your website",
@@ -46,7 +49,7 @@
     "para1_pre": "An ",
     "para1_strong": "AI voice widget",
     "para1_post": " is an intelligent voice interface that sits discreetly on your website – typically as a floating button in the corner. When a visitor clicks it, they can talk directly to your AI assistant.",
-    "para2_pre": "The AI assistant naturally understands Danish speech, can answer questions about your business, and book meetings straight into your calendar – ",
+    "para2_pre": "The AI assistant naturally understands spoken language, can answer questions about your business, and book meetings straight into your calendar – ",
     "para2_strong": "with no human involvement at all",
     "para2_post": ".",
     "para3": "It's like having a receptionist who never sleeps, never calls in sick, and is always professional – for a fraction of the cost.",
@@ -67,7 +70,7 @@
       },
       {
         "title": "Customers talk to the AI",
-        "description": "Visitors to your website click the widget and speak directly with your personal AI assistant. The AI understands Danish and answers questions about your business."
+        "description": "Visitors to your website click the widget and speak directly with your personal AI assistant. The AI understands their language and answers questions about your business."
       },
       {
         "title": "Bookings land automatically",
@@ -81,7 +84,7 @@
     "items": [
       {
         "title": "Natural speech recognition",
-        "description": "Understands natural Danish speech – customers don't need to speak in commands. The AI follows the conversation and asks follow-up questions."
+        "description": "Understands natural speech – customers don't need to speak in commands. The AI follows the conversation and asks follow-up questions."
       },
       {
         "title": "Direct calendar integration",
@@ -101,7 +104,7 @@
       },
       {
         "title": "Multilingual AI",
-        "description": "The widget supports Danish and many other languages. The AI automatically adapts to the language the customer speaks."
+        "description": "The widget supports English, Danish and many other languages. The AI automatically adapts to the language the customer speaks."
       },
       {
         "title": "Lightning-fast setup",
@@ -417,14 +420,35 @@
       }
     ],
     "points": [
-      { "label": "Product questions", "desc": "Prices, stock status and product info are pulled live from Shopify" },
-      { "label": "Order status", "desc": "Customers can ask \"where's my package?\" and get an instant answer" },
-      { "label": "Secure setup", "desc": "The API key is verified against Shopify before it's saved, and stored encrypted" },
-      { "label": "Live in 5 minutes", "desc": "Add your store address and API key in the dashboard, and both channels are up and running" }
+      {
+        "label": "Product questions",
+        "desc": "Prices, stock status and product info are pulled live from Shopify"
+      },
+      {
+        "label": "Order status",
+        "desc": "Customers can ask \"where's my package?\" and get an instant answer"
+      },
+      {
+        "label": "Secure setup",
+        "desc": "The API key is verified against Shopify before it's saved, and stored encrypted"
+      },
+      {
+        "label": "Live in 5 minutes",
+        "desc": "Add your store address and API key in the dashboard, and both channels are up and running"
+      }
     ],
     "mock": {
       "windowLabel": "Configure Agent",
-      "tabs": ["Prompt Lab", "Settings", "Knowledge Base", "Booking", "Webshop", "Customise Widget", "Test Agent", "Embed Code"],
+      "tabs": [
+        "Prompt Lab",
+        "Settings",
+        "Knowledge Base",
+        "Booking",
+        "Webshop",
+        "Customise Widget",
+        "Test Agent",
+        "Embed Code"
+      ],
       "activeTab": "Webshop",
       "sectionLabel": "WEBSHOP / SHOPIFY",
       "statusNotConnected": "Not connected",
@@ -491,7 +515,7 @@
     },
     {
       "question": "Which languages does the widget support?",
-      "answer": "The widget supports Danish and a wide range of other languages. The AI assistant automatically adapts to the language the customer speaks."
+      "answer": "The widget supports English, Danish and a wide range of other languages. The AI assistant automatically adapts to the language the customer speaks."
     },
     {
       "question": "Is the widget GDPR-compliant?",

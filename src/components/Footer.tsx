@@ -11,15 +11,13 @@ import { splitLocalizedPath, buildLocalizedPath } from '../utils/localePaths';
 import { currentPathname } from '../utils/currentPath';
 
 const LANGUAGE_NAMES: Record<SupportedLanguage, string> = {
-  da: 'Dansk', en: 'English', pt: 'Português', fr: 'Français', es: 'Español',
+  da: 'Dansk', en: 'English', es: 'Español', de: 'Deutsch', fr: 'Français',
 };
 
-// This page in another language. Blog posts only exist in Danish and English,
-// so the other languages link to their blog overview instead.
+// This page in another language.
 function languageHref(lang: SupportedLanguage) {
   const { path } = splitLocalizedPath(currentPathname());
-  const isPost = /^\/blog\/(?!category\/)./.test(path);
-  return buildLocalizedPath(lang, isPost && lang !== 'da' && lang !== 'en' ? '/blog' : path);
+  return buildLocalizedPath(lang, path);
 }
 
 interface FooterProps {

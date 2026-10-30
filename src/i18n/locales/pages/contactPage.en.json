@@ -1,19 +1,32 @@
 {
   "seo": {
     "title": "Contact Us – AI Receptionist Support | Aibooking.dk",
-    "description": "Have questions about our AI receptionist? Contact our Danish support team. We reply within 24 hours via email.",
-    "keywords": "AI phone answering, Danish AI receptionist, webshop widget, AI widget for Shopify, contact aibooking, danish support, AI receptionist help, customer service, get a demo"
+    "description": "Have questions about our AI receptionist? Contact our support team. We reply within 24 hours via email.",
+    "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, contact aibooking, AI receptionist support, AI receptionist help, customer service, get a demo"
   },
-  "breadcrumb": { "home": "Home", "contact": "Contact" },
+  "breadcrumb": {
+    "home": "Home",
+    "contact": "Contact"
+  },
   "hero": {
     "badge": "We're ready to help",
     "title": "Contact us today",
     "subtitle": "Have questions or want to know more about how Aibooking.dk can help your business? We're here to help you."
   },
   "infoCards": {
-    "call": { "title": "Call and try the AI", "desc": "Call for free and experience our AI receptionist live" },
-    "email": { "title": "Send an email", "desc": "We reply within 24 hours" },
-    "hours": { "title": "Opening hours", "line1": "Mon-Fri: 9:00 - 17:00", "line2": "Weekend: Closed" }
+    "call": {
+      "title": "Call and try the AI",
+      "desc": "Call for free and experience our AI receptionist live"
+    },
+    "email": {
+      "title": "Send an email",
+      "desc": "We reply within 24 hours"
+    },
+    "hours": {
+      "title": "Opening hours",
+      "line1": "Mon-Fri: 9:00 - 17:00",
+      "line2": "Weekend: Closed"
+    }
   },
   "coreServices": {
     "badge": "Our core services",
@@ -79,7 +92,7 @@
   "whyUs": {
     "title": "Why choose us?",
     "items": [
-      "Danish support in Danish",
+      "Personal support in English and Danish",
       "Fast implementation",
       "GDPR-compliant solution"
     ]

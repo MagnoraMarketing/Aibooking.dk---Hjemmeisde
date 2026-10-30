@@ -3,9 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { SIGNUP_URL } from '../utils/backend';
 
 function Hero() {
-  const { t, i18n } = useTranslation();
-  // The example call recording is Danish, so the link to it only shows on the Danish site.
-  const showAudioLink = (i18n.resolvedLanguage || i18n.language) === 'da';
+  const { t } = useTranslation();
   return (
     <section className="relative pt-32 pb-32 px-4 sm:px-6 lg:px-8 bg-ink-950 overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.06)_1px,transparent_0)] bg-[length:32px_32px]"></div>
@@ -31,15 +29,13 @@ function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 mb-14">
-            {showAudioLink && (
-              <a
-                href="#lydeksempel"
-                className="inline-flex items-center gap-2 bg-accent-400/10 hover:bg-accent-400/20 text-accent-300 border border-accent-400/40 hover:border-accent-300 px-4 py-2 rounded-full font-semibold text-sm transition-colors"
-              >
-                <Headphones className="w-4 h-4" />
-                Hør et rigtigt opkald med vores AI
-              </a>
-            )}
+            <a
+              href="#lydeksempel"
+              className="inline-flex items-center gap-2 bg-accent-400/10 hover:bg-accent-400/20 text-accent-300 border border-accent-400/40 hover:border-accent-300 px-4 py-2 rounded-full font-semibold text-sm transition-colors"
+            >
+              <Headphones className="w-4 h-4" />
+              {t('heroLink', { ns: 'audioDemo' })}
+            </a>
             <a
               href="#spar-tid"
               className="inline-flex items-center gap-1.5 text-accent-300 hover:text-accent-200 font-semibold text-sm underline underline-offset-4 decoration-accent-300/40 hover:decoration-accent-200 transition-colors"

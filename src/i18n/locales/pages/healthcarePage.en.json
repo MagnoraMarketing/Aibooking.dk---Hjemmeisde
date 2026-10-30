@@ -1,10 +1,14 @@
 {
   "seo": {
-    "title": "AI Receptionist for Clinics & Dentists | Aibooking.dk",
-    "description": "An AI receptionist for clinics, dentists and physiotherapists: answers calls, books appointments, sends SMS reminders and handles data GDPR-securely.",
-    "keywords": "AI phone answering, Danish AI receptionist, webshop widget, AI widget for Shopify, dentist booking, clinic booking, physiotherapy booking, healthcare AI receptionist, patient booking, clinic automation"
+    "title": "AI Receptionist for Clinics – AI Phone Answering | Aibooking.dk",
+    "description": "An AI receptionist for clinics, dentists and physiotherapists. Automatic booking, fewer no-shows and GDPR-secure handling. Try it free.",
+    "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, dentist booking, clinic booking, physiotherapy booking, healthcare AI receptionist, patient booking, clinic automation"
   },
-  "breadcrumb": { "home": "Home", "industries": "Industries", "healthcare": "Clinics" },
+  "breadcrumb": {
+    "home": "Home",
+    "industries": "Industries",
+    "healthcare": "Clinics"
+  },
   "hero": {
     "badge": "Clinics and Healthcare",
     "title": "AI receptionist for clinics – more time for your patients",
@@ -14,23 +18,59 @@
     "title": "The complete solution for healthcare",
     "description": "Our AI receptionist handles every customer enquiry professionally – from new bookings to rebookings and confirmations. With automatic SMS reminders, you significantly reduce no-shows. Your personalized dashboard gives you a complete overview: listen to every call, see short summaries of each conversation, what was agreed, booking statistics, and calendar integration. You can keep using your current calendar software – our system syncs automatically.",
     "benefits": [
-      { "title": "Reduce phone time by 85%", "description": "Focus on your patients instead of administrative tasks" },
-      { "title": "Automatic SMS reminders", "description": "Reduce no-shows by up to 60% and optimize your capacity" },
-      { "title": "24/7 booking service", "description": "Handle bookings, rebookings, and cancellations around the clock" },
-      { "title": "Complete dashboard", "description": "Call history, conversation summaries, and booking statistics" },
-      { "title": "Calendar integration", "description": "Syncs automatically with your existing booking system" },
-      { "title": "GDPR compliance", "description": "Full security for sensitive patient data" }
+      {
+        "title": "Reduce phone time by 85%",
+        "description": "Focus on your patients instead of administrative tasks"
+      },
+      {
+        "title": "Automatic SMS reminders",
+        "description": "Reduce no-shows by up to 60% and optimize your capacity"
+      },
+      {
+        "title": "24/7 booking service",
+        "description": "Handle bookings, rebookings, and cancellations around the clock"
+      },
+      {
+        "title": "Complete dashboard",
+        "description": "Call history, conversation summaries, and booking statistics"
+      },
+      {
+        "title": "Calendar integration",
+        "description": "Syncs automatically with your existing booking system"
+      },
+      {
+        "title": "GDPR compliance",
+        "description": "Full security for sensitive patient data"
+      }
     ]
   },
   "stats": [
-    { "value": "60%", "label": "Fewer no-shows" },
-    { "value": "12h/week", "label": "Time saved" },
-    { "value": "95%", "label": "Booking rate" },
-    { "value": "4.8/5", "label": "Customer satisfaction" }
+    {
+      "value": "60%",
+      "label": "Fewer no-shows"
+    },
+    {
+      "value": "12h/week",
+      "label": "Time saved"
+    },
+    {
+      "value": "95%",
+      "label": "Booking rate"
+    },
+    {
+      "value": "4.8/5",
+      "label": "Customer satisfaction"
+    }
   ],
   "perfectFor": {
     "title": "Perfect for every healthcare clinic",
-    "practices": ["Dentists", "Physiotherapists", "Chiropractors", "Massage clinics", "Psychologists"],
+    "practices": [
+      "Dentists",
+      "Physiotherapists",
+      "Chiropractors",
+      "Massage clinics",
+      "Psychologists"
+    ],
     "cta": "Book a no-obligation meeting and get a free test login"
   },
   "ctaSection": {

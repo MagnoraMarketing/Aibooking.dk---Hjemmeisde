@@ -1,8 +1,8 @@
 {
   "seo": {
     "title": "AI Answering Service & AI Phone Agent | Aibooking.dk",
-    "description": "An AI answering service that picks up every call, books in your calendar, transfers to your team and calls customers with reminders – 24/7. Try it free.",
-    "keywords": "AI phone answering, Danish AI receptionist, webshop widget, AI widget for Shopify, AI inbound calls, AI outbound calls, AI reception, AI phone assistant, AI receptionist, AI employee, AI customer service phone, voicebot"
+    "description": "AI phone answering: an AI receptionist that answers calls, books in your calendar and calls out with reminders – 24/7, in your customers’ language.",
+    "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, AI inbound calls, AI outbound calls, AI reception, AI phone assistant, AI employee, AI customer service phone, voicebot"
   },
   "breadcrumb": {
     "home": "Home",
@@ -17,9 +17,18 @@
     "cta_example": "Hear an example",
     "cta_pricing": "See pricing",
     "stats": {
-      "answer": { "value": "2 sec.", "label": "Average time to answer" },
-      "availability": { "value": "24/7", "label": "Evenings and weekends too" },
-      "saving": { "value": "80%", "label": "Lower cost than a receptionist" }
+      "answer": {
+        "value": "2 sec.",
+        "label": "Average time to answer"
+      },
+      "availability": {
+        "value": "24/7",
+        "label": "Evenings and weekends too"
+      },
+      "saving": {
+        "value": "80%",
+        "label": "Lower cost than a receptionist"
+      }
     },
     "card": {
       "status": "Active call",
@@ -27,7 +36,11 @@
       "timer": "00:51",
       "transcriptLabel": "Live transcript",
       "line": "You're booked for tomorrow at 8:30 AM. You'll get an SMS confirmation right away.",
-      "actions": ["Appointment booked", "SMS sent", "Job created"]
+      "actions": [
+        "Appointment booked",
+        "SMS sent",
+        "Job created"
+      ]
     }
   },
   "whatIs": {
@@ -62,15 +75,51 @@
       "caller": "Unknown number",
       "meta": "Inbound · 8:41 PM · Northside Plumbing",
       "chat": [
-        { "role": "ai", "time": "0:02", "text": "You've reached Aibooking at Northside Plumbing. How can I help?" },
-        { "role": "customer", "time": "0:07", "text": "Hi. I've got a pipe dripping under the kitchen sink. Can someone come out?" },
-        { "role": "ai", "time": "0:12", "text": "We can help with that. Is there water on the floor right now, or is it a slow drip?" },
-        { "role": "customer", "time": "0:19", "text": "It's a slow drip. I've put a bucket under it." },
-        { "role": "ai", "time": "0:24", "text": "Good. Then I'll book a standard visit rather than an emergency call-out – that's cheaper for you. I have tomorrow at 8:30 AM or Thursday at 1 PM." },
-        { "role": "customer", "time": "0:35", "text": "Tomorrow at 8:30 works fine." },
-        { "role": "ai", "time": "0:39", "text": "Perfect. Could I get the address and a mobile number for the confirmation?" },
-        { "role": "customer", "time": "0:45", "text": "14 Southgate Road, Manchester." },
-        { "role": "ai", "time": "0:51", "text": "Thank you. You're booked for tomorrow at 8:30 AM. You'll get an SMS confirmation now and a reminder an hour before." }
+        {
+          "role": "ai",
+          "time": "0:02",
+          "text": "You've reached Aibooking at Northside Plumbing. How can I help?"
+        },
+        {
+          "role": "customer",
+          "time": "0:07",
+          "text": "Hi. I've got a pipe dripping under the kitchen sink. Can someone come out?"
+        },
+        {
+          "role": "ai",
+          "time": "0:12",
+          "text": "We can help with that. Is there water on the floor right now, or is it a slow drip?"
+        },
+        {
+          "role": "customer",
+          "time": "0:19",
+          "text": "It's a slow drip. I've put a bucket under it."
+        },
+        {
+          "role": "ai",
+          "time": "0:24",
+          "text": "Good. Then I'll book a standard visit rather than an emergency call-out – that's cheaper for you. I have tomorrow at 8:30 AM or Thursday at 1 PM."
+        },
+        {
+          "role": "customer",
+          "time": "0:35",
+          "text": "Tomorrow at 8:30 works fine."
+        },
+        {
+          "role": "ai",
+          "time": "0:39",
+          "text": "Perfect. Could I get the address and a mobile number for the confirmation?"
+        },
+        {
+          "role": "customer",
+          "time": "0:45",
+          "text": "14 Southgate Road, Manchester."
+        },
+        {
+          "role": "ai",
+          "time": "0:51",
+          "text": "Thank you. You're booked for tomorrow at 8:30 AM. You'll get an SMS confirmation now and a reminder an hour before."
+        }
       ],
       "outcomesLabel": "What the AI handled along the way",
       "outcomes": [
@@ -82,9 +131,18 @@
       ],
       "resultsLabel": "Result",
       "results": [
-        { "label": "Duration", "value": "1:04" },
-        { "label": "Outcome", "value": "Booked tomorrow at 8:30 AM" },
-        { "label": "Job created", "value": "#4821 · Dripping water pipe" }
+        {
+          "label": "Duration",
+          "value": "1:04"
+        },
+        {
+          "label": "Outcome",
+          "value": "Booked tomorrow at 8:30 AM"
+        },
+        {
+          "label": "Job created",
+          "value": "#4821 · Dripping water pipe"
+        }
       ]
     },
     "outbound": {
@@ -93,11 +151,31 @@
       "caller": "Emma Hansen",
       "meta": "Outbound · 9:15 AM · Clinic Sund",
       "chat": [
-        { "role": "ai", "time": "0:03", "text": "Hi Emma. This is Aibooking calling on behalf of Clinic Sund. I'm calling about your appointment tomorrow at 10 AM – does that still work?" },
-        { "role": "customer", "time": "0:11", "text": "Oh, I'd completely forgotten. I'm actually at work until 3." },
-        { "role": "ai", "time": "0:18", "text": "That's no problem at all. I can offer tomorrow at 3:45 PM, or Friday at 9:30 AM. Which suits you better?" },
-        { "role": "customer", "time": "0:26", "text": "Friday at 9:30, please." },
-        { "role": "ai", "time": "0:30", "text": "Your appointment is moved to Friday at 9:30 AM. You'll get an SMS with the new time now. Have a good day." }
+        {
+          "role": "ai",
+          "time": "0:03",
+          "text": "Hi Emma. This is Aibooking calling on behalf of Clinic Sund. I'm calling about your appointment tomorrow at 10 AM – does that still work?"
+        },
+        {
+          "role": "customer",
+          "time": "0:11",
+          "text": "Oh, I'd completely forgotten. I'm actually at work until 3."
+        },
+        {
+          "role": "ai",
+          "time": "0:18",
+          "text": "That's no problem at all. I can offer tomorrow at 3:45 PM, or Friday at 9:30 AM. Which suits you better?"
+        },
+        {
+          "role": "customer",
+          "time": "0:26",
+          "text": "Friday at 9:30, please."
+        },
+        {
+          "role": "ai",
+          "time": "0:30",
+          "text": "Your appointment is moved to Friday at 9:30 AM. You'll get an SMS with the new time now. Have a good day."
+        }
       ],
       "outcomesLabel": "What the AI handled along the way",
       "outcomes": [
@@ -109,9 +187,18 @@
       ],
       "resultsLabel": "Result",
       "results": [
-        { "label": "Duration", "value": "0:38" },
-        { "label": "Outcome", "value": "Moved to Friday 9:30 AM" },
-        { "label": "Avoided", "value": "One no-show · slot re-offered" }
+        {
+          "label": "Duration",
+          "value": "0:38"
+        },
+        {
+          "label": "Outcome",
+          "value": "Moved to Friday 9:30 AM"
+        },
+        {
+          "label": "Avoided",
+          "value": "One no-show · slot re-offered"
+        }
       ]
     }
   },
@@ -221,26 +308,78 @@
     "inbound": "Inbound",
     "outbound": "Outbound",
     "items": [
-      { "feature": "Answering calls from customers", "inbound": true, "outbound": false },
-      { "feature": "Calling customers", "inbound": false, "outbound": true },
-      { "feature": "Booking appointments in the calendar", "inbound": true, "outbound": true },
-      { "feature": "Capturing customer details", "inbound": true, "outbound": true },
-      { "feature": "Day-before reminders", "inbound": false, "outbound": true },
-      { "feature": "Following up on leads and quotes", "inbound": false, "outbound": true },
-      { "feature": "Answering recurring questions", "inbound": true, "outbound": false },
-      { "feature": "Transferring to a colleague", "inbound": true, "outbound": false },
-      { "feature": "Rebooking a cancelled slot", "inbound": true, "outbound": true },
-      { "feature": "Recording and summary", "inbound": true, "outbound": true }
+      {
+        "feature": "Answering calls from customers",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Calling customers",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Booking appointments in the calendar",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Capturing customer details",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Day-before reminders",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Following up on leads and quotes",
+        "inbound": false,
+        "outbound": true
+      },
+      {
+        "feature": "Answering recurring questions",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Transferring to a colleague",
+        "inbound": true,
+        "outbound": false
+      },
+      {
+        "feature": "Rebooking a cancelled slot",
+        "inbound": true,
+        "outbound": true
+      },
+      {
+        "feature": "Recording and summary",
+        "inbound": true,
+        "outbound": true
+      }
     ]
   },
   "pricing": {
     "title": "Pricing",
     "subtitle": "Talk time and every feature are included. No lock-in, no setup fee.",
     "perMonth": "/mo",
-    "demo": { "name": "Demo", "label": "7 days free · full access" },
-    "starter": { "name": "Starter", "label": "150 min/mo included" },
-    "professional": { "name": "Professional", "label": "600 min/mo included" },
-    "enterprise": { "name": "Enterprise", "label": "2,000 min/mo included" },
+    "demo": {
+      "name": "Demo",
+      "label": "7 days free · full access"
+    },
+    "starter": {
+      "name": "Starter",
+      "label": "150 min/mo included"
+    },
+    "professional": {
+      "name": "Professional",
+      "label": "600 min/mo included"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "label": "2,000 min/mo included"
+    },
     "free": "Free",
     "mostPopular": "Most chosen",
     "cta": "Get started",

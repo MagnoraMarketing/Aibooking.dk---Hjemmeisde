@@ -10,11 +10,12 @@ const DOMAIN = 'https://www.aibooking.dk';
 const PAGES_DIR = path.join(__dirname, '../src/pages');
 const BLOG_PATH = path.join(__dirname, '../src/content/blog.ts');
 const BLOG_POSTS_DIR = path.join(__dirname, '../src/content/blogPosts');
+const BLOG_TRANSLATIONS_DIR = path.join(__dirname, '../src/content/blogTranslations');
 const VERCEL_CONFIG = path.join(__dirname, '../vercel.json');
 const OUTPUT_PATH = path.join(__dirname, '../public/sitemap.xml');
 
 // Keep in sync with src/i18n/config.ts LANGUAGE_PATH_PREFIX.
-const LANGUAGE_PREFIXES = { da: '', en: '/en', pt: '/pt', fr: '/fr', es: '/es' };
+const LANGUAGE_PREFIXES = { da: '', en: '/en', es: '/es', de: '/de', fr: '/fr' };
 const LANGUAGES = Object.keys(LANGUAGE_PREFIXES);
 
 function localizedPath(lang, route) {
@@ -125,6 +126,20 @@ function readBlogPosts() {
   }).filter(post => post.slug && post.published);
 }
 
+// Posts are written in Danish and English in src/content/blogPosts; every
+// other site language has its translation in src/content/blogTranslations/<lang>/.
+// A published post without one would show English text on that language's URL.
+function checkBlogTranslations(posts) {
+  const missing = [];
+  for (const lang of LANGUAGES.filter(lang => lang !== 'da' && lang !== 'en')) {
+    const dir = path.join(BLOG_TRANSLATIONS_DIR, lang);
+    const translated = new Set(fs.readdirSync(dir).filter(file => file.endsWith('.ts')).flatMap(file =>
+      [...fs.readFileSync(path.join(dir, file), 'utf-8').matchAll(/^ {2}'([^']+)': \{/gm)].map(match => match[1])));
+    for (const post of posts) if (!translated.has(post.slug)) missing.push(`${lang}: ${post.slug}`);
+  }
+  if (missing.length) throw new Error(`Blog posts missing a translation in src/content/blogTranslations:\n  ${missing.join('\n  ')}`);
+}
+
 // Merged posts must 301 (vercel.json) to a published post, and an old slug
 // must not still be published — otherwise the redirect hides a live page.
 function checkBlogRedirects(posts) {
@@ -154,6 +169,7 @@ function getBlogRoutes() {
 
   const posts = readBlogPosts();
   checkBlogRedirects(posts);
+  checkBlogTranslations(posts);
 
   const blogLastmod = lastModified(BLOG_POSTS_DIR);
   const changedAt = (post) => post.updatedAt || post.publishedAt;
@@ -195,14 +211,13 @@ function getExistingPages() {
 }
 
 function generateSitemap(pages) {
-  // Blog posts only exist in Danish and English.
-  const langsFor = (route) => (/^\/blog\/(?!category\/)./.test(route) ? ['da', 'en'] : LANGUAGES);
-  const alternates = (route) => langsFor(route)
+  // x-default: visitors from countries without their own language get English.
+  const alternates = (route) => LANGUAGES
     .map(lang => `    <xhtml:link rel="alternate" hreflang="${lang}" href="${DOMAIN}${localizedPath(lang, route)}" />`)
-    .concat(`    <xhtml:link rel="alternate" hreflang="x-default" href="${DOMAIN}${route}" />`)
+    .concat(`    <xhtml:link rel="alternate" hreflang="x-default" href="${DOMAIN}${localizedPath('en', route)}" />`)
     .join('\n');
 
-  const urls = pages.flatMap(page => langsFor(page.route).map(lang => `  <url>
+  const urls = pages.flatMap(page => LANGUAGES.map(lang => `  <url>
     <loc>${DOMAIN}${localizedPath(lang, page.route)}</loc>
     <lastmod>${page.lastmod}</lastmod>
     <changefreq>${page.changefreq}</changefreq>

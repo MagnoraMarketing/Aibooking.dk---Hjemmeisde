@@ -5,7 +5,7 @@ import PageHero from '../components/PageHero';
 import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 import BlogCTA from '../components/BlogCTA';
-import { getCategoryBySlug, getPostsByCategory, BlogPost } from '../content/blog';
+import { getCategoryBySlug, getPostsByCategory, localizePost, DATE_LOCALES, BlogPost } from '../content/blog';
 import type { SupportedLanguage } from '../i18n/config';
 import { blogPostPath, buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
@@ -23,20 +23,16 @@ export default function BlogCategoryPage({ categorySlug, onNavigate }: BlogCateg
   const category = getCategoryBySlug(categorySlug);
   const posts = category ? getPostsByCategory(categorySlug) : [];
 
-  const getTitle = (post: BlogPost) =>
-    i18n.language === 'da' ? post.title_da : post.title_en;
+  const getTitle = (post: BlogPost) => localizePost(post, lang).title;
 
-  const getExcerpt = (post: BlogPost) =>
-    i18n.language === 'da' ? post.excerpt_da : post.excerpt_en;
+  const getExcerpt = (post: BlogPost) => localizePost(post, lang).excerpt;
 
-  const getCategoryName = () =>
-    category ? (i18n.language === 'da' ? category.name_da : category.name_en) : '';
+  const getCategoryName = () => category?.name[lang] ?? '';
 
-  const getCategoryDescription = () =>
-    category ? (i18n.language === 'da' ? category.description_da : category.description_en) : '';
+  const getCategoryDescription = () => category?.description[lang] ?? '';
 
   const formatDate = (date: string) => {
-    return new Date(date).toLocaleDateString(i18n.language === 'da' ? 'da-DK' : 'en-US', {
+    return new Date(date).toLocaleDateString(DATE_LOCALES[lang], {
       year: 'numeric',
       month: 'long',
       day: 'numeric'

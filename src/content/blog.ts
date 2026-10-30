@@ -4,6 +4,9 @@
 // database required. scripts/generate-sitemap.js and
 // scripts/generate-blog-covers.js read the same files.
 //
+// Posts are written in Danish and English; the Spanish, German and French
+// versions live in src/content/blogTranslations/ (see localizePost below).
+//
 // When posts are merged, add the old slug to `blogRedirects` below AND to the
 // "redirects" list in vercel.json so the old URL 301s to the surviving post.
 
@@ -12,13 +15,13 @@ import { voicePosts } from './blogPosts/voice';
 import { automationPosts } from './blogPosts/automation';
 import { widgetPosts } from './blogPosts/widget';
 import { webshopPosts } from './blogPosts/webshop';
+import { getBlogTranslations } from './blogTranslations';
+import type { SupportedLanguage } from '../i18n/config';
 
 export interface BlogCategory {
   slug: string;
-  name_en: string;
-  name_da: string;
-  description_en: string;
-  description_da: string;
+  name: Record<SupportedLanguage, string>;
+  description: Record<SupportedLanguage, string>;
 }
 
 /** A question answered on the post itself (rendered as the post's FAQ + FAQPage schema). */
@@ -69,31 +72,71 @@ export interface BlogPost {
 export const blogCategories: BlogCategory[] = [
   {
     slug: 'ai-widget',
-    name_en: 'AI Widget',
-    name_da: 'AI Widget',
-    description_en: 'Guides on AI widgets for your website: chat and voice widgets that answer, qualify and book website visitors around the clock.',
-    description_da: 'Guides om AI widget og AI til hjemmeside: chat- og talewidgets, der svarer, kvalificerer og booker besøgende på din hjemmeside døgnet rundt.',
+    name: {
+      da: 'AI Widget',
+      en: 'AI Widget',
+      es: 'Widget de IA',
+      de: 'KI-Widget',
+      fr: 'Widget IA',
+    },
+    description: {
+      da: 'Guides om AI widget og AI til hjemmeside: chat- og talewidgets, der svarer, kvalificerer og booker besøgende på din hjemmeside døgnet rundt.',
+      en: 'Guides on AI widgets for your website: chat and voice widgets that answer, qualify and book website visitors around the clock.',
+      es: 'Guías sobre widgets de IA para tu web: widgets de chat y voz que responden, cualifican y reservan a los visitantes de tu web las 24 horas.',
+      de: 'Ratgeber zu KI-Widgets für Ihre Website: Chat- und Sprach-Widgets, die Website-Besucher rund um die Uhr beantworten, qualifizieren und Termine buchen.',
+      fr: 'Guides sur les widgets IA pour votre site web : des widgets de chat et vocaux qui répondent, qualifient et réservent vos visiteurs 24 h/24.',
+    },
   },
   {
     slug: 'ai-inbound-outbound',
-    name_en: 'AI Receptionist & Phone',
-    name_da: 'AI-receptionist & telefoni',
-    description_en: 'Guides on AI receptionists, AI voice agents and AI phone answering: how they work, what they cost and when a human should take over.',
-    description_da: 'Guides om AI-receptionist, AI voice agents og AI-telefonpasning: hvordan det virker, hvad det koster, og hvornår et menneske skal tage over.',
+    name: {
+      da: 'AI-receptionist & telefoni',
+      en: 'AI Receptionist & Phone',
+      es: 'Recepcionista IA y teléfono',
+      de: 'KI-Rezeption & Telefon',
+      fr: 'Réceptionniste IA et téléphone',
+    },
+    description: {
+      da: 'Guides om AI-receptionist, AI voice agents og AI-telefonpasning: hvordan det virker, hvad det koster, og hvornår et menneske skal tage over.',
+      en: 'Guides on AI receptionists, AI voice agents and AI phone answering: how they work, what they cost and when a human should take over.',
+      es: 'Guías sobre recepcionistas con IA, agentes de voz con IA y atención telefónica con IA: cómo funcionan, cuánto cuestan y cuándo debe intervenir una persona.',
+      de: 'Ratgeber zu KI-Rezeptionisten, KI-Voice-Agents und KI-Telefonservice: wie sie funktionieren, was sie kosten und wann ein Mensch übernehmen sollte.',
+      fr: 'Guides sur les réceptionnistes IA, les agents vocaux IA et la permanence téléphonique par IA : fonctionnement, coût et quand un humain doit prendre le relais.',
+    },
   },
   {
     slug: 'ai-total-solution',
-    name_en: 'AI Booking & Automation',
-    name_da: 'AI-booking & automatisering',
-    description_en: 'Automatic booking with AI, calendar integration, ROI and getting started — plus how Danish SMEs use AI in customer service.',
-    description_da: 'Automatisk booking med AI, kalenderintegration, ROI og opstart — og hvordan danske SMV’er bruger AI i kundeservicen.',
+    name: {
+      da: 'AI-booking & automatisering',
+      en: 'AI Booking & Automation',
+      es: 'Reservas y automatización con IA',
+      de: 'KI-Buchung & Automatisierung',
+      fr: 'Réservation et automatisation IA',
+    },
+    description: {
+      da: 'Automatisk booking med AI, kalenderintegration, ROI og opstart — og hvordan danske SMV’er bruger AI i kundeservicen.',
+      en: 'Automatic booking with AI, calendar integration, ROI and getting started — plus how Danish SMEs use AI in customer service.',
+      es: 'Reservas automáticas con IA, integración de calendarios, ROI y puesta en marcha, y cómo las pymes usan la IA en la atención al cliente.',
+      de: 'Automatische Terminbuchung mit KI, Kalenderintegration, ROI und der Einstieg – und wie kleine und mittlere Unternehmen KI im Kundenservice einsetzen.',
+      fr: 'Réservation automatique par IA, intégration d’agenda, ROI et mise en route — et comment les PME utilisent l’IA dans leur service client.',
+    },
   },
   {
     slug: 'ai-webshop',
-    name_en: 'AI for Webshops',
-    name_da: 'AI til Webshop',
-    description_en: 'Guides on AI for webshops and Shopify: AI customer service on the website and phone that answers about products, orders, stock and delivery.',
-    description_da: 'Guides om AI til webshop og Shopify: AI-kundeservice på hjemmesiden og i telefonen, der svarer om produkter, ordrer, lager og levering.',
+    name: {
+      da: 'AI til Webshop',
+      en: 'AI for Webshops',
+      es: 'IA para tiendas online',
+      de: 'KI für Onlineshops',
+      fr: 'IA pour boutiques en ligne',
+    },
+    description: {
+      da: 'Guides om AI til webshop og Shopify: AI-kundeservice på hjemmesiden og i telefonen, der svarer om produkter, ordrer, lager og levering.',
+      en: 'Guides on AI for webshops and Shopify: AI customer service on the website and phone that answers about products, orders, stock and delivery.',
+      es: 'Guías sobre IA para tiendas online y Shopify: atención al cliente con IA en la web y por teléfono que responde sobre productos, pedidos, stock y envíos.',
+      de: 'Ratgeber zu KI für Onlineshops und Shopify: KI-Kundenservice auf der Website und am Telefon für Fragen zu Produkten, Bestellungen und Lieferung.',
+      fr: 'Guides sur l’IA pour boutiques en ligne et Shopify : un service client IA sur le site et au téléphone pour les produits, commandes et livraisons.',
+    },
   },
 ];
 
@@ -160,3 +203,49 @@ export function getRelatedPosts(post: BlogPost, limit = 3): BlogPost[] {
   );
   return [...picked, ...sameCategory].slice(0, limit);
 }
+
+/** A post's text in one site language. */
+export interface LocalizedPost {
+  title: string;
+  excerpt: string;
+  content: string;
+  meta_title: string;
+  meta_description: string;
+  faq: { question: string; answer: string }[];
+}
+
+/**
+ * The post in `lang`. Danish and English are written on the post itself; the
+ * other languages come from src/content/blogTranslations, falling back to
+ * English for a post that hasn't been translated (or whose language hasn't
+ * been loaded with loadBlogTranslations) yet.
+ */
+export function localizePost(post: BlogPost, lang: SupportedLanguage): LocalizedPost {
+  if (lang === 'da' || lang === 'en') {
+    return {
+      title: post[`title_${lang}`],
+      excerpt: post[`excerpt_${lang}`],
+      content: post[`content_${lang}`],
+      meta_title: post[`meta_title_${lang}`],
+      meta_description: post[`meta_description_${lang}`],
+      faq: (post.faq ?? []).map((f) => ({ question: f[`question_${lang}`], answer: f[`answer_${lang}`] })),
+    };
+  }
+  const translation = getBlogTranslations(lang)?.[post.slug];
+  if (!translation) return localizePost(post, 'en');
+  return { ...translation, faq: translation.faq ?? localizePost(post, 'en').faq };
+}
+
+/** Whether the post's text exists in `lang` (rather than falling back to English). */
+export function isPostAvailableIn(post: BlogPost, lang: SupportedLanguage): boolean {
+  return lang === 'da' || lang === 'en' || Boolean(getBlogTranslations(lang)?.[post.slug]);
+}
+
+/** Locale for formatting post dates. */
+export const DATE_LOCALES: Record<SupportedLanguage, string> = {
+  da: 'da-DK',
+  en: 'en-US',
+  es: 'es-ES',
+  de: 'de-DE',
+  fr: 'fr-FR',
+};

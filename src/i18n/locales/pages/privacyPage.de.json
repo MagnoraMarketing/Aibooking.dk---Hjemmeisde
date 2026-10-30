@@ -1,0 +1,79 @@
+{
+  "seo": {
+    "title": "Datenschutzerklärung | Aibooking.dk",
+    "description": "Erfahren Sie, wie Aibooking.dk Ihre personenbezogenen Daten gemäß der DSGVO erhebt, verwendet und schützt.",
+    "keywords": "Datenschutzerklärung, DSGVO, personenbezogene Daten, Datenschutz, Aibooking"
+  },
+  "title": "Datenschutzerklärung",
+  "subtitle": "Wie wir Ihre personenbezogenen Daten schützen",
+  "sections": [
+    {
+      "heading": "1. Einleitung",
+      "body": "Aibooking.dk verpflichtet sich, Ihre personenbezogenen Daten zu schützen und Ihre Privatsphäre zu respektieren. Diese Datenschutzerklärung erläutert, wie wir Ihre personenbezogenen Daten erheben, verwenden, speichern und schützen, wenn Sie unsere Plattform und Dienste nutzen."
+    },
+    {
+      "heading": "2. Verantwortlicher",
+      "body": "Aibooking.dk (im Folgenden „wir“ oder „uns“) ist der Verantwortliche für die Verarbeitung Ihrer personenbezogenen Daten im Sinne der Datenschutz-Grundverordnung (DSGVO)."
+    },
+    {
+      "heading": "3. Welche Daten wir erheben",
+      "intro": "Wir erheben die folgenden Kategorien personenbezogener Daten:",
+      "labelItems": [
+        { "label": "Kontodaten", "desc": "Name, E-Mail-Adresse, Telefonnummer und weitere Angaben, die Sie bei der Kontoerstellung machen" },
+        { "label": "Zahlungsdaten", "desc": "Rechnungsadresse und Zahlungsinformationen (sicher über Zahlungsdienstleister verarbeitet)" },
+        { "label": "Nutzungsdaten", "desc": "Informationen über Ihre Aktivitäten auf der Plattform, etwa Buchungen, Anfragen und Interaktionen" },
+        { "label": "Technische Daten", "desc": "IP-Adresse, Browsertyp, Gerätetyp und weitere technische Informationen" },
+        { "label": "Kommunikationsdaten", "desc": "E-Mails, Nachrichten und sonstige Kommunikation zwischen Ihnen und uns" }
+      ]
+    },
+    {
+      "heading": "4. Wie wir Ihre Daten verwenden",
+      "intro": "Wir verwenden Ihre personenbezogenen Daten für folgende Zwecke:",
+      "items": [
+        "Um unsere Dienste bereitzustellen und zu verwalten",
+        "Um Ihre Buchungen und Transaktionen abzuwickeln",
+        "Um mit Ihnen über Ihr Konto und unsere Dienste zu kommunizieren",
+        "Um unsere Plattform zu verbessern und zu optimieren",
+        "Um gesetzliche und regulatorische Anforderungen zu erfüllen",
+        "Um Betrug zu verhindern und die Sicherheit unserer Plattform zu gewährleisten"
+      ]
+    },
+    {
+      "heading": "5. Weitergabe von Daten",
+      "body": "Wir geben Ihre personenbezogenen Daten nur an Drittanbieter weiter, die für die Erbringung unserer Dienste erforderlich sind, etwa Zahlungsdienstleister, Hosting-Anbieter und Kundensupport-Plattformen. Alle Drittanbieter sind verpflichtet, Ihre Daten sicher und im Einklang mit geltendem Recht zu verarbeiten."
+    },
+    {
+      "heading": "6. Datenspeicherung",
+      "body": "Ihre personenbezogenen Daten werden auf sicheren Servern gespeichert und nicht länger aufbewahrt, als es für die Zwecke, für die sie erhoben wurden, erforderlich ist, sofern das Gesetz keine längere Aufbewahrung vorschreibt. Sie können jederzeit die Löschung Ihrer Daten verlangen, indem Sie uns kontaktieren."
+    },
+    {
+      "heading": "7. Ihre Rechte",
+      "intro": "Nach der DSGVO haben Sie in Bezug auf Ihre personenbezogenen Daten folgende Rechte:",
+      "labelItems": [
+        { "label": "Auskunftsrecht", "desc": "Sie können verlangen, zu erfahren, welche personenbezogenen Daten wir über Sie gespeichert haben" },
+        { "label": "Recht auf Berichtigung", "desc": "Sie können verlangen, dass wir unrichtige Daten berichtigen" },
+        { "label": "Recht auf Löschung", "desc": "Sie können verlangen, dass wir Ihre Daten löschen" },
+        { "label": "Recht auf Einschränkung", "desc": "Sie können verlangen, dass wir die Verwendung Ihrer Daten einschränken" },
+        { "label": "Recht auf Datenübertragbarkeit", "desc": "Sie können verlangen, Ihre Daten in einem strukturierten Format zu erhalten" },
+        { "label": "Widerspruchsrecht", "desc": "Sie können bestimmten Verarbeitungen Ihrer Daten widersprechen" }
+      ]
+    },
+    {
+      "heading": "8. Sicherheit",
+      "body": "Wir setzen technische und organisatorische Sicherheitsmaßnahmen ein, um Ihre personenbezogenen Daten vor unbefugtem Zugriff, Veränderung, Offenlegung oder Vernichtung zu schützen. Dazu gehören Verschlüsselung, sichere Verbindungen und Zugriffskontrollen."
+    },
+    {
+      "heading": "9. Cookies",
+      "body": "Unsere Plattform kann Cookies verwenden, um Ihr Nutzungserlebnis zu verbessern. Sie können die Cookie-Einstellungen in Ihrem Browser steuern. Einige Cookies sind für die ordnungsgemäße Funktion der Plattform erforderlich, andere dienen der Analyse des Nutzerverhaltens."
+    },
+    {
+      "heading": "10. Änderungen dieser Erklärung",
+      "body": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Wesentliche Änderungen teilen wir Ihnen per E-Mail oder durch einen Hinweis auf der Plattform mit. Wenn Sie die Plattform nach Änderungen weiter nutzen, akzeptieren Sie die neuen Bedingungen."
+    },
+    {
+      "heading": "11. Kontakt",
+      "before": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben oder Ihre Rechte ausüben möchten, kontaktieren Sie uns gern unter ",
+      "after": "."
+    }
+  ]
+}

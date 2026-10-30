@@ -7,10 +7,12 @@ import App from './App';
 import { setServerPathname } from './utils/currentPath';
 import { setSeoCollector, SeoData } from './utils/seoCollector';
 import { splitLocalizedPath } from './utils/localePaths';
+import { loadBlogTranslations } from './content/blogTranslations';
 
 export async function render(pathname: string): Promise<{ html: string; seo: SeoData | null }> {
   const { lang } = splitLocalizedPath(pathname);
   await i18n.changeLanguage(lang);
+  await loadBlogTranslations(lang);
   setServerPathname(pathname);
   let seo: SeoData | null = null;
   setSeoCollector((data) => { seo = data; });

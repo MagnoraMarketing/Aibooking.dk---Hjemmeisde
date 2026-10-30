@@ -4,21 +4,23 @@
 // No aggregateRating here: Google only allows ratings in structured data
 // when the same reviews are visible on the page, otherwise it can trigger a
 // manual action for spammy markup.
-export const softwareApplicationSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'SoftwareApplication',
-  name: 'Aibooking.dk - AI Reception',
-  url: 'https://www.aibooking.dk',
-  applicationCategory: 'BusinessApplication',
-  operatingSystem: 'Web',
-  publisher: { '@id': 'https://www.aibooking.dk/#organization' },
-  offers: {
-    '@type': 'Offer',
-    price: '0',
-    priceCurrency: 'DKK',
-    description: 'Gratis 7-dages prøveperiode',
-  },
-};
+export function softwareApplicationSchema(url: string, freeTrial: string, currency: 'DKK' | 'EUR') {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'Aibooking.dk - AI Reception',
+    url,
+    applicationCategory: 'BusinessApplication',
+    operatingSystem: 'Web',
+    publisher: { '@id': 'https://www.aibooking.dk/#organization' },
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: currency,
+      description: freeTrial,
+    },
+  };
+}
 
 export function createBreadcrumbSchema(items: { name: string; url: string }[]) {
   return {

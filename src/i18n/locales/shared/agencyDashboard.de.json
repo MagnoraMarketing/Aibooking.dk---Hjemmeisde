@@ -1,0 +1,74 @@
+{
+  "windowLabel": "Dashboard",
+  "navTabs": [
+    "Dashboard",
+    "Widget-Agenten",
+    "Eingehend",
+    "Ausgehend",
+    "Dialer",
+    "Wissensdatenbank",
+    "Analysen",
+    "Integrationen",
+    "Abrechnung",
+    "Agentur"
+  ],
+  "creditsLabel": "Guthaben",
+  "sectionHeading": {
+    "badge": "Ihr Dashboard",
+    "title": "So sieht Ihr Dashboard in der Praxis aus",
+    "subtitle": "Ein echtes Beispiel dafür, wie Sie Ihr KI-Widget und Ihren Telefonassistenten verfolgen – an einem Ort, mit Zahlen für beide Kanäle."
+  },
+  "title": "Dashboard",
+  "subtitle": "Verfolgen Sie die Leistung Ihrer KI-Widgets",
+  "stats": {
+    "totalConversations": "Gespräche gesamt",
+    "activeWidgets": "Aktive Widgets",
+    "minutesUsed": "Verbrauchte Minuten",
+    "minutesLeft": "Verbleibende Minuten"
+  },
+  "panels": {
+    "widgetTitle": "Sprach-Widget",
+    "phoneTitle": "Telefon (eingehend/ausgehend)",
+    "seeAgents": "Agenten ansehen →",
+    "activeAgents": "Aktive Agenten",
+    "conversations": "Gespräche",
+    "minutes": "Minuten",
+    "calls": "Anrufe",
+    "shopTitle": "Onlineshop (Shopify)",
+    "products": "Produkte",
+    "orderLookups": "Bestellabfragen",
+    "sales": "Umsatz über KI",
+    "seeShop": "Shop ansehen →"
+  },
+  "recent": {
+    "title": "Letzte Gespräche",
+    "columns": {
+      "widget": "WIDGET",
+      "date": "DATUM",
+      "status": "STATUS",
+      "minutes": "MINUTEN"
+    },
+    "viewCall": "Anruf ansehen"
+  },
+  "channelLabel": {
+    "widget": "Widget",
+    "inbound": "Eingehend"
+  },
+  "status": {
+    "active": "Aktiv",
+    "ended": "Beendet",
+    "booked": "Gebucht",
+    "failed": "Fehlgeschlagen",
+    "shipped": "Versandt",
+    "delivered": "Zugestellt",
+    "processing": "In Bearbeitung"
+  },
+  "recentWidgetsTitle": "Zuletzt genutzte Widgets",
+  "bookingsTitle": "Buchungen",
+  "showcaseTabs": {
+    "label": "Beispiel wählen",
+    "frisor": "Friseursalon (Buchung)",
+    "ecommerce": "Onlineshop (Shopify)"
+  },
+  "ordersTitle": "Shopify-Bestellungen"
+}

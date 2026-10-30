@@ -1,0 +1,86 @@
+{
+  "seo": {
+    "title": "7 Tage kostenlos testen – KI-Rezeptionist | Aibooking.dk",
+    "description": "Testen Sie Aibooking.dk 7 Tage kostenlos. Leiten Sie Ihre Nummer um und testen Sie ein- und ausgehende KI-Anrufe mit Gratisguthaben, SMS, E-Mail und WhatsApp.",
+    "keywords": "KI-Rezeptionist testen, KI-Telefonservice kostenlos testen, kostenlose Testphase, 7 Tage gratis, KI-Telefonassistent testen, Onboarding-Gespräch, Rufumleitung, KI-Telefonservice"
+  },
+  "breadcrumb": { "home": "Startseite", "trial": "Kostenlose Testphase" },
+  "hero": {
+    "badge": "7 Tage. Unverbindlich.",
+    "title": "Testen Sie die gesamte Plattform 7 Tage kostenlos",
+    "subtitle": "Erstellen Sie ein Konto, und wir richten Ihre Testphase gemeinsam mit Ihnen in einem kurzen Präsentations- und Onboarding-Gespräch ein. Sie leiten einfach Ihre bisherige Geschäftsnummer auf die Ihnen zugewiesene Nummer um und testen den KI-Rezeptionisten mit echten Anrufen.",
+    "cta_signup": "Konto erstellen",
+    "cta_contact": "Fragen? Kontaktieren Sie uns"
+  },
+  "steps": {
+    "title": "So starten Sie",
+    "subtitle": "Von der Anmeldung bis zum ersten KI-Anruf in weniger als einer Woche",
+    "items": [
+      {
+        "title": "Konto erstellen",
+        "desc": "Die Anmeldung dauert nur ein paar Minuten, und Sie erhalten sofort Zugang zu Ihrem eigenen Dashboard."
+      },
+      {
+        "title": "Onboarding-Gespräch",
+        "desc": "Eine kurze Präsentation, in der wir Ihren KI-Rezeptionisten gemeinsam einrichten – passend zu Ihrer Branche und Ihrem Bedarf."
+      },
+      {
+        "title": "Nummer umleiten",
+        "desc": "Leiten Sie Ihre bisherige Geschäftsnummer einfach auf die Nummer um, die Sie für die Testphase erhalten – ohne technischen Aufwand auf Ihrer Seite."
+      },
+      {
+        "title": "7 Tage mit echten Anrufen testen",
+        "desc": "Erleben Sie in der Praxis, wie der KI-Rezeptionist ein- und ausgehende Anrufe bearbeitet – mit vollem Zugriff auf Dashboard und Anrufverlauf."
+      }
+    ]
+  },
+  "inclusions": {
+    "title": "Das ist in Ihrer Testphase enthalten",
+    "subtitle": "7 Tage voller Zugriff auf die Plattform, kostenlos",
+    "voice_label": "Gesprächszeit ein/aus",
+    "voice_value": "Gratisguthaben inklusive",
+    "sms_label": "SMS",
+    "sms_value": "100 kostenlose SMS",
+    "email_label": "E-Mail",
+    "email_value": "3.000 kostenlose E-Mails",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_value": "100 kostenlose Nachrichten"
+  },
+  "upgrade": {
+    "title": "Sie müssen nicht bis zum Ende der Testphase warten",
+    "description": "Schon vor Ablauf der 7 Tage überzeugt? Sie können direkt während der Testphase eines unserer Pakete hinzubuchen, ohne Ihre Einrichtung, Ihren Verlauf oder laufende Gespräche zu verlieren.",
+    "points": [
+      "Wechseln Sie jederzeit innerhalb der 7 Tage zu Starter, Professional oder Enterprise",
+      "Ihre bestehende Einrichtung und Ihre Daten werden automatisch übernommen",
+      "Unverbindlich – machen Sie nur weiter, wenn es für Ihr Unternehmen sinnvoll ist",
+      "Wir helfen Ihnen, das Paket zu finden, das zu Ihrem Anrufvolumen passt"
+    ],
+    "pricing_link": "Preise unserer Pakete ansehen"
+  },
+  "faq": {
+    "title": "Häufige Fragen zur Testphase",
+    "items": [
+      {
+        "title": "Muss ich selbst etwas Technisches einrichten?",
+        "desc": "Nein. Sie leiten nur Ihre bestehende Geschäftsnummer auf die Nummer um, die wir Ihnen zuweisen – alles andere richten wir gemeinsam im Onboarding-Gespräch ein."
+      },
+      {
+        "title": "Wie viel kann ich in der Testphase testen?",
+        "desc": "Ihr Gratisguthaben deckt während der 7 Tage sowohl eingehende als auch ausgehende KI-Anrufe ab, sodass Sie den gesamten Gesprächsablauf testen können – nicht nur eine Richtung."
+      },
+      {
+        "title": "Kann ich vor dem Ende der Testphase upgraden?",
+        "desc": "Ja. Sie können jederzeit innerhalb der 7 Tage ein kostenpflichtiges Paket hinzubuchen und nahtlos weitermachen, ohne von vorn zu beginnen."
+      },
+      {
+        "title": "Gibt es eine Bindung oder versteckte Kosten?",
+        "desc": "Nein, die Testphase ist völlig unverbindlich. Wenn Sie nicht weitermachen möchten, endet der Zugang einfach nach 7 Tagen."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Bereit, Ihren eigenen KI-Rezeptionisten zu testen?",
+    "subtitle": "Erstellen Sie jetzt Ihr Konto – wir vereinbaren ein Onboarding-Gespräch, und Ihre Testphase läuft im Handumdrehen.",
+    "cta_signup": "Konto erstellen und loslegen"
+  }
+}

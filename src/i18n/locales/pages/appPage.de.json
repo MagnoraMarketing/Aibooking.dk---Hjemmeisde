@@ -1,0 +1,129 @@
+{
+  "seo": {
+    "title": "App für Ihren KI-Rezeptionisten – Handy & PC | Aibooking.dk",
+    "description": "Anrufe, Termine, Aufnahmen und Verbrauch Ihres KI-Rezeptionisten in einer App für Smartphone und Computer. Ein Login für alles, keine Installation.",
+    "keywords": "KI-Rezeptionist App, Terminbuchung App, KI-Telefonservice App, Anrufübersicht App, Dashboard KI-Rezeptionist, Web-App fürs Smartphone, KI-Terminbuchung"
+  },
+  "breadcrumb": { "home": "Startseite", "app": "Die App" },
+  "hero": {
+    "badge": "Die Aibooking-App",
+    "title": "Alle Anrufe und Termine auf einen Blick – in der Hosentasche",
+    "subtitle": "Sehen Sie, wer angerufen hat, was die Person wollte und was der KI-Rezeptionist gebucht hat. Alles in einer einfachen App, die auf Smartphone, Tablet und Computer mit demselben Login funktioniert.",
+    "cta_signup": "Kostenloses Konto anlegen",
+    "cta_login": "In der App anmelden"
+  },
+  "phones": {
+    "badge": "Auf dem Smartphone",
+    "title": "Gemacht für volle Arbeitstage, nicht für IT-Profis",
+    "subtitle": "Sie müssen kein neues System lernen. Öffnen Sie die App zwischen zwei Kunden und sehen Sie in Sekunden die Anrufe des Tages, neue Termine und wen Sie zurückrufen sollten.",
+    "items": [
+      {
+        "caption": "Die Zahlen des Tages ganz oben: Gespräche, Termine und verbleibende Minuten Ihres Pakets.",
+        "alt": "Die Aibooking-App auf einem Smartphone: Startseite mit Firmenname, Zeitraumauswahl und Paketdaten"
+      },
+      {
+        "caption": "Kennzahlen in großen, klaren Feldern, die auch auf einem kleinen Bildschirm gut lesbar sind.",
+        "alt": "Die Aibooking-App auf einem Smartphone: Kennzahlen zu Gesprächen, Gesprächszeit, Terminen, Konversion und Verbrauch"
+      },
+      {
+        "caption": "Ein einfaches Menü mit allem an einem Ort: Agenten, Wissensdatenbank, Statistik und Integrationen.",
+        "alt": "Die Aibooking-App auf einem Smartphone: geöffnetes Menü mit Übersicht, Agenten, Wissensdatenbank, Statistik und Integrationen"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Keine Kunden mehr verlieren und Zeit zurückgewinnen",
+    "subtitle": "Der KI-Rezeptionist nimmt Telefon und Chat an. Die App sorgt dafür, dass Sie immer wissen, was passiert ist, damit nichts untergeht.",
+    "items": [
+      {
+        "title": "Kein Kunde geht durch einen verpassten Anruf verloren",
+        "desc": "Jeder Anruf und jeder Chat wird mit Name, Nummer und kurzer Zusammenfassung erfasst. Sie sehen sofort, wer einen Rückruf braucht."
+      },
+      {
+        "title": "Zeit für Kunden statt fürs Telefon",
+        "desc": "Kein Abhören der Mailbox, kein Notieren von Nachrichten mehr. Buchungen, Verschiebungen und Absagen liegen sortiert und mit Kundennamen in der App bereit."
+      },
+      {
+        "title": "Der Überblick in Sekunden",
+        "desc": "Gespräche, Termine, Konversion und Verbrauch pro Tag, Woche oder Monat, pro Agent oder gesamt. Sie sehen sofort, ob es sich lohnt."
+      },
+      {
+        "title": "Hören Sie genau, was gesagt wurde",
+        "desc": "Jedes Gespräch hat eine Aufnahme und ein vollständiges Transkript. So prüfen Sie einen Termin oder lernen aus einem schwierigen Gespräch, ohne den Kunden erneut zu fragen."
+      }
+    ]
+  },
+  "screens": {
+    "badge": "Am Computer",
+    "title": "Derselbe Überblick auf dem großen Bildschirm",
+    "subtitle": "Im Büro oder am Empfang öffnen Sie die App im Browser. Das sind die Ansichten, die Sie am häufigsten nutzen.",
+    "demo_note": "Die Screenshots stammen aus der echten App, mit einem fiktiven Friseursalon als Beispiel. Namen und Telefonnummern sind erfunden.",
+    "items": [
+      {
+        "title": "Übersicht: Wie läuft es?",
+        "desc": "Die Startseite zeigt Ihre Kennzahlen für den gewählten Zeitraum und ein Diagramm der Gespräche pro Tag, aufgeteilt nach Telefon und Website.",
+        "points": [
+          "Heute, 7, 30 oder 90 Tage wählen",
+          "Zahlen für einen Agenten oder alle zusammen",
+          "Verbrauch in Ihrer Währung und verbleibende Minuten"
+        ],
+        "alt": "Das Aibooking-Dashboard am Computer mit Kennzahlen zu Gesprächen, Gesprächszeit, Terminen, Konversion und einem Diagramm der Gespräche pro Tag"
+      },
+      {
+        "title": "Verlauf: jedes Gespräch mit Aufnahme und Text",
+        "desc": "Klicken Sie auf ein Gespräch und Sie sehen Zusammenfassung, Aufnahme, die gebuchten Termine und das ganze Gespräch Zeile für Zeile.",
+        "points": [
+          "Nach Nummer, Name oder Thema suchen",
+          "Nur Gespräche mit Buchung anzeigen",
+          "Aufnahme herunterladen, wenn Sie sie aufbewahren müssen"
+        ],
+        "alt": "Gesprächsverlauf in der Aibooking-App mit einem geöffneten Gespräch: Aufnahme, Zusammenfassung, Buchung und Transkript"
+      },
+      {
+        "title": "Termine: alles, was die KI in den Kalender eingetragen hat",
+        "desc": "Eine Liste aller neuen Buchungen, Verschiebungen und Absagen mit Uhrzeit, Kundenname und Status.",
+        "points": [
+          "Sofort sehen, ob eine Buchung geklappt hat",
+          "Verschiebungen und Absagen stehen separat",
+          "Termine landen in dem Kalender, mit dem der Agent eingerichtet ist"
+        ],
+        "alt": "Die Terminliste in der Aibooking-App mit Gesprächszeit, Agent, Aktion, Terminzeit, Kundenname und Status"
+      }
+    ]
+  },
+  "install": {
+    "title": "Die App in einer Minute auf den Home-Bildschirm legen",
+    "subtitle": "Die App läuft im Browser, Sie müssen also nichts aus dem App Store oder Google Play laden. Einmal anmelden, zum Home-Bildschirm hinzufügen, und sie öffnet sich wie jede andere App.",
+    "image_alt": "Die Anmeldeseite der Aibooking-App auf einem Smartphone mit dem Hinweis zum Installieren der App",
+    "image_caption": "QR-Code scannen oder app.aibooking.dk auf dem Smartphone öffnen",
+    "items": [
+      {
+        "title": "iPhone und iPad",
+        "desc": "In Safari:",
+        "steps": ["app.aibooking.dk öffnen und anmelden", "Auf „Teilen“ tippen", "„Zum Home-Bildschirm“ wählen"]
+      },
+      {
+        "title": "Android",
+        "desc": "In Chrome:",
+        "steps": ["app.aibooking.dk öffnen und anmelden", "Auf „App holen“ tippen", "Installation bestätigen"]
+      },
+      {
+        "title": "Computer",
+        "desc": "In Chrome, Edge oder Safari:",
+        "steps": ["app.aibooking.dk aufrufen", "Mit Ihrem Konto anmelden", "Als Lesezeichen speichern oder installieren"]
+      }
+    ]
+  },
+  "related": {
+    "title": "Die App gehört zu Ihrem KI-Rezeptionisten",
+    "text": "Die App ist in allen Paketen und in der kostenlosen Testphase enthalten. Sie zeigt die Aktivität des KI-Telefonservice und des Chatbots auf Ihrer Website.",
+    "link_phone": "Mehr zum KI-Telefonservice",
+    "link_widget": "Mehr zum KI-Chatbot",
+    "link_trial": "Zur kostenlosen Testphase"
+  },
+  "finalCta": {
+    "title": "Die App 7 Tage kostenlos testen",
+    "subtitle": "Legen Sie ein Konto an und Sie sind sofort in der App. Ohne Kreditkarte und ohne Vertragsbindung.",
+    "cta": "Kostenloses Konto anlegen"
+  }
+}

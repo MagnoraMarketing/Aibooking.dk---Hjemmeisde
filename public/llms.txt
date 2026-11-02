@@ -6,7 +6,7 @@ Aibooking.dk is aimed at small and medium-sized Danish businesses — clinics, c
 
 The AI voice/chat widget embeds on any platform (WordPress, Shopify, WooCommerce, Wix, Squarespace, Magento or a custom site) and acts as an extra employee: on ordinary business websites it books and reschedules appointments and collects quote requests and leads straight into the owner's calendar; on webshops it behaves like an upgraded version of the platform's native chat, letting customers track orders, reorder products, check stock and get help mid-purchase by voice or text.
 
-Trying the product is free: new customers create a free account (no credit card required) at https://app.aibooking.dk/signup and get a 7-day trial before choosing a paid package. Existing customers manage their account, agents and subscription from the same dashboard, logging in at https://app.aibooking.dk/login.
+Trying the product is free: new customers create a free account (no credit card required) at https://app.aibooking.dk/signup and get a 7-day trial before choosing a paid package. Existing customers manage their account, agents and subscription from the same dashboard, at https://app.aibooking.dk/dashboard.
 
 ## Product
 

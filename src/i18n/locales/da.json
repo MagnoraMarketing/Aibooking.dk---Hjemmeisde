@@ -135,12 +135,12 @@
       }
     ],
     "dashboard": {
-      "badge": "PREMIUM FEATURE",
+      "badge": "PREMIUMFUNKTION",
       "title": "Eget Dashboard",
       "subtitle": "Centraliseret kontrol og indsigt i alle dine AI-voice agenter fra ét sted",
       "items": [
         {
-          "title": "Unlimited AI Voice Agents",
+          "title": "Ubegrænsede AI-stemmeagenter",
           "description": "Skaler dine operationer uden begrænsninger. Administrer nemt flere klientkonti fra ét centraliseret dashboard."
         },
         {
@@ -230,7 +230,7 @@
         "features": [
           "150 AI opkalds-minutter",
           "Basis stemme-tilpasning",
-          "Standard support",
+          "Standardsupport",
           "Analyse dashboard",
           "Email notifikationer"
         ]
@@ -261,7 +261,7 @@
           "API adgang",
           "Dedikeret success manager",
           "Ubegrænset integrationer",
-          "GDPR compliance support"
+          "Hjælp til GDPR-overholdelse"
         ]
       }
     ],
@@ -372,7 +372,7 @@
     "cta_primary": "Book Gratis Demo",
     "cta_secondary": "Prøv vores AI voice widget",
     "demo_badge": "AI Receptionist Aktiv",
-    "chat_label": "AI Receptionist",
+    "chat_label": "AI-receptionist",
     "chat_message": "Hej, du har ringet til Pentworth Klinik. Hvordan kan jeg hjælpe dig i dag?",
     "card_call_answered_label": "Opkald Besvaret",
     "card_call_answered_value": "Ny Patient Registreret",
@@ -428,7 +428,7 @@
       }
     ],
     "cta": "Se AI-Widget i aktion",
-    "demo_widget_label": "AI Booking Assistant",
+    "demo_widget_label": "AI-bookingassistent",
     "demo_widget_status": "Online nu",
     "demo_ai_label": "🎤 AI Voice:",
     "demo_msg1": "Hej! Du kan tale direkte med mig. Hvad kan jeg hjælpe dig med?",

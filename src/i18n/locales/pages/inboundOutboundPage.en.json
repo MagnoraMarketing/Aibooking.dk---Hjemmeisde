@@ -395,6 +395,10 @@
   "faqSubtitle": "What we're asked most often before an AI voice goes live.",
   "faq": [
     {
+      "question": "What is an AI answering service?",
+      "answer": "An AI answering service is an AI voice that picks up your phone when you can't. With a traditional answering service, a person takes a message that you then have to call back. The AI can also deal with the request straight away: book, move and cancel appointments in your calendar, answer common questions and send a confirmation by email or SMS. Anything it can't handle, it puts through to you or saves as a message with a summary in your dashboard."
+    },
+    {
       "question": "What is the difference between inbound and outbound calls?",
       "answer": "Inbound is when the customer calls you – the AI picks up, helps with whatever they're calling about, and books or takes a message. Outbound is when the AI places the call itself, typically with reminders, confirmations or follow-ups on a quote. Outbound calling is an add-on to your plan."
     },

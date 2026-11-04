@@ -395,6 +395,10 @@
   "faqSubtitle": "Lo que más nos preguntan antes de poner una voz de IA en marcha.",
   "faq": [
     {
+      "question": "¿Qué es un servicio de atención telefónica con IA?",
+      "answer": "Es una voz con IA que coge el teléfono cuando tú no puedes. En un servicio de atención telefónica tradicional, una persona toma un recado y luego tienes que devolver la llamada. La IA, además, puede resolver la petición al momento: reservar, cambiar y cancelar citas en tu calendario, responder a las preguntas habituales y enviar una confirmación por correo o SMS. Lo que no puede resolver, te lo pasa o lo guarda como recado con un resumen en tu panel."
+    },
+    {
       "question": "¿Cuál es la diferencia entre llamadas entrantes y salientes?",
       "answer": "Entrante es cuando el cliente te llama: la IA descuelga, ayuda con lo que necesita y reserva o toma nota del mensaje. Saliente es cuando la IA llama por su cuenta, normalmente con recordatorios, confirmaciones o seguimiento de un presupuesto. Las llamadas salientes son un complemento de tu plan."
     },

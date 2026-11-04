@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "AI receptionist for hair & beauty salons | Aibooking.dk",
-    "description": "AI receptionist and AI booking for hairdressers and salons: answers the phone while you work, books, moves and cancels appointments and sends SMS.",
+    "description": "AI receptionist and AI booking for hairdressers and salons: answers the phone while you work and books, moves and cancels appointments in your calendar.",
     "keywords": "AI receptionist for salons, AI booking hairdresser, salon phone booking, AI answering service salon, hair salon receptionist, beauty salon booking, barber booking"
   },
   "breadcrumb": {
@@ -16,14 +16,14 @@
   },
   "solution": {
     "title": "A receptionist that knows your salon",
-    "description": "The AI receptionist answers in your language, introduces itself as the salon's digital assistant and knows your treatments, prices and opening hours. It finds a free slot, books it, moves or cancels existing appointments and sends an SMS confirmation. Questions it can't answer are passed to you with a short summary. The same goes for the chat on your website, so clients can also book in the evening and at weekends."
+    "description": "The AI receptionist answers in your language, introduces itself as the salon's digital assistant and knows your treatments, prices and opening hours. It finds a free slot, books it, moves or cancels existing appointments and emails the client a confirmation. Questions it can't answer are waiting for you in the app with a short summary. The same goes for the chat on your website, so clients can also book in the evening and at weekends."
   },
   "benefits": [
     { "title": "No interruptions mid-treatment", "description": "Stay with the client in the chair. The AI answers the phone instead of you." },
     { "title": "Booking, changes and cancellations", "description": "Clients can book, move or cancel an appointment themselves, around the clock." },
-    { "title": "SMS confirmations and reminders", "description": "Clients get a confirmation straight away and a reminder before the appointment, which means fewer no-shows." },
+    { "title": "Email and SMS confirmations", "description": "Clients get the time and treatment by email straight away, so the appointment sits in their own calendar." },
     { "title": "Answers to the usual questions", "description": "Prices, treatments, opening hours and parking are answered from your own knowledge base." },
-    { "title": "Call transfer when it matters", "description": "Complaints or special requests can be transferred to you or a colleague." },
+    { "title": "Transfer or message", "description": "Complaints or special requests can be put through to you or wait in the app with a short summary, so you can call back." },
     { "title": "Overview in the app", "description": "See today's calls, bookings and who to call back on your phone, between two clients." }
   ],
   "workflow": {

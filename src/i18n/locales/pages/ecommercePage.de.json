@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Onlineshop-Widget & KI-Widget für Shopify – KI-Kundenservice | Aibooking.dk",
-    "description": "Onlineshop-Widget und KI-Widget für Shopify: KI-Kundenservice, der Bestellungen verfolgt, Lagerbestände prüft und rund um die Uhr per Sprache antwortet.",
+    "description": "KI-Kundenservice für Onlineshops und Shopify: Chatbot und Telefonassistent, die Bestellstatus, Bestand, Versand und Retouren rund um die Uhr abfragen.",
     "keywords": "Onlineshop-Widget, KI-Widget für Shopify, Shopify KI, Shopify KI-Automatisierung, KI-Kundenservice Onlineshop, KI-Widget Onlineshop, Shopify Chatbot, KI-Sendungsverfolgung, Sprachassistent Onlineshop, WooCommerce Chatbot, E-Commerce Kundenservice"
   },
   "breadcrumb": {
@@ -16,7 +16,7 @@
   },
   "mainCard": {
     "title": "KI-gestützter Kundenservice, der nie schläft",
-    "description": "Aibooking.dk gibt Ihnen einen KI-gestützten Kundenservice, der nie schläft. Das System beantwortet häufige Fragen zu Produkten, Lieferzeiten, Retouren und Bestellstatus sofort. Komplexe Anfragen werden automatisch an Ihr Team weitergeleitet. Mit SMS-Benachrichtigungen halten Sie Kunden während des gesamten Kaufprozesses auf dem Laufenden. Ihr Dashboard zeigt alle Kundeninteraktionen, Gesprächszusammenfassungen, häufige Fragen und Trends, damit Sie Ihren Service laufend verbessern können. Verkürzen Sie Antwortzeiten von Stunden auf Sekunden und steigern Sie die Kundenzufriedenheit deutlich."
+    "description": "Aibooking.dk gibt Ihnen einen KI-gestützten Kundenservice, der nie schläft. Das System beantwortet häufige Fragen zu Produkten, Lieferzeiten, Retouren und Bestellstatus sofort. Was die KI nicht klären kann, liegt mit Zusammenfassung in Ihrem Dashboard, damit Ihr Team nachfassen kann. Das Dashboard zeigt jedes Gespräch mit Transkript, Aufzeichnung und kurzer Zusammenfassung, sodass Sie sehen, wonach Kunden fragen, und Ihre Antworten verbessern können. Verkürzen Sie Antwortzeiten von Stunden auf Sekunden und steigern Sie die Kundenzufriedenheit deutlich."
   },
   "benefits": [
     {
@@ -28,16 +28,16 @@
       "description": "Fragen zu Produkten, Bestellstatus und Retouren bearbeiten"
     },
     {
-      "title": "SMS-Updates",
-      "description": "Automatische Benachrichtigungen zu Versand und Zustellung"
+      "title": "Bestellstatus und Sendungsverfolgung",
+      "description": "Der Kunde nennt die Bestellnummer und erhält sofort Status und Versandinfo"
     },
     {
       "title": "Blitzschnelle Antwortzeiten",
       "description": "Antwortzeiten von Stunden auf Sekunden verkürzen"
     },
     {
-      "title": "Einblick in Trends",
-      "description": "Dashboard mit Kundeninteraktionen und häufigen Fragen"
+      "title": "Alle Gespräche an einem Ort",
+      "description": "Transkript, Aufzeichnung und Zusammenfassung jedes Gesprächs im Dashboard"
     },
     {
       "title": "Onlineshop-Integration",
@@ -65,15 +65,15 @@
   "voiceWidget": {
     "badge": "KI-Sprach-Widget für Ihren Onlineshop",
     "title": "Wie ein zusätzlicher Verkäufer im Laden – der Chat Ihres Shops, nur smarter",
-    "intro": "Das KI-Widget von Aibooking.dk kommt direkt in Ihren Onlineshop – egal ob Sie Shopify, WooCommerce oder Magento nutzen. Kunden können sprechen oder schreiben, um eine Bestellung zu prüfen, ein Produkt nachzubestellen oder den richtigen Artikel zu finden – automatisch und rund um die Uhr.",
+    "intro": "Das KI-Widget von Aibooking.dk kommt direkt in Ihren Onlineshop – egal ob Sie Shopify, WooCommerce oder Magento nutzen. Kunden können sprechen oder schreiben, um den richtigen Artikel zu finden oder Antworten zu Lieferung und Retouren zu bekommen – und bei Shopify fragt es auch Bestand und Bestellstatus live ab, rund um die Uhr.",
     "cards": [
       {
         "title": "Verfolgt Bestellungen",
         "desc": "„Wo ist mein Paket?“ wird sofort anhand des aktuellen Bestellstatus beantwortet"
       },
       {
-        "title": "Bestellt Produkte nach",
-        "desc": "Der Kunde bestellt einen früheren Artikel direkt im Gespräch nach"
+        "title": "Findet den richtigen Artikel",
+        "desc": "Der Kunde beschreibt den Artikel, und die KI nennt Größe, Bestand und Preis mit Link zum Produkt"
       },
       {
         "title": "Hilft beim Kauf",
@@ -113,5 +113,10 @@
     "title": "Bereit für den Start?",
     "subtitle": "Buchen Sie ein kostenloses, unverbindliches Gespräch und erhalten Sie einen Testzugang, um das System selbst auszuprobieren",
     "button": "Unverbindliches Gespräch buchen und kostenlosen Testzugang erhalten"
+  },
+  "shopifyPageLink": {
+    "title": "Sie nutzen Shopify?",
+    "text": "Sehen Sie genau, was die KI in Ihrem Shopify-Shop nachschlägt – Produkte, Varianten, Bestand, Versand, Rückgabe und Bestellstatus – im Chat und am Telefon.",
+    "link": "KI für Shopify"
   }
 }

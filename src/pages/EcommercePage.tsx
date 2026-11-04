@@ -7,6 +7,7 @@ import RelatedGuides from '../components/RelatedGuides';
 import AppQrSection from '../components/AppQrSection';
 import FAQ from '../components/FAQ';
 import { ecommerceFAQs } from '../content/faq';
+import PageLink from '../components/PageLink';
 import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import { createBreadcrumbSchema } from '../utils/structuredData';
@@ -80,6 +81,22 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
 
       {/* Worked example, right up top so visitors immediately see how it plays out */}
       <IndustryScenario industry="ecommerce" />
+
+      {/* Shopify stores get their own page with the exact integration scope */}
+      <section className="pb-4 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-4xl mx-auto bg-brand-50 border border-brand-100 rounded-3xl p-8 flex flex-col md:flex-row md:items-center gap-6">
+          <ShoppingCart className="w-12 h-12 text-brand-600 flex-shrink-0" />
+          <div className="flex-1">
+            <h2 className="text-2xl font-bold text-ink-900 mb-2">{t('shopifyPageLink.title')}</h2>
+            <p className="text-ink-600 leading-relaxed">{t('shopifyPageLink.text')}</p>
+          </div>
+          <PageLink page="shopify" onClick={() => onNavigate('shopify')}
+            className="inline-flex items-center gap-2 text-brand-700 font-semibold hover:text-brand-800 whitespace-nowrap">
+            {t('shopifyPageLink.link')}
+            <ArrowRight className="w-4 h-4" />
+          </PageLink>
+        </div>
+      </section>
 
       <section className="py-16 bg-gradient-to-br from-brand-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -16,7 +16,7 @@
   },
   "mainCard": {
     "title": "Un service client propulsé par l'IA qui ne dort jamais",
-    "description": "Aibooking.dk vous offre un service client propulsé par l'IA qui ne dort jamais. Le système répond instantanément aux questions courantes sur les produits, les délais de livraison, les retours et le statut des commandes. Les demandes complexes sont automatiquement transmises à votre équipe. Grâce aux notifications SMS, vous tenez vos clients informés tout au long de leur parcours d'achat. Votre tableau de bord affiche toutes les interactions clients, des résumés de conversations, les questions fréquentes et les tendances, afin que vous puissiez optimiser en continu votre service. Réduisez les temps de réponse de plusieurs heures à quelques secondes et améliorez considérablement la satisfaction client."
+    "description": "Aibooking.dk vous offre un service client propulsé par l'IA qui ne dort jamais. Le système répond instantanément aux questions courantes sur les produits, les délais de livraison, les retours et le statut des commandes. Ce que l'IA ne peut pas régler vous attend dans le tableau de bord avec un résumé, pour que votre équipe assure le suivi. Le tableau de bord affiche chaque conversation avec transcription, enregistrement et court résumé, afin que vous voyiez ce que demandent les clients et amélioriez vos réponses. Réduisez les temps de réponse de plusieurs heures à quelques secondes et améliorez considérablement la satisfaction client."
   },
   "benefits": [
     {
@@ -28,16 +28,16 @@
       "description": "Traitez les questions sur les produits, le statut des commandes et les retours"
     },
     {
-      "title": "Mises à jour par SMS",
-      "description": "Notifications automatiques sur les expéditions et les livraisons"
+      "title": "Statut et suivi de commande",
+      "description": "Le client donne son numéro de commande et obtient aussitôt le statut et l'expédition"
     },
     {
       "title": "Temps de réponse ultra-rapides",
       "description": "Réduisez les temps de réponse de plusieurs heures à quelques secondes"
     },
     {
-      "title": "Analyse des tendances",
-      "description": "Tableau de bord avec les interactions clients et les questions fréquentes"
+      "title": "Toutes les conversations au même endroit",
+      "description": "Transcription, enregistrement et résumé de chaque conversation dans le tableau de bord"
     },
     {
       "title": "Intégration boutique en ligne",
@@ -65,15 +65,15 @@
   "voiceWidget": {
     "badge": "Widget vocal IA pour votre boutique en ligne",
     "title": "Comme un vendeur de plus en boutique – le chat de votre site, en plus malin",
-    "intro": "Le widget IA d'Aibooking.dk se pose directement sur votre boutique, que vous soyez sur Shopify, WooCommerce ou Magento. Vos clients peuvent parler ou écrire pour suivre une commande, en repasser une ou trouver le bon produit – automatiquement, 24h/24.",
+    "intro": "Le widget IA d'Aibooking.dk se pose directement sur votre boutique, que vous soyez sur Shopify, WooCommerce ou Magento. Vos clients peuvent parler ou écrire pour trouver le bon produit ou obtenir des réponses sur la livraison et les retours – et sur Shopify, il consulte aussi le stock et le suivi de commande en direct, 24h/24.",
     "cards": [
       {
         "title": "Suit les commandes",
         "desc": "« Où est mon colis ? » reçoit une réponse immédiate à partir du statut réel"
       },
       {
-        "title": "Repasse les commandes",
-        "desc": "Le client recommande un article déjà acheté directement dans la conversation"
+        "title": "Trouve le bon produit",
+        "desc": "Le client décrit l'article et l'IA répond sur la taille, le stock et le prix avec un lien vers le produit"
       },
       {
         "title": "Accompagne l'achat",
@@ -113,5 +113,10 @@
     "title": "Prêt à commencer ?",
     "subtitle": "Réservez un rendez-vous gratuit et sans engagement, et obtenez un accès test pour essayer le système vous-même",
     "button": "Réservez un rendez-vous sans engagement et obtenez un accès test gratuit"
+  },
+  "shopifyPageLink": {
+    "title": "Votre boutique tourne sur Shopify ?",
+    "text": "Découvrez précisément ce que l'IA consulte dans votre boutique Shopify (produits, variantes, stock, livraison, retours et suivi de commande) dans le chat et au téléphone.",
+    "link": "IA pour Shopify"
   }
 }

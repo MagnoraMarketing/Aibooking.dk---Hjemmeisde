@@ -16,7 +16,7 @@
   },
   "mainCard": {
     "title": "Atención al cliente con IA que nunca duerme",
-    "description": "Aibooking.dk te ofrece una atención al cliente impulsada por IA que nunca duerme. El sistema responde al instante a preguntas frecuentes sobre productos, plazos de entrega, devoluciones y estado de los pedidos. Las consultas complejas se derivan automáticamente a tu equipo. Con notificaciones por SMS, mantienes a los clientes informados durante todo su proceso de compra. Tu panel muestra todas las interacciones con los clientes, resúmenes de conversaciones, preguntas frecuentes y tendencias, para que puedas optimizar continuamente tu servicio. Reduce los tiempos de respuesta de horas a segundos y mejora notablemente la satisfacción del cliente."
+    "description": "Aibooking.dk te ofrece una atención al cliente impulsada por IA que nunca duerme. El sistema responde al instante a preguntas frecuentes sobre productos, plazos de entrega, devoluciones y estado de los pedidos. Lo que la IA no puede resolver queda en tu panel con un resumen para que tu equipo haga el seguimiento. El panel muestra cada conversación con transcripción, grabación y un breve resumen, para que veas qué preguntan los clientes y mejores tus respuestas. Reduce los tiempos de respuesta de horas a segundos y mejora notablemente la satisfacción del cliente."
   },
   "benefits": [
     {
@@ -28,16 +28,16 @@
       "description": "Gestiona preguntas sobre productos, estado de pedidos y devoluciones"
     },
     {
-      "title": "Actualizaciones por SMS",
-      "description": "Notificaciones automáticas sobre envíos y entregas"
+      "title": "Estado del pedido y seguimiento",
+      "description": "El cliente da el número de pedido y recibe el estado y el envío al momento"
     },
     {
       "title": "Tiempos de respuesta ultrarrápidos",
       "description": "Reduce los tiempos de respuesta de horas a segundos"
     },
     {
-      "title": "Perspectivas de tendencias",
-      "description": "Panel con interacciones de clientes y preguntas frecuentes"
+      "title": "Todas las conversaciones en un sitio",
+      "description": "Transcripción, grabación y resumen de cada conversación en el panel"
     },
     {
       "title": "Integración con tienda online",
@@ -65,15 +65,15 @@
   "voiceWidget": {
     "badge": "Widget de voz con IA para tu tienda online",
     "title": "Como tener un vendedor más en la tienda: el chat de tu web, pero más listo",
-    "intro": "El widget de IA de Aibooking.dk se instala directamente en tu tienda online, tanto si usas Shopify como WooCommerce o Magento. Los clientes pueden hablar o escribir para consultar un pedido, repetir una compra o encontrar el producto adecuado, de forma automática y a cualquier hora.",
+    "intro": "El widget de IA de Aibooking.dk se instala directamente en tu tienda online, tanto si usas Shopify como WooCommerce o Magento. Los clientes pueden hablar o escribir para encontrar el producto adecuado o resolver dudas sobre envíos y devoluciones, y en Shopify también consulta el stock y el estado del pedido en directo, a cualquier hora.",
     "cards": [
       {
         "title": "Sigue pedidos",
         "desc": "\"¿Dónde está mi paquete?\" se responde al instante con el estado real del pedido"
       },
       {
-        "title": "Repite pedidos",
-        "desc": "El cliente vuelve a pedir un artículo anterior en la propia conversación"
+        "title": "Encuentra el producto adecuado",
+        "desc": "El cliente describe el artículo y la IA responde sobre talla, stock y precio con un enlace al producto"
       },
       {
         "title": "Ayuda en la compra",
@@ -113,5 +113,10 @@
     "title": "¿Listo para empezar?",
     "subtitle": "Reserva una reunión gratuita y sin compromiso y obtén acceso a un login de prueba para probar el sistema tú mismo",
     "button": "Reserva una reunión sin compromiso y obtén un acceso de prueba gratuito"
+  },
+  "shopifyPageLink": {
+    "title": "¿Tu tienda está en Shopify?",
+    "text": "Mira exactamente qué consulta la IA en tu tienda Shopify (productos, variantes, stock, envíos, devoluciones y estado del pedido) en el chat y por teléfono.",
+    "link": "IA para Shopify"
   }
 }

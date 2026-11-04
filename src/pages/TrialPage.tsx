@@ -10,7 +10,7 @@ import { createBreadcrumbSchema } from '../utils/structuredData';
 import type { SupportedLanguage } from '../i18n/config';
 import { localizedUrl } from '../utils/localePaths';
 import {
-  Phone, MessageSquare, Mail, MessageCircle, ArrowRight, PhoneCall,
+  Phone, MessageSquare, Calendar, FileText, ArrowRight, PhoneCall,
   Users, PhoneForwarded, PackagePlus, CheckCircle2,
 } from 'lucide-react';
 import type { NavigatePage } from '../types/navigation';
@@ -38,8 +38,8 @@ function TrialPage({ onNavigate }: TrialPageProps) {
   const inclusions = [
     { icon: Phone, label: t('inclusions.voice_label'), value: t('inclusions.voice_value') },
     { icon: MessageSquare, label: t('inclusions.sms_label'), value: t('inclusions.sms_value') },
-    { icon: Mail, label: t('inclusions.email_label'), value: t('inclusions.email_value') },
-    { icon: MessageCircle, label: t('inclusions.whatsapp_label'), value: t('inclusions.whatsapp_value') },
+    { icon: Calendar, label: t('inclusions.email_label'), value: t('inclusions.email_value') },
+    { icon: FileText, label: t('inclusions.whatsapp_label'), value: t('inclusions.whatsapp_value') },
   ];
 
   const upgradePoints = t('upgrade.points', { returnObjects: true }) as string[];

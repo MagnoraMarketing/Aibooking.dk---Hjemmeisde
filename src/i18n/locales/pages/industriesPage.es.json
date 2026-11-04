@@ -22,13 +22,13 @@
     "healthcare": {
       "title": "Clínicas y Sanidad",
       "subtitle": "Libertad para centrarte en el cuidado del paciente",
-      "description": "Como clínica, sabes lo importante que es ofrecer a tus pacientes el mejor tratamiento. Pero tareas administrativas como llamadas telefónicas, reservas y cancelaciones roban tiempo valioso al cuidado del paciente.\n\nNuestra recepcionista de IA gestiona todas las consultas de clientes de forma profesional — desde nuevas reservas hasta reprogramaciones y confirmaciones. Con recordatorios automáticos por SMS, reduces significativamente las ausencias. Tu panel personalizado te da una visión completa: escucha todas las llamadas, ve resúmenes breves de cada conversación, qué se acordó, estadísticas de reservas e integración de calendario. Puedes seguir usando tu software de calendario actual — nuestro sistema se sincroniza automáticamente.",
+      "description": "Como clínica, sabes lo importante que es ofrecer a tus pacientes el mejor tratamiento. Pero tareas administrativas como llamadas telefónicas, reservas y cancelaciones roban tiempo valioso al cuidado del paciente.\n\nNuestra recepcionista de IA gestiona cada consulta de forma profesional: desde nuevas reservas hasta reprogramaciones y confirmaciones. Los pacientes pueden cambiar o cancelar su cita a cualquier hora, así el hueco puede ser para otra persona. Tu panel te da una visión completa: escucha cada llamada y ve resúmenes breves de cada conversación y de lo acordado. Las citas entran directamente en Google Calendar, Outlook/Microsoft 365 o Cal.com.",
       "benefits": [
-        "Reduce el tiempo al teléfono un 85% — céntrate en tus pacientes",
-        "Los recordatorios automáticos por SMS reducen las ausencias hasta un 60%",
+        "Menos interrupciones al teléfono: más tiempo para tus pacientes",
+        "Los pacientes cambian y cancelan solos: los huecos se liberan al momento",
         "Gestiona reservas, reprogramaciones y cancelaciones las 24 horas",
         "Panel completo con historial de llamadas y resúmenes de conversación",
-        "Integración con tu sistema de reservas y calendario actual",
+        "Reservas en Google Calendar, Outlook/Microsoft 365 o Cal.com",
         "Cumplimiento total del RGPD para datos sensibles de pacientes"
       ],
       "stats": [
@@ -53,12 +53,12 @@
     "craftsman": {
       "title": "Oficios",
       "subtitle": "Deja de perder encargos porque no contestas el teléfono",
-      "description": "Conoces la sensación: estás en mitad de un trabajo y suena el teléfono. Si contestas, pierdes concentración. Si no lo haces, quizás pierdas un buen encargo. Es una situación imposible.\n\nNuestra recepcionista de IA resuelve este problema de una vez por todas. El sistema responde a cada llamada, registra los datos del cliente, reserva visitas al lugar y envía confirmaciones automáticas por SMS. En tu panel, puedes ver todas las consultas, escuchar las conversaciones grabadas, obtener resúmenes breves de lo que quiere el cliente y ver qué se acordó. Tu calendario se actualiza automáticamente, sin importar qué sistema uses. Deja de preocuparte por encargos perdidos — céntrate en tu oficio.",
+      "description": "Conoces la sensación: estás en mitad de un trabajo y suena el teléfono. Si contestas, pierdes concentración. Si no lo haces, quizás pierdas un buen encargo. Es una situación imposible.\n\nNuestra recepcionista de IA resuelve este problema de una vez por todas. El sistema contesta cada llamada, registra los datos del cliente, agenda visitas y envía al cliente una confirmación por correo. En tu panel puedes ver cada consulta, escuchar las conversaciones grabadas, obtener resúmenes breves de lo que quiere el cliente y ver lo que se ha acordado. La cita entra directamente en tu calendario de Google, Outlook o Cal.com. Deja de preocuparte por trabajos perdidos: céntrate en tu oficio.",
       "benefits": [
         "Responde a cada consulta incluso mientras trabajas",
         "Registro automático de datos del cliente y descripciones del trabajo",
         "Reserva visitas al lugar directamente en tu calendario — se sincroniza automáticamente",
-        "Confirmaciones por SMS tanto para ti como para el cliente",
+        "Confirmación por correo para el cliente y un resumen para ti",
         "Panel con todas las consultas de clientes y lo que se acordó",
         "No vuelvas a perder un encargo — el sistema funciona las 24 horas"
       ],
@@ -84,14 +84,14 @@
     "office": {
       "title": "Oficina y Administración",
       "subtitle": "Atención al cliente profesional sin interrupciones",
-      "description": "En las empresas de oficina, la concentración y la productividad son cruciales. Pero las llamadas telefónicas constantes interrumpen el flujo de trabajo y reducen significativamente la eficiencia. Al mismo tiempo, es importante ofrecer a los clientes un servicio rápido y profesional.\n\nCon Aibooking.dk, obtienes lo mejor de ambos mundos. Nuestra recepcionista de IA filtra todas las llamadas entrantes, gestiona reservas de reuniones, responde preguntas frecuentes y solo transfiere las consultas más importantes. Tu equipo tiene la tranquilidad de trabajar con concentración, mientras los clientes disfrutan de un servicio profesional a cualquier hora. El panel te da control total: escucha todas las conversaciones, ve resúmenes detallados, estadísticas de reservas e integración de calendario. Perfecto para abogados, contables, consultores y otras empresas basadas en el conocimiento.",
+      "description": "En las empresas de oficina, la concentración y la productividad son cruciales. Pero las llamadas telefónicas constantes interrumpen el flujo de trabajo y reducen significativamente la eficiencia. Al mismo tiempo, es importante ofrecer a los clientes un servicio rápido y profesional.\n\nCon Aibooking.dk obtienes lo mejor de ambos mundos. Nuestra recepcionista de IA atiende todas las llamadas entrantes, reserva reuniones, responde preguntas frecuentes y anota todo lo demás con un breve resumen para que devuelvas la llamada. Tu equipo trabaja concentrado, mientras los clientes disfrutan de un servicio profesional a cualquier hora. El panel te da la visión de conjunto: escucha cada conversación y consulta los resúmenes y lo acordado. Perfecto para abogados, contables, consultores y otros negocios basados en el conocimiento.",
       "benefits": [
         "Reduce las interrupciones y mejora la productividad de los empleados",
         "Servicio telefónico profesional sin costes salariales adicionales",
-        "Filtrado automático de llamadas — solo se transfieren los asuntos importantes",
+        "Las llamadas que la IA no resuelve se guardan con un resumen para devolverlas",
         "Reserva reuniones directamente en el calendario compartido del equipo",
-        "Panel con historial de conversaciones, resúmenes y estadísticas",
-        "Integración con sistemas CRM y de calendario existentes"
+        "Panel con historial de conversaciones, grabaciones y resúmenes",
+        "Reservas en Google Calendar, Outlook/Microsoft 365 o Cal.com"
       ],
       "stats": [
         {
@@ -115,14 +115,14 @@
     "ecommerce": {
       "title": "Tiendas Online y E-commerce",
       "subtitle": "Atención al cliente que crece con tu negocio",
-      "description": "En el e-commerce, la atención al cliente rápida es crucial para el éxito. Las respuestas tardías a las consultas de los clientes significan ventas perdidas y malas reseñas. Pero tener personal de atención al cliente las 24 horas es caro y complejo.\n\nAibooking.dk te ofrece atención al cliente impulsada por IA que nunca duerme. El sistema responde al instante a preguntas frecuentes sobre productos, plazos de entrega, devoluciones y estado del pedido. Las consultas complejas se escalan automáticamente a tu equipo. Con notificaciones por SMS, mantienes a los clientes informados durante todo el proceso de compra. Tu panel muestra todas las interacciones con clientes, resúmenes de conversación, preguntas frecuentes y tendencias, para que puedas optimizar constantemente tu servicio. Reduce los tiempos de respuesta de horas a segundos y mejora significativamente la satisfacción del cliente.",
+      "description": "En el e-commerce, la atención al cliente rápida es crucial para el éxito. Las respuestas tardías a las consultas de los clientes significan ventas perdidas y malas reseñas. Pero tener personal de atención al cliente las 24 horas es caro y complejo.\n\nAibooking.dk te ofrece una atención al cliente impulsada por IA que nunca duerme. El sistema responde al instante a preguntas frecuentes sobre productos, plazos de entrega, devoluciones y estado de los pedidos. Lo que la IA no puede resolver queda en tu panel con un resumen para que tu equipo haga el seguimiento. El panel muestra cada conversación con transcripción, grabación y un breve resumen, para que veas qué preguntan los clientes y mejores tus respuestas. Reduce los tiempos de respuesta de horas a segundos y mejora notablemente la satisfacción del cliente.",
       "benefits": [
         "Responde a las consultas de los clientes al instante, 24/7, sin personal adicional",
         "Gestiona preguntas sobre productos, estado del pedido y devoluciones automáticamente",
-        "Actualizaciones automáticas por SMS sobre envíos y entregas",
+        "Estado del pedido y seguimiento a partir del número de pedido",
         "Reduce los tiempos de respuesta de horas a segundos",
-        "Panel con interacciones de clientes, tendencias y preguntas frecuentes",
-        "Integración con tu sistema de tienda online y gestión de pedidos"
+        "Panel con todas las conversaciones, grabaciones y resúmenes",
+        "Integración con Shopify con consulta en directo de productos, stock y pedidos"
       ],
       "stats": [
         {
@@ -163,7 +163,7 @@
     "intro": "Aibooking.dk es una solución líder de recepcionista de IA de Dinamarca, automatizando la atención al cliente, las reservas y la administración de empresas de todos los sectores.",
     "whatIs": {
       "title": "¿Qué es una recepcionista de IA?",
-      "paragraph1": "Una recepcionista de IA es un asistente virtual inteligente que gestiona todas tus consultas de clientes automáticamente las 24 horas. Nuestra avanzada tecnología de IA puede responder llamadas, tomar reservas, enviar confirmaciones por SMS, gestionar reprogramaciones y mucho más — todo sin intervención humana.",
+      "paragraph1": "Una recepcionista de IA es un asistente virtual inteligente que gestiona todas tus consultas de clientes automáticamente las 24 horas. Nuestra avanzada tecnología de IA puede responder llamadas, tomar reservas, enviar confirmaciones por correo, gestionar reprogramaciones y mucho más — todo sin intervención humana.",
       "paragraph2": "A diferencia de una recepcionista tradicional, Aibooking.dk funciona las 24 horas sin descansos, festivos ni bajas por enfermedad. Esto significa que tus clientes siempre pueden contactar con tu negocio, sin importar la hora del día. Al mismo tiempo, ahorras costes salariales significativos y puedes centrar a tus empleados en tareas de mayor valor."
     },
     "solutions": {
@@ -187,15 +187,15 @@
     },
     "features": {
       "title": "Funciones avanzadas que marcan la diferencia",
-      "paragraph1": "Aibooking.dk es mucho más que un simple contestador. Nuestra plataforma incluye un panel completo donde puedes seguir todas las interacciones con clientes en tiempo real. Escucha todas las conversaciones grabadas, obtén resúmenes breves de cada conversación, ve qué se acordó y obtén estadísticas detalladas sobre reservas y consultas de clientes.",
-      "paragraph2": "El sistema se integra perfectamente con tu calendario actual, ya uses Google Calendar, Outlook o una solución específica de tu sector. Obtienes mensajes SMS automáticos tanto para ti como para tus clientes, para que todos estén informados. Y con nuestro panel intuitivo, puedes supervisar fácilmente tu negocio y tomar decisiones basadas en datos."
+      "paragraph1": "Aibooking.dk es mucho más que un simple contestador. Nuestra plataforma incluye un panel completo donde puedes seguir todas las interacciones con clientes en tiempo real. Escucha todas las conversaciones grabadas, obtén resúmenes breves de cada conversación, ve qué se acordó y ten todas las reservas y consultas en un solo lugar.",
+      "paragraph2": "El sistema reserva directamente en tu calendario, ya uses Google Calendar, Outlook/Microsoft 365 o Cal.com. El cliente recibe una confirmación por correo o SMS y tú, la grabación, la transcripción y un breve resumen de cada conversación. Y con nuestro panel ves todas las llamadas, chats y reservas en un solo lugar."
     },
     "whyChoose": {
       "title": "¿Por qué elegir Aibooking.dk?",
       "points": [
         "Ahorra más de 10 horas a la semana en llamadas y administración",
         "No vuelvas a perder a un cliente — atiende consultas las 24 horas",
-        "Reduce las ausencias con recordatorios automáticos por SMS",
+        "Menos huecos vacíos: los clientes cambian y cancelan a cualquier hora",
         "Visión completa con un panel inteligente y resúmenes de conversación",
         "Integración perfecta con tus sistemas actuales",
         "Soporte personal y soluciones adaptadas a tu negocio"
@@ -253,7 +253,7 @@
   },
   "salon": {
     "title": "Peluquerías y salones",
-    "text": "Los salones viven de las reservas y el teléfono siempre suena en mitad de un servicio. La recepcionista con IA atiende la llamada, reserva, cambia y cancela citas y envía recordatorios por SMS mientras trabajas.",
+    "text": "Los salones viven de las reservas y el teléfono siempre suena en mitad de un servicio. La recepcionista con IA atiende la llamada, reserva, cambia y cancela citas mientras trabajas.",
     "link": "Más sobre la recepcionista con IA para salones"
   }
 }

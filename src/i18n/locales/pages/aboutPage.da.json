@@ -51,7 +51,7 @@
     "description": "Vores AI-løsning er ikke bare endnu en chatbot. Det er resultatet af årtiers erfaring med telemarketing og kundekontakt. Vi forstår, hvad det kræver at levere professionel kundeservice, og har bygget en løsning der virkelig fungerer i praksis.",
     "incoming": {
       "title": "Indgående opkald",
-      "description": "Vores virtuelle receptionist tager imod alle indgående opkald, besvarer spørgsmål, bookinger og viderestiller kun når det er nødvendigt. Det betyder færre afbrudte arbejdsgange og mere tid til kerneopgaver.",
+      "description": "Vores virtuelle receptionist tager imod alle indgående opkald, besvarer spørgsmål og booker tider. Det, den ikke kan løse, ligger med resumé i dashboardet, så I kan ringe tilbage. Det betyder færre afbrudte arbejdsgange og mere tid til kerneopgaver.",
       "features": [
         "24/7 tilgængelighed",
         "Professionel dansk kommunikation",

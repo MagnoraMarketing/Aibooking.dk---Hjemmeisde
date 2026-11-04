@@ -1,0 +1,174 @@
+{
+  "seo": {
+    "title": "Shopify AI: chatbot, voice og AI-telefon | Aibooking.dk",
+    "description": "AI til Shopify: chatbot, voice-widget og AI-telefon, der slår produkter, størrelser, lager, fragt, retur og ordrestatus op live i din butik. Prøv gratis.",
+    "keywords": "Shopify AI, Shopify chatbot, AI kundeservice Shopify, Shopify AI-assistent, AI voice Shopify, AI-telefon webshop, Shopify ordrestatus AI, chatbot til Shopify dansk, AI produktsøgning Shopify"
+  },
+  "breadcrumb": {
+    "home": "Hjem",
+    "ecommerce": "Webshop",
+    "shopify": "Shopify AI"
+  },
+  "hero": {
+    "badge": "Shopify-integration",
+    "title": "Shopify AI, der svarer kunderne",
+    "highlight": "i chatten og i telefonen",
+    "subtitle": "Forbind din Shopify-butik, og AI-assistenten slår produkter, størrelser, farver, lagerstatus, fragt, returret og ordrestatus op direkte i butikken, mens kunden spørger. På hjemmesiden som chat og voice-widget, og på telefonen, når kunderne ringer.",
+    "primary": "Opret gratis konto"
+  },
+  "channels": {
+    "title": "To kanaler, én Shopify-forbindelse",
+    "subtitle": "Nogle kunder skriver, andre ringer. Du forbinder butikken på den agent, der skal svare, og den bruger de samme opslag i Shopify, uanset om kunden er i chatten eller i telefonen.",
+    "items": [
+      {
+        "title": "AI-widget på din Shopify-side",
+        "description": "Et lille vindue på din webshop, hvor kunden kan skrive eller tale med AI-assistenten. Den finder varen, svarer på størrelse og lager og sender et klikbart link til produktsiden.",
+        "points": [
+          "Kunden kan skrive eller tale",
+          "Klikbare produktlinks direkte fra Shopify",
+          "Svarer også om aftenen og i weekenden, når supporten er lukket",
+          "Sættes ind i dit tema med en enkelt embedkode"
+        ]
+      },
+      {
+        "title": "AI-telefon til webshoppen",
+        "description": "Kunder, der ringer, får svar med det samme. AI'en tager telefonen, svarer på produktspørgsmål og slår ordrestatus op ud fra ordrenummeret, i stedet for at kunden havner på en telefonsvarer.",
+        "points": [
+          "Du får et telefonnummer og viderestiller dit nuværende nummer",
+          "Samme svar om produkter, fragt og retur som i chatten",
+          "Ordrestatus og forsendelse ud fra ordrenummeret",
+          "Optagelse og udskrift af samtalen i dashboardet"
+        ]
+      }
+    ],
+    "linkIntro": "Læs mere om de to kanaler:",
+    "widgetLink": "AI-widget og chatbot",
+    "phoneLink": "AI-telefonpasning"
+  },
+  "capabilities": {
+    "title": "Hvad AI'en slår op i din butik",
+    "subtitle": "AI'en har ingen gammel kopi af dit sortiment. Hvert spørgsmål om en vare, en pris eller en ordre bliver til et opslag i Shopify i det øjeblik, kunden spørger, så svaret passer med butikken lige nu.",
+    "items": [
+      {
+        "title": "Produktsøgning",
+        "description": "Kunden beskriver varen med egne ord, fx \"sorte løbesko i 42\". AI'en finder de matchende produkter med navn, pris og varianter."
+      },
+      {
+        "title": "Varianter og lager",
+        "description": "Størrelse, farve, SKU og lagerstatus for hver variant. Spørger kunden om en bestemt størrelse, svarer AI'en konkret på, om netop den er på lager."
+      },
+      {
+        "title": "Fragt, retur og betingelser",
+        "description": "AI'en læser din egen leverings-, retur- og handelspolitik fra Shopify. Retter du teksten i Shopify, svarer AI'en ud fra den nye tekst."
+      },
+      {
+        "title": "Ordrestatus og tracking",
+        "description": "\"Hvor er min pakke?\" AI'en beder om ordrenummeret og svarer med status, fragtfirma, trackingnummer og forventet levering, når Shopify har dem."
+      }
+    ]
+  },
+  "examples": {
+    "title": "Sådan lyder det i praksis",
+    "subtitle": "Tre typiske henvendelser til en webshop og hvordan AI-assistenten håndterer dem.",
+    "channel": {
+      "widget": "Chat på webshoppen",
+      "phone": "Telefon"
+    },
+    "who": {
+      "customer": "Kunde",
+      "ai": "AI-assistent"
+    },
+    "items": [
+      {
+        "title": "Størrelse og lager",
+        "channel": "widget",
+        "lines": [
+          { "who": "customer", "text": "Har I regnjakken Nord i sort, str. L?" },
+          { "who": "ai", "text": "Ja, Regnjakke Nord i sort findes i str. L, og den er på lager. Den koster 899 kr. Se produkt" },
+          { "who": "customer", "text": "Har I en billigere regnjakke?" },
+          { "who": "ai", "text": "Regnjakke Basic koster 549 kr. og er på lager i sort i str. L. Se produkt" }
+        ]
+      },
+      {
+        "title": "Hvor er min pakke?",
+        "channel": "phone",
+        "lines": [
+          { "who": "customer", "text": "Jeg har ikke fået min pakke endnu." },
+          { "who": "ai", "text": "Det tjekker jeg gerne. Hvad er dit ordrenummer?" },
+          { "who": "customer", "text": "Det er 10482." },
+          { "who": "ai", "text": "Ordre 10482 er sendt med GLS i går og forventes leveret i morgen. Trackingnummeret står i din forsendelsesmail." }
+        ]
+      },
+      {
+        "title": "Returret",
+        "channel": "widget",
+        "lines": [
+          { "who": "customer", "text": "Kan jeg returnere skoene, hvis de er for små?" },
+          { "who": "ai", "text": "Ja. Ifølge butikkens returpolitik har du 30 dages returret fra levering, og varen skal være ubrugt. Hele returpolitikken står her: Læs returpolitikken" }
+        ]
+      }
+    ],
+    "note": "Eksemplerne er fra en fiktiv butik. Navne, priser og politikker kommer altid fra den forbundne Shopify-butik."
+  },
+  "limits": {
+    "title": "Hvad AI'en gør, og hvad den ikke gør",
+    "subtitle": "Integrationen er bygget til at svare rigtigt, ikke til at love mere, end den kan holde.",
+    "doesTitle": "AI-assistenten",
+    "does": [
+      "Finder produkter og svarer på pris, størrelse, farve og lager",
+      "Giver et klikbart link til den rigtige produktside i chatten",
+      "Svarer på fragt, levering, retur og betingelser ud fra dine egne politikker",
+      "Slår ordrestatus og forsendelse op, når kunden oplyser sit ordrenummer",
+      "Siger ærligt, når butikken ikke fører en vare, eller en ordre ikke kan findes"
+    ],
+    "doesNotTitle": "AI-assistenten gør ikke",
+    "doesNot": [
+      "Lægger ikke varer i kurven og tager ikke imod betaling. Kunden køber selv via produktlinket",
+      "Ændrer, annullerer eller refunderer ikke ordrer",
+      "Læser ikke navn, adresse, ordrelinjer eller betalingsoplysninger op",
+      "Finder ikke selv på produkter, priser eller links",
+      "Læser ikke links højt i telefonen. Samtalen ligger i dashboardet, så du kan følge op"
+    ]
+  },
+  "privacy": {
+    "title": "Ordredata og privatliv",
+    "text": "AI'en slår kun en ordre op, når kunden selv har oplyst ordrenummeret, og den fortæller kun status, forsendelse og levering. Navn, e-mail, adresse, varer og betaling får AI'en slet ikke udleveret. Ordredata bliver ikke gemt hos Aibooking: de hentes fra Shopify til den ene besked og bruges ikke igen. Forbindelsen har kun læseadgang til produkter, ordrer og butikkens politikker."
+  },
+  "setup": {
+    "title": "Sådan kommer du i gang",
+    "steps": [
+      {
+        "title": "Opret en gratis konto",
+        "description": "Du får 7 dages prøveperiode uden binding og uden kortnummer."
+      },
+      {
+        "title": "Opret en agent",
+        "description": "Vælg en widget til hjemmesiden eller en telefonagent, giv den et navn og vælg sprog og stemme."
+      },
+      {
+        "title": "Forbind Shopify",
+        "description": "Under fanen Webshop skriver du din butiksadresse (dinbutik.myshopify.com) og godkender forbindelsen i Shopify."
+      },
+      {
+        "title": "Gå live",
+        "description": "Sæt embedkoden ind i dit Shopify-tema, eller viderestil dit telefonnummer til det nummer, agenten får."
+      }
+    ],
+    "mockCaption": "Fanen Webshop i Aibooking-dashboardet, hvor butikken forbindes"
+  },
+  "delivery": {
+    "title": "Lokal levering med bud",
+    "text": "Har du et fysisk lager eller en butik, kan agenten også bestille levering med bud fra Uber Direct eller Just Eat, hvor tjenesten findes i dit område. Den henter pris og leveringstid, læser dem op og bestiller først, når kunden har sagt ja.",
+    "link": "Se alle integrationer"
+  },
+  "languages": {
+    "title": "Til webshops, der sælger på flere sprog",
+    "text": "Hver agent taler det sprog, du vælger: dansk, engelsk, tysk, spansk, fransk eller portugisisk. Sælger du til flere lande, kan du give hver butik eller hvert marked sin egen agent."
+  },
+  "finalCta": {
+    "title": "Lad AI'en tage de spørgsmål, der kommer igen og igen",
+    "subtitle": "Forbind din Shopify-butik i prøveperioden og test AI'en på dine egne produkter, før du beslutter dig.",
+    "primary": "Opret gratis konto",
+    "secondary": "Book en gennemgang"
+  }
+}

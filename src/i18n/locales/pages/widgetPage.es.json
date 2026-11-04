@@ -202,15 +202,15 @@
     "badge": "Widget de IA para tiendas online",
     "title": "Como el chat integrado de tu tienda, pero con una IA que reserva y vende",
     "para1": "Si tienes una tienda en Shopify, WooCommerce o Magento, el widget de IA se instala directamente en la web – como los chats integrados que ya conoces, solo que con un asistente que habla y entiende el idioma de tus clientes.",
-    "para2": "Los clientes pueden pedirle al widget que siga un pedido, repita una compra, consulte el stock o ayude con una devolución, de forma automática y sin escribir a atención al cliente.",
+    "para2": "Los clientes pueden pedirle al widget que siga un pedido, consulte el stock y las tallas o ayude con una devolución, de forma automática y sin escribir a atención al cliente.",
     "points": [
       {
         "label": "Sigue el estado del pedido",
         "desc": "\"¿Dónde está mi paquete?\" se responde al instante"
       },
       {
-        "label": "Repite pedidos",
-        "desc": "El cliente vuelve a pedir el mismo artículo con la voz"
+        "label": "Encuentra el producto",
+        "desc": "El cliente describe el artículo con la voz y recibe talla, stock y precio"
       },
       {
         "label": "Ayuda en la compra",
@@ -278,8 +278,8 @@
           "desc": "Un cliente quiere saber dónde está su paquete. El widget consulta el estado y responde al momento, sin esperas."
         },
         {
-          "title": "La tienda de suscripción",
-          "desc": "Un cliente quiere repetir su pedido habitual cada mes; el widget lo deja tramitado durante la conversación."
+          "title": "La tienda de ropa",
+          "desc": "Un cliente pregunta si la chaqueta está en negro en la talla L; el widget consulta el stock en Shopify y envía un enlace al producto."
         }
       ]
     }
@@ -360,9 +360,9 @@
           "600 minutos de llamadas con IA",
           "Personalización avanzada de voz",
           "Soporte prioritario",
-          "Análisis avanzado",
-          "Integraciones personalizadas",
-          "Recordatorios por SMS",
+          "Grabaciones y transcripciones",
+          "Integraciones con Shopify y reparto",
+          "Reservas en Google, Outlook o Cal.com",
           "Historial de clientes"
         ],
         "cta": "Pedir paquete"
@@ -409,6 +409,7 @@
     "badge": "Integración con Shopify",
     "title": "Una sola conexión — responde en el widget y por teléfono",
     "subtitle": "Conecta tu tienda Shopify una sola vez en el panel, y tanto el widget de IA como el asistente telefónico de IA podrán responder preguntas sobre productos y ayudar a los clientes con sus pedidos — obtenido directamente de Shopify cada vez que un cliente pregunta.",
+    "pageLink": "Todo lo que la IA puede hacer en una tienda Shopify",
     "channels": [
       {
         "title": "Widget de IA en tu web",

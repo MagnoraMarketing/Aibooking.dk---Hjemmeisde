@@ -19,13 +19,13 @@
     "healthcare": {
       "title": "Praxen und Gesundheitswesen",
       "subtitle": "Freiraum für die Behandlung Ihrer Patienten",
-      "description": "Als Praxis wissen Sie, wie wichtig die bestmögliche Behandlung Ihrer Patienten ist. Doch Verwaltungsaufgaben wie Telefonate, Terminbuchungen und Absagen rauben wertvolle Zeit, die eigentlich den Patienten gehört.\n\nUnser KI-Rezeptionist bearbeitet alle Anfragen professionell – von neuen Terminen über Umbuchungen bis zu Bestätigungen. Mit automatischen SMS-Erinnerungen senken Sie Terminausfälle deutlich. Ihr persönliches Dashboard gibt Ihnen den vollen Überblick: Hören Sie alle Anrufe, sehen Sie kurze Zusammenfassungen jedes Gesprächs, was vereinbart wurde, Buchungsstatistiken und die Kalenderintegration. Sie können Ihre bisherige Kalendersoftware weiter nutzen – unser System synchronisiert sich automatisch.",
+      "description": "Als Praxis wissen Sie, wie wichtig die bestmögliche Behandlung Ihrer Patienten ist. Doch Verwaltungsaufgaben wie Telefonate, Terminbuchungen und Absagen rauben wertvolle Zeit, die eigentlich den Patienten gehört.\n\nUnser KI-Rezeptionist bearbeitet jede Anfrage professionell – von neuen Terminen über Umbuchungen bis zu Bestätigungen. Patienten können ihren Termin rund um die Uhr verschieben oder absagen, sodass er an jemand anderen gehen kann. Ihr Dashboard gibt Ihnen den Überblick: Hören Sie jeden Anruf und sehen Sie kurze Zusammenfassungen jedes Gesprächs und was vereinbart wurde. Termine landen direkt in Google Kalender, Outlook/Microsoft 365 oder Cal.com.",
       "benefits": [
-        "85 % weniger Telefonzeit – mehr Zeit für Ihre Patienten",
-        "Automatische SMS-Erinnerungen senken Terminausfälle um bis zu 60 %",
+        "Weniger Unterbrechungen am Telefon – mehr Zeit für Ihre Patienten",
+        "Patienten verschieben und sagen selbst ab – freie Termine werden sofort frei",
         "Buchungen, Umbuchungen und Absagen rund um die Uhr",
         "Komplettes Dashboard mit Anrufverlauf und Gesprächszusammenfassungen",
-        "Anbindung an Ihr bestehendes Buchungssystem und Ihren Kalender",
+        "Buchung in Google Kalender, Outlook/Microsoft 365 oder Cal.com",
         "Volle DSGVO-Konformität für sensible Patientendaten"
       ],
       "stats": [
@@ -38,12 +38,12 @@
     "craftsman": {
       "title": "Handwerk",
       "subtitle": "Verlieren Sie keine Aufträge mehr, weil niemand ans Telefon geht",
-      "description": "Sie kennen das: Sie stecken mitten in einem Auftrag, und das Telefon klingelt. Gehen Sie ran, verlieren Sie den Faden. Gehen Sie nicht ran, verlieren Sie womöglich einen guten Auftrag. Eine unmögliche Situation.\n\nUnser KI-Rezeptionist löst dieses Problem ein für alle Mal. Das System nimmt jeden Anruf an, erfasst die Kundendaten, bucht Besichtigungstermine und verschickt automatische SMS-Bestätigungen. In Ihrem Dashboard sehen Sie alle Anfragen, hören aufgezeichnete Gespräche, bekommen kurze Zusammenfassungen dessen, was der Kunde möchte, und sehen, was vereinbart wurde. Ihr Kalender aktualisiert sich automatisch – egal, welches System Sie nutzen. Schluss mit der Sorge um verlorene Aufträge: Konzentrieren Sie sich auf Ihr Handwerk.",
+      "description": "Sie kennen das: Sie stecken mitten in einem Auftrag, und das Telefon klingelt. Gehen Sie ran, verlieren Sie den Faden. Gehen Sie nicht ran, verlieren Sie womöglich einen guten Auftrag. Eine unmögliche Situation.\n\nUnser KI-Rezeptionist löst dieses Problem ein für alle Mal. Das System nimmt jeden Anruf an, erfasst die Kundendaten, bucht Besichtigungstermine und schickt dem Kunden eine Bestätigung per E-Mail. In Ihrem Dashboard sehen Sie jede Anfrage, hören aufgezeichnete Gespräche, bekommen kurze Zusammenfassungen dessen, was der Kunde möchte, und sehen, was vereinbart wurde. Der Termin landet direkt in Ihrem Google-, Outlook- oder Cal.com-Kalender. Schluss mit der Sorge um verpasste Aufträge: Konzentrieren Sie sich auf Ihr Handwerk.",
       "benefits": [
         "Jede Anfrage beantworten – auch während Sie auf der Baustelle sind",
         "Automatische Erfassung von Kundendaten und Auftragsbeschreibungen",
         "Besichtigungstermine direkt im Kalender buchen – automatisch synchronisiert",
-        "SMS-Bestätigungen für Sie und den Kunden",
+        "Bestätigung per E-Mail für den Kunden und eine Zusammenfassung für Sie",
         "Dashboard mit allen Kundenanfragen und Vereinbarungen",
         "Nie wieder einen Auftrag verpassen – das System arbeitet rund um die Uhr"
       ],
@@ -57,14 +57,14 @@
     "office": {
       "title": "Büro und Verwaltung",
       "subtitle": "Professioneller Kundenservice ohne Unterbrechungen",
-      "description": "In Büros sind Konzentration und Produktivität entscheidend. Doch ständige Anrufe unterbrechen den Arbeitsfluss und senken die Effizienz deutlich. Gleichzeitig erwarten Kunden einen schnellen und professionellen Service.\n\nMit Aibooking.dk bekommen Sie das Beste aus beiden Welten. Unser KI-Rezeptionist filtert alle eingehenden Anrufe, bucht Meetings, beantwortet häufige Fragen und leitet nur die wichtigsten Anliegen weiter. Ihr Team kann konzentriert arbeiten, während Kunden rund um die Uhr professionellen Service erleben. Das Dashboard gibt Ihnen die volle Kontrolle: Hören Sie alle Gespräche, sehen Sie ausführliche Zusammenfassungen, Buchungsstatistiken und die Kalenderintegration. Ideal für Kanzleien, Steuerberater, Berater und andere wissensbasierte Unternehmen.",
+      "description": "In Büros sind Konzentration und Produktivität entscheidend. Doch ständige Anrufe unterbrechen den Arbeitsfluss und senken die Effizienz deutlich. Gleichzeitig erwarten Kunden einen schnellen und professionellen Service.\n\nMit Aibooking.dk bekommen Sie das Beste aus beiden Welten. Unser KI-Rezeptionist nimmt alle eingehenden Anrufe an, bucht Meetings, beantwortet häufige Fragen und notiert alles andere mit einer kurzen Zusammenfassung, damit Sie zurückrufen können. Ihr Team kann konzentriert arbeiten, während Kunden rund um die Uhr professionellen Service erleben. Das Dashboard gibt Ihnen den Überblick: Hören Sie jedes Gespräch und sehen Sie Zusammenfassungen und Vereinbarungen. Ideal für Kanzleien, Steuerberater, Berater und andere wissensbasierte Unternehmen.",
       "benefits": [
         "Weniger Unterbrechungen und höhere Produktivität im Team",
         "Professioneller Telefonservice ohne zusätzliche Personalkosten",
-        "Automatische Anrufvorfilterung – nur Wichtiges wird weitergeleitet",
+        "Anrufe, die die KI nicht klären kann, werden mit Zusammenfassung gespeichert",
         "Meetings direkt im gemeinsamen Teamkalender buchen",
-        "Dashboard mit Gesprächsverlauf, Zusammenfassungen und Statistiken",
-        "Anbindung an bestehende CRM- und Kalendersysteme"
+        "Dashboard mit Gesprächsverlauf, Aufzeichnungen und Zusammenfassungen",
+        "Buchung in Google Kalender, Outlook/Microsoft 365 oder Cal.com"
       ],
       "stats": [
         { "label": "Produktivität", "value": "+35%" },
@@ -76,14 +76,14 @@
     "ecommerce": {
       "title": "Onlineshops und E-Commerce",
       "subtitle": "Kundenservice, der mit Ihrem Unternehmen wächst",
-      "description": "Im E-Commerce ist schneller Kundenservice erfolgsentscheidend. Verspätete Antworten auf Kundenanfragen bedeuten verlorene Umsätze und schlechte Bewertungen. Doch einen Kundenservice rund um die Uhr zu besetzen, ist teuer und aufwendig.\n\nAibooking.dk gibt Ihnen einen KI-gestützten Kundenservice, der nie schläft. Das System beantwortet häufige Fragen zu Produkten, Lieferzeiten, Retouren und Bestellstatus sofort. Komplexe Anfragen werden automatisch an Ihr Team weitergeleitet. Mit SMS-Benachrichtigungen halten Sie Kunden während des gesamten Kaufprozesses auf dem Laufenden. Ihr Dashboard zeigt alle Kundeninteraktionen, Gesprächszusammenfassungen, häufige Fragen und Trends, damit Sie Ihren Service laufend verbessern können. Verkürzen Sie Antwortzeiten von Stunden auf Sekunden und steigern Sie die Kundenzufriedenheit deutlich.",
+      "description": "Im E-Commerce ist schneller Kundenservice erfolgsentscheidend. Verspätete Antworten auf Kundenanfragen bedeuten verlorene Umsätze und schlechte Bewertungen. Doch einen Kundenservice rund um die Uhr zu besetzen, ist teuer und aufwendig.\n\nAibooking.dk gibt Ihnen einen KI-gestützten Kundenservice, der nie schläft. Das System beantwortet häufige Fragen zu Produkten, Lieferzeiten, Retouren und Bestellstatus sofort. Was die KI nicht klären kann, liegt mit Zusammenfassung in Ihrem Dashboard, damit Ihr Team nachfassen kann. Das Dashboard zeigt jedes Gespräch mit Transkript, Aufzeichnung und kurzer Zusammenfassung, sodass Sie sehen, wonach Kunden fragen, und Ihre Antworten verbessern können. Verkürzen Sie Antwortzeiten von Stunden auf Sekunden und steigern Sie die Kundenzufriedenheit deutlich.",
       "benefits": [
         "Kundenanfragen rund um die Uhr sofort beantworten – ohne zusätzliches Personal",
         "Fragen zu Produkten, Bestellstatus und Retouren automatisch bearbeiten",
-        "Automatische SMS-Updates zu Versand und Zustellung",
+        "Bestellstatus und Sendungsverfolgung anhand der Bestellnummer",
         "Antwortzeiten von Stunden auf Sekunden verkürzen",
-        "Dashboard mit Kundeninteraktionen, Trends und häufigen Fragen",
-        "Anbindung an Ihr Shopsystem und Ihre Auftragsverwaltung"
+        "Dashboard mit allen Gesprächen, Aufzeichnungen und Zusammenfassungen",
+        "Shopify-Integration mit Live-Abfrage von Produkten, Bestand und Bestellungen"
       ],
       "stats": [
         { "label": "Schnellere Antworten", "value": "95%" },
@@ -103,7 +103,7 @@
     "intro": "Aibooking.dk ist eine führende KI-Rezeptionslösung aus Dänemark, die Kundenservice, Terminbuchung und Verwaltung für Unternehmen aller Branchen automatisiert.",
     "whatIs": {
       "title": "Was ist ein KI-Rezeptionist?",
-      "paragraph1": "Ein KI-Rezeptionist ist ein intelligenter virtueller Assistent, der alle Ihre Kundenanfragen rund um die Uhr automatisch bearbeitet. Unsere fortschrittliche KI-Technologie nimmt Anrufe an, bucht Termine, verschickt SMS-Bestätigungen, wickelt Umbuchungen ab und vieles mehr – ganz ohne menschliches Eingreifen.",
+      "paragraph1": "Ein KI-Rezeptionist ist ein intelligenter virtueller Assistent, der alle Ihre Kundenanfragen rund um die Uhr automatisch bearbeitet. Unsere fortschrittliche KI-Technologie nimmt Anrufe an, bucht Termine, verschickt Bestätigungen per E-Mail, wickelt Umbuchungen ab und vieles mehr – ganz ohne menschliches Eingreifen.",
       "paragraph2": "Anders als eine klassische Rezeption arbeitet Aibooking.dk rund um die Uhr – ohne Pausen, Urlaub oder Krankheitstage. So erreichen Ihre Kunden Ihr Unternehmen jederzeit, unabhängig von der Tageszeit. Gleichzeitig sparen Sie erhebliche Personalkosten und können Ihre Mitarbeiter auf wertschöpfendere Aufgaben konzentrieren."
     },
     "solutions": {
@@ -127,15 +127,15 @@
     },
     "features": {
       "title": "Fortschrittliche Funktionen, die den Unterschied machen",
-      "paragraph1": "Aibooking.dk ist mehr als ein Anrufbeantworter. Unsere Plattform umfasst ein umfassendes Dashboard, in dem Sie alle Kundeninteraktionen in Echtzeit verfolgen. Hören Sie alle aufgezeichneten Gespräche, erhalten Sie kurze Zusammenfassungen jedes Gesprächs, sehen Sie, was vereinbart wurde, und erhalten Sie detaillierte Statistiken zu Buchungen und Kundenanfragen.",
-      "paragraph2": "Das System integriert sich nahtlos in Ihren bestehenden Kalender – ob Google Kalender, Outlook oder eine Branchenlösung. Sie und Ihre Kunden erhalten automatische SMS, sodass alle auf dem neuesten Stand sind. Und mit unserem intuitiven Dashboard behalten Sie Ihr Unternehmen mühelos im Blick und treffen datenbasierte Entscheidungen."
+      "paragraph1": "Aibooking.dk ist mehr als ein Anrufbeantworter. Unsere Plattform umfasst ein umfassendes Dashboard, in dem Sie alle Kundeninteraktionen in Echtzeit verfolgen. Hören Sie alle aufgezeichneten Gespräche, erhalten Sie kurze Zusammenfassungen jedes Gesprächs, sehen Sie, was vereinbart wurde, und sehen Sie alle Buchungen und Anfragen an einem Ort.",
+      "paragraph2": "Das System bucht direkt in Ihren Kalender – ob Google Kalender, Outlook/Microsoft 365 oder Cal.com. Der Kunde erhält eine Bestätigung per E-Mail oder SMS, und Sie bekommen Aufzeichnung, Transkript und eine kurze Zusammenfassung jedes Gesprächs. Mit unserem Dashboard behalten Sie alle Anrufe, Chats und Buchungen an einem Ort im Blick."
     },
     "whyChoose": {
       "title": "Warum Aibooking.dk?",
       "points": [
         "Sparen Sie über 10 Stunden pro Woche bei Telefonaten und Verwaltung",
         "Verpassen Sie keinen Kunden mehr – Anfragen rund um die Uhr annehmen",
-        "Weniger Terminausfälle dank automatischer SMS-Erinnerungen",
+        "Weniger leere Termine: Kunden verschieben und sagen rund um die Uhr selbst ab",
         "Voller Überblick mit intelligentem Dashboard und Gesprächszusammenfassungen",
         "Nahtlose Anbindung an Ihre bestehenden Systeme",
         "Persönlicher Support und Lösungen, die zu Ihrem Unternehmen passen"
@@ -179,7 +179,7 @@
   },
   "salon": {
     "title": "Friseur und Salon",
-    "text": "Salons leben von Terminen, und das Telefon klingelt immer mitten in der Behandlung. Der KI-Rezeptionist nimmt den Anruf an, bucht, verschiebt und storniert Termine und verschickt SMS-Erinnerungen, während Sie arbeiten.",
+    "text": "Salons leben von Terminen, und das Telefon klingelt immer mitten in der Behandlung. Der KI-Rezeptionist nimmt den Anruf an, bucht, verschiebt und storniert Termine, während Sie arbeiten.",
     "link": "Mehr zum KI-Rezeptionisten für Salons"
   }
 }

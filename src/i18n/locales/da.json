@@ -32,6 +32,10 @@
       "salon": {
         "name": "Frisør & Salon",
         "description": "Frisører, barberer, negle, skønhed"
+      },
+      "shopify": {
+        "name": "Shopify AI",
+        "description": "Chat, voice og telefon til Shopify"
       }
     },
     "see_all_industries": "Se alle brancher →",
@@ -52,8 +56,8 @@
   "hero": {
     "badge": "Din Virtuelle Receptionist",
     "title_line1": "Din AI-receptionist klarer",
-    "title_line2": "opkald, SMS og opfølgning",
-    "subtitle": "Slip for administrationen. Vores AI-receptionist håndterer alt – fra opkald og beskeder til bookinger og SOME. Indtast dine egne timer på telefonen, og se hvor meget tid du kan spare.",
+    "title_line2": "opkald, chat og booking",
+    "subtitle": "Slip for administrationen. Vores AI-receptionist håndterer alt – fra opkald og beskeder til bookinger i din kalender. Indtast dine egne timer på telefonen, og se hvor meget tid du kan spare.",
     "savingsLink": "Se hvad du kan spare med AIbooking",
     "cta": "Kom i gang gratis",
     "secondary": "Se Hvordan Det Virker",
@@ -118,8 +122,8 @@
         "description": "Send automatiske påmindelser til kunder om kommende aftaler og reducér no-shows."
       },
       {
-        "title": "Øjeblikkelig Opfølgning",
-        "description": "Automatiske opfølgnings-SMS og emails efter hvert opkald og hver aftale."
+        "title": "Resumé efter hvert opkald",
+        "description": "Hvert opkald gemmes med optagelse, udskrift og et kort resumé, og kunden kan få en opfølgning på SMS eller e-mail."
       },
       {
         "title": "GDPR Sikker",
@@ -235,9 +239,9 @@
           "600 AI opkalds-minutter",
           "Avanceret stemme-tilpasning",
           "Prioriteret support",
-          "Avanceret analyse",
-          "Tilpassede integrationer",
-          "SMS påmindelser",
+          "Optagelser og udskrifter",
+          "Shopify- og leveringsintegrationer",
+          "Booking i Google, Outlook eller Cal.com",
           "Kundehistorik"
         ]
       },
@@ -315,7 +319,8 @@
     "facebook_share": "Del på Facebook",
     "made_by": "Lavet og drevet af",
     "salon": "Frisør & Salon",
-    "app": "Appen"
+    "app": "Appen",
+    "shopify": "Shopify AI"
   },
   "contact": {
     "title": "Kontakt Os",
@@ -445,15 +450,15 @@
           { "role": "customer", "text": "Hej, jeg skal desværre flytte min tid på torsdag." },
           { "role": "ai", "text": "Det ordner jeg. Jeg kan se din tid torsdag kl. 09:00. Passer torsdag kl. 10:30 eller fredag kl. 14:00 bedre?" },
           { "role": "customer", "text": "Torsdag 10:30 er perfekt." },
-          { "role": "ai", "text": "Så er den flyttet. Du får en SMS-bekræftelse om et øjeblik." }
+          { "role": "ai", "text": "Så er den flyttet. Du får en bekræftelse på e-mail om et øjeblik." }
         ],
         "outcomes": [
           "Ombookinger og afbud håndteres uden at receptionen bliver afbrudt",
-          "Automatiske SMS-påmindelser reducerer udeblivelser markant",
+          "Flytning og aflysning døgnet rundt frigiver tider, som andre patienter kan få",
           "Patienter kan ringe og booke uden for åbningstiden – også aften og weekend",
           "Alt bliver noteret og lagt i kalenderen, så I har det fulde overblik bagefter"
         ],
-        "results": ["Tid flyttet til tors. 10:30", "SMS-bekræftelse sendt", "Kalender opdateret"]
+        "results": ["Tid flyttet til tors. 10:30", "Bekræftelse sendt", "Kalender opdateret"]
       },
       "craftsman": {
         "title": "Opgaven bliver booket, mens du står med værktøjet i hånden",
@@ -472,11 +477,11 @@
           "Besøg lander direkte i din kalender – uden dobbeltbookinger",
           "Automatiske påmindelser til kunden dagen før besøget"
         ],
-        "results": ["Besøg booket fre. 08:00", "Adresse registreret", "SMS sendt til begge"]
+        "results": ["Besøg booket fre. 08:00", "Adresse registreret", "Resumé i dashboardet"]
       },
       "office": {
         "title": "Ro til det koncentrerede arbejde – uden at kunden venter",
-        "intro": "På et kontor er afbrydelser dyre. Hvert opkald om status, priser eller mødetider river en medarbejder ud af opgaven. AI-receptionisten screener alle indgående opkald, besvarer de rutinemæssige selv, booker møder i den fælles kalender og stiller kun det vigtige videre.",
+        "intro": "På et kontor er afbrydelser dyre. Hvert opkald om status, priser eller mødetider river en medarbejder ud af opgaven. AI-receptionisten screener alle indgående opkald, besvarer de rutinemæssige selv, booker møder i den fælles kalender og noterer resten med et kort resumé, så I kan ringe tilbage.",
         "situation": "Kl. 13:05 ringer en kunde for at booke et møde. Teamet sidder midt i en deadline, og et opkald ville koste hele koncentrationen.",
         "callLabel": "Indgående opkald · Kunde",
         "chat": [
@@ -489,7 +494,7 @@
           "Færre afbrydelser giver længere perioder med fokuseret arbejde",
           "Rutinespørgsmål om status, priser og åbningstider besvares automatisk",
           "Møder bookes direkte i teamets fælles kalender",
-          "I bestemmer selv, hvilke opkald der altid skal stilles videre til et menneske"
+          "Det, AI'en ikke kan løse, stilles videre eller ligger med resumé i dashboardet"
         ],
         "results": ["Møde booket ons. 14:30", "Invitation sendt", "Ingen afbrydelse af teamet"]
       },
@@ -532,18 +537,18 @@
           },
           {
             "role": "ai",
-            "text": "Så er du booket torsdag kl. 14:30 til klip og farve. Du får en bekræftelse på SMS lige om lidt."
+            "text": "Så er du booket torsdag kl. 14:30 til klip og farve. Du får en bekræftelse på e-mail lige om lidt."
           }
         ],
         "outcomes": [
           "Ingen kunder ringer videre, fordi du stod med en kunde i stolen",
           "Afbud og flytninger håndteres med det samme, så tiden kan bruges af en anden",
-          "SMS-påmindelser dagen før giver færre kunder, der ikke dukker op",
+          "Kunderne kan selv flytte eller aflyse, så ledige tider kan bookes af andre",
           "Kunderne kan også booke via chatten på hjemmesiden om aftenen"
         ],
         "results": [
           "Tid booket tors. 14:30",
-          "SMS-bekræftelse sendt",
+          "Bekræftelse sendt",
           "Ingen afbrydelse i stolen"
         ]
       }
@@ -594,14 +599,12 @@
       "badge": "Kalenderintegrationer",
       "healthcare": {
         "title": "De kalendersystemer, klinikker oftest bruger",
-        "subtitle": "Uanset hvilket bookingsystem I bruger i dag, kan AI-receptionisten synkronisere direkte med jeres kalender.",
+        "subtitle": "AI-receptionisten booker direkte i Google Kalender, Outlook/Microsoft 365 eller Cal.com.",
         "items": [
           { "name": "Google Kalender", "description": "Automatisk synkronisering af patientaftaler i realtid" },
           { "name": "Microsoft Outlook / 365", "description": "Booking og kalenderdeling til hele klinikken" },
-          { "name": "Apple Kalender", "description": "Synkroniseres direkte via iCloud" },
-          { "name": "EasyPractice", "description": "Udbredt klinik- og praksisstyringssystem i Danmark" },
-          { "name": "Novax", "description": "Populært kalendersystem blandt kiropraktorer og fysioterapeuter" },
-          { "name": "Andre systemer", "description": "Bruger I noget andet? Vi forbinder via CalDAV/iCal-synkronisering" }
+          { "name": "Cal.com", "description": "Begivenhedstyper med egen varighed, fx konsultation og kontrol" },
+          { "name": "Andre systemer", "description": "Bruger I et andet system? Kontakt os, så ser vi på mulighederne" }
         ]
       },
       "craftsman": {
@@ -610,10 +613,8 @@
         "items": [
           { "name": "Google Kalender", "description": "Automatisk synkronisering af besøg og opgaver i realtid" },
           { "name": "Microsoft Outlook / 365", "description": "Delt kalender til hele teamet på farten" },
-          { "name": "Apple Kalender", "description": "Synkroniseres direkte via iCloud" },
-          { "name": "Dinero", "description": "Udbredt blandt danske håndværkere til fakturering og planlægning" },
-          { "name": "e-conomic", "description": "Populært regnskabs- og planlægningssystem i branchen" },
-          { "name": "Andre systemer", "description": "Bruger I noget andet? Vi forbinder via CalDAV/iCal-synkronisering" }
+          { "name": "Cal.com", "description": "Faste bookingtyper, fx besigtigelse eller service" },
+          { "name": "Andre systemer", "description": "Bruger I et andet system? Kontakt os, så ser vi på mulighederne" }
         ]
       },
       "office": {
@@ -623,9 +624,8 @@
           { "name": "Google Kalender", "description": "Automatisk synkronisering af møder i realtid" },
           { "name": "Microsoft Outlook / 365", "description": "Delt kalender og mødeindkaldelser til hele teamet" },
           { "name": "Microsoft Teams-kalender", "description": "Book møder direkte i teamets fælles kalender" },
-          { "name": "Apple Kalender", "description": "Synkroniseres direkte via iCloud" },
-          { "name": "Calendly", "description": "Populært mødebookingværktøj blandt kontorer og konsulenter" },
-          { "name": "Andre systemer", "description": "Bruger I noget andet? Vi forbinder via CalDAV/iCal-synkronisering" }
+          { "name": "Cal.com", "description": "Mødetyper med egen varighed, fx første møde og opfølgning" },
+          { "name": "Andre systemer", "description": "Bruger I et andet system? Kontakt os, så ser vi på mulighederne" }
         ]
       },
       "ecommerce": {
@@ -634,10 +634,9 @@
         "items": [
           { "name": "Google Kalender", "description": "Automatisk synkronisering af bookinger i realtid" },
           { "name": "Microsoft Outlook / 365", "description": "Booking og kalenderdeling til hele teamet" },
-          { "name": "Shopify", "description": "Book afhentning, levering eller konsultationer direkte fra webshoppen" },
-          { "name": "Calendly", "description": "Til webshops der også sælger konsultationer eller demoer" },
-          { "name": "Apple Kalender", "description": "Synkroniseres direkte via iCloud" },
-          { "name": "Andre systemer", "description": "Bruger I noget andet? Vi forbinder via CalDAV/iCal-synkronisering" }
+          { "name": "Shopify", "description": "Produkter, lager og ordrestatus slås op live, mens kunden spørger" },
+          { "name": "Cal.com", "description": "Til webshops der også sælger konsultationer eller demoer" },
+          { "name": "Andre systemer", "description": "Bruger I et andet system? Kontakt os, så ser vi på mulighederne" }
         ]
       },
       "salon": {
@@ -653,12 +652,12 @@
             "description": "Delt kalender til hele salonen"
           },
           {
-            "name": "Apple Kalender",
-            "description": "Synkroniseres direkte via iCloud"
+            "name": "Cal.com",
+            "description": "Behandlinger som begivenhedstyper med egen varighed"
           },
           {
             "name": "Andre systemer",
-            "description": "Bruger I et andet bookingsystem? Vi forbinder via CalDAV/iCal-synkronisering"
+            "description": "Bruger I et andet system? Kontakt os, så ser vi på mulighederne"
           }
         ]
       }

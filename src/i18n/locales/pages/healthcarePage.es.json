@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Recepcionista Virtual para Clínicas y Dentistas | Aibooking.dk",
-    "description": "Recepcionista virtual con IA para clínicas, dentistas y fisioterapeutas: atiende llamadas, reserva citas, envía recordatorios por SMS y cumple el RGPD.",
+    "description": "Recepcionista virtual con IA para clínicas, dentistas y fisioterapeutas: atiende llamadas, reserva, cambia y cancela citas y cumple el RGPD.",
     "keywords": "atención telefónica con IA, recepcionista virtual con IA, widget para tienda online, widget de IA para Shopify, reservas dentista, reservas clínica, reservas fisioterapia, recepcionista de ia sanitario, reservas de pacientes, automatización de clínicas"
   },
   "breadcrumb": {
@@ -16,15 +16,15 @@
   },
   "solution": {
     "title": "La solución completa para el sector sanitario",
-    "description": "Nuestra recepcionista de IA gestiona cada consulta de forma profesional: desde nuevas reservas hasta reprogramaciones y confirmaciones. Con recordatorios automáticos por SMS, reduces significativamente las ausencias. Tu panel personalizado te ofrece una visión completa: escucha cada llamada, ve resúmenes breves de cada conversación, lo que se acordó, estadísticas de reservas e integración con el calendario. Puedes seguir usando tu software de calendario actual — nuestro sistema se sincroniza automáticamente.",
+    "description": "Nuestra recepcionista de IA gestiona cada consulta de forma profesional: desde nuevas reservas hasta reprogramaciones y confirmaciones. Los pacientes pueden cambiar o cancelar su cita a cualquier hora, así el hueco puede ser para otra persona. Tu panel te da una visión completa: escucha cada llamada y ve resúmenes breves de cada conversación y de lo acordado. Las citas entran directamente en Google Calendar, Outlook/Microsoft 365 o Cal.com.",
     "benefits": [
       {
         "title": "Reduce el tiempo al teléfono en un 85%",
         "description": "Céntrate en tus pacientes en lugar de en tareas administrativas"
       },
       {
-        "title": "Recordatorios automáticos por SMS",
-        "description": "Reduce las ausencias hasta un 60% y optimiza tu capacidad"
+        "title": "Cambios y cancelaciones 24/7",
+        "description": "Los huecos libres quedan disponibles al momento para otros pacientes"
       },
       {
         "title": "Servicio de reservas 24/7",
@@ -32,7 +32,7 @@
       },
       {
         "title": "Panel completo",
-        "description": "Historial de llamadas, resúmenes de conversaciones y estadísticas de reservas"
+        "description": "Historial de llamadas, grabaciones y resúmenes de conversaciones"
       },
       {
         "title": "Integración con calendario",

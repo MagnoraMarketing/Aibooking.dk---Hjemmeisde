@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Prise de RDV IA avec Google Agenda et Outlook | Aibooking.dk",
-    "description": "Connectez la réceptionniste IA et le chatbot à Google Agenda, Outlook, Shopify, Microsoft Teams et Zoom. Prise de rendez-vous automatique, sans doublons.",
+    "description": "Connectez la réceptionniste et le chatbot IA à Google Agenda, Outlook, Cal.com et Shopify, et commandez des coursiers avec Uber Direct et Just Eat.",
     "keywords": "permanence téléphonique IA, réceptionniste virtuel IA, widget pour boutique en ligne, widget IA pour Shopify, calendrier IA, intégration calendrier, réception ia, Google Calendar, intégration Outlook, intégration système de réservation, intégration CRM, intégration email"
   },
   "breadcrumb": {
@@ -12,11 +12,11 @@
     "badge": "Intégration Sans Effort",
     "title_line1": "Connectez-vous à vos",
     "title_line2": "outils existants",
-    "subtitle": "Notre solution IA automatise l'administration, les appels, les SMS et les emails en travaillant avec les systèmes que vous utilisez déjà. Gagnez du temps, gagnez en professionnalisme et laissez l'IA gérer automatiquement les reports, les suivis et les confirmations de rendez-vous.",
+    "subtitle": "Notre IA fonctionne avec les outils que vous utilisez déjà : votre agenda, votre boutique Shopify et vos partenaires de livraison. Gagnez du temps, gagnez en professionnalisme et laissez l'IA gérer automatiquement réservations, reports et annulations.",
     "features": [
       {
         "title": "Économisez des Heures Chaque Jour",
-        "description": "Automatisez les appels entrants et sortants, les SMS et les emails pendant que l'IA se synchronise avec vos systèmes"
+        "description": "Appels et chats pris en charge pendant que l'IA réserve directement dans votre agenda"
       },
       {
         "title": "Configuration Rapide",
@@ -33,49 +33,49 @@
     "subtitle": "Notre solution IA se connecte aux outils que vous utilisez déjà tous les jours",
     "categories": [
       {
-        "title": "Calendrier et Planification",
-        "description": "Google Calendar, Outlook, CalDAV"
-      },
-      {
-        "title": "CRM et Clients",
-        "description": "HubSpot, Salesforce, Pipedrive"
-      },
-      {
-        "title": "Communication",
-        "description": "WhatsApp, Slack, Discord, Messenger"
-      },
-      {
-        "title": "Documents",
-        "description": "Notion, WordPress, Google Docs"
+        "title": "Agenda et réservation",
+        "description": "Google Agenda, Outlook/Microsoft 365, Cal.com"
       },
       {
         "title": "E-commerce",
-        "description": "Shopify, WooCommerce, Stripe"
+        "description": "Shopify : produits, stock, politiques et suivi de commande"
       },
       {
-        "title": "Automatisation",
-        "description": "Zapier, Make, Webhooks, API"
+        "title": "Livraison",
+        "description": "Uber Direct et Just Eat"
+      },
+      {
+        "title": "Site web",
+        "description": "Widget sur WordPress, Shopify, Wix et autres sites"
+      },
+      {
+        "title": "Téléphonie",
+        "description": "Un numéro depuis le tableau de bord et le renvoi de votre numéro actuel"
+      },
+      {
+        "title": "Base de connaissances",
+        "description": "Texte, URL de votre site et PDF"
       }
     ]
   },
   "gridSection": {
     "title": "Intégrations Populaires",
-    "subtitle": "Travaillez sans effort avec vos outils existants. Notre IA gère automatiquement la communication sur toutes les plateformes.",
+    "subtitle": "Voici les intégrations que l'agent IA utilise aujourd'hui. Elles se configurent dans le tableau de bord.",
     "clinicHighlight": {
       "title": "Conçu spécialement pour les cliniques et centres de soins",
-      "description": "Plus de 500 cliniques danoises ont déjà choisi notre solution. Des cliniques dentaires et kinésithérapeutes aux salons de beauté et centres de bien-être — notre assistant IA s'intègre parfaitement à votre système de réservation existant et gère tout, des appels téléphoniques aux rappels par SMS.",
+      "description": "Des cabinets dentaires et kinés aux instituts de beauté et centres de bien-être : l'assistant IA réserve, déplace et annule les rendez-vous directement dans votre agenda et répond au téléphone pendant que vous travaillez.",
       "points": [
         {
           "strong": "Traitement des données sécurisé et conforme au RGPD",
           "text": "— toutes les données des patients sont traitées de manière confidentielle et conformément à la réglementation sur la santé"
         },
         {
-          "strong": "Réduisez les rendez-vous manqués jusqu'à 67%",
-          "text": "— des rappels automatiques par SMS et email tiennent vos clients informés"
+          "strong": "Reports et annulations 24h/24",
+          "text": "— les patients modifient eux-mêmes leur rendez-vous et les créneaux libérés sont aussitôt disponibles"
         },
         {
-          "strong": "Configuration en moins de 15 minutes",
-          "text": "— aucune connaissance informatique requise, notre équipe vous accompagne à chaque étape"
+          "strong": "Mise en place avec vous",
+          "text": "— nous vous accompagnons lors d'un court rendez-vous de prise en main"
         },
         {
           "strong": "Support 7 jours sur 7",
@@ -86,79 +86,39 @@
     "popularBadge": "Populaire",
     "integrations": [
       {
-        "name": "Google Calendar",
-        "description": "Réservation automatique et synchronisation des rendez-vous",
-        "category": "Calendrier"
+        "name": "Google Agenda",
+        "description": "L'IA consulte les créneaux libres et réserve, déplace et annule directement",
+        "category": "Agenda"
       },
       {
-        "name": "Outlook",
-        "description": "Intégration Microsoft 365 pour l'email et le calendrier",
-        "category": "Calendrier"
+        "name": "Outlook / Microsoft 365",
+        "description": "La même réservation dans l'agenda Outlook, y compris pour les équipes sous Microsoft 365",
+        "category": "Agenda"
       },
       {
-        "name": "WhatsApp",
-        "description": "Envoyez des confirmations et rappels par SMS",
-        "category": "Communication"
-      },
-      {
-        "name": "Slack",
-        "description": "Notifications en temps réel pour votre équipe",
-        "category": "Communication"
+        "name": "Cal.com",
+        "description": "Types de rendez-vous avec leur propre durée et pages de réservation",
+        "category": "Agenda"
       },
       {
         "name": "Shopify",
-        "description": "Intégration de réservation pour l'e-commerce",
+        "description": "Produits, variantes, stock, livraison, retours et suivi de commande consultés en direct",
         "category": "E-commerce"
       },
       {
-        "name": "Notion",
-        "description": "Synchronisation des documents et notes",
-        "category": "Productivité"
-      },
-      {
-        "name": "WordPress",
-        "description": "Ajoutez la réservation à votre site web",
+        "name": "Widget pour site web",
+        "description": "Chat et voix sur n'importe quel site avec un seul code, par ex. WordPress ou Wix",
         "category": "Site web"
       },
       {
-        "name": "Zapier",
-        "description": "Connectez-vous automatiquement à plus de 5000 applications",
-        "category": "Automatisation"
+        "name": "Numéro de téléphone",
+        "description": "Un numéro depuis le tableau de bord et le renvoi de votre numéro actuel",
+        "category": "Téléphonie"
       },
       {
-        "name": "Zoom",
-        "description": "Création automatique de liens de réunion",
-        "category": "Vidéo"
-      },
-      {
-        "name": "Microsoft Teams",
-        "description": "Intégration des réunions Teams",
-        "category": "Vidéo"
-      },
-      {
-        "name": "Messenger",
-        "description": "Intégration avec Facebook Messenger",
-        "category": "Communication"
-      },
-      {
-        "name": "Discord",
-        "description": "Intégration communauté et serveur",
-        "category": "Communication"
-      },
-      {
-        "name": "OpenAI",
-        "description": "Support IA avancé",
+        "name": "Base de connaissances",
+        "description": "Apprenez votre activité à l'IA à partir de texte, d'une URL ou d'un PDF",
         "category": "IA"
-      },
-      {
-        "name": "Webhooks",
-        "description": "Intégration personnalisée avec vos systèmes",
-        "category": "Développeur"
-      },
-      {
-        "name": "REST API",
-        "description": "Accès API complet à toutes les fonctionnalités",
-        "category": "Développeur"
       },
       {
         "name": "Just Eat",
@@ -173,7 +133,7 @@
     ],
     "missing": {
       "title": "Votre intégration manque à l'appel ?",
-      "description": "Nous ajoutons continuellement de nouvelles intégrations. Grâce à notre support Webhook et API, vous pouvez connecter presque n'importe quel système à notre solution IA.",
+      "description": "Nous ajoutons régulièrement de nouvelles intégrations. Dites-nous quel système vous utilisez et nous étudierons les possibilités.",
       "button": "Réserver une Démo"
     }
   },
@@ -183,7 +143,7 @@
     "shopify": {
       "title": "Que peut faire l'assistant IA pour votre boutique Shopify ?",
       "paragraph1": "Le widget IA s'intègre directement sur votre boutique Shopify et répond instantanément aux questions sur la livraison, les tailles, le stock et les retours — même en dehors des heures d'ouverture, lorsqu'une grande partie du trafic arrive. Résultat : moins de paniers abandonnés et plus d'achats finalisés.",
-      "paragraph2": "Lorsqu'un client a besoin d'une aide humaine — un retour compliqué ou une commande sur mesure — l'IA transfère la conversation à votre équipe avec tout le contexte, pour que personne n'ait à tout recommencer."
+      "paragraph2": "Lorsqu'un client a besoin d'une aide humaine — un retour compliqué ou une commande sur mesure — toute la conversation est dans le tableau de bord avec la transcription et un résumé, pour que votre équipe reprenne sans tout recommencer."
     },
     "solutions": {
       "title": "Shopify, réservations — ou les deux",
@@ -193,7 +153,7 @@
       },
       "booking": {
         "title": "AI Booking et Calendrier",
-        "text": "Laissez vos clients réserver, modifier et annuler des rendez-vous par téléphone ou sur votre site, pendant que l'IA se synchronise directement avec votre agenda et envoie des rappels SMS automatiques."
+        "text": "Laissez vos clients réserver, modifier et annuler des rendez-vous par téléphone ou sur votre site, pendant que l'IA réserve directement dans votre agenda Google, Outlook ou Cal.com."
       },
       "combined": {
         "title": "Boutique en ligne + réservations combinées",
@@ -225,13 +185,13 @@
     "button": "Réserver une Démo",
     "benefitsTitle": "Que gagnez-vous avec l'intégration IA ?",
     "benefits": [
-      "Gestion automatique des appels entrants et sortants",
-      "Rappels et confirmations par SMS envoyés automatiquement",
-      "Communication par email gérée par l'IA",
-      "Reports gérés sans intervention manuelle",
-      "Confirmations de rendez-vous envoyées à l'heure, à chaque fois",
-      "Suivi des appels manqués et des demandes",
-      "Synchronisation en temps réel avec tous vos systèmes",
+      "Gestion automatique des appels entrants et des chats",
+      "Confirmation par e-mail ou SMS à chaque réservation",
+      "Reports et annulations sans intervention manuelle",
+      "Enregistrement, transcription et résumé de chaque conversation",
+      "Recherches Shopify dans le chat et au téléphone",
+      "Livraison par coursier avec Uber Direct et Just Eat",
+      "Réservation directe dans Google, Outlook ou Cal.com",
       "Gestion professionnelle 24h/24 et 7j/7"
     ],
     "stats": [

@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Essai Gratuit Réceptionniste IA – 7 Jours | Aibooking.dk",
-    "description": "Essayez Aibooking.dk gratuitement 7 jours. Transférez votre numéro et testez les appels IA entrants et sortants avec crédit gratuit, SMS et email.",
+    "description": "Essayez Aibooking.dk gratuitement 7 jours. Transférez votre numéro et testez l'agent téléphonique et le widget IA avec 10 minutes offertes.",
     "keywords": "permanence téléphonique IA, réceptionniste virtuel IA, widget pour boutique en ligne, widget IA pour Shopify, essai gratuit, essai de 7 jours, essai réceptionniste IA, tester assistant téléphonique IA, appel d'onboarding, transfert de numéro de téléphone"
   },
   "breadcrumb": {
@@ -33,21 +33,21 @@
       },
       {
         "title": "Testez sur de vrais appels pendant 7 jours",
-        "desc": "Découvrez comment la réceptionniste IA gère les appels entrants et sortants en pratique, avec un accès complet au tableau de bord et à l'historique des appels."
+        "desc": "Découvrez comment la réceptionniste IA gère vos appels et vos chats en pratique, avec un accès complet au tableau de bord et à l'historique des appels."
       }
     ]
   },
   "inclusions": {
     "title": "Ce qui est inclus dans votre essai",
     "subtitle": "7 jours d'accès complet à la plateforme, sans frais",
-    "voice_label": "Temps de parole entrant/sortant",
-    "voice_value": "Crédit gratuit inclus",
-    "sms_label": "SMS",
-    "sms_value": "100 SMS gratuits",
-    "email_label": "E-mail",
-    "email_value": "3 000 e-mails gratuits",
-    "whatsapp_label": "WhatsApp",
-    "whatsapp_value": "100 messages gratuits"
+    "voice_label": "Temps de parole",
+    "voice_value": "10 minutes offertes",
+    "sms_label": "Widget",
+    "sms_value": "Chat et voix sur votre site",
+    "email_label": "Agenda",
+    "email_value": "Google, Outlook ou Cal.com",
+    "whatsapp_label": "Enregistrements",
+    "whatsapp_value": "Enregistrement et transcription des conversations"
   },
   "upgrade": {
     "title": "Pas besoin d'attendre la fin de l'essai",
@@ -69,7 +69,7 @@
       },
       {
         "title": "Combien puis-je tester pendant l'essai ?",
-        "desc": "Votre crédit gratuit couvre les appels IA entrants et sortants pendant les 7 jours, afin que vous puissiez tester tout le flux d'appels, pas seulement un sens."
+        "desc": "Les minutes offertes couvrent les appels entrants et les conversations du widget pendant les 7 jours. Les appels sortants sont une option avec son propre essai gratuit."
       },
       {
         "title": "Puis-je passer à une formule payante avant la fin de l'essai ?",

@@ -199,15 +199,15 @@
     "badge": "AI-widget til webshop",
     "title": "Ligesom webshoppens indbyggede chat – bare med en AI der booker og sælger",
     "para1": "Driver du en webshop på Shopify, WooCommerce eller Magento, kan AI-widgetten lægges direkte på siden – ligesom de indbyggede chatløsninger du kender, blot med en assistent der taler og forstår dansk.",
-    "para2": "Kunderne kan bede widgetten om at spore en ordre, bestille en vare igen, spørge til lagerstatus eller få hjælp til en returnering – automatisk, uden at skulle skrive til kundeservice.",
+    "para2": "Kunderne kan bede widgetten om at spore en ordre, spørge til lagerstatus og størrelser eller få hjælp til en returnering – automatisk, uden at skulle skrive til kundeservice.",
     "points": [
       {
         "label": "Sporer ordrestatus",
         "desc": "\"Hvor er min pakke?\" bliver besvaret med det samme"
       },
       {
-        "label": "Genbestiller varer",
-        "desc": "Kunden bestiller samme vare igen med stemmen"
+        "label": "Finder varen",
+        "desc": "Kunden beskriver varen med stemmen og får størrelse, lager og pris"
       },
       {
         "label": "Hjælper med købet",
@@ -275,8 +275,8 @@
           "desc": "En kunde vil vide, hvor pakken er. Widgetten henter ordrestatus og svarer med det samme – ingen ventetid."
         },
         {
-          "title": "Abonnementsshoppen",
-          "desc": "En kunde vil genbestille sin faste vare hver måned – widgetten opretter bestillingen direkte i samtalen."
+          "title": "Tøjbutikken",
+          "desc": "En kunde spørger, om jakken findes i sort i str. L – widgetten tjekker lageret i Shopify og sender et link til produktet."
         }
       ]
     }
@@ -357,9 +357,9 @@
           "600 AI opkalds-minutter",
           "Avanceret stemme-tilpasning",
           "Prioriteret support",
-          "Avanceret analyse",
-          "Tilpassede integrationer",
-          "SMS påmindelser",
+          "Optagelser og udskrifter",
+          "Shopify- og leveringsintegrationer",
+          "Booking i Google, Outlook eller Cal.com",
           "Kundehistorik"
         ],
         "cta": "Bestil pakke"
@@ -406,6 +406,7 @@
     "badge": "Shopify-integration",
     "title": "Én forbindelse – svarer både i widget og på telefonen",
     "subtitle": "Forbind jeres Shopify-butik én gang i dashboardet, så kan både AI-widgetten og AI-telefonassistenten svare på produktspørgsmål og hjælpe kunderne med deres ordrer – hentet direkte fra Shopify, når kunden spørger.",
+    "pageLink": "Se alt, hvad AI'en kan i en Shopify-butik",
     "channels": [
       {
         "title": "AI-widget på hjemmesiden",

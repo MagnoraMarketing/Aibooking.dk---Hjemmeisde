@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "AI Customer Service & Chatbot for Shopify | Aibooking.dk",
-    "description": "AI customer service for webshops and Shopify: a chatbot and phone agent that tracks orders, checks stock, handles reorders and answers 24/7.",
+    "description": "AI customer service for webshops and Shopify: a chatbot and phone agent that look up order status, stock, shipping and returns and answer 24/7.",
     "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, Shopify AI, Shopify AI automation, AI customer service webshop, AI widget webshop, Shopify chatbot, AI order tracking, webshop voice assistant, WooCommerce chatbot"
   },
   "breadcrumb": {
@@ -16,7 +16,7 @@
   },
   "mainCard": {
     "title": "AI-powered customer service that never sleeps",
-    "description": "Aibooking.dk gives you AI-powered customer service that never sleeps. The system instantly answers common questions about products, delivery times, returns, and order status. Complex inquiries are automatically escalated to your team. With SMS notifications, you keep customers updated throughout their entire purchase journey. Your dashboard shows all customer interactions, conversation summaries, frequently asked questions, and trends, so you can continuously optimize your service. Reduce response times from hours to seconds and significantly improve customer satisfaction."
+    "description": "Aibooking.dk gives you AI-powered customer service that never sleeps. The system instantly answers common questions about products, delivery times, returns, and order status. Anything the AI can't resolve is waiting in your dashboard with a summary so your team can follow up. The dashboard shows every conversation with a transcript, recording and short summary, so you can see what customers ask about and improve your answers. Reduce response times from hours to seconds and significantly improve customer satisfaction."
   },
   "benefits": [
     {
@@ -28,16 +28,16 @@
       "description": "Handle questions about products, order status, and returns"
     },
     {
-      "title": "SMS updates",
-      "description": "Automatic notifications about shipments and deliveries"
+      "title": "Order status and tracking",
+      "description": "The customer gives the order number and gets status and shipping straight away"
     },
     {
       "title": "Lightning-fast response times",
       "description": "Reduce response times from hours to seconds"
     },
     {
-      "title": "Trend insights",
-      "description": "Dashboard with customer interactions and frequently asked questions"
+      "title": "Every conversation in one place",
+      "description": "Transcript, recording and summary of every conversation in the dashboard"
     },
     {
       "title": "Webshop integration",
@@ -65,15 +65,15 @@
   "voiceWidget": {
     "badge": "AI voice widget for your webshop",
     "title": "Like having an extra salesperson on the floor – your shop's chat, only smarter",
-    "intro": "Aibooking.dk's AI widget goes straight onto your webshop, whether you run Shopify, WooCommerce or Magento. Customers can talk or type to check an order, reorder a product or find the right item – automatically, around the clock.",
+    "intro": "Aibooking.dk's AI widget goes straight onto your webshop, whether you run Shopify, WooCommerce or Magento. Customers can talk or type to find the right item or get answers on delivery and returns – and on Shopify it also looks up stock and order status live, around the clock.",
     "cards": [
       {
         "title": "Tracks orders",
         "desc": "\"Where's my parcel?\" is answered immediately from live order status"
       },
       {
-        "title": "Reorders products",
-        "desc": "The customer reorders a previous item right there in the conversation"
+        "title": "Finds the right product",
+        "desc": "The customer describes the item and the AI answers on size, stock and price with a link to the product"
       },
       {
         "title": "Helps through the purchase",
@@ -113,5 +113,10 @@
     "title": "Ready to get started?",
     "subtitle": "Book a free, no-obligation meeting and get access to a test login so you can try the system yourself",
     "button": "Book a no-obligation meeting and get a free test login"
+  },
+  "shopifyPageLink": {
+    "title": "Running on Shopify?",
+    "text": "See exactly what the AI looks up in your Shopify store – products, variants, stock, shipping, returns and order status – in chat and on the phone.",
+    "link": "Shopify AI"
   }
 }

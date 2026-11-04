@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Recepcionista con IA para peluquerías | Aibooking.dk",
-    "description": "Recepcionista y reservas con IA para peluquerías y salones: atiende el teléfono mientras trabajas, reserva, cambia y cancela citas y envía SMS.",
+    "description": "Recepcionista y reservas con IA para peluquerías y salones: atiende el teléfono mientras trabajas y reserva, cambia y cancela citas en tu agenda.",
     "keywords": "recepcionista virtual peluquería, reservas con IA peluquería, asistente telefónico con IA salón, citas peluquería por teléfono, salón de belleza reservas, barbería reservas"
   },
   "breadcrumb": {
@@ -16,14 +16,14 @@
   },
   "solution": {
     "title": "Una recepcionista que conoce tu salón",
-    "description": "La recepcionista con IA contesta en tu idioma, se presenta como la asistente digital del salón y conoce tus servicios, precios y horarios. Busca un hueco libre, lo reserva, cambia o cancela citas y envía una confirmación por SMS. Lo que no puede responder te lo pasa con un breve resumen. Lo mismo ocurre con el chat de tu web, así que los clientes también pueden reservar por la noche y el fin de semana."
+    "description": "La recepcionista con IA contesta en tu idioma, se presenta como la asistente digital del salón y conoce tus servicios, precios y horarios. Busca un hueco libre, lo reserva, cambia o cancela citas y envía al cliente una confirmación por correo. Lo que no puede responder te espera en la app con un breve resumen. Lo mismo ocurre con el chat de tu web, así que los clientes también pueden reservar por la noche y el fin de semana."
   },
   "benefits": [
     { "title": "Sin interrupciones en mitad de un servicio", "description": "Quédate con la clienta del sillón. La IA atiende el teléfono por ti." },
     { "title": "Reservas, cambios y cancelaciones", "description": "Los clientes pueden reservar, cambiar o cancelar una cita ellos mismos, a cualquier hora." },
-    { "title": "Confirmaciones y recordatorios por SMS", "description": "El cliente recibe una confirmación al momento y un recordatorio antes de la cita, lo que reduce las ausencias." },
+    { "title": "Confirmación por correo y SMS", "description": "El cliente recibe al momento la hora y el servicio por correo, así la cita queda en su propio calendario." },
     { "title": "Respuestas a las preguntas de siempre", "description": "Precios, servicios, horarios y aparcamiento se responden con tu propia base de conocimiento." },
-    { "title": "Transferencia cuando importa", "description": "Las reclamaciones o peticiones especiales se pueden pasar a ti o a un compañero." },
+    { "title": "Transferencia o recado", "description": "Las reclamaciones o peticiones especiales se te pueden pasar o esperarte en la app con un breve resumen." },
     { "title": "Todo a la vista en la app", "description": "Consulta en el móvil las llamadas del día, las reservas y a quién devolver la llamada, entre dos clientes." }
   ],
   "workflow": {

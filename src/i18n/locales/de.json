@@ -32,6 +32,10 @@
       "salon": {
         "name": "Friseur & Salon",
         "description": "Friseure, Barbiere, Nägel, Kosmetik"
+      },
+      "shopify": {
+        "name": "KI für Shopify",
+        "description": "Chat, Voice und Telefon für Shopify"
       }
     },
     "see_all_industries": "Alle Branchen ansehen →",
@@ -52,8 +56,8 @@
   "hero": {
     "badge": "Ihr virtueller Rezeptionist",
     "title_line1": "Stundenlang Anrufe,",
-    "title_line2": "SMS und Nachfassen?",
-    "subtitle": "Sparen Sie sich die Verwaltung. Unser KI-Rezeptionist übernimmt alles – von Anrufen und Nachrichten bis zu Buchungen und sozialen Medien. Geben Sie Ihre eigenen Telefonstunden ein und sehen Sie, wie viel Zeit Sie sparen könnten.",
+    "title_line2": "Termine und Rückfragen?",
+    "subtitle": "Sparen Sie sich die Verwaltung. Unser KI-Rezeptionist übernimmt alles – von Anrufen und Nachrichten bis zu Terminen in Ihrem Kalender. Geben Sie Ihre eigenen Telefonstunden ein und sehen Sie, wie viel Zeit Sie sparen könnten.",
     "savingsLink": "Sehen Sie, was Sie mit AIbooking sparen können",
     "cta": "Kostenlos starten",
     "secondary": "So funktioniert es",
@@ -118,8 +122,8 @@
         "description": "Senden Sie Kunden automatische Erinnerungen an bevorstehende Termine und senken Sie Terminausfälle."
       },
       {
-        "title": "Sofortiges Nachfassen",
-        "description": "Automatische Folge-SMS und -E-Mails nach jedem Anruf und Termin."
+        "title": "Zusammenfassung nach jedem Anruf",
+        "description": "Jeder Anruf wird mit Aufzeichnung, Transkript und kurzer Zusammenfassung gespeichert, und der Kunde kann eine Nachricht per SMS oder E-Mail erhalten."
       },
       {
         "title": "DSGVO-sicher",
@@ -235,9 +239,9 @@
           "600 KI-Gesprächsminuten",
           "Erweiterte Stimmanpassung",
           "Priorisierter Support",
-          "Erweiterte Analysen",
-          "Individuelle Integrationen",
-          "SMS-Erinnerungen",
+          "Aufzeichnungen und Transkripte",
+          "Shopify- und Lieferintegrationen",
+          "Buchung in Google, Outlook oder Cal.com",
           "Kundenhistorie"
         ]
       },
@@ -315,7 +319,8 @@
     "facebook_share": "Auf Facebook teilen",
     "made_by": "Entwickelt und betrieben von",
     "salon": "Friseur & Salon",
-    "app": "Die App"
+    "app": "Die App",
+    "shopify": "KI für Shopify"
   },
   "contact": {
     "title": "Kontakt",
@@ -445,15 +450,15 @@
           { "role": "customer", "text": "Hallo, ich muss leider meinen Termin am Donnerstag verschieben." },
           { "role": "ai", "text": "Das erledige ich gern. Ich sehe Ihren Termin am Donnerstag um 09:00 Uhr. Passt Ihnen Donnerstag um 10:30 Uhr oder Freitag um 14:00 Uhr besser?" },
           { "role": "customer", "text": "Donnerstag um 10:30 Uhr ist perfekt." },
-          { "role": "ai", "text": "Ist verschoben. Sie erhalten gleich eine SMS-Bestätigung." }
+          { "role": "ai", "text": "Ist verschoben. Sie erhalten gleich eine Bestätigung per E-Mail." }
         ],
         "outcomes": [
           "Umbuchungen und Absagen werden bearbeitet, ohne den Empfang zu stören",
-          "Automatische SMS-Erinnerungen senken Terminausfälle deutlich",
+          "Umbuchen und Absagen rund um die Uhr gibt Termine für andere Patienten frei",
           "Patienten können auch außerhalb der Öffnungszeiten anrufen und buchen – abends und am Wochenende",
           "Alles wird notiert und im Kalender eingetragen, sodass Sie danach den vollen Überblick haben"
         ],
-        "results": ["Verschoben auf Do. 10:30", "SMS-Bestätigung gesendet", "Kalender aktualisiert"]
+        "results": ["Verschoben auf Do. 10:30", "Bestätigung gesendet", "Kalender aktualisiert"]
       },
       "craftsman": {
         "title": "Der Auftrag wird gebucht, während Sie noch die Hände voll haben",
@@ -472,11 +477,11 @@
           "Besichtigungen landen direkt in Ihrem Kalender – keine Doppelbuchungen",
           "Automatische Erinnerung an den Kunden am Tag vor dem Termin"
         ],
-        "results": ["Besichtigung gebucht Fr. 08:00", "Adresse erfasst", "SMS an beide gesendet"]
+        "results": ["Besichtigung gebucht Fr. 08:00", "Adresse erfasst", "Zusammenfassung im Dashboard"]
       },
       "office": {
         "title": "Raum für Konzentration – ohne Kunden warten zu lassen",
-        "intro": "Im Büro sind Unterbrechungen teuer. Jeder Anruf zu Status, Preisen oder Terminen reißt jemanden aus der Arbeit. Der KI-Rezeptionist filtert jeden eingehenden Anruf, beantwortet Routinefragen selbst, bucht Meetings im gemeinsamen Kalender und leitet nur das Wichtige weiter.",
+        "intro": "Im Büro sind Unterbrechungen teuer. Jeder Anruf zu Status, Preisen oder Terminen reißt jemanden aus der Arbeit. Der KI-Rezeptionist filtert jeden eingehenden Anruf, beantwortet Routinefragen selbst, bucht Meetings im gemeinsamen Kalender und notiert alles andere mit kurzer Zusammenfassung, damit Sie zurückrufen können.",
         "situation": "Um 13:05 Uhr ruft ein Kunde an, um ein Meeting zu buchen. Das Team steckt mitten in einer Deadline, und ein Anruf würde die ganze Konzentration kosten.",
         "callLabel": "Eingehender Anruf · Kunde",
         "chat": [
@@ -489,7 +494,7 @@
           "Weniger Unterbrechungen bedeuten längere Phasen konzentrierter Arbeit",
           "Routinefragen zu Status, Preisen und Öffnungszeiten werden automatisch beantwortet",
           "Meetings werden direkt im gemeinsamen Teamkalender gebucht",
-          "Sie bestimmen, welche Anrufe immer an einen Menschen durchgestellt werden"
+          "Was die KI nicht klären kann, wird durchgestellt oder mit Zusammenfassung im Dashboard gespeichert"
         ],
         "results": ["Meeting gebucht Mi. 14:30", "Einladung gesendet", "Team nicht gestört"]
       },
@@ -532,18 +537,18 @@
           },
           {
             "role": "ai",
-            "text": "Dann sind Sie am Donnerstag um 14:30 Uhr zum Schneiden und Färben eingetragen. Sie bekommen gleich eine Bestätigung per SMS."
+            "text": "Dann sind Sie am Donnerstag um 14:30 Uhr zum Schneiden und Färben eingetragen. Sie bekommen gleich eine Bestätigung per E-Mail."
           }
         ],
         "outcomes": [
           "Keine Kundin ruft woanders an, weil Sie gerade jemanden im Stuhl hatten",
           "Absagen und Verschiebungen werden sofort erledigt, damit jemand anderes den Termin bekommt",
-          "SMS-Erinnerungen am Vortag sorgen für weniger nicht wahrgenommene Termine",
+          "Kunden können selbst verschieben oder absagen, sodass freie Termine neu vergeben werden",
           "Kunden können abends auch über den Chat auf Ihrer Website buchen"
         ],
         "results": [
           "Termin Do. 14:30",
-          "SMS-Bestätigung gesendet",
+          "Bestätigung gesendet",
           "Keine Unterbrechung am Stuhl"
         ]
       }
@@ -594,14 +599,12 @@
       "badge": "Kalenderintegrationen",
       "healthcare": {
         "title": "Die Kalendersysteme, die Praxen am häufigsten nutzen",
-        "subtitle": "Egal, welches Buchungssystem Sie heute nutzen – der KI-Rezeptionist kann direkt mit Ihrem Kalender synchronisieren.",
+        "subtitle": "Der KI-Rezeptionist bucht direkt in Google Kalender, Outlook/Microsoft 365 oder Cal.com.",
         "items": [
           { "name": "Google Kalender", "description": "Automatische Echtzeit-Synchronisierung von Patiententerminen" },
           { "name": "Microsoft Outlook / 365", "description": "Buchung und Kalenderfreigabe für die ganze Praxis" },
-          { "name": "Apple Kalender", "description": "Synchronisiert direkt über iCloud" },
-          { "name": "EasyPractice", "description": "Verbreitetes Praxisverwaltungssystem in Dänemark" },
-          { "name": "Novax", "description": "Beliebtes Kalendersystem bei Chiropraktikern und Physiotherapeuten" },
-          { "name": "Andere Systeme", "description": "Sie nutzen etwas anderes? Wir verbinden per CalDAV/iCal-Synchronisierung" }
+          { "name": "Cal.com", "description": "Terminarten mit eigener Dauer, etwa Beratung und Kontrolle" },
+          { "name": "Andere Systeme", "description": "Sie nutzen etwas anderes? Sprechen Sie uns an, dann prüfen wir die Möglichkeiten" }
         ]
       },
       "craftsman": {
@@ -610,10 +613,8 @@
         "items": [
           { "name": "Google Kalender", "description": "Automatische Echtzeit-Synchronisierung von Besichtigungen und Aufträgen" },
           { "name": "Microsoft Outlook / 365", "description": "Gemeinsamer Kalender für das ganze Team unterwegs" },
-          { "name": "Apple Kalender", "description": "Synchronisiert direkt über iCloud" },
-          { "name": "Dinero", "description": "In Dänemark bei Handwerkern für Rechnungen und Planung verbreitet" },
-          { "name": "e-conomic", "description": "Beliebtes Buchhaltungs- und Planungssystem im Handwerk" },
-          { "name": "Andere Systeme", "description": "Sie nutzen etwas anderes? Wir verbinden per CalDAV/iCal-Synchronisierung" }
+          { "name": "Cal.com", "description": "Feste Terminarten, etwa Besichtigung oder Service" },
+          { "name": "Andere Systeme", "description": "Sie nutzen etwas anderes? Sprechen Sie uns an, dann prüfen wir die Möglichkeiten" }
         ]
       },
       "office": {
@@ -623,9 +624,8 @@
           { "name": "Google Kalender", "description": "Automatische Echtzeit-Synchronisierung von Meetings" },
           { "name": "Microsoft Outlook / 365", "description": "Gemeinsamer Kalender und Meeting-Einladungen für das ganze Team" },
           { "name": "Microsoft-Teams-Kalender", "description": "Meetings direkt im gemeinsamen Teamkalender buchen" },
-          { "name": "Apple Kalender", "description": "Synchronisiert direkt über iCloud" },
-          { "name": "Calendly", "description": "Beliebtes Tool zur Terminbuchung bei Büros und Beratern" },
-          { "name": "Andere Systeme", "description": "Sie nutzen etwas anderes? Wir verbinden per CalDAV/iCal-Synchronisierung" }
+          { "name": "Cal.com", "description": "Meetingarten mit eigener Dauer, etwa Erstgespräch und Folgetermin" },
+          { "name": "Andere Systeme", "description": "Sie nutzen etwas anderes? Sprechen Sie uns an, dann prüfen wir die Möglichkeiten" }
         ]
       },
       "ecommerce": {
@@ -634,10 +634,9 @@
         "items": [
           { "name": "Google Kalender", "description": "Automatische Echtzeit-Synchronisierung von Buchungen" },
           { "name": "Microsoft Outlook / 365", "description": "Buchung und Kalenderfreigabe für das ganze Team" },
-          { "name": "Shopify", "description": "Abholung, Lieferung oder Beratung direkt aus dem Onlineshop buchen" },
-          { "name": "Calendly", "description": "Für Onlineshops, die auch Beratungen oder Demos verkaufen" },
-          { "name": "Apple Kalender", "description": "Synchronisiert direkt über iCloud" },
-          { "name": "Andere Systeme", "description": "Sie nutzen etwas anderes? Wir verbinden per CalDAV/iCal-Synchronisierung" }
+          { "name": "Shopify", "description": "Produkte, Bestand und Bestellstatus werden live abgefragt, während der Kunde fragt" },
+          { "name": "Cal.com", "description": "Für Onlineshops, die auch Beratungen oder Demos verkaufen" },
+          { "name": "Andere Systeme", "description": "Sie nutzen etwas anderes? Sprechen Sie uns an, dann prüfen wir die Möglichkeiten" }
         ]
       },
       "salon": {
@@ -653,12 +652,12 @@
             "description": "Gemeinsamer Kalender für den ganzen Salon"
           },
           {
-            "name": "Apple Kalender",
-            "description": "Direkt über iCloud synchronisiert"
+            "name": "Cal.com",
+            "description": "Behandlungen als Terminarten mit eigener Dauer"
           },
           {
             "name": "Andere Systeme",
-            "description": "Sie nutzen ein anderes Buchungssystem? Wir verbinden per CalDAV/iCal-Synchronisierung"
+            "description": "Sie nutzen etwas anderes? Sprechen Sie uns an, dann prüfen wir die Möglichkeiten"
           }
         ]
       }

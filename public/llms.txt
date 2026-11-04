@@ -27,6 +27,7 @@ Trying the product is free: new customers create a free account (no credit card 
 - [Hair & beauty salons](https://www.aibooking.dk/frisoer): AI receptionist for hairdressers, barbers and beauty salons — books, moves and cancels appointments while the stylist works.
 - [Office & Admin](https://www.aibooking.dk/kontor): AI reception for offices and administrative teams.
 - [Webshops](https://www.aibooking.dk/webshop): AI widget and support automation for e-commerce.
+- [Shopify AI](https://www.aibooking.dk/shopify): Shopify integration for the chat/voice widget and the AI phone agent — live product search, variants and stock, shipping and returns policies, and order status by order number. Read-only: no cart, checkout, payment or order changes.
 
 ## Company
 

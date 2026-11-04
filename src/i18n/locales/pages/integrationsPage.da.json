@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "AI-booking med Google Kalender & Outlook | Aibooking.dk",
-    "description": "Forbind AI-receptionisten og AI-chatbotten med Google Kalender, Outlook, Shopify, Teams og Zoom. Automatisk booking uden dobbeltbookinger.",
+    "description": "Forbind AI-receptionisten og AI-chatbotten med Google Kalender, Outlook, Cal.com og Shopify, og bestil bud med Uber Direct og Just Eat.",
     "keywords": "AI-telefonpasning, dansk AI-receptionist, widget til webshop, AI widget til Shopify, AI booking kalender, kalender integration, AI reception, Shopify AI integration, Google Kalender, Outlook integration, AI widget integration, booking system integration"
   },
   "breadcrumb": { "home": "Hjem", "integrations": "Integrationer" },
@@ -9,9 +9,9 @@
     "badge": "Problemfri Integration",
     "title_line1": "Forbind med dine",
     "title_line2": "eksisterende værktøjer",
-    "subtitle": "Vores AI-løsning automatiserer administration, opkald, SMS og email ved at arbejde sammen med de systemer du allerede bruger. Spar tid, bliv mere professionel og lad AI'en håndtere ombookinger, opfølgning og mødebekræftigelser automatisk.",
+    "subtitle": "Vores AI-løsning arbejder sammen med de systemer, du allerede bruger: din kalender, din Shopify-butik og dine leveringspartnere. Spar tid, bliv mere professionel og lad AI'en håndtere bookinger, ombookinger og aflysninger automatisk.",
     "features": [
-      { "title": "Spar Timer Dagligt", "description": "Automatiser ind- og udgående opkald, SMS og emails mens AI'en synkroniserer med dine systemer" },
+      { "title": "Spar Timer Dagligt", "description": "Opkald og chat besvares, mens AI'en booker direkte i jeres kalender" },
       { "title": "Hurtig Opsætning", "description": "Ingen kompliceret installation. Forbind dine eksisterende værktøjer på minutter" },
       { "title": "Altid Synkroniseret", "description": "Real-time opdateringer på tværs af alle dine platforme. Ingen dobbeltarbejde" }
     ]
@@ -20,50 +20,96 @@
     "title": "Integration Kategorier",
     "subtitle": "Vores AI-løsning forbinder med de værktøjer du allerede bruger hver dag",
     "categories": [
-      { "title": "Kalender & Planlægning", "description": "Google Calendar, Outlook, CalDAV" },
-      { "title": "CRM & Kunder", "description": "HubSpot, Salesforce, Pipedrive" },
-      { "title": "Kommunikation", "description": "WhatsApp, Slack, Discord, Messenger" },
-      { "title": "Dokumenter", "description": "Notion, WordPress, Google Docs" },
-      { "title": "E-handel", "description": "Shopify, WooCommerce, Stripe" },
-      { "title": "Automatisering", "description": "Zapier, Make, Webhooks, API" }
+      {
+        "title": "Kalender & booking",
+        "description": "Google Kalender, Outlook/Microsoft 365, Cal.com"
+      },
+      {
+        "title": "Webshop",
+        "description": "Shopify: produkter, lager, politikker og ordrestatus"
+      },
+      {
+        "title": "Levering",
+        "description": "Uber Direct og Just Eat"
+      },
+      {
+        "title": "Hjemmeside",
+        "description": "Widget på WordPress, Shopify, Wix og andre sider"
+      },
+      {
+        "title": "Telefoni",
+        "description": "Få et nummer i dashboardet, og viderestil jeres nuværende"
+      },
+      {
+        "title": "Vidensbase",
+        "description": "Tekst, hjemmeside-URL og PDF"
+      }
     ]
   },
   "gridSection": {
     "title": "Populære Integrationer",
-    "subtitle": "Arbejd problemfrit med dine eksisterende værktøjer. Vores AI håndterer automatisk kommunikation på tværs af alle platforme.",
+    "subtitle": "Det her er de integrationer, AI-agenten bruger i dag. I sætter dem op i dashboardet.",
     "clinicHighlight": {
       "title": "Skabt specielt til klinikker og behandlingssteder",
-      "description": "Over 500 danske klinikker har allerede valgt vores løsning. Fra tandlægeklinikker og fysioterapeuter til skønhedssaloner og wellness-centre – vores AI-assistent integrerer perfekt med dit eksisterende booking-system og håndterer alt fra telefonopkald til SMS-påmindelser.",
+      "description": "Fra tandlægeklinikker og fysioterapeuter til skønhedssaloner og wellness-centre – AI-assistenten booker, flytter og aflyser tider direkte i jeres kalender og tager telefonen, mens I arbejder.",
       "points": [
         { "strong": "GDPR-sikker datahåndtering", "text": "– alle patientdata behandles fortroligt og i overensstemmelse med sundhedsloven" },
-        { "strong": "Reducér \"no-shows\" med op til 67%", "text": "– automatiske påmindelser via SMS og email holder dine kunder informeret" },
-        { "strong": "Opsætning på under 15 minutter", "text": "– ingen IT-viden kræves, vores team guider dig hele vejen" },
+        { "strong": "Flytning og aflysning døgnet rundt", "text": "– patienterne ændrer selv deres tid, og ledige tider frigives med det samme" },
+        { "strong": "Opsætning sammen med jer", "text": "– vi hjælper jer i gang på et kort onboarding-møde" },
         { "strong": "Dansk support 7 dage om ugen", "text": "– hjælp når du har brug for det, på dit eget sprog" }
       ]
     },
     "popularBadge": "Populær",
     "integrations": [
-      { "name": "Google Calendar", "description": "Automatisk booking og synkronisering af møder", "category": "Kalender" },
-      { "name": "Outlook", "description": "Microsoft 365 integration til email og kalender", "category": "Kalender" },
-      { "name": "WhatsApp", "description": "Send SMS bekræftelser og påmindelser", "category": "Kommunikation" },
-      { "name": "Slack", "description": "Real-time notifikationer til dit team", "category": "Kommunikation" },
-      { "name": "Shopify", "description": "E-handel booking integration", "category": "E-handel" },
-      { "name": "Notion", "description": "Dokumenter og noter synkronisering", "category": "Produktivitet" },
-      { "name": "WordPress", "description": "Tilføj booking til din hjemmeside", "category": "Hjemmeside" },
-      { "name": "Zapier", "description": "Forbind med 5000+ apps automatisk", "category": "Automatisering" },
-      { "name": "Zoom", "description": "Automatisk oprettelse af mødelinks", "category": "Video" },
-      { "name": "Microsoft Teams", "description": "Teams møde integration", "category": "Video" },
-      { "name": "Messenger", "description": "Facebook Messenger integration", "category": "Kommunikation" },
-      { "name": "Discord", "description": "Community og server integration", "category": "Kommunikation" },
-      { "name": "OpenAI", "description": "Avanceret AI-understøttelse", "category": "AI" },
-      { "name": "Webhooks", "description": "Custom integration med dine systemer", "category": "Udvikler" },
-      { "name": "REST API", "description": "Fuld API adgang til alle funktioner", "category": "Udvikler" },
-      {"name": "Just Eat", "description": "Lad agenten bestille et Just Eat-bud til kunden", "category": "Levering"},
-      {"name": "Uber Direct", "description": "Bud fra jeres forretning til kunden – pris og tid først", "category": "Levering"}
+      {
+        "name": "Google Kalender",
+        "description": "AI'en tjekker ledige tider og booker, flytter og aflyser direkte",
+        "category": "Kalender"
+      },
+      {
+        "name": "Outlook / Microsoft 365",
+        "description": "Samme booking i Outlook-kalenderen, også for teams på Microsoft 365",
+        "category": "Kalender"
+      },
+      {
+        "name": "Cal.com",
+        "description": "Begivenhedstyper med egen varighed og bookingsider",
+        "category": "Kalender"
+      },
+      {
+        "name": "Shopify",
+        "description": "Produkter, varianter, lager, fragt, retur og ordrestatus slås op live",
+        "category": "E-handel"
+      },
+      {
+        "name": "Hjemmeside-widget",
+        "description": "Chat og voice på enhver hjemmeside med én embedkode, fx WordPress eller Wix",
+        "category": "Hjemmeside"
+      },
+      {
+        "name": "Telefonnummer",
+        "description": "Få et nummer i dashboardet, og viderestil jeres nuværende nummer",
+        "category": "Telefoni"
+      },
+      {
+        "name": "Vidensbase",
+        "description": "Lær AI'en jeres virksomhed at kende fra tekst, en hjemmeside-URL eller en PDF",
+        "category": "AI"
+      },
+      {
+        "name": "Just Eat",
+        "description": "Lad agenten bestille et Just Eat-bud til kunden",
+        "category": "Levering"
+      },
+      {
+        "name": "Uber Direct",
+        "description": "Bud fra jeres forretning til kunden – pris og tid først",
+        "category": "Levering"
+      }
     ],
     "missing": {
       "title": "Mangler din integration?",
-      "description": "Vi tilføjer løbende nye integrationer. Med vores Webhook og API support kan du forbinde næsten hvilket som helst system til vores AI-løsning.",
+      "description": "Vi tilføjer løbende nye integrationer. Fortæl os, hvilket system I bruger, så ser vi på mulighederne.",
       "button": "Book Demo"
     }
   },
@@ -73,12 +119,12 @@
     "shopify": {
       "title": "Hvad kan AI-assistenten hjælpe din Shopify-webshop med?",
       "paragraph1": "AI-widgetten sættes direkte ind på din Shopify-side og svarer besøgende med det samme på spørgsmål om levering, størrelser, lagerstatus og returret – også uden for åbningstid, hvor en stor del af trafikken kommer. Det betyder færre efterladte kurve og flere gennemførte køb.",
-      "paragraph2": "Har kunden brug for menneskelig hjælp – f.eks. en kompliceret returvare eller en specialordre – sender AI'en samtalen videre til jeres team med den fulde kontekst, så ingen skal starte forfra."
+      "paragraph2": "Har kunden brug for menneskelig hjælp – f.eks. en kompliceret returvare eller en specialordre – ligger hele samtalen med udskrift og resumé i dashboardet, så jeres team kan tage over uden at starte forfra."
     },
     "solutions": {
       "title": "Shopify, bookinger – eller begge dele",
       "shopify": { "title": "Shopify-webshop", "text": "Besvar produkt-, leverings- og returspørgsmål automatisk, og reducér efterladte kurve med en AI-widget, der er tilgængelig 24/7 på din webshop." },
-      "booking": { "title": "AI Booking & Kalender", "text": "Lad kunder booke, ombooke og aflyse tider over telefon eller på hjemmesiden, mens AI'en synkroniserer direkte med jeres kalender og sender automatiske SMS-påmindelser." },
+      "booking": { "title": "AI Booking & Kalender", "text": "Lad kunder booke, ombooke og aflyse tider over telefon eller på hjemmesiden, mens AI'en booker direkte i jeres Google-, Outlook- eller Cal.com-kalender." },
       "combined": { "title": "Webshop + bookinger kombineret", "text": "Sælger I både produkter og ydelser – f.eks. en klinik med webshop eller en salon der sælger produkter – kan AI'en håndtere både ordrespørgsmål og tidsbestilling i én og samme samtale." }
     },
     "howItWorks": {
@@ -106,13 +152,13 @@
     "button": "Book Demo",
     "benefitsTitle": "Hvad får du med AI-integration?",
     "benefits": [
-      "Automatisk håndtering af ind- og udgående opkald",
-      "SMS påmindelser og bekræftelser sendes automatisk",
-      "Email kommunikation styret af AI",
-      "Ombookinger håndteres uden manuel indgriben",
-      "Mødebekræftigelser sendes til tiden hver gang",
-      "Opfølgning på mistede opkald og henvendelser",
-      "Real-time synkronisering med alle dine systemer",
+      "Automatisk håndtering af indgående opkald og chat",
+      "Bekræftelse på e-mail eller SMS ved hver booking",
+      "Ombookinger og aflysninger uden manuel indgriben",
+      "Optagelse, udskrift og resumé af hver samtale",
+      "Shopify-opslag i både chat og telefon",
+      "Bud-levering med Uber Direct og Just Eat",
+      "Booking direkte i Google, Outlook eller Cal.com",
       "Professionel håndtering 24/7"
     ],
     "stats": [

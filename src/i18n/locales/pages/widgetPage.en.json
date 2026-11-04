@@ -202,15 +202,15 @@
     "badge": "AI widget for webshops",
     "title": "Like your webshop's built-in chat – but with an AI that books and sells",
     "para1": "If you run a webshop on Shopify, WooCommerce or Magento, the AI widget drops straight onto the site – like the built-in chat tools you already know, only with an assistant that speaks and understands your customers' language.",
-    "para2": "Customers can ask the widget to track an order, reorder a product, check stock or get help with a return – automatically, without writing to customer service.",
+    "para2": "Customers can ask the widget to track an order, check stock and sizes or get help with a return – automatically, without writing to customer service.",
     "points": [
       {
         "label": "Tracks order status",
         "desc": "\"Where's my parcel?\" is answered immediately"
       },
       {
-        "label": "Reorders products",
-        "desc": "The customer reorders the same item by voice"
+        "label": "Finds the product",
+        "desc": "The customer describes the item by voice and gets size, stock and price"
       },
       {
         "label": "Helps through the purchase",
@@ -278,8 +278,8 @@
           "desc": "A customer wants to know where their parcel is. The widget pulls the order status and answers immediately – no hold time."
         },
         {
-          "title": "The subscription shop",
-          "desc": "A customer wants to reorder their regular item every month – the widget sets the order up during the conversation."
+          "title": "The clothing store",
+          "desc": "A customer asks if the jacket comes in black in size L – the widget checks stock in Shopify and sends a link to the product."
         }
       ]
     }
@@ -360,9 +360,9 @@
           "600 AI call minutes",
           "Advanced voice customization",
           "Priority support",
-          "Advanced analytics",
-          "Custom integrations",
-          "SMS reminders",
+          "Recordings and transcripts",
+          "Shopify and delivery integrations",
+          "Booking in Google, Outlook or Cal.com",
           "Customer history"
         ],
         "cta": "Order package"
@@ -409,6 +409,7 @@
     "badge": "Shopify integration",
     "title": "One connection — answers in the widget and on the phone",
     "subtitle": "Connect your Shopify store once in the dashboard, and both the AI widget and the AI phone assistant can answer product questions and help customers with their orders — pulled directly from Shopify whenever a customer asks.",
+    "pageLink": "See everything the AI can do in a Shopify store",
     "channels": [
       {
         "title": "AI widget on your website",

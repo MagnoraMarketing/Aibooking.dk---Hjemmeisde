@@ -77,8 +77,8 @@
       "description": "Intégration fluide avec votre système de réservation existant. L'IA consulte votre calendrier réel en temps réel et ne réserve que les créneaux disponibles. Tous les rendez-vous sont synchronisés automatiquement avec des notes détaillées sur la conversation et les souhaits du client."
     },
     {
-      "title": "Réduisez les Absences",
-      "description": "Des rappels automatiques par SMS et email réduisent les rendez-vous manqués jusqu'à 65 %. Le système envoie des rappels intelligents au bon moment et peut même reprogrammer automatiquement en cas d'annulation."
+      "title": "Moins de créneaux vides",
+      "description": "Les clients peuvent déplacer ou annuler leur rendez-vous à toute heure : le créneau est libéré tout de suite et quelqu'un d'autre peut le réserver. L'IA retrouve le rendez-vous et vérifie qu'il s'agit du bon client avant de modifier quoi que ce soit."
     },
     {
       "title": "Un langage naturel",

@@ -19,13 +19,13 @@
     "healthcare": {
       "title": "Klinikker og Sundhed",
       "subtitle": "Frihed til at fokusere på patientpleje",
-      "description": "Som klinik ved du, hvor vigtigt det er at give dine patienter den bedste behandling. Men administrative opgaver som telefonopkald, bookinger og aflysninger stjæler værdifuld tid fra patientplejen.\n\nVores AI-receptionist håndterer alle kundehenvendelser professionelt – fra nye bookinger til ombookinger og bekræftelser. Med automatisk SMS-påmindelse reducerer du no-shows betydeligt. Dit personaliserede dashboard giver dig komplet overblik: Lyt til alle opkald, se korte opsummeringer af hver samtale, hvad der er aftalt, booking-statistik og kalenderintegration. Du kan fortsætte med at bruge din nuværende kalendersoftware – vores system synkroniserer automatisk.",
+      "description": "Som klinik ved du, hvor vigtigt det er at give dine patienter den bedste behandling. Men administrative opgaver som telefonopkald, bookinger og aflysninger stjæler værdifuld tid fra patientplejen.\n\nVores AI-receptionist håndterer alle kundehenvendelser professionelt – fra nye bookinger til ombookinger og bekræftelser. Patienterne kan selv flytte eller aflyse deres tid døgnet rundt, så tiden kan gives til en anden. Dit dashboard giver dig overblik: Lyt til alle opkald, se korte opsummeringer af hver samtale og hvad der er aftalt. Bookingerne lander direkte i Google Kalender, Outlook/Microsoft 365 eller Cal.com.",
       "benefits": [
-        "Reducer telefontid med 85% – fokuser på dine patienter i stedet",
-        "Automatiske SMS-påmindelser reducerer no-shows med op til 60%",
+        "Færre afbrydelser i telefonen – mere tid til patienterne",
+        "Patienterne kan selv flytte og aflyse – ledige tider frigives med det samme",
         "Håndter bookinger, ombookinger og aflysninger 24/7",
         "Komplet dashboard med opkaldshistorik og samtaleopsummeringer",
-        "Integration med dit eksisterende booking-system og kalender",
+        "Booking i Google Kalender, Outlook/Microsoft 365 eller Cal.com",
         "Fuld GDPR-overholdelse for følsomme patientdata"
       ],
       "stats": [
@@ -38,12 +38,12 @@
     "craftsman": {
       "title": "Håndværkere",
       "subtitle": "Stop med at miste ordrer fordi telefonen ikke bliver taget",
-      "description": "Du kender det: Du er midt i et job, og telefonen ringer. Hvis du tager den, mister du fokus. Hvis du ikke gør, mister du potentielt en god ordre. Det er en umulig situation.\n\nVores AI-receptionist løser dette problem én gang for alle. Systemet tager imod alle opkald, registrerer kundeoplysninger, booker besigtigelser og sender automatiske bekræftelser via SMS. I dit dashboard kan du se alle henvendelser, lytte til optagede samtaler, få korte opsummeringer af hvad kunden ønsker, og se hvad der er blevet aftalt. Din kalender opdateres automatisk, uanset hvilket system du bruger. Slip for bekymringen om mistede ordrer – fokuser på dit håndværk.",
+      "description": "Du kender det: Du er midt i et job, og telefonen ringer. Hvis du tager den, mister du fokus. Hvis du ikke gør, mister du potentielt en god ordre. Det er en umulig situation.\n\nVores AI-receptionist løser dette problem én gang for alle. Systemet tager imod alle opkald, registrerer kundeoplysninger, booker besigtigelser og sender kunden en bekræftelse på e-mail. I dit dashboard kan du se alle henvendelser, lytte til optagede samtaler, få korte opsummeringer af hvad kunden ønsker, og se hvad der er blevet aftalt. Bookingen lander direkte i din Google-, Outlook- eller Cal.com-kalender. Slip for bekymringen om mistede ordrer – fokuser på dit håndværk. Kort sagt en AI-telefonpasser, der aldrig holder fri.",
       "benefits": [
         "Tag imod alle henvendelser selv når du er på job",
         "Automatisk registrering af kundeoplysninger og opgavebeskrivelser",
         "Book besigtigelser direkte i din kalender – synkroniserer automatisk",
-        "SMS-bekræftelser til både dig og kunden",
+        "Bekræftelse på e-mail til kunden og resumé til dig",
         "Dashboard med alle kundehenvendelser og hvad der er aftalt",
         "Aldrig gå glip af en ordre igen – systemet arbejder 24/7"
       ],
@@ -57,14 +57,14 @@
     "office": {
       "title": "Kontor og Administration",
       "subtitle": "Professionel kundeservice uden afbrydelser",
-      "description": "I kontorvirksomheder er koncentration og produktivitet afgørende. Men konstante telefonopkald afbryder arbejdsflowet og reducerer effektiviteten betydeligt. Samtidig er det vigtigt at give kunderne hurtig og professionel service.\n\nMed Aibooking.dk får du det bedste fra begge verdener. Vores AI-receptionist screener alle indkommende opkald, håndterer bookinger af møder, besvarer almindelige spørgsmål og videresender kun de vigtigste henvendelser. Dit team får fred til at arbejde koncentreret, mens kunderne oplever professionel service døgnet rundt. Dashboard'et giver dig komplet kontrol: Lyt til alle samtaler, se detaljerede opsummeringer, booking-statistik og kalenderintegration. Perfekt til advokater, revisorer, konsulenter og andre videnvirksomheder.",
+      "description": "I kontorvirksomheder er koncentration og produktivitet afgørende. Men konstante telefonopkald afbryder arbejdsflowet og reducerer effektiviteten betydeligt. Samtidig er det vigtigt at give kunderne hurtig og professionel service.\n\nMed Aibooking.dk får du det bedste fra begge verdener. Vores AI-receptionist tager alle indkommende opkald, booker møder, besvarer almindelige spørgsmål og noterer resten med et kort resumé, så I kan ringe tilbage. Dit team får fred til at arbejde koncentreret, mens kunderne oplever professionel service døgnet rundt. Dashboard'et giver dig overblik: Lyt til alle samtaler, se opsummeringer og hvad der er aftalt. Perfekt til advokater, revisorer, konsulenter og andre videnvirksomheder.",
       "benefits": [
         "Reducer afbrydelser og forbedr medarbejdernes produktivitet",
         "Professionel telefonbetjening uden ekstra lønomkostninger",
-        "Automatisk screeing af opkald – kun vigtige sager viderestilles",
+        "Opkald, AI'en ikke kan løse, ligger med resumé, så I kan ringe tilbage",
         "Book møder direkte i teamets fælles kalender",
-        "Dashboard med samtalehistorik, opsummeringer og statistik",
-        "Integration med eksisterende CRM og kalendersystemer"
+        "Dashboard med samtalehistorik, optagelser og opsummeringer",
+        "Booking i Google Kalender, Outlook/Microsoft 365 eller Cal.com"
       ],
       "stats": [
         { "label": "Produktivitet", "value": "+35%" },
@@ -76,14 +76,14 @@
     "ecommerce": {
       "title": "Webshops og E-handel",
       "subtitle": "Kundeservice der skalerer med din forretning",
-      "description": "I e-handelsverden er hurtig kundeservice afgørende for succes. Forsinkede svar på kundehenvendelser betyder mistede salg og dårlige anmeldelser. Men at bemande kundeservice 24/7 er dyrt og kompleks.\n\nAibooking.dk giver dig AI-drevet kundeservice der aldrig sover. Systemet besvarer almindelige spørgsmål om produkter, leveringstider, returneringer og ordrestatus øjeblikkeligt. Komplekse henvendelser eskaleres automatisk til dit team. Med SMS-notifikationer holder du kunderne opdaterede gennem hele købsrejsen. Dit dashboard viser alle kundeinteraktioner, opsummeringer af samtaler, hyppige spørgsmål og trends, så du konstant kan optimere din service. Reducer svartider fra timer til sekunder og forbedr kundetilfredsheden markant.",
+      "description": "I e-handelsverden er hurtig kundeservice afgørende for succes. Forsinkede svar på kundehenvendelser betyder mistede salg og dårlige anmeldelser. Men at bemande kundeservice 24/7 er dyrt og kompleks.\n\nAibooking.dk giver dig AI-drevet kundeservice der aldrig sover. Systemet besvarer almindelige spørgsmål om produkter, leveringstider, returneringer og ordrestatus øjeblikkeligt. Det, AI'en ikke kan løse, ligger med resumé i dit dashboard, så teamet kan følge op. Dashboardet viser alle samtaler med udskrift, optagelse og et kort resumé, så du kan se, hvad kunderne spørger om, og forbedre dine svar. Reducer svartider fra timer til sekunder og forbedr kundetilfredsheden markant.",
       "benefits": [
         "Besvar kundehenvendelser øjeblikkeligt 24/7 uden ekstra personale",
         "Håndter spørgsmål om produkter, ordrestatus og returneringer automatisk",
-        "Automatiske SMS-opdateringer om forsendelser og leveringer",
+        "Ordrestatus og tracking ud fra ordrenummeret",
         "Reducer svartider fra timer til sekunder",
-        "Dashboard med kundeinteraktioner, trends og hyppige spørgsmål",
-        "Integration med dit webshop-system og ordrehåndtering"
+        "Dashboard med alle samtaler, optagelser og resuméer",
+        "Shopify-integration med live opslag af produkter, lager og ordrer"
       ],
       "stats": [
         { "label": "Hurtigere svar", "value": "95%" },
@@ -103,7 +103,7 @@
     "intro": "Aibooking.dk er Danmarks førende AI-receptionist løsning, der automatiserer kundeservice, booking og administration for virksomheder i alle brancher.",
     "whatIs": {
       "title": "Hvad er en AI-receptionist?",
-      "paragraph1": "En AI-receptionist er en intelligent virtuel assistent, der håndterer alle dine kundehenvendelser automatisk døgnet rundt. Vores avancerede AI-teknologi kan besvare opkald, tage imod bookinger, sende bekræftelser via SMS, håndtere ombookinger og meget mere – alt sammen uden menneskelig indgriben.",
+      "paragraph1": "En AI-receptionist er en intelligent virtuel assistent, der håndterer alle dine kundehenvendelser automatisk døgnet rundt. Vores avancerede AI-teknologi kan besvare opkald, tage imod bookinger, sende bekræftelser på e-mail, håndtere ombookinger og meget mere – alt sammen uden menneskelig indgriben.",
       "paragraph2": "I modsætning til en traditionel receptionist arbejder Aibooking.dk 24/7 uden pauser, ferier eller sygedage. Dette betyder, at dine kunder altid kan komme i kontakt med din virksomhed, uanset tidspunkt på døgnet. Samtidig sparer du betydelige lønomkostninger og kan fokusere dine medarbejdere på mere værdiskabende opgaver."
     },
     "solutions": {
@@ -127,15 +127,15 @@
     },
     "features": {
       "title": "Avancerede funktioner der gør forskellen",
-      "paragraph1": "Aibooking.dk er mere end bare en telefonsvarer. Vores platform inkluderer et omfattende dashboard hvor du kan følge med i alle kundeinteraktioner i realtid. Lyt til alle optagede samtaler, få korte opsummeringer af hver samtale, se hvad der er blevet aftalt, og få detaljeret statistik over bookinger og kundehenvendelser.",
-      "paragraph2": "Systemet integrerer problemfrit med din eksisterende kalender, uanset om du bruger Google Calendar, Outlook eller en branchespecifik løsning. Du får automatiske SMS-beskeder til både dig og dine kunder, så alle er opdaterede. Og med vores intuitive dashboard kan du nemt overskue din forretning og træffe datadrevne beslutninger."
+      "paragraph1": "Aibooking.dk er mere end bare en telefonsvarer. Vores platform inkluderer et omfattende dashboard hvor du kan følge med i alle kundeinteraktioner i realtid. Lyt til alle optagede samtaler, få korte opsummeringer af hver samtale, se hvad der er blevet aftalt, og se alle bookinger og henvendelser samlet ét sted.",
+      "paragraph2": "Systemet booker direkte i din kalender, uanset om du bruger Google Kalender, Outlook/Microsoft 365 eller Cal.com. Kunden får en bekræftelse på e-mail eller SMS, og du får optagelse, udskrift og et kort resumé af hver samtale. Og med vores dashboard kan du nemt overskue alle opkald, chats og bookinger ét sted."
     },
     "whyChoose": {
       "title": "Hvorfor vælge Aibooking.dk?",
       "points": [
         "Spar 10+ timer om ugen på telefon og administration",
         "Aldrig gå glip af en kunde igen – tag imod henvendelser 24/7",
-        "Reducer no-shows med automatiske SMS-påmindelser",
+        "Færre tomme tider: kunderne kan selv flytte og aflyse døgnet rundt",
         "Komplet overblik med intelligent dashboard og samtaleopsummeringer",
         "Problemfri integration med dine eksisterende systemer",
         "Dansk support og tilpassede løsninger til din virksomhed"
@@ -179,7 +179,7 @@
   },
   "salon": {
     "title": "Frisør og salon",
-    "text": "Saloner lever af bookinger, og telefonen ringer altid midt i en behandling. AI-receptionisten tager opkaldet, booker, flytter og aflyser tider og sender SMS-påmindelser, mens du arbejder.",
+    "text": "Saloner lever af bookinger, og telefonen ringer altid midt i en behandling. AI-receptionisten tager opkaldet, booker, flytter og aflyser tider, mens du arbejder.",
     "link": "Læs om AI-receptionist til frisør og salon"
   }
 }

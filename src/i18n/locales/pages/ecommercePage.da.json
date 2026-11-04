@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "AI-kundeservice & chatbot til webshop | Aibooking.dk",
-    "description": "AI-kundeservice til webshop og Shopify: chatbot og telefon, der sporer ordrer, tjekker lager, håndterer genbestillinger og svarer døgnet rundt.",
+    "description": "AI-kundeservice til webshop og Shopify: chatbot og telefon, der slår ordrestatus, lager, fragt og retur op og svarer kunderne døgnet rundt.",
     "keywords": "AI-telefonpasning, dansk AI-receptionist, widget til webshop, AI widget til Shopify, Shopify AI, automatisering af Shopify, Shopify AI automatisering, AI kundeservice webshop, AI widget webshop, Shopify chatbot, AI ordresporing, webshop voice assistant, WooCommerce chatbot, e-handel AI"
   },
   "breadcrumb": {
@@ -16,7 +16,7 @@
   },
   "mainCard": {
     "title": "AI-drevet kundeservice der aldrig sover",
-    "description": "Aibooking.dk giver dig AI-drevet kundeservice der aldrig sover. Systemet besvarer almindelige spørgsmål om produkter, leveringstider, returneringer og ordrestatus øjeblikkeligt. Komplekse henvendelser eskaleres automatisk til dit team. Med SMS-notifikationer holder du kunderne opdaterede gennem hele købsrejsen. Dit dashboard viser alle kundeinteraktioner, opsummeringer af samtaler, hyppige spørgsmål og trends, så du konstant kan optimere din service. Reducer svartider fra timer til sekunder og forbedr kundetilfredsheden markant."
+    "description": "Aibooking.dk giver dig AI-drevet kundeservice der aldrig sover. Systemet besvarer almindelige spørgsmål om produkter, leveringstider, returneringer og ordrestatus øjeblikkeligt. Det, AI'en ikke kan løse, ligger med resumé i dit dashboard, så teamet kan følge op. Dashboardet viser alle samtaler med udskrift, optagelse og et kort resumé, så du kan se, hvad kunderne spørger om, og forbedre dine svar. Reducer svartider fra timer til sekunder og forbedr kundetilfredsheden markant."
   },
   "benefits": [
     {
@@ -28,16 +28,16 @@
       "description": "Håndter spørgsmål om produkter, ordrestatus og returneringer"
     },
     {
-      "title": "SMS-opdateringer",
-      "description": "Automatiske notifikationer om forsendelser og leveringer"
+      "title": "Ordrestatus og tracking",
+      "description": "Kunden oplyser ordrenummeret og får status og forsendelse med det samme"
     },
     {
       "title": "Lynhurtige svartider",
       "description": "Reducer svartider fra timer til sekunder"
     },
     {
-      "title": "Indsigt i trends",
-      "description": "Dashboard med kundeinteraktioner og hyppige spørgsmål"
+      "title": "Alle samtaler samlet",
+      "description": "Udskrift, optagelse og resumé af hver samtale i dashboardet"
     },
     {
       "title": "Webshop-integration",
@@ -65,15 +65,15 @@
   "voiceWidget": {
     "badge": "AI Voice Widget til din webshop",
     "title": "Som at have en ekstra sælger i butikken – ligesom webshoppens chat, bare klogere",
-    "intro": "Aibooking.dk's AI-widget kan lægges direkte på din webshop, uanset om du kører Shopify, WooCommerce eller Magento. Kunderne kan tale eller skrive med widgetten for at høre om ordrestatus, bestille en vare igen eller finde det rigtige produkt – automatisk, døgnet rundt.",
+    "intro": "Aibooking.dk's AI-widget kan lægges direkte på din webshop, uanset om du kører Shopify, WooCommerce eller Magento. Kunderne kan tale eller skrive med widgetten for at finde det rigtige produkt eller få svar om levering og retur – og på Shopify slår den også lager og ordrestatus op live, døgnet rundt.",
     "cards": [
       {
         "title": "Sporer ordrer",
         "desc": "\"Hvor er min pakke?\" bliver besvaret med det samme ud fra live ordrestatus"
       },
       {
-        "title": "Genbestiller varer",
-        "desc": "Kunden bestiller en tidligere vare igen direkte i samtalen"
+        "title": "Finder den rigtige vare",
+        "desc": "Kunden beskriver varen, og AI'en svarer på størrelse, lager og pris med et link til produktet"
       },
       {
         "title": "Hjælper med købet",
@@ -113,5 +113,10 @@
     "title": "Klar til at komme i gang?",
     "subtitle": "Book et gratis og uforpligtende møde, og få adgang til et test login så du kan prøve systemet selv",
     "button": "Book et uforpligtende møde og få et gratis test login"
+  },
+  "shopifyPageLink": {
+    "title": "Bruger du Shopify?",
+    "text": "Se præcis hvad AI'en slår op i din Shopify-butik – produkter, varianter, lager, fragt, retur og ordrestatus – i chatten og i telefonen.",
+    "link": "Shopify AI"
   }
 }

@@ -16,7 +16,7 @@
   },
   "bestOfBoth": {
     "title": "Le meilleur des deux mondes",
-    "description": "Avec Aibooking.dk, vous obtenez le meilleur des deux mondes. Notre réceptionniste IA filtre tous les appels entrants, gère les réservations de réunions, répond aux questions courantes et ne transfère que les demandes les plus importantes. Votre équipe gagne la tranquillité nécessaire pour travailler avec concentration, tandis que les clients bénéficient d'un service professionnel 24 heures sur 24. Le tableau de bord vous donne un contrôle total : écoutez toutes les conversations, consultez des résumés détaillés, les statistiques de réservation et l'intégration de calendrier. Idéal pour les avocats, comptables, consultants et autres entreprises du savoir.",
+    "description": "Avec Aibooking.dk, vous obtenez le meilleur des deux mondes. Notre réceptionniste IA prend tous les appels entrants, réserve les réunions, répond aux questions courantes et note tout le reste avec un court résumé pour que vous puissiez rappeler. Votre équipe travaille avec concentration, tandis que les clients bénéficient d'un service professionnel 24 heures sur 24. Le tableau de bord vous donne une vue d'ensemble : écoutez chaque conversation et consultez les résumés et ce qui a été convenu. Idéal pour les avocats, comptables, consultants et autres entreprises du savoir.",
     "benefits": [
       {
         "title": "Réduisez les interruptions",
@@ -27,8 +27,8 @@
         "description": "Sans coût salarial supplémentaire pour une réceptionniste"
       },
       {
-        "title": "Filtrage automatique",
-        "description": "Seules les affaires importantes sont transférées à votre équipe"
+        "title": "Messages avec résumé",
+        "description": "Ce que l'IA ne peut pas régler vous attend avec un court résumé"
       },
       {
         "title": "Réservation de réunions",
@@ -36,7 +36,7 @@
       },
       {
         "title": "Tableau de bord complet",
-        "description": "Historique des conversations, résumés et statistiques"
+        "description": "Historique des conversations, enregistrements et résumés"
       },
       {
         "title": "Intégration CRM",

@@ -2,7 +2,7 @@
   "seo": {
     "title": "Réceptionniste IA & Standard Téléphonique IA | Aibooking.dk",
     "description": "Réceptionniste virtuelle IA et standard téléphonique IA : répond aux appels, prend les rendez-vous et répond sur votre site 24h/24. Essai gratuit 7 jours.",
-    "keywords": "permanence téléphonique IA, réceptionniste virtuel IA, widget pour boutique en ligne, widget IA pour Shopify, réceptionniste ia, réservation IA, réservation automatique, widget ia pour site web, calendrier ia, automatisation téléphonique, rappels sms, automatisation du service client, solution ia"
+    "keywords": "permanence téléphonique IA, réceptionniste virtuel IA, widget pour boutique en ligne, widget IA pour Shopify, réceptionniste ia, réservation IA, réservation automatique, widget ia pour site web, calendrier ia, automatisation téléphonique, automatisation du service client, solution ia"
   },
   "nav": {
     "home": "Accueil",
@@ -31,6 +31,10 @@
       "salon": {
         "name": "Coiffure & beauté",
         "description": "Coiffeurs, barbiers, ongles, esthétique"
+      },
+      "shopify": {
+        "name": "IA pour Shopify",
+        "description": "Chat, voix et téléphone pour Shopify"
       }
     },
     "see_all_industries": "Voir tous les secteurs →",
@@ -52,8 +56,8 @@
   "hero": {
     "badge": "Votre Réceptionniste Virtuelle",
     "title_line1": "Votre réceptionniste IA gère",
-    "title_line2": "appels, SMS et suivis",
-    "subtitle": "Oubliez l'administratif. Notre réceptionniste IA s'occupe de tout – des appels et messages aux réservations et réseaux sociaux. Indiquez vos propres heures au téléphone et découvrez combien de temps vous pouvez gagner.",
+    "title_line2": "appels, chat et réservations",
+    "subtitle": "Oubliez l'administratif. Notre réceptionniste IA s'occupe de tout – des appels et messages aux réservations dans votre agenda. Indiquez vos propres heures au téléphone et découvrez combien de temps vous pouvez gagner.",
     "savingsLink": "Découvrez ce que vous pouvez économiser avec AIbooking",
     "cta": "Commencer Gratuitement",
     "secondary": "Voir Comment Ça Marche",
@@ -118,8 +122,8 @@
         "description": "Envoyez des rappels automatiques aux clients concernant les rendez-vous à venir et réduisez les absences."
       },
       {
-        "title": "Suivi Instantané",
-        "description": "SMS et e-mails de suivi automatiques après chaque appel et rendez-vous."
+        "title": "Résumé après chaque appel",
+        "description": "Chaque appel est conservé avec l'enregistrement, la transcription et un court résumé, et le client peut recevoir un suivi par SMS ou e-mail."
       },
       {
         "title": "Sécurisé et Conforme au RGPD",
@@ -235,9 +239,9 @@
           "600 minutes d'appels IA",
           "Personnalisation vocale avancée",
           "Support prioritaire",
-          "Analyse avancée",
-          "Intégrations personnalisées",
-          "Rappels par SMS",
+          "Enregistrements et transcriptions",
+          "Intégrations Shopify et livraison",
+          "Réservation dans Google, Outlook ou Cal.com",
           "Historique client"
         ]
       },
@@ -315,7 +319,8 @@
     "facebook_share": "Partager sur Facebook",
     "made_by": "Conçu et propulsé par",
     "salon": "Coiffure & beauté",
-    "app": "L'appli"
+    "app": "L'appli",
+    "shopify": "IA pour Shopify"
   },
   "contact": {
     "title": "Nous Contacter",
@@ -456,18 +461,18 @@
           },
           {
             "role": "ai",
-            "text": "C'est déplacé. Vous recevrez une confirmation par SMS dans un instant."
+            "text": "C'est déplacé. Vous recevrez une confirmation par e-mail dans un instant."
           }
         ],
         "outcomes": [
           "Reports et annulations gérés sans interrompre la réception",
-          "Les rappels SMS automatiques réduisent nettement les rendez-vous manqués",
+          "Reporter et annuler à toute heure libère des créneaux pour d'autres patients",
           "Les patients peuvent appeler et réserver en dehors des heures — soirs et week-ends compris",
           "Tout est noté et ajouté à l'agenda, pour avoir la vue complète ensuite"
         ],
         "results": [
           "Déplacé au jeu. 10h30",
-          "Confirmation SMS envoyée",
+          "Confirmation envoyée",
           "Agenda mis à jour"
         ]
       },
@@ -503,12 +508,12 @@
         "results": [
           "Visite prévue ven. 08h00",
           "Adresse enregistrée",
-          "SMS envoyé aux deux"
+          "Résumé dans le tableau de bord"
         ]
       },
       "office": {
         "title": "De la place pour se concentrer — sans faire attendre les clients",
-        "intro": "Dans un bureau, les interruptions coûtent cher. Chaque appel sur un statut, un tarif ou un horaire de réunion sort quelqu'un de son travail. La réceptionniste IA filtre tous les appels entrants, répond elle-même aux appels courants, planifie les réunions dans l'agenda partagé et ne transfère que l'essentiel.",
+        "intro": "Dans un bureau, les interruptions coûtent cher. Chaque appel sur un statut, un tarif ou un horaire de réunion sort quelqu'un de son travail. La réceptionniste IA filtre tous les appels entrants, répond elle-même aux appels courants, planifie les réunions dans l'agenda partagé et note le reste avec un court résumé pour que vous puissiez rappeler.",
         "situation": "À 13h05, un client appelle pour réserver une réunion. L'équipe est en plein rush, et un appel coûterait toute sa concentration.",
         "callLabel": "Appel entrant · Client",
         "chat": [
@@ -533,7 +538,7 @@
           "Moins d'interruptions, donc des plages plus longues de travail concentré",
           "Les questions courantes sur les statuts, les tarifs et les horaires reçoivent une réponse automatique",
           "Les réunions sont planifiées directement dans l'agenda partagé de l'équipe",
-          "C'est vous qui décidez quels appels doivent toujours être transmis à une personne"
+          "Ce que l'IA ne peut pas régler est transféré ou conservé avec un résumé dans le tableau de bord"
         ],
         "results": [
           "Réunion mer. 14h30",
@@ -596,18 +601,18 @@
           },
           {
             "role": "ai",
-            "text": "C'est noté : coupe et couleur jeudi à 14 h 30. Vous recevez une confirmation par SMS dans un instant."
+            "text": "C'est noté : coupe et couleur jeudi à 14 h 30. Vous recevez une confirmation par e-mail dans un instant."
           }
         ],
         "outcomes": [
           "Aucune cliente n'appelle ailleurs parce que vous étiez occupée au fauteuil",
           "Annulations et déplacements sont traités tout de suite, le créneau peut servir à quelqu'un d'autre",
-          "Les rappels par SMS la veille réduisent les rendez-vous manqués",
+          "Les clients peuvent déplacer ou annuler eux-mêmes, et les créneaux libérés sont repris",
           "Vos clients peuvent aussi réserver le soir via le chat de votre site"
         ],
         "results": [
           "RDV jeu. 14 h 30",
-          "Confirmation SMS envoyée",
+          "Confirmation envoyée",
           "Aucune interruption au fauteuil"
         ]
       }
@@ -658,7 +663,7 @@
       "badge": "Intégrations calendrier",
       "healthcare": {
         "title": "Les systèmes de calendrier les plus utilisés par les cliniques",
-        "subtitle": "Quel que soit le système de réservation que vous utilisez aujourd'hui, la réceptionniste IA peut se synchroniser directement avec votre calendrier.",
+        "subtitle": "La réceptionniste IA réserve directement dans Google Agenda, Outlook/Microsoft 365 ou Cal.com.",
         "items": [
           {
             "name": "Google Agenda",
@@ -669,20 +674,12 @@
             "description": "Réservation et calendrier partagé pour toute la clinique"
           },
           {
-            "name": "Calendrier Apple",
-            "description": "Synchronisation directe via iCloud"
-          },
-          {
-            "name": "EasyPractice",
-            "description": "Logiciel de gestion de cabinet très utilisé au Danemark"
-          },
-          {
-            "name": "Novax",
-            "description": "Système de calendrier populaire chez les chiropracteurs et kinésithérapeutes"
+            "name": "Cal.com",
+            "description": "Types de rendez-vous avec leur propre durée, par exemple consultation et contrôle"
           },
           {
             "name": "Autres systèmes",
-            "description": "Vous utilisez autre chose ? Nous nous connectons via la synchronisation CalDAV/iCal"
+            "description": "Vous utilisez autre chose ? Contactez-nous et nous étudierons les possibilités"
           }
         ]
       },
@@ -699,20 +696,12 @@
             "description": "Calendrier partagé pour toute l'équipe en déplacement"
           },
           {
-            "name": "Calendrier Apple",
-            "description": "Synchronisation directe via iCloud"
-          },
-          {
-            "name": "Dinero",
-            "description": "Très utilisé par les artisans danois pour la facturation et la planification"
-          },
-          {
-            "name": "e-conomic",
-            "description": "Logiciel de comptabilité et de planification populaire dans le secteur"
+            "name": "Cal.com",
+            "description": "Types de réservation fixes, par exemple visite technique ou entretien"
           },
           {
             "name": "Autres systèmes",
-            "description": "Vous utilisez autre chose ? Nous nous connectons via la synchronisation CalDAV/iCal"
+            "description": "Vous utilisez autre chose ? Contactez-nous et nous étudierons les possibilités"
           }
         ]
       },
@@ -733,16 +722,12 @@
             "description": "Réservez des réunions directement dans le calendrier partagé de l'équipe"
           },
           {
-            "name": "Calendrier Apple",
-            "description": "Synchronisation directe via iCloud"
-          },
-          {
-            "name": "Calendly",
-            "description": "Outil de réservation de réunions populaire chez les bureaux et consultants"
+            "name": "Cal.com",
+            "description": "Types de réunion avec leur propre durée, par exemple premier rendez-vous et suivi"
           },
           {
             "name": "Autres systèmes",
-            "description": "Vous utilisez autre chose ? Nous nous connectons via la synchronisation CalDAV/iCal"
+            "description": "Vous utilisez autre chose ? Contactez-nous et nous étudierons les possibilités"
           }
         ]
       },
@@ -760,19 +745,15 @@
           },
           {
             "name": "Shopify",
-            "description": "Réservez un retrait, une livraison ou une consultation directement depuis la boutique en ligne"
+            "description": "Produits, stock et suivi de commande consultés en direct pendant que le client pose sa question"
           },
           {
-            "name": "Calendly",
+            "name": "Cal.com",
             "description": "Pour les boutiques en ligne qui vendent aussi des consultations ou démonstrations"
           },
           {
-            "name": "Calendrier Apple",
-            "description": "Synchronisation directe via iCloud"
-          },
-          {
             "name": "Autres systèmes",
-            "description": "Vous utilisez autre chose ? Nous nous connectons via la synchronisation CalDAV/iCal"
+            "description": "Vous utilisez autre chose ? Contactez-nous et nous étudierons les possibilités"
           }
         ]
       },
@@ -789,12 +770,12 @@
             "description": "Agenda partagé pour tout le salon"
           },
           {
-            "name": "Calendrier Apple",
-            "description": "Synchronisé directement via iCloud"
+            "name": "Cal.com",
+            "description": "Soins sous forme de types de rendez-vous avec leur propre durée"
           },
           {
             "name": "Autres systèmes",
-            "description": "Vous utilisez un autre logiciel de réservation ? Nous nous connectons via CalDAV/iCal"
+            "description": "Vous utilisez autre chose ? Contactez-nous et nous étudierons les possibilités"
           }
         ]
       }

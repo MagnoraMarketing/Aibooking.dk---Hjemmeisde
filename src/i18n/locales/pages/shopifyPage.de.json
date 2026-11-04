@@ -1,0 +1,174 @@
+{
+  "seo": {
+    "title": "KI für Shopify: Chatbot & KI-Telefon | Aibooking.dk",
+    "description": "KI für Shopify: Chatbot, Voice-Widget und KI-Telefonassistent, die Produkte, Größen, Bestand, Versand, Retouren und Bestellstatus live im Shop abfragen.",
+    "keywords": "Shopify KI, KI-Chatbot Shopify, KI Kundenservice Shopify, Shopify Chatbot deutsch, KI-Telefonassistent Onlineshop, Shopify Bestellstatus Chatbot, Voicebot Onlineshop"
+  },
+  "breadcrumb": {
+    "home": "Startseite",
+    "ecommerce": "Onlineshop",
+    "shopify": "KI für Shopify"
+  },
+  "hero": {
+    "badge": "Shopify-Integration",
+    "title": "KI für Shopify, die Ihren Kunden antwortet",
+    "highlight": "im Chat und am Telefon",
+    "subtitle": "Verbinden Sie Ihren Shopify-Shop, und der KI-Assistent fragt Produkte, Größen, Farben, Bestand, Versand, Rückgabe und Bestellstatus direkt im Shop ab, während der Kunde fragt. Auf Ihrer Website als Chat- und Voice-Widget und am Telefon, wenn Kunden anrufen.",
+    "primary": "Kostenloses Konto erstellen"
+  },
+  "channels": {
+    "title": "Zwei Kanäle, eine Shopify-Verbindung",
+    "subtitle": "Manche Kunden schreiben, andere rufen an. Sie verbinden den Shop mit dem Agenten, der antworten soll, und er nutzt dieselben Shopify-Abfragen, egal ob der Kunde im Chat oder am Telefon ist.",
+    "items": [
+      {
+        "title": "KI-Widget in Ihrem Shopify-Shop",
+        "description": "Ein kleines Fenster im Shop, in dem Kunden mit dem KI-Assistenten schreiben oder sprechen. Er findet den Artikel, beantwortet Fragen zu Größe und Bestand und schickt einen anklickbaren Link zur Produktseite.",
+        "points": [
+          "Kunden können schreiben oder sprechen",
+          "Anklickbare Produktlinks direkt aus Shopify",
+          "Antwortet auch abends und am Wochenende, wenn der Support geschlossen ist",
+          "Wird mit einem einzigen Embed-Code ins Theme eingefügt"
+        ]
+      },
+      {
+        "title": "KI-Telefonassistent für Ihren Onlineshop",
+        "description": "Anrufer bekommen sofort eine Antwort. Die KI nimmt ab, beantwortet Produktfragen und prüft den Bestellstatus anhand der Bestellnummer, statt dass der Anruf auf der Mailbox landet.",
+        "points": [
+          "Sie erhalten eine Rufnummer und leiten Ihre bestehende Nummer dorthin um",
+          "Dieselben Antworten zu Produkten, Versand und Rückgabe wie im Chat",
+          "Bestell- und Versandstatus anhand der Bestellnummer",
+          "Gesprächsaufzeichnung und Transkript im Dashboard"
+        ]
+      }
+    ],
+    "linkIntro": "Mehr zu den beiden Kanälen:",
+    "widgetLink": "KI-Widget und Chatbot",
+    "phoneLink": "KI-Telefonassistent"
+  },
+  "capabilities": {
+    "title": "Was die KI in Ihrem Shop nachschlägt",
+    "subtitle": "Die KI hat keine veraltete Kopie Ihres Sortiments. Jede Frage zu Artikel, Preis oder Bestellung wird in dem Moment zu einer Shopify-Abfrage, in dem der Kunde fragt. So stimmt die Antwort mit dem aktuellen Stand im Shop überein.",
+    "items": [
+      {
+        "title": "Produktsuche",
+        "description": "Der Kunde beschreibt den Artikel mit eigenen Worten, etwa „schwarze Laufschuhe in 42“. Die KI findet passende Produkte mit Name, Preis und Varianten."
+      },
+      {
+        "title": "Varianten und Bestand",
+        "description": "Größe, Farbe, Artikelnummer und Bestand jeder Variante. Fragt der Kunde nach einer bestimmten Größe, sagt die KI konkret, ob genau diese vorrätig ist."
+      },
+      {
+        "title": "Versand, Rückgabe und AGB",
+        "description": "Die KI liest Ihre eigenen Versand-, Rückerstattungs- und Geschäftsbedingungen aus Shopify. Ändern Sie den Text in Shopify, antwortet die KI mit der neuen Fassung."
+      },
+      {
+        "title": "Bestellstatus und Sendungsverfolgung",
+        "description": "„Wo ist mein Paket?“ Die KI fragt nach der Bestellnummer und nennt Status, Versanddienstleister, Sendungsnummer und voraussichtliche Zustellung, sofern Shopify sie kennt."
+      }
+    ]
+  },
+  "examples": {
+    "title": "So klingt das in der Praxis",
+    "subtitle": "Drei typische Anfragen an einen Onlineshop und wie der KI-Assistent sie beantwortet.",
+    "channel": {
+      "widget": "Chat im Shop",
+      "phone": "Telefon"
+    },
+    "who": {
+      "customer": "Kunde",
+      "ai": "KI-Assistent"
+    },
+    "items": [
+      {
+        "title": "Größe und Bestand",
+        "channel": "widget",
+        "lines": [
+          { "who": "customer", "text": "Haben Sie die Regenjacke Nord in Schwarz, Größe L?" },
+          { "who": "ai", "text": "Ja, die Regenjacke Nord gibt es in Schwarz in Größe L, und sie ist vorrätig. Sie kostet 119,95 €. Produkt ansehen" },
+          { "who": "customer", "text": "Gibt es auch eine günstigere?" },
+          { "who": "ai", "text": "Die Regenjacke Basic kostet 74,95 € und ist in Schwarz in Größe L vorrätig. Produkt ansehen" }
+        ]
+      },
+      {
+        "title": "Wo ist mein Paket?",
+        "channel": "phone",
+        "lines": [
+          { "who": "customer", "text": "Mein Paket ist noch nicht angekommen." },
+          { "who": "ai", "text": "Das prüfe ich gern. Wie lautet Ihre Bestellnummer?" },
+          { "who": "customer", "text": "10482." },
+          { "who": "ai", "text": "Die Bestellung 10482 wurde gestern mit DHL verschickt und soll morgen zugestellt werden. Die Sendungsnummer steht in Ihrer Versandbestätigung." }
+        ]
+      },
+      {
+        "title": "Rückgabe",
+        "channel": "widget",
+        "lines": [
+          { "who": "customer", "text": "Kann ich die Schuhe zurückschicken, wenn sie zu klein sind?" },
+          { "who": "ai", "text": "Ja. Laut den Rückgabebedingungen des Shops haben Sie 30 Tage ab Lieferung Zeit, und die Ware muss ungetragen sein. Die vollständigen Bedingungen finden Sie hier: Rückgabebedingungen lesen" }
+        ]
+      }
+    ],
+    "note": "Die Beispiele stammen aus einem fiktiven Shop. Namen, Preise und Bedingungen kommen immer aus dem verbundenen Shopify-Shop."
+  },
+  "limits": {
+    "title": "Was die KI macht und was nicht",
+    "subtitle": "Die Integration soll richtig antworten, nicht mehr versprechen, als sie halten kann.",
+    "doesTitle": "Der KI-Assistent",
+    "does": [
+      "Findet Produkte und beantwortet Fragen zu Preis, Größe, Farbe und Bestand",
+      "Schickt im Chat einen anklickbaren Link zur richtigen Produktseite",
+      "Beantwortet Fragen zu Versand, Lieferung, Rückgabe und AGB anhand Ihrer eigenen Richtlinien",
+      "Prüft Bestell- und Versandstatus, sobald der Kunde seine Bestellnummer nennt",
+      "Sagt ehrlich, wenn der Shop einen Artikel nicht führt oder eine Bestellung nicht gefunden wird"
+    ],
+    "doesNotTitle": "Der KI-Assistent macht nicht",
+    "doesNot": [
+      "Legt keine Artikel in den Warenkorb und nimmt keine Zahlung entgegen. Der Kunde kauft selbst über den Produktlink",
+      "Ändert, storniert oder erstattet keine Bestellungen",
+      "Liest keine Namen, Adressen, Bestellpositionen oder Zahlungsdaten vor",
+      "Erfindet keine Produkte, Preise oder Links",
+      "Liest am Telefon keine Links vor. Das Gespräch liegt im Dashboard, damit Sie nachfassen können"
+    ]
+  },
+  "privacy": {
+    "title": "Bestelldaten und Datenschutz",
+    "text": "Die KI fragt eine Bestellung nur ab, wenn der Kunde selbst die Bestellnummer genannt hat, und sie gibt nur Status, Versand und Zustellung weiter. Name, E-Mail, Adresse, Artikel und Zahlung erhält die KI gar nicht erst. Bestelldaten werden bei Aibooking nicht gespeichert: Sie werden für diese eine Antwort aus Shopify abgerufen und nicht weiterverwendet. Die Verbindung hat nur Lesezugriff auf Produkte, Bestellungen und Shop-Richtlinien."
+  },
+  "setup": {
+    "title": "So legen Sie los",
+    "steps": [
+      {
+        "title": "Kostenloses Konto erstellen",
+        "description": "Sie erhalten 7 Tage Testphase, ohne Vertragsbindung und ohne Kreditkarte."
+      },
+      {
+        "title": "Agenten anlegen",
+        "description": "Wählen Sie ein Website-Widget oder einen Telefonagenten, geben Sie ihm einen Namen und wählen Sie Sprache und Stimme."
+      },
+      {
+        "title": "Shopify verbinden",
+        "description": "Im Reiter Webshop geben Sie Ihre Shop-Adresse ein (ihrshop.myshopify.com) und bestätigen die Verbindung in Shopify."
+      },
+      {
+        "title": "Live gehen",
+        "description": "Fügen Sie den Embed-Code in Ihr Shopify-Theme ein, oder leiten Sie Ihre Rufnummer auf die Nummer des Agenten um."
+      }
+    ],
+    "mockCaption": "Der Reiter Webshop im Aibooking-Dashboard, in dem der Shop verbunden wird"
+  },
+  "delivery": {
+    "title": "Lokale Lieferung per Kurier",
+    "text": "Haben Sie ein Lager oder ein Ladengeschäft, kann der Agent auch eine Kurierlieferung mit Uber Direct oder Just Eat buchen, sofern der Dienst in Ihrer Region verfügbar ist. Er holt Preis und Lieferzeit ein, nennt beides und bucht erst, wenn der Kunde zustimmt.",
+    "link": "Alle Integrationen ansehen"
+  },
+  "languages": {
+    "title": "Für Shops, die in mehreren Sprachen verkaufen",
+    "text": "Jeder Agent spricht die Sprache, die Sie wählen: Deutsch, Englisch, Dänisch, Spanisch, Französisch oder Portugiesisch. Verkaufen Sie in mehrere Länder, bekommt jeder Shop oder jeder Markt einen eigenen Agenten."
+  },
+  "finalCta": {
+    "title": "Überlassen Sie der KI die Fragen, die jeden Tag wiederkommen",
+    "subtitle": "Verbinden Sie Ihren Shopify-Shop in der Testphase und testen Sie die KI mit Ihren eigenen Produkten, bevor Sie sich entscheiden.",
+    "primary": "Kostenloses Konto erstellen",
+    "secondary": "Rundgang vereinbaren"
+  }
+}

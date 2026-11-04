@@ -53,8 +53,8 @@
       "description": "Nahtlose Anbindung an Ihr bestehendes Buchungssystem. Die KI sieht Ihren Kalender in Echtzeit und bucht nur freie Zeiten. Jeder Termin wird automatisch synchronisiert – mit ausführlichen Notizen zum Gespräch und zu den Wünschen des Kunden."
     },
     {
-      "title": "Weniger Terminausfälle",
-      "description": "Automatische Erinnerungen per SMS und E-Mail senken verpasste Termine um bis zu 65 %. Das System verschickt intelligente Erinnerungen zum richtigen Zeitpunkt und kann bei Absagen sogar automatisch neu buchen."
+      "title": "Weniger leere Termine",
+      "description": "Kunden können ihren Termin rund um die Uhr verschieben oder absagen, sodass er sofort frei wird und neu vergeben werden kann. Die KI findet den Termin und prüft, ob es der richtige Kunde ist, bevor sie etwas ändert."
     },
     {
       "title": "Natürliche Sprache",

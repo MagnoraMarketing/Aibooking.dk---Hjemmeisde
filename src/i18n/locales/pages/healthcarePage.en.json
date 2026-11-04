@@ -16,15 +16,15 @@
   },
   "solution": {
     "title": "The complete solution for healthcare",
-    "description": "Our AI receptionist handles every customer enquiry professionally – from new bookings to rebookings and confirmations. With automatic SMS reminders, you significantly reduce no-shows. Your personalized dashboard gives you a complete overview: listen to every call, see short summaries of each conversation, what was agreed, booking statistics, and calendar integration. You can keep using your current calendar software – our system syncs automatically.",
+    "description": "Our AI receptionist handles every customer enquiry professionally – from new bookings to rebookings and confirmations. Patients can move or cancel their appointment around the clock, so the slot can go to someone else. Your dashboard gives you the overview: listen to every call and see short summaries of each conversation and what was agreed. Bookings go straight into Google Calendar, Outlook/Microsoft 365 or Cal.com.",
     "benefits": [
       {
         "title": "Reduce phone time by 85%",
         "description": "Focus on your patients instead of administrative tasks"
       },
       {
-        "title": "Automatic SMS reminders",
-        "description": "Reduce no-shows by up to 60% and optimize your capacity"
+        "title": "Rescheduling and cancelling 24/7",
+        "description": "Freed-up slots are released straight away for other patients"
       },
       {
         "title": "24/7 booking service",
@@ -32,7 +32,7 @@
       },
       {
         "title": "Complete dashboard",
-        "description": "Call history, conversation summaries, and booking statistics"
+        "description": "Call history, recordings and conversation summaries"
       },
       {
         "title": "Calendar integration",

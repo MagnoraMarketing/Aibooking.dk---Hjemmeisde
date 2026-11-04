@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Asistente Telefónico con IA y Agente de Voz | Aibooking.dk",
-    "description": "Atención telefónica con IA 24/7: el agente de voz responde llamadas, reserva citas, transfiere a tu equipo y llama a tus clientes con recordatorios.",
+    "description": "Atención telefónica con IA 24/7: el agente de voz responde llamadas, reserva citas y guarda un resumen de cada llamada para tu equipo.",
     "keywords": "atención telefónica con IA, recepcionista virtual con IA, widget para tienda online, widget de IA para Shopify, llamadas con ia, asistente telefónico ia, agente de voz ia, recepción con ia, llamadas entrantes, llamadas salientes, atención telefónica automatizada, recepcionista ia, voicebot, reservas por teléfono, reservas con ia"
   },
   "breadcrumb": {
@@ -35,10 +35,10 @@
       "direction": "Entrante · Número desconocido",
       "timer": "00:51",
       "transcriptLabel": "Transcripción en directo",
-      "line": "Queda reservado para mañana a las 8:30. Recibirás un SMS de confirmación ahora mismo.",
+      "line": "Queda reservado para mañana a las 8:30. Recibirás la confirmación por correo ahora mismo.",
       "actions": [
         "Cita reservada",
-        "SMS enviado",
+        "Correo enviado",
         "Aviso creado"
       ]
     }
@@ -50,7 +50,7 @@
     "para3": "Tú decides el alcance: solo entrantes, solo salientes o ambas en el mismo número.",
     "inbound": {
       "title": "Entrantes",
-      "desc": "Responde en segundos, reserva en tu calendario, resuelve las preguntas que se repiten y transfiere a tu equipo cuando el caso necesita a una persona."
+      "desc": "Responde en segundos, reserva en tu calendario, resuelve las preguntas que se repiten y toma un recado con resumen cuando el caso necesita a una persona."
     },
     "outbound": {
       "title": "Salientes",
@@ -118,7 +118,7 @@
         {
           "role": "ai",
           "time": "0:51",
-          "text": "Gracias. Queda reservado para mañana a las 8:30. Recibirá un SMS de confirmación ahora y un recordatorio una hora antes."
+          "text": "Gracias. Queda reservado para mañana a las 8:30. La confirmación le llegará por correo en un momento."
         }
       ],
       "outcomesLabel": "Lo que hizo la IA por el camino",
@@ -174,7 +174,7 @@
         {
           "role": "ai",
           "time": "0:30",
-          "text": "Su cita queda movida al viernes a las 9:30. Le envío ahora un SMS con la nueva hora. Que tenga buen día."
+          "text": "Su cita queda movida al viernes a las 9:30. Le llegará la nueva hora por correo. Que tenga buen día."
         }
       ],
       "outcomesLabel": "Lo que hizo la IA por el camino",
@@ -254,16 +254,16 @@
         "description": "Sincronizado con Google Calendar, Outlook y los sistemas sectoriales habituales. La IA solo ve los huecos realmente libres: sin duplicidades."
       },
       {
-        "title": "Confirmación y recordatorio por SMS",
-        "description": "Tras la llamada llega un SMS con hora y dirección, y un recordatorio antes de la visita. Esa combinación es la que reduce las ausencias."
+        "title": "Confirmación por correo y SMS",
+        "description": "El cliente recibe la hora y los detalles por correo como invitación de calendario y también puede recibir un SMS, para que no olvide la cita."
       },
       {
         "title": "Grabación, resumen y transcripción",
         "description": "Cada llamada se guarda con transcripción completa y un resumen breve de lo acordado. Siempre puedes documentar la conversación después."
       },
       {
-        "title": "Transfiere cuando hace falta una persona",
-        "description": "La IA reconoce los casos que no le corresponde decidir – reclamaciones, urgencias, negociaciones – y transfiere al compañero adecuado o toma un recado."
+        "title": "Transfiere o toma un recado",
+        "description": "La IA reconoce los casos que no le corresponde decidir – reclamaciones, urgencias, negociaciones – y transfiere al compañero adecuado o toma un recado con nombre, teléfono y un breve resumen."
       },
       {
         "title": "RGPD y seguridad de datos",
@@ -344,7 +344,7 @@
         "outbound": false
       },
       {
-        "feature": "Transferir a un compañero",
+        "feature": "Recado con resumen para el equipo",
         "inbound": true,
         "outbound": false
       },
@@ -383,7 +383,7 @@
     "free": "Gratis",
     "mostPopular": "El más elegido",
     "cta": "Empezar",
-    "note": "Todos los planes incluyen llamadas entrantes y salientes, integración de calendario, SMS y grabación."
+    "note": "Todos los planes incluyen llamadas entrantes, el widget de IA, integración de calendario y grabación. Las llamadas salientes son un complemento."
   },
   "cta": {
     "title": "Escucha tu propia voz de IA antes de decidir",
@@ -396,7 +396,7 @@
   "faq": [
     {
       "question": "¿Cuál es la diferencia entre llamadas entrantes y salientes?",
-      "answer": "Entrante es cuando el cliente te llama: la IA descuelga, ayuda con lo que necesita y reserva o transfiere. Saliente es cuando la IA llama por su cuenta, normalmente con recordatorios, confirmaciones o seguimiento de un presupuesto. Puedes usar una dirección o las dos en el mismo número."
+      "answer": "Entrante es cuando el cliente te llama: la IA descuelga, ayuda con lo que necesita y reserva o toma nota del mensaje. Saliente es cuando la IA llama por su cuenta, normalmente con recordatorios, confirmaciones o seguimiento de un presupuesto. Las llamadas salientes son un complemento de tu plan."
     },
     {
       "question": "¿Puedo conservar mi número de teléfono actual?",
@@ -412,7 +412,7 @@
     },
     {
       "question": "¿Qué pasa si la IA no puede ayudar?",
-      "answer": "Está configurada para reconocer sus propios límites. Ante reclamaciones, urgencias o preguntas sin respuesta, transfiere al compañero adecuado o toma un recado con nombre, teléfono y motivo para que podáis devolver la llamada."
+      "answer": "Está configurada para reconocer sus propios límites. Ante reclamaciones, urgencias o preguntas sin respuesta, toma un recado con nombre, teléfono y motivo. La llamada queda en el panel con grabación y resumen para que podáis devolverla."
     },
     {
       "question": "¿Es legal llamar de forma automatizada?",

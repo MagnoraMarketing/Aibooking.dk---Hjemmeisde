@@ -38,7 +38,7 @@ export const webshopFr: BlogTranslations = {
         <div><span>🛍️</span><b>Le client pose sa question</b>sur le site ou par téléphone</div>
         <div><span>🤖</span><b>L’IA comprend</b>la voix ou le texte, dans sa langue</div>
         <div><span>🔗</span><b>Consultation de Shopify</b>produits, stocks, commandes</div>
-        <div><span>✅</span><b>Elle résout la demande</b>répond, recommande ou réserve</div>
+        <div><span>✅</span><b>Elle résout la demande</b>répond, trouve le produit ou réserve</div>
         <div><span>📊</span><b>Vous recevez le résumé</b>transcription et tendances</div>
       </div>
       <div class="blog-cta"><strong>Écoutez la voix IA sur votre propre boutique</strong><p>Essai gratuit de 7 jours – mis en place lors d’une courte séance d’onboarding.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Démarrer l’essai gratuit</a><a href="/demo">Réserver une démo</a></div></div>
@@ -47,7 +47,7 @@ export const webshopFr: BlogTranslations = {
         <div class="blog-card"><h3><span class="blog-icon">🛒</span>Données produits en temps réel depuis Shopify</h3><p>Prix, variantes, tailles et matières sont lus directement dans votre catalogue.</p><p class="why"><b>Pourquoi :</b> des réponses toujours à jour, sans FAQ à maintenir.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">📦</span>Stock en temps réel</h3><p>L’IA vérifie le stock avant de promettre quoi que ce soit.</p><p class="why"><b>Pourquoi :</b> pas de clients déçus et moins d’annulations.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">🚚</span>Suivi de commande</h3><p>« Où est mon colis ? » reçoit une réponse à partir du statut réel de la commande.</p><p class="why"><b>Pourquoi :</b> la question de support la plus fréquente disparaît de votre boîte mail.</p></div>
-        <div class="blog-card"><h3><span class="blog-icon">🔁</span>Réachat dans la conversation</h3><p>Les clients fidèles recommandent un article à la voix ou par chat.</p><p class="why"><b>Pourquoi :</b> plus d’achats répétés, avec moins de friction.</p></div>
+        <div class="blog-card"><h3><span class="blog-icon">🔎</span>Trouve le bon produit</h3><p>Le client décrit ce qu’il cherche à la voix ou par chat, et l’IA répond sur la taille, le stock et le prix avec un lien vers le produit.</p><p class="why"><b>Pourquoi :</b> moins de paniers abandonnés quand la question trouve sa réponse tout de suite.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">🎙️</span>Widget vocal IA</h3><p>Les clients parlent ou écrivent à un réceptionniste IA sur votre site.</p><p class="why"><b>Pourquoi :</b> l’impression d’un vendeur personnel, à toute heure.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">📞</span>L’IA pour les appels entrants</h3><p>Répond au téléphone en quelques secondes, vous gardez votre numéro.</p><p class="why"><b>Pourquoi :</b> aucun client ne tombe sur la messagerie.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">♾️</span>Appels simultanés illimités</h3><p>Cinq clients peuvent appeler en même temps, sans file d’attente.</p><p class="why"><b>Pourquoi :</b> le Black Friday et la haute saison ne coûtent pas de personnel en plus.</p></div>
@@ -133,9 +133,9 @@ export const webshopFr: BlogTranslations = {
   },
   'shopify-ai-automatisering': {
     title: `L’IA pour Shopify : configurer un assistant IA et automatiser votre boutique`,
-    excerpt: `Un guide pratique pour les marchands Shopify : connecter la boutique, ce que l’IA peut lire et faire, le suivi de commande et le réachat, l’ajout du widget au thème et ce qu’il faut automatiser en premier.`,
+    excerpt: `Un guide pratique pour les marchands Shopify : connecter la boutique, ce que l’IA peut lire et faire, le suivi de commande, le stock et les variantes, l’ajout du widget au thème et ce qu’il faut automatiser en premier.`,
     meta_title: `L’IA pour Shopify : un assistant IA pour votre boutique | AIBooking.dk`,
-    meta_description: `Connecter un assistant IA à Shopify : ce qu’il lit, le suivi de commande et le réachat, l’ajout du widget au thème et ce qu’il faut automatiser en premier.`,
+    meta_description: `Connecter un assistant IA à Shopify : ce qu’il lit, suivi de commande, stock et variantes, widget dans le thème et quoi automatiser en premier.`,
     content: `
       <p>Shopify facilite la gestion d’une boutique en ligne – mais le service client ne passe pas à l’échelle tout seul. Ce guide montre comment connecter un assistant IA à votre boutique Shopify, ce qu’il peut faire de vos données et quelles tâches automatiser en premier.</p>
       <h2>Étape 1 : connecter Shopify</h2>
@@ -153,7 +153,7 @@ export const webshopFr: BlogTranslations = {
         <tr><td>Questions produits et tailles</td><td>Automatiser dès le départ</td></tr>
         <tr><td>Stock et délai de livraison</td><td>Automatiser dès le départ</td></tr>
         <tr><td>Statut de commande (« où est mon colis ? »)</td><td>Automatiser dès le départ</td></tr>
-        <tr><td>Réachat de commandes précédentes</td><td>Une fois les trois premières en place</td></tr>
+        <tr><td>Recherche de produits avec tailles et stock</td><td>Une fois les trois premières en place</td></tr>
         <tr><td>Retours selon des règles fixes</td><td>Expliquer les règles, transmettre le dossier</td></tr>
         <tr><td>Réclamations et remboursements</td><td>Toujours à un collaborateur</td></tr>
       </tbody></table></div>

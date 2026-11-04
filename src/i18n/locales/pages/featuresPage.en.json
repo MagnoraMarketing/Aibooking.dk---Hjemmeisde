@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Features: AI Receptionist, Chatbot & Booking | Aibooking.dk",
-    "description": "All features: AI phone answering for inbound and outbound calls, an AI chatbot and voice widget for your website, automatic booking, SMS and a dashboard.",
+    "description": "All features: AI phone answering, an AI chatbot and voice widget for your site, automatic booking in your calendar, recordings, summaries and a dashboard.",
     "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, AI features, AI reception, AI widget, AI employee, AI customer service, AI inbound calls, outbound calls, AI dashboard, automatic booking"
   },
   "breadcrumb": {
@@ -77,7 +77,7 @@
     "unknown_caller": "Unknown number",
     "outcome_booked": "Booked",
     "outcome_info": "Info given",
-    "outcome_forwarded": "Forwarded",
+    "outcome_forwarded": "Message taken",
     "weekly_activity_label": "Weekly activity",
     "days": [
       "M",
@@ -108,7 +108,7 @@
     "Understands accents and everyday speech",
     "Handles multiple simultaneous calls",
     "Automatic booking right in the conversation",
-    "Transfers to human support when needed",
+    "Recording, transcript and summary of every call",
     "Full call summary sent to you after the call"
   ],
   "outgoing": {
@@ -222,13 +222,13 @@
       ]
     },
     {
-      "title": "SMS Reminders and Confirmations",
-      "description": "Reduce no-shows by up to 60% with automatic SMS reminders. Customers receive confirmations and reminders tailored to your business's tone and brand.",
+      "title": "Confirmations, rescheduling and cancellations",
+      "description": "Customers get a confirmation by email or SMS once the appointment is booked, and can move or cancel it themselves by phone or in the chat. The AI checks it's the right customer before changing anything.",
       "benefits": [
         "Automatic booking confirmations",
-        "Reminders 24 hours before appointments",
-        "Option to rebook via SMS",
-        "Custom message templates"
+        "Customers can move their appointment around the clock",
+        "Cancelling frees up the slot straight away",
+        "The customer is verified before a booking is changed"
       ]
     },
     {

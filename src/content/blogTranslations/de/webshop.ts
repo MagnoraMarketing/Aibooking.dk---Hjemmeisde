@@ -38,7 +38,7 @@ export const webshopDe: BlogTranslations = {
         <div><span>🛍️</span><b>Kunde fragt</b>auf der Website oder am Telefon</div>
         <div><span>🤖</span><b>KI versteht</b>Sprache oder Text, in seiner Sprache</div>
         <div><span>🔗</span><b>Shopify-Abfrage</b>Produkte, Lager, Bestellungen</div>
-        <div><span>✅</span><b>Löst es</b>antwortet, bestellt nach oder bucht</div>
+        <div><span>✅</span><b>Löst es</b>antwortet, findet den Artikel oder bucht</div>
         <div><span>📊</span><b>Sie erhalten die Zusammenfassung</b>Transkript und Trends</div>
       </div>
       <div class="blog-cta"><strong>Hören Sie die KI-Stimme in Ihrem eigenen Shop</strong><p>7 Tage kostenlos testen – eingerichtet in einem kurzen Onboarding-Termin.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Kostenlos testen</a><a href="/demo">Demo buchen</a></div></div>
@@ -47,7 +47,7 @@ export const webshopDe: BlogTranslations = {
         <div class="blog-card"><h3><span class="blog-icon">🛒</span>Live-Produktdaten aus Shopify</h3><p>Preise, Varianten, Größen und Materialien werden direkt aus Ihrem Katalog gelesen.</p><p class="why"><b>Warum:</b> Die Antworten sind immer aktuell – keine FAQ zu pflegen.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">📦</span>Lagerbestand in Echtzeit</h3><p>Die KI prüft den Bestand, bevor sie etwas verspricht.</p><p class="why"><b>Warum:</b> Keine enttäuschten Kunden und weniger Stornierungen.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">🚚</span>Sendungsverfolgung</h3><p>„Wo ist mein Paket?“ wird anhand des Live-Bestellstatus beantwortet.</p><p class="why"><b>Warum:</b> Die häufigste Supportfrage verschwindet aus Ihrem Posteingang.</p></div>
-        <div class="blog-card"><h3><span class="blog-icon">🔁</span>Nachbestellung im Gespräch</h3><p>Stammkunden bestellen einen früheren Artikel per Sprache oder Chat nach.</p><p class="why"><b>Warum:</b> Mehr Wiederholungskäufe mit weniger Aufwand.</p></div>
+        <div class="blog-card"><h3><span class="blog-icon">🔎</span>Findet den richtigen Artikel</h3><p>Kunden beschreiben per Sprache oder Chat, was sie suchen, und die KI nennt Größe, Bestand und Preis mit Link zum Produkt.</p><p class="why"><b>Warum:</b> weniger abgebrochene Warenkörbe, wenn die Frage sofort beantwortet ist.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">🎙️</span>KI-Sprach-Widget</h3><p>Kunden sprechen oder schreiben mit einer KI-Rezeption auf Ihrer Website.</p><p class="why"><b>Warum:</b> Das Gefühl eines persönlichen Verkäufers – rund um die Uhr.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">📞</span>KI für eingehende Anrufe</h3><p>Nimmt Anrufe in Sekunden an, Ihre bisherige Nummer bleibt.</p><p class="why"><b>Warum:</b> Kein Kunde landet auf der Mailbox.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">♾️</span>Unbegrenzt viele gleichzeitige Anrufe</h3><p>Fünf Kunden können gleichzeitig anrufen, ohne Warteschlange.</p><p class="why"><b>Warum:</b> Black Friday und Hochsaison kosten kein zusätzliches Personal.</p></div>
@@ -133,9 +133,9 @@ export const webshopDe: BlogTranslations = {
   },
   'shopify-ai-automatisering': {
     title: `Shopify KI: Einen KI-Assistenten einrichten und Ihren Shop automatisieren`,
-    excerpt: `Ein praktischer Leitfaden für Shopify-Händler: den Shop verbinden, was die KI lesen und tun kann, Sendungsverfolgung und Nachbestellungen, das Widget ins Theme einbauen und was Sie zuerst automatisieren sollten.`,
+    excerpt: `Ein praktischer Leitfaden für Shopify-Händler: den Shop verbinden, was die KI lesen und tun kann, Sendungsverfolgung, Bestand und Varianten, das Widget ins Theme einbauen und was Sie zuerst automatisieren sollten.`,
     meta_title: `Shopify KI: KI-Assistent für Ihren Shop einrichten | AIBooking.dk`,
-    meta_description: `Einen KI-Assistenten mit Shopify verbinden: was er liest, Sendungsverfolgung und Nachbestellungen, das Widget im Theme und was Sie zuerst automatisieren.`,
+    meta_description: `Einen KI-Assistenten mit Shopify verbinden: was er liest, Sendungsverfolgung, Bestand und Varianten, das Widget im Theme und was Sie zuerst automatisieren.`,
     content: `
       <p>Mit Shopify lässt sich ein Onlineshop leicht betreiben – aber der Kundenservice skaliert nicht von allein. Dieser Leitfaden zeigt, wie Sie einen KI-Assistenten mit Ihrem Shopify-Shop verbinden, was er mit Ihren Daten tun kann und welche Aufgaben Sie zuerst automatisieren sollten.</p>
       <h2>Schritt 1: Shopify verbinden</h2>
@@ -153,7 +153,7 @@ export const webshopDe: BlogTranslations = {
         <tr><td>Produktfragen und Größen</td><td>Von Anfang an automatisieren</td></tr>
         <tr><td>Lagerbestand und Lieferzeit</td><td>Von Anfang an automatisieren</td></tr>
         <tr><td>Bestellstatus („Wo ist mein Paket?“)</td><td>Von Anfang an automatisieren</td></tr>
-        <tr><td>Nachbestellung früherer Käufe</td><td>Sobald die ersten drei laufen</td></tr>
+        <tr><td>Produktsuche mit Größen und Bestand</td><td>Sobald die ersten drei laufen</td></tr>
         <tr><td>Retouren nach festen Regeln</td><td>Regeln erklären, den Fall weitergeben</td></tr>
         <tr><td>Reklamationen und Erstattungen</td><td>Immer an einen Mitarbeiter</td></tr>
       </tbody></table></div>

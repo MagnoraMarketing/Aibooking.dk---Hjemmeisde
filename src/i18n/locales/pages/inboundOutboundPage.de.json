@@ -26,8 +26,8 @@
       "direction": "Eingehend · Unbekannte Nummer",
       "timer": "00:51",
       "transcriptLabel": "Live-Transkript",
-      "line": "Sie sind für morgen um 8:30 Uhr eingetragen. Sie erhalten sofort eine SMS-Bestätigung.",
-      "actions": ["Termin gebucht", "SMS gesendet", "Auftrag angelegt"]
+      "line": "Sie sind für morgen um 8:30 Uhr eingetragen. Sie erhalten sofort eine Bestätigung per E-Mail.",
+      "actions": ["Termin gebucht", "E-Mail gesendet", "Auftrag angelegt"]
     }
   },
   "whatIs": {
@@ -37,7 +37,7 @@
     "para3": "Sie bestimmen den Umfang: nur eingehend, nur ausgehend oder beides über dieselbe Nummer.",
     "inbound": {
       "title": "Eingehend",
-      "desc": "Nimmt innerhalb von Sekunden ab, bucht in Ihren Kalender, beantwortet die immer gleichen Fragen und verbindet mit Ihrem Team, wenn ein Anliegen einen Menschen braucht."
+      "desc": "Nimmt innerhalb von Sekunden ab, bucht in Ihren Kalender, beantwortet die immer gleichen Fragen und nimmt eine Nachricht mit Zusammenfassung auf, wenn ein Anliegen einen Menschen braucht."
     },
     "outbound": {
       "title": "Ausgehend",
@@ -70,7 +70,7 @@
         { "role": "customer", "time": "0:35", "text": "Morgen um 8:30 Uhr passt gut." },
         { "role": "ai", "time": "0:39", "text": "Prima. Darf ich noch Ihre Adresse und eine Handynummer für die Bestätigung haben?" },
         { "role": "customer", "time": "0:45", "text": "Südstraße 14, Hamburg." },
-        { "role": "ai", "time": "0:51", "text": "Vielen Dank. Sie sind für morgen um 8:30 Uhr eingetragen. Sie erhalten gleich eine SMS-Bestätigung und eine Stunde vorher eine Erinnerung." }
+        { "role": "ai", "time": "0:51", "text": "Vielen Dank. Sie sind für morgen um 8:30 Uhr eingetragen. Die Bestätigung kommt gleich per E-Mail." }
       ],
       "outcomesLabel": "Was die KI dabei erledigt hat",
       "outcomes": [
@@ -97,7 +97,7 @@
         { "role": "customer", "time": "0:11", "text": "Oh, den hatte ich ganz vergessen. Ich bin morgen bis 15 Uhr bei der Arbeit." },
         { "role": "ai", "time": "0:18", "text": "Das ist überhaupt kein Problem. Ich kann Ihnen morgen um 15:45 Uhr oder Freitag um 9:30 Uhr anbieten. Was passt Ihnen besser?" },
         { "role": "customer", "time": "0:26", "text": "Freitag um 9:30 Uhr, bitte." },
-        { "role": "ai", "time": "0:30", "text": "Ihr Termin ist auf Freitag um 9:30 Uhr verschoben. Sie erhalten gleich eine SMS mit der neuen Uhrzeit. Einen schönen Tag noch." }
+        { "role": "ai", "time": "0:30", "text": "Ihr Termin ist auf Freitag um 9:30 Uhr verschoben. Sie erhalten die neue Uhrzeit per E-Mail. Einen schönen Tag noch." }
       ],
       "outcomesLabel": "Was die KI dabei erledigt hat",
       "outcomes": [
@@ -167,16 +167,16 @@
         "description": "Synchronisiert mit Google Kalender, Outlook und gängiger Branchensoftware. Die KI sieht nur wirklich freie Zeiten – keine Doppelbuchungen."
       },
       {
-        "title": "SMS-Bestätigung und Erinnerung",
-        "description": "Auf den Anruf folgt eine SMS mit Uhrzeit und Adresse und vor dem Termin eine Erinnerung. Genau diese Kombination senkt Terminausfälle."
+        "title": "Bestätigung per E-Mail und SMS",
+        "description": "Der Kunde erhält Termin und Details per E-Mail als Kalendereinladung und kann zusätzlich eine SMS bekommen, damit der Termin nicht vergessen wird."
       },
       {
         "title": "Aufzeichnung, Zusammenfassung und Transkript",
         "description": "Jeder Anruf wird mit vollständigem Transkript und einer kurzen Zusammenfassung der Vereinbarungen gespeichert. So können Sie das Gespräch jederzeit belegen."
       },
       {
-        "title": "Verbindet, wenn ein Mensch gebraucht wird",
-        "description": "Die KI erkennt Fälle, die sie nicht entscheiden sollte – Reklamationen, Notfälle, Verhandlungen – und verbindet mit der richtigen Person oder nimmt eine Nachricht auf."
+        "title": "Verbindet weiter oder nimmt eine Nachricht auf",
+        "description": "Die KI erkennt Fälle, die sie nicht entscheiden sollte – Reklamationen, Notfälle, Verhandlungen – und verbindet mit der richtigen Person oder nimmt eine Nachricht mit Name, Nummer und kurzer Zusammenfassung auf."
       },
       {
         "title": "DSGVO und Datensicherheit",
@@ -228,7 +228,7 @@
       { "feature": "Erinnerungen am Vortag", "inbound": false, "outbound": true },
       { "feature": "Bei Leads und Angeboten nachfassen", "inbound": false, "outbound": true },
       { "feature": "Wiederkehrende Fragen beantworten", "inbound": true, "outbound": false },
-      { "feature": "An Kollegen weiterverbinden", "inbound": true, "outbound": false },
+      { "feature": "Nachricht mit Zusammenfassung fürs Team", "inbound": true, "outbound": false },
       { "feature": "Abgesagten Termin neu vergeben", "inbound": true, "outbound": true },
       { "feature": "Aufzeichnung und Zusammenfassung", "inbound": true, "outbound": true }
     ]
@@ -244,7 +244,7 @@
     "free": "Kostenlos",
     "mostPopular": "Am häufigsten gewählt",
     "cta": "Jetzt starten",
-    "note": "Jedes Paket umfasst ein- und ausgehende Anrufe, Kalenderintegration, SMS und Aufzeichnung."
+    "note": "Jedes Paket umfasst eingehende Anrufe, das KI-Widget, Kalenderintegration und Aufzeichnung. Ausgehende Anrufe sind als Zusatzpaket erhältlich."
   },
   "cta": {
     "title": "Hören Sie Ihre eigene KI-Stimme, bevor Sie sich entscheiden",
@@ -257,7 +257,7 @@
   "faq": [
     {
       "question": "Was ist der Unterschied zwischen eingehenden und ausgehenden Anrufen?",
-      "answer": "Eingehend bedeutet, dass der Kunde Sie anruft – die KI nimmt ab, hilft beim Anliegen und bucht oder verbindet weiter. Ausgehend bedeutet, dass die KI selbst anruft, typischerweise mit Erinnerungen, Bestätigungen oder Nachfragen zu einem Angebot. Sie können eine Richtung oder beide über dieselbe Nummer nutzen."
+      "answer": "Eingehend bedeutet, dass der Kunde Sie anruft – die KI nimmt ab, hilft beim Anliegen und bucht oder nimmt eine Nachricht auf. Ausgehend bedeutet, dass die KI selbst anruft, typischerweise mit Erinnerungen, Bestätigungen oder Nachfragen zu einem Angebot. Ausgehende Anrufe sind ein Zusatzpaket."
     },
     {
       "question": "Kann ich meine bisherige Telefonnummer behalten?",
@@ -273,7 +273,7 @@
     },
     {
       "question": "Was passiert, wenn die KI nicht helfen kann?",
-      "answer": "Sie ist so eingerichtet, dass sie ihre Grenzen erkennt. Bei Reklamationen, dringenden Fällen oder Fragen, auf die sie keine Antwort hat, verbindet sie mit der richtigen Person oder nimmt eine Nachricht mit Name, Nummer und Anliegen auf, damit Sie zurückrufen können."
+      "answer": "Sie ist so eingerichtet, dass sie ihre Grenzen erkennt. Bei Reklamationen, dringenden Fällen oder Fragen, auf die sie keine Antwort hat, nimmt sie eine Nachricht mit Name, Nummer und Anliegen auf. Das Gespräch liegt mit Aufzeichnung und Zusammenfassung im Dashboard, damit Sie zurückrufen können."
     },
     {
       "question": "Sind automatisierte ausgehende Anrufe erlaubt?",

@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Calendar, Mail, MessageSquare, ShoppingBag, FileText, Zap, Video, Share2, Truck } from 'lucide-react';
+import { Calendar, ShoppingBag, FileText, Globe, Phone, Truck } from 'lucide-react';
 import type { SupportedLanguage } from '../../i18n/config';
 import { buildLocalizedPath } from '../../utils/localePaths';
 
@@ -12,8 +12,10 @@ function IntegrationGrid() {
   const contactHref = buildLocalizedPath(lang, '/kontakt');
 
   const integrationsText = t('gridSection.integrations', { returnObjects: true }) as IntegrationItem[];
-  const integrationIcons = [Calendar, Mail, MessageSquare, MessageSquare, ShoppingBag, FileText, FileText, Zap, Video, Video, MessageSquare, MessageSquare, Share2, Share2, Share2, Truck, Truck];
-  const integrationPopular = [true, true, true, false, true, false, true, true, true, false, false, false, false, true, true, true, true];
+  // Same order as gridSection.integrations: three calendars, Shopify, website
+  // widget, phone number, knowledge base, Just Eat, Uber Direct.
+  const integrationIcons = [Calendar, Calendar, Calendar, ShoppingBag, Globe, Phone, FileText, Truck, Truck];
+  const integrationPopular = [true, true, false, true, true, false, false, true, true];
   const integrations = integrationsText.map((item, i) => ({ ...item, icon: integrationIcons[i], popular: integrationPopular[i] }));
 
   const clinicPoints = t('gridSection.clinicHighlight.points', { returnObjects: true }) as ClinicPoint[];

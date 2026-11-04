@@ -1,0 +1,174 @@
+{
+  "seo": {
+    "title": "IA pour Shopify : chatbot et agent vocal | Aibooking.dk",
+    "description": "IA pour Shopify : chatbot, widget vocal et agent téléphonique qui consultent produits, tailles, stock, livraison, retours et suivi de commande en direct.",
+    "keywords": "IA pour Shopify, chatbot Shopify, service client IA Shopify, assistant virtuel e-commerce, agent vocal IA boutique en ligne, suivi de commande chatbot, chatbot Shopify en français"
+  },
+  "breadcrumb": {
+    "home": "Accueil",
+    "ecommerce": "E-commerce",
+    "shopify": "IA pour Shopify"
+  },
+  "hero": {
+    "badge": "Intégration Shopify",
+    "title": "Une IA pour Shopify qui répond à vos clients",
+    "highlight": "dans le chat et au téléphone",
+    "subtitle": "Connectez votre boutique Shopify et l'assistant IA consulte les produits, tailles, couleurs, stocks, livraisons, retours et le suivi des commandes directement dans la boutique, pendant que le client pose sa question. Sur votre site en chat et widget vocal, et au téléphone quand les clients appellent.",
+    "primary": "Créer un compte gratuit"
+  },
+  "channels": {
+    "title": "Deux canaux, une seule connexion Shopify",
+    "subtitle": "Certains clients écrivent, d'autres appellent. Vous connectez la boutique à l'agent qui répond, et il effectue les mêmes recherches dans Shopify, que le client soit dans le chat ou au téléphone.",
+    "items": [
+      {
+        "title": "Widget IA sur votre boutique Shopify",
+        "description": "Une petite fenêtre sur votre boutique où le client écrit ou parle à l'assistant IA. Il trouve l'article, répond sur la taille et le stock et envoie un lien cliquable vers la fiche produit.",
+        "points": [
+          "Le client peut écrire ou parler",
+          "Liens produits cliquables issus directement de Shopify",
+          "Répond aussi le soir et le week-end, quand le service client est fermé",
+          "S'ajoute à votre thème avec un seul code d'intégration"
+        ]
+      },
+      {
+        "title": "Agent téléphonique IA pour votre boutique",
+        "description": "Les clients qui appellent obtiennent une réponse tout de suite. L'IA décroche, répond aux questions sur les produits et vérifie le suivi de commande à partir du numéro de commande, au lieu de renvoyer l'appel vers la messagerie.",
+        "points": [
+          "Vous recevez un numéro et y transférez votre ligne actuelle",
+          "Les mêmes réponses sur les produits, la livraison et les retours que dans le chat",
+          "Statut de commande et d'expédition à partir du numéro de commande",
+          "Enregistrement et transcription de l'appel dans le tableau de bord"
+        ]
+      }
+    ],
+    "linkIntro": "En savoir plus sur les deux canaux :",
+    "widgetLink": "Widget et chatbot IA",
+    "phoneLink": "Standard téléphonique IA"
+  },
+  "capabilities": {
+    "title": "Ce que l'IA consulte dans votre boutique",
+    "subtitle": "L'IA ne garde aucune copie périmée de votre catalogue. Chaque question sur un produit, un prix ou une commande devient une recherche dans Shopify au moment où le client la pose. La réponse correspond donc à l'état réel de la boutique.",
+    "items": [
+      {
+        "title": "Recherche de produits",
+        "description": "Le client décrit l'article avec ses mots, par exemple « baskets de running noires en 42 ». L'IA trouve les produits correspondants avec nom, prix et variantes."
+      },
+      {
+        "title": "Variantes et stock",
+        "description": "Taille, couleur, référence et stock de chaque variante. Si le client demande une taille précise, l'IA lui dit si celle-ci est en stock."
+      },
+      {
+        "title": "Livraison, retours et CGV",
+        "description": "L'IA lit vos propres politiques de livraison, de remboursement et vos conditions de vente dans Shopify. Si vous modifiez le texte dans Shopify, l'IA répond avec la nouvelle version."
+      },
+      {
+        "title": "Statut et suivi de commande",
+        "description": "« Où en est ma commande ? » L'IA demande le numéro de commande et indique le statut, le transporteur, le numéro de suivi et la date de livraison prévue, quand Shopify les connaît."
+      }
+    ]
+  },
+  "examples": {
+    "title": "Concrètement, ça donne quoi ?",
+    "subtitle": "Trois demandes courantes dans une boutique en ligne et la réponse de l'assistant IA.",
+    "channel": {
+      "widget": "Chat sur la boutique",
+      "phone": "Téléphone"
+    },
+    "who": {
+      "customer": "Client",
+      "ai": "Assistant IA"
+    },
+    "items": [
+      {
+        "title": "Taille et stock",
+        "channel": "widget",
+        "lines": [
+          { "who": "customer", "text": "Vous avez l'imperméable Nord en noir, taille L ?" },
+          { "who": "ai", "text": "Oui, l'imperméable Nord existe en noir en taille L et il est en stock. Il coûte 119,90 €. Voir le produit" },
+          { "who": "customer", "text": "Vous en avez un moins cher ?" },
+          { "who": "ai", "text": "L'imperméable Basic coûte 74,90 € et il est en stock en noir, taille L. Voir le produit" }
+        ]
+      },
+      {
+        "title": "Où en est ma commande ?",
+        "channel": "phone",
+        "lines": [
+          { "who": "customer", "text": "Je n'ai toujours pas reçu mon colis." },
+          { "who": "ai", "text": "Je regarde tout de suite. Quel est votre numéro de commande ?" },
+          { "who": "customer", "text": "C'est le 10482." },
+          { "who": "ai", "text": "La commande 10482 est partie hier par Colissimo, la livraison est prévue demain. Le numéro de suivi figure dans votre e-mail de confirmation d'expédition." }
+        ]
+      },
+      {
+        "title": "Retours",
+        "channel": "widget",
+        "lines": [
+          { "who": "customer", "text": "Je peux renvoyer les chaussures si elles sont trop petites ?" },
+          { "who": "ai", "text": "Oui. Selon la politique de retour de la boutique, vous avez 30 jours à partir de la livraison et l'article doit être neuf. La politique complète est ici : Lire la politique de retour" }
+        ]
+      }
+    ],
+    "note": "Ces exemples proviennent d'une boutique fictive. Les noms, prix et politiques viennent toujours de la boutique Shopify connectée."
+  },
+  "limits": {
+    "title": "Ce que fait l'IA, et ce qu'elle ne fait pas",
+    "subtitle": "L'intégration est conçue pour donner des réponses justes, pas pour promettre plus qu'elle ne peut tenir.",
+    "doesTitle": "L'assistant IA",
+    "does": [
+      "Trouve les produits et répond sur le prix, la taille, la couleur et le stock",
+      "Donne un lien cliquable vers la bonne fiche produit dans le chat",
+      "Répond sur l'expédition, la livraison, les retours et les CGV à partir de vos propres politiques",
+      "Vérifie le statut de commande et d'expédition dès que le client donne son numéro de commande",
+      "Dit clairement quand la boutique ne vend pas un article ou qu'une commande est introuvable"
+    ],
+    "doesNotTitle": "L'assistant IA ne fait pas",
+    "doesNot": [
+      "N'ajoute pas d'articles au panier et n'encaisse pas de paiement. Le client achète lui-même via le lien produit",
+      "Ne modifie, n'annule ni ne rembourse de commandes",
+      "Ne lit pas à voix haute les noms, adresses, articles commandés ou données de paiement",
+      "N'invente ni produits, ni prix, ni liens",
+      "Ne lit pas de liens au téléphone. La conversation est enregistrée dans le tableau de bord pour que vous puissiez assurer le suivi"
+    ]
+  },
+  "privacy": {
+    "title": "Données de commande et confidentialité",
+    "text": "L'IA ne consulte une commande que lorsque le client a donné lui-même le numéro de commande, et elle n'indique que le statut, l'expédition et la livraison. Le nom, l'e-mail, l'adresse, les articles et le paiement ne sont jamais transmis à l'IA. Aibooking ne conserve pas les données de commande : elles sont récupérées dans Shopify pour cette seule réponse et ne sont pas réutilisées. La connexion n'a qu'un accès en lecture aux produits, aux commandes et aux politiques de la boutique."
+  },
+  "setup": {
+    "title": "Comment démarrer",
+    "steps": [
+      {
+        "title": "Créez un compte gratuit",
+        "description": "Vous bénéficiez de 7 jours d'essai, sans engagement et sans carte bancaire."
+      },
+      {
+        "title": "Créez un agent",
+        "description": "Choisissez un widget pour le site ou un agent téléphonique, donnez-lui un nom et choisissez la langue et la voix."
+      },
+      {
+        "title": "Connectez Shopify",
+        "description": "Dans l'onglet Webshop, saisissez l'adresse de votre boutique (votreboutique.myshopify.com) et validez la connexion dans Shopify."
+      },
+      {
+        "title": "Passez en ligne",
+        "description": "Collez le code d'intégration dans votre thème Shopify, ou transférez votre numéro de téléphone vers le numéro attribué à l'agent."
+      }
+    ],
+    "mockCaption": "L'onglet Webshop du tableau de bord Aibooking, où la boutique est connectée"
+  },
+  "delivery": {
+    "title": "Livraison locale par coursier",
+    "text": "Si vous avez un entrepôt ou une boutique physique, l'agent peut aussi commander une livraison par coursier avec Uber Direct ou Just Eat, là où le service existe dans votre zone. Il obtient le prix et le délai, les annonce au client et ne commande qu'après son accord.",
+    "link": "Voir toutes les intégrations"
+  },
+  "languages": {
+    "title": "Pour les boutiques qui vendent en plusieurs langues",
+    "text": "Chaque agent parle la langue que vous choisissez : français, anglais, allemand, espagnol, portugais ou danois. Si vous vendez dans plusieurs pays, chaque boutique ou marché peut avoir son propre agent."
+  },
+  "finalCta": {
+    "title": "Confiez à l'IA les questions qui reviennent tous les jours",
+    "subtitle": "Connectez votre boutique Shopify pendant l'essai et testez l'IA sur vos propres produits avant de vous décider.",
+    "primary": "Créer un compte gratuit",
+    "secondary": "Réserver une présentation"
+  }
+}

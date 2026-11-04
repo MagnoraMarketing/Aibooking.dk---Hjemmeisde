@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Try the AI Receptionist Free for 7 Days | Aibooking.dk",
-    "description": "Try Aibooking.dk free for 7 days. Forward your number and test inbound and outbound AI calls with free credit, SMS, email and WhatsApp.",
+    "description": "Try Aibooking.dk free for 7 days. Forward your number and test the AI phone agent and website widget with 10 free minutes. No card needed.",
     "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, free trial, 7-day trial, AI receptionist trial, test AI phone assistant, onboarding call, phone number forwarding"
   },
   "breadcrumb": {
@@ -33,21 +33,21 @@
       },
       {
         "title": "Test on real calls for 7 days",
-        "desc": "See how the AI receptionist handles both inbound and outbound calls in practice, with full access to the dashboard and call history."
+        "desc": "See how the AI receptionist handles your calls and chats in practice, with full access to the dashboard and call history."
       }
     ]
   },
   "inclusions": {
     "title": "What's included in your trial",
     "subtitle": "7 days of full access to the platform, free of charge",
-    "voice_label": "Talk time in/out",
-    "voice_value": "Free credit included",
-    "sms_label": "SMS",
-    "sms_value": "100 free SMS",
-    "email_label": "Email",
-    "email_value": "3,000 free emails",
-    "whatsapp_label": "WhatsApp",
-    "whatsapp_value": "100 free messages"
+    "voice_label": "Talk time",
+    "voice_value": "10 free minutes",
+    "sms_label": "Widget",
+    "sms_value": "Chat and voice on your website",
+    "email_label": "Calendar",
+    "email_value": "Google, Outlook or Cal.com",
+    "whatsapp_label": "Recordings",
+    "whatsapp_value": "Recording and transcript of conversations"
   },
   "upgrade": {
     "title": "No need to wait for the trial to end",
@@ -69,7 +69,7 @@
       },
       {
         "title": "How much can I test during the trial?",
-        "desc": "Your free credit covers both inbound and outbound AI calls during the 7 days, so you can test the entire call flow, not just one direction."
+        "desc": "The free minutes cover inbound calls and widget conversations during the 7 days. Outbound calling is an add-on with its own free trial."
       },
       {
         "title": "Can I upgrade before the trial ends?",

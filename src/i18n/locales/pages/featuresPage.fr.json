@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Réceptionniste IA, Chatbot & Prise de RDV | Aibooking.dk",
-    "description": "Standard téléphonique IA pour appels entrants et sortants, chatbot IA pour site web, prise de rendez-vous automatique, SMS et tableau de bord.",
+    "description": "Standard téléphonique IA, chatbot IA pour site web, prise de rendez-vous automatique dans votre agenda, enregistrements, résumés et tableau de bord.",
     "keywords": "permanence téléphonique IA, réceptionniste virtuel IA, widget pour boutique en ligne, widget IA pour Shopify, fonctionnalités IA, réceptionniste IA, dashboard IA, appels entrants, appels sortants, widget IA, réservation automatique, chat IA, IA en français"
   },
   "breadcrumb": {
@@ -77,7 +77,7 @@
     "unknown_caller": "Numéro inconnu",
     "outcome_booked": "Réservé",
     "outcome_info": "Info donnée",
-    "outcome_forwarded": "Transféré",
+    "outcome_forwarded": "Message pris",
     "weekly_activity_label": "Activité hebdomadaire",
     "days": [
       "L",
@@ -108,7 +108,7 @@
     "Comprend les accents et le langage familier",
     "Gère plusieurs appels simultanés",
     "Réservation automatique directement pendant l'appel",
-    "Transfert vers un support humain si nécessaire",
+    "Enregistrement, transcription et résumé de chaque appel",
     "Résumé complet de l'appel envoyé après la conversation"
   ],
   "outgoing": {
@@ -222,13 +222,13 @@
       ]
     },
     {
-      "title": "Rappels et Confirmations par SMS",
-      "description": "Réduisez les rendez-vous manqués jusqu'à 60% grâce à des rappels SMS automatiques. Les clients reçoivent des confirmations et rappels adaptés au ton et à l'image de votre entreprise.",
+      "title": "Confirmations, reports et annulations",
+      "description": "Le client reçoit une confirmation par e-mail ou SMS dès que le rendez-vous est pris, et peut le déplacer ou l'annuler lui-même par téléphone ou dans le chat. L'IA vérifie qu'il s'agit du bon client avant de modifier quoi que ce soit.",
       "benefits": [
         "Confirmations de réservation automatiques",
-        "Rappels 24 heures avant les rendez-vous",
-        "Possibilité de reporter par SMS",
-        "Modèles de messages personnalisés"
+        "Le client peut déplacer son rendez-vous à toute heure",
+        "Une annulation libère le créneau immédiatement",
+        "Le client est vérifié avant toute modification"
       ]
     },
     {

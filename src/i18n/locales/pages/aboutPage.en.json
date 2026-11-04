@@ -78,7 +78,7 @@
     "description": "Our AI solution isn't just another chatbot. It's the result of decades of experience in telemarketing and customer contact. We understand what it takes to deliver professional customer service, and we've built a solution that truly works in practice.",
     "incoming": {
       "title": "Inbound calls",
-      "description": "Our virtual receptionist handles all inbound calls, answers questions, takes bookings, and only transfers calls when necessary. That means fewer interrupted workflows and more time for core tasks.",
+      "description": "Our virtual receptionist handles all inbound calls, answers questions and takes bookings. Anything it can't resolve is waiting in the dashboard with a summary, so you can call back. That means fewer interrupted workflows and more time for core tasks.",
       "features": [
         "24/7 availability",
         "Professional communication in your customers’ language",

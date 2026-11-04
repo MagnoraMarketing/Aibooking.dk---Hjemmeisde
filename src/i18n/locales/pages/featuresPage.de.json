@@ -44,7 +44,7 @@
     "unknown_caller": "Unbekannte Nummer",
     "outcome_booked": "Gebucht",
     "outcome_info": "Auskunft erteilt",
-    "outcome_forwarded": "Weitergeleitet",
+    "outcome_forwarded": "Nachricht notiert",
     "weekly_activity_label": "Wochenaktivität",
     "days": ["M", "D", "M", "D", "F", "S", "S"],
     "live_data": "Live-Daten"
@@ -67,7 +67,7 @@
     "Versteht Dialekte und Umgangssprache",
     "Bearbeitet mehrere Anrufe gleichzeitig",
     "Automatische Buchung direkt im Gespräch",
-    "Leitet bei Bedarf an einen Mitarbeiter weiter",
+    "Aufzeichnung, Transkript und Zusammenfassung jedes Anrufs",
     "Vollständige Gesprächszusammenfassung nach jedem Anruf"
   ],
   "outgoing": {
@@ -146,9 +146,9 @@
       "benefits": ["Anbindung an Google Kalender und Outlook", "Synchronisierung in Echtzeit", "Automatische Verfügbarkeitsprüfung", "Bearbeitet Umbuchungen und Absagen"]
     },
     {
-      "title": "SMS-Erinnerungen und Bestätigungen",
-      "description": "Senken Sie Terminausfälle mit automatischen SMS-Erinnerungen um bis zu 60 %. Kunden erhalten Bestätigungen und Erinnerungen im Ton und Stil Ihrer Marke.",
-      "benefits": ["Automatische Buchungsbestätigungen", "Erinnerungen 24 Stunden vor dem Termin", "Umbuchung per SMS möglich", "Eigene Nachrichtenvorlagen"]
+      "title": "Bestätigungen, Umbuchungen und Absagen",
+      "description": "Kunden erhalten eine Bestätigung per E-Mail oder SMS, sobald der Termin gebucht ist, und können ihn selbst am Telefon oder im Chat verschieben oder absagen. Die KI prüft, ob es der richtige Kunde ist, bevor sie etwas ändert.",
+      "benefits": ["Automatische Buchungsbestätigungen", "Kunden können ihren Termin rund um die Uhr verschieben", "Eine Absage gibt den Termin sofort frei", "Der Kunde wird geprüft, bevor ein Termin geändert wird"]
     },
     {
       "title": "DSGVO-konform mit Hosting in Dänemark",

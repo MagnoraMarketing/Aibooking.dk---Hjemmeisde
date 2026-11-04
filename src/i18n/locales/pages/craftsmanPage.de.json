@@ -16,13 +16,13 @@
   },
   "solution": {
     "title": "Nie wieder einen Auftrag verpassen",
-    "description": "Unser KI-Rezeptionist löst dieses Problem ein für alle Mal. Das System nimmt jeden Anruf an, erfasst die Kundendaten, bucht Besichtigungstermine und verschickt automatische Bestätigungen per SMS. In Ihrem Dashboard sehen Sie jede Anfrage, hören aufgezeichnete Gespräche, bekommen kurze Zusammenfassungen dessen, was der Kunde möchte, und sehen, was vereinbart wurde. Ihr Kalender aktualisiert sich automatisch – egal, welches System Sie nutzen. Schluss mit der Sorge um verpasste Aufträge: Konzentrieren Sie sich auf Ihr Handwerk."
+    "description": "Unser KI-Rezeptionist löst dieses Problem ein für alle Mal. Das System nimmt jeden Anruf an, erfasst die Kundendaten, bucht Besichtigungstermine und schickt dem Kunden eine Bestätigung per E-Mail. In Ihrem Dashboard sehen Sie jede Anfrage, hören aufgezeichnete Gespräche, bekommen kurze Zusammenfassungen dessen, was der Kunde möchte, und sehen, was vereinbart wurde. Der Termin landet direkt in Ihrem Google-, Outlook- oder Cal.com-Kalender. Schluss mit der Sorge um verpasste Aufträge: Konzentrieren Sie sich auf Ihr Handwerk."
   },
   "benefits": [
     { "title": "Jede Anfrage beantworten", "description": "Auch wenn Sie auf der Baustelle sind und nicht ans Telefon können" },
     { "title": "Automatische Erfassung", "description": "Kundendaten und Auftragsbeschreibungen werden automatisch gespeichert" },
     { "title": "Besichtigungen direkt buchen", "description": "Direkt in Ihren Kalender – synchronisiert automatisch mit Ihrem System" },
-    { "title": "SMS-Bestätigungen", "description": "Für Sie und den Kunden, mit allen wichtigen Details" },
+    { "title": "Bestätigung per E-Mail", "description": "Der Kunde erhält Termin und Details per E-Mail, Sie eine Zusammenfassung im Dashboard" },
     { "title": "Komplettes Dashboard", "description": "Sehen Sie jede Kundenanfrage und was vereinbart wurde" },
     { "title": "Rund um die Uhr erreichbar", "description": "Das System arbeitet Tag und Nacht, auch am Wochenende" }
   ],

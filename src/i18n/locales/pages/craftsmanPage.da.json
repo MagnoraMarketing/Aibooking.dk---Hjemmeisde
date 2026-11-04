@@ -16,13 +16,13 @@
   },
   "solution": {
     "title": "Aldrig gå glip af en ordre igen",
-    "description": "Vores AI-receptionist løser dette problem én gang for alle. Systemet tager imod alle opkald, registrerer kundeoplysninger, booker besigtigelser og sender automatiske bekræftelser via SMS. I dit dashboard kan du se alle henvendelser, lytte til optagede samtaler, få korte opsummeringer af hvad kunden ønsker, og se hvad der er blevet aftalt. Din kalender opdateres automatisk, uanset hvilket system du bruger. Slip for bekymringen om mistede ordrer – fokuser på dit håndværk. Kort sagt en AI-telefonpasser, der aldrig holder fri."
+    "description": "Vores AI-receptionist løser dette problem én gang for alle. Systemet tager imod alle opkald, registrerer kundeoplysninger, booker besigtigelser og sender kunden en bekræftelse på e-mail. I dit dashboard kan du se alle henvendelser, lytte til optagede samtaler, få korte opsummeringer af hvad kunden ønsker, og se hvad der er blevet aftalt. Bookingen lander direkte i din Google-, Outlook- eller Cal.com-kalender. Slip for bekymringen om mistede ordrer – fokuser på dit håndværk. Kort sagt en AI-telefonpasser, der aldrig holder fri."
   },
   "benefits": [
     { "title": "Tag imod alle henvendelser", "description": "Selv når du er på job og ikke kan svare på telefonen" },
     { "title": "Automatisk registrering", "description": "Kundeoplysninger og opgavebeskrivelser gemmes automatisk" },
     { "title": "Book besigtigelser direkte", "description": "I din kalender – synkroniserer automatisk med dit system" },
-    { "title": "SMS-bekræftelser", "description": "Til både dig og kunden med alle relevante detaljer" },
+    { "title": "Bekræftelse på e-mail", "description": "Kunden får tid og detaljer på e-mail, og du får et resumé i dashboardet" },
     { "title": "Komplet dashboard", "description": "Se alle kundehenvendelser og hvad der er aftalt" },
     { "title": "24/7 tilgængelighed", "description": "Systemet arbejder hele døgnet, også i weekenden" }
   ],

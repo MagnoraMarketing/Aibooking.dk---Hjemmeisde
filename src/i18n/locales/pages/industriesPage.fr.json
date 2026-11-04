@@ -22,13 +22,13 @@
     "healthcare": {
       "title": "Cliniques et Santé",
       "subtitle": "La liberté de vous concentrer sur les soins aux patients",
-      "description": "En tant que clinique, vous savez à quel point il est important d'offrir à vos patients le meilleur traitement. Mais les tâches administratives comme les appels téléphoniques, les réservations et les annulations volent un temps précieux aux soins des patients.\n\nNotre réceptionniste IA gère toutes les demandes des clients de manière professionnelle — des nouvelles réservations aux reports et confirmations. Avec des rappels SMS automatiques, vous réduisez considérablement les rendez-vous manqués. Votre dashboard personnalisé vous donne une vue d'ensemble complète : écoutez tous les appels, consultez de courts résumés de chaque conversation, ce qui a été convenu, les statistiques de réservation et l'intégration au calendrier. Vous pouvez continuer à utiliser votre logiciel de calendrier actuel — notre système se synchronise automatiquement.",
+      "description": "En tant que clinique, vous savez à quel point il est important d'offrir à vos patients le meilleur traitement. Mais les tâches administratives comme les appels téléphoniques, les réservations et les annulations volent un temps précieux aux soins des patients.\n\nNotre réceptionniste IA traite toutes les demandes des clients de façon professionnelle – des nouvelles réservations aux reports et confirmations. Les patients peuvent déplacer ou annuler leur rendez-vous à toute heure, pour que le créneau profite à quelqu'un d'autre. Votre tableau de bord vous donne une vue d'ensemble : écoutez tous les appels et consultez de courts résumés de chaque conversation et de ce qui a été convenu. Les rendez-vous arrivent directement dans Google Agenda, Outlook/Microsoft 365 ou Cal.com.",
       "benefits": [
-        "Réduisez le temps au téléphone de 85 % — concentrez-vous sur vos patients",
-        "Les rappels SMS automatiques réduisent les rendez-vous manqués jusqu'à 60 %",
+        "Moins d'interruptions au téléphone — plus de temps pour vos patients",
+        "Les patients déplacent et annulent eux-mêmes : les créneaux sont libérés aussitôt",
         "Gérez réservations, reports et annulations 24h/24 et 7j/7",
         "Dashboard complet avec historique des appels et résumés de conversations",
-        "Intégration avec votre système de réservation et calendrier existants",
+        "Réservation dans Google Agenda, Outlook/Microsoft 365 ou Cal.com",
         "Conformité RGPD totale pour les données sensibles des patients"
       ],
       "stats": [
@@ -53,12 +53,12 @@
     "craftsman": {
       "title": "Artisans",
       "subtitle": "Arrêtez de perdre des commandes parce que le téléphone ne répond pas",
-      "description": "Vous connaissez cette situation : vous êtes en plein travail et le téléphone sonne. Si vous répondez, vous perdez votre concentration. Si vous ne répondez pas, vous risquez de perdre une bonne commande. C'est une situation impossible.\n\nNotre réceptionniste IA résout ce problème une fois pour toutes. Le système répond à tous les appels, enregistre les coordonnées du client, réserve des visites sur site et envoie des confirmations SMS automatiques. Dans votre dashboard, vous pouvez voir toutes les demandes, écouter les conversations enregistrées, obtenir de courts résumés de ce que le client souhaite, et voir ce qui a été convenu. Votre calendrier se met à jour automatiquement, quel que soit le système que vous utilisez. Ne vous inquiétez plus des commandes perdues — concentrez-vous sur votre métier.",
+      "description": "Vous connaissez cette situation : vous êtes en plein travail et le téléphone sonne. Si vous répondez, vous perdez votre concentration. Si vous ne répondez pas, vous risquez de perdre une bonne commande. C'est une situation impossible.\n\nNotre réceptionniste IA résout ce problème une fois pour toutes. Le système répond à tous les appels, enregistre les informations client, planifie les visites sur site et envoie au client une confirmation par e-mail. Dans votre tableau de bord, vous pouvez consulter toutes les demandes, écouter les conversations enregistrées, obtenir des résumés courts de ce que souhaite le client, et voir ce qui a été convenu. Le rendez-vous arrive directement dans votre agenda Google, Outlook ou Cal.com. Ne vous souciez plus des commandes perdues – concentrez-vous sur votre métier.",
       "benefits": [
         "Répondez à toutes les demandes même lorsque vous êtes sur un chantier",
         "Enregistrement automatique des coordonnées du client et des descriptions de tâches",
         "Réservez des visites sur site directement dans votre calendrier — synchronisation automatique",
-        "Confirmations SMS pour vous et pour le client",
+        "Une confirmation par e-mail pour le client et un résumé pour vous",
         "Dashboard avec toutes les demandes des clients et ce qui a été convenu",
         "Ne manquez plus jamais une commande — le système fonctionne 24h/24 et 7j/7"
       ],
@@ -84,14 +84,14 @@
     "office": {
       "title": "Bureau et Administration",
       "subtitle": "Un service client professionnel sans interruptions",
-      "description": "Dans les entreprises de bureau, la concentration et la productivité sont essentielles. Mais les appels téléphoniques constants interrompent le flux de travail et réduisent considérablement l'efficacité. En même temps, il est important d'offrir aux clients un service rapide et professionnel.\n\nAvec Aibooking.dk, vous bénéficiez du meilleur des deux mondes. Notre réceptionniste IA filtre tous les appels entrants, gère les réservations de réunions, répond aux questions courantes et ne transfère que les demandes les plus importantes. Votre équipe gagne en tranquillité pour travailler de manière concentrée, tandis que les clients bénéficient d'un service professionnel 24h/24. Le dashboard vous donne un contrôle total : écoutez toutes les conversations, consultez des résumés détaillés, les statistiques de réservation et l'intégration au calendrier. Parfait pour les avocats, comptables, consultants et autres entreprises de services intellectuels.",
+      "description": "Dans les entreprises de bureau, la concentration et la productivité sont essentielles. Mais les appels téléphoniques constants interrompent le flux de travail et réduisent considérablement l'efficacité. En même temps, il est important d'offrir aux clients un service rapide et professionnel.\n\nAvec Aibooking.dk, vous obtenez le meilleur des deux mondes. Notre réceptionniste IA prend tous les appels entrants, réserve les réunions, répond aux questions courantes et note tout le reste avec un court résumé pour que vous puissiez rappeler. Votre équipe travaille avec concentration, tandis que les clients bénéficient d'un service professionnel 24 heures sur 24. Le tableau de bord vous donne une vue d'ensemble : écoutez chaque conversation et consultez les résumés et ce qui a été convenu. Idéal pour les avocats, comptables, consultants et autres entreprises du savoir.",
       "benefits": [
         "Réduisez les interruptions et améliorez la productivité des employés",
         "Service téléphonique professionnel sans coûts salariaux supplémentaires",
-        "Filtrage automatique des appels — seules les affaires importantes sont transférées",
+        "Les appels que l'IA ne peut pas régler sont conservés avec un résumé pour rappeler",
         "Réservez des réunions directement dans le calendrier partagé de l'équipe",
-        "Dashboard avec historique des conversations, résumés et statistiques",
-        "Intégration avec les systèmes CRM et de calendrier existants"
+        "Tableau de bord avec historique des conversations, enregistrements et résumés",
+        "Réservation dans Google Agenda, Outlook/Microsoft 365 ou Cal.com"
       ],
       "stats": [
         {
@@ -115,14 +115,14 @@
     "ecommerce": {
       "title": "Boutiques en Ligne et E-commerce",
       "subtitle": "Un service client qui évolue avec votre entreprise",
-      "description": "Dans le monde de l'e-commerce, un service client rapide est essentiel à la réussite. Des réponses tardives aux demandes des clients entraînent des ventes perdues et de mauvais avis. Mais assurer un service client 24h/24 et 7j/7 est coûteux et complexe.\n\nAibooking.dk vous offre un service client propulsé par IA qui ne dort jamais. Le système répond instantanément aux questions courantes sur les produits, les délais de livraison, les retours et le statut des commandes. Les demandes complexes sont automatiquement transmises à votre équipe. Grâce aux notifications SMS, vous tenez vos clients informés tout au long du parcours d'achat. Votre dashboard affiche toutes les interactions clients, des résumés de conversations, les questions fréquentes et les tendances, afin que vous puissiez constamment optimiser votre service. Réduisez les temps de réponse de plusieurs heures à quelques secondes et améliorez considérablement la satisfaction client.",
+      "description": "Dans le monde de l'e-commerce, un service client rapide est essentiel à la réussite. Des réponses tardives aux demandes des clients entraînent des ventes perdues et de mauvais avis. Mais assurer un service client 24h/24 et 7j/7 est coûteux et complexe.\n\nAibooking.dk vous offre un service client propulsé par l'IA qui ne dort jamais. Le système répond instantanément aux questions courantes sur les produits, les délais de livraison, les retours et le statut des commandes. Ce que l'IA ne peut pas régler vous attend dans le tableau de bord avec un résumé, pour que votre équipe assure le suivi. Le tableau de bord affiche chaque conversation avec transcription, enregistrement et court résumé, afin que vous voyiez ce que demandent les clients et amélioriez vos réponses. Réduisez les temps de réponse de plusieurs heures à quelques secondes et améliorez considérablement la satisfaction client.",
       "benefits": [
         "Répondez instantanément aux demandes des clients 24h/24 sans personnel supplémentaire",
         "Traitez automatiquement les questions sur les produits, le statut des commandes et les retours",
-        "Mises à jour SMS automatiques sur les envois et livraisons",
+        "Statut et suivi de commande à partir du numéro de commande",
         "Réduisez les temps de réponse de plusieurs heures à quelques secondes",
-        "Dashboard avec interactions clients, tendances et questions fréquentes",
-        "Intégration avec votre système de boutique en ligne et de gestion des commandes"
+        "Tableau de bord avec toutes les conversations, enregistrements et résumés",
+        "Intégration Shopify avec recherche en direct des produits, du stock et des commandes"
       ],
       "stats": [
         {
@@ -163,7 +163,7 @@
     "intro": "Aibooking.dk est une solution de réceptionniste IA de premier plan venue du Danemark, automatisant le service client, la réservation et l'administration pour les entreprises de tous les secteurs.",
     "whatIs": {
       "title": "Qu'est-ce qu'une réceptionniste IA ?",
-      "paragraph1": "Une réceptionniste IA est une assistante virtuelle intelligente qui gère automatiquement toutes vos demandes clients, 24h/24. Notre technologie IA avancée peut répondre aux appels, prendre des réservations, envoyer des confirmations SMS, gérer les reports et bien plus encore — le tout sans intervention humaine.",
+      "paragraph1": "Une réceptionniste IA est une assistante virtuelle intelligente qui gère automatiquement toutes vos demandes clients, 24h/24. Notre technologie IA avancée peut répondre aux appels, prendre des réservations, envoyer des confirmations par e-mail, gérer les reports et bien plus encore — le tout sans intervention humaine.",
       "paragraph2": "Contrairement à une réceptionniste traditionnelle, Aibooking.dk travaille 24h/24 et 7j/7 sans pauses, sans congés ni arrêts maladie. Cela signifie que vos clients peuvent toujours joindre votre entreprise, quelle que soit l'heure de la journée. En même temps, vous économisez des coûts salariaux considérables et pouvez concentrer vos employés sur des tâches à plus forte valeur ajoutée."
     },
     "solutions": {
@@ -187,15 +187,15 @@
     },
     "features": {
       "title": "Des fonctionnalités avancées qui font la différence",
-      "paragraph1": "Aibooking.dk est bien plus qu'un simple répondeur téléphonique. Notre plateforme comprend un dashboard complet où vous pouvez suivre toutes les interactions clients en temps réel. Écoutez toutes les conversations enregistrées, obtenez de courts résumés de chaque conversation, consultez ce qui a été convenu, et obtenez des statistiques détaillées sur les réservations et les demandes clients.",
-      "paragraph2": "Le système s'intègre parfaitement à votre calendrier existant, que vous utilisiez Google Calendar, Outlook ou une solution spécifique à votre secteur. Vous recevez des messages SMS automatiques, tant pour vous que pour vos clients, afin que tout le monde reste informé. Et grâce à notre dashboard intuitif, vous pouvez facilement superviser votre entreprise et prendre des décisions fondées sur les données."
+      "paragraph1": "Aibooking.dk est bien plus qu'un simple répondeur téléphonique. Notre plateforme comprend un dashboard complet où vous pouvez suivre toutes les interactions clients en temps réel. Écoutez toutes les conversations enregistrées, obtenez de courts résumés de chaque conversation, consultez ce qui a été convenu, et retrouvez toutes les réservations et demandes au même endroit.",
+      "paragraph2": "Le système réserve directement dans votre agenda, que vous utilisiez Google Agenda, Outlook/Microsoft 365 ou Cal.com. Le client reçoit une confirmation par e-mail ou SMS, et vous l'enregistrement, la transcription et un court résumé de chaque conversation. Et grâce à notre tableau de bord, vous retrouvez tous les appels, chats et réservations au même endroit."
     },
     "whyChoose": {
       "title": "Pourquoi choisir Aibooking.dk ?",
       "points": [
         "Économisez plus de 10 heures par semaine sur le téléphone et l'administration",
         "Ne manquez plus jamais un client — répondez aux demandes 24h/24 et 7j/7",
-        "Réduisez les rendez-vous manqués grâce aux rappels SMS automatiques",
+        "Moins de créneaux vides : les clients déplacent et annulent à toute heure",
         "Vue d'ensemble complète avec un dashboard intelligent et des résumés de conversations",
         "Intégration transparente avec vos systèmes existants",
         "Un support personnalisé et des solutions adaptées à votre entreprise"
@@ -253,7 +253,7 @@
   },
   "salon": {
     "title": "Coiffure et beauté",
-    "text": "Les salons vivent des rendez-vous, et le téléphone sonne toujours en pleine prestation. La réceptionniste IA prend l'appel, réserve, déplace et annule les rendez-vous et envoie des rappels SMS pendant que vous travaillez.",
+    "text": "Les salons vivent des rendez-vous, et le téléphone sonne toujours en pleine prestation. La réceptionniste IA prend l'appel, réserve, déplace et annule les rendez-vous pendant que vous travaillez.",
     "link": "En savoir plus sur la réceptionniste IA pour salons"
   }
 }

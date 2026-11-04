@@ -924,6 +924,11 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
               <p className="text-lg text-ink-600 max-w-3xl mx-auto leading-relaxed">
                 {t('shopifyIntegration.subtitle')}
               </p>
+              <PageLink page="shopify" onClick={() => onNavigate('shopify')}
+                className="inline-flex items-center gap-2 text-brand-700 font-semibold hover:text-brand-800">
+                {t('shopifyIntegration.pageLink')}
+                <ArrowRight className="w-4 h-4" />
+              </PageLink>
             </div>
 
             <div className="grid sm:grid-cols-2 gap-5 mb-8 max-w-4xl mx-auto">

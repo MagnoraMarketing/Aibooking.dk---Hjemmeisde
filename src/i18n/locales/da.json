@@ -32,6 +32,10 @@
       "salon": {
         "name": "Frisør & Salon",
         "description": "Frisører, barberer, negle, skønhed"
+      },
+      "shopify": {
+        "name": "Shopify AI",
+        "description": "Chat, voice og telefon til Shopify"
       }
     },
     "see_all_industries": "Se alle brancher →",
@@ -315,7 +319,8 @@
     "facebook_share": "Del på Facebook",
     "made_by": "Lavet og drevet af",
     "salon": "Frisør & Salon",
-    "app": "Appen"
+    "app": "Appen",
+    "shopify": "Shopify AI"
   },
   "contact": {
     "title": "Kontakt Os",

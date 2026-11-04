@@ -113,5 +113,10 @@
     "title": "¿Listo para empezar?",
     "subtitle": "Reserva una reunión gratuita y sin compromiso y obtén acceso a un login de prueba para probar el sistema tú mismo",
     "button": "Reserva una reunión sin compromiso y obtén un acceso de prueba gratuito"
+  },
+  "shopifyPageLink": {
+    "title": "¿Tu tienda está en Shopify?",
+    "text": "Mira exactamente qué consulta la IA en tu tienda Shopify (productos, variantes, stock, envíos, devoluciones y estado del pedido) en el chat y por teléfono.",
+    "link": "IA para Shopify"
   }
 }

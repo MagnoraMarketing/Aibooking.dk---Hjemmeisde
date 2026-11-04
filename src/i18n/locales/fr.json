@@ -31,6 +31,10 @@
       "salon": {
         "name": "Coiffure & beauté",
         "description": "Coiffeurs, barbiers, ongles, esthétique"
+      },
+      "shopify": {
+        "name": "IA pour Shopify",
+        "description": "Chat, voix et téléphone pour Shopify"
       }
     },
     "see_all_industries": "Voir tous les secteurs →",
@@ -315,7 +319,8 @@
     "facebook_share": "Partager sur Facebook",
     "made_by": "Conçu et propulsé par",
     "salon": "Coiffure & beauté",
-    "app": "L'appli"
+    "app": "L'appli",
+    "shopify": "IA pour Shopify"
   },
   "contact": {
     "title": "Nous Contacter",

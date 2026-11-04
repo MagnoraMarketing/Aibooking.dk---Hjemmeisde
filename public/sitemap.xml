@@ -601,6 +601,66 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/integrationer" />
   </url>
   <url>
+    <loc>https://www.aibooking.dk/shopify</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/shopify" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/shopify" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/shopify" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/shopify" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/shopify" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/shopify" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/en/shopify</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/shopify" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/shopify" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/shopify" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/shopify" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/shopify" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/shopify" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/es/shopify</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/shopify" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/shopify" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/shopify" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/shopify" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/shopify" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/shopify" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/de/shopify</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/shopify" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/shopify" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/shopify" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/shopify" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/shopify" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/shopify" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/fr/shopify</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/shopify" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/shopify" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/shopify" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/shopify" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/shopify" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/shopify" />
+  </url>
+  <url>
     <loc>https://www.aibooking.dk/blog/komplet-ai-automatisering-widget-telefon-booking</loc>
     <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>

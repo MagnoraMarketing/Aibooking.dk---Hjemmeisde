@@ -157,6 +157,14 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                   {t('footer.ecommerce')}
                 </PageLink>
               </li>
+              <li>
+                <PageLink page="shopify"
+                  onClick={() => onNavigate('shopify')}
+                  className="hover:text-brand-400 transition-colors"
+                >
+                  {t('footer.shopify')}
+                </PageLink>
+              </li>
             </ul>
           </div>
 

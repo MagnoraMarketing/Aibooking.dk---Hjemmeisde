@@ -32,6 +32,10 @@
       "salon": {
         "name": "Hair & Beauty",
         "description": "Hairdressers, barbers, nails, beauty"
+      },
+      "shopify": {
+        "name": "Shopify AI",
+        "description": "Chat, voice and phone for Shopify"
       }
     },
     "see_all_industries": "See all industries →",
@@ -315,7 +319,8 @@
     "facebook_share": "Share on Facebook",
     "made_by": "Made and run by",
     "salon": "Hair & Beauty Salons",
-    "app": "The app"
+    "app": "The app",
+    "shopify": "Shopify AI"
   },
   "contact": {
     "title": "Contact Us",

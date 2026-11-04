@@ -1,0 +1,174 @@
+{
+  "seo": {
+    "title": "Shopify AI Chatbot & AI Phone Agent | Aibooking.dk",
+    "description": "AI for Shopify: a chatbot, voice widget and AI phone agent that look up products, sizes, stock, shipping, returns and order status live in your store.",
+    "keywords": "Shopify AI chatbot, AI customer service for Shopify, Shopify AI assistant, Shopify voice assistant, AI phone agent for ecommerce, Shopify order status chatbot, AI product search Shopify"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "ecommerce": "Ecommerce",
+    "shopify": "Shopify AI"
+  },
+  "hero": {
+    "badge": "Shopify integration",
+    "title": "A Shopify AI assistant that answers customers",
+    "highlight": "in chat and on the phone",
+    "subtitle": "Connect your Shopify store and the AI assistant looks up products, sizes, colours, stock, shipping, returns and order status in the store itself, while the customer is asking. On your website as a chat and voice widget, and on the phone when customers call.",
+    "primary": "Create a free account"
+  },
+  "channels": {
+    "title": "Two channels, one Shopify connection",
+    "subtitle": "Some customers type, others call. You connect the store to the agent that answers, and it runs the same Shopify lookups whether the customer is in the chat or on the phone.",
+    "items": [
+      {
+        "title": "AI widget on your Shopify store",
+        "description": "A small window on your storefront where shoppers can type or talk to the AI assistant. It finds the product, answers on size and stock and sends a clickable link to the product page.",
+        "points": [
+          "Shoppers can type or speak",
+          "Clickable product links straight from Shopify",
+          "Answers in the evening and at weekends, when support is closed",
+          "Added to your theme with a single embed code"
+        ]
+      },
+      {
+        "title": "AI phone agent for your store",
+        "description": "Customers who call get an answer straight away. The AI picks up, handles product questions and looks up order status from the order number, instead of sending the caller to voicemail.",
+        "points": [
+          "You get a phone number and forward your existing line to it",
+          "The same answers on products, shipping and returns as in chat",
+          "Order and shipping status from the order number",
+          "Call recording and transcript in your dashboard"
+        ]
+      }
+    ],
+    "linkIntro": "More about the two channels:",
+    "widgetLink": "AI widget and chatbot",
+    "phoneLink": "AI answering service"
+  },
+  "capabilities": {
+    "title": "What the AI looks up in your store",
+    "subtitle": "The AI keeps no stale copy of your catalogue. Every question about a product, a price or an order becomes a Shopify lookup the moment the customer asks, so the answer matches your store right now.",
+    "items": [
+      {
+        "title": "Product search",
+        "description": "The customer describes the item in their own words, such as \"black running shoes in a 9\". The AI finds matching products with name, price and variants."
+      },
+      {
+        "title": "Variants and stock",
+        "description": "Size, colour, SKU and stock for every variant. Ask about a specific size and the AI says whether that exact one is in stock."
+      },
+      {
+        "title": "Shipping, returns and terms",
+        "description": "The AI reads your own shipping, refund and terms policies from Shopify. Edit them in Shopify and the AI answers from the new text."
+      },
+      {
+        "title": "Order status and tracking",
+        "description": "\"Where is my order?\" The AI asks for the order number and replies with status, carrier, tracking number and expected delivery whenever Shopify has them."
+      }
+    ]
+  },
+  "examples": {
+    "title": "What it sounds like in practice",
+    "subtitle": "Three everyday ecommerce questions and how the AI assistant handles them.",
+    "channel": {
+      "widget": "Store chat",
+      "phone": "Phone"
+    },
+    "who": {
+      "customer": "Customer",
+      "ai": "AI assistant"
+    },
+    "items": [
+      {
+        "title": "Size and stock",
+        "channel": "widget",
+        "lines": [
+          { "who": "customer", "text": "Do you have the Nord rain jacket in black, size L?" },
+          { "who": "ai", "text": "Yes, the Nord rain jacket comes in black in size L and it's in stock. It's €119. View product" },
+          { "who": "customer", "text": "Anything cheaper?" },
+          { "who": "ai", "text": "The Basic rain jacket is €74 and in stock in black, size L. View product" }
+        ]
+      },
+      {
+        "title": "Where is my order?",
+        "channel": "phone",
+        "lines": [
+          { "who": "customer", "text": "My parcel still hasn't arrived." },
+          { "who": "ai", "text": "Happy to check. What's your order number?" },
+          { "who": "customer", "text": "It's 10482." },
+          { "who": "ai", "text": "Order 10482 shipped with DPD yesterday and is due tomorrow. The tracking number is in your shipping confirmation email." }
+        ]
+      },
+      {
+        "title": "Returns",
+        "channel": "widget",
+        "lines": [
+          { "who": "customer", "text": "Can I send the shoes back if they're too small?" },
+          { "who": "ai", "text": "Yes. Under the store's refund policy you have 30 days from delivery, and the item must be unworn. Full policy here: Read the refund policy" }
+        ]
+      }
+    ],
+    "note": "These examples come from a fictional store. Names, prices and policies always come from the connected Shopify store."
+  },
+  "limits": {
+    "title": "What the AI does, and what it doesn't",
+    "subtitle": "The integration is built to give correct answers, not to promise more than it can deliver.",
+    "doesTitle": "The AI assistant",
+    "does": [
+      "Finds products and answers on price, size, colour and stock",
+      "Gives a clickable link to the right product page in chat",
+      "Answers shipping, delivery, returns and terms questions from your own policies",
+      "Looks up order and shipping status once the customer gives their order number",
+      "Says so plainly when the store doesn't stock an item or an order can't be found"
+    ],
+    "doesNotTitle": "The AI assistant does not",
+    "doesNot": [
+      "Add items to the cart or take payment. Customers buy through the product link themselves",
+      "Edit, cancel or refund orders",
+      "Read out names, addresses, line items or payment details",
+      "Invent products, prices or links",
+      "Read links aloud on the phone or transfer the call to a colleague. The conversation is saved in your dashboard so you can follow up"
+    ]
+  },
+  "privacy": {
+    "title": "Order data and privacy",
+    "text": "The AI only looks up an order once the customer has given the order number, and it only shares status, shipping and delivery. Name, email, address, items and payment are never passed to the AI at all. Order data is not stored by Aibooking: it is fetched from Shopify for that one reply and not reused. The connection only has read access to products, orders and store policies."
+  },
+  "setup": {
+    "title": "How to get started",
+    "steps": [
+      {
+        "title": "Create a free account",
+        "description": "You get a 7-day trial with no commitment and no card required."
+      },
+      {
+        "title": "Create an agent",
+        "description": "Choose a website widget or a phone agent, give it a name and pick its language and voice."
+      },
+      {
+        "title": "Connect Shopify",
+        "description": "On the Webshop tab, enter your store address (yourstore.myshopify.com) and approve the connection in Shopify."
+      },
+      {
+        "title": "Go live",
+        "description": "Paste the embed code into your Shopify theme, or forward your phone number to the number the agent gets."
+      }
+    ],
+    "mockCaption": "The Webshop tab in the Aibooking dashboard, where the store is connected"
+  },
+  "delivery": {
+    "title": "Local courier delivery",
+    "text": "If you have a warehouse or a shop, the agent can also book courier delivery with Uber Direct or Just Eat where the service runs in your area. It gets the price and delivery time, reads them out and only books once the customer says yes.",
+    "link": "See all integrations"
+  },
+  "languages": {
+    "title": "For stores that sell in several languages",
+    "text": "Each agent speaks the language you choose: English, Danish, German, Spanish, French or Portuguese. If you sell into several countries, give each store or market its own agent."
+  },
+  "finalCta": {
+    "title": "Let the AI handle the questions you answer every day",
+    "subtitle": "Connect your Shopify store during the trial and test the AI on your own products before you decide.",
+    "primary": "Create a free account",
+    "secondary": "Book a walkthrough"
+  }
+}

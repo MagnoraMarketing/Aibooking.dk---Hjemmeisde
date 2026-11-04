@@ -113,5 +113,10 @@
     "title": "Ready to get started?",
     "subtitle": "Book a free, no-obligation meeting and get access to a test login so you can try the system yourself",
     "button": "Book a no-obligation meeting and get a free test login"
+  },
+  "shopifyPageLink": {
+    "title": "Running on Shopify?",
+    "text": "See exactly what the AI looks up in your Shopify store – products, variants, stock, shipping, returns and order status – in chat and on the phone.",
+    "link": "Shopify AI"
   }
 }

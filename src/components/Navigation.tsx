@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { Phone, Plug, Building2, ChevronDown, Stethoscope, Wrench, Briefcase, ShoppingCart, Scissors, MessageSquare, Users, Globe, Menu, X, LogIn, Home, Newspaper } from 'lucide-react';
+import { Phone, Plug, Building2, ChevronDown, Stethoscope, Wrench, Briefcase, ShoppingCart, ShoppingBag, Scissors, MessageSquare, Users, Globe, Menu, X, LogIn, Home, Newspaper } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { splitLocalizedPath, buildLocalizedPath } from '../utils/localePaths';
 import { SupportedLanguage } from '../i18n/config';
@@ -90,6 +90,7 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
     { name: t('nav.industries_menu.salon.name'), page: 'salon' as const, icon: Scissors, description: t('nav.industries_menu.salon.description') },
     { name: t('nav.industries_menu.office.name'), page: 'office' as const, icon: Briefcase, description: t('nav.industries_menu.office.description') },
     { name: t('nav.industries_menu.ecommerce.name'), page: 'ecommerce' as const, icon: ShoppingCart, description: t('nav.industries_menu.ecommerce.description') },
+    { name: t('nav.industries_menu.shopify.name'), page: 'shopify' as const, icon: ShoppingBag, description: t('nav.industries_menu.shopify.description') },
   ];
 
   // Read once per mount rather than tracked in state — a page switch
@@ -97,7 +98,7 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
   // this is already correct without a popstate listener.
   const currentPath = splitLocalizedPath(currentPathname()).path.replace(/\/$/, '') || '/';
   const isHomeActive = currentPath === '/';
-  const isIndustriesActive = currentPath === '/brancher' || ['/klinik', '/haandvaerker', '/frisoer', '/kontor', '/webshop'].includes(currentPath);
+  const isIndustriesActive = currentPath === '/brancher' || ['/klinik', '/haandvaerker', '/frisoer', '/kontor', '/webshop', '/shopify'].includes(currentPath);
   const isBlogActive = currentPath === '/blog' || currentPath.startsWith('/blog/');
   const isContactActive = currentPath === '/kontakt';
   const tabClass = (active: boolean) =>

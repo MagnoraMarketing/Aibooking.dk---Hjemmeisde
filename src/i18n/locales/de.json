@@ -32,6 +32,10 @@
       "salon": {
         "name": "Friseur & Salon",
         "description": "Friseure, Barbiere, Nägel, Kosmetik"
+      },
+      "shopify": {
+        "name": "KI für Shopify",
+        "description": "Chat, Voice und Telefon für Shopify"
       }
     },
     "see_all_industries": "Alle Branchen ansehen →",
@@ -315,7 +319,8 @@
     "facebook_share": "Auf Facebook teilen",
     "made_by": "Entwickelt und betrieben von",
     "salon": "Friseur & Salon",
-    "app": "Die App"
+    "app": "Die App",
+    "shopify": "KI für Shopify"
   },
   "contact": {
     "title": "Kontakt",

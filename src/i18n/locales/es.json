@@ -31,6 +31,10 @@
       "salon": {
         "name": "Peluquería y estética",
         "description": "Peluquerías, barberías, uñas, belleza"
+      },
+      "shopify": {
+        "name": "IA para Shopify",
+        "description": "Chat, voz y teléfono para Shopify"
       }
     },
     "see_all_industries": "Ver todos los sectores →",
@@ -315,7 +319,8 @@
     "facebook_share": "Compartir en Facebook",
     "made_by": "Creado y gestionado por",
     "salon": "Peluquerías y salones",
-    "app": "La app"
+    "app": "La app",
+    "shopify": "IA para Shopify"
   },
   "contact": {
     "title": "Contáctanos",

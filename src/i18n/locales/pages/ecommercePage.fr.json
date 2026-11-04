@@ -113,5 +113,10 @@
     "title": "Prêt à commencer ?",
     "subtitle": "Réservez un rendez-vous gratuit et sans engagement, et obtenez un accès test pour essayer le système vous-même",
     "button": "Réservez un rendez-vous sans engagement et obtenez un accès test gratuit"
+  },
+  "shopifyPageLink": {
+    "title": "Votre boutique tourne sur Shopify ?",
+    "text": "Découvrez précisément ce que l'IA consulte dans votre boutique Shopify (produits, variantes, stock, livraison, retours et suivi de commande) dans le chat et au téléphone.",
+    "link": "IA pour Shopify"
   }
 }

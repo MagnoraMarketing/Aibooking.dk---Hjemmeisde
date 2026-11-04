@@ -113,5 +113,10 @@
     "title": "Klar til at komme i gang?",
     "subtitle": "Book et gratis og uforpligtende møde, og få adgang til et test login så du kan prøve systemet selv",
     "button": "Book et uforpligtende møde og få et gratis test login"
+  },
+  "shopifyPageLink": {
+    "title": "Bruger du Shopify?",
+    "text": "Se præcis hvad AI'en slår op i din Shopify-butik – produkter, varianter, lager, fragt, retur og ordrestatus – i chatten og i telefonen.",
+    "link": "Shopify AI"
   }
 }

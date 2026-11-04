@@ -113,5 +113,10 @@
     "title": "Bereit für den Start?",
     "subtitle": "Buchen Sie ein kostenloses, unverbindliches Gespräch und erhalten Sie einen Testzugang, um das System selbst auszuprobieren",
     "button": "Unverbindliches Gespräch buchen und kostenlosen Testzugang erhalten"
+  },
+  "shopifyPageLink": {
+    "title": "Sie nutzen Shopify?",
+    "text": "Sehen Sie genau, was die KI in Ihrem Shopify-Shop nachschlägt – Produkte, Varianten, Bestand, Versand, Rückgabe und Bestellstatus – im Chat und am Telefon.",
+    "link": "KI für Shopify"
   }
 }

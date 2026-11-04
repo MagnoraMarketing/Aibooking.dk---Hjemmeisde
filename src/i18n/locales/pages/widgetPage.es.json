@@ -439,19 +439,19 @@
       }
     ],
     "mock": {
-      "windowLabel": "Configure Agent",
+      "windowLabel": "Configurar agente",
       "tabs": [
         "Prompt Lab",
-        "Settings",
-        "Knowledge Base",
-        "Booking",
-        "Webshop",
-        "Customise Widget",
-        "Test Agent",
-        "Embed Code"
+        "Configuración",
+        "Base de conocimiento",
+        "Reservas",
+        "Tienda online",
+        "Personalizar widget",
+        "Probar agente",
+        "Código de inserción"
       ],
-      "activeTab": "Webshop",
-      "sectionLabel": "WEBSHOP / SHOPIFY",
+      "activeTab": "Tienda online",
+      "sectionLabel": "TIENDA ONLINE / SHOPIFY",
       "statusNotConnected": "No conectado",
       "description": "Conecta tu tienda Shopify para que el agente pueda responder preguntas sobre productos y ayudar a los clientes con sus pedidos. Todo se obtiene directamente de Shopify cuando el cliente pregunta.",
       "urlLabel": "Tu dirección de Shopify",

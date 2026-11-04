@@ -395,6 +395,10 @@
   "faqSubtitle": "Ce qu'on nous demande le plus avant la mise en service d'une voix IA.",
   "faq": [
     {
+      "question": "Qu'est-ce qu'un standard téléphonique IA ?",
+      "answer": "C'est une voix IA qui décroche quand vous ne pouvez pas. Avec une permanence téléphonique classique, une personne prend un message et vous devez rappeler. L'IA peut aussi traiter la demande tout de suite : réserver, déplacer et annuler des rendez-vous dans votre agenda, répondre aux questions courantes et envoyer une confirmation par e-mail ou SMS. Ce qu'elle ne peut pas régler, elle vous le transfère ou l'enregistre comme message avec un résumé dans le tableau de bord."
+    },
+    {
       "question": "Quelle est la différence entre appels entrants et sortants ?",
       "answer": "Entrant, c'est quand le client vous appelle : l'IA décroche, l'aide sur l'objet de son appel, puis réserve ou prend un message. Sortant, c'est quand l'IA appelle d'elle-même, généralement pour des rappels, des confirmations ou la relance d'un devis. Les appels sortants sont une option à ajouter à votre formule."
     },

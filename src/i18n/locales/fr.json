@@ -387,7 +387,7 @@
   },
   "widgetPricing": {
     "badge": "Intégration Facile Sur Votre Site Web",
-    "title": "AIBooking Voice AI Widget",
+    "title": "Widget vocal IA d'AIBooking",
     "subtitle": "Un voicebot avec lequel vos clients peuvent parler directement sur votre site web - répond aux questions et gère les réservations automatiquement",
     "plan_badge": "Solution La Plus Flexible",
     "price_period": "€/mois",
@@ -428,7 +428,7 @@
       }
     ],
     "cta": "Voir le Widget IA en action",
-    "demo_widget_label": "AI Booking Assistant",
+    "demo_widget_label": "Assistant de réservation IA",
     "demo_widget_status": "En ligne",
     "demo_ai_label": "🎤 IA Vocale :",
     "demo_msg1": "Bonjour ! Vous pouvez me parler directement. Comment puis-je vous aider ?",

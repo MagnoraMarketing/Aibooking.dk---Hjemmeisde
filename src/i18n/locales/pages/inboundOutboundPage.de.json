@@ -256,6 +256,10 @@
   "faqSubtitle": "Was wir am häufigsten gefragt werden, bevor eine KI-Stimme live geht.",
   "faq": [
     {
+      "question": "Was ist ein KI-Telefonservice?",
+      "answer": "Ein KI-Telefonservice ist eine KI-Stimme, die ans Telefon geht, wenn Sie es nicht können. Bei einem klassischen Telefonservice nimmt ein Mensch eine Nachricht auf, und Sie müssen zurückrufen. Die KI kann das Anliegen auch sofort erledigen: Termine in Ihrem Kalender buchen, verschieben und stornieren, häufige Fragen beantworten und eine Bestätigung per E-Mail oder SMS schicken. Was sie nicht klären kann, stellt sie zu Ihnen durch oder speichert es als Nachricht mit Zusammenfassung im Dashboard."
+    },
+    {
       "question": "Was ist der Unterschied zwischen eingehenden und ausgehenden Anrufen?",
       "answer": "Eingehend bedeutet, dass der Kunde Sie anruft – die KI nimmt ab, hilft beim Anliegen und bucht oder nimmt eine Nachricht auf. Ausgehend bedeutet, dass die KI selbst anruft, typischerweise mit Erinnerungen, Bestätigungen oder Nachfragen zu einem Angebot. Ausgehende Anrufe sind ein Zusatzpaket."
     },

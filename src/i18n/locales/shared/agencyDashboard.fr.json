@@ -1,16 +1,16 @@
 {
   "windowLabel": "Dashboard",
   "navTabs": [
-    "Dashboard",
-    "Widget Agents",
-    "Inbound",
-    "Outbound",
-    "Dialer",
-    "Knowledge Base",
-    "Analytics",
-    "Integrations",
-    "Billing",
-    "Agency"
+    "Tableau de bord",
+    "Agents widget",
+    "Entrant",
+    "Sortant",
+    "Numéroteur",
+    "Base de connaissances",
+    "Statistiques",
+    "Intégrations",
+    "Facturation",
+    "Agence"
   ],
   "creditsLabel": "Crédits",
   "sectionHeading": {

@@ -44,10 +44,10 @@
     }
   ],
   "whatIs": {
-    "title": "Qu'est-ce qu'un AI voice widget ?",
-    "image_alt": "AI voice widget intégré sur un site web – réservation automatique et service client",
+    "title": "Qu'est-ce qu'un widget vocal IA ?",
+    "image_alt": "Widget vocal IA intégré sur un site web – réservation automatique et service client",
     "para1_pre": "Un ",
-    "para1_strong": "AI voice widget",
+    "para1_strong": "widget vocal IA",
     "para1_post": " est une interface vocale intelligente installée discrètement sur votre site web – généralement sous la forme d'un bouton flottant dans un coin. Lorsqu'un visiteur clique dessus, il peut parler directement avec votre assistant IA.",
     "para2_pre": "L'assistant IA comprend naturellement le langage parlé, peut répondre aux questions sur votre entreprise et réserver des rendez-vous directement dans votre calendrier – ",
     "para2_strong": "sans aucune intervention humaine",
@@ -289,7 +289,7 @@
     "title": "Des tarifs simples et transparents",
     "subtitle": "Choisissez la solution adaptée à votre entreprise – ne payez que ce que vous utilisez, sans frais cachés",
     "widgetPlan": {
-      "heading": "AI Voice Widget",
+      "heading": "Widget vocal IA",
       "badge": "Point de départ recommandé",
       "description": "Le moyen le plus rapide et le moins cher d'automatiser vos réservations. Le widget s'installe sur votre site web et permet aux clients de parler ou d'écrire directement avec votre assistant IA – 24h/24, sans intervention humaine.",
       "price_suffix": "€/mois",
@@ -439,19 +439,19 @@
       }
     ],
     "mock": {
-      "windowLabel": "Configure Agent",
+      "windowLabel": "Configurer l'agent",
       "tabs": [
         "Prompt Lab",
-        "Settings",
-        "Knowledge Base",
-        "Booking",
-        "Webshop",
-        "Customise Widget",
-        "Test Agent",
-        "Embed Code"
+        "Paramètres",
+        "Base de connaissances",
+        "Réservation",
+        "Boutique",
+        "Personnaliser le widget",
+        "Tester l'agent",
+        "Code d'intégration"
       ],
-      "activeTab": "Webshop",
-      "sectionLabel": "WEBSHOP / SHOPIFY",
+      "activeTab": "Boutique",
+      "sectionLabel": "BOUTIQUE / SHOPIFY",
       "statusNotConnected": "Non connecté",
       "description": "Connectez votre boutique Shopify pour que l'agent puisse répondre aux questions sur les produits et aider les clients avec leurs commandes. Tout est récupéré directement depuis Shopify lorsque le client le demande.",
       "urlLabel": "Votre adresse Shopify",

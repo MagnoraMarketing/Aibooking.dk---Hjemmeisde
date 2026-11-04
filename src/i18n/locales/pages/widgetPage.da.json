@@ -343,7 +343,7 @@
         "features": [
           "150 AI opkalds-minutter",
           "Basis stemme-tilpasning",
-          "Standard support",
+          "Standardsupport",
           "Analyse dashboard",
           "Email notifikationer"
         ],
@@ -376,7 +376,7 @@
           "API adgang",
           "Dedikeret success manager",
           "Ubegrænset integrationer",
-          "GDPR compliance support"
+          "Hjælp til GDPR-overholdelse"
         ],
         "cta": "Bestil pakke"
       }
@@ -424,8 +424,17 @@
       { "label": "Klar på 5 minutter", "desc": "Indsæt butiksadresse og API-nøgle i dashboardet, og begge kanaler er i gang" }
     ],
     "mock": {
-      "windowLabel": "Configure Agent",
-      "tabs": ["Prompt Lab", "Settings", "Knowledge Base", "Booking", "Webshop", "Customise Widget", "Test Agent", "Embed Code"],
+      "windowLabel": "Konfigurer agent",
+      "tabs": [
+        "Prompt Lab",
+        "Indstillinger",
+        "Vidensbase",
+        "Booking",
+        "Webshop",
+        "Tilpas widget",
+        "Test agenten",
+        "Indlejringskode"
+      ],
       "activeTab": "Webshop",
       "sectionLabel": "WEBSHOP / SHOPIFY",
       "statusNotConnected": "Ikke forbundet",

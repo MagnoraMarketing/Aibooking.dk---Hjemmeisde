@@ -135,7 +135,7 @@ export const webshopFr: BlogTranslations = {
     title: `L’IA pour Shopify : configurer un assistant IA et automatiser votre boutique`,
     excerpt: `Un guide pratique pour les marchands Shopify : connecter la boutique, ce que l’IA peut lire et faire, le suivi de commande, le stock et les variantes, l’ajout du widget au thème et ce qu’il faut automatiser en premier.`,
     meta_title: `L’IA pour Shopify : un assistant IA pour votre boutique | AIBooking.dk`,
-    meta_description: `Connecter un assistant IA à Shopify : ce qu’il lit, le suivi de commande, le stock et les variantes, l’ajout du widget au thème et ce qu’il faut automatiser en premier.`,
+    meta_description: `Connecter un assistant IA à Shopify : ce qu’il lit, suivi de commande, stock et variantes, widget dans le thème et quoi automatiser en premier.`,
     content: `
       <p>Shopify facilite la gestion d’une boutique en ligne – mais le service client ne passe pas à l’échelle tout seul. Ce guide montre comment connecter un assistant IA à votre boutique Shopify, ce qu’il peut faire de vos données et quelles tâches automatiser en premier.</p>
       <h2>Étape 1 : connecter Shopify</h2>

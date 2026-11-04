@@ -123,7 +123,7 @@
       },
       {
         "title": "Resumé efter hvert opkald",
-        "description": "Hvert opkald gemmes med optagelse, udskrift og et kort resumé, så du kan følge op."
+        "description": "Hvert opkald gemmes med optagelse, udskrift og et kort resumé, og kunden kan få en opfølgning på SMS eller e-mail."
       },
       {
         "title": "GDPR Sikker",
@@ -458,7 +458,7 @@
           "Patienter kan ringe og booke uden for åbningstiden – også aften og weekend",
           "Alt bliver noteret og lagt i kalenderen, så I har det fulde overblik bagefter"
         ],
-        "results": ["Tid flyttet til tors. 10:30", "Bekræftelse sendt på e-mail", "Kalender opdateret"]
+        "results": ["Tid flyttet til tors. 10:30", "Bekræftelse sendt", "Kalender opdateret"]
       },
       "craftsman": {
         "title": "Opgaven bliver booket, mens du står med værktøjet i hånden",
@@ -494,7 +494,7 @@
           "Færre afbrydelser giver længere perioder med fokuseret arbejde",
           "Rutinespørgsmål om status, priser og åbningstider besvares automatisk",
           "Møder bookes direkte i teamets fælles kalender",
-          "Opkald, AI'en ikke kan løse, ligger med resumé i dashboardet, så I kan ringe tilbage"
+          "Det, AI'en ikke kan løse, stilles videre eller ligger med resumé i dashboardet"
         ],
         "results": ["Møde booket ons. 14:30", "Invitation sendt", "Ingen afbrydelse af teamet"]
       },
@@ -548,7 +548,7 @@
         ],
         "results": [
           "Tid booket tors. 14:30",
-          "Bekræftelse sendt på e-mail",
+          "Bekræftelse sendt",
           "Ingen afbrydelse i stolen"
         ]
       }

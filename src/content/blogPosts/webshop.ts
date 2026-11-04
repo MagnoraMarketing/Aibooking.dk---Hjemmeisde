@@ -44,7 +44,7 @@ export const webshopPosts: BlogPost[] = [
         <div><span>🛍️</span><b>Customer asks</b>on the website or by phone</div>
         <div><span>🤖</span><b>AI understands</b>voice or text, in Danish</div>
         <div><span>🔗</span><b>Shopify lookup</b>products, stock, orders</div>
-        <div><span>✅</span><b>Solves it</b>answers, reorders or books</div>
+        <div><span>✅</span><b>Solves it</b>answers, finds the product or books</div>
         <div><span>📊</span><b>You get the summary</b>transcript and trends</div>
       </div>
       <div class="blog-cta"><strong>Hear the AI voice on your own store</strong><p>Free 7-day trial — set up in a short onboarding meeting.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Start free trial</a><a href="/demo">Book a demo</a></div></div>
@@ -53,7 +53,7 @@ export const webshopPosts: BlogPost[] = [
         <div class="blog-card"><h3><span class="blog-icon">🛒</span>Live product data from Shopify</h3><p>Prices, variants, sizes and materials are read directly from your catalogue.</p><p class="why"><b>Why:</b> answers are always up to date — no FAQ to maintain.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">📦</span>Real-time stock</h3><p>The AI checks stock before promising anything.</p><p class="why"><b>Why:</b> no disappointed customers and fewer cancellations.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">🚚</span>Order tracking</h3><p>"Where is my parcel?" is answered from the live order status.</p><p class="why"><b>Why:</b> the most common support question disappears from your inbox.</p></div>
-        <div class="blog-card"><h3><span class="blog-icon">🔁</span>Reorders in the conversation</h3><p>Returning customers reorder a previous item by voice or chat.</p><p class="why"><b>Why:</b> more repeat sales with less friction.</p></div>
+        <div class="blog-card"><h3><span class="blog-icon">🔎</span>Finds the right product</h3><p>Customers describe what they need by voice or chat, and the AI answers on size, stock and price with a link to the product.</p><p class="why"><b>Why:</b> fewer abandoned carts when the question is answered on the spot.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">🎙️</span>AI voice widget</h3><p>Customers talk or type with an AI receptionist on your website.</p><p class="why"><b>Why:</b> a personal shop-assistant feel, around the clock.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">📞</span>AI for inbound calls</h3><p>Answers the phone in seconds, keeps your existing number.</p><p class="why"><b>Why:</b> no customer ends up on voicemail.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">♾️</span>Unlimited simultaneous calls</h3><p>Five customers can call at once without a queue.</p><p class="why"><b>Why:</b> Black Friday and peak season cost no extra staff.</p></div>
@@ -130,7 +130,7 @@ export const webshopPosts: BlogPost[] = [
         <div><span>🛍️</span><b>Kunden spørger</b>på hjemmesiden eller i telefonen</div>
         <div><span>🤖</span><b>AI'en forstår</b>tale eller tekst, på dansk</div>
         <div><span>🔗</span><b>Opslag i Shopify</b>produkter, lager, ordrer</div>
-        <div><span>✅</span><b>Løser opgaven</b>svarer, genbestiller eller booker</div>
+        <div><span>✅</span><b>Løser opgaven</b>svarer, finder varen eller booker</div>
         <div><span>📊</span><b>Du får referatet</b>transskription og trends</div>
       </div>
       <div class="blog-cta"><strong>Hør AI-stemmen på din egen butik</strong><p>Gratis 7-dages prøveperiode — sat op på et kort onboarding-møde.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Start gratis prøveperiode</a><a href="/demo">Book en demo</a></div></div>
@@ -140,7 +140,7 @@ export const webshopPosts: BlogPost[] = [
         <div class="blog-card"><h3><span class="blog-icon">🛒</span>Live produktdata fra Shopify</h3><p>Priser, varianter, størrelser og materialer hentes direkte fra dit katalog.</p><p class="why"><b>Hvorfor:</b> svarene er altid opdaterede — ingen FAQ at vedligeholde.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">📦</span>Lagerstatus i realtid</h3><p>AI'en tjekker lageret, før den lover noget.</p><p class="why"><b>Hvorfor:</b> ingen skuffede kunder og færre annulleringer.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">🚚</span>Ordresporing</h3><p>"Hvor er min pakke?" besvares ud fra ordrens live status.</p><p class="why"><b>Hvorfor:</b> det hyppigste supportspørgsmål forsvinder fra din indbakke.</p></div>
-        <div class="blog-card"><h3><span class="blog-icon">🔁</span>Genbestilling i samtalen</h3><p>Faste kunder bestiller en tidligere vare igen med stemmen eller i chatten.</p><p class="why"><b>Hvorfor:</b> mere genkøb med mindre friktion.</p></div>
+        <div class="blog-card"><h3><span class="blog-icon">🔎</span>Finder den rigtige vare</h3><p>Kunden beskriver, hvad de leder efter, med stemmen eller i chatten, og AI'en svarer på størrelse, lager og pris med et link til produktet.</p><p class="why"><b>Hvorfor:</b> færre forladte kurve, når spørgsmålet bliver besvaret med det samme.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">🎙️</span>AI voice widget</h3><p>Kunderne taler eller skriver med en AI-receptionist på din hjemmeside.</p><p class="why"><b>Hvorfor:</b> en personlig ekspedient-oplevelse døgnet rundt.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">📞</span>AI til indgående opkald</h3><p>Tager telefonen på sekunder — du beholder dit nuværende nummer.</p><p class="why"><b>Hvorfor:</b> ingen kunde ender på telefonsvareren.</p></div>
         <div class="blog-card"><h3><span class="blog-icon">♾️</span>Ubegrænset samtidige opkald</h3><p>Fem kunder kan ringe på én gang uden kø.</p><p class="why"><b>Hvorfor:</b> højsæson koster ikke ekstra personale.</p></div>
@@ -334,8 +334,8 @@ export const webshopPosts: BlogPost[] = [
     categorySlug: 'ai-webshop',
     title_en: 'Shopify AI: Setting Up an AI Assistant and Automating Your Store',
     title_da: 'Shopify AI: Sådan sætter du en AI-assistent op og automatiserer din butik',
-    excerpt_en: 'A practical guide for Shopify merchants: connecting the store, what the AI can read and do, order tracking and reorders, adding the widget to your theme, and what to automate first.',
-    excerpt_da: 'En praktisk guide til Shopify-butikker: forbind butikken, hvad AI’en kan læse og gøre, ordresporing og genbestilling, widgeten i dit tema, og hvad du skal automatisere først.',
+    excerpt_en: 'A practical guide for Shopify merchants: connecting the store, what the AI can read and do, order tracking, stock and variants, adding the widget to your theme, and what to automate first.',
+    excerpt_da: 'En praktisk guide til Shopify-butikker: forbind butikken, hvad AI’en kan læse og gøre, ordresporing, lager og varianter, widgeten i dit tema, og hvad du skal automatisere først.',
     content_da: `
       <p>Shopify gør det nemt at drive en webshop — men kundeservicen skalerer ikke af sig selv. Denne guide viser, hvordan du forbinder en AI-assistent til din Shopify-butik, hvad den kan gøre med dine data, og hvilke opgaver du bør automatisere først.</p>
       <h2>Trin 1: Forbind Shopify</h2>
@@ -353,7 +353,7 @@ export const webshopPosts: BlogPost[] = [
         <tr><td>Produktspørgsmål og størrelser</td><td>Automatisér fra start</td></tr>
         <tr><td>Lagerstatus og leveringstid</td><td>Automatisér fra start</td></tr>
         <tr><td>Ordrestatus ("hvor er min pakke?")</td><td>Automatisér fra start</td></tr>
-        <tr><td>Genbestilling af tidligere køb</td><td>Når de første tre kører</td></tr>
+        <tr><td>Produktsøgning med størrelser og lager</td><td>Når de første tre kører</td></tr>
         <tr><td>Returnering efter faste regler</td><td>Forklar reglerne; send sagen videre</td></tr>
         <tr><td>Reklamationer og refusion</td><td>Altid til en medarbejder</td></tr>
       </tbody></table></div>
@@ -383,7 +383,7 @@ export const webshopPosts: BlogPost[] = [
         <tr><td>Product questions and sizes</td><td>Automate from the start</td></tr>
         <tr><td>Stock and delivery time</td><td>Automate from the start</td></tr>
         <tr><td>Order status ("where is my parcel?")</td><td>Automate from the start</td></tr>
-        <tr><td>Reordering previous purchases</td><td>Once the first three are running</td></tr>
+        <tr><td>Product search with sizes and stock</td><td>Once the first three are running</td></tr>
         <tr><td>Returns under fixed rules</td><td>Explain the rules; pass the case on</td></tr>
         <tr><td>Complaints and refunds</td><td>Always to a member of staff</td></tr>
       </tbody></table></div>
@@ -398,8 +398,8 @@ export const webshopPosts: BlogPost[] = [
     `,
     meta_title_en: 'Shopify AI: Set Up an AI Assistant for Your Store | AIBooking.dk',
     meta_title_da: 'Shopify AI: sæt en AI-assistent op i din butik | AIBooking.dk',
-    meta_description_en: 'Connect an AI assistant to Shopify: what it reads, order tracking and reorders, adding the widget to your theme, and what to automate first.',
-    meta_description_da: 'Forbind en AI-assistent til Shopify: hvad den læser, ordresporing og genbestilling, widgeten i dit tema, og hvad du skal automatisere først.',
+    meta_description_en: 'Connect an AI assistant to Shopify: what it reads, order tracking, stock and variants, adding the widget to your theme, and what to automate first.',
+    meta_description_da: 'Forbind en AI-assistent til Shopify: hvad den læser, ordresporing, lager og varianter, widgeten i dit tema, og hvad du skal automatisere først.',
     keywords: ['shopify ai', 'ai widget til shopify', 'shopify automatisering', 'shopify chatbot', 'shopify kundeservice ai'],
     image_url: '/blog/covers/shopify-ai-automatisering.svg',
     published: true,

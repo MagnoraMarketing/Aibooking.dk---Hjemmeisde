@@ -123,7 +123,7 @@
       },
       {
         "title": "Zusammenfassung nach jedem Anruf",
-        "description": "Jeder Anruf wird mit Aufzeichnung, Transkript und kurzer Zusammenfassung gespeichert, damit Sie nachfassen können."
+        "description": "Jeder Anruf wird mit Aufzeichnung, Transkript und kurzer Zusammenfassung gespeichert, und der Kunde kann eine Nachricht per SMS oder E-Mail erhalten."
       },
       {
         "title": "DSGVO-sicher",
@@ -458,7 +458,7 @@
           "Patienten können auch außerhalb der Öffnungszeiten anrufen und buchen – abends und am Wochenende",
           "Alles wird notiert und im Kalender eingetragen, sodass Sie danach den vollen Überblick haben"
         ],
-        "results": ["Verschoben auf Do. 10:30", "Bestätigung per E-Mail gesendet", "Kalender aktualisiert"]
+        "results": ["Verschoben auf Do. 10:30", "Bestätigung gesendet", "Kalender aktualisiert"]
       },
       "craftsman": {
         "title": "Der Auftrag wird gebucht, während Sie noch die Hände voll haben",
@@ -494,7 +494,7 @@
           "Weniger Unterbrechungen bedeuten längere Phasen konzentrierter Arbeit",
           "Routinefragen zu Status, Preisen und Öffnungszeiten werden automatisch beantwortet",
           "Meetings werden direkt im gemeinsamen Teamkalender gebucht",
-          "Anrufe, die die KI nicht klären kann, liegen mit Zusammenfassung im Dashboard, damit Sie zurückrufen können"
+          "Was die KI nicht klären kann, wird durchgestellt oder mit Zusammenfassung im Dashboard gespeichert"
         ],
         "results": ["Meeting gebucht Mi. 14:30", "Einladung gesendet", "Team nicht gestört"]
       },
@@ -548,7 +548,7 @@
         ],
         "results": [
           "Termin Do. 14:30",
-          "Bestätigung per E-Mail gesendet",
+          "Bestätigung gesendet",
           "Keine Unterbrechung am Stuhl"
         ]
       }

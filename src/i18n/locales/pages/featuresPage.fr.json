@@ -223,7 +223,7 @@
     },
     {
       "title": "Confirmations, reports et annulations",
-      "description": "Le client reçoit une confirmation par e-mail dès que le rendez-vous est pris, et peut le déplacer ou l'annuler lui-même par téléphone ou dans le chat. L'IA vérifie qu'il s'agit du bon client avant de modifier quoi que ce soit.",
+      "description": "Le client reçoit une confirmation par e-mail ou SMS dès que le rendez-vous est pris, et peut le déplacer ou l'annuler lui-même par téléphone ou dans le chat. L'IA vérifie qu'il s'agit du bon client avant de modifier quoi que ce soit.",
       "benefits": [
         "Confirmations de réservation automatiques",
         "Le client peut déplacer son rendez-vous à toute heure",

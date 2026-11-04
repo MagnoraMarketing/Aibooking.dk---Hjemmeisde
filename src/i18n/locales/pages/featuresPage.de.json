@@ -147,7 +147,7 @@
     },
     {
       "title": "Bestätigungen, Umbuchungen und Absagen",
-      "description": "Kunden erhalten eine Bestätigung per E-Mail, sobald der Termin gebucht ist, und können ihn selbst am Telefon oder im Chat verschieben oder absagen. Die KI prüft, ob es der richtige Kunde ist, bevor sie etwas ändert.",
+      "description": "Kunden erhalten eine Bestätigung per E-Mail oder SMS, sobald der Termin gebucht ist, und können ihn selbst am Telefon oder im Chat verschieben oder absagen. Die KI prüft, ob es der richtige Kunde ist, bevor sie etwas ändert.",
       "benefits": ["Automatische Buchungsbestätigungen", "Kunden können ihren Termin rund um die Uhr verschieben", "Eine Absage gibt den Termin sofort frei", "Der Kunde wird geprüft, bevor ein Termin geändert wird"]
     },
     {

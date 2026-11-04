@@ -254,16 +254,16 @@
         "description": "Synced with Google Calendar, Outlook and the common industry systems. The AI only sees slots that are genuinely free – no double bookings."
       },
       {
-        "title": "Email confirmation",
-        "description": "The AI reads the email address back and gets it confirmed, and the customer receives the time and details as a calendar invitation, so the appointment sits in their own calendar."
+        "title": "Email and SMS confirmation",
+        "description": "The customer gets the time and details by email as a calendar invitation and can also get an SMS, so the appointment isn't forgotten."
       },
       {
         "title": "Recording, summary and transcript",
         "description": "Every call is stored with a full transcript and a short summary of what was agreed. You can always document the conversation afterwards."
       },
       {
-        "title": "Takes a message when a human is needed",
-        "description": "The AI recognises the cases it shouldn't decide – complaints, emergencies, negotiations – and takes a message with name, number and a short summary so the right colleague can call back."
+        "title": "Transfers or takes a message",
+        "description": "The AI recognises the cases it shouldn't decide – complaints, emergencies, negotiations – and transfers to the right colleague or takes a message with name, number and a short summary."
       },
       {
         "title": "GDPR and data security",

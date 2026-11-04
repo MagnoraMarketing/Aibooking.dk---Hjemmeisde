@@ -254,16 +254,16 @@
         "description": "Synchronisé avec Google Calendar, Outlook et les logiciels métier courants. L'IA ne voit que les créneaux réellement libres : aucun doublon."
       },
       {
-        "title": "Confirmation par e-mail",
-        "description": "L'IA relit l'adresse e-mail et la fait confirmer ; le client reçoit l'horaire et les détails sous forme d'invitation d'agenda, et le rendez-vous figure dans son propre calendrier."
+        "title": "Confirmation par e-mail et SMS",
+        "description": "Le client reçoit l'horaire et les détails par e-mail sous forme d'invitation d'agenda, et peut aussi recevoir un SMS pour ne pas oublier le rendez-vous."
       },
       {
         "title": "Enregistrement, résumé et transcription",
         "description": "Chaque appel est conservé avec sa transcription complète et un résumé court de ce qui a été convenu. Vous pouvez toujours documenter l'échange après coup."
       },
       {
-        "title": "Prend un message quand un humain est nécessaire",
-        "description": "L'IA reconnaît les cas qu'elle ne doit pas trancher – réclamations, urgences, négociations – et prend un message avec le nom, le numéro et un court résumé pour que le bon collègue puisse rappeler."
+        "title": "Transfère ou prend un message",
+        "description": "L'IA reconnaît les cas qu'elle ne doit pas trancher – réclamations, urgences, négociations – et transfère au bon collègue ou prend un message avec le nom, le numéro et un court résumé."
       },
       {
         "title": "RGPD et sécurité des données",

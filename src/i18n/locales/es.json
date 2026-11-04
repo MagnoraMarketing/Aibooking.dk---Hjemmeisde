@@ -123,7 +123,7 @@
       },
       {
         "title": "Resumen tras cada llamada",
-        "description": "Cada llamada se guarda con grabación, transcripción y un breve resumen para que puedas hacer el seguimiento."
+        "description": "Cada llamada se guarda con grabación, transcripción y un breve resumen, y el cliente puede recibir un seguimiento por SMS o correo."
       },
       {
         "title": "Seguro Según el RGPD",
@@ -472,7 +472,7 @@
         ],
         "results": [
           "Cambiada al jue. 10:30",
-          "Confirmación enviada por correo",
+          "Confirmación enviada",
           "Calendario actualizado"
         ]
       },
@@ -538,7 +538,7 @@
           "Menos interrupciones significan periodos más largos de trabajo concentrado",
           "Las preguntas rutinarias sobre estado, precios y horarios se responden automáticamente",
           "Las reuniones se reservan directamente en el calendario compartido del equipo",
-          "Las llamadas que la IA no puede resolver quedan en el panel con un resumen para que devuelvas la llamada"
+          "Lo que la IA no puede resolver se transfiere o queda en el panel con un resumen"
         ],
         "results": [
           "Reunión el mié. 14:30",
@@ -612,7 +612,7 @@
         ],
         "results": [
           "Cita jue. 14:30",
-          "Confirmación enviada por correo",
+          "Confirmación enviada",
           "Sin interrupciones en el sillón"
         ]
       }

@@ -127,7 +127,7 @@
       "Ne modifie, n'annule ni ne rembourse de commandes",
       "Ne lit pas à voix haute les noms, adresses, articles commandés ou données de paiement",
       "N'invente ni produits, ni prix, ni liens",
-      "Ne lit pas de liens au téléphone et ne transfère pas l'appel à un collègue. La conversation est enregistrée dans le tableau de bord pour que vous puissiez rappeler"
+      "Ne lit pas de liens au téléphone. La conversation est enregistrée dans le tableau de bord pour que vous puissiez assurer le suivi"
     ]
   },
   "privacy": {

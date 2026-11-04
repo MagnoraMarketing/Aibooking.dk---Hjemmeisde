@@ -223,7 +223,7 @@
     },
     {
       "title": "Confirmaciones, cambios y cancelaciones",
-      "description": "El cliente recibe una confirmación por correo cuando se reserva la cita y puede cambiarla o cancelarla él mismo por teléfono o en el chat. La IA comprueba que es el cliente correcto antes de cambiar nada.",
+      "description": "El cliente recibe una confirmación por correo o SMS cuando se reserva la cita y puede cambiarla o cancelarla él mismo por teléfono o en el chat. La IA comprueba que es el cliente correcto antes de cambiar nada.",
       "benefits": [
         "Confirmaciones de reserva automáticas",
         "El cliente puede cambiar su cita a cualquier hora",

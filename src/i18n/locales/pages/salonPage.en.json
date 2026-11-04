@@ -21,9 +21,9 @@
   "benefits": [
     { "title": "No interruptions mid-treatment", "description": "Stay with the client in the chair. The AI answers the phone instead of you." },
     { "title": "Booking, changes and cancellations", "description": "Clients can book, move or cancel an appointment themselves, around the clock." },
-    { "title": "Email confirmations", "description": "Clients get the time and treatment by email straight away, so the appointment sits in their own calendar." },
+    { "title": "Email and SMS confirmations", "description": "Clients get the time and treatment by email straight away, so the appointment sits in their own calendar." },
     { "title": "Answers to the usual questions", "description": "Prices, treatments, opening hours and parking are answered from your own knowledge base." },
-    { "title": "Messages with a summary", "description": "Complaints or special requests are waiting for you in the app with a short summary, so you can call back." },
+    { "title": "Transfer or message", "description": "Complaints or special requests can be put through to you or wait in the app with a short summary, so you can call back." },
     { "title": "Overview in the app", "description": "See today's calls, bookings and who to call back on your phone, between two clients." }
   ],
   "workflow": {

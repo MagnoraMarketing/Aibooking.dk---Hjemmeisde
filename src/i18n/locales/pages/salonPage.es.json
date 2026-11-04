@@ -21,9 +21,9 @@
   "benefits": [
     { "title": "Sin interrupciones en mitad de un servicio", "description": "Quédate con la clienta del sillón. La IA atiende el teléfono por ti." },
     { "title": "Reservas, cambios y cancelaciones", "description": "Los clientes pueden reservar, cambiar o cancelar una cita ellos mismos, a cualquier hora." },
-    { "title": "Confirmación por correo", "description": "El cliente recibe al momento la hora y el servicio por correo, así la cita queda en su propio calendario." },
+    { "title": "Confirmación por correo y SMS", "description": "El cliente recibe al momento la hora y el servicio por correo, así la cita queda en su propio calendario." },
     { "title": "Respuestas a las preguntas de siempre", "description": "Precios, servicios, horarios y aparcamiento se responden con tu propia base de conocimiento." },
-    { "title": "Mensajes con resumen", "description": "Las reclamaciones o peticiones especiales te esperan en la app con un breve resumen para que devuelvas la llamada." },
+    { "title": "Transferencia o recado", "description": "Las reclamaciones o peticiones especiales se te pueden pasar o esperarte en la app con un breve resumen." },
     { "title": "Todo a la vista en la app", "description": "Consulta en el móvil las llamadas del día, las reservas y a quién devolver la llamada, entre dos clientes." }
   ],
   "workflow": {

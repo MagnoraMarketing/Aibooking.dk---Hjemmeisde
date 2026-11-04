@@ -147,7 +147,7 @@
     },
     {
       "title": "Bekræftelser, ombooking og aflysning",
-      "description": "Kunden får en bekræftelse på e-mail, når tiden er booket, og kan selv flytte eller aflyse tiden over telefonen eller i chatten. AI'en tjekker, at det er den rigtige kunde, før den ændrer noget.",
+      "description": "Kunden får en bekræftelse på e-mail eller SMS, når tiden er booket, og kan selv flytte eller aflyse tiden over telefonen eller i chatten. AI'en tjekker, at det er den rigtige kunde, før den ændrer noget.",
       "benefits": ["Automatiske bookingbekræftelser", "Kunden kan flytte sin tid døgnet rundt", "Aflysning frigiver tiden med det samme", "Kunden bekræftes, før en aftale ændres"]
     },
     {

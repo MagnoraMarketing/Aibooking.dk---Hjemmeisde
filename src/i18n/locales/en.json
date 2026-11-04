@@ -123,7 +123,7 @@
       },
       {
         "title": "Summary after every call",
-        "description": "Every call is saved with a recording, transcript and short summary so you can follow up."
+        "description": "Every call is saved with a recording, transcript and short summary, and the customer can get a follow-up by SMS or email."
       },
       {
         "title": "GDPR Secure",
@@ -472,7 +472,7 @@
         ],
         "results": [
           "Moved to Thu. 10:30",
-          "Confirmation emailed",
+          "Confirmation sent",
           "Calendar updated"
         ]
       },
@@ -538,7 +538,7 @@
           "Fewer interruptions mean longer stretches of focused work",
           "Routine questions about status, prices and opening hours are answered automatically",
           "Meetings are booked straight into the team's shared calendar",
-          "Calls the AI can't resolve are waiting in the dashboard with a summary, so you can call back"
+          "Anything the AI can't resolve is put through or saved with a summary in the dashboard"
         ],
         "results": [
           "Meeting booked Wed. 14:30",
@@ -612,7 +612,7 @@
         ],
         "results": [
           "Booked Thu 14:30",
-          "Confirmation emailed",
+          "Confirmation sent",
           "No interruption in the chair"
         ]
       }

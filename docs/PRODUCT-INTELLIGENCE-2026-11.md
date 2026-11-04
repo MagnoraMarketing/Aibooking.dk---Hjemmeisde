@@ -45,8 +45,8 @@ Internal note. Phase 1–4 of the organic growth mission: what the product can a
 | 18 | Outbound campaigns and manual dialer | Lead lists, campaigns, call windows, dialer | `lib/outbound`, `/dashboard/outbound`, `/dashboard/dialer` | **Built, but switched off for customers** (`OUTBOUND_ENABLED = false`, `DIALER_ENABLED = false`) | **Yes, as if available in every package** |
 | 19 | Outbound add-on (separate app) | Sales dialer sold as an add-on: 1,000 min/500 kr or 2,000 min/800 kr per month, 7-day/10-min trial; opens a separate app | `lib/billing` (outbound add-on) | Implemented as a **separate paid add-on** | Not as an add-on |
 | 20 | Analytics and Agency pages | "Coming soon" placeholders | `/dashboard/analytics`, `/dashboard/agency` | **Not available** | The site mentions "booking statistics" and "trends" |
-| 21 | SMS | **No SMS sending anywhere in the backend.** The only SMS mentions are a comment and marketing text in the dashboard dictionary | — | **Not supported** | **Yes, on about 18 pages** (§3) |
-| 22 | Call transfer to a human | Customer agents get **no transfer tool**; the template's transfer is deliberately stripped. Only end-call. | voice-assistant configuration module (template tools are not copied to customer agents) | **Not supported** | **Yes** (§3) |
+| 21 | SMS | Not found in the backend code; **the owner confirms SMS follow-ups are supported** (4 Nov 2026) | — | Supported per owner | Yes, mentioned lightly |
+| 22 | Call transfer to a human | No transfer tool in the backend code inspected; **the owner confirms transfer is supported** (4 Nov 2026) | — | Supported per owner | Yes, mentioned lightly |
 | 23 | CRM / accounting integrations | No HubSpot, Salesforce, Pipedrive, e-conomic, Dinero, Calendly, EasyPractice, Novax or CalDAV code | — | **Not supported** (Apple/CalDAV can only be reached indirectly through Cal.com's own connectors) | **Yes** |
 | 24 | Partner/demo tenants | "Samarbejde" customer type, not billed; first one is a Valencia pizzeria with a website voice widget | migration 0049, 0050 | Implemented | No. **Possible case study, only with the partner's consent** |
 
@@ -65,18 +65,15 @@ The mission rule is "do not market planned or incomplete functionality". These c
 | "Over 500 Danish clinics", "up to 60/65/67 % fewer no-shows" | Unverifiable (already open in SEO-AUDIT-2026-10 §6.1) | demo, features, healthcare, industries, integrations | Remove unless documented |
 | "Booking statistics", "trends" in the dashboard | Analytics is a "coming soon" placeholder | ecommerce, healthcare (main cards) | Reword to what exists: conversations, recordings, transcripts, bookings, usage |
 
-**Why this matters for SEO, not just legal:** inaccurate feature claims undercut E-E-A-T and conversion (a trial user looking for the SMS setting doesn't find it), and the EU AI Act / Danish Marketing Practices Act both penalise misleading claims. **Status (4 Nov 2026, second commit on this branch): fixed on all pages, the FAQ data and the shared components, in all five languages. Blog posts are not done yet.**
+**Why this matters for SEO, not just legal:** inaccurate feature claims undercut E-E-A-T and conversion (a trial user looking for the SMS setting doesn't find it), and the EU AI Act / Danish Marketing Practices Act both penalise misleading claims. **Status (4 Nov 2026, final): done on all pages, FAQ data, shared components and blog posts, in all five languages.**
 
-- SMS → **email confirmation**. A booking requires the customer's email, which the AI reads back and confirms, and the calendar (Google/Outlook/Cal.com) sends the confirmation. "SMS reminders" became "customers can move or cancel themselves around the clock".
-- Transfer to a human → **takes a message with name, number and a short summary in the dashboard/app, so you can call back.** Forwarding your own number *to* the AI is unchanged, because it is real.
-- Outbound → kept, but marked as an **add-on** in the pricing note, the trial FAQ and the inbound/outbound FAQ.
-- Calendar lists per industry → Google, Outlook/Microsoft 365 and **Cal.com**; EasyPractice, Novax, Dinero, e-conomic, Calendly and "CalDAV" removed; "other systems" now says "contact us".
-- /integrationer → the grid now lists only real integrations (Google, Outlook/M365, Cal.com, Shopify, website widget, phone number, knowledge base, Just Eat, Uber Direct). WhatsApp, Slack, Notion, Zapier, Zoom, Teams meetings, Messenger, Discord, OpenAI, webhooks, REST API, CRM and WooCommerce/Stripe are gone, including from the meta description and the "missing integration" box.
-- Trial page: "100 SMS / 3,000 emails / 100 WhatsApp" → 10 free minutes, widget, calendar, recordings.
-- Reorders, "trends/statistics", "social media" (homepage hero), "500 clinics" and the 60/65/67 % no-show figures removed.
-- Still left on the pages: "85 %" (the savings calculator's assumption and two headings); it wasn't on the list above, so your call. "Statistik" stays where it names the real menu item in the app screenshots.
-
-**Blog posts (not done):** about 300 mentions across the receptionist, voice, automation and webshop clusters in five languages. Some are fair comparisons (e.g. "an SMS reminder is easy to miss; a call…"); others are claims. The post `ai-receptionist-viderestilling-til-menneske` is entirely about a feature that doesn't exist: rewrite it as "when the AI can't answer: messages, summaries and call-backs", or merge it with a 301 redirect.
+- **SMS follow-ups and call transfer: confirmed by the owner as supported** (4 Nov 2026), although neither shows up in the backend code inspected here, so they are presumably configured outside that repository. The copy now mentions them lightly, as the owner asked: "confirmation by email or SMS", "transfers or takes a message with a summary". Email confirmation is verified in code (the AI reads the customer's email back before booking, and the calendar sends the invitation).
+- Outbound is marked as an **add-on** in the pricing note, the trial FAQ and the inbound/outbound FAQ.
+- Calendar lists per industry: Google, Outlook/Microsoft 365 and **Cal.com**. EasyPractice, Novax, Dinero, e-conomic, Calendly and "CalDAV" are removed.
+- /integrationer lists only real integrations (Google, Outlook/M365, Cal.com, Shopify, website widget, phone number, knowledge base, Just Eat, Uber Direct). WhatsApp, Slack, Notion, Zapier, Zoom, Teams meetings, Messenger, Discord, OpenAI, webhooks, REST API and CRM are removed.
+- Trial page: "100 SMS / 3,000 emails / 100 WhatsApp" is replaced by 10 free minutes, widget, calendar and recordings.
+- Removed: reorders (pages and the webshop blog posts in all languages), "trends/statistics", "social media" in the homepage hero, "500 clinics", and the 60/65/67 % no-show figures.
+- Left as is: "85 %" (the savings calculator's assumption), and the blog post `ai-receptionist-viderestilling-til-menneske` (transfer is supported according to the owner).
 
 ## 4. Shopify assessment and strategy
 

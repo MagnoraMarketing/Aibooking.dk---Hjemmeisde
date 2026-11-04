@@ -223,7 +223,7 @@
     },
     {
       "title": "Confirmations, rescheduling and cancellations",
-      "description": "Customers get an email confirmation once the appointment is booked, and can move or cancel it themselves by phone or in the chat. The AI checks it's the right customer before changing anything.",
+      "description": "Customers get a confirmation by email or SMS once the appointment is booked, and can move or cancel it themselves by phone or in the chat. The AI checks it's the right customer before changing anything.",
       "benefits": [
         "Automatic booking confirmations",
         "Customers can move their appointment around the clock",

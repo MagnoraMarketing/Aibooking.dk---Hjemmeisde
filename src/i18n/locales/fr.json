@@ -123,7 +123,7 @@
       },
       {
         "title": "Résumé après chaque appel",
-        "description": "Chaque appel est conservé avec l'enregistrement, la transcription et un court résumé pour que vous puissiez assurer le suivi."
+        "description": "Chaque appel est conservé avec l'enregistrement, la transcription et un court résumé, et le client peut recevoir un suivi par SMS ou e-mail."
       },
       {
         "title": "Sécurisé et Conforme au RGPD",
@@ -472,7 +472,7 @@
         ],
         "results": [
           "Déplacé au jeu. 10h30",
-          "Confirmation envoyée par e-mail",
+          "Confirmation envoyée",
           "Agenda mis à jour"
         ]
       },
@@ -538,7 +538,7 @@
           "Moins d'interruptions, donc des plages plus longues de travail concentré",
           "Les questions courantes sur les statuts, les tarifs et les horaires reçoivent une réponse automatique",
           "Les réunions sont planifiées directement dans l'agenda partagé de l'équipe",
-          "Les appels que l'IA ne peut pas régler vous attendent dans le tableau de bord avec un résumé, pour que vous puissiez rappeler"
+          "Ce que l'IA ne peut pas régler est transféré ou conservé avec un résumé dans le tableau de bord"
         ],
         "results": [
           "Réunion mer. 14h30",
@@ -612,7 +612,7 @@
         ],
         "results": [
           "RDV jeu. 14 h 30",
-          "Confirmation envoyée par e-mail",
+          "Confirmation envoyée",
           "Aucune interruption au fauteuil"
         ]
       }

@@ -21,9 +21,9 @@
   "benefits": [
     { "title": "Ingen afbrydelser midt i en behandling", "description": "Du kan blive ved kunden i stolen. AI'en tager telefonen i stedet for dig." },
     { "title": "Booking, flytning og aflysning", "description": "Kunderne kan selv booke en tid, flytte den eller melde afbud døgnet rundt." },
-    { "title": "Bekræftelse på e-mail", "description": "Kunden får tid og behandling på e-mail med det samme, så tiden ligger i kundens egen kalender." },
+    { "title": "Bekræftelse på e-mail og SMS", "description": "Kunden får tid og behandling på e-mail med det samme, så tiden ligger i kundens egen kalender." },
     { "title": "Svar på de faste spørgsmål", "description": "Priser, behandlinger, åbningstider og parkering bliver besvaret ud fra din egen vidensbase." },
-    { "title": "Besked med resumé", "description": "Reklamationer eller særlige ønsker ligger klar til dig i appen med et kort resumé, så du kan ringe tilbage." },
+    { "title": "Viderestilling eller besked", "description": "Reklamationer eller særlige ønsker kan stilles videre til dig eller ligge klar i appen med et kort resumé, så du kan ringe tilbage." },
     { "title": "Overblik i appen", "description": "Se dagens opkald, bookinger og hvem der skal ringes tilbage, på mobilen mellem to kunder." }
   ],
   "workflow": {

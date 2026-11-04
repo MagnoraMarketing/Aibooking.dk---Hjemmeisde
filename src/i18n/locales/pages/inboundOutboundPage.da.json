@@ -167,16 +167,16 @@
         "description": "Synkroniseret med Google Calendar, Outlook og de gængse branchesystemer. AI'en ser kun de tider der er reelt ledige – ingen dobbeltbookinger."
       },
       {
-        "title": "Bekræftelse på e-mail",
-        "description": "AI'en læser e-mailadressen op og får den bekræftet, og kunden får tid og detaljer som kalenderinvitation. Så ligger aftalen i kundens egen kalender."
+        "title": "Bekræftelse på e-mail og SMS",
+        "description": "Kunden får tid og detaljer på e-mail som kalenderinvitation og kan også få en SMS, så aftalen ikke bliver glemt."
       },
       {
         "title": "Optagelse, referat og transskription",
         "description": "Hvert opkald gemmes med fuld transskription og et kort referat af, hvad der blev aftalt. Du kan altid dokumentere samtalen bagefter."
       },
       {
-        "title": "Tager en besked, når det kræver et menneske",
-        "description": "AI'en genkender selv de sager den ikke skal afgøre – klager, akutte opgaver, forhandling – og tager en besked med navn, nummer og et kort resumé, så den rigtige kollega kan ringe tilbage."
+        "title": "Stiller om eller tager en besked",
+        "description": "AI'en genkender selv de sager den ikke skal afgøre – klager, akutte opgaver, forhandling – og stiller om til den rigtige kollega eller tager en besked med navn, nummer og et kort resumé."
       },
       {
         "title": "GDPR og datasikkerhed",

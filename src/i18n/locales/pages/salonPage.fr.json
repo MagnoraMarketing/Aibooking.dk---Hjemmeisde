@@ -21,9 +21,9 @@
   "benefits": [
     { "title": "Aucune interruption pendant une prestation", "description": "Restez avec la cliente au fauteuil. L'IA répond au téléphone à votre place." },
     { "title": "Réservation, déplacement et annulation", "description": "Vos clients réservent, déplacent ou annulent eux-mêmes, à toute heure." },
-    { "title": "Confirmation par e-mail", "description": "Le client reçoit aussitôt l'horaire et la prestation par e-mail : le rendez-vous figure dans son propre agenda." },
+    { "title": "Confirmation par e-mail et SMS", "description": "Le client reçoit aussitôt l'horaire et la prestation par e-mail : le rendez-vous figure dans son propre agenda." },
     { "title": "Réponses aux questions habituelles", "description": "Tarifs, prestations, horaires et stationnement sont traités à partir de votre propre base de connaissances." },
-    { "title": "Messages avec résumé", "description": "Réclamations et demandes particulières vous attendent dans l'appli avec un court résumé, pour que vous puissiez rappeler." },
+    { "title": "Transfert ou message", "description": "Réclamations et demandes particulières peuvent vous être transférées ou vous attendre dans l'appli avec un court résumé." },
     { "title": "Vue d'ensemble dans l'appli", "description": "Voyez sur votre mobile, entre deux clients, les appels du jour, les rendez-vous et qui rappeler." }
   ],
   "workflow": {

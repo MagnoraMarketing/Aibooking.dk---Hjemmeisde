@@ -21,9 +21,9 @@
   "benefits": [
     { "title": "Keine Unterbrechung mitten in der Behandlung", "description": "Bleiben Sie bei der Kundin im Stuhl. Die KI geht für Sie ans Telefon." },
     { "title": "Buchen, verschieben, absagen", "description": "Kunden können rund um die Uhr selbst einen Termin buchen, verschieben oder absagen." },
-    { "title": "Bestätigung per E-Mail", "description": "Kunden erhalten Termin und Behandlung sofort per E-Mail, sodass der Termin in ihrem eigenen Kalender steht." },
+    { "title": "Bestätigung per E-Mail und SMS", "description": "Kunden erhalten Termin und Behandlung sofort per E-Mail, sodass der Termin in ihrem eigenen Kalender steht." },
     { "title": "Antworten auf die üblichen Fragen", "description": "Preise, Behandlungen, Öffnungszeiten und Parken beantwortet die KI aus Ihrer eigenen Wissensdatenbank." },
-    { "title": "Nachricht mit Zusammenfassung", "description": "Reklamationen oder besondere Wünsche liegen mit kurzer Zusammenfassung in der App, damit Sie zurückrufen können." },
+    { "title": "Weiterleitung oder Nachricht", "description": "Reklamationen oder besondere Wünsche können an Sie durchgestellt werden oder mit kurzer Zusammenfassung in der App warten." },
     { "title": "Überblick in der App", "description": "Sehen Sie zwischen zwei Kunden auf dem Smartphone die Anrufe des Tages, die Termine und wen Sie zurückrufen sollten." }
   ],
   "workflow": {

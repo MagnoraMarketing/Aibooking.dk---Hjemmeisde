@@ -167,16 +167,16 @@
         "description": "Synchronisiert mit Google Kalender, Outlook und gängiger Branchensoftware. Die KI sieht nur wirklich freie Zeiten – keine Doppelbuchungen."
       },
       {
-        "title": "Bestätigung per E-Mail",
-        "description": "Die KI liest die E-Mail-Adresse vor und lässt sie bestätigen; der Kunde erhält Termin und Details als Kalendereinladung, sodass der Termin in seinem eigenen Kalender steht."
+        "title": "Bestätigung per E-Mail und SMS",
+        "description": "Der Kunde erhält Termin und Details per E-Mail als Kalendereinladung und kann zusätzlich eine SMS bekommen, damit der Termin nicht vergessen wird."
       },
       {
         "title": "Aufzeichnung, Zusammenfassung und Transkript",
         "description": "Jeder Anruf wird mit vollständigem Transkript und einer kurzen Zusammenfassung der Vereinbarungen gespeichert. So können Sie das Gespräch jederzeit belegen."
       },
       {
-        "title": "Nimmt eine Nachricht auf, wenn ein Mensch gebraucht wird",
-        "description": "Die KI erkennt Fälle, die sie nicht entscheiden sollte – Reklamationen, Notfälle, Verhandlungen – und nimmt eine Nachricht mit Name, Nummer und kurzer Zusammenfassung auf, damit die richtige Person zurückrufen kann."
+        "title": "Verbindet weiter oder nimmt eine Nachricht auf",
+        "description": "Die KI erkennt Fälle, die sie nicht entscheiden sollte – Reklamationen, Notfälle, Verhandlungen – und verbindet mit der richtigen Person oder nimmt eine Nachricht mit Name, Nummer und kurzer Zusammenfassung auf."
       },
       {
         "title": "DSGVO und Datensicherheit",

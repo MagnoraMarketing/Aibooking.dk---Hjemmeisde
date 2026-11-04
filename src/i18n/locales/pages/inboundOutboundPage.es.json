@@ -254,16 +254,16 @@
         "description": "Sincronizado con Google Calendar, Outlook y los sistemas sectoriales habituales. La IA solo ve los huecos realmente libres: sin duplicidades."
       },
       {
-        "title": "Confirmación por correo",
-        "description": "La IA repite el correo electrónico y lo confirma con el cliente, que recibe la hora y los detalles como invitación de calendario, así la cita queda en su propio calendario."
+        "title": "Confirmación por correo y SMS",
+        "description": "El cliente recibe la hora y los detalles por correo como invitación de calendario y también puede recibir un SMS, para que no olvide la cita."
       },
       {
         "title": "Grabación, resumen y transcripción",
         "description": "Cada llamada se guarda con transcripción completa y un resumen breve de lo acordado. Siempre puedes documentar la conversación después."
       },
       {
-        "title": "Toma un recado cuando hace falta una persona",
-        "description": "La IA reconoce los casos que no le corresponde decidir – reclamaciones, urgencias, negociaciones – y toma un recado con nombre, teléfono y un breve resumen para que el compañero adecuado devuelva la llamada."
+        "title": "Transfiere o toma un recado",
+        "description": "La IA reconoce los casos que no le corresponde decidir – reclamaciones, urgencias, negociaciones – y transfiere al compañero adecuado o toma un recado con nombre, teléfono y un breve resumen."
       },
       {
         "title": "RGPD y seguridad de datos",

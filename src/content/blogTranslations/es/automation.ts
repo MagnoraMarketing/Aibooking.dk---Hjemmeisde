@@ -291,4 +291,47 @@ export const automationEs: BlogTranslations = {
       { question: `¿Cuántas empresas danesas usan IA?`, answer: `Según Eurostat, alrededor del 42 % de las empresas danesas con al menos 10 empleados usaban IA en 2025, la proporción más alta de la UE.` },
     ],
   },
+  'ai-bestiller-bud-levering-uber-direct-just-eat': {
+    title: `La IA pide el repartidor: reparto con Uber Direct y Just Eat desde el teléfono y el chat`,
+    excerpt: `Cómo un asistente telefónico o un chat con IA consulta el precio de un repartidor, lo dice, espera un sí claro y pide un reparto con Uber Direct o Just Eat desde tu dirección, y qué no hace.`,
+    meta_title: `IA y reparto: Uber Direct y Just Eat | Aibooking.dk`,
+    meta_description: `Un asistente telefónico o chat con IA que consulta el precio del repartidor, espera un sí claro y pide Uber Direct o Just Eat. Cómo funciona y sus límites.`,
+    content: `
+      <p>«¿Hacéis reparto?» es una pregunta que restaurantes, panaderías y tiendas con almacén propio oyen a diario. Responderla suele exigir que alguien consulte un precio, entre en la plataforma de reparto y escriba la dirección. Con Aibooking, el agente de IA lo resuelve en la misma conversación, por teléfono y en el chat de tu web.</p>
+      <h2>Cómo funciona, paso a paso</h2>
+      <ol>
+        <li><strong>La dirección.</strong> La IA pide calle y número, código postal y ciudad, y repite la dirección al cliente.</li>
+        <li><strong>Precio y plazo.</strong> Pide un presupuesto a Uber Direct o Just Eat y dice el precio y la hora de entrega prevista. Si usas los dos, consulta ambos y deja elegir al cliente.</li>
+        <li><strong>Un sí claro.</strong> El repartidor solo se pide cuando el cliente acepta claramente ese precio.</li>
+        <li><strong>Confirmación.</strong> La IA solo dice que el repartidor está pedido cuando el servicio lo ha confirmado. En el chat, el cliente puede recibir un enlace de seguimiento.</li>
+        <li><strong>Estado.</strong> Si el cliente vuelve a llamar o escribir, la IA le dice por dónde va el pedido.</li>
+      </ol>
+      <div class="blog-callout"><strong>La recogida siempre es en tu local.</strong> La dirección de recogida es la tuya y se configura de antemano. El cliente elige dónde se entrega, nunca dónde se recoge.</div>
+      <h2>Uber Direct y Just Eat, comparados</h2>
+      <div class="blog-table"><table><thead><tr><th></th><th>Uber Direct</th><th>Just Eat</th></tr></thead><tbody>
+        <tr><td>Precio y plazo antes de pedir</td><td>Sí</td><td>Sí</td></tr>
+        <tr><td>Validez del precio</td><td>15 minutos</td><td>5 minutos</td></tr>
+        <tr><td>Estado del reparto</td><td>Sí, con enlace de seguimiento</td><td>Sí</td></tr>
+        <tr><td>Cancelación a través de la IA</td><td>Sí, tras confirmarlo el cliente</td><td>No, se remite al cliente a tu negocio</td></tr>
+      </tbody></table></div>
+      <p>Si el precio ha caducado, la IA consulta uno nuevo en lugar de pedir con un precio antiguo.</p>
+      <h2>¿A quién le sirve?</h2>
+      <ul>
+        <li><strong>Restaurantes, pizzerías y locales de comida para llevar</strong> que quieren repartir sin repartidores propios.</li>
+        <li><strong>Panaderías y cafeterías</strong> con pedidos para oficinas y eventos.</li>
+        <li><strong>Tiendas y tiendas online con almacén físico</strong> que quieren ofrecer entrega en el día en su zona.</li>
+      </ul>
+      <h2>Lo que no es</h2>
+      <p>La IA pide el repartidor, no el producto. No cobra la comida ni los productos y no envía el pedido a tu TPV. El pedido queda en la conversación del panel, para que veas lo acordado. Además, los servicios no están disponibles en todas partes: comprueba primero que Uber Direct o Just Eat funcionan en tu zona.</p>
+      <p>Como siempre con una IA al teléfono, debe presentarse como asistente digital para que el cliente sepa con quién habla, tal como exige el artículo 50 del Reglamento de IA de la UE.</p>
+      <h2>Cómo empezar</h2>
+      <p>Crea un agente, conecta Uber Direct o Just Eat en los ajustes de reparto del agente con tu dirección de recogida y prueba tú mismo una llamada. Más sobre <a href="/restaurant">IA para restaurantes</a> y <a href="/integrationer">todas las integraciones</a>.</p>
+      <div class="blog-cta"><strong>Pruébalo con tus propias llamadas</strong><p>Crea una cuenta gratis y prueba durante 7 días. Sin tarjeta.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba 7 días gratis</a><a href="/restaurant">IA para restaurantes</a></div></div>`,
+    faq: [
+      { question: `¿Puede la IA pedir un repartidor sin que el cliente acepte el precio?`, answer: `No. Siempre consulta primero el precio y el plazo, los dice y solo pide cuando el cliente da un sí claro. Si el precio ha caducado, consulta uno nuevo.` },
+      { question: `¿Puede un cliente hacer que el repartidor recoja en otro sitio?`, answer: `No. La dirección de recogida es la tuya y se configura de antemano. El cliente solo elige dónde se entrega.` },
+      { question: `¿Puede la IA cancelar un reparto?`, answer: `Puede cancelar un reparto de Uber Direct cuando el cliente lo confirma. Con Just Eat dice que el negocio se pondrá en contacto y nunca afirma que el reparto está cancelado.` },
+      { question: `¿La IA cobra la comida?`, answer: `No. Pide el repartidor, no el producto, y no cobra. La conversación queda en el panel para que veas lo acordado.` },
+    ],
+  },
 };

@@ -291,4 +291,47 @@ export const automationFr: BlogTranslations = {
       { question: `Combien d’entreprises danoises utilisent l’IA ?`, answer: `Selon Eurostat, environ 42 % des entreprises danoises d’au moins 10 salariés utilisaient l’IA en 2025, soit la plus forte proportion de l’UE.` },
     ],
   },
+  'ai-bestiller-bud-levering-uber-direct-just-eat': {
+    title: `L'IA commande le coursier : livraison avec Uber Direct et Just Eat depuis le téléphone et le chat`,
+    excerpt: `Comment un agent téléphonique ou un chat IA obtient le prix d'un coursier, l'annonce, attend un oui clair et commande une livraison Uber Direct ou Just Eat depuis votre adresse, et ce qu'il ne fait pas.`,
+    meta_title: `IA et livraison : Uber Direct et Just Eat | Aibooking.dk`,
+    meta_description: `Un agent téléphonique ou chat IA qui annonce le prix du coursier, attend un oui clair et commande Uber Direct ou Just Eat. Fonctionnement et limites.`,
+    content: `
+      <p>« Vous livrez ? » Restaurants, boulangeries et commerces avec un stock local entendent cette question tous les jours. Y répondre oblige souvent quelqu'un à chercher un prix, se connecter au service de livraison et saisir l'adresse. Avec Aibooking, l'agent IA s'en charge dans la même conversation, au téléphone et dans le chat de votre site.</p>
+      <h2>Comment ça marche, étape par étape</h2>
+      <ol>
+        <li><strong>L'adresse.</strong> L'IA demande la rue et le numéro, le code postal et la ville, puis répète l'adresse.</li>
+        <li><strong>Prix et délai.</strong> Elle obtient un devis auprès d'Uber Direct ou de Just Eat et annonce le prix et l'heure de livraison prévue. Si vous utilisez les deux, elle compare et laisse le client choisir.</li>
+        <li><strong>Un oui clair.</strong> Le coursier n'est commandé que lorsque le client accepte clairement ce prix.</li>
+        <li><strong>Confirmation.</strong> L'IA n'annonce que le coursier est commandé qu'une fois la confirmation reçue. Dans le chat, le client peut recevoir un lien de suivi.</li>
+        <li><strong>Suivi.</strong> Si le client rappelle ou réécrit, l'IA lui dit où en est la livraison.</li>
+      </ol>
+      <div class="blog-callout"><strong>L'enlèvement se fait toujours chez vous.</strong> L'adresse d'enlèvement est la vôtre et elle est configurée à l'avance. Le client choisit où livrer, jamais où enlever.</div>
+      <h2>Uber Direct et Just Eat comparés</h2>
+      <div class="blog-table"><table><thead><tr><th></th><th>Uber Direct</th><th>Just Eat</th></tr></thead><tbody>
+        <tr><td>Prix et délai avant la commande</td><td>Oui</td><td>Oui</td></tr>
+        <tr><td>Durée de validité du prix</td><td>15 minutes</td><td>5 minutes</td></tr>
+        <tr><td>Suivi de la livraison</td><td>Oui, avec lien de suivi</td><td>Oui</td></tr>
+        <tr><td>Annulation par l'IA</td><td>Oui, après confirmation du client</td><td>Non, le client est renvoyé vers vous</td></tr>
+      </tbody></table></div>
+      <p>Si le prix a expiré, l'IA en demande un nouveau au lieu de commander à un ancien tarif.</p>
+      <h2>Pour qui ?</h2>
+      <ul>
+        <li><strong>Restaurants, pizzerias et vente à emporter</strong> qui veulent livrer sans leurs propres livreurs.</li>
+        <li><strong>Boulangeries et cafés</strong> qui reçoivent des commandes pour des bureaux et des événements.</li>
+        <li><strong>Commerces et boutiques en ligne avec un stock physique</strong> qui veulent proposer la livraison le jour même dans leur quartier.</li>
+      </ul>
+      <h2>Ce que ce n'est pas</h2>
+      <p>L'IA commande le coursier, pas la marchandise. Elle n'encaisse pas le paiement des repas ou des produits et n'envoie pas la commande à votre caisse. La commande figure dans la conversation du tableau de bord, pour que vous voyiez ce qui a été convenu. Ces services ne sont pas disponibles partout : vérifiez d'abord qu'Uber Direct ou Just Eat fonctionne dans votre zone.</p>
+      <p>Comme toujours avec une IA au téléphone, elle doit se présenter comme une assistante numérique pour que le client sache à qui il parle, comme l'exige l'article 50 du règlement européen sur l'IA.</p>
+      <h2>Pour démarrer</h2>
+      <p>Créez un agent, connectez Uber Direct ou Just Eat dans les réglages de livraison de l'agent avec votre adresse d'enlèvement, et testez vous-même un appel. En savoir plus sur <a href="/restaurant">l'IA pour restaurant</a> et <a href="/integrationer">toutes les intégrations</a>.</p>
+      <div class="blog-cta"><strong>Essayez sur vos propres appels</strong><p>Créez un compte gratuit et testez pendant 7 jours. Sans carte bancaire.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Essai gratuit de 7 jours</a><a href="/restaurant">IA pour restaurant</a></div></div>`,
+    faq: [
+      { question: `L'IA peut-elle commander un coursier sans que le client ait accepté le prix ?`, answer: `Non. Elle obtient toujours d'abord le prix et le délai, les annonce et ne commande qu'après un oui clair. Si le prix a expiré, elle en demande un nouveau.` },
+      { question: `Un client peut-il faire enlever la commande ailleurs que chez nous ?`, answer: `Non. L'adresse d'enlèvement est la vôtre et configurée à l'avance. Le client choisit uniquement l'adresse de livraison.` },
+      { question: `L'IA peut-elle annuler une livraison ?`, answer: `Elle peut annuler une livraison Uber Direct une fois que le client l'a confirmé. Pour Just Eat, elle indique que l'entreprise va le recontacter et n'affirme jamais que la livraison est annulée.` },
+      { question: `L'IA encaisse-t-elle le paiement du repas ?`, answer: `Non. Elle commande le coursier, pas la marchandise, et n'encaisse rien. La conversation est dans le tableau de bord pour que vous voyiez ce qui a été convenu.` },
+    ],
+  },
 };

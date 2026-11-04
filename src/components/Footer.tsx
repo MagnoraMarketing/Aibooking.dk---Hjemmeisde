@@ -142,6 +142,14 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
                 </PageLink>
               </li>
               <li>
+                <PageLink page="restaurant"
+                  onClick={() => onNavigate('restaurant')}
+                  className="hover:text-brand-400 transition-colors"
+                >
+                  {t('footer.restaurant')}
+                </PageLink>
+              </li>
+              <li>
                 <PageLink page="office"
                   onClick={() => onNavigate('office')}
                   className="hover:text-brand-400 transition-colors"

@@ -44,6 +44,7 @@ const routeMap = {
   'AppPage.tsx': '/app',
   'SalonPage.tsx': '/frisoer',
   'ShopifyPage.tsx': '/shopify',
+  'RestaurantPage.tsx': '/restaurant',
   'BlogPage.tsx': '/blog'
 };
 
@@ -60,6 +61,7 @@ const priorityMap = {
   '/webshop': 0.7,
   '/frisoer': 0.7,
   '/shopify': 0.8,
+  '/restaurant': 0.7,
   '/app': 0.8,
   '/widget': 0.9,
   '/ind-og-udgaaende-opkald': 0.9,

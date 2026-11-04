@@ -1,0 +1,178 @@
+{
+  "seo": {
+    "title": "AI til restaurant: bordbestilling og levering | Aibooking.dk",
+    "description": "AI-telefon og chat til restaurant, pizzeria og takeaway: booker borde, svarer på menu og allergener og bestiller bud med Uber Direct og Just Eat.",
+    "keywords": "AI til restaurant, AI telefon restaurant, bordbestilling telefon AI, AI receptionist restaurant, AI til pizzeria, takeaway telefon AI, restaurant chatbot, bud levering AI"
+  },
+  "breadcrumb": {
+    "home": "Hjem",
+    "industries": "Brancher",
+    "restaurant": "Restaurant & takeaway"
+  },
+  "hero": {
+    "badge": "Restaurant, pizzeria & takeaway",
+    "title": "AI til restauranten, der tager telefonen",
+    "highlight": "midt i aftenens rush",
+    "subtitle": "Telefonen ringer, mens køkkenet koger over. AI-receptionisten booker bordet, svarer på menu, allergener og åbningstider og bestiller et bud til gæstens adresse, så personalet kan blive ved maden og gæsterne.",
+    "primary": "Opret gratis konto"
+  },
+  "channels": {
+    "title": "Telefonen og hjemmesiden, med samme viden",
+    "subtitle": "Gæsterne ringer eller skriver på hjemmesiden. Begge kanaler kender jeres menu, åbningstider og ledige borde, fordi de bruger den samme vidensbase og kalender.",
+    "items": [
+      {
+        "title": "AI-telefon til restauranten",
+        "description": "Alle opkald bliver taget, også fredag kl. 18.30. AI'en præsenterer sig som restaurantens digitale assistent, booker bordet og svarer på de spørgsmål, der kommer hver aften.",
+        "points": [
+          "Du får et nummer og viderestiller restaurantens nummer",
+          "Bordbestilling, flytning og aflysning direkte i kalenderen",
+          "Kan stille om til restauranten, når det er nødvendigt",
+          "Optagelse, udskrift og resumé af hvert opkald"
+        ]
+      },
+      {
+        "title": "Chat og voice på hjemmesiden",
+        "description": "Et lille vindue på restaurantens hjemmeside, hvor gæsten kan skrive eller tale. Den kan booke bord om natten og svare på, om retten er glutenfri.",
+        "points": [
+          "Gæsten kan skrive eller tale",
+          "Bordbestilling døgnet rundt",
+          "Svarer ud fra jeres egen menu og allergenliste",
+          "Sættes ind på hjemmesiden med én embedkode"
+        ]
+      }
+    ],
+    "linkIntro": "Læs mere om de to kanaler:",
+    "widgetLink": "AI-widget og chatbot",
+    "phoneLink": "AI-telefonpasning"
+  },
+  "capabilities": {
+    "title": "Det AI'en klarer for restauranten",
+    "subtitle": "Fire opgaver, der fylder telefonen hver aften, og som AI'en kan løse alene.",
+    "items": [
+      {
+        "title": "Bordbestilling",
+        "description": "AI'en finder en ledig tid i jeres kalender, booker bordet og sender en bekræftelse. Gæsten kan også selv flytte eller aflyse."
+      },
+      {
+        "title": "Menu og allergener",
+        "description": "Læg menukortet ind som PDF eller link, så svarer AI'en på retter, priser, allergener og vegetariske muligheder ud fra jeres egne oplysninger."
+      },
+      {
+        "title": "Levering med bud",
+        "description": "AI'en henter pris og leveringstid fra Uber Direct eller Just Eat, læser dem op og bestiller først buddet, når gæsten har sagt ja."
+      },
+      {
+        "title": "Åbningstider og flere sprog",
+        "description": "Åbningstider, parkering og selskaber bliver besvaret med det samme, og agenten kan tale dansk, engelsk, tysk, spansk, fransk eller portugisisk."
+      }
+    ]
+  },
+  "examples": {
+    "title": "Sådan lyder det i praksis",
+    "subtitle": "Tre typiske henvendelser til en restaurant og hvordan AI-assistenten håndterer dem.",
+    "channel": {
+      "widget": "Chat på hjemmesiden",
+      "phone": "Telefon"
+    },
+    "who": {
+      "customer": "Gæst",
+      "ai": "AI-assistent"
+    },
+    "items": [
+      {
+        "title": "Bord til fire",
+        "channel": "phone",
+        "lines": [
+          { "who": "ai", "text": "Hej, du taler med Trattoria Romas digitale assistent. Hvad kan jeg hjælpe med?" },
+          { "who": "customer", "text": "Har I et bord til fire på lørdag kl. 19?" },
+          { "who": "ai", "text": "Ja, lørdag kl. 19 er ledig. Må jeg få dit navn og din e-mail til bekræftelsen?" },
+          { "who": "customer", "text": "Mette Hansen, mette@eksempel.dk." },
+          { "who": "ai", "text": "Tak, Mette. Bordet til fire er booket lørdag kl. 19, og bekræftelsen er på vej." }
+        ]
+      },
+      {
+        "title": "Glutenfri pizza",
+        "channel": "widget",
+        "lines": [
+          { "who": "customer", "text": "Er jeres pizza Margherita glutenfri?" },
+          { "who": "ai", "text": "Den almindelige bund indeholder gluten, men I kan få en glutenfri bund til 25 kr. ekstra. Har du en alvorlig allergi, så ring gerne, så taler du med køkkenet." }
+        ]
+      },
+      {
+        "title": "Levering til døren",
+        "channel": "phone",
+        "lines": [
+          { "who": "customer", "text": "Kan I sende min bestilling ud til Vesterbrogade 12, 1620 København V?" },
+          { "who": "ai", "text": "Det tjekker jeg. Et bud koster 49 kr., og maden kan være hos dig omkring kl. 19.40. Skal jeg bestille buddet?" },
+          { "who": "customer", "text": "Ja tak." },
+          { "who": "ai", "text": "Buddet er bestilt. Ring endelig igen, hvis du vil høre, hvor det er." }
+        ]
+      }
+    ],
+    "note": "Eksemplerne er fra en fiktiv restaurant. Menu, priser og ledige tider kommer altid fra jeres egen vidensbase og kalender."
+  },
+  "limits": {
+    "title": "Hvad AI'en gør, og hvad den ikke gør",
+    "subtitle": "Vi lover ikke et komplet kassesystem. Til gengæld tager AI'en de opkald, der fylder mest.",
+    "doesTitle": "AI-assistenten",
+    "does": [
+      "Booker, flytter og aflyser bordreservationer i jeres kalender",
+      "Svarer på menu, priser, allergener og åbningstider ud fra jeres egne oplysninger",
+      "Henter pris og tid på et bud og bestiller det, når gæsten har sagt ja",
+      "Sender bekræftelse på e-mail eller SMS",
+      "Præsenterer sig som restaurantens digitale assistent"
+    ],
+    "doesNotTitle": "AI-assistenten gør ikke",
+    "doesNot": [
+      "Tager ikke imod betaling",
+      "Sender ikke madbestillinger direkte til kassesystemet eller køkkenprinteren. Samtalen ligger i dashboardet",
+      "Gætter ikke på allergener, der ikke står i jeres menu",
+      "Siger ikke, at et bud er bestilt, før det faktisk er bestilt",
+      "Ændrer ikke selv jeres menu eller priser"
+    ]
+  },
+  "privacy": {
+    "title": "Allergener: svar fra jeres egen menu",
+    "text": "AI'en svarer kun ud fra det, I har lagt i vidensbasen. Skriv derfor allergenerne ind ved hver ret, og skriv, at gæster med alvorlig allergi skal tale med køkkenet. Så siger AI'en netop det i stedet for at gætte. Opdatér menuen, når den ændres, så er svarene altid aktuelle."
+  },
+  "setup": {
+    "title": "Sådan kommer restauranten i gang",
+    "steps": [
+      {
+        "title": "Opret en gratis konto",
+        "description": "Du får 7 dages prøveperiode uden binding og uden kortnummer."
+      },
+      {
+        "title": "Læg menuen ind",
+        "description": "Upload menukortet som PDF eller indsæt et link til det, og skriv åbningstider og allergener ind i vidensbasen."
+      },
+      {
+        "title": "Forbind kalender og levering",
+        "description": "Forbind Google Kalender, Outlook eller Cal.com til bordbestilling, og eventuelt Uber Direct eller Just Eat til bud."
+      },
+      {
+        "title": "Gå live",
+        "description": "Viderestil restaurantens nummer til det nummer, agenten får, eller sæt widgetten ind på hjemmesiden."
+      }
+    ]
+  },
+  "types": {
+    "title": "Til alle typer spisesteder",
+    "items": ["Pizzeria", "Burgerrestaurant", "Sushi", "Takeaway", "Café", "Bageri", "Catering", "Fine dining"]
+  },
+  "delivery": {
+    "title": "Bud-levering trin for trin",
+    "text": "Gæsten oplyser adressen, og AI'en gentager den. Derefter henter den pris og leveringstid fra Uber Direct eller Just Eat, hvor tjenesten findes i jeres område, og læser dem op. Buddet bestilles først, når gæsten har sagt ja, og afhentningen sker altid på restaurantens egen adresse.",
+    "link": "Se alle integrationer"
+  },
+  "languages": {
+    "title": "Turister og internationale gæster",
+    "text": "Hver agent taler det sprog, du vælger: dansk, engelsk, tysk, spansk, fransk eller portugisisk. Har I mange udenlandske gæster, kan I give hjemmesiden en engelsktalende agent og telefonen en dansktalende."
+  },
+  "finalCta": {
+    "title": "Lad AI'en tage telefonen, mens I laver maden",
+    "subtitle": "Læg menuen ind i prøveperioden, og ring selv op og test AI'en, før I beslutter jer.",
+    "primary": "Opret gratis konto",
+    "secondary": "Book en gennemgang"
+  }
+}

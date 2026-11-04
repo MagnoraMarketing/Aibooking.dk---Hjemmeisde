@@ -143,6 +143,11 @@ import shopifyPageEn from './locales/pages/shopifyPage.en.json';
 import shopifyPageEs from './locales/pages/shopifyPage.es.json';
 import shopifyPageDe from './locales/pages/shopifyPage.de.json';
 import shopifyPageFr from './locales/pages/shopifyPage.fr.json';
+import restaurantPageDa from './locales/pages/restaurantPage.da.json';
+import restaurantPageEn from './locales/pages/restaurantPage.en.json';
+import restaurantPageEs from './locales/pages/restaurantPage.es.json';
+import restaurantPageDe from './locales/pages/restaurantPage.de.json';
+import restaurantPageFr from './locales/pages/restaurantPage.fr.json';
 
 import widgetCapabilitiesSEODa from './locales/shared/widgetCapabilitiesSEO.da.json';
 import widgetCapabilitiesSEOEn from './locales/shared/widgetCapabilitiesSEO.en.json';
@@ -186,7 +191,7 @@ const PAGE_NAMESPACES = [
   'healthcarePage', 'craftsmanPage', 'officePage', 'integrationsPage',
   'aboutPage', 'contactPage', 'demoPage', 'termsPage', 'privacyPage',
   'blogPage', 'blogCategoryPage', 'blogPostPage', 'trialPage',
-  'inboundOutboundPage', 'appPage', 'salonPage', 'shopifyPage',
+  'inboundOutboundPage', 'appPage', 'salonPage', 'shopifyPage', 'restaurantPage',
 ] as const;
 
 // Namespaces for components rendered on more than one page, so the two copies
@@ -223,6 +228,7 @@ i18n
         appPage: appPageDa,
         salonPage: salonPageDa,
         shopifyPage: shopifyPageDa,
+        restaurantPage: restaurantPageDa,
         clinicDashboard: clinicDashboardDa,
         agencyDashboard: agencyDashboardDa,
         widgetCapabilitiesSEO: widgetCapabilitiesSEODa,
@@ -253,6 +259,7 @@ i18n
         appPage: appPageEn,
         salonPage: salonPageEn,
         shopifyPage: shopifyPageEn,
+        restaurantPage: restaurantPageEn,
         clinicDashboard: clinicDashboardEn,
         agencyDashboard: agencyDashboardEn,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOEn,
@@ -283,6 +290,7 @@ i18n
         appPage: appPageEs,
         salonPage: salonPageEs,
         shopifyPage: shopifyPageEs,
+        restaurantPage: restaurantPageEs,
         clinicDashboard: clinicDashboardEs,
         agencyDashboard: agencyDashboardEs,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOEs,
@@ -313,6 +321,7 @@ i18n
         appPage: appPageFr,
         salonPage: salonPageFr,
         shopifyPage: shopifyPageFr,
+        restaurantPage: restaurantPageFr,
         clinicDashboard: clinicDashboardFr,
         agencyDashboard: agencyDashboardFr,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOFr,
@@ -343,6 +352,7 @@ i18n
         appPage: appPageDe,
         salonPage: salonPageDe,
         shopifyPage: shopifyPageDe,
+        restaurantPage: restaurantPageDe,
         clinicDashboard: clinicDashboardDe,
         agencyDashboard: agencyDashboardDe,
         widgetCapabilitiesSEO: widgetCapabilitiesSEODe,

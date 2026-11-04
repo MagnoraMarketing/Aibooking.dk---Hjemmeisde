@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "AI-telefonpasning & AI-telefonsvarer på dansk | Aibooking.dk",
-    "description": "AI-telefonpasning døgnet rundt: AI-telefonsvareren svarer på dansk, booker i kalenderen, stiller videre og ringer ud med påmindelser. Prøv gratis.",
+    "description": "AI-telefonpasning døgnet rundt: AI-telefonsvareren svarer på dansk, booker, flytter og aflyser i kalenderen og gemmer et resumé af hvert opkald.",
     "keywords": "AI-telefonpasning, dansk AI-receptionist, widget til webshop, AI widget til Shopify, AI indgående opkald, AI udgående opkald, AI reception, AI telefonassistent, AI receptionist, AI medarbejder, AI kundeservice telefon, automatisk telefonpasning, voicebot dansk, inbound outbound ai voice, AI Danmark"
   },
   "breadcrumb": {
@@ -26,8 +26,8 @@
       "direction": "Indgående · Ukendt nummer",
       "timer": "00:51",
       "transcriptLabel": "Live transskription",
-      "line": "Så er du booket til i morgen kl. 08:30. Du får en SMS-bekræftelse nu.",
-      "actions": ["Tid booket", "SMS sendt", "Sag oprettet"]
+      "line": "Så er du booket til i morgen kl. 08:30. Du får en bekræftelse på e-mail nu.",
+      "actions": ["Tid booket", "E-mail sendt", "Sag oprettet"]
     }
   },
   "whatIs": {
@@ -37,7 +37,7 @@
     "para3": "Du bestemmer selv omfanget: kun indgående, kun udgående, eller begge dele på samme nummer.",
     "inbound": {
       "title": "Indgående",
-      "desc": "Besvarer opkald på sekunder, booker i din kalender, svarer på de spørgsmål der går igen, og stiller om til dit team når sagen kræver et menneske."
+      "desc": "Besvarer opkald på sekunder, booker i din kalender, svarer på de spørgsmål der går igen, og tager en besked med resumé, når sagen kræver et menneske."
     },
     "outbound": {
       "title": "Udgående",
@@ -70,7 +70,7 @@
         { "role": "customer", "time": "0:35", "text": "I morgen kl. 08:30 passer fint." },
         { "role": "ai", "time": "0:39", "text": "Perfekt. Må jeg få adressen og et mobilnummer til bekræftelsen?" },
         { "role": "customer", "time": "0:45", "text": "Søndergade 14, 9000 Aalborg." },
-        { "role": "ai", "time": "0:51", "text": "Tak. Så er du booket til i morgen kl. 08:30. Du får en SMS-bekræftelse nu og en påmindelse en time før." }
+        { "role": "ai", "time": "0:51", "text": "Tak. Så er du booket til i morgen kl. 08:30. Bekræftelsen kommer på e-mail om et øjeblik." }
       ],
       "outcomesLabel": "Hvad AI'en gjorde undervejs",
       "outcomes": [
@@ -97,7 +97,7 @@
         { "role": "customer", "time": "0:11", "text": "Åh, den havde jeg helt glemt. Jeg er faktisk på arbejde til kl. 15." },
         { "role": "ai", "time": "0:18", "text": "Det er helt i orden. Jeg kan tilbyde i morgen kl. 15:45 eller fredag kl. 09:30. Hvad passer bedst?" },
         { "role": "customer", "time": "0:26", "text": "Fredag kl. 09:30, tak." },
-        { "role": "ai", "time": "0:30", "text": "Så er din tid flyttet til fredag kl. 09:30. Du får en SMS med den nye tid nu. Ha' en god dag." }
+        { "role": "ai", "time": "0:30", "text": "Så er din tid flyttet til fredag kl. 09:30. Du får den nye tid på e-mail. Ha' en god dag." }
       ],
       "outcomesLabel": "Hvad AI'en gjorde undervejs",
       "outcomes": [
@@ -167,16 +167,16 @@
         "description": "Synkroniseret med Google Calendar, Outlook og de gængse branchesystemer. AI'en ser kun de tider der er reelt ledige – ingen dobbeltbookinger."
       },
       {
-        "title": "SMS-bekræftelse og påmindelse",
-        "description": "Opkaldet følges op af en SMS med tid og adresse, og en påmindelse inden besøget. Kombinationen er det, der får udeblivelserne ned."
+        "title": "Bekræftelse på e-mail",
+        "description": "AI'en læser e-mailadressen op og får den bekræftet, og kunden får tid og detaljer som kalenderinvitation. Så ligger aftalen i kundens egen kalender."
       },
       {
         "title": "Optagelse, referat og transskription",
         "description": "Hvert opkald gemmes med fuld transskription og et kort referat af, hvad der blev aftalt. Du kan altid dokumentere samtalen bagefter."
       },
       {
-        "title": "Stiller om, når det kræver et menneske",
-        "description": "AI'en genkender selv de sager den ikke skal afgøre – klager, akutte opgaver, forhandling – og stiller om til den rigtige kollega eller tager en besked."
+        "title": "Tager en besked, når det kræver et menneske",
+        "description": "AI'en genkender selv de sager den ikke skal afgøre – klager, akutte opgaver, forhandling – og tager en besked med navn, nummer og et kort resumé, så den rigtige kollega kan ringe tilbage."
       },
       {
         "title": "GDPR og datasikkerhed",
@@ -228,7 +228,7 @@
       { "feature": "Påmindelse dagen før", "inbound": false, "outbound": true },
       { "feature": "Opfølgning på leads og tilbud", "inbound": false, "outbound": true },
       { "feature": "Svare på gengangerspørgsmål", "inbound": true, "outbound": false },
-      { "feature": "Stille om til en kollega", "inbound": true, "outbound": false },
+      { "feature": "Besked med resumé til teamet", "inbound": true, "outbound": false },
       { "feature": "Genbooke en aflyst tid", "inbound": true, "outbound": true },
       { "feature": "Optagelse og referat", "inbound": true, "outbound": true }
     ]
@@ -244,7 +244,7 @@
     "free": "Gratis",
     "mostPopular": "Mest valgte",
     "cta": "Kom i gang",
-    "note": "Alle pakker indeholder både indgående og udgående opkald, kalenderintegration, SMS og optagelse."
+    "note": "Alle pakker indeholder indgående opkald, AI-widget, kalenderintegration og optagelse. Udgående opkald er et tilkøb."
   },
   "cta": {
     "title": "Hør din egen AI-stemme før du beslutter dig",
@@ -257,11 +257,11 @@
   "faq": [
     {
       "question": "Hvad er en AI-telefonpasser, og hvordan adskiller den sig fra en telefonpasningsservice?",
-      "answer": "En AI-telefonpasser er en AI-stemme, der tager din telefon, når du ikke selv kan. Hos en klassisk telefonpasningsservice tager et menneske imod en besked, som du skal ringe tilbage på. AI-telefonpasseren kan også løse opgaven med det samme: booke, flytte og aflyse tider i din kalender, svare på faste spørgsmål og sende en SMS-bekræftelse. Det, den ikke kan klare, stiller den videre til dig eller sender som en besked med resumé."
+      "answer": "En AI-telefonpasser er en AI-stemme, der tager din telefon, når du ikke selv kan. Hos en klassisk telefonpasningsservice tager et menneske imod en besked, som du skal ringe tilbage på. AI-telefonpasseren kan også løse opgaven med det samme: booke, flytte og aflyse tider i din kalender, svare på faste spørgsmål og sende en bekræftelse på e-mail. Det, den ikke kan klare, ligger som en besked med resumé i dit dashboard, så du kan ringe tilbage."
     },
     {
       "question": "Hvad er forskellen på indgående og udgående opkald?",
-      "answer": "Indgående er når kunden ringer til dig – AI'en tager telefonen, hjælper med det kunden ringer om og booker eller stiller om. Udgående er når AI'en selv ringer ud, typisk med påmindelser, bekræftelser eller opfølgning på et tilbud. Du kan bruge den ene retning eller begge på samme nummer."
+      "answer": "Indgående er når kunden ringer til dig – AI'en tager telefonen, hjælper med det kunden ringer om og booker eller tager imod en besked. Udgående er når AI'en selv ringer ud, typisk med påmindelser, bekræftelser eller opfølgning på et tilbud. Udgående opkald er et tilkøb til pakken."
     },
     {
       "question": "Kan jeg beholde mit nuværende telefonnummer?",
@@ -277,7 +277,7 @@
     },
     {
       "question": "Hvad sker der, hvis AI'en ikke kan hjælpe?",
-      "answer": "Den er sat op til at genkende sine egne grænser. Ved klager, akutte sager eller spørgsmål den ikke har svar på, stiller den om til den rigtige kollega, eller tager en besked med navn, nummer og hvad sagen drejer sig om, så I kan ringe tilbage."
+      "answer": "Den er sat op til at genkende sine egne grænser. Ved klager, akutte sager eller spørgsmål den ikke har svar på, tager den en besked med navn, nummer og hvad sagen drejer sig om. Samtalen ligger med optagelse og resumé i dashboardet, så I kan ringe tilbage."
     },
     {
       "question": "Er det lovligt at ringe ud automatisk?",

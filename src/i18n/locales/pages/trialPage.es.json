@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Prueba Gratis la Recepcionista con IA 7 Días | Aibooking.dk",
-    "description": "Prueba Aibooking.dk gratis 7 días. Desvía tu número y prueba llamadas de IA entrantes y salientes con crédito gratuito, SMS, email y WhatsApp.",
+    "description": "Prueba Aibooking.dk gratis 7 días. Desvía tu número y prueba el agente telefónico y el widget web con IA con 10 minutos gratis, sin tarjeta.",
     "keywords": "atención telefónica con IA, recepcionista virtual con IA, widget para tienda online, widget de IA para Shopify, prueba gratuita, prueba de 7 días, prueba recepcionista de ia, probar asistente telefónico de ia, llamada de incorporación, desvío de número de teléfono"
   },
   "breadcrumb": {
@@ -33,21 +33,21 @@
       },
       {
         "title": "Prueba con llamadas reales durante 7 días",
-        "desc": "Comprueba cómo la recepcionista de IA gestiona llamadas entrantes y salientes en la práctica, con acceso completo al panel y al historial de llamadas."
+        "desc": "Comprueba cómo la recepcionista de IA gestiona tus llamadas y chats en la práctica, con acceso completo al panel y al historial de llamadas."
       }
     ]
   },
   "inclusions": {
     "title": "Qué incluye tu prueba",
     "subtitle": "7 días de acceso completo a la plataforma, sin coste alguno",
-    "voice_label": "Conversación entrante/saliente",
-    "voice_value": "Crédito gratuito incluido",
-    "sms_label": "SMS",
-    "sms_value": "100 SMS gratis",
-    "email_label": "Correo electrónico",
-    "email_value": "3.000 correos gratis",
-    "whatsapp_label": "WhatsApp",
-    "whatsapp_value": "100 mensajes gratis"
+    "voice_label": "Tiempo de conversación",
+    "voice_value": "10 minutos gratis",
+    "sms_label": "Widget",
+    "sms_value": "Chat y voz en tu web",
+    "email_label": "Calendario",
+    "email_value": "Google, Outlook o Cal.com",
+    "whatsapp_label": "Grabaciones",
+    "whatsapp_value": "Grabación y transcripción de las conversaciones"
   },
   "upgrade": {
     "title": "No hace falta esperar a que termine la prueba",
@@ -69,7 +69,7 @@
       },
       {
         "title": "¿Cuánto puedo probar durante la prueba?",
-        "desc": "Tu crédito gratuito cubre llamadas de IA entrantes y salientes durante los 7 días, para que puedas probar todo el flujo de llamadas, no solo un sentido."
+        "desc": "Los minutos gratis cubren llamadas entrantes y conversaciones del widget durante los 7 días. Las llamadas salientes son un complemento con su propia prueba gratuita."
       },
       {
         "title": "¿Puedo mejorar de plan antes de que termine la prueba?",

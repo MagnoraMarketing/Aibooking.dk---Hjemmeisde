@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Funciones: Recepcionista IA, Chatbot y Reservas | Aibooking.dk",
-    "description": "Atención telefónica con IA para llamadas entrantes y salientes, chatbot con IA para tu web, reservas automáticas, SMS y panel de control.",
+    "description": "Atención telefónica con IA, chatbot con IA para tu web, reservas automáticas en tu calendario, grabaciones, resúmenes y panel de control.",
     "keywords": "atención telefónica con IA, recepcionista virtual con IA, widget para tienda online, widget de IA para Shopify, funciones de ia, recepcionista de ia, panel de ia, llamadas entrantes, llamadas salientes, widget de ia, reserva automática, chat de ia, ia en español"
   },
   "breadcrumb": {
@@ -77,7 +77,7 @@
     "unknown_caller": "Número desconocido",
     "outcome_booked": "Reservado",
     "outcome_info": "Información dada",
-    "outcome_forwarded": "Transferida",
+    "outcome_forwarded": "Recado tomado",
     "weekly_activity_label": "Actividad semanal",
     "days": [
       "L",
@@ -108,7 +108,7 @@
     "Entiende acentos y expresiones coloquiales",
     "Gestiona varias llamadas simultáneas",
     "Reserva automática directamente en la conversación",
-    "Transfiere a soporte humano cuando es necesario",
+    "Grabación, transcripción y resumen de cada llamada",
     "Resumen completo de la llamada enviado después de finalizar"
   ],
   "outgoing": {
@@ -222,13 +222,13 @@
       ]
     },
     {
-      "title": "Recordatorios y Confirmaciones por SMS",
-      "description": "Reduce las ausencias hasta un 60% con recordatorios automáticos por SMS. Los clientes reciben confirmaciones y recordatorios adaptados al tono y la marca de tu negocio.",
+      "title": "Confirmaciones, cambios y cancelaciones",
+      "description": "El cliente recibe una confirmación por correo cuando se reserva la cita y puede cambiarla o cancelarla él mismo por teléfono o en el chat. La IA comprueba que es el cliente correcto antes de cambiar nada.",
       "benefits": [
         "Confirmaciones de reserva automáticas",
-        "Recordatorios 24 horas antes de las citas",
-        "Opción de reprogramar por SMS",
-        "Plantillas de mensajes personalizadas"
+        "El cliente puede cambiar su cita a cualquier hora",
+        "Cancelar libera el hueco al momento",
+        "Se verifica al cliente antes de cambiar una cita"
       ]
     },
     {

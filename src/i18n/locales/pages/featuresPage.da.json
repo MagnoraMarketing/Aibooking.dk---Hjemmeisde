@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Funktioner: AI-receptionist, chatbot & booking | Aibooking.dk",
-    "description": "Alle funktioner: AI-telefonpasning til ind- og udgående opkald, AI-chatbot og voice-widget til hjemmesiden, automatisk booking, SMS og dashboard.",
+    "description": "Alle funktioner: AI-telefonpasning, AI-chatbot og voice-widget til hjemmesiden, automatisk booking i din kalender, optagelser, resuméer og dashboard.",
     "keywords": "AI-telefonpasning, dansk AI-receptionist, widget til webshop, AI widget til Shopify, AI funktioner, AI reception, AI widget, AI medarbejder, AI kundeservice, AI indgående opkald, udgående opkald, AI dashboard, automatisk booking, AI til hjemmeside, dansk AI"
   },
   "breadcrumb": { "home": "Hjem", "features": "Funktioner" },
@@ -44,7 +44,7 @@
     "unknown_caller": "Ukendt nr.",
     "outcome_booked": "Booket",
     "outcome_info": "Info givet",
-    "outcome_forwarded": "Videresendt",
+    "outcome_forwarded": "Besked taget",
     "weekly_activity_label": "Ugentlig aktivitet",
     "days": ["M", "T", "O", "T", "F", "L", "S"],
     "live_data": "Live Data"
@@ -67,7 +67,7 @@
     "Forstår alle danske dialekter",
     "Håndterer flere samtidige opkald",
     "Automatisk booking direkte i samtalen",
-    "Viderestilling til menneskelig støtte ved behov",
+    "Optagelse, udskrift og resumé af hvert opkald",
     "Fuldt opkaldsreferat sendt til dig efter samtale"
   ],
   "outgoing": {
@@ -146,9 +146,9 @@
       "benefits": ["Integration med Google Calendar og Outlook", "Realtidssynkronisering", "Automatisk check af ledige tider", "Håndtering af ombookinger og aflysninger"]
     },
     {
-      "title": "SMS-påmindelser og Bekræftelser",
-      "description": "Reducer no-shows med op til 60% gennem automatiske SMS-påmindelser. Kunder modtager bekræftelser og påmindelser tilpasset din virksomheds tone og brand.",
-      "benefits": ["Automatiske bookingbekræftelser", "Påmindelser 24 timer før aftaler", "Mulighed for at ombooke via SMS", "Brugerdefinerede beskedskabeloner"]
+      "title": "Bekræftelser, ombooking og aflysning",
+      "description": "Kunden får en bekræftelse på e-mail, når tiden er booket, og kan selv flytte eller aflyse tiden over telefonen eller i chatten. AI'en tjekker, at det er den rigtige kunde, før den ændrer noget.",
+      "benefits": ["Automatiske bookingbekræftelser", "Kunden kan flytte sin tid døgnet rundt", "Aflysning frigiver tiden med det samme", "Kunden bekræftes, før en aftale ændres"]
     },
     {
       "title": "GDPR-sikker og Dansk Hosting",

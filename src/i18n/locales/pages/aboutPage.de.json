@@ -51,7 +51,7 @@
     "description": "Unsere KI-Lösung ist nicht einfach ein weiterer Chatbot. Sie ist das Ergebnis jahrzehntelanger Erfahrung in Telemarketing und Kundenkontakt. Wir wissen, was professioneller Kundenservice erfordert, und haben eine Lösung gebaut, die in der Praxis wirklich funktioniert.",
     "incoming": {
       "title": "Eingehende Anrufe",
-      "description": "Unser virtueller Rezeptionist nimmt alle eingehenden Anrufe an, beantwortet Fragen, nimmt Buchungen entgegen und stellt nur durch, wenn es nötig ist. Das bedeutet weniger unterbrochene Arbeitsabläufe und mehr Zeit für das Kerngeschäft.",
+      "description": "Unser virtueller Rezeptionist nimmt alle eingehenden Anrufe an, beantwortet Fragen und nimmt Buchungen entgegen. Was er nicht klären kann, liegt mit Zusammenfassung im Dashboard, damit Sie zurückrufen können. Das bedeutet weniger unterbrochene Arbeitsabläufe und mehr Zeit für das Kerngeschäft.",
       "features": [
         "Rund um die Uhr erreichbar",
         "Professionelle Kommunikation",

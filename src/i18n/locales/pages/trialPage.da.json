@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Prøv AI-receptionist gratis i 7 dage | Aibooking.dk",
-    "description": "Prøv Aibooking.dk gratis i 7 dage: AI til ind- og udgående opkald, AI widget og AI kundeservice. Gratis credit og intet betalingskort.",
+    "description": "Prøv Aibooking.dk gratis i 7 dage: AI-telefonpasning, AI-widget og AI-kundeservice med 10 gratis minutter og intet betalingskort.",
     "keywords": "AI-telefonpasning, dansk AI-receptionist, widget til webshop, AI widget til Shopify, gratis prøveperiode, prøv AI gratis, AI reception prøve, AI widget gratis, AI indgående opkald test, AI medarbejder prøve"
   },
   "breadcrumb": { "home": "Hjem", "trial": "Prøveperiode" },
@@ -30,21 +30,21 @@
       },
       {
         "title": "Test på rigtige opkald i 7 dage",
-        "desc": "Se hvordan AI-receptionisten håndterer både indgående og udgående opkald i praksis, med fuld adgang til dashboard og opkaldshistorik."
+        "desc": "Se hvordan AI-receptionisten håndterer jeres opkald og chats i praksis, med fuld adgang til dashboard og opkaldshistorik."
       }
     ]
   },
   "inclusions": {
     "title": "Det er inkluderet i din prøveperiode",
     "subtitle": "7 dages fuld adgang til platformen, uden beregning",
-    "voice_label": "Taletid ind/ud",
-    "voice_value": "Gratis credit inkluderet",
-    "sms_label": "SMS",
-    "sms_value": "100 gratis SMS",
-    "email_label": "Email",
-    "email_value": "3.000 gratis emails",
-    "whatsapp_label": "WhatsApp",
-    "whatsapp_value": "100 gratis beskeder"
+    "voice_label": "Taletid",
+    "voice_value": "10 gratis minutter",
+    "sms_label": "Widget",
+    "sms_value": "Chat og voice på hjemmesiden",
+    "email_label": "Kalender",
+    "email_value": "Google, Outlook eller Cal.com",
+    "whatsapp_label": "Optagelser",
+    "whatsapp_value": "Optagelse og udskrift af samtaler"
   },
   "upgrade": {
     "title": "Behøver ikke vente på, at prøveperioden slutter",
@@ -66,7 +66,7 @@
       },
       {
         "title": "Hvor meget kan jeg nå at teste i prøveperioden?",
-        "desc": "Din gratis credit dækker både indgående og udgående AI-opkald i løbet af de 7 dage, så du kan teste hele opkaldsflowet, ikke kun én retning."
+        "desc": "De gratis minutter dækker indgående opkald og widget-samtaler i de 7 dage. Udgående opkald er et tilkøb med sin egen gratis prøveperiode."
       },
       {
         "title": "Kan jeg opgradere, før prøveperioden er slut?",

@@ -202,15 +202,15 @@
     "badge": "Widget IA pour boutique en ligne",
     "title": "Comme le chat intégré de votre boutique, mais avec une IA qui réserve et vend",
     "para1": "Si vous tenez une boutique sur Shopify, WooCommerce ou Magento, le widget IA se pose directement sur le site – comme les chats intégrés que vous connaissez, avec en plus un assistant qui parle et comprend la langue de vos clients.",
-    "para2": "Les clients peuvent demander au widget de suivre une commande, de recommander un article, de vérifier le stock ou de les aider pour un retour – automatiquement, sans écrire au service client.",
+    "para2": "Les clients peuvent demander au widget de suivre une commande, de vérifier le stock et les tailles ou de les aider pour un retour – automatiquement, sans écrire au service client.",
     "points": [
       {
         "label": "Suit l'état de la commande",
         "desc": "« Où est mon colis ? » reçoit une réponse immédiate"
       },
       {
-        "label": "Recommande un article",
-        "desc": "Le client repasse la même commande à la voix"
+        "label": "Trouve l'article",
+        "desc": "Le client décrit l'article à la voix et obtient taille, stock et prix"
       },
       {
         "label": "Accompagne l'achat",
@@ -278,8 +278,8 @@
           "desc": "Un client veut savoir où est son colis. Le widget récupère le statut et répond tout de suite, sans attente."
         },
         {
-          "title": "La boutique par abonnement",
-          "desc": "Un client veut recommander son article habituel chaque mois : le widget enregistre la commande pendant la conversation."
+          "title": "La boutique de vêtements",
+          "desc": "Un client demande si la veste existe en noir en taille L : le widget vérifie le stock dans Shopify et envoie un lien vers le produit."
         }
       ]
     }
@@ -360,9 +360,9 @@
           "600 minutes d'appels IA",
           "Personnalisation vocale avancée",
           "Support prioritaire",
-          "Analyse avancée",
-          "Intégrations personnalisées",
-          "Rappels par SMS",
+          "Enregistrements et transcriptions",
+          "Intégrations Shopify et livraison",
+          "Réservation dans Google, Outlook ou Cal.com",
           "Historique client"
         ],
         "cta": "Commander le forfait"

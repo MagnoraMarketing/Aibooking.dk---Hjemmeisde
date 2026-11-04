@@ -202,15 +202,15 @@
     "badge": "KI-Widget für Onlineshops",
     "title": "Wie der Chat Ihres Onlineshops – aber mit einer KI, die bucht und verkauft",
     "para1": "Wenn Sie einen Onlineshop mit Shopify, WooCommerce oder Magento betreiben, kommt das KI-Widget direkt auf die Seite – wie die integrierten Chat-Tools, die Sie kennen, nur mit einem Assistenten, der die Sprache Ihrer Kunden spricht und versteht.",
-    "para2": "Kunden können das Widget bitten, eine Bestellung zu verfolgen, ein Produkt nachzubestellen, den Lagerbestand zu prüfen oder bei einer Retoure zu helfen – automatisch, ohne dem Kundenservice zu schreiben.",
+    "para2": "Kunden können das Widget bitten, eine Bestellung zu verfolgen, Bestand und Größen zu prüfen oder bei einer Retoure zu helfen – automatisch, ohne dem Kundenservice zu schreiben.",
     "points": [
       {
         "label": "Verfolgt den Bestellstatus",
         "desc": "„Wo ist mein Paket?“ wird sofort beantwortet"
       },
       {
-        "label": "Bestellt Produkte nach",
-        "desc": "Der Kunde bestellt denselben Artikel per Sprache nach"
+        "label": "Findet den Artikel",
+        "desc": "Der Kunde beschreibt den Artikel per Sprache und erhält Größe, Bestand und Preis"
       },
       {
         "label": "Hilft beim Kauf",
@@ -278,8 +278,8 @@
           "desc": "Ein Kunde möchte wissen, wo sein Paket ist. Das Widget ruft den Bestellstatus ab und antwortet sofort – ohne Warteschleife."
         },
         {
-          "title": "Der Abo-Shop",
-          "desc": "Ein Kunde möchte seinen Stammartikel jeden Monat nachbestellen – das Widget richtet die Bestellung im Gespräch ein."
+          "title": "Der Modeshop",
+          "desc": "Eine Kundin fragt, ob es die Jacke in Schwarz in Größe L gibt – das Widget prüft den Bestand in Shopify und schickt einen Link zum Produkt."
         }
       ]
     }
@@ -360,9 +360,9 @@
           "600 KI-Gesprächsminuten",
           "Erweiterte Stimmanpassung",
           "Priorisierter Support",
-          "Erweiterte Analysen",
-          "Individuelle Integrationen",
-          "SMS-Erinnerungen",
+          "Aufzeichnungen und Transkripte",
+          "Shopify- und Lieferintegrationen",
+          "Buchung in Google, Outlook oder Cal.com",
           "Kundenhistorie"
         ],
         "cta": "Paket bestellen"

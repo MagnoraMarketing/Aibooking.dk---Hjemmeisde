@@ -22,13 +22,13 @@
     "healthcare": {
       "title": "Clinics and Healthcare",
       "subtitle": "Freedom to focus on patient care",
-      "description": "As a clinic, you know how important it is to give your patients the best treatment. But administrative tasks like phone calls, bookings and cancellations steal valuable time from patient care.\n\nOur AI receptionist handles all customer enquiries professionally — from new bookings to rebookings and confirmations. With automatic SMS reminders, you significantly reduce no-shows. Your personalized dashboard gives you a complete overview: listen to all calls, see short summaries of each conversation, what was agreed, booking statistics and calendar integration. You can keep using your current calendar software — our system syncs automatically.",
+      "description": "As a clinic, you know how important it is to give your patients the best treatment. But administrative tasks like phone calls, bookings and cancellations steal valuable time from patient care.\n\nOur AI receptionist handles every customer enquiry professionally – from new bookings to rebookings and confirmations. Patients can move or cancel their appointment around the clock, so the slot can go to someone else. Your dashboard gives you the overview: listen to every call and see short summaries of each conversation and what was agreed. Bookings go straight into Google Calendar, Outlook/Microsoft 365 or Cal.com.",
       "benefits": [
-        "Reduce phone time by 85% — focus on your patients instead",
-        "Automatic SMS reminders reduce no-shows by up to 60%",
+        "Fewer phone interruptions — more time for your patients",
+        "Patients can move and cancel themselves – freed slots are released straight away",
         "Handle bookings, rebookings and cancellations 24/7",
         "Complete dashboard with call history and conversation summaries",
-        "Integration with your existing booking system and calendar",
+        "Booking in Google Calendar, Outlook/Microsoft 365 or Cal.com",
         "Full GDPR compliance for sensitive patient data"
       ],
       "stats": [
@@ -53,12 +53,12 @@
     "craftsman": {
       "title": "Craftsmen",
       "subtitle": "Stop losing orders because the phone doesn't get answered",
-      "description": "You know the feeling: you're in the middle of a job and the phone rings. If you answer it, you lose focus. If you don't, you potentially lose a good order. It's an impossible situation.\n\nOur AI receptionist solves this problem once and for all. The system answers every call, registers customer details, books site visits and sends automatic SMS confirmations. In your dashboard, you can see all enquiries, listen to recorded conversations, get short summaries of what the customer wants, and see what has been agreed. Your calendar updates automatically, no matter which system you use. Stop worrying about lost orders — focus on your craft.",
+      "description": "You know the feeling: you're in the middle of a job and the phone rings. If you answer it, you lose focus. If you don't, you potentially lose a good order. It's an impossible situation.\n\nOur AI receptionist solves this problem once and for all. The system answers every call, records customer details, books site visits and sends the customer a confirmation by email. In your dashboard you can see every enquiry, listen to recorded conversations, get short summaries of what the customer wants, and see what's been agreed. The booking goes straight into your Google, Outlook or Cal.com calendar. Stop worrying about missed jobs – focus on your craft.",
       "benefits": [
         "Answer every enquiry even while you're on a job",
         "Automatic registration of customer details and job descriptions",
         "Book site visits directly in your calendar — syncs automatically",
-        "SMS confirmations for both you and the customer",
+        "An email confirmation for the customer and a summary for you",
         "Dashboard with all customer enquiries and what was agreed",
         "Never miss an order again — the system works 24/7"
       ],
@@ -84,14 +84,14 @@
     "office": {
       "title": "Office and Administration",
       "subtitle": "Professional customer service without interruptions",
-      "description": "In office businesses, concentration and productivity are crucial. But constant phone calls interrupt the workflow and significantly reduce efficiency. At the same time, it's important to give customers fast and professional service.\n\nWith Aibooking.dk, you get the best of both worlds. Our AI receptionist screens all incoming calls, handles meeting bookings, answers common questions and only forwards the most important enquiries. Your team gets the peace to work with focus, while customers experience professional service around the clock. The dashboard gives you complete control: listen to all conversations, see detailed summaries, booking statistics and calendar integration. Perfect for lawyers, accountants, consultants and other knowledge-based businesses.",
+      "description": "In office businesses, concentration and productivity are crucial. But constant phone calls interrupt the workflow and significantly reduce efficiency. At the same time, it's important to give customers fast and professional service.\n\nWith Aibooking.dk you get the best of both worlds. Our AI receptionist takes every incoming call, books meetings, answers common questions and notes everything else with a short summary so you can call back. Your team gets the peace to work with focus, while customers experience professional service around the clock. The dashboard gives you the overview: listen to every conversation and see summaries and what was agreed. Perfect for lawyers, accountants, consultants and other knowledge-based businesses.",
       "benefits": [
         "Reduce interruptions and improve employee productivity",
         "Professional phone service without extra payroll costs",
-        "Automatic call screening — only important matters get forwarded",
+        "Calls the AI can't resolve are saved with a summary so you can call back",
         "Book meetings directly into the team's shared calendar",
-        "Dashboard with conversation history, summaries and statistics",
-        "Integration with existing CRM and calendar systems"
+        "Dashboard with conversation history, recordings and summaries",
+        "Booking in Google Calendar, Outlook/Microsoft 365 or Cal.com"
       ],
       "stats": [
         {
@@ -115,14 +115,14 @@
     "ecommerce": {
       "title": "Webshops and E-commerce",
       "subtitle": "Customer service that scales with your business",
-      "description": "In e-commerce, fast customer service is crucial to success. Delayed responses to customer enquiries mean lost sales and poor reviews. But staffing customer service 24/7 is expensive and complex.\n\nAibooking.dk gives you AI-powered customer service that never sleeps. The system instantly answers common questions about products, delivery times, returns and order status. Complex enquiries are automatically escalated to your team. With SMS notifications, you keep customers updated throughout the entire purchase journey. Your dashboard shows all customer interactions, conversation summaries, frequent questions and trends, so you can constantly optimize your service. Reduce response times from hours to seconds and significantly improve customer satisfaction.",
+      "description": "In e-commerce, fast customer service is crucial to success. Delayed responses to customer enquiries mean lost sales and poor reviews. But staffing customer service 24/7 is expensive and complex.\n\nAibooking.dk gives you AI-powered customer service that never sleeps. The system instantly answers common questions about products, delivery times, returns, and order status. Anything the AI can't resolve is waiting in your dashboard with a summary so your team can follow up. The dashboard shows every conversation with a transcript, recording and short summary, so you can see what customers ask about and improve your answers. Reduce response times from hours to seconds and significantly improve customer satisfaction.",
       "benefits": [
         "Answer customer enquiries instantly 24/7 without extra staff",
         "Handle questions about products, order status and returns automatically",
-        "Automatic SMS updates about shipments and deliveries",
+        "Order status and tracking from the order number",
         "Reduce response times from hours to seconds",
-        "Dashboard with customer interactions, trends and frequent questions",
-        "Integration with your webshop system and order management"
+        "Dashboard with every conversation, recording and summary",
+        "Shopify integration with live product, stock and order lookups"
       ],
       "stats": [
         {
@@ -163,7 +163,7 @@
     "intro": "Aibooking.dk is a leading AI receptionist solution from Denmark, automating customer service, booking and administration for businesses in every industry.",
     "whatIs": {
       "title": "What is an AI receptionist?",
-      "paragraph1": "An AI receptionist is an intelligent virtual assistant that handles all your customer enquiries automatically around the clock. Our advanced AI technology can answer calls, take bookings, send SMS confirmations, handle rebookings and much more — all without human intervention.",
+      "paragraph1": "An AI receptionist is an intelligent virtual assistant that handles all your customer enquiries automatically around the clock. Our advanced AI technology can answer calls, take bookings, send email confirmations, handle rebookings and much more — all without human intervention.",
       "paragraph2": "Unlike a traditional receptionist, Aibooking.dk works 24/7 without breaks, holidays or sick days. This means your customers can always reach your business, regardless of the time of day. At the same time, you save significant payroll costs and can focus your employees on more value-adding tasks."
     },
     "solutions": {
@@ -187,15 +187,15 @@
     },
     "features": {
       "title": "Advanced features that make the difference",
-      "paragraph1": "Aibooking.dk is more than just an answering machine. Our platform includes a comprehensive dashboard where you can follow all customer interactions in real time. Listen to all recorded conversations, get short summaries of each conversation, see what has been agreed, and get detailed statistics on bookings and customer enquiries.",
-      "paragraph2": "The system integrates seamlessly with your existing calendar, whether you use Google Calendar, Outlook or an industry-specific solution. You get automatic SMS messages to both you and your customers, so everyone stays updated. And with our intuitive dashboard, you can easily oversee your business and make data-driven decisions."
+      "paragraph1": "Aibooking.dk is more than just an answering machine. Our platform includes a comprehensive dashboard where you can follow all customer interactions in real time. Listen to all recorded conversations, get short summaries of each conversation, see what has been agreed, and see all bookings and enquiries in one place.",
+      "paragraph2": "The system books straight into your calendar, whether you use Google Calendar, Outlook/Microsoft 365 or Cal.com. The customer gets an email confirmation, and you get a recording, transcript and short summary of every conversation. And with our dashboard you can easily see all calls, chats and bookings in one place."
     },
     "whyChoose": {
       "title": "Why choose Aibooking.dk?",
       "points": [
         "Save 10+ hours a week on phone calls and administration",
         "Never miss a customer again — take enquiries 24/7",
-        "Reduce no-shows with automatic SMS reminders",
+        "Fewer empty slots: customers can move and cancel around the clock",
         "Complete overview with an intelligent dashboard and conversation summaries",
         "Seamless integration with your existing systems",
         "Personal support and solutions tailored to your business"
@@ -253,7 +253,7 @@
   },
   "salon": {
     "title": "Hair and beauty salons",
-    "text": "Salons run on bookings, and the phone always rings mid-treatment. The AI receptionist takes the call, books, moves and cancels appointments and sends SMS reminders while you work.",
+    "text": "Salons run on bookings, and the phone always rings mid-treatment. The AI receptionist takes the call, books, moves and cancels appointments while you work.",
     "link": "Read about the AI receptionist for salons"
   }
 }

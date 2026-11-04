@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "AI-receptionist til klinik & tandlæge | Aibooking.dk",
-    "description": "AI-receptionist til klinikker, tandlæger og fysioterapeuter: tager telefonen, booker tider, sender SMS-påmindelser og er GDPR-sikker. Prøv gratis.",
+    "description": "AI-receptionist til klinikker, tandlæger og fysioterapeuter: tager telefonen, booker, flytter og aflyser tider og er GDPR-sikker. Prøv gratis.",
     "keywords": "AI-telefonpasning, dansk AI-receptionist, widget til webshop, AI widget til Shopify, tandlæge booking, klinik booking, fysioterapi booking, sundhed AI receptionist, patient booking, klinik automatisering"
   },
   "breadcrumb": { "home": "Hjem", "industries": "Brancher", "healthcare": "Klinikker" },
@@ -12,12 +12,12 @@
   },
   "solution": {
     "title": "Den komplette løsning til sundhedssektoren",
-    "description": "Vores AI-receptionist håndterer alle kundehenvendelser professionelt – fra nye bookinger til ombookinger og bekræftelser. Med automatisk SMS-påmindelse reducerer du no-shows betydeligt. Dit personaliserede dashboard giver dig komplet overblik: Lyt til alle opkald, se korte opsummeringer af hver samtale, hvad der er aftalt, booking-statistik og kalenderintegration. Du kan fortsætte med at bruge din nuværende kalendersoftware – vores system synkroniserer automatisk.",
+    "description": "Vores AI-receptionist håndterer alle kundehenvendelser professionelt – fra nye bookinger til ombookinger og bekræftelser. Patienterne kan selv flytte eller aflyse deres tid døgnet rundt, så tiden kan gives til en anden. Dit dashboard giver dig overblik: Lyt til alle opkald, se korte opsummeringer af hver samtale og hvad der er aftalt. Bookingerne lander direkte i Google Kalender, Outlook/Microsoft 365 eller Cal.com.",
     "benefits": [
       { "title": "Reducer telefontid med 85%", "description": "Fokuser på dine patienter i stedet for administrative opgaver" },
-      { "title": "Automatiske SMS-påmindelser", "description": "Reducer no-shows med op til 60% og optimer din kapacitet" },
+      { "title": "Flytning og aflysning døgnet rundt", "description": "Ledige tider frigives med det samme og kan bookes af andre patienter" },
       { "title": "24/7 booking service", "description": "Håndter bookinger, ombookinger og aflysninger hele døgnet" },
-      { "title": "Komplet dashboard", "description": "Opkaldshistorik, samtaleopsummeringer og booking-statistik" },
+      { "title": "Komplet dashboard", "description": "Opkaldshistorik, optagelser og samtaleopsummeringer" },
       { "title": "Kalenderintegration", "description": "Synkroniserer med dit eksisterende booking-system automatisk" },
       { "title": "GDPR-overholdelse", "description": "Fuld sikkerhed for følsomme patientdata" }
     ]

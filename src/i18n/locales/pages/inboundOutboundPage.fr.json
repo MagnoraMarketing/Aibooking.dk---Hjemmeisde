@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Standard Téléphonique IA & Agent Vocal IA | Aibooking.dk",
-    "description": "Standard téléphonique IA 24h/24 : l'agent vocal répond aux appels, prend les rendez-vous, transfère à votre équipe et rappelle vos clients.",
+    "description": "Standard téléphonique IA 24h/24 : l'agent vocal répond aux appels, prend les rendez-vous et garde un résumé de chaque appel pour votre équipe.",
     "keywords": "permanence téléphonique IA, réceptionniste virtuel IA, widget pour boutique en ligne, widget IA pour Shopify, appels IA, assistant téléphonique ia, agent vocal ia, réception ia, appels entrants, appels sortants, permanence téléphonique automatisée, réceptionniste ia, voicebot, réservation par téléphone, réservation IA"
   },
   "breadcrumb": {
@@ -35,10 +35,10 @@
       "direction": "Entrant · Numéro inconnu",
       "timer": "00:51",
       "transcriptLabel": "Transcription en direct",
-      "line": "C'est réservé pour demain à 8h30. Vous recevez un SMS de confirmation tout de suite.",
+      "line": "C'est réservé pour demain à 8h30. Vous recevez la confirmation par e-mail tout de suite.",
       "actions": [
         "Rendez-vous pris",
-        "SMS envoyé",
+        "E-mail envoyé",
         "Dossier créé"
       ]
     }
@@ -50,7 +50,7 @@
     "para3": "Vous choisissez l'étendue : entrants seulement, sortants seulement, ou les deux sur le même numéro.",
     "inbound": {
       "title": "Entrants",
-      "desc": "Décroche en quelques secondes, réserve dans votre agenda, traite les questions qui reviennent sans cesse et transfère à votre équipe quand le dossier exige un humain."
+      "desc": "Décroche en quelques secondes, réserve dans votre agenda, traite les questions qui reviennent sans cesse et prend un message avec résumé quand le dossier exige un humain."
     },
     "outbound": {
       "title": "Sortants",
@@ -118,7 +118,7 @@
         {
           "role": "ai",
           "time": "0:51",
-          "text": "Merci. C'est réservé pour demain à 8h30. Vous recevez le SMS de confirmation maintenant et un rappel une heure avant."
+          "text": "Merci. C'est réservé pour demain à 8h30. La confirmation arrive par e-mail dans un instant."
         }
       ],
       "outcomesLabel": "Ce que l'IA a fait au passage",
@@ -174,7 +174,7 @@
         {
           "role": "ai",
           "time": "0:30",
-          "text": "Votre rendez-vous est déplacé à vendredi 9h30. Je vous envoie un SMS avec le nouvel horaire. Bonne journée."
+          "text": "Votre rendez-vous est déplacé à vendredi 9h30. Vous recevez le nouvel horaire par e-mail. Bonne journée."
         }
       ],
       "outcomesLabel": "Ce que l'IA a fait au passage",
@@ -254,16 +254,16 @@
         "description": "Synchronisé avec Google Calendar, Outlook et les logiciels métier courants. L'IA ne voit que les créneaux réellement libres : aucun doublon."
       },
       {
-        "title": "Confirmation et rappel par SMS",
-        "description": "L'appel est suivi d'un SMS avec l'heure et l'adresse, puis d'un rappel avant la visite. C'est cette combinaison qui fait chuter les absences."
+        "title": "Confirmation par e-mail",
+        "description": "L'IA relit l'adresse e-mail et la fait confirmer ; le client reçoit l'horaire et les détails sous forme d'invitation d'agenda, et le rendez-vous figure dans son propre calendrier."
       },
       {
         "title": "Enregistrement, résumé et transcription",
         "description": "Chaque appel est conservé avec sa transcription complète et un résumé court de ce qui a été convenu. Vous pouvez toujours documenter l'échange après coup."
       },
       {
-        "title": "Transfère quand un humain est nécessaire",
-        "description": "L'IA reconnaît les cas qu'elle ne doit pas trancher – réclamations, urgences, négociations – et transfère au bon collègue ou prend un message."
+        "title": "Prend un message quand un humain est nécessaire",
+        "description": "L'IA reconnaît les cas qu'elle ne doit pas trancher – réclamations, urgences, négociations – et prend un message avec le nom, le numéro et un court résumé pour que le bon collègue puisse rappeler."
       },
       {
         "title": "RGPD et sécurité des données",
@@ -344,7 +344,7 @@
         "outbound": false
       },
       {
-        "feature": "Transférer à un collègue",
+        "feature": "Message avec résumé pour l'équipe",
         "inbound": true,
         "outbound": false
       },
@@ -383,7 +383,7 @@
     "free": "Gratuit",
     "mostPopular": "Le plus choisi",
     "cta": "Commencer",
-    "note": "Toutes les formules incluent les appels entrants et sortants, l'intégration d'agenda, les SMS et l'enregistrement."
+    "note": "Toutes les formules incluent les appels entrants, le widget IA, l'intégration d'agenda et l'enregistrement. Les appels sortants sont une option payante."
   },
   "cta": {
     "title": "Écoutez votre propre voix IA avant de décider",
@@ -396,7 +396,7 @@
   "faq": [
     {
       "question": "Quelle est la différence entre appels entrants et sortants ?",
-      "answer": "Entrant, c'est quand le client vous appelle : l'IA décroche, l'aide sur l'objet de son appel, puis réserve ou transfère. Sortant, c'est quand l'IA appelle d'elle-même, généralement pour des rappels, des confirmations ou la relance d'un devis. Vous pouvez utiliser un seul sens ou les deux sur le même numéro."
+      "answer": "Entrant, c'est quand le client vous appelle : l'IA décroche, l'aide sur l'objet de son appel, puis réserve ou prend un message. Sortant, c'est quand l'IA appelle d'elle-même, généralement pour des rappels, des confirmations ou la relance d'un devis. Les appels sortants sont une option à ajouter à votre formule."
     },
     {
       "question": "Puis-je garder mon numéro de téléphone actuel ?",
@@ -412,7 +412,7 @@
     },
     {
       "question": "Que se passe-t-il si l'IA ne peut pas aider ?",
-      "answer": "Elle est configurée pour reconnaître ses propres limites. En cas de réclamation, d'urgence ou de question sans réponse, elle transfère au bon collègue ou prend un message avec le nom, le numéro et l'objet, pour que vous puissiez rappeler."
+      "answer": "Elle est configurée pour reconnaître ses propres limites. En cas de réclamation, d'urgence ou de question sans réponse, elle prend un message avec le nom, le numéro et l'objet. L'appel est conservé dans le tableau de bord avec l'enregistrement et un résumé, pour que vous puissiez rappeler."
     },
     {
       "question": "Les appels sortants automatisés sont-ils légaux ?",

@@ -16,13 +16,13 @@
   },
   "bestOfBoth": {
     "title": "Det bedste fra begge verdener",
-    "description": "Med Aibooking.dk får du det bedste fra begge verdener. Vores AI-receptionist screener alle indkommende opkald, håndterer bookinger af møder, besvarer almindelige spørgsmål og videresender kun de vigtigste henvendelser. Dit team får fred til at arbejde koncentreret, mens kunderne oplever professionel service døgnet rundt. Dashboard'et giver dig komplet kontrol: Lyt til alle samtaler, se detaljerede opsummeringer, booking-statistik og kalenderintegration. Perfekt til advokater, revisorer, konsulenter og andre videnvirksomheder.",
+    "description": "Med Aibooking.dk får du det bedste fra begge verdener. Vores AI-receptionist tager alle indkommende opkald, booker møder, besvarer almindelige spørgsmål og noterer resten med et kort resumé, så I kan ringe tilbage. Dit team får fred til at arbejde koncentreret, mens kunderne oplever professionel service døgnet rundt. Dashboard'et giver dig overblik: Lyt til alle samtaler, se opsummeringer og hvad der er aftalt. Perfekt til advokater, revisorer, konsulenter og andre videnvirksomheder.",
     "benefits": [
       { "title": "Reducer afbrydelser", "description": "Forbedr medarbejdernes produktivitet markant" },
       { "title": "Professionel telefonbetjening", "description": "Uden ekstra lønomkostninger til receptionist" },
-      { "title": "Automatisk screening", "description": "Kun vigtige sager viderestilles til dit team" },
+      { "title": "Besked med resumé", "description": "Det, AI'en ikke kan løse, ligger klar til jer med et kort resumé" },
       { "title": "Møde-booking", "description": "Book møder direkte i teamets fælles kalender" },
-      { "title": "Komplet dashboard", "description": "Samtalehistorik, opsummeringer og statistik" },
+      { "title": "Komplet dashboard", "description": "Samtalehistorik, optagelser og opsummeringer" },
       { "title": "CRM-integration", "description": "Integration med eksisterende systemer og kalendere" }
     ]
   },

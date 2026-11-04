@@ -12,12 +12,12 @@
   },
   "solution": {
     "title": "Die Komplettlösung für das Gesundheitswesen",
-    "description": "Unser KI-Rezeptionist bearbeitet jede Anfrage professionell – von neuen Terminen über Umbuchungen bis zu Bestätigungen. Mit automatischen SMS-Erinnerungen senken Sie Terminausfälle deutlich. Ihr persönliches Dashboard gibt Ihnen den vollen Überblick: Hören Sie jeden Anruf, sehen Sie kurze Zusammenfassungen jedes Gesprächs, was vereinbart wurde, Buchungsstatistiken und die Kalenderintegration. Sie können Ihre bisherige Kalendersoftware weiter nutzen – unser System synchronisiert sich automatisch.",
+    "description": "Unser KI-Rezeptionist bearbeitet jede Anfrage professionell – von neuen Terminen über Umbuchungen bis zu Bestätigungen. Patienten können ihren Termin rund um die Uhr verschieben oder absagen, sodass er an jemand anderen gehen kann. Ihr Dashboard gibt Ihnen den Überblick: Hören Sie jeden Anruf und sehen Sie kurze Zusammenfassungen jedes Gesprächs und was vereinbart wurde. Termine landen direkt in Google Kalender, Outlook/Microsoft 365 oder Cal.com.",
     "benefits": [
       { "title": "85 % weniger Telefonzeit", "description": "Konzentrieren Sie sich auf Ihre Patienten statt auf Verwaltung" },
-      { "title": "Automatische SMS-Erinnerungen", "description": "Bis zu 60 % weniger Terminausfälle und bessere Auslastung" },
+      { "title": "Umbuchen und Absagen rund um die Uhr", "description": "Frei gewordene Termine stehen sofort anderen Patienten zur Verfügung" },
       { "title": "Terminbuchung rund um die Uhr", "description": "Buchungen, Umbuchungen und Absagen zu jeder Tageszeit" },
-      { "title": "Komplettes Dashboard", "description": "Anrufverlauf, Gesprächszusammenfassungen und Buchungsstatistiken" },
+      { "title": "Komplettes Dashboard", "description": "Anrufverlauf, Aufzeichnungen und Gesprächszusammenfassungen" },
       { "title": "Kalenderintegration", "description": "Synchronisiert automatisch mit Ihrem bestehenden Buchungssystem" },
       { "title": "DSGVO-konform", "description": "Volle Sicherheit für sensible Patientendaten" }
     ]

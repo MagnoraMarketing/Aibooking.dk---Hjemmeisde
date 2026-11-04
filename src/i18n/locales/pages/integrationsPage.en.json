@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "AI Booking with Google Calendar & Outlook | Aibooking.dk",
-    "description": "Connect the AI receptionist and AI chatbot to Google Calendar, Outlook, Shopify, Microsoft Teams and Zoom. Automatic booking without double bookings.",
+    "description": "Connect the AI receptionist and AI chatbot to Google Calendar, Outlook, Cal.com and Shopify, and book couriers with Uber Direct and Just Eat.",
     "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, AI booking calendar, calendar integration, AI reception, Google Calendar, Outlook integration, booking system integration, CRM integration, email integration"
   },
   "breadcrumb": {
@@ -12,11 +12,11 @@
     "badge": "Seamless Integration",
     "title_line1": "Connect with your",
     "title_line2": "existing tools",
-    "subtitle": "Our AI solution automates administration, calls, SMS, and email by working alongside the systems you already use. Save time, become more professional, and let the AI handle rebookings, follow-ups, and meeting confirmations automatically.",
+    "subtitle": "Our AI works with the systems you already use: your calendar, your Shopify store and your delivery partners. Save time, look more professional and let the AI handle bookings, rescheduling and cancellations automatically.",
     "features": [
       {
         "title": "Save Hours Every Day",
-        "description": "Automate inbound and outbound calls, SMS, and emails while the AI syncs with your systems"
+        "description": "Calls and chats are answered while the AI books straight into your calendar"
       },
       {
         "title": "Fast Setup",
@@ -33,49 +33,49 @@
     "subtitle": "Our AI solution connects with the tools you already use every day",
     "categories": [
       {
-        "title": "Calendar & Scheduling",
-        "description": "Google Calendar, Outlook, CalDAV"
+        "title": "Calendar & booking",
+        "description": "Google Calendar, Outlook/Microsoft 365, Cal.com"
       },
       {
-        "title": "CRM & Customers",
-        "description": "HubSpot, Salesforce, Pipedrive"
+        "title": "Webshop",
+        "description": "Shopify: products, stock, policies and order status"
       },
       {
-        "title": "Communication",
-        "description": "WhatsApp, Slack, Discord, Messenger"
+        "title": "Delivery",
+        "description": "Uber Direct and Just Eat"
       },
       {
-        "title": "Documents",
-        "description": "Notion, WordPress, Google Docs"
+        "title": "Website",
+        "description": "Widget on WordPress, Shopify, Wix and other sites"
       },
       {
-        "title": "E-commerce",
-        "description": "Shopify, WooCommerce, Stripe"
+        "title": "Phone",
+        "description": "Get a number in the dashboard and forward your current one"
       },
       {
-        "title": "Automation",
-        "description": "Zapier, Make, Webhooks, API"
+        "title": "Knowledge base",
+        "description": "Text, website URL and PDF"
       }
     ]
   },
   "gridSection": {
     "title": "Popular Integrations",
-    "subtitle": "Work seamlessly with your existing tools. Our AI automatically handles communication across every platform.",
+    "subtitle": "These are the integrations the AI agent uses today. You set them up in the dashboard.",
     "clinicHighlight": {
       "title": "Built specifically for clinics and treatment centers",
-      "description": "Over 500 Danish clinics have already chosen our solution. From dental clinics and physiotherapists to beauty salons and wellness centers – our AI assistant integrates perfectly with your existing booking system and handles everything from phone calls to SMS reminders.",
+      "description": "From dental clinics and physiotherapists to beauty salons and wellness centres – the AI assistant books, moves and cancels appointments straight in your calendar and answers the phone while you work.",
       "points": [
         {
           "strong": "GDPR-secure data handling",
           "text": "– all patient data is treated confidentially and in accordance with healthcare regulations"
         },
         {
-          "strong": "Reduce no-shows by up to 67%",
-          "text": "– automatic reminders via SMS and email keep your customers informed"
+          "strong": "Rescheduling and cancelling 24/7",
+          "text": "– patients change their own appointment and free slots are released straight away"
         },
         {
-          "strong": "Setup in under 15 minutes",
-          "text": "– no IT knowledge required, our team guides you every step of the way"
+          "strong": "Set up together with you",
+          "text": "– we get you started in a short onboarding meeting"
         },
         {
           "strong": "Support 7 days a week",
@@ -87,78 +87,38 @@
     "integrations": [
       {
         "name": "Google Calendar",
-        "description": "Automatic booking and meeting synchronization",
+        "description": "The AI checks free slots and books, moves and cancels directly",
         "category": "Calendar"
       },
       {
-        "name": "Outlook",
-        "description": "Microsoft 365 integration for email and calendar",
+        "name": "Outlook / Microsoft 365",
+        "description": "The same booking in the Outlook calendar, also for teams on Microsoft 365",
         "category": "Calendar"
       },
       {
-        "name": "WhatsApp",
-        "description": "Send SMS confirmations and reminders",
-        "category": "Communication"
-      },
-      {
-        "name": "Slack",
-        "description": "Real-time notifications for your team",
-        "category": "Communication"
+        "name": "Cal.com",
+        "description": "Event types with their own length and booking pages",
+        "category": "Calendar"
       },
       {
         "name": "Shopify",
-        "description": "E-commerce booking integration",
+        "description": "Products, variants, stock, shipping, returns and order status looked up live",
         "category": "E-commerce"
       },
       {
-        "name": "Notion",
-        "description": "Document and note synchronization",
-        "category": "Productivity"
-      },
-      {
-        "name": "WordPress",
-        "description": "Add booking to your website",
+        "name": "Website widget",
+        "description": "Chat and voice on any website with one embed code, e.g. WordPress or Wix",
         "category": "Website"
       },
       {
-        "name": "Zapier",
-        "description": "Connect with 5,000+ apps automatically",
-        "category": "Automation"
+        "name": "Phone number",
+        "description": "Get a number in the dashboard and forward your current one",
+        "category": "Phone"
       },
       {
-        "name": "Zoom",
-        "description": "Automatic meeting link creation",
-        "category": "Video"
-      },
-      {
-        "name": "Microsoft Teams",
-        "description": "Teams meeting integration",
-        "category": "Video"
-      },
-      {
-        "name": "Messenger",
-        "description": "Facebook Messenger integration",
-        "category": "Communication"
-      },
-      {
-        "name": "Discord",
-        "description": "Community and server integration",
-        "category": "Communication"
-      },
-      {
-        "name": "OpenAI",
-        "description": "Advanced AI support",
+        "name": "Knowledge base",
+        "description": "Teach the AI about your business from text, a website URL or a PDF",
         "category": "AI"
-      },
-      {
-        "name": "Webhooks",
-        "description": "Custom integration with your systems",
-        "category": "Developer"
-      },
-      {
-        "name": "REST API",
-        "description": "Full API access to all features",
-        "category": "Developer"
       },
       {
         "name": "Just Eat",
@@ -173,7 +133,7 @@
     ],
     "missing": {
       "title": "Missing your integration?",
-      "description": "We're continuously adding new integrations. With our Webhook and API support, you can connect almost any system to our AI solution.",
+      "description": "We add new integrations regularly. Tell us which system you use and we'll look at the options.",
       "button": "Book a Demo"
     }
   },
@@ -183,7 +143,7 @@
     "shopify": {
       "title": "What can the AI assistant do for your Shopify store?",
       "paragraph1": "The AI widget sits right on your Shopify site and instantly answers visitor questions about shipping, sizing, stock, and returns — even outside business hours, when a large share of your traffic arrives. That means fewer abandoned carts and more completed purchases.",
-      "paragraph2": "When a customer needs a human touch — a complicated return or a custom order — the AI hands the conversation to your team with the full context, so nobody has to start over."
+      "paragraph2": "When a customer needs a human touch — a complicated return or a custom order — the whole conversation is in the dashboard with a transcript and summary, so your team can take over without starting from scratch."
     },
     "solutions": {
       "title": "Shopify, bookings — or both",
@@ -193,7 +153,7 @@
       },
       "booking": {
         "title": "AI Booking & Calendar",
-        "text": "Let customers book, reschedule and cancel appointments by phone or on your site, while the AI syncs directly with your calendar and sends automatic SMS reminders."
+        "text": "Let customers book, reschedule and cancel appointments by phone or on your site, while the AI books straight into your Google, Outlook or Cal.com calendar."
       },
       "combined": {
         "title": "Webshop + bookings combined",
@@ -225,13 +185,13 @@
     "button": "Book a Demo",
     "benefitsTitle": "What do you get with AI integration?",
     "benefits": [
-      "Automatic handling of inbound and outbound calls",
-      "SMS reminders and confirmations sent automatically",
-      "Email communication managed by AI",
-      "Rebookings handled without manual intervention",
-      "Meeting confirmations sent on time, every time",
-      "Follow-up on missed calls and enquiries",
-      "Real-time synchronization with all your systems",
+      "Automatic handling of inbound calls and chats",
+      "Email confirmation with every booking",
+      "Rescheduling and cancellations without manual work",
+      "Recording, transcript and summary of every conversation",
+      "Shopify lookups in chat and on the phone",
+      "Courier delivery with Uber Direct and Just Eat",
+      "Booking straight into Google, Outlook or Cal.com",
       "Professional handling 24/7"
     ],
     "stats": [

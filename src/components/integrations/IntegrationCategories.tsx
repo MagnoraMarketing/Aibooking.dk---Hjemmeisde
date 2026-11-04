@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Calendar, Users, MessageSquare, FileText, BarChart, Wrench } from 'lucide-react';
+import { Calendar, ShoppingBag, Truck, Globe, Phone, FileText } from 'lucide-react';
 
 interface CategoryItem { title: string; description: string }
 
@@ -7,7 +7,7 @@ function IntegrationCategories() {
   const { t } = useTranslation('integrationsPage');
 
   const categoriesText = t('categoriesSection.categories', { returnObjects: true }) as CategoryItem[];
-  const categoryIcons = [Calendar, Users, MessageSquare, FileText, BarChart, Wrench];
+  const categoryIcons = [Calendar, ShoppingBag, Truck, Globe, Phone, FileText];
   const categoryColors = ['blue', 'green', 'purple', 'orange', 'pink', 'indigo'] as const;
   const categories = categoriesText.map((item, i) => ({ ...item, icon: categoryIcons[i], color: categoryColors[i] }));
 

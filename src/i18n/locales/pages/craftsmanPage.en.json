@@ -16,7 +16,7 @@
   },
   "solution": {
     "title": "Never miss a job again",
-    "description": "Our AI receptionist solves this problem once and for all. The system answers every call, records customer details, books site visits and sends automatic confirmations via SMS. In your dashboard you can see every enquiry, listen to recorded conversations, get short summaries of what the customer wants, and see what's been agreed. Your calendar updates automatically, no matter which system you use. Stop worrying about missed jobs – focus on your craft."
+    "description": "Our AI receptionist solves this problem once and for all. The system answers every call, records customer details, books site visits and sends the customer a confirmation by email. In your dashboard you can see every enquiry, listen to recorded conversations, get short summaries of what the customer wants, and see what's been agreed. The booking goes straight into your Google, Outlook or Cal.com calendar. Stop worrying about missed jobs – focus on your craft."
   },
   "benefits": [
     {
@@ -32,8 +32,8 @@
       "description": "Straight into your calendar – syncs automatically with your system"
     },
     {
-      "title": "SMS confirmations",
-      "description": "For both you and the customer, with all the relevant details"
+      "title": "Email confirmations",
+      "description": "The customer gets the time and details by email, and you get a summary in the dashboard"
     },
     {
       "title": "Complete dashboard",

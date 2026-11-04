@@ -16,7 +16,7 @@
   },
   "bestOfBoth": {
     "title": "Lo mejor de ambos mundos",
-    "description": "Con Aibooking.dk obtienes lo mejor de ambos mundos. Nuestra recepcionista de IA filtra todas las llamadas entrantes, gestiona la reserva de reuniones, responde preguntas frecuentes y solo redirige las consultas más importantes. Tu equipo obtiene la tranquilidad de trabajar concentrado, mientras los clientes disfrutan de un servicio profesional a cualquier hora. El panel te da control total: escucha cada conversación, consulta resúmenes detallados, estadísticas de reservas e integración con el calendario. Perfecto para abogados, contables, consultores y otros negocios basados en el conocimiento.",
+    "description": "Con Aibooking.dk obtienes lo mejor de ambos mundos. Nuestra recepcionista de IA atiende todas las llamadas entrantes, reserva reuniones, responde preguntas frecuentes y anota todo lo demás con un breve resumen para que devuelvas la llamada. Tu equipo trabaja concentrado, mientras los clientes disfrutan de un servicio profesional a cualquier hora. El panel te da la visión de conjunto: escucha cada conversación y consulta los resúmenes y lo acordado. Perfecto para abogados, contables, consultores y otros negocios basados en el conocimiento.",
     "benefits": [
       {
         "title": "Menos interrupciones",
@@ -27,8 +27,8 @@
         "description": "Sin costes salariales adicionales para una recepcionista"
       },
       {
-        "title": "Filtrado automático",
-        "description": "Solo se redirigen a tu equipo los asuntos importantes"
+        "title": "Mensajes con resumen",
+        "description": "Lo que la IA no puede resolver te espera con un breve resumen"
       },
       {
         "title": "Reserva de reuniones",
@@ -36,7 +36,7 @@
       },
       {
         "title": "Panel completo",
-        "description": "Historial de conversaciones, resúmenes y estadísticas"
+        "description": "Historial de conversaciones, grabaciones y resúmenes"
       },
       {
         "title": "Integración con CRM",

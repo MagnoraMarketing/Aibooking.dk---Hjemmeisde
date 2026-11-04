@@ -16,7 +16,7 @@
   },
   "solution": {
     "title": "Ne manquez plus jamais une commande",
-    "description": "Notre réceptionniste IA résout ce problème une fois pour toutes. Le système répond à tous les appels, enregistre les informations client, planifie les visites sur site et envoie des confirmations automatiques par SMS. Dans votre tableau de bord, vous pouvez consulter toutes les demandes, écouter les conversations enregistrées, obtenir des résumés courts de ce que souhaite le client, et voir ce qui a été convenu. Votre agenda se met à jour automatiquement, quel que soit le système que vous utilisez. Ne vous souciez plus des commandes perdues – concentrez-vous sur votre métier."
+    "description": "Notre réceptionniste IA résout ce problème une fois pour toutes. Le système répond à tous les appels, enregistre les informations client, planifie les visites sur site et envoie au client une confirmation par e-mail. Dans votre tableau de bord, vous pouvez consulter toutes les demandes, écouter les conversations enregistrées, obtenir des résumés courts de ce que souhaite le client, et voir ce qui a été convenu. Le rendez-vous arrive directement dans votre agenda Google, Outlook ou Cal.com. Ne vous souciez plus des commandes perdues – concentrez-vous sur votre métier."
   },
   "benefits": [
     {
@@ -32,8 +32,8 @@
       "description": "Dans votre agenda – synchronisation automatique avec votre système"
     },
     {
-      "title": "Confirmations par SMS",
-      "description": "Pour vous et pour le client, avec tous les détails pertinents"
+      "title": "Confirmation par e-mail",
+      "description": "Le client reçoit l'horaire et les détails par e-mail, et vous un résumé dans le tableau de bord"
     },
     {
       "title": "Tableau de bord complet",

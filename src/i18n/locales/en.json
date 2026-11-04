@@ -56,8 +56,8 @@
   "hero": {
     "badge": "Your Virtual Receptionist",
     "title_line1": "Your AI receptionist handles",
-    "title_line2": "calls, SMS and follow-ups",
-    "subtitle": "Skip the administration. Our AI receptionist handles everything – from calls and messages to bookings and social media. Enter your own hours on the phone and see how much time you could save.",
+    "title_line2": "calls, chat and bookings",
+    "subtitle": "Skip the administration. Our AI receptionist handles everything – from calls and messages to bookings in your calendar. Enter your own hours on the phone and see how much time you could save.",
     "savingsLink": "See what you can save with AIbooking",
     "cta": "Get Started Free",
     "secondary": "See How It Works",
@@ -122,8 +122,8 @@
         "description": "Send automatic reminders to customers about upcoming appointments and reduce no-shows."
       },
       {
-        "title": "Instant Follow-up",
-        "description": "Automatic follow-up SMS and emails after every call and appointment."
+        "title": "Summary after every call",
+        "description": "Every call is saved with a recording, transcript and short summary so you can follow up."
       },
       {
         "title": "GDPR Secure",
@@ -239,9 +239,9 @@
           "600 AI call minutes",
           "Advanced voice customization",
           "Priority support",
-          "Advanced analytics",
-          "Custom integrations",
-          "SMS reminders",
+          "Recordings and transcripts",
+          "Shopify and delivery integrations",
+          "Booking in Google, Outlook or Cal.com",
           "Customer history"
         ]
       },
@@ -461,18 +461,18 @@
           },
           {
             "role": "ai",
-            "text": "That's moved. You'll get an SMS confirmation in a moment."
+            "text": "That's moved. You'll get a confirmation by email in a moment."
           }
         ],
         "outcomes": [
           "Rebookings and cancellations are handled without interrupting reception",
-          "Automatic SMS reminders cut no-shows significantly",
+          "Rescheduling and cancelling around the clock frees up slots for other patients",
           "Patients can call and book outside opening hours — evenings and weekends too",
           "Everything is noted and added to the calendar, so you have the full picture afterwards"
         ],
         "results": [
           "Moved to Thu. 10:30",
-          "SMS confirmation sent",
+          "Confirmation emailed",
           "Calendar updated"
         ]
       },
@@ -508,12 +508,12 @@
         "results": [
           "Visit booked Fri. 08:00",
           "Address logged",
-          "SMS sent to both"
+          "Summary in the dashboard"
         ]
       },
       "office": {
         "title": "Room to concentrate — without leaving customers waiting",
-        "intro": "In an office, interruptions are expensive. Every call about status, prices or meeting times pulls someone out of their work. The AI receptionist screens every inbound call, answers the routine ones itself, books meetings in the shared calendar and only forwards what matters.",
+        "intro": "In an office, interruptions are expensive. Every call about status, prices or meeting times pulls someone out of their work. The AI receptionist screens every inbound call, answers the routine ones itself, books meetings in the shared calendar and notes everything else with a short summary so you can call back.",
         "situation": "At 13:05 a customer calls to book a meeting. The team is mid-deadline, and a call would cost all of their focus.",
         "callLabel": "Inbound call · Customer",
         "chat": [
@@ -538,7 +538,7 @@
           "Fewer interruptions mean longer stretches of focused work",
           "Routine questions about status, prices and opening hours are answered automatically",
           "Meetings are booked straight into the team's shared calendar",
-          "You decide which calls should always be put through to a person"
+          "Calls the AI can't resolve are waiting in the dashboard with a summary, so you can call back"
         ],
         "results": [
           "Meeting booked Wed. 14:30",
@@ -601,18 +601,18 @@
           },
           {
             "role": "ai",
-            "text": "You're booked for a cut and colour on Thursday at 14:30. You'll get an SMS confirmation in a moment."
+            "text": "You're booked for a cut and colour on Thursday at 14:30. You'll get a confirmation by email in a moment."
           }
         ],
         "outcomes": [
           "No client calls elsewhere because you were busy with someone in the chair",
           "Cancellations and changes are handled straight away, so the slot can go to someone else",
-          "SMS reminders the day before mean fewer no-shows",
+          "Clients can move or cancel themselves, so free slots can be rebooked",
           "Clients can also book through the chat on your website in the evening"
         ],
         "results": [
           "Booked Thu 14:30",
-          "SMS confirmation sent",
+          "Confirmation emailed",
           "No interruption in the chair"
         ]
       }
@@ -663,7 +663,7 @@
       "badge": "Calendar integrations",
       "healthcare": {
         "title": "The calendar systems clinics use most",
-        "subtitle": "Whatever booking system you use today, the AI receptionist can sync directly with your calendar.",
+        "subtitle": "The AI receptionist books straight into Google Calendar, Outlook/Microsoft 365 or Cal.com.",
         "items": [
           {
             "name": "Google Calendar",
@@ -674,20 +674,12 @@
             "description": "Booking and calendar sharing for the whole clinic"
           },
           {
-            "name": "Apple Calendar",
-            "description": "Syncs directly via iCloud"
-          },
-          {
-            "name": "EasyPractice",
-            "description": "Widely used practice management system in Denmark"
-          },
-          {
-            "name": "Novax",
-            "description": "Popular calendar system among chiropractors and physiotherapists"
+            "name": "Cal.com",
+            "description": "Event types with their own length, such as consultation and check-up"
           },
           {
             "name": "Other systems",
-            "description": "Using something else? We connect via CalDAV/iCal sync"
+            "description": "Using something else? Contact us and we'll look at the options"
           }
         ]
       },
@@ -704,20 +696,12 @@
             "description": "Shared calendar for the whole team on the go"
           },
           {
-            "name": "Apple Calendar",
-            "description": "Syncs directly via iCloud"
-          },
-          {
-            "name": "Dinero",
-            "description": "Widely used among Danish tradespeople for invoicing and scheduling"
-          },
-          {
-            "name": "e-conomic",
-            "description": "Popular accounting and scheduling system in the trade"
+            "name": "Cal.com",
+            "description": "Fixed booking types, such as a site visit or a service call"
           },
           {
             "name": "Other systems",
-            "description": "Using something else? We connect via CalDAV/iCal sync"
+            "description": "Using something else? Contact us and we'll look at the options"
           }
         ]
       },
@@ -738,16 +722,12 @@
             "description": "Book meetings straight into the team's shared calendar"
           },
           {
-            "name": "Apple Calendar",
-            "description": "Syncs directly via iCloud"
-          },
-          {
-            "name": "Calendly",
-            "description": "Popular meeting-booking tool among offices and consultants"
+            "name": "Cal.com",
+            "description": "Meeting types with their own length, such as a first meeting and a follow-up"
           },
           {
             "name": "Other systems",
-            "description": "Using something else? We connect via CalDAV/iCal sync"
+            "description": "Using something else? Contact us and we'll look at the options"
           }
         ]
       },
@@ -765,19 +745,15 @@
           },
           {
             "name": "Shopify",
-            "description": "Book pickup, delivery or consultations straight from the webshop"
+            "description": "Products, stock and order status looked up live while the customer asks"
           },
           {
-            "name": "Calendly",
+            "name": "Cal.com",
             "description": "For webshops that also sell consultations or demos"
           },
           {
-            "name": "Apple Calendar",
-            "description": "Syncs directly via iCloud"
-          },
-          {
             "name": "Other systems",
-            "description": "Using something else? We connect via CalDAV/iCal sync"
+            "description": "Using something else? Contact us and we'll look at the options"
           }
         ]
       },
@@ -794,12 +770,12 @@
             "description": "Shared calendar for the whole salon"
           },
           {
-            "name": "Apple Calendar",
-            "description": "Synced directly via iCloud"
+            "name": "Cal.com",
+            "description": "Treatments as event types with their own length"
           },
           {
             "name": "Other systems",
-            "description": "Using another booking system? We connect via CalDAV/iCal sync"
+            "description": "Using something else? Contact us and we'll look at the options"
           }
         ]
       }

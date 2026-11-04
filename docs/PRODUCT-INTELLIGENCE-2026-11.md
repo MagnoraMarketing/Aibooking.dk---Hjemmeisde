@@ -65,7 +65,18 @@ The mission rule is "do not market planned or incomplete functionality". These c
 | "Over 500 Danish clinics", "up to 60/65/67 % fewer no-shows" | Unverifiable (already open in SEO-AUDIT-2026-10 §6.1) | demo, features, healthcare, industries, integrations | Remove unless documented |
 | "Booking statistics", "trends" in the dashboard | Analytics is a "coming soon" placeholder | ecommerce, healthcare (main cards) | Reword to what exists: conversations, recordings, transcripts, bookings, usage |
 
-**Why this matters for SEO, not just legal:** inaccurate feature claims undercut E-E-A-T and conversion (a trial user looking for the SMS setting doesn't find it), and the EU AI Act / Danish Marketing Practices Act both penalise misleading claims. **I did not rewrite these pages.** It touches promises on about 20 pages × 5 languages, and you may have SMS or transfer on the roadmap. Decide per row (fix copy vs. ship the feature) and the copy changes are a mechanical next round.
+**Why this matters for SEO, not just legal:** inaccurate feature claims undercut E-E-A-T and conversion (a trial user looking for the SMS setting doesn't find it), and the EU AI Act / Danish Marketing Practices Act both penalise misleading claims. **Status (4 Nov 2026, second commit on this branch): fixed on all pages, the FAQ data and the shared components, in all five languages. Blog posts are not done yet.**
+
+- SMS → **email confirmation**. A booking requires the customer's email, which the AI reads back and confirms, and the calendar (Google/Outlook/Cal.com) sends the confirmation. "SMS reminders" became "customers can move or cancel themselves around the clock".
+- Transfer to a human → **takes a message with name, number and a short summary in the dashboard/app, so you can call back.** Forwarding your own number *to* the AI is unchanged, because it is real.
+- Outbound → kept, but marked as an **add-on** in the pricing note, the trial FAQ and the inbound/outbound FAQ.
+- Calendar lists per industry → Google, Outlook/Microsoft 365 and **Cal.com**; EasyPractice, Novax, Dinero, e-conomic, Calendly and "CalDAV" removed; "other systems" now says "contact us".
+- /integrationer → the grid now lists only real integrations (Google, Outlook/M365, Cal.com, Shopify, website widget, phone number, knowledge base, Just Eat, Uber Direct). WhatsApp, Slack, Notion, Zapier, Zoom, Teams meetings, Messenger, Discord, OpenAI, webhooks, REST API, CRM and WooCommerce/Stripe are gone, including from the meta description and the "missing integration" box.
+- Trial page: "100 SMS / 3,000 emails / 100 WhatsApp" → 10 free minutes, widget, calendar, recordings.
+- Reorders, "trends/statistics", "social media" (homepage hero), "500 clinics" and the 60/65/67 % no-show figures removed.
+- Still left on the pages: "85 %" (the savings calculator's assumption and two headings); it wasn't on the list above, so your call. "Statistik" stays where it names the real menu item in the app screenshots.
+
+**Blog posts (not done):** about 300 mentions across the receptionist, voice, automation and webshop clusters in five languages. Some are fair comparisons (e.g. "an SMS reminder is easy to miss; a call…"); others are claims. The post `ai-receptionist-viderestilling-til-menneske` is entirely about a feature that doesn't exist: rewrite it as "when the AI can't answer: messages, summaries and call-backs", or merge it with a 301 redirect.
 
 ## 4. Shopify assessment and strategy
 

@@ -35,10 +35,10 @@
       "direction": "Inbound · Unknown number",
       "timer": "00:51",
       "transcriptLabel": "Live transcript",
-      "line": "You're booked for tomorrow at 8:30 AM. You'll get an SMS confirmation right away.",
+      "line": "You're booked for tomorrow at 8:30 AM. You'll get a confirmation by email right away.",
       "actions": [
         "Appointment booked",
-        "SMS sent",
+        "Email sent",
         "Job created"
       ]
     }
@@ -50,7 +50,7 @@
     "para3": "You decide the scope: inbound only, outbound only, or both on the same number.",
     "inbound": {
       "title": "Inbound",
-      "desc": "Answers within seconds, books into your calendar, handles the questions that come up again and again, and transfers to your team when a case needs a human."
+      "desc": "Answers within seconds, books into your calendar, handles the questions that come up again and again, and takes a message with a summary when a case needs a human."
     },
     "outbound": {
       "title": "Outbound",
@@ -118,7 +118,7 @@
         {
           "role": "ai",
           "time": "0:51",
-          "text": "Thank you. You're booked for tomorrow at 8:30 AM. You'll get an SMS confirmation now and a reminder an hour before."
+          "text": "Thank you. You're booked for tomorrow at 8:30 AM. The confirmation will be in your inbox in a moment."
         }
       ],
       "outcomesLabel": "What the AI handled along the way",
@@ -174,7 +174,7 @@
         {
           "role": "ai",
           "time": "0:30",
-          "text": "Your appointment is moved to Friday at 9:30 AM. You'll get an SMS with the new time now. Have a good day."
+          "text": "Your appointment is moved to Friday at 9:30 AM. You'll get the new time by email. Have a good day."
         }
       ],
       "outcomesLabel": "What the AI handled along the way",
@@ -254,16 +254,16 @@
         "description": "Synced with Google Calendar, Outlook and the common industry systems. The AI only sees slots that are genuinely free – no double bookings."
       },
       {
-        "title": "SMS confirmation and reminder",
-        "description": "The call is followed by an SMS with time and address, and a reminder before the visit. That combination is what brings no-shows down."
+        "title": "Email confirmation",
+        "description": "The AI reads the email address back and gets it confirmed, and the customer receives the time and details as a calendar invitation, so the appointment sits in their own calendar."
       },
       {
         "title": "Recording, summary and transcript",
         "description": "Every call is stored with a full transcript and a short summary of what was agreed. You can always document the conversation afterwards."
       },
       {
-        "title": "Transfers when a human is needed",
-        "description": "The AI recognises the cases it shouldn't decide – complaints, emergencies, negotiations – and transfers to the right colleague or takes a message."
+        "title": "Takes a message when a human is needed",
+        "description": "The AI recognises the cases it shouldn't decide – complaints, emergencies, negotiations – and takes a message with name, number and a short summary so the right colleague can call back."
       },
       {
         "title": "GDPR and data security",
@@ -344,7 +344,7 @@
         "outbound": false
       },
       {
-        "feature": "Transferring to a colleague",
+        "feature": "Message with a summary for the team",
         "inbound": true,
         "outbound": false
       },
@@ -383,7 +383,7 @@
     "free": "Free",
     "mostPopular": "Most chosen",
     "cta": "Get started",
-    "note": "Every plan includes both inbound and outbound calling, calendar integration, SMS and recording."
+    "note": "Every plan includes inbound calls, the AI widget, calendar integration and recording. Outbound calling is an add-on."
   },
   "cta": {
     "title": "Hear your own AI voice before you decide",
@@ -396,7 +396,7 @@
   "faq": [
     {
       "question": "What is the difference between inbound and outbound calls?",
-      "answer": "Inbound is when the customer calls you – the AI picks up, helps with whatever they're calling about, and books or transfers. Outbound is when the AI places the call itself, typically with reminders, confirmations or follow-ups on a quote. You can use one direction or both on the same number."
+      "answer": "Inbound is when the customer calls you – the AI picks up, helps with whatever they're calling about, and books or takes a message. Outbound is when the AI places the call itself, typically with reminders, confirmations or follow-ups on a quote. Outbound calling is an add-on to your plan."
     },
     {
       "question": "Can I keep my current phone number?",
@@ -412,7 +412,7 @@
     },
     {
       "question": "What happens if the AI can't help?",
-      "answer": "It's set up to recognise its own limits. For complaints, urgent cases or questions it has no answer to, it transfers to the right colleague, or takes a message with name, number and what the case is about so you can call back."
+      "answer": "It's set up to recognise its own limits. For complaints, urgent cases or questions it has no answer to, it takes a message with name, number and what the case is about. The call is saved in the dashboard with a recording and summary so you can call back."
     },
     {
       "question": "Is automated outbound calling legal?",

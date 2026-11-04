@@ -78,7 +78,7 @@
     "description": "Nuestra solución de IA no es simplemente otro chatbot. Es el resultado de décadas de experiencia en telemarketing y contacto con clientes. Entendemos lo que se necesita para ofrecer una atención al cliente profesional, y hemos creado una solución que realmente funciona en la práctica.",
     "incoming": {
       "title": "Llamadas entrantes",
-      "description": "Nuestra recepcionista virtual gestiona todas las llamadas entrantes, responde preguntas, toma reservas y solo transfiere llamadas cuando es necesario. Esto significa menos interrupciones en el flujo de trabajo y más tiempo para las tareas principales.",
+      "description": "Nuestra recepcionista virtual gestiona todas las llamadas entrantes, responde preguntas y toma reservas. Lo que no puede resolver queda en el panel con un resumen para que devuelvas la llamada. Esto significa menos interrupciones en el flujo de trabajo y más tiempo para las tareas principales.",
       "features": [
         "Disponibilidad 24/7",
         "Comunicación profesional en el idioma de tus clientes",

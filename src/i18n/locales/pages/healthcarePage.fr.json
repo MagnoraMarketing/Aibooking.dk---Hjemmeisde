@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Secrétariat Médical IA pour Cabinets | Aibooking.dk",
-    "description": "Secrétariat médical IA pour cabinets, dentistes et kinés : répond aux appels, prend les rendez-vous, envoie des rappels SMS et respecte le RGPD.",
+    "description": "Secrétariat médical IA pour cabinets, dentistes et kinés : répond aux appels, prend, déplace et annule les rendez-vous et respecte le RGPD.",
     "keywords": "permanence téléphonique IA, réceptionniste virtuel IA, widget pour boutique en ligne, widget IA pour Shopify, prise de rendez-vous dentiste, réservation clinique, réservation kinésithérapie, réceptionniste IA santé, réservation patient, automatisation clinique"
   },
   "breadcrumb": {
@@ -16,15 +16,15 @@
   },
   "solution": {
     "title": "La solution complète pour le secteur de la santé",
-    "description": "Notre réceptionniste IA traite toutes les demandes des clients de façon professionnelle – des nouvelles réservations aux reports et confirmations. Grâce aux rappels SMS automatiques, vous réduisez considérablement les rendez-vous manqués. Votre tableau de bord personnalisé vous donne une vue d'ensemble complète : écoutez tous les appels, consultez de courts résumés de chaque conversation, ce qui a été convenu, les statistiques de réservation et l'intégration au calendrier. Vous pouvez continuer à utiliser votre logiciel de calendrier actuel – notre système se synchronise automatiquement.",
+    "description": "Notre réceptionniste IA traite toutes les demandes des clients de façon professionnelle – des nouvelles réservations aux reports et confirmations. Les patients peuvent déplacer ou annuler leur rendez-vous à toute heure, pour que le créneau profite à quelqu'un d'autre. Votre tableau de bord vous donne une vue d'ensemble : écoutez tous les appels et consultez de courts résumés de chaque conversation et de ce qui a été convenu. Les rendez-vous arrivent directement dans Google Agenda, Outlook/Microsoft 365 ou Cal.com.",
     "benefits": [
       {
         "title": "Réduisez le temps au téléphone de 85 %",
         "description": "Concentrez-vous sur vos patients plutôt que sur les tâches administratives"
       },
       {
-        "title": "Rappels SMS automatiques",
-        "description": "Réduisez les rendez-vous manqués jusqu'à 60 % et optimisez votre capacité"
+        "title": "Reports et annulations 24h/24",
+        "description": "Les créneaux libérés sont aussitôt disponibles pour d'autres patients"
       },
       {
         "title": "Service de réservation 24 h/24, 7 j/7",
@@ -32,7 +32,7 @@
       },
       {
         "title": "Tableau de bord complet",
-        "description": "Historique des appels, résumés de conversations et statistiques de réservation"
+        "description": "Historique des appels, enregistrements et résumés de conversations"
       },
       {
         "title": "Intégration au calendrier",

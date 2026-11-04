@@ -16,7 +16,7 @@
   },
   "bestOfBoth": {
     "title": "The best of both worlds",
-    "description": "With Aibooking.dk you get the best of both worlds. Our AI receptionist screens all incoming calls, handles meeting bookings, answers common questions and only forwards the most important inquiries. Your team gets the peace to work with focus, while customers experience professional service around the clock. The dashboard gives you complete control: listen to every conversation, view detailed summaries, booking statistics and calendar integration. Perfect for lawyers, accountants, consultants and other knowledge-based businesses.",
+    "description": "With Aibooking.dk you get the best of both worlds. Our AI receptionist takes every incoming call, books meetings, answers common questions and notes everything else with a short summary so you can call back. Your team gets the peace to work with focus, while customers experience professional service around the clock. The dashboard gives you the overview: listen to every conversation and see summaries and what was agreed. Perfect for lawyers, accountants, consultants and other knowledge-based businesses.",
     "benefits": [
       {
         "title": "Fewer interruptions",
@@ -27,8 +27,8 @@
         "description": "Without extra salary costs for a receptionist"
       },
       {
-        "title": "Automatic screening",
-        "description": "Only important matters are forwarded to your team"
+        "title": "Messages with a summary",
+        "description": "Anything the AI can't resolve is waiting for you with a short summary"
       },
       {
         "title": "Meeting booking",
@@ -36,7 +36,7 @@
       },
       {
         "title": "Complete dashboard",
-        "description": "Conversation history, summaries and statistics"
+        "description": "Conversation history, recordings and summaries"
       },
       {
         "title": "CRM integration",

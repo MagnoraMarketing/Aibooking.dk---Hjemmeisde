@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Réceptionniste IA pour coiffeurs et instituts | Aibooking.dk",
-    "description": "Réceptionniste IA et prise de RDV pour coiffeurs et instituts : répond au téléphone pendant que vous travaillez, réserve, déplace, annule et envoie un SMS.",
+    "description": "Réceptionniste IA et prise de RDV pour coiffeurs et instituts : répond au téléphone pendant que vous travaillez, réserve, déplace et annule les RDV.",
     "keywords": "réceptionniste IA coiffeur, prise de rendez-vous IA salon, standard téléphonique IA coiffure, secrétariat téléphonique salon, institut de beauté rendez-vous, barbier rendez-vous"
   },
   "breadcrumb": {
@@ -16,14 +16,14 @@
   },
   "solution": {
     "title": "Une réceptionniste qui connaît votre salon",
-    "description": "La réceptionniste IA répond dans votre langue, se présente comme l'assistante numérique du salon et connaît vos prestations, vos tarifs et vos horaires. Elle trouve un créneau libre, le réserve, déplace ou annule des rendez-vous et envoie une confirmation par SMS. Ce qu'elle ne sait pas, elle vous le transmet avec un court résumé. Il en va de même pour le chat de votre site : vos clients peuvent aussi réserver le soir et le week-end."
+    "description": "La réceptionniste IA répond dans votre langue, se présente comme l'assistante numérique du salon et connaît vos prestations, vos tarifs et vos horaires. Elle trouve un créneau libre, le réserve, déplace ou annule des rendez-vous et envoie au client une confirmation par e-mail. Ce qu'elle ne sait pas vous attend dans l'appli avec un court résumé. Il en va de même pour le chat de votre site : vos clients peuvent aussi réserver le soir et le week-end."
   },
   "benefits": [
     { "title": "Aucune interruption pendant une prestation", "description": "Restez avec la cliente au fauteuil. L'IA répond au téléphone à votre place." },
     { "title": "Réservation, déplacement et annulation", "description": "Vos clients réservent, déplacent ou annulent eux-mêmes, à toute heure." },
-    { "title": "Confirmations et rappels par SMS", "description": "Le client reçoit une confirmation tout de suite et un rappel avant le rendez-vous : moins de rendez-vous manqués." },
+    { "title": "Confirmation par e-mail", "description": "Le client reçoit aussitôt l'horaire et la prestation par e-mail : le rendez-vous figure dans son propre agenda." },
     { "title": "Réponses aux questions habituelles", "description": "Tarifs, prestations, horaires et stationnement sont traités à partir de votre propre base de connaissances." },
-    { "title": "Transfert quand c'est important", "description": "Les réclamations ou demandes particulières peuvent vous être transférées, à vous ou à un collègue." },
+    { "title": "Messages avec résumé", "description": "Réclamations et demandes particulières vous attendent dans l'appli avec un court résumé, pour que vous puissiez rappeler." },
     { "title": "Vue d'ensemble dans l'appli", "description": "Voyez sur votre mobile, entre deux clients, les appels du jour, les rendez-vous et qui rappeler." }
   ],
   "workflow": {

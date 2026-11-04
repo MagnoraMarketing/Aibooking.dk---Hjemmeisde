@@ -11,7 +11,7 @@ export const PAGE_PATHS: Record<NavigatePage, string> = {
   industries: '/brancher', healthcare: '/klinik', craftsman: '/haandvaerker',
   office: '/kontor', ecommerce: '/webshop', contact: '/kontakt',
   about: '/om-aibooking', terms: '/vilkaar', privacy: '/privatlivspolitik',
-  blog: '/blog', trial: '/proeveperiode', app: '/app', salon: '/frisoer', shopify: '/shopify',
+  blog: '/blog', trial: '/proeveperiode', app: '/app', salon: '/frisoer', shopify: '/shopify', restaurant: '/restaurant',
 };
 
 export function useLocalizedHref() {

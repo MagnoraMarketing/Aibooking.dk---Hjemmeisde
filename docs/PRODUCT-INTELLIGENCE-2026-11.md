@@ -185,6 +185,11 @@ Navigation: /shopify sits in the Industries menu next to E-commerce and in the f
 - Checks: `npm run typecheck` ✓, `npm run lint` ✓, `npm run build` ✓ (265 pages prerendered, no warnings for the new URLs). Prerendered HTML per language: 1 H1, self-canonical, 6 hreflang links, description 147–153 characters, title 50–55 characters, about 1,650–2,000 words. Playwright at 390 px and 1280 px: no horizontal overflow (an overflow caused by the dashboard mock in a grid was found and fixed with `min-w-0`).
 - **Not deployed.** The changes ship when the PR is merged and Vercel builds production; IndexNow then submits the new URLs automatically.
 
+**Round 2 (4 Nov 2026, later):**
+- **New page `/restaurant`** in all five languages (`RestaurantPage.tsx`, `restaurantPage.*.json`, `restaurantFAQs`). It covers table booking in the calendar, menu and allergen answers from the knowledge base, and courier delivery via Uber Direct/Just Eat. It says plainly that there is no payment and no hand-off to a till or kitchen printer, in line with §5. Linked from the Industries menu, the footer and llms.txt; in the sitemap at priority 0.7.
+- **New blog post `ai-bestiller-bud-levering-uber-direct-just-eat`** (automation cluster, all five languages, FAQ and a source). It describes the real courier flow: quote, a clear yes, book, status. Prices are valid for 15 min (Uber) and 5 min (Just Eat), and only Uber can cancel. It links to /restaurant and /integrationer, and has an SVG cover plus a JPEG og:image.
+- Checks: typecheck, lint and build ✓ (275 pages, 0 SEO warnings). Playwright at 390/1280 px: no overflow, no page errors.
+
 ## 14. Decisions needed from you
 
 1. §3, row by row: fix the copy, or ship the feature (SMS, transfer to a human, outbound in packages, the calendar/CRM list, reorders, the unverified numbers).

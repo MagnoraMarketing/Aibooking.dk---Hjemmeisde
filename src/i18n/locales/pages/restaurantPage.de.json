@@ -1,0 +1,178 @@
+{
+  "seo": {
+    "title": "KI für Restaurants: Tische, Karte & Lieferung | Aibooking.dk",
+    "description": "KI-Telefonassistent und Chat für Restaurants, Pizzerien und Imbisse: reserviert Tische, beantwortet Fragen zu Speisekarte und Allergenen, bucht Kuriere.",
+    "keywords": "KI für Restaurants, KI Telefonassistent Restaurant, Tischreservierung KI, KI Rezeption Gastronomie, KI Pizzeria, Lieferdienst KI, Restaurant Chatbot, KI Telefon Gastronomie"
+  },
+  "breadcrumb": {
+    "home": "Startseite",
+    "industries": "Branchen",
+    "restaurant": "Restaurant & Imbiss"
+  },
+  "hero": {
+    "badge": "Restaurant, Pizzeria & Imbiss",
+    "title": "KI fürs Restaurant, die ans Telefon geht",
+    "highlight": "mitten im Abendgeschäft",
+    "subtitle": "Das Telefon klingelt, während in der Küche die Hölle los ist. Der KI-Rezeptionist reserviert den Tisch, beantwortet Fragen zu Speisekarte, Allergenen und Öffnungszeiten und bucht einen Kurier zur Adresse des Gastes – Ihr Team bleibt bei Essen und Gästen.",
+    "primary": "Kostenloses Konto erstellen"
+  },
+  "channels": {
+    "title": "Telefon und Website, mit demselben Wissen",
+    "subtitle": "Gäste rufen an oder schreiben auf der Website. Beide Kanäle kennen Speisekarte, Öffnungszeiten und freie Tische, weil sie dieselbe Wissensdatenbank und denselben Kalender nutzen.",
+    "items": [
+      {
+        "title": "KI-Telefonassistent fürs Restaurant",
+        "description": "Jeder Anruf wird angenommen, auch freitags um 18.30 Uhr. Die KI stellt sich als digitaler Assistent des Restaurants vor, reserviert den Tisch und beantwortet die Fragen, die jeden Abend kommen.",
+        "points": [
+          "Sie erhalten eine Nummer und leiten die Restaurantnummer dorthin um",
+          "Reservierungen, Änderungen und Stornos direkt im Kalender",
+          "Kann bei Bedarf ins Restaurant durchstellen",
+          "Aufzeichnung, Transkript und Zusammenfassung jedes Anrufs"
+        ]
+      },
+      {
+        "title": "Chat und Voice auf der Website",
+        "description": "Ein kleines Fenster auf der Restaurant-Website, in dem Gäste schreiben oder sprechen. Es reserviert auch nachts einen Tisch und sagt, ob ein Gericht glutenfrei ist.",
+        "points": [
+          "Gäste können schreiben oder sprechen",
+          "Tischreservierung rund um die Uhr",
+          "Antworten aus Ihrer eigenen Speisekarte und Allergenliste",
+          "Mit einem einzigen Embed-Code eingebunden"
+        ]
+      }
+    ],
+    "linkIntro": "Mehr zu den beiden Kanälen:",
+    "widgetLink": "KI-Widget und Chatbot",
+    "phoneLink": "KI-Telefonassistent"
+  },
+  "capabilities": {
+    "title": "Was die KI fürs Restaurant erledigt",
+    "subtitle": "Vier Aufgaben, die jeden Abend das Telefon blockieren und die die KI allein erledigt.",
+    "items": [
+      {
+        "title": "Tischreservierung",
+        "description": "Die KI findet einen freien Termin in Ihrem Kalender, reserviert den Tisch und schickt eine Bestätigung. Gäste können auch selbst umbuchen oder absagen."
+      },
+      {
+        "title": "Speisekarte und Allergene",
+        "description": "Laden Sie die Speisekarte als PDF oder Link hoch, dann beantwortet die KI Fragen zu Gerichten, Preisen, Allergenen und vegetarischen Optionen aus Ihren eigenen Angaben."
+      },
+      {
+        "title": "Lieferung per Kurier",
+        "description": "Die KI holt Preis und Lieferzeit bei Uber Direct oder Just Eat ein, nennt beides und bucht den Kurier erst, wenn der Gast zustimmt."
+      },
+      {
+        "title": "Öffnungszeiten und Sprachen",
+        "description": "Öffnungszeiten, Parken und Gruppenbuchungen werden sofort beantwortet, und der Agent spricht Deutsch, Englisch, Dänisch, Spanisch, Französisch oder Portugiesisch."
+      }
+    ]
+  },
+  "examples": {
+    "title": "So klingt das in der Praxis",
+    "subtitle": "Drei typische Anfragen an ein Restaurant und wie der KI-Assistent sie beantwortet.",
+    "channel": {
+      "widget": "Chat auf der Website",
+      "phone": "Telefon"
+    },
+    "who": {
+      "customer": "Gast",
+      "ai": "KI-Assistent"
+    },
+    "items": [
+      {
+        "title": "Ein Tisch für vier",
+        "channel": "phone",
+        "lines": [
+          { "who": "ai", "text": "Guten Tag, Sie sprechen mit dem digitalen Assistenten der Trattoria Roma. Wie kann ich helfen?" },
+          { "who": "customer", "text": "Haben Sie am Samstag um 19 Uhr einen Tisch für vier?" },
+          { "who": "ai", "text": "Ja, Samstag um 19 Uhr ist frei. Darf ich Ihren Namen und Ihre E-Mail-Adresse für die Bestätigung haben?" },
+          { "who": "customer", "text": "Julia Becker, julia@beispiel.de." },
+          { "who": "ai", "text": "Danke, Frau Becker. Ihr Tisch für vier ist am Samstag um 19 Uhr reserviert, die Bestätigung ist unterwegs." }
+        ]
+      },
+      {
+        "title": "Glutenfreie Pizza",
+        "channel": "widget",
+        "lines": [
+          { "who": "customer", "text": "Ist Ihre Pizza Margherita glutenfrei?" },
+          { "who": "ai", "text": "Der normale Teig enthält Gluten, aber Sie können einen glutenfreien Boden für 3 € Aufpreis bekommen. Bei einer schweren Allergie rufen Sie bitte an und sprechen mit der Küche." }
+        ]
+      },
+      {
+        "title": "Lieferung an die Tür",
+        "channel": "phone",
+        "lines": [
+          { "who": "customer", "text": "Können Sie meine Bestellung in die Bergmannstraße 12, 10961 Berlin schicken?" },
+          { "who": "ai", "text": "Ich prüfe das. Ein Kurier kostet 6,50 €, und das Essen kann gegen 19.40 Uhr bei Ihnen sein. Soll ich den Kurier buchen?" },
+          { "who": "customer", "text": "Ja, bitte." },
+          { "who": "ai", "text": "Der Kurier ist gebucht. Rufen Sie gern wieder an, wenn Sie wissen möchten, wo er ist." }
+        ]
+      }
+    ],
+    "note": "Die Beispiele stammen aus einem fiktiven Restaurant. Speisekarte, Preise und freie Termine kommen immer aus Ihrer eigenen Wissensdatenbank und Ihrem Kalender."
+  },
+  "limits": {
+    "title": "Was die KI macht und was nicht",
+    "subtitle": "Wir versprechen kein komplettes Kassensystem. Dafür übernimmt die KI die Anrufe, die am meisten Zeit kosten.",
+    "doesTitle": "Der KI-Assistent",
+    "does": [
+      "Reserviert, verschiebt und storniert Tische in Ihrem Kalender",
+      "Beantwortet Fragen zu Speisekarte, Preisen, Allergenen und Öffnungszeiten aus Ihren Angaben",
+      "Holt Preis und Zeit für einen Kurier ein und bucht ihn nach Zustimmung des Gastes",
+      "Schickt eine Bestätigung per E-Mail oder SMS",
+      "Stellt sich als digitaler Assistent des Restaurants vor"
+    ],
+    "doesNotTitle": "Der KI-Assistent macht nicht",
+    "doesNot": [
+      "Nimmt keine Zahlungen entgegen",
+      "Schickt keine Essensbestellungen direkt an Kasse oder Küchendrucker. Das Gespräch liegt im Dashboard",
+      "Rät keine Allergene, die nicht in Ihrer Speisekarte stehen",
+      "Sagt nicht, dass ein Kurier gebucht ist, bevor er tatsächlich gebucht ist",
+      "Ändert Speisekarte oder Preise nicht eigenmächtig"
+    ]
+  },
+  "privacy": {
+    "title": "Allergene: Antworten aus Ihrer eigenen Speisekarte",
+    "text": "Die KI antwortet nur aus dem, was in der Wissensdatenbank steht. Tragen Sie daher bei jedem Gericht die Allergene ein und vermerken Sie, dass Gäste mit schwerer Allergie mit der Küche sprechen sollen. Dann sagt die KI genau das, statt zu raten. Aktualisieren Sie die Speisekarte bei Änderungen, damit die Antworten stimmen."
+  },
+  "setup": {
+    "title": "So startet Ihr Restaurant",
+    "steps": [
+      {
+        "title": "Kostenloses Konto erstellen",
+        "description": "Sie erhalten 7 Tage Testphase, ohne Vertragsbindung und ohne Kreditkarte."
+      },
+      {
+        "title": "Speisekarte hinterlegen",
+        "description": "Laden Sie die Speisekarte als PDF hoch oder fügen Sie einen Link ein, und tragen Sie Öffnungszeiten und Allergene in die Wissensdatenbank ein."
+      },
+      {
+        "title": "Kalender und Lieferung verbinden",
+        "description": "Verbinden Sie Google Kalender, Outlook oder Cal.com für Reservierungen und bei Bedarf Uber Direct oder Just Eat für Kuriere."
+      },
+      {
+        "title": "Live gehen",
+        "description": "Leiten Sie die Restaurantnummer auf die Nummer des Agenten um, oder binden Sie das Widget auf der Website ein."
+      }
+    ]
+  },
+  "types": {
+    "title": "Für jede Art von Gastronomie",
+    "items": ["Pizzeria", "Burger-Restaurant", "Sushi", "Imbiss", "Café", "Bäckerei", "Catering", "Gehobene Küche"]
+  },
+  "delivery": {
+    "title": "Kurierlieferung Schritt für Schritt",
+    "text": "Der Gast nennt die Adresse, die KI wiederholt sie. Dann holt sie Preis und Lieferzeit bei Uber Direct oder Just Eat ein, sofern der Dienst in Ihrer Region verfügbar ist, und nennt beides. Der Kurier wird erst gebucht, wenn der Gast zustimmt, und abgeholt wird immer an der Adresse des Restaurants.",
+    "link": "Alle Integrationen ansehen"
+  },
+  "languages": {
+    "title": "Touristen und internationale Gäste",
+    "text": "Jeder Agent spricht die Sprache, die Sie wählen: Deutsch, Englisch, Dänisch, Spanisch, Französisch oder Portugiesisch. Haben Sie viele Gäste aus dem Ausland, bekommt die Website einen englischsprachigen Agenten und das Telefon einen deutschsprachigen."
+  },
+  "finalCta": {
+    "title": "Die KI geht ans Telefon, Sie kochen",
+    "subtitle": "Hinterlegen Sie die Speisekarte in der Testphase, rufen Sie selbst an und testen Sie die KI, bevor Sie sich entscheiden.",
+    "primary": "Kostenloses Konto erstellen",
+    "secondary": "Rundgang vereinbaren"
+  }
+}

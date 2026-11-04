@@ -291,4 +291,47 @@ export const automationDe: BlogTranslations = {
       { question: `Wie viele dänische Unternehmen nutzen KI?`, answer: `Laut Eurostat nutzten 2025 rund 42 % der dänischen Unternehmen mit mindestens 10 Beschäftigten KI – der höchste Anteil in der EU.` },
     ],
   },
+  'ai-bestiller-bud-levering-uber-direct-just-eat': {
+    title: `KI bucht den Kurier: Lieferung mit Uber Direct und Just Eat direkt aus Telefon und Chat`,
+    excerpt: `Wie ein KI-Telefonassistent oder Website-Chat den Preis für einen Kurier einholt, ihn nennt, auf ein klares Ja wartet und eine Lieferung mit Uber Direct oder Just Eat von Ihrer Adresse bucht – und was er nicht tut.`,
+    meta_title: `KI bucht Kuriere mit Uber Direct & Just Eat | Aibooking.dk`,
+    meta_description: `Ein KI-Telefonassistent oder Chat nennt den Kurierpreis, wartet auf ein klares Ja und bucht Uber Direct oder Just Eat. So funktioniert es, und die Grenzen.`,
+    content: `
+      <p>„Liefern Sie auch?" Diese Frage hören Restaurants, Bäckereien und Läden mit eigenem Lager jeden Tag. Normalerweise muss jemand einen Preis nachschlagen, sich beim Kurierdienst anmelden und die Adresse eintippen. Mit Aibooking erledigt der KI-Agent das im selben Gespräch – am Telefon und im Chat auf Ihrer Website.</p>
+      <h2>So läuft es ab, Schritt für Schritt</h2>
+      <ol>
+        <li><strong>Die Adresse.</strong> Die KI fragt nach Straße und Hausnummer, Postleitzahl und Ort und wiederholt die Adresse.</li>
+        <li><strong>Preis und Zeit.</strong> Sie holt ein Angebot bei Uber Direct oder Just Eat ein und nennt Preis und voraussichtliche Lieferzeit. Nutzen Sie beide, holt sie zwei Preise ein und lässt den Kunden wählen.</li>
+        <li><strong>Ein klares Ja.</strong> Der Kurier wird erst gebucht, wenn der Kunde genau diesem Preis ausdrücklich zustimmt.</li>
+        <li><strong>Bestätigung.</strong> Die KI sagt erst dann, dass der Kurier gebucht ist, wenn der Dienst es bestätigt hat. Im Chat bekommt der Kunde einen Link zur Sendungsverfolgung.</li>
+        <li><strong>Status.</strong> Ruft der Kunde erneut an oder schreibt, sagt die KI, wo die Lieferung gerade ist.</li>
+      </ol>
+      <div class="blog-callout"><strong>Abgeholt wird immer bei Ihnen.</strong> Die Abholadresse ist Ihre eigene und vorab hinterlegt. Kunden bestimmen, wohin geliefert wird, aber nie, wo abgeholt wird.</div>
+      <h2>Uber Direct und Just Eat im Vergleich</h2>
+      <div class="blog-table"><table><thead><tr><th></th><th>Uber Direct</th><th>Just Eat</th></tr></thead><tbody>
+        <tr><td>Preis und Lieferzeit vor der Buchung</td><td>Ja</td><td>Ja</td></tr>
+        <tr><td>Preis gültig für</td><td>15 Minuten</td><td>5 Minuten</td></tr>
+        <tr><td>Lieferstatus</td><td>Ja, mit Tracking-Link</td><td>Ja</td></tr>
+        <tr><td>Stornierung durch die KI</td><td>Ja, nach Bestätigung des Kunden</td><td>Nein, der Kunde wird an Sie verwiesen</td></tr>
+      </tbody></table></div>
+      <p>Ist der Preis abgelaufen, holt die KI einen neuen ein, statt zu einem alten Preis zu buchen.</p>
+      <h2>Für wen lohnt sich das?</h2>
+      <ul>
+        <li><strong>Restaurants, Pizzerien und Imbisse</strong>, die ohne eigene Fahrer liefern möchten.</li>
+        <li><strong>Bäckereien und Cafés</strong> mit Bestellungen für Büros und Veranstaltungen.</li>
+        <li><strong>Läden und Onlineshops mit eigenem Lager</strong>, die Lieferung am selben Tag in der Umgebung anbieten wollen.</li>
+      </ul>
+      <h2>Was es nicht ist</h2>
+      <p>Die KI bucht den Kurier, nicht die Ware selbst. Sie nimmt keine Zahlung für Essen oder Produkte entgegen und schickt die Bestellung nicht an Ihre Kasse. Die Bestellung steht im Gespräch im Dashboard, sodass Sie sehen, was vereinbart wurde. Die Dienste gibt es außerdem nicht überall – prüfen Sie zuerst, ob Uber Direct oder Just Eat in Ihrer Region verfügbar ist.</p>
+      <p>Wie immer bei einer KI am Telefon sollte sie sich als digitaler Assistent vorstellen, damit Kunden wissen, mit wem sie sprechen – so verlangt es Artikel 50 der KI-Verordnung.</p>
+      <h2>So starten Sie</h2>
+      <p>Legen Sie einen Agenten an, verbinden Sie Uber Direct oder Just Eat in den Liefereinstellungen des Agenten mit Ihrer Abholadresse, und testen Sie selbst einen Anruf. Mehr zu <a href="/restaurant">KI für Restaurants</a> und <a href="/integrationer">allen Integrationen</a>.</p>
+      <div class="blog-cta"><strong>Testen Sie es mit Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto und testen Sie 7 Tage. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/restaurant">KI für Restaurants</a></div></div>`,
+    faq: [
+      { question: `Kann die KI einen Kurier buchen, ohne dass der Kunde dem Preis zugestimmt hat?`, answer: `Nein. Sie holt immer zuerst Preis und Lieferzeit ein, nennt beides und bucht erst nach einem klaren Ja. Ist der Preis abgelaufen, holt sie einen neuen ein.` },
+      { question: `Kann ein Kunde den Kurier woanders abholen lassen als bei uns?`, answer: `Nein. Die Abholadresse ist Ihre eigene und vorab hinterlegt. Der Kunde bestimmt nur, wohin geliefert wird.` },
+      { question: `Kann die KI eine Lieferung stornieren?`, answer: `Eine Uber-Direct-Lieferung kann sie nach Bestätigung des Kunden stornieren. Bei Just Eat sagt sie, dass sich das Unternehmen meldet, und behauptet nie, die Lieferung sei storniert.` },
+      { question: `Nimmt die KI die Zahlung für das Essen entgegen?`, answer: `Nein. Sie bucht den Kurier, nicht die Ware, und nimmt keine Zahlung entgegen. Das Gespräch liegt im Dashboard, sodass Sie sehen, was vereinbart wurde.` },
+    ],
+  },
 };

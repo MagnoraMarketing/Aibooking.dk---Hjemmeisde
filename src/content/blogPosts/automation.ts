@@ -686,4 +686,114 @@ export const automationPosts: BlogPost[] = [
       { title: 'CoRal – dansk taleteknologi', publisher: 'Alexandra Instituttet', url: 'https://alexandra.dk/coral/', date: '2026' },
     ],
   },
+  {
+    id: 'ai-bestiller-bud-levering-uber-direct-just-eat',
+    slug: 'ai-bestiller-bud-levering-uber-direct-just-eat',
+    categorySlug: 'ai-total-solution',
+    title_en: 'AI That Books the Courier: Delivery with Uber Direct and Just Eat from the Phone and Chat',
+    title_da: 'AI der bestiller buddet: levering med Uber Direct og Just Eat fra telefonen og chatten',
+    excerpt_en: 'How an AI phone agent or website chat gets a courier price, reads it out, waits for a clear yes and books an Uber Direct or Just Eat delivery from your own address, and what it does not do.',
+    excerpt_da: 'Sådan henter en AI-telefon eller chat prisen på et bud, læser den op, venter på et klart ja og bestiller en levering med Uber Direct eller Just Eat fra jeres egen adresse, og hvad den ikke gør.',
+    content_da: `
+      <p>"Kan I levere?" er et af de spørgsmål, restauranter, bagerier og butikker med et lokalt lager får hver dag. Svaret kræver normalt, at en medarbejder slår en pris op, ringer eller logger ind hos et budfirma og taster adressen ind. Med Aibooking kan AI-agenten klare det i samme samtale, både i telefonen og i chatten på hjemmesiden.</p>
+      <h2>Sådan foregår det, trin for trin</h2>
+      <ol>
+        <li><strong>Adressen.</strong> AI'en spørger om vej og husnummer, postnummer og by og gentager adressen for kunden.</li>
+        <li><strong>Pris og tid.</strong> Den henter et tilbud fra Uber Direct eller Just Eat og læser prisen og den forventede leveringstid op. Bruger I begge, henter den pris fra dem begge og lader kunden vælge.</li>
+        <li><strong>Et klart ja.</strong> Buddet bestilles først, når kunden tydeligt har sagt ja til netop den pris.</li>
+        <li><strong>Bekræftelse.</strong> AI'en siger først, at buddet er bestilt, når budfirmaet har bekræftet det. I chatten kan kunden få et link til at følge leveringen.</li>
+        <li><strong>Status.</strong> Ringer eller skriver kunden igen, kan AI'en fortælle, hvor leveringen er.</li>
+      </ol>
+      <div class="blog-callout"><strong>Afhentningen sker altid hos jer.</strong> Afhentningsadressen er jeres egen og er sat op på forhånd. Kunden kan vælge, hvor buddet skal hen, men aldrig hvor det skal hentes.</div>
+      <h2>Uber Direct og Just Eat side om side</h2>
+      <div class="blog-table"><table><thead><tr><th></th><th>Uber Direct</th><th>Just Eat</th></tr></thead><tbody>
+        <tr><td>Pris og leveringstid før bestilling</td><td>Ja</td><td>Ja</td></tr>
+        <tr><td>Prisen gælder i</td><td>15 minutter</td><td>5 minutter</td></tr>
+        <tr><td>Status på leveringen</td><td>Ja, med link til at følge buddet</td><td>Ja</td></tr>
+        <tr><td>Annullering via AI'en</td><td>Ja, efter bekræftelse fra kunden</td><td>Nej, kunden henvises til jer</td></tr>
+      </tbody></table></div>
+      <p>Er prisen udløbet, henter AI'en en ny i stedet for at bestille til en gammel pris.</p>
+      <h2>Hvem har gavn af det?</h2>
+      <ul>
+        <li><strong>Restauranter, pizzeriaer og takeaway</strong>, der vil kunne levere uden egne chauffører.</li>
+        <li><strong>Bagerier og caféer</strong> med bestillinger til kontorer og selskaber.</li>
+        <li><strong>Butikker og webshops med et fysisk lager</strong>, der vil tilbyde levering samme dag i lokalområdet.</li>
+      </ul>
+      <h2>Hvad det ikke er</h2>
+      <p>AI'en bestiller buddet, ikke selve varen. Den tager ikke imod betaling for maden eller varerne, og den sender ikke ordren til jeres kassesystem. Bestillingen står i samtalen i dashboardet, så I kan se, hvad der er aftalt. Tjenesterne findes heller ikke i alle områder, så tjek først, at Uber Direct eller Just Eat kører hos jer.</p>
+      <p>Som altid med en AI i telefonen bør den præsentere sig som en digital assistent, så kunden ved, hvem de taler med. Det kræver AI-forordningens artikel 50.</p>
+      <h2>Kom i gang</h2>
+      <p>Opret en agent, forbind Uber Direct eller Just Eat under agentens leveringsindstillinger med jeres egen afhentningsadresse, og test et opkald selv. Læs mere om <a href="/restaurant">AI til restauranter</a> og om <a href="/integrationer">alle integrationer</a>.</p>
+      <div class="blog-cta"><strong>Prøv det på jeres egne opkald</strong><p>Opret en gratis konto og test i 7 dage. Intet kortnummer.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prøv gratis i 7 dage</a><a href="/restaurant">AI til restauranter</a></div></div>`,
+    content_en: `
+      <p>"Do you deliver?" is a question restaurants, bakeries and shops with local stock hear every day. Answering it usually means someone looks up a price, logs in to a courier service and types in the address. With Aibooking, the AI agent can handle it in the same conversation, on the phone and in the chat on your website.</p>
+      <h2>How it works, step by step</h2>
+      <ol>
+        <li><strong>The address.</strong> The AI asks for the street and number, postcode and city, and repeats the address back.</li>
+        <li><strong>Price and time.</strong> It gets a quote from Uber Direct or Just Eat and reads out the price and expected delivery time. If you use both, it gets a price from each and lets the customer choose.</li>
+        <li><strong>A clear yes.</strong> The courier is only booked once the customer clearly agrees to that price.</li>
+        <li><strong>Confirmation.</strong> The AI only says the courier is booked once the courier service has confirmed it. In chat, the customer can get a link to follow the delivery.</li>
+        <li><strong>Status.</strong> If the customer calls or writes again, the AI can say where the delivery is.</li>
+      </ol>
+      <div class="blog-callout"><strong>Pickup is always from you.</strong> The pickup address is your own and set up in advance. Customers choose where the courier goes, never where it collects.</div>
+      <h2>Uber Direct and Just Eat side by side</h2>
+      <div class="blog-table"><table><thead><tr><th></th><th>Uber Direct</th><th>Just Eat</th></tr></thead><tbody>
+        <tr><td>Price and delivery time before booking</td><td>Yes</td><td>Yes</td></tr>
+        <tr><td>Price valid for</td><td>15 minutes</td><td>5 minutes</td></tr>
+        <tr><td>Delivery status</td><td>Yes, with a tracking link</td><td>Yes</td></tr>
+        <tr><td>Cancellation via the AI</td><td>Yes, after the customer confirms</td><td>No, the customer is referred to you</td></tr>
+      </tbody></table></div>
+      <p>If the price has expired, the AI fetches a new one rather than booking at an old price.</p>
+      <h2>Who is it for?</h2>
+      <ul>
+        <li><strong>Restaurants, pizzerias and takeaways</strong> that want to deliver without their own drivers.</li>
+        <li><strong>Bakeries and cafés</strong> taking orders for offices and events.</li>
+        <li><strong>Shops and webshops with physical stock</strong> that want to offer same-day local delivery.</li>
+      </ul>
+      <h2>What it isn't</h2>
+      <p>The AI books the courier, not the goods themselves. It does not take payment for the food or products, and it does not send the order to your till. The order is in the conversation in the dashboard, so you can see what was agreed. The services are not available everywhere either, so check that Uber Direct or Just Eat runs in your area first.</p>
+      <p>As always with an AI on the phone, it should introduce itself as a digital assistant so customers know who they are talking to, as Article 50 of the EU AI Act requires.</p>
+      <h2>Getting started</h2>
+      <p>Create an agent, connect Uber Direct or Just Eat in the agent's delivery settings with your own pickup address, and test a call yourself. Read more about <a href="/restaurant">AI for restaurants</a> and <a href="/integrationer">all integrations</a>.</p>
+      <div class="blog-cta"><strong>Try it on your own calls</strong><p>Create a free account and test for 7 days. No credit card.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Try free for 7 days</a><a href="/restaurant">AI for restaurants</a></div></div>`,
+    meta_title_en: 'AI Courier Booking with Uber Direct & Just Eat | Aibooking.dk',
+    meta_title_da: 'AI bestiller bud med Uber Direct og Just Eat | Aibooking.dk',
+    meta_description_en: 'An AI phone agent or chat that quotes a courier, waits for a clear yes and books Uber Direct or Just Eat from your address. How it works and its limits.',
+    meta_description_da: 'En AI-telefon eller chat, der henter pris på et bud, venter på et klart ja og bestiller Uber Direct eller Just Eat. Sådan virker det, og det kan den ikke.',
+    keywords: ['ai bestil bud', 'uber direct danmark', 'just eat bud levering', 'ai levering restaurant', 'bud levering ai telefon'],
+    image_url: '/blog/covers/ai-bestiller-bud-levering-uber-direct-just-eat.svg',
+    published: true,
+    published_at: '2026-11-04',
+    updated_at: '2026-11-04',
+    related: ['ai-indgaaende-opkald', 'komplet-ai-automatisering-widget-telefon-booking', 'shopify-integration-ai-voice-indgaaende-opkald'],
+    faq: [
+      {
+        question_da: 'Kan AI\'en bestille et bud uden at kunden har sagt ja til prisen?',
+        answer_da: 'Nej. Den henter altid prisen og leveringstiden først, læser dem op og bestiller først, når kunden tydeligt har sagt ja. Er prisen udløbet, henter den en ny.',
+        question_en: 'Can the AI book a courier without the customer agreeing to the price?',
+        answer_en: 'No. It always gets the price and delivery time first, reads them out and only books once the customer clearly says yes. If the price has expired, it fetches a new one.',
+      },
+      {
+        question_da: 'Kan kunden få buddet hentet et andet sted end hos os?',
+        answer_da: 'Nej. Afhentningsadressen er jeres egen og sættes op på forhånd. Kunden vælger kun, hvor buddet skal leveres.',
+        question_en: 'Can a customer have the courier collect from somewhere other than us?',
+        answer_en: 'No. The pickup address is your own and set up in advance. The customer only chooses where the delivery goes.',
+      },
+      {
+        question_da: 'Kan AI\'en annullere en levering?',
+        answer_da: 'En Uber Direct-levering kan AI\'en annullere, når kunden har bekræftet det. Ved Just Eat siger den, at virksomheden kontakter kunden, og lover ikke, at leveringen er annulleret.',
+        question_en: 'Can the AI cancel a delivery?',
+        answer_en: 'It can cancel an Uber Direct delivery once the customer confirms. For Just Eat it says the business will be in touch, and never claims the delivery is cancelled.',
+      },
+      {
+        question_da: 'Tager AI\'en imod betaling for maden?',
+        answer_da: 'Nej. Den bestiller buddet, ikke selve varen, og tager ikke imod betaling. Samtalen ligger i dashboardet, så I kan se, hvad der er aftalt.',
+        question_en: 'Does the AI take payment for the food?',
+        answer_en: 'No. It books the courier, not the goods, and does not take payment. The conversation is in the dashboard so you can see what was agreed.',
+      },
+    ],
+    sources: [
+      { title: 'Forordning (EU) 2024/1689 om kunstig intelligens (AI-forordningen)', publisher: 'EUR-Lex', url: 'https://eur-lex.europa.eu/eli/reg/2024/1689/oj', date: '2024-07-12' },
+    ],
+  },
 ];

@@ -1,0 +1,178 @@
+{
+  "seo": {
+    "title": "IA para restaurantes: reservas y reparto | Aibooking.dk",
+    "description": "Asistente telefónico y chat con IA para restaurantes y comida para llevar: reserva mesas, responde sobre la carta y los alérgenos y pide repartidores.",
+    "keywords": "IA para restaurantes, asistente telefónico restaurante, reservas de mesa con IA, recepcionista virtual restaurante, IA para pizzería, comida para llevar IA, chatbot restaurante, reparto con IA"
+  },
+  "breadcrumb": {
+    "home": "Inicio",
+    "industries": "Sectores",
+    "restaurant": "Restaurantes y comida para llevar"
+  },
+  "hero": {
+    "badge": "Restaurantes, pizzerías y comida para llevar",
+    "title": "IA para tu restaurante que coge el teléfono",
+    "highlight": "en plena hora punta",
+    "subtitle": "El teléfono suena mientras la cocina va a tope. La recepcionista con IA reserva la mesa, responde sobre la carta, los alérgenos y el horario, y pide un repartidor a la dirección del cliente, para que tu equipo siga con la comida y las mesas.",
+    "primary": "Crear cuenta gratis"
+  },
+  "channels": {
+    "title": "Teléfono y web, con la misma información",
+    "subtitle": "Los clientes llaman o escriben en tu web. Los dos canales conocen tu carta, tu horario y las mesas libres, porque usan la misma base de conocimiento y el mismo calendario.",
+    "items": [
+      {
+        "title": "Asistente telefónico con IA para tu restaurante",
+        "description": "Se atienden todas las llamadas, también el viernes a las 21:00. La IA se presenta como la asistente digital del restaurante, reserva la mesa y responde a las preguntas de cada noche.",
+        "points": [
+          "Recibes un número y desvías a él la línea del restaurante",
+          "Reservas, cambios y cancelaciones directamente en el calendario",
+          "Puede pasar la llamada al restaurante cuando hace falta",
+          "Grabación, transcripción y resumen de cada llamada"
+        ]
+      },
+      {
+        "title": "Chat y voz en tu web",
+        "description": "Una pequeña ventana en la web del restaurante donde el cliente escribe o habla. Reserva mesa de madrugada y dice si un plato es sin gluten.",
+        "points": [
+          "El cliente puede escribir o hablar",
+          "Reservas de mesa a cualquier hora",
+          "Respuestas basadas en tu propia carta y lista de alérgenos",
+          "Se añade a la web con un único código"
+        ]
+      }
+    ],
+    "linkIntro": "Más sobre los dos canales:",
+    "widgetLink": "Widget y chatbot con IA",
+    "phoneLink": "Asistente telefónico con IA"
+  },
+  "capabilities": {
+    "title": "Lo que la IA resuelve en tu restaurante",
+    "subtitle": "Cuatro tareas que llenan el teléfono cada noche y que la IA resuelve sola.",
+    "items": [
+      {
+        "title": "Reservas de mesa",
+        "description": "La IA busca un hueco libre en tu calendario, reserva la mesa y envía una confirmación. El cliente también puede cambiar o cancelar la reserva."
+      },
+      {
+        "title": "Carta y alérgenos",
+        "description": "Sube la carta en PDF o pega un enlace, y la IA responde sobre platos, precios, alérgenos y opciones vegetarianas con tu propia información."
+      },
+      {
+        "title": "Reparto con repartidor",
+        "description": "La IA consulta precio y plazo en Uber Direct o Just Eat, se los dice al cliente y solo pide el repartidor cuando el cliente acepta."
+      },
+      {
+        "title": "Horario e idiomas",
+        "description": "Horario, aparcamiento y reservas de grupo se responden al momento, y el agente puede hablar español, inglés, alemán, francés, portugués o danés."
+      }
+    ]
+  },
+  "examples": {
+    "title": "Así funciona en la práctica",
+    "subtitle": "Tres consultas habituales en un restaurante y cómo las resuelve la asistente con IA.",
+    "channel": {
+      "widget": "Chat en la web",
+      "phone": "Teléfono"
+    },
+    "who": {
+      "customer": "Cliente",
+      "ai": "Asistente con IA"
+    },
+    "items": [
+      {
+        "title": "Mesa para cuatro",
+        "channel": "phone",
+        "lines": [
+          { "who": "ai", "text": "Hola, hablas con la asistente digital de Trattoria Roma. ¿En qué puedo ayudarte?" },
+          { "who": "customer", "text": "¿Tenéis mesa para cuatro el sábado a las 21:00?" },
+          { "who": "ai", "text": "Sí, el sábado a las 21:00 está libre. ¿Me dices tu nombre y tu correo para la confirmación?" },
+          { "who": "customer", "text": "Lucía García, lucia@ejemplo.es." },
+          { "who": "ai", "text": "Gracias, Lucía. Tu mesa para cuatro queda reservada el sábado a las 21:00 y la confirmación ya va de camino." }
+        ]
+      },
+      {
+        "title": "Pizza sin gluten",
+        "channel": "widget",
+        "lines": [
+          { "who": "customer", "text": "¿La pizza margarita es sin gluten?" },
+          { "who": "ai", "text": "La masa normal lleva gluten, pero tenemos base sin gluten por 3 € más. Si tienes una alergia grave, llámanos y habla con la cocina." }
+        ]
+      },
+      {
+        "title": "Entrega a domicilio",
+        "channel": "phone",
+        "lines": [
+          { "who": "customer", "text": "¿Podéis mandar mi pedido a la calle Colón 12, 46004 Valencia?" },
+          { "who": "ai", "text": "Lo compruebo. El repartidor cuesta 4,90 € y la comida puede llegar sobre las 21:40. ¿Pido el repartidor?" },
+          { "who": "customer", "text": "Sí, por favor." },
+          { "who": "ai", "text": "Repartidor pedido. Llámanos cuando quieras si quieres saber por dónde va." }
+        ]
+      }
+    ],
+    "note": "Los ejemplos son de un restaurante ficticio. La carta, los precios y las horas libres siempre salen de tu propia base de conocimiento y tu calendario."
+  },
+  "limits": {
+    "title": "Qué hace la IA y qué no hace",
+    "subtitle": "No prometemos un TPV completo. A cambio, la IA se encarga de las llamadas que más tiempo quitan.",
+    "doesTitle": "La asistente con IA",
+    "does": [
+      "Reserva, cambia y cancela mesas en tu calendario",
+      "Responde sobre carta, precios, alérgenos y horario con tu propia información",
+      "Consulta precio y plazo de un repartidor y lo pide cuando el cliente acepta",
+      "Envía una confirmación por correo o SMS",
+      "Se presenta como la asistente digital del restaurante"
+    ],
+    "doesNotTitle": "La asistente con IA no",
+    "doesNot": [
+      "Cobra pagos",
+      "Envía los pedidos de comida directamente al TPV ni a la impresora de cocina. La conversación queda en el panel",
+      "Se inventa alérgenos que no están en tu carta",
+      "Dice que el repartidor está pedido antes de que lo esté",
+      "Cambia tu carta ni tus precios por su cuenta"
+    ]
+  },
+  "privacy": {
+    "title": "Alérgenos: respuestas basadas en tu propia carta",
+    "text": "La IA solo responde con lo que tienes en la base de conocimiento. Por eso, indica los alérgenos de cada plato y añade que los clientes con alergias graves deben hablar con la cocina. Así la IA dirá exactamente eso en lugar de adivinar. Actualiza la carta cuando cambie y las respuestas seguirán al día."
+  },
+  "setup": {
+    "title": "Cómo empieza tu restaurante",
+    "steps": [
+      {
+        "title": "Crea una cuenta gratis",
+        "description": "Tienes 7 días de prueba, sin permanencia y sin tarjeta."
+      },
+      {
+        "title": "Sube la carta",
+        "description": "Sube la carta en PDF o pega un enlace, y añade el horario y los alérgenos a la base de conocimiento."
+      },
+      {
+        "title": "Conecta calendario y reparto",
+        "description": "Conecta Google Calendar, Outlook o Cal.com para las reservas y, si quieres, Uber Direct o Just Eat para los repartidores."
+      },
+      {
+        "title": "Ponlo en marcha",
+        "description": "Desvía el número del restaurante al número que recibe el agente o añade el widget a tu web."
+      }
+    ]
+  },
+  "types": {
+    "title": "Para todo tipo de locales",
+    "items": ["Pizzería", "Hamburguesería", "Sushi", "Comida para llevar", "Cafetería", "Panadería", "Catering", "Alta cocina"]
+  },
+  "delivery": {
+    "title": "Reparto con repartidor, paso a paso",
+    "text": "El cliente da la dirección y la IA la repite. Después consulta precio y plazo en Uber Direct o Just Eat, donde el servicio esté disponible en tu zona, y se los dice. El repartidor solo se pide cuando el cliente acepta, y la recogida siempre es en la dirección del restaurante.",
+    "link": "Ver todas las integraciones"
+  },
+  "languages": {
+    "title": "Turistas y clientes internacionales",
+    "text": "Cada agente habla el idioma que elijas: español, inglés, alemán, francés, portugués o danés. Si tienes muchos clientes extranjeros, pon un agente en inglés en la web y uno en español en el teléfono."
+  },
+  "finalCta": {
+    "title": "Deja que la IA coja el teléfono mientras cocinas",
+    "subtitle": "Sube tu carta durante la prueba, llama tú mismo y prueba la IA antes de decidir.",
+    "primary": "Crear cuenta gratis",
+    "secondary": "Reservar una demostración"
+  }
+}

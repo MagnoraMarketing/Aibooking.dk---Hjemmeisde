@@ -1,0 +1,178 @@
+{
+  "seo": {
+    "title": "AI for Restaurants: Phone, Bookings & Delivery | Aibooking.dk",
+    "description": "An AI phone agent and website chat for restaurants and takeaways: books tables, answers menu and allergen questions and books couriers.",
+    "keywords": "AI for restaurants, AI phone answering restaurant, restaurant AI receptionist, AI table booking, AI for pizzeria, takeaway phone AI, restaurant chatbot, AI delivery booking"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "industries": "Industries",
+    "restaurant": "Restaurants & takeaway"
+  },
+  "hero": {
+    "badge": "Restaurants, pizzerias & takeaway",
+    "title": "An AI that answers the restaurant phone",
+    "highlight": "in the middle of the dinner rush",
+    "subtitle": "The phone rings while the kitchen is flat out. The AI receptionist books the table, answers questions about the menu, allergens and opening hours, and books a courier to the guest's address, so your staff can stay with the food and the guests.",
+    "primary": "Create a free account"
+  },
+  "channels": {
+    "title": "Phone and website, with the same knowledge",
+    "subtitle": "Guests call or write on your website. Both channels know your menu, opening hours and free tables, because they use the same knowledge base and calendar.",
+    "items": [
+      {
+        "title": "AI phone agent for your restaurant",
+        "description": "Every call is answered, even at 6.30 pm on a Friday. The AI introduces itself as the restaurant's digital assistant, books the table and answers the questions you hear every evening.",
+        "points": [
+          "You get a number and forward the restaurant's line to it",
+          "Table bookings, changes and cancellations straight in the calendar",
+          "Can put the call through to the restaurant when needed",
+          "Recording, transcript and summary of every call"
+        ]
+      },
+      {
+        "title": "Chat and voice on your website",
+        "description": "A small window on the restaurant's website where guests can type or talk. It can book a table at midnight and say whether a dish is gluten-free.",
+        "points": [
+          "Guests can type or speak",
+          "Table bookings around the clock",
+          "Answers from your own menu and allergen list",
+          "Added to your site with a single embed code"
+        ]
+      }
+    ],
+    "linkIntro": "More about the two channels:",
+    "widgetLink": "AI widget and chatbot",
+    "phoneLink": "AI answering service"
+  },
+  "capabilities": {
+    "title": "What the AI handles for your restaurant",
+    "subtitle": "Four jobs that fill the phone every evening, and that the AI can do on its own.",
+    "items": [
+      {
+        "title": "Table bookings",
+        "description": "The AI finds a free slot in your calendar, books the table and sends a confirmation. Guests can also move or cancel the booking themselves."
+      },
+      {
+        "title": "Menu and allergens",
+        "description": "Add your menu as a PDF or a link, and the AI answers questions about dishes, prices, allergens and vegetarian options from your own information."
+      },
+      {
+        "title": "Courier delivery",
+        "description": "The AI gets the price and delivery time from Uber Direct or Just Eat, reads them out and only books the courier once the guest says yes."
+      },
+      {
+        "title": "Opening hours and languages",
+        "description": "Opening hours, parking and group bookings are answered straight away, and the agent can speak English, Danish, German, Spanish, French or Portuguese."
+      }
+    ]
+  },
+  "examples": {
+    "title": "What it sounds like in practice",
+    "subtitle": "Three everyday restaurant calls and chats, and how the AI assistant handles them.",
+    "channel": {
+      "widget": "Website chat",
+      "phone": "Phone"
+    },
+    "who": {
+      "customer": "Guest",
+      "ai": "AI assistant"
+    },
+    "items": [
+      {
+        "title": "A table for four",
+        "channel": "phone",
+        "lines": [
+          { "who": "ai", "text": "Hi, you're speaking to Trattoria Roma's digital assistant. How can I help?" },
+          { "who": "customer", "text": "Do you have a table for four on Saturday at 7 pm?" },
+          { "who": "ai", "text": "Yes, Saturday at 7 pm is free. Could I have your name and email for the confirmation?" },
+          { "who": "customer", "text": "Sarah Collins, sarah@example.com." },
+          { "who": "ai", "text": "Thank you, Sarah. Your table for four is booked for Saturday at 7 pm, and the confirmation is on its way." }
+        ]
+      },
+      {
+        "title": "Gluten-free pizza",
+        "channel": "widget",
+        "lines": [
+          { "who": "customer", "text": "Is your Margherita gluten-free?" },
+          { "who": "ai", "text": "The regular base contains gluten, but you can have a gluten-free base for €3 extra. If you have a severe allergy, please call us and speak to the kitchen." }
+        ]
+      },
+      {
+        "title": "Delivery to the door",
+        "channel": "phone",
+        "lines": [
+          { "who": "customer", "text": "Could you send my order to 12 Market Street?" },
+          { "who": "ai", "text": "Let me check. A courier costs €6.50 and the food can be with you at around 7.40 pm. Shall I book the courier?" },
+          { "who": "customer", "text": "Yes, please." },
+          { "who": "ai", "text": "The courier is booked. Call back any time if you'd like to know where it is." }
+        ]
+      }
+    ],
+    "note": "These examples come from a fictional restaurant. Menu, prices and free slots always come from your own knowledge base and calendar."
+  },
+  "limits": {
+    "title": "What the AI does, and what it doesn't",
+    "subtitle": "We don't promise a full point-of-sale system. What the AI does is take the calls that eat up the most time.",
+    "doesTitle": "The AI assistant",
+    "does": [
+      "Books, moves and cancels table reservations in your calendar",
+      "Answers on menu, prices, allergens and opening hours from your own information",
+      "Gets a courier price and time and books it once the guest says yes",
+      "Sends a confirmation by email or SMS",
+      "Introduces itself as the restaurant's digital assistant"
+    ],
+    "doesNotTitle": "The AI assistant does not",
+    "doesNot": [
+      "Take payment",
+      "Send food orders straight to your till or kitchen printer. The conversation is saved in the dashboard",
+      "Guess at allergens that aren't in your menu",
+      "Say a courier is booked before it actually is",
+      "Change your menu or prices on its own"
+    ]
+  },
+  "privacy": {
+    "title": "Allergens: answers from your own menu",
+    "text": "The AI only answers from what you put in the knowledge base. So list the allergens for each dish, and add that guests with a severe allergy should speak to the kitchen. The AI will then say exactly that instead of guessing. Update the menu when it changes, and the answers stay current."
+  },
+  "setup": {
+    "title": "How your restaurant gets started",
+    "steps": [
+      {
+        "title": "Create a free account",
+        "description": "You get a 7-day trial with no commitment and no card required."
+      },
+      {
+        "title": "Add your menu",
+        "description": "Upload the menu as a PDF or paste a link to it, and add opening hours and allergens to the knowledge base."
+      },
+      {
+        "title": "Connect calendar and delivery",
+        "description": "Connect Google Calendar, Outlook or Cal.com for table bookings, and optionally Uber Direct or Just Eat for couriers."
+      },
+      {
+        "title": "Go live",
+        "description": "Forward the restaurant's number to the number the agent gets, or add the widget to your website."
+      }
+    ]
+  },
+  "types": {
+    "title": "For every kind of place to eat",
+    "items": ["Pizzeria", "Burger restaurant", "Sushi", "Takeaway", "Café", "Bakery", "Catering", "Fine dining"]
+  },
+  "delivery": {
+    "title": "Courier delivery, step by step",
+    "text": "The guest gives the address and the AI repeats it back. It then gets the price and delivery time from Uber Direct or Just Eat, where the service runs in your area, and reads them out. The courier is only booked once the guest says yes, and pickup is always from the restaurant's own address.",
+    "link": "See all integrations"
+  },
+  "languages": {
+    "title": "Tourists and international guests",
+    "text": "Each agent speaks the language you choose: English, Danish, German, Spanish, French or Portuguese. If many of your guests come from abroad, give the website an English-speaking agent and the phone one in your local language."
+  },
+  "finalCta": {
+    "title": "Let the AI take the phone while you cook",
+    "subtitle": "Add your menu during the trial, call the number yourself and test the AI before you decide.",
+    "primary": "Create a free account",
+    "secondary": "Book a walkthrough"
+  }
+}

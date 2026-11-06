@@ -11,6 +11,7 @@ import { SUPPORTED_LANGUAGES, type SupportedLanguage } from '../i18n/config';
 import { blogPostPath, buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
 import JsonLd from '../components/JsonLd';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 // The FAQ component takes every site language at once.
 const toFAQItems = (post: BlogPost): FAQItem[] => {
@@ -256,6 +257,10 @@ export default function BlogPostPage({ postSlug, onNavigate }: BlogPostPageProps
           )}
 
           <BlogCTA categorySlug={post.categorySlug} />
+        </div>
+
+        <div className="mt-16">
+          <PhoneAnsweringSEO variant={`blogPost.${post.categorySlug}`} currentSlug={post.slug} tone="grey" />
         </div>
 
         {relatedPosts.length > 0 && (

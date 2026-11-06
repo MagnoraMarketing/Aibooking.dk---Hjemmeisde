@@ -36,7 +36,7 @@ type PageType = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'indus
 // stripped/added separately via splitLocalizedPath/buildLocalizedPath.
 const pathMap: Record<string, PageType> = {
   '/': 'home', '/demo': 'demo', '/funktioner': 'features', '/widget': 'widget',
-  '/ind-og-udgaaende-opkald': 'inbound-outbound', '/integrationer': 'integrations', '/brancher': 'industries', '/klinik': 'healthcare',
+  '/ai-receptionist': 'inbound-outbound', '/ind-og-udgaaende-opkald': 'inbound-outbound', '/integrationer': 'integrations', '/brancher': 'industries', '/klinik': 'healthcare',
   '/haandvaerker': 'craftsman', '/kontor': 'office', '/webshop': 'ecommerce',
   '/kontakt': 'contact', '/om-aibooking': 'about', '/vilkaar': 'terms',
   '/privatlivspolitik': 'privacy', '/blog': 'blog', '/proeveperiode': 'trial',
@@ -45,7 +45,7 @@ const pathMap: Record<string, PageType> = {
 
 const pageMap: Record<PageType, string> = {
   'home': '/', 'demo': '/demo', 'features': '/funktioner', 'widget': '/widget',
-  'inbound-outbound': '/ind-og-udgaaende-opkald', 'integrations': '/integrationer', 'industries': '/brancher', 'healthcare': '/klinik',
+  'inbound-outbound': '/ai-receptionist', 'integrations': '/integrationer', 'industries': '/brancher', 'healthcare': '/klinik',
   'craftsman': '/haandvaerker', 'office': '/kontor', 'ecommerce': '/webshop',
   'contact': '/kontakt', 'about': '/om-aibooking', 'terms': '/vilkaar',
   'privacy': '/privatlivspolitik', 'blog': '/blog', 'blog-category': '/blog/category',

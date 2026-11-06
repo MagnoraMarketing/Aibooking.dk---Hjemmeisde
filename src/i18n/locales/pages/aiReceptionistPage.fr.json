@@ -1,0 +1,106 @@
+{
+  "channels": {
+    "badge": "Trois canaux · une réceptionniste IA",
+    "title": "Une réceptionniste IA sur votre site et au téléphone",
+    "intro": "La réceptionniste IA d’Aibooking.dk accueille vos clients là où ils vous contactent : d’abord sur votre site avec l’AI Voice Widget, puis au téléphone lorsqu’ils appellent et, en option, avec des appels sortants. Les trois canaux partagent les mêmes informations, le même agenda et le même tableau de bord.",
+    "widget": {
+      "label": "1 · AI Voice Widget",
+      "title": "AI Voice Widget : la réceptionniste de votre site",
+      "text": "La plupart des clients vous découvrent d’abord sur votre site, souvent le soir, une fois fermé. L’AI Voice Widget leur répond aussitôt, par écrit, en dictée ou dans une vraie conversation vocale dans le navigateur, et réserve le rendez-vous directement dans votre agenda tant que l’intérêt est au plus haut.",
+      "points": [
+        "Chat, dictée et voix en temps réel dans un seul widget",
+        "Réponses tirées de votre base de connaissances : texte, site ou PDF",
+        "Réserve, déplace et annule dans Google Agenda, Outlook ou Cal.com",
+        "S’installe avec un seul script sur tout type de site"
+      ],
+      "imageAlt": "AI Voice Widget sur un site web : le client demande un rendez-vous et l’IA répond",
+      "link": "En savoir plus sur l’AI Voice Widget"
+    },
+    "inbound": {
+      "label": "2 · Appels entrants",
+      "title": "Permanence téléphonique IA pour les appels entrants",
+      "text": "Quand un client appelle, la réceptionniste IA répond sur votre propre numéro. Elle se présente comme une assistante numérique, comprend la demande, répond aux questions et réserve, même quand la ligne est occupée, à la pause déjeuner ou après la fermeture.",
+      "points": [
+        "Gardez votre numéro : renvoi permanent, hors horaires ou si occupé",
+        "De nombreux appels en même temps, sans file d’attente",
+        "Enregistrement, transcription et résumé de chaque appel",
+        "Conversations en français, anglais, allemand, espagnol, portugais ou danois"
+      ],
+      "imageAlt": "Tableau de bord avec un appel entrant à 20 h 08 : enregistrement, résumé, réservation et transcription"
+    },
+    "outbound": {
+      "label": "3 · Appels sortants",
+      "badge": "Option",
+      "title": "Des appels sortants par IA quand vous voulez prendre l’initiative",
+      "text": "Avec l’option appels sortants, l’IA appelle elle-même à partir d’une liste que vous importez : clients qui n’ont pas réservé depuis longtemps, prospects qui ont demandé à être rappelés ou relance d’un devis, toujours dans les plages horaires que vous choisissez.",
+      "points": [
+        "Campagnes à partir de vos propres listes de clients",
+        "Plages d’appel, pour n’appeler qu’aux moments appropriés",
+        "Même voix, mêmes informations et même agenda que pour les appels entrants"
+      ],
+      "note": "Les appels sortants sont une option à part, avec son propre tarif, et fonctionnent dans un module dédié."
+    }
+  },
+  "combined": {
+    "badge": "Solution complète",
+    "title": "Widget, téléphone et appels sortants dans une seule solution : un exemple",
+    "intro": "Voici une semaine dans un salon de coiffure qui utilise toute la réceptionniste IA. La cliente change de canal en cours de route, mais l’IA la suit du début à la fin, car tout est réuni au même endroit.",
+    "steps": [
+      {
+        "time": "Lundi, 21 h 40",
+        "channel": "AI Voice Widget",
+        "title": "Camille réserve sur le site",
+        "text": "Camille demande au widget le prix d’une coupe femme et s’il reste un créneau samedi. Le widget répond à partir de la grille tarifaire du salon et réserve samedi à 11 h 30. La confirmation arrive aussitôt par e-mail."
+      },
+      {
+        "time": "Mercredi, 12 h 15",
+        "channel": "Appel entrant",
+        "title": "Elle appelle pour déplacer le rendez-vous",
+        "text": "Toutes les coiffeuses sont occupées, la réceptionniste IA prend donc l’appel. Elle retrouve la réservation de Camille, vérifie qu’il s’agit bien d’elle et la déplace à vendredi 15 h."
+      },
+      {
+        "time": "Jeudi, 10 h",
+        "channel": "Appel sortant (option)",
+        "title": "Le salon prend l’initiative",
+        "text": "Une campagne sortante appelle les clientes qui ne sont pas venues depuis plus de deux mois et leur propose un créneau libre la semaine suivante."
+      },
+      {
+        "time": "Vendredi, 8 h",
+        "channel": "Tableau de bord",
+        "title": "La gérante voit tout d’un coup d’œil",
+        "text": "Les réservations du widget et du téléphone sont dans l’agenda. Le tableau de bord contient chaque échange avec enregistrement, transcription et résumé : plus de post-it, plus de messages perdus."
+      }
+    ],
+    "imageAlt": "Liste des réservations du tableau de bord avec réservations, déplacements et annulations de la réceptionniste téléphonique et de l’assistante du site",
+    "caption": "Réservations de la réceptionniste téléphonique (bleu) et de l’assistante du site (orange) dans un seul tableau de bord.",
+    "benefits": [
+      { "title": "Une base de connaissances", "text": "Mettez à jour tarifs et horaires une fois : le widget et le téléphone répondent pareil." },
+      { "title": "Un agenda", "text": "Aucune double réservation, que le client écrive, parle ou appelle." },
+      { "title": "Une vue d’ensemble", "text": "Tous les échanges et réservations de tous les canaux dans le même tableau de bord et dans l’application." }
+    ]
+  },
+  "alternatives": {
+    "title": "Réceptionniste IA, répondeur ou secrétariat téléphonique ?",
+    "intro": "Qu’obtenez-vous vraiment pour votre argent ? Une comparaison courte et honnête des trois façons les plus courantes de gérer les appels quand personne ne peut décrocher.",
+    "columns": ["", "Réceptionniste IA", "Répondeur", "Secrétariat téléphonique humain"],
+    "rows": [
+      ["Répond le soir, le week-end et les jours fériés", "Oui, sans supplément", "Seulement un message enregistré", "Selon le contrat, souvent avec supplément"],
+      ["Réserve directement dans l’agenda", "Oui", "Non", "Rarement, en général un message"],
+      ["Plusieurs appels en même temps", "Oui", "Messages uniquement", "Selon les effectifs"],
+      ["La même assistante sur votre site", "Oui, AI Voice Widget", "Non", "Non"],
+      ["Enregistrement, transcription et résumé", "Oui, dans le tableau de bord", "Le fichier audio seulement", "Un message écrit"],
+      ["Modèle tarifaire", "Forfait avec minutes, dès 134 €/mois", "Généralement inclus dans l’abonnement téléphonique", "À l’appel ou forfait mensuel"]
+    ],
+    "link": "Lire la comparaison complète"
+  },
+  "faq": [
+    {
+      "question": "Qu’est-ce qu’une réceptionniste IA ?",
+      "answer": "Une réceptionniste IA est une assistante numérique qui accueille vos clients sur votre site et au téléphone. Chez Aibooking.dk, elle se compose de l’AI Voice Widget sur votre site, de la permanence téléphonique IA pour les appels entrants et, en option, des appels sortants. Elle répond à partir de vos propres informations, réserve dans votre agenda et enregistre chaque échange dans le tableau de bord."
+    },
+    {
+      "question": "Faut-il utiliser à la fois le widget et le téléphone ?",
+      "answer": "Non. Vous pouvez commencer par un seul canal, par exemple le widget sur votre site ou le téléphone hors horaires, et ajouter les autres plus tard. Ils partagent la base de connaissances, l’agenda et le tableau de bord : inutile de reconfigurer vos informations."
+    }
+  ]
+}

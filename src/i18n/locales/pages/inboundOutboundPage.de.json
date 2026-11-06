@@ -1,25 +1,25 @@
 {
   "seo": {
-    "title": "KI-Telefonservice – KI-Rezeptionist für ein- und ausgehende Anrufe | Aibooking.dk",
-    "description": "KI-Telefonservice: Ein KI-Rezeptionist nimmt Anrufe an, bucht Termine im Kalender und ruft mit Erinnerungen zurück – rund um die Uhr, auf Deutsch.",
-    "keywords": "KI-Telefonservice, KI-Rezeptionist, KI-Telefonassistent, KI eingehende Anrufe, KI ausgehende Anrufe, KI-Rezeption, Telefonassistent KI, KI-Mitarbeiter, KI-Kundenservice Telefon, Voicebot, Telefonbot, virtuelle Telefonzentrale"
+    "title": "KI-Rezeption: AI Voice Widget & KI-Telefonservice | Aibooking.dk",
+    "description": "KI-Rezeption für Website und Telefon: AI Voice Widget, KI-Telefonservice für eingehende Anrufe und ausgehende Anrufe als Zusatzmodul. Bucht im Kalender.",
+    "keywords": "KI-Rezeption, KI-Rezeptionist, KI-Telefonservice, KI-Telefonassistent, AI Voice Widget, virtuelle Rezeption, KI eingehende Anrufe, KI ausgehende Anrufe"
   },
   "breadcrumb": {
     "home": "Startseite",
-    "current": "KI-Telefonie ein- & ausgehend"
+    "current": "KI-Rezeption"
   },
   "hero": {
-    "badge": "KI-Telefonie ein- & ausgehend",
-    "title": "KI-Telefonie ein- & ausgehend",
-    "titleAccent": "Die KI, die Ihre Anrufe annimmt und selbst anruft",
-    "subtitle": "Eine Stimme für beide Richtungen: Sie nimmt Ihre eingehenden Anrufe professionell an und ruft Ihre Kunden mit Bestätigungen, Erinnerungen und Nachfassanrufen an. Rund um die Uhr, ohne Warteschleife.",
+    "badge": "AI Voice Widget · Eingehend · Ausgehend",
+    "title": "KI-Rezeption für Website und Telefon",
+    "titleAccent": "AI Voice Widget, KI-Telefonservice und ausgehende Anrufe in einer Lösung",
+    "subtitle": "Ihre KI-Rezeption beantwortet Kunden auf der Website, geht ans Telefon, wenn Ihr Team es nicht kann, und ruft als Zusatzmodul selbst an. Sie bucht direkt in Ihren Kalender und sammelt jedes Gespräch in einem Dashboard.",
     "cta_demo": "Kostenlose Demo buchen",
     "cta_example": "Beispiel anhören",
     "cta_pricing": "Preise ansehen",
     "stats": {
       "answer": { "value": "2 Sek.", "label": "Durchschnittliche Annahmezeit" },
       "availability": { "value": "24/7", "label": "Auch abends und am Wochenende" },
-      "saving": { "value": "80%", "label": "Günstiger als eine Rezeptionskraft" }
+      "saving": { "value": "3 Kanäle", "label": "Widget, eingehend und ausgehend" }
     },
     "card": {
       "status": "Aktiver Anruf",

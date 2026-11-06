@@ -1,0 +1,106 @@
+{
+  "channels": {
+    "badge": "Tre kanaler · én AI-receptionist",
+    "title": "Én AI-receptionist på hjemmesiden og i telefonen",
+    "intro": "Aibooking.dk's AI-receptionist møder kunderne der, hvor de henvender sig: først på hjemmesiden med AI Voice Widget, dernæst i telefonen, når de ringer, og som tilkøb også med udgående opkald. Alle tre kanaler bruger samme viden, samme kalender og samme dashboard.",
+    "widget": {
+      "label": "1 · AI Voice Widget",
+      "title": "AI Voice Widget: receptionisten på din hjemmeside",
+      "text": "De fleste kunder møder dig først på hjemmesiden — ofte om aftenen, når du har lukket. AI Voice Widget svarer dem med det samme, enten på skrift, med diktering eller i en rigtig talesamtale i browseren, og booker tiden direkte i kalenderen, mens interessen er størst.",
+      "points": [
+        "Chat, diktering og realtids-tale i én widget",
+        "Svarer ud fra jeres vidensbase: tekst, hjemmeside eller PDF",
+        "Booker, flytter og aflyser i Google Kalender, Outlook eller Cal.com",
+        "Indsættes med ét script på alle typer hjemmesider"
+      ],
+      "imageAlt": "AI Voice Widget på en hjemmeside, hvor kunden beder om at booke en tid, og AI'en svarer på dansk",
+      "link": "Læs mere om AI Voice Widget"
+    },
+    "inbound": {
+      "label": "2 · Indgående opkald",
+      "title": "AI-telefonpasning af indgående opkald",
+      "text": "Når kunden ringer, svarer AI-receptionisten på dit eget nummer. Den præsenterer sig som digital assistent, forstår ærindet, svarer på spørgsmål og booker — også når linjen er optaget, i frokostpausen og efter lukketid.",
+      "points": [
+        "Behold dit nummer — viderestil altid, efter lukketid eller ved optaget",
+        "Mange opkald på én gang, ingen telefonkø",
+        "Optagelse, udskrift og referat af hvert opkald",
+        "Samtale på dansk, engelsk, tysk, spansk, fransk eller portugisisk"
+      ],
+      "imageAlt": "Dashboard med et indgående opkald kl. 20.08: optagelse, referat, booking og transskription af samtalen"
+    },
+    "outbound": {
+      "label": "3 · Udgående opkald",
+      "badge": "Tilkøb",
+      "title": "Udgående AI-opkald, når du vil række ud",
+      "text": "Med tilkøbet til udgående opkald ringer AI'en selv ud fra en liste, du uploader: til kunder, der ikke har booket længe, til leads, der har bedt om at blive kontaktet, eller til opfølgning på et tilbud — inden for de tidsrum, du vælger.",
+      "points": [
+        "Kampagner ud fra jeres egne kundelister",
+        "Opkaldsvinduer, så der kun ringes på passende tidspunkter",
+        "Samme stemme, viden og kalender som ved indgående opkald"
+      ],
+      "note": "Udgående opkald er et selvstændigt tilkøb med egen pris og kører i sit eget modul."
+    }
+  },
+  "combined": {
+    "badge": "Samlet løsning",
+    "title": "Widget, telefon og udgående opkald i én løsning — et eksempel",
+    "intro": "Sådan ser en uge ud for en frisørsalon, der bruger hele AI-receptionisten. Kunden skifter kanal undervejs, men AI'en kender hende hele vejen, fordi alt samles ét sted.",
+    "steps": [
+      {
+        "time": "Mandag kl. 21.40",
+        "channel": "AI Voice Widget",
+        "title": "Sofie booker på hjemmesiden",
+        "text": "Sofie spørger widgeten, hvad en dameklip koster, og om der er tid lørdag. Widgeten svarer ud fra salonens prisliste og booker lørdag kl. 11.30. Bekræftelsen kommer med det samme på e-mail."
+      },
+      {
+        "time": "Onsdag kl. 12.15",
+        "channel": "Indgående opkald",
+        "title": "Hun ringer for at flytte tiden",
+        "text": "Alle frisører står med kunder, så AI-receptionisten tager opkaldet. Den finder Sofies booking, tjekker at det er hende, og flytter tiden til fredag kl. 15.00."
+      },
+      {
+        "time": "Torsdag kl. 10.00",
+        "channel": "Udgående opkald (tilkøb)",
+        "title": "Salonen rækker selv ud",
+        "text": "En udgående kampagne ringer til kunder, der ikke har været i salonen i over to måneder, og tilbyder dem en ledig tid i næste uge."
+      },
+      {
+        "time": "Fredag kl. 08.00",
+        "channel": "Dashboard",
+        "title": "Ejeren ser det hele samlet",
+        "text": "Bookinger fra både widget og telefon står i kalenderen. I dashboardet ligger hver samtale med optagelse, udskrift og referat — ingen post-it-sedler, ingen tabte beskeder."
+      }
+    ],
+    "imageAlt": "Dashboardets bookingoversigt med bookinger, flytninger og aflysninger fra både telefon-receptionisten og hjemmeside-assistenten",
+    "caption": "Bookinger fra telefon-receptionisten (blå) og hjemmeside-assistenten (orange) samlet i ét dashboard.",
+    "benefits": [
+      { "title": "Én vidensbase", "text": "Opdater priser og åbningstider ét sted, så svarer widget og telefon ens." },
+      { "title": "Én kalender", "text": "Ingen dobbeltbookinger, uanset om kunden skriver, taler eller ringer." },
+      { "title": "Ét overblik", "text": "Alle samtaler og bookinger fra alle kanaler i samme dashboard og app." }
+    ]
+  },
+  "alternatives": {
+    "title": "AI-receptionist vs. telefonsvarer og telefonpasningsservice",
+    "intro": "Hvad får du egentlig for pengene? En kort, ærlig sammenligning af de tre mest almindelige måder at håndtere opkald på, når ingen kan tage telefonen.",
+    "columns": ["", "AI-receptionist", "Telefonsvarer", "Telefonpasning med mennesker"],
+    "rows": [
+      ["Svarer aften, weekend og helligdage", "Ja, uden tillæg", "Kun en indtalt besked", "Afhænger af aftalen, ofte mod tillæg"],
+      ["Booker direkte i kalenderen", "Ja", "Nej", "Sjældent, oftest en besked"],
+      ["Flere opkald på samme tid", "Ja", "Kun beskeder", "Afhænger af bemandingen"],
+      ["Samme assistent på hjemmesiden", "Ja, AI Voice Widget", "Nej", "Nej"],
+      ["Optagelse, udskrift og referat", "Ja, i dashboardet", "Kun lydfilen", "En skriftlig besked"],
+      ["Prismodel", "Pakke med taletid, fra 999 kr./md.", "Som regel en del af telefonabonnementet", "Pr. opkald eller fast månedspris"]
+    ],
+    "link": "Læs den fulde sammenligning"
+  },
+  "faq": [
+    {
+      "question": "Hvad er en AI-receptionist?",
+      "answer": "En AI-receptionist er en digital assistent, der tager imod jeres kunder på hjemmesiden og i telefonen. Hos Aibooking.dk består den af AI Voice Widget på hjemmesiden, AI-telefonpasning af indgående opkald og — som tilkøb — udgående opkald. Den svarer ud fra jeres egne oplysninger, booker i kalenderen og gemmer hver samtale i dashboardet."
+    },
+    {
+      "question": "Skal jeg bruge både widget og telefon?",
+      "answer": "Nej. I kan starte med én kanal — fx kun widgeten på hjemmesiden eller kun telefonen uden for åbningstid — og tilføje de andre senere. De deler vidensbase, kalender og dashboard, så det kræver ingen ny opsætning af jeres oplysninger."
+    }
+  ]
+}

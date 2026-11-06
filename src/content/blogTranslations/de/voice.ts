@@ -35,7 +35,7 @@ export const voiceDe: BlogTranslations = {
       <p>Erstens sind die großen mehrsprachigen Modelle im Dänischen deutlich besser geworden, weil sie mit weit mehr Audio trainiert werden. Zweitens gibt es in Dänemark heute offene Ressourcen: Das <strong>CoRal-Projekt</strong>, geleitet vom Alexandra Institute und gefördert von Innovation Fund Denmark, hat Hunderte Stunden dänischer Sprache von mehr als tausend Menschen aller Altersgruppen aus dem ganzen Land gesammelt – vorgelesen und im Gespräch – und ein dänisches Spracherkennungsmodell sowie einen Datensatz für die Sprachsynthese veröffentlicht. So lässt sich testen, wie gut ein Modell Dialekte, ältere und jüngere Sprecher versteht.</p>
       <p>Bei der Sprachsynthese gibt es inzwischen natürlich klingende dänische Stimmen von mehreren Anbietern. Die Unterschiede liegen vor allem in der Aussprache von Namen, Zahlen, Adressen und englischen Lehnwörtern. Mehr dazu in <a href="/blog/ai-telefonassistent-dansk-sprog">Spracherkennung und KI-Stimmen</a>.</p>
 
-      <div class="blog-cta"><strong>Hören Sie einen KI-Voice-Agent bei Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und testen Sie 7 Tage lang. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/ind-og-udgaaende-opkald">KI-Telefonservice ansehen</a></div></div>
+      <div class="blog-cta"><strong>Hören Sie einen KI-Voice-Agent bei Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und testen Sie 7 Tage lang. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/ai-receptionist">KI-Telefonservice ansehen</a></div></div>
 
       <h2 id="agenter">4. KI-Agenten, die handeln</h2>
       <p>Der größte Unterschied zwischen einem Chatbot und einem <strong>KI-Agenten</strong> ist, dass der Agent etwas tun kann: einen freien Termin nachschlagen, eine Buchung anlegen, eine SMS senden oder einen Bestellstatus abrufen. Das geschieht über „Function Calling“ oder „Tools“, bei denen das Sprachmodell entscheidet, eine vom Anbieter definierte Funktion aufzurufen, und das Ergebnis zurückbekommt.</p>
@@ -118,7 +118,7 @@ export const voiceDe: BlogTranslations = {
         <li><strong>Barge-in</strong>: Hört er auf zu sprechen, wenn der Anrufer ihn unterbricht?</li>
       </ul>
       <p>Ein kleiner Kniff: Gute Agenten sagen „Einen Moment, ich schaue kurz im Kalender nach“, während sie etwas abfragen – genau wie ein Mensch.</p>
-      <div class="blog-cta"><strong>Hören Sie einen KI-Voice-Agent bei Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und testen Sie 7 Tage lang. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/ind-og-udgaaende-opkald">KI-Telefonservice ansehen</a></div></div>
+      <div class="blog-cta"><strong>Hören Sie einen KI-Voice-Agent bei Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und testen Sie 7 Tage lang. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/ai-receptionist">KI-Telefonservice ansehen</a></div></div>
       <h2>Eingehend und ausgehend</h2>
       <p>Ein Voice-Agent kann Anrufe annehmen (eingehend) und selbst anrufen (ausgehend) – zum Beispiel mit Erinnerungen am Tag vor einem Termin oder beim Nachfassen zu einem Angebot. Die Regeln für beides unterscheiden sich; lesen Sie <a href="/blog/inbound-outbound-forskel">eingehende und ausgehende KI-Anrufe</a>.</p>
       <h2>Was kann schiefgehen?</h2>
@@ -160,7 +160,7 @@ export const voiceDe: BlogTranslations = {
         <li><strong>Mehrere Personen, die gleichzeitig sprechen</strong>, oder starke Hintergrundgeräusche.</li>
       </ul>
       <p>Die Lösung ist kein perfektes Modell, sondern gute Gesprächstechnik: Die KI wiederholt Name, Telefonnummer und Adresse und bittet den Anrufer, sie zu bestätigen, bevor sie speichert. Eine erfahrene Rezeptionskraft macht es genauso.</p>
-      <div class="blog-cta"><strong>Hören Sie einen KI-Voice-Agent bei Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und testen Sie 7 Tage lang. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/ind-og-udgaaende-opkald">KI-Telefonservice ansehen</a></div></div>
+      <div class="blog-cta"><strong>Hören Sie einen KI-Voice-Agent bei Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und testen Sie 7 Tage lang. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/ai-receptionist">KI-Telefonservice ansehen</a></div></div>
       <h2>So testen Sie eine deutsche KI-Stimme</h2>
       <ol>
         <li><strong>Rufen Sie von einem echten Telefon an</strong> – nicht nur im Browser.</li>
@@ -194,13 +194,13 @@ export const voiceDe: BlogTranslations = {
       <p>Eine Rezeption, die nur eine Nachricht aufnimmt, ist nicht viel wert. Sie sollte genau das fragen, was Ihr Unternehmen braucht – beim Handwerker Adresse, Auftragsart und Dringlichkeit; in der Praxis, ob der Anrufer neuer oder bestehender Patient ist.</p>
       <h2>4. Endet das Gespräch mit einer Aktion?</h2>
       <p>Das stärkste Qualitätsmerkmal ist, dass der Anruf mit etwas Konkretem endet: einem Termin im Kalender, einer SMS-Bestätigung oder einer Nachricht mit vereinbartem Rückruf. Das ist der Unterschied zwischen einem KI-Rezeptionisten und einer <a href="/blog/ai-receptionist-vs-telefonpasning">Mailbox</a>.</p>
-      <div class="blog-cta"><strong>Hören Sie einen KI-Voice-Agent bei Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und testen Sie 7 Tage lang. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/ind-og-udgaaende-opkald">KI-Telefonservice ansehen</a></div></div>
+      <div class="blog-cta"><strong>Hören Sie einen KI-Voice-Agent bei Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und testen Sie 7 Tage lang. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/ai-receptionist">KI-Telefonservice ansehen</a></div></div>
       <h2>5. Weiß sie, wann sie weiterleiten sollte?</h2>
       <p>Dringende oder komplizierte Anrufe sollten mit Kontext an einen Menschen weitergeleitet werden, damit der Anrufer nicht von vorn anfangen muss. Siehe <a href="/blog/ai-receptionist-viderestilling-til-menneske">wann ein Anruf weitergeleitet werden sollte</a>.</p>
       <h2>6. Sagt sie ehrlich, dass sie eine KI ist?</h2>
       <p>Ein guter KI-Rezeptionist stellt sich als digitale Assistenz vor. Das ist nicht nur höflich; nach der KI-Verordnung der EU müssen Menschen wissen, dass sie mit einer KI sprechen. Kunden, die es von Anfang an wissen, sind auch geduldiger, wenn sie gebeten werden, etwas zu wiederholen.</p>
       <h2>Testen Sie selbst – mit Ihrem eigenen Unternehmen</h2>
-      <p>Eine Aufnahme zeigt die Stimme, aber nicht, wie sie mit <em>Ihren</em> Kunden umgeht. Rufen Sie unsere Demo-Nummer an oder starten Sie eine kostenlose Testphase, in der die KI Ihre Leistungen lernt, und rufen Sie selbst mit den Fragen an, die Ihre Kunden üblicherweise stellen. Auf der <a href="/ind-og-udgaaende-opkald">Seite zu ein- und ausgehenden Anrufen</a> können Sie außerdem zwei komplette Gespräche Wort für Wort lesen – einen eingehenden Anruf bei einem Installateur und einen ausgehenden Erinnerungsanruf für eine Praxis.</p>`,
+      <p>Eine Aufnahme zeigt die Stimme, aber nicht, wie sie mit <em>Ihren</em> Kunden umgeht. Rufen Sie unsere Demo-Nummer an oder starten Sie eine kostenlose Testphase, in der die KI Ihre Leistungen lernt, und rufen Sie selbst mit den Fragen an, die Ihre Kunden üblicherweise stellen. Auf der <a href="/ai-receptionist">Seite zu ein- und ausgehenden Anrufen</a> können Sie außerdem zwei komplette Gespräche Wort für Wort lesen – einen eingehenden Anruf bei einem Installateur und einen ausgehenden Erinnerungsanruf für eine Praxis.</p>`,
     faq: [
       { question: `Kann ich die Stimme und die Begrüßung selbst wählen?`, answer: `Ja. Sie schreiben Begrüßung und Tonfall selbst und geben den Wortlaut frei, bevor die KI live geht.` },
     ],
@@ -236,7 +236,7 @@ export const voiceDe: BlogTranslations = {
         <li>Der Rest wird weitergeleitet oder als strukturierte Nachricht aufgenommen.</li>
         <li>Der Kunde erhält eine SMS-Bestätigung, und Sie erhalten eine Zusammenfassung im Dashboard.</li>
       </ol>
-      <div class="blog-cta"><strong>Hören Sie einen KI-Voice-Agent bei Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und testen Sie 7 Tage lang. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/ind-og-udgaaende-opkald">KI-Telefonservice ansehen</a></div></div>
+      <div class="blog-cta"><strong>Hören Sie einen KI-Voice-Agent bei Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und testen Sie 7 Tage lang. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/ai-receptionist">KI-Telefonservice ansehen</a></div></div>
       <h2>Mehr als eine Mailbox</h2>
       <p>Der Unterschied zwischen Mailbox und KI für eingehende Anrufe ist, dass das Anliegen gelöst wird, während der Kunde noch am Telefon ist. Niemand muss zurückrufen, um einen Termin zu vereinbaren, und kein Kunde legt auf, weil er keine Lust hat, eine Nachricht zu hinterlassen. Den vollständigen Vergleich finden Sie in <a href="/blog/ai-receptionist-vs-telefonpasning">KI-Rezeptionist vs. Telefonservice und Mailbox</a>.</p>
       <h2>Wie messen Sie die Wirkung?</h2>
@@ -278,10 +278,10 @@ export const voiceDe: BlogTranslations = {
         <li><strong>Zeitpunkt:</strong> Rufen Sie zu Zeiten an, zu denen Sie auch selbst anrufen würden – nicht sonntags um 21 Uhr.</li>
       </ul>
       <p>Die Grenze zwischen Service und Werbung kann fließend sein, z. B. bei „Möchten Sie gleich Ihren nächsten Termin buchen?“. Lassen Sie es im Zweifel prüfen. Dieser Artikel ist keine Rechtsberatung.</p>
-      <div class="blog-cta"><strong>Hören Sie einen KI-Voice-Agent bei Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und testen Sie 7 Tage lang. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/ind-og-udgaaende-opkald">KI-Telefonservice ansehen</a></div></div>
+      <div class="blog-cta"><strong>Hören Sie einen KI-Voice-Agent bei Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und testen Sie 7 Tage lang. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/ai-receptionist">KI-Telefonservice ansehen</a></div></div>
       <h2>Wo sollten Sie anfangen?</h2>
       <p>Die meisten beginnen mit eingehenden Anrufen, weil das ein akutes Problem löst (verpasste Anrufe) und keine neuen Abläufe erfordert. Wenn die KI ein paar Wochen läuft, sind Erinnerungen am Vortag der natürliche nächste Schritt – dort sinken die Terminausfälle. Lesen Sie <a href="/blog/outbound-ai-opkald-paamindelser">automatische Erinnerungsanrufe</a> und <a href="/blog/ai-indgaaende-opkald">KI für eingehende Anrufe</a>.</p>
-      <p>Bei Aibooking.dk umfasst jedes Paket ein- und ausgehende Anrufe. Unter <a href="/ind-og-udgaaende-opkald">ein- und ausgehende Anrufe</a> finden Sie zwei komplette Beispielgespräche.</p>`,
+      <p>Bei Aibooking.dk umfasst jedes Paket ein- und ausgehende Anrufe. Unter <a href="/ai-receptionist">ein- und ausgehende Anrufe</a> finden Sie zwei komplette Beispielgespräche.</p>`,
     faq: [
       { question: `Darf eine KI Kunden anrufen?`, answer: `Ja, für Service wie Erinnerungen und Terminbestätigungen. Wird ein automatisches Anrufsystem für Direktwerbung genutzt, ist nach EU-Recht und in Deutschland nach § 7 UWG eine vorherige ausdrückliche Einwilligung erforderlich.` },
     ],
@@ -304,10 +304,10 @@ export const voiceDe: BlogTranslations = {
         <li>Der freie Termin kann dem nächsten Kunden auf der Warteliste angeboten werden.</li>
         <li>Nimmt der Kunde nicht ab: eine SMS mit der Möglichkeit zum Rückruf oder ein weiterer Versuch später.</li>
       </ol>
-      <p>Das komplette Gespräch können Sie Wort für Wort auf der <a href="/ind-og-udgaaende-opkald">Seite zu ein- und ausgehenden Anrufen</a> lesen.</p>
+      <p>Das komplette Gespräch können Sie Wort für Wort auf der <a href="/ai-receptionist">Seite zu ein- und ausgehenden Anrufen</a> lesen.</p>
       <h2>Praxen: Hier kosten Ausfälle am meisten</h2>
       <p>Für Zahnärzte, Physiotherapeuten und Chiropraktiker ist ein leerer Behandlungstermin reiner Umsatzverlust, weil das Personal ohnehin da ist. Hier lohnen sich Erinnerungsanrufe am meisten – besonders bei neuen Patienten, langen Behandlungen und Terminen, die lange im Voraus gebucht wurden. Kombinieren Sie sie mit <a href="/blog/totalloesning-klinik">KI-Terminbuchung für Praxen</a>, damit Buchung und Erinnerungen automatisch laufen. Denken Sie daran, dass der Anruf keine Gesundheitsinformationen nennen sollte – „Ihr Termin bei uns morgen“ genügt.</p>
-      <div class="blog-cta"><strong>Hören Sie einen KI-Voice-Agent bei Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und testen Sie 7 Tage lang. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/ind-og-udgaaende-opkald">KI-Telefonservice ansehen</a></div></div>
+      <div class="blog-cta"><strong>Hören Sie einen KI-Voice-Agent bei Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und testen Sie 7 Tage lang. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/ai-receptionist">KI-Telefonservice ansehen</a></div></div>
       <h2>Handwerker: Leerfahrten vermeiden</h2>
       <p>Für Handwerker ist der Ausfall ein Kunde, der nicht zu Hause ist. Ein Bestätigungsanruf am Vortag („Wir kommen morgen zwischen 8 und 10 Uhr – ist dann jemand zu Hause?“) erspart eine Leerfahrt und kann gleichzeitig Zugangsinformationen erfassen. Siehe <a href="/blog/ai-telefonassistent-haandvaerker">KI für Handwerker</a>.</p>
       <h2>Gute Regeln für Erinnerungen</h2>
@@ -344,7 +344,7 @@ export const voiceDe: BlogTranslations = {
       <h2>3. Die KI-Verordnung: sagen, dass es eine KI ist</h2>
       <p>Die KI-Verordnung der EU (Verordnung 2024/1689) enthält in Artikel 50 Transparenzpflichten, die ab dem <strong>2. August 2026</strong> gelten: KI-Systeme, die direkt mit Menschen interagieren, müssen so gestaltet sein, dass diese Menschen darüber informiert werden, dass sie mit einem KI-System interagieren, sofern das nicht offensichtlich ist. Ein KI-Rezeptionist oder Chatbot ist keine Hochrisiko-KI, fällt aber unter diese Pflicht. Der „digitale Omnibus“ der EU vom Sommer 2026 hat die Regeln für Hochrisiko-KI verschoben, laut juristischen Analysen aber nicht diese Pflicht.</p>
       <p>In der Praxis: Die Begrüßung sollte etwa sagen: „Sie sprechen mit der digitalen Assistenz von [Unternehmen]“. Darauf reagieren Kunden auch am besten.</p>
-      <div class="blog-cta"><strong>Hören Sie einen KI-Voice-Agent bei Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und testen Sie 7 Tage lang. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/ind-og-udgaaende-opkald">KI-Telefonservice ansehen</a></div></div>
+      <div class="blog-cta"><strong>Hören Sie einen KI-Voice-Agent bei Ihren eigenen Anrufen</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und testen Sie 7 Tage lang. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/ai-receptionist">KI-Telefonservice ansehen</a></div></div>
       <h2>4. Ausgehende Anrufe und Werbung</h2>
       <p>Ruft die KI selbst an, gilt zusätzlich das Wettbewerbsrecht – in Deutschland § 7 UWG. Automatisierte Anrufe zur Direktwerbung erfordern eine vorherige ausdrückliche Einwilligung. Erinnerungen an gebuchte Termine sind Service. Siehe <a href="/blog/inbound-outbound-forskel">die Regeln für ausgehende KI-Anrufe</a>.</p>
       <h2>Fragen an Ihren Anbieter</h2>

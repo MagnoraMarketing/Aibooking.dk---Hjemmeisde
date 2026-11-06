@@ -64,6 +64,18 @@
   @apply absolute left-0 top-0 w-8 h-8 rounded-full bg-brand-600 text-white text-sm font-bold flex items-center justify-center;
 }
 
+/* Illustration inside a post: <figure class="blog-figure"><img …><figcaption>…</figcaption></figure>.
+   The images are the localized SVGs from scripts/generate-illustrations.js. */
+.blog-content .blog-figure {
+  @apply my-10;
+}
+.blog-content .blog-figure img {
+  @apply w-full h-auto rounded-2xl ring-1 ring-ink-200 shadow-lg;
+}
+.blog-content .blog-figure figcaption {
+  @apply mt-3 text-sm text-ink-600 text-center;
+}
+
 /* Inline call-to-action box inside a post: <div class="blog-cta">…</div> */
 .blog-content .blog-cta {
   @apply relative overflow-hidden rounded-2xl bg-ink-950 p-6 sm:p-8 my-10 text-ink-200;

@@ -42,7 +42,7 @@ export const automationPosts: BlogPost[] = [
       <p>Det er her, mest tid går tabt manuelt. Med AI kan kunden ringe eller skrive "jeg kan ikke på torsdag", og AI'en finder aftalen, tilbyder en ny tid og opdaterer kalenderen. Du kan bestemme regler som "aflysning senere end 24 timer før noteres som sen aflysning", og AI'en kan fortælle kunden om jeres afbudsregler. Kombineret med <a href="/blog/outbound-ai-opkald-paamindelser">påmindelsesopkald dagen før</a> fanger I afbud, mens der stadig er tid til at give tiden til en anden.</p>
       ${CTA_TRIAL_DA}
       <h2>Én booking-motor, flere kanaler</h2>
-      <p>Kunder vælger selv, hvordan de henvender sig. Nogle ringer, andre klikker på hjemmesiden, og mange gør begge dele. Når den samme AI står bag <a href="/ind-og-udgaaende-opkald">telefonen</a> og <a href="/widget">widgeten på hjemmesiden</a>, får kunden de samme svar og de samme ledige tider — og I ser alle bookinger og samtaler ét sted i dashboardet.</p>
+      <p>Kunder vælger selv, hvordan de henvender sig. Nogle ringer, andre klikker på hjemmesiden, og mange gør begge dele. Når den samme AI står bag <a href="/ai-receptionist">telefonen</a> og <a href="/widget">widgeten på hjemmesiden</a>, får kunden de samme svar og de samme ledige tider — og I ser alle bookinger og samtaler ét sted i dashboardet.</p>
       <h2>Hvor meget administration forsvinder?</h2>
       <p>Tæl selv i en uge: hvor mange minutter bruges på at tage imod bookinger, flytte tider, sende bekræftelser og ringe efter udeblivelser? For mange små virksomheder er det en til to timer om dagen. Se hvordan du regner det om til kroner i <a href="/blog/roi-ai-automatisering-virksomheder">guiden til ROI af AI-automatisering</a>.</p>
       <h2>Brancheeksempler</h2>
@@ -79,7 +79,7 @@ export const automationPosts: BlogPost[] = [
       <p>This is where most time is lost manually. With AI the customer can call or write "I can't make Thursday", and the AI finds the appointment, offers a new time and updates the calendar. You can set rules like "cancellations later than 24 hours before are logged as late", and the AI can tell the customer about your cancellation policy. Combined with <a href="/blog/outbound-ai-opkald-paamindelser">reminder calls the day before</a>, you catch cancellations while there is still time to give the slot to someone else.</p>
       ${CTA_TRIAL_EN}
       <h2>One booking engine, several channels</h2>
-      <p>Customers choose how to get in touch. Some call, others click on the website, and many do both. When the same AI is behind the <a href="/ind-og-udgaaende-opkald">phone</a> and the <a href="/widget">website widget</a>, the customer gets the same answers and the same free slots — and you see all bookings and conversations in one place in the dashboard.</p>
+      <p>Customers choose how to get in touch. Some call, others click on the website, and many do both. When the same AI is behind the <a href="/ai-receptionist">phone</a> and the <a href="/widget">website widget</a>, the customer gets the same answers and the same free slots — and you see all bookings and conversations in one place in the dashboard.</p>
       <h2>How much admin disappears?</h2>
       <p>Count for a week: how many minutes go on taking bookings, moving appointments, sending confirmations and chasing no-shows? For many small businesses it is one to two hours a day. See how to turn that into money in the <a href="/blog/roi-ai-automatisering-virksomheder">guide to the ROI of AI automation</a>.</p>
       <h2>Industry examples</h2>
@@ -449,7 +449,7 @@ export const automationPosts: BlogPost[] = [
       </tbody></table></div>
       ${CTA_TRIAL_DA}
       <h2>Telefon, chat og mail: samme svar overalt</h2>
-      <p>Kunder skifter kanal. De starter i chatten og ringer, hvis de ikke får svar. Når den samme AI står bag <a href="/ind-og-udgaaende-opkald">telefonen</a> og <a href="/widget">chat- og talewidgeten på hjemmesiden</a>, giver den de samme svar ud fra den samme viden. Det er både bedre for kunden og lettere at vedligeholde, fordi I kun har ét sted at opdatere priser og regler.</p>
+      <p>Kunder skifter kanal. De starter i chatten og ringer, hvis de ikke får svar. Når den samme AI står bag <a href="/ai-receptionist">telefonen</a> og <a href="/widget">chat- og talewidgeten på hjemmesiden</a>, giver den de samme svar ud fra den samme viden. Det er både bedre for kunden og lettere at vedligeholde, fordi I kun har ét sted at opdatere priser og regler.</p>
       <h2>Mål kvaliteten — ikke kun mængden</h2>
       <ul>
         <li><strong>Løsningsgrad:</strong> hvor mange henvendelser AI'en løser uden overdragelse.</li>
@@ -487,7 +487,7 @@ export const automationPosts: BlogPost[] = [
       </tbody></table></div>
       ${CTA_TRIAL_EN}
       <h2>Phone, chat and email: the same answers everywhere</h2>
-      <p>Customers switch channels. They start in the chat and call if they don't get an answer. When the same AI is behind the <a href="/ind-og-udgaaende-opkald">phone</a> and the <a href="/widget">chat and voice widget on the website</a>, it gives the same answers from the same knowledge. That is better for the customer and easier to maintain, because you only have one place to update prices and rules.</p>
+      <p>Customers switch channels. They start in the chat and call if they don't get an answer. When the same AI is behind the <a href="/ai-receptionist">phone</a> and the <a href="/widget">chat and voice widget on the website</a>, it gives the same answers from the same knowledge. That is better for the customer and easier to maintain, because you only have one place to update prices and rules.</p>
       <h2>Measure quality — not just volume</h2>
       <ul>
         <li><strong>Resolution rate:</strong> how many requests the AI resolves without handover.</li>

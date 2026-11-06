@@ -143,12 +143,22 @@ import shopifyPageEn from './locales/pages/shopifyPage.en.json';
 import shopifyPageEs from './locales/pages/shopifyPage.es.json';
 import shopifyPageDe from './locales/pages/shopifyPage.de.json';
 import shopifyPageFr from './locales/pages/shopifyPage.fr.json';
+import aiReceptionistPageDa from './locales/pages/aiReceptionistPage.da.json';
+import aiReceptionistPageEn from './locales/pages/aiReceptionistPage.en.json';
+import aiReceptionistPageEs from './locales/pages/aiReceptionistPage.es.json';
+import aiReceptionistPageDe from './locales/pages/aiReceptionistPage.de.json';
+import aiReceptionistPageFr from './locales/pages/aiReceptionistPage.fr.json';
 import restaurantPageDa from './locales/pages/restaurantPage.da.json';
 import restaurantPageEn from './locales/pages/restaurantPage.en.json';
 import restaurantPageEs from './locales/pages/restaurantPage.es.json';
 import restaurantPageDe from './locales/pages/restaurantPage.de.json';
 import restaurantPageFr from './locales/pages/restaurantPage.fr.json';
 
+import phoneAnsweringSEODa from './locales/shared/phoneAnsweringSEO.da.json';
+import phoneAnsweringSEOEn from './locales/shared/phoneAnsweringSEO.en.json';
+import phoneAnsweringSEOEs from './locales/shared/phoneAnsweringSEO.es.json';
+import phoneAnsweringSEODe from './locales/shared/phoneAnsweringSEO.de.json';
+import phoneAnsweringSEOFr from './locales/shared/phoneAnsweringSEO.fr.json';
 import widgetCapabilitiesSEODa from './locales/shared/widgetCapabilitiesSEO.da.json';
 import widgetCapabilitiesSEOEn from './locales/shared/widgetCapabilitiesSEO.en.json';
 import widgetCapabilitiesSEOEs from './locales/shared/widgetCapabilitiesSEO.es.json';
@@ -191,12 +201,12 @@ const PAGE_NAMESPACES = [
   'healthcarePage', 'craftsmanPage', 'officePage', 'integrationsPage',
   'aboutPage', 'contactPage', 'demoPage', 'termsPage', 'privacyPage',
   'blogPage', 'blogCategoryPage', 'blogPostPage', 'trialPage',
-  'inboundOutboundPage', 'appPage', 'salonPage', 'shopifyPage', 'restaurantPage',
+  'inboundOutboundPage', 'appPage', 'salonPage', 'shopifyPage', 'restaurantPage', 'aiReceptionistPage',
 ] as const;
 
 // Namespaces for components rendered on more than one page, so the two copies
 // can't drift apart.
-const SHARED_NAMESPACES = ['clinicDashboard', 'agencyDashboard', 'widgetCapabilitiesSEO', 'blogCta', 'pageHero', 'audioDemo'] as const;
+const SHARED_NAMESPACES = ['clinicDashboard', 'agencyDashboard', 'widgetCapabilitiesSEO', 'phoneAnsweringSEO', 'blogCta', 'pageHero', 'audioDemo'] as const;
 
 i18n
   .use(LanguageDetector)
@@ -229,9 +239,11 @@ i18n
         salonPage: salonPageDa,
         shopifyPage: shopifyPageDa,
         restaurantPage: restaurantPageDa,
+        aiReceptionistPage: aiReceptionistPageDa,
         clinicDashboard: clinicDashboardDa,
         agencyDashboard: agencyDashboardDa,
         widgetCapabilitiesSEO: widgetCapabilitiesSEODa,
+        phoneAnsweringSEO: phoneAnsweringSEODa,
         blogCta: blogCtaDa,
         pageHero: pageHeroDa,
         audioDemo: audioDemoDa,
@@ -260,9 +272,11 @@ i18n
         salonPage: salonPageEn,
         shopifyPage: shopifyPageEn,
         restaurantPage: restaurantPageEn,
+        aiReceptionistPage: aiReceptionistPageEn,
         clinicDashboard: clinicDashboardEn,
         agencyDashboard: agencyDashboardEn,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOEn,
+        phoneAnsweringSEO: phoneAnsweringSEOEn,
         blogCta: blogCtaEn,
         pageHero: pageHeroEn,
         audioDemo: audioDemoEn,
@@ -291,9 +305,11 @@ i18n
         salonPage: salonPageEs,
         shopifyPage: shopifyPageEs,
         restaurantPage: restaurantPageEs,
+        aiReceptionistPage: aiReceptionistPageEs,
         clinicDashboard: clinicDashboardEs,
         agencyDashboard: agencyDashboardEs,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOEs,
+        phoneAnsweringSEO: phoneAnsweringSEOEs,
         blogCta: blogCtaEs,
         pageHero: pageHeroEs,
         audioDemo: audioDemoEs,
@@ -322,9 +338,11 @@ i18n
         salonPage: salonPageFr,
         shopifyPage: shopifyPageFr,
         restaurantPage: restaurantPageFr,
+        aiReceptionistPage: aiReceptionistPageFr,
         clinicDashboard: clinicDashboardFr,
         agencyDashboard: agencyDashboardFr,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOFr,
+        phoneAnsweringSEO: phoneAnsweringSEOFr,
         blogCta: blogCtaFr,
         pageHero: pageHeroFr,
         audioDemo: audioDemoFr,
@@ -353,9 +371,11 @@ i18n
         salonPage: salonPageDe,
         shopifyPage: shopifyPageDe,
         restaurantPage: restaurantPageDe,
+        aiReceptionistPage: aiReceptionistPageDe,
         clinicDashboard: clinicDashboardDe,
         agencyDashboard: agencyDashboardDe,
         widgetCapabilitiesSEO: widgetCapabilitiesSEODe,
+        phoneAnsweringSEO: phoneAnsweringSEODe,
         blogCta: blogCtaDe,
         pageHero: pageHeroDe,
         audioDemo: audioDemoDe,

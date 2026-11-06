@@ -19,9 +19,11 @@ import { createBreadcrumbSchema, createFAQSchema } from '../utils/structuredData
 import ClinicDashboardMock from '../components/ClinicDashboardMock';
 import type { NavigatePage } from '../types/navigation';
 import { VOICE_PLAN_PRICES_DKK } from '../utils/pricing';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
+import { ReceptionistAlternatives, ReceptionistChannels, ReceptionistCombined } from '../components/receptionist/ReceptionistSections';
 
 // Danish-worded canonical path; SEO turns it into per-language hreflang URLs.
-const PAGE_PATH = '/ind-og-udgaaende-opkald';
+const PAGE_PATH = '/ai-receptionist';
 
 interface InboundOutboundPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -240,7 +242,11 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
   const contactHref = buildLocalizedPath(lang, '/kontakt');
   const [direction, setDirection] = useState<Direction>('inbound');
 
-  const faqs = t('faq', { returnObjects: true }) as Faq[];
+  // Page-level questions about the AI receptionist first, then the phone FAQ.
+  const faqs = useMemo(() => [
+    ...(t('aiReceptionistPage:faq', { returnObjects: true }) as Faq[]),
+    ...(t('faq', { returnObjects: true }) as Faq[]),
+  ], [t]);
   const features = t('features.items', { returnObjects: true }) as TitleDescription[];
   const useCases = t('useCases.items', { returnObjects: true }) as TitleDescription[];
   const steps = t('howItWorks.steps', { returnObjects: true }) as TitleDescription[];
@@ -272,7 +278,7 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
       {
         '@type': 'Service',
         '@id': `${localizedUrl(lang, PAGE_PATH)}#service`,
-        name: 'Inbound-Outbound AI Voice',
+        name: t('breadcrumb.current'),
         serviceType: t('hero.titleAccent'),
         description: t('seo.description'),
         url: localizedUrl(lang, PAGE_PATH),
@@ -375,40 +381,11 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
       {/* Real recorded example call (Danish only), right below the hero */}
       <BookingAudioDemo className="border-t border-white/10" />
 
-      {/* What it is */}
-      <section className="py-20 md:py-28 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-ink-900 mb-6 tracking-tight">
-                {t('whatIs.title')}
-              </h2>
-              <div className="space-y-4 text-ink-600 leading-relaxed text-lg">
-                <p>{t('whatIs.para1')}</p>
-                <p>{t('whatIs.para2')}</p>
-                <p>{t('whatIs.para3')}</p>
-              </div>
-            </div>
+      {/* The three channels: AI Voice Widget first, then inbound and outbound calls */}
+      <ReceptionistChannels />
 
-            <div className="grid sm:grid-cols-2 gap-5">
-              <div className="bg-gradient-to-br from-brand-600 to-brand-800 rounded-3xl p-7 text-white shadow-xl">
-                <div className="w-12 h-12 rounded-2xl bg-white/15 flex items-center justify-center mb-5">
-                  <PhoneIncoming className="w-6 h-6" />
-                </div>
-                <h3 className="font-bold text-xl mb-3">{t('whatIs.inbound.title')}</h3>
-                <p className="text-sm text-brand-50/90 leading-relaxed">{t('whatIs.inbound.desc')}</p>
-              </div>
-              <div className="bg-gradient-to-br from-ink-800 to-ink-950 rounded-3xl p-7 text-white shadow-xl">
-                <div className="w-12 h-12 rounded-2xl bg-accent-500/20 flex items-center justify-center mb-5">
-                  <PhoneOutgoing className="w-6 h-6 text-accent-400" />
-                </div>
-                <h3 className="font-bold text-xl mb-3">{t('whatIs.outbound.title')}</h3>
-                <p className="text-sm text-ink-300 leading-relaxed">{t('whatIs.outbound.desc')}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* The combined solution with a worked example */}
+      <ReceptionistCombined />
 
       {/* Worked example */}
       <section id="eksempel" className="py-20 md:py-28 bg-ink-950 scroll-mt-20">
@@ -613,6 +590,9 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
         </div>
       </section>
 
+      {/* AI receptionist vs. voicemail and human answering services */}
+      <ReceptionistAlternatives />
+
       {/* Pricing */}
       <section id="priser" className="py-20 md:py-28 bg-white scroll-mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -721,6 +701,7 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
       <WidgetCapabilitiesSEO />
       <AppQrSection />
       <RelatedGuides slugs={['ai-telefonpasning-dansk-ai-receptionist', 'hvad-koster-en-ai-receptionist', 'inbound-outbound-forskel', 'outbound-ai-opkald-paamindelser', 'ai-receptionist-viderestilling-til-menneske', 'hvad-er-en-ai-voice-agent']} />
+      <PhoneAnsweringSEO variant="pages.inboundOutbound" hideProductLink />
       <Footer onNavigate={onNavigate} />
     </div>
   );

@@ -7,7 +7,7 @@ import { buildLocalizedPath } from './localePaths';
 // with pathMap/pageMap in src/App.tsx.
 export const PAGE_PATHS: Record<NavigatePage, string> = {
   home: '/', demo: '/demo', features: '/funktioner', widget: '/widget',
-  'inbound-outbound': '/ind-og-udgaaende-opkald', integrations: '/integrationer',
+  'inbound-outbound': '/ai-receptionist', integrations: '/integrationer',
   industries: '/brancher', healthcare: '/klinik', craftsman: '/haandvaerker',
   office: '/kontor', ecommerce: '/webshop', contact: '/kontakt',
   about: '/om-aibooking', terms: '/vilkaar', privacy: '/privatlivspolitik',

@@ -1,0 +1,203 @@
+{
+  "eyebrow": "AI phone answering",
+  "links": {
+    "product": "See the AI receptionist",
+    "guide": "Guide: after-hours AI phone answering",
+    "requirements": "Guide: 9 requirements for AI phone answering"
+  },
+  "pages": {
+    "home": {
+      "title": "AI phone answering that answers, books and remembers",
+      "text": [
+        "With AI phone answering from Aibooking.dk, an AI receptionist picks up your number whenever your team can't: when the line is busy, at lunch, in the evening and at weekends. It answers from your own information and books straight into your calendar.",
+        "You keep your number and decide when calls are forwarded. Every call then sits in the dashboard with recording, transcript and summary, so nothing gets lost between the customer and you."
+      ]
+    },
+    "features": {
+      "title": "The features behind AI phone answering",
+      "text": [
+        "AI phone answering is more than a voice on the line. Behind each call sit a knowledge base built from text, your website or PDFs, calendar booking with rescheduling and cancellation, simultaneous calls and six conversation languages: English, Danish, German, Spanish, French and Portuguese.",
+        "Everything shares one dashboard with your AI widget, so you can see what customers ask by phone and on the website, and fix the answers in one place."
+      ]
+    },
+    "widget": {
+      "title": "The widget on your website, AI phone answering on your line",
+      "text": [
+        "The widget looks after people visiting your website, but plenty of customers still prefer to pick up the phone. AI phone answering gives them the same help by phone: the same knowledge, the same calendar and the same tone as the widget.",
+        "Both channels run from one dashboard, so a customer who chats first and calls later gets a consistent answer, and you see both conversations together."
+      ]
+    },
+    "inboundOutbound": {
+      "title": "Why choose AI phone answering over voicemail?",
+      "text": [
+        "Voicemail asks the customer to wait. AI phone answering resolves the request there and then: it understands what the caller wants, answers questions, finds a free slot and confirms the booking while they are still on the line.",
+        "You choose whether the AI takes every call, only after hours or only when the line is busy. No evening or weekend surcharges — you pay for talk time."
+      ]
+    },
+    "integrations": {
+      "title": "AI phone answering connected to your calendar",
+      "text": [
+        "AI phone answering only works if the AI knows when you are free. It connects directly to Google Calendar, Outlook/Microsoft 365 or Cal.com and only books into open slots.",
+        "Webshops can add Shopify so callers get answers about products and order status, and restaurants can let the AI book a courier through Uber Direct or Just Eat."
+      ]
+    },
+    "industries": {
+      "title": "AI phone answering for every industry",
+      "text": [
+        "A dental practice, a plumbing firm and a hair salon get very different calls. AI phone answering is set up for your trade: which questions the AI asks, what it may book and when it should take a message instead.",
+        "What every industry has in common is that the phone gets answered, even when you are with a customer, out on a job or closed for the day."
+      ]
+    },
+    "demo": {
+      "title": "Hear AI phone answering in action",
+      "text": [
+        "The best way to judge AI phone answering is to listen to it. In a demo we place a call, show how the AI introduces itself, finds a slot and confirms the booking, and what the call then looks like in the dashboard.",
+        "Bring your customers' typical questions so you can hear how it handles your own working day."
+      ]
+    },
+    "healthcare": {
+      "title": "AI phone answering for clinics",
+      "text": [
+        "Phone hours at a clinic are often short and busy. AI phone answering takes calls about appointments, rescheduling and cancellations all day, so staff can focus on the patient in the chair.",
+        "The AI never gives medical advice. For acute symptoms it refers callers to the out-of-hours doctor or the emergency number, and anything the practitioner needs to see becomes a message with a short summary."
+      ]
+    },
+    "craftsman": {
+      "title": "AI phone answering for tradespeople on the move",
+      "text": [
+        "You can't take a call with your hands in a boiler. AI phone answering picks up for you, asks about the job, the address and how urgent it is, and books a site visit in your calendar.",
+        "You still write the quote yourself. You just get all the details in one summary, so you can call back well prepared once your hands are free."
+      ]
+    },
+    "office": {
+      "title": "AI phone answering for professional offices",
+      "text": [
+        "For lawyers, accountants and estate agents the phone is often the first impression. AI phone answering greets callers professionally, books meetings and takes messages for the right colleague while they are in a meeting.",
+        "It never discloses information about client matters — it takes the request so the responsible person can call back."
+      ]
+    },
+    "ecommerce": {
+      "title": "AI phone answering for online stores",
+      "text": [
+        "Online shoppers call about delivery, returns and sizing — often the same questions over and over. AI phone answering replies from your own policies and product information, around the clock.",
+        "If you run Shopify, the AI can also look up order status from the order number, so the customer gets an answer without waiting for support."
+      ]
+    },
+    "contact": {
+      "title": "Questions about AI phone answering?",
+      "text": [
+        "Not sure how AI phone answering fits your business? Write or call us. We are happy to go through your typical calls and suggest when the AI should take over.",
+        "Prefer to try it yourself? Start a free trial, forward your number and see the results in your own dashboard."
+      ]
+    },
+    "about": {
+      "title": "AI phone answering built for small businesses",
+      "text": [
+        "Aibooking.dk was built for businesses that lose customers because the phone rings when nobody can answer. Our AI phone answering is designed to understand callers the way they actually speak.",
+        "We care about transparent pricing, data processed in the EU and an AI that honestly introduces itself as a digital assistant."
+      ]
+    },
+    "trial": {
+      "title": "Try AI phone answering on your own number",
+      "text": [
+        "During the trial you can test AI phone answering on real calls: forward your number, connect your calendar and see how the AI answers and books.",
+        "Start with forwarding after hours or when busy. That way there is no risk, and the dashboard shows you exactly which calls you would otherwise have missed."
+      ]
+    },
+    "app": {
+      "title": "Follow your AI phone answering from your phone",
+      "text": [
+        "The app puts your AI phone answering in your pocket. Every call the AI has taken is there with recording, transcript and summary, so you can quickly call the most important customers back.",
+        "That is especially useful if you work on site with customers: you see new bookings and messages as soon as they come in."
+      ]
+    },
+    "salon": {
+      "title": "AI phone answering for hair and beauty salons",
+      "text": [
+        "With scissors and a hairdryer in your hands you can't answer the phone. AI phone answering books, moves and cancels appointments for you, so clients never end up in a queue or on voicemail.",
+        "It knows your treatments, prices and durations, and only books slots that suit both the treatment and the stylist."
+      ]
+    },
+    "shopify": {
+      "title": "AI phone answering for Shopify stores",
+      "text": [
+        "The same Shopify connection that powers chat on your website also works by phone. AI phone answering searches your products, reads your shipping and returns policy and looks up order status from the order number.",
+        "The AI has read-only access and never discloses names, addresses or payment details from the order — only status, shipping and delivery."
+      ]
+    },
+    "restaurant": {
+      "title": "AI phone answering for restaurants",
+      "text": [
+        "In the middle of dinner service nobody has time for the phone. AI phone answering takes table reservations, answers questions about the menu, allergens and opening hours, and can book a courier through Uber Direct or Just Eat.",
+        "The food order itself and payment stay in your own system."
+      ]
+    },
+    "blog": {
+      "title": "Everything about AI phone answering in one place",
+      "text": [
+        "The blog has guides on AI phone answering: what it costs, what to require from a provider, how it handles natural speech and when a person should take over.",
+        "Start with the guide to after-hours AI phone answering if you want to get going straight away, or read the requirements before you choose a provider."
+      ]
+    }
+  },
+  "blogCategory": {
+    "ai-widget": {
+      "title": "AI widgets and AI phone answering go together",
+      "text": [
+        "The guides in this category are about your website. But the customers who chat with the widget also call. With AI phone answering they get the same answers and the same calendar by phone.",
+        "Widget and phone share a knowledge base and dashboard, so you only maintain your information in one place."
+      ]
+    },
+    "ai-inbound-outbound": {
+      "title": "Getting started with AI phone answering",
+      "text": [
+        "This category collects our guides on AI receptionists and AI phone answering. New to the topic? Start with the nine requirements for a provider, then read what it costs and how after-hours calls are handled.",
+        "Every guide covers the practical side: natural speech, calendar integration, GDPR and the EU AI Act."
+      ]
+    },
+    "ai-total-solution": {
+      "title": "AI phone answering as the first step in automation",
+      "text": [
+        "Many businesses start automating with the phone, because unanswered calls are where customers disappear. AI phone answering books straight into the calendar and quickly shows you what customers call about.",
+        "From there it is easy to add a widget on your website and more integrations."
+      ]
+    },
+    "ai-webshop": {
+      "title": "AI phone answering for webshops",
+      "text": [
+        "Online shoppers don't only type — they call too, especially about delivery and returns. AI phone answering handles those questions from your own policies, and with Shopify also order status.",
+        "That leaves your support team free for the cases that need a person."
+      ]
+    }
+  },
+  "blogPost": {
+    "ai-widget": {
+      "title": "Use the same AI on the phone",
+      "text": [
+        "What you just read about the widget applies to the phone too. With AI phone answering the same AI answers calls to your number, with the same knowledge and the same calendar.",
+        "Many start with the phone after hours and add the widget to the website later — or the other way round."
+      ]
+    },
+    "ai-inbound-outbound": {
+      "title": "Next step: AI phone answering on your own number",
+      "text": [
+        "To see how this article plays out on your own calls, you can set up AI phone answering in an afternoon: write the greeting, connect the calendar and forward your number when you close.",
+        "During the trial the dashboard shows which calls the AI took and what it booked."
+      ]
+    },
+    "ai-total-solution": {
+      "title": "Automation often starts on the phone",
+      "text": [
+        "The quickest win from AI automation is often the calls nobody gets to. AI phone answering takes them, books into the calendar and gives you a summary, so you see the value from the first week.",
+        "Read the guide to after-hours calls for a concrete place to start."
+      ]
+    },
+    "ai-webshop": {
+      "title": "When the online shopper calls",
+      "text": [
+        "Not every customer types. With AI phone answering, callers get answers about products, delivery and returns — and with Shopify, order status — without waiting in a queue.",
+        "The calls are then in the dashboard, so you can see what customers ask about most."
+      ]
+    }
+  }
+}

@@ -13,6 +13,7 @@ import { CheckCircle, Calendar, Clock, Zap } from 'lucide-react';
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 interface DemoPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -240,6 +241,7 @@ function DemoPage({ onNavigate }: DemoPageProps) {
         </div>
       </section>
 
+      <PhoneAnsweringSEO variant="pages.demo" />
       <FAQ items={demoFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

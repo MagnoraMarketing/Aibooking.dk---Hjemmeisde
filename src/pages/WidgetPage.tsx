@@ -19,6 +19,7 @@ import { VOICE_PLAN_PRICES_DKK, WIDGET_PLAN_PRICE_DKK, SETUP_PRICES_DKK } from '
 import { VOICE_DEMO_ASSISTANT_ID } from '../utils/voiceDemo';
 import { useVoiceDemoCall } from '../hooks/useVoiceDemoCall';
 import type { SupportedLanguage } from '../i18n/config';
+import { voiceWidgetImage, websiteWidgetImage } from '../utils/localizedImages';
 import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import { createBreadcrumbSchema, createFAQSchema } from '../utils/structuredData';
 import ClinicDashboardMock from '../components/ClinicDashboardMock';
@@ -26,6 +27,7 @@ import ShopifyIntegrationMock from '../components/ShopifyIntegrationMock';
 import type { NavigatePage } from '../types/navigation';
 import PageLink from '../components/PageLink';
 import BookingAudioDemo from '../components/BookingAudioDemo';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 // Danish-worded canonical path; SEO turns it into per-language hreflang URLs.
 const PAGE_PATH = '/widget';
@@ -553,7 +555,9 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
 
                 <div className="absolute -bottom-2 -right-2 sm:right-6 w-52 sm:w-60 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
                   <img
-                    src="/ai-voice-widget.webp"
+                    src={voiceWidgetImage(lang).src}
+                    width={voiceWidgetImage(lang).width}
+                    height={voiceWidgetImage(lang).height}
                     alt={t('hero.image_alt')}
                     className="w-full h-auto object-cover"
                     loading="eager"
@@ -599,7 +603,9 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
               <div className="order-2 lg:order-1 relative">
                 <div className="absolute -inset-4 bg-gradient-to-br from-ink-100 to-brand-50 rounded-3xl blur-2xl opacity-70"></div>
                 <img
-                  src="/ai-widget-website.webp"
+                  src={websiteWidgetImage(lang).src}
+                  width={websiteWidgetImage(lang).width}
+                  height={websiteWidgetImage(lang).height}
                   alt={t('whatIs.image_alt')}
                   className="relative w-full rounded-3xl shadow-2xl object-cover"
                   loading="lazy"
@@ -1008,6 +1014,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
       <WidgetCapabilitiesSEO />
       <AppQrSection />
       <RelatedGuides slugs={['ai-widget-hjemmeside-komplet-guide', 'ai-widget-vs-kontaktformular', 'ai-til-hjemmeside']} />
+      <PhoneAnsweringSEO variant="pages.widget" />
       <Footer onNavigate={onNavigate} />
     </>
   );

@@ -18,6 +18,7 @@ import {
 } from 'lucide-react';
 import type { NavigatePage } from '../types/navigation';
 import PageLink from '../components/PageLink';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 interface ContactPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -308,6 +309,7 @@ function ContactPage({ onNavigate }: ContactPageProps) {
         </div>
       </div>
 
+      <PhoneAnsweringSEO variant="pages.contact" />
       <FAQ items={contactFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

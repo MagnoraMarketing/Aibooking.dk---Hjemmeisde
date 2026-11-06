@@ -13,7 +13,7 @@ Trying the product is free: new customers create a free account (no credit card 
 - [Home](https://www.aibooking.dk/): Overview of the AI receptionist product, pricing and core value proposition.
 - [Features](https://www.aibooking.dk/funktioner): Full feature list — call handling, calendar integration, reminders, dashboard.
 - [AI Widget](https://www.aibooking.dk/widget): The website chat/voice widget product page, including pricing.
-- [Inbound-Outbound AI Voice](https://www.aibooking.dk/ind-og-udgaaende-opkald): The AI phone assistant product page — answers inbound calls and places outbound calls for bookings, reminders and follow-ups.
+- [AI-receptionist](https://www.aibooking.dk/ai-receptionist): The AI receptionist product page — AI voice widget on the website, AI phone answering for inbound calls and outbound calls (add-on), combined in one solution with one dashboard.
 - [The app](https://www.aibooking.dk/app): The customer app for phone and computer — calls, bookings, recordings, transcripts and usage in one place, with real screenshots and how to add it to the home screen.
 - [Free Trial](https://www.aibooking.dk/proeveperiode): Details of the 7-day free trial, started by creating a free account — no credit card required.
 - [Demo](https://www.aibooking.dk/demo): Book a free, no-commitment demo.
@@ -54,6 +54,8 @@ Trying the product is free: new customers create a free account (no credit card 
 - [Hvad er en AI voice agent?](https://www.aibooking.dk/blog/hvad-er-en-ai-voice-agent): Realtime voice AI in phone calls explained.
 - [Den nyeste AI-teknologi i 2026](https://www.aibooking.dk/blog/nyeste-ai-teknologi-2026): Realtime speech models, Danish speech technology, AI agents and the EU AI Act, with sources.
 - [AI-telefonpasning: krav til en dansk AI-receptionist](https://www.aibooking.dk/blog/ai-telefonpasning-dansk-ai-receptionist): Nine requirements for AI phone answering in Danish.
+- [AI-telefonpasning uden for åbningstid](https://www.aibooking.dk/blog/ai-telefonpasning-uden-for-aabningstid): After-hours AI phone answering: evenings, weekends and holidays, urgent-call rules, setup and price.
+- [AI-telefonpasning til webshop, håndværker, klinik og kontor](https://www.aibooking.dk/blog/ai-telefonpasning-webshop-haandvaerker-klinik-kontor): How AI phone answering is set up for webshops, tradespeople, clinics and offices, with an example call from each.
 - [Automatisk booking med AI](https://www.aibooking.dk/blog/komplet-ai-automatisering-widget-telefon-booking): Calendar integration, changes and cancellations.
 - [AI-receptionist, GDPR og AI-forordningen](https://www.aibooking.dk/blog/ai-widget-gdpr-danske-virksomheder): Data protection, call recording and the AI disclosure rule.
 - [AI widget til hjemmeside: komplet guide](https://www.aibooking.dk/blog/ai-widget-hjemmeside-komplet-guide): What an AI chat/voice widget is and how to choose one.

@@ -21,6 +21,7 @@ import { softwareApplicationSchema } from '../utils/structuredData';
 import type { SupportedLanguage } from '../i18n/config';
 import { localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 interface HomePageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -60,6 +61,7 @@ function HomePage({ onNavigate }: HomePageProps) {
       <WidgetPricing />
       <CTA />
       <RelatedGuides slugs={['ai-reception-virtuel-receptionist', 'hvad-koster-en-ai-receptionist', 'ai-receptionist-vs-telefonpasning', 'hvordan-lyder-en-dansk-ai-receptionist', 'komplet-ai-automatisering-widget-telefon-booking', 'nyeste-ai-teknologi-2026']} />
+      <PhoneAnsweringSEO variant="pages.home" />
       <FAQ items={homeFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

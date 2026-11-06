@@ -3,6 +3,16 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/ind-og-udgaaende-opkald",
+      "destination": "/ai-receptionist",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(en|es|de|fr)/ind-og-udgaaende-opkald",
+      "destination": "/:lang/ai-receptionist",
+      "permanent": true
+    },
+    {
       "source": "/pt",
       "destination": "/en",
       "permanent": true

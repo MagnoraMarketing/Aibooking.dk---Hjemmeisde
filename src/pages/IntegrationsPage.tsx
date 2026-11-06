@@ -17,6 +17,7 @@ import type { SupportedLanguage } from '../i18n/config';
 import { localizedUrl } from '../utils/localePaths';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import type { NavigatePage } from '../types/navigation';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 interface IntegrationsPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -49,6 +50,7 @@ function IntegrationsPage({ onNavigate }: IntegrationsPageProps) {
       <IntegrationSEO />
       <IntegrationCTA />
       <RelatedGuides slugs={['komplet-ai-automatisering-widget-telefon-booking', 'shopify-ai-automatisering', 'nyeste-ai-teknologi-2026']} />
+      <PhoneAnsweringSEO variant="pages.integrations" />
       <FAQ items={integrationsFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

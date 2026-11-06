@@ -19,6 +19,7 @@ import IndustryCalculator from '../components/industries/IndustryCalculator';
 import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
 import DashboardShowcase from '../components/DashboardShowcase';
 import type { NavigatePage } from '../types/navigation';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 interface OfficePageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -147,6 +148,7 @@ function OfficePage({ onNavigate }: OfficePageProps) {
       </section>
 
       <RelatedGuides slugs={['ai-telefonassistent-kontor-administration', 'ai-receptionist-viderestilling-til-menneske', 'ai-widget-gdpr-danske-virksomheder']} />
+      <PhoneAnsweringSEO variant="pages.office" />
       <FAQ items={officeFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

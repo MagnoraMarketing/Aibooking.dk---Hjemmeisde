@@ -1,0 +1,106 @@
+{
+  "channels": {
+    "badge": "Drei Kanäle · eine KI-Rezeption",
+    "title": "Eine KI-Rezeption für Website und Telefon",
+    "intro": "Die KI-Rezeption von Aibooking.dk empfängt Kunden dort, wo sie sich melden: zuerst auf Ihrer Website mit dem AI Voice Widget, dann am Telefon, wenn sie anrufen, und als Zusatzmodul auch mit ausgehenden Anrufen. Alle drei Kanäle nutzen dasselbe Wissen, denselben Kalender und dasselbe Dashboard.",
+    "widget": {
+      "label": "1 · AI Voice Widget",
+      "title": "AI Voice Widget: die Rezeption auf Ihrer Website",
+      "text": "Die meisten Kunden lernen Sie zuerst über Ihre Website kennen – oft abends, wenn Sie schon geschlossen haben. Das AI Voice Widget antwortet sofort, per Text, Diktat oder in einem echten Sprachgespräch im Browser, und bucht den Termin direkt in Ihren Kalender, solange das Interesse am größten ist.",
+      "points": [
+        "Chat, Diktat und Echtzeit-Sprache in einem Widget",
+        "Antworten aus Ihrer Wissensdatenbank: Text, Website oder PDF",
+        "Bucht, verschiebt und storniert in Google Kalender, Outlook oder Cal.com",
+        "Einbindung mit einem einzigen Skript auf jeder Website"
+      ],
+      "imageAlt": "AI Voice Widget auf einer Website: Der Kunde möchte einen Termin buchen, die KI antwortet",
+      "link": "Mehr zum AI Voice Widget"
+    },
+    "inbound": {
+      "label": "2 · Eingehende Anrufe",
+      "title": "KI-Telefonservice für eingehende Anrufe",
+      "text": "Ruft ein Kunde an, nimmt die KI-Rezeption unter Ihrer eigenen Nummer ab. Sie stellt sich als digitale Assistenz vor, versteht das Anliegen, beantwortet Fragen und bucht – auch bei besetzter Leitung, in der Mittagspause und nach Feierabend.",
+      "points": [
+        "Nummer behalten – Umleitung immer, nach Feierabend oder bei besetzt",
+        "Viele Anrufe gleichzeitig, keine Warteschleife",
+        "Aufzeichnung, Transkript und Zusammenfassung jedes Anrufs",
+        "Gespräche auf Deutsch, Englisch, Dänisch, Spanisch, Französisch oder Portugiesisch"
+      ],
+      "imageAlt": "Dashboard mit einem eingehenden Anruf um 20:08 Uhr: Aufzeichnung, Zusammenfassung, Buchung und Transkript"
+    },
+    "outbound": {
+      "label": "3 · Ausgehende Anrufe",
+      "badge": "Zusatzmodul",
+      "title": "Ausgehende KI-Anrufe, wenn Sie aktiv werden wollen",
+      "text": "Mit dem Zusatzmodul für ausgehende Anrufe ruft die KI selbst an – auf Basis einer Liste, die Sie hochladen: Kunden, die lange nicht gebucht haben, Interessenten, die um Rückruf gebeten haben, oder Nachfassen zu einem Angebot. Immer in den Zeitfenstern, die Sie festlegen.",
+      "points": [
+        "Kampagnen aus Ihren eigenen Kundenlisten",
+        "Anrufzeitfenster, damit nur zu passenden Zeiten angerufen wird",
+        "Dieselbe Stimme, dasselbe Wissen und derselbe Kalender wie bei eingehenden Anrufen"
+      ],
+      "note": "Ausgehende Anrufe sind ein eigenständiges Zusatzmodul mit eigenem Preis und laufen in einem separaten Bereich."
+    }
+  },
+  "combined": {
+    "badge": "Komplettlösung",
+    "title": "Widget, Telefon und ausgehende Anrufe in einer Lösung – ein Beispiel",
+    "intro": "So sieht eine Woche in einem Friseursalon aus, der die komplette KI-Rezeption nutzt. Die Kundin wechselt unterwegs den Kanal, aber die KI begleitet sie durchgehend, weil alles an einem Ort zusammenläuft.",
+    "steps": [
+      {
+        "time": "Montag, 21:40 Uhr",
+        "channel": "AI Voice Widget",
+        "title": "Sophie bucht auf der Website",
+        "text": "Sophie fragt das Widget, was ein Damenhaarschnitt kostet und ob am Samstag etwas frei ist. Das Widget antwortet anhand der Preisliste des Salons und bucht Samstag um 11:30 Uhr. Die Bestätigung kommt sofort per E-Mail."
+      },
+      {
+        "time": "Mittwoch, 12:15 Uhr",
+        "channel": "Eingehender Anruf",
+        "title": "Sie ruft an, um den Termin zu verschieben",
+        "text": "Alle Stylistinnen sind beschäftigt, also nimmt die KI-Rezeption den Anruf an. Sie findet Sophies Buchung, prüft, dass sie es wirklich ist, und verschiebt den Termin auf Freitag, 15:00 Uhr."
+      },
+      {
+        "time": "Donnerstag, 10:00 Uhr",
+        "channel": "Ausgehender Anruf (Zusatzmodul)",
+        "title": "Der Salon wird selbst aktiv",
+        "text": "Eine ausgehende Kampagne ruft Kundinnen an, die seit über zwei Monaten nicht mehr da waren, und bietet ihnen einen freien Termin in der nächsten Woche an."
+      },
+      {
+        "time": "Freitag, 8:00 Uhr",
+        "channel": "Dashboard",
+        "title": "Die Inhaberin sieht alles auf einen Blick",
+        "text": "Buchungen aus Widget und Telefon stehen im Kalender. Im Dashboard liegt jedes Gespräch mit Aufzeichnung, Transkript und Zusammenfassung – keine Notizzettel, keine verlorenen Nachrichten."
+      }
+    ],
+    "imageAlt": "Buchungsübersicht im Dashboard mit Buchungen, Verschiebungen und Absagen von Telefon-Rezeption und Website-Assistent",
+    "caption": "Buchungen der Telefon-Rezeption (blau) und des Website-Assistenten (orange) in einem Dashboard.",
+    "benefits": [
+      { "title": "Eine Wissensdatenbank", "text": "Preise und Öffnungszeiten einmal ändern – Widget und Telefon antworten gleich." },
+      { "title": "Ein Kalender", "text": "Keine Doppelbuchungen, ob der Kunde schreibt, spricht oder anruft." },
+      { "title": "Ein Überblick", "text": "Alle Gespräche und Buchungen aus allen Kanälen im selben Dashboard und in der App." }
+    ]
+  },
+  "alternatives": {
+    "title": "KI-Rezeption vs. Anrufbeantworter und Telefonservice",
+    "intro": "Was bekommen Sie wirklich für Ihr Geld? Ein kurzer, ehrlicher Vergleich der drei häufigsten Lösungen für Anrufe, die niemand annehmen kann.",
+    "columns": ["", "KI-Rezeption", "Anrufbeantworter", "Telefonservice mit Menschen"],
+    "rows": [
+      ["Abends, am Wochenende und an Feiertagen erreichbar", "Ja, ohne Zuschlag", "Nur eine aufgesprochene Nachricht", "Je nach Vertrag, oft mit Zuschlag"],
+      ["Bucht direkt in den Kalender", "Ja", "Nein", "Selten, meist nur eine Notiz"],
+      ["Mehrere Anrufe gleichzeitig", "Ja", "Nur Nachrichten", "Abhängig von der Besetzung"],
+      ["Dieselbe Assistenz auf der Website", "Ja, AI Voice Widget", "Nein", "Nein"],
+      ["Aufzeichnung, Transkript und Zusammenfassung", "Ja, im Dashboard", "Nur die Audiodatei", "Eine schriftliche Notiz"],
+      ["Preismodell", "Paket mit Gesprächszeit, ab 134 €/Monat", "Meist Teil des Telefontarifs", "Pro Anruf oder feste Monatspauschale"]
+    ],
+    "link": "Zum ausführlichen Vergleich"
+  },
+  "faq": [
+    {
+      "question": "Was ist eine KI-Rezeption?",
+      "answer": "Eine KI-Rezeption ist eine digitale Assistenz, die Ihre Kunden auf der Website und am Telefon empfängt. Bei Aibooking.dk besteht sie aus dem AI Voice Widget auf Ihrer Website, dem KI-Telefonservice für eingehende Anrufe und – als Zusatzmodul – ausgehenden Anrufen. Sie antwortet auf Basis Ihrer eigenen Informationen, bucht in Ihren Kalender und speichert jedes Gespräch im Dashboard."
+    },
+    {
+      "question": "Brauche ich Widget und Telefon zusammen?",
+      "answer": "Nein. Sie können mit einem Kanal beginnen – etwa nur mit dem Widget auf der Website oder nur mit dem Telefon nach Feierabend – und die anderen später ergänzen. Sie teilen Wissensdatenbank, Kalender und Dashboard, Ihre Angaben müssen also nicht neu eingerichtet werden."
+    }
+  ]
+}

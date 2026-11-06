@@ -1,0 +1,106 @@
+{
+  "channels": {
+    "badge": "Three channels · one AI receptionist",
+    "title": "One AI receptionist on your website and on the phone",
+    "intro": "The Aibooking.dk AI receptionist meets customers where they reach out: first on your website with the AI Voice Widget, then on the phone when they call, and, as an add-on, with outbound calls. All three channels share the same knowledge, the same calendar and the same dashboard.",
+    "widget": {
+      "label": "1 · AI Voice Widget",
+      "title": "AI Voice Widget: the receptionist on your website",
+      "text": "Most customers find you on your website first — often in the evening, after you have closed. The AI Voice Widget answers them instantly, by text, dictation or a real spoken conversation in the browser, and books the appointment straight into your calendar while interest is at its peak.",
+      "points": [
+        "Chat, dictation and real-time voice in one widget",
+        "Answers from your knowledge base: text, website or PDF",
+        "Books, moves and cancels in Google Calendar, Outlook or Cal.com",
+        "Added with a single script to any kind of website"
+      ],
+      "imageAlt": "AI Voice Widget on a website where the customer asks to book an appointment and the AI replies",
+      "link": "More about the AI Voice Widget"
+    },
+    "inbound": {
+      "label": "2 · Inbound calls",
+      "title": "AI phone answering for inbound calls",
+      "text": "When a customer calls, the AI receptionist answers on your own number. It introduces itself as a digital assistant, understands the request, answers questions and books — even when the line is busy, at lunch and after closing time.",
+      "points": [
+        "Keep your number — forward always, after hours or when busy",
+        "Many calls at once, no phone queue",
+        "Recording, transcript and summary of every call",
+        "Conversations in English, Danish, German, Spanish, French or Portuguese"
+      ],
+      "imageAlt": "Dashboard showing an inbound call at 8:08 PM with recording, summary, booking and transcript"
+    },
+    "outbound": {
+      "label": "3 · Outbound calls",
+      "badge": "Add-on",
+      "title": "Outbound AI calls when you want to reach out",
+      "text": "With the outbound add-on, the AI calls out from a list you upload: customers who haven't booked in a while, leads who asked to be contacted, or follow-ups on a quote — within the time windows you choose.",
+      "points": [
+        "Campaigns from your own customer lists",
+        "Call windows, so calls only go out at suitable times",
+        "Same voice, knowledge and calendar as inbound calls"
+      ],
+      "note": "Outbound calling is a separate add-on with its own price and runs in its own module."
+    }
+  },
+  "combined": {
+    "badge": "Complete solution",
+    "title": "Widget, phone and outbound calls in one solution — an example",
+    "intro": "Here is a week at a hair salon that uses the whole AI receptionist. The customer switches channels along the way, but the AI follows her throughout, because everything is gathered in one place.",
+    "steps": [
+      {
+        "time": "Monday, 9:40 PM",
+        "channel": "AI Voice Widget",
+        "title": "Sophie books on the website",
+        "text": "Sophie asks the widget what a women's cut costs and whether there is a slot on Saturday. The widget answers from the salon's price list and books Saturday at 11:30. The confirmation arrives straight away by email."
+      },
+      {
+        "time": "Wednesday, 12:15 PM",
+        "channel": "Inbound call",
+        "title": "She calls to move the appointment",
+        "text": "Every stylist is with a client, so the AI receptionist takes the call. It finds Sophie's booking, checks it is really her and moves it to Friday at 3:00 PM."
+      },
+      {
+        "time": "Thursday, 10:00 AM",
+        "channel": "Outbound call (add-on)",
+        "title": "The salon reaches out",
+        "text": "An outbound campaign calls customers who haven't visited in more than two months and offers them a free slot next week."
+      },
+      {
+        "time": "Friday, 8:00 AM",
+        "channel": "Dashboard",
+        "title": "The owner sees it all in one place",
+        "text": "Bookings from both the widget and the phone are in the calendar. The dashboard holds every conversation with recording, transcript and summary — no sticky notes, no lost messages."
+      }
+    ],
+    "imageAlt": "The dashboard's booking list with bookings, moves and cancellations from both the phone receptionist and the website assistant",
+    "caption": "Bookings from the phone receptionist (blue) and the website assistant (orange) in one dashboard.",
+    "benefits": [
+      { "title": "One knowledge base", "text": "Update prices and opening hours once, and the widget and phone give the same answers." },
+      { "title": "One calendar", "text": "No double bookings, whether the customer types, talks or calls." },
+      { "title": "One overview", "text": "Every conversation and booking from every channel in the same dashboard and app." }
+    ]
+  },
+  "alternatives": {
+    "title": "AI receptionist vs. voicemail and answering services",
+    "intro": "What do you actually get for your money? A short, honest comparison of the three most common ways to handle calls when nobody can answer.",
+    "columns": ["", "AI receptionist", "Voicemail", "Human answering service"],
+    "rows": [
+      ["Answers evenings, weekends and holidays", "Yes, no surcharge", "Only a recorded message", "Depends on the contract, often with a surcharge"],
+      ["Books straight into the calendar", "Yes", "No", "Rarely, usually a message"],
+      ["Several calls at the same time", "Yes", "Messages only", "Depends on staffing"],
+      ["Same assistant on your website", "Yes, AI Voice Widget", "No", "No"],
+      ["Recording, transcript and summary", "Yes, in the dashboard", "Audio file only", "A written message"],
+      ["Pricing model", "Package with talk time, from DKK 999/month", "Usually part of the phone plan", "Per call or a fixed monthly fee"]
+    ],
+    "link": "Read the full comparison"
+  },
+  "faq": [
+    {
+      "question": "What is an AI receptionist?",
+      "answer": "An AI receptionist is a digital assistant that greets your customers on your website and on the phone. At Aibooking.dk it consists of the AI Voice Widget on your website, AI phone answering for inbound calls and — as an add-on — outbound calls. It answers from your own information, books in your calendar and saves every conversation in the dashboard."
+    },
+    {
+      "question": "Do I need both the widget and the phone?",
+      "answer": "No. You can start with one channel — say only the widget on your website, or only the phone after hours — and add the others later. They share the knowledge base, calendar and dashboard, so your information doesn't need to be set up again."
+    }
+  ]
+}

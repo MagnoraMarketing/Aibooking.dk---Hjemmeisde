@@ -1,18 +1,18 @@
 {
   "seo": {
-    "title": "AI Answering Service & AI Phone Agent | Aibooking.dk",
-    "description": "AI phone answering: an AI receptionist that answers calls, books in your calendar and calls out with reminders – 24/7, in your customers’ language.",
-    "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, AI inbound calls, AI outbound calls, AI reception, AI phone assistant, AI employee, AI customer service phone, voicebot"
+    "title": "AI Receptionist: AI Voice Widget + AI Phone Answering | Aibooking.dk",
+    "description": "AI receptionist for your website and phone: AI Voice Widget, AI phone answering for inbound calls and outbound calls as an add-on. Books in your calendar.",
+    "keywords": "AI receptionist, AI answering service, AI phone answering, AI voice widget, virtual receptionist, AI inbound calls, AI outbound calls, AI phone agent"
   },
   "breadcrumb": {
     "home": "Home",
-    "current": "AI phone answering"
+    "current": "AI receptionist"
   },
   "hero": {
-    "badge": "Inbound-Outbound AI Voice",
-    "title": "AI phone answering for inbound and outbound calls",
-    "titleAccent": "The AI that both answers and places your calls",
-    "subtitle": "One voice handles both directions: it answers your incoming calls professionally and calls your customers with confirmations, reminders and follow-ups. Around the clock, with no hold time.",
+    "badge": "AI Voice Widget · Inbound · Outbound",
+    "title": "AI receptionist for your website and phone",
+    "titleAccent": "AI Voice Widget, AI phone answering and outbound calls in one solution",
+    "subtitle": "Your AI receptionist answers customers on your website, picks up the phone when your team can’t and, as an add-on, calls customers itself. It books straight into your calendar and keeps every conversation in one dashboard.",
     "cta_demo": "Book a free demo",
     "cta_example": "Hear an example",
     "cta_pricing": "See pricing",
@@ -26,8 +26,8 @@
         "label": "Evenings and weekends too"
       },
       "saving": {
-        "value": "80%",
-        "label": "Lower cost than a receptionist"
+        "value": "3 channels",
+        "label": "Widget, inbound and outbound"
       }
     },
     "card": {

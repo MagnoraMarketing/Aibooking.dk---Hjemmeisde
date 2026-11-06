@@ -1,25 +1,25 @@
 {
   "seo": {
-    "title": "AI-telefonpasning & AI-telefonsvarer på dansk | Aibooking.dk",
-    "description": "AI-telefonpasning døgnet rundt: AI-telefonsvareren svarer på dansk, booker, flytter og aflyser i kalenderen og gemmer et resumé af hvert opkald.",
-    "keywords": "AI-telefonpasning, dansk AI-receptionist, widget til webshop, AI widget til Shopify, AI indgående opkald, AI udgående opkald, AI reception, AI telefonassistent, AI receptionist, AI medarbejder, AI kundeservice telefon, automatisk telefonpasning, voicebot dansk, inbound outbound ai voice, AI Danmark"
+    "title": "AI-receptionist: AI Voice Widget + AI-telefonpasning | Aibooking.dk",
+    "description": "Dansk AI-receptionist: AI Voice Widget på hjemmesiden, AI-telefonpasning af indgående opkald og udgående opkald som tilkøb. Booker i kalenderen.",
+    "keywords": "AI-receptionist, AI receptionist, AI-telefonpasning, AI Voice Widget, AI-telefonsvarer, virtuel receptionist, AI indgående opkald, AI udgående opkald, AI-telefonassistent, AI-telefonpasser, dansk AI-receptionist"
   },
   "breadcrumb": {
     "home": "Hjem",
-    "current": "AI-telefonpasning"
+    "current": "AI-receptionist"
   },
   "hero": {
-    "badge": "Inbound-Outbound AI Voice",
-    "title": "AI-telefonpasning til ind- og udgående opkald",
-    "titleAccent": "AI'en der både tager telefonen og ringer op",
-    "subtitle": "Én stemme håndterer begge retninger: den besvarer dine indgående opkald professionelt og ringer selv ud til kunderne med bekræftelser, påmindelser og opfølgning. Døgnet rundt, på dansk, uden ventetid.",
+    "badge": "AI Voice Widget · Indgående · Udgående",
+    "title": "AI-receptionist til hjemmeside og telefon",
+    "titleAccent": "AI Voice Widget, AI-telefonpasning og udgående opkald i én løsning",
+    "subtitle": "Din AI-receptionist svarer kunderne på hjemmesiden, tager telefonen, når I ikke kan, og ringer som tilkøb selv ud. Den taler dansk, booker direkte i kalenderen og samler hver samtale i ét dashboard.",
     "cta_demo": "Book gratis demo",
     "cta_example": "Hør et eksempel",
     "cta_pricing": "Se priser",
     "stats": {
       "answer": { "value": "2 sek.", "label": "Gennemsnitlig svartid" },
       "availability": { "value": "24/7", "label": "Også aften og weekend" },
-      "saving": { "value": "80%", "label": "Lavere omkostning end en receptionist" }
+      "saving": { "value": "3 kanaler", "label": "Widget, indgående og udgående" }
     },
     "card": {
       "status": "Aktivt opkald",

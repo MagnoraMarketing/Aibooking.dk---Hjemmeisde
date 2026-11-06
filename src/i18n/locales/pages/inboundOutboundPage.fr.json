@@ -1,18 +1,18 @@
 {
   "seo": {
-    "title": "Standard Téléphonique IA & Agent Vocal IA | Aibooking.dk",
-    "description": "Standard téléphonique IA 24h/24 : l'agent vocal répond aux appels, prend les rendez-vous et garde un résumé de chaque appel pour votre équipe.",
-    "keywords": "permanence téléphonique IA, réceptionniste virtuel IA, widget pour boutique en ligne, widget IA pour Shopify, appels IA, assistant téléphonique ia, agent vocal ia, réception ia, appels entrants, appels sortants, permanence téléphonique automatisée, réceptionniste ia, voicebot, réservation par téléphone, réservation IA"
+    "title": "Réceptionniste IA : AI Voice Widget et permanence | Aibooking.dk",
+    "description": "Réceptionniste IA pour votre site et votre téléphone : AI Voice Widget, permanence téléphonique IA pour les appels entrants et appels sortants en option.",
+    "keywords": "réceptionniste IA, réceptionniste virtuelle IA, permanence téléphonique IA, standard téléphonique IA, AI voice widget, agent vocal IA, appels entrants IA, appels sortants IA"
   },
   "breadcrumb": {
     "home": "Accueil",
-    "current": "Standard téléphonique IA"
+    "current": "Réceptionniste IA"
   },
   "hero": {
-    "badge": "Inbound-Outbound AI Voice",
-    "title": "Standard téléphonique IA pour appels entrants et sortants",
-    "titleAccent": "L'IA qui répond et qui appelle",
-    "subtitle": "Une seule voix gère les deux sens : elle répond à vos appels entrants avec professionnalisme et appelle vos clients pour les confirmations, les rappels et les relances. 24h/24, sans attente.",
+    "badge": "AI Voice Widget · Entrants · Sortants",
+    "title": "Réceptionniste IA pour votre site et votre téléphone",
+    "titleAccent": "AI Voice Widget, permanence téléphonique IA et appels sortants dans une seule solution",
+    "subtitle": "Votre réceptionniste IA répond aux clients sur votre site, décroche quand votre équipe ne peut pas et, en option, appelle elle-même. Elle réserve directement dans votre agenda et réunit chaque échange dans un seul tableau de bord.",
     "cta_demo": "Réserver une démo gratuite",
     "cta_example": "Écouter un exemple",
     "cta_pricing": "Voir les tarifs",
@@ -26,8 +26,8 @@
         "label": "Soirs et week-ends compris"
       },
       "saving": {
-        "value": "80%",
-        "label": "Moins cher qu'un réceptionniste"
+        "value": "3 canaux",
+        "label": "Widget, entrants et sortants"
       }
     },
     "card": {

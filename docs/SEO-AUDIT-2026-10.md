@@ -147,3 +147,10 @@ Søgninger efter "ai telefonpasser", "ai booking system danmark", "ai receptioni
 - **Ny side /app** med rigtige skærmbilleder af kundeappen (computer og mobil, taget med en fiktiv frisørsalon), vejledning til hjemmeskærm og FAQ. Der linkes til den fra app-sektionen (`AppQrSection`, på 16 sider), footeren og /frisoer.
 
 Begge nye sider findes på alle 5 sprog (da, en, es, de, fr) og ligger i sitemap, `PAGE_PATHS` og llms.txt. Næste kandidater til branchesider, hvis GSC viser efterspørgsel: autoværksted, fysioterapeut/kiropraktor (i dag under /klinik), ejendomsmægler og restaurant.
+
+## Opdatering 6. nov. 2026: /ai-receptionist og AI-telefonpasning
+
+- **Produktsiden er flyttet** fra `/ind-og-udgaaende-opkald` til **`/ai-receptionist`** (301 med og uden `/:lang`-præfiks i `vercel.json`; alle interne links, sitemap og llms.txt er opdateret). Siden viser nu AI Voice Widget først, indgående og udgående opkald (tilkøb) lige under og derefter den samlede løsning med et ugeeksempel, plus en sammenligning med telefonsvarer og telefonpasningsservice. H1/title: "AI-receptionist" på alle sprog. Bemærk: forsidens title bruger også "AI-receptionist" — følg i Search Console, om de to sider konkurrerer, og justér forsidens title, hvis det sker.
+- **Ny sektion "AI-telefonpasning"** (`PhoneAnsweringSEO`) med egen tekst på hver side, hver blogkategori og (pr. kategori) under blogindlæg, med CTA til /ai-receptionist.
+- **Nye indlæg:** `/blog/ai-telefonpasning-uden-for-aabningstid` og `/blog/ai-telefonpasning-webshop-haandvaerker-klinik-kontor` (hub for de fire brancher, der linker videre til de eksisterende dybdeindlæg i stedet for at konkurrere med dem).
+- **Oversatte illustrationer:** `scripts/generate-illustrations.js` genererer SVG-illustrationer pr. sprog i `public/images/illustrations/`, så tekst i billeder følger det valgte sprog. Rasterbilleder med indbrændt tekst vises kun på deres eget sprog (`src/utils/localizedImages.ts`).

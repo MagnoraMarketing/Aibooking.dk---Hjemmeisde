@@ -1,18 +1,18 @@
 {
   "seo": {
-    "title": "Asistente Telefónico con IA y Agente de Voz | Aibooking.dk",
-    "description": "Atención telefónica con IA 24/7: el agente de voz responde llamadas, reserva citas y guarda un resumen de cada llamada para tu equipo.",
-    "keywords": "atención telefónica con IA, recepcionista virtual con IA, widget para tienda online, widget de IA para Shopify, llamadas con ia, asistente telefónico ia, agente de voz ia, recepción con ia, llamadas entrantes, llamadas salientes, atención telefónica automatizada, recepcionista ia, voicebot, reservas por teléfono, reservas con ia"
+    "title": "Recepcionista IA: AI Voice Widget y atención telefónica | Aibooking.dk",
+    "description": "Recepcionista IA para tu web y tu teléfono: AI Voice Widget, atención telefónica con IA para llamadas entrantes y llamadas salientes como complemento.",
+    "keywords": "recepcionista virtual con IA, recepcionista IA, atención telefónica con IA, AI voice widget, asistente telefónico con IA, llamadas entrantes IA, llamadas salientes IA"
   },
   "breadcrumb": {
     "home": "Inicio",
-    "current": "Atención telefónica con IA"
+    "current": "Recepcionista IA"
   },
   "hero": {
-    "badge": "Inbound-Outbound AI Voice",
-    "title": "Atención telefónica con IA para llamadas entrantes y salientes",
-    "titleAccent": "La IA que atiende y también llama",
-    "subtitle": "Una sola voz gestiona las dos direcciones: atiende tus llamadas entrantes con profesionalidad y llama a tus clientes con confirmaciones, recordatorios y seguimiento. Las 24 horas, sin esperas.",
+    "badge": "AI Voice Widget · Entrantes · Salientes",
+    "title": "Recepcionista IA para tu web y tu teléfono",
+    "titleAccent": "AI Voice Widget, atención telefónica con IA y llamadas salientes en una sola solución",
+    "subtitle": "Tu recepcionista IA atiende a los clientes en tu web, coge el teléfono cuando tu equipo no puede y, como complemento, llama ella misma. Reserva directamente en tu agenda y guarda cada conversación en un único panel.",
     "cta_demo": "Reservar demo gratuita",
     "cta_example": "Escuchar un ejemplo",
     "cta_pricing": "Ver precios",
@@ -26,8 +26,8 @@
         "label": "También tardes y fines de semana"
       },
       "saving": {
-        "value": "80%",
-        "label": "Menos coste que un recepcionista"
+        "value": "3 canales",
+        "label": "Widget, entrantes y salientes"
       }
     },
     "card": {

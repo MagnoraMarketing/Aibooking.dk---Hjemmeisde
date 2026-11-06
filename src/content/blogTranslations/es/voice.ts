@@ -35,7 +35,7 @@ export const voiceEs: BlogTranslations = {
       <p>Primero, los grandes modelos multilingües han mejorado claramente en danés porque se entrenan con mucho más audio. Segundo, Dinamarca cuenta ahora con recursos abiertos: el <strong>proyecto CoRal</strong>, dirigido por el Alexandra Institute y financiado por Innovation Fund Denmark, ha recopilado cientos de horas de habla danesa de más de mil personas de todas las edades y de todo el país, tanto lectura en voz alta como conversación, y ha publicado un modelo danés de reconocimiento de voz y un conjunto de datos para síntesis de voz. Así se puede comprobar lo bien que un modelo entiende dialectos, personas mayores y jóvenes.</p>
       <p>En síntesis de voz ya hay voces danesas de sonido natural de varios proveedores. Las diferencias están sobre todo en la pronunciación de nombres, números, direcciones y anglicismos. Más información en <a href="/blog/ai-telefonassistent-dansk-sprog">reconocimiento de voz y voces de IA</a>.</p>
 
-      <div class="blog-cta"><strong>Escucha un agente de voz con IA en tus propias llamadas</strong><p>Crea una cuenta gratuita, desvía tu número y pruébalo 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/ind-og-udgaaende-opkald">Ver atención telefónica con IA</a></div></div>
+      <div class="blog-cta"><strong>Escucha un agente de voz con IA en tus propias llamadas</strong><p>Crea una cuenta gratuita, desvía tu número y pruébalo 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/ai-receptionist">Ver atención telefónica con IA</a></div></div>
 
       <h2 id="agenter">4. Agentes de IA que realizan acciones</h2>
       <p>La mayor diferencia entre un chatbot y un <strong>agente de IA</strong> es que el agente puede hacer algo: consultar un hueco libre, crear una reserva, enviar un SMS o recuperar el estado de un pedido. Esto ocurre mediante «function calling» o «herramientas», en las que el modelo de lenguaje decide llamar a una función definida por el proveedor y recibe el resultado.</p>
@@ -118,7 +118,7 @@ export const voiceEs: BlogTranslations = {
         <li><strong>Barge-in</strong>: ¿se calla cuando quien llama le interrumpe?</li>
       </ul>
       <p>Un pequeño truco: los buenos agentes dicen «un momento, estoy mirando el calendario» mientras hacen una consulta, igual que haría una persona.</p>
-      <div class="blog-cta"><strong>Escucha un agente de voz con IA en tus propias llamadas</strong><p>Crea una cuenta gratuita, desvía tu número y pruébalo 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/ind-og-udgaaende-opkald">Ver atención telefónica con IA</a></div></div>
+      <div class="blog-cta"><strong>Escucha un agente de voz con IA en tus propias llamadas</strong><p>Crea una cuenta gratuita, desvía tu número y pruébalo 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/ai-receptionist">Ver atención telefónica con IA</a></div></div>
       <h2>Entrantes y salientes</h2>
       <p>Un agente de voz puede tanto recibir llamadas (entrantes) como llamar (salientes), por ejemplo con recordatorios el día antes de una cita o para hacer seguimiento de un presupuesto. Las reglas para cada caso son distintas; lee <a href="/blog/inbound-outbound-forskel">llamadas entrantes y salientes con IA</a>.</p>
       <h2>¿Qué puede salir mal?</h2>
@@ -160,7 +160,7 @@ export const voiceEs: BlogTranslations = {
         <li><strong>Varias personas hablando a la vez</strong>, o mucho ruido de fondo.</li>
       </ul>
       <p>La solución no es un modelo perfecto, sino una buena técnica de conversación: la IA repite el nombre, el teléfono y la dirección y pide a quien llama que los confirme antes de guardarlos. Una buena recepcionista hace lo mismo.</p>
-      <div class="blog-cta"><strong>Escucha un agente de voz con IA en tus propias llamadas</strong><p>Crea una cuenta gratuita, desvía tu número y pruébalo 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/ind-og-udgaaende-opkald">Ver atención telefónica con IA</a></div></div>
+      <div class="blog-cta"><strong>Escucha un agente de voz con IA en tus propias llamadas</strong><p>Crea una cuenta gratuita, desvía tu número y pruébalo 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/ai-receptionist">Ver atención telefónica con IA</a></div></div>
       <h2>Cómo probar una voz de IA en español</h2>
       <ol>
         <li><strong>Llama desde un teléfono real</strong>, no solo en el navegador.</li>
@@ -194,13 +194,13 @@ export const voiceEs: BlogTranslations = {
       <p>Una recepción que solo toma mensajes no vale mucho. Debe preguntar justo lo que tu empresa necesita: a un profesional de oficios, la dirección, el tipo de trabajo y la urgencia; en una clínica, si quien llama es paciente nuevo o habitual.</p>
       <h2>4. ¿Termina la conversación con una acción?</h2>
       <p>La señal de calidad más fuerte es que la llamada termine con algo concreto: una cita en el calendario, una confirmación por SMS o un mensaje con una devolución de llamada acordada. Esa es la diferencia entre un recepcionista con IA y un <a href="/blog/ai-receptionist-vs-telefonpasning">buzón de voz</a>.</p>
-      <div class="blog-cta"><strong>Escucha un agente de voz con IA en tus propias llamadas</strong><p>Crea una cuenta gratuita, desvía tu número y pruébalo 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/ind-og-udgaaende-opkald">Ver atención telefónica con IA</a></div></div>
+      <div class="blog-cta"><strong>Escucha un agente de voz con IA en tus propias llamadas</strong><p>Crea una cuenta gratuita, desvía tu número y pruébalo 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/ai-receptionist">Ver atención telefónica con IA</a></div></div>
       <h2>5. ¿Sabe cuándo transferir?</h2>
       <p>Las llamadas urgentes o complicadas deben transferirse a una persona con contexto, para que quien llama no tenga que empezar de cero. Consulta <a href="/blog/ai-receptionist-viderestilling-til-menneske">cuándo debe transferirse una llamada</a>.</p>
       <h2>6. ¿Es honesto sobre ser una IA?</h2>
       <p>Un buen recepcionista con IA se presenta como asistente digital. No es solo cortesía: según el Reglamento de IA de la UE, las personas deben saber que hablan con una IA. Los clientes que lo saben desde el principio también tienen más paciencia si les pide que repitan algo.</p>
       <h2>Pruébalo tú mismo, con tu propia empresa</h2>
-      <p>Una grabación muestra la voz, pero no cómo gestiona a <em>tus</em> clientes. Llama a nuestra línea de demostración, o empieza una prueba gratuita en la que la IA aprende tus servicios, y llama tú mismo con las preguntas que suelen hacer tus clientes. En la <a href="/ind-og-udgaaende-opkald">página de llamadas entrantes y salientes</a> también puedes leer palabra por palabra dos conversaciones completas: una llamada entrante a un fontanero y una llamada saliente de recordatorio para una clínica.</p>`,
+      <p>Una grabación muestra la voz, pero no cómo gestiona a <em>tus</em> clientes. Llama a nuestra línea de demostración, o empieza una prueba gratuita en la que la IA aprende tus servicios, y llama tú mismo con las preguntas que suelen hacer tus clientes. En la <a href="/ai-receptionist">página de llamadas entrantes y salientes</a> también puedes leer palabra por palabra dos conversaciones completas: una llamada entrante a un fontanero y una llamada saliente de recordatorio para una clínica.</p>`,
     faq: [
       { question: `¿Puedo elegir yo la voz y el saludo?`, answer: `Sí. Escribes tú mismo el saludo y el tono, y apruebas el texto antes de que la IA empiece a funcionar.` },
     ],
@@ -236,7 +236,7 @@ export const voiceEs: BlogTranslations = {
         <li>El resto se transfiere o se convierte en un mensaje estructurado.</li>
         <li>El cliente recibe una confirmación por SMS y tú, un resumen en el panel.</li>
       </ol>
-      <div class="blog-cta"><strong>Escucha un agente de voz con IA en tus propias llamadas</strong><p>Crea una cuenta gratuita, desvía tu número y pruébalo 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/ind-og-udgaaende-opkald">Ver atención telefónica con IA</a></div></div>
+      <div class="blog-cta"><strong>Escucha un agente de voz con IA en tus propias llamadas</strong><p>Crea una cuenta gratuita, desvía tu número y pruébalo 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/ai-receptionist">Ver atención telefónica con IA</a></div></div>
       <h2>Más que un buzón de voz</h2>
       <p>La diferencia entre el buzón de voz y la IA para llamadas entrantes es que el asunto se resuelve mientras el cliente sigue al teléfono. Nadie tiene que devolver la llamada para acordar una hora, y ningún cliente cuelga por pereza de dejar un mensaje. Consulta la comparación completa en <a href="/blog/ai-receptionist-vs-telefonpasning">recepcionista con IA vs. atención telefónica y buzón de voz</a>.</p>
       <h2>¿Cómo se mide el efecto?</h2>
@@ -278,10 +278,10 @@ export const voiceEs: BlogTranslations = {
         <li><strong>Horario:</strong> llama a las horas a las que llamarías tú, no a las 21:00 de un domingo.</li>
       </ul>
       <p>La línea entre servicio y marketing puede ser difusa, por ejemplo con «¿quiere reservar ya su próxima cita?». Si tienes dudas, pide que lo valore un experto. Este artículo no es asesoramiento jurídico.</p>
-      <div class="blog-cta"><strong>Escucha un agente de voz con IA en tus propias llamadas</strong><p>Crea una cuenta gratuita, desvía tu número y pruébalo 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/ind-og-udgaaende-opkald">Ver atención telefónica con IA</a></div></div>
+      <div class="blog-cta"><strong>Escucha un agente de voz con IA en tus propias llamadas</strong><p>Crea una cuenta gratuita, desvía tu número y pruébalo 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/ai-receptionist">Ver atención telefónica con IA</a></div></div>
       <h2>¿Por dónde empezar?</h2>
       <p>La mayoría empieza por las llamadas entrantes, porque resuelven un problema urgente (las llamadas perdidas) y no requieren procesos nuevos. Cuando la IA lleva un par de semanas funcionando, los recordatorios el día antes son el siguiente paso natural: ahí es donde bajan las ausencias. Lee <a href="/blog/outbound-ai-opkald-paamindelser">llamadas de recordatorio automáticas</a> e <a href="/blog/ai-indgaaende-opkald">IA para llamadas entrantes</a>.</p>
-      <p>En Aibooking.dk todos los planes incluyen llamadas entrantes y salientes. Consulta <a href="/ind-og-udgaaende-opkald">llamadas entrantes y salientes</a> para ver dos conversaciones de ejemplo completas.</p>`,
+      <p>En Aibooking.dk todos los planes incluyen llamadas entrantes y salientes. Consulta <a href="/ai-receptionist">llamadas entrantes y salientes</a> para ver dos conversaciones de ejemplo completas.</p>`,
     faq: [
       { question: `¿Puede una IA llamar a los clientes?`, answer: `Sí, para servicios como recordatorios y confirmaciones de citas. Si se usa un sistema de llamada automática para marketing directo, la normativa europea y, en España, la Ley General de Telecomunicaciones exigen consentimiento previo.` },
     ],
@@ -304,10 +304,10 @@ export const voiceEs: BlogTranslations = {
         <li>El hueco libre se puede ofrecer al siguiente cliente de la lista de espera.</li>
         <li>Si el cliente no contesta: un SMS con la opción de devolver la llamada, u otro intento más tarde.</li>
       </ol>
-      <p>Puedes leer la conversación completa palabra por palabra en la <a href="/ind-og-udgaaende-opkald">página de llamadas entrantes y salientes</a>.</p>
+      <p>Puedes leer la conversación completa palabra por palabra en la <a href="/ai-receptionist">página de llamadas entrantes y salientes</a>.</p>
       <h2>Clínicas: donde más cuestan las ausencias</h2>
       <p>Para dentistas, fisioterapeutas y quiroprácticos, un hueco de tratamiento vacío es pura pérdida de ingresos, porque el personal está igualmente. Aquí es donde más compensan las llamadas de recordatorio, sobre todo con pacientes nuevos, tratamientos largos y citas reservadas con mucha antelación. Combínalas con <a href="/blog/totalloesning-klinik">las reservas con IA para clínicas</a> para que tanto las reservas como los recordatorios sean automáticos. Recuerda que la llamada no debe mencionar información de salud: «su cita con nosotros mañana» es suficiente.</p>
-      <div class="blog-cta"><strong>Escucha un agente de voz con IA en tus propias llamadas</strong><p>Crea una cuenta gratuita, desvía tu número y pruébalo 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/ind-og-udgaaende-opkald">Ver atención telefónica con IA</a></div></div>
+      <div class="blog-cta"><strong>Escucha un agente de voz con IA en tus propias llamadas</strong><p>Crea una cuenta gratuita, desvía tu número y pruébalo 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/ai-receptionist">Ver atención telefónica con IA</a></div></div>
       <h2>Profesionales de oficios: evita desplazamientos en balde</h2>
       <p>Para un profesional de oficios, la ausencia es un cliente que no está en casa. Una llamada de confirmación el día antes («vamos mañana entre las 8 y las 10, ¿habrá alguien en casa?») ahorra un desplazamiento en balde y permite recoger a la vez los datos de acceso. Consulta <a href="/blog/ai-telefonassistent-haandvaerker">IA para profesionales de oficios</a>.</p>
       <h2>Buenas reglas para los recordatorios</h2>
@@ -344,7 +344,7 @@ export const voiceEs: BlogTranslations = {
       <h2>3. El Reglamento de IA: decir que es una IA</h2>
       <p>El Reglamento de IA de la UE (Reglamento 2024/1689) contiene en su artículo 50 obligaciones de transparencia que se aplican desde el <strong>2 de agosto de 2026</strong>: los sistemas de IA que interactúan directamente con personas deben diseñarse de forma que estas sepan que están interactuando con un sistema de IA, salvo que sea evidente. Un recepcionista con IA o un chatbot no es IA de alto riesgo, pero está sujeto a esta obligación. El «ómnibus digital» de la UE del verano de 2026 aplazó las normas para la IA de alto riesgo, pero, según los análisis jurídicos, no esta obligación.</p>
       <p>En la práctica: el saludo debe decir algo como «Está hablando con el asistente digital de [empresa]». Es también lo que mejor acogen los clientes.</p>
-      <div class="blog-cta"><strong>Escucha un agente de voz con IA en tus propias llamadas</strong><p>Crea una cuenta gratuita, desvía tu número y pruébalo 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/ind-og-udgaaende-opkald">Ver atención telefónica con IA</a></div></div>
+      <div class="blog-cta"><strong>Escucha un agente de voz con IA en tus propias llamadas</strong><p>Crea una cuenta gratuita, desvía tu número y pruébalo 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/ai-receptionist">Ver atención telefónica con IA</a></div></div>
       <h2>4. Llamadas salientes y marketing</h2>
       <p>Si la IA llama, se aplica además la normativa de comunicaciones comerciales; en España, la Ley General de Telecomunicaciones. Las llamadas automatizadas de marketing directo requieren consentimiento previo. Los recordatorios de citas reservadas son servicio. Consulta <a href="/blog/inbound-outbound-forskel">las normas para las llamadas salientes con IA</a>.</p>
       <h2>Preguntas para tu proveedor</h2>

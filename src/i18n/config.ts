@@ -143,6 +143,11 @@ import shopifyPageEn from './locales/pages/shopifyPage.en.json';
 import shopifyPageEs from './locales/pages/shopifyPage.es.json';
 import shopifyPageDe from './locales/pages/shopifyPage.de.json';
 import shopifyPageFr from './locales/pages/shopifyPage.fr.json';
+import aiReceptionistPageDa from './locales/pages/aiReceptionistPage.da.json';
+import aiReceptionistPageEn from './locales/pages/aiReceptionistPage.en.json';
+import aiReceptionistPageEs from './locales/pages/aiReceptionistPage.es.json';
+import aiReceptionistPageDe from './locales/pages/aiReceptionistPage.de.json';
+import aiReceptionistPageFr from './locales/pages/aiReceptionistPage.fr.json';
 import restaurantPageDa from './locales/pages/restaurantPage.da.json';
 import restaurantPageEn from './locales/pages/restaurantPage.en.json';
 import restaurantPageEs from './locales/pages/restaurantPage.es.json';
@@ -196,7 +201,7 @@ const PAGE_NAMESPACES = [
   'healthcarePage', 'craftsmanPage', 'officePage', 'integrationsPage',
   'aboutPage', 'contactPage', 'demoPage', 'termsPage', 'privacyPage',
   'blogPage', 'blogCategoryPage', 'blogPostPage', 'trialPage',
-  'inboundOutboundPage', 'appPage', 'salonPage', 'shopifyPage', 'restaurantPage',
+  'inboundOutboundPage', 'appPage', 'salonPage', 'shopifyPage', 'restaurantPage', 'aiReceptionistPage',
 ] as const;
 
 // Namespaces for components rendered on more than one page, so the two copies
@@ -234,6 +239,7 @@ i18n
         salonPage: salonPageDa,
         shopifyPage: shopifyPageDa,
         restaurantPage: restaurantPageDa,
+        aiReceptionistPage: aiReceptionistPageDa,
         clinicDashboard: clinicDashboardDa,
         agencyDashboard: agencyDashboardDa,
         widgetCapabilitiesSEO: widgetCapabilitiesSEODa,
@@ -266,6 +272,7 @@ i18n
         salonPage: salonPageEn,
         shopifyPage: shopifyPageEn,
         restaurantPage: restaurantPageEn,
+        aiReceptionistPage: aiReceptionistPageEn,
         clinicDashboard: clinicDashboardEn,
         agencyDashboard: agencyDashboardEn,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOEn,
@@ -298,6 +305,7 @@ i18n
         salonPage: salonPageEs,
         shopifyPage: shopifyPageEs,
         restaurantPage: restaurantPageEs,
+        aiReceptionistPage: aiReceptionistPageEs,
         clinicDashboard: clinicDashboardEs,
         agencyDashboard: agencyDashboardEs,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOEs,
@@ -330,6 +338,7 @@ i18n
         salonPage: salonPageFr,
         shopifyPage: shopifyPageFr,
         restaurantPage: restaurantPageFr,
+        aiReceptionistPage: aiReceptionistPageFr,
         clinicDashboard: clinicDashboardFr,
         agencyDashboard: agencyDashboardFr,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOFr,
@@ -362,6 +371,7 @@ i18n
         salonPage: salonPageDe,
         shopifyPage: shopifyPageDe,
         restaurantPage: restaurantPageDe,
+        aiReceptionistPage: aiReceptionistPageDe,
         clinicDashboard: clinicDashboardDe,
         agencyDashboard: agencyDashboardDe,
         widgetCapabilitiesSEO: widgetCapabilitiesSEODe,

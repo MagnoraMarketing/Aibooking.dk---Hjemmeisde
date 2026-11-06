@@ -9,7 +9,7 @@ import { buildLocalizedPath } from '../utils/localePaths';
 
 const LINKS = [
   { key: 'widget', path: '/widget', icon: MessageSquare },
-  { key: 'inbound', path: '/ind-og-udgaaende-opkald', icon: PhoneCall },
+  { key: 'inbound', path: '/ai-receptionist', icon: PhoneCall },
   { key: 'webshop', path: '/webshop', icon: ShoppingBag },
   { key: 'features', path: '/funktioner', icon: LayoutGrid },
   { key: 'industries', path: '/brancher', icon: Building2 },

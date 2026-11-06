@@ -74,7 +74,7 @@ export const receptionistDe: BlogTranslations = {
         <tr><td>Professional</td><td>335 €</td><td>600 Minuten</td><td>ca. 0,56 €</td></tr>
         <tr><td>Enterprise</td><td>804 €</td><td>2.000 Minuten</td><td>ca. 0,40 €</td></tr>
       </tbody></table></div>
-      <p>Einrichtung und Onboarding sind ein <strong>optionaler</strong> Einmalkauf zum gleichen Preis wie das gewählte Paket (z. B. 134 € für Starter), inklusive einer Stunde Nachbetreuung. Sie können es auch selbst einrichten. Einzelaufgaben kosten 93 € pro Stunde für Prompting/Training und 147 € pro Stunde für Entwicklung. Die aktuellen Preise finden Sie auf der <a href="/ind-og-udgaaende-opkald#priser">Seite zum KI-Telefonservice</a>.</p>
+      <p>Einrichtung und Onboarding sind ein <strong>optionaler</strong> Einmalkauf zum gleichen Preis wie das gewählte Paket (z. B. 134 € für Starter), inklusive einer Stunde Nachbetreuung. Sie können es auch selbst einrichten. Einzelaufgaben kosten 93 € pro Stunde für Prompting/Training und 147 € pro Stunde für Entwicklung. Die aktuellen Preise finden Sie auf der <a href="/ai-receptionist#priser">Seite zum KI-Telefonservice</a>.</p>
       <h2>Wie viele Minuten brauchen Sie?</h2>
       <p>Nehmen Sie die Zahl der Anrufe, die die KI pro Monat übernehmen soll, und multiplizieren Sie sie mit der durchschnittlichen Gesprächsdauer. Eine Buchung dauert meist ein bis drei Minuten.</p>
       <ul>
@@ -295,7 +295,7 @@ export const receptionistDe: BlogTranslations = {
       <p>Lassen Sie die KI keine Festpreise für Aufträge versprechen, die man sich erst ansehen muss. Geben Sie ihr stattdessen, was Sie normalerweise sagen: Ihre Anfahrtspauschale oder Ihren Stundensatz, wovon der Preis abhängt und dass ein Angebot eine Besichtigung erfordert. Der Kunde bekommt eine ehrliche Antwort, und Sie behalten die Kontrolle über das Angebot.</p>
       <div class="blog-cta"><strong>Testen Sie einen KI-Rezeptionisten mit Ihrer eigenen Nummer</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und lassen Sie die KI 7 Tage lang echte Anrufe annehmen. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/demo">Demo buchen</a></div></div>
       <h2>Ein Anruf um 20:41 Uhr</h2>
-      <p>Auf <a href="/ind-og-udgaaende-opkald">unserer Seite zu ein- und ausgehenden Anrufen</a> sehen Sie einen kompletten Anruf bei einem Sanitärbetrieb anderthalb Stunden nach Feierabend: Die KI fragt, ob Wasser auf dem Boden steht, wählt einen normalen Termin statt eines Notdiensteinsatzes, bucht 8:30 Uhr am nächsten Morgen und schickt eine SMS. Der Anruf dauert gut eine Minute, und der Auftrag liegt für den Monteur bereit.</p>
+      <p>Auf <a href="/ai-receptionist">unserer Seite zu ein- und ausgehenden Anrufen</a> sehen Sie einen kompletten Anruf bei einem Sanitärbetrieb anderthalb Stunden nach Feierabend: Die KI fragt, ob Wasser auf dem Boden steht, wählt einen normalen Termin statt eines Notdiensteinsatzes, bucht 8:30 Uhr am nächsten Morgen und schickt eine SMS. Der Anruf dauert gut eine Minute, und der Auftrag liegt für den Monteur bereit.</p>
       <h2>Was sich im Alltag ändert</h2>
       <ul>
         <li>Sie rufen abends keine verpassten Anrufe mehr zurück.</li>
@@ -363,6 +363,7 @@ export const receptionistDe: BlogTranslations = {
         <li><strong>Sie nimmt den Rest auf.</strong> Alles, was Sie selbst brauchen – ein Angebot, eine Reklamation, eine Frage zu einem laufenden Auftrag – wird zu einer Nachricht mit Name, Nummer und kurzer Zusammenfassung.</li>
         <li><strong>Sie lesen alles am nächsten Morgen.</strong> Jeder Anruf liegt im Dashboard mit Aufzeichnung, Transkript und Zusammenfassung, sodass Sie entscheiden können, wen Sie zuerst zurückrufen.</li>
       </ol>
+      <figure class="blog-figure"><img src="/images/illustrations/call-salon-de.svg" alt="Eingehender Anruf um 20:08 Uhr im Dashboard mit Aufzeichnung, Zusammenfassung, Buchung und Transkript" width="1200" height="760" loading="lazy"><figcaption>Dienstag, 20:08 Uhr, nach Ladenschluss: Der Anruf ist beantwortet, der Termin gebucht und die Zusammenfassung liegt am nächsten Morgen bereit.</figcaption></figure>
       <h2 id="tidspunkter">Abend, Wochenende und Urlaub: drei verschiedene Bedürfnisse</h2>
       <h3>Werktagabende</h3>
       <p>Jetzt rufen die an, die tagsüber nicht telefonieren können: Patienten, die einen Termin bei der Physiotherapie wollen, Kundinnen, die einen Friseurtermin am Samstag suchen, oder Hausbesitzer, die endlich Zeit haben, einen Schreiner anzufragen. Meist geht es um Buchungen und einfache Fragen – genau das, was ein KI-Rezeptionist am besten kann.</p>
@@ -388,6 +389,7 @@ export const receptionistDe: BlogTranslations = {
         <li><strong>Laden und Onlineshop:</strong> Fast nichts ist dringend. Die KI antwortet, nimmt Nachrichten auf und sagt, wann Sie öffnen.</li>
       </ul>
       <p>Mehr dazu, <a href="/blog/ai-receptionist-viderestilling-til-menneske">wann die KI an einen Menschen übergeben sollte</a>.</p>
+      <div class="blog-cta"><strong>Eine KI-Rezeption für Website und Telefon</strong><p>Sehen Sie, wie AI Voice Widget, KI-Telefonservice und ausgehende Anrufe zusammenarbeiten – mit einem Beispiel aus einer ganzen Woche.</p><div class="blog-cta-actions"><a class="primary" href="/ai-receptionist">Zur KI-Rezeption</a><a href="/proeveperiode">7 Tage kostenlos testen</a></div></div>
       <h2 id="opsaetning">Einrichtung Schritt für Schritt</h2>
       <ol>
         <li><strong>Begrüßung schreiben</strong>: dass geschlossen ist und wobei die KI helfen kann.</li>
@@ -404,6 +406,66 @@ export const receptionistDe: BlogTranslations = {
       { question: `Kann die KI nur außerhalb der Öffnungszeiten ans Telefon gehen?`, answer: `Ja. Ihre Nummer bleibt, und Sie legen bei Ihrem Telefonanbieter fest, wann umgeleitet wird: nach Zeitplan, bei besetzt oder wenn niemand abnimmt. Während der Öffnungszeiten geht Ihr Team selbst ran.` },
       { question: `Kostet der KI-Telefonservice abends und am Wochenende mehr?`, answer: `Nein. Bei Aibooking.dk zahlen Sie die Gesprächszeit unabhängig von der Uhrzeit – ab 134 € pro Monat für 150 Minuten, ohne Zuschlag für Abende, Wochenenden oder Feiertage.` },
       { question: `Was passiert mit dringenden Anrufen nach Feierabend?`, answer: `Das legen Sie in den Anweisungen der KI fest: Weiterleitung an ein Notdiensthandy, Markierung als dringend oder Verweis auf den ärztlichen Bereitschaftsdienst (116 117) bzw. die 112. Die KI gibt nie medizinischen Rat.` },
+    ],
+  },
+  'ai-telefonpasning-webshop-haandvaerker-klinik-kontor': {
+    title: `KI-Telefonservice für Onlineshop, Handwerk, Praxis und Kanzlei`,
+    excerpt: `Ein Onlineshop, ein Sanitärbetrieb, eine Zahnarztpraxis und eine Kanzlei bekommen völlig unterschiedliche Anrufe. So richten Sie einen KI-Telefonservice für jede der vier Branchen ein – was die KI übernimmt, was bei Ihnen bleibt, und je ein Beispielanruf.`,
+    meta_title: `KI-Telefonservice: Shop, Handwerk, Praxis, Kanzlei | AIBooking.dk`,
+    meta_description: `So richten Sie einen KI-Telefonservice für Onlineshop, Handwerk, Praxis und Kanzlei ein: typische Anrufe, was die KI übernimmt und was bei Ihnen bleibt.`,
+    content: `
+      <p>Ein <strong>KI-Telefonservice</strong> ist in jeder Branche dieselbe Technik: eine KI-Rezeption, die Ihre Anrufe annimmt, auf Basis Ihrer Informationen antwortet und in Ihren Kalender bucht. <em>Was</em> sie tun soll, hängt aber ganz davon ab, wer anruft. Die Onlineshop-Kundin will wissen, wo ihr Paket ist. Der Hausbesitzer mit tropfendem Wasserhahn braucht einen Handwerker. Die Patientin möchte ihren Termin verschieben, und ein neuer Mandant möchte einen Anwalt sprechen. So richten Sie den KI-Telefonservice für die vier Branchen ein, mit denen wir am häufigsten arbeiten.</p>
+      <div class="blog-toc"><strong>In diesem Ratgeber</strong><ol><li><a href="#webshop">Telefonservice für Onlineshops</a></li><li><a href="#haandvaerker">KI-Telefonservice für Handwerksbetriebe</a></li><li><a href="#klinik">KI-Telefonservice für Praxen</a></li><li><a href="#kontor">KI-Telefonservice für Kanzleien und Büros</a></li><li><a href="#faelles">Was alle vier gemeinsam haben</a></li></ol></div>
+      <h2 id="webshop">Telefonservice für Onlineshops</h2>
+      <p>Onlineshop-Kunden rufen selten an, um zu kaufen – sie rufen an, weil etwas unklar ist: „Wo ist mein Paket?“, „Kann ich in eine andere Größe umtauschen?“, „Haben Sie das auf Lager?“. Immer dieselben Fragen, oft abends und am Wochenende, wenn der Kundenservice frei hat.</p>
+      <ul>
+        <li><strong>Die KI übernimmt:</strong> Fragen zu Lieferung, Rücksendung, Umtausch und Bezahlung anhand Ihrer eigenen Richtlinien, Produktfragen und mit Shopify auch den Bestellstatus anhand der Bestellnummer.</li>
+        <li><strong>Bleibt bei Ihnen:</strong> Reklamationen, Erstattungen und Änderungen an Bestellungen. Die KI nimmt den Fall auf und schreibt eine Zusammenfassung, damit der Kundenservice am nächsten Morgen handeln kann.</li>
+        <li><strong>Gut zu wissen:</strong> Die KI hat nur Lesezugriff auf Shopify und nennt nur Status, Versand und Zustellung – nie Namen, Adressen oder Zahlungsdaten.</li>
+      </ul>
+      <figure class="blog-figure"><img src="/images/illustrations/call-webshop-de.svg" alt="Anruf bei einem Onlineshop zum Bestellstatus: Die KI sieht die Bestellung nach und beantwortet Fragen zu Lieferung und Rückgabe" width="1200" height="760" loading="lazy"><figcaption>Sonntagvormittag: Die KI sieht Bestellung 10482 nach und beantwortet auch die Frage zum Rückgaberecht.</figcaption></figure>
+      <p>Mehr dazu in <a href="/blog/shopify-integration-ai-voice-indgaaende-opkald">Shopify und KI am Telefon</a> oder unter <a href="/webshop">KI für Onlineshops</a>.</p>
+      <h2 id="haandvaerker">KI-Telefonservice für Handwerksbetriebe</h2>
+      <p>Für Handwerker ist das Telefon die Vertriebsabteilung – aber es klingelt, wenn Sie auf der Leiter stehen oder die Hände in der Heizungsanlage haben. Der Kunde mit dem Wasserschaden ruft einfach den nächsten Betrieb auf der Liste an. Der KI-Telefonservice nimmt den Anruf an und sorgt dafür, dass Sie genau wissen, was ansteht.</p>
+      <ul>
+        <li><strong>Die KI übernimmt:</strong> fragt nach Auftrag, Adresse und Dringlichkeit, bucht Besichtigungstermine in den Kalender und beantwortet Fragen zu Einzugsgebiet, Zeiten und Preisen für Standardarbeiten.</li>
+        <li><strong>Bleibt bei Ihnen:</strong> das Angebot. Die KI nennt nie einen Preis für einen Auftrag, den sie nicht kennt, sammelt aber alle Angaben, damit Sie gut vorbereitet zurückrufen.</li>
+        <li><strong>Notfallregel:</strong> Legen Sie vorher fest, was dringend ist (Wasserschaden, Stromausfall) und ob es als dringend markiert oder an das Notdiensthandy weitergeleitet wird.</li>
+      </ul>
+      <figure class="blog-figure"><img src="/images/illustrations/phone-craftsman-de.svg" alt="Das Handy zeigt einen dringenden Auftrag, eine gebuchte Besichtigung und eine Angebotsanfrage, die die KI angenommen hat" width="1200" height="760" loading="lazy"><figcaption>7:45 Uhr: ein dringender Auftrag, eine Besichtigung im Kalender und eine Angebotsanfrage – jeweils mit Adresse und Details.</figcaption></figure>
+      <p>Zum ausführlichen Ratgeber: <a href="/blog/ai-telefonassistent-haandvaerker">KI-Telefonassistent für Handwerker</a> oder <a href="/haandvaerker">KI für Handwerksbetriebe</a>.</p>
+      <div class="blog-cta"><strong>Eine KI-Rezeption für Website und Telefon</strong><p>Sehen Sie, wie AI Voice Widget, KI-Telefonservice und ausgehende Anrufe zusammenarbeiten – mit einem Beispiel aus einer ganzen Woche.</p><div class="blog-cta-actions"><a class="primary" href="/ai-receptionist">Zur KI-Rezeption</a><a href="/proeveperiode">7 Tage kostenlos testen</a></div></div>
+      <h2 id="klinik">KI-Telefonservice für Praxen</h2>
+      <p>Zahnarzt-, Physiotherapie- und Psychotherapiepraxen haben meist eine kurze Telefonsprechstunde, in der die Leitung besetzt ist – den Rest des Tages ist das Team bei den Patienten. Der KI-Telefonservice nimmt Terminanrufe den ganzen Tag an, auch außerhalb der Telefonzeiten.</p>
+      <ul>
+        <li><strong>Die KI übernimmt:</strong> neue Termine, Verschiebungen und Absagen direkt im Kalender (nach Prüfung des Anrufers) sowie Fragen zu Preisen, Adresse, Parken und Vorbereitung.</li>
+        <li><strong>Bleibt bei Ihnen:</strong> alles Medizinische. Die KI berät nie zu Beschwerden oder Behandlungen, sondern nimmt eine Nachricht für die Behandlerin auf.</li>
+        <li><strong>Notfallregel:</strong> Bei akuten Beschwerden verweist die KI auf den ärztlichen Bereitschaftsdienst 116 117 oder die 112.</li>
+      </ul>
+      <figure class="blog-figure"><img src="/images/illustrations/bookings-clinic-de.svg" alt="Termine, Verschiebungen und Absagen der Zahnarztpraxis von Telefon und Website im Dashboard" width="1200" height="720" loading="lazy"><figcaption>Absage am Dienstag um 10:00 Uhr – und kurz darauf ist der Termin über die Website wieder vergeben.</figcaption></figure>
+      <p>Mehr dazu in <a href="/blog/totalloesning-klinik">KI-Terminbuchung für Praxen und Salons</a> oder unter <a href="/klinik">KI für Praxen</a>.</p>
+      <h2 id="kontor">KI-Telefonservice für Kanzleien und Büros</h2>
+      <p>Für Anwälte, Steuerberater, Makler und Berater ist das Telefon der erste Eindruck, und es klingelt meist, wenn alle im Termin sind. Der KI-Telefonservice nimmt Anrufe professionell entgegen, vereinbart Termine und sorgt dafür, dass die richtige Person die Nachricht bekommt.</p>
+      <ul>
+        <li><strong>Die KI übernimmt:</strong> Empfang und Sortierung von Anfragen, Erstgespräche im Kalender der zuständigen Person und praktische Fragen (Adresse, Zeiten, Fachgebiete).</li>
+        <li><strong>Bleibt bei Ihnen:</strong> jede Beratung und alles zu konkreten Mandaten. Die KI gibt nie Auskünfte über Mandanten.</li>
+        <li><strong>Sprachen:</strong> Internationale Mandanten können auf Deutsch, Englisch, Dänisch, Spanisch, Französisch oder Portugiesisch sprechen.</li>
+      </ul>
+      <figure class="blog-figure"><img src="/images/illustrations/call-office-de.svg" alt="Anruf bei einer Kanzlei: Die KI vereinbart ein Erstgespräch und notiert das Anliegen des Mandanten" width="1200" height="760" loading="lazy"><figcaption>Mittagszeit: Die KI vereinbart ein Erstgespräch und notiert, was der Mandant braucht.</figcaption></figure>
+      <p>Zum ausführlichen Ratgeber: <a href="/blog/ai-telefonassistent-kontor-administration">KI-Telefonassistent fürs Büro</a> oder <a href="/kontor">KI für Büros und Kanzleien</a>.</p>
+      <h2 id="faelles">Was alle vier gemeinsam haben</h2>
+      <div class="blog-table"><table><thead><tr><th></th><th>Onlineshop</th><th>Handwerk</th><th>Praxis</th><th>Kanzlei</th></tr></thead><tbody>
+        <tr><td>Typischer Anruf</td><td>Bestellstatus, Rücksendung</td><td>Neuer Auftrag, Notfall</td><td>Termin, Absage</td><td>Neue Anfrage, Termin</td></tr>
+        <tr><td>Die KI bucht</td><td>—</td><td>Besichtigung</td><td>Behandlung</td><td>Erstgespräch</td></tr>
+        <tr><td>Bleibt bei Ihnen</td><td>Erstattung, Reklamation</td><td>Angebot</td><td>Medizinische Fragen</td><td>Beratung</td></tr>
+        <tr><td>Wichtigste Regel</td><td>Nur Status, keine Personendaten</td><td>Notfallregel</td><td>Kein medizinischer Rat</td><td>Keine Mandatsdaten</td></tr>
+      </tbody></table></div>
+      <p>Branchenübergreifend gilt dreierlei: Die KI stellt sich als digitale Assistenz vor (das verlangt die EU-KI-Verordnung), Sie behalten Ihre Nummer und bestimmen, wann sie übernimmt, und jeder Anruf liegt danach mit Aufzeichnung, Transkript und Zusammenfassung im Dashboard. Möchten Sie Kunden auch auf der Website antworten, nutzt das AI Voice Widget dasselbe Wissen und denselben Kalender. Alles zusammen finden Sie unter <a href="/ai-receptionist">KI-Rezeption</a>, und der Preis ist für alle Branchen gleich – ab 134 € pro Monat für 150 Minuten. Lesen Sie auch <a href="/blog/ai-telefonpasning-uden-for-aabningstid">KI-Telefonservice außerhalb der Öffnungszeiten</a>.</p>
+    `,
+    faq: [
+      { question: `Unterscheidet sich ein KI-Telefonservice je nach Branche?`, answer: `Die Technik ist dieselbe, die Einrichtung nicht: welche Fragen die KI stellt, was sie buchen darf, was als dringend gilt und welche Themen sie immer Ihnen überlässt. Das legen Sie in den Anweisungen und der Wissensdatenbank der KI fest.` },
+      { question: `Kann der KI-Telefonservice Bestellungen eines Onlineshops abfragen?`, answer: `Ja, mit Shopify. Die KI fragt den Bestellstatus anhand der Bestellnummer ab und nennt Status, Versand und Zustellung. Sie hat nur Lesezugriff und gibt keine Namen, Adressen oder Zahlungsdaten heraus.` },
+      { question: `Kostet es für eine Praxis anders als für einen Handwerker?`, answer: `Nein. Der Preis richtet sich nach der Gesprächszeit, nicht nach der Branche: ab 134 € pro Monat für 150 Minuten, und Sie können 7 Tage kostenlos testen.` },
     ],
   },
 };

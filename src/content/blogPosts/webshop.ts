@@ -68,8 +68,8 @@ export const webshopPosts: BlogPost[] = [
       <h2 id="website">AI reception on your website</h2>
       <p>The AI voice widget works as a receptionist on your website: it greets visitors, helps them find the right product, answers delivery and return questions and can book appointments. It works on Shopify, WooCommerce and Magento. Read more in <a href="/blog/shopify-ai-automatisering">Shopify AI: setup and automation</a>.</p>
       <h2 id="inbound">AI for inbound calls in your webshop</h2>
-      <p>Many webshop customers still pick up the phone. With AI for inbound calls, the AI answers with the same Shopify knowledge as the widget, so the answer is the same whether the customer writes or calls. You choose which calls it takes — all, only outside opening hours, or only when the line is busy. See <a href="/ind-og-udgaaende-opkald">AI inbound and outbound calls</a>.</p>
-      <div class="blog-cta"><strong>Answer every call — even at 11 pm</strong><p>Keep your number. We set up forwarding for you.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Try free for 7 days</a><a href="/ind-og-udgaaende-opkald">See AI phone answering</a></div></div>
+      <p>Many webshop customers still pick up the phone. With AI for inbound calls, the AI answers with the same Shopify knowledge as the widget, so the answer is the same whether the customer writes or calls. You choose which calls it takes — all, only outside opening hours, or only when the line is busy. See <a href="/ai-receptionist">AI inbound and outbound calls</a>.</p>
+      <div class="blog-cta"><strong>Answer every call — even at 11 pm</strong><p>Keep your number. We set up forwarding for you.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Try free for 7 days</a><a href="/ai-receptionist">See AI phone answering</a></div></div>
       <h2 id="compare">Before vs. after</h2>
       <div class="blog-table"><table>
         <thead><tr><th>Situation</th><th>Without AI</th><th>With Aibooking.dk + Shopify</th></tr></thead>
@@ -168,8 +168,8 @@ export const webshopPosts: BlogPost[] = [
         <li><strong>Du beholder dit nummer:</strong> vi sætter viderestilling op.</li>
         <li><strong>Referat af hvert opkald:</strong> optagelse, transskription og opsummering i dashboardet.</li>
       </ul>
-      <p>Se hvordan det virker på <a href="/ind-og-udgaaende-opkald">AI til ind- og udgående opkald</a>, og læs <a href="/blog/ai-indgaaende-opkald">guiden til AI til indgående opkald</a>.</p>
-      <div class="blog-cta"><strong>Besvar hvert opkald — også kl. 23</strong><p>Behold dit nummer. Vi sætter viderestillingen op for dig.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prøv gratis i 7 dage</a><a href="/ind-og-udgaaende-opkald">Se AI-telefonpasning</a></div></div>
+      <p>Se hvordan det virker på <a href="/ai-receptionist">AI til ind- og udgående opkald</a>, og læs <a href="/blog/ai-indgaaende-opkald">guiden til AI til indgående opkald</a>.</p>
+      <div class="blog-cta"><strong>Besvar hvert opkald — også kl. 23</strong><p>Behold dit nummer. Vi sætter viderestillingen op for dig.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prøv gratis i 7 dage</a><a href="/ai-receptionist">Se AI-telefonpasning</a></div></div>
       <h2 id="foer-efter">Før og efter: uden og med AI</h2>
       <div class="blog-table"><table>
         <thead><tr><th>Situation</th><th>Uden AI</th><th>Med Aibooking.dk + Shopify</th></tr></thead>

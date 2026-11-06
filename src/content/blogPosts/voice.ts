@@ -5,8 +5,8 @@ import type { BlogPost } from '../blog';
 
 const UPDATED = '2026-10-16';
 
-const CTA_TRIAL_DA = `<div class="blog-cta"><strong>Hør en dansk AI voice agent på dine egne opkald</strong><p>Opret en gratis konto, viderestil dit nummer, og test i 7 dage. Intet betalingskort.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prøv gratis i 7 dage</a><a href="/ind-og-udgaaende-opkald">Se AI-telefonpasning</a></div></div>`;
-const CTA_TRIAL_EN = `<div class="blog-cta"><strong>Hear a Danish AI voice agent on your own calls</strong><p>Create a free account, forward your number and test for 7 days. No credit card.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Try free for 7 days</a><a href="/ind-og-udgaaende-opkald">See AI phone answering</a></div></div>`;
+const CTA_TRIAL_DA = `<div class="blog-cta"><strong>Hør en dansk AI voice agent på dine egne opkald</strong><p>Opret en gratis konto, viderestil dit nummer, og test i 7 dage. Intet betalingskort.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prøv gratis i 7 dage</a><a href="/ai-receptionist">Se AI-telefonpasning</a></div></div>`;
+const CTA_TRIAL_EN = `<div class="blog-cta"><strong>Hear a Danish AI voice agent on your own calls</strong><p>Create a free account, forward your number and test for 7 days. No credit card.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Try free for 7 days</a><a href="/ai-receptionist">See AI phone answering</a></div></div>`;
 
 const SRC_AI_ACT = { title: 'Forordning (EU) 2024/1689 om kunstig intelligens (AI-forordningen)', publisher: 'EUR-Lex', url: 'https://eur-lex.europa.eu/eli/reg/2024/1689/oj', date: '2024-07-12' };
 const SRC_STIVERS = { title: 'Universals and cultural variation in turn-taking in conversation (Stivers m.fl.)', publisher: 'PNAS', url: 'https://doi.org/10.1073/pnas.0903616106', date: '2009-06-30' };
@@ -458,7 +458,7 @@ export const voicePosts: BlogPost[] = [
       <h2>6. Er den ærlig om, at den er en AI?</h2>
       <p>En god AI-receptionist præsenterer sig som en digital assistent. Det er ikke kun pænt; efter EU's AI-forordning skal folk vide, at de taler med en AI. Kunder, der ved det fra start, er også mere tålmodige, hvis den beder dem gentage noget.</p>
       <h2>Prøv selv — med din egen virksomhed</h2>
-      <p>En optagelse viser stemmen, men ikke hvordan den håndterer <em>dine</em> kunder. Ring til vores demolinje, eller opret en gratis prøveperiode, hvor AI'en lærer dine ydelser, og ring selv ind med de spørgsmål, dine kunder plejer at stille. På <a href="/ind-og-udgaaende-opkald">siden om ind- og udgående opkald</a> kan du også læse to komplette samtaleforløb ord for ord — et indgående opkald til en VVS'er og et udgående påmindelsesopkald for en klinik.</p>
+      <p>En optagelse viser stemmen, men ikke hvordan den håndterer <em>dine</em> kunder. Ring til vores demolinje, eller opret en gratis prøveperiode, hvor AI'en lærer dine ydelser, og ring selv ind med de spørgsmål, dine kunder plejer at stille. På <a href="/ai-receptionist">siden om ind- og udgående opkald</a> kan du også læse to komplette samtaleforløb ord for ord — et indgående opkald til en VVS'er og et udgående påmindelsesopkald for en klinik.</p>
     `,
     content_en: `
       <p>Many business owners have bad experiences with automated phone systems: "press 1 for…", robotic voices and systems that don't understand a word. A modern AI receptionist is something else — but quality varies a lot between solutions. The best test is simple: listen.</p>
@@ -477,7 +477,7 @@ export const voicePosts: BlogPost[] = [
       <h2>6. Is it honest about being an AI?</h2>
       <p>A good AI receptionist introduces itself as a digital assistant. That is not just polite; under the EU AI Act people must know they are talking to an AI. Customers who know from the start are also more patient if it asks them to repeat something.</p>
       <h2>Try it yourself — with your own business</h2>
-      <p>A recording shows the voice, but not how it handles <em>your</em> customers. Call our demo line, or start a free trial where the AI learns your services, and call in yourself with the questions your customers usually ask. On the <a href="/ind-og-udgaaende-opkald">inbound and outbound calls page</a> you can also read two complete conversations word for word — an inbound call to a plumber and an outbound reminder call for a clinic.</p>
+      <p>A recording shows the voice, but not how it handles <em>your</em> customers. Call our demo line, or start a free trial where the AI learns your services, and call in yourself with the questions your customers usually ask. On the <a href="/ai-receptionist">inbound and outbound calls page</a> you can also read two complete conversations word for word — an inbound call to a plumber and an outbound reminder call for a clinic.</p>
     `,
     meta_title_en: 'What Does a Danish AI Receptionist Sound Like? | AIBooking.dk',
     meta_title_da: 'Hvordan lyder en dansk AI-receptionist? Lyt med | AIBooking.dk',
@@ -640,7 +640,7 @@ export const voicePosts: BlogPost[] = [
       ${CTA_TRIAL_DA}
       <h2>Hvor skal du starte?</h2>
       <p>De fleste starter med indgående opkald, fordi det løser et akut problem (ubesvarede opkald) og ikke kræver nye processer. Når AI'en har kørt et par uger, er påmindelser dagen før det naturlige næste skridt — det er der, udeblivelserne falder. Læs <a href="/blog/outbound-ai-opkald-paamindelser">automatiske påmindelsesopkald</a> og <a href="/blog/ai-indgaaende-opkald">AI til indgående opkald</a>.</p>
-      <p>Hos Aibooking.dk indeholder alle pakker både indgående og udgående opkald. Se <a href="/ind-og-udgaaende-opkald">ind- og udgående opkald</a> for to komplette eksempler på samtaler.</p>
+      <p>Hos Aibooking.dk indeholder alle pakker både indgående og udgående opkald. Se <a href="/ai-receptionist">ind- og udgående opkald</a> for to komplette eksempler på samtaler.</p>
     `,
     content_en: `
       <p>An AI phone assistant can work in two directions. <strong>Inbound</strong> means the customer calls you and the AI answers. <strong>Outbound</strong> means the AI calls the customer — with a reminder, a confirmation or a follow-up. Same voice, same number, but different purposes and different rules.</p>
@@ -666,7 +666,7 @@ export const voicePosts: BlogPost[] = [
       ${CTA_TRIAL_EN}
       <h2>Where should you start?</h2>
       <p>Most start with inbound calls, because it solves an acute problem (missed calls) and needs no new processes. Once the AI has run for a couple of weeks, reminders the day before are the natural next step — that is where no-shows drop. Read <a href="/blog/outbound-ai-opkald-paamindelser">automatic reminder calls</a> and <a href="/blog/ai-indgaaende-opkald">AI for inbound calls</a>.</p>
-      <p>At Aibooking.dk every plan includes both inbound and outbound calls. See <a href="/ind-og-udgaaende-opkald">inbound and outbound calls</a> for two complete example conversations.</p>
+      <p>At Aibooking.dk every plan includes both inbound and outbound calls. See <a href="/ai-receptionist">inbound and outbound calls</a> for two complete example conversations.</p>
     `,
     meta_title_en: 'Inbound vs. Outbound AI Calls: Difference & Rules | AIBooking.dk',
     meta_title_da: 'Indgående og udgående AI-opkald: forskel og regler | AIBooking.dk',
@@ -712,7 +712,7 @@ export const voicePosts: BlogPost[] = [
         <li>Den ledige tid kan tilbydes til næste kunde på ventelisten.</li>
         <li>Svarer kunden ikke: en SMS med mulighed for at ringe tilbage, eller et nyt forsøg senere.</li>
       </ol>
-      <p>Du kan læse hele samtalen ord for ord på <a href="/ind-og-udgaaende-opkald">siden om ind- og udgående opkald</a>.</p>
+      <p>Du kan læse hele samtalen ord for ord på <a href="/ai-receptionist">siden om ind- og udgående opkald</a>.</p>
       <h2>Klinikker: hvor udeblivelserne koster mest</h2>
       <p>For tandlæger, fysioterapeuter og kiropraktorer er en tom behandlingstid ren tabt omsætning, fordi personalet er der alligevel. Her giver påmindelsesopkald mest — især for nye patienter, lange behandlinger og tider booket langt frem. Kombiner med <a href="/blog/totalloesning-klinik">AI-booking til klinikker</a>, så både booking og påmindelse sker automatisk. Husk, at opkaldet ikke skal nævne helbredsoplysninger — "din tid hos os i morgen" er nok.</p>
       ${CTA_TRIAL_DA}
@@ -740,7 +740,7 @@ export const voicePosts: BlogPost[] = [
         <li>The free slot can be offered to the next customer on the waiting list.</li>
         <li>If the customer doesn't answer: a text with the option to call back, or another attempt later.</li>
       </ol>
-      <p>You can read the full conversation word for word on the <a href="/ind-og-udgaaende-opkald">inbound and outbound calls page</a>.</p>
+      <p>You can read the full conversation word for word on the <a href="/ai-receptionist">inbound and outbound calls page</a>.</p>
       <h2>Clinics: where no-shows cost the most</h2>
       <p>For dentists, physiotherapists and chiropractors an empty treatment slot is pure lost revenue, because the staff are there anyway. Reminder calls pay off most here — especially for new patients, long treatments and appointments booked far ahead. Combine with <a href="/blog/totalloesning-klinik">AI booking for clinics</a> so both booking and reminders happen automatically. Remember that the call should not mention health information — "your appointment with us tomorrow" is enough.</p>
       ${CTA_TRIAL_EN}

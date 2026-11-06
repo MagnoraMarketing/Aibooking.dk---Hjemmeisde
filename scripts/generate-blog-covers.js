@@ -131,6 +131,7 @@ const SLUG_TOPICS = {
   'ai-i-danmark': 'nodes',
   'ai-telefonpasning-dansk-ai-receptionist': 'phone',
   'ai-telefonpasning-uden-for-aabningstid': 'clock',
+  'ai-telefonpasning-webshop-haandvaerker-klinik-kontor': 'briefcase',
   'widget-til-webshop': 'package',
   'shopify-integration-ai-voice-indgaaende-opkald': 'phone',
   'hvad-koster-en-ai-receptionist': 'chart',

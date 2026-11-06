@@ -10,6 +10,7 @@ import { featuresFAQs } from '../content/faq';
 import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
 import type { SupportedLanguage } from '../i18n/config';
+import { voiceWidgetImage, websiteWidgetImage } from '../utils/localizedImages';
 import { localizedUrl } from '../utils/localePaths';
 import { createBreadcrumbSchema } from '../utils/structuredData';
 import PageLink from '../components/PageLink';
@@ -36,6 +37,8 @@ interface StatItem { value: string; label: string }
 function FeaturesPage({ onNavigate }: FeaturesPageProps) {
   const { t, i18n } = useTranslation('featuresPage');
   const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
+  const websiteImage = websiteWidgetImage(lang);
+  const voiceImage = voiceWidgetImage(lang);
 
   const breadcrumbData = createBreadcrumbSchema([
     { name: t('breadcrumb.home'), url: localizedUrl(lang, '/') },
@@ -369,8 +372,10 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
             <div className="relative">
               <div className="rounded-3xl overflow-hidden shadow-2xl border border-ink-200">
                 <img
-                  src="/ai-widget-website.webp"
-                  alt="AI Chat Widget integreret på hjemmeside - Aibooking.dk"
+                  src={websiteImage.src}
+                  alt={websiteImage.alt}
+                  width={websiteImage.width}
+                  height={websiteImage.height}
                   className="w-full h-auto"
                 />
               </div>
@@ -431,8 +436,10 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
             <div className="lg:order-2 relative">
               <div className="rounded-3xl overflow-hidden shadow-2xl border border-ink-200">
                 <img
-                  src="/ai-voice-widget.webp"
-                  alt="AI Voice Widget til hjemmeside - Aibooking.dk"
+                  src={voiceImage.src}
+                  alt={voiceImage.alt}
+                  width={voiceImage.width}
+                  height={voiceImage.height}
                   className="w-full h-auto"
                 />
               </div>

@@ -74,7 +74,7 @@ export const receptionistFr: BlogTranslations = {
         <tr><td>Professional</td><td>335 €</td><td>600 minutes</td><td>env. 0,56 €</td></tr>
         <tr><td>Enterprise</td><td>804 €</td><td>2 000 minutes</td><td>env. 0,40 €</td></tr>
       </tbody></table></div>
-      <p>La mise en place et l’onboarding sont un achat unique <strong>facultatif</strong> au même prix que la formule choisie (par exemple 134 € pour Starter), avec une heure de suivi incluse. Vous pouvez aussi tout configurer vous-même. Les travaux ponctuels coûtent 93 € de l’heure pour le prompting/l’entraînement et 147 € de l’heure pour le développement. Consultez les tarifs à jour sur la <a href="/ind-og-udgaaende-opkald#priser">page de la permanence téléphonique IA</a>.</p>
+      <p>La mise en place et l’onboarding sont un achat unique <strong>facultatif</strong> au même prix que la formule choisie (par exemple 134 € pour Starter), avec une heure de suivi incluse. Vous pouvez aussi tout configurer vous-même. Les travaux ponctuels coûtent 93 € de l’heure pour le prompting/l’entraînement et 147 € de l’heure pour le développement. Consultez les tarifs à jour sur la <a href="/ai-receptionist#priser">page de la permanence téléphonique IA</a>.</p>
       <h2>De combien de minutes avez-vous besoin ?</h2>
       <p>Prenez le nombre d’appels que l’IA doit traiter par mois et multipliez-le par la durée moyenne d’un appel. Une réservation prend généralement une à trois minutes.</p>
       <ul>
@@ -295,7 +295,7 @@ export const receptionistFr: BlogTranslations = {
       <p>Ne laissez pas l’IA promettre des prix fermes pour des travaux qu’il faut d’abord voir. Donnez-lui plutôt ce que vous dites d’habitude : vos frais de déplacement ou votre taux horaire, ce dont dépend le prix et le fait qu’un devis nécessite une visite. Le client obtient une réponse honnête et vous gardez la main sur le devis.</p>
       <div class="blog-cta"><strong>Essayez un réceptionniste IA sur votre propre numéro</strong><p>Créez un compte gratuit, renvoyez votre numéro et laissez l’IA prendre de vrais appels pendant 7 jours. Sans carte bancaire.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Essayez gratuitement 7 jours</a><a href="/demo">Réserver une démo</a></div></div>
       <h2>Un appel à 20 h 41</h2>
-      <p>Sur <a href="/ind-og-udgaaende-opkald">notre page sur les appels entrants et sortants</a>, vous pouvez voir un appel complet à une entreprise de plomberie une heure et demie après la fermeture : l’IA demande s’il y a de l’eau au sol, choisit un rendez-vous normal plutôt qu’une intervention d’urgence, réserve 8 h 30 le lendemain matin et envoie un SMS. L’appel dure à peine plus d’une minute, et le chantier est prêt pour le technicien.</p>
+      <p>Sur <a href="/ai-receptionist">notre page sur les appels entrants et sortants</a>, vous pouvez voir un appel complet à une entreprise de plomberie une heure et demie après la fermeture : l’IA demande s’il y a de l’eau au sol, choisit un rendez-vous normal plutôt qu’une intervention d’urgence, réserve 8 h 30 le lendemain matin et envoie un SMS. L’appel dure à peine plus d’une minute, et le chantier est prêt pour le technicien.</p>
       <h2>Ce que cela change au quotidien</h2>
       <ul>
         <li>Vous ne rappelez plus les appels manqués le soir.</li>
@@ -363,6 +363,7 @@ export const receptionistFr: BlogTranslations = {
         <li><strong>Elle note le reste.</strong> Ce qui demande votre intervention (un devis, une réclamation, une question sur un chantier en cours) devient un message avec nom, numéro et court résumé.</li>
         <li><strong>Vous lisez tout le lendemain matin.</strong> Chaque appel est dans le tableau de bord avec enregistrement, transcription et résumé, pour décider qui rappeler en premier.</li>
       </ol>
+      <figure class="blog-figure"><img src="/images/illustrations/call-salon-fr.svg" alt="Appel entrant à 20 h 08 dans le tableau de bord avec enregistrement, résumé, réservation et transcription" width="1200" height="760" loading="lazy"><figcaption>Mardi à 20 h 08, après la fermeture : l’appel est traité, le rendez-vous réservé et le résumé prêt le lendemain matin.</figcaption></figure>
       <h2 id="tidspunkter">Soir, week-end et vacances : trois besoins différents</h2>
       <h3>Les soirs de semaine</h3>
       <p>C’est l’heure de ceux qui ne peuvent pas appeler du bureau : des patients qui veulent un rendez-vous chez le kiné, des clientes qui cherchent un créneau chez le coiffeur le samedi, des propriétaires qui ont enfin le temps de contacter un menuisier. Ce sont surtout des réservations et des questions simples, exactement ce qu’un réceptionniste IA fait le mieux.</p>
@@ -388,6 +389,7 @@ export const receptionistFr: BlogTranslations = {
         <li><strong>Boutiques et e-commerce :</strong> presque rien n’est urgent. L’IA répond, prend les messages et indique l’heure d’ouverture.</li>
       </ul>
       <p>En savoir plus sur <a href="/blog/ai-receptionist-viderestilling-til-menneske">le moment où l’IA doit passer la main à un humain</a>.</p>
+      <div class="blog-cta"><strong>Une réceptionniste IA pour votre site et votre téléphone</strong><p>Découvrez comment l’AI Voice Widget, la permanence téléphonique IA et les appels sortants fonctionnent ensemble, avec l’exemple d’une semaine entière.</p><div class="blog-cta-actions"><a class="primary" href="/ai-receptionist">Voir la réceptionniste IA</a><a href="/proeveperiode">Essayez gratuitement 7 jours</a></div></div>
       <h2 id="opsaetning">Mise en place étape par étape</h2>
       <ol>
         <li><strong>Rédigez l’accueil</strong> en précisant que vous êtes fermé et ce que l’IA peut faire.</li>
@@ -404,6 +406,66 @@ export const receptionistFr: BlogTranslations = {
       { question: `L’IA peut-elle répondre uniquement en dehors des heures d’ouverture ?`, answer: `Oui. Vous gardez votre numéro et choisissez chez votre opérateur quand les appels sont renvoyés : selon un horaire, si occupé ou en l’absence de réponse. Pendant les heures d’ouverture, votre équipe décroche comme d’habitude.` },
       { question: `La permanence téléphonique IA coûte-t-elle plus cher le soir et le week-end ?`, answer: `Non. Chez Aibooking.dk, vous payez le temps de conversation quelle que soit l’heure : à partir de 134 € par mois pour 150 minutes, sans supplément le soir, le week-end ou les jours fériés.` },
       { question: `Que deviennent les appels urgents après la fermeture ?`, answer: `Vous le décidez dans les instructions de l’IA : transfert vers un téléphone d’astreinte, message marqué urgent, ou orientation vers le médecin de garde, le 15 ou le 112. L’IA ne donne jamais de conseil médical.` },
+    ],
+  },
+  'ai-telefonpasning-webshop-haandvaerker-klinik-kontor': {
+    title: `Permanence téléphonique IA pour e-commerce, artisans, cabinets médicaux et bureaux`,
+    excerpt: `Une boutique en ligne, un plombier, un cabinet dentaire et un cabinet d’avocats reçoivent des appels très différents. Comment configurer une permanence téléphonique IA pour chacun : ce que l’IA gère, ce qui reste chez vous, et un exemple d’appel par métier.`,
+    meta_title: `Permanence téléphonique IA par métier | AIBooking.dk`,
+    meta_description: `Configurer une permanence téléphonique IA pour e-commerce, artisans, cabinets médicaux et bureaux : appels typiques, rôle de l’IA, ce qui reste chez vous.`,
+    content: `
+      <p>Une <strong>permanence téléphonique IA</strong> repose sur la même technologie dans tous les métiers : une réceptionniste IA qui prend vos appels, répond à partir de vos informations et réserve dans votre agenda. Mais <em>ce qu’elle</em> doit faire dépend entièrement de qui appelle. La cliente d’une boutique en ligne veut savoir où est son colis. Le propriétaire dont le robinet fuit veut un artisan. La patiente veut déplacer son rendez-vous, et un nouveau client veut parler à un avocat. Voici comment configurer une permanence téléphonique IA pour les quatre métiers que nous accompagnons le plus souvent.</p>
+      <div class="blog-toc"><strong>Dans ce guide</strong><ol><li><a href="#webshop">Permanence téléphonique pour l’e-commerce</a></li><li><a href="#haandvaerker">Permanence téléphonique IA pour artisans</a></li><li><a href="#klinik">Permanence téléphonique IA pour cabinets médicaux</a></li><li><a href="#kontor">Permanence téléphonique IA pour bureaux et cabinets</a></li><li><a href="#faelles">Ce que les quatre ont en commun</a></li></ol></div>
+      <h2 id="webshop">Permanence téléphonique pour l’e-commerce</h2>
+      <p>Les clients d’une boutique en ligne appellent rarement pour acheter : ils appellent parce que quelque chose n’est pas clair. « Où est mon colis ? », « Puis-je changer de taille ? », « Est-ce en stock ? ». Toujours les mêmes questions, souvent le soir et le week-end, quand le service client est fermé.</p>
+      <ul>
+        <li><strong>L’IA gère :</strong> les questions sur la livraison, les retours, les échanges et le paiement à partir de vos conditions, les questions produits et, avec Shopify, le suivi de commande à partir du numéro de commande.</li>
+        <li><strong>Reste chez vous :</strong> réclamations, remboursements et modifications de commande. L’IA enregistre la demande et rédige un résumé pour que le service client agisse le lendemain matin.</li>
+        <li><strong>Bon à savoir :</strong> l’IA n’a qu’un accès en lecture à Shopify et ne communique que le statut, l’expédition et la livraison, jamais de nom, d’adresse ou de données de paiement.</li>
+      </ul>
+      <figure class="blog-figure"><img src="/images/illustrations/call-webshop-fr.svg" alt="Appel à une boutique en ligne sur le suivi de commande : l’IA consulte la commande et répond sur la livraison et les retours" width="1200" height="760" loading="lazy"><figcaption>Dimanche matin : l’IA consulte la commande 10482 et répond aussi à la question sur les retours.</figcaption></figure>
+      <p>En savoir plus dans <a href="/blog/shopify-integration-ai-voice-indgaaende-opkald">Shopify et l’IA au téléphone</a> ou sur <a href="/webshop">l’IA pour boutiques en ligne</a>.</p>
+      <h2 id="haandvaerker">Permanence téléphonique IA pour artisans</h2>
+      <p>Pour un artisan, le téléphone est le service commercial, mais il sonne quand vous êtes sur une échelle ou les mains dans une installation. Le client avec un dégât des eaux appelle tout simplement le suivant sur la liste. La permanence téléphonique IA prend l’appel et vous dit exactement ce qui vous attend.</p>
+      <ul>
+        <li><strong>L’IA gère :</strong> elle s’informe sur l’intervention, l’adresse et l’urgence, réserve des visites dans l’agenda et répond sur votre zone, vos horaires et vos tarifs pour les travaux courants.</li>
+        <li><strong>Reste chez vous :</strong> le devis. L’IA ne promet jamais de prix pour un chantier qu’elle ne connaît pas, mais rassemble toutes les informations pour que vous rappeliez bien préparé.</li>
+        <li><strong>Règle d’urgence :</strong> décidez à l’avance ce qui est urgent (dégât des eaux, coupure de courant) et si c’est marqué urgent ou transféré vers le téléphone d’astreinte.</li>
+      </ul>
+      <figure class="blog-figure"><img src="/images/illustrations/phone-craftsman-fr.svg" alt="Le téléphone affiche une intervention urgente, une visite réservée et une demande de devis prises par l’IA" width="1200" height="760" loading="lazy"><figcaption>7 h 45 : une intervention urgente, une visite dans l’agenda et une demande de devis, avec adresse et détails.</figcaption></figure>
+      <p>Lire le guide complet : <a href="/blog/ai-telefonassistent-haandvaerker">assistant téléphonique IA pour artisans</a>, ou découvrir <a href="/haandvaerker">l’IA pour artisans</a>.</p>
+      <div class="blog-cta"><strong>Une réceptionniste IA pour votre site et votre téléphone</strong><p>Découvrez comment l’AI Voice Widget, la permanence téléphonique IA et les appels sortants fonctionnent ensemble, avec l’exemple d’une semaine entière.</p><div class="blog-cta-actions"><a class="primary" href="/ai-receptionist">Voir la réceptionniste IA</a><a href="/proeveperiode">Essayez gratuitement 7 jours</a></div></div>
+      <h2 id="klinik">Permanence téléphonique IA pour cabinets médicaux</h2>
+      <p>Dentistes, kinés, ostéopathes et psychologues ont souvent des plages téléphoniques courtes et saturées, et le reste de la journée l’équipe est avec les patients. La permanence téléphonique IA prend les appels de prise de rendez-vous toute la journée, y compris hors des plages téléphoniques.</p>
+      <ul>
+        <li><strong>L’IA gère :</strong> nouveaux rendez-vous, déplacements et annulations directement dans l’agenda (après vérification de l’appelant) et questions sur les tarifs, l’adresse, le stationnement et la préparation.</li>
+        <li><strong>Reste chez vous :</strong> tout ce qui est médical. L’IA ne donne jamais de conseil sur des symptômes ou un traitement, mais prend un message pour le praticien.</li>
+        <li><strong>Règle d’urgence :</strong> en cas de symptômes aigus, l’IA oriente vers le médecin de garde, le 15 ou le 112.</li>
+      </ul>
+      <figure class="blog-figure"><img src="/images/illustrations/bookings-clinic-fr.svg" alt="Rendez-vous, déplacements et annulations du cabinet dentaire par téléphone et site web dans le tableau de bord" width="1200" height="720" loading="lazy"><figcaption>Une annulation mardi à 10 h, et le créneau est de nouveau réservé depuis le site peu après.</figcaption></figure>
+      <p>En savoir plus dans <a href="/blog/totalloesning-klinik">la réservation par IA pour cabinets et salons</a> ou sur <a href="/klinik">l’IA pour cabinets médicaux</a>.</p>
+      <h2 id="kontor">Permanence téléphonique IA pour bureaux et cabinets</h2>
+      <p>Pour les avocats, experts-comptables, agents immobiliers et consultants, le téléphone est la première impression, et il sonne souvent quand tout le monde est en rendez-vous. La permanence téléphonique IA accueille les appels avec professionnalisme, fixe des rendez-vous et transmet le message à la bonne personne.</p>
+      <ul>
+        <li><strong>L’IA gère :</strong> l’accueil et le tri des demandes, les premiers rendez-vous dans l’agenda de la bonne personne et les questions pratiques (adresse, horaires, domaines d’intervention).</li>
+        <li><strong>Reste chez vous :</strong> tout conseil et tout ce qui concerne un dossier précis. L’IA ne divulgue jamais d’informations sur les clients.</li>
+        <li><strong>Langues :</strong> les clients internationaux peuvent échanger en français, anglais, allemand, espagnol, portugais ou danois.</li>
+      </ul>
+      <figure class="blog-figure"><img src="/images/illustrations/call-office-fr.svg" alt="Appel à un cabinet d’avocats : l’IA fixe un premier rendez-vous et note les besoins du client" width="1200" height="760" loading="lazy"><figcaption>À midi : l’IA fixe un premier rendez-vous et note ce dont le client a besoin.</figcaption></figure>
+      <p>Lire le guide complet : <a href="/blog/ai-telefonassistent-kontor-administration">assistant téléphonique IA pour le bureau</a>, ou découvrir <a href="/kontor">l’IA pour bureaux et cabinets</a>.</p>
+      <h2 id="faelles">Ce que les quatre ont en commun</h2>
+      <div class="blog-table"><table><thead><tr><th></th><th>E-commerce</th><th>Artisans</th><th>Cabinet médical</th><th>Bureau</th></tr></thead><tbody>
+        <tr><td>Appel typique</td><td>Suivi de commande, retour</td><td>Nouveau chantier, urgence</td><td>RDV, annulation</td><td>Nouvelle demande, RDV</td></tr>
+        <tr><td>L’IA réserve</td><td>—</td><td>Visite</td><td>Soin</td><td>Premier rendez-vous</td></tr>
+        <tr><td>Reste chez vous</td><td>Remboursement, réclamation</td><td>Devis</td><td>Questions médicales</td><td>Conseil</td></tr>
+        <tr><td>Règle clé</td><td>Statut seulement, pas de données personnelles</td><td>Règle d’urgence</td><td>Aucun conseil médical</td><td>Aucune info sur les dossiers</td></tr>
+      </tbody></table></div>
+      <p>Quel que soit le métier, trois choses restent vraies : l’IA se présente comme une assistante numérique (le règlement européen sur l’IA l’impose), vous gardez votre numéro et choisissez quand elle prend le relais, et chaque appel est ensuite dans le tableau de bord avec enregistrement, transcription et résumé. Pour répondre aussi sur votre site, l’AI Voice Widget utilise les mêmes informations et le même agenda. Tout est réuni dans la <a href="/ai-receptionist">réceptionniste IA</a>, et le prix est le même pour tous les métiers : à partir de 134 € par mois pour 150 minutes. Lisez aussi <a href="/blog/ai-telefonpasning-uden-for-aabningstid">la permanence téléphonique IA hors heures d’ouverture</a>.</p>
+    `,
+    faq: [
+      { question: `La permanence téléphonique IA change-t-elle selon le métier ?`, answer: `La technologie est la même, mais la configuration change : les questions posées par l’IA, ce qu’elle peut réserver, ce qui est urgent et les sujets qu’elle vous laisse toujours. Tout cela se règle dans les instructions et la base de connaissances de l’IA.` },
+      { question: `La permanence téléphonique IA peut-elle consulter les commandes d’une boutique en ligne ?`, answer: `Oui, avec Shopify. L’IA consulte le suivi à partir du numéro de commande et communique le statut, l’expédition et la livraison. Elle n’a qu’un accès en lecture et ne divulgue ni nom, ni adresse, ni données de paiement.` },
+      { question: `Le prix est-il différent pour un cabinet médical et pour un artisan ?`, answer: `Non. Le prix dépend du temps de conversation, pas du métier : à partir de 134 € par mois pour 150 minutes, et vous pouvez essayer gratuitement pendant 7 jours.` },
     ],
   },
 };

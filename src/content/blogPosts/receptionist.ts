@@ -8,6 +8,9 @@ const UPDATED = '2026-10-16';
 const CTA_TRIAL_DA = `<div class="blog-cta"><strong>Prøv en AI-receptionist på dit eget nummer</strong><p>Opret en gratis konto, viderestil dit nummer, og lad AI'en tage rigtige opkald i 7 dage. Intet betalingskort.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prøv gratis i 7 dage</a><a href="/demo">Book en demo</a></div></div>`;
 const CTA_TRIAL_EN = `<div class="blog-cta"><strong>Try an AI receptionist on your own number</strong><p>Create a free account, forward your number and let the AI take real calls for 7 days. No credit card.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Try free for 7 days</a><a href="/demo">Book a demo</a></div></div>`;
 
+const CTA_RECEPTIONIST_DA = `<div class="blog-cta"><strong>Én AI-receptionist til hjemmeside og telefon</strong><p>Se, hvordan AI Voice Widget, AI-telefonpasning og udgående opkald arbejder sammen — med et eksempel fra en hel uge.</p><div class="blog-cta-actions"><a class="primary" href="/ai-receptionist">Se AI-receptionisten</a><a href="/proeveperiode">Prøv gratis i 7 dage</a></div></div>`;
+const CTA_RECEPTIONIST_EN = `<div class="blog-cta"><strong>One AI receptionist for your website and phone</strong><p>See how the AI Voice Widget, AI phone answering and outbound calls work together — with an example from a whole week.</p><div class="blog-cta-actions"><a class="primary" href="/ai-receptionist">See the AI receptionist</a><a href="/proeveperiode">Try free for 7 days</a></div></div>`;
+
 export const receptionistPosts: BlogPost[] = [
   {
     id: 'ai-reception-virtuel-receptionist',
@@ -159,7 +162,7 @@ export const receptionistPosts: BlogPost[] = [
         <tr><td>Professional</td><td>2.499 kr.</td><td>600 minutter</td><td>ca. 4,17 kr.</td></tr>
         <tr><td>Enterprise</td><td>5.999 kr.</td><td>2.000 minutter</td><td>ca. 3,00 kr.</td></tr>
       </tbody></table></div>
-      <p>Opsætning og onboarding er et <strong>valgfrit</strong> engangskøb til samme pris som den valgte pakke (fx 999 kr. for Starter) inkl. en times opfølgende support. Du kan også sætte det op selv. Ad hoc-opgaver koster 695 kr. i timen for prompting/træning og 1.100 kr. i timen for udvikling. Se de aktuelle priser på <a href="/ind-og-udgaaende-opkald#priser">siden om AI-telefonpasning</a>.</p>
+      <p>Opsætning og onboarding er et <strong>valgfrit</strong> engangskøb til samme pris som den valgte pakke (fx 999 kr. for Starter) inkl. en times opfølgende support. Du kan også sætte det op selv. Ad hoc-opgaver koster 695 kr. i timen for prompting/træning og 1.100 kr. i timen for udvikling. Se de aktuelle priser på <a href="/ai-receptionist#priser">siden om AI-telefonpasning</a>.</p>
       <h2>Hvor mange minutter har du brug for?</h2>
       <p>Tag antallet af opkald, AI'en skal tage om måneden, og gang med den gennemsnitlige samtalelængde. En booking tager typisk et til tre minutter.</p>
       <ul>
@@ -205,7 +208,7 @@ export const receptionistPosts: BlogPost[] = [
         <tr><td>Professional</td><td>DKK 2,499</td><td>600 minutes</td><td>approx. DKK 4.17</td></tr>
         <tr><td>Enterprise</td><td>DKK 5,999</td><td>2,000 minutes</td><td>approx. DKK 3.00</td></tr>
       </tbody></table></div>
-      <p>Setup and onboarding is an <strong>optional</strong> one-time purchase priced the same as the chosen plan (e.g. DKK 999 for Starter), including one hour of follow-up support. You can also set it up yourself. Ad hoc work costs DKK 695 per hour for prompting/training and DKK 1,100 per hour for development. See current prices on the <a href="/ind-og-udgaaende-opkald#priser">AI phone answering page</a>.</p>
+      <p>Setup and onboarding is an <strong>optional</strong> one-time purchase priced the same as the chosen plan (e.g. DKK 999 for Starter), including one hour of follow-up support. You can also set it up yourself. Ad hoc work costs DKK 695 per hour for prompting/training and DKK 1,100 per hour for development. See current prices on the <a href="/ai-receptionist#priser">AI phone answering page</a>.</p>
       <h2>How many minutes do you need?</h2>
       <p>Take the number of calls the AI should handle per month and multiply by the average call length. A booking usually takes one to three minutes.</p>
       <ul>
@@ -675,7 +678,7 @@ export const receptionistPosts: BlogPost[] = [
       <p>Lad være med at lade AI'en love faste priser på opgaver, der skal ses først. Giv den i stedet det, du normalt siger: din kørselspris eller timepris, hvad prisen afhænger af, og at et tilbud kræver en besigtigelse. Så får kunden et ærligt svar, og du bevarer kontrollen over tilbuddet.</p>
       ${CTA_TRIAL_DA}
       <h2>Et opkald kl. 20:41</h2>
-      <p>På <a href="/ind-og-udgaaende-opkald">vores side om ind- og udgående opkald</a> kan du se et helt opkald til en VVS-virksomhed halvanden time efter lukketid: AI'en spørger, om der er vand på gulvet, vælger en almindelig tid frem for et akut udkald, booker næste morgen kl. 08:30 og sender en SMS. Opkaldet tager lidt over et minut, og sagen ligger klar til montøren.</p>
+      <p>På <a href="/ai-receptionist">vores side om ind- og udgående opkald</a> kan du se et helt opkald til en VVS-virksomhed halvanden time efter lukketid: AI'en spørger, om der er vand på gulvet, vælger en almindelig tid frem for et akut udkald, booker næste morgen kl. 08:30 og sender en SMS. Opkaldet tager lidt over et minut, og sagen ligger klar til montøren.</p>
       <h2>Hvad det ændrer i hverdagen</h2>
       <ul>
         <li>Du ringer ikke tilbage på ubesvarede opkald om aftenen.</li>
@@ -704,7 +707,7 @@ export const receptionistPosts: BlogPost[] = [
       <p>Don't let the AI promise fixed prices on jobs that need to be seen first. Give it what you normally say instead: your call-out or hourly rate, what the price depends on, and that a quote requires an inspection. The customer gets an honest answer and you stay in control of the quote.</p>
       ${CTA_TRIAL_EN}
       <h2>A call at 8:41 pm</h2>
-      <p>On <a href="/ind-og-udgaaende-opkald">our inbound and outbound calls page</a> you can see a full call to a plumbing business an hour and a half after closing: the AI asks whether there is water on the floor, chooses a regular appointment over an emergency call-out, books 8:30 the next morning and sends a text. The call takes just over a minute, and the job is ready for the fitter.</p>
+      <p>On <a href="/ai-receptionist">our inbound and outbound calls page</a> you can see a full call to a plumbing business an hour and a half after closing: the AI asks whether there is water on the floor, chooses a regular appointment over an emergency call-out, books 8:30 the next morning and sends a text. The call takes just over a minute, and the job is ready for the fitter.</p>
       <h2>What it changes day to day</h2>
       <ul>
         <li>You don't return missed calls in the evening.</li>
@@ -843,6 +846,7 @@ export const receptionistPosts: BlogPost[] = [
         <li><strong>Den tager imod resten.</strong> Ærinder, der kræver dig — et tilbud, en klage, et spørgsmål om en igangværende sag — bliver til en besked med navn, nummer og et kort referat.</li>
         <li><strong>Du læser det hele næste morgen.</strong> I dashboardet ligger hvert opkald med optagelse, udskrift og referat, så du kan prioritere, hvem der skal ringes op først.</li>
       </ol>
+      <figure class="blog-figure"><img src="/images/illustrations/call-salon-da.svg" alt="Indgående opkald kl. 20.08 i dashboardet med optagelse, resumé, booking og transskription" width="1200" height="760" loading="lazy"><figcaption>Tirsdag kl. 20.08, efter lukketid: opkaldet er besvaret, tiden booket, og referatet ligger klar næste morgen.</figcaption></figure>
       <h2 id="tidspunkter">Aften, weekend og ferie: tre forskellige behov</h2>
       <h3>Hverdagsaftener</h3>
       <p>Her ringer de, der ikke kan ringe fra arbejde: patienter, der vil bestille tid til fysioterapeuten, kunder, der vil have en frisørtid lørdag, eller boligejere, der endelig har tid til at kontakte en tømrer. Ærinderne er typisk bookinger og enkle spørgsmål — dem en AI-receptionist klarer bedst.</p>
@@ -868,6 +872,7 @@ export const receptionistPosts: BlogPost[] = [
         <li><strong>Butik og webshop:</strong> næsten intet er akut. AI'en svarer, tager beskeder og fortæller, hvornår I åbner.</li>
       </ul>
       <p>Læs mere om, <a href="/blog/ai-receptionist-viderestilling-til-menneske">hvornår AI'en skal stille videre til et menneske</a>.</p>
+      ${CTA_RECEPTIONIST_DA}
       <h2 id="opsaetning">Opsætning trin for trin</h2>
       <ol>
         <li><strong>Skriv velkomsten</strong>, så den siger, at I har lukket, og hvad AI'en kan hjælpe med.</li>
@@ -898,6 +903,7 @@ export const receptionistPosts: BlogPost[] = [
         <li><strong>It takes care of the rest.</strong> Anything that needs you — a quote, a complaint, a question about an ongoing job — becomes a message with name, number and a short summary.</li>
         <li><strong>You read it all the next morning.</strong> Every call is in the dashboard with recording, transcript and summary, so you can decide who to call back first.</li>
       </ol>
+      <figure class="blog-figure"><img src="/images/illustrations/call-salon-en.svg" alt="Inbound call at 8:08 PM in the dashboard with recording, summary, booking and transcript" width="1200" height="760" loading="lazy"><figcaption>Tuesday at 8:08 PM, after closing: the call is answered, the appointment booked and the summary ready the next morning.</figcaption></figure>
       <h2 id="tidspunkter">Evenings, weekends and holidays: three different needs</h2>
       <h3>Weekday evenings</h3>
       <p>This is when people call who can't call from work: patients booking a physiotherapist, customers wanting a Saturday haircut, homeowners who finally have time to contact a carpenter. The requests are mostly bookings and simple questions — exactly what an AI receptionist handles best.</p>
@@ -923,6 +929,7 @@ export const receptionistPosts: BlogPost[] = [
         <li><strong>Shops and webshops:</strong> almost nothing is urgent. The AI answers, takes messages and says when you open.</li>
       </ul>
       <p>Read more about <a href="/blog/ai-receptionist-viderestilling-til-menneske">when the AI should hand over to a person</a>.</p>
+      ${CTA_RECEPTIONIST_EN}
       <h2 id="opsaetning">Setup step by step</h2>
       <ol>
         <li><strong>Write the greeting</strong> so it says you are closed and what the AI can help with.</li>
@@ -962,6 +969,145 @@ export const receptionistPosts: BlogPost[] = [
         answer_da: 'Du bestemmer det i AI’ens instruktioner: stil videre til en vagttelefon, markér beskeden som haster, eller henvis til lægevagten eller 112. AI’en giver aldrig sundhedsfaglige råd.',
         question_en: 'What happens to urgent calls after hours?',
         answer_en: 'You decide in the AI’s instructions: transfer to an on-call phone, flag the message as urgent, or refer the caller to the out-of-hours doctor or 112. The AI never gives medical advice.',
+      },
+    ],
+    sources: [
+      { title: 'Forordning (EU) 2024/1689 om kunstig intelligens (AI-forordningen), artikel 50', publisher: 'EUR-Lex', url: 'https://eur-lex.europa.eu/eli/reg/2024/1689/oj', date: '2024-07-12' },
+    ],
+  },
+  {
+    id: 'ai-telefonpasning-webshop-haandvaerker-klinik-kontor',
+    slug: 'ai-telefonpasning-webshop-haandvaerker-klinik-kontor',
+    categorySlug: 'ai-inbound-outbound',
+    title_en: 'AI Phone Answering for Webshops, Tradespeople, Clinics and Offices',
+    title_da: 'AI-telefonpasning til webshop, håndværker, klinik og kontor',
+    excerpt_en: 'A webshop, a plumber, a dental clinic and a law firm get completely different calls. How AI phone answering is set up for each of the four — what the AI handles, what stays with you, and an example call from each.',
+    excerpt_da: 'En webshop, en VVS’er, en tandklinik og et advokatkontor får vidt forskellige opkald. Sådan sættes AI-telefonpasning op til hver af de fire — hvad AI’en klarer, hvad der bliver hos dig, og et eksempel på et opkald fra hver.',
+    content_da: `
+      <p><strong>AI-telefonpasning</strong> er den samme teknologi i alle brancher: en AI-receptionist, der tager dine opkald, svarer ud fra dine oplysninger og booker i kalenderen. Men <em>hvad</em> den skal gøre, afhænger helt af, hvem der ringer. En webshopkunde vil vide, hvor pakken er. En boligejer med en utæt vandhane vil have en håndværker ud. En patient vil flytte sin tid, og en ny klient vil tale med en advokat. Her er, hvordan du sætter AI-telefonpasning op til de fire brancher, vi oftest hjælper.</p>
+      <div class="blog-toc"><strong>I denne guide</strong><ol><li><a href="#webshop">Telefonpasning til webshop</a></li><li><a href="#haandvaerker">AI-telefonpasning til håndværker</a></li><li><a href="#klinik">AI-telefonpasning til klinikker</a></li><li><a href="#kontor">AI-telefonpasning til kontor</a></li><li><a href="#faelles">Det er fælles for alle fire</a></li></ol></div>
+      <h2 id="webshop">Telefonpasning til webshop</h2>
+      <p>Webshopkunder ringer sjældent for at købe — de ringer, fordi noget er uklart: "Hvor er min pakke?", "Kan jeg bytte til en anden størrelse?", "Har I den på lager?". Det er de samme spørgsmål igen og igen, og de kommer ofte om aftenen og i weekenden, hvor kundeservice har fri.</p>
+      <ul>
+        <li><strong>AI'en klarer:</strong> spørgsmål om levering, retur, bytte og betaling ud fra jeres egne politikker; produktspørgsmål; og med Shopify også ordrestatus ud fra ordrenummeret.</li>
+        <li><strong>Det bliver hos jer:</strong> reklamationer, refusioner og ændringer i ordrer. AI'en tager imod sagen og laver et referat, så kundeservice kan handle næste morgen.</li>
+        <li><strong>Godt at vide:</strong> AI'en har kun læseadgang til Shopify og oplyser kun status, forsendelse og levering — aldrig navn, adresse eller betaling.</li>
+      </ul>
+      <figure class="blog-figure"><img src="/images/illustrations/call-webshop-da.svg" alt="Opkald til en webshop om ordrestatus, hvor AI’en slår ordren op og svarer om levering og retur" width="1200" height="760" loading="lazy"><figcaption>Søndag formiddag: AI’en slår ordre 10482 op og svarer også på spørgsmålet om returret.</figcaption></figure>
+      <p>Læs mere i <a href="/blog/shopify-integration-ai-voice-indgaaende-opkald">Shopify og AI i telefonen</a>, eller se <a href="/webshop">AI til webshop</a>.</p>
+      <h2 id="haandvaerker">AI-telefonpasning til håndværker</h2>
+      <p>For en håndværker er telefonen salgsafdelingen — men den ringer, mens du står på en stige eller har hænderne i en installation. Kunden med vandskaden ringer bare til den næste på listen. AI-telefonpasning tager opkaldet og sørger for, at du ved præcis, hvad der venter.</p>
+      <ul>
+        <li><strong>AI'en klarer:</strong> spørger ind til opgaven, adressen og hvor meget det haster; booker besigtigelser i kalenderen; svarer på spørgsmål om område, åbningstider og priser på standardopgaver.</li>
+        <li><strong>Det bliver hos dig:</strong> tilbuddet. AI'en lover aldrig en pris på en opgave, den ikke kender, men samler alle oplysninger, så du kan ringe tilbage velforberedt.</li>
+        <li><strong>Akut-regel:</strong> beslut på forhånd, hvad der er akut (vandskade, strømsvigt), og om det skal markeres som haster eller stilles videre til vagttelefonen.</li>
+      </ul>
+      <figure class="blog-figure"><img src="/images/illustrations/phone-craftsman-da.svg" alt="Mobilen viser en hasteopgave, en booket besigtigelse og en tilbudsforespørgsel, som AI’en har taget imod" width="1200" height="760" loading="lazy"><figcaption>Kl. 7.45: en hasteopgave, en besigtigelse i kalenderen og en tilbudsforespørgsel — alle med adresse og detaljer.</figcaption></figure>
+      <p>Læs den fulde guide: <a href="/blog/ai-telefonassistent-haandvaerker">AI-telefonassistent til håndværkere</a>, eller se <a href="/haandvaerker">AI til håndværkere</a>.</p>
+      ${CTA_RECEPTIONIST_DA}
+      <h2 id="klinik">AI-telefonpasning til klinikker</h2>
+      <p>Tandlæger, fysioterapeuter, kiropraktorer og psykologer har typisk en kort telefontid, hvor linjen er optaget, og resten af dagen står personalet med patienter. AI-telefonpasning tager opkaldene om tidsbestilling hele dagen — også uden for telefontiden.</p>
+      <ul>
+        <li><strong>AI'en klarer:</strong> nye bookinger, flytninger og afbud direkte i kalenderen (efter at have tjekket, hvem der ringer); spørgsmål om priser, adresse, parkering og forberedelse.</li>
+        <li><strong>Det bliver hos jer:</strong> alt sundhedsfagligt. AI'en giver aldrig råd om symptomer eller behandling, men tager en besked til behandleren.</li>
+        <li><strong>Akut-regel:</strong> ved akutte symptomer henviser AI'en til lægevagten eller 112.</li>
+      </ul>
+      <figure class="blog-figure"><img src="/images/illustrations/bookings-clinic-da.svg" alt="Tandklinikkens bookinger, flytninger og afbud fra telefon og hjemmeside samlet i dashboardet" width="1200" height="720" loading="lazy"><figcaption>Afbud tirsdag kl. 10.00 — og tiden er booket igen fra hjemmesiden kort efter.</figcaption></figure>
+      <p>Læs mere i <a href="/blog/totalloesning-klinik">AI-booking til klinikker og saloner</a>, eller se <a href="/klinik">AI til klinikker</a>.</p>
+      <h2 id="kontor">AI-telefonpasning til kontor</h2>
+      <p>Hos advokater, revisorer, ejendomsmæglere og konsulenter er telefonen det første indtryk, og den ringer typisk, mens alle sidder i møde. AI-telefonpasning tager imod professionelt, booker møder og sørger for, at den rette medarbejder får beskeden.</p>
+      <ul>
+        <li><strong>AI'en klarer:</strong> modtagelse og sortering af henvendelser, booking af indledende møder i den rette medarbejders kalender og svar på praktiske spørgsmål (adresse, åbningstider, hvilke områder I arbejder med).</li>
+        <li><strong>Det bliver hos jer:</strong> al rådgivning og alt om konkrete sager. AI'en udleverer aldrig oplysninger om klienter.</li>
+        <li><strong>Sprog:</strong> internationale klienter kan føre samtalen på engelsk, tysk, spansk, fransk eller portugisisk.</li>
+      </ul>
+      <figure class="blog-figure"><img src="/images/illustrations/call-office-da.svg" alt="Opkald til et advokatkontor, hvor AI’en booker et indledende møde og noterer klientens ønske" width="1200" height="760" loading="lazy"><figcaption>Frokosttid: AI’en booker et indledende møde og noterer, hvad klienten har brug for.</figcaption></figure>
+      <p>Læs den fulde guide: <a href="/blog/ai-telefonassistent-kontor-administration">AI-telefonassistent til kontoret</a>, eller se <a href="/kontor">AI til kontorer</a>.</p>
+      <h2 id="faelles">Det er fælles for alle fire</h2>
+      <div class="blog-table"><table><thead><tr><th></th><th>Webshop</th><th>Håndværker</th><th>Klinik</th><th>Kontor</th></tr></thead><tbody>
+        <tr><td>Typisk opkald</td><td>Ordrestatus, retur</td><td>Ny opgave, akut skade</td><td>Booking, afbud</td><td>Ny henvendelse, møde</td></tr>
+        <tr><td>AI'en booker</td><td>—</td><td>Besigtigelse</td><td>Behandling</td><td>Indledende møde</td></tr>
+        <tr><td>Bliver hos jer</td><td>Refusion, reklamation</td><td>Tilbud</td><td>Sundhedsfaglige spørgsmål</td><td>Rådgivning</td></tr>
+        <tr><td>Vigtigste regel</td><td>Kun status, ingen persondata</td><td>Akut-regel</td><td>Ingen sundhedsråd</td><td>Ingen sagsoplysninger</td></tr>
+      </tbody></table></div>
+      <p>Uanset branche gælder de samme tre ting: AI'en præsenterer sig som digital assistent (det kræver EU's AI-forordning), du beholder dit nummer og vælger selv, hvornår den tager over, og hvert opkald ligger bagefter i dashboardet med optagelse, udskrift og referat. Vil du også svare kunderne på hjemmesiden, bruger AI Voice Widget den samme viden og kalender. Det hele er samlet i <a href="/ai-receptionist">AI-receptionisten</a>, og prisen er den samme for alle brancher — fra 999 kr. om måneden for 150 minutter. Læs også <a href="/blog/ai-telefonpasning-uden-for-aabningstid">AI-telefonpasning uden for åbningstid</a>.</p>
+    `,
+    content_en: `
+      <p><strong>AI phone answering</strong> is the same technology in every industry: an AI receptionist that takes your calls, answers from your information and books in your calendar. But <em>what</em> it should do depends entirely on who is calling. A webshop customer wants to know where the parcel is. A homeowner with a leaking tap wants a tradesperson out. A patient wants to move an appointment, and a new client wants to speak to a lawyer. Here is how to set up AI phone answering for the four industries we help most often.</p>
+      <div class="blog-toc"><strong>In this guide</strong><ol><li><a href="#webshop">Phone answering for webshops</a></li><li><a href="#haandvaerker">AI phone answering for tradespeople</a></li><li><a href="#klinik">AI phone answering for clinics</a></li><li><a href="#kontor">AI phone answering for offices</a></li><li><a href="#faelles">What all four have in common</a></li></ol></div>
+      <h2 id="webshop">Phone answering for webshops</h2>
+      <p>Webshop customers rarely call to buy — they call because something is unclear: "Where is my parcel?", "Can I swap for another size?", "Do you have it in stock?". The same questions over and over, often in the evening and at weekends when customer service is off.</p>
+      <ul>
+        <li><strong>The AI handles:</strong> questions on delivery, returns, exchanges and payment from your own policies; product questions; and with Shopify, order status from the order number.</li>
+        <li><strong>Stays with you:</strong> complaints, refunds and order changes. The AI takes the case and writes a summary so customer service can act the next morning.</li>
+        <li><strong>Good to know:</strong> the AI has read-only access to Shopify and only shares status, shipping and delivery — never names, addresses or payment details.</li>
+      </ul>
+      <figure class="blog-figure"><img src="/images/illustrations/call-webshop-en.svg" alt="Call to an online store about order status, where the AI looks up the order and answers about delivery and returns" width="1200" height="760" loading="lazy"><figcaption>Sunday morning: the AI looks up order 10482 and also answers the question about returns.</figcaption></figure>
+      <p>Read more in <a href="/blog/shopify-integration-ai-voice-indgaaende-opkald">Shopify and AI on the phone</a>, or see <a href="/webshop">AI for webshops</a>.</p>
+      <h2 id="haandvaerker">AI phone answering for tradespeople</h2>
+      <p>For a tradesperson, the phone is the sales department — but it rings while you are up a ladder or have your hands in an installation. The customer with water damage simply calls the next name on the list. AI phone answering takes the call and makes sure you know exactly what is waiting.</p>
+      <ul>
+        <li><strong>The AI handles:</strong> asks about the job, the address and how urgent it is; books site visits in the calendar; answers questions about your area, hours and prices for standard jobs.</li>
+        <li><strong>Stays with you:</strong> the quote. The AI never promises a price for a job it doesn't know, but collects all the details so you can call back well prepared.</li>
+        <li><strong>Urgent-call rule:</strong> decide in advance what counts as urgent (water damage, power failure) and whether it is flagged as urgent or transferred to the on-call phone.</li>
+      </ul>
+      <figure class="blog-figure"><img src="/images/illustrations/phone-craftsman-en.svg" alt="The phone shows an urgent job, a booked site visit and a quote request taken by the AI" width="1200" height="760" loading="lazy"><figcaption>7:45 AM: an urgent job, a site visit in the calendar and a quote request — all with address and details.</figcaption></figure>
+      <p>Read the full guide: <a href="/blog/ai-telefonassistent-haandvaerker">AI phone assistant for tradespeople</a>, or see <a href="/haandvaerker">AI for tradespeople</a>.</p>
+      ${CTA_RECEPTIONIST_EN}
+      <h2 id="klinik">AI phone answering for clinics</h2>
+      <p>Dentists, physiotherapists, chiropractors and psychologists usually have a short phone hour when the line is busy, and for the rest of the day staff are with patients. AI phone answering takes appointment calls all day — outside phone hours too.</p>
+      <ul>
+        <li><strong>The AI handles:</strong> new bookings, moves and cancellations straight in the calendar (after checking who is calling); questions about prices, address, parking and preparation.</li>
+        <li><strong>Stays with you:</strong> anything clinical. The AI never gives advice about symptoms or treatment, but takes a message for the practitioner.</li>
+        <li><strong>Urgent-call rule:</strong> for acute symptoms the AI refers callers to the out-of-hours doctor or the emergency number.</li>
+      </ul>
+      <figure class="blog-figure"><img src="/images/illustrations/bookings-clinic-en.svg" alt="The dental practice’s bookings, moves and cancellations from phone and website in the dashboard" width="1200" height="720" loading="lazy"><figcaption>A cancellation on Tuesday at 10:00 — and the slot is booked again from the website shortly after.</figcaption></figure>
+      <p>Read more in <a href="/blog/totalloesning-klinik">AI booking for clinics and salons</a>, or see <a href="/klinik">AI for clinics</a>.</p>
+      <h2 id="kontor">AI phone answering for offices</h2>
+      <p>For lawyers, accountants, estate agents and consultants the phone is the first impression, and it usually rings while everyone is in a meeting. AI phone answering greets callers professionally, books meetings and makes sure the right colleague gets the message.</p>
+      <ul>
+        <li><strong>The AI handles:</strong> greeting and sorting enquiries, booking initial meetings in the right colleague's calendar and answering practical questions (address, hours, which areas you cover).</li>
+        <li><strong>Stays with you:</strong> all advice and anything about specific matters. The AI never discloses information about clients.</li>
+        <li><strong>Languages:</strong> international clients can hold the conversation in English, Danish, German, Spanish, French or Portuguese.</li>
+      </ul>
+      <figure class="blog-figure"><img src="/images/illustrations/call-office-en.svg" alt="Call to a law firm where the AI books an initial meeting and notes what the client needs" width="1200" height="760" loading="lazy"><figcaption>Lunchtime: the AI books an initial meeting and notes what the client needs.</figcaption></figure>
+      <p>Read the full guide: <a href="/blog/ai-telefonassistent-kontor-administration">AI phone assistant for the office</a>, or see <a href="/kontor">AI for offices</a>.</p>
+      <h2 id="faelles">What all four have in common</h2>
+      <div class="blog-table"><table><thead><tr><th></th><th>Webshop</th><th>Tradespeople</th><th>Clinic</th><th>Office</th></tr></thead><tbody>
+        <tr><td>Typical call</td><td>Order status, returns</td><td>New job, urgent damage</td><td>Booking, cancellation</td><td>New enquiry, meeting</td></tr>
+        <tr><td>The AI books</td><td>—</td><td>Site visit</td><td>Treatment</td><td>Initial meeting</td></tr>
+        <tr><td>Stays with you</td><td>Refunds, complaints</td><td>Quote</td><td>Clinical questions</td><td>Advice</td></tr>
+        <tr><td>Key rule</td><td>Status only, no personal data</td><td>Urgent-call rule</td><td>No medical advice</td><td>No case details</td></tr>
+      </tbody></table></div>
+      <p>Whatever the industry, the same three things apply: the AI introduces itself as a digital assistant (the EU AI Act requires it), you keep your number and choose when it takes over, and every call is then in the dashboard with recording, transcript and summary. If you also want to answer customers on your website, the AI Voice Widget uses the same knowledge and calendar. It all comes together in the <a href="/ai-receptionist">AI receptionist</a>, and the price is the same for every industry — from DKK 999 per month for 150 minutes. Also read <a href="/blog/ai-telefonpasning-uden-for-aabningstid">after-hours AI phone answering</a>.</p>
+    `,
+    meta_title_en: 'AI Phone Answering: Webshop, Trades, Clinic, Office | AIBooking.dk',
+    meta_title_da: 'AI-telefonpasning: webshop, håndværker, klinik, kontor | AIBooking.dk',
+    meta_description_en: 'How AI phone answering is set up for webshops, tradespeople, clinics and offices: typical calls, what the AI handles, what stays with you, with examples.',
+    meta_description_da: 'Sådan sættes AI-telefonpasning op til webshop, håndværker, klinik og kontor: typiske opkald, hvad AI’en klarer, og hvad der bliver hos jer. Med eksempler.',
+    keywords: ['ai telefonpasning', 'telefonpasning til webshop', 'ai-telefonpasning til håndværker', 'ai-telefonpasning til klinikker', 'ai-telefonpasning kontor', 'ai-receptionist'],
+    image_url: '/blog/covers/ai-telefonpasning-webshop-haandvaerker-klinik-kontor.svg',
+    published: true,
+    published_at: '2026-11-06',
+    related: ['ai-telefonassistent-haandvaerker', 'ai-telefonassistent-kontor-administration', 'shopify-integration-ai-voice-indgaaende-opkald'],
+    faq: [
+      {
+        question_da: 'Er AI-telefonpasning forskellig fra branche til branche?',
+        answer_da: 'Teknologien er den samme, men opsætningen er forskellig: hvilke spørgsmål AI’en stiller, hvad den må booke, hvad der er akut, og hvilke emner den altid overlader til jer. Det sætter du op i AI’ens instruktioner og vidensbase.',
+        question_en: 'Is AI phone answering different from one industry to another?',
+        answer_en: 'The technology is the same, but the setup differs: which questions the AI asks, what it may book, what counts as urgent and which topics it always leaves to you. You set that up in the AI’s instructions and knowledge base.',
+      },
+      {
+        question_da: 'Kan AI-telefonpasningen slå ordrer op for en webshop?',
+        answer_da: 'Ja, med Shopify. AI’en slår ordrestatus op ud fra ordrenummeret og oplyser status, forsendelse og levering. Den har kun læseadgang og udleverer ikke navn, adresse eller betalingsoplysninger.',
+        question_en: 'Can AI phone answering look up orders for a webshop?',
+        answer_en: 'Yes, with Shopify. The AI looks up order status from the order number and shares status, shipping and delivery. It has read-only access and does not disclose names, addresses or payment details.',
+      },
+      {
+        question_da: 'Koster det forskelligt for en klinik og en håndværker?',
+        answer_da: 'Nej. Prisen afhænger af taletid, ikke af branche: fra 999 kr. om måneden for 150 minutter, og du kan prøve gratis i 7 dage.',
+        question_en: 'Does it cost differently for a clinic and a tradesperson?',
+        answer_en: 'No. The price depends on talk time, not industry: from DKK 999 per month for 150 minutes, and you can try it free for 7 days.',
       },
     ],
     sources: [

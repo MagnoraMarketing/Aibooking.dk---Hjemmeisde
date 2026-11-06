@@ -10,7 +10,7 @@ import { blogPostPath, buildLocalizedPath } from '../utils/localePaths';
 
 export const PHONE_ANSWERING_GUIDE_SLUG = 'ai-telefonpasning-uden-for-aabningstid';
 const REQUIREMENTS_GUIDE_SLUG = 'ai-telefonpasning-dansk-ai-receptionist';
-export const PHONE_ANSWERING_PRODUCT_PATH = '/ind-og-udgaaende-opkald';
+export const PHONE_ANSWERING_PRODUCT_PATH = '/ai-receptionist';
 
 interface PhoneAnsweringSEOProps {
   /** Key in the namespace, e.g. "pages.home", "blogCategory.ai-widget" or "blogPost.ai-webshop". */
@@ -44,11 +44,11 @@ export default function PhoneAnsweringSEO({ variant, hideProductLink, currentSlu
         {block.text.map((paragraph, i) => (
           <p key={i} className="text-lg text-ink-600 leading-relaxed mb-4">{paragraph}</p>
         ))}
-        <div className="flex flex-wrap gap-x-6 gap-y-3 mt-6">
+        <div className="flex flex-wrap items-center gap-x-6 gap-y-3 mt-6">
           {!hideProductLink && (
             <a
               href={buildLocalizedPath(lang, PHONE_ANSWERING_PRODUCT_PATH)}
-              className="group inline-flex items-center font-semibold text-brand-600 hover:text-brand-700"
+              className="group inline-flex items-center gap-1.5 bg-brand-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:bg-brand-700 transition-colors"
             >
               {t('links.product')}
               <ArrowRight className="w-4 h-4 ml-1.5 group-hover:translate-x-1 transition-transform" />

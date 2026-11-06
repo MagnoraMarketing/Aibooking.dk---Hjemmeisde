@@ -1,0 +1,106 @@
+{
+  "channels": {
+    "badge": "Tres canales · una recepcionista IA",
+    "title": "Una recepcionista IA en tu web y en tu teléfono",
+    "intro": "La recepcionista IA de Aibooking.dk atiende a los clientes allí donde te buscan: primero en tu web con el AI Voice Widget, luego por teléfono cuando llaman y, como complemento, también con llamadas salientes. Los tres canales comparten la misma información, la misma agenda y el mismo panel.",
+    "widget": {
+      "label": "1 · AI Voice Widget",
+      "title": "AI Voice Widget: la recepcionista de tu web",
+      "text": "La mayoría de los clientes te descubre primero en tu web, a menudo por la noche, cuando ya has cerrado. El AI Voice Widget les responde al instante, por escrito, dictando o en una conversación de voz real en el navegador, y reserva la cita directamente en tu agenda mientras el interés está en su punto más alto.",
+      "points": [
+        "Chat, dictado y voz en tiempo real en un solo widget",
+        "Responde con tu base de conocimiento: texto, web o PDF",
+        "Reserva, cambia y cancela en Google Calendar, Outlook o Cal.com",
+        "Se añade con un solo script a cualquier tipo de web"
+      ],
+      "imageAlt": "AI Voice Widget en una web donde el cliente pide reservar una cita y la IA responde",
+      "link": "Más sobre el AI Voice Widget"
+    },
+    "inbound": {
+      "label": "2 · Llamadas entrantes",
+      "title": "Atención telefónica con IA para llamadas entrantes",
+      "text": "Cuando un cliente llama, la recepcionista IA contesta en tu propio número. Se presenta como asistente digital, entiende la consulta, responde preguntas y reserva, también cuando la línea comunica, a la hora de comer o después del cierre.",
+      "points": [
+        "Conserva tu número: desvía siempre, fuera de horario o si comunica",
+        "Muchas llamadas a la vez, sin colas",
+        "Grabación, transcripción y resumen de cada llamada",
+        "Conversaciones en español, inglés, francés, alemán, portugués o danés"
+      ],
+      "imageAlt": "Panel con una llamada entrante a las 20:08: grabación, resumen, reserva y transcripción"
+    },
+    "outbound": {
+      "label": "3 · Llamadas salientes",
+      "badge": "Complemento",
+      "title": "Llamadas salientes con IA cuando quieras tomar la iniciativa",
+      "text": "Con el complemento de llamadas salientes, la IA llama a partir de una lista que tú subes: clientes que hace tiempo que no reservan, contactos que pidieron que les llamaras o seguimiento de un presupuesto, siempre dentro de las franjas horarias que elijas.",
+      "points": [
+        "Campañas a partir de tus propias listas de clientes",
+        "Franjas horarias para llamar solo en momentos adecuados",
+        "La misma voz, información y agenda que en las llamadas entrantes"
+      ],
+      "note": "Las llamadas salientes son un complemento independiente con precio propio y funcionan en su propio módulo."
+    }
+  },
+  "combined": {
+    "badge": "Solución completa",
+    "title": "Widget, teléfono y llamadas salientes en una sola solución: un ejemplo",
+    "intro": "Así es una semana en una peluquería que usa la recepcionista IA completa. La clienta cambia de canal por el camino, pero la IA la acompaña en todo momento porque todo queda reunido en un mismo lugar.",
+    "steps": [
+      {
+        "time": "Lunes, 21:40",
+        "channel": "AI Voice Widget",
+        "title": "Lucía reserva en la web",
+        "text": "Lucía pregunta al widget cuánto cuesta un corte de mujer y si hay hueco el sábado. El widget responde con la lista de precios de la peluquería y reserva el sábado a las 11:30. La confirmación llega al momento por correo electrónico."
+      },
+      {
+        "time": "Miércoles, 12:15",
+        "channel": "Llamada entrante",
+        "title": "Llama para cambiar la cita",
+        "text": "Todas las estilistas están con clientas, así que la recepcionista IA atiende la llamada. Encuentra la reserva de Lucía, comprueba que es ella y la pasa al viernes a las 15:00."
+      },
+      {
+        "time": "Jueves, 10:00",
+        "channel": "Llamada saliente (complemento)",
+        "title": "La peluquería toma la iniciativa",
+        "text": "Una campaña saliente llama a las clientas que no han venido en más de dos meses y les ofrece un hueco libre la semana que viene."
+      },
+      {
+        "time": "Viernes, 8:00",
+        "channel": "Panel",
+        "title": "La dueña lo ve todo de un vistazo",
+        "text": "Las reservas del widget y del teléfono están en la agenda. En el panel está cada conversación con grabación, transcripción y resumen: sin pósits ni mensajes perdidos."
+      }
+    ],
+    "imageAlt": "Listado de reservas del panel con reservas, cambios y cancelaciones de la recepcionista telefónica y de la asistente web",
+    "caption": "Reservas de la recepcionista telefónica (azul) y de la asistente web (naranja) en un mismo panel.",
+    "benefits": [
+      { "title": "Una base de conocimiento", "text": "Actualiza precios y horarios una vez y el widget y el teléfono responden igual." },
+      { "title": "Una agenda", "text": "Sin reservas duplicadas, tanto si el cliente escribe, habla o llama." },
+      { "title": "Una sola vista", "text": "Todas las conversaciones y reservas de todos los canales en el mismo panel y en la app." }
+    ]
+  },
+  "alternatives": {
+    "title": "Recepcionista IA frente a contestador y servicio de atención telefónica",
+    "intro": "¿Qué obtienes realmente por tu dinero? Una comparación breve y honesta de las tres formas más habituales de gestionar las llamadas cuando nadie puede contestar.",
+    "columns": ["", "Recepcionista IA", "Contestador", "Atención telefónica con personas"],
+    "rows": [
+      ["Atiende tardes, fines de semana y festivos", "Sí, sin recargo", "Solo un mensaje grabado", "Según el contrato, a menudo con recargo"],
+      ["Reserva directamente en la agenda", "Sí", "No", "Rara vez, normalmente un recado"],
+      ["Varias llamadas a la vez", "Sí", "Solo mensajes", "Según el personal disponible"],
+      ["La misma asistente en tu web", "Sí, AI Voice Widget", "No", "No"],
+      ["Grabación, transcripción y resumen", "Sí, en el panel", "Solo el audio", "Un recado por escrito"],
+      ["Modelo de precio", "Plan con minutos, desde 134 €/mes", "Normalmente incluido en la tarifa telefónica", "Por llamada o cuota mensual fija"]
+    ],
+    "link": "Lee la comparación completa"
+  },
+  "faq": [
+    {
+      "question": "¿Qué es una recepcionista IA?",
+      "answer": "Una recepcionista IA es una asistente digital que atiende a tus clientes en tu web y por teléfono. En Aibooking.dk se compone del AI Voice Widget en tu web, la atención telefónica con IA para llamadas entrantes y, como complemento, las llamadas salientes. Responde con tu propia información, reserva en tu agenda y guarda cada conversación en el panel."
+    },
+    {
+      "question": "¿Necesito el widget y el teléfono a la vez?",
+      "answer": "No. Puedes empezar con un canal, por ejemplo solo el widget en tu web o solo el teléfono fuera de horario, y añadir los demás más adelante. Comparten base de conocimiento, agenda y panel, así que no tienes que volver a configurar tu información."
+    }
+  ]
+}

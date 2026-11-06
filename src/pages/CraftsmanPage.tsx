@@ -19,6 +19,7 @@ import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
 import DashboardShowcase from '../components/DashboardShowcase';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import type { NavigatePage } from '../types/navigation';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 interface CraftsmanPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -147,6 +148,7 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
       </section>
 
       <RelatedGuides slugs={['ai-telefonassistent-haandvaerker', 'ai-receptionist-viderestilling-til-menneske', 'sma-virksomheder-telefon-tid-penge']} />
+      <PhoneAnsweringSEO variant="pages.craftsman" />
       <FAQ items={craftsmanFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

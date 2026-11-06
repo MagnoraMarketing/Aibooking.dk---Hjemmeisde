@@ -817,4 +817,155 @@ export const receptionistPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    id: 'ai-telefonpasning-uden-for-aabningstid',
+    slug: 'ai-telefonpasning-uden-for-aabningstid',
+    categorySlug: 'ai-inbound-outbound',
+    title_en: 'AI Phone Answering After Hours: Evenings, Weekends and Holidays',
+    title_da: 'AI-telefonpasning uden for åbningstid: aften, weekend og ferie',
+    excerpt_en: 'Customers call when they have time — often after you have closed. How AI phone answering takes evening, weekend and holiday calls, books appointments and leaves everything ready for you the next working day.',
+    excerpt_da: 'Kunderne ringer, når de har tid — ofte efter du har lukket. Sådan tager AI-telefonpasning opkald om aftenen, i weekenden og i ferien, booker tider og lægger det hele klar til dig næste hverdag.',
+    content_da: `
+      <p>Dine kunder ringer, når <em>de</em> har tid: efter arbejde, når børnene er lagt i seng, søndag formiddag eller midt i industriferien. Det er præcis de tidspunkter, hvor ingen tager telefonen hos en lille virksomhed. <strong>AI-telefonpasning uden for åbningstid</strong> betyder, at en AI-receptionist tager de opkald, du ellers ville misse — og at du møder ind til en kalender med nye bookinger og et referat af alt det andet.</p>
+      <div class="blog-toc"><strong>I denne guide</strong><ol><li><a href="#i-dag">Hvad sker der med dine opkald efter lukketid i dag?</a></li><li><a href="#saadan">Sådan fungerer AI-telefonpasning efter lukketid</a></li><li><a href="#tidspunkter">Aften, weekend og ferie: tre forskellige behov</a></li><li><a href="#regler">Hvad AI'en skal klare — og hvad der kan vente</a></li><li><a href="#akut">Akutte opkald</a></li><li><a href="#opsaetning">Opsætning trin for trin</a></li><li><a href="#pris">Hvad koster det?</a></li></ol></div>
+      <h2 id="i-dag">Hvad sker der med dine opkald efter lukketid i dag?</h2>
+      <p>De fleste små virksomheder har en af tre løsninger, og ingen af dem er gode:</p>
+      <ul>
+        <li><strong>Telefonsvareren.</strong> Mange lægger på uden at indtale en besked, og dem der gør, skal du ringe tilbage til næste dag — hvor de måske allerede har booket et andet sted.</li>
+        <li><strong>Mobilen i lommen.</strong> Ejeren tager opkaldene om aftenen. Det virker, indtil man sidder ved middagsbordet, er på ferie eller bare har brug for fri.</li>
+        <li><strong>En menneskelig telefonpasningsservice.</strong> Et venligt menneske i røret, men ofte med begrænsede åbningstider, tillæg for aften og weekend, og som regel kun en besked videre til dig. Se den fulde sammenligning i <a href="/blog/ai-receptionist-vs-telefonpasning">AI-receptionist vs. telefonpasning</a>.</li>
+      </ul>
+      <h2 id="saadan">Sådan fungerer AI-telefonpasning efter lukketid</h2>
+      <ol>
+        <li><strong>Du viderestiller kun, når du har lukket.</strong> Du beholder dit nummer. Hos din teleudbyder sætter du viderestilling op efter tidsplan, ved optaget eller når ingen svarer efter et antal ring. I åbningstiden tager I selv telefonen som altid.</li>
+        <li><strong>AI'en præsenterer sig ærligt.</strong> "Du taler med salonens digitale assistent — vi har lukket, men jeg kan hjælpe dig med at booke eller tage en besked." Det forventer kunderne, og det kræver EU's AI-forordning (artikel 50).</li>
+        <li><strong>Den løser ærindet.</strong> Den svarer ud fra din vidensbase (åbningstider, priser, adresse, ydelser), finder en ledig tid og booker direkte i Google Kalender, Outlook eller Cal.com. Den kan også flytte og aflyse eksisterende tider, efter at have tjekket hvem der ringer.</li>
+        <li><strong>Den tager imod resten.</strong> Ærinder, der kræver dig — et tilbud, en klage, et spørgsmål om en igangværende sag — bliver til en besked med navn, nummer og et kort referat.</li>
+        <li><strong>Du læser det hele næste morgen.</strong> I dashboardet ligger hvert opkald med optagelse, udskrift og referat, så du kan prioritere, hvem der skal ringes op først.</li>
+      </ol>
+      <h2 id="tidspunkter">Aften, weekend og ferie: tre forskellige behov</h2>
+      <h3>Hverdagsaftener</h3>
+      <p>Her ringer de, der ikke kan ringe fra arbejde: patienter, der vil bestille tid til fysioterapeuten, kunder, der vil have en frisørtid lørdag, eller boligejere, der endelig har tid til at kontakte en tømrer. Ærinderne er typisk bookinger og enkle spørgsmål — dem en AI-receptionist klarer bedst.</p>
+      <h3>Weekend</h3>
+      <p>I weekenden kommer flere opkald om noget, der er gået i stykker, eller om tider i den kommende uge. Lad AI'en booke og tage imod, og beslut på forhånd, hvad der er så akut, at det ikke kan vente til mandag (se nedenfor).</p>
+      <h3>Ferie, helligdage og industriferie</h3>
+      <p>Påske, Kristi himmelfart, jul og de tre uger i juli, hvor halvdelen af Danmark holder fri. Opdater velkomsten og vidensbasen med feriedatoer, så AI'en fortæller, hvornår I er tilbage, og kun booker tider efter ferien. Kunderne får et svar i stedet for en telefon, der ringer ud i ingenting.</p>
+      ${CTA_TRIAL_DA}
+      <h2 id="regler">Hvad AI'en skal klare — og hvad der kan vente</h2>
+      <div class="blog-table"><table><thead><tr><th>Ærinde efter lukketid</th><th>AI'en</th><th>Dig næste hverdag</th></tr></thead><tbody>
+        <tr><td>Ny booking</td><td>Finder ledig tid og booker</td><td>Intet — tiden står i kalenderen</td></tr>
+        <tr><td>Flyt eller aflys tid</td><td>Tjekker hvem der ringer, flytter eller aflyser</td><td>Intet</td></tr>
+        <tr><td>Spørgsmål om priser, adresse, ydelser</td><td>Svarer ud fra vidensbasen</td><td>Intet</td></tr>
+        <tr><td>Tilbud eller større opgave</td><td>Samler oplysninger og tager besked</td><td>Ringer tilbage med tilbud</td></tr>
+        <tr><td>Klage eller utilfreds kunde</td><td>Lytter, tager besked, lover opringning</td><td>Ringer selv tilbage</td></tr>
+        <tr><td>Akut sag</td><td>Følger din akut-regel</td><td>Afhænger af reglen</td></tr>
+      </tbody></table></div>
+      <h2 id="akut">Akutte opkald: sæt en klar regel</h2>
+      <p>Det vigtigste valg ved telefonpasning efter lukketid er, hvad der sker med det, der ikke kan vente. Skriv det ind i AI'ens instruktioner, så den ikke skal gætte:</p>
+      <ul>
+        <li><strong>Håndværker med vagtordning:</strong> vandskade og strømsvigt stilles videre til vagttelefonen eller markeres som "haster" med besked til den, der har vagt. Alt andet bookes eller noteres til mandag.</li>
+        <li><strong>Klinik:</strong> AI'en giver aldrig sundhedsfaglige råd. Ved akutte symptomer henviser den til lægevagten eller 112.</li>
+        <li><strong>Butik og webshop:</strong> næsten intet er akut. AI'en svarer, tager beskeder og fortæller, hvornår I åbner.</li>
+      </ul>
+      <p>Læs mere om, <a href="/blog/ai-receptionist-viderestilling-til-menneske">hvornår AI'en skal stille videre til et menneske</a>.</p>
+      <h2 id="opsaetning">Opsætning trin for trin</h2>
+      <ol>
+        <li><strong>Skriv velkomsten</strong>, så den siger, at I har lukket, og hvad AI'en kan hjælpe med.</li>
+        <li><strong>Fyld vidensbasen</strong> med åbningstider, ferieperioder, priser og de spørgsmål, kunderne stiller — som tekst, fra jeres hjemmeside eller som PDF.</li>
+        <li><strong>Forbind kalenderen</strong> (Google Kalender, Outlook/Microsoft 365 eller Cal.com), så AI'en kun ser ledige tider.</li>
+        <li><strong>Beslut akut-reglen</strong> fra afsnittet ovenfor.</li>
+        <li><strong>Sæt viderestilling</strong> op hos din teleudbyder: uden for åbningstid, ved optaget eller efter fx fire ring.</li>
+        <li><strong>Ring selv op en aften</strong> og test med de ærinder, dine kunder typisk har. Justér, og gentag efter den første uge.</li>
+      </ol>
+      <h2 id="pris">Hvad koster AI-telefonpasning uden for åbningstid?</h2>
+      <p>Hos Aibooking.dk betaler du for taletid, ikke for tidspunktet. Der er ingen aften- eller weekendtillæg. Starter koster 999 kr. om måneden for 150 minutters taletid. Et regneeksempel: 40 opkald efter lukketid om måneden à cirka to minutter giver 80 minutter — det er inden for Starter. Du kan prøve det gratis i 7 dage på dit eget nummer. Se alle pakker i <a href="/blog/hvad-koster-en-ai-receptionist">hvad en AI-receptionist koster</a>, og læs <a href="/blog/ai-telefonpasning-dansk-ai-receptionist">de ni krav til AI-telefonpasning</a>, før du vælger udbyder.</p>
+    `,
+    content_en: `
+      <p>Your customers call when <em>they</em> have time: after work, once the kids are in bed, on Sunday morning or in the middle of the summer holidays. Those are exactly the hours when nobody answers the phone at a small business. <strong>After-hours AI phone answering</strong> means an AI receptionist takes the calls you would otherwise miss — and you start the day with new bookings in your calendar and a summary of everything else.</p>
+      <div class="blog-toc"><strong>In this guide</strong><ol><li><a href="#i-dag">What happens to your after-hours calls today?</a></li><li><a href="#saadan">How after-hours AI phone answering works</a></li><li><a href="#tidspunkter">Evenings, weekends and holidays: three different needs</a></li><li><a href="#regler">What the AI should handle — and what can wait</a></li><li><a href="#akut">Urgent calls</a></li><li><a href="#opsaetning">Setup step by step</a></li><li><a href="#pris">What does it cost?</a></li></ol></div>
+      <h2 id="i-dag">What happens to your after-hours calls today?</h2>
+      <p>Most small businesses use one of three options, and none of them is great:</p>
+      <ul>
+        <li><strong>Voicemail.</strong> Many callers hang up without leaving a message, and those who do have to be called back the next day — by which time they may have booked elsewhere.</li>
+        <li><strong>The owner's mobile.</strong> The owner takes calls in the evening. It works until you are at the dinner table, on holiday or simply need time off.</li>
+        <li><strong>A human answering service.</strong> A friendly person on the line, but often with limited hours, surcharges for evenings and weekends, and usually just a message passed on to you. See the full comparison in <a href="/blog/ai-receptionist-vs-telefonpasning">AI receptionist vs. answering service</a>.</li>
+      </ul>
+      <h2 id="saadan">How after-hours AI phone answering works</h2>
+      <ol>
+        <li><strong>You forward only when you are closed.</strong> You keep your number. With your phone provider you set forwarding on a schedule, when busy or when nobody answers after a few rings. During opening hours your team answers as usual.</li>
+        <li><strong>The AI introduces itself honestly.</strong> "You are speaking with the salon's digital assistant — we are closed, but I can help you book or take a message." Customers expect it, and the EU AI Act (Article 50) requires it.</li>
+        <li><strong>It solves the request.</strong> It answers from your knowledge base (opening hours, prices, address, services), finds a free slot and books straight into Google Calendar, Outlook or Cal.com. It can also move and cancel existing appointments after checking who is calling.</li>
+        <li><strong>It takes care of the rest.</strong> Anything that needs you — a quote, a complaint, a question about an ongoing job — becomes a message with name, number and a short summary.</li>
+        <li><strong>You read it all the next morning.</strong> Every call is in the dashboard with recording, transcript and summary, so you can decide who to call back first.</li>
+      </ol>
+      <h2 id="tidspunkter">Evenings, weekends and holidays: three different needs</h2>
+      <h3>Weekday evenings</h3>
+      <p>This is when people call who can't call from work: patients booking a physiotherapist, customers wanting a Saturday haircut, homeowners who finally have time to contact a carpenter. The requests are mostly bookings and simple questions — exactly what an AI receptionist handles best.</p>
+      <h3>Weekends</h3>
+      <p>At weekends more calls are about something that broke, or about appointments in the coming week. Let the AI book and take messages, and decide in advance what is so urgent it can't wait until Monday (see below).</p>
+      <h3>Holidays and the summer shutdown</h3>
+      <p>Easter, Christmas and the weeks in summer when much of the country is off. Update the greeting and knowledge base with your holiday dates, so the AI tells callers when you are back and only books appointments after the break. Customers get an answer instead of a phone ringing into nothing.</p>
+      ${CTA_TRIAL_EN}
+      <h2 id="regler">What the AI should handle — and what can wait</h2>
+      <div class="blog-table"><table><thead><tr><th>After-hours request</th><th>The AI</th><th>You, next working day</th></tr></thead><tbody>
+        <tr><td>New booking</td><td>Finds a free slot and books</td><td>Nothing — it's in the calendar</td></tr>
+        <tr><td>Move or cancel</td><td>Checks who is calling, moves or cancels</td><td>Nothing</td></tr>
+        <tr><td>Questions on prices, address, services</td><td>Answers from the knowledge base</td><td>Nothing</td></tr>
+        <tr><td>Quote or larger job</td><td>Collects details and takes a message</td><td>Call back with a quote</td></tr>
+        <tr><td>Complaint</td><td>Listens, takes a message, promises a call</td><td>Call back yourself</td></tr>
+        <tr><td>Urgent issue</td><td>Follows your urgent-call rule</td><td>Depends on the rule</td></tr>
+      </tbody></table></div>
+      <h2 id="akut">Urgent calls: set a clear rule</h2>
+      <p>The most important decision for after-hours answering is what happens to things that can't wait. Write it into the AI's instructions so it never has to guess:</p>
+      <ul>
+        <li><strong>Tradespeople with an on-call rota:</strong> water damage and power failures go to the on-call phone or are flagged "urgent" with a message to whoever is on call. Everything else is booked or noted for Monday.</li>
+        <li><strong>Clinics:</strong> the AI never gives medical advice. For acute symptoms it refers callers to the out-of-hours doctor or the emergency number 112.</li>
+        <li><strong>Shops and webshops:</strong> almost nothing is urgent. The AI answers, takes messages and says when you open.</li>
+      </ul>
+      <p>Read more about <a href="/blog/ai-receptionist-viderestilling-til-menneske">when the AI should hand over to a person</a>.</p>
+      <h2 id="opsaetning">Setup step by step</h2>
+      <ol>
+        <li><strong>Write the greeting</strong> so it says you are closed and what the AI can help with.</li>
+        <li><strong>Fill the knowledge base</strong> with opening hours, holiday dates, prices and the questions customers ask — as text, from your website or as a PDF.</li>
+        <li><strong>Connect the calendar</strong> (Google Calendar, Outlook/Microsoft 365 or Cal.com) so the AI only sees free slots.</li>
+        <li><strong>Decide the urgent-call rule</strong> from the section above.</li>
+        <li><strong>Set up forwarding</strong> with your phone provider: outside opening hours, when busy or after, say, four rings.</li>
+        <li><strong>Call yourself one evening</strong> and test with your customers' typical requests. Adjust, and repeat after the first week.</li>
+      </ol>
+      <h2 id="pris">What does after-hours AI phone answering cost?</h2>
+      <p>At Aibooking.dk you pay for talk time, not for the time of day. There are no evening or weekend surcharges. Starter costs DKK 999 per month for 150 minutes of talk time. An example: 40 after-hours calls a month at about two minutes each comes to 80 minutes — within Starter. You can try it free for 7 days on your own number. See all packages in <a href="/blog/hvad-koster-en-ai-receptionist">what an AI receptionist costs</a>, and read <a href="/blog/ai-telefonpasning-dansk-ai-receptionist">the nine requirements for AI phone answering</a> before you choose a provider.</p>
+    `,
+    meta_title_en: 'AI Phone Answering After Hours: Evenings & Weekends | AIBooking.dk',
+    meta_title_da: 'AI-telefonpasning uden for åbningstid | AIBooking.dk',
+    meta_description_en: 'How AI phone answering takes evening, weekend and holiday calls: forwarding, booking, urgent-call rules, setup and price — with no after-hours surcharge.',
+    meta_description_da: 'Sådan tager AI-telefonpasning opkald aften, weekend og i ferien: viderestilling, booking, akutte opkald, opsætning og pris — uden tillæg for aftener.',
+    keywords: ['ai telefonpasning', 'ai-telefonpasning uden for åbningstid', 'telefonpasning aften og weekend', 'telefonpasning ferie', 'ai telefonsvarer efter lukketid'],
+    image_url: '/blog/covers/ai-telefonpasning-uden-for-aabningstid.svg',
+    published: true,
+    published_at: '2026-11-06',
+    related: ['ai-telefonpasning-dansk-ai-receptionist', 'ai-receptionist-viderestilling-til-menneske', 'hvad-koster-en-ai-receptionist'],
+    faq: [
+      {
+        question_da: 'Kan AI’en kun tage telefonen uden for åbningstid?',
+        answer_da: 'Ja. Du beholder dit nummer og vælger selv hos din teleudbyder, hvornår opkald viderestilles: efter en tidsplan, ved optaget eller når ingen svarer. I åbningstiden tager I selv telefonen.',
+        question_en: 'Can the AI answer only outside opening hours?',
+        answer_en: 'Yes. You keep your number and choose with your phone provider when calls are forwarded: on a schedule, when busy or when nobody answers. During opening hours your team answers as usual.',
+      },
+      {
+        question_da: 'Koster AI-telefonpasning mere om aftenen og i weekenden?',
+        answer_da: 'Nej. Hos Aibooking.dk betaler du for taletid uanset tidspunkt — fra 999 kr. om måneden for 150 minutter, uden tillæg for aften, weekend eller helligdage.',
+        question_en: 'Does AI phone answering cost more in the evening and at weekends?',
+        answer_en: 'No. At Aibooking.dk you pay for talk time whatever the hour — from DKK 999 per month for 150 minutes, with no surcharge for evenings, weekends or public holidays.',
+      },
+      {
+        question_da: 'Hvad sker der med akutte opkald efter lukketid?',
+        answer_da: 'Du bestemmer det i AI’ens instruktioner: stil videre til en vagttelefon, markér beskeden som haster, eller henvis til lægevagten eller 112. AI’en giver aldrig sundhedsfaglige råd.',
+        question_en: 'What happens to urgent calls after hours?',
+        answer_en: 'You decide in the AI’s instructions: transfer to an on-call phone, flag the message as urgent, or refer the caller to the out-of-hours doctor or 112. The AI never gives medical advice.',
+      },
+    ],
+    sources: [
+      { title: 'Forordning (EU) 2024/1689 om kunstig intelligens (AI-forordningen), artikel 50', publisher: 'EUR-Lex', url: 'https://eur-lex.europa.eu/eli/reg/2024/1689/oj', date: '2024-07-12' },
+    ],
+  },
 ];

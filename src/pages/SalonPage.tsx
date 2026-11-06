@@ -20,6 +20,7 @@ import DashboardShowcase from '../components/DashboardShowcase';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import PageLink from '../components/PageLink';
 import type { NavigatePage } from '../types/navigation';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 interface SalonPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -168,6 +169,7 @@ function SalonPage({ onNavigate }: SalonPageProps) {
       </section>
 
       <RelatedGuides slugs={['totalloesning-klinik', 'outbound-ai-opkald-paamindelser', 'hvad-koster-en-ai-receptionist']} />
+      <PhoneAnsweringSEO variant="pages.salon" />
       <FAQ items={salonFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

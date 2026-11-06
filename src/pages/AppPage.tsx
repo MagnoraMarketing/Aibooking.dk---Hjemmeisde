@@ -16,6 +16,7 @@ import {
 import type { NavigatePage } from '../types/navigation';
 import { LOGIN_URL, SIGNUP_URL } from '../utils/backend';
 import PageLink from '../components/PageLink';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 interface AppPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -254,6 +255,7 @@ function AppPage({ onNavigate }: AppPageProps) {
         </div>
       </section>
 
+      <PhoneAnsweringSEO variant="pages.app" />
       <FAQ items={appFAQs} />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-brand-600 via-brand-600 to-brand-700">

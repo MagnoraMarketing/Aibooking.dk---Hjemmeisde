@@ -17,6 +17,7 @@ import { createBreadcrumbSchema } from '../utils/structuredData';
 import { BarChart3, Calendar, Clock, TrendingUp, Users, Phone, MessageSquare, CheckSquare, Scissors } from 'lucide-react';
 import type { NavigatePage } from '../types/navigation';
 import PageLink from '../components/PageLink';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 interface IndustriesPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -162,6 +163,7 @@ function IndustriesPage({ onNavigate }: IndustriesPageProps) {
         </div>
       </div>
 
+      <PhoneAnsweringSEO variant="pages.industries" />
       <FAQ items={industriesFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

@@ -19,6 +19,7 @@ import { createBreadcrumbSchema, createFAQSchema } from '../utils/structuredData
 import ClinicDashboardMock from '../components/ClinicDashboardMock';
 import type { NavigatePage } from '../types/navigation';
 import { VOICE_PLAN_PRICES_DKK } from '../utils/pricing';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 // Danish-worded canonical path; SEO turns it into per-language hreflang URLs.
 const PAGE_PATH = '/ind-og-udgaaende-opkald';
@@ -721,6 +722,7 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
       <WidgetCapabilitiesSEO />
       <AppQrSection />
       <RelatedGuides slugs={['ai-telefonpasning-dansk-ai-receptionist', 'hvad-koster-en-ai-receptionist', 'inbound-outbound-forskel', 'outbound-ai-opkald-paamindelser', 'ai-receptionist-viderestilling-til-menneske', 'hvad-er-en-ai-voice-agent']} />
+      <PhoneAnsweringSEO variant="pages.inboundOutbound" hideProductLink />
       <Footer onNavigate={onNavigate} />
     </div>
   );

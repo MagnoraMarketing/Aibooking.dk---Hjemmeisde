@@ -20,6 +20,7 @@ import IndustryCalculator from '../components/industries/IndustryCalculator';
 import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
 import DashboardShowcase from '../components/DashboardShowcase';
 import type { NavigatePage } from '../types/navigation';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 // Danish-worded canonical path; SEO turns it into per-language hreflang URLs.
 const PAGE_PATH = '/webshop';
@@ -244,6 +245,7 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
       </section>
 
       <RelatedGuides slugs={['shopify-integration-ai-voice-indgaaende-opkald', 'widget-til-webshop', 'shopify-ai-automatisering']} />
+      <PhoneAnsweringSEO variant="pages.ecommerce" />
       <FAQ items={ecommerceFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

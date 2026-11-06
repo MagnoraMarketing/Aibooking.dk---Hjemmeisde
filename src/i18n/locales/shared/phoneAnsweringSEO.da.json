@@ -1,0 +1,203 @@
+{
+  "eyebrow": "AI-telefonpasning",
+  "links": {
+    "product": "Se AI-telefonpasning",
+    "guide": "Guide: AI-telefonpasning uden for åbningstid",
+    "requirements": "Guide: 9 krav til AI-telefonpasning"
+  },
+  "pages": {
+    "home": {
+      "title": "AI-telefonpasning, der svarer, booker og husker alt",
+      "text": [
+        "Med AI-telefonpasning fra Aibooking.dk bliver dit nummer besvaret af en dansk AI-receptionist, hver gang I ikke selv kan nå det: ved optaget, i frokostpausen, om aftenen og i weekenden. Den svarer ud fra jeres egne oplysninger og booker direkte i kalenderen.",
+        "Du beholder dit nummer og bestemmer selv, hvornår opkald viderestilles. Hvert opkald ligger bagefter i dashboardet med optagelse, udskrift og referat, så intet går tabt mellem kunden og dig."
+      ]
+    },
+    "features": {
+      "title": "Funktionerne bag AI-telefonpasning",
+      "text": [
+        "AI-telefonpasning er mere end en stemme i røret. Bag samtalen ligger vidensbase fra tekst, hjemmeside eller PDF, kalenderbooking med ombooking og aflysning, flere samtidige opkald og seks samtalesprog — dansk, engelsk, tysk, spansk, fransk og portugisisk.",
+        "Alle funktioner deler samme dashboard som jeres AI-widget, så I kan se, hvad kunderne spørger om i telefonen og på hjemmesiden, og rette svarene ét sted."
+      ]
+    },
+    "widget": {
+      "title": "Widget på hjemmesiden — AI-telefonpasning i telefonen",
+      "text": [
+        "Widgeten tager sig af dem, der besøger jeres hjemmeside. Men mange kunder foretrækker stadig at ringe. Med AI-telefonpasning får de samme hjælp i telefonen: samme viden, samme kalender og samme tone som i widgeten.",
+        "Begge kanaler kører fra ét dashboard, så en kunde, der først chatter og senere ringer, møder et konsekvent svar — og I ser begge samtaler samlet."
+      ]
+    },
+    "inboundOutbound": {
+      "title": "Hvorfor vælge AI-telefonpasning frem for telefonsvarer?",
+      "text": [
+        "En telefonsvarer beder kunden om at vente. AI-telefonpasning løser ærindet med det samme: den forstår, hvad kunden vil, svarer på spørgsmål, finder en ledig tid og bekræfter bookingen, mens kunden stadig er i røret.",
+        "I vælger selv, om AI'en tager alle opkald, kun uden for åbningstid eller når linjen er optaget. Ingen tillæg for aftener og weekender — I betaler for taletid."
+      ]
+    },
+    "integrations": {
+      "title": "AI-telefonpasning forbundet til jeres kalender",
+      "text": [
+        "AI-telefonpasning giver kun mening, hvis AI'en kan se, hvornår I har tid. Derfor forbinder den sig direkte til Google Kalender, Outlook/Microsoft 365 eller Cal.com og booker kun i ledige tider.",
+        "Webshops kan også koble Shopify på, så kunder, der ringer, får svar om produkter og ordrestatus, og restauranter kan lade AI'en bestille bud via Uber Direct eller Just Eat."
+      ]
+    },
+    "industries": {
+      "title": "AI-telefonpasning til hver branche",
+      "text": [
+        "En tandlægeklinik, et VVS-firma og en frisørsalon får vidt forskellige opkald. AI-telefonpasning tilpasses jeres branche: hvilke spørgsmål AI'en stiller, hvad den må booke, og hvornår den skal tage en besked i stedet.",
+        "Fælles for alle brancher er, at telefonen bliver besvaret, også når I står med en kunde, er ude på en opgave eller har lukket for i dag."
+      ]
+    },
+    "demo": {
+      "title": "Hør AI-telefonpasning i praksis",
+      "text": [
+        "Den bedste måde at vurdere AI-telefonpasning på er at høre den. I en demo ringer vi op, viser hvordan AI'en præsenterer sig, finder en tid og bekræfter bookingen, og hvordan opkaldet derefter ser ud i dashboardet.",
+        "Tag gerne jeres egne typiske kundespørgsmål med, så I kan høre, hvordan den klarer netop jeres hverdag — på dansk og med dialekter."
+      ]
+    },
+    "healthcare": {
+      "title": "AI-telefonpasning til klinikken",
+      "text": [
+        "Telefontiden i en klinik er ofte kort og presset. AI-telefonpasning tager opkald om tidsbestilling, ombooking og afbud hele dagen, så personalet kan tage sig af patienterne i stolen.",
+        "AI'en giver aldrig sundhedsfaglige råd. Ved akutte symptomer henviser den til lægevagten eller 112, og alt det, behandleren selv skal se på, bliver til en besked med et kort referat."
+      ]
+    },
+    "craftsman": {
+      "title": "AI-telefonpasning til håndværkere på farten",
+      "text": [
+        "Du kan ikke tage telefonen med hænderne i en installation. AI-telefonpasning svarer for dig, spørger ind til opgaven, adressen og hvor hurtigt det haster, og booker en besigtigelse i kalenderen.",
+        "Tilbuddet laver du stadig selv. Du får bare alle oplysninger samlet i et referat, så du kan ringe tilbage velforberedt, når du har fri hænder."
+      ]
+    },
+    "office": {
+      "title": "AI-telefonpasning til kontoret",
+      "text": [
+        "For advokater, revisorer og ejendomsmæglere er telefonen ofte det første indtryk. AI-telefonpasning tager imod opkaldet professionelt, booker møder og tager beskeder til den rette medarbejder, når vedkommende sidder i møde.",
+        "Den udleverer aldrig oplysninger om klienters sager — den modtager ærindet, så den ansvarlige kan ringe tilbage."
+      ]
+    },
+    "ecommerce": {
+      "title": "AI-telefonpasning til webshoppen",
+      "text": [
+        "Webshopkunder ringer om levering, retur og størrelser — ofte de samme spørgsmål igen og igen. AI-telefonpasning svarer ud fra jeres egne politikker og produktinformation, døgnet rundt.",
+        "Bruger I Shopify, kan AI'en også slå ordrestatus op ud fra ordrenummeret, så kunden får svar uden at vente på kundeservice."
+      ]
+    },
+    "contact": {
+      "title": "Spørgsmål om AI-telefonpasning?",
+      "text": [
+        "Er I i tvivl om, hvordan AI-telefonpasning passer til jeres virksomhed, så skriv eller ring til os. Vi gennemgår gerne jeres typiske opkald og foreslår, hvornår AI'en skal tage over.",
+        "Vil I hellere prøve selv, kan I oprette en gratis prøveperiode, viderestille jeres nummer og se resultatet i jeres eget dashboard."
+      ]
+    },
+    "about": {
+      "title": "Dansk AI-telefonpasning, bygget til små virksomheder",
+      "text": [
+        "Aibooking.dk er skabt til danske virksomheder, der mister kunder, fordi telefonen ringer, når ingen kan tage den. Vores AI-telefonpasning er bygget til at forstå dansk, som kunderne taler det.",
+        "Vi lægger vægt på gennemsigtige priser, data behandlet i EU og en AI, der ærligt præsenterer sig som en digital assistent."
+      ]
+    },
+    "trial": {
+      "title": "Prøv AI-telefonpasning på jeres eget nummer",
+      "text": [
+        "I prøveperioden kan I teste AI-telefonpasning på rigtige opkald: viderestil jeres nummer, forbind kalenderen, og se hvordan AI'en svarer og booker.",
+        "Start gerne med viderestilling uden for åbningstid eller ved optaget. Så risikerer I ingenting, og I kan se i dashboardet præcis, hvilke opkald I ellers ville have misset."
+      ]
+    },
+    "app": {
+      "title": "Følg jeres AI-telefonpasning fra mobilen",
+      "text": [
+        "Med appen har I AI-telefonpasningen i lommen. Hvert opkald, AI'en har taget, kan ses med optagelse, udskrift og referat, så I hurtigt kan ringe de vigtigste kunder tilbage.",
+        "Det er især nyttigt for dem, der arbejder ude hos kunderne: I ser nye bookinger og beskeder, så snart de kommer ind."
+      ]
+    },
+    "salon": {
+      "title": "AI-telefonpasning til frisører og saloner",
+      "text": [
+        "Når du står med saks og føntørrer, kan du ikke tage telefonen. AI-telefonpasning booker, flytter og aflyser tider for dig, så kunderne ikke ender i en ventekø eller på telefonsvareren.",
+        "Den kender jeres behandlinger, priser og varighed, og booker kun i tider, der passer til både behandling og frisør."
+      ]
+    },
+    "shopify": {
+      "title": "AI-telefonpasning til Shopify-butikker",
+      "text": [
+        "Samme Shopify-forbindelse, som driver chatten på hjemmesiden, kan også bruges i telefonen. AI-telefonpasning søger i jeres produkter, læser jeres fragt- og returpolitik og slår ordrestatus op ud fra ordrenummeret.",
+        "AI'en har kun læseadgang og udleverer hverken navne, adresser eller betalingsoplysninger fra ordren — kun status, forsendelse og levering."
+      ]
+    },
+    "restaurant": {
+      "title": "AI-telefonpasning til restauranter",
+      "text": [
+        "Midt i aftenservicen er der ingen, der har tid til telefonen. AI-telefonpasning tager bordbestillinger, svarer på spørgsmål om menu, allergener og åbningstider og kan bestille et bud gennem Uber Direct eller Just Eat.",
+        "Selve madbestillingen og betalingen håndterer I fortsat i jeres eget system."
+      ]
+    },
+    "blog": {
+      "title": "Alt om AI-telefonpasning samlet ét sted",
+      "text": [
+        "På bloggen finder du guides om AI-telefonpasning: hvad det koster, hvad du bør kræve af en udbyder, hvordan den håndterer dansk tale, og hvornår et menneske skal tage over.",
+        "Start med guiden om AI-telefonpasning uden for åbningstid, hvis du vil i gang med det samme, eller læs kravene, før du vælger udbyder."
+      ]
+    }
+  },
+  "blogCategory": {
+    "ai-widget": {
+      "title": "AI-widget og AI-telefonpasning hænger sammen",
+      "text": [
+        "Guiderne i denne kategori handler om hjemmesiden. Men de samme kunder, der chatter med widgeten, ringer også. Med AI-telefonpasning får de samme svar og den samme kalender i telefonen.",
+        "Widget og telefon deler vidensbase og dashboard, så I kun skal vedligeholde jeres oplysninger ét sted."
+      ]
+    },
+    "ai-inbound-outbound": {
+      "title": "Kom godt i gang med AI-telefonpasning",
+      "text": [
+        "Denne kategori samler vores guides om AI-receptionister og AI-telefonpasning. Er du ny, så start med de ni krav til en udbyder, læs derefter, hvad det koster, og hvordan opkald uden for åbningstid håndteres.",
+        "Alle guides er skrevet ud fra danske forhold: dansk tale, danske kalendere, GDPR og EU's AI-forordning."
+      ]
+    },
+    "ai-total-solution": {
+      "title": "AI-telefonpasning som første skridt i automatiseringen",
+      "text": [
+        "Mange virksomheder starter deres automatisering med telefonen, fordi ubesvarede opkald er der, hvor kunderne forsvinder. AI-telefonpasning booker direkte i kalenderen og giver hurtigt et overblik over, hvad kunderne ringer om.",
+        "Derfra er det nemt at bygge videre med widget på hjemmesiden og flere integrationer."
+      ]
+    },
+    "ai-webshop": {
+      "title": "AI-telefonpasning til webshops",
+      "text": [
+        "Webshopkunder skriver ikke kun — de ringer også, især om levering og retur. AI-telefonpasning svarer på de spørgsmål ud fra jeres egne politikker, og med Shopify også om ordrestatus.",
+        "Så kan kundeservice bruge tiden på de sager, der kræver et menneske."
+      ]
+    }
+  },
+  "blogPost": {
+    "ai-widget": {
+      "title": "Brug den samme AI i telefonen",
+      "text": [
+        "Det, du lige har læst om widgeten, gælder også for telefonen. Med AI-telefonpasning svarer den samme AI på opkald til jeres nummer, med samme viden og samme kalender.",
+        "Mange starter med telefonen uden for åbningstid og lægger widgeten på hjemmesiden bagefter — eller omvendt."
+      ]
+    },
+    "ai-inbound-outbound": {
+      "title": "Næste skridt: AI-telefonpasning på jeres eget nummer",
+      "text": [
+        "Vil du se, hvordan det i artiklen fungerer på jeres egne opkald, kan du sætte AI-telefonpasning op på en eftermiddag: skriv velkomsten, forbind kalenderen, og viderestil nummeret, når I har lukket.",
+        "I prøveperioden ser du i dashboardet, hvilke opkald AI'en tog, og hvad den bookede."
+      ]
+    },
+    "ai-total-solution": {
+      "title": "Automatisering starter ofte i telefonen",
+      "text": [
+        "Den hurtigste gevinst ved AI-automatisering er tit de opkald, ingen når at tage. AI-telefonpasning tager dem, booker i kalenderen og giver dig et referat, så du kan se værdien fra første uge.",
+        "Læs guiden om opkald uden for åbningstid for et konkret startpunkt."
+      ]
+    },
+    "ai-webshop": {
+      "title": "Når webshopkunden ringer",
+      "text": [
+        "Ikke alle kunder skriver. Med AI-telefonpasning får dem, der ringer, svar om produkter, levering og retur — og med Shopify også om ordrestatus — uden at vente i kø.",
+        "Opkaldene ligger bagefter i dashboardet, så I kan se, hvad kunderne oftest spørger om."
+      ]
+    }
+  }
+}

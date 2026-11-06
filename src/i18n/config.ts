@@ -149,6 +149,11 @@ import restaurantPageEs from './locales/pages/restaurantPage.es.json';
 import restaurantPageDe from './locales/pages/restaurantPage.de.json';
 import restaurantPageFr from './locales/pages/restaurantPage.fr.json';
 
+import phoneAnsweringSEODa from './locales/shared/phoneAnsweringSEO.da.json';
+import phoneAnsweringSEOEn from './locales/shared/phoneAnsweringSEO.en.json';
+import phoneAnsweringSEOEs from './locales/shared/phoneAnsweringSEO.es.json';
+import phoneAnsweringSEODe from './locales/shared/phoneAnsweringSEO.de.json';
+import phoneAnsweringSEOFr from './locales/shared/phoneAnsweringSEO.fr.json';
 import widgetCapabilitiesSEODa from './locales/shared/widgetCapabilitiesSEO.da.json';
 import widgetCapabilitiesSEOEn from './locales/shared/widgetCapabilitiesSEO.en.json';
 import widgetCapabilitiesSEOEs from './locales/shared/widgetCapabilitiesSEO.es.json';
@@ -196,7 +201,7 @@ const PAGE_NAMESPACES = [
 
 // Namespaces for components rendered on more than one page, so the two copies
 // can't drift apart.
-const SHARED_NAMESPACES = ['clinicDashboard', 'agencyDashboard', 'widgetCapabilitiesSEO', 'blogCta', 'pageHero', 'audioDemo'] as const;
+const SHARED_NAMESPACES = ['clinicDashboard', 'agencyDashboard', 'widgetCapabilitiesSEO', 'phoneAnsweringSEO', 'blogCta', 'pageHero', 'audioDemo'] as const;
 
 i18n
   .use(LanguageDetector)
@@ -232,6 +237,7 @@ i18n
         clinicDashboard: clinicDashboardDa,
         agencyDashboard: agencyDashboardDa,
         widgetCapabilitiesSEO: widgetCapabilitiesSEODa,
+        phoneAnsweringSEO: phoneAnsweringSEODa,
         blogCta: blogCtaDa,
         pageHero: pageHeroDa,
         audioDemo: audioDemoDa,
@@ -263,6 +269,7 @@ i18n
         clinicDashboard: clinicDashboardEn,
         agencyDashboard: agencyDashboardEn,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOEn,
+        phoneAnsweringSEO: phoneAnsweringSEOEn,
         blogCta: blogCtaEn,
         pageHero: pageHeroEn,
         audioDemo: audioDemoEn,
@@ -294,6 +301,7 @@ i18n
         clinicDashboard: clinicDashboardEs,
         agencyDashboard: agencyDashboardEs,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOEs,
+        phoneAnsweringSEO: phoneAnsweringSEOEs,
         blogCta: blogCtaEs,
         pageHero: pageHeroEs,
         audioDemo: audioDemoEs,
@@ -325,6 +333,7 @@ i18n
         clinicDashboard: clinicDashboardFr,
         agencyDashboard: agencyDashboardFr,
         widgetCapabilitiesSEO: widgetCapabilitiesSEOFr,
+        phoneAnsweringSEO: phoneAnsweringSEOFr,
         blogCta: blogCtaFr,
         pageHero: pageHeroFr,
         audioDemo: audioDemoFr,
@@ -356,6 +365,7 @@ i18n
         clinicDashboard: clinicDashboardDe,
         agencyDashboard: agencyDashboardDe,
         widgetCapabilitiesSEO: widgetCapabilitiesSEODe,
+        phoneAnsweringSEO: phoneAnsweringSEODe,
         blogCta: blogCtaDe,
         pageHero: pageHeroDe,
         audioDemo: audioDemoDe,

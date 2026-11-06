@@ -13,6 +13,7 @@ import type { SupportedLanguage } from '../i18n/config';
 import { blogPostPath, localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
 import JsonLd from '../components/JsonLd';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 const PAGE_PATH = '/blog';
 
@@ -290,6 +291,7 @@ export default function BlogPage({ onNavigate }: BlogPageProps) {
         </div>
       </div>
 
+      <PhoneAnsweringSEO variant="pages.blog" />
       <FAQ items={blogFAQs} />
       <Footer onNavigate={onNavigate} />
     </div>

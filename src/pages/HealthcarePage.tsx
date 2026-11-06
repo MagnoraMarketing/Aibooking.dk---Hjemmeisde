@@ -19,6 +19,7 @@ import IndustryCalculator from '../components/industries/IndustryCalculator';
 import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
 import DashboardShowcase from '../components/DashboardShowcase';
 import type { NavigatePage } from '../types/navigation';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 interface HealthcarePageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -147,6 +148,7 @@ function HealthcarePage({ onNavigate }: HealthcarePageProps) {
       </section>
 
       <RelatedGuides slugs={['totalloesning-klinik', 'outbound-ai-opkald-paamindelser', 'ai-widget-gdpr-danske-virksomheder']} />
+      <PhoneAnsweringSEO variant="pages.healthcare" />
       <FAQ items={healthcareFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

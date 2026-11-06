@@ -17,6 +17,7 @@ import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import { SIGNUP_URL } from '../utils/backend';
 import type { SupportedLanguage } from '../i18n/config';
 import type { NavigatePage } from '../types/navigation';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 interface RestaurantPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -299,6 +300,7 @@ function RestaurantPage({ onNavigate }: RestaurantPageProps) {
       </section>
 
       <RelatedGuides slugs={['ai-bestiller-bud-levering-uber-direct-just-eat', 'ai-indgaaende-opkald', 'ai-widget-hjemmeside-komplet-guide']} />
+      <PhoneAnsweringSEO variant="pages.restaurant" />
       <FAQ items={restaurantFAQs} />
       <Footer onNavigate={onNavigate} />
     </div>

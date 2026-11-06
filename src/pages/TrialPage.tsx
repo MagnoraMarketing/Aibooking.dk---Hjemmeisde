@@ -16,6 +16,7 @@ import {
 import type { NavigatePage } from '../types/navigation';
 import { SIGNUP_URL } from '../utils/backend';
 import PageLink from '../components/PageLink';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 interface TrialPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -192,6 +193,7 @@ function TrialPage({ onNavigate }: TrialPageProps) {
 
       <WidgetCapabilitiesSEO />
       <AppQrSection />
+      <PhoneAnsweringSEO variant="pages.trial" />
       <Footer onNavigate={onNavigate} />
     </div>
   );

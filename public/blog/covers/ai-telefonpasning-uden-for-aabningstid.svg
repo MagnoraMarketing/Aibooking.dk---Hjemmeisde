@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-aitelefonpas" x1="0%" y1="0%" x2="100%" y2="100%" gradientTransform="rotate(208 0.5 0.5)">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <radialGradient id="glow1-aitelefonpas" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2-aitelefonpas" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d97706" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots-aitelefonpas" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="white" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg-aitelefonpas)"/>
+  <rect width="1200" height="675" fill="url(#dots-aitelefonpas)"/>
+  <circle cx="151.5367497340776" cy="283.65931948646903" r="374.54126205295324" fill="url(#glow1-aitelefonpas)"/>
+  <circle cx="811.2051993492059" cy="391.0351586760953" r="377.8122715558857" fill="url(#glow2-aitelefonpas)"/>
+
+  <line x1="600" y1="-202.5" x2="600" y2="877.5"
+    stroke="#d97706" stroke-width="140" opacity="0.11"
+    transform="rotate(244 600 337.5)"/>
+
+  <circle cx="132.24933542311192" cy="130.7381440680474" r="43.31261261366308" fill="none" stroke="#d97706" stroke-width="2" opacity="0.5"/>
+  <circle cx="187.28825490362942" cy="602.208263640292" r="19.947131014429033" fill="#2563eb" opacity="0.18"/>
+
+  <g transform="translate(657.1414860785007 391.26118244603276) rotate(-4)">
+    <circle r="95.61984580568969" fill="white" opacity="0.06"/>
+    <circle r="95.61984580568969" fill="none" stroke="white" stroke-opacity="0.28" stroke-width="1.5"/>
+    <rect x="-69.5417060405016" y="-69.5417060405016" width="139.0834120810032" height="139.0834120810032" rx="34.7708530202508"
+      fill="url(#glow1-aitelefonpas)" opacity="0.9"/>
+    <rect x="-69.5417060405016" y="-69.5417060405016" width="139.0834120810032" height="139.0834120810032" rx="34.7708530202508"
+      fill="#3b82f6" opacity="0.55"/>
+    <g transform="scale(8.6927132550627) translate(-12 -12)">
+      <circle cx="12" cy="13" r="8" fill="none" stroke="white" stroke-width="1.6"/><path d="M12 9v4l3 2" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 2h6" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

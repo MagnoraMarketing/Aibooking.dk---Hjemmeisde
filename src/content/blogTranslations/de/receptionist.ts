@@ -340,4 +340,70 @@ export const receptionistDe: BlogTranslations = {
       { question: `Gibt die KI Informationen zu Mandantenvorgängen preis?`, answer: `Sie sollte so eingerichtet sein, dass sie das nie tut. Sie nimmt das Anliegen auf und leitet es weiter oder hinterlässt eine Nachricht für die zuständige Person.` },
     ],
   },
+  'ai-telefonpasning-uden-for-aabningstid': {
+    title: `KI-Telefonservice außerhalb der Öffnungszeiten: abends, am Wochenende und im Urlaub`,
+    excerpt: `Kunden rufen an, wenn sie Zeit haben – oft nach Feierabend. Wie ein KI-Telefonservice Anrufe am Abend, am Wochenende und in den Betriebsferien annimmt, Termine bucht und alles für den nächsten Werktag vorbereitet.`,
+    meta_title: `KI-Telefonservice außerhalb der Öffnungszeiten | AIBooking.dk`,
+    meta_description: `So nimmt ein KI-Telefonservice Anrufe abends, am Wochenende und im Urlaub an: Umleitung, Buchung, Notfallregeln, Einrichtung und Preis – ohne Abendzuschlag.`,
+    content: `
+      <p>Ihre Kunden rufen an, wenn <em>sie</em> Zeit haben: nach Feierabend, wenn die Kinder im Bett sind, am Sonntagvormittag oder mitten in den Sommerferien. Genau dann geht in einem kleinen Betrieb niemand ans Telefon. <strong>KI-Telefonservice außerhalb der Öffnungszeiten</strong> heißt: Ein KI-Rezeptionist nimmt die Anrufe an, die Sie sonst verpassen würden – und Sie starten den Tag mit neuen Terminen im Kalender und einer Zusammenfassung aller anderen Anliegen.</p>
+      <div class="blog-toc"><strong>In diesem Ratgeber</strong><ol><li><a href="#i-dag">Was passiert heute mit Anrufen nach Feierabend?</a></li><li><a href="#saadan">So funktioniert der KI-Telefonservice nach Feierabend</a></li><li><a href="#tidspunkter">Abend, Wochenende und Urlaub: drei verschiedene Bedürfnisse</a></li><li><a href="#regler">Was die KI erledigt – und was warten kann</a></li><li><a href="#akut">Dringende Anrufe</a></li><li><a href="#opsaetning">Einrichtung Schritt für Schritt</a></li><li><a href="#pris">Was kostet es?</a></li></ol></div>
+      <h2 id="i-dag">Was passiert heute mit Anrufen nach Feierabend?</h2>
+      <p>Die meisten kleinen Betriebe nutzen eine von drei Lösungen – und keine ist wirklich gut:</p>
+      <ul>
+        <li><strong>Der Anrufbeantworter.</strong> Viele legen auf, ohne eine Nachricht zu hinterlassen. Wer es doch tut, muss am nächsten Tag zurückgerufen werden – und hat bis dahin vielleicht schon woanders gebucht.</li>
+        <li><strong>Das Handy des Inhabers.</strong> Der Chef nimmt abends selbst ab. Das klappt, bis man beim Abendessen sitzt, im Urlaub ist oder einfach Feierabend braucht.</li>
+        <li><strong>Ein klassischer Telefonservice mit Menschen.</strong> Eine freundliche Stimme am Telefon, aber oft mit eingeschränkten Zeiten, Zuschlägen für Abende und Wochenenden und meist nur einer Notiz, die an Sie weitergeht. Den vollständigen Vergleich finden Sie in <a href="/blog/ai-receptionist-vs-telefonpasning">KI-Rezeptionist vs. Telefonservice</a>.</li>
+      </ul>
+      <h2 id="saadan">So funktioniert der KI-Telefonservice nach Feierabend</h2>
+      <ol>
+        <li><strong>Sie leiten nur um, wenn geschlossen ist.</strong> Ihre Nummer bleibt. Bei Ihrem Telefonanbieter stellen Sie eine Rufumleitung nach Zeitplan, bei besetzt oder nach einigen Klingeltönen ein. Während der Öffnungszeiten geht Ihr Team wie gewohnt selbst ran.</li>
+        <li><strong>Die KI stellt sich ehrlich vor.</strong> „Sie sprechen mit der digitalen Assistentin des Salons – wir haben geschlossen, aber ich helfe Ihnen gern bei einer Buchung oder nehme eine Nachricht auf.“ Das erwarten Kunden, und die EU-KI-Verordnung (Artikel 50) verlangt es.</li>
+        <li><strong>Sie erledigt das Anliegen.</strong> Sie antwortet auf Basis Ihrer Wissensdatenbank (Öffnungszeiten, Preise, Adresse, Leistungen), findet einen freien Termin und bucht direkt in Google Kalender, Outlook oder Cal.com. Bestehende Termine kann sie nach Prüfung des Anrufers auch verschieben oder absagen.</li>
+        <li><strong>Sie nimmt den Rest auf.</strong> Alles, was Sie selbst brauchen – ein Angebot, eine Reklamation, eine Frage zu einem laufenden Auftrag – wird zu einer Nachricht mit Name, Nummer und kurzer Zusammenfassung.</li>
+        <li><strong>Sie lesen alles am nächsten Morgen.</strong> Jeder Anruf liegt im Dashboard mit Aufzeichnung, Transkript und Zusammenfassung, sodass Sie entscheiden können, wen Sie zuerst zurückrufen.</li>
+      </ol>
+      <h2 id="tidspunkter">Abend, Wochenende und Urlaub: drei verschiedene Bedürfnisse</h2>
+      <h3>Werktagabende</h3>
+      <p>Jetzt rufen die an, die tagsüber nicht telefonieren können: Patienten, die einen Termin bei der Physiotherapie wollen, Kundinnen, die einen Friseurtermin am Samstag suchen, oder Hausbesitzer, die endlich Zeit haben, einen Schreiner anzufragen. Meist geht es um Buchungen und einfache Fragen – genau das, was ein KI-Rezeptionist am besten kann.</p>
+      <h3>Wochenende</h3>
+      <p>Am Wochenende geht es häufiger um etwas, das kaputtgegangen ist, oder um Termine in der kommenden Woche. Lassen Sie die KI buchen und Nachrichten aufnehmen, und legen Sie vorher fest, was so dringend ist, dass es nicht bis Montag warten kann (siehe unten).</p>
+      <h3>Urlaub, Feiertage und Betriebsferien</h3>
+      <p>Ostern, Brückentage, Weihnachten und die Betriebsferien im Sommer. Hinterlegen Sie Ihre Urlaubsdaten in Begrüßung und Wissensdatenbank, damit die KI sagt, wann Sie wieder da sind, und nur Termine nach dem Urlaub bucht. Kunden bekommen eine Antwort statt eines Telefons, das ins Leere klingelt.</p>
+      <div class="blog-cta"><strong>Testen Sie einen KI-Rezeptionisten mit Ihrer eigenen Nummer</strong><p>Erstellen Sie ein kostenloses Konto, leiten Sie Ihre Nummer um und lassen Sie die KI 7 Tage lang echte Anrufe annehmen. Ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/demo">Demo buchen</a></div></div>
+      <h2 id="regler">Was die KI erledigt – und was warten kann</h2>
+      <div class="blog-table"><table><thead><tr><th>Anliegen nach Feierabend</th><th>Die KI</th><th>Sie am nächsten Werktag</th></tr></thead><tbody>
+        <tr><td>Neue Buchung</td><td>Findet einen freien Termin und bucht</td><td>Nichts – der Termin steht im Kalender</td></tr>
+        <tr><td>Termin verschieben oder absagen</td><td>Prüft den Anrufer, verschiebt oder sagt ab</td><td>Nichts</td></tr>
+        <tr><td>Fragen zu Preisen, Adresse, Leistungen</td><td>Antwortet aus der Wissensdatenbank</td><td>Nichts</td></tr>
+        <tr><td>Angebot oder größerer Auftrag</td><td>Sammelt Angaben und nimmt eine Nachricht auf</td><td>Rückruf mit Angebot</td></tr>
+        <tr><td>Reklamation</td><td>Hört zu, nimmt eine Nachricht auf, kündigt Rückruf an</td><td>Selbst zurückrufen</td></tr>
+        <tr><td>Notfall</td><td>Folgt Ihrer Notfallregel</td><td>Hängt von der Regel ab</td></tr>
+      </tbody></table></div>
+      <h2 id="akut">Dringende Anrufe: eine klare Regel festlegen</h2>
+      <p>Die wichtigste Entscheidung beim Telefonservice nach Feierabend: Was passiert mit dem, was nicht warten kann? Schreiben Sie es in die Anweisungen der KI, damit sie nie raten muss:</p>
+      <ul>
+        <li><strong>Handwerksbetrieb mit Notdienst:</strong> Wasserschaden und Stromausfall werden an das Notdiensthandy weitergeleitet oder als „dringend“ mit Nachricht an den Bereitschaftsdienst markiert. Alles andere wird gebucht oder für Montag notiert.</li>
+        <li><strong>Praxis:</strong> Die KI gibt nie medizinischen Rat. Bei akuten Beschwerden verweist sie auf den ärztlichen Bereitschaftsdienst unter 116 117 oder im Notfall auf die 112.</li>
+        <li><strong>Laden und Onlineshop:</strong> Fast nichts ist dringend. Die KI antwortet, nimmt Nachrichten auf und sagt, wann Sie öffnen.</li>
+      </ul>
+      <p>Mehr dazu, <a href="/blog/ai-receptionist-viderestilling-til-menneske">wann die KI an einen Menschen übergeben sollte</a>.</p>
+      <h2 id="opsaetning">Einrichtung Schritt für Schritt</h2>
+      <ol>
+        <li><strong>Begrüßung schreiben</strong>: dass geschlossen ist und wobei die KI helfen kann.</li>
+        <li><strong>Wissensdatenbank füllen</strong> mit Öffnungszeiten, Urlaubszeiten, Preisen und den Fragen, die Kunden stellen – als Text, von Ihrer Website oder als PDF.</li>
+        <li><strong>Kalender verbinden</strong> (Google Kalender, Outlook/Microsoft 365 oder Cal.com), damit die KI nur freie Termine sieht.</li>
+        <li><strong>Notfallregel festlegen</strong> wie im Abschnitt oben.</li>
+        <li><strong>Rufumleitung einrichten</strong> bei Ihrem Telefonanbieter: außerhalb der Öffnungszeiten, bei besetzt oder nach zum Beispiel vier Klingeltönen.</li>
+        <li><strong>Selbst an einem Abend anrufen</strong> und mit den typischen Anliegen Ihrer Kunden testen. Anpassen und nach der ersten Woche wiederholen.</li>
+      </ol>
+      <h2 id="pris">Was kostet ein KI-Telefonservice außerhalb der Öffnungszeiten?</h2>
+      <p>Bei Aibooking.dk bezahlen Sie Gesprächszeit, nicht die Uhrzeit. Es gibt keine Abend- oder Wochenendzuschläge. Starter kostet 134 € pro Monat für 150 Minuten Gesprächszeit. Ein Rechenbeispiel: 40 Anrufe nach Feierabend im Monat à etwa zwei Minuten ergeben 80 Minuten – das liegt im Starter-Paket. Sie können es 7 Tage kostenlos mit Ihrer eigenen Nummer testen. Alle Pakete finden Sie unter <a href="/blog/hvad-koster-en-ai-receptionist">Was ein KI-Rezeptionist kostet</a>, und lesen Sie <a href="/blog/ai-telefonpasning-dansk-ai-receptionist">die neun Anforderungen an einen KI-Telefonservice</a>, bevor Sie einen Anbieter wählen.</p>
+    `,
+    faq: [
+      { question: `Kann die KI nur außerhalb der Öffnungszeiten ans Telefon gehen?`, answer: `Ja. Ihre Nummer bleibt, und Sie legen bei Ihrem Telefonanbieter fest, wann umgeleitet wird: nach Zeitplan, bei besetzt oder wenn niemand abnimmt. Während der Öffnungszeiten geht Ihr Team selbst ran.` },
+      { question: `Kostet der KI-Telefonservice abends und am Wochenende mehr?`, answer: `Nein. Bei Aibooking.dk zahlen Sie die Gesprächszeit unabhängig von der Uhrzeit – ab 134 € pro Monat für 150 Minuten, ohne Zuschlag für Abende, Wochenenden oder Feiertage.` },
+      { question: `Was passiert mit dringenden Anrufen nach Feierabend?`, answer: `Das legen Sie in den Anweisungen der KI fest: Weiterleitung an ein Notdiensthandy, Markierung als dringend oder Verweis auf den ärztlichen Bereitschaftsdienst (116 117) bzw. die 112. Die KI gibt nie medizinischen Rat.` },
+    ],
+  },
 };

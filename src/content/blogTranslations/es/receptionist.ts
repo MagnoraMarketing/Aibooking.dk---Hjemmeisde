@@ -340,4 +340,70 @@ export const receptionistEs: BlogTranslations = {
       { question: `¿Revela la IA información sobre los asuntos de los clientes?`, answer: `Debe configurarse para que nunca lo haga. Recoge la consulta y la transfiere o deja un mensaje para la persona responsable.` },
     ],
   },
+  'ai-telefonpasning-uden-for-aabningstid': {
+    title: `Atención telefónica con IA fuera de horario: tardes, fines de semana y vacaciones`,
+    excerpt: `Tus clientes llaman cuando tienen tiempo, a menudo cuando ya has cerrado. Cómo la atención telefónica con IA atiende llamadas por la tarde, el fin de semana y en agosto, reserva citas y te lo deja todo listo para el siguiente día laborable.`,
+    meta_title: `Atención telefónica con IA fuera de horario | AIBooking.dk`,
+    meta_description: `Cómo la atención telefónica con IA atiende llamadas por la tarde, en fin de semana y en vacaciones: desvío, reservas, urgencias, configuración y precio.`,
+    content: `
+      <p>Tus clientes llaman cuando <em>ellos</em> pueden: al salir del trabajo, después de cenar, el domingo por la mañana o en pleno agosto. Justo en esos momentos nadie coge el teléfono en un pequeño negocio. La <strong>atención telefónica con IA fuera de horario</strong> consiste en que un recepcionista con IA atiende las llamadas que de otro modo perderías, y tú empiezas el día con citas nuevas en la agenda y un resumen de todo lo demás.</p>
+      <div class="blog-toc"><strong>En esta guía</strong><ol><li><a href="#i-dag">¿Qué pasa hoy con las llamadas fuera de horario?</a></li><li><a href="#saadan">Cómo funciona la atención telefónica con IA al cerrar</a></li><li><a href="#tidspunkter">Tardes, fines de semana y vacaciones: tres necesidades distintas</a></li><li><a href="#regler">Qué resuelve la IA y qué puede esperar</a></li><li><a href="#akut">Llamadas urgentes</a></li><li><a href="#opsaetning">Configuración paso a paso</a></li><li><a href="#pris">¿Cuánto cuesta?</a></li></ol></div>
+      <h2 id="i-dag">¿Qué pasa hoy con las llamadas fuera de horario?</h2>
+      <p>La mayoría de los pequeños negocios usa una de estas tres soluciones, y ninguna es buena:</p>
+      <ul>
+        <li><strong>El contestador.</strong> Mucha gente cuelga sin dejar mensaje, y a quien lo deja tienes que devolverle la llamada al día siguiente, cuando quizá ya ha reservado en otro sitio.</li>
+        <li><strong>El móvil del dueño.</strong> El dueño contesta por la tarde. Funciona hasta que estás cenando, de vacaciones o simplemente necesitas desconectar.</li>
+        <li><strong>Un servicio de atención telefónica con personas.</strong> Una voz amable al teléfono, pero a menudo con horario limitado, recargos por tardes y fines de semana y, normalmente, solo un recado que te reenvían. Mira la comparación completa en <a href="/blog/ai-receptionist-vs-telefonpasning">recepcionista con IA frente a servicio de atención telefónica</a>.</li>
+      </ul>
+      <h2 id="saadan">Cómo funciona la atención telefónica con IA al cerrar</h2>
+      <ol>
+        <li><strong>Solo desvías cuando has cerrado.</strong> Conservas tu número. Con tu operador configuras el desvío por horario, si comunica o si nadie contesta tras unos tonos. En horario de apertura tu equipo atiende como siempre.</li>
+        <li><strong>La IA se presenta con honestidad.</strong> «Hablas con la asistente digital de la peluquería; ahora estamos cerrados, pero puedo ayudarte a reservar o tomar un mensaje». Los clientes lo esperan y el Reglamento europeo de IA (artículo 50) lo exige.</li>
+        <li><strong>Resuelve la consulta.</strong> Responde con tu base de conocimiento (horarios, precios, dirección, servicios), busca un hueco libre y reserva directamente en Google Calendar, Outlook o Cal.com. También puede cambiar o cancelar citas después de comprobar quién llama.</li>
+        <li><strong>Recoge el resto.</strong> Lo que necesita de ti (un presupuesto, una queja, una duda sobre un trabajo en curso) se convierte en un mensaje con nombre, número y un breve resumen.</li>
+        <li><strong>Lo lees todo a la mañana siguiente.</strong> Cada llamada está en el panel con grabación, transcripción y resumen, para que decidas a quién llamar primero.</li>
+      </ol>
+      <h2 id="tidspunkter">Tardes, fines de semana y vacaciones: tres necesidades distintas</h2>
+      <h3>Tardes entre semana</h3>
+      <p>Es cuando llama quien no puede hacerlo desde el trabajo: pacientes que quieren cita con el fisioterapeuta, clientas que buscan hora en la peluquería el sábado o propietarios que por fin tienen un rato para pedir presupuesto a un carpintero. Casi siempre son reservas y preguntas sencillas, justo lo que mejor hace un recepcionista con IA.</p>
+      <h3>Fines de semana</h3>
+      <p>El fin de semana hay más llamadas por algo que se ha roto o por citas de la semana siguiente. Deja que la IA reserve y tome mensajes, y decide de antemano qué es tan urgente que no puede esperar al lunes (ver más abajo).</p>
+      <h3>Vacaciones, puentes y agosto</h3>
+      <p>Semana Santa, los puentes, Navidad y el mes de agosto, cuando medio país cierra. Añade tus fechas de vacaciones al saludo y a la base de conocimiento para que la IA diga cuándo vuelves y solo reserve citas a partir de esa fecha. El cliente recibe una respuesta en lugar de un teléfono que suena en vano.</p>
+      <div class="blog-cta"><strong>Prueba un recepcionista con IA en tu propio número</strong><p>Crea una cuenta gratuita, desvía tu número y deja que la IA atienda llamadas reales durante 7 días. Sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/demo">Reserva una demo</a></div></div>
+      <h2 id="regler">Qué resuelve la IA y qué puede esperar</h2>
+      <div class="blog-table"><table><thead><tr><th>Consulta fuera de horario</th><th>La IA</th><th>Tú, el siguiente día laborable</th></tr></thead><tbody>
+        <tr><td>Nueva reserva</td><td>Busca un hueco y reserva</td><td>Nada: la cita ya está en la agenda</td></tr>
+        <tr><td>Cambiar o cancelar cita</td><td>Comprueba quién llama, cambia o cancela</td><td>Nada</td></tr>
+        <tr><td>Preguntas sobre precios, dirección, servicios</td><td>Responde con la base de conocimiento</td><td>Nada</td></tr>
+        <tr><td>Presupuesto o trabajo grande</td><td>Recoge los datos y toma un mensaje</td><td>Devolver la llamada con el presupuesto</td></tr>
+        <tr><td>Queja</td><td>Escucha, toma nota y promete una llamada</td><td>Llamar tú personalmente</td></tr>
+        <tr><td>Urgencia</td><td>Sigue tu regla de urgencias</td><td>Depende de la regla</td></tr>
+      </tbody></table></div>
+      <h2 id="akut">Llamadas urgentes: fija una regla clara</h2>
+      <p>La decisión más importante en la atención telefónica fuera de horario es qué pasa con lo que no puede esperar. Escríbelo en las instrucciones de la IA para que nunca tenga que adivinar:</p>
+      <ul>
+        <li><strong>Profesionales con servicio de guardia:</strong> una fuga de agua o un corte de luz se pasan al móvil de guardia o se marcan como «urgente» con un mensaje para quien esté de guardia. Lo demás se reserva o se anota para el lunes.</li>
+        <li><strong>Clínicas:</strong> la IA nunca da consejos médicos. Ante síntomas agudos remite a urgencias o al 112.</li>
+        <li><strong>Tiendas y comercio online:</strong> casi nada es urgente. La IA responde, toma mensajes e indica cuándo abrís.</li>
+      </ul>
+      <p>Lee más sobre <a href="/blog/ai-receptionist-viderestilling-til-menneske">cuándo debe la IA pasar la llamada a una persona</a>.</p>
+      <h2 id="opsaetning">Configuración paso a paso</h2>
+      <ol>
+        <li><strong>Escribe el saludo</strong> indicando que estáis cerrados y en qué puede ayudar la IA.</li>
+        <li><strong>Completa la base de conocimiento</strong> con horarios, fechas de vacaciones, precios y las preguntas que hacen los clientes: como texto, desde tu web o en PDF.</li>
+        <li><strong>Conecta la agenda</strong> (Google Calendar, Outlook/Microsoft 365 o Cal.com) para que la IA solo vea huecos libres.</li>
+        <li><strong>Decide la regla de urgencias</strong> del apartado anterior.</li>
+        <li><strong>Configura el desvío</strong> con tu operador: fuera de horario, si comunica o tras, por ejemplo, cuatro tonos.</li>
+        <li><strong>Llama tú mismo una tarde</strong> y prueba con las consultas típicas de tus clientes. Ajusta y repite tras la primera semana.</li>
+      </ol>
+      <h2 id="pris">¿Cuánto cuesta la atención telefónica con IA fuera de horario?</h2>
+      <p>En Aibooking.dk pagas por minutos de conversación, no por la hora del día. No hay recargos por tardes ni fines de semana. Starter cuesta 134 € al mes por 150 minutos de conversación. Un ejemplo: 40 llamadas fuera de horario al mes de unos dos minutos suman 80 minutos, dentro del plan Starter. Puedes probarlo gratis 7 días con tu propio número. Consulta todos los planes en <a href="/blog/hvad-koster-en-ai-receptionist">cuánto cuesta un recepcionista con IA</a> y lee <a href="/blog/ai-telefonpasning-dansk-ai-receptionist">los nueve requisitos de la atención telefónica con IA</a> antes de elegir proveedor.</p>
+    `,
+    faq: [
+      { question: `¿Puede la IA atender solo fuera del horario de apertura?`, answer: `Sí. Conservas tu número y decides con tu operador cuándo se desvían las llamadas: por horario, si comunica o si nadie contesta. En horario de apertura tu equipo atiende como siempre.` },
+      { question: `¿Cuesta más la atención telefónica con IA por la tarde o en fin de semana?`, answer: `No. En Aibooking.dk pagas los minutos de conversación sea la hora que sea: desde 134 € al mes por 150 minutos, sin recargo por tardes, fines de semana ni festivos.` },
+      { question: `¿Qué pasa con las llamadas urgentes fuera de horario?`, answer: `Lo decides en las instrucciones de la IA: pasar la llamada a un móvil de guardia, marcar el mensaje como urgente o remitir a urgencias o al 112. La IA nunca da consejos médicos.` },
+    ],
+  },
 };

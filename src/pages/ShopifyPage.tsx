@@ -18,6 +18,7 @@ import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import { SIGNUP_URL } from '../utils/backend';
 import type { SupportedLanguage } from '../i18n/config';
 import type { NavigatePage } from '../types/navigation';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 interface ShopifyPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -291,6 +292,7 @@ function ShopifyPage({ onNavigate }: ShopifyPageProps) {
       </section>
 
       <RelatedGuides slugs={['shopify-ai-automatisering', 'shopify-integration-ai-voice-indgaaende-opkald', 'widget-til-webshop']} />
+      <PhoneAnsweringSEO variant="pages.shopify" />
       <FAQ items={shopifyFAQs} />
       <Footer onNavigate={onNavigate} />
     </div>

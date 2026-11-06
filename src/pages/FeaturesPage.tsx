@@ -19,6 +19,7 @@ import {
   PhoneOutgoing, Bot, Globe, ArrowRight, Mic, Radio, Volume2,
   MousePointer, LayoutDashboard, LineChart, FileText, RefreshCw, Activity
 } from 'lucide-react';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 type PageType = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'blog-category' | 'blog-post' | 'trial' | 'app' | 'salon' | 'shopify' | 'restaurant';
 
@@ -565,6 +566,7 @@ function FeaturesPage({ onNavigate }: FeaturesPageProps) {
       </section>
 
       <RelatedGuides slugs={['ai-reception-virtuel-receptionist', 'komplet-ai-automatisering-widget-telefon-booking', 'ai-indgaaende-opkald']} />
+      <PhoneAnsweringSEO variant="pages.features" />
       <FAQ items={featuresFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

@@ -10,6 +10,7 @@ import type { SupportedLanguage } from '../i18n/config';
 import { blogPostPath, buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import type { NavigatePage } from '../types/navigation';
 import JsonLd from '../components/JsonLd';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 interface BlogCategoryPageProps {
   categorySlug: string;
@@ -159,6 +160,7 @@ export default function BlogCategoryPage({ categorySlug, onNavigate }: BlogCateg
         </div>
       </div>
 
+      <PhoneAnsweringSEO variant={`blogCategory.${categorySlug}`} />
       <Footer onNavigate={onNavigate} />
     </div>
   );

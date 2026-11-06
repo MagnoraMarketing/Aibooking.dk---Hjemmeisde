@@ -13,6 +13,7 @@ import { createBreadcrumbSchema } from '../utils/structuredData';
 import { Target, Lightbulb, Heart, TrendingUp, Shield, Zap, Globe } from 'lucide-react';
 import type { NavigatePage } from '../types/navigation';
 import PageLink from '../components/PageLink';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 interface AboutPageProps {
   onNavigate: (page: NavigatePage) => void;
@@ -232,6 +233,7 @@ function AboutPage({ onNavigate }: AboutPageProps) {
         </div>
       </div>
 
+      <PhoneAnsweringSEO variant="pages.about" />
       <FAQ items={aboutFAQs} />
       <WidgetCapabilitiesSEO />
       <AppQrSection />

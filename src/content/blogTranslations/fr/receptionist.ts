@@ -340,4 +340,70 @@ export const receptionistFr: BlogTranslations = {
       { question: `L’IA divulgue-t-elle des informations sur les dossiers des clients ?`, answer: `Elle doit être configurée pour ne jamais le faire. Elle recueille la demande et la transfère, ou laisse un message à la personne responsable.` },
     ],
   },
+  'ai-telefonpasning-uden-for-aabningstid': {
+    title: `Permanence téléphonique IA en dehors des heures d’ouverture : soir, week-end et vacances`,
+    excerpt: `Vos clients appellent quand ils ont le temps, souvent après la fermeture. Comment une permanence téléphonique IA prend les appels du soir, du week-end et des vacances, réserve les rendez-vous et prépare tout pour le jour ouvré suivant.`,
+    meta_title: `Permanence téléphonique IA hors heures d’ouverture | AIBooking.dk`,
+    meta_description: `Comment une permanence téléphonique IA prend les appels du soir, du week-end et des vacances : renvoi, réservation, urgences, mise en place et prix.`,
+    content: `
+      <p>Vos clients appellent quand <em>eux</em> ont le temps : après le travail, une fois les enfants couchés, le dimanche matin ou en plein mois d’août. C’est justement à ces moments-là que personne ne décroche dans une petite entreprise. Une <strong>permanence téléphonique IA en dehors des heures d’ouverture</strong>, c’est un réceptionniste IA qui prend les appels que vous auriez manqués, pour que vous commenciez la journée avec de nouveaux rendez-vous dans l’agenda et un résumé de tout le reste.</p>
+      <div class="blog-toc"><strong>Dans ce guide</strong><ol><li><a href="#i-dag">Que deviennent aujourd’hui vos appels après la fermeture ?</a></li><li><a href="#saadan">Comment fonctionne la permanence téléphonique IA après la fermeture</a></li><li><a href="#tidspunkter">Soir, week-end et vacances : trois besoins différents</a></li><li><a href="#regler">Ce que l’IA gère, et ce qui peut attendre</a></li><li><a href="#akut">Les appels urgents</a></li><li><a href="#opsaetning">Mise en place étape par étape</a></li><li><a href="#pris">Combien ça coûte ?</a></li></ol></div>
+      <h2 id="i-dag">Que deviennent aujourd’hui vos appels après la fermeture ?</h2>
+      <p>La plupart des petites entreprises utilisent l’une de ces trois solutions, et aucune n’est satisfaisante :</p>
+      <ul>
+        <li><strong>Le répondeur.</strong> Beaucoup raccrochent sans laisser de message, et ceux qui en laissent doivent être rappelés le lendemain, alors qu’ils ont peut-être déjà réservé ailleurs.</li>
+        <li><strong>Le portable du gérant.</strong> Le gérant répond le soir. Ça marche, jusqu’au moment où vous êtes à table, en vacances ou avez simplement besoin de souffler.</li>
+        <li><strong>Un secrétariat téléphonique avec des humains.</strong> Une voix aimable au bout du fil, mais souvent des horaires limités, des suppléments le soir et le week-end, et en général un simple message transmis. Voir la comparaison complète dans <a href="/blog/ai-receptionist-vs-telefonpasning">réceptionniste IA ou secrétariat téléphonique</a>.</li>
+      </ul>
+      <h2 id="saadan">Comment fonctionne la permanence téléphonique IA après la fermeture</h2>
+      <ol>
+        <li><strong>Vous ne renvoyez les appels qu’une fois fermé.</strong> Vous gardez votre numéro. Chez votre opérateur, vous programmez le renvoi selon un horaire, en cas d’occupation ou après quelques sonneries. Pendant les heures d’ouverture, votre équipe décroche comme d’habitude.</li>
+        <li><strong>L’IA se présente honnêtement.</strong> « Vous êtes en ligne avec l’assistante numérique du salon ; nous sommes fermés, mais je peux vous aider à réserver ou prendre un message. » Les clients s’y attendent, et le règlement européen sur l’IA (article 50) l’impose.</li>
+        <li><strong>Elle traite la demande.</strong> Elle répond à partir de votre base de connaissances (horaires, tarifs, adresse, prestations), trouve un créneau libre et réserve directement dans Google Agenda, Outlook ou Cal.com. Elle peut aussi déplacer ou annuler un rendez-vous après avoir vérifié l’identité de l’appelant.</li>
+        <li><strong>Elle note le reste.</strong> Ce qui demande votre intervention (un devis, une réclamation, une question sur un chantier en cours) devient un message avec nom, numéro et court résumé.</li>
+        <li><strong>Vous lisez tout le lendemain matin.</strong> Chaque appel est dans le tableau de bord avec enregistrement, transcription et résumé, pour décider qui rappeler en premier.</li>
+      </ol>
+      <h2 id="tidspunkter">Soir, week-end et vacances : trois besoins différents</h2>
+      <h3>Les soirs de semaine</h3>
+      <p>C’est l’heure de ceux qui ne peuvent pas appeler du bureau : des patients qui veulent un rendez-vous chez le kiné, des clientes qui cherchent un créneau chez le coiffeur le samedi, des propriétaires qui ont enfin le temps de contacter un menuisier. Ce sont surtout des réservations et des questions simples, exactement ce qu’un réceptionniste IA fait le mieux.</p>
+      <h3>Le week-end</h3>
+      <p>Le week-end, davantage d’appels concernent une panne ou un rendez-vous la semaine suivante. Laissez l’IA réserver et prendre les messages, et décidez à l’avance ce qui est assez urgent pour ne pas attendre lundi (voir plus bas).</p>
+      <h3>Vacances, ponts et mois d’août</h3>
+      <p>Les ponts de mai, Noël et la fermeture estivale d’août. Ajoutez vos dates de congés à l’accueil et à la base de connaissances, pour que l’IA indique votre date de retour et ne réserve qu’après les vacances. Le client obtient une réponse au lieu d’un téléphone qui sonne dans le vide.</p>
+      <div class="blog-cta"><strong>Essayez un réceptionniste IA sur votre propre numéro</strong><p>Créez un compte gratuit, renvoyez votre numéro et laissez l’IA prendre de vrais appels pendant 7 jours. Sans carte bancaire.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Essayez gratuitement 7 jours</a><a href="/demo">Réserver une démo</a></div></div>
+      <h2 id="regler">Ce que l’IA gère, et ce qui peut attendre</h2>
+      <div class="blog-table"><table><thead><tr><th>Demande après la fermeture</th><th>L’IA</th><th>Vous, le jour ouvré suivant</th></tr></thead><tbody>
+        <tr><td>Nouvelle réservation</td><td>Trouve un créneau et réserve</td><td>Rien : le rendez-vous est dans l’agenda</td></tr>
+        <tr><td>Déplacer ou annuler</td><td>Vérifie l’appelant, déplace ou annule</td><td>Rien</td></tr>
+        <tr><td>Questions sur les tarifs, l’adresse, les prestations</td><td>Répond à partir de la base de connaissances</td><td>Rien</td></tr>
+        <tr><td>Devis ou chantier important</td><td>Recueille les détails et prend un message</td><td>Rappeler avec le devis</td></tr>
+        <tr><td>Réclamation</td><td>Écoute, prend un message, promet un rappel</td><td>Rappeler vous-même</td></tr>
+        <tr><td>Urgence</td><td>Applique votre règle d’urgence</td><td>Selon la règle</td></tr>
+      </tbody></table></div>
+      <h2 id="akut">Appels urgents : fixez une règle claire</h2>
+      <p>La décision la plus importante pour une permanence hors horaires : que faire de ce qui ne peut pas attendre ? Écrivez-le dans les instructions de l’IA, pour qu’elle n’ait jamais à deviner :</p>
+      <ul>
+        <li><strong>Artisans avec astreinte :</strong> dégât des eaux et coupure de courant sont transférés vers le téléphone d’astreinte ou marqués « urgent » avec un message pour la personne de garde. Le reste est réservé ou noté pour lundi.</li>
+        <li><strong>Cabinets médicaux :</strong> l’IA ne donne jamais de conseil médical. En cas de symptômes aigus, elle oriente vers le médecin de garde, le 15 ou le 112.</li>
+        <li><strong>Boutiques et e-commerce :</strong> presque rien n’est urgent. L’IA répond, prend les messages et indique l’heure d’ouverture.</li>
+      </ul>
+      <p>En savoir plus sur <a href="/blog/ai-receptionist-viderestilling-til-menneske">le moment où l’IA doit passer la main à un humain</a>.</p>
+      <h2 id="opsaetning">Mise en place étape par étape</h2>
+      <ol>
+        <li><strong>Rédigez l’accueil</strong> en précisant que vous êtes fermé et ce que l’IA peut faire.</li>
+        <li><strong>Remplissez la base de connaissances</strong> avec les horaires, les dates de congés, les tarifs et les questions des clients : en texte, depuis votre site ou en PDF.</li>
+        <li><strong>Connectez l’agenda</strong> (Google Agenda, Outlook/Microsoft 365 ou Cal.com) pour que l’IA ne voie que les créneaux libres.</li>
+        <li><strong>Fixez la règle d’urgence</strong> décrite plus haut.</li>
+        <li><strong>Programmez le renvoi d’appel</strong> chez votre opérateur : hors heures d’ouverture, si occupé ou après, par exemple, quatre sonneries.</li>
+        <li><strong>Appelez vous-même un soir</strong> et testez avec les demandes habituelles de vos clients. Ajustez, puis recommencez après la première semaine.</li>
+      </ol>
+      <h2 id="pris">Combien coûte une permanence téléphonique IA hors horaires ?</h2>
+      <p>Chez Aibooking.dk, vous payez le temps de conversation, pas l’heure de l’appel. Aucun supplément le soir ou le week-end. Starter coûte 134 € par mois pour 150 minutes de conversation. Exemple : 40 appels hors horaires par mois d’environ deux minutes font 80 minutes, soit dans le forfait Starter. Vous pouvez l’essayer gratuitement 7 jours sur votre propre numéro. Tous les forfaits sont dans <a href="/blog/hvad-koster-en-ai-receptionist">combien coûte un réceptionniste IA</a>, et lisez <a href="/blog/ai-telefonpasning-dansk-ai-receptionist">les neuf exigences pour une permanence téléphonique IA</a> avant de choisir un prestataire.</p>
+    `,
+    faq: [
+      { question: `L’IA peut-elle répondre uniquement en dehors des heures d’ouverture ?`, answer: `Oui. Vous gardez votre numéro et choisissez chez votre opérateur quand les appels sont renvoyés : selon un horaire, si occupé ou en l’absence de réponse. Pendant les heures d’ouverture, votre équipe décroche comme d’habitude.` },
+      { question: `La permanence téléphonique IA coûte-t-elle plus cher le soir et le week-end ?`, answer: `Non. Chez Aibooking.dk, vous payez le temps de conversation quelle que soit l’heure : à partir de 134 € par mois pour 150 minutes, sans supplément le soir, le week-end ou les jours fériés.` },
+      { question: `Que deviennent les appels urgents après la fermeture ?`, answer: `Vous le décidez dans les instructions de l’IA : transfert vers un téléphone d’astreinte, message marqué urgent, ou orientation vers le médecin de garde, le 15 ou le 112. L’IA ne donne jamais de conseil médical.` },
+    ],
+  },
 };

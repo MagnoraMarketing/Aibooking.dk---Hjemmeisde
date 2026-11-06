@@ -1,0 +1,203 @@
+{
+  "eyebrow": "KI-Telefonservice",
+  "links": {
+    "product": "KI-Telefonservice ansehen",
+    "guide": "Ratgeber: KI-Telefonservice außerhalb der Öffnungszeiten",
+    "requirements": "Ratgeber: 9 Anforderungen an einen KI-Telefonservice"
+  },
+  "pages": {
+    "home": {
+      "title": "KI-Telefonservice, der annimmt, bucht und nichts vergisst",
+      "text": [
+        "Mit dem KI-Telefonservice von Aibooking.dk nimmt eine KI-Rezeptionistin Ihre Anrufe an, sobald Ihr Team es nicht kann: bei besetzter Leitung, in der Mittagspause, abends und am Wochenende. Sie antwortet auf Basis Ihrer eigenen Informationen und bucht direkt in Ihren Kalender.",
+        "Ihre Rufnummer bleibt, und Sie bestimmen, wann umgeleitet wird. Jeder Anruf liegt danach im Dashboard mit Aufzeichnung, Transkript und Zusammenfassung – so geht zwischen Kunde und Ihnen nichts verloren."
+      ]
+    },
+    "features": {
+      "title": "Die Funktionen hinter dem KI-Telefonservice",
+      "text": [
+        "Ein KI-Telefonservice ist mehr als eine Stimme am Telefon. Dahinter stehen eine Wissensdatenbank aus Text, Website oder PDF, Kalenderbuchung mit Verschieben und Absagen, mehrere gleichzeitige Anrufe und sechs Gesprächssprachen: Deutsch, Englisch, Dänisch, Spanisch, Französisch und Portugiesisch.",
+        "Alles läuft im selben Dashboard wie Ihr KI-Widget. So sehen Sie, was Kunden am Telefon und auf der Website fragen, und passen die Antworten an einer Stelle an."
+      ]
+    },
+    "widget": {
+      "title": "Das Widget auf der Website, der KI-Telefonservice am Telefon",
+      "text": [
+        "Das Widget kümmert sich um Besucher Ihrer Website. Viele Kunden greifen aber nach wie vor lieber zum Hörer. Mit dem KI-Telefonservice bekommen sie am Telefon dieselbe Hilfe: dasselbe Wissen, denselben Kalender und denselben Ton.",
+        "Beide Kanäle laufen über ein Dashboard. Wer erst chattet und später anruft, bekommt eine einheitliche Antwort, und Sie sehen beide Gespräche zusammen."
+      ]
+    },
+    "inboundOutbound": {
+      "title": "Warum KI-Telefonservice statt Anrufbeantworter?",
+      "text": [
+        "Ein Anrufbeantworter vertröstet den Kunden. Der KI-Telefonservice erledigt das Anliegen sofort: Er versteht, was der Anrufer möchte, beantwortet Fragen, findet einen freien Termin und bestätigt die Buchung, noch während der Kunde am Telefon ist.",
+        "Sie entscheiden, ob die KI alle Anrufe annimmt, nur außerhalb der Öffnungszeiten oder nur bei besetzt. Keine Abend- oder Wochenendzuschläge – Sie zahlen die Gesprächszeit."
+      ]
+    },
+    "integrations": {
+      "title": "KI-Telefonservice mit Ihrem Kalender verbunden",
+      "text": [
+        "Ein KI-Telefonservice funktioniert nur, wenn die KI weiß, wann Sie Zeit haben. Deshalb verbindet er sich direkt mit Google Kalender, Outlook/Microsoft 365 oder Cal.com und bucht nur freie Termine.",
+        "Onlineshops können zusätzlich Shopify anbinden, damit Anrufer Auskunft zu Produkten und Bestellstatus erhalten, und Restaurants lassen die KI einen Kurier über Uber Direct oder Just Eat buchen."
+      ]
+    },
+    "industries": {
+      "title": "KI-Telefonservice für jede Branche",
+      "text": [
+        "Eine Zahnarztpraxis, ein Sanitärbetrieb und ein Friseursalon bekommen ganz unterschiedliche Anrufe. Der KI-Telefonservice wird auf Ihre Branche zugeschnitten: welche Fragen die KI stellt, was sie buchen darf und wann sie stattdessen eine Nachricht aufnimmt.",
+        "Allen Branchen gemeinsam: Das Telefon wird beantwortet – auch wenn Sie gerade beim Kunden sind, auf der Baustelle stehen oder schon Feierabend haben."
+      ]
+    },
+    "demo": {
+      "title": "Den KI-Telefonservice live erleben",
+      "text": [
+        "Am besten beurteilen Sie einen KI-Telefonservice, indem Sie ihn hören. In der Demo rufen wir an und zeigen, wie die KI sich vorstellt, einen Termin findet und die Buchung bestätigt – und wie der Anruf danach im Dashboard aussieht.",
+        "Bringen Sie gern die typischen Fragen Ihrer Kunden mit, damit Sie hören, wie die KI mit Ihrem Alltag zurechtkommt."
+      ]
+    },
+    "healthcare": {
+      "title": "KI-Telefonservice für Arzt- und Therapiepraxen",
+      "text": [
+        "Die Telefonzeiten einer Praxis sind oft kurz und überlastet. Der KI-Telefonservice nimmt den ganzen Tag Anrufe zu Terminvereinbarung, Verschiebung und Absage an, damit sich das Team auf die Patienten konzentrieren kann.",
+        "Die KI gibt nie medizinischen Rat. Bei akuten Beschwerden verweist sie auf den ärztlichen Bereitschaftsdienst 116 117 oder die 112, und alles, was die Behandlerin selbst sehen muss, wird zur Nachricht mit kurzer Zusammenfassung."
+      ]
+    },
+    "craftsman": {
+      "title": "KI-Telefonservice für Handwerksbetriebe",
+      "text": [
+        "Mit den Händen in der Heizungsanlage können Sie nicht ans Telefon gehen. Der KI-Telefonservice nimmt für Sie ab, fragt nach Auftrag, Adresse und Dringlichkeit und bucht einen Besichtigungstermin in Ihren Kalender.",
+        "Das Angebot schreiben Sie weiterhin selbst. Sie bekommen nur alle Angaben in einer Zusammenfassung und rufen gut vorbereitet zurück, sobald Sie die Hände frei haben."
+      ]
+    },
+    "office": {
+      "title": "KI-Telefonservice für Kanzleien und Büros",
+      "text": [
+        "Für Anwaltskanzleien, Steuerberater und Makler ist das Telefon oft der erste Eindruck. Der KI-Telefonservice nimmt Anrufe professionell entgegen, vereinbart Termine und notiert Nachrichten für die zuständige Person, solange diese im Meeting ist.",
+        "Auskünfte zu Mandaten gibt er nie – er nimmt das Anliegen auf, damit die zuständige Person zurückrufen kann."
+      ]
+    },
+    "ecommerce": {
+      "title": "KI-Telefonservice für Onlineshops",
+      "text": [
+        "Onlineshop-Kunden rufen wegen Lieferung, Rücksendung und Größen an – oft mit immer denselben Fragen. Der KI-Telefonservice antwortet rund um die Uhr auf Basis Ihrer eigenen Richtlinien und Produktinformationen.",
+        "Mit Shopify kann die KI zusätzlich den Bestellstatus anhand der Bestellnummer abfragen, sodass der Kunde nicht auf den Support warten muss."
+      ]
+    },
+    "contact": {
+      "title": "Fragen zum KI-Telefonservice?",
+      "text": [
+        "Sie sind unsicher, wie ein KI-Telefonservice zu Ihrem Unternehmen passt? Schreiben Sie uns oder rufen Sie an. Wir gehen gern Ihre typischen Anrufe durch und schlagen vor, wann die KI übernehmen sollte.",
+        "Lieber selbst ausprobieren? Starten Sie den kostenlosen Test, leiten Sie Ihre Nummer um und sehen Sie das Ergebnis in Ihrem eigenen Dashboard."
+      ]
+    },
+    "about": {
+      "title": "KI-Telefonservice für kleine und mittlere Unternehmen",
+      "text": [
+        "Aibooking.dk ist für Betriebe entstanden, die Kunden verlieren, weil das Telefon klingelt, wenn niemand abnehmen kann. Unser KI-Telefonservice ist darauf ausgelegt, Anrufer so zu verstehen, wie sie wirklich sprechen.",
+        "Uns sind transparente Preise, Datenverarbeitung in der EU und eine KI wichtig, die sich ehrlich als digitale Assistenz vorstellt."
+      ]
+    },
+    "trial": {
+      "title": "KI-Telefonservice mit Ihrer eigenen Nummer testen",
+      "text": [
+        "Im Testzeitraum prüfen Sie den KI-Telefonservice mit echten Anrufen: Nummer umleiten, Kalender verbinden und sehen, wie die KI antwortet und bucht.",
+        "Beginnen Sie mit einer Umleitung außerhalb der Öffnungszeiten oder bei besetzt. So gehen Sie kein Risiko ein, und das Dashboard zeigt genau, welche Anrufe Ihnen sonst entgangen wären."
+      ]
+    },
+    "app": {
+      "title": "Ihren KI-Telefonservice unterwegs im Blick",
+      "text": [
+        "Mit der App haben Sie den KI-Telefonservice in der Hosentasche. Jeder Anruf, den die KI angenommen hat, ist mit Aufzeichnung, Transkript und Zusammenfassung da, sodass Sie die wichtigsten Kunden schnell zurückrufen.",
+        "Besonders praktisch, wenn Sie beim Kunden vor Ort arbeiten: Neue Termine und Nachrichten sehen Sie, sobald sie eingehen."
+      ]
+    },
+    "salon": {
+      "title": "KI-Telefonservice für Friseur- und Kosmetiksalons",
+      "text": [
+        "Mit Schere und Föhn in der Hand können Sie nicht telefonieren. Der KI-Telefonservice bucht, verschiebt und storniert Termine für Sie, damit Kundinnen weder in der Warteschleife noch auf dem Anrufbeantworter landen.",
+        "Er kennt Ihre Behandlungen, Preise und Dauer und bucht nur Zeiten, die zu Behandlung und Stylistin passen."
+      ]
+    },
+    "shopify": {
+      "title": "KI-Telefonservice für Shopify-Shops",
+      "text": [
+        "Dieselbe Shopify-Anbindung, die den Chat auf Ihrer Website antreibt, funktioniert auch am Telefon. Der KI-Telefonservice durchsucht Ihre Produkte, liest Ihre Versand- und Rückgaberichtlinien und fragt den Bestellstatus anhand der Bestellnummer ab.",
+        "Die KI hat nur Lesezugriff und gibt weder Namen, Adressen noch Zahlungsdaten aus der Bestellung heraus – nur Status, Versand und Zustellung."
+      ]
+    },
+    "restaurant": {
+      "title": "KI-Telefonservice für Restaurants",
+      "text": [
+        "Mitten im Abendservice hat niemand Zeit fürs Telefon. Der KI-Telefonservice nimmt Tischreservierungen an, beantwortet Fragen zu Speisekarte, Allergenen und Öffnungszeiten und kann einen Kurier über Uber Direct oder Just Eat bestellen.",
+        "Die eigentliche Essensbestellung und die Bezahlung laufen weiter über Ihr eigenes System."
+      ]
+    },
+    "blog": {
+      "title": "Alles zum KI-Telefonservice an einem Ort",
+      "text": [
+        "Im Blog finden Sie Ratgeber zum KI-Telefonservice: was er kostet, was Sie von einem Anbieter verlangen sollten, wie er mit natürlicher Sprache umgeht und wann ein Mensch übernehmen sollte.",
+        "Starten Sie mit dem Ratgeber zum KI-Telefonservice außerhalb der Öffnungszeiten, oder lesen Sie zuerst die Anforderungen, bevor Sie einen Anbieter wählen."
+      ]
+    }
+  },
+  "blogCategory": {
+    "ai-widget": {
+      "title": "KI-Widget und KI-Telefonservice gehören zusammen",
+      "text": [
+        "Die Ratgeber in dieser Kategorie drehen sich um Ihre Website. Doch dieselben Kunden, die mit dem Widget chatten, rufen auch an. Mit dem KI-Telefonservice bekommen sie am Telefon dieselben Antworten und denselben Kalender.",
+        "Widget und Telefon teilen Wissensdatenbank und Dashboard – Sie pflegen Ihre Informationen nur an einer Stelle."
+      ]
+    },
+    "ai-inbound-outbound": {
+      "title": "Der Einstieg in den KI-Telefonservice",
+      "text": [
+        "Diese Kategorie bündelt unsere Ratgeber zu KI-Rezeptionisten und KI-Telefonservice. Neu im Thema? Beginnen Sie mit den neun Anforderungen an einen Anbieter und lesen Sie dann, was es kostet und wie Anrufe nach Feierabend behandelt werden.",
+        "Alle Ratgeber behandeln die Praxis: natürliche Sprache, Kalenderanbindung, DSGVO und die EU-KI-Verordnung."
+      ]
+    },
+    "ai-total-solution": {
+      "title": "KI-Telefonservice als erster Schritt zur Automatisierung",
+      "text": [
+        "Viele Unternehmen beginnen mit dem Telefon, weil bei unbeantworteten Anrufen die Kunden verloren gehen. Der KI-Telefonservice bucht direkt in den Kalender und zeigt schnell, worum es in den Anrufen geht.",
+        "Darauf lässt sich mit einem Widget auf der Website und weiteren Integrationen einfach aufbauen."
+      ]
+    },
+    "ai-webshop": {
+      "title": "KI-Telefonservice für Onlineshops",
+      "text": [
+        "Onlineshop-Kunden schreiben nicht nur – sie rufen auch an, vor allem wegen Lieferung und Rücksendung. Der KI-Telefonservice beantwortet diese Fragen anhand Ihrer Richtlinien, mit Shopify auch zum Bestellstatus.",
+        "So bleibt Ihrem Support Zeit für die Fälle, die einen Menschen brauchen."
+      ]
+    }
+  },
+  "blogPost": {
+    "ai-widget": {
+      "title": "Dieselbe KI auch am Telefon",
+      "text": [
+        "Was Sie gerade über das Widget gelesen haben, gilt auch fürs Telefon. Mit dem KI-Telefonservice beantwortet dieselbe KI Anrufe auf Ihrer Nummer – mit demselben Wissen und demselben Kalender.",
+        "Viele starten mit dem Telefon nach Feierabend und ergänzen später das Widget auf der Website – oder umgekehrt."
+      ]
+    },
+    "ai-inbound-outbound": {
+      "title": "Nächster Schritt: KI-Telefonservice auf Ihrer eigenen Nummer",
+      "text": [
+        "Wenn Sie sehen möchten, wie das im Artikel Beschriebene bei Ihren eigenen Anrufen funktioniert, richten Sie den KI-Telefonservice an einem Nachmittag ein: Begrüßung schreiben, Kalender verbinden und die Nummer umleiten, sobald Sie schließen.",
+        "Im Testzeitraum zeigt das Dashboard, welche Anrufe die KI angenommen und was sie gebucht hat."
+      ]
+    },
+    "ai-total-solution": {
+      "title": "Automatisierung beginnt oft am Telefon",
+      "text": [
+        "Der schnellste Gewinn durch KI-Automatisierung sind oft die Anrufe, die niemand schafft. Der KI-Telefonservice nimmt sie an, bucht in den Kalender und liefert eine Zusammenfassung – der Nutzen zeigt sich ab der ersten Woche.",
+        "Der Ratgeber zu Anrufen nach Feierabend ist ein konkreter Startpunkt."
+      ]
+    },
+    "ai-webshop": {
+      "title": "Wenn der Onlineshop-Kunde anruft",
+      "text": [
+        "Nicht jeder Kunde schreibt. Mit dem KI-Telefonservice bekommen Anrufer Auskunft zu Produkten, Lieferung und Rücksendung – mit Shopify auch zum Bestellstatus – ohne Warteschleife.",
+        "Die Anrufe liegen anschließend im Dashboard, sodass Sie sehen, wonach Kunden am häufigsten fragen."
+      ]
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "eyebrow": "Atención telefónica con IA",
+  "links": {
+    "product": "Ver la atención telefónica con IA",
+    "guide": "Guía: atención telefónica con IA fuera de horario",
+    "requirements": "Guía: 9 requisitos de la atención telefónica con IA"
+  },
+  "pages": {
+    "home": {
+      "title": "Atención telefónica con IA que contesta, reserva y lo recuerda todo",
+      "text": [
+        "Con la atención telefónica con IA de Aibooking.dk, una recepcionista virtual contesta tu número siempre que tu equipo no puede: cuando la línea comunica, a la hora de comer, por la tarde y el fin de semana. Responde con la información de tu negocio y reserva directamente en tu agenda.",
+        "Conservas tu número y decides cuándo se desvían las llamadas. Cada llamada queda después en el panel con grabación, transcripción y resumen, para que nada se pierda entre el cliente y tú."
+      ]
+    },
+    "features": {
+      "title": "Las funciones detrás de la atención telefónica con IA",
+      "text": [
+        "La atención telefónica con IA es mucho más que una voz al teléfono. Detrás hay una base de conocimiento creada a partir de texto, tu web o PDF, reservas en agenda con cambios y cancelaciones, varias llamadas a la vez y seis idiomas de conversación: español, inglés, francés, alemán, portugués y danés.",
+        "Todo comparte el mismo panel que tu widget de IA, así ves qué preguntan los clientes por teléfono y en la web, y corriges las respuestas en un solo sitio."
+      ]
+    },
+    "widget": {
+      "title": "El widget en tu web, la atención telefónica con IA en tu línea",
+      "text": [
+        "El widget atiende a quien visita tu web, pero muchos clientes siguen prefiriendo llamar. Con la atención telefónica con IA reciben la misma ayuda por teléfono: los mismos datos, la misma agenda y el mismo tono que en el widget.",
+        "Los dos canales funcionan desde un único panel, así que un cliente que primero escribe y luego llama recibe una respuesta coherente, y tú ves ambas conversaciones juntas."
+      ]
+    },
+    "inboundOutbound": {
+      "title": "¿Por qué atención telefónica con IA en lugar de contestador?",
+      "text": [
+        "El contestador hace esperar al cliente. La atención telefónica con IA resuelve la consulta en el momento: entiende lo que quiere quien llama, responde a sus preguntas, encuentra un hueco libre y confirma la reserva mientras sigue al teléfono.",
+        "Tú eliges si la IA atiende todas las llamadas, solo fuera de horario o solo cuando la línea comunica. Sin recargos por tardes ni fines de semana: pagas por minutos de conversación."
+      ]
+    },
+    "integrations": {
+      "title": "Atención telefónica con IA conectada a tu agenda",
+      "text": [
+        "La atención telefónica con IA solo funciona si la IA sabe cuándo tienes hueco. Por eso se conecta directamente a Google Calendar, Outlook/Microsoft 365 o Cal.com y solo reserva en horas libres.",
+        "Las tiendas online pueden añadir Shopify para que quien llama obtenga respuestas sobre productos y el estado de su pedido, y los restaurantes pueden dejar que la IA pida un repartidor con Uber Direct o Just Eat."
+      ]
+    },
+    "industries": {
+      "title": "Atención telefónica con IA para cada sector",
+      "text": [
+        "Una clínica dental, una empresa de fontanería y una peluquería reciben llamadas muy distintas. La atención telefónica con IA se adapta a tu sector: qué preguntas hace la IA, qué puede reservar y cuándo debe tomar un mensaje.",
+        "Lo que todos los sectores comparten es que el teléfono se contesta, también cuando estás con un cliente, en una obra o ya has cerrado."
+      ]
+    },
+    "demo": {
+      "title": "Escucha la atención telefónica con IA en acción",
+      "text": [
+        "La mejor forma de valorar la atención telefónica con IA es escucharla. En la demo hacemos una llamada, te enseñamos cómo se presenta la IA, encuentra un hueco y confirma la reserva, y cómo queda después la llamada en el panel.",
+        "Trae las preguntas habituales de tus clientes para oír cómo se desenvuelve en tu día a día."
+      ]
+    },
+    "healthcare": {
+      "title": "Atención telefónica con IA para clínicas y consultas",
+      "text": [
+        "El horario telefónico de una clínica suele ser corto y saturado. La atención telefónica con IA atiende durante todo el día las llamadas para pedir, cambiar o anular cita, para que el equipo pueda centrarse en el paciente que tiene delante.",
+        "La IA nunca da consejos médicos. Ante síntomas agudos remite a urgencias o al 112, y todo lo que deba revisar el profesional se convierte en un mensaje con un breve resumen."
+      ]
+    },
+    "craftsman": {
+      "title": "Atención telefónica con IA para profesionales y reformas",
+      "text": [
+        "No puedes coger el teléfono con las manos dentro de una caldera. La atención telefónica con IA contesta por ti, pregunta por el trabajo, la dirección y la urgencia, y reserva una visita en tu agenda.",
+        "El presupuesto lo sigues haciendo tú. Simplemente recibes todos los datos en un resumen para devolver la llamada bien preparado en cuanto tengas las manos libres."
+      ]
+    },
+    "office": {
+      "title": "Atención telefónica con IA para despachos y oficinas",
+      "text": [
+        "Para abogados, asesorías e inmobiliarias el teléfono suele ser la primera impresión. La atención telefónica con IA recibe las llamadas con profesionalidad, agenda reuniones y toma mensajes para la persona adecuada mientras está reunida.",
+        "Nunca revela información sobre los asuntos de los clientes: recoge la consulta para que la persona responsable devuelva la llamada."
+      ]
+    },
+    "ecommerce": {
+      "title": "Atención telefónica con IA para tiendas online",
+      "text": [
+        "Los clientes de una tienda online llaman por envíos, devoluciones y tallas, a menudo con las mismas preguntas una y otra vez. La atención telefónica con IA responde las 24 horas con tus propias políticas e información de producto.",
+        "Si usas Shopify, la IA también puede consultar el estado del pedido a partir del número de pedido, sin que el cliente tenga que esperar al servicio de atención."
+      ]
+    },
+    "contact": {
+      "title": "¿Dudas sobre la atención telefónica con IA?",
+      "text": [
+        "Si no tienes claro cómo encaja la atención telefónica con IA en tu negocio, escríbenos o llámanos. Revisamos contigo tus llamadas habituales y te proponemos cuándo debería encargarse la IA.",
+        "¿Prefieres probarlo tú? Empieza la prueba gratuita, desvía tu número y mira los resultados en tu propio panel."
+      ]
+    },
+    "about": {
+      "title": "Atención telefónica con IA pensada para pymes",
+      "text": [
+        "Aibooking.dk nació para negocios que pierden clientes porque el teléfono suena cuando nadie puede cogerlo. Nuestra atención telefónica con IA está diseñada para entender a la gente tal y como habla.",
+        "Apostamos por precios transparentes, datos tratados en la UE y una IA que se presenta con honestidad como asistente digital."
+      ]
+    },
+    "trial": {
+      "title": "Prueba la atención telefónica con IA en tu propio número",
+      "text": [
+        "Durante la prueba puedes comprobar la atención telefónica con IA con llamadas reales: desvía tu número, conecta tu agenda y mira cómo responde y reserva la IA.",
+        "Empieza desviando fuera de horario o cuando comunica. Así no arriesgas nada, y el panel te muestra exactamente qué llamadas habrías perdido."
+      ]
+    },
+    "app": {
+      "title": "Sigue tu atención telefónica con IA desde el móvil",
+      "text": [
+        "Con la app llevas la atención telefónica con IA en el bolsillo. Cada llamada que ha atendido la IA aparece con grabación, transcripción y resumen, para que devuelvas rápido las llamadas más importantes.",
+        "Es especialmente útil si trabajas en casa del cliente: ves las nuevas reservas y mensajes en cuanto llegan."
+      ]
+    },
+    "salon": {
+      "title": "Atención telefónica con IA para peluquerías y centros de estética",
+      "text": [
+        "Con las tijeras y el secador en la mano no puedes contestar. La atención telefónica con IA reserva, cambia y anula citas por ti, para que tus clientas no acaben en espera ni en el contestador.",
+        "Conoce tus servicios, precios y duraciones, y solo reserva horas que encajan con el servicio y con la estilista."
+      ]
+    },
+    "shopify": {
+      "title": "Atención telefónica con IA para tiendas Shopify",
+      "text": [
+        "La misma conexión con Shopify que alimenta el chat de tu web funciona también por teléfono. La atención telefónica con IA busca en tus productos, lee tu política de envíos y devoluciones y consulta el estado del pedido con el número de pedido.",
+        "La IA solo tiene acceso de lectura y nunca revela nombres, direcciones ni datos de pago del pedido: solo estado, envío y entrega."
+      ]
+    },
+    "restaurant": {
+      "title": "Atención telefónica con IA para restaurantes",
+      "text": [
+        "En pleno servicio de cenas nadie tiene tiempo para el teléfono. La atención telefónica con IA toma reservas de mesa, responde sobre la carta, los alérgenos y el horario, y puede pedir un repartidor con Uber Direct o Just Eat.",
+        "El pedido de comida y el pago siguen gestionándose en tu propio sistema."
+      ]
+    },
+    "blog": {
+      "title": "Todo sobre la atención telefónica con IA en un solo lugar",
+      "text": [
+        "En el blog encontrarás guías sobre atención telefónica con IA: cuánto cuesta, qué exigir a un proveedor, cómo entiende el habla natural y cuándo debe intervenir una persona.",
+        "Empieza por la guía de atención telefónica con IA fuera de horario si quieres ponerte en marcha ya, o lee los requisitos antes de elegir proveedor."
+      ]
+    }
+  },
+  "blogCategory": {
+    "ai-widget": {
+      "title": "El widget de IA y la atención telefónica con IA van de la mano",
+      "text": [
+        "Las guías de esta categoría hablan de tu web. Pero los mismos clientes que chatean con el widget también llaman. Con la atención telefónica con IA obtienen las mismas respuestas y la misma agenda por teléfono.",
+        "El widget y el teléfono comparten base de conocimiento y panel, así que solo mantienes tu información en un sitio."
+      ]
+    },
+    "ai-inbound-outbound": {
+      "title": "Primeros pasos con la atención telefónica con IA",
+      "text": [
+        "Esta categoría reúne nuestras guías sobre recepcionistas y atención telefónica con IA. ¿Eres nuevo en el tema? Empieza por los nueve requisitos para un proveedor y luego lee cuánto cuesta y cómo se gestionan las llamadas fuera de horario.",
+        "Todas las guías tratan la parte práctica: habla natural, integración con la agenda, RGPD y el Reglamento europeo de IA."
+      ]
+    },
+    "ai-total-solution": {
+      "title": "La atención telefónica con IA como primer paso para automatizar",
+      "text": [
+        "Muchas empresas empiezan a automatizar por el teléfono, porque las llamadas sin contestar son donde se pierden los clientes. La atención telefónica con IA reserva directamente en la agenda y enseguida muestra por qué llaman los clientes.",
+        "A partir de ahí es fácil añadir un widget en la web y más integraciones."
+      ]
+    },
+    "ai-webshop": {
+      "title": "Atención telefónica con IA para comercio electrónico",
+      "text": [
+        "Los clientes de una tienda online no solo escriben: también llaman, sobre todo por envíos y devoluciones. La atención telefónica con IA responde con tus propias políticas y, con Shopify, también sobre el estado del pedido.",
+        "Así tu equipo de atención queda libre para los casos que necesitan a una persona."
+      ]
+    }
+  },
+  "blogPost": {
+    "ai-widget": {
+      "title": "Usa la misma IA en el teléfono",
+      "text": [
+        "Lo que acabas de leer sobre el widget vale también para el teléfono. Con la atención telefónica con IA, la misma IA contesta las llamadas a tu número, con los mismos datos y la misma agenda.",
+        "Muchos empiezan por el teléfono fuera de horario y añaden después el widget a la web, o al revés."
+      ]
+    },
+    "ai-inbound-outbound": {
+      "title": "Siguiente paso: atención telefónica con IA en tu propio número",
+      "text": [
+        "Si quieres ver cómo funciona lo que cuenta este artículo con tus propias llamadas, puedes configurar la atención telefónica con IA en una tarde: escribe el saludo, conecta la agenda y desvía el número al cerrar.",
+        "Durante la prueba, el panel te muestra qué llamadas atendió la IA y qué reservó."
+      ]
+    },
+    "ai-total-solution": {
+      "title": "La automatización suele empezar en el teléfono",
+      "text": [
+        "La ganancia más rápida de la automatización con IA suelen ser las llamadas que nadie llega a coger. La atención telefónica con IA las atiende, reserva en la agenda y te deja un resumen, así ves el valor desde la primera semana.",
+        "La guía sobre llamadas fuera de horario es un buen punto de partida."
+      ]
+    },
+    "ai-webshop": {
+      "title": "Cuando el cliente de la tienda online llama",
+      "text": [
+        "No todos los clientes escriben. Con la atención telefónica con IA, quien llama obtiene respuestas sobre productos, envíos y devoluciones (y, con Shopify, sobre el estado del pedido) sin esperar en cola.",
+        "Las llamadas quedan después en el panel, para que veas qué preguntan más los clientes."
+      ]
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "eyebrow": "Permanence téléphonique IA",
+  "links": {
+    "product": "Découvrir la permanence téléphonique IA",
+    "guide": "Guide : permanence téléphonique IA hors heures d’ouverture",
+    "requirements": "Guide : 9 exigences pour une permanence téléphonique IA"
+  },
+  "pages": {
+    "home": {
+      "title": "Une permanence téléphonique IA qui répond, réserve et n’oublie rien",
+      "text": [
+        "Avec la permanence téléphonique IA d’Aibooking.dk, une réceptionniste IA décroche dès que votre équipe ne peut pas : ligne occupée, pause déjeuner, soirée ou week-end. Elle répond à partir de vos propres informations et réserve directement dans votre agenda.",
+        "Vous gardez votre numéro et choisissez quand les appels sont renvoyés. Chaque appel est ensuite dans le tableau de bord avec enregistrement, transcription et résumé : rien ne se perd entre le client et vous."
+      ]
+    },
+    "features": {
+      "title": "Les fonctionnalités derrière la permanence téléphonique IA",
+      "text": [
+        "Une permanence téléphonique IA, c’est bien plus qu’une voix au téléphone. Derrière chaque appel : une base de connaissances alimentée par du texte, votre site ou des PDF, la réservation dans l’agenda avec report et annulation, plusieurs appels simultanés et six langues de conversation : français, anglais, allemand, espagnol, portugais et danois.",
+        "Tout partage le même tableau de bord que votre widget IA : vous voyez ce que les clients demandent au téléphone et sur le site, et corrigez les réponses à un seul endroit."
+      ]
+    },
+    "widget": {
+      "title": "Le widget sur votre site, la permanence téléphonique IA sur votre ligne",
+      "text": [
+        "Le widget s’occupe des visiteurs de votre site, mais beaucoup de clients préfèrent encore appeler. Avec la permanence téléphonique IA, ils reçoivent la même aide au téléphone : les mêmes informations, le même agenda et le même ton.",
+        "Les deux canaux fonctionnent depuis un seul tableau de bord : un client qui écrit d’abord puis appelle obtient une réponse cohérente, et vous voyez les deux échanges ensemble."
+      ]
+    },
+    "inboundOutbound": {
+      "title": "Pourquoi une permanence téléphonique IA plutôt qu’un répondeur ?",
+      "text": [
+        "Un répondeur fait patienter le client. La permanence téléphonique IA traite la demande sur-le-champ : elle comprend ce que veut l’appelant, répond à ses questions, trouve un créneau libre et confirme le rendez-vous pendant qu’il est encore en ligne.",
+        "Vous choisissez si l’IA prend tous les appels, seulement hors horaires ou seulement quand la ligne est occupée. Aucun supplément le soir ou le week-end : vous payez le temps de conversation."
+      ]
+    },
+    "integrations": {
+      "title": "Une permanence téléphonique IA reliée à votre agenda",
+      "text": [
+        "Une permanence téléphonique IA n’a de sens que si l’IA sait quand vous êtes disponible. Elle se connecte donc directement à Google Agenda, Outlook/Microsoft 365 ou Cal.com et ne réserve que des créneaux libres.",
+        "Les boutiques en ligne peuvent ajouter Shopify pour renseigner les appelants sur les produits et le suivi de commande, et les restaurants peuvent laisser l’IA commander un coursier via Uber Direct ou Just Eat."
+      ]
+    },
+    "industries": {
+      "title": "Une permanence téléphonique IA pour chaque métier",
+      "text": [
+        "Un cabinet dentaire, un plombier et un salon de coiffure ne reçoivent pas du tout les mêmes appels. La permanence téléphonique IA s’adapte à votre métier : les questions que pose l’IA, ce qu’elle peut réserver et quand elle doit plutôt prendre un message.",
+        "Point commun à tous les métiers : le téléphone est décroché, même quand vous êtes avec un client, sur un chantier ou déjà fermé."
+      ]
+    },
+    "demo": {
+      "title": "Écoutez la permanence téléphonique IA en situation",
+      "text": [
+        "La meilleure façon de juger une permanence téléphonique IA, c’est de l’écouter. Pendant la démo, nous passons un appel et montrons comment l’IA se présente, trouve un créneau et confirme le rendez-vous, puis à quoi ressemble l’appel dans le tableau de bord.",
+        "Venez avec les questions habituelles de vos clients pour entendre comment elle gère votre quotidien."
+      ]
+    },
+    "healthcare": {
+      "title": "Permanence téléphonique IA pour cabinets médicaux et paramédicaux",
+      "text": [
+        "Les plages téléphoniques d’un cabinet sont souvent courtes et saturées. La permanence téléphonique IA prend toute la journée les appels pour prendre, déplacer ou annuler un rendez-vous, pour que l’équipe se consacre au patient présent.",
+        "L’IA ne donne jamais de conseil médical. En cas de symptômes aigus, elle oriente vers le médecin de garde, le 15 ou le 112, et tout ce que le praticien doit voir devient un message avec un court résumé."
+      ]
+    },
+    "craftsman": {
+      "title": "Permanence téléphonique IA pour artisans",
+      "text": [
+        "Impossible de décrocher les mains dans une chaudière. La permanence téléphonique IA répond à votre place, s’informe sur l’intervention, l’adresse et l’urgence, puis réserve une visite dans votre agenda.",
+        "Le devis, vous le faites toujours vous-même. Vous recevez simplement toutes les informations dans un résumé pour rappeler bien préparé dès que vous avez les mains libres."
+      ]
+    },
+    "office": {
+      "title": "Permanence téléphonique IA pour cabinets et bureaux",
+      "text": [
+        "Pour les avocats, experts-comptables et agences immobilières, le téléphone est souvent la première impression. La permanence téléphonique IA accueille les appels avec professionnalisme, fixe des rendez-vous et prend des messages pour la bonne personne pendant qu’elle est en réunion.",
+        "Elle ne divulgue jamais d’informations sur les dossiers des clients : elle recueille la demande pour que la personne responsable rappelle."
+      ]
+    },
+    "ecommerce": {
+      "title": "Permanence téléphonique IA pour boutiques en ligne",
+      "text": [
+        "Les clients d’une boutique en ligne appellent pour la livraison, les retours et les tailles, souvent avec les mêmes questions. La permanence téléphonique IA répond 24 h/24 à partir de vos propres conditions et fiches produits.",
+        "Avec Shopify, l’IA peut aussi consulter le suivi de commande à partir du numéro de commande, sans que le client attende le service client."
+      ]
+    },
+    "contact": {
+      "title": "Des questions sur la permanence téléphonique IA ?",
+      "text": [
+        "Vous vous demandez comment une permanence téléphonique IA s’intègre à votre activité ? Écrivez-nous ou appelez-nous. Nous passons volontiers en revue vos appels habituels et vous proposons quand l’IA devrait prendre le relais.",
+        "Vous préférez tester vous-même ? Lancez l’essai gratuit, renvoyez votre numéro et observez les résultats dans votre propre tableau de bord."
+      ]
+    },
+    "about": {
+      "title": "Une permanence téléphonique IA conçue pour les TPE et PME",
+      "text": [
+        "Aibooking.dk est né pour les entreprises qui perdent des clients parce que le téléphone sonne quand personne ne peut répondre. Notre permanence téléphonique IA est conçue pour comprendre les gens comme ils parlent vraiment.",
+        "Nous tenons à des prix transparents, à des données traitées dans l’UE et à une IA qui se présente honnêtement comme une assistante numérique."
+      ]
+    },
+    "trial": {
+      "title": "Essayez la permanence téléphonique IA sur votre propre numéro",
+      "text": [
+        "Pendant l’essai, vous testez la permanence téléphonique IA sur de vrais appels : renvoyez votre numéro, connectez votre agenda et voyez comment l’IA répond et réserve.",
+        "Commencez par un renvoi hors horaires ou en cas d’occupation. Vous ne prenez aucun risque, et le tableau de bord montre exactement les appels que vous auriez manqués."
+      ]
+    },
+    "app": {
+      "title": "Suivez votre permanence téléphonique IA depuis votre mobile",
+      "text": [
+        "Avec l’application, votre permanence téléphonique IA tient dans la poche. Chaque appel pris par l’IA est disponible avec enregistrement, transcription et résumé, pour rappeler vite les clients les plus importants.",
+        "Très pratique si vous travaillez chez vos clients : vous voyez les nouveaux rendez-vous et messages dès qu’ils arrivent."
+      ]
+    },
+    "salon": {
+      "title": "Permanence téléphonique IA pour salons de coiffure et instituts",
+      "text": [
+        "Ciseaux et sèche-cheveux en main, impossible de répondre. La permanence téléphonique IA réserve, déplace et annule les rendez-vous pour vous, pour que vos clientes ne tombent ni en attente ni sur le répondeur.",
+        "Elle connaît vos prestations, tarifs et durées, et ne réserve que des créneaux adaptés à la prestation et à la coiffeuse."
+      ]
+    },
+    "shopify": {
+      "title": "Permanence téléphonique IA pour boutiques Shopify",
+      "text": [
+        "La même connexion Shopify qui alimente le chat de votre site fonctionne aussi au téléphone. La permanence téléphonique IA recherche dans vos produits, lit vos conditions de livraison et de retour et consulte le suivi de commande à partir du numéro de commande.",
+        "L’IA n’a qu’un accès en lecture et ne communique jamais les noms, adresses ou données de paiement de la commande : seulement le statut, l’expédition et la livraison."
+      ]
+    },
+    "restaurant": {
+      "title": "Permanence téléphonique IA pour restaurants",
+      "text": [
+        "En plein service du soir, personne n’a le temps de décrocher. La permanence téléphonique IA prend les réservations de table, répond sur la carte, les allergènes et les horaires, et peut commander un coursier via Uber Direct ou Just Eat.",
+        "La commande de repas et le paiement restent gérés dans votre propre système."
+      ]
+    },
+    "blog": {
+      "title": "Tout sur la permanence téléphonique IA, au même endroit",
+      "text": [
+        "Le blog réunit des guides sur la permanence téléphonique IA : son coût, ce qu’il faut exiger d’un prestataire, sa compréhension de la parole naturelle et le moment où un humain doit prendre le relais.",
+        "Commencez par le guide de la permanence téléphonique IA hors heures d’ouverture pour démarrer tout de suite, ou lisez les exigences avant de choisir un prestataire."
+      ]
+    }
+  },
+  "blogCategory": {
+    "ai-widget": {
+      "title": "Widget IA et permanence téléphonique IA vont de pair",
+      "text": [
+        "Les guides de cette catégorie portent sur votre site. Mais les clients qui échangent avec le widget appellent aussi. Avec la permanence téléphonique IA, ils obtiennent les mêmes réponses et le même agenda au téléphone.",
+        "Widget et téléphone partagent la base de connaissances et le tableau de bord : vos informations se mettent à jour à un seul endroit."
+      ]
+    },
+    "ai-inbound-outbound": {
+      "title": "Bien démarrer avec la permanence téléphonique IA",
+      "text": [
+        "Cette catégorie rassemble nos guides sur les réceptionnistes IA et la permanence téléphonique IA. Vous découvrez le sujet ? Commencez par les neuf exigences pour un prestataire, puis lisez combien ça coûte et comment sont traités les appels hors horaires.",
+        "Chaque guide aborde le concret : parole naturelle, connexion à l’agenda, RGPD et règlement européen sur l’IA."
+      ]
+    },
+    "ai-total-solution": {
+      "title": "La permanence téléphonique IA, première étape de l’automatisation",
+      "text": [
+        "Beaucoup d’entreprises commencent à automatiser par le téléphone, car c’est dans les appels manqués que les clients disparaissent. La permanence téléphonique IA réserve directement dans l’agenda et montre vite pourquoi les clients appellent.",
+        "Il est ensuite facile d’ajouter un widget sur votre site et d’autres intégrations."
+      ]
+    },
+    "ai-webshop": {
+      "title": "Permanence téléphonique IA pour l’e-commerce",
+      "text": [
+        "Les clients d’une boutique en ligne n’écrivent pas seulement : ils appellent aussi, surtout pour la livraison et les retours. La permanence téléphonique IA y répond à partir de vos conditions et, avec Shopify, aussi sur le suivi de commande.",
+        "Votre service client garde ainsi son temps pour les cas qui demandent un humain."
+      ]
+    }
+  },
+  "blogPost": {
+    "ai-widget": {
+      "title": "La même IA, au téléphone",
+      "text": [
+        "Ce que vous venez de lire sur le widget vaut aussi pour le téléphone. Avec la permanence téléphonique IA, la même IA répond aux appels sur votre numéro, avec les mêmes informations et le même agenda.",
+        "Beaucoup commencent par le téléphone hors horaires et ajoutent ensuite le widget sur le site, ou l’inverse."
+      ]
+    },
+    "ai-inbound-outbound": {
+      "title": "Étape suivante : la permanence téléphonique IA sur votre numéro",
+      "text": [
+        "Pour voir ce que décrit cet article sur vos propres appels, mettez en place la permanence téléphonique IA en un après-midi : rédigez l’accueil, connectez l’agenda et renvoyez votre numéro à la fermeture.",
+        "Pendant l’essai, le tableau de bord montre quels appels l’IA a pris et ce qu’elle a réservé."
+      ]
+    },
+    "ai-total-solution": {
+      "title": "L’automatisation commence souvent au téléphone",
+      "text": [
+        "Le gain le plus rapide de l’automatisation par IA, ce sont souvent les appels que personne n’a le temps de prendre. La permanence téléphonique IA les prend, réserve dans l’agenda et vous laisse un résumé : la valeur se voit dès la première semaine.",
+        "Le guide sur les appels hors horaires est un bon point de départ."
+      ]
+    },
+    "ai-webshop": {
+      "title": "Quand le client de la boutique en ligne appelle",
+      "text": [
+        "Tous les clients n’écrivent pas. Avec la permanence téléphonique IA, les appelants obtiennent des réponses sur les produits, la livraison et les retours (et, avec Shopify, le suivi de commande) sans attente.",
+        "Les appels sont ensuite dans le tableau de bord : vous voyez ce que les clients demandent le plus souvent."
+      ]
+    }
+  }
+}

@@ -26,6 +26,7 @@ import ShopifyIntegrationMock from '../components/ShopifyIntegrationMock';
 import type { NavigatePage } from '../types/navigation';
 import PageLink from '../components/PageLink';
 import BookingAudioDemo from '../components/BookingAudioDemo';
+import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
 // Danish-worded canonical path; SEO turns it into per-language hreflang URLs.
 const PAGE_PATH = '/widget';
@@ -1008,6 +1009,7 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
       <WidgetCapabilitiesSEO />
       <AppQrSection />
       <RelatedGuides slugs={['ai-widget-hjemmeside-komplet-guide', 'ai-widget-vs-kontaktformular', 'ai-til-hjemmeside']} />
+      <PhoneAnsweringSEO variant="pages.widget" />
       <Footer onNavigate={onNavigate} />
     </>
   );

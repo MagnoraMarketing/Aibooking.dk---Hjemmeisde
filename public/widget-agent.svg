@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Aibooking.dk AI-assistent">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#1e40af"/>
+    </linearGradient>
+    <linearGradient id="robot" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#c7d7ee"/>
+    </linearGradient>
+    <radialGradient id="led" cx="0.38" cy="0.38" r="0.75">
+      <stop offset="0" stop-color="#fef3c7"/>
+      <stop offset="0.5" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </radialGradient>
+    <clipPath id="circle"><circle cx="60" cy="60" r="60"/></clipPath>
+    <clipPath id="left"><rect x="0" y="0" width="60" height="120"/></clipPath>
+    <clipPath id="right"><rect x="60" y="0" width="60" height="120"/></clipPath>
+  </defs>
+
+  <circle cx="60" cy="60" r="60" fill="url(#bg)"/>
+
+  <g clip-path="url(#circle)">
+    <!-- Sparkles: the one who sorts it all out -->
+    <path d="M22 30 L24 35 L29 37 L24 39 L22 44 L20 39 L15 37 L20 35 Z" fill="#fde68a"/>
+    <path d="M100 32 L101.2 35 L104 36 L101.2 37 L100 40 L98.8 37 L96 36 L98.8 35 Z" fill="#ffffff" fill-opacity="0.85"/>
+
+    <!-- Body -->
+    <path d="M28 124 C30 103 43 95 60 95 C77 95 90 103 92 124 Z" fill="#0f172a"/>
+    <path d="M51 95 L60 105 L69 95 Z" fill="#ffffff"/>
+    <rect x="37" y="103" width="12" height="8.5" rx="1.6" fill="#c8102e"/>
+    <rect x="37" y="106.4" width="12" height="1.7" fill="#ffffff"/>
+    <rect x="40.8" y="103" width="1.7" height="8.5" fill="#ffffff"/>
+
+    <!-- Neck -->
+    <rect x="53" y="84" width="7" height="12" fill="#efc09d"/>
+    <rect x="60" y="84" width="7" height="12" fill="#b4c6e0"/>
+
+    <!-- Antenna in red and white -->
+    <path d="M73 30 L79 17" stroke="#dbe6f5" stroke-width="2.8" stroke-linecap="round"/>
+    <circle cx="80" cy="15" r="5" fill="#c8102e"/>
+    <circle cx="78.5" cy="13.5" r="1.5" fill="#ffffff"/>
+
+    <!-- Round head: human left, robot right -->
+    <circle cx="60" cy="58" r="31" fill="#f8d2b4" clip-path="url(#left)"/>
+    <circle cx="60" cy="58" r="31" fill="url(#robot)" clip-path="url(#right)"/>
+    <g clip-path="url(#right)">
+      <path d="M62 40 C71 38.5 80 39.5 88 43" stroke="#9fb3d1" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+      <circle cx="86" cy="50" r="1.4" fill="#9fb3d1"/>
+      <circle cx="86" cy="68" r="1.4" fill="#9fb3d1"/>
+    </g>
+
+    <!-- Blond Nordic fringe (human side) -->
+    <path d="M60 27 C42 27 29 39 29 56 C29 59 29.4 62 30 64 C33 53 39 45 48 41 C53 39 57 35.5 60 31 Z" fill="#f2c45c" clip-path="url(#left)"/>
+    <path d="M60 27 C51 27.5 44 31 40 37 C46 34.5 53 33.5 60 34 Z" fill="#e2ab3f" clip-path="url(#left)"/>
+
+    <!-- Big friendly eyes -->
+    <ellipse cx="47" cy="57" rx="6.2" ry="6.6" fill="#ffffff"/>
+    <circle cx="47.6" cy="58" r="4.4" fill="#1e3a8a"/>
+    <circle cx="49.2" cy="56.2" r="1.6" fill="#ffffff"/>
+    <circle cx="46" cy="60" r="0.8" fill="#ffffff"/>
+    <path d="M41 48.5 Q46.5 46 52 48.5" stroke="#c9952f" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+    <circle cx="73" cy="57" r="7.4" fill="#1e293b"/>
+    <circle cx="73" cy="57" r="5.2" fill="url(#led)"/>
+    <circle cx="71.3" cy="55.3" r="1.6" fill="#ffffff"/>
+    <path d="M67.5 47.8 Q73 45.8 78.5 47.8" stroke="#9fb3d1" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+    <!-- Rosy cheeks: soft blush and a pink LED -->
+    <ellipse cx="41.5" cy="68" rx="4.6" ry="3.2" fill="#f59e9e" fill-opacity="0.6"/>
+    <rect x="75" y="65.6" width="8" height="4.6" rx="2.3" fill="#f9a8d4"/>
+
+    <!-- Big open smile -->
+    <path d="M48.5 69.5 Q60 84 71.5 69.5 Z" fill="#7f1d1d"/>
+    <path d="M53.5 77 Q60 82.2 66.5 77 Q60 74.2 53.5 77 Z" fill="#f87171"/>
+    <path d="M48.5 69.5 Q60 71.2 71.5 69.5" stroke="#7f1d1d" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- Headset -->
+    <path d="M27 60 C26 31 94 31 93 60" stroke="#0f172a" stroke-width="4.2" fill="none" stroke-linecap="round"/>
+    <rect x="22.5" y="52.5" width="9.5" height="15.5" rx="4.5" fill="#0f172a"/>
+    <rect x="88" y="52.5" width="9.5" height="15.5" rx="4.5" fill="#0f172a"/>
+    <rect x="90.3" y="56" width="5" height="8.5" rx="2" fill="#fbbf24"/>
+    <path d="M27 67 Q28 82 43 83" stroke="#0f172a" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+    <circle cx="45" cy="83" r="3.6" fill="#fbbf24" stroke="#0f172a" stroke-width="1.6"/>
+  </g>
+
+  <!-- "Det er ordnet" check badge -->
+  <circle cx="96" cy="94" r="13" fill="#22c55e" stroke="#ffffff" stroke-width="3.5"/>
+  <path d="M89.5 94.5 L94 99 L102.5 89.5" stroke="#ffffff" stroke-width="3.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

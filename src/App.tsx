@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { isCrawler } from './utils/isCrawler';
+import LanguageSuggestion from './components/LanguageSuggestion';
 import HomePage from './pages/HomePage';
 import IntegrationsPage from './pages/IntegrationsPage';
 import IndustriesPage from './pages/IndustriesPage';
@@ -16,6 +16,7 @@ import TermsPage from './pages/TermsPage';
 import PrivacyPage from './pages/PrivacyPage';
 import WidgetPage from './pages/WidgetPage';
 import InboundOutboundPage from './pages/InboundOutboundPage';
+import NotFoundPage from './pages/NotFoundPage';
 import TrialPage from './pages/TrialPage';
 import AppPage from './pages/AppPage';
 import SalonPage from './pages/SalonPage';
@@ -30,6 +31,7 @@ import { splitLocalizedPath, buildLocalizedPath } from './utils/localePaths';
 import { currentPathname } from './utils/currentPath';
 import { blogRedirects, getCategoryBySlug, getPostBySlug } from './content/blog';
 import { loadBlogTranslations } from './content/blogTranslations';
+import { loadBlogLanguage } from './content/blog';
 
 type PageType = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'blog-category' | 'blog-post' | 'trial' | 'app' | 'salon' | 'shopify' | 'restaurant';
 
@@ -88,24 +90,10 @@ function App() {
   };
 
   useEffect(() => {
-    const { lang: urlLang, path } = splitLocalizedPath(window.location.pathname);
-    // i18n.language can be an unnormalized browser code (e.g. "en-US");
-    // resolvedLanguage is the actual matched, supported language.
-    const detectedLang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
-
-    // First visit to an unprefixed (Danish) URL: if the detected/stored
-    // preference is a non-Danish supported language, redirect to the
-    // matching language-prefixed URL so the site opens pre-translated.
-    // Never for crawlers: they must index the Danish page at its own URL.
-    if (urlLang === 'da' && detectedLang !== 'da' && SUPPORTED_LANGUAGES.includes(detectedLang) && !isCrawler()) {
-      const newPath = buildLocalizedPath(detectedLang, path);
-      window.history.replaceState({}, '', newPath);
-      i18n.changeLanguage(detectedLang);
-    } else {
-      i18n.changeLanguage(urlLang);
-    }
-    setRoute(resolveRoute(path));
-
+    // The URL decides the language; visitors whose browser prefers another
+    // one are offered it by <LanguageSuggestion> instead of being redirected,
+    // so people and crawlers always get the page they asked for.
+    syncFromLocation();
     window.addEventListener('popstate', syncFromLocation);
     return () => window.removeEventListener('popstate', syncFromLocation);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -124,18 +112,16 @@ function App() {
     return () => i18n.off('languageChanged', onLanguageChanged);
   }, [i18n]);
 
-  // Every URL is served the SPA with a 200, so unknown paths (which fall back
-  // to the home page) and missing blog posts/categories would be indexed as
-  // duplicate or soft-404 pages. Tell crawlers not to index them.
+  // Article text is only fetched for blog post pages (see content/blogBodies);
+  // src/main.tsx loads it up front when the first page is a post.
+  const language = i18n.resolvedLanguage || i18n.language;
   useEffect(() => {
-    let robots = document.querySelector('meta[name="robots"]');
-    if (!robots) {
-      robots = document.createElement('meta');
-      robots.setAttribute('name', 'robots');
-      document.head.appendChild(robots);
-    }
-    robots.setAttribute('content', unknownPath ? 'noindex, follow' : 'index, follow');
-  }, [unknownPath]);
+    if (currentPage !== 'blog-post') return;
+    loadBlogLanguage(language)
+      .then(() => setBlogLanguagesLoaded((n) => n + 1))
+      .catch(() => {});
+  }, [currentPage, language]);
+
 
   const handleNavigate = (page: PageType) => {
     const danishPath = pageMap[page] || '/';
@@ -149,7 +135,8 @@ function App() {
 
   return (
     <>
-      {currentPage === 'home' ? <HomePage onNavigate={handleNavigate} />
+      {unknownPath ? <NotFoundPage onNavigate={handleNavigate} />
+       : currentPage === 'home' ? <HomePage onNavigate={handleNavigate} />
        : currentPage === 'widget' ? <WidgetPage onNavigate={handleNavigate} />
        : currentPage === 'inbound-outbound' ? <InboundOutboundPage onNavigate={handleNavigate} />
        : currentPage === 'integrations' ? <IntegrationsPage onNavigate={handleNavigate} />
@@ -173,6 +160,7 @@ function App() {
        : currentPage === 'restaurant' ? <RestaurantPage onNavigate={handleNavigate} />
        : <DemoPage onNavigate={handleNavigate} />}
       <TrialOfferWidget />
+      <LanguageSuggestion />
     </>
   );
 }

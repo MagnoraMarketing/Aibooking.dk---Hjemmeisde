@@ -14,6 +14,8 @@ export interface SeoData {
   structuredData?: object;
   lang: SupportedLanguage;
   alternates: { hreflang: string; href: string }[];
+  /** Keep this page out of search results (the 404 page). */
+  noindex?: boolean;
 }
 
 let collector: ((data: SeoData) => void) | null = null;

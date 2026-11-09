@@ -2,19 +2,20 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
-import i18n from './i18n/config';
+import { i18nReady } from './i18n/config';
 import { splitLocalizedPath } from './utils/localePaths';
 import { loadBlogTranslations } from './content/blogTranslations';
+import { loadBlogLanguage } from './content/blog';
 
-// A language-prefixed URL (/en/...) decides the language before the first
-// render, so the page doesn't flash in the detected language first.
-const { lang } = splitLocalizedPath(window.location.pathname);
-if (lang !== 'da') i18n.changeLanguage(lang);
+// The URL decides the language (src/i18n/config.ts starts in it).
+const { lang, path } = splitLocalizedPath(window.location.pathname);
+const isBlogPost = path.startsWith('/blog/') && !path.startsWith('/blog/category/');
 
 // The root holds prerendered HTML (scripts/prerender.js) for crawlers;
-// createRoot replaces it with the live app. Blog translations for the URL's
-// language load first, so a translated post doesn't flash in English.
-loadBlogTranslations(lang)
+// createRoot replaces it with the live app. The URL language's UI texts, blog
+// translations and (on a post) article text load first, so the page never
+// renders with missing text.
+Promise.all([i18nReady, isBlogPost ? loadBlogLanguage(lang) : loadBlogTranslations(lang)])
   .catch(() => {})
   .then(() => {
     createRoot(document.getElementById('root')!).render(

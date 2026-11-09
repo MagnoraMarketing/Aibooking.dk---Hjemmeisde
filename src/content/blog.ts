@@ -17,7 +17,8 @@ import { voicePosts } from './blogPosts/voice';
 import { automationPosts } from './blogPosts/automation';
 import { widgetPosts } from './blogPosts/widget';
 import { webshopPosts } from './blogPosts/webshop';
-import { getBlogTranslations } from './blogTranslations';
+import { getBlogTranslations, loadBlogTranslations } from './blogTranslations';
+import { getBlogBody, loadBlogBodies } from './blogBodies';
 import type { SupportedLanguage } from '../i18n/config';
 
 export interface BlogCategory {
@@ -51,8 +52,6 @@ export interface BlogPost {
   title_da: string;
   excerpt_en: string;
   excerpt_da: string;
-  content_en: string;
-  content_da: string;
   meta_title_en: string;
   meta_title_da: string;
   meta_description_en: string;
@@ -227,7 +226,7 @@ export function localizePost(post: BlogPost, lang: SupportedLanguage): Localized
     return {
       title: post[`title_${lang}`],
       excerpt: post[`excerpt_${lang}`],
-      content: post[`content_${lang}`],
+      content: getBlogBody(lang, post.slug) ?? '',
       meta_title: post[`meta_title_${lang}`],
       meta_description: post[`meta_description_${lang}`],
       faq: (post.faq ?? []).map((f) => ({ question: f[`question_${lang}`], answer: f[`answer_${lang}`] })),
@@ -236,6 +235,14 @@ export function localizePost(post: BlogPost, lang: SupportedLanguage): Localized
   const translation = getBlogTranslations(lang)?.[post.slug];
   if (!translation) return localizePost(post, 'en');
   return { ...translation, faq: translation.faq ?? localizePost(post, 'en').faq };
+}
+
+/**
+ * Loads what blog post pages need in `lang` before rendering: the article
+ * text (Danish/English) or the translation (es/de/fr). Each is its own chunk.
+ */
+export async function loadBlogLanguage(lang: string): Promise<void> {
+  await Promise.all([loadBlogTranslations(lang), loadBlogBodies(lang)]);
 }
 
 /** Whether the post's text exists in `lang` (rather than falling back to English). */

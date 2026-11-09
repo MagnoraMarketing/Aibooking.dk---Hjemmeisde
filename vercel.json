@@ -322,11 +322,5 @@
       "destination": "/:lang/blog/shopify-ai-automatisering",
       "permanent": true
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/((?!api/).*)",
-      "destination": "/index.html"
-    }
   ]
 }

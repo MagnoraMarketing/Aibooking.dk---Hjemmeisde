@@ -4,7 +4,7 @@ export const webshopFr: BlogTranslations = {
   'shopify-integration-ai-voice-indgaaende-opkald': {
     title: `L’IA pour boutique en ligne : service client au téléphone et dans le chat avec l’intégration Shopify`,
     excerpt: `Connectez Shopify une fois et laissez une seule IA répondre à vos clients partout – comme réceptionniste vocal IA sur votre site et au téléphone. Toutes les fonctionnalités expliquées, et pourquoi elles comptent.`,
-    meta_title: `L’IA pour boutique en ligne : service client téléphone et chat | AIBooking.dk`,
+    meta_title: `IA pour e-commerce : service client au téléphone et en chat | AIBooking.dk`,
     meta_description: `Une IA répond à vos clients au téléphone et sur le site sur les commandes, stocks et livraisons, à partir des données Shopify en temps réel, même le soir.`,
     content: `
       <p>Les clients d’une boutique en ligne posent les mêmes questions, qu’ils les tapent sur votre site ou qu’ils vous appellent : <em>Est-ce en stock ? Où est mon colis ? Puis-je le retourner ?</em> Avec une <strong>intégration Shopify et une voix IA</strong>, une seule IA répond à toutes ces questions – sur votre site et au téléphone – à partir des données en temps réel de votre boutique, 24 h/24.</p>
@@ -95,7 +95,7 @@ export const webshopFr: BlogTranslations = {
   'widget-til-webshop': {
     title: `Widget pour boutique en ligne : l’IA qui répond aux questions produits et vend en dehors des heures d’ouverture`,
     excerpt: `La plupart des questions sur une boutique en ligne arrivent le soir, quand personne ne répond. Comment un widget IA répond sur les produits, les tailles et la livraison au moment de l’achat – sur Shopify, WooCommerce et Magento.`,
-    meta_title: `Widget pour boutique en ligne : l’IA pour les questions produits | AIBooking.dk`,
+    meta_title: `Widget e-commerce : l’IA répond aux questions produits | AIBooking.dk`,
     meta_description: `Comment un widget IA répond sur les produits, tailles, livraisons et commandes au moment de l’achat, même le soir – sur Shopify et WooCommerce.`,
     content: `
       <p>Un client qui a un article dans son panier et une question sans réponse achète rarement. « Est-ce compatible avec mon modèle ? », « Quand puis-je le recevoir ? », « Puis-je l’échanger si la taille ne va pas ? » Si la réponse arrive le lendemain, le client est parti. Un <strong>widget IA pour boutique en ligne</strong> répond au moment même où la question se pose.</p>

@@ -2,17 +2,18 @@
 // static HTML so crawlers that don't run JavaScript see each page's real
 // content, headings, links and head tags instead of an empty <div id="root">.
 import { renderToString } from 'react-dom/server';
-import i18n from './i18n/config';
+import i18n, { i18nReady } from './i18n/config';
 import App from './App';
 import { setServerPathname } from './utils/currentPath';
 import { setSeoCollector, SeoData } from './utils/seoCollector';
 import { splitLocalizedPath } from './utils/localePaths';
-import { loadBlogTranslations } from './content/blogTranslations';
+import { loadBlogLanguage } from './content/blog';
 
 export async function render(pathname: string): Promise<{ html: string; seo: SeoData | null }> {
   const { lang } = splitLocalizedPath(pathname);
+  await i18nReady;
   await i18n.changeLanguage(lang);
-  await loadBlogTranslations(lang);
+  await loadBlogLanguage(lang);
   setServerPathname(pathname);
   let seo: SeoData | null = null;
   setSeoCollector((data) => { seo = data; });

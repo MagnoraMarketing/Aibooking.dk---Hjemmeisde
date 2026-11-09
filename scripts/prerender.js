@@ -52,7 +52,13 @@ function applySeo(template, seo, pageUrl) {
   html = setMeta(html, 'name', 'twitter:title', seo.title);
   html = setMeta(html, 'name', 'twitter:description', seo.description);
   html = setMeta(html, 'name', 'twitter:image', seo.ogImage);
-  html = html.replace(/<link rel="canonical" href="[^"]*"\s*\/?>/, `<link rel="canonical" href="${escapeAttr(url)}" />`);
+  if (seo.noindex) {
+    // The 404 page: out of the index, and no canonical pointing anywhere.
+    html = setMeta(html, 'name', 'robots', 'noindex, follow');
+    html = html.replace(/\s*<link rel="canonical" href="[^"]*"\s*\/?>/, '');
+  } else {
+    html = html.replace(/<link rel="canonical" href="[^"]*"\s*\/?>/, `<link rel="canonical" href="${escapeAttr(url)}" />`);
+  }
 
   const extra = [
     ...seo.alternates.map((a) => `    <link rel="alternate" hreflang="${a.hreflang}" href="${escapeAttr(a.href)}" />`),
@@ -174,6 +180,16 @@ async function main() {
   }
 
   fs.writeFileSync(path.join(DIST, MANIFEST), JSON.stringify(manifest));
+
+  // dist/404.html: Vercel serves it, with a 404 status, for every URL that
+  // isn't a file (vercel.json has no catch-all rewrite). Rendered in Danish;
+  // the app re-renders it in the URL's language once JavaScript runs.
+  const notFound = await render('/404');
+  if (!notFound.seo?.noindex) throw new Error('/404 did not render the not-found page');
+  fs.writeFileSync(
+    path.join(DIST, '404.html'),
+    applySeo(template, notFound.seo, `${DOMAIN}/404`).replace('<div id="root"></div>', `<div id="root">${notFound.html}</div>`),
+  );
 
   // Sitemap lastmod = the day the page's content last changed.
   const sitemapPath = path.join(DIST, 'sitemap.xml');

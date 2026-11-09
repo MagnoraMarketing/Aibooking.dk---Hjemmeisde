@@ -152,7 +152,7 @@ export const receptionistDe: BlogTranslations = {
   'ai-receptionist-viderestilling-til-menneske': {
     title: `Wann sollte ein KI-Rezeptionist an einen Menschen weiterleiten?`,
     excerpt: `Der Unterschied zwischen einem guten und einem schlechten KI-Rezeptionisten liegt oft in der Übergabe. Sieben Situationen, in denen ein Mensch übernehmen sollte, wie Sie die Regeln aufstellen und was der Kunde erleben sollte.`,
-    meta_title: `Wann sollte ein KI-Rezeptionist an einen Menschen weiterleiten? | AIBooking.dk`,
+    meta_title: `Wann sollte ein KI-Rezeptionist an Menschen übergeben? | AIBooking.dk`,
     meta_description: `Sieben Situationen, in denen ein KI-Rezeptionist an einen Menschen übergeben sollte, drei Arten der Weiterleitung und Regeln für Spitzenzeiten.`,
     content: `
       <p>Der schnellste Weg, Kunden zu verärgern, ist eine KI, die sie nicht gehen lässt. Der zweitschnellste ist eine KI, die alles weiterleitet und so nichts löst. Ein guter KI-Rezeptionist liegt dazwischen: Er erledigt das Vorhersehbare selbst und gibt den Rest weiter – mit Kontext, damit der Kunde nicht von vorn anfangen muss.</p>
@@ -232,7 +232,7 @@ export const receptionistDe: BlogTranslations = {
   'ai-telefonpasning-dansk-ai-receptionist': {
     title: `KI-Telefonservice: Was Sie von einem KI-Rezeptionisten verlangen sollten`,
     excerpt: `KI-Telefonservice funktioniert nur, wenn er in Ihrer Sprache funktioniert – mit echten Namen, Adressen, Dialekten und Regeln. Neun Anforderungen, die Sie jedem Anbieter stellen sollten, bevor Sie Ihre Nummer umleiten.`,
-    meta_title: `KI-Telefonservice: 9 Anforderungen an einen KI-Rezeptionisten | AIBooking.dk`,
+    meta_title: `KI-Telefonservice: 9 Anforderungen an KI-Rezeptionisten | AIBooking.dk`,
     meta_description: `Neun Anforderungen an jeden Anbieter von KI-Telefonservice: Sprachverständnis, Buchung, eigene Nummer, Weiterleitung, Daten in der EU und klare Preise.`,
     content: `
       <p><strong>KI-Telefonservice</strong> bedeutet, dass eine KI Ihre Anrufe annimmt – statt einer Mailbox oder eines externen Telefonservice. Die Technik ist inzwischen gut genug für natürliche Gespräche, doch die Qualität schwankt je nach Sprache und Anbieter noch stark. Hier sind die neun Anforderungen, die wir selbst stellen würden, wenn wir eine Lösung auswählen müssten.</p>

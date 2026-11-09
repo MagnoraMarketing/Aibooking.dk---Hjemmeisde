@@ -7,6 +7,7 @@ import type { NavigatePage } from '../types/navigation';
 import { LOGIN_URL, SIGNUP_URL } from '../utils/backend';
 import PageLink from './PageLink';
 import { currentPathname } from '../utils/currentPath';
+import { rememberLanguageChoice } from '../utils/languagePreference';
 
 interface NavigationProps {
   onNavigate: (page: NavigatePage) => void;
@@ -71,11 +72,17 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
   }, [isMobileOpen]);
 
   const changeLanguage = (lng: SupportedLanguage) => {
+    rememberLanguageChoice();
     i18n.changeLanguage(lng);
     const { path } = splitLocalizedPath(window.location.pathname);
     window.history.pushState({}, '', buildLocalizedPath(lng, path));
     setIsLanguageOpen(false);
   };
+
+  // Real links to this page in each language, so they open in a new tab and
+  // crawlers can follow them; a normal click switches in place.
+  const languageHref = (lng: SupportedLanguage) =>
+    buildLocalizedPath(lng, splitLocalizedPath(currentPathname()).path);
 
   const languageLabel: Record<SupportedLanguage, string> = { da: 'DA', en: 'EN', es: 'ES', de: 'DE', fr: 'FR' };
 
@@ -246,36 +253,46 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
 
                 {isLanguageOpen && (
                   <div className="absolute top-full right-0 mt-3 w-40 bg-white rounded-2xl shadow-xl border border-ink-200/60 py-2 z-50">
-                    <button
-                      onClick={() => changeLanguage('da')}
+                    <a
+                      href={languageHref('da')}
+                      hrefLang="da"
+                      onClick={(e) => { e.preventDefault(); changeLanguage('da'); }}
                       className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
                     >
                       <span className="text-ink-900 font-medium text-[15px]">🇩🇰 Dansk</span>
-                    </button>
-                    <button
-                      onClick={() => changeLanguage('en')}
+                    </a>
+                    <a
+                      href={languageHref('en')}
+                      hrefLang="en"
+                      onClick={(e) => { e.preventDefault(); changeLanguage('en'); }}
                       className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
                     >
                       <span className="text-ink-900 font-medium text-[15px]">🇬🇧 English</span>
-                    </button>
-                    <button
-                      onClick={() => changeLanguage('es')}
+                    </a>
+                    <a
+                      href={languageHref('es')}
+                      hrefLang="es"
+                      onClick={(e) => { e.preventDefault(); changeLanguage('es'); }}
                       className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
                     >
                       <span className="text-ink-900 font-medium text-[15px]">🇪🇸 Español</span>
-                    </button>
-                    <button
-                      onClick={() => changeLanguage('de')}
+                    </a>
+                    <a
+                      href={languageHref('de')}
+                      hrefLang="de"
+                      onClick={(e) => { e.preventDefault(); changeLanguage('de'); }}
                       className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
                     >
                       <span className="text-ink-900 font-medium text-[15px]">🇩🇪 Deutsch</span>
-                    </button>
-                    <button
-                      onClick={() => changeLanguage('fr')}
+                    </a>
+                    <a
+                      href={languageHref('fr')}
+                      hrefLang="fr"
+                      onClick={(e) => { e.preventDefault(); changeLanguage('fr'); }}
                       className="w-full flex items-center space-x-3 px-5 py-3 hover:bg-ink-50/80 transition-all text-left"
                     >
                       <span className="text-ink-900 font-medium text-[15px]">🇫🇷 Français</span>
-                    </button>
+                    </a>
                   </div>
                 )}
               </div>
@@ -464,36 +481,46 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
           <div className="mt-2 px-4 py-3 border-t border-ink-100">
             <p className="text-xs font-semibold text-ink-400 uppercase tracking-wider mb-2">{t('nav.language')}</p>
             <div className="grid grid-cols-2 gap-2">
-              <button
-                onClick={() => { changeLanguage('da'); setIsMobileOpen(false); }}
-                className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'da' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
+              <a
+                href={languageHref('da')}
+                hrefLang="da"
+                onClick={(e) => { e.preventDefault(); changeLanguage('da'); setIsMobileOpen(false); }}
+                className={`block text-center py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'da' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
               >
                 🇩🇰 Dansk
-              </button>
-              <button
-                onClick={() => { changeLanguage('en'); setIsMobileOpen(false); }}
-                className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'en' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
+              </a>
+              <a
+                href={languageHref('en')}
+                hrefLang="en"
+                onClick={(e) => { e.preventDefault(); changeLanguage('en'); setIsMobileOpen(false); }}
+                className={`block text-center py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'en' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
               >
                 🇬🇧 English
-              </button>
-              <button
-                onClick={() => { changeLanguage('es'); setIsMobileOpen(false); }}
-                className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'es' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
+              </a>
+              <a
+                href={languageHref('es')}
+                hrefLang="es"
+                onClick={(e) => { e.preventDefault(); changeLanguage('es'); setIsMobileOpen(false); }}
+                className={`block text-center py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'es' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
               >
                 🇪🇸 Español
-              </button>
-              <button
-                onClick={() => { changeLanguage('de'); setIsMobileOpen(false); }}
-                className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'de' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
+              </a>
+              <a
+                href={languageHref('de')}
+                hrefLang="de"
+                onClick={(e) => { e.preventDefault(); changeLanguage('de'); setIsMobileOpen(false); }}
+                className={`block text-center py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'de' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
               >
                 🇩🇪 Deutsch
-              </button>
-              <button
-                onClick={() => { changeLanguage('fr'); setIsMobileOpen(false); }}
-                className={`py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'fr' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
+              </a>
+              <a
+                href={languageHref('fr')}
+                hrefLang="fr"
+                onClick={(e) => { e.preventDefault(); changeLanguage('fr'); setIsMobileOpen(false); }}
+                className={`block text-center py-2 rounded-lg text-sm font-medium transition-all ${i18n.language === 'fr' ? 'bg-brand-600 text-white' : 'bg-ink-100 text-ink-700 hover:bg-ink-200'}`}
               >
                 🇫🇷 Français
-              </button>
+              </a>
             </div>
           </div>
         </div>

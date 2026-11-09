@@ -28,7 +28,7 @@ import BlogPostPage from './pages/BlogPostPage';
 import TrialOfferWidget from './components/TrialOfferWidget';
 import { SUPPORTED_LANGUAGES, SupportedLanguage } from './i18n/config';
 import { splitLocalizedPath, buildLocalizedPath } from './utils/localePaths';
-import { currentPathname } from './utils/currentPath';
+import { currentPathname, setRenderingNotFound } from './utils/currentPath';
 import { blogRedirects, getCategoryBySlug, getPostBySlug } from './content/blog';
 import { loadBlogTranslations } from './content/blogTranslations';
 import { loadBlogLanguage } from './content/blog';
@@ -82,6 +82,7 @@ function App() {
   const currentPage = route.page;
   const blogParam = route.param;
   const unknownPath = route.unknown;
+  setRenderingNotFound(unknownPath);
 
   const syncFromLocation = () => {
     const { lang, path } = splitLocalizedPath(window.location.pathname);

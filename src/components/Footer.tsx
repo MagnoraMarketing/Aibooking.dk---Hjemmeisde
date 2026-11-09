@@ -7,18 +7,15 @@ import { FACEBOOK_URL, facebookShareUrl } from '../utils/social';
 import { useLocalizedHref } from '../utils/pagePaths';
 import PageLink from './PageLink';
 import { SUPPORTED_LANGUAGES, SupportedLanguage } from '../i18n/config';
-import { splitLocalizedPath, buildLocalizedPath } from '../utils/localePaths';
-import { currentPathname } from '../utils/currentPath';
+import { currentPageIn } from '../utils/localePaths';
+import { currentPathname, isRenderingNotFound } from '../utils/currentPath';
 
 const LANGUAGE_NAMES: Record<SupportedLanguage, string> = {
   da: 'Dansk', en: 'English', es: 'Español', de: 'Deutsch', fr: 'Français',
 };
 
-// This page in another language.
-function languageHref(lang: SupportedLanguage) {
-  const { path } = splitLocalizedPath(currentPathname());
-  return buildLocalizedPath(lang, path);
-}
+// This page in another language (the home page when this is the 404 page).
+const languageHref = (lang: SupportedLanguage) => currentPageIn(lang);
 
 interface FooterProps {
   onNavigate?: (page: NavigatePage) => void;
@@ -320,6 +317,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
             >
               <Facebook className="w-5 h-5" />
             </a>
+            {!isRenderingNotFound() && (
             <a
               href={facebookShareUrl(currentPathname())}
               target="_blank"
@@ -329,6 +327,7 @@ function Footer({ onNavigate = () => {} }: FooterProps) {
               <Share2 className="w-4 h-4" />
               {t('footer.facebook_share')}
             </a>
+            )}
           </div>
           <nav aria-label={t('nav.language')} className="mb-4 flex flex-wrap justify-center gap-x-4 gap-y-2">
             {SUPPORTED_LANGUAGES.map((lang) => (

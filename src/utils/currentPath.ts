@@ -11,3 +11,15 @@ export function currentPathname(): string {
   if (serverPathname !== null) return serverPathname;
   return typeof window !== 'undefined' ? window.location.pathname : '/';
 }
+
+// Whether the page being rendered is the 404 page. App sets it on every
+// render, before its children render, so links built during render can tell.
+let notFound = false;
+
+export function setRenderingNotFound(value: boolean) {
+  notFound = value;
+}
+
+export function isRenderingNotFound(): boolean {
+  return notFound;
+}

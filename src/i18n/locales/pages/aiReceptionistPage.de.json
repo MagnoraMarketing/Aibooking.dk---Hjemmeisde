@@ -89,7 +89,7 @@
       ["Mehrere Anrufe gleichzeitig", "Ja", "Nur Nachrichten", "Abhängig von der Besetzung"],
       ["Dieselbe Assistenz auf der Website", "Ja, AI Voice Widget", "Nein", "Nein"],
       ["Aufzeichnung, Transkript und Zusammenfassung", "Ja, im Dashboard", "Nur die Audiodatei", "Eine schriftliche Notiz"],
-      ["Preismodell", "Paket mit Gesprächszeit, ab 134 €/Monat", "Meist Teil des Telefontarifs", "Pro Anruf oder feste Monatspauschale"]
+      ["Preismodell", "Paket nach Gesprächszeit", "Meist Teil des Telefontarifs", "Pro Anruf oder feste Monatspauschale"]
     ],
     "link": "Zum ausführlichen Vergleich"
   },

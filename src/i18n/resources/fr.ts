@@ -31,6 +31,7 @@ import phoneAnsweringSEOFr from '../locales/shared/phoneAnsweringSEO.fr.json';
 import blogCtaFr from '../locales/shared/blogCta.fr.json';
 import pageHeroFr from '../locales/shared/pageHero.fr.json';
 import audioDemoFr from '../locales/shared/audioDemo.fr.json';
+import priceEstimateFr from '../locales/shared/priceEstimate.fr.json';
 
 export default {
   common: commonFr,
@@ -64,4 +65,5 @@ export default {
   blogCta: blogCtaFr,
   pageHero: pageHeroFr,
   audioDemo: audioDemoFr,
+  priceEstimate: priceEstimateFr,
 };

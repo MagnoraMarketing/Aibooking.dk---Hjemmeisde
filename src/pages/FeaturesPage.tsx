@@ -22,7 +22,7 @@ import {
 } from 'lucide-react';
 import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 
-type PageType = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'blog-category' | 'blog-post' | 'trial' | 'app' | 'salon' | 'shopify' | 'restaurant';
+type PageType = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'blog-category' | 'blog-post' | 'trial' | 'app' | 'salon' | 'shopify' | 'restaurant' | 'quote';
 
 interface FeaturesPageProps {
   onNavigate: (page: PageType) => void;

@@ -47,12 +47,12 @@ export const widgetEs: BlogTranslations = {
         <tr><td>¿Responde solo a partir de mi información?</td><td>No debe inventar precios ni promesas.</td></tr>
         <tr><td>¿Dónde se tratan los datos y hay contrato de encargo de tratamiento?</td><td>RGPD y Reglamento de IA. Consulta <a href="/blog/ai-widget-gdpr-danske-virksomheder">la guía</a>.</td></tr>
         <tr><td>¿Cómo afecta a la velocidad de la página?</td><td>Debe cargarse de forma asíncrona.</td></tr>
-        <tr><td>¿Cuánto cuesta y hay permanencia?</td><td>Con nosotros, 134 €/mes con 150 minutos de voz incluidos, y 7 días gratis.</td></tr>
+        <tr><td>¿Cuánto cuesta y hay permanencia?</td><td>Con nosotros el precio depende de los minutos: lo ves en la <a href="/prisberegner">calculadora de precio</a>. Sin permanencia y con 7 días gratis.</td></tr>
       </tbody></table></div>
       <p>Para más formas de usar la IA en tu web, lee <a href="/blog/ai-til-hjemmeside">IA para tu web: 7 formas</a>. Descubre el producto en <a href="/widget">widget de IA</a>.</p>`,
     faq: [
       { question: `¿Funciona el widget de IA en mi plataforma?`, answer: `Funciona en WordPress, Shopify, WooCommerce, Wix, Squarespace, Magento y webs a medida mediante un breve fragmento de código.` },
-      { question: `¿Cuánto cuesta un widget de IA?`, answer: `En Aibooking.dk, 134 € al mes con 150 minutos de conversación incluidos, y los primeros 7 días son gratis.` },
+      { question: `¿Cuánto cuesta un widget de IA?`, answer: `En Aibooking.dk el precio depende de los minutos de conversación que use el widget. Consulta tu precio en la calculadora, y los primeros 7 días son gratis.` },
       { question: `¿Ralentiza el widget mi web?`, answer: `Se carga de forma asíncrona, así que no retrasa la visualización de la página.` },
     ],
   },

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   Zap, Mic, Calendar, Clock, CheckCircle, MessageSquare, PhoneCall, Star, Shield, Globe,
@@ -13,14 +13,13 @@ import RelatedGuides from '../components/RelatedGuides';
 import AppQrSection from '../components/AppQrSection';
 import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
-import { localizedPrice } from '../utils/currency';
 import { SIGNUP_URL } from '../utils/backend';
-import { VOICE_PLAN_PRICES_DKK, WIDGET_PLAN_PRICE_DKK, SETUP_PRICES_DKK } from '../utils/pricing';
+import QuoteStarter from '../components/QuoteStarter';
 import { VOICE_DEMO_ASSISTANT_ID } from '../utils/voiceDemo';
 import { useVoiceDemoCall } from '../hooks/useVoiceDemoCall';
 import type { SupportedLanguage } from '../i18n/config';
 import { voiceWidgetImage, websiteWidgetImage } from '../utils/localizedImages';
-import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
+import { localizedUrl } from '../utils/localePaths';
 import { createBreadcrumbSchema, createFAQSchema } from '../utils/structuredData';
 import ClinicDashboardMock from '../components/ClinicDashboardMock';
 import ShopifyIntegrationMock from '../components/ShopifyIntegrationMock';
@@ -56,136 +55,8 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
   );
 }
 
-interface PricingPlanText {
-  name: string;
-  description: string;
-  minutes: string;
-  features: string[];
-  cta: string;
-}
-
-function PricingSection() {
-  const { t, i18n } = useTranslation('widgetPage');
-  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
-  const contactHref = buildLocalizedPath(lang, '/kontakt');
-
-  const widgetPlanFeatures = t('pricing.widgetPlan.features', { returnObjects: true }) as string[];
-
-  return (
-    <section id="priser" className="py-20 md:py-28 bg-gradient-to-b from-white to-ink-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-        {/* Section header */}
-        <div className="text-center mb-16 space-y-4">
-          <div className="inline-flex items-center gap-2 bg-brand-50 text-brand-700 px-4 py-2 rounded-full text-sm font-semibold border border-brand-100">
-            <CheckCircle className="w-4 h-4" />
-            {t('pricing.badge')}
-          </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-ink-900">
-            {t('pricing.title')}
-          </h2>
-          <p className="text-xl text-ink-600 max-w-3xl mx-auto">
-            {t('pricing.subtitle')}
-          </p>
-        </div>
-
-        {/* Widget plan – primary */}
-        <div className="max-w-4xl mx-auto mb-6">
-          <div className="flex items-center gap-3 mb-5">
-            <div className="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center">
-              <Mic className="w-4 h-4 text-white" />
-            </div>
-            <h3 className="text-2xl font-bold text-ink-900">{t('pricing.widgetPlan.heading')}</h3>
-            <span className="bg-brand-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">{t('pricing.widgetPlan.badge')}</span>
-          </div>
-          <p className="text-ink-800 mb-8 leading-relaxed max-w-3xl font-medium">
-            {t('pricing.widgetPlan.description')}
-          </p>
-        </div>
-
-        <div className="max-w-4xl mx-auto mb-20">
-          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-2xl border border-ink-100 relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-brand-50 rounded-full -translate-y-1/2 translate-x-1/2"></div>
-            <div className="absolute bottom-0 left-0 w-48 h-48 bg-brand-50 rounded-full translate-y-1/2 -translate-x-1/2"></div>
-
-            <div className="relative grid md:grid-cols-2 gap-10 items-center">
-              <div>
-                <div className="flex items-baseline gap-3 mb-2">
-                  <span className="text-7xl font-bold text-ink-900">{localizedPrice(WIDGET_PLAN_PRICE_DKK, lang)}</span>
-                  <span className="text-2xl text-brand-600 font-semibold">{t('pricing.widgetPlan.price_suffix')}</span>
-                </div>
-                <p className="text-ink-700 mb-1 font-medium">{t('pricing.widgetPlan.includes')}</p>
-                <p className="text-ink-500 text-sm">{t('pricing.widgetPlan.renewal_note')}</p>
-
-                <div className="mt-8 flex flex-col sm:flex-row gap-3">
-                  <a
-                    href={SIGNUP_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 bg-brand-600 text-white px-6 py-3.5 rounded-xl hover:bg-brand-700 transition-all font-semibold shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
-                  >
-                    {t('pricing.widgetPlan.cta_order')}
-                    <ArrowRight className="w-4 h-4" />
-                  </a>
-                  <a
-                    href={contactHref}
-                    className="inline-flex items-center justify-center gap-2 bg-ink-100 text-ink-800 border border-ink-200 px-6 py-3.5 rounded-xl hover:bg-ink-200 transition-all font-semibold"
-                  >
-                    {t('pricing.widgetPlan.cta_intro')}
-                  </a>
-                </div>
-              </div>
-
-              <div>
-                <ul className="space-y-3">
-                  {widgetPlanFeatures.map((feature) => (
-                    <li key={feature} className="flex items-start gap-3">
-                      <div className="w-5 h-5 rounded-full bg-brand-600 flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <CheckCircle className="w-3 h-3 text-white" />
-                      </div>
-                      <span className="text-ink-800 text-sm font-medium">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-4 bg-white border border-brand-100 rounded-2xl p-5 text-sm text-ink-600 flex flex-col sm:flex-row gap-4 sm:gap-8">
-            <span><span className="font-semibold text-ink-900">{t('pricing.widgetPlan.footnote_talketime_label')}</span> {t('pricing.widgetPlan.footnote_talketime_value')}</span>
-            <span><span className="font-semibold text-ink-900">{t('pricing.widgetPlan.footnote_renewal_label')}</span> {t('pricing.widgetPlan.footnote_renewal_value')}</span>
-            <span><span className="font-semibold text-ink-900">{t('pricing.widgetPlan.footnote_binding_label')}</span> {t('pricing.widgetPlan.footnote_binding_value')}</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-  );
-}
-
-// The phone assistant is a separate product line from the website widget this
-// page is about, so it lives in its own clearly-separated section further down
-// rather than mixed into the widget pricing above.
 function PhoneAssistantSection() {
-  const { t, i18n } = useTranslation('widgetPage');
-  const [isAdditionalOpen, setIsAdditionalOpen] = useState(false);
-  const lang = (i18n.resolvedLanguage || i18n.language) as SupportedLanguage;
-
-  const plansText = t('pricing.plans', { returnObjects: true }) as PricingPlanText[];
-  // Setup/onboarding is an OPTIONAL one-time add-on, priced the same as the
-  // plan's own monthly price (SETUP_PRICES_DKK mirrors VOICE_PLAN_PRICES_DKK
-  // index-for-index) — never included automatically.
-  const planMeta = [
-    { price: VOICE_PLAN_PRICES_DKK[0], highlighted: false, href: SIGNUP_URL },
-    { price: VOICE_PLAN_PRICES_DKK[1], highlighted: false, href: SIGNUP_URL },
-    { price: VOICE_PLAN_PRICES_DKK[2], highlighted: true, href: SIGNUP_URL },
-    { price: VOICE_PLAN_PRICES_DKK[3], highlighted: false, href: SIGNUP_URL },
-  ];
-  const phonePlans = plansText.map((plan, i) => ({
-    ...plan,
-    ...planMeta[i],
-    setup: SETUP_PRICES_DKK[i],
-  }));
+  const { t } = useTranslation('widgetPage');
 
   const benefits = t('phoneSection.benefits', { returnObjects: true }) as TitleDescription[];
   const benefitIcons = [SlidersHorizontal, LayoutDashboard, Headphones, CalendarCheck];
@@ -245,149 +116,15 @@ function PhoneAssistantSection() {
           <p className="text-center text-sm text-ink-400 mt-6">{t('clinicDashboard:note')}</p>
         </div>
 
-        {/* Phone plans */}
-        <div className="mb-6">
-          <h3 className="text-2xl font-bold text-ink-900 text-center mb-2">{t('pricing.choosePackage.title')}</h3>
-          <p className="text-ink-600 text-center mb-12">{t('pricing.choosePackage.subtitle')}</p>
+        <div className="text-center">
+          <a
+            href="#priser"
+            className="inline-flex items-center justify-center gap-2 bg-brand-600 hover:bg-brand-700 text-white px-8 py-3.5 rounded-xl font-semibold transition-all shadow-lg"
+          >
+            {t('priceEstimate:starter.cta')}
+            <ArrowRight className="w-4 h-4" />
+          </a>
         </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-          {phonePlans.map((plan) => (
-            <div
-              key={plan.name}
-              className={`relative rounded-2xl p-8 transition-all duration-300 flex flex-col ${
-                plan.highlighted
-                  ? 'bg-gradient-to-br from-brand-600 via-brand-600 to-brand-700 text-white shadow-xl scale-105 border border-brand-500/50'
-                  : 'bg-white border border-ink-200/80 hover:border-brand-300/60 hover:shadow-lg'
-              }`}
-            >
-              {plan.highlighted && (
-                <div className="absolute -top-3.5 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-gradient-to-r from-yellow-400 to-yellow-500 text-ink-900 px-5 py-1.5 rounded-full text-xs font-bold shadow-md uppercase tracking-wide">
-                    {t('pricing.most_popular_badge')}
-                  </span>
-                </div>
-              )}
-
-              <div className="mb-6">
-                <h4 className={`text-2xl font-bold mb-2 ${plan.highlighted ? 'text-white' : 'text-ink-900'}`}>
-                  {plan.name}
-                </h4>
-                <p className={`text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
-                  {plan.description}
-                </p>
-              </div>
-
-              <div className="mb-6">
-                <div className="flex items-baseline">
-                  {plan.price === 0 ? (
-                    <span className={`text-5xl font-bold ${plan.highlighted ? 'text-white' : 'text-ink-900'}`}>
-                      {t('pricing.free_label')}
-                    </span>
-                  ) : (
-                    <>
-                      <span className={`text-5xl font-bold ${plan.highlighted ? 'text-white' : 'text-ink-900'}`}>
-                        {localizedPrice(plan.price, lang)}
-                      </span>
-                      <span className={`ml-2 ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>{t('pricing.currency_suffix')}</span>
-                    </>
-                  )}
-                </div>
-                <div className={`mt-2 text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
-                  {plan.minutes}
-                </div>
-              </div>
-
-              <ul className="space-y-3 mb-8">
-                {plan.features.map((feature) => (
-                  <li key={feature} className="flex items-start space-x-3">
-                    <div className={`w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 ${plan.highlighted ? 'bg-brand-500' : 'bg-brand-100'}`}>
-                      <CheckCircle className={`w-3 h-3 ${plan.highlighted ? 'text-white' : 'text-brand-600'}`} />
-                    </div>
-                    <span className={`text-sm ${plan.highlighted ? 'text-brand-50' : 'text-ink-700'}`}>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-
-              {plan.setup > 0 && (
-                <div className={`mb-6 pt-6 border-t flex items-start gap-2.5 ${plan.highlighted ? 'border-brand-500' : 'border-ink-200'}`}>
-                  <CheckCircle className={`mt-0.5 w-4 h-4 flex-shrink-0 ${plan.highlighted ? 'text-white' : 'text-brand-600'}`} />
-                  <span className={`text-sm ${plan.highlighted ? 'text-brand-100' : 'text-ink-600'}`}>
-                    {t('pricing.setup_included_note', { setup: localizedPrice(plan.setup, lang) })}
-                  </span>
-                </div>
-              )}
-
-              <div className="flex-grow"></div>
-
-              <a
-                href={plan.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`block w-full text-center py-3.5 rounded-xl font-semibold transition-all transform hover:scale-[1.02] text-[15px] ${
-                  plan.highlighted
-                    ? 'bg-white text-brand-600 hover:bg-brand-50 shadow-md'
-                    : 'bg-brand-600 text-white hover:bg-brand-700 shadow-sm'
-                }`}
-              >
-                {plan.cta}
-              </a>
-            </div>
-          ))}
-        </div>
-
-        <div className="mt-12 text-center space-y-5">
-          <p className="inline-block bg-brand-50 border border-brand-100 text-brand-800 rounded-2xl px-6 py-4 font-medium max-w-2xl mx-auto">
-            {t('pricing.setup_recommendation')}
-          </p>
-          <p className="text-ink-600 text-lg max-w-2xl mx-auto">
-            {t('pricing.after_order_note')}
-          </p>
-        </div>
-
-        {/* Additional prices */}
-        <div className="mt-20 max-w-4xl mx-auto">
-          <h3 className="text-2xl md:text-3xl font-bold text-ink-900 mb-8 text-center">{t('pricing.additionalPrices.title')}</h3>
-          <div className="bg-white rounded-2xl border border-ink-200 overflow-hidden shadow-sm">
-            <button
-              onClick={() => setIsAdditionalOpen(!isAdditionalOpen)}
-              className="w-full flex items-center justify-between p-8 md:p-10 hover:bg-ink-50 transition-colors"
-            >
-              <h4 className="text-xl font-semibold text-ink-900">{t('pricing.additionalPrices.toggle_label')}</h4>
-              <ChevronDown className={`w-6 h-6 text-ink-600 transition-transform duration-300 ${isAdditionalOpen ? 'rotate-180' : ''}`} />
-            </button>
-
-            {isAdditionalOpen && (
-              <div className="border-t border-ink-200">
-                <div className="p-8 md:p-10 space-y-8">
-                  <div className="pb-8 border-b border-ink-200">
-                    <h4 className="text-xl font-semibold text-ink-900 mb-3">{t('pricing.additionalPrices.setup.title')}</h4>
-                    <p className="text-ink-700 text-lg">
-                      {t('pricing.additionalPrices.setup.value', {
-                        setupMin: localizedPrice(SETUP_PRICES_DKK[1], lang),
-                        setupMax: localizedPrice(SETUP_PRICES_DKK[3], lang),
-                      })} <span className="text-ink-600 text-base">{t('pricing.additionalPrices.setup.note')}</span>
-                    </p>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-semibold text-ink-900 mb-4">{t('pricing.additionalPrices.hourly.title')}</h4>
-                    <div className="space-y-3">
-                      <div className="flex justify-between items-center">
-                        <span className="text-ink-700">{t('pricing.additionalPrices.hourly.prompting_label')}</span>
-                        <span className="text-ink-900 font-semibold">{t('pricing.additionalPrices.hourly.prompting_price')}</span>
-                      </div>
-                      <div className="flex justify-between items-center">
-                        <span className="text-ink-700">{t('pricing.additionalPrices.hourly.development_label')}</span>
-                        <span className="text-ink-900 font-semibold">{t('pricing.additionalPrices.hourly.development_price')}</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )}
-          </div>
-        </div>
-
       </div>
     </section>
   );
@@ -893,8 +630,8 @@ function WidgetPage({ onNavigate }: WidgetPageProps) {
           </div>
         </section>
 
-        {/* Pricing */}
-        <PricingSection />
+        {/* Price estimate: industry, talk time and what the AI handles */}
+        <QuoteStarter />
 
         {/* FAQ */}
         <section className="py-20 md:py-28 bg-ink-50">

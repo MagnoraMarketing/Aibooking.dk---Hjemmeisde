@@ -54,11 +54,11 @@ export const receptionistDe: BlogTranslations = {
   },
   'hvad-koster-en-ai-receptionist': {
     title: `Was kostet ein KI-Rezeptionist? Preise und Rechnung (2026)`,
-    excerpt: `Ein KI-Rezeptionist wird meist als Monatspaket mit inklusiver Gesprächszeit angeboten. Was den Preis bestimmt, was unsere Pakete kosten und wie Sie berechnen, ob es sich für Ihr Unternehmen lohnt.`,
+    excerpt: `Ein KI-Rezeptionist wird meist als Monatspaket mit inklusiver Gesprächszeit angeboten. Was den Preis bestimmt, wie unsere Pakete funktionieren und wie Sie berechnen, ob es sich für Ihr Unternehmen lohnt.`,
     meta_title: `Was kostet ein KI-Rezeptionist? Preise 2026 | AIBooking.dk`,
-    meta_description: `Preismodelle für KI-Rezeptionisten, unsere öffentlichen Preise je Paket und Minute, wie viele Minuten Sie brauchen und eine Rechnung, ob es sich lohnt.`,
+    meta_description: `Preismodelle für KI-Rezeptionisten, wie unsere Pakete funktionieren, wie viele Minuten Sie brauchen und eine Rechnung, ob es sich für Sie lohnt.`,
     content: `
-      <p>Der Preis eines KI-Rezeptionisten hängt weniger von „der KI“ ab als davon, wie viele Minuten sie spricht, wie viel sie erledigen soll und wie viel Hilfe Sie bei der Einrichtung möchten. Im Folgenden geht es um die Preismodelle am Markt, unsere eigenen Preise und eine Rechnung, die Sie mit Ihren eigenen Zahlen durchführen können.</p>
+      <p>Der Preis eines KI-Rezeptionisten hängt weniger von „der KI“ ab als davon, wie viele Minuten sie spricht, wie viel sie erledigen soll und wie viel Hilfe Sie bei der Einrichtung möchten. Im Folgenden geht es um die Preismodelle am Markt, wie unser Preis zustande kommt, und eine Rechnung, die Sie mit Ihren eigenen Zahlen durchführen können.</p>
       <h2>Die drei Preismodelle für KI-Rezeptionisten</h2>
       <ul>
         <li><strong>Abonnement mit inklusiver Gesprächszeit.</strong> Ein fester Monatspreis mit einer bestimmten Anzahl Minuten. Planbar und das gängigste Modell für kleine und mittlere Unternehmen.</li>
@@ -67,14 +67,14 @@ export const receptionistDe: BlogTranslations = {
       </ul>
       <p>Egal welches Modell, fragen Sie: Was kosten Minuten über das Paket hinaus? Gibt es eine Mindestlaufzeit? Was kostet die Einrichtung? Und sind SMS, Aufzeichnungen und Kalenderintegration inklusive oder Extras?</p>
       <h2>Was kostet Aibooking.dk?</h2>
-      <p>Unsere Preise sind öffentlich (Oktober 2026). Alle Pakete umfassen ein- und ausgehende Anrufe, Kalenderintegration, SMS und Aufzeichnung.</p>
-      <div class="blog-table"><table><thead><tr><th>Paket</th><th>Preis pro Monat</th><th>Inklusive Gesprächszeit</th><th>Preis pro inklusiver Minute</th></tr></thead><tbody>
-        <tr><td>Demo (Testphase)</td><td>7 Tage kostenlos</td><td>10 Minuten</td><td>–</td></tr>
-        <tr><td>Starter</td><td>134 €</td><td>150 Minuten</td><td>ca. 0,89 €</td></tr>
-        <tr><td>Professional</td><td>335 €</td><td>600 Minuten</td><td>ca. 0,56 €</td></tr>
-        <tr><td>Enterprise</td><td>804 €</td><td>2.000 Minuten</td><td>ca. 0,40 €</td></tr>
+      <p>Bei uns bezahlen Sie Gesprächszeit: ein Monatspaket mit inklusiven Minuten, und je mehr Minuten, desto niedriger der Preis pro Minute. Alle Pakete umfassen ein- und ausgehende Anrufe, Kalenderintegration, SMS und Aufzeichnung, und die ersten 7 Tage sind kostenlos.</p>
+      <div class="blog-table"><table><thead><tr><th>Paket</th><th>Inklusive Gesprächszeit</th><th>Passt meist zu</th></tr></thead><tbody>
+        <tr><td>Demo (Testphase)</td><td>10 Minuten für 7 Tage</td><td>Test mit echten Anrufen</td></tr>
+        <tr><td>Starter</td><td>150 Minuten</td><td>Kleinen Betrieben und Anrufen nach Feierabend</td></tr>
+        <tr><td>Professional</td><td>600 Minuten</td><td>Betrieben mit mehreren Personen am Telefon</td></tr>
+        <tr><td>Enterprise</td><td>2.000 Minuten</td><td>Hohem Volumen und Saisonspitzen</td></tr>
       </tbody></table></div>
-      <p>Einrichtung und Onboarding sind ein <strong>optionaler</strong> Einmalkauf zum gleichen Preis wie das gewählte Paket (z. B. 134 € für Starter), inklusive einer Stunde Nachbetreuung. Sie können es auch selbst einrichten. Einzelaufgaben kosten 93 € pro Stunde für Prompting/Training und 147 € pro Stunde für Entwicklung. Die aktuellen Preise finden Sie auf der <a href="/ai-receptionist#priser">Seite zum KI-Telefonservice</a>.</p>
+      <p>Ihr Preis hängt von Ihrer Branche ab, davon, wie viel Zeit Sie am Telefon verbringen, und ob die KI auch im Website-Widget, im Onlineshop oder bei Essenslieferungen antworten soll. Im <a href="/prisberegner">Preisrechner</a> wählen Sie alles aus, sehen ein Beispiel Ihres Dashboards und erhalten den Preis, sobald Sie ein Angebot anfordern. Einrichtung und Onboarding sind ein <strong>optionaler</strong> Einmalkauf inklusive einer Stunde Nachbetreuung. Sie können es auch selbst einrichten, und wenn Sie die kostenlose Testphase wählen, helfen wir Ihnen in den 7 Tagen kostenlos bei der Einrichtung.</p>
       <h2>Wie viele Minuten brauchen Sie?</h2>
       <p>Nehmen Sie die Zahl der Anrufe, die die KI pro Monat übernehmen soll, und multiplizieren Sie sie mit der durchschnittlichen Gesprächsdauer. Eine Buchung dauert meist ein bis drei Minuten.</p>
       <ul>
@@ -91,7 +91,7 @@ export const receptionistDe: BlogTranslations = {
         <li><strong>Heute verlorene Anrufe.</strong> Wie viele Anrufe landen auf der Mailbox oder werden nie zurückgerufen? Multiplizieren Sie mit dem Anteil, der Kunde geworden wäre, und dem Wert eines Kunden.</li>
         <li><strong>Terminausfälle.</strong> Bringen Erinnerungsanrufe auch nur einen Kunden pro Woche dazu, rechtzeitig abzusagen, kann der Termin an jemand anderen gehen.</li>
       </ol>
-      <p><strong>Beispiel mit beispielhaften Zahlen:</strong> Ein Friseursalon verpasst während der Haarschnitte 15 Anrufe pro Woche. Wäre jeder fünfte zu einer Buchung über 60 € geworden, sind das 3 Buchungen × 60 € × 4 Wochen = 720 € Umsatz im Monat, der heute an die Konkurrenz geht. Dem stehen 134 € für Starter gegenüber. Nutzen Sie Ihre eigenen Zahlen – ein ausführlicheres Modell finden Sie im <a href="/blog/roi-ai-automatisering-virksomheder">Leitfaden zum ROI der KI-Automatisierung</a>.</p>
+      <p><strong>Beispiel mit beispielhaften Zahlen:</strong> Ein Friseursalon verpasst während der Haarschnitte 15 Anrufe pro Woche. Wäre jeder fünfte zu einer Buchung über 60 € geworden, sind das 3 Buchungen × 60 € × 4 Wochen = 720 € Umsatz im Monat, der heute an die Konkurrenz geht. Dem steht der Preis eines Starter-Pakets gegenüber, der nur einen Bruchteil davon ausmacht. Nutzen Sie Ihre eigenen Zahlen – ein ausführlicheres Modell finden Sie im <a href="/blog/roi-ai-automatisering-virksomheder">Leitfaden zum ROI der KI-Automatisierung</a>.</p>
       <h2>Und eine menschliche Rezeptionskraft oder ein Telefonservice?</h2>
       <p>Eine fest angestellte Rezeptionskraft kostet Gehalt, Nebenkosten, Urlaub und Vertretung bei Krankheit und kann während der Öffnungszeiten jeweils einen Anruf annehmen. Ein Telefonservice rechnet meist pro Anruf oder Minute ab und nimmt in der Regel eine Nachricht auf, statt zu buchen. Das heißt nicht, dass KI immer besser ist – eine Rezeptionskraft leistet viel mehr, als nur ans Telefon zu gehen. Den vollständigen Vergleich finden Sie in <a href="/blog/ai-receptionist-vs-telefonpasning">KI-Rezeptionist vs. klassischer Telefonservice</a>.</p>
       <h2>Versteckte Kosten, nach denen Sie fragen sollten</h2>
@@ -103,7 +103,7 @@ export const receptionistDe: BlogTranslations = {
         <li>Ob Sie kündigen und Ihre Daten exportieren und löschen lassen können.</li>
       </ul>`,
     faq: [
-      { question: `Was kostet ein KI-Rezeptionist pro Monat?`, answer: `Bei Aibooking.dk ab 134 € pro Monat für 150 Minuten Gesprächszeit (Starter). Professional kostet 335 € für 600 Minuten und Enterprise 804 € für 2.000 Minuten. Die ersten 7 Tage sind kostenlos.` },
+      { question: `Was kostet ein KI-Rezeptionist pro Monat?`, answer: `Bei Aibooking.dk richtet sich der Preis nach der Gesprächszeit: Starter enthält 150 Minuten, Professional 600 und Enterprise 2.000 Minuten im Monat. Im Preisrechner unter aibooking.dk/de/prisberegner sehen Sie Ihren Preis nach Branche und erwarteter Gesprächszeit, und die ersten 7 Tage sind kostenlos.` },
       { question: `Ist die Einrichtung im Preis enthalten?`, answer: `Die Einrichtung ist optional. Sie können sie kostenlos selbst vornehmen oder Einrichtung und Onboarding als Einmalzahlung zum Preis des Pakets kaufen, inklusive einer Stunde Nachbetreuung.` },
       { question: `Kostet es mehr, wenn viele gleichzeitig anrufen?`, answer: `Nein. Sie zahlen für die genutzte Gesprächszeit, nicht für Kapazität. Zehn gleichzeitige Anrufe kosten dasselbe wie zehn Anrufe nacheinander.` },
     ],
@@ -222,7 +222,7 @@ export const receptionistDe: BlogTranslations = {
         <li>Mehr als die Hälfte der Anrufe dreht sich um Buchungen oder dieselben Fragen.</li>
       </ol>
       <h2>Was kostet es für ein kleines Unternehmen?</h2>
-      <p>Das Starter-Paket kostet 134 € pro Monat mit 150 Minuten Gesprächszeit, und Sie können es 7 Tage kostenlos testen. Wie Sie berechnen, wie viele Minuten Sie brauchen, lesen Sie in <a href="/blog/hvad-koster-en-ai-receptionist">Was kostet ein KI-Rezeptionist?</a> – und was Sie zurückbekommen, im <a href="/blog/roi-ai-automatisering-virksomheder">ROI-Leitfaden</a>.</p>
+      <p>Das Starter-Paket enthält 150 Minuten Gesprächszeit im Monat, Ihren Preis sehen Sie im <a href="/prisberegner">Preisrechner</a>, und Sie können es 7 Tage kostenlos testen. Wie Sie berechnen, wie viele Minuten Sie brauchen, lesen Sie in <a href="/blog/hvad-koster-en-ai-receptionist">Was kostet ein KI-Rezeptionist?</a> – und was Sie zurückbekommen, im <a href="/blog/roi-ai-automatisering-virksomheder">ROI-Leitfaden</a>.</p>
       <p>Sie arbeiten in einer bestimmten Branche? Sehen Sie sich unsere Leitfäden für <a href="/blog/ai-telefonassistent-haandvaerker">Handwerker</a>, <a href="/blog/totalloesning-klinik">Praxen und Salons</a> und <a href="/blog/ai-telefonassistent-kontor-administration">Büros</a> an.</p>`,
     faq: [
       { question: `Wie viele Anrufe kann ein KI-Rezeptionist gleichzeitig annehmen?`, answer: `Bei Aibooking.dk gibt es keine feste Obergrenze für gleichzeitige Anrufe. Rufen zehn Menschen gleichzeitig an, werden alle zehn sofort angenommen.` },
@@ -263,7 +263,7 @@ export const receptionistDe: BlogTranslations = {
         <li>Unbegrenzt viele gleichzeitige Anrufe; Sie zahlen für Gesprächszeit.</li>
         <li>Aufzeichnung, Transkript und Zusammenfassung im Dashboard.</li>
         <li>Datenverarbeitung in der EU mit verschlüsselter Speicherung, Löschregeln und Auftragsverarbeitungsvertrag.</li>
-        <li>Öffentliche Preise ab 134 €/Monat und eine kostenlose Testphase von 7 Tagen.</li>
+        <li>Ein Preis nach Ihrer eigenen Gesprächszeit im Preisrechner und eine kostenlose Testphase von 7 Tagen.</li>
       </ul>
       <p>Wie die Technik dahinter funktioniert, lesen Sie in <a href="/blog/hvad-er-en-ai-voice-agent">Was ist ein KI-Voice-Agent?</a></p>`,
     faq: [
@@ -400,11 +400,11 @@ export const receptionistDe: BlogTranslations = {
         <li><strong>Selbst an einem Abend anrufen</strong> und mit den typischen Anliegen Ihrer Kunden testen. Anpassen und nach der ersten Woche wiederholen.</li>
       </ol>
       <h2 id="pris">Was kostet ein KI-Telefonservice außerhalb der Öffnungszeiten?</h2>
-      <p>Bei Aibooking.dk bezahlen Sie Gesprächszeit, nicht die Uhrzeit. Es gibt keine Abend- oder Wochenendzuschläge. Starter kostet 134 € pro Monat für 150 Minuten Gesprächszeit. Ein Rechenbeispiel: 40 Anrufe nach Feierabend im Monat à etwa zwei Minuten ergeben 80 Minuten – das liegt im Starter-Paket. Sie können es 7 Tage kostenlos mit Ihrer eigenen Nummer testen. Alle Pakete finden Sie unter <a href="/blog/hvad-koster-en-ai-receptionist">Was ein KI-Rezeptionist kostet</a>, und lesen Sie <a href="/blog/ai-telefonpasning-dansk-ai-receptionist">die neun Anforderungen an einen KI-Telefonservice</a>, bevor Sie einen Anbieter wählen.</p>
+      <p>Bei Aibooking.dk bezahlen Sie Gesprächszeit, nicht die Uhrzeit. Es gibt keine Abend- oder Wochenendzuschläge. Das Starter-Paket enthält 150 Minuten Gesprächszeit im Monat. Ein Rechenbeispiel: 40 Anrufe nach Feierabend im Monat à etwa zwei Minuten ergeben 80 Minuten – das liegt im Starter-Paket. Sie können es 7 Tage kostenlos mit Ihrer eigenen Nummer testen. Die Pakete finden Sie unter <a href="/blog/hvad-koster-en-ai-receptionist">Was ein KI-Rezeptionist kostet</a>, Ihren Preis im <a href="/prisberegner">Preisrechner</a>, und lesen Sie <a href="/blog/ai-telefonpasning-dansk-ai-receptionist">die neun Anforderungen an einen KI-Telefonservice</a>, bevor Sie einen Anbieter wählen.</p>
     `,
     faq: [
       { question: `Kann die KI nur außerhalb der Öffnungszeiten ans Telefon gehen?`, answer: `Ja. Ihre Nummer bleibt, und Sie legen bei Ihrem Telefonanbieter fest, wann umgeleitet wird: nach Zeitplan, bei besetzt oder wenn niemand abnimmt. Während der Öffnungszeiten geht Ihr Team selbst ran.` },
-      { question: `Kostet der KI-Telefonservice abends und am Wochenende mehr?`, answer: `Nein. Bei Aibooking.dk zahlen Sie die Gesprächszeit unabhängig von der Uhrzeit – ab 134 € pro Monat für 150 Minuten, ohne Zuschlag für Abende, Wochenenden oder Feiertage.` },
+      { question: `Kostet der KI-Telefonservice abends und am Wochenende mehr?`, answer: `Nein. Bei Aibooking.dk zahlen Sie die Gesprächszeit unabhängig von der Uhrzeit, ohne Zuschlag für Abende, Wochenenden oder Feiertage. Ihren Preis sehen Sie im Preisrechner.` },
       { question: `Was passiert mit dringenden Anrufen nach Feierabend?`, answer: `Das legen Sie in den Anweisungen der KI fest: Weiterleitung an ein Notdiensthandy, Markierung als dringend oder Verweis auf den ärztlichen Bereitschaftsdienst (116 117) bzw. die 112. Die KI gibt nie medizinischen Rat.` },
     ],
   },
@@ -460,12 +460,12 @@ export const receptionistDe: BlogTranslations = {
         <tr><td>Bleibt bei Ihnen</td><td>Erstattung, Reklamation</td><td>Angebot</td><td>Medizinische Fragen</td><td>Beratung</td></tr>
         <tr><td>Wichtigste Regel</td><td>Nur Status, keine Personendaten</td><td>Notfallregel</td><td>Kein medizinischer Rat</td><td>Keine Mandatsdaten</td></tr>
       </tbody></table></div>
-      <p>Branchenübergreifend gilt dreierlei: Die KI stellt sich als digitale Assistenz vor (das verlangt die EU-KI-Verordnung), Sie behalten Ihre Nummer und bestimmen, wann sie übernimmt, und jeder Anruf liegt danach mit Aufzeichnung, Transkript und Zusammenfassung im Dashboard. Möchten Sie Kunden auch auf der Website antworten, nutzt das AI Voice Widget dasselbe Wissen und denselben Kalender. Alles zusammen finden Sie unter <a href="/ai-receptionist">KI-Rezeption</a>, und der Preis ist für alle Branchen gleich – ab 134 € pro Monat für 150 Minuten. Lesen Sie auch <a href="/blog/ai-telefonpasning-uden-for-aabningstid">KI-Telefonservice außerhalb der Öffnungszeiten</a>.</p>
+      <p>Branchenübergreifend gilt dreierlei: Die KI stellt sich als digitale Assistenz vor (das verlangt die EU-KI-Verordnung), Sie behalten Ihre Nummer und bestimmen, wann sie übernimmt, und jeder Anruf liegt danach mit Aufzeichnung, Transkript und Zusammenfassung im Dashboard. Möchten Sie Kunden auch auf der Website antworten, nutzt das AI Voice Widget dasselbe Wissen und denselben Kalender. Alles zusammen finden Sie unter <a href="/ai-receptionist">KI-Rezeption</a>, und der Preis richtet sich nach der Gesprächszeit, nicht nach der Branche – Ihren Preis sehen Sie im <a href="/prisberegner">Preisrechner</a>. Lesen Sie auch <a href="/blog/ai-telefonpasning-uden-for-aabningstid">KI-Telefonservice außerhalb der Öffnungszeiten</a>.</p>
     `,
     faq: [
       { question: `Unterscheidet sich ein KI-Telefonservice je nach Branche?`, answer: `Die Technik ist dieselbe, die Einrichtung nicht: welche Fragen die KI stellt, was sie buchen darf, was als dringend gilt und welche Themen sie immer Ihnen überlässt. Das legen Sie in den Anweisungen und der Wissensdatenbank der KI fest.` },
       { question: `Kann der KI-Telefonservice Bestellungen eines Onlineshops abfragen?`, answer: `Ja, mit Shopify. Die KI fragt den Bestellstatus anhand der Bestellnummer ab und nennt Status, Versand und Zustellung. Sie hat nur Lesezugriff und gibt keine Namen, Adressen oder Zahlungsdaten heraus.` },
-      { question: `Kostet es für eine Praxis anders als für einen Handwerker?`, answer: `Nein. Der Preis richtet sich nach der Gesprächszeit, nicht nach der Branche: ab 134 € pro Monat für 150 Minuten, und Sie können 7 Tage kostenlos testen.` },
+      { question: `Kostet es für eine Praxis anders als für einen Handwerker?`, answer: `Nein. Der Preis richtet sich nach der Gesprächszeit, nicht nach der Branche. Ihren Preis sehen Sie im Preisrechner, und Sie können 7 Tage kostenlos testen.` },
     ],
   },
 };

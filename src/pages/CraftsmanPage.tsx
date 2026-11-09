@@ -14,7 +14,7 @@ import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import IndustryScenario from '../components/industries/IndustryScenario';
 import IndustryIntegrations from '../components/industries/IndustryIntegrations';
-import IndustryCalculator from '../components/industries/IndustryCalculator';
+import QuoteStarter from '../components/QuoteStarter';
 import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
 import DashboardShowcase from '../components/DashboardShowcase';
 import BookingAudioDemo from '../components/BookingAudioDemo';
@@ -126,7 +126,7 @@ function CraftsmanPage({ onNavigate }: CraftsmanPageProps) {
         </div>
       </section>
 
-      <IndustryCalculator industry="craftsman" />
+      <QuoteStarter industry="craftsman" />
 
       <IndustryTrialBanner industry="craftsman" />
 

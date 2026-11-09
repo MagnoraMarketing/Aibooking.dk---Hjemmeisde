@@ -360,31 +360,6 @@
       }
     ]
   },
-  "pricing": {
-    "title": "Tarifs",
-    "subtitle": "Le temps de parole et toutes les fonctionnalités sont inclus. Sans engagement ni frais de mise en service.",
-    "perMonth": "/mois",
-    "demo": {
-      "name": "Démo",
-      "label": "7 jours gratuits · accès complet"
-    },
-    "starter": {
-      "name": "Starter",
-      "label": "150 min/mois inclus"
-    },
-    "professional": {
-      "name": "Professional",
-      "label": "600 min/mois inclus"
-    },
-    "enterprise": {
-      "name": "Enterprise",
-      "label": "2 000 min/mois inclus"
-    },
-    "free": "Gratuit",
-    "mostPopular": "Le plus choisi",
-    "cta": "Commencer",
-    "note": "Toutes les formules incluent les appels entrants, le widget IA, l'intégration d'agenda et l'enregistrement. Les appels sortants sont une option payante."
-  },
   "cta": {
     "title": "Écoutez votre propre voix IA avant de décider",
     "subtitle": "Nous préparons une démo avec vos prestations et vos horaires, pour que vous puissiez appeler et entendre exactement comment elle répond à vos clients.",
@@ -428,7 +403,7 @@
     },
     {
       "question": "Combien cela coûte-t-il face à un réceptionniste ?",
-      "answer": "Un réceptionniste à temps plein coûte généralement entre 35 000 et 45 000 euros par an, charges comprises. La voix IA démarre à 134 euros par mois et couvre le téléphone 24h/24, y compris pendant les congés et les arrêts maladie."
+      "answer": "Un réceptionniste à temps plein coûte généralement entre 35 000 et 45 000 euros par an, charges comprises. La voix IA coûte une fraction de ce montant et couvre le téléphone 24h/24, y compris pendant les congés et les arrêts maladie."
     },
     {
       "question": "Combien de temps prend la mise en place ?",

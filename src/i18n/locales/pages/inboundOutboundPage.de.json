@@ -233,19 +233,6 @@
       { "feature": "Aufzeichnung und Zusammenfassung", "inbound": true, "outbound": true }
     ]
   },
-  "pricing": {
-    "title": "Preise",
-    "subtitle": "Gesprächszeit und alle Funktionen inklusive. Keine Mindestlaufzeit, keine Einrichtungsgebühr.",
-    "perMonth": "/Monat",
-    "demo": { "name": "Demo", "label": "7 Tage kostenlos · voller Zugriff" },
-    "starter": { "name": "Starter", "label": "150 Min./Monat inklusive" },
-    "professional": { "name": "Professional", "label": "600 Min./Monat inklusive" },
-    "enterprise": { "name": "Enterprise", "label": "2.000 Min./Monat inklusive" },
-    "free": "Kostenlos",
-    "mostPopular": "Am häufigsten gewählt",
-    "cta": "Jetzt starten",
-    "note": "Jedes Paket umfasst eingehende Anrufe, das KI-Widget, Kalenderintegration und Aufzeichnung. Ausgehende Anrufe sind als Zusatzpaket erhältlich."
-  },
   "cta": {
     "title": "Hören Sie Ihre eigene KI-Stimme, bevor Sie sich entscheiden",
     "subtitle": "Wir richten eine Demo mit Ihren Leistungen und Öffnungszeiten ein, damit Sie anrufen und genau hören können, wie sie Ihre Kunden begrüßt.",
@@ -289,7 +276,7 @@
     },
     {
       "question": "Was kostet das im Vergleich zu einer Rezeptionskraft?",
-      "answer": "Eine Vollzeit-Rezeptionskraft kostet typischerweise 47.000–60.000 EUR im Jahr inklusive Nebenkosten. Die KI-Stimme gibt es ab 134 EUR im Monat, und sie hält das Telefon rund um die Uhr besetzt – auch in Urlaubs- und Krankheitszeiten."
+      "answer": "Eine Vollzeit-Rezeptionskraft kostet typischerweise 47.000–60.000 EUR im Jahr inklusive Nebenkosten. Die KI-Stimme kostet nur einen Bruchteil davon, und sie hält das Telefon rund um die Uhr besetzt – auch in Urlaubs- und Krankheitszeiten."
     },
     {
       "question": "Wie lange dauert die Einrichtung?",

@@ -47,7 +47,7 @@ export default {
       <p>To see what it costs, read <a href="/blog/hvad-koster-en-ai-receptionist">what an AI receptionist costs in Denmark</a>. Considering a traditional answering service? See the <a href="/blog/ai-receptionist-vs-telefonpasning">comparison of AI and human phone answering</a>. And to hear what it sounds like, listen to <a href="/blog/hvordan-lyder-en-dansk-ai-receptionist">a real example of a Danish AI receptionist</a>.</p>
     `,
   'hvad-koster-en-ai-receptionist': `
-      <p>The price of an AI receptionist depends less on "the AI" and more on how many minutes it talks, how much it has to do, and how much help you want with setup. Below we cover the pricing models on the market, our own prices and a calculation you can run with your own numbers.</p>
+      <p>The price of an AI receptionist depends less on "the AI" and more on how many minutes it talks, how much it has to do, and how much help you want with setup. Below we cover the pricing models on the market, how our price is set and a calculation you can run with your own numbers.</p>
       <h2>The three ways AI receptionists are priced</h2>
       <ul>
         <li><strong>Subscription with included talk time.</strong> A fixed monthly price with a number of minutes. Predictable, and the most common model for small and medium-sized businesses.</li>
@@ -56,14 +56,14 @@ export default {
       </ul>
       <p>Whatever the model, ask: What do minutes beyond the plan cost? Is there a commitment period? What does setup cost? And are text messages, recordings and calendar integration included or extras?</p>
       <h2>What does Aibooking.dk cost?</h2>
-      <p>Our prices are public (October 2026). All plans include inbound and outbound calls, calendar integration, text messages and recording.</p>
-      <div class="blog-table"><table><thead><tr><th>Plan</th><th>Price per month</th><th>Included talk time</th><th>Price per included minute</th></tr></thead><tbody>
-        <tr><td>Demo (trial)</td><td>Free for 7 days</td><td>10 minutes</td><td>–</td></tr>
-        <tr><td>Starter</td><td>DKK 999</td><td>150 minutes</td><td>approx. DKK 6.66</td></tr>
-        <tr><td>Professional</td><td>DKK 2,499</td><td>600 minutes</td><td>approx. DKK 4.17</td></tr>
-        <tr><td>Enterprise</td><td>DKK 5,999</td><td>2,000 minutes</td><td>approx. DKK 3.00</td></tr>
+      <p>With us you pay for talk time: a monthly plan with a number of included minutes, and the more minutes, the lower the price per minute. Every plan includes inbound and outbound calls, calendar integration, text messages and recording, and the first 7 days are free.</p>
+      <div class="blog-table"><table><thead><tr><th>Plan</th><th>Included talk time</th><th>Usually suits</th></tr></thead><tbody>
+        <tr><td>Demo (trial)</td><td>10 minutes for 7 days</td><td>Testing on real calls</td></tr>
+        <tr><td>Starter</td><td>150 minutes</td><td>Small businesses and after-hours calls</td></tr>
+        <tr><td>Professional</td><td>600 minutes</td><td>Businesses with several people on the phone</td></tr>
+        <tr><td>Enterprise</td><td>2,000 minutes</td><td>High volumes and busy seasons</td></tr>
       </tbody></table></div>
-      <p>Setup and onboarding is an <strong>optional</strong> one-time purchase priced the same as the chosen plan (e.g. DKK 999 for Starter), including one hour of follow-up support. You can also set it up yourself. Ad hoc work costs DKK 695 per hour for prompting/training and DKK 1,100 per hour for development. See current prices on the <a href="/ai-receptionist#priser">AI phone answering page</a>.</p>
+      <p>Your price depends on your industry, how much time you spend on the phone and whether the AI should also answer in the website widget, your online shop or food delivery. In the <a href="/prisberegner">price calculator</a> you choose all of it, see an example of your dashboard and get the price when you ask for a quote. Setup and onboarding is an <strong>optional</strong> one-time purchase including one hour of follow-up support. You can also set it up yourself, and if you choose the free trial, we can help you set up for free during the 7 days.</p>
       <h2>How many minutes do you need?</h2>
       <p>Take the number of calls the AI should handle per month and multiply by the average call length. A booking usually takes one to three minutes.</p>
       <ul>
@@ -80,7 +80,7 @@ export default {
         <li><strong>Calls lost today.</strong> How many calls end in voicemail or are never returned? Multiply by the share that would have become a customer and the value of a customer.</li>
         <li><strong>No-shows.</strong> If reminder calls get just one customer a week to cancel in time, the slot can go to someone else.</li>
       </ol>
-      <p><strong>Example with illustrative numbers:</strong> A hairdresser misses 15 calls a week during haircuts. If one in five would have become a DKK 450 booking, that is 3 bookings × DKK 450 × 4 weeks = DKK 5,400 a month in revenue that currently goes to a competitor. Against that stands Starter at DKK 999. Use your own numbers — there is a more detailed model in the <a href="/blog/roi-ai-automatisering-virksomheder">guide to the ROI of AI automation</a>.</p>
+      <p><strong>Example with illustrative numbers:</strong> A hairdresser misses 15 calls a week during haircuts. If one in five would have become a DKK 450 booking, that is 3 bookings × DKK 450 × 4 weeks = DKK 5,400 a month in revenue that currently goes to a competitor. Against that stands the price of a Starter plan, which is a fraction of that amount. Use your own numbers — there is a more detailed model in the <a href="/blog/roi-ai-automatisering-virksomheder">guide to the ROI of AI automation</a>.</p>
       <h2>What about a human receptionist or answering service?</h2>
       <p>A permanent receptionist costs salary, pension, holidays and cover for sickness, and can take one call at a time during opening hours. An answering service typically charges per call or per minute and usually takes a message rather than booking. That does not mean AI is always better — a receptionist does much more than answer the phone. See the full comparison in <a href="/blog/ai-receptionist-vs-telefonpasning">AI receptionist vs. traditional answering service</a>.</p>
       <h2>Hidden costs to ask about</h2>
@@ -183,7 +183,7 @@ export default {
         <li>More than half the calls are about bookings or the same questions.</li>
       </ol>
       <h2>What does it cost for a small business?</h2>
-      <p>The Starter plan costs DKK 999 per month with 150 minutes of talk time, and you can try it free for 7 days. See how to work out how many minutes you need in <a href="/blog/hvad-koster-en-ai-receptionist">what does an AI receptionist cost?</a> — and what you get back in the <a href="/blog/roi-ai-automatisering-virksomheder">ROI guide</a>.</p>
+      <p>The Starter plan includes 150 minutes of talk time a month, you can see your price in the <a href="/prisberegner">price calculator</a>, and you can try it free for 7 days. See how to work out how many minutes you need in <a href="/blog/hvad-koster-en-ai-receptionist">what does an AI receptionist cost?</a> — and what you get back in the <a href="/blog/roi-ai-automatisering-virksomheder">ROI guide</a>.</p>
       <p>Working in a specific industry? See our guides for <a href="/blog/ai-telefonassistent-haandvaerker">tradespeople</a>, <a href="/blog/totalloesning-klinik">clinics and salons</a> and <a href="/blog/ai-telefonassistent-kontor-administration">offices</a>.</p>
     `,
   'ai-telefonpasning-dansk-ai-receptionist': `
@@ -215,7 +215,7 @@ export default {
         <li>Unlimited simultaneous calls; you pay for talk time.</li>
         <li>Recording, transcript and summary in the dashboard.</li>
         <li>Data processed in the EU with encrypted storage, deletion rules and a data processing agreement.</li>
-        <li>Public prices from DKK 999/month and a 7-day free trial.</li>
+        <li>A price based on your own talk time in the price calculator, and a 7-day free trial.</li>
       </ul>
       <p>To understand the technology behind it, read <a href="/blog/hvad-er-en-ai-voice-agent">what is an AI voice agent?</a></p>
     `,
@@ -325,7 +325,7 @@ export default {
         <li><strong>Call yourself one evening</strong> and test with your customers' typical requests. Adjust, and repeat after the first week.</li>
       </ol>
       <h2 id="pris">What does after-hours AI phone answering cost?</h2>
-      <p>At Aibooking.dk you pay for talk time, not for the time of day. There are no evening or weekend surcharges. Starter costs DKK 999 per month for 150 minutes of talk time. An example: 40 after-hours calls a month at about two minutes each comes to 80 minutes — within Starter. You can try it free for 7 days on your own number. See all packages in <a href="/blog/hvad-koster-en-ai-receptionist">what an AI receptionist costs</a>, and read <a href="/blog/ai-telefonpasning-dansk-ai-receptionist">the nine requirements for AI phone answering</a> before you choose a provider.</p>
+      <p>At Aibooking.dk you pay for talk time, not for the time of day. There are no evening or weekend surcharges. The Starter plan includes 150 minutes of talk time a month. An example: 40 after-hours calls a month at about two minutes each comes to 80 minutes — within Starter. You can try it free for 7 days on your own number. See the plans in <a href="/blog/hvad-koster-en-ai-receptionist">what an AI receptionist costs</a>, and work out your price in the <a href="/prisberegner">price calculator</a>, and read <a href="/blog/ai-telefonpasning-dansk-ai-receptionist">the nine requirements for AI phone answering</a> before you choose a provider.</p>
     `,
   'ai-telefonpasning-webshop-haandvaerker-klinik-kontor': `
       <p><strong>AI phone answering</strong> is the same technology in every industry: an AI receptionist that takes your calls, answers from your information and books in your calendar. But <em>what</em> it should do depends entirely on who is calling. A webshop customer wants to know where the parcel is. A homeowner with a leaking tap wants a tradesperson out. A patient wants to move an appointment, and a new client wants to speak to a lawyer. Here is how to set up AI phone answering for the four industries we help most often.</p>
@@ -374,6 +374,6 @@ export default {
         <tr><td>Stays with you</td><td>Refunds, complaints</td><td>Quote</td><td>Clinical questions</td><td>Advice</td></tr>
         <tr><td>Key rule</td><td>Status only, no personal data</td><td>Urgent-call rule</td><td>No medical advice</td><td>No case details</td></tr>
       </tbody></table></div>
-      <p>Whatever the industry, the same three things apply: the AI introduces itself as a digital assistant (the EU AI Act requires it), you keep your number and choose when it takes over, and every call is then in the dashboard with recording, transcript and summary. If you also want to answer customers on your website, the AI Voice Widget uses the same knowledge and calendar. It all comes together in the <a href="/ai-receptionist">AI receptionist</a>, and the price is the same for every industry — from DKK 999 per month for 150 minutes. Also read <a href="/blog/ai-telefonpasning-uden-for-aabningstid">after-hours AI phone answering</a>.</p>
+      <p>Whatever the industry, the same three things apply: the AI introduces itself as a digital assistant (the EU AI Act requires it), you keep your number and choose when it takes over, and every call is then in the dashboard with recording, transcript and summary. If you also want to answer customers on your website, the AI Voice Widget uses the same knowledge and calendar. It all comes together in the <a href="/ai-receptionist">AI receptionist</a>, and the price depends on talk time, not industry — see your price in the <a href="/prisberegner">price calculator</a>. Also read <a href="/blog/ai-telefonpasning-uden-for-aabningstid">after-hours AI phone answering</a>.</p>
     `,
 } satisfies Record<string, string>;

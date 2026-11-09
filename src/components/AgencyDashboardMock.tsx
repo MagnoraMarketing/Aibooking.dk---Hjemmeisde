@@ -35,7 +35,7 @@ interface VariantData {
 }
 
 // The salon page shows the hairdresser example ('frisor') rather than its own.
-export type DashboardVariant = Exclude<IndustryKey, 'salon'> | 'frisor';
+export type DashboardVariant = Exclude<IndustryKey, 'salon'> | 'frisor' | 'restaurant';
 
 // Fictional demo data — names and figures are the same in every language
 // (they're not natural-language content), only the surrounding UI labels
@@ -118,6 +118,26 @@ const VARIANTS: Record<DashboardVariant, VariantData> = {
       { name: 'Rasmus Dahl', time: '17. sep., 16:00', status: 'failed' },
     ],
   },
+  restaurant: {
+    accountName: 'Trattoria Bella',
+    accountInitial: 'T',
+    accent: { iconBg: 'bg-red-600', text: 'text-red-600', ring: 'ring-red-600/20' },
+    stats: { conversations: '642', widgets: '2', minutesUsed: '1.140', minutesLeft: '360' },
+    widgetPanel: { agents: '1', conversations: '388', minutes: '520' },
+    phonePanel: { agents: '1', calls: '254', minutes: '620' },
+    recent: [
+      { name: 'Trattoria Bella', date: '17. sep. 18:42', status: 'active', minutes: '0.00', channel: 'inbound' },
+      { name: 'Bestillings-widget', date: '17. sep. 18:10', status: 'ended', minutes: '1.35', channel: 'widget' },
+      { name: 'Trattoria Bella', date: '17. sep. 17:26', status: 'ended', minutes: '2.20', channel: 'inbound' },
+      { name: 'Bestillings-widget', date: '17. sep. 16:58', status: 'ended', minutes: '1.05', channel: 'widget' },
+    ],
+    recentWidgets: ['Bestillings-widget', 'Trattoria Bella'],
+    bookings: [
+      { name: 'Lars Winther (4 pers.)', time: '18. sep., 18:30', status: 'booked' },
+      { name: 'Anne Juul (2 pers.)', time: '18. sep., 19:00', status: 'booked' },
+      { name: 'Peter Hald (6 pers.)', time: '19. sep., 18:00', status: 'booked' },
+    ],
+  },
   ecommerce: {
     accountName: 'Nordisk Webshop',
     accountInitial: 'N',
@@ -150,8 +170,16 @@ const ORDER_STATUS_CLASSES: Record<OrderStatus, string> = {
   processing: 'bg-amber-50 text-amber-700',
 };
 
+// Replaces parts of the example with a visitor's own estimate (see
+// /prisberegner). `shop: null` shows the phone panel and bookings even on
+// the webshop example; 'example' borrows the webshop example's shop panel.
+export type DashboardOverrides = Partial<Pick<VariantData, 'stats' | 'widgetPanel' | 'phonePanel'>> & {
+  shop?: 'example' | null;
+};
+
 interface AgencyDashboardMockProps {
   variant: DashboardVariant;
+  overrides?: DashboardOverrides;
 }
 
 // Mock-up of the account dashboard's overview screen, built in markup rather
@@ -159,9 +187,18 @@ interface AgencyDashboardMockProps {
 // business shown is fictional; only the surrounding UI chrome is translated
 // — names, dates and figures are demo data and read the same in every
 // language.
-export default function AgencyDashboardMock({ variant }: AgencyDashboardMockProps) {
+export default function AgencyDashboardMock({ variant, overrides }: AgencyDashboardMockProps) {
   const { t } = useTranslation('agencyDashboard');
-  const data = VARIANTS[variant];
+  const base = VARIANTS[variant];
+  const data: VariantData = overrides
+    ? {
+        ...base,
+        ...overrides,
+        shop: overrides.shop === null ? undefined : overrides.shop === 'example' ? VARIANTS.ecommerce.shop : base.shop,
+        // The webshop example has no bookings of its own to show.
+        bookings: base.bookings.length > 0 ? base.bookings : VARIANTS.frisor.bookings,
+      }
+    : base;
 
   const navTabs = t('navTabs', { returnObjects: true }) as string[];
 

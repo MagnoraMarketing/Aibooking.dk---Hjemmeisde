@@ -362,7 +362,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/blog</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/blog" />
@@ -374,7 +374,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/en/blog</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/blog" />
@@ -386,7 +386,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/es/blog</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/blog" />
@@ -398,7 +398,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/de/blog</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/blog" />
@@ -410,7 +410,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/fr/blog</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/blog" />
@@ -599,6 +599,66 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/integrationer" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/integrationer" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/integrationer" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/prisberegner</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/prisberegner" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/en/prisberegner</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/prisberegner" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/es/prisberegner</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/prisberegner" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/de/prisberegner</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/prisberegner" />
+  </url>
+  <url>
+    <loc>https://www.aibooking.dk/fr/prisberegner</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.aibooking.dk/en/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aibooking.dk/es/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aibooking.dk/de/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aibooking.dk/fr/prisberegner" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aibooking.dk/en/prisberegner" />
   </url>
   <url>
     <loc>https://www.aibooking.dk/shopify</loc>
@@ -1202,7 +1262,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/blog/hvad-koster-en-ai-receptionist</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/blog/hvad-koster-en-ai-receptionist" />
@@ -1214,7 +1274,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/en/blog/hvad-koster-en-ai-receptionist</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/blog/hvad-koster-en-ai-receptionist" />
@@ -1226,7 +1286,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/es/blog/hvad-koster-en-ai-receptionist</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/blog/hvad-koster-en-ai-receptionist" />
@@ -1238,7 +1298,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/de/blog/hvad-koster-en-ai-receptionist</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/blog/hvad-koster-en-ai-receptionist" />
@@ -1250,7 +1310,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/fr/blog/hvad-koster-en-ai-receptionist</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/blog/hvad-koster-en-ai-receptionist" />
@@ -3002,7 +3062,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/blog/category/ai-inbound-outbound</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/blog/category/ai-inbound-outbound" />
@@ -3014,7 +3074,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/en/blog/category/ai-inbound-outbound</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/blog/category/ai-inbound-outbound" />
@@ -3026,7 +3086,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/es/blog/category/ai-inbound-outbound</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/blog/category/ai-inbound-outbound" />
@@ -3038,7 +3098,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/de/blog/category/ai-inbound-outbound</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/blog/category/ai-inbound-outbound" />
@@ -3050,7 +3110,7 @@
   </url>
   <url>
     <loc>https://www.aibooking.dk/fr/blog/category/ai-inbound-outbound</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.aibooking.dk/blog/category/ai-inbound-outbound" />

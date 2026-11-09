@@ -14,7 +14,7 @@
     "title_line2": "qui réserve et répond pour votre boutique",
     "subtitle": "Le widget chat et vocal d'Aibooking.dk est un assistant IA qui s'intègre directement à votre site web et gère automatiquement les réservations, les questions et les demandes clients – par la voix et le texte, 24 heures sur 24, 365 jours par an.",
     "cta_demo": "Essayer une démo gratuite",
-    "cta_buy": "Commander maintenant – 134 €/mois",
+    "cta_buy": "Commander maintenant",
     "cta_demo_connecting": "Connexion...",
     "cta_demo_end": "Terminer l'appel",
     "cta_demo_error": "Impossible de se connecter – vérifiez que le microphone est autorisé, puis réessayez.",
@@ -39,8 +39,8 @@
       "label": "Temps de parole inclus"
     },
     {
-      "value": "134 €",
-      "label": "Par mois"
+      "value": "150 min",
+      "label": "Minutes dans le premier pack"
     }
   ],
   "whatIs": {
@@ -151,9 +151,9 @@
     ],
     "roi": {
       "title": "ROI type d'un AI voice widget",
-      "desc_pre": "Une réceptionniste à temps partiel coûte généralement 2 000-2 700 €/mois. Avec le AI voice widget à 134 €/mois, vous obtenez ",
+      "desc_pre": "Une réceptionniste à temps partiel coûte généralement 2 000-2 700 €/mois. Avec le AI voice widget, vous obtenez ",
       "desc_strong": "la même fonctionnalité",
-      "desc_post": " – mais 24 heures sur 24, 7 jours sur 7.",
+      "desc_post": " pour une fraction du coût – et 24 heures sur 24, 7 jours sur 7.",
       "stats": [
         {
           "value": "95%",
@@ -285,125 +285,11 @@
     }
   },
   "pricing": {
-    "badge": "Tarification transparente",
-    "title": "Des tarifs simples et transparents",
-    "subtitle": "Choisissez la solution adaptée à votre entreprise – ne payez que ce que vous utilisez, sans frais cachés",
-    "widgetPlan": {
-      "heading": "Widget vocal IA",
-      "badge": "Point de départ recommandé",
-      "description": "Le moyen le plus rapide et le moins cher d'automatiser vos réservations. Le widget s'installe sur votre site web et permet aux clients de parler ou d'écrire directement avec votre assistant IA – 24h/24, sans intervention humaine.",
-      "price_suffix": "€/mois",
-      "includes": "Comprend 150 minutes de temps de parole (env. 0,89 €/minute)",
-      "renewal_note": "Le forfait se renouvelle automatiquement une fois les 150 minutes utilisées",
-      "cta_order": "Commander maintenant",
-      "cta_intro": "Réserver une intro gratuite",
-      "features": [
-        "Bot vocal IA – les clients parlent directement avec l'IA",
-        "Répond aux questions et gère les réservations",
-        "Les réservations arrivent directement dans votre calendrier",
-        "Disponible 24h/24 sur votre site web",
-        "150 minutes de temps de parole incluses",
-        "Payez uniquement le temps de parole actif – pas de salaire horaire",
-        "Ouvert 24h/24, 365 jours par an – toujours prêt",
-        "Prend en charge les clients même lorsque vous êtes occupé"
-      ],
-      "footnote_talketime_label": "Temps de parole :",
-      "footnote_talketime_value": "Le crédit acheté est valable 3 mois",
-      "footnote_renewal_label": "Renouvellement :",
-      "footnote_renewal_value": "Automatique une fois les 150 min. utilisées",
-      "footnote_binding_label": "Engagement :",
-      "footnote_binding_value": "Aucun – résiliez à tout moment"
-    },
     "phoneAssistant": {
       "heading": "Assistant Téléphonique IA",
       "badge": "Appels sortants et entrants",
       "description": "Besoin d'un assistant IA qui passe aussi des appels sortants ou répond directement aux appels téléphoniques ? Choisissez l'un de nos forfaits évolutifs ci-dessous — de la démo gratuite à l'offre entreprise."
-    },
-    "choosePackage": {
-      "title": "Choisissez votre forfait",
-      "subtitle": "Des forfaits sur mesure conçus pour les entreprises de toutes tailles"
-    },
-    "free_label": "Gratuit",
-    "most_popular_badge": "Le Plus Populaire",
-    "plans": [
-      {
-        "name": "Demo",
-        "description": "Essayez gratuitement pendant 7 jours avec du crédit pour de vrais appels – découvrez le temps que vous libérez pour d'autres tâches et plus de clients",
-        "minutes": "Gratuit pendant 7 jours · 10 minutes de communication offertes",
-        "features": [
-          "Crédit gratuit pour les appels IA pendant l'essai",
-          "Personnalisation vocale de base",
-          "Dashboard d'analyse",
-          "Vous mettez le numéro de téléphone actuel de votre entreprise à disposition pendant la période d'essai, afin que l'IA puisse répondre à de vrais appels",
-          "Possibilité de passer au forfait Starter"
-        ],
-        "cta": "Essayer gratuitement"
-      },
-      {
-        "name": "Starter",
-        "description": "Parfait pour les petites entreprises qui démarrent avec l'IA",
-        "minutes": "150 minutes",
-        "features": [
-          "150 minutes d'appels IA",
-          "Personnalisation vocale de base",
-          "Support standard",
-          "Dashboard d'analyse",
-          "Notifications par email"
-        ],
-        "cta": "Commander le forfait"
-      },
-      {
-        "name": "Professional",
-        "description": "Idéal pour les entreprises en croissance avec des appels réguliers",
-        "minutes": "600 minutes",
-        "features": [
-          "600 minutes d'appels IA",
-          "Personnalisation vocale avancée",
-          "Support prioritaire",
-          "Enregistrements et transcriptions",
-          "Intégrations Shopify et livraison",
-          "Réservation dans Google, Outlook ou Cal.com",
-          "Historique client"
-        ],
-        "cta": "Commander le forfait"
-      },
-      {
-        "name": "Enterprise",
-        "description": "Pour les organisations qui exigent une flexibilité maximale",
-        "minutes": "2000 minutes",
-        "features": [
-          "2000 minutes d'appels IA",
-          "Personnalisation vocale complète",
-          "Support dédié 24h/24 et 7j/7",
-          "Entraînement IA personnalisé",
-          "Accès API",
-          "Success manager dédié",
-          "Intégrations illimitées",
-          "Accompagnement à la conformité RGPD"
-        ],
-        "cta": "Commander le forfait"
-      }
-    ],
-    "after_order_note": "Après votre commande, vous recevrez un lien de calendrier pour réserver votre séance de configuration, si vous l'avez ajoutée à votre commande.",
-    "setup_recommendation": "Nous vous conseillons d'essayer la solution gratuitement pendant 7 jours d'abord — vous choisirez ensuite votre formule. La configuration et l'onboarding peuvent être ajoutés en option, moyennant un paiement unique, si vous souhaitez de l'aide.",
-    "additionalPrices": {
-      "title": "Autres tarifs",
-      "toggle_label": "Voir les autres tarifs",
-      "setup": {
-        "title": "Configuration & onboarding",
-        "value": "Option au moment du paiement — un paiement unique de {{setupMin}} € à {{setupMax}} €, identique au prix de la formule choisie, incl. 1 heure de support de suivi",
-        "note": "(paiement unique, non inclus dans l'abonnement)"
-      },
-      "hourly": {
-        "title": "Tarif horaire pour les tâches ponctuelles",
-        "prompting_label": "Prompting/entraînement",
-        "prompting_price": "93 € de l'heure",
-        "development_label": "Développement",
-        "development_price": "147 € de l'heure"
-      }
-    },
-    "currency_suffix": "€/mois",
-    "setup_included_note": "La configuration et l'onboarding peuvent être ajoutés pour {{setup}} € en paiement unique (même prix que la formule), incl. 1 heure de support de suivi"
+    }
   },
   "shopifyIntegration": {
     "badge": "Intégration Shopify",
@@ -512,7 +398,7 @@
     },
     {
       "question": "Combien coûte le AI widget ?",
-      "answer": "Le forfait de départ coûte 134 €/mois et comprend 150 minutes de temps de parole. Vous ne payez que le temps de parole actif – pas de salaire horaire, pas d'engagement. Le forfait se renouvelle automatiquement une fois les 150 minutes utilisées."
+      "answer": "Le prix dépend du temps de parole utilisé par le widget. Vous ne payez que le temps de parole actif – pas de salaire horaire, pas d'engagement – et le pack se renouvelle automatiquement une fois les minutes utilisées. Le simulateur de prix vous indique votre prix selon votre secteur et le temps de parole prévu."
     },
     {
       "question": "Quelles langues le widget prend-il en charge ?",
@@ -527,6 +413,6 @@
     "title": "Prêt à automatiser vos réservations ?",
     "subtitle": "Démarrez en moins de 5 minutes. Réservez un entretien de présentation gratuit et découvrez comment le AI voice widget peut transformer la gestion de vos clients.",
     "cta_intro": "Réserver une intro gratuite",
-    "cta_order": "Commander directement – 134 €/mois"
+    "cta_order": "Commander directement"
   }
 }

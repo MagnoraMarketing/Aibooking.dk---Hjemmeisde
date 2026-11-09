@@ -16,7 +16,7 @@ import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import IndustryScenario from '../components/industries/IndustryScenario';
 import IndustryIntegrations from '../components/industries/IndustryIntegrations';
-import IndustryCalculator from '../components/industries/IndustryCalculator';
+import QuoteStarter from '../components/QuoteStarter';
 import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
 import DashboardShowcase from '../components/DashboardShowcase';
 import type { NavigatePage } from '../types/navigation';
@@ -223,7 +223,7 @@ function EcommercePage({ onNavigate }: EcommercePageProps) {
         </div>
       </section>
 
-      <IndustryCalculator industry="ecommerce" />
+      <QuoteStarter industry="ecommerce" />
 
       <IndustryTrialBanner industry="ecommerce" />
 

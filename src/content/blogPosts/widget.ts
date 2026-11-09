@@ -33,9 +33,9 @@ export const widgetPosts: BlogPost[] = [
       },
       {
         question_da: 'Hvad koster en AI widget?',
-        answer_da: 'Hos Aibooking.dk 999 kr. om måneden inkl. 150 minutters taletid, og de første 7 dage er gratis.',
+        answer_da: 'Hos Aibooking.dk afhænger prisen af, hvor meget taletid widgetten bruger. Se jeres pris i prisberegneren, og prøv gratis de første 7 dage.',
         question_en: 'What does an AI widget cost?',
-        answer_en: 'At Aibooking.dk DKK 999 per month incl. 150 minutes of talk time, and the first 7 days are free.',
+        answer_en: 'At Aibooking.dk the price depends on how much talk time the widget uses. See your price in the price calculator, and try it free for the first 7 days.',
       },
       {
         question_da: 'Gør widgeten min hjemmeside langsommere?',

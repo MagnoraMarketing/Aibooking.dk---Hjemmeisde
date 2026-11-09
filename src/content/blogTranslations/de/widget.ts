@@ -47,12 +47,12 @@ export const widgetDe: BlogTranslations = {
         <tr><td>Antwortet es nur auf Basis meiner Informationen?</td><td>Es darf keine Preise oder Versprechen erfinden.</td></tr>
         <tr><td>Wo werden die Daten verarbeitet, und gibt es einen Auftragsverarbeitungsvertrag?</td><td>DSGVO und KI-Verordnung. Siehe <a href="/blog/ai-widget-gdpr-danske-virksomheder">den Leitfaden</a>.</td></tr>
         <tr><td>Wie wirkt es sich auf die Ladezeit aus?</td><td>Es sollte asynchron laden.</td></tr>
-        <tr><td>Was kostet es, und gibt es eine Mindestlaufzeit?</td><td>Bei uns 134 €/Monat inkl. 150 Sprachminuten, und die ersten 7 Tage sind kostenlos.</td></tr>
+        <tr><td>Was kostet es, und gibt es eine Mindestlaufzeit?</td><td>Bei uns richtet sich der Preis nach der Gesprächszeit – Sie sehen ihn im <a href="/prisberegner">Preisrechner</a>. Keine Mindestlaufzeit, und die ersten 7 Tage sind kostenlos.</td></tr>
       </tbody></table></div>
       <p>Weitere Möglichkeiten, KI auf Ihrer Website einzusetzen, finden Sie in <a href="/blog/ai-til-hjemmeside">KI für Ihre Website: 7 Möglichkeiten</a>. Das Produkt sehen Sie unter <a href="/widget">KI-Widget</a>.</p>`,
     faq: [
       { question: `Funktioniert das KI-Widget auf meiner Plattform?`, answer: `Es funktioniert mit WordPress, Shopify, WooCommerce, Wix, Squarespace, Magento und individuell entwickelten Seiten – über einen kurzen Codeschnipsel.` },
-      { question: `Was kostet ein KI-Widget?`, answer: `Bei Aibooking.dk 134 € pro Monat inkl. 150 Minuten Gesprächszeit, und die ersten 7 Tage sind kostenlos.` },
+      { question: `Was kostet ein KI-Widget?`, answer: `Bei Aibooking.dk hängt der Preis davon ab, wie viel Gesprächszeit das Widget nutzt. Ihren Preis sehen Sie im Preisrechner, und die ersten 7 Tage sind kostenlos.` },
       { question: `Macht das Widget meine Website langsamer?`, answer: `Es lädt asynchron und verzögert daher nicht, wie schnell die Seite angezeigt wird.` },
     ],
   },

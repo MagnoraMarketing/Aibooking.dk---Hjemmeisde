@@ -195,93 +195,7 @@
     }
   },
   "pricing": {
-    "badge": "Transparent Prissætning",
-    "title": "Vælg din Voice-pakke til ind- og udgående opkald",
-    "subtitle": "Skræddersyede pakker designet til virksomheder af alle størrelser",
-    "most_popular_badge": "Mest Populær",
-    "free_label": "Gratis",
-    "currency_suffix": "kr/md",
-    "after_order_note": "Når I har oprettet jeres gratis konto, kan I booke tid til opsætning direkte fra jeres dashboard, hvis I har tilkøbt det.",
-    "setup_recommendation": "Vi anbefaler, at du prøver løsningen gratis i 7 dage først – derefter vælger du din pakke. Opsætning og onboarding kan tilkøbes som en valgfri engangsbetaling, hvis I ønsker hjælp til det.",
-    "cta_signup": "Opret gratis konto",
-    "cta_demo": "Prøv gratis",
-    "no_card_required": "Intet kreditkort eller betalingsoplysninger krævet",
-    "cta_order": "Bestil pakke",
-    "plans": [
-      {
-        "name": "Demo",
-        "description": "Prøv gratis i 7 dage – se hvor meget tid I frigør til andre opgaver og flere kunder",
-        "minutes": "7 dages gratis prøveperiode · 10 minutters gratis taletid",
-        "features": [
-          "Indbound – AI'en svarer på jeres opkald",
-          "Voice-widget – AI'en svarer på generelle spørgsmål på hjemmesiden",
-          "Booking – direkte i kalenderen",
-          "Webshop – Shopify-integration",
-          "Basis stemme-tilpasning",
-          "Analyse dashboard",
-          "I stiller jeres nuværende firmanummer til rådighed i prøveperioden, så AI'en kan besvare rigtige opkald",
-          "Mulighed for at opgradere til Starterpakken"
-        ]
-      },
-      {
-        "name": "Starter",
-        "description": "Perfekt til mindre virksomheder der vil i gang med AI",
-        "minutes": "150 minutter",
-        "features": [
-          "150 AI opkalds-minutter",
-          "Basis stemme-tilpasning",
-          "Standardsupport",
-          "Analyse dashboard",
-          "Email notifikationer"
-        ]
-      },
-      {
-        "name": "Professional",
-        "description": "Ideel til voksende virksomheder med regelmæssige opkald",
-        "minutes": "600 minutter",
-        "features": [
-          "600 AI opkalds-minutter",
-          "Avanceret stemme-tilpasning",
-          "Prioriteret support",
-          "Optagelser og udskrifter",
-          "Shopify- og leveringsintegrationer",
-          "Booking i Google, Outlook eller Cal.com",
-          "Kundehistorik"
-        ]
-      },
-      {
-        "name": "Enterprise",
-        "description": "For organisationer der kræver maksimal fleksibilitet",
-        "minutes": "2000 minutter",
-        "features": [
-          "2000 AI opkalds-minutter",
-          "Fuld stemme-tilpasning",
-          "24/7 dedikeret support",
-          "Tilpasset AI træning",
-          "API adgang",
-          "Dedikeret success manager",
-          "Ubegrænset integrationer",
-          "Hjælp til GDPR-overholdelse"
-        ]
-      }
-    ],
-    "additionalPrices": {
-      "title": "Øvrige priser",
-      "toggle_label": "Se øvrige priser",
-      "setup": {
-        "title": "Opsætning & onboarding",
-        "value": "Valgfrit tilkøb ved bestilling – en engangsbetaling fra {{setupMin}} til {{setupMax}} kr, svarende til prisen på den valgte pakke, inkl. 1 times opfølgende support",
-        "note": "(betales kun én gang, ikke inkluderet i abonnementet)"
-      },
-      "hourly": {
-        "title": "Timepris ved ad hoc-opgaver",
-        "prompting_label": "Prompting/træning",
-        "prompting_price": "695 kr. pr. time",
-        "development_label": "Udvikling",
-        "development_price": "1.100 kr. pr. time"
-      }
-    },
-    "setup_included_note": "Opsætning og onboarding kan tilkøbes for {{setup}} kr som engangsbetaling (samme pris som pakken), inkl. 1 times opfølgende support"
+    "currency_suffix": "kr/md"
   },
   "cta_section": {
     "title": "Klar til at komme i gang?",
@@ -384,60 +298,6 @@
     "card_conversation_value": "AI Håndterede Alle",
     "summary_label": "Sammendrag",
     "summary_text": "Fenley bad om information om parkering ved klinikken. Vi gav alle relevante detaljer for at sikre et problemfrit besøg."
-  },
-  "widgetPricing": {
-    "badge": "Nem Integration På Din Hjemmeside",
-    "title": "AIBooking Voice AI-Widget",
-    "subtitle": "Voicebot dine kunder kan snakke med direkte på din hjemmeside - håndterer spørgsmål og bookinger automatisk",
-    "plan_badge": "Mest Fleksible Løsning",
-    "price_period": "kr/md",
-    "price_note1": "Inkluderer 150 minutters taletid (ca. 6,66 kr/minut)",
-    "price_note2": "Pakken fornyes automatisk når de 150 minutter er brugt",
-    "features": [
-      {
-        "bold": "Voice AI-bot",
-        "rest": " - kunder taler direkte med AI'en"
-      },
-      {
-        "bold": "",
-        "rest": "Besvarer spørgsmål og håndterer bookinger"
-      },
-      {
-        "bold": "",
-        "rest": "Bookinger går direkte i din kalender"
-      },
-      {
-        "bold": "",
-        "rest": "24/7 tilgængelig på din hjemmeside"
-      },
-      {
-        "bold": "",
-        "rest": "150 minutters taletid inkluderet"
-      },
-      {
-        "bold": "Betal kun for aktiv tale",
-        "rest": " - ingen timeløn"
-      },
-      {
-        "bold": "Åben 24/7, 365 dage om året",
-        "rest": " - altid klar"
-      },
-      {
-        "bold": "",
-        "rest": "Håndterer kunder selv når du er optaget"
-      }
-    ],
-    "cta": "Se AI-Widget i aktion",
-    "demo_widget_label": "AI-bookingassistent",
-    "demo_widget_status": "Online nu",
-    "demo_ai_label": "🎤 AI Voice:",
-    "demo_msg1": "Hej! Du kan tale direkte med mig. Hvad kan jeg hjælpe dig med?",
-    "demo_customer_label": "🗣️ Kunde:",
-    "demo_msg2": "\"Jeg vil gerne booke en tid på fredag\"",
-    "demo_msg3": "Perfekt! Jeg har følgende tider ledige på fredag...",
-    "demo_footer": "Voice AI-widget - kunder taler direkte på din side",
-    "perfect_for_label": "Perfekt til:",
-    "perfect_for_text": "Klinikker, håndværkere, konsulenter, saloner, kontorer og alle andre virksomheder der tager imod bookinger direkte på deres hjemmeside."
   },
   "industryTools": {
     "scenario": {
@@ -557,32 +417,6 @@
           "Ingen afbrydelse i stolen"
         ]
       }
-    },
-    "calculator": {
-      "badge": "Beregn din pris",
-      "title": "Hvad koster det – og hvor meget tid får du tilbage?",
-      "subtitle": "Vælg den løsning du er interesseret i, sæt din forventede taletid, og se prisen med det samme.",
-      "modeLabel": "Hvilken løsning vil du regne på?",
-      "modeVoice": "Ind- og udgående opkald",
-      "modeVoiceDesc": "AI-telefonassistenten besvarer opkald og ringer selv ud med påmindelser og opfølgning.",
-      "modeWidget": "Voice widget på hjemmesiden",
-      "modeWidgetDesc": "Besøgende taler eller skriver direkte med AI'en på din hjemmeside og booker selv.",
-      "widgetPlanName": "Voice Widget",
-      "minutesLabel": "Forventet taletid pr. måned",
-      "minutesUnit": "min.",
-      "recommendedLabel": "Anbefalet pakke",
-      "includedMinutes": "{{minutes}} minutter inkluderet",
-      "setupLabel": "Opsætning og onboarding kan tilkøbes som en valgfri engangsbetaling.",
-      "setupNote": "Valgfrit tilkøb: {{price}} som engangsbetaling – samme pris som pakken, inkl. 1 times opfølgende support.",
-      "setupLine": "Valgfri opsætning og onboarding tilgængelig",
-      "aboveLargest": "Har du mere end 2.000 minutter om måneden? Så laver vi en pakke til dig – kontakt os for et tilbud.",
-      "timeFreedValue": "Ca. {{hours}} timers telefontid tilbage",
-      "timeFreedText": "Tid du i stedet kan bruge på at drive virksomheden. Booking, ombooking og spørgsmål bliver håndteret uden dig.",
-      "alwaysOnTitle": "Åbent 24/7, 365 dage om året",
-      "alwaysOnText": "Agenten svarer altid – aften, weekend og helligdage. Du mister ikke kunder, fordi ingen kunne tage telefonen.",
-      "recommendation": "Vi anbefaler, at du prøver løsningen gratis i 7 dage først. Derefter vælger du din pakke og får opsætning og onboarding med i købet.",
-      "cta": "Prøv gratis i 7 dage",
-      "note": "Priserne er vejledende og uden binding. Du kan skifte pakke undervejs."
     },
     "trial": {
       "badge": "7 dage gratis",

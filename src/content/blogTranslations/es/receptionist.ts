@@ -54,11 +54,11 @@ export const receptionistEs: BlogTranslations = {
   },
   'hvad-koster-en-ai-receptionist': {
     title: `¿Cuánto cuesta un recepcionista con IA? Precios y cálculo (2026)`,
-    excerpt: `Un recepcionista con IA suele contratarse como plan mensual con minutos de conversación incluidos. Qué determina el precio, cuánto cuestan nuestros planes y cómo calcular si compensa para tu empresa.`,
+    excerpt: `Un recepcionista con IA suele contratarse como plan mensual con minutos de conversación incluidos. Qué determina el precio, cómo funcionan nuestros planes y cómo calcular si compensa para tu empresa.`,
     meta_title: `¿Cuánto cuesta un recepcionista con IA? Precios 2026 | AIBooking.dk`,
-    meta_description: `Modelos de precio de los recepcionistas con IA, nuestras tarifas públicas por plan y minuto, cuántos minutos necesitas y un cálculo para ver si compensa.`,
+    meta_description: `Modelos de precio de los recepcionistas con IA, cómo funcionan nuestros planes, cuántos minutos necesitas y un cálculo para ver si te compensa.`,
     content: `
-      <p>El precio de un recepcionista con IA depende menos de «la IA» que de cuántos minutos habla, cuánto tiene que hacer y cuánta ayuda quieres con la configuración. A continuación repasamos los modelos de precio del mercado, nuestros propios precios y un cálculo que puedes hacer con tus propias cifras.</p>
+      <p>El precio de un recepcionista con IA depende menos de «la IA» que de cuántos minutos habla, cuánto tiene que hacer y cuánta ayuda quieres con la configuración. A continuación repasamos los modelos de precio del mercado, cómo se fija nuestro precio y un cálculo que puedes hacer con tus propias cifras.</p>
       <h2>Las tres formas de cobrar un recepcionista con IA</h2>
       <ul>
         <li><strong>Suscripción con minutos incluidos.</strong> Un precio mensual fijo con un número de minutos. Previsible, y el modelo más habitual para pequeñas y medianas empresas.</li>
@@ -67,14 +67,14 @@ export const receptionistEs: BlogTranslations = {
       </ul>
       <p>Sea cual sea el modelo, pregunta: ¿cuánto cuestan los minutos fuera del plan? ¿Hay permanencia? ¿Cuánto cuesta la configuración? ¿Y los SMS, las grabaciones y la integración con el calendario están incluidos o son extras?</p>
       <h2>¿Cuánto cuesta Aibooking.dk?</h2>
-      <p>Nuestros precios son públicos (octubre de 2026). Todos los planes incluyen llamadas entrantes y salientes, integración con el calendario, SMS y grabación.</p>
-      <div class="blog-table"><table><thead><tr><th>Plan</th><th>Precio al mes</th><th>Minutos incluidos</th><th>Precio por minuto incluido</th></tr></thead><tbody>
-        <tr><td>Demo (prueba)</td><td>Gratis 7 días</td><td>10 minutos</td><td>–</td></tr>
-        <tr><td>Starter</td><td>134 €</td><td>150 minutos</td><td>aprox. 0,89 €</td></tr>
-        <tr><td>Professional</td><td>335 €</td><td>600 minutos</td><td>aprox. 0,56 €</td></tr>
-        <tr><td>Enterprise</td><td>804 €</td><td>2.000 minutos</td><td>aprox. 0,40 €</td></tr>
+      <p>Con nosotros pagas por minutos de conversación: un plan mensual con minutos incluidos, y cuantos más minutos, menor es el precio por minuto. Todos los planes incluyen llamadas entrantes y salientes, integración con el calendario, SMS y grabación, y los primeros 7 días son gratis.</p>
+      <div class="blog-table"><table><thead><tr><th>Plan</th><th>Minutos incluidos</th><th>Suele encajar con</th></tr></thead><tbody>
+        <tr><td>Demo (prueba)</td><td>10 minutos durante 7 días</td><td>Probar con llamadas reales</td></tr>
+        <tr><td>Starter</td><td>150 minutos</td><td>Pequeños negocios y llamadas fuera de horario</td></tr>
+        <tr><td>Professional</td><td>600 minutos</td><td>Negocios con varias personas al teléfono</td></tr>
+        <tr><td>Enterprise</td><td>2.000 minutos</td><td>Grandes volúmenes y temporadas fuertes</td></tr>
       </tbody></table></div>
-      <p>La configuración y el onboarding son una compra única <strong>opcional</strong> con el mismo precio que el plan elegido (por ejemplo, 134 € para Starter), con una hora de soporte de seguimiento incluida. También puedes configurarlo tú mismo. Los trabajos puntuales cuestan 93 € por hora de prompting/formación y 147 € por hora de desarrollo. Consulta los precios actuales en la <a href="/ai-receptionist#priser">página de atención telefónica con IA</a>.</p>
+      <p>Tu precio depende del sector, del tiempo que pasáis al teléfono y de si la IA también debe atender en el widget de la web, en la tienda online o en la comida a domicilio. En la <a href="/prisberegner">calculadora de precio</a> eliges todo eso, ves un ejemplo de tu panel y obtienes el precio al pedir presupuesto. La configuración y el onboarding son una compra única <strong>opcional</strong> con una hora de soporte de seguimiento incluida. También puedes configurarlo tú mismo, y si eliges la prueba gratuita, te ayudamos gratis con la configuración durante los 7 días.</p>
       <h2>¿Cuántos minutos necesitas?</h2>
       <p>Toma el número de llamadas que debe atender la IA al mes y multiplícalo por la duración media de la llamada. Una reserva suele durar entre uno y tres minutos.</p>
       <ul>
@@ -91,7 +91,7 @@ export const receptionistEs: BlogTranslations = {
         <li><strong>Llamadas que se pierden hoy.</strong> ¿Cuántas llamadas acaban en el buzón de voz o nunca se devuelven? Multiplícalo por la proporción que habría sido cliente y por el valor de un cliente.</li>
         <li><strong>Ausencias.</strong> Si las llamadas de recordatorio consiguen que solo un cliente a la semana cancele a tiempo, el hueco puede ser para otra persona.</li>
       </ol>
-      <p><strong>Ejemplo con cifras ilustrativas:</strong> una peluquería pierde 15 llamadas a la semana durante los cortes. Si una de cada cinco hubiera sido una reserva de 60 €, son 3 reservas × 60 € × 4 semanas = 720 € al mes en ingresos que hoy se lleva la competencia. Frente a eso está Starter, a 134 €. Usa tus propias cifras: hay un modelo más detallado en la <a href="/blog/roi-ai-automatisering-virksomheder">guía sobre el ROI de la automatización con IA</a>.</p>
+      <p><strong>Ejemplo con cifras ilustrativas:</strong> una peluquería pierde 15 llamadas a la semana durante los cortes. Si una de cada cinco hubiera sido una reserva de 60 €, son 3 reservas × 60 € × 4 semanas = 720 € al mes en ingresos que hoy se lleva la competencia. Frente a eso está el precio de un plan Starter, que es una fracción de esa cifra. Usa tus propias cifras: hay un modelo más detallado en la <a href="/blog/roi-ai-automatisering-virksomheder">guía sobre el ROI de la automatización con IA</a>.</p>
       <h2>¿Y un recepcionista humano o un servicio de atención telefónica?</h2>
       <p>Un recepcionista en plantilla cuesta sueldo, cargas sociales, vacaciones y sustituciones por baja, y puede atender una llamada cada vez dentro del horario. Un servicio de atención telefónica suele cobrar por llamada o por minuto y normalmente toma un mensaje en lugar de reservar. Eso no significa que la IA sea siempre mejor: un recepcionista hace mucho más que coger el teléfono. Consulta la comparación completa en <a href="/blog/ai-receptionist-vs-telefonpasning">recepcionista con IA vs. servicio de atención telefónica tradicional</a>.</p>
       <h2>Costes ocultos por los que preguntar</h2>
@@ -103,7 +103,7 @@ export const receptionistEs: BlogTranslations = {
         <li>Si puedes darte de baja y que se exporten y borren tus datos.</li>
       </ul>`,
     faq: [
-      { question: `¿Cuánto cuesta al mes un recepcionista con IA?`, answer: `En Aibooking.dk, desde 134 € al mes por 150 minutos de conversación (Starter). Professional cuesta 335 € por 600 minutos y Enterprise 804 € por 2.000 minutos. Los primeros 7 días son gratis.` },
+      { question: `¿Cuánto cuesta al mes un recepcionista con IA?`, answer: `En Aibooking.dk el precio depende de los minutos de conversación: Starter incluye 150 minutos, Professional 600 y Enterprise 2.000 al mes. En la calculadora de aibooking.dk/es/prisberegner ves tu precio según tu sector y los minutos previstos, y los primeros 7 días son gratis.` },
       { question: `¿La configuración está incluida en el precio?`, answer: `La configuración es opcional. Puedes hacerla tú mismo gratis o contratar la configuración y el onboarding como pago único al mismo precio que el plan, con una hora de soporte de seguimiento incluida.` },
       { question: `¿Cuesta más si llaman muchas personas a la vez?`, answer: `No. Pagas por el tiempo de conversación usado, no por capacidad. Diez llamadas simultáneas cuestan lo mismo que diez llamadas seguidas.` },
     ],
@@ -222,7 +222,7 @@ export const receptionistEs: BlogTranslations = {
         <li>Más de la mitad de las llamadas son sobre reservas o las mismas preguntas.</li>
       </ol>
       <h2>¿Cuánto cuesta para una pequeña empresa?</h2>
-      <p>El plan Starter cuesta 134 € al mes con 150 minutos de conversación, y puedes probarlo gratis 7 días. Descubre cómo calcular cuántos minutos necesitas en <a href="/blog/hvad-koster-en-ai-receptionist">¿cuánto cuesta un recepcionista con IA?</a> y lo que recuperas en la <a href="/blog/roi-ai-automatisering-virksomheder">guía de ROI</a>.</p>
+      <p>El plan Starter incluye 150 minutos de conversación al mes, ves tu precio en la <a href="/prisberegner">calculadora de precio</a> y puedes probarlo gratis 7 días. Descubre cómo calcular cuántos minutos necesitas en <a href="/blog/hvad-koster-en-ai-receptionist">¿cuánto cuesta un recepcionista con IA?</a> y lo que recuperas en la <a href="/blog/roi-ai-automatisering-virksomheder">guía de ROI</a>.</p>
       <p>¿Trabajas en un sector concreto? Consulta nuestras guías para <a href="/blog/ai-telefonassistent-haandvaerker">profesionales de oficios</a>, <a href="/blog/totalloesning-klinik">clínicas y salones</a> y <a href="/blog/ai-telefonassistent-kontor-administration">oficinas</a>.</p>`,
     faq: [
       { question: `¿Cuántas llamadas puede atender a la vez un recepcionista con IA?`, answer: `En Aibooking.dk no hay un límite fijo de llamadas simultáneas. Si diez personas llaman a la vez, las diez son atendidas al instante.` },
@@ -263,7 +263,7 @@ export const receptionistEs: BlogTranslations = {
         <li>Llamadas simultáneas ilimitadas; pagas por el tiempo de conversación.</li>
         <li>Grabación, transcripción y resumen en el panel.</li>
         <li>Datos tratados en la UE con almacenamiento cifrado, reglas de borrado y contrato de encargo de tratamiento.</li>
-        <li>Precios públicos desde 134 €/mes y una prueba gratuita de 7 días.</li>
+        <li>Un precio según tus propios minutos en la calculadora y una prueba gratuita de 7 días.</li>
       </ul>
       <p>Para entender la tecnología que hay detrás, lee <a href="/blog/hvad-er-en-ai-voice-agent">¿qué es un agente de voz con IA?</a></p>`,
     faq: [
@@ -400,11 +400,11 @@ export const receptionistEs: BlogTranslations = {
         <li><strong>Llama tú mismo una tarde</strong> y prueba con las consultas típicas de tus clientes. Ajusta y repite tras la primera semana.</li>
       </ol>
       <h2 id="pris">¿Cuánto cuesta la atención telefónica con IA fuera de horario?</h2>
-      <p>En Aibooking.dk pagas por minutos de conversación, no por la hora del día. No hay recargos por tardes ni fines de semana. Starter cuesta 134 € al mes por 150 minutos de conversación. Un ejemplo: 40 llamadas fuera de horario al mes de unos dos minutos suman 80 minutos, dentro del plan Starter. Puedes probarlo gratis 7 días con tu propio número. Consulta todos los planes en <a href="/blog/hvad-koster-en-ai-receptionist">cuánto cuesta un recepcionista con IA</a> y lee <a href="/blog/ai-telefonpasning-dansk-ai-receptionist">los nueve requisitos de la atención telefónica con IA</a> antes de elegir proveedor.</p>
+      <p>En Aibooking.dk pagas por minutos de conversación, no por la hora del día. No hay recargos por tardes ni fines de semana. El plan Starter incluye 150 minutos de conversación al mes. Un ejemplo: 40 llamadas fuera de horario al mes de unos dos minutos suman 80 minutos, dentro del plan Starter. Puedes probarlo gratis 7 días con tu propio número. Consulta los planes en <a href="/blog/hvad-koster-en-ai-receptionist">cuánto cuesta un recepcionista con IA</a>, calcula tu precio en la <a href="/prisberegner">calculadora de precio</a> y lee <a href="/blog/ai-telefonpasning-dansk-ai-receptionist">los nueve requisitos de la atención telefónica con IA</a> antes de elegir proveedor.</p>
     `,
     faq: [
       { question: `¿Puede la IA atender solo fuera del horario de apertura?`, answer: `Sí. Conservas tu número y decides con tu operador cuándo se desvían las llamadas: por horario, si comunica o si nadie contesta. En horario de apertura tu equipo atiende como siempre.` },
-      { question: `¿Cuesta más la atención telefónica con IA por la tarde o en fin de semana?`, answer: `No. En Aibooking.dk pagas los minutos de conversación sea la hora que sea: desde 134 € al mes por 150 minutos, sin recargo por tardes, fines de semana ni festivos.` },
+      { question: `¿Cuesta más la atención telefónica con IA por la tarde o en fin de semana?`, answer: `No. En Aibooking.dk pagas los minutos de conversación sea la hora que sea, sin recargo por tardes, fines de semana ni festivos. Tu precio lo ves en la calculadora.` },
       { question: `¿Qué pasa con las llamadas urgentes fuera de horario?`, answer: `Lo decides en las instrucciones de la IA: pasar la llamada a un móvil de guardia, marcar el mensaje como urgente o remitir a urgencias o al 112. La IA nunca da consejos médicos.` },
     ],
   },
@@ -460,12 +460,12 @@ export const receptionistEs: BlogTranslations = {
         <tr><td>Se queda contigo</td><td>Reembolso, reclamación</td><td>Presupuesto</td><td>Preguntas clínicas</td><td>Asesoramiento</td></tr>
         <tr><td>Regla clave</td><td>Solo estado, sin datos personales</td><td>Regla de urgencias</td><td>Sin consejos médicos</td><td>Sin datos de asuntos</td></tr>
       </tbody></table></div>
-      <p>Sea cual sea el sector, se cumplen tres cosas: la IA se presenta como asistente digital (lo exige el Reglamento europeo de IA), conservas tu número y decides cuándo se encarga ella, y cada llamada queda después en el panel con grabación, transcripción y resumen. Si quieres atender también en tu web, el AI Voice Widget usa la misma información y la misma agenda. Todo se reúne en la <a href="/ai-receptionist">recepcionista IA</a>, y el precio es el mismo para todos los sectores: desde 134 € al mes por 150 minutos. Lee también <a href="/blog/ai-telefonpasning-uden-for-aabningstid">atención telefónica con IA fuera de horario</a>.</p>
+      <p>Sea cual sea el sector, se cumplen tres cosas: la IA se presenta como asistente digital (lo exige el Reglamento europeo de IA), conservas tu número y decides cuándo se encarga ella, y cada llamada queda después en el panel con grabación, transcripción y resumen. Si quieres atender también en tu web, el AI Voice Widget usa la misma información y la misma agenda. Todo se reúne en la <a href="/ai-receptionist">recepcionista IA</a>, y el precio depende de los minutos, no del sector: consulta el tuyo en la <a href="/prisberegner">calculadora de precio</a>. Lee también <a href="/blog/ai-telefonpasning-uden-for-aabningstid">atención telefónica con IA fuera de horario</a>.</p>
     `,
     faq: [
       { question: `¿La atención telefónica con IA cambia según el sector?`, answer: `La tecnología es la misma, pero la configuración cambia: qué pregunta la IA, qué puede reservar, qué se considera urgente y qué temas te deja siempre a ti. Todo eso se define en las instrucciones y la base de conocimiento de la IA.` },
       { question: `¿Puede la atención telefónica con IA consultar pedidos de una tienda online?`, answer: `Sí, con Shopify. La IA consulta el estado del pedido con el número de pedido e informa del estado, el envío y la entrega. Solo tiene acceso de lectura y no revela nombres, direcciones ni datos de pago.` },
-      { question: `¿Cuesta distinto para una clínica que para un profesional de reformas?`, answer: `No. El precio depende de los minutos de conversación, no del sector: desde 134 € al mes por 150 minutos, y puedes probarlo gratis 7 días.` },
+      { question: `¿Cuesta distinto para una clínica que para un profesional de reformas?`, answer: `No. El precio depende de los minutos de conversación, no del sector. Consulta tu precio en la calculadora y pruébalo gratis 7 días.` },
     ],
   },
 };

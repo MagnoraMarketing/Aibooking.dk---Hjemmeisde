@@ -1,0 +1,112 @@
+{
+  "industries": {
+    "salon": "Friseur und Kosmetik",
+    "healthcare": "Praxen und Gesundheit",
+    "craftsman": "Handwerk",
+    "office": "Kanzleien und Beratung",
+    "ecommerce": "Onlineshop",
+    "restaurant": "Restaurant und Lieferdienst"
+  },
+  "capabilities": {
+    "booking": { "title": "Terminbuchung", "desc": "Findet freie Termine und bucht, verschiebt und storniert sie in Ihrem Kalender." },
+    "webshop": { "title": "Onlineshop", "desc": "Beantwortet Fragen zu Produkten, Lagerbestand und Bestellstatus." },
+    "delivery": { "title": "Essenslieferung", "desc": "Nimmt Bestellungen an und bestellt einen Kurier für die Lieferung." }
+  },
+  "starter": {
+    "badge": "Preis berechnen",
+    "title": "Was würde es Sie kosten?",
+    "subtitle": "Wählen Sie Ihre Branche, wie viel Zeit Sie am Telefon verbringen und was die KI übernehmen soll. Wir zeigen Ihnen Ihre Schätzung und ein Beispiel Ihres Dashboards.",
+    "industryTitle": "In welcher Branche sind Sie tätig?",
+    "industryFixed": "Branche: {{industry}}",
+    "minutesTitle": "Wie viel Gesprächszeit fällt bei eingehenden Anrufen an?",
+    "minutesHint": "Ein Anruf dauert meist 2–3 Minuten. 150 Minuten entsprechen also etwa 60 Anrufen im Monat.",
+    "capabilitiesTitle": "Was soll die KI übernehmen?",
+    "capabilitiesHint": "Wählen Sie alles, was passt. Sie können es jederzeit ändern.",
+    "cta": "Preis ansehen",
+    "ctaNote": "Unverbindlich. Den Preis sehen Sie, sobald Sie ein Angebot angefragt haben.",
+    "chooseIndustryFirst": "Wählen Sie oben zuerst Ihre Branche.",
+    "stepLabel": "Schritt {{step}}"
+  },
+  "minutes": {
+    "unit": "Min.",
+    "perMonth": "{{minutes}} Min./Monat",
+    "none": "Kein Telefon",
+    "max": "{{minutes}}+ Min."
+  },
+  "page": {
+    "seo": {
+      "title": "Preisrechner: KI-Rezeption und Widget",
+      "description": "Berechnen Sie den Preis für KI-Telefonassistent und Website-Widget nach Branche und Gesprächszeit, sehen Sie ein Beispiel-Dashboard und fragen Sie an.",
+      "keywords": "KI-Telefonassistent Preis, KI-Rezeption Kosten, KI-Telefonservice Preis, Chat-Widget Preis, Angebot KI-Telefonassistent"
+    },
+    "breadcrumb": { "home": "Startseite", "page": "Preisrechner" },
+    "hero": {
+      "badge": "Preisrechner",
+      "title": "Ihre Schätzung und ein Beispiel Ihres Dashboards",
+      "subtitle": "Passen Sie Branche, Gesprächszeit und die Aufgaben der KI an. Das Dashboard unten zeigt, wie ein Monat bei Ihnen aussehen könnte. Fragen Sie ein Angebot an, und Sie sehen den Preis sofort."
+    },
+    "controls": {
+      "title": "Ihre Auswahl",
+      "industry": "Branche",
+      "phoneMinutes": "Eingehende Anrufe pro Monat",
+      "widgetMinutes": "Website-Widget pro Monat",
+      "widgetEstimated": "Unsere Schätzung anhand Ihrer Anrufe und Auswahl",
+      "widgetCustom": "Ihr eigener Wert",
+      "widgetReset": "Unsere Schätzung verwenden",
+      "capabilities": "Die KI soll übernehmen"
+    },
+    "summary": {
+      "title": "Ihre Schätzung",
+      "calls": "Eingehende Anrufe",
+      "callsValue": "ca. {{count}} Anrufe",
+      "widget": "Website-Widget",
+      "widgetValue": "ca. {{count}} Gespräche",
+      "hours": "Zeit, die Sie gewinnen",
+      "hoursValue": "{{hours}} Stunden/Monat",
+      "hoursText": "Zeit, die die KI statt Ihnen am Telefon und auf Ihrer Website verbringt.",
+      "package": "Empfohlene Lösung",
+      "packageVoice": "{{plan}} fürs Telefon",
+      "packageWidget": "{{packs}} × Widget-Paket",
+      "packageNone": "Wählen Sie Gesprächszeit, um eine Empfehlung zu sehen",
+      "aboveLargest": "Ab 2.000 Minuten erstellen wir eine Lösung, die zu Ihrem Volumen passt."
+    },
+    "dashboard": {
+      "title": "So könnte Ihr Dashboard aussehen",
+      "subtitle": "Ein Beispiel Ihrer Übersicht mit den Zahlen aus Ihrer Schätzung. Namen und Gespräche sind Beispiele."
+    },
+    "form": {
+      "title": "Angebot anfordern",
+      "subtitle": "Geben Sie Firmenname, E-Mail und Telefonnummer an. Wir zeigen Ihnen den Preis sofort und schicken Ihnen ein Angebot.",
+      "company": "Firmenname",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "trial": "Ja, wir möchten es 7 Tage kostenlos testen",
+      "setupHelp": "Ja, bitte helfen Sie uns in den 7 Tagen kostenlos bei der Einrichtung",
+      "submit": "Angebot anfordern",
+      "sending": "Wird gesendet…",
+      "error": "Das Senden hat nicht geklappt. Bitte versuchen Sie es erneut oder schreiben Sie an mail@aibooking.dk.",
+      "privacy": "Wir verwenden Ihre Angaben nur für Ihr Angebot. Unverbindlich."
+    },
+    "result": {
+      "title": "Danke, {{company}}! Hier ist Ihr Preis",
+      "subtitle": "Wir haben Ihre Anfrage erhalten und schicken Ihnen ein Angebot an {{email}}.",
+      "monthly": "Pro Monat",
+      "voiceLine": "{{plan}}, {{minutes}} Min. Telefon",
+      "widgetLine": "Widget, {{minutes}} Min. ({{packs}} × Paket)",
+      "setup": "Optionale Einrichtung und Onboarding: {{price}} € einmalig",
+      "setupFree": "Sie haben kostenlose Hilfe bei der Einrichtung während des Tests angefragt.",
+      "trial": "Sie möchten 7 Tage kostenlos testen. Wir melden uns zum Start bei Ihnen.",
+      "note": "Der Preis ist unverbindlich. Sie können das Paket jederzeit wechseln.",
+      "trialCta": "Jetzt kostenlos testen"
+    },
+    "explain": {
+      "title": "So berechnen wir Ihre Schätzung",
+      "paragraphs": [
+        "Der Preis hängt davon ab, wie viel Gesprächszeit die KI für Sie nutzt. Telefon und Website-Widget werden getrennt gezählt, weil sie unterschiedlich genutzt werden: Ein Anruf dauert meist zwei bis drei Minuten, ein Gespräch im Widget ist oft kürzer.",
+        "Die Gesprächszeit am Telefon wählen Sie selbst. Das Widget schätzen wir anhand Ihrer Anrufe: Ein Teil der Menschen, die heute anrufen, fragt stattdessen auf Ihrer Website. Soll die KI auch Ihren Onlineshop oder Essenslieferungen übernehmen, rechnen wir zusätzliche Gespräche ein, weil Kunden nach Produkten, Lagerbestand, Bestellungen und Lieferung fragen. Kennen Sie Ihren eigenen Wert, ändern Sie ihn einfach.",
+        "Anhand der Gesprächszeit wählen wir das kleinste Paket, das Ihren Bedarf deckt. Einrichtung und Onboarding gibt es als optionale Einmalzahlung, und wenn Sie den kostenlosen 7-Tage-Test wählen, helfen wir Ihnen in dieser Zeit kostenlos bei der Einrichtung.",
+        "Die Schätzung ist ein Ausgangspunkt. Im Dashboard sehen Sie jederzeit Ihren tatsächlichen Verbrauch pro Kanal und können das Paket wechseln, wenn Sie mehr oder weniger brauchen als erwartet."
+      ]
+    }
+  }
+}

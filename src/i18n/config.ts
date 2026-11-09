@@ -27,7 +27,7 @@ const PAGE_NAMESPACES = [
 
 // Namespaces for components rendered on more than one page, so the two copies
 // can't drift apart.
-const SHARED_NAMESPACES = ['clinicDashboard', 'agencyDashboard', 'widgetCapabilitiesSEO', 'phoneAnsweringSEO', 'blogCta', 'pageHero', 'audioDemo'] as const;
+const SHARED_NAMESPACES = ['clinicDashboard', 'agencyDashboard', 'widgetCapabilitiesSEO', 'phoneAnsweringSEO', 'blogCta', 'pageHero', 'audioDemo', 'priceEstimate'] as const;
 
 // Each language's texts are a separate chunk (src/i18n/resources/<lang>.ts),
 // fetched only when a page is shown in that language, so a visitor downloads

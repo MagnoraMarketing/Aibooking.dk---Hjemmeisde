@@ -67,7 +67,7 @@ export const automationEs: BlogTranslations = {
       <div class="blog-callout"><strong>Fórmula:</strong> ausencias al mes × proporción detectada por los recordatorios y vuelta a reservar × valor de una cita</div>
       <p>Solo es relevante si trabajas con citas en un calendario. Más información en <a href="/blog/outbound-ai-opkald-paamindelser">llamadas de recordatorio automáticas</a>.</p>
       <h2>Partida 4: el coste</h2>
-      <p>Suscripción mensual, posibles minutos extra y la configuración repartida en, por ejemplo, 12 meses. En Aibooking.dk son 134 €, 335 € o 804 € al mes según el tiempo de conversación; la configuración es opcional. Consulta <a href="/blog/hvad-koster-en-ai-receptionist">cuánto cuesta un recepcionista con IA</a>.</p>
+      <p>Suscripción mensual, posibles minutos extra y la configuración repartida en, por ejemplo, 12 meses. En Aibooking.dk el precio depende del tiempo de conversación, y puedes ver el tuyo en la <a href="/prisberegner">calculadora de precio</a>; la configuración es opcional. Consulta <a href="/blog/hvad-koster-en-ai-receptionist">cuánto cuesta un recepcionista con IA</a>.</p>
       <div class="blog-cta"><strong>Deja que la IA reserve por ti</strong><p>Conecta tu calendario, desvía tu número y mira cómo llegan las reservas durante 7 días, gratis y sin tarjeta de crédito.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Prueba gratis 7 días</a><a href="/demo">Reserva una demo</a></div></div>
       <h2>Un ejemplo práctico (cifras ilustrativas)</h2>
       <p>Una clínica de fisioterapia con tres fisioterapeutas:</p>
@@ -75,10 +75,9 @@ export const automationEs: BlogTranslations = {
         <tr><td>Tiempo liberado</td><td>4 horas/semana × 40 €/hora × 4,3</td><td>688 €</td></tr>
         <tr><td>Llamadas perdidas</td><td>20 llamadas × 25 % × 54 € de margen</td><td>270 €</td></tr>
         <tr><td>Ausencias</td><td>8 ausencias × 40 % vueltas a reservar × 67 €</td><td>214 €</td></tr>
-        <tr><td>Coste</td><td>Professional</td><td>−335 €</td></tr>
-        <tr><td><strong>Neto</strong></td><td></td><td><strong>837 €</strong></td></tr>
+        <tr><td><strong>Valor total</strong></td><td></td><td><strong>1.172 €</strong></td></tr>
       </tbody></table></div>
-      <p>Las cifras son ilustrativas: no se han medido en un cliente concreto. Lo importante es el método: sustituye cada supuesto por tu propia cifra.</p>
+      <p>Resta tu precio mensual: lo encontrarás en la <a href="/prisberegner">calculadora de precio</a> según tus propios minutos. Las cifras son ilustrativas: no se han medido en un cliente concreto. Lo importante es el método: sustituye cada supuesto por tu propia cifra.</p>
       <h2>Lo que el cálculo no recoge</h2>
       <ul>
         <li><strong>Concentración:</strong> menos interrupciones significan un trabajo mejor, pero es difícil ponerle precio.</li>
@@ -253,7 +252,7 @@ export const automationEs: BlogTranslations = {
       </ol>
       <p>Consulta los pasos concretos en <a href="/blog/kom-i-gang-ai-automatisering-trin-for-trin">empezar en 7 pasos</a>.</p>
       <h2>¿Cuánto cuesta un empleado de IA?</h2>
-      <p>En Aibooking.dk, desde 134 € al mes por 150 minutos de conversación. No se va de vacaciones y puede atender muchas llamadas a la vez, pero no sustituye el criterio de un empleado cualificado. Consulta <a href="/blog/hvad-koster-en-ai-receptionist">precios y cálculo</a> y <a href="/blog/ai-receptionist-vs-telefonpasning">la comparación con los servicios de atención telefónica con personas</a>.</p>`,
+      <p>En Aibooking.dk pagas por minutos de conversación, y el precio lo ves en la <a href="/prisberegner">calculadora de precio</a>. La IA no se va de vacaciones y puede atender muchas llamadas a la vez, pero no sustituye el criterio de un empleado cualificado. Consulta <a href="/blog/hvad-koster-en-ai-receptionist">precios y cálculo</a> y <a href="/blog/ai-receptionist-vs-telefonpasning">la comparación con los servicios de atención telefónica con personas</a>.</p>`,
     faq: [
       { question: `¿Qué es un empleado de IA?`, answer: `Una IA que se encarga de tareas definidas para la empresa, como atender el teléfono, responder en la web y reservar citas, siguiendo las reglas que fija la propia empresa.` },
     ],

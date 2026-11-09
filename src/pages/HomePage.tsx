@@ -5,8 +5,7 @@ import HowItWorks from '../components/HowItWorks';
 import ReceptionistShowcase from '../components/ReceptionistShowcase';
 import Features from '../components/Features';
 import DashboardShowcase from '../components/DashboardShowcase';
-import Pricing from '../components/Pricing';
-import WidgetPricing from '../components/WidgetPricing';
+import QuoteStarter from '../components/QuoteStarter';
 import CTA from '../components/CTA';
 import BookingAudioDemo from '../components/BookingAudioDemo';
 import Navigation from '../components/Navigation';
@@ -52,13 +51,12 @@ function HomePage({ onNavigate }: HomePageProps) {
       <Navigation onNavigate={onNavigate} transparent />
       <Hero />
       <BookingAudioDemo className="border-t border-white/10" />
+      <QuoteStarter />
       <SavingsCalculator />
       <HowItWorks />
       <ReceptionistShowcase onNavigate={onNavigate} />
       <Features />
       <DashboardShowcase variant="frisor" alternatives={['ecommerce']} className="py-20 md:py-28 bg-ink-50/60" />
-      <Pricing />
-      <WidgetPricing />
       <CTA />
       <RelatedGuides slugs={['ai-reception-virtuel-receptionist', 'hvad-koster-en-ai-receptionist', 'ai-receptionist-vs-telefonpasning', 'hvordan-lyder-en-dansk-ai-receptionist', 'komplet-ai-automatisering-widget-telefon-booking', 'nyeste-ai-teknologi-2026']} />
       <PhoneAnsweringSEO variant="pages.home" />

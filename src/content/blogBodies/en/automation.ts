@@ -55,7 +55,7 @@ export default {
       <div class="blog-callout"><strong>Formula:</strong> no-shows per month × share caught by reminders and rebooked × value of a slot</div>
       <p>Only relevant if you have appointments in a calendar. Read more in <a href="/blog/outbound-ai-opkald-paamindelser">automatic reminder calls</a>.</p>
       <h2>Item 4: The cost</h2>
-      <p>Monthly subscription, any extra minutes, and setup spread over e.g. 12 months. At Aibooking.dk it is DKK 999, 2,499 or 5,999 per month depending on talk time; setup is optional. See <a href="/blog/hvad-koster-en-ai-receptionist">what an AI receptionist costs</a>.</p>
+      <p>Monthly subscription, any extra minutes, and setup spread over e.g. 12 months. At Aibooking.dk the price depends on talk time, and you can see yours in the <a href="/prisberegner">price calculator</a>; setup is optional. See <a href="/blog/hvad-koster-en-ai-receptionist">what an AI receptionist costs</a>.</p>
       ${CTA_TRIAL_EN}
       <h2>A worked example (illustrative numbers)</h2>
       <p>A physiotherapy clinic with three therapists:</p>
@@ -63,10 +63,9 @@ export default {
         <tr><td>Time freed</td><td>4 hours/week × DKK 300/hour × 4.3</td><td>DKK 5,160</td></tr>
         <tr><td>Lost calls</td><td>20 calls × 25% × DKK 400 contribution</td><td>DKK 2,000</td></tr>
         <tr><td>No-shows</td><td>8 no-shows × 40% rebooked × DKK 500</td><td>DKK 1,600</td></tr>
-        <tr><td>Cost</td><td>Professional</td><td>−DKK 2,499</td></tr>
-        <tr><td><strong>Net</strong></td><td></td><td><strong>DKK 6,261</strong></td></tr>
+        <tr><td><strong>Total value</strong></td><td></td><td><strong>DKK 8,760</strong></td></tr>
       </tbody></table></div>
-      <p>The numbers are illustrative — they were not measured at a particular customer. The point is the method: replace each assumption with your own number.</p>
+      <p>Subtract your monthly price – you'll find it in the <a href="/prisberegner">price calculator</a>, based on your own talk time. The numbers are illustrative — they were not measured at a particular customer. The point is the method: replace each assumption with your own number.</p>
       <h2>What the calculation doesn't capture</h2>
       <ul>
         <li><strong>Focus:</strong> fewer interruptions mean better work, but that is hard to price.</li>
@@ -207,7 +206,7 @@ export default {
       </ol>
       <p>See the concrete steps in <a href="/blog/kom-i-gang-ai-automatisering-trin-for-trin">getting started in 7 steps</a>.</p>
       <h2>What does an AI employee cost?</h2>
-      <p>At Aibooking.dk from DKK 999 per month for 150 minutes of talk time. It takes no holidays and can handle many calls at once, but it doesn't replace a skilled employee's judgement. See <a href="/blog/hvad-koster-en-ai-receptionist">prices and the calculation</a> and <a href="/blog/ai-receptionist-vs-telefonpasning">the comparison with human answering services</a>.</p>
+      <p>At Aibooking.dk you pay for talk time, and you can see the price in the <a href="/prisberegner">price calculator</a>. The AI takes no holidays and can handle many calls at once, but it doesn't replace a skilled employee's judgement. See <a href="/blog/hvad-koster-en-ai-receptionist">prices and the calculation</a> and <a href="/blog/ai-receptionist-vs-telefonpasning">the comparison with human answering services</a>.</p>
     `,
   'ai-i-danmark': `
       <p>Danish businesses are among the fastest in Europe to adopt AI. According to Eurostat, around 42% of Danish enterprises with at least 10 employees used AI in 2025 — the highest share in the EU, where the average was around 20%. But "using AI" covers everything from an employee drafting emails with a chatbot to fully automated processes.</p>

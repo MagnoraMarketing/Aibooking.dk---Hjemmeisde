@@ -47,7 +47,7 @@ export default {
       <p>Vil du vide, hvad det koster, så læs <a href="/blog/hvad-koster-en-ai-receptionist">hvad en AI-receptionist koster i Danmark</a>. Overvejer du en traditionel telefonpasningsservice, så se <a href="/blog/ai-receptionist-vs-telefonpasning">sammenligningen af AI og menneskelig telefonpasning</a>. Og vil du høre, hvordan det lyder, så lyt til <a href="/blog/hvordan-lyder-en-dansk-ai-receptionist">et rigtigt eksempel på en dansk AI-receptionist</a>.</p>
     `,
   'hvad-koster-en-ai-receptionist': `
-      <p>Prisen på en AI-receptionist afhænger mindre af "AI'en" og mere af, hvor mange minutter den taler, hvor meget den skal kunne, og hvor meget hjælp du vil have til opsætningen. Her gennemgår vi prismodellerne på markedet, vores egne priser og et regnestykke, du kan lave med dine egne tal.</p>
+      <p>Prisen på en AI-receptionist afhænger mindre af "AI'en" og mere af, hvor mange minutter den taler, hvor meget den skal kunne, og hvor meget hjælp du vil have til opsætningen. Her gennemgår vi prismodellerne på markedet, hvordan vores pris bliver sat, og et regnestykke, du kan lave med dine egne tal.</p>
       <h2>De tre måder AI-receptionister prissættes på</h2>
       <ul>
         <li><strong>Abonnement med inkluderet taletid.</strong> En fast månedspris med et antal minutter. Forudsigeligt, og den mest almindelige model for små og mellemstore virksomheder.</li>
@@ -56,14 +56,14 @@ export default {
       </ul>
       <p>Uanset model bør du spørge: Hvad koster minutter ud over pakken? Er der binding? Hvad koster opsætningen? Og er SMS, optagelse og kalenderintegration med i prisen eller tilkøb?</p>
       <h2>Hvad koster Aibooking.dk?</h2>
-      <p>Vores priser er offentlige (oktober 2026). Alle pakker indeholder både indgående og udgående opkald, kalenderintegration, SMS og optagelse.</p>
-      <div class="blog-table"><table><thead><tr><th>Pakke</th><th>Pris pr. måned</th><th>Inkluderet taletid</th><th>Pris pr. inkluderet minut</th></tr></thead><tbody>
-        <tr><td>Demo (prøveperiode)</td><td>Gratis i 7 dage</td><td>10 minutter</td><td>–</td></tr>
-        <tr><td>Starter</td><td>999 kr.</td><td>150 minutter</td><td>ca. 6,66 kr.</td></tr>
-        <tr><td>Professional</td><td>2.499 kr.</td><td>600 minutter</td><td>ca. 4,17 kr.</td></tr>
-        <tr><td>Enterprise</td><td>5.999 kr.</td><td>2.000 minutter</td><td>ca. 3,00 kr.</td></tr>
+      <p>Hos os betaler du for taletid: en månedspakke med et antal inkluderede minutter, og jo flere minutter, jo lavere pris pr. minut. Alle pakker indeholder både indgående og udgående opkald, kalenderintegration, SMS og optagelse, og de første 7 dage er gratis.</p>
+      <div class="blog-table"><table><thead><tr><th>Pakke</th><th>Inkluderet taletid</th><th>Passer typisk til</th></tr></thead><tbody>
+        <tr><td>Demo (prøveperiode)</td><td>10 minutter i 7 dage</td><td>At teste på rigtige opkald</td></tr>
+        <tr><td>Starter</td><td>150 minutter</td><td>Mindre virksomheder og opkald uden for åbningstid</td></tr>
+        <tr><td>Professional</td><td>600 minutter</td><td>Virksomheder med flere medarbejdere i telefonen</td></tr>
+        <tr><td>Enterprise</td><td>2.000 minutter</td><td>Store volumener og travle sæsoner</td></tr>
       </tbody></table></div>
-      <p>Opsætning og onboarding er et <strong>valgfrit</strong> engangskøb til samme pris som den valgte pakke (fx 999 kr. for Starter) inkl. en times opfølgende support. Du kan også sætte det op selv. Ad hoc-opgaver koster 695 kr. i timen for prompting/træning og 1.100 kr. i timen for udvikling. Se de aktuelle priser på <a href="/ai-receptionist#priser">siden om AI-telefonpasning</a>.</p>
+      <p>Jeres pris afhænger af branche, hvor meget I er i telefonen, og om AI'en også skal svare i widgetten på hjemmesiden, i webshoppen eller på madleveringer. I <a href="/prisberegner">prisberegneren</a> vælger I det hele, ser et eksempel på jeres dashboard og får prisen, når I beder om et tilbud. Opsætning og onboarding er et <strong>valgfrit</strong> engangskøb inkl. en times opfølgende support. Du kan også sætte det op selv, og vælger du den gratis prøveperiode, kan vi hjælpe dig gratis med opsætningen i de 7 dage.</p>
       <h2>Hvor mange minutter har du brug for?</h2>
       <p>Tag antallet af opkald, AI'en skal tage om måneden, og gang med den gennemsnitlige samtalelængde. En booking tager typisk et til tre minutter.</p>
       <ul>
@@ -80,7 +80,7 @@ export default {
         <li><strong>Opkald, der i dag går tabt.</strong> Hvor mange opkald ender på telefonsvareren eller bliver aldrig ringet tilbage? Gang med andelen, der ville være blevet til en kunde, og værdien af en kunde.</li>
         <li><strong>Udeblivelser.</strong> Hvis påmindelsesopkald får bare én kunde om ugen til at melde afbud i tide, kan tiden gives til en anden.</li>
       </ol>
-      <p><strong>Eksempel med tænkte tal:</strong> En frisør misser 15 opkald om ugen under klipninger. Hvis hvert femte var blevet til en booking til 450 kr., er det 3 bookinger × 450 kr. × 4 uger = 5.400 kr. om måneden i omsætning, der i dag går til konkurrenten. Mod det står Starter til 999 kr. Brug dine egne tal — vi har en mere detaljeret model i <a href="/blog/roi-ai-automatisering-virksomheder">guiden til ROI af AI-automatisering</a>.</p>
+      <p><strong>Eksempel med tænkte tal:</strong> En frisør misser 15 opkald om ugen under klipninger. Hvis hvert femte var blevet til en booking til 450 kr., er det 3 bookinger × 450 kr. × 4 uger = 5.400 kr. om måneden i omsætning, der i dag går til konkurrenten. Mod det står prisen på en Starter-pakke, som er en brøkdel af beløbet. Brug dine egne tal — vi har en mere detaljeret model i <a href="/blog/roi-ai-automatisering-virksomheder">guiden til ROI af AI-automatisering</a>.</p>
       <h2>Hvad med en menneskelig receptionist eller telefonpasning?</h2>
       <p>En fastansat receptionist koster løn, pension, ferie og afløsning ved sygdom, og kan tage ét opkald ad gangen i åbningstiden. En telefonpasningsservice tager typisk betaling pr. opkald eller pr. minut og tager som regel en besked i stedet for at booke. Det betyder ikke, at AI altid er bedre — en receptionist gør meget mere end at tage telefonen. Se den fulde sammenligning i <a href="/blog/ai-receptionist-vs-telefonpasning">AI-receptionist vs. traditionel telefonpasning</a>.</p>
       <h2>Skjulte omkostninger, du bør spørge til</h2>
@@ -183,7 +183,7 @@ export default {
         <li>Mere end halvdelen af opkaldene handler om booking eller de samme spørgsmål.</li>
       </ol>
       <h2>Hvad koster det for en lille virksomhed?</h2>
-      <p>Starter-pakken koster 999 kr. om måneden med 150 minutters taletid, og du kan prøve gratis i 7 dage. Se hvordan du regner ud, hvor mange minutter du skal bruge, i <a href="/blog/hvad-koster-en-ai-receptionist">hvad koster en AI-receptionist?</a> — og hvad du får tilbage i <a href="/blog/roi-ai-automatisering-virksomheder">guiden til ROI</a>.</p>
+      <p>Starter-pakken har 150 minutters taletid om måneden, du kan se jeres pris i <a href="/prisberegner">prisberegneren</a>, og du kan prøve gratis i 7 dage. Se hvordan du regner ud, hvor mange minutter du skal bruge, i <a href="/blog/hvad-koster-en-ai-receptionist">hvad koster en AI-receptionist?</a> — og hvad du får tilbage i <a href="/blog/roi-ai-automatisering-virksomheder">guiden til ROI</a>.</p>
       <p>Arbejder du i en bestemt branche, så se vores guides til <a href="/blog/ai-telefonassistent-haandvaerker">håndværkere</a>, <a href="/blog/totalloesning-klinik">klinikker og saloner</a> og <a href="/blog/ai-telefonassistent-kontor-administration">kontorer</a>.</p>
     `,
   'ai-telefonpasning-dansk-ai-receptionist': `
@@ -215,7 +215,7 @@ export default {
         <li>Ubegrænset samtidige opkald; du betaler for taletid.</li>
         <li>Optagelse, transskription og referat i dashboardet.</li>
         <li>Data behandles i EU med krypteret opbevaring, sletteregler og databehandleraftale.</li>
-        <li>Offentlige priser fra 999 kr./md. og 7 dages gratis prøveperiode.</li>
+        <li>Pris ud fra jeres egen taletid i prisberegneren og 7 dages gratis prøveperiode.</li>
       </ul>
       <p>Vil du forstå selve teknologien bag, så læs <a href="/blog/hvad-er-en-ai-voice-agent">hvad er en AI voice agent?</a></p>
     `,
@@ -325,7 +325,7 @@ export default {
         <li><strong>Ring selv op en aften</strong> og test med de ærinder, dine kunder typisk har. Justér, og gentag efter den første uge.</li>
       </ol>
       <h2 id="pris">Hvad koster AI-telefonpasning uden for åbningstid?</h2>
-      <p>Hos Aibooking.dk betaler du for taletid, ikke for tidspunktet. Der er ingen aften- eller weekendtillæg. Starter koster 999 kr. om måneden for 150 minutters taletid. Et regneeksempel: 40 opkald efter lukketid om måneden à cirka to minutter giver 80 minutter — det er inden for Starter. Du kan prøve det gratis i 7 dage på dit eget nummer. Se alle pakker i <a href="/blog/hvad-koster-en-ai-receptionist">hvad en AI-receptionist koster</a>, og læs <a href="/blog/ai-telefonpasning-dansk-ai-receptionist">de ni krav til AI-telefonpasning</a>, før du vælger udbyder.</p>
+      <p>Hos Aibooking.dk betaler du for taletid, ikke for tidspunktet. Der er ingen aften- eller weekendtillæg. Starter-pakken har 150 minutters taletid om måneden. Et regneeksempel: 40 opkald efter lukketid om måneden à cirka to minutter giver 80 minutter — det er inden for Starter. Du kan prøve det gratis i 7 dage på dit eget nummer. Se pakkerne i <a href="/blog/hvad-koster-en-ai-receptionist">hvad en AI-receptionist koster</a>, og beregn jeres pris i <a href="/prisberegner">prisberegneren</a>, og læs <a href="/blog/ai-telefonpasning-dansk-ai-receptionist">de ni krav til AI-telefonpasning</a>, før du vælger udbyder.</p>
     `,
   'ai-telefonpasning-webshop-haandvaerker-klinik-kontor': `
       <p><strong>AI-telefonpasning</strong> er den samme teknologi i alle brancher: en AI-receptionist, der tager dine opkald, svarer ud fra dine oplysninger og booker i kalenderen. Men <em>hvad</em> den skal gøre, afhænger helt af, hvem der ringer. En webshopkunde vil vide, hvor pakken er. En boligejer med en utæt vandhane vil have en håndværker ud. En patient vil flytte sin tid, og en ny klient vil tale med en advokat. Her er, hvordan du sætter AI-telefonpasning op til de fire brancher, vi oftest hjælper.</p>
@@ -374,6 +374,6 @@ export default {
         <tr><td>Bliver hos jer</td><td>Refusion, reklamation</td><td>Tilbud</td><td>Sundhedsfaglige spørgsmål</td><td>Rådgivning</td></tr>
         <tr><td>Vigtigste regel</td><td>Kun status, ingen persondata</td><td>Akut-regel</td><td>Ingen sundhedsråd</td><td>Ingen sagsoplysninger</td></tr>
       </tbody></table></div>
-      <p>Uanset branche gælder de samme tre ting: AI'en præsenterer sig som digital assistent (det kræver EU's AI-forordning), du beholder dit nummer og vælger selv, hvornår den tager over, og hvert opkald ligger bagefter i dashboardet med optagelse, udskrift og referat. Vil du også svare kunderne på hjemmesiden, bruger AI Voice Widget den samme viden og kalender. Det hele er samlet i <a href="/ai-receptionist">AI-receptionisten</a>, og prisen er den samme for alle brancher — fra 999 kr. om måneden for 150 minutter. Læs også <a href="/blog/ai-telefonpasning-uden-for-aabningstid">AI-telefonpasning uden for åbningstid</a>.</p>
+      <p>Uanset branche gælder de samme tre ting: AI'en præsenterer sig som digital assistent (det kræver EU's AI-forordning), du beholder dit nummer og vælger selv, hvornår den tager over, og hvert opkald ligger bagefter i dashboardet med optagelse, udskrift og referat. Vil du også svare kunderne på hjemmesiden, bruger AI Voice Widget den samme viden og kalender. Det hele er samlet i <a href="/ai-receptionist">AI-receptionisten</a>, og prisen afhænger af taletid, ikke af branche — se jeres pris i <a href="/prisberegner">prisberegneren</a>. Læs også <a href="/blog/ai-telefonpasning-uden-for-aabningstid">AI-telefonpasning uden for åbningstid</a>.</p>
     `,
 } satisfies Record<string, string>;

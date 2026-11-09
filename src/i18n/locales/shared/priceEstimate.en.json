@@ -1,0 +1,112 @@
+{
+  "industries": {
+    "salon": "Hair and beauty",
+    "healthcare": "Clinics and healthcare",
+    "craftsman": "Trades and services",
+    "office": "Offices and advisers",
+    "ecommerce": "Online shop",
+    "restaurant": "Restaurants and takeaway"
+  },
+  "capabilities": {
+    "booking": { "title": "Bookings", "desc": "Finds free slots and books, moves and cancels appointments in your calendar." },
+    "webshop": { "title": "Online shop", "desc": "Answers questions about products, stock and order status." },
+    "delivery": { "title": "Food delivery", "desc": "Takes orders and books a courier for delivery." }
+  },
+  "starter": {
+    "badge": "Work out your price",
+    "title": "What would it cost you?",
+    "subtitle": "Choose your industry, how much time you spend on the phone and what the AI should handle. We'll show you your estimate and an example of your dashboard.",
+    "industryTitle": "Which industry are you in?",
+    "industryFixed": "Industry: {{industry}}",
+    "minutesTitle": "How much talk time do your incoming calls take?",
+    "minutesHint": "A call usually lasts 2–3 minutes, so 150 minutes is roughly 60 calls a month.",
+    "capabilitiesTitle": "What should the AI handle?",
+    "capabilitiesHint": "Pick everything that applies. You can always change it later.",
+    "cta": "See price",
+    "ctaNote": "No commitment. The price is shown once you've asked for a quote.",
+    "chooseIndustryFirst": "Choose your industry above first.",
+    "stepLabel": "Step {{step}}"
+  },
+  "minutes": {
+    "unit": "min",
+    "perMonth": "{{minutes}} min/month",
+    "none": "No phone",
+    "max": "{{minutes}}+ min"
+  },
+  "page": {
+    "seo": {
+      "title": "Price calculator: AI receptionist and widget",
+      "description": "Work out the price of an AI receptionist and website widget from your industry and talk time, see an example dashboard and get a quote.",
+      "keywords": "AI receptionist price, AI receptionist cost, AI phone answering price, AI chat widget price, AI receptionist quote"
+    },
+    "breadcrumb": { "home": "Home", "page": "Price calculator" },
+    "hero": {
+      "badge": "Price calculator",
+      "title": "Your estimate and an example of your dashboard",
+      "subtitle": "Adjust your industry, talk time and what the AI should handle. The dashboard below shows what a month could look like for you. Ask for a quote and you'll see the price straight away."
+    },
+    "controls": {
+      "title": "Your choices",
+      "industry": "Industry",
+      "phoneMinutes": "Incoming calls per month",
+      "widgetMinutes": "Website widget per month",
+      "widgetEstimated": "Our estimate, based on your calls and choices",
+      "widgetCustom": "Your own figure",
+      "widgetReset": "Use our estimate",
+      "capabilities": "The AI should handle"
+    },
+    "summary": {
+      "title": "Your estimate",
+      "calls": "Incoming calls",
+      "callsValue": "about {{count}} calls",
+      "widget": "Website widget",
+      "widgetValue": "about {{count}} conversations",
+      "hours": "Time you get back",
+      "hoursValue": "{{hours}} hours/month",
+      "hoursText": "Time the AI spends on the phone and on your website instead of you.",
+      "package": "Recommended setup",
+      "packageVoice": "{{plan}} for the phone",
+      "packageWidget": "{{packs}} × widget pack",
+      "packageNone": "Choose some talk time to see a recommendation",
+      "aboveLargest": "Above 2,000 minutes we put together a plan that fits your volume."
+    },
+    "dashboard": {
+      "title": "What your dashboard could look like",
+      "subtitle": "An example of your overview using the figures from your estimate. Names and conversations are examples."
+    },
+    "form": {
+      "title": "Get a quote",
+      "subtitle": "Enter your company name, email and phone number. We'll show your price straight away and send you a quote.",
+      "company": "Company name",
+      "email": "Email",
+      "phone": "Phone",
+      "trial": "Yes, we'd like to try it free for 7 days",
+      "setupHelp": "Yes please, help us set it up for free during the 7 days",
+      "submit": "Get a quote",
+      "sending": "Sending…",
+      "error": "Sending didn't work. Please try again or write to mail@aibooking.dk.",
+      "privacy": "We only use your details to send you a quote. No commitment."
+    },
+    "result": {
+      "title": "Thank you, {{company}}! Here's your price",
+      "subtitle": "We've received your request and will send a quote to {{email}}.",
+      "monthly": "Per month",
+      "voiceLine": "{{plan}}, {{minutes}} min of phone time",
+      "widgetLine": "Widget, {{minutes}} min ({{packs}} × pack)",
+      "setup": "Optional setup and onboarding: €{{price}} one-off",
+      "setupFree": "You've asked for free help with setup during the trial.",
+      "trial": "You've asked to try it free for 7 days. We'll be in touch about getting started.",
+      "note": "The price is indicative and there's no commitment. You can change plan at any time.",
+      "trialCta": "Start your free trial now"
+    },
+    "explain": {
+      "title": "How we work out your estimate",
+      "paragraphs": [
+        "The price depends on how much talk time the AI uses for you. The phone and the website widget are counted separately because they're used differently: a phone call usually lasts two to three minutes, while a widget conversation is often shorter.",
+        "You choose the phone talk time yourself. We estimate the widget from your calls: some of the people who ring you today will ask on your website instead. If the AI should also handle your online shop or food delivery, we add extra conversations, because customers ask about products, stock, orders and delivery. If you know your own figure, just change it.",
+        "From the talk time we find the smallest plan that covers your needs. Setup and onboarding are available as an optional one-off payment, and if you choose the 7-day free trial, we can help you set up for free during the trial.",
+        "The estimate is a starting point. Your dashboard always shows your actual usage on each channel, and you can change plan if you use more or less than expected."
+      ]
+    }
+  }
+}

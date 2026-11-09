@@ -89,7 +89,7 @@
       ["Several calls at the same time", "Yes", "Messages only", "Depends on staffing"],
       ["Same assistant on your website", "Yes, AI Voice Widget", "No", "No"],
       ["Recording, transcript and summary", "Yes, in the dashboard", "Audio file only", "A written message"],
-      ["Pricing model", "Package with talk time, from DKK 999/month", "Usually part of the phone plan", "Per call or a fixed monthly fee"]
+      ["Pricing model", "Package based on talk time", "Usually part of the phone plan", "Per call or a fixed monthly fee"]
     ],
     "link": "Read the full comparison"
   },

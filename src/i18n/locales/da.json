@@ -732,5 +732,17 @@
     "qr_alt": "QR-kode til AIbooking-appen",
     "scan_hint": "Scan med telefonens kamera for at hente appen",
     "more_link": "Se appen og skærmbilleder"
+  },
+  "notFound": {
+    "seo": {
+      "title": "Siden findes ikke | Aibooking.dk",
+      "description": "Siden, du leder efter, findes ikke eller er flyttet. Gå til forsiden, læs vores guides om AI-receptionister eller kontakt os."
+    },
+    "label": "Fejl 404",
+    "heading": "Siden findes ikke",
+    "text": "Siden er måske flyttet, eller adressen er skrevet forkert. Her er nogle gode steder at fortsætte:",
+    "home": "Til forsiden",
+    "blog": "Læs guides og artikler",
+    "contact": "Kontakt os"
   }
 }

@@ -850,5 +850,17 @@
     "qr_alt": "QR code for the AIbooking app",
     "scan_hint": "Scan with your phone's camera to get the app",
     "more_link": "See the app and screenshots"
+  },
+  "notFound": {
+    "seo": {
+      "title": "Page not found | Aibooking.dk",
+      "description": "The page you are looking for doesn't exist or has moved. Go to the home page, read our AI receptionist guides or get in touch."
+    },
+    "label": "Error 404",
+    "heading": "Page not found",
+    "text": "The page may have moved, or the address may be mistyped. Here are some good places to continue:",
+    "home": "Go to the home page",
+    "blog": "Read guides and articles",
+    "contact": "Contact us"
   }
 }

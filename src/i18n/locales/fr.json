@@ -850,5 +850,17 @@
     "qr_alt": "Code QR de l'app AIbooking",
     "scan_hint": "Scannez avec l'appareil photo de votre mobile pour installer l'app",
     "more_link": "Voir l'appli et les captures"
+  },
+  "notFound": {
+    "seo": {
+      "title": "Page introuvable | Aibooking.dk",
+      "description": "La page que vous cherchez n’existe pas ou a été déplacée. Revenez à l’accueil, lisez nos guides sur le réceptionniste IA ou contactez-nous."
+    },
+    "label": "Erreur 404",
+    "heading": "Page introuvable",
+    "text": "La page a peut-être été déplacée, ou l’adresse contient une faute de frappe. Voici quelques pistes pour continuer :",
+    "home": "Retour à l’accueil",
+    "blog": "Lire les guides et articles",
+    "contact": "Nous contacter"
   }
 }

@@ -24,6 +24,8 @@ interface SEOProps {
   /** Languages this page's content actually exists in (hreflang alternates).
    * Defaults to every supported language. */
   languages?: readonly SupportedLanguage[];
+  /** Keep the page out of search results and give it no canonical (the 404 page). */
+  noindex?: boolean;
 }
 
 export default function SEO({
@@ -36,6 +38,7 @@ export default function SEO({
   structuredData,
   path,
   languages = SUPPORTED_LANGUAGES,
+  noindex = false,
 }: SEOProps) {
   const { i18n } = useTranslation();
   const title = formatSeoTitle(rawTitle);
@@ -53,7 +56,7 @@ export default function SEO({
     : [];
 
   // Only has an effect during build-time prerendering.
-  collectSeo({ title, description, keywords, ogImage, ogType, ogLocale, canonical, structuredData, lang, alternates });
+  collectSeo({ title, description, keywords, ogImage, ogType, ogLocale, canonical, structuredData, lang, alternates, noindex });
 
   useEffect(() => {
     document.title = title;
@@ -69,6 +72,7 @@ export default function SEO({
       element.setAttribute('content', content);
     };
 
+    updateMetaTag('robots', noindex ? 'noindex, follow' : 'index, follow');
     updateMetaTag('description', description);
     if (keywords) {
       updateMetaTag('keywords', keywords);
@@ -86,6 +90,7 @@ export default function SEO({
     updateMetaTag('twitter:description', description, 'name');
     updateMetaTag('twitter:image', ogImage, 'name');
 
+    if (noindex) document.querySelector('link[rel="canonical"]')?.remove();
     if (canonical) {
       let linkElement = document.querySelector('link[rel="canonical"]');
       if (!linkElement) {
@@ -120,7 +125,7 @@ export default function SEO({
       document.head.appendChild(link);
     });
   // eslint-disable-next-line react-hooks/exhaustive-deps -- alternates is derived from path + languages
-  }, [title, description, keywords, ogImage, ogType, ogLocale, canonical, structuredData, path, lang, languages]);
+  }, [title, description, keywords, ogImage, ogType, ogLocale, canonical, structuredData, path, lang, languages, noindex]);
 
   return null;
 }

@@ -152,7 +152,7 @@ export const receptionistEs: BlogTranslations = {
   'ai-receptionist-viderestilling-til-menneske': {
     title: `¿Cuándo debe un recepcionista con IA transferir la llamada a una persona?`,
     excerpt: `La diferencia entre un buen y un mal recepcionista con IA suele estar en la transferencia. Siete situaciones en las que debe intervenir una persona, cómo definir las reglas y qué debe vivir el cliente.`,
-    meta_title: `¿Cuándo debe un recepcionista con IA transferir a una persona? | AIBooking.dk`,
+    meta_title: `¿Cuándo debe una IA pasar la llamada a una persona? | AIBooking.dk`,
     meta_description: `Siete situaciones en las que un recepcionista con IA debe pasar la llamada a una persona, tres formas de transferir y reglas útiles en horas punta.`,
     content: `
       <p>La forma más rápida de molestar a los clientes es una IA que no los deja ir. La segunda es una IA que lo transfiere todo y no resuelve nada. Un buen recepcionista con IA está en medio: resuelve lo previsible y transmite el resto, con contexto, para que el cliente no tenga que empezar de nuevo.</p>
@@ -232,7 +232,7 @@ export const receptionistEs: BlogTranslations = {
   'ai-telefonpasning-dansk-ai-receptionist': {
     title: `Atención telefónica con IA: qué exigir a un recepcionista con IA`,
     excerpt: `La atención telefónica con IA solo funciona si funciona en tu idioma, con nombres, direcciones, acentos y reglas reales. Nueve requisitos que debes plantear a cualquier proveedor antes de desviar tu número.`,
-    meta_title: `Atención telefónica con IA: 9 requisitos del recepcionista IA | AIBooking.dk`,
+    meta_title: `Atención telefónica con IA: 9 requisitos imprescindibles | AIBooking.dk`,
     meta_description: `Nueve requisitos para cualquier proveedor de atención telefónica con IA: idioma, reservas, tu número, transferencias, datos en la UE y precios claros.`,
     content: `
       <p>La <strong>atención telefónica con IA</strong> significa que una IA atiende tus llamadas en lugar del buzón de voz o de un servicio externo. La tecnología ya es lo bastante buena para mantener conversaciones naturales, pero la calidad todavía varía mucho según el idioma y el proveedor. Estos son los nueve requisitos que pondríamos nosotros si tuviéramos que elegir una solución.</p>

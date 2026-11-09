@@ -732,5 +732,17 @@
     "qr_alt": "QR-Code für die AIbooking-App",
     "scan_hint": "Mit der Smartphone-Kamera scannen, um die App zu holen",
     "more_link": "App und Screenshots ansehen"
+  },
+  "notFound": {
+    "seo": {
+      "title": "Seite nicht gefunden | Aibooking.dk",
+      "description": "Die gesuchte Seite existiert nicht oder wurde verschoben. Zur Startseite, zu unseren Ratgebern über KI-Rezeptionisten oder zum Kontakt."
+    },
+    "label": "Fehler 404",
+    "heading": "Seite nicht gefunden",
+    "text": "Die Seite wurde vielleicht verschoben, oder die Adresse ist falsch geschrieben. Hier geht es weiter:",
+    "home": "Zur Startseite",
+    "blog": "Ratgeber und Artikel lesen",
+    "contact": "Kontakt"
   }
 }

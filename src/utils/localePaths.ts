@@ -1,3 +1,4 @@
+import { currentPathname, isRenderingNotFound } from './currentPath';
 import { LANGUAGE_PATH_PREFIX, SUPPORTED_LANGUAGES, SupportedLanguage } from '../i18n/config';
 
 // Danish has no prefix (canonical/default language); en/es/de/fr are
@@ -27,4 +28,13 @@ export function localizedUrl(lang: SupportedLanguage, path: string): string {
 
 export function blogPostPath(lang: SupportedLanguage, slug: string): string {
   return buildLocalizedPath(lang, `/blog/${slug}`);
+}
+
+/**
+ * The page being shown, in `lang`: the target of language switch links. On the
+ * 404 page there is no such page, so it is that language's home page.
+ */
+export function currentPageIn(lang: SupportedLanguage): string {
+  if (isRenderingNotFound()) return buildLocalizedPath(lang, '/');
+  return buildLocalizedPath(lang, splitLocalizedPath(currentPathname()).path);
 }

@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { Phone, Plug, Building2, ChevronDown, Stethoscope, Wrench, Briefcase, ShoppingCart, ShoppingBag, Scissors, UtensilsCrossed, MessageSquare, Users, Globe, Menu, X, LogIn, Home, Newspaper } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { splitLocalizedPath, buildLocalizedPath } from '../utils/localePaths';
+import { splitLocalizedPath, currentPageIn } from '../utils/localePaths';
 import { SupportedLanguage } from '../i18n/config';
 import type { NavigatePage } from '../types/navigation';
 import { LOGIN_URL, SIGNUP_URL } from '../utils/backend';
@@ -74,15 +74,13 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
   const changeLanguage = (lng: SupportedLanguage) => {
     rememberLanguageChoice();
     i18n.changeLanguage(lng);
-    const { path } = splitLocalizedPath(window.location.pathname);
-    window.history.pushState({}, '', buildLocalizedPath(lng, path));
+    window.history.pushState({}, '', currentPageIn(lng));
     setIsLanguageOpen(false);
   };
 
   // Real links to this page in each language, so they open in a new tab and
   // crawlers can follow them; a normal click switches in place.
-  const languageHref = (lng: SupportedLanguage) =>
-    buildLocalizedPath(lng, splitLocalizedPath(currentPathname()).path);
+  const languageHref = (lng: SupportedLanguage) => currentPageIn(lng);
 
   const languageLabel: Record<SupportedLanguage, string> = { da: 'DA', en: 'EN', es: 'ES', de: 'DE', fr: 'FR' };
 

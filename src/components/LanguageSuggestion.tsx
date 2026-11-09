@@ -2,8 +2,7 @@ import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Globe, X } from 'lucide-react';
 import type { SupportedLanguage } from '../i18n/config';
-import { splitLocalizedPath, buildLocalizedPath } from '../utils/localePaths';
-import { currentPathname } from '../utils/currentPath';
+import { splitLocalizedPath, currentPageIn } from '../utils/localePaths';
 import { preferredLanguage, readDismissed, DISMISSED_KEY } from '../utils/languagePreference';
 
 // Shown in the language being suggested, since that is the one the visitor reads.
@@ -47,7 +46,7 @@ export default function LanguageSuggestion() {
   if (!suggested) return null;
   const copy = COPY[suggested];
   // Re-rendered with App on every in-app navigation, so this follows the URL.
-  const href = buildLocalizedPath(suggested, splitLocalizedPath(currentPathname()).path);
+  const href = currentPageIn(suggested);
 
   const dismiss = () => {
     try {

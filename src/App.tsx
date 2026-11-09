@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { isCrawler } from './utils/isCrawler';
 import HomePage from './pages/HomePage';
 import IntegrationsPage from './pages/IntegrationsPage';
 import IndustriesPage from './pages/IndustriesPage';
@@ -95,7 +96,8 @@ function App() {
     // First visit to an unprefixed (Danish) URL: if the detected/stored
     // preference is a non-Danish supported language, redirect to the
     // matching language-prefixed URL so the site opens pre-translated.
-    if (urlLang === 'da' && detectedLang !== 'da' && SUPPORTED_LANGUAGES.includes(detectedLang)) {
+    // Never for crawlers: they must index the Danish page at its own URL.
+    if (urlLang === 'da' && detectedLang !== 'da' && SUPPORTED_LANGUAGES.includes(detectedLang) && !isCrawler()) {
       const newPath = buildLocalizedPath(detectedLang, path);
       window.history.replaceState({}, '', newPath);
       i18n.changeLanguage(detectedLang);

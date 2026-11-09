@@ -232,7 +232,7 @@ export const receptionistEs: BlogTranslations = {
   'ai-telefonpasning-dansk-ai-receptionist': {
     title: `Atención telefónica con IA: qué exigir a un recepcionista con IA`,
     excerpt: `La atención telefónica con IA solo funciona si funciona en tu idioma, con nombres, direcciones, acentos y reglas reales. Nueve requisitos que debes plantear a cualquier proveedor antes de desviar tu número.`,
-    meta_title: `Atención telefónica con IA: 9 requisitos para un recepcionista con IA | AIBooking.dk`,
+    meta_title: `Atención telefónica con IA: 9 requisitos del recepcionista IA | AIBooking.dk`,
     meta_description: `Nueve requisitos para cualquier proveedor de atención telefónica con IA: idioma, reservas, tu número, transferencias, datos en la UE y precios claros.`,
     content: `
       <p>La <strong>atención telefónica con IA</strong> significa que una IA atiende tus llamadas en lugar del buzón de voz o de un servicio externo. La tecnología ya es lo bastante buena para mantener conversaciones naturales, pero la calidad todavía varía mucho según el idioma y el proveedor. Estos son los nueve requisitos que pondríamos nosotros si tuviéramos que elegir una solución.</p>

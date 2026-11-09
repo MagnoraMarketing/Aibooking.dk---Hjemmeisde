@@ -232,7 +232,7 @@ export const receptionistFr: BlogTranslations = {
   'ai-telefonpasning-dansk-ai-receptionist': {
     title: `Permanence téléphonique IA : ce qu’il faut exiger d’un réceptionniste IA`,
     excerpt: `La permanence téléphonique IA ne fonctionne que si elle fonctionne dans votre langue – avec de vrais noms, adresses, accents et règles. Neuf exigences à poser à tout prestataire avant de renvoyer votre numéro.`,
-    meta_title: `Permanence téléphonique IA : 9 exigences pour un réceptionniste IA | AIBooking.dk`,
+    meta_title: `Permanence téléphonique IA : 9 critères pour bien choisir | AIBooking.dk`,
     meta_description: `Neuf exigences pour tout prestataire de permanence téléphonique IA : langue, réservation, votre numéro, transferts, données UE et prix clairs.`,
     content: `
       <p>La <strong>permanence téléphonique IA</strong>, c’est une IA qui prend vos appels à la place de la messagerie ou d’une permanence externe. La technologie est désormais assez bonne pour mener des conversations naturelles – mais la qualité varie encore beaucoup selon la langue et le prestataire. Voici les neuf exigences que nous poserions nous-mêmes si nous devions choisir une solution.</p>

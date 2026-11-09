@@ -8,7 +8,9 @@
 // versions live in src/content/blogTranslations/ (see localizePost below).
 //
 // When posts are merged, add the old slug to `blogRedirects` below AND to the
-// "redirects" list in vercel.json so the old URL 301s to the surviving post.
+// "redirects" list in vercel.json so the old URL 301s to the surviving post
+// (with and without the /:lang prefix, plus a /pt/blog/<old> -> /en/blog/<new>
+// rule above the /pt catch-all so retired Portuguese URLs take one hop).
 
 import { receptionistPosts } from './blogPosts/receptionist';
 import { voicePosts } from './blogPosts/voice';

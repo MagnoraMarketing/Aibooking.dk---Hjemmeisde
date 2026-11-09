@@ -213,3 +213,71 @@
 .blog-content details p {
   @apply mt-3 text-base text-ink-600;
 }
+
+/* AI widget (loaded from app.aibooking.dk/widget.js): our own agent
+   illustration instead of the default emoji launcher and letter avatar.
+   Scoped to this site only — the widget's elements live in this page's DOM,
+   so customers' widgets elsewhere are unchanged. */
+#aibooking-launcher {
+  width: 68px !important;
+  height: 68px !important;
+  padding: 0 !important;
+  font-size: 0 !important;
+  color: transparent !important;
+  background: #2563eb url('/widget-agent.svg') center / cover no-repeat !important;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.35), 0 0 0 4px rgba(255, 255, 255, 0.9) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  animation: aibooking-wave 4s ease-in-out 1.5s 2;
+}
+#aibooking-launcher:hover {
+  transform: translateY(-3px) scale(1.06);
+}
+#aibooking-launcher:focus-visible {
+  outline: 3px solid #fbbf24;
+  outline-offset: 3px;
+}
+#aibooking-launcher::before {
+  position: absolute;
+  right: calc(100% + 12px);
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #0f172a;
+  font: 600 14px/1.2 Inter, system-ui, sans-serif;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.18);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  content: 'Hej! Jeg ordner det hele 👋';
+}
+html[lang='en'] #aibooking-launcher::before { content: "Hi! I'll sort it out 👋"; }
+html[lang='es'] #aibooking-launcher::before { content: '¡Hola! Yo me encargo 👋'; }
+html[lang='de'] #aibooking-launcher::before { content: 'Hallo! Ich kümmere mich darum 👋'; }
+html[lang='fr'] #aibooking-launcher::before { content: "Bonjour ! Je m'occupe de tout 👋"; }
+#aibooking-launcher:hover::before,
+#aibooking-launcher:focus-visible::before {
+  opacity: 1;
+}
+#aibooking-panel > div:first-child > div:first-child {
+  font-size: 0 !important;
+  color: transparent !important;
+  background: #2563eb url('/widget-agent.svg') center / cover no-repeat !important;
+  width: 36px !important;
+  height: 36px !important;
+}
+@keyframes aibooking-wave {
+  0%, 100% { transform: rotate(0deg); }
+  5% { transform: rotate(-10deg); }
+  10% { transform: rotate(10deg); }
+  15% { transform: rotate(-6deg); }
+  20% { transform: rotate(0deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  #aibooking-launcher { animation: none; transition: none; }
+}
+@media (max-width: 640px) {
+  #aibooking-launcher::before { display: none; }
+}

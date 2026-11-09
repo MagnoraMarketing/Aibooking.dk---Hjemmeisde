@@ -45,7 +45,7 @@ export default {
         <tr><td>Does it only answer from my information?</td><td>It must not invent prices or promises.</td></tr>
         <tr><td>Where is data processed, and is there a data processing agreement?</td><td>GDPR and the AI Act. See <a href="/blog/ai-widget-gdpr-danske-virksomheder">the guide</a>.</td></tr>
         <tr><td>How does it affect page speed?</td><td>It should load asynchronously.</td></tr>
-        <tr><td>What does it cost, and is there a commitment?</td><td>With us DKK 999/month incl. 150 minutes of voice, and 7 days free.</td></tr>
+        <tr><td>What does it cost, and is there a commitment?</td><td>With us the price depends on talk time – see it in the <a href="/prisberegner">price calculator</a>. No commitment, and 7 days free.</td></tr>
       </tbody></table></div>
       <p>For more ways to use AI on your website, read <a href="/blog/ai-til-hjemmeside">AI for your website: 7 ways</a>. See the product on <a href="/widget">AI widget</a>.</p>
     `,

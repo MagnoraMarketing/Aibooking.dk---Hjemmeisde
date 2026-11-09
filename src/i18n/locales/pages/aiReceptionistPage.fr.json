@@ -89,7 +89,7 @@
       ["Plusieurs appels en même temps", "Oui", "Messages uniquement", "Selon les effectifs"],
       ["La même assistante sur votre site", "Oui, AI Voice Widget", "Non", "Non"],
       ["Enregistrement, transcription et résumé", "Oui, dans le tableau de bord", "Le fichier audio seulement", "Un message écrit"],
-      ["Modèle tarifaire", "Forfait avec minutes, dès 134 €/mois", "Généralement inclus dans l’abonnement téléphonique", "À l’appel ou forfait mensuel"]
+      ["Modèle tarifaire", "Forfait selon le temps de parole", "Généralement inclus dans l’abonnement téléphonique", "À l’appel ou forfait mensuel"]
     ],
     "link": "Lire la comparaison complète"
   },

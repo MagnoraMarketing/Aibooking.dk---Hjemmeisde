@@ -15,7 +15,7 @@ import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import IndustryScenario from '../components/industries/IndustryScenario';
 import IndustryIntegrations from '../components/industries/IndustryIntegrations';
-import IndustryCalculator from '../components/industries/IndustryCalculator';
+import QuoteStarter from '../components/QuoteStarter';
 import IndustryTrialBanner from '../components/industries/IndustryTrialBanner';
 import DashboardShowcase from '../components/DashboardShowcase';
 import type { NavigatePage } from '../types/navigation';
@@ -126,7 +126,7 @@ function OfficePage({ onNavigate }: OfficePageProps) {
         </div>
       </section>
 
-      <IndustryCalculator industry="office" />
+      <QuoteStarter industry="office" />
 
       <IndustryTrialBanner industry="office" />
 

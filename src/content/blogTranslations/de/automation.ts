@@ -67,7 +67,7 @@ export const automationDe: BlogTranslations = {
       <div class="blog-callout"><strong>Formel:</strong> Terminausfälle pro Monat × Anteil, der durch Erinnerungen erkannt und neu vergeben wird × Wert eines Termins</div>
       <p>Nur relevant, wenn Sie Termine in einem Kalender vergeben. Mehr dazu in <a href="/blog/outbound-ai-opkald-paamindelser">automatische Erinnerungsanrufe</a>.</p>
       <h2>Posten 4: Die Kosten</h2>
-      <p>Monatliches Abonnement, eventuelle Zusatzminuten und die Einrichtung, verteilt auf z. B. 12 Monate. Bei Aibooking.dk sind es je nach Gesprächszeit 134 €, 335 € oder 804 € pro Monat; die Einrichtung ist optional. Siehe <a href="/blog/hvad-koster-en-ai-receptionist">was ein KI-Rezeptionist kostet</a>.</p>
+      <p>Monatliches Abonnement, eventuelle Zusatzminuten und die Einrichtung, verteilt auf z. B. 12 Monate. Bei Aibooking.dk richtet sich der Preis nach der Gesprächszeit, und Ihren sehen Sie im <a href="/prisberegner">Preisrechner</a>; die Einrichtung ist optional. Siehe <a href="/blog/hvad-koster-en-ai-receptionist">was ein KI-Rezeptionist kostet</a>.</p>
       <div class="blog-cta"><strong>Lassen Sie die KI für Sie buchen</strong><p>Verbinden Sie Ihren Kalender, leiten Sie Ihre Nummer um und sehen Sie 7 Tage lang die Buchungen eintreffen – kostenlos und ohne Kreditkarte.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">7 Tage kostenlos testen</a><a href="/demo">Demo buchen</a></div></div>
       <h2>Ein Rechenbeispiel (beispielhafte Zahlen)</h2>
       <p>Eine Physiotherapiepraxis mit drei Therapeuten:</p>
@@ -75,10 +75,9 @@ export const automationDe: BlogTranslations = {
         <tr><td>Gewonnene Zeit</td><td>4 Std./Woche × 40 €/Std. × 4,3</td><td>688 €</td></tr>
         <tr><td>Verlorene Anrufe</td><td>20 Anrufe × 25 % × 54 € Deckungsbeitrag</td><td>270 €</td></tr>
         <tr><td>Terminausfälle</td><td>8 Ausfälle × 40 % neu vergeben × 67 €</td><td>214 €</td></tr>
-        <tr><td>Kosten</td><td>Professional</td><td>−335 €</td></tr>
-        <tr><td><strong>Netto</strong></td><td></td><td><strong>837 €</strong></td></tr>
+        <tr><td><strong>Wert insgesamt</strong></td><td></td><td><strong>1.172 €</strong></td></tr>
       </tbody></table></div>
-      <p>Die Zahlen sind beispielhaft – sie wurden nicht bei einem bestimmten Kunden gemessen. Es geht um die Methode: Ersetzen Sie jede Annahme durch Ihre eigene Zahl.</p>
+      <p>Ziehen Sie Ihren Monatspreis ab – Sie finden ihn im <a href="/prisberegner">Preisrechner</a> anhand Ihrer eigenen Gesprächszeit. Die Zahlen sind beispielhaft – sie wurden nicht bei einem bestimmten Kunden gemessen. Es geht um die Methode: Ersetzen Sie jede Annahme durch Ihre eigene Zahl.</p>
       <h2>Was die Rechnung nicht erfasst</h2>
       <ul>
         <li><strong>Konzentration:</strong> Weniger Unterbrechungen bedeuten bessere Arbeit, aber das lässt sich schwer beziffern.</li>
@@ -253,7 +252,7 @@ export const automationDe: BlogTranslations = {
       </ol>
       <p>Die konkreten Schritte finden Sie in <a href="/blog/kom-i-gang-ai-automatisering-trin-for-trin">Start in 7 Schritten</a>.</p>
       <h2>Was kostet ein KI-Mitarbeiter?</h2>
-      <p>Bei Aibooking.dk ab 134 € pro Monat für 150 Minuten Gesprächszeit. Er nimmt keinen Urlaub und kann viele Anrufe gleichzeitig bearbeiten, ersetzt aber nicht das Urteilsvermögen einer erfahrenen Fachkraft. Siehe <a href="/blog/hvad-koster-en-ai-receptionist">Preise und Rechnung</a> und <a href="/blog/ai-receptionist-vs-telefonpasning">den Vergleich mit menschlichen Telefonservices</a>.</p>`,
+      <p>Bei Aibooking.dk bezahlen Sie Gesprächszeit, und den Preis sehen Sie im <a href="/prisberegner">Preisrechner</a>. Die KI nimmt keinen Urlaub und kann viele Anrufe gleichzeitig bearbeiten, ersetzt aber nicht das Urteilsvermögen einer erfahrenen Fachkraft. Siehe <a href="/blog/hvad-koster-en-ai-receptionist">Preise und Rechnung</a> und <a href="/blog/ai-receptionist-vs-telefonpasning">den Vergleich mit menschlichen Telefonservices</a>.</p>`,
     faq: [
       { question: `Was ist ein KI-Mitarbeiter?`, answer: `Eine KI, die festgelegte Aufgaben für das Unternehmen übernimmt, etwa Telefonate annehmen, auf der Website antworten und Termine buchen – nach Regeln, die das Unternehmen selbst festlegt.` },
     ],

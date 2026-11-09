@@ -31,6 +31,7 @@ import phoneAnsweringSEODa from '../locales/shared/phoneAnsweringSEO.da.json';
 import blogCtaDa from '../locales/shared/blogCta.da.json';
 import pageHeroDa from '../locales/shared/pageHero.da.json';
 import audioDemoDa from '../locales/shared/audioDemo.da.json';
+import priceEstimateDa from '../locales/shared/priceEstimate.da.json';
 
 export default {
   common: commonDa,
@@ -64,4 +65,5 @@ export default {
   blogCta: blogCtaDa,
   pageHero: pageHeroDa,
   audioDemo: audioDemoDa,
+  priceEstimate: priceEstimateDa,
 };

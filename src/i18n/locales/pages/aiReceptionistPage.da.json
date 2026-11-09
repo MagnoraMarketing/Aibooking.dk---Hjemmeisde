@@ -89,7 +89,7 @@
       ["Flere opkald på samme tid", "Ja", "Kun beskeder", "Afhænger af bemandingen"],
       ["Samme assistent på hjemmesiden", "Ja, AI Voice Widget", "Nej", "Nej"],
       ["Optagelse, udskrift og referat", "Ja, i dashboardet", "Kun lydfilen", "En skriftlig besked"],
-      ["Prismodel", "Pakke med taletid, fra 999 kr./md.", "Som regel en del af telefonabonnementet", "Pr. opkald eller fast månedspris"]
+      ["Prismodel", "Pakke med taletid efter forbrug", "Som regel en del af telefonabonnementet", "Pr. opkald eller fast månedspris"]
     ],
     "link": "Læs den fulde sammenligning"
   },

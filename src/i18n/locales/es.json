@@ -195,93 +195,7 @@
     }
   },
   "pricing": {
-    "badge": "Precios Transparentes",
-    "title": "Elige tu paquete",
-    "subtitle": "Paquetes a medida diseñados para negocios de todos los tamaños",
-    "most_popular_badge": "Más Popular",
-    "free_label": "Gratis",
-    "currency_suffix": "€/mes",
-    "after_order_note": "Una vez creada tu cuenta gratuita, puedes reservar una hora para la configuración directamente desde tu panel, si la has añadido a tu pedido.",
-    "setup_recommendation": "Te recomendamos probar la solución gratis durante 7 días primero — después eliges tu paquete. La configuración y la incorporación se pueden añadir como pago único opcional si quieres ayuda con ello.",
-    "cta_signup": "Crear cuenta gratuita",
-    "cta_demo": "Probar gratis",
-    "no_card_required": "No se requiere tarjeta de crédito ni datos de pago",
-    "cta_order": "Pedir plan",
-    "plans": [
-      {
-        "name": "Demo",
-        "description": "Prueba gratis durante 7 días – comprueba cuánto tiempo liberas para otras tareas y más clientes",
-        "minutes": "Prueba gratuita de 7 días · 10 minutos de conversación gratis",
-        "features": [
-          "Entrantes – la IA responde tus llamadas",
-          "Widget de voz – la IA responde preguntas generales en tu web",
-          "Reservas – directo al calendario",
-          "Tienda online – integración con Shopify",
-          "Personalización básica de voz",
-          "Panel de análisis",
-          "Aportas tu número de teléfono comercial actual para el periodo de prueba, para que la IA pueda responder llamadas reales",
-          "Opción de actualizar al paquete Starter"
-        ]
-      },
-      {
-        "name": "Starter",
-        "description": "Perfecto para pequeños negocios que empiezan con la IA",
-        "minutes": "150 minutos",
-        "features": [
-          "150 minutos de llamadas con IA",
-          "Personalización básica de voz",
-          "Soporte estándar",
-          "Panel de análisis",
-          "Notificaciones por correo electrónico"
-        ]
-      },
-      {
-        "name": "Professional",
-        "description": "Ideal para negocios en crecimiento con un volumen de llamadas regular",
-        "minutes": "600 minutos",
-        "features": [
-          "600 minutos de llamadas con IA",
-          "Personalización avanzada de voz",
-          "Soporte prioritario",
-          "Grabaciones y transcripciones",
-          "Integraciones con Shopify y reparto",
-          "Reservas en Google, Outlook o Cal.com",
-          "Historial de clientes"
-        ]
-      },
-      {
-        "name": "Enterprise",
-        "description": "Para organizaciones que necesitan la máxima flexibilidad",
-        "minutes": "2000 minutos",
-        "features": [
-          "2000 minutos de llamadas con IA",
-          "Personalización de voz completa",
-          "Soporte dedicado 24/7",
-          "Entrenamiento de IA personalizado",
-          "Acceso a la API",
-          "Gestor de éxito dedicado",
-          "Integraciones ilimitadas",
-          "Soporte para el cumplimiento del RGPD"
-        ]
-      }
-    ],
-    "additionalPrices": {
-      "title": "Otros precios",
-      "toggle_label": "Ver otros precios",
-      "setup": {
-        "title": "Configuración e incorporación",
-        "value": "Complemento opcional al finalizar la compra — un pago único desde {{setupMin}}€ hasta {{setupMax}}€, igual al precio del plan elegido, incl. 1 hora de soporte de seguimiento",
-        "note": "(pago único, no incluido en la suscripción)"
-      },
-      "hourly": {
-        "title": "Tarifa por hora para tareas puntuales",
-        "prompting_label": "Prompting/entrenamiento",
-        "prompting_price": "93€/hora",
-        "development_label": "Desarrollo",
-        "development_price": "147€/hora"
-      }
-    },
-    "setup_included_note": "La configuración e incorporación se pueden añadir por {{setup}}€ como pago único (mismo precio que el plan), incl. 1 hora de soporte de seguimiento"
+    "currency_suffix": "€/mes"
   },
   "cta_section": {
     "title": "¿Listo para empezar?",
@@ -384,60 +298,6 @@
     "card_conversation_value": "La IA Se Encargó de Todo",
     "summary_label": "Resumen",
     "summary_text": "Fenley solicitó información sobre el aparcamiento de la clínica. Le proporcionamos todos los detalles relevantes para garantizar una visita sin contratiempos."
-  },
-  "widgetPricing": {
-    "badge": "Fácil Integración En Tu Sitio Web",
-    "title": "Widget de Voz con IA de AIBooking",
-    "subtitle": "Un voicebot con el que tus clientes pueden hablar directamente en tu sitio web - gestiona preguntas y reservas automáticamente",
-    "plan_badge": "Solución Más Flexible",
-    "price_period": "€/mes",
-    "price_note1": "Incluye 150 minutos de conversación (aprox. 0,89€/minuto)",
-    "price_note2": "El paquete se renueva automáticamente una vez usados los 150 minutos",
-    "features": [
-      {
-        "bold": "Bot de voz con IA",
-        "rest": " - los clientes hablan directamente con la IA"
-      },
-      {
-        "bold": "",
-        "rest": "Responde preguntas y gestiona reservas"
-      },
-      {
-        "bold": "",
-        "rest": "Las reservas van directas a tu calendario"
-      },
-      {
-        "bold": "",
-        "rest": "Disponible 24/7 en tu sitio web"
-      },
-      {
-        "bold": "",
-        "rest": "150 minutos de conversación incluidos"
-      },
-      {
-        "bold": "Paga solo por el tiempo de conversación activo",
-        "rest": " - sin tarifa por hora"
-      },
-      {
-        "bold": "Abierto 24/7, 365 días al año",
-        "rest": " - siempre listo"
-      },
-      {
-        "bold": "",
-        "rest": "Atiende a los clientes incluso cuando estás ocupado"
-      }
-    ],
-    "cta": "Ver el Widget de IA en acción",
-    "demo_widget_label": "Asistente de Reservas con IA",
-    "demo_widget_status": "En línea ahora",
-    "demo_ai_label": "🎤 Voz IA:",
-    "demo_msg1": "¡Hola! Puedes hablar conmigo directamente. ¿En qué puedo ayudarte?",
-    "demo_customer_label": "🗣️ Cliente:",
-    "demo_msg2": "\"Me gustaría reservar una cita el viernes\"",
-    "demo_msg3": "¡Perfecto! Estos son los horarios disponibles el viernes...",
-    "demo_footer": "Widget de voz con IA - los clientes hablan directamente en tu sitio",
-    "perfect_for_label": "Perfecto para:",
-    "perfect_for_text": "Clínicas, profesionales de oficios, consultores, salones, oficinas y cualquier otro negocio que gestione reservas directamente en su sitio web."
   },
   "industryTools": {
     "scenario": {
@@ -621,32 +481,6 @@
           "Sin interrupciones en el sillón"
         ]
       }
-    },
-    "calculator": {
-      "badge": "Calcula tu precio",
-      "title": "¿Cuánto cuesta — y cuánto tiempo recuperas?",
-      "subtitle": "Elige la solución que te interesa, indica tu tiempo de conversación previsto y ve el precio al instante.",
-      "modeLabel": "¿Qué solución quieres calcular?",
-      "modeVoice": "Llamadas entrantes y salientes",
-      "modeVoiceDesc": "El asistente telefónico de IA atiende llamadas y realiza sus propios recordatorios y seguimientos.",
-      "modeWidget": "Widget de voz en tu sitio web",
-      "modeWidgetDesc": "Los visitantes hablan o escriben directamente con la IA en tu sitio y reservan ellos mismos.",
-      "widgetPlanName": "Voice Widget",
-      "minutesLabel": "Tiempo de conversación previsto al mes",
-      "minutesUnit": "min",
-      "recommendedLabel": "Paquete recomendado",
-      "includedMinutes": "{{minutes}} minutos incluidos",
-      "setupLabel": "La configuración e incorporación se pueden añadir como pago único opcional.",
-      "setupNote": "Complemento opcional: {{price}} de pago único — mismo precio que el paquete, incl. 1 hora de soporte de seguimiento.",
-      "setupLine": "Configuración e incorporación opcionales disponibles",
-      "aboveLargest": "¿Necesitas más de 2.000 minutos al mes? Te preparamos un paquete a medida — contáctanos para un presupuesto.",
-      "timeFreedValue": "Unas {{hours}} horas de teléfono recuperadas",
-      "timeFreedText": "Tiempo que puedes dedicar a llevar el negocio. Reservas, cambios y preguntas se gestionan sin ti.",
-      "alwaysOnTitle": "Abierto 24/7, 365 días al año",
-      "alwaysOnText": "El agente siempre responde — tardes, fines de semana y festivos. No pierdes clientes porque nadie pudo contestar.",
-      "recommendation": "Te recomendamos probar la solución gratis durante 7 días primero. Después eliges tu paquete y la configuración y la incorporación van incluidas, totalmente gratis.",
-      "cta": "Probar gratis 7 días",
-      "note": "Los precios son orientativos y sin compromiso. Puedes cambiar de paquete sobre la marcha."
     },
     "trial": {
       "badge": "7 días gratis",

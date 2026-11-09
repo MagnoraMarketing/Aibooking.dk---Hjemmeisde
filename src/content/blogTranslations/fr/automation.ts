@@ -67,7 +67,7 @@ export const automationFr: BlogTranslations = {
       <div class="blog-callout"><strong>Formule :</strong> rendez-vous manqués par mois × part repérée par les rappels et réattribuée × valeur d’un créneau</div>
       <p>Uniquement pertinent si vous travaillez sur rendez-vous avec un agenda. Pour en savoir plus, lisez <a href="/blog/outbound-ai-opkald-paamindelser">les appels de rappel automatiques</a>.</p>
       <h2>Poste 4 : le coût</h2>
-      <p>L’abonnement mensuel, d’éventuelles minutes supplémentaires et la mise en place étalée sur 12 mois, par exemple. Chez Aibooking.dk, c’est 134 €, 335 € ou 804 € par mois selon le temps de conversation ; la mise en place est facultative. Voir <a href="/blog/hvad-koster-en-ai-receptionist">combien coûte un réceptionniste IA</a>.</p>
+      <p>L’abonnement mensuel, d’éventuelles minutes supplémentaires et la mise en place étalée sur 12 mois, par exemple. Chez Aibooking.dk, le prix dépend du temps de conversation, et vous trouvez le vôtre dans le <a href="/prisberegner">simulateur de prix</a> ; la mise en place est facultative. Voir <a href="/blog/hvad-koster-en-ai-receptionist">combien coûte un réceptionniste IA</a>.</p>
       <div class="blog-cta"><strong>Laissez l’IA réserver pour vous</strong><p>Connectez votre agenda, renvoyez votre numéro et regardez les réservations arriver pendant 7 jours – gratuitement et sans carte bancaire.</p><div class="blog-cta-actions"><a class="primary" href="/proeveperiode">Essayez gratuitement 7 jours</a><a href="/demo">Réserver une démo</a></div></div>
       <h2>Un exemple chiffré (chiffres illustratifs)</h2>
       <p>Un cabinet de kinésithérapie avec trois praticiens :</p>
@@ -75,10 +75,9 @@ export const automationFr: BlogTranslations = {
         <tr><td>Temps libéré</td><td>4 h/semaine × 40 €/h × 4,3</td><td>688 €</td></tr>
         <tr><td>Appels perdus</td><td>20 appels × 25 % × 54 € de marge</td><td>270 €</td></tr>
         <tr><td>Rendez-vous manqués</td><td>8 absences × 40 % réattribuées × 67 €</td><td>214 €</td></tr>
-        <tr><td>Coût</td><td>Professional</td><td>−335 €</td></tr>
-        <tr><td><strong>Net</strong></td><td></td><td><strong>837 €</strong></td></tr>
+        <tr><td><strong>Valeur totale</strong></td><td></td><td><strong>1 172 €</strong></td></tr>
       </tbody></table></div>
-      <p>Les chiffres sont illustratifs – ils n’ont pas été mesurés chez un client en particulier. L’important est la méthode : remplacez chaque hypothèse par votre propre chiffre.</p>
+      <p>Retranchez votre prix mensuel – vous le trouverez dans le <a href="/prisberegner">simulateur de prix</a> à partir de votre propre temps de parole. Les chiffres sont illustratifs – ils n’ont pas été mesurés chez un client en particulier. L’important est la méthode : remplacez chaque hypothèse par votre propre chiffre.</p>
       <h2>Ce que le calcul ne mesure pas</h2>
       <ul>
         <li><strong>La concentration :</strong> moins d’interruptions, c’est un meilleur travail, mais c’est difficile à chiffrer.</li>
@@ -253,7 +252,7 @@ export const automationFr: BlogTranslations = {
       </ol>
       <p>Retrouvez les étapes concrètes dans <a href="/blog/kom-i-gang-ai-automatisering-trin-for-trin">démarrer en 7 étapes</a>.</p>
       <h2>Combien coûte un employé IA ?</h2>
-      <p>Chez Aibooking.dk, à partir de 134 € par mois pour 150 minutes de conversation. Il ne prend pas de congés et peut traiter de nombreux appels en même temps, mais il ne remplace pas le discernement d’un collaborateur qualifié. Voir <a href="/blog/hvad-koster-en-ai-receptionist">les prix et le calcul</a> et <a href="/blog/ai-receptionist-vs-telefonpasning">la comparaison avec une permanence téléphonique humaine</a>.</p>`,
+      <p>Chez Aibooking.dk, vous payez le temps de conversation, et le prix figure dans le <a href="/prisberegner">simulateur de prix</a>. L’IA ne prend pas de congés et peut traiter de nombreux appels en même temps, mais elle ne remplace pas le discernement d’un collaborateur qualifié. Voir <a href="/blog/hvad-koster-en-ai-receptionist">les prix et le calcul</a> et <a href="/blog/ai-receptionist-vs-telefonpasning">la comparaison avec une permanence téléphonique humaine</a>.</p>`,
     faq: [
       { question: `Qu’est-ce qu’un employé IA ?`, answer: `Une IA qui prend en charge des tâches définies pour l’entreprise, comme répondre au téléphone, répondre sur le site et réserver des rendez-vous – selon des règles fixées par l’entreprise elle-même.` },
     ],

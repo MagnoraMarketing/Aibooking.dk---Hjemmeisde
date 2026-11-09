@@ -26,4 +26,5 @@ export type NavigatePage =
   | 'app'
   | 'salon'
   | 'shopify'
-  | 'restaurant';
+  | 'restaurant'
+  | 'quote';

@@ -14,7 +14,7 @@
     "title_line2": "that books and answers webshop questions",
     "subtitle": "Aibooking.dk's chat and voice widget is an AI assistant added directly to your website that handles bookings, questions, and customer enquiries automatically – by voice and text, 24 hours a day, 365 days a year.",
     "cta_demo": "Try a free demo",
-    "cta_buy": "Order now – €134/month",
+    "cta_buy": "Order now",
     "cta_demo_connecting": "Connecting...",
     "cta_demo_end": "End call",
     "cta_demo_error": "Couldn't connect – check that microphone access is allowed, and try again.",
@@ -39,8 +39,8 @@
       "label": "Talk time included"
     },
     {
-      "value": "€134",
-      "label": "Per month"
+      "value": "150 min",
+      "label": "Talk time in the first pack"
     }
   ],
   "whatIs": {
@@ -151,9 +151,9 @@
     ],
     "roi": {
       "title": "Typical ROI for an AI voice widget",
-      "desc_pre": "A part-time receptionist typically costs €2,000-2,700/month. With the AI voice widget at €134/month, you get ",
+      "desc_pre": "A part-time receptionist typically costs €2,000-2,700/month. With the AI voice widget you get ",
       "desc_strong": "the same functionality",
-      "desc_post": " – but 24 hours a day, 7 days a week.",
+      "desc_post": " for a fraction of the cost – and 24 hours a day, 7 days a week.",
       "stats": [
         {
           "value": "95%",
@@ -285,125 +285,11 @@
     }
   },
   "pricing": {
-    "badge": "Transparent pricing",
-    "title": "Simple, transparent pricing",
-    "subtitle": "Choose the solution that fits your business – pay only for what you use, with no hidden fees",
-    "widgetPlan": {
-      "heading": "AI Voice Widget",
-      "badge": "Recommended starting point",
-      "description": "The fastest and cheapest way to automate your booking. The widget sits on your website and lets customers talk or type directly with your AI assistant – 24/7, with no human involvement.",
-      "price_suffix": "€/month",
-      "includes": "Includes 150 minutes of talk time (approx. €0.89/minute)",
-      "renewal_note": "The package renews automatically once the 150 minutes are used",
-      "cta_order": "Order now",
-      "cta_intro": "Book a free intro",
-      "features": [
-        "Voice AI bot – customers talk directly with the AI",
-        "Answers questions and handles bookings",
-        "Bookings go straight into your calendar",
-        "Available 24/7 on your website",
-        "150 minutes of talk time included",
-        "Pay only for active talk time – no hourly wages",
-        "Open 24/7, 365 days a year – always ready",
-        "Handles customers even when you're busy"
-      ],
-      "footnote_talketime_label": "Talk time:",
-      "footnote_talketime_value": "Purchased credit is valid for 3 months",
-      "footnote_renewal_label": "Renewal:",
-      "footnote_renewal_value": "Automatic once 150 min. are used",
-      "footnote_binding_label": "Commitment:",
-      "footnote_binding_value": "None – cancel anytime"
-    },
     "phoneAssistant": {
       "heading": "AI Phone Assistant",
       "badge": "Outbound & inbound calls",
       "description": "Need an AI assistant that also makes outbound calls or answers phone calls directly? Choose one of our scalable packages below — from a free demo to enterprise."
-    },
-    "choosePackage": {
-      "title": "Choose your package",
-      "subtitle": "Tailored packages designed for businesses of every size"
-    },
-    "free_label": "Free",
-    "most_popular_badge": "Most Popular",
-    "plans": [
-      {
-        "name": "Demo",
-        "description": "Try free for 7 days with real call credit – see how much time you free up for other tasks and more customers",
-        "minutes": "Free for 7 days · 10 minutes of free talk time",
-        "features": [
-          "Free credit for AI calls during the trial",
-          "Basic voice customization",
-          "Analytics dashboard",
-          "You provide your current business phone number for the trial period, so the AI can answer real calls",
-          "Option to upgrade to the Starter package"
-        ],
-        "cta": "Try for free"
-      },
-      {
-        "name": "Starter",
-        "description": "Perfect for smaller businesses getting started with AI",
-        "minutes": "150 minutes",
-        "features": [
-          "150 AI call minutes",
-          "Basic voice customization",
-          "Standard support",
-          "Analytics dashboard",
-          "Email notifications"
-        ],
-        "cta": "Order package"
-      },
-      {
-        "name": "Professional",
-        "description": "Ideal for growing businesses with regular call volume",
-        "minutes": "600 minutes",
-        "features": [
-          "600 AI call minutes",
-          "Advanced voice customization",
-          "Priority support",
-          "Recordings and transcripts",
-          "Shopify and delivery integrations",
-          "Booking in Google, Outlook or Cal.com",
-          "Customer history"
-        ],
-        "cta": "Order package"
-      },
-      {
-        "name": "Enterprise",
-        "description": "For organizations that need maximum flexibility",
-        "minutes": "2000 minutes",
-        "features": [
-          "2000 AI call minutes",
-          "Full voice customization",
-          "24/7 dedicated support",
-          "Custom AI training",
-          "API access",
-          "Dedicated success manager",
-          "Unlimited integrations",
-          "GDPR compliance support"
-        ],
-        "cta": "Order package"
-      }
-    ],
-    "after_order_note": "After ordering, you'll receive a calendar link where you can book a setup session, if you've added it to your order.",
-    "setup_recommendation": "We recommend trying the solution free for 7 days first — then choose your package. Setup and onboarding can be added as an optional one-time payment if you'd like help with it.",
-    "additionalPrices": {
-      "title": "Other prices",
-      "toggle_label": "See other prices",
-      "setup": {
-        "title": "Setup & onboarding",
-        "value": "Optional add-on at checkout — a one-time payment from €{{setupMin}} to €{{setupMax}}, matching your chosen plan's price, incl. 1 hour of follow-up support",
-        "note": "(one-time only, not included in the subscription)"
-      },
-      "hourly": {
-        "title": "Hourly rate for ad hoc tasks",
-        "prompting_label": "Prompting/training",
-        "prompting_price": "€93 per hour",
-        "development_label": "Development",
-        "development_price": "€147 per hour"
-      }
-    },
-    "currency_suffix": "€/mo",
-    "setup_included_note": "Setup and onboarding can be added for €{{setup}} as a one-time payment (same price as the plan), incl. 1 hour of follow-up support"
+    }
   },
   "shopifyIntegration": {
     "badge": "Shopify integration",
@@ -512,7 +398,7 @@
     },
     {
       "question": "What does the AI widget cost?",
-      "answer": "The starter package costs €134/month and includes 150 minutes of talk time. You only pay for active talk time – no hourly wages, no commitment. The package renews automatically once the 150 minutes are used."
+      "answer": "The price depends on how much talk time the widget uses. You only pay for active talk time – no hourly wages, no commitment – and the pack renews automatically once the talk time is used. The price calculator shows your price based on your industry and expected talk time."
     },
     {
       "question": "Which languages does the widget support?",
@@ -527,6 +413,6 @@
     "title": "Ready to automate your booking?",
     "subtitle": "Get started in under 5 minutes. Book a free introductory call and see how the AI voice widget can transform your customer handling.",
     "cta_intro": "Book a free intro",
-    "cta_order": "Order directly – €134/month"
+    "cta_order": "Order directly"
   }
 }

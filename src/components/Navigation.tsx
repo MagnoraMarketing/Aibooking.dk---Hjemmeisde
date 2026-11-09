@@ -148,9 +148,9 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
               >
                 {t('nav.inbound_outbound')}
               </PageLink>
-              <a href="#priser" className={navLinkClass}>
+              <PageLink page="quote" onClick={() => onNavigate('quote')} className={navLinkClass}>
                 {t('nav.pricing')}
-              </a>
+              </PageLink>
               <div className="relative" ref={dropdownRef}>
                 <button
                   onClick={() => setIsIndustriesOpen(!isIndustriesOpen)}
@@ -382,13 +382,12 @@ function Navigation({ onNavigate, transparent = false }: NavigationProps) {
           >
             {t('nav.inbound_outbound')}
           </PageLink>
-          <a
-            href="#priser"
-            onClick={() => setIsMobileOpen(false)}
-            className="w-full flex items-center px-4 py-3.5 rounded-xl text-ink-700 hover:bg-ink-50 hover:text-brand-600 transition-all font-medium text-[15px]"
+          <PageLink page="quote"
+            onClick={() => handleMobileNavigate('quote')}
+            className="w-full flex items-center px-4 py-3.5 rounded-xl text-ink-700 hover:bg-ink-50 hover:text-brand-600 transition-all font-medium text-[15px] text-left"
           >
             {t('nav.pricing')}
-          </a>
+          </PageLink>
 
           {/* Industries accordion */}
           <button

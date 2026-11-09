@@ -22,6 +22,7 @@ import AppPage from './pages/AppPage';
 import SalonPage from './pages/SalonPage';
 import ShopifyPage from './pages/ShopifyPage';
 import RestaurantPage from './pages/RestaurantPage';
+import PriceEstimatePage from './pages/PriceEstimatePage';
 import BlogPage from './pages/BlogPage';
 import BlogCategoryPage from './pages/BlogCategoryPage';
 import BlogPostPage from './pages/BlogPostPage';
@@ -33,7 +34,7 @@ import { blogRedirects, getCategoryBySlug, getPostBySlug } from './content/blog'
 import { loadBlogTranslations } from './content/blogTranslations';
 import { loadBlogLanguage } from './content/blog';
 
-type PageType = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'blog-category' | 'blog-post' | 'trial' | 'app' | 'salon' | 'shopify' | 'restaurant';
+type PageType = 'home' | 'widget' | 'inbound-outbound' | 'integrations' | 'industries' | 'demo' | 'healthcare' | 'craftsman' | 'office' | 'ecommerce' | 'features' | 'contact' | 'about' | 'terms' | 'privacy' | 'blog' | 'blog-category' | 'blog-post' | 'trial' | 'app' | 'salon' | 'shopify' | 'restaurant' | 'quote';
 
 // Danish-worded paths (canonical, unprefixed). Language prefixes are
 // stripped/added separately via splitLocalizedPath/buildLocalizedPath.
@@ -43,7 +44,8 @@ const pathMap: Record<string, PageType> = {
   '/haandvaerker': 'craftsman', '/kontor': 'office', '/webshop': 'ecommerce',
   '/kontakt': 'contact', '/om-aibooking': 'about', '/vilkaar': 'terms',
   '/privatlivspolitik': 'privacy', '/blog': 'blog', '/proeveperiode': 'trial',
-  '/app': 'app', '/frisoer': 'salon', '/shopify': 'shopify', '/restaurant': 'restaurant'
+  '/app': 'app', '/frisoer': 'salon', '/shopify': 'shopify', '/restaurant': 'restaurant',
+  '/prisberegner': 'quote'
 };
 
 const pageMap: Record<PageType, string> = {
@@ -52,7 +54,8 @@ const pageMap: Record<PageType, string> = {
   'craftsman': '/haandvaerker', 'office': '/kontor', 'ecommerce': '/webshop',
   'contact': '/kontakt', 'about': '/om-aibooking', 'terms': '/vilkaar',
   'privacy': '/privatlivspolitik', 'blog': '/blog', 'blog-category': '/blog/category',
-  'blog-post': '/blog', 'trial': '/proeveperiode', 'app': '/app', 'salon': '/frisoer', 'shopify': '/shopify', 'restaurant': '/restaurant'
+  'blog-post': '/blog', 'trial': '/proeveperiode', 'app': '/app', 'salon': '/frisoer', 'shopify': '/shopify', 'restaurant': '/restaurant',
+  'quote': '/prisberegner'
 };
 
 // Resolve a Danish-worded path to the page (and blog slug) it renders.
@@ -159,6 +162,7 @@ function App() {
        : currentPage === 'salon' ? <SalonPage onNavigate={handleNavigate} />
        : currentPage === 'shopify' ? <ShopifyPage onNavigate={handleNavigate} />
        : currentPage === 'restaurant' ? <RestaurantPage onNavigate={handleNavigate} />
+       : currentPage === 'quote' ? <PriceEstimatePage onNavigate={handleNavigate} />
        : <DemoPage onNavigate={handleNavigate} />}
       <TrialOfferWidget />
       <LanguageSuggestion />

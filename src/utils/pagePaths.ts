@@ -12,6 +12,7 @@ export const PAGE_PATHS: Record<NavigatePage, string> = {
   office: '/kontor', ecommerce: '/webshop', contact: '/kontakt',
   about: '/om-aibooking', terms: '/vilkaar', privacy: '/privatlivspolitik',
   blog: '/blog', trial: '/proeveperiode', app: '/app', salon: '/frisoer', shopify: '/shopify', restaurant: '/restaurant',
+  quote: '/prisberegner',
 };
 
 export function useLocalizedHref() {

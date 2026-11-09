@@ -12,13 +12,12 @@ import RelatedGuides from '../components/RelatedGuides';
 import AppQrSection from '../components/AppQrSection';
 import SEO from '../components/SEO';
 import WidgetCapabilitiesSEO from '../components/WidgetCapabilitiesSEO';
-import { localizedPrice } from '../utils/currency';
 import type { SupportedLanguage } from '../i18n/config';
 import { buildLocalizedPath, localizedUrl } from '../utils/localePaths';
 import { createBreadcrumbSchema, createFAQSchema } from '../utils/structuredData';
 import ClinicDashboardMock from '../components/ClinicDashboardMock';
 import type { NavigatePage } from '../types/navigation';
-import { VOICE_PLAN_PRICES_DKK } from '../utils/pricing';
+import QuoteStarter from '../components/QuoteStarter';
 import PhoneAnsweringSEO from '../components/PhoneAnsweringSEO';
 import { ReceptionistAlternatives, ReceptionistChannels, ReceptionistCombined } from '../components/receptionist/ReceptionistSections';
 
@@ -263,13 +262,6 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
     { key: 'saving', icon: Sparkles },
   ] as const;
 
-  const plans = [
-    { key: 'demo', price: VOICE_PLAN_PRICES_DKK[0], highlight: false },
-    { key: 'starter', price: VOICE_PLAN_PRICES_DKK[1], highlight: false },
-    { key: 'professional', price: VOICE_PLAN_PRICES_DKK[2], highlight: true },
-    { key: 'enterprise', price: VOICE_PLAN_PRICES_DKK[3], highlight: false },
-  ] as const;
-
   // Service + FAQ + breadcrumb in one graph, so the page can win both a rich
   // FAQ result and a breadcrumb trail for the product name.
   const structuredData = useMemo(() => ({
@@ -288,13 +280,6 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
           url: 'https://www.aibooking.dk',
         },
         areaServed: 'DK',
-        offers: {
-          '@type': 'AggregateOffer',
-          priceCurrency: 'DKK',
-          lowPrice: String(VOICE_PLAN_PRICES_DKK[1]),
-          highPrice: String(VOICE_PLAN_PRICES_DKK[3]),
-          offerCount: '4',
-        },
       },
       createFAQSchema(faqs),
       createBreadcrumbSchema([
@@ -593,66 +578,8 @@ function InboundOutboundPage({ onNavigate }: InboundOutboundPageProps) {
       {/* AI receptionist vs. voicemail and human answering services */}
       <ReceptionistAlternatives />
 
-      {/* Pricing */}
-      <section id="priser" className="py-20 md:py-28 bg-white scroll-mt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-ink-900 mb-5 tracking-tight">
-              {t('pricing.title')}
-            </h2>
-            <p className="text-lg text-ink-600 max-w-3xl mx-auto">{t('pricing.subtitle')}</p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 items-start">
-            {plans.map((plan) => (
-              <div
-                key={plan.key}
-                className={`rounded-3xl p-7 transition-all ${
-                  plan.highlight
-                    ? 'bg-gradient-to-br from-brand-600 to-brand-800 text-white shadow-2xl lg:-mt-4 lg:pb-11'
-                    : 'bg-white border border-ink-200 shadow-sm'
-                }`}
-              >
-                {plan.highlight && (
-                  <div className="bg-white/20 text-white px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider mb-4 inline-block">
-                    {t('pricing.mostPopular')}
-                  </div>
-                )}
-                <h3 className={`text-xl font-bold mb-3 ${plan.highlight ? 'text-white' : 'text-ink-900'}`}>
-                  {t(`pricing.${plan.key}.name`)}
-                </h3>
-                <div className="mb-2 flex items-baseline gap-1.5">
-                  <span className={`text-4xl font-bold ${plan.highlight ? 'text-white' : 'text-ink-900'}`}>
-                    {plan.price === 0 ? t('pricing.free') : localizedPrice(plan.price, lang)}
-                  </span>
-                  {plan.price > 0 && (
-                    <span className={plan.highlight ? 'text-brand-100' : 'text-ink-600'}>
-                      {t('pricing.perMonth')}
-                    </span>
-                  )}
-                </div>
-                <div className={`text-sm mb-7 ${plan.highlight ? 'text-brand-100' : 'text-ink-600'}`}>
-                  {t(`pricing.${plan.key}.label`)}
-                </div>
-                <a
-                  href={contactHref}
-                  className={`block text-center py-3 px-4 rounded-xl font-semibold transition-all ${
-                    plan.highlight
-                      ? 'bg-white text-brand-700 hover:bg-brand-50'
-                      : 'bg-brand-600 text-white hover:bg-brand-700'
-                  }`}
-                >
-                  {t('pricing.cta')}
-                </a>
-              </div>
-            ))}
-          </div>
-
-          <p className="text-center text-sm text-ink-400 mt-10 max-w-2xl mx-auto">
-            {t('pricing.note')}
-          </p>
-        </div>
-      </section>
+      {/* Price estimate */}
+      <QuoteStarter />
 
       {/* FAQ */}
       <section className="py-20 md:py-28 bg-ink-50">

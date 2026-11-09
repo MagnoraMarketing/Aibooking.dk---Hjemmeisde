@@ -89,7 +89,7 @@
       ["Varias llamadas a la vez", "Sí", "Solo mensajes", "Según el personal disponible"],
       ["La misma asistente en tu web", "Sí, AI Voice Widget", "No", "No"],
       ["Grabación, transcripción y resumen", "Sí, en el panel", "Solo el audio", "Un recado por escrito"],
-      ["Modelo de precio", "Plan con minutos, desde 134 €/mes", "Normalmente incluido en la tarifa telefónica", "Por llamada o cuota mensual fija"]
+      ["Modelo de precio", "Plan según los minutos de conversación", "Normalmente incluido en la tarifa telefónica", "Por llamada o cuota mensual fija"]
     ],
     "link": "Lee la comparación completa"
   },

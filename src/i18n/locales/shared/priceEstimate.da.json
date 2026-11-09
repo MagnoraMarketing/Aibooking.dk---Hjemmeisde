@@ -1,0 +1,112 @@
+{
+  "industries": {
+    "salon": "Frisør og skønhed",
+    "healthcare": "Klinik og sundhed",
+    "craftsman": "Håndværker",
+    "office": "Kontor og rådgivning",
+    "ecommerce": "Webshop",
+    "restaurant": "Restaurant og takeaway"
+  },
+  "capabilities": {
+    "booking": { "title": "Booking", "desc": "Finder ledige tider og booker, flytter og aflyser i jeres kalender." },
+    "webshop": { "title": "Webshop", "desc": "Svarer på spørgsmål om produkter, lager og ordrestatus." },
+    "delivery": { "title": "Madlevering", "desc": "Tager imod bestillinger og bestiller bud til levering." }
+  },
+  "starter": {
+    "badge": "Beregn jeres pris",
+    "title": "Hvad koster det for jer?",
+    "subtitle": "Vælg branche, hvor meget I er i telefonen, og hvad AI'en skal klare. Så viser vi jeres estimat og et eksempel på jeres dashboard.",
+    "industryTitle": "Hvilken branche er I i?",
+    "industryFixed": "Branche: {{industry}}",
+    "minutesTitle": "Hvor meget taletid har I på indgående opkald?",
+    "minutesHint": "Et opkald varer typisk 2–3 minutter, så 150 minutter svarer til omkring 60 opkald om måneden.",
+    "capabilitiesTitle": "Hvad skal AI'en håndtere?",
+    "capabilitiesHint": "Vælg alt det, der passer. I kan altid ændre det senere.",
+    "cta": "Se pris",
+    "ctaNote": "Ingen binding. Prisen vises, når I har bedt om et tilbud.",
+    "chooseIndustryFirst": "Vælg først jeres branche ovenfor.",
+    "stepLabel": "Trin {{step}}"
+  },
+  "minutes": {
+    "unit": "min.",
+    "perMonth": "{{minutes}} min./md.",
+    "none": "Ingen telefon",
+    "max": "{{minutes}}+ min."
+  },
+  "page": {
+    "seo": {
+      "title": "Prisberegner: AI-receptionist og widget",
+      "description": "Beregn prisen på AI-receptionist og AI-widget ud fra jeres branche og taletid, se et eksempel på jeres dashboard, og få et tilbud.",
+      "keywords": "pris AI-receptionist, prisberegner AI, AI telefonpasning pris, AI-widget pris, tilbud AI-receptionist"
+    },
+    "breadcrumb": { "home": "Hjem", "page": "Prisberegner" },
+    "hero": {
+      "badge": "Prisberegner",
+      "title": "Jeres estimat og et eksempel på jeres dashboard",
+      "subtitle": "Juster branche, taletid og hvad AI'en skal klare. Dashboardet nedenfor viser, hvordan en måned kunne se ud for jer. Når I beder om et tilbud, får I prisen med det samme."
+    },
+    "controls": {
+      "title": "Jeres valg",
+      "industry": "Branche",
+      "phoneMinutes": "Indgående opkald pr. måned",
+      "widgetMinutes": "Widget på hjemmesiden pr. måned",
+      "widgetEstimated": "Vores estimat ud fra jeres opkald og valg",
+      "widgetCustom": "Jeres egen værdi",
+      "widgetReset": "Brug vores estimat",
+      "capabilities": "AI'en skal håndtere"
+    },
+    "summary": {
+      "title": "Jeres estimat",
+      "calls": "Indgående opkald",
+      "callsValue": "ca. {{count}} opkald",
+      "widget": "Widget på hjemmesiden",
+      "widgetValue": "ca. {{count}} samtaler",
+      "hours": "Tid I får tilbage",
+      "hoursValue": "{{hours}} timer/md.",
+      "hoursText": "Tid, som AI'en bruger i telefonen og på hjemmesiden i stedet for jer.",
+      "package": "Anbefalet løsning",
+      "packageVoice": "{{plan}} til telefonen",
+      "packageWidget": "{{packs}} × widget-pakke",
+      "packageNone": "Vælg taletid for at se en anbefaling",
+      "aboveLargest": "Over 2.000 minutter laver vi en løsning, der passer til jeres volumen."
+    },
+    "dashboard": {
+      "title": "Sådan kunne jeres dashboard se ud",
+      "subtitle": "Et eksempel på jeres overblik med tallene fra jeres estimat. Navne og samtaler er eksempler."
+    },
+    "form": {
+      "title": "Indhent tilbud",
+      "subtitle": "Udfyld firmanavn, e-mail og telefon, så viser vi jeres pris med det samme og sender jer et tilbud.",
+      "company": "Firmanavn",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "trial": "Ja, vi vil gerne prøve det gratis i 7 dage",
+      "setupHelp": "Ja tak, hjælp os gratis med opsætningen i de 7 dage",
+      "submit": "Indhent tilbud",
+      "sending": "Sender…",
+      "error": "Det lykkedes ikke at sende. Prøv igen, eller skriv til mail@aibooking.dk.",
+      "privacy": "Vi bruger kun jeres oplysninger til at give jer et tilbud. Ingen binding."
+    },
+    "result": {
+      "title": "Tak, {{company}}! Her er jeres pris",
+      "subtitle": "Vi har modtaget jeres ønske og vender tilbage med et tilbud på {{email}}.",
+      "monthly": "Pr. måned",
+      "voiceLine": "{{plan}}, {{minutes}} min. telefon",
+      "widgetLine": "Widget, {{minutes}} min. ({{packs}} × pakke)",
+      "setup": "Valgfri opsætning og onboarding: {{price}} kr. som engangsbetaling",
+      "setupFree": "I har bedt om gratis hjælp til opsætningen i prøveperioden.",
+      "trial": "I har bedt om at prøve gratis i 7 dage. Vi kontakter jer om opstarten.",
+      "note": "Prisen er vejledende og uden binding. I kan skifte pakke undervejs.",
+      "trialCta": "Opret gratis prøveperiode nu"
+    },
+    "explain": {
+      "title": "Sådan regner vi jeres estimat ud",
+      "paragraphs": [
+        "Prisen afhænger af, hvor meget taletid AI'en bruger for jer. Telefonen og widgetten på hjemmesiden tæller hver for sig, fordi de bruges forskelligt: et opkald varer typisk to til tre minutter, mens en samtale i widgetten ofte er kortere.",
+        "Taletiden på telefonen vælger I selv. Widgetten estimerer vi ud fra jeres opkald: en del af dem, der i dag ringer, spørger i stedet på hjemmesiden. Skal AI'en også klare webshop eller madlevering, lægger vi ekstra samtaler til, fordi kunderne her spørger om produkter, lager, ordrer og levering. Kender I jeres eget tal, kan I bare ændre det.",
+        "Ud fra taletiden finder vi den mindste pakke, der dækker jeres behov. Opsætning og onboarding kan tilkøbes som en valgfri engangsbetaling, og vælger I at prøve gratis i 7 dage, kan vi hjælpe jer gratis med opsætningen i prøveperioden.",
+        "Estimatet er et udgangspunkt. I dashboardet kan I altid se jeres faktiske forbrug på hver kanal, og I kan skifte pakke, hvis I bruger mere eller mindre end forventet."
+      ]
+    }
+  }
+}

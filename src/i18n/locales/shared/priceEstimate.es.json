@@ -1,0 +1,112 @@
+{
+  "industries": {
+    "salon": "Peluquería y estética",
+    "healthcare": "Clínicas y salud",
+    "craftsman": "Reformas y oficios",
+    "office": "Despachos y asesorías",
+    "ecommerce": "Tienda online",
+    "restaurant": "Restaurantes y comida para llevar"
+  },
+  "capabilities": {
+    "booking": { "title": "Reservas", "desc": "Busca huecos libres y reserva, cambia o cancela citas en tu agenda." },
+    "webshop": { "title": "Tienda online", "desc": "Responde a dudas sobre productos, stock y estado de pedidos." },
+    "delivery": { "title": "Comida a domicilio", "desc": "Toma los pedidos y pide un repartidor para el envío." }
+  },
+  "starter": {
+    "badge": "Calcula tu precio",
+    "title": "¿Cuánto te costaría?",
+    "subtitle": "Elige tu sector, cuánto tiempo pasáis al teléfono y qué debe gestionar la IA. Te mostramos tu estimación y un ejemplo de tu panel.",
+    "industryTitle": "¿A qué sector te dedicas?",
+    "industryFixed": "Sector: {{industry}}",
+    "minutesTitle": "¿Cuántos minutos ocupan las llamadas entrantes?",
+    "minutesHint": "Una llamada suele durar 2–3 minutos, así que 150 minutos son unas 60 llamadas al mes.",
+    "capabilitiesTitle": "¿Qué debe gestionar la IA?",
+    "capabilitiesHint": "Marca todo lo que encaje. Puedes cambiarlo cuando quieras.",
+    "cta": "Ver precio",
+    "ctaNote": "Sin permanencia. El precio aparece cuando pides un presupuesto.",
+    "chooseIndustryFirst": "Elige primero tu sector arriba.",
+    "stepLabel": "Paso {{step}}"
+  },
+  "minutes": {
+    "unit": "min",
+    "perMonth": "{{minutes}} min/mes",
+    "none": "Sin teléfono",
+    "max": "{{minutes}}+ min"
+  },
+  "page": {
+    "seo": {
+      "title": "Calculadora de precio: recepcionista IA y widget",
+      "description": "Calcula el precio de una recepcionista con IA y un widget web según tu sector y minutos, mira un panel de ejemplo y pide presupuesto.",
+      "keywords": "precio recepcionista IA, cuánto cuesta recepcionista virtual, precio atención telefónica IA, precio chatbot web, presupuesto recepcionista IA"
+    },
+    "breadcrumb": { "home": "Inicio", "page": "Calculadora de precio" },
+    "hero": {
+      "badge": "Calculadora de precio",
+      "title": "Tu estimación y un ejemplo de tu panel",
+      "subtitle": "Ajusta el sector, los minutos y lo que debe gestionar la IA. El panel de abajo muestra cómo podría ser un mes para tu negocio. Pide presupuesto y verás el precio al momento."
+    },
+    "controls": {
+      "title": "Tus opciones",
+      "industry": "Sector",
+      "phoneMinutes": "Llamadas entrantes al mes",
+      "widgetMinutes": "Widget en la web al mes",
+      "widgetEstimated": "Nuestra estimación según tus llamadas y opciones",
+      "widgetCustom": "Tu propia cifra",
+      "widgetReset": "Usar nuestra estimación",
+      "capabilities": "La IA debe gestionar"
+    },
+    "summary": {
+      "title": "Tu estimación",
+      "calls": "Llamadas entrantes",
+      "callsValue": "unas {{count}} llamadas",
+      "widget": "Widget en la web",
+      "widgetValue": "unas {{count}} conversaciones",
+      "hours": "Tiempo que recuperas",
+      "hoursValue": "{{hours}} horas/mes",
+      "hoursText": "Tiempo que la IA dedica al teléfono y a tu web en lugar de tu equipo.",
+      "package": "Solución recomendada",
+      "packageVoice": "{{plan}} para el teléfono",
+      "packageWidget": "{{packs}} × paquete de widget",
+      "packageNone": "Elige minutos para ver una recomendación",
+      "aboveLargest": "Por encima de 2.000 minutos preparamos un plan a la medida de tu volumen."
+    },
+    "dashboard": {
+      "title": "Así podría ser tu panel",
+      "subtitle": "Un ejemplo de tu resumen con las cifras de tu estimación. Los nombres y las conversaciones son de ejemplo."
+    },
+    "form": {
+      "title": "Pedir presupuesto",
+      "subtitle": "Indica el nombre de la empresa, tu email y tu teléfono. Te mostramos el precio al momento y te enviamos un presupuesto.",
+      "company": "Nombre de la empresa",
+      "email": "Email",
+      "phone": "Teléfono",
+      "trial": "Sí, queremos probarlo gratis durante 7 días",
+      "setupHelp": "Sí, por favor, ayudadnos gratis con la configuración durante esos 7 días",
+      "submit": "Pedir presupuesto",
+      "sending": "Enviando…",
+      "error": "No se ha podido enviar. Inténtalo de nuevo o escribe a mail@aibooking.dk.",
+      "privacy": "Solo usamos tus datos para enviarte el presupuesto. Sin permanencia."
+    },
+    "result": {
+      "title": "¡Gracias, {{company}}! Este es tu precio",
+      "subtitle": "Hemos recibido tu solicitud y te enviaremos el presupuesto a {{email}}.",
+      "monthly": "Al mes",
+      "voiceLine": "{{plan}}, {{minutes}} min de teléfono",
+      "widgetLine": "Widget, {{minutes}} min ({{packs}} × paquete)",
+      "setup": "Configuración y puesta en marcha opcional: {{price}} € en un único pago",
+      "setupFree": "Has pedido ayuda gratuita con la configuración durante la prueba.",
+      "trial": "Has pedido probarlo gratis durante 7 días. Te contactaremos para empezar.",
+      "note": "El precio es orientativo y sin permanencia. Puedes cambiar de plan cuando quieras.",
+      "trialCta": "Empieza ahora tu prueba gratuita"
+    },
+    "explain": {
+      "title": "Cómo calculamos tu estimación",
+      "paragraphs": [
+        "El precio depende de los minutos que la IA usa para tu negocio. El teléfono y el widget de la web se cuentan por separado porque se usan de forma distinta: una llamada suele durar entre dos y tres minutos, mientras que una conversación en el widget suele ser más corta.",
+        "Los minutos de teléfono los eliges tú. El widget lo estimamos a partir de tus llamadas: parte de quienes hoy te llaman preguntarán en tu web. Si la IA también debe atender tu tienda online o la comida a domicilio, sumamos conversaciones, porque los clientes preguntan por productos, stock, pedidos y envíos. Si conoces tu propia cifra, solo tienes que cambiarla.",
+        "Con esos minutos buscamos el plan más pequeño que cubra lo que necesitas. La configuración y la puesta en marcha se pueden contratar como un pago único opcional, y si eliges la prueba gratuita de 7 días, te ayudamos gratis con la configuración durante la prueba.",
+        "La estimación es un punto de partida. En el panel siempre ves tu consumo real en cada canal, y puedes cambiar de plan si usas más o menos de lo previsto."
+      ]
+    }
+  }
+}

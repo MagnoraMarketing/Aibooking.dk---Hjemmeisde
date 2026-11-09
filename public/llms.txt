@@ -14,7 +14,7 @@ Trying the product is free: new customers create a free account (no credit card 
 
 The whole site, including every blog article, exists in five languages, each written for its market rather than translated word for word. Danish URLs have no prefix; the other languages add a prefix to the same path, for example https://www.aibooking.dk/en/funktioner.
 
-- [Dansk](https://www.aibooking.dk/): Danish (primary market, prices in DKK).
+- [Dansk](https://www.aibooking.dk/): Danish (primary market, prices quoted in DKK).
 - [English](https://www.aibooking.dk/en): English (also the default for other countries).
 - [Español](https://www.aibooking.dk/es): Spanish.
 - [Deutsch](https://www.aibooking.dk/de): German.
@@ -22,11 +22,12 @@ The whole site, including every blog article, exists in five languages, each wri
 
 ## Product
 
-- [Home](https://www.aibooking.dk/): Overview of the AI receptionist product, pricing and core value proposition.
+- [Home](https://www.aibooking.dk/): Overview of the AI receptionist product and core value proposition, with a quick price estimate (industry, talk time, what the AI should handle).
 - [Features](https://www.aibooking.dk/funktioner): Full feature list — call handling, calendar integration, reminders, dashboard.
-- [Chat & voice widget](https://www.aibooking.dk/widget): The AI chat and voice widget for websites and webshops (text chat, dictation and real-time voice; bookings; product, stock, shipping, returns and order-status answers on Shopify), including pricing.
+- [Chat & voice widget](https://www.aibooking.dk/widget): The AI chat and voice widget for websites and webshops (text chat, dictation and real-time voice; bookings; product, stock, shipping, returns and order-status answers on Shopify), with a link to the price calculator.
 - [AI-receptionist](https://www.aibooking.dk/ai-receptionist): The AI receptionist product page — AI voice widget on the website, AI phone answering for inbound calls and outbound calls (add-on), combined in one solution with one dashboard.
 - [The app](https://www.aibooking.dk/app): The customer app for phone and computer — calls, bookings, recordings, transcripts and usage in one place, with real screenshots and how to add it to the home screen.
+- [Price calculator](https://www.aibooking.dk/prisberegner): Choose industry, phone talk time, website-widget usage and what the AI should handle (booking, webshop, food delivery) to see an estimate and an example dashboard, then ask for a quote. Prices are not published on the site; the calculated price is shown once a quote has been requested.
 - [Free Trial](https://www.aibooking.dk/proeveperiode): Details of the 7-day free trial, started by creating a free account — no credit card required.
 - [Demo](https://www.aibooking.dk/demo): Book a free, no-commitment demo.
 - [Integrations](https://www.aibooking.dk/integrationer): Supported calendar and communication integrations.
@@ -71,9 +72,9 @@ Every published article, grouped by category, newest first. Links go to the Dani
 
 ### AI Receptionist & Phone
 
+- [Hvad koster en AI-receptionist i Danmark? Priser og regnestykke (2026)](https://www.aibooking.dk/blog/hvad-koster-en-ai-receptionist): An AI receptionist is usually priced as a monthly plan with included talk time. Here is what drives the price, how our plans work, and how to calculate whether it pays off for your business.
 - [AI-telefonpasning uden for åbningstid: aften, weekend og ferie](https://www.aibooking.dk/blog/ai-telefonpasning-uden-for-aabningstid): Customers call when they have time — often after you have closed. How AI phone answering takes evening, weekend and holiday calls, books appointments and leaves everything ready for you the next working day.
 - [AI-telefonpasning til webshop, håndværker, klinik og kontor](https://www.aibooking.dk/blog/ai-telefonpasning-webshop-haandvaerker-klinik-kontor): A webshop, a plumber, a dental clinic and a law firm get completely different calls. How AI phone answering is set up for each of the four — what the AI handles, what stays with you, and an example call from each.
-- [Hvad koster en AI-receptionist i Danmark? Priser og regnestykke (2026)](https://www.aibooking.dk/blog/hvad-koster-en-ai-receptionist): An AI receptionist is usually priced as a monthly plan with included talk time. Here is what drives the price, what our plans cost, and how to calculate whether it pays off for your business.
 - [AI-receptionist vs. traditionel telefonpasning og telefonsvarer](https://www.aibooking.dk/blog/ai-receptionist-vs-telefonpasning): Voicemail, an answering service, a receptionist or an AI? An honest comparison of what each option solves, what it costs and when a human is still the better choice.
 - [Hvornår skal en AI-receptionist viderestille til et menneske?](https://www.aibooking.dk/blog/ai-receptionist-viderestilling-til-menneske): The difference between a good and a bad AI receptionist is often the handover. Seven situations where a person should take over, how to set up the rules, and what the customer should experience.
 - [Den nyeste AI-teknologi i 2026: AI voice agents, realtids-AI og fremtidens AI-receptionist](https://www.aibooking.dk/blog/nyeste-ai-teknologi-2026): Speech-to-speech models, sub-second turn-taking, AI agents that act in your calendar and CRM — and new EU rules. What actually launched, what is still beta, and what it means for a Danish business owner.

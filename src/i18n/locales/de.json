@@ -195,93 +195,7 @@
     }
   },
   "pricing": {
-    "badge": "Transparente Preise",
-    "title": "Wählen Sie Ihr Voice-Paket für ein- und ausgehende Anrufe",
-    "subtitle": "Maßgeschneiderte Pakete für Unternehmen jeder Größe",
-    "most_popular_badge": "Am beliebtesten",
-    "free_label": "Kostenlos",
-    "currency_suffix": "€/Monat",
-    "after_order_note": "Sobald Sie Ihr kostenloses Konto erstellt haben, können Sie direkt im Dashboard einen Einrichtungstermin buchen, sofern Sie diesen zu Ihrer Bestellung hinzugefügt haben.",
-    "setup_recommendation": "Wir empfehlen, die Lösung zuerst 7 Tage kostenlos zu testen – und dann Ihr Paket zu wählen. Einrichtung und Onboarding können als optionale Einmalzahlung hinzugebucht werden, wenn Sie dabei Unterstützung wünschen.",
-    "cta_signup": "Kostenloses Konto erstellen",
-    "cta_demo": "Kostenlos testen",
-    "no_card_required": "Keine Kreditkarte oder Zahlungsdaten erforderlich",
-    "cta_order": "Paket bestellen",
-    "plans": [
-      {
-        "name": "Demo",
-        "description": "7 Tage kostenlos testen – sehen Sie, wie viel Zeit Sie für andere Aufgaben und mehr Kunden gewinnen",
-        "minutes": "7 Tage kostenlos · 10 Minuten kostenlose Gesprächszeit",
-        "features": [
-          "Eingehend – die KI nimmt Ihre Anrufe an",
-          "Sprach-Widget – die KI beantwortet allgemeine Fragen auf Ihrer Website",
-          "Buchung – direkt in den Kalender",
-          "Onlineshop – Shopify-Integration",
-          "Grundlegende Stimmanpassung",
-          "Analyse-Dashboard",
-          "Sie hinterlegen Ihre bisherige Geschäftsnummer für die Testphase, damit die KI echte Anrufe annehmen kann",
-          "Upgrade auf das Starter-Paket möglich"
-        ]
-      },
-      {
-        "name": "Starter",
-        "description": "Ideal für kleine Unternehmen, die mit KI starten",
-        "minutes": "150 Minuten",
-        "features": [
-          "150 KI-Gesprächsminuten",
-          "Grundlegende Stimmanpassung",
-          "Standard-Support",
-          "Analyse-Dashboard",
-          "E-Mail-Benachrichtigungen"
-        ]
-      },
-      {
-        "name": "Professional",
-        "description": "Ideal für wachsende Unternehmen mit regelmäßigem Anrufvolumen",
-        "minutes": "600 Minuten",
-        "features": [
-          "600 KI-Gesprächsminuten",
-          "Erweiterte Stimmanpassung",
-          "Priorisierter Support",
-          "Aufzeichnungen und Transkripte",
-          "Shopify- und Lieferintegrationen",
-          "Buchung in Google, Outlook oder Cal.com",
-          "Kundenhistorie"
-        ]
-      },
-      {
-        "name": "Enterprise",
-        "description": "Für Organisationen, die maximale Flexibilität brauchen",
-        "minutes": "2000 Minuten",
-        "features": [
-          "2000 KI-Gesprächsminuten",
-          "Volle Stimmanpassung",
-          "Dedizierter Support rund um die Uhr",
-          "Individuelles KI-Training",
-          "API-Zugang",
-          "Persönlicher Success Manager",
-          "Unbegrenzte Integrationen",
-          "Unterstützung bei der DSGVO-Konformität"
-        ]
-      }
-    ],
-    "additionalPrices": {
-      "title": "Weitere Preise",
-      "toggle_label": "Weitere Preise anzeigen",
-      "setup": {
-        "title": "Einrichtung & Onboarding",
-        "value": "Optionale Zusatzleistung beim Kauf – eine Einmalzahlung von {{setupMin}} € bis {{setupMax}} €, entsprechend dem Preis Ihres Pakets, inkl. 1 Stunde Nachbetreuung",
-        "note": "(nur einmalig, nicht im Abonnement enthalten)"
-      },
-      "hourly": {
-        "title": "Stundensatz für Einzelaufgaben",
-        "prompting_label": "Prompting/Training",
-        "prompting_price": "93 €/Stunde",
-        "development_label": "Entwicklung",
-        "development_price": "147 €/Stunde"
-      }
-    },
-    "setup_included_note": "Einrichtung und Onboarding können für {{setup}} € als Einmalzahlung hinzugebucht werden (gleicher Preis wie das Paket), inkl. 1 Stunde Nachbetreuung"
+    "currency_suffix": "€/Monat"
   },
   "cta_section": {
     "title": "Bereit für den Start?",
@@ -384,60 +298,6 @@
     "card_conversation_value": "KI hat alles erledigt",
     "summary_label": "Zusammenfassung",
     "summary_text": "Fenley hat nach Parkmöglichkeiten bei der Praxis gefragt. Wir haben alle relevanten Informationen gegeben, damit der Besuch reibungslos verläuft."
-  },
-  "widgetPricing": {
-    "badge": "Einfache Integration auf Ihrer Website",
-    "title": "AIBooking Voice-KI-Widget",
-    "subtitle": "Ein Voicebot, mit dem Ihre Kunden direkt auf Ihrer Website sprechen – beantwortet Fragen und übernimmt Buchungen automatisch",
-    "plan_badge": "Die flexibelste Lösung",
-    "price_period": "€/Monat",
-    "price_note1": "Inklusive 150 Minuten Gesprächszeit (ca. 0,89 €/Minute)",
-    "price_note2": "Das Paket verlängert sich automatisch, sobald die 150 Minuten verbraucht sind",
-    "features": [
-      {
-        "bold": "Voice-KI-Bot",
-        "rest": " – Kunden sprechen direkt mit der KI"
-      },
-      {
-        "bold": "",
-        "rest": "Beantwortet Fragen und übernimmt Buchungen"
-      },
-      {
-        "bold": "",
-        "rest": "Buchungen landen direkt in Ihrem Kalender"
-      },
-      {
-        "bold": "",
-        "rest": "Rund um die Uhr auf Ihrer Website verfügbar"
-      },
-      {
-        "bold": "",
-        "rest": "150 Minuten Gesprächszeit inklusive"
-      },
-      {
-        "bold": "Zahlen Sie nur für aktive Gesprächszeit",
-        "rest": " – keine Stundengebühr"
-      },
-      {
-        "bold": "24/7 und 365 Tage im Jahr geöffnet",
-        "rest": " – immer bereit"
-      },
-      {
-        "bold": "",
-        "rest": "Betreut Kunden, auch wenn Sie beschäftigt sind"
-      }
-    ],
-    "cta": "KI-Widget in Aktion sehen",
-    "demo_widget_label": "KI-Buchungsassistent",
-    "demo_widget_status": "Jetzt online",
-    "demo_ai_label": "🎤 KI-Stimme:",
-    "demo_msg1": "Hallo! Sie können direkt mit mir sprechen. Wobei kann ich helfen?",
-    "demo_customer_label": "🗣️ Kunde:",
-    "demo_msg2": "„Ich möchte gern einen Termin am Freitag buchen“",
-    "demo_msg3": "Sehr gern! Das sind die freien Zeiten am Freitag …",
-    "demo_footer": "Voice-KI-Widget – Kunden sprechen direkt auf Ihrer Website",
-    "perfect_for_label": "Ideal für:",
-    "perfect_for_text": "Praxen, Handwerker, Berater, Salons, Büros und alle anderen Unternehmen, die Buchungen direkt auf ihrer Website entgegennehmen."
   },
   "industryTools": {
     "scenario": {
@@ -557,32 +417,6 @@
           "Keine Unterbrechung am Stuhl"
         ]
       }
-    },
-    "calculator": {
-      "badge": "Berechnen Sie Ihren Preis",
-      "title": "Was kostet es – und wie viel Zeit gewinnen Sie zurück?",
-      "subtitle": "Wählen Sie die Lösung, die Sie interessiert, stellen Sie Ihre erwartete Gesprächszeit ein und sehen Sie sofort den Preis.",
-      "modeLabel": "Für welche Lösung möchten Sie einen Preis?",
-      "modeVoice": "Ein- und ausgehende Anrufe",
-      "modeVoiceDesc": "Der KI-Telefonassistent nimmt Anrufe an und ruft selbst mit Erinnerungen und Nachfassanrufen an.",
-      "modeWidget": "Sprach-Widget auf Ihrer Website",
-      "modeWidgetDesc": "Besucher sprechen oder schreiben direkt mit der KI auf Ihrer Seite und buchen selbst.",
-      "widgetPlanName": "Sprach-Widget",
-      "minutesLabel": "Erwartete Gesprächszeit pro Monat",
-      "minutesUnit": "Min.",
-      "recommendedLabel": "Empfohlenes Paket",
-      "includedMinutes": "{{minutes}} Minuten inklusive",
-      "setupLabel": "Einrichtung und Onboarding können als optionale Einmalzahlung hinzugebucht werden.",
-      "setupNote": "Optionale Zusatzleistung: {{price}} einmalig – gleicher Preis wie das Paket, inkl. 1 Stunde Nachbetreuung.",
-      "setupLine": "Optionale Einrichtung und Onboarding verfügbar",
-      "aboveLargest": "Brauchen Sie mehr als 2.000 Minuten im Monat? Wir stellen Ihnen ein Paket zusammen – fragen Sie ein Angebot an.",
-      "timeFreedValue": "Etwa {{hours}} Stunden Telefonzeit zurück",
-      "timeFreedText": "Zeit, die Sie stattdessen in Ihr Unternehmen stecken können. Buchungen, Umbuchungen und Fragen werden ohne Sie erledigt.",
-      "alwaysOnTitle": "24/7 und 365 Tage im Jahr geöffnet",
-      "alwaysOnText": "Der Agent nimmt immer ab – abends, am Wochenende und an Feiertagen. Sie verlieren keine Kunden mehr, weil niemand rangehen konnte.",
-      "recommendation": "Wir empfehlen, die Lösung zuerst 7 Tage kostenlos zu testen. Danach wählen Sie Ihr Paket und erhalten Einrichtung und Onboarding komplett kostenlos dazu.",
-      "cta": "7 Tage kostenlos testen",
-      "note": "Die Preise sind Richtwerte und unverbindlich. Sie können das Paket jederzeit wechseln."
     },
     "trial": {
       "badge": "7 Tage kostenlos",

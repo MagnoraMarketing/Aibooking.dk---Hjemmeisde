@@ -45,7 +45,7 @@ export default {
         <tr><td>Svarer den kun ud fra min information?</td><td>Den må ikke opfinde priser eller løfter.</td></tr>
         <tr><td>Hvor behandles data, og er der databehandleraftale?</td><td>GDPR og AI-forordningen. Se <a href="/blog/ai-widget-gdpr-danske-virksomheder">guiden</a>.</td></tr>
         <tr><td>Hvordan påvirker den sidens hastighed?</td><td>Den skal indlæses asynkront.</td></tr>
-        <tr><td>Hvad koster den, og er der binding?</td><td>Hos os 999 kr./md. inkl. 150 minutters tale, og 7 dage gratis.</td></tr>
+        <tr><td>Hvad koster den, og er der binding?</td><td>Hos os afhænger prisen af taletiden – se den i <a href="/prisberegner">prisberegneren</a>. Ingen binding, og 7 dage gratis.</td></tr>
       </tbody></table></div>
       <p>Vil du se flere måder at bruge AI på hjemmesiden, så læs <a href="/blog/ai-til-hjemmeside">AI til hjemmeside: 7 måder</a>. Se produktet på <a href="/widget">AI widget</a>.</p>
     `,

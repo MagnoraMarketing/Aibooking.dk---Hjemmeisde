@@ -195,93 +195,7 @@
     }
   },
   "pricing": {
-    "badge": "Tarification Transparente",
-    "title": "Choisissez votre forfait",
-    "subtitle": "Des forfaits sur mesure conçus pour des entreprises de toutes tailles",
-    "most_popular_badge": "Le Plus Populaire",
-    "free_label": "Gratuit",
-    "currency_suffix": "€/mois",
-    "after_order_note": "Une fois votre compte gratuit créé, vous pouvez réserver un créneau pour la configuration directement depuis votre tableau de bord, si vous l'avez ajoutée à votre commande.",
-    "setup_recommendation": "Nous vous conseillons d'essayer la solution gratuitement pendant 7 jours d'abord — vous choisirez ensuite votre formule. La configuration et l'onboarding peuvent être ajoutés en option, moyennant un paiement unique, si vous souhaitez de l'aide.",
-    "cta_signup": "Créer un compte gratuit",
-    "cta_demo": "Essayer gratuitement",
-    "no_card_required": "Aucune carte bancaire ni information de paiement requise",
-    "cta_order": "Commander la formule",
-    "plans": [
-      {
-        "name": "Demo",
-        "description": "Essayez gratuitement pendant 7 jours – découvrez le temps que vous libérez pour d'autres tâches et plus de clients",
-        "minutes": "Essai gratuit de 7 jours · 10 minutes de communication offertes",
-        "features": [
-          "Entrant – l'IA répond à vos appels",
-          "Widget vocal – l'IA répond aux questions générales sur votre site",
-          "Réservation – directement dans le calendrier",
-          "Boutique en ligne – intégration Shopify",
-          "Personnalisation vocale de base",
-          "Dashboard d'analyse",
-          "Vous mettez le numéro de téléphone actuel de votre entreprise à disposition pendant la période d'essai, afin que l'IA puisse répondre à de vrais appels",
-          "Possibilité de passer au forfait Starter"
-        ]
-      },
-      {
-        "name": "Starter",
-        "description": "Parfait pour les petites entreprises qui démarrent avec l'IA",
-        "minutes": "150 minutes",
-        "features": [
-          "150 minutes d'appels IA",
-          "Personnalisation vocale de base",
-          "Support standard",
-          "Dashboard d'analyse",
-          "Notifications par e-mail"
-        ]
-      },
-      {
-        "name": "Professional",
-        "description": "Idéal pour les entreprises en croissance avec un volume d'appels régulier",
-        "minutes": "600 minutes",
-        "features": [
-          "600 minutes d'appels IA",
-          "Personnalisation vocale avancée",
-          "Support prioritaire",
-          "Enregistrements et transcriptions",
-          "Intégrations Shopify et livraison",
-          "Réservation dans Google, Outlook ou Cal.com",
-          "Historique client"
-        ]
-      },
-      {
-        "name": "Enterprise",
-        "description": "Pour les organisations qui ont besoin d'une flexibilité maximale",
-        "minutes": "2000 minutes",
-        "features": [
-          "2000 minutes d'appels IA",
-          "Personnalisation vocale complète",
-          "Support dédié 24/7",
-          "Entraînement IA personnalisé",
-          "Accès API",
-          "Gestionnaire de succès dédié",
-          "Intégrations illimitées",
-          "Support de conformité RGPD"
-        ]
-      }
-    ],
-    "additionalPrices": {
-      "title": "Autres tarifs",
-      "toggle_label": "Voir les autres tarifs",
-      "setup": {
-        "title": "Configuration & onboarding",
-        "value": "Option au moment du paiement — un paiement unique de {{setupMin}} € à {{setupMax}} €, identique au prix de la formule choisie, incl. 1 heure de support de suivi",
-        "note": "(paiement unique, non inclus dans l'abonnement)"
-      },
-      "hourly": {
-        "title": "Tarif horaire pour les tâches ponctuelles",
-        "prompting_label": "Prompting/entraînement",
-        "prompting_price": "93 €/heure",
-        "development_label": "Développement",
-        "development_price": "147 €/heure"
-      }
-    },
-    "setup_included_note": "La configuration et l'onboarding peuvent être ajoutés pour {{setup}} € en paiement unique (même prix que la formule), incl. 1 heure de support de suivi"
+    "currency_suffix": "€/mois"
   },
   "cta_section": {
     "title": "Prêt à démarrer ?",
@@ -384,60 +298,6 @@
     "card_conversation_value": "L'IA A Tout Géré",
     "summary_label": "Résumé",
     "summary_text": "Fenley a demandé des informations sur le stationnement à la clinique. Nous avons fourni tous les détails nécessaires pour garantir une visite sans encombre."
-  },
-  "widgetPricing": {
-    "badge": "Intégration Facile Sur Votre Site Web",
-    "title": "Widget vocal IA d'AIBooking",
-    "subtitle": "Un voicebot avec lequel vos clients peuvent parler directement sur votre site web - répond aux questions et gère les réservations automatiquement",
-    "plan_badge": "Solution La Plus Flexible",
-    "price_period": "€/mois",
-    "price_note1": "Inclut 150 minutes de temps de parole (environ 0,89 €/minute)",
-    "price_note2": "Le forfait se renouvelle automatiquement une fois les 150 minutes utilisées",
-    "features": [
-      {
-        "bold": "Bot vocal IA",
-        "rest": " - les clients parlent directement avec l'IA"
-      },
-      {
-        "bold": "",
-        "rest": "Répond aux questions et gère les réservations"
-      },
-      {
-        "bold": "",
-        "rest": "Les réservations vont directement dans votre calendrier"
-      },
-      {
-        "bold": "",
-        "rest": "Disponible 24h/24 et 7j/7 sur votre site web"
-      },
-      {
-        "bold": "",
-        "rest": "150 minutes de temps de parole incluses"
-      },
-      {
-        "bold": "Payez uniquement le temps de parole actif",
-        "rest": " - pas de tarif horaire"
-      },
-      {
-        "bold": "Ouvert 24h/24, 365 jours par an",
-        "rest": " - toujours prêt"
-      },
-      {
-        "bold": "",
-        "rest": "Prend en charge les clients même lorsque vous êtes occupé"
-      }
-    ],
-    "cta": "Voir le Widget IA en action",
-    "demo_widget_label": "Assistant de réservation IA",
-    "demo_widget_status": "En ligne",
-    "demo_ai_label": "🎤 IA Vocale :",
-    "demo_msg1": "Bonjour ! Vous pouvez me parler directement. Comment puis-je vous aider ?",
-    "demo_customer_label": "🗣️ Client :",
-    "demo_msg2": "\"Je voudrais prendre rendez-vous vendredi\"",
-    "demo_msg3": "Parfait ! Voici les créneaux disponibles vendredi...",
-    "demo_footer": "Widget vocal IA - les clients parlent directement sur votre site",
-    "perfect_for_label": "Idéal pour :",
-    "perfect_for_text": "Cliniques, artisans, consultants, salons, bureaux et toute autre entreprise qui prend des réservations directement sur son site web."
   },
   "industryTools": {
     "scenario": {
@@ -621,32 +481,6 @@
           "Aucune interruption au fauteuil"
         ]
       }
-    },
-    "calculator": {
-      "badge": "Calculez votre tarif",
-      "title": "Combien ça coûte — et combien de temps récupérez-vous ?",
-      "subtitle": "Choisissez la solution qui vous intéresse, indiquez votre temps de parole prévu, et voyez le tarif immédiatement.",
-      "modeLabel": "Quelle solution souhaitez-vous chiffrer ?",
-      "modeVoice": "Appels entrants et sortants",
-      "modeVoiceDesc": "L'assistant téléphonique IA répond aux appels et passe lui-même ses rappels et relances.",
-      "modeWidget": "Widget vocal sur votre site",
-      "modeWidgetDesc": "Les visiteurs parlent ou écrivent directement avec l'IA sur votre site et réservent eux-mêmes.",
-      "widgetPlanName": "Voice Widget",
-      "minutesLabel": "Temps de parole prévu par mois",
-      "minutesUnit": "min",
-      "recommendedLabel": "Formule recommandée",
-      "includedMinutes": "{{minutes}} minutes incluses",
-      "setupLabel": "La configuration et l'onboarding peuvent être ajoutés en option, moyennant un paiement unique.",
-      "setupNote": "Option : {{price}} en paiement unique — même prix que le forfait, incl. 1 heure de support de suivi.",
-      "setupLine": "Configuration et onboarding en option disponibles",
-      "aboveLargest": "Besoin de plus de 2 000 minutes par mois ? Nous vous composons une formule — contactez-nous pour un devis.",
-      "timeFreedValue": "Environ {{hours}} heures de téléphone récupérées",
-      "timeFreedText": "Du temps que vous pouvez consacrer à faire tourner l'entreprise. Réservations, reports et questions sont traités sans vous.",
-      "alwaysOnTitle": "Ouvert 24h/24, 365 jours par an",
-      "alwaysOnText": "L'agent répond toujours — soirs, week-ends et jours fériés. Vous ne perdez plus de clients faute de décrocher.",
-      "recommendation": "Nous vous conseillons d'essayer la solution gratuitement pendant 7 jours d'abord. Vous choisirez ensuite votre formule, avec la configuration et l'onboarding inclus, entièrement gratuits.",
-      "cta": "Essayer 7 jours gratuitement",
-      "note": "Les tarifs sont indicatifs et sans engagement. Vous pouvez changer de formule en cours de route."
     },
     "trial": {
       "badge": "7 jours gratuits",

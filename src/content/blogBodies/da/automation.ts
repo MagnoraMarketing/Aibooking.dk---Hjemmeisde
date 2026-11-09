@@ -55,7 +55,7 @@ export default {
       <div class="blog-callout"><strong>Formel:</strong> udeblivelser pr. måned × andel der fanges af påmindelser og genbookes × værdi af en tid</div>
       <p>Kun relevant, hvis du har aftaler i kalenderen. Læs mere i <a href="/blog/outbound-ai-opkald-paamindelser">automatiske påmindelsesopkald</a>.</p>
       <h2>Post 4: Omkostningen</h2>
-      <p>Abonnement pr. måned, evt. ekstra minutter, og opsætning fordelt over fx 12 måneder. Hos Aibooking.dk er det 999 kr., 2.499 kr. eller 5.999 kr. om måneden afhængigt af taletid; opsætning er valgfri. Se <a href="/blog/hvad-koster-en-ai-receptionist">hvad en AI-receptionist koster</a>.</p>
+      <p>Abonnement pr. måned, evt. ekstra minutter, og opsætning fordelt over fx 12 måneder. Hos Aibooking.dk afhænger prisen af taletiden, og du kan se jeres i <a href="/prisberegner">prisberegneren</a>; opsætning er valgfri. Se <a href="/blog/hvad-koster-en-ai-receptionist">hvad en AI-receptionist koster</a>.</p>
       ${CTA_TRIAL_DA}
       <h2>Et regneeksempel (tænkte tal)</h2>
       <p>En fysioterapiklinik med tre behandlere:</p>
@@ -63,10 +63,9 @@ export default {
         <tr><td>Tid frigjort</td><td>4 timer/uge × 300 kr./time × 4,3</td><td>5.160 kr.</td></tr>
         <tr><td>Tabte opkald</td><td>20 opkald × 25 % × 400 kr. dækningsbidrag</td><td>2.000 kr.</td></tr>
         <tr><td>Udeblivelser</td><td>8 udeblivelser × 40 % genbooket × 500 kr.</td><td>1.600 kr.</td></tr>
-        <tr><td>Omkostning</td><td>Professional</td><td>−2.499 kr.</td></tr>
-        <tr><td><strong>Netto</strong></td><td></td><td><strong>6.261 kr.</strong></td></tr>
+        <tr><td><strong>Værdi i alt</strong></td><td></td><td><strong>8.760 kr.</strong></td></tr>
       </tbody></table></div>
-      <p>Tallene er illustrative — de er ikke målt hos en bestemt kunde. Pointen er metoden: udskift hver antagelse med dit eget tal.</p>
+      <p>Træk jeres månedspris fra – den finder du i <a href="/prisberegner">prisberegneren</a> ud fra jeres egen taletid. Tallene er illustrative — de er ikke målt hos en bestemt kunde. Pointen er metoden: udskift hver antagelse med dit eget tal.</p>
       <h2>Det, regnestykket ikke fanger</h2>
       <ul>
         <li><strong>Fokus:</strong> færre afbrydelser giver bedre arbejde, men er svært at sætte tal på.</li>
@@ -207,7 +206,7 @@ export default {
       </ol>
       <p>Se de konkrete trin i <a href="/blog/kom-i-gang-ai-automatisering-trin-for-trin">kom i gang i 7 trin</a>.</p>
       <h2>Hvad koster en AI medarbejder?</h2>
-      <p>Hos Aibooking.dk fra 999 kr. om måneden for 150 minutters taletid. Den holder ikke ferie og kan tage mange opkald på én gang, men den erstatter ikke en dygtig medarbejders skøn. Se <a href="/blog/hvad-koster-en-ai-receptionist">priser og regnestykke</a> og <a href="/blog/ai-receptionist-vs-telefonpasning">sammenligningen med menneskelig telefonpasning</a>.</p>
+      <p>Hos Aibooking.dk betaler du for taletid, og prisen ser du i <a href="/prisberegner">prisberegneren</a>. AI'en holder ikke ferie og kan tage mange opkald på én gang, men den erstatter ikke en dygtig medarbejders skøn. Se <a href="/blog/hvad-koster-en-ai-receptionist">priser og regnestykke</a> og <a href="/blog/ai-receptionist-vs-telefonpasning">sammenligningen med menneskelig telefonpasning</a>.</p>
     `,
   'ai-i-danmark': `
       <p>Danske virksomheder er blandt de hurtigste i Europa til at tage AI i brug. Ifølge Eurostat brugte omkring 42 % af danske virksomheder med mindst 10 ansatte AI i 2025 — den højeste andel i EU, hvor gennemsnittet var omkring 20 %. Men "bruger AI" dækker over alt fra en medarbejder, der skriver mails med en chatbot, til fuldt automatiserede processer.</p>

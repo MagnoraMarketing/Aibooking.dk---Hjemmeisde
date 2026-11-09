@@ -14,7 +14,7 @@
     "title_line2": "per Sprache buchen",
     "subtitle": "Das Chat- und Voice-Widget von Aibooking.dk wird direkt in Ihre Website eingebunden und übernimmt Buchungen, Fragen und Kundenanfragen automatisch – per Sprache und Text, 24 Stunden am Tag, 365 Tage im Jahr.",
     "cta_demo": "Kostenlose Demo testen",
-    "cta_buy": "Jetzt bestellen – 134 €/Monat",
+    "cta_buy": "Jetzt bestellen",
     "cta_demo_connecting": "Verbindung wird hergestellt …",
     "cta_demo_end": "Anruf beenden",
     "cta_demo_error": "Verbindung fehlgeschlagen – prüfen Sie, ob der Mikrofonzugriff erlaubt ist, und versuchen Sie es erneut.",
@@ -39,8 +39,8 @@
       "label": "Gesprächszeit inklusive"
     },
     {
-      "value": "134 €",
-      "label": "Pro Monat"
+      "value": "150 Min.",
+      "label": "Gesprächszeit im ersten Paket"
     }
   ],
   "whatIs": {
@@ -151,9 +151,9 @@
     ],
     "roi": {
       "title": "Typischer ROI eines KI-Sprach-Widgets",
-      "desc_pre": "Eine Teilzeit-Rezeptionskraft kostet typischerweise 2.000–2.700 € im Monat. Mit dem KI-Sprach-Widget für 134 €/Monat erhalten Sie ",
+      "desc_pre": "Eine Teilzeit-Rezeptionskraft kostet typischerweise 2.000–2.700 € im Monat. Mit dem KI-Sprach-Widget erhalten Sie ",
       "desc_strong": "dieselbe Funktion",
-      "desc_post": " – aber 24 Stunden am Tag, 7 Tage die Woche.",
+      "desc_post": " zu einem Bruchteil der Kosten – und 24 Stunden am Tag, 7 Tage die Woche.",
       "stats": [
         {
           "value": "95%",
@@ -285,125 +285,11 @@
     }
   },
   "pricing": {
-    "badge": "Transparente Preise",
-    "title": "Einfache, transparente Preise",
-    "subtitle": "Wählen Sie die Lösung, die zu Ihrem Unternehmen passt – Sie zahlen nur, was Sie nutzen, ohne versteckte Gebühren",
-    "widgetPlan": {
-      "heading": "KI-Sprach-Widget",
-      "badge": "Empfohlener Einstieg",
-      "description": "Der schnellste und günstigste Weg, Ihre Terminbuchung zu automatisieren. Das Widget sitzt auf Ihrer Website, und Kunden sprechen oder schreiben direkt mit Ihrem KI-Assistenten – rund um die Uhr, ohne menschliches Zutun.",
-      "price_suffix": "€/Monat",
-      "includes": "Inklusive 150 Minuten Gesprächszeit (ca. 0,89 €/Minute)",
-      "renewal_note": "Das Paket verlängert sich automatisch, sobald die 150 Minuten verbraucht sind",
-      "cta_order": "Jetzt bestellen",
-      "cta_intro": "Kostenloses Erstgespräch buchen",
-      "features": [
-        "Voice-KI-Bot – Kunden sprechen direkt mit der KI",
-        "Beantwortet Fragen und übernimmt Buchungen",
-        "Buchungen landen direkt in Ihrem Kalender",
-        "Rund um die Uhr auf Ihrer Website verfügbar",
-        "150 Minuten Gesprächszeit inklusive",
-        "Zahlen Sie nur für aktive Gesprächszeit – keine Stundenlöhne",
-        "24/7 und 365 Tage im Jahr geöffnet – immer bereit",
-        "Betreut Kunden, auch wenn Sie beschäftigt sind"
-      ],
-      "footnote_talketime_label": "Gesprächszeit:",
-      "footnote_talketime_value": "Gekauftes Guthaben ist 3 Monate gültig",
-      "footnote_renewal_label": "Verlängerung:",
-      "footnote_renewal_value": "Automatisch, sobald 150 Min. verbraucht sind",
-      "footnote_binding_label": "Bindung:",
-      "footnote_binding_value": "Keine – jederzeit kündbar"
-    },
     "phoneAssistant": {
       "heading": "KI-Telefonassistent",
       "badge": "Ausgehende & eingehende Anrufe",
       "description": "Sie brauchen einen KI-Assistenten, der auch selbst anruft oder Telefonate direkt annimmt? Wählen Sie eines unserer skalierbaren Pakete – von der kostenlosen Demo bis Enterprise."
-    },
-    "choosePackage": {
-      "title": "Wählen Sie Ihr Paket",
-      "subtitle": "Maßgeschneiderte Pakete für Unternehmen jeder Größe"
-    },
-    "free_label": "Kostenlos",
-    "most_popular_badge": "Am beliebtesten",
-    "plans": [
-      {
-        "name": "Demo",
-        "description": "7 Tage kostenlos testen mit echtem Gesprächsguthaben – sehen Sie, wie viel Zeit Sie für andere Aufgaben und mehr Kunden gewinnen",
-        "minutes": "7 Tage kostenlos · 10 Minuten kostenlose Gesprächszeit",
-        "features": [
-          "Gratisguthaben für KI-Anrufe während der Testphase",
-          "Grundlegende Stimmanpassung",
-          "Analyse-Dashboard",
-          "Sie hinterlegen Ihre bisherige Geschäftsnummer für die Testphase, damit die KI echte Anrufe annehmen kann",
-          "Upgrade auf das Starter-Paket möglich"
-        ],
-        "cta": "Kostenlos testen"
-      },
-      {
-        "name": "Starter",
-        "description": "Ideal für kleinere Unternehmen, die mit KI starten",
-        "minutes": "150 Minuten",
-        "features": [
-          "150 KI-Gesprächsminuten",
-          "Grundlegende Stimmanpassung",
-          "Standard-Support",
-          "Analyse-Dashboard",
-          "E-Mail-Benachrichtigungen"
-        ],
-        "cta": "Paket bestellen"
-      },
-      {
-        "name": "Professional",
-        "description": "Ideal für wachsende Unternehmen mit regelmäßigem Anrufvolumen",
-        "minutes": "600 Minuten",
-        "features": [
-          "600 KI-Gesprächsminuten",
-          "Erweiterte Stimmanpassung",
-          "Priorisierter Support",
-          "Aufzeichnungen und Transkripte",
-          "Shopify- und Lieferintegrationen",
-          "Buchung in Google, Outlook oder Cal.com",
-          "Kundenhistorie"
-        ],
-        "cta": "Paket bestellen"
-      },
-      {
-        "name": "Enterprise",
-        "description": "Für Organisationen, die maximale Flexibilität brauchen",
-        "minutes": "2000 Minuten",
-        "features": [
-          "2000 KI-Gesprächsminuten",
-          "Volle Stimmanpassung",
-          "Dedizierter Support rund um die Uhr",
-          "Individuelles KI-Training",
-          "API-Zugang",
-          "Persönlicher Success Manager",
-          "Unbegrenzte Integrationen",
-          "Unterstützung bei der DSGVO-Konformität"
-        ],
-        "cta": "Paket bestellen"
-      }
-    ],
-    "after_order_note": "Nach der Bestellung erhalten Sie einen Kalenderlink, über den Sie einen Einrichtungstermin buchen können, sofern Sie diesen zu Ihrer Bestellung hinzugefügt haben.",
-    "setup_recommendation": "Wir empfehlen, die Lösung zuerst 7 Tage kostenlos zu testen – und dann Ihr Paket zu wählen. Einrichtung und Onboarding können als optionale Einmalzahlung hinzugebucht werden, wenn Sie dabei Unterstützung wünschen.",
-    "additionalPrices": {
-      "title": "Weitere Preise",
-      "toggle_label": "Weitere Preise anzeigen",
-      "setup": {
-        "title": "Einrichtung & Onboarding",
-        "value": "Optionale Zusatzleistung beim Kauf – eine Einmalzahlung von {{setupMin}} € bis {{setupMax}} €, entsprechend dem Preis Ihres Pakets, inkl. 1 Stunde Nachbetreuung",
-        "note": "(nur einmalig, nicht im Abonnement enthalten)"
-      },
-      "hourly": {
-        "title": "Stundensatz für Einzelaufgaben",
-        "prompting_label": "Prompting/Training",
-        "prompting_price": "93 € pro Stunde",
-        "development_label": "Entwicklung",
-        "development_price": "147 € pro Stunde"
-      }
-    },
-    "currency_suffix": "€/Monat",
-    "setup_included_note": "Einrichtung und Onboarding können für {{setup}} € als Einmalzahlung hinzugebucht werden (gleicher Preis wie das Paket), inkl. 1 Stunde Nachbetreuung"
+    }
   },
   "shopifyIntegration": {
     "badge": "Shopify-Integration",
@@ -512,7 +398,7 @@
     },
     {
       "question": "Was kostet das KI-Widget?",
-      "answer": "Das Starter-Paket kostet 134 €/Monat und enthält 150 Minuten Gesprächszeit. Sie zahlen nur für aktive Gesprächszeit – keine Stundenlöhne, keine Bindung. Das Paket verlängert sich automatisch, sobald die 150 Minuten verbraucht sind."
+      "answer": "Der Preis hängt davon ab, wie viel Gesprächszeit das Widget nutzt. Sie zahlen nur für aktive Gesprächszeit – keine Stundenlöhne, keine Bindung – und das Paket verlängert sich automatisch, sobald die Gesprächszeit verbraucht ist. Im Preisrechner sehen Sie Ihren Preis anhand Ihrer Branche und der erwarteten Gesprächszeit."
     },
     {
       "question": "Welche Sprachen unterstützt das Widget?",
@@ -527,6 +413,6 @@
     "title": "Bereit, Ihre Terminbuchung zu automatisieren?",
     "subtitle": "In weniger als 5 Minuten startklar. Buchen Sie ein kostenloses Erstgespräch und sehen Sie, wie das KI-Sprach-Widget Ihren Kundenservice verändern kann.",
     "cta_intro": "Kostenloses Erstgespräch buchen",
-    "cta_order": "Direkt bestellen – 134 €/Monat"
+    "cta_order": "Direkt bestellen"
   }
 }

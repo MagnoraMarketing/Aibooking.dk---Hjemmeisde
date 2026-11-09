@@ -1,0 +1,112 @@
+{
+  "industries": {
+    "salon": "Coiffure et beauté",
+    "healthcare": "Cabinets et santé",
+    "craftsman": "Artisans et dépannage",
+    "office": "Cabinets de conseil",
+    "ecommerce": "Boutique en ligne",
+    "restaurant": "Restaurants et vente à emporter"
+  },
+  "capabilities": {
+    "booking": { "title": "Rendez-vous", "desc": "Trouve des créneaux libres et prend, déplace ou annule les rendez-vous dans votre agenda." },
+    "webshop": { "title": "Boutique en ligne", "desc": "Répond aux questions sur les produits, le stock et le suivi des commandes." },
+    "delivery": { "title": "Livraison de repas", "desc": "Prend les commandes et réserve un coursier pour la livraison." }
+  },
+  "starter": {
+    "badge": "Calculez votre prix",
+    "title": "Combien cela vous coûterait-il ?",
+    "subtitle": "Choisissez votre secteur, le temps passé au téléphone et ce que l'IA doit prendre en charge. Nous vous montrons votre estimation et un exemple de votre tableau de bord.",
+    "industryTitle": "Dans quel secteur êtes-vous ?",
+    "industryFixed": "Secteur : {{industry}}",
+    "minutesTitle": "Combien de minutes représentent vos appels entrants ?",
+    "minutesHint": "Un appel dure en général 2 à 3 minutes : 150 minutes correspondent donc à environ 60 appels par mois.",
+    "capabilitiesTitle": "Que doit gérer l'IA ?",
+    "capabilitiesHint": "Cochez tout ce qui s'applique. Vous pourrez toujours le modifier.",
+    "cta": "Voir le prix",
+    "ctaNote": "Sans engagement. Le prix s'affiche une fois votre devis demandé.",
+    "chooseIndustryFirst": "Choisissez d'abord votre secteur ci-dessus.",
+    "stepLabel": "Étape {{step}}"
+  },
+  "minutes": {
+    "unit": "min",
+    "perMonth": "{{minutes}} min/mois",
+    "none": "Pas de téléphone",
+    "max": "{{minutes}}+ min"
+  },
+  "page": {
+    "seo": {
+      "title": "Simulateur de prix : standard IA et widget",
+      "description": "Calculez le prix d'un standard téléphonique IA et d'un widget web selon votre secteur et vos minutes, voyez un tableau de bord type et demandez un devis.",
+      "keywords": "prix standard téléphonique IA, tarif réceptionniste IA, prix accueil téléphonique IA, prix widget chat site web, devis standard IA"
+    },
+    "breadcrumb": { "home": "Accueil", "page": "Simulateur de prix" },
+    "hero": {
+      "badge": "Simulateur de prix",
+      "title": "Votre estimation et un exemple de votre tableau de bord",
+      "subtitle": "Ajustez le secteur, les minutes et ce que l'IA doit gérer. Le tableau de bord ci-dessous montre à quoi pourrait ressembler un mois chez vous. Demandez un devis et le prix s'affiche aussitôt."
+    },
+    "controls": {
+      "title": "Vos choix",
+      "industry": "Secteur",
+      "phoneMinutes": "Appels entrants par mois",
+      "widgetMinutes": "Widget sur le site par mois",
+      "widgetEstimated": "Notre estimation d'après vos appels et vos choix",
+      "widgetCustom": "Votre propre chiffre",
+      "widgetReset": "Utiliser notre estimation",
+      "capabilities": "L'IA doit gérer"
+    },
+    "summary": {
+      "title": "Votre estimation",
+      "calls": "Appels entrants",
+      "callsValue": "environ {{count}} appels",
+      "widget": "Widget sur le site",
+      "widgetValue": "environ {{count}} conversations",
+      "hours": "Temps gagné",
+      "hoursValue": "{{hours}} heures/mois",
+      "hoursText": "Le temps que l'IA passe au téléphone et sur votre site à votre place.",
+      "package": "Solution recommandée",
+      "packageVoice": "{{plan}} pour le téléphone",
+      "packageWidget": "{{packs}} × pack widget",
+      "packageNone": "Choisissez des minutes pour voir une recommandation",
+      "aboveLargest": "Au-delà de 2 000 minutes, nous construisons une offre adaptée à votre volume."
+    },
+    "dashboard": {
+      "title": "À quoi pourrait ressembler votre tableau de bord",
+      "subtitle": "Un exemple de votre vue d'ensemble avec les chiffres de votre estimation. Les noms et les conversations sont fictifs."
+    },
+    "form": {
+      "title": "Demander un devis",
+      "subtitle": "Indiquez le nom de votre entreprise, votre e-mail et votre téléphone. Nous affichons votre prix tout de suite et vous envoyons un devis.",
+      "company": "Nom de l'entreprise",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "trial": "Oui, nous souhaitons l'essayer gratuitement pendant 7 jours",
+      "setupHelp": "Oui, aidez-nous gratuitement à la mise en place pendant ces 7 jours",
+      "submit": "Demander un devis",
+      "sending": "Envoi…",
+      "error": "L'envoi a échoué. Réessayez ou écrivez à mail@aibooking.dk.",
+      "privacy": "Nous utilisons vos coordonnées uniquement pour votre devis. Sans engagement."
+    },
+    "result": {
+      "title": "Merci, {{company}} ! Voici votre prix",
+      "subtitle": "Nous avons bien reçu votre demande et vous enverrons un devis à {{email}}.",
+      "monthly": "Par mois",
+      "voiceLine": "{{plan}}, {{minutes}} min de téléphone",
+      "widgetLine": "Widget, {{minutes}} min ({{packs}} × pack)",
+      "setup": "Mise en place et accompagnement en option : {{price}} € en une fois",
+      "setupFree": "Vous avez demandé une aide gratuite à la mise en place pendant l'essai.",
+      "trial": "Vous souhaitez essayer gratuitement pendant 7 jours. Nous vous contactons pour démarrer.",
+      "note": "Le prix est indicatif et sans engagement. Vous pouvez changer d'offre à tout moment.",
+      "trialCta": "Démarrer l'essai gratuit"
+    },
+    "explain": {
+      "title": "Comment nous calculons votre estimation",
+      "paragraphs": [
+        "Le prix dépend du nombre de minutes que l'IA utilise pour vous. Le téléphone et le widget du site sont comptés séparément, car ils ne s'utilisent pas de la même façon : un appel dure en général deux à trois minutes, alors qu'une conversation dans le widget est souvent plus courte.",
+        "Vous choisissez vous-même les minutes de téléphone. Nous estimons le widget à partir de vos appels : une partie des personnes qui vous appellent aujourd'hui poseront leur question sur votre site. Si l'IA doit aussi gérer votre boutique en ligne ou la livraison de repas, nous ajoutons des conversations, car les clients demandent des informations sur les produits, le stock, les commandes et la livraison. Si vous connaissez votre propre chiffre, il suffit de le modifier.",
+        "À partir de ces minutes, nous retenons la plus petite offre qui couvre vos besoins. La mise en place et l'accompagnement sont proposés en option, en un seul paiement, et si vous choisissez l'essai gratuit de 7 jours, nous vous aidons gratuitement à tout configurer pendant l'essai.",
+        "L'estimation est un point de départ. Votre tableau de bord affiche toujours votre consommation réelle par canal, et vous pouvez changer d'offre si vous utilisez plus ou moins que prévu."
+      ]
+    }
+  }
+}

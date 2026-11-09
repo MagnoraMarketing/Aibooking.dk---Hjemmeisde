@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Shopify AI: chatbot, voice og AI-telefon | Aibooking.dk",
-    "description": "AI til Shopify: chatbot, voice-widget og AI-telefon, der slår produkter, størrelser, lager, fragt, retur og ordrestatus op live i din butik. Prøv gratis.",
+    "title": "Shopify AI: chat- og voice-widget og AI-telefon | Aibooking.dk",
+    "description": "AI til Shopify: chat- og voice-widget og AI-telefon, der slår produkter, størrelser, lager, fragt, retur og ordrestatus op live i din butik. Prøv gratis.",
     "keywords": "Shopify AI, Shopify chatbot, AI kundeservice Shopify, Shopify AI-assistent, AI voice Shopify, AI-telefon webshop, Shopify ordrestatus AI, chatbot til Shopify dansk, AI produktsøgning Shopify"
   },
   "breadcrumb": {
@@ -42,7 +42,7 @@
       }
     ],
     "linkIntro": "Læs mere om de to kanaler:",
-    "widgetLink": "AI-widget og chatbot",
+    "widgetLink": "Chat- og voice-widget",
     "phoneLink": "AI-telefonpasning"
   },
   "capabilities": {

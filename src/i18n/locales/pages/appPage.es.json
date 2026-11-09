@@ -33,7 +33,7 @@
   },
   "benefits": {
     "title": "Deja de perder clientes y recupera tu tiempo",
-    "subtitle": "La recepcionista con IA atiende el teléfono y el chat. La app se asegura de que siempre sepas qué ha pasado, para que nada se quede por el camino.",
+    "subtitle": "La recepcionista con IA atiende el teléfono y el widget de chat y voz. La app se asegura de que siempre sepas qué ha pasado, para que nada se quede por el camino.",
     "items": [
       {
         "title": "Ningún cliente perdido por una llamada sin contestar",
@@ -116,9 +116,9 @@
   },
   "related": {
     "title": "La app viene incluida con tu recepcionista con IA",
-    "text": "La app está incluida en todos los planes y en la prueba gratuita. Muestra la actividad tanto del asistente telefónico con IA como del chatbot de tu web.",
+    "text": "La app está incluida en todos los planes y en la prueba gratuita. Muestra la actividad tanto del asistente telefónico con IA como del widget de chat y voz de tu web y tienda online.",
     "link_phone": "Más sobre el asistente telefónico con IA",
-    "link_widget": "Más sobre el chatbot con IA",
+    "link_widget": "Más sobre el widget de chat y voz",
     "link_trial": "Ver la prueba gratuita"
   },
   "finalCta": {

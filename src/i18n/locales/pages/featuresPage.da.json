@@ -1,13 +1,13 @@
 {
   "seo": {
-    "title": "Funktioner: AI-receptionist, chatbot & booking | Aibooking.dk",
-    "description": "Alle funktioner: AI-telefonpasning, AI-chatbot og voice-widget til hjemmesiden, automatisk booking i din kalender, optagelser, resuméer og dashboard.",
+    "title": "Funktioner: AI-receptionist, chat- og voice-widget | Aibooking.dk",
+    "description": "Alle funktioner: AI-telefonpasning, chat- og voice-widget til hjemmeside og webshop, automatisk booking i din kalender, optagelser, resuméer og dashboard.",
     "keywords": "AI-telefonpasning, dansk AI-receptionist, widget til webshop, AI widget til Shopify, AI funktioner, AI reception, AI widget, AI medarbejder, AI kundeservice, AI indgående opkald, udgående opkald, AI dashboard, automatisk booking, AI til hjemmeside, dansk AI"
   },
   "breadcrumb": { "home": "Hjem", "features": "Funktioner" },
   "hero": {
     "badge": "Alle Funktioner",
-    "title_line1": "AI-receptionist, chatbot og booking",
+    "title_line1": "AI-receptionist, chat, voice og webshop",
     "title_line2": "i én platform",
     "subtitle": "Fra intelligent opkaldstyring og udgående AI-voice opkald til et komplet dashboard og en AI-widget til din hjemmeside — alt i én platform. Spar tid, øg konverteringer og giv dine kunder en professionel oplevelse 24/7."
   },
@@ -15,7 +15,7 @@
     { "title": "Spar 85% af din telefontid", "description": "Frigør værdifuld tid til kerneopgaver" },
     { "title": "ROI på 320%", "description": "Dokumenteret værdi fra dag ét" },
     { "title": "98% kundetilfredshed", "description": "Professionel service døgnet rundt" },
-    { "title": "+45% flere konverteringer", "description": "Gå aldrig glip af en mulighed igen" }
+    { "title": "Flere henvendelser fanget", "description": "Gå aldrig glip af en mulighed igen" }
   ],
   "dashboard": {
     "badge": "Dit Kontrolcenter",
@@ -90,10 +90,10 @@
     "button": "Book gratis demonstration"
   },
   "widgetSection": {
-    "badge": "AI Chat Widget — Nyhed",
+    "badge": "AI chat- og voice-widget — Nyhed",
     "title_line1": "AI-Widget til din hjemmeside —",
     "title_line2": "konverter besøgende til kunder",
-    "subtitle": "Tilføj en intelligent AI-chatassistent til din hjemmeside med én linje kode. Widgetten besvarer spørgsmål, håndterer bookinger og guider dine besøgende — automatisk, på dansk, døgnet rundt."
+    "subtitle": "Tilføj en AI-assistent med chat og voice til din hjemmeside eller webshop med én linje kode. Widgetten besvarer spørgsmål, håndterer bookinger, slår produkter og ordrestatus op og guider dine besøgende — automatisk, på dansk, døgnet rundt."
   },
   "widgetIntro": {
     "badge_plug_play": "Plug & Play",
@@ -103,11 +103,11 @@
   },
   "widgetBenefits": [
     { "title": "Virker på alle hjemmesider", "desc": "WordPress, Shopify, Webflow, custom — én linje kode" },
-    { "title": "AI-drevet live chat", "desc": "Besvarer spørgsmål, booker aftaler og konverterer besøgende" },
+    { "title": "Chat og voice i én widget", "desc": "Besøgende skriver eller taler – AI'en svarer, booker og konverterer" },
     { "title": "Dansk naturlig sprogforståelse", "desc": "Forstår kontekst og nuancer i kundens spørgsmål" },
     { "title": "Aktiv på under 5 minutter", "desc": "Intet teknisk kendskab kræves — plug and play" },
-    { "title": "Direkte booking i chatten", "desc": "Kunden kan booke tid uden at forlade siden" },
-    { "title": "+45% konverteringsstigning", "desc": "Dokumenteret effekt på salg og leads" }
+    { "title": "Direkte booking i widgetten", "desc": "Kunden kan booke tid uden at forlade siden" },
+    { "title": "Håndterer webshoppen", "desc": "Produkter, lager, fragt, retur og ordrestatus direkte fra Shopify" }
   ],
   "widgetButtons": {
     "see_plans": "Se AI-Widget planer",

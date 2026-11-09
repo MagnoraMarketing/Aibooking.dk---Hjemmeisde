@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "Funktionen – KI-Rezeption, KI-Widget & KI-Mitarbeiter | Aibooking.dk",
+    "title": "Funktionen: KI-Rezeption, Chat- & Voice-Widget | Aibooking.dk",
     "description": "Alle Funktionen von Aibooking.dk: KI-Widget für Ihre Website, KI für ein- und ausgehende Anrufe, automatische Terminbuchung, Dashboard und KI-Kundenservice.",
     "keywords": "KI-Funktionen, KI-Rezeption, KI-Widget, KI-Mitarbeiter, KI-Kundenservice, KI eingehende Anrufe, ausgehende Anrufe, KI-Dashboard, automatische Terminbuchung, KI-Telefonservice, KI-Telefonassistent"
   },
@@ -15,7 +15,7 @@
     { "title": "85 % weniger Telefonzeit", "description": "Gewinnen Sie wertvolle Zeit für Ihr Kerngeschäft" },
     { "title": "320 % ROI", "description": "Nachweisbarer Nutzen ab dem ersten Tag" },
     { "title": "98 % Kundenzufriedenheit", "description": "Professioneller Service rund um die Uhr" },
-    { "title": "+45 % mehr Conversions", "description": "Verpassen Sie keine Chance mehr" }
+    { "title": "Mehr Anfragen erfasst", "description": "Verpassen Sie keine Chance mehr" }
   ],
   "dashboard": {
     "badge": "Ihre Steuerzentrale",
@@ -90,10 +90,10 @@
     "button": "Kostenlose Vorführung buchen"
   },
   "widgetSection": {
-    "badge": "KI-Chat-Widget – neu",
+    "badge": "KI-Chat- & Voice-Widget – neu",
     "title_line1": "Ein KI-Widget für Ihre Website –",
     "title_line2": "machen Sie Besucher zu Kunden",
-    "subtitle": "Fügen Sie Ihrer Website mit einer einzigen Codezeile einen intelligenten KI-Chatassistenten hinzu. Das Widget beantwortet Fragen, nimmt Buchungen entgegen und begleitet Ihre Besucher – automatisch und rund um die Uhr."
+    "subtitle": "Fügen Sie Ihrer Website oder Ihrem Onlineshop mit einer einzigen Codezeile einen KI-Assistenten mit Chat und Sprache hinzu. Das Widget beantwortet Fragen, nimmt Buchungen entgegen, sucht Produkte und den Bestellstatus heraus und begleitet Ihre Besucher – automatisch und rund um die Uhr."
   },
   "widgetIntro": {
     "badge_plug_play": "Plug & Play",
@@ -103,11 +103,11 @@
   },
   "widgetBenefits": [
     { "title": "Funktioniert auf jeder Website", "desc": "WordPress, Shopify, Webflow, Eigenentwicklung – eine Codezeile" },
-    { "title": "KI-gestützter Live-Chat", "desc": "Beantwortet Fragen, bucht Termine und konvertiert Besucher" },
+    { "title": "Chat und Sprache in einem Widget", "desc": "Besucher schreiben oder sprechen – die KI antwortet, bucht und konvertiert" },
     { "title": "Natürliches Sprachverständnis", "desc": "Versteht Kontext und Nuancen in Kundenfragen" },
     { "title": "In unter 5 Minuten aktiv", "desc": "Kein technisches Wissen nötig – Plug & Play" },
-    { "title": "Direkte Buchung im Chat", "desc": "Kunden buchen einen Termin, ohne die Seite zu verlassen" },
-    { "title": "+45 % mehr Conversion", "desc": "Nachweisbare Wirkung auf Umsatz und Leads" }
+    { "title": "Direkte Buchung im Widget", "desc": "Kunden buchen einen Termin, ohne die Seite zu verlassen" },
+    { "title": "Betreut Ihren Onlineshop", "desc": "Produkte, Lager, Versand, Retouren und Bestellstatus live aus Shopify" }
   ],
   "widgetButtons": {
     "see_plans": "KI-Widget-Pakete ansehen",

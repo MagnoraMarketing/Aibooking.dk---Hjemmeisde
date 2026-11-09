@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Shopify AI Chatbot & AI Phone Agent | Aibooking.dk",
-    "description": "AI for Shopify: a chatbot, voice widget and AI phone agent that look up products, sizes, stock, shipping, returns and order status live in your store.",
+    "title": "Shopify AI: Chat & Voice Widget and AI Phone | Aibooking.dk",
+    "description": "AI for Shopify: a chat and voice widget and AI phone agent that look up products, sizes, stock, shipping, returns and order status live in your store.",
     "keywords": "Shopify AI chatbot, AI customer service for Shopify, Shopify AI assistant, Shopify voice assistant, AI phone agent for ecommerce, Shopify order status chatbot, AI product search Shopify"
   },
   "breadcrumb": {
@@ -42,7 +42,7 @@
       }
     ],
     "linkIntro": "More about the two channels:",
-    "widgetLink": "AI widget and chatbot",
+    "widgetLink": "Chat and voice widget",
     "phoneLink": "AI answering service"
   },
   "capabilities": {

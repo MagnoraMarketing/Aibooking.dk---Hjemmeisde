@@ -33,7 +33,7 @@
   },
   "benefits": {
     "title": "Keine Kunden mehr verlieren und Zeit zurückgewinnen",
-    "subtitle": "Der KI-Rezeptionist nimmt Telefon und Chat an. Die App sorgt dafür, dass Sie immer wissen, was passiert ist, damit nichts untergeht.",
+    "subtitle": "Der KI-Rezeptionist nimmt Telefon, Chat und Sprach-Widget an. Die App sorgt dafür, dass Sie immer wissen, was passiert ist, damit nichts untergeht.",
     "items": [
       {
         "title": "Kein Kunde geht durch einen verpassten Anruf verloren",
@@ -116,9 +116,9 @@
   },
   "related": {
     "title": "Die App gehört zu Ihrem KI-Rezeptionisten",
-    "text": "Die App ist in allen Paketen und in der kostenlosen Testphase enthalten. Sie zeigt die Aktivität des KI-Telefonservice und des Chatbots auf Ihrer Website.",
+    "text": "Die App ist in allen Paketen und in der kostenlosen Testphase enthalten. Sie zeigt die Aktivität des KI-Telefonservice und des Chat- & Voice-Widgets auf Ihrer Website und im Onlineshop.",
     "link_phone": "Mehr zum KI-Telefonservice",
-    "link_widget": "Mehr zum KI-Chatbot",
+    "link_widget": "Mehr zum Chat- & Voice-Widget",
     "link_trial": "Zur kostenlosen Testphase"
   },
   "finalCta": {

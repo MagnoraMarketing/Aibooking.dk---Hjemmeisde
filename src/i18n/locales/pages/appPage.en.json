@@ -33,7 +33,7 @@
   },
   "benefits": {
     "title": "Stop losing customers and get your time back",
-    "subtitle": "The AI receptionist answers the phone and the chat. The app makes sure you always know what happened, so nothing slips through the cracks.",
+    "subtitle": "The AI receptionist answers the phone and the chat and voice widget. The app makes sure you always know what happened, so nothing slips through the cracks.",
     "items": [
       {
         "title": "No customer lost to an unanswered call",
@@ -116,9 +116,9 @@
   },
   "related": {
     "title": "The app comes with your AI receptionist",
-    "text": "The app is included in every plan and in the free trial. It shows the activity from both the AI answering service and the chatbot on your website.",
+    "text": "The app is included in every plan and in the free trial. It shows the activity from both the AI answering service and the chat and voice widget on your website and webshop.",
     "link_phone": "Read about the AI answering service",
-    "link_widget": "Read about the AI chatbot",
+    "link_widget": "Read about the chat and voice widget",
     "link_trial": "See the free trial"
   },
   "finalCta": {

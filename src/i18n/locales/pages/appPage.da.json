@@ -33,7 +33,7 @@
   },
   "benefits": {
     "title": "Mist ikke flere kunder, og få tiden tilbage",
-    "subtitle": "AI-receptionisten tager telefonen og chatten. Appen sørger for, at du altid ved, hvad der er sket, så intet falder mellem to stole.",
+    "subtitle": "AI-receptionisten tager telefonen og svarer i chat- og voice-widgetten. Appen sørger for, at du altid ved, hvad der er sket, så intet falder mellem to stole.",
     "items": [
       {
         "title": "Ingen kunder forsvinder i et ubesvaret opkald",
@@ -116,9 +116,9 @@
   },
   "related": {
     "title": "Appen følger med din AI-receptionist",
-    "text": "Appen er inkluderet i alle pakker og i den gratis prøveperiode. Den viser aktiviteten fra både AI-telefonpasningen og chatbotten på din hjemmeside.",
+    "text": "Appen er inkluderet i alle pakker og i den gratis prøveperiode. Den viser aktiviteten fra både AI-telefonpasningen og chat- og voice-widgetten på din hjemmeside og webshop.",
     "link_phone": "Læs om AI-telefonpasning",
-    "link_widget": "Læs om AI-chatbotten",
+    "link_widget": "Læs om chat- og voice-widgetten",
     "link_trial": "Se prøveperioden"
   },
   "finalCta": {

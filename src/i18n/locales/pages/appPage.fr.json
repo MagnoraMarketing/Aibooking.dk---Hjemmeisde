@@ -33,7 +33,7 @@
   },
   "benefits": {
     "title": "Ne perdez plus de clients et regagnez du temps",
-    "subtitle": "La réceptionniste IA répond au téléphone et au chat. L'appli vous permet de toujours savoir ce qui s'est passé, pour que rien ne passe entre les mailles du filet.",
+    "subtitle": "La réceptionniste IA répond au téléphone et dans le widget chat et vocal. L'appli vous permet de toujours savoir ce qui s'est passé, pour que rien ne passe entre les mailles du filet.",
     "items": [
       {
         "title": "Aucun client perdu à cause d'un appel manqué",
@@ -116,9 +116,9 @@
   },
   "related": {
     "title": "L'appli est fournie avec votre réceptionniste IA",
-    "text": "L'appli est incluse dans tous les forfaits et dans l'essai gratuit. Elle affiche l'activité du standard téléphonique IA comme celle du chatbot de votre site.",
+    "text": "L'appli est incluse dans tous les forfaits et dans l'essai gratuit. Elle affiche l'activité du standard téléphonique IA comme celle du widget chat et vocal de votre site et boutique.",
     "link_phone": "En savoir plus sur le standard téléphonique IA",
-    "link_widget": "En savoir plus sur le chatbot IA",
+    "link_widget": "En savoir plus sur le widget chat et vocal",
     "link_trial": "Voir l'essai gratuit"
   },
   "finalCta": {

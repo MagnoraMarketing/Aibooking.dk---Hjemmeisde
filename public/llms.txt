@@ -24,7 +24,7 @@ The whole site, including every blog article, exists in five languages, each wri
 
 - [Home](https://www.aibooking.dk/): Overview of the AI receptionist product, pricing and core value proposition.
 - [Features](https://www.aibooking.dk/funktioner): Full feature list — call handling, calendar integration, reminders, dashboard.
-- [AI Widget](https://www.aibooking.dk/widget): The website chat/voice widget product page, including pricing.
+- [Chat & voice widget](https://www.aibooking.dk/widget): The AI chat and voice widget for websites and webshops (text chat, dictation and real-time voice; bookings; product, stock, shipping, returns and order-status answers on Shopify), including pricing.
 - [AI-receptionist](https://www.aibooking.dk/ai-receptionist): The AI receptionist product page — AI voice widget on the website, AI phone answering for inbound calls and outbound calls (add-on), combined in one solution with one dashboard.
 - [The app](https://www.aibooking.dk/app): The customer app for phone and computer — calls, bookings, recordings, transcripts and usage in one place, with real screenshots and how to add it to the home screen.
 - [Free Trial](https://www.aibooking.dk/proeveperiode): Details of the 7-day free trial, started by creating a free account — no credit card required.

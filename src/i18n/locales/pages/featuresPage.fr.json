@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Réceptionniste IA, Chatbot & Prise de RDV | Aibooking.dk",
-    "description": "Standard téléphonique IA, chatbot IA pour site web, prise de rendez-vous automatique dans votre agenda, enregistrements, résumés et tableau de bord.",
+    "title": "Réceptionniste IA, widget chat et vocal | Aibooking.dk",
+    "description": "Standard téléphonique IA, widget chat et vocal pour site web, prise de rendez-vous automatique dans l'agenda, enregistrements, résumés et tableau de bord.",
     "keywords": "permanence téléphonique IA, réceptionniste virtuel IA, widget pour boutique en ligne, widget IA pour Shopify, fonctionnalités IA, réceptionniste IA, dashboard IA, appels entrants, appels sortants, widget IA, réservation automatique, chat IA, IA en français"
   },
   "breadcrumb": {
@@ -10,7 +10,7 @@
   },
   "hero": {
     "badge": "Toutes les Fonctionnalités",
-    "title_line1": "Réceptionniste IA, chatbot et réservation",
+    "title_line1": "Réceptionniste IA, chat, voix et e-commerce",
     "title_line2": "sur une seule plateforme",
     "subtitle": "De la gestion intelligente des appels et des appels vocaux IA sortants à un dashboard complet et un widget IA pour votre site web — le tout sur une seule plateforme. Gagnez du temps, augmentez vos conversions et offrez à vos clients une expérience professionnelle 24h/24."
   },
@@ -28,7 +28,7 @@
       "description": "Service professionnel 24h/24 et 7j/7"
     },
     {
-      "title": "+45% de conversions en plus",
+      "title": "Plus de demandes captées",
       "description": "Ne manquez plus jamais une opportunité"
     }
   ],
@@ -131,10 +131,10 @@
     "button": "Réserver une démonstration gratuite"
   },
   "widgetSection": {
-    "badge": "Widget de Chat IA — Nouveau",
+    "badge": "Widget chat et vocal IA — Nouveau",
     "title_line1": "Un widget IA pour votre site web —",
     "title_line2": "convertissez vos visiteurs en clients",
-    "subtitle": "Ajoutez un assistant de chat IA intelligent à votre site web en une seule ligne de code. Le widget répond aux questions, gère les réservations et guide vos visiteurs — automatiquement, dans leur langue, 24h/24."
+    "subtitle": "Ajoutez à votre site ou boutique en ligne un assistant IA avec chat et voix en une seule ligne de code. Le widget répond aux questions, gère les réservations, consulte les produits et le statut des commandes et guide vos visiteurs — automatiquement, dans leur langue, 24h/24."
   },
   "widgetIntro": {
     "badge_plug_play": "Plug & Play",
@@ -148,8 +148,8 @@
       "desc": "WordPress, Shopify, Webflow, sur mesure — une seule ligne de code"
     },
     {
-      "title": "Chat en direct propulsé par IA",
-      "desc": "Répond aux questions, réserve des rendez-vous et convertit les visiteurs"
+      "title": "Chat et voix dans un seul widget",
+      "desc": "Les visiteurs écrivent ou parlent : l'IA répond, réserve et convertit"
     },
     {
       "title": "Compréhension naturelle de la langue",
@@ -160,12 +160,12 @@
       "desc": "Aucune connaissance technique requise — plug and play"
     },
     {
-      "title": "Réservation directe dans le chat",
+      "title": "Réservation directe dans le widget",
       "desc": "Le client peut réserver un créneau sans quitter la page"
     },
     {
-      "title": "+45% d'augmentation des conversions",
-      "desc": "Effet prouvé sur les ventes et les leads"
+      "title": "Gère votre boutique en ligne",
+      "desc": "Produits, stock, livraison, retours et statut de commande depuis Shopify"
     }
   ],
   "widgetButtons": {

@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Features: AI Receptionist, Chatbot & Booking | Aibooking.dk",
-    "description": "All features: AI phone answering, an AI chatbot and voice widget for your site, automatic booking in your calendar, recordings, summaries and a dashboard.",
+    "title": "Features: AI Receptionist, Chat & Voice Widget | Aibooking.dk",
+    "description": "All features: AI phone answering, a chat and voice widget for website and webshop, automatic calendar booking, recordings, summaries and a dashboard.",
     "keywords": "AI phone answering, AI receptionist, webshop widget, AI widget for Shopify, AI features, AI reception, AI widget, AI employee, AI customer service, AI inbound calls, outbound calls, AI dashboard, automatic booking"
   },
   "breadcrumb": {
@@ -10,7 +10,7 @@
   },
   "hero": {
     "badge": "All Features",
-    "title_line1": "AI receptionist, chatbot and booking",
+    "title_line1": "AI receptionist, chat, voice and webshop",
     "title_line2": "in one platform",
     "subtitle": "From intelligent call handling and outbound AI voice calls to a complete dashboard and an AI widget for your website — all in one platform. Save time, increase conversions, and give your customers a professional experience 24/7."
   },
@@ -28,7 +28,7 @@
       "description": "Professional service around the clock"
     },
     {
-      "title": "+45% more conversions",
+      "title": "More enquiries captured",
       "description": "Never miss an opportunity again"
     }
   ],
@@ -131,10 +131,10 @@
     "button": "Book a free demonstration"
   },
   "widgetSection": {
-    "badge": "AI Chat Widget — New",
+    "badge": "AI Chat & Voice Widget — New",
     "title_line1": "An AI widget for your website —",
     "title_line2": "convert visitors into customers",
-    "subtitle": "Add an intelligent AI chat assistant to your website with a single line of code. The widget answers questions, handles bookings, and guides your visitors — automatically, in their language, around the clock."
+    "subtitle": "Add an AI assistant with chat and voice to your website or webshop with a single line of code. The widget answers questions, handles bookings, looks up products and order status, and guides your visitors — automatically, in their language, around the clock."
   },
   "widgetIntro": {
     "badge_plug_play": "Plug & Play",
@@ -148,8 +148,8 @@
       "desc": "WordPress, Shopify, Webflow, custom — one line of code"
     },
     {
-      "title": "AI-powered live chat",
-      "desc": "Answers questions, books appointments and converts visitors"
+      "title": "Chat and voice in one widget",
+      "desc": "Visitors type or talk – the AI answers, books and converts"
     },
     {
       "title": "Natural language understanding",
@@ -160,12 +160,12 @@
       "desc": "No technical knowledge required — plug and play"
     },
     {
-      "title": "Direct booking in the chat",
+      "title": "Direct booking in the widget",
       "desc": "Customers can book a time without leaving the page"
     },
     {
-      "title": "+45% conversion increase",
-      "desc": "Proven effect on sales and leads"
+      "title": "Handles your webshop",
+      "desc": "Products, stock, shipping, returns and order status live from Shopify"
     }
   ],
   "widgetButtons": {

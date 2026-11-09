@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "IA pour Shopify : chatbot et agent vocal | Aibooking.dk",
-    "description": "IA pour Shopify : chatbot, widget vocal et agent téléphonique qui consultent produits, tailles, stock, livraison, retours et suivi de commande en direct.",
+    "title": "IA pour Shopify : widget chat et vocal et téléphone | Aibooking.dk",
+    "description": "IA pour Shopify : widget chat et vocal et agent téléphonique qui consultent produits, tailles, stock, livraison, retours et suivi de commande en direct.",
     "keywords": "IA pour Shopify, chatbot Shopify, service client IA Shopify, assistant virtuel e-commerce, agent vocal IA boutique en ligne, suivi de commande chatbot, chatbot Shopify en français"
   },
   "breadcrumb": {
@@ -42,7 +42,7 @@
       }
     ],
     "linkIntro": "En savoir plus sur les deux canaux :",
-    "widgetLink": "Widget et chatbot IA",
+    "widgetLink": "Widget chat et vocal",
     "phoneLink": "Standard téléphonique IA"
   },
   "capabilities": {

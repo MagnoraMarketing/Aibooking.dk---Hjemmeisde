@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { SUPPORTED_LANGUAGES, SupportedLanguage } from '../i18n/config';
 import { localizedUrl } from '../utils/localePaths';
 import { collectSeo } from '../utils/seoCollector';
+import { formatSeoTitle } from '../utils/seoTitle';
 
 const OG_LOCALES: Record<string, string> = {
   da: 'da_DK', en: 'en_US', es: 'es_ES', de: 'de_DE', fr: 'fr_FR',
@@ -26,7 +27,7 @@ interface SEOProps {
 }
 
 export default function SEO({
-  title,
+  title: rawTitle,
   description,
   keywords,
   ogImage = 'https://www.aibooking.dk/aibooking_logo.jpg',
@@ -37,6 +38,7 @@ export default function SEO({
   languages = SUPPORTED_LANGUAGES,
 }: SEOProps) {
   const { i18n } = useTranslation();
+  const title = formatSeoTitle(rawTitle);
   const uiLang = (i18n.resolvedLanguage || i18n.language || 'da') as SupportedLanguage;
   // Content not available in the UI language is served in English.
   const lang: SupportedLanguage = languages.includes(uiLang) ? uiLang : 'en';

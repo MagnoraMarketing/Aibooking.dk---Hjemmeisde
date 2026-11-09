@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "{{category}} - Blog AI Booking | AIBooking.dk",
+    "title": "{{category}} : guides et articles | Aibooking.dk",
     "keywords": "{{slug}}, automatisation IA, réservations, {{category}}"
   },
   "notFound": {
